@@ -1,0 +1,11 @@
+{
+  "name": "bryan-rss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "osmosfeed"
+  },
+  "dependencies": {
+    "@osmoscraft/osmosfeed": "^1.15.1"
+  }
+}

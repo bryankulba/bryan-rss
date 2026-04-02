@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{siteTitle}}</title>
+  <link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{feedHref}}" />
+  <link href="reader.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <h1 class="site-title">{{siteTitle}}</h1>
+      <div class="toolbar">
+        <span id="js-unread-count" class="unread-count"></span>
+        <button id="js-toggle-hide-read" class="btn btn--ghost">Hide read</button>
+        <button id="js-mark-all-read" class="btn btn--ghost">Mark all read</button>
+        <button id="js-setup-sync" class="btn btn--ghost">Setup sync</button>
+        <span id="js-sync-status" class="sync-status"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="feed">
+    {{#each articles}}
+    <article class="feed-item" data-article-id="{{id}}">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="{{isoUtcPublishTime}}">{{isoOffsetPublishDate}}</time>
+        <span class="feed-item__source">{{source.title}}</span>
+      </div>
+      <h2 class="feed-item__title">
+        <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{title}}</a>
+      </h2>
+      {{#if description}}
+      <p class="feed-item__desc">{{{description}}}</p>
+      {{/if}}
+      <div class="feed-item__actions">
+        <button class="js-mark-read btn btn--mark-read" data-id="{{id}}">Mark read</button>
+        {{#if readingTimeInMin}}
+        <span class="feed-item__reading-time">{{readingTimeInMin}} min read</span>
+        {{/if}}
+      </div>
+    </article>
+    {{/each}}
+  </main>
+
+  <footer class="site-footer">
+    <p>Updated: {{updated}} &middot; <a href="{{feedHref}}">RSS feed</a></p>
+  </footer>
+
+  <script src="reader.js" type="module"></script>
+</body>
+</html>
