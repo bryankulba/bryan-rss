@@ -1,0 +1,715 @@
+{
+  "sources": [
+    {
+      "title": "Sentiers",
+      "feedUrl": "https://sentiers.media/rss/",
+      "siteUrl": "https://sentiers.media/",
+      "articles": [
+        {
+          "id": "69c84403156686000101351c",
+          "author": "Patrick Tanguay",
+          "description": "No.396 — Tough week for Zuck ⊗ Learning in Motion ⊗ The people pushing back on AI ⊗ A wind-powered tumbleweed ⊗ Books, plants and playgrounds",
+          "link": "https://sentiers.media/were-all-living-in-the-mirror-world-now-the-ai-boom-is-a-polycrisis-no-396/",
+          "publishedOn": "2026-03-29T10:00:02.000Z",
+          "wordCount": 2676,
+          "title": "We’re all living in the “Mirror World” now ⊗ The AI boom is a polycrisis",
+          "imageUrl": "https://sentiers.media/content/images/2026/03/Were_all_living_in_the_Mirror_World_now-w.jpg"
+        },
+        {
+          "id": "69bee19421d6c30001ae8ab4",
+          "author": "Patrick Tanguay",
+          "description": "No.395 — Possibilities literacy ⊗ Proof ⊗ Energy falling below $100 ⊗ Roots and the meaning of life",
+          "link": "https://sentiers.media/habermas-and-his-coffeehouses-the-case-for-radical-solar-optimism-no-395/",
+          "publishedOn": "2026-03-22T10:00:21.000Z",
+          "wordCount": 2817,
+          "title": "Habermas and his coffeehouses ⊗ The case for radical solar optimism",
+          "imageUrl": "https://sentiers.media/content/images/2026/03/Coffeehouse-w.jpg"
+        },
+        {
+          "id": "69b5cccf3cc30b00015387f1",
+          "author": "Patrick Tanguay",
+          "description": "No.394 — Jobs below the AI ⊗ Seneca Falls Convention · 2048 ⊗ Manufacturing + AI ⊗ The psychological distance to climate disaster ⊗ GPS jamming",
+          "link": "https://sentiers.media/syndicates-of-capital-three-modes-of-cognition-no-394/",
+          "publishedOn": "2026-03-15T10:00:15.000Z",
+          "wordCount": 2598,
+          "title": "Syndicates of capital ⊗ Three modes of cognition",
+          "imageUrl": "https://sentiers.media/content/images/2026/03/Syndicates_of_capital._--ar_11_--sref_500490291_--pr_a21dd79d-ed97-42b0-8230-f590b18a4466_2-w.jpg"
+        },
+        {
+          "id": "69acf5f7e71b0e00011aefa6",
+          "author": "Patrick Tanguay",
+          "description": "No.393 — The future belongs to the creative generalists ⊗ Media’s bad idea with Kalshi ⊗ Reimagining realism ⊗ Labor market impacts of AI ⊗ World record for fusion plasma ⊗ Apocalypse no",
+          "link": "https://sentiers.media/an-obscure-media-theory-world-literacy-no-393/",
+          "publishedOn": "2026-03-08T10:00:25.000Z",
+          "wordCount": 2700,
+          "title": "An obscure media theory ⊗ World literacy",
+          "imageUrl": "https://sentiers.media/content/images/2026/03/Severance_but_solarpunk-w.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Interconnected",
+      "feedUrl": "https://interconnected.org/home/feed",
+      "siteUrl": "https://interconnected.org/home",
+      "articles": [
+        {
+          "id": "https://interconnected.org/home/2026/03/28/architecture",
+          "author": null,
+          "description": "Once upon a time I kept on meeting architects who had ended up working with the web.\nI asked why. Some good answers:\nArchitects think about how people move between spaces (pages) and what that means for user experience - this was at a time when web designers often came from graphic design and drew more on single page layout\nArchitects think about negative space, and how what you put in a space shapes social behaviour – this was at a time when web before the social web\nArchitects have to work with a lot of different disciplines to make something, and all of those people believe they’re the most important person in the room, and that’s what product teams are like too - lol\nI’m not an architect but some of my favourite books are about architecture.\nHere are three:\nHow Buildings Learn: What Ha…",
+          "link": "https://interconnected.org/home/2026/03/28/architecture",
+          "publishedOn": "2026-03-28T10:20:00.000Z",
+          "wordCount": 1341,
+          "title": "An appreciation for (technical) architecture",
+          "imageUrl": "https://interconnected.org/home/2026/03/28/architecture.png?v=1"
+        },
+        {
+          "id": "https://interconnected.org/home/2026/03/20/filtered",
+          "author": null,
+          "description": "1.\nThe Amazon Ring Always Home Cam is an indoor security drone for your home.\nIntroduced with this video in 2020: \"Yeah, it’s a camera that flies.\"\nSadly not yet on the market.\nOk Judge Dredd had Spy-in-the-Sky drone surveillance cameras in 1978 and Mega-City One is not an aspirational template for domestic life but hear me out:\nBecause I would love to be able to text my house “oh did I leave the stove on?” from the bus. And “darn can you find my keys?” in the morning. And “uh there’s that book about 1970s social computing somewhere it has an orange spine I can’t remember exactly” at literally anytime.\nAnd do that without having to blanket my home in cameras. A drone seems like a good solution?\n2.\nSurveillance: systematic observation. Often institutional. From “above.”\nSousveillance, coine…",
+          "link": "https://interconnected.org/home/2026/03/20/filtered",
+          "publishedOn": "2026-03-20T09:54:00.000Z",
+          "wordCount": 1198,
+          "title": "Filtered for home security",
+          "imageUrl": "https://interconnected.org/home/2026/03/20/filtered.png?v=1"
+        },
+        {
+          "id": "https://interconnected.org/home/2026/03/12/nwh",
+          "author": null,
+          "description": "We briefly mentioned New Wave Hardware in last week’s Inanimate Lab Notes so this is me doing some unpacking. While you’re there, join 300+ other subscribers and sign up for our newsletter. You’ll get weekly links and updates on what we’re working on.\nThere are a bunch of things changing with new hardware products, design and technology.\nLet’s say: the intersection of hardware and AI. But our hunch is that it’s broader than that.\nThere are new ways to get hardware into the hands of consumers, and new AI interactions that are now possible, and more, and these changes are happening independently but simultaneously. We’re tracking this as what we’re calling New Wave Hardware.\nSo we got a few founders together at Betaworks in NYC earlier this week for a roundtable to compare notes (thank you B…",
+          "link": "https://interconnected.org/home/2026/03/12/nwh",
+          "publishedOn": "2026-03-12T19:58:00.000Z",
+          "wordCount": 1731,
+          "title": "New Wave Hardware",
+          "imageUrl": "https://interconnected.org/home/2026/03/12/nwh.png?v=1"
+        },
+        {
+          "id": "https://interconnected.org/home/2026/03/07/vinge",
+          "author": null,
+          "description": "Vernor Vinge’s sci-fi novel Rainbows End (2006) is so prescient about AI training data.\nHis short Fast Times at Fairmont High (2002) is set in the same universe, and was written in that era where we felt like we had line of sight to pervasive augmented reality and also 3D printers. I read it at the time and it’s a low-stakes high school drama (about augmented reality and 3D printers), but from today’s perspective it is more like a utopia (of a certain kind) – democratised tools of production, reality as consensus hallucinations, super empowered kids.\nThe spine of Rainbows End is something called the “Librareome Project.”\nOk SPOILERS – right? So stop here if you’re planning to read the book (which would you).\nThe Librareome Project, you find out about a third of the way through, is a giant …",
+          "link": "https://interconnected.org/home/2026/03/07/vinge",
+          "publishedOn": "2026-03-07T04:30:00.000Z",
+          "wordCount": 959,
+          "title": "The violence of the Librareome Project",
+          "imageUrl": "https://interconnected.org/home/2026/03/07/vinge.png?v=1"
+        }
+      ]
+    },
+    {
+      "title": "Robin Sloan",
+      "feedUrl": "https://www.robinsloan.com/feed.xml",
+      "siteUrl": "https://www.robinsloan.com/",
+      "articles": [
+        {
+          "id": "https://www.robinsloan.com/lab/vector-voxels/",
+          "author": null,
+          "description": "<p>Crispy! <a href=\"https://www.robinsloan.com/lab/vector-voxels/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/vector-voxels/",
+          "publishedOn": "2026-03-30T09:00:00.000Z",
+          "wordCount": 5232,
+          "title": "Dragoncatcher: Vector voxels",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
+          "id": "https://www.robinsloan.com/lab/claude-cosleuth/",
+          "author": null,
+          "description": "<p>A healthy dynamic. <a href=\"https://www.robinsloan.com/lab/claude-cosleuth/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/claude-cosleuth/",
+          "publishedOn": "2026-03-26T12:00:00.000Z",
+          "wordCount": 5359,
+          "title": "Dragoncatcher: Cosleuth",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
+          "id": "https://www.robinsloan.com/lab/aluminium/",
+          "author": null,
+          "description": "<p>Weird concept done well. <a href=\"https://www.robinsloan.com/lab/aluminium/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/aluminium/",
+          "publishedOn": "2026-03-25T09:00:00.000Z",
+          "wordCount": 5239,
+          "title": "Dragoncatcher: Elemental content",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
+          "id": "https://www.robinsloan.com/newsletters/good-trains/",
+          "author": null,
+          "description": "<p>Japan reflections and book recs. <a href=\"https://www.robinsloan.com/newsletters/good-trains/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/newsletters/good-trains/",
+          "publishedOn": "2026-03-24T00:00:00.000Z",
+          "wordCount": 7102,
+          "title": "Good trains",
+          "imageUrl": "https://www.robinsloan.com/img/train-strawberry.jpg"
+        },
+        {
+          "id": "https://www.robinsloan.com/lab/wrangler-init/",
+          "author": null,
+          "description": "<p>TIL. <a href=\"https://www.robinsloan.com/lab/wrangler-init/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/wrangler-init/",
+          "publishedOn": "2026-03-15T10:00:00.000Z",
+          "wordCount": 5356,
+          "title": "Dragoncatcher: Wrangler init woes",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Stories by Dan Hill on Medium",
+      "feedUrl": "https://medium.com/feed/@danhill",
+      "siteUrl": "https://medium.com/@danhill?source=rss-c3ebf911cef1------2",
+      "articles": []
+    },
+    {
+      "title": "ribbonfarm",
+      "feedUrl": "https://www.ribbonfarm.com/feed/",
+      "siteUrl": "https://www.ribbonfarm.com",
+      "articles": []
+    },
+    {
+      "title": "Real Life",
+      "feedUrl": "https://reallifemag.com/feed/",
+      "siteUrl": "https://reallifemag.com",
+      "articles": []
+    },
+    {
+      "title": "The Wire: Home",
+      "feedUrl": "https://www.thewire.co.uk/rss",
+      "siteUrl": "https://www.thewire.co.uk/home/",
+      "articles": [
+        {
+          "id": "https://www.thewire.co.uk/audio/tracks/office-ambience-507",
+          "author": null,
+          "description": "The full chart:\n\nAmerican Sharks\n    \nNot Dead Yet\n    \nPermanent Teeth)\n\nMarisa Anderson\n    \nThe Anthology Of UnAmerican Folk Music\n    \nThrill Jockey)\n\nANSIEDAD1000\n    \nAbizzmo\n    \nHakuna Kulala)\n\nArt Ensemble Of Chicago\n    \nPeople In Sorrow\n    \nPlay Loud!)\n\nSteve Austin\n    \nMarked Cards & Loaded Dice\n    \nSuperNova)\n\nBetamax vs Sylvia Hallett\n    \nBetamax vs Sylvia Hallett\n    \nPicot)\n\nXu Cheng\n    \nPoems Without Words\n    \nDusty Ballz)\n\nEgg Meat\n    \nThe Most Pathetic Poem Is Small People On Fire\n    \nMutualism)\n\notay:onii\n    \nLove Is In The Shit\n    \nPelagic)\n\nMaster’s Ashes\n    \nHow The Mighty Have Fallen\n    \nTime To Kill)\n\nMy Cat Is An Alien\n    \nIN∞FI∞NI∞TO\n    \nOpax Private Press/Elliptical Noise)\n\nupsammy & Valentina Magaletti\n    \nSeismo\n    \nPan)\n\nWaltz Time\n    \nHappy Hometown 2026.02.09 @ Guangzhou Wuting\n    \nFriends Music/YouTube)\n\nDagmar Zuniga\n    \nin filth your mystery is kingdom/far smile peasant in yellow music\n    \nAD 93)\n\nJ Zunz\n    \nObsidiana\n    \nRocket)",
+          "link": "https://www.thewire.co.uk/audio/tracks/office-ambience-507",
+          "publishedOn": "2026-04-01T00:00:00.000Z",
+          "wordCount": 603,
+          "title": "Office Ambience 507",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/04/02/01_Christine_Kozlov_Sound_Structure_No_6_Sound_Structure_No_7_1965_ADJ_CMYK_copy.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/on-air/misha-farrant-hosts-adventures-in-sound-and-music",
+          "author": null,
+          "description": "The Wire’s weekly radio show on Resonance FM and Resonance Extra featured tracks by HYPER GAL, Masayo Koketsu & Nava Dunkelman, ANSIEDAD1000, EXIT ELECTRONICS and more\n\nTracklist:\n\nEDU & JUDGITZU\n    \n“Edu & Judgitzu” (Excerpt)\n    \nNuku\n    \n (Nyege Nyege)\n\nHYPER GAL\n    \n“HAZY”\n    \nOur Hyper\n    \n(SKiN GRAFT)\n\nMasayo Koketsu & Nava Dunkelman\n    \n“初雷–hatsurai”\n    \nVeins Of Rain\n    \n (Relative Pitch)\n\nAlvarezz\n    \n“No More (ft Beto Urrutia)”\n    \nDesire Path / Exit Wound\n    \n (Multibody)\n\nEgg Meat\n    \n“$$ ABOMUNUS CRAXIOMS $$”\n    \nThe most Pathetic poem is small people on fire\n    \n (Mutualism)\n\nANSIEDAD1000\n    \n“MAGIA DORADA”\n    \nAbizzmo\n    \n (Hakuna Kulala)\n\nEXIT ELECTRONICS\n    \n“SHARP MOUTHS”\n    \nI’M YOUR BEGGAR\n    \n (AVALANCHE)\n\ntripes\n    \n“warblyyy”\n    \nsega tron\n    \n (Paradoxe Club)\n\n33 featuring Astrid Sonne\n    \n“New ADHD”\n    \nTripolar\n    \n (Haunter)\n\nPonyclub Tartiflette\n    \n“UpTightSick”\n    \nPonyclub Tartiflette\n    \n (Bagdaddy)\n\nMiguel Mendez\n    \n“Palindrome”\n    \nThe Summer When Everything Sucked\n    \n (DeathBomb Arc)\n\nupsammy & Valentina Magaletti\n    \n“Superimposed”\n    \nSeismo\n    \n (PAN)\n\nLackey\n    \n“Bam Bam”\n    \n10 Big Ones\n    \n(Slouch)\n\nSun God\n    \n“On The Bridge”\n    \n(B Rec)\n\nDhangsha\n    \n“Sacred Rage”\n    \nInsurrection Manual\n    \n (Brachliegen)\n\nKareem Samara\n    \n“The Sun Likes You”\n    \nBelow The Radar 50\n\nAns M\n    \n“cou”\n    \nBelow The Radar 50\n\nJohn Tilbury\n    \n“Palais De Mari Composed By Morton Feldman”\n    \nPalais De Mari Composed By Morton Feldman Performed By John Tilbury\n    \n(true blanking)\n\nAdventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
+          "link": "https://www.thewire.co.uk/audio/on-air/misha-farrant-hosts-adventures-in-sound-and-music",
+          "publishedOn": "2026-03-27T00:00:00.000Z",
+          "wordCount": 635,
+          "title": "Misha Farrant hosts  Adventures In Sound And Music",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/27/Wire_26_March_2026.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/in-writing/columns/daniel-lopatin-bling-tones-and-digital-iridescence",
+          "author": null,
+          "description": "Uncut Gems (2019) and its context within an aesthetic of ‘bling’\n\nUncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil, harvesting what will be the bling tokens for an affluent culture many miles away. The soundtrack quakes with deep drones like synthetic shōmyō baritone chanting by Buddhist monks foretelling the fatal consequences of unchecked greed and ignorant hubris. The scene recalls a similarly ominous moment at the opening of The Exorcist (1973) when a stone talismanic statue is uncovered by archaeologists in northern Iraq. The devil in Uncut Gems will be revealed to be Man himself. I’m employing pompous terms here, because the thrust of Uncut Gems – indeed, of the Safdies’ films in general – is to build grand statements from little people. It’s a knowing …",
+          "link": "https://www.thewire.co.uk/in-writing/columns/daniel-lopatin-bling-tones-and-digital-iridescence",
+          "publishedOn": "2026-03-25T00:00:00.000Z",
+          "wordCount": 1823,
+          "title": "Daniel Lopatin: Bling Tones and Digital Iridescence",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/25/uncut_gems_.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-drowned-by-locals",
+          "author": null,
+          "description": "The Wire 506, Miloš Hroch compiles an annotated playlist of tracks from the Jordan based label\n\n\n    Before founding Drowned By Local under a military curfew during the pandemic, the label’s curator, Laith Demashqieh, had been organising shows in Amman, bringing in artists like Drew McDowell and Hiro Kone, but he grew tired of being afraid of crackdowns and moral panics. “Drowned By Locals reflects a feeling of suffocation by proximity – by social pressure, familiarity, and consensus, as well as a general scepticism toward authority,” Demashqieh explains of the label’s name. Today is label operated from Jordan with nodes in the Netherlands and distributed with the help of befriended labels such as Industrial Coast. Drowned By Locals’ mission is, according to their motto, to give “voice and…",
+          "link": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-drowned-by-locals",
+          "publishedOn": "2026-03-23T00:00:00.000Z",
+          "wordCount": 1577,
+          "title": "Unlimited Editions: Drowned by Locals",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/23/UE5061_for_web.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/on-air/lucy-thraves-hosts-adventures-in-sound-and-music-77407",
+          "author": null,
+          "description": "The Wire’s weekly radio show on Resonance FM and Resonance Extra featured tracks by Tara Clerkin Trio, Wendy Eisenberg, Carlos Giffoni, Zeal Minus and more\n\nTracklist\n\nCarlos Giffoni featuring Mabe Fratti\n    \n “Dermis”\n    \n From Pendulum\n    \nRoom 40)\n\nAlex Zhang Hungtai\n    \n “Mazil”\n    \n From Dras\n    \nShelter Press)\n\nNatacha Atlas & Samy Bishai\n    \n “Somoud”\n    \nAirfono)\n\nThe Sleeves\n    \n “Procedure”\n    \n From The Sleeves\n    \n (12XU)\n\nTara Clerkin Trio\n    \n “Somewhere Good”\n    \n From Somewhere Good\n    \n (World Of Echo)\n\nWendy Eisenberg\n    \n “Meaning Business”\n    \n From Wendy Eisenberg\n    \n (Joyful Noise)\n\nVasco Trilla featuring Martin Küchen & Alex Zethson\n    \n From Up North\n    \nCreative Sources)\n\nRed Largo\n    \n From Hotel Neuf\n    \n (Madame Vega's Boudoir)\n\nJean Derome & Somebody Special\n    \n “Fall”\n    \n From Le Sourire\n    \n (Ambiances Magnétiques)\n\nHans Reichel\n    \n “An Old Friend Passes By Again”\n    \n From Dalbergia Retusa\n    \nBlack Truffle)\n\nShuta Hasunuma & Keiji Haino\n    \n “Number”\n    \n From UTA\n    \nTemporal Drift)\n\nLINTD\n    \n “Funeral Rites On Planet Saturn”\n    \n From Funeral Rites On Planet Saturn\n    \n (RTZ)\n\nZeal Minus\n    \n “Ting Ropey”\n    \n From All 4 Nothing\n    \n (esc.rec)\n\nMATA\n    \n “Enlarge Your Panic”\n    \n From Dreaming Is A Combination Of Juxtaposed Images And Sensations Resulting From Predictive Calculation\n    \n (CAER)\n\nKADAPAT & Nova Ruth featuring Siko Setyanto\n    \n “Luna”\n    \n From Ocean Cage\n    \n (SVBKVLT)\n\nupsammy & Valentina Magaletti\n    \n “Collide”\n    \n From Seismo\n    \n (PAN)\n\nOxbow & Peter Brötzmann\n    \n “Angel”\n    \n From An Eternal Reminder Of Not Today / Live At Moers\n    \n (trost)\n\nAdventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
+          "link": "https://www.thewire.co.uk/audio/on-air/lucy-thraves-hosts-adventures-in-sound-and-music-77407",
+          "publishedOn": "2026-03-20T00:00:00.000Z",
+          "wordCount": 650,
+          "title": "Lucy Thraves hosts  Adventures In Sound And Music",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/20/AISM_19_March.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/tracks/augustus-pablo-more-rockers-from-the-vaults",
+          "author": null,
+          "description": "The Wire 506, Derek Walmsley compiles a selection of the Jamaican melodica wizard's lesser known cuts\n\npremises at that location – is impossible to count. It’s testament to the formidable legacy of Augustus Pablo, the producer and multi-instrumentalist who ran the Rockers operation from the early 1970s all the way up to his death in 1999, continuing today in the hands of son Addis Pablo and daughter Isis Swaby. Pablo was one of the crucial innovators in dub and roots reggae as a whole, and like the Orange Street address, his personnel credit appears on a regular basis, sometimes when you least expect it.\n\nThe Wire 506 contains a user’s guide to Augustus Pablo’s extensive discography, spanning classic projects like the groundbreaking dub LP King Tubbys Meets Rockers Uptown, his instrumental…",
+          "link": "https://www.thewire.co.uk/audio/tracks/augustus-pablo-more-rockers-from-the-vaults",
+          "publishedOn": "2026-03-19T00:00:00.000Z",
+          "wordCount": 1800,
+          "title": "Augustus Pablo: More rockers from the vaults",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/19/pablo_for_web.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/in-writing/essays/liane-radigue-1932-2026",
+          "author": null,
+          "description": "I am sitting in a large room at the 2018 Huddersfield Contemporary Music Festival. Bozzini Quartet are playing Occam Delta XV by Éliane Radigue. Sound emerges from the players’ strings as invisible gossamer threads, almost inaudible at first, interweaving in the air around the audience, who are seated around the players.\n\nWire writer Louise Gray, who has written extensively on Radigue, speaks for many in Radigue’s audiences as she explains, “It was Éliane who taught me how to really listen to music, its shapes and space. Éliane profoundly reshaped our sonic world.”\n\n\n    In 1955, Radigue encountered Pierre Schaeffer in Paris, who invited her to join the Groupe des Recherches Musicales (GRM) studios as tape assistant. She learnt tape cutting, ‘mixage et montage’ (mixing and editing) techniq…",
+          "link": "https://www.thewire.co.uk/in-writing/essays/liane-radigue-1932-2026",
+          "publishedOn": "2026-03-16T00:00:00.000Z",
+          "wordCount": 1478,
+          "title": "Éliane Radigue (24 January 1932–23 February 2026)",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2018/11/05/RADIGUE_Eliane_1-Henry_Roy.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/on-air/james-gormley-hosts-adventures-in-sound-and-music-77360",
+          "author": null,
+          "description": "The Wire’s weekly radio show on Resonance FM and Resonance Extra featured tracks by Jessica Ekomane, Machinefabriek, OHYUNG, Eva Novoa and more\n\nTracklist\n\nJessica Ekomane\n    \n “First Light”\n    \n from XKatedral Anthology Series II\n    \n (XKatedral)\n\nMachinefabriek\n    \n “Lijnverkenning 1”\n    \n from Lijnverkenning\n    \n (quiet details)\n\nBrion Gysin\n    \n “The Door”\n    \n from Dreamachine\n    \n (Wewantsounds)\n\nThe Odes\n    \n “Déjeuner Sous L'Herbe”\n    \n from Déjeuner Sous L'Herbe\n    \n (Not Applicable)\n\nGloved Hands\n    \n “Secrets About Me”\n    \n from Tempers\n    \n (Phantom Limb)\n\nMarnie Weber\n    \n “In The Meadow”\n    \n from Returning Home: The Music Of Marnie Weber\n    \n (Phantom Limb)\n\nKINACT\n    \n “Femme Electronique”\n    \n from Kinshasa In Action\n    \n (Nyege Nyege Tapes)\n\nWater Is The Sun\n    \n “landscape is body is light / tremors of a miracle”\n    \n from Ritual Fever\n    \n (Trome/Tocco Magico)\n\nJake Muir\n    \n “Cathedral Of Decay”\n    \n from Pareidolia\n    \n (enmossed)\n\nOHYUNG\n    \n “all dolls go to heaven”\n    \n from IOWA\n    \n (Bandcamp)\n\nTRAS\n    \n “Sit Stand Play Dead”\n    \n from ZCAJK\n    \n (Edelfaul)\n\nCelliacus\n    \n “Pornophony”\n    \n from Celliacus\n    \n (Ramble Records)\n\nAyman Fanous\n    \n “Duo With Joe McPhee - 1”\n    \n from Brooklyn Stories\n    \n (Infrequent Seams)\n\nEva Novoa\n    \n “Left Behind”\n    \n from Solo (I)\n    \n (577)\n\nAdventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
+          "link": "https://www.thewire.co.uk/audio/on-air/james-gormley-hosts-adventures-in-sound-and-music-77360",
+          "publishedOn": "2026-03-12T00:00:00.000Z",
+          "wordCount": 588,
+          "title": "James Gormley hosts  Adventures In Sound And Music",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/13/AISM_13_Mach.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-yellow-swans",
+          "author": null,
+          "description": "The Wire 506\n\n\n    In The Wire 506 it is the turn of psychedelic noise duo Yellow Swans.\n\nThe Wire 506. To find out what they said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.\n\n\n    Yellow Swans are a psychedelic noise duo comprising Pete Swanson and Gabriel Saloman Mindel. Originally formed in 2001 in Portland, Oregon, the group drew their influences from hardcore punk and DIY ethics of anarchist communities of the Pacific North West. During their initial seven year run, Yellow Swans released four studio albums and countless CD-Rs and cassettes, often produced in small numbers and distributed via mail order through their Collective Jyrk label. Swanson and Mindel toured extensively, building a …",
+          "link": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-yellow-swans",
+          "publishedOn": "2026-03-11T00:00:00.000Z",
+          "wordCount": 863,
+          "title": "Invisible Jukebox mix: Yellow Swans",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/11/260211_TheWire_YellowSwans_0005_CMYK_copy.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-uk-rap-is-hijacked-by-london-s-police-force-for-clicks",
+          "author": null,
+          "description": "The Wire 506\n\n\n    Unlike Central Cee, the success of EsDeeKid is yet to translate into a smoothing out of his sound. The “OK” tag heard throughout EsDeeKid’s debut record Rebel comes from producer Wraith9, whose clattering, blown-out beats tie the project to a more recognisable North West underground. The tag crops up on tracks by rapper and dancer Blackhaine, while Rainy Miller mixed and mastered Wraith9’s own album Designer, an undersung release from 2025 that adds weight and complexity to cloudrap delivery.\n\n“ex” verse on “Dirty” – and the specific Liverpudlian callbacks – Bourbon rhymes with Jürgen – EsDeeKid’s Rebel is a particularly debauched version of a thematically common rap album: fast cars, girls, drugs, evading the police in fast cars to sell drugs and get girls. Whatever! Bu…",
+          "link": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-uk-rap-is-hijacked-by-london-s-police-force-for-clicks",
+          "publishedOn": "2026-03-09T00:00:00.000Z",
+          "wordCount": 1518,
+          "title": "Against The Grain: UK rap is hijacked by London’s police force for clicks",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/09/met_police_for_web.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/tracks/office-ambience-506",
+          "author": null,
+          "description": "The full chart:\n\n33\n    \nTripolar\n    \n (Haunter Records)\n\nBEAM SPLITTER\n    \nDedicated Play – Live At Morphine Raum\n    \n (Tripticks Tapes)\n\nThe Black Warhols\n    \nFamous For Fifteen Minutes\n    \n (Pure Sonik)\n\nVarious \nBeacon Sound)\n\nMammal Machine\n    \nCaptain Trip/yumihara1.bandcamp.com)\n\nEve Maret\n    \nDiamond Cutter\n    \n (Bandcamp)\n\nMelechesh\n    \nSentinels Of Shamash\n    \n (Reigning Phoenix)\n\nDJ N***a Fox\n    \n Chá Preto\n    \nPrincipe)\n\nEva Novoa\n    \nSolo (I)\n    \n (577)\n\nOXBOW & Peter Brötzmann\n    \nAn Eternal Reminder Of Not Today – Live At Moers\n    \n (Trost)\n\nPraed\n    \nAl Wahem\n    \nRuptured/Annihaya)\n\nPuppet\n    \nMy Freezing Frozen Spirit\n    \nBadhead)\n\nScobe Collective\n    \nIn The Back Of Your Car\n    \n (World Confused)\n\nSeppuku Pistols\n    \nIn London Paper Dress Vintage, Hackney Central, August 6th, 2024\n    \nTang Deng Co)\n\nUnidad Ideológica\n    \nChoque Asimétrico\n    \n(La Vida Es Un Mus Discos)\n\nVarious\n    \nGaza Is The Moral Compass\n    \nBeacon Sound)",
+          "link": "https://www.thewire.co.uk/audio/tracks/office-ambience-506",
+          "publishedOn": "2026-03-06T00:00:00.000Z",
+          "wordCount": 585,
+          "title": "Office Ambience 506",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/10/Mism_7_ADJ_copy.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/on-air/shane-woolman-presents-adventures-in-sound-and-music-77315",
+          "author": null,
+          "description": "The Wire’s weekly radio show on Resonance FM and Resonance Extra featured an exclusive guest mix by Mary Ocher, plus tracks by Toni Geitani, Junior Delgado, BCUC and more\n\nMary Ocher\n    \nWeimar\n    \nUnderground Institute)\n\nToni Geitani\n    \nWahj\n    \nSelf-Released)\n\nPharoah Chromium\n    \nChronicles From The Arab Cold War\n    \nDiscrepant)\n\nJunior Delgado\n    \nStranger\n    \nVP Records)\n\nJoni Void\n    \nGaza Is The Moral Compass\n    \nBeacon Sound)\n\nBono/Burattini\n    \nOra Sono Un Lago\n    \nMaple Death)\n\nFetter\n    \nBody Of Noise\n    \nOsàre! Editions)\n\nTanya Tagaq\n    \nSaputjiji\n    \nSix Shooter)\n\nKINACT avec Manza\n    \nKinshasa In Action\n    \nNyege Nyege Tapes)\n\nNikolaus Graf x Laiz x Krantinaari featuring Taiji\n    \nFolksoul\n    \nStudio Monkey Shoulder x Sound Of Women)\n\n\n    \nDro Carey\n    \nDenim Iron\n    \nBraincamp)\n\nLos Sara Fontan\n    \nConsuelo\n    \nAloud Music)\n\nChristal Zone\n    \nRai Rai/Kanashiyana (J Jazz Masterclass Series)\n    \nBBE)\n\nBCUC\n    \nThe Road Is Never Easy\n    \nOuthere)\n\nUmut Adan & Zebânis\n    \nBaşka Bahar\n    \nSix Degrees)\n\nTaymour x Bareetlblad\n    \nNos Insan – نص انسان\n    \ndiy recordings)\n    \n\n    CORBEN\n    \nTransmitter\n    \nHotham Sound Recordings)\n\nLaurel Halo\n    \nMidnight Zone OST\n    \nAwe)\n\nMary Ocher Guest Mix\n    \n\n    Nina Simone “Backlash Blues\"\n    \nGlenn Branca “Harmonic Series Chords (excerpt)”\n    \nCole Porter “What Is This Thing Called Love”\n    \nEduard Artemyev & S Kreichi “Music From The Film Cosmos”\n    \nColette Magny “Feu et rythme”\n    \nJulianna Barwick “Prizewinning”\n    \nDagmar Krause “Failure in Loving”\n    \nJulius Eastman “Evil N****r (excerpt)”\n    \nHarry Partch “Exordium – The Beginning Of A Web”\n\nJohn Cale “The Endless Plain Of Fortune”\n    \nScott Walker “The Bridge”\n\n\n    \n broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
+          "link": "https://www.thewire.co.uk/audio/on-air/shane-woolman-presents-adventures-in-sound-and-music-77315",
+          "publishedOn": "2026-03-05T00:00:00.000Z",
+          "wordCount": 726,
+          "title": "Shane Woolman presents  Adventures In Sound And Music",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/03/06/mary_for_web_by_Kasia_Sekula_1_copy.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Bandcamp Updates",
+      "feedUrl": "https://daily.bandcamp.com/feed",
+      "siteUrl": "https://daily.bandcamp.com",
+      "articles": [
+        {
+          "id": "191525",
+          "author": "Joe Muggs",
+          "description": "Our guide to the month’s crucial electronic music.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-electronic/the-best-electronic-music-on-bandcamp-march-2026",
+          "publishedOn": "2026-04-02T13:28:37.000Z",
+          "wordCount": null,
+          "title": "The Best Electronic Music on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191618",
+          "author": "Matthew Blackwell",
+          "description": "A magical, melodious DIY world serendipitously rediscovered recalls the retrofuturism of vaporwave decades before its invention.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/larrison-connecters-volume-1-review",
+          "publishedOn": "2026-04-02T13:28:09.000Z",
+          "wordCount": null,
+          "title": "Larrison, “Connecters Volume 1: Original Recordings, 1992–1999”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191514",
+          "author": "Matthew Blackwell",
+          "description": "Jamming with seals, walks through London, a tour of Greece, and other sounds captured outside the studio.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-field-recordings/the-best-field-recordings-on-bandcamp-march-2026",
+          "publishedOn": "2026-04-01T17:58:24.000Z",
+          "wordCount": null,
+          "title": "The Best Field Recordings on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191399",
+          "author": "Ted Davis",
+          "description": "Our guide to the month’s crucial ambient LPs.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-ambient/the-best-ambient-music-on-bandcamp-march-2026",
+          "publishedOn": "2026-04-01T13:27:31.000Z",
+          "wordCount": null,
+          "title": "The Best Ambient Music on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191373",
+          "author": "Stuart Berman",
+          "description": "On their confident second LP, the Vermont rock band leverage personal upheaval as a source of strength and possibility.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/robber-robber-two-wheels-move-the-soul-review",
+          "publishedOn": "2026-04-01T13:27:08.000Z",
+          "wordCount": null,
+          "title": "Robber Robber, “Two Wheels Move the Soul”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191252",
+          "author": "Brad Sanders",
+          "description": "Our guide to the month’s crucial heavy LPs.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-metal/the-best-metal-on-bandcamp-march-2026",
+          "publishedOn": "2026-04-01T13:25:54.000Z",
+          "wordCount": null,
+          "title": "The Best Metal on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191392",
+          "author": "Peter Margasak",
+          "description": "Our guide to the month’s crucial contemporary classical releases.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-contemporary-classical/the-best-contemporary-classical-music-on-bandcamp-march-2026",
+          "publishedOn": "2026-03-31T13:49:09.000Z",
+          "wordCount": null,
+          "title": "The Best Contemporary Classical Music on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191447",
+          "author": "Dean Van Nguyen",
+          "description": "A crucial collection of deep cuts from a revolutionary musical movement.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/various-artists-fight-the-fire-digital-reggae-conscious-roots-and-dub-in-nigeria-review",
+          "publishedOn": "2026-03-31T13:48:45.000Z",
+          "wordCount": null,
+          "title": "Various Artists, “Fight The Fire: Digital Reggae, Conscious Roots and Dub in Nigeria 1986–91”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191317",
+          "author": "Sims Hardin",
+          "description": "Our guide to the month’s crucial punk releases.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-punk/the-best-punk-on-bandcamp-march-2026",
+          "publishedOn": "2026-03-30T17:37:23.000Z",
+          "wordCount": null,
+          "title": "The Best Punk on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190956",
+          "author": "Christina Hazboun",
+          "description": "The Egyptian artist’s latest LP was inspired by a period of personal darkness.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/features/maryam-saleh-syrr-feature",
+          "publishedOn": "2026-03-30T17:37:11.000Z",
+          "wordCount": null,
+          "title": "Maryam Saleh’s Secret",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191439",
+          "author": "April Clare Welsh",
+          "description": "A free-spirited electronic record that is as fun to listen to as it likely was to make.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/foote-dickow-high-cube-review",
+          "publishedOn": "2026-03-30T13:36:24.000Z",
+          "wordCount": null,
+          "title": "Foote/Dickow, “High Cube”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191365",
+          "author": "Phillip Mlynar",
+          "description": "Our guide to the month’s crucial rap LPs.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-hip-hop/the-best-hip-hop-on-bandcamp-march-2026",
+          "publishedOn": "2026-03-30T13:36:13.000Z",
+          "wordCount": null,
+          "title": "The Best Hip-Hop on Bandcamp, March 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191207",
+          "author": "J. Bennett",
+          "description": "The influential metal band are back with their first album in 10 years—plus a new member.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/features/neurosis-an-undying-love-for-a-burning-world-interview",
+          "publishedOn": "2026-03-27T17:33:05.000Z",
+          "wordCount": null,
+          "title": "Inside the Miraculous Return of Neurosis",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191325",
+          "author": "Ben Salmon",
+          "description": "A killer batch of Americana songs that reflect turmoil both internal and external.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/the-montvales-path-of-totality-review",
+          "publishedOn": "2026-03-27T13:51:51.000Z",
+          "wordCount": null,
+          "title": "The Montvales, “Path of Totality”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190948",
+          "author": "Bandcamp Daily Staff",
+          "description": "These are our picks for the best albums of the last three months.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/best-of-2026/the-best-albums-of-winter-2026",
+          "publishedOn": "2026-03-27T13:50:27.000Z",
+          "wordCount": null,
+          "title": "The Best Albums of Winter 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191144",
+          "author": "Patrick St. Michel",
+          "description": "The long-running duo chats with Bandcamp Daily about their come-up, influences, new album, and more.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/features/sugar-plant-one-dream-one-star-interview",
+          "publishedOn": "2026-03-26T13:45:39.000Z",
+          "wordCount": null,
+          "title": "The Rise, Fall, and Revival of sugar plant, Japan’s Indie Darlings",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191234",
+          "author": "Blake Gillespie",
+          "description": "The organ trio's latest is Instrumental jazz-funk at its explosive, groovy best.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/parlor-greens-emeralds-review",
+          "publishedOn": "2026-03-26T13:45:24.000Z",
+          "wordCount": null,
+          "title": "Parlor Greens, “Emeralds”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191214",
+          "author": "Grayson Haver Currin",
+          "description": "What happens now that the founder doesn’t want to tour?\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/side-door/side-door-no-2-tapers-choice",
+          "publishedOn": "2026-03-25T17:58:41.000Z",
+          "wordCount": null,
+          "title": "Side Door No. 2: How Taper’s Choice Became One of the Jam World’s Most Exciting Bands",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191247",
+          "author": "Zara Hedderman",
+          "description": "The Chicago trio elevate their sound while addressing fears, frustrations, and feelings of guilt.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/stuck-optimizer-review",
+          "publishedOn": "2026-03-25T13:50:58.000Z",
+          "wordCount": null,
+          "title": "Stuck, “Optimizer”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191192",
+          "author": "George Grella",
+          "description": "A guide to the circuit-bending work of Excepter.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/lists/excepter-album-guide",
+          "publishedOn": "2026-03-25T13:50:48.000Z",
+          "wordCount": null,
+          "title": "The Unclassifiable Excepter",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191091",
+          "author": "Lewis Gordon",
+          "description": "Hydelic and Takako Ishida's \"Lumines Arise\" score ensnares players in a strange, blissed-out feedback loop.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/features/hydelic-takako-ishida-lumines-arise-interview",
+          "publishedOn": "2026-03-24T13:52:22.000Z",
+          "wordCount": null,
+          "title": "A Puzzle Game Soundtrack That Plays With Your Head",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191204",
+          "author": "Jon Buckland",
+          "description": "Even in the context of their incendiary catalogue, this may be dälek’s most furious record yet.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/dalek-brilliance-of-a-falling-moon-review",
+          "publishedOn": "2026-03-24T13:52:15.000Z",
+          "wordCount": null,
+          "title": "dälek, “Brilliance of a Falling Moon”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190506",
+          "author": "Ian Miller, Jim Allen",
+          "description": "For 50 years, The Association for the Advancement of Creative Musicians Has Redefined Jazz & Beyond\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/lists/aacm-discography-guide",
+          "publishedOn": "2026-03-23T18:06:42.000Z",
+          "wordCount": null,
+          "title": "On Their Own Terms: How the AACM Built a New American Music",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191172",
+          "author": "Erick Bradshaw",
+          "description": "The label spotlights artists who crafted visionary music blending free improvisation, jazz, prog rock, and musique concrète\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/label-profile/preserving-the-french-underground-a-guide-to-souffle-continu",
+          "publishedOn": "2026-03-23T13:50:40.000Z",
+          "wordCount": null,
+          "title": "Preserving the French Underground: A Guide to Souffle Continu",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191011",
+          "author": "James Gui",
+          "description": "Tokyo producer Bailefunk Kakeko is bringing Brazilian music to Japan—cultural and linguistic barriers be damned.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/features/bailefunk-kakeko-feature",
+          "publishedOn": "2026-03-20T18:07:27.000Z",
+          "wordCount": null,
+          "title": "Building a Home for Brazilian Funk in Japan",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191077",
+          "author": "Bandcamp Daily Staff",
+          "description": "Brazilian metal, jazz funk, alternative, and more.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/essential-releases/essential-releases-march-20-2026",
+          "publishedOn": "2026-03-20T13:34:47.000Z",
+          "wordCount": null,
+          "title": "Essential Releases, March 20, 2026",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191123",
+          "author": "Matthew Blackwell",
+          "description": "The NYC experimentalist's alluring debut gets a much-deserved official release after going viral last year.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/dagmar-zuniga-in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music-review",
+          "publishedOn": "2026-03-20T13:25:55.000Z",
+          "wordCount": null,
+          "title": "Dagmar Zuniga, “in filth your mystery is kingdom / far smile peasant in yellow music”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190551",
+          "author": "Devon Leger, Jose Berrio",
+          "description": "Lighting up both dancehalls and trail rides, the Louisiana tradition is rich and varied.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/lists/cajun-creole-accordion-music-guide",
+          "publishedOn": "2026-03-19T17:55:46.000Z",
+          "wordCount": null,
+          "title": "The Long, Joyous Tradition of Cajun and Creole Accordion Music",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190979",
+          "author": "Mike McGrath-Bryan",
+          "description": "The rapper/producer duo reflect on coming of age, collaboration, and celebration.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/features/god-knows-and-murli-interview",
+          "publishedOn": "2026-03-19T13:27:57.000Z",
+          "wordCount": null,
+          "title": "God Knows and MuRli: Ireland’s Hip-Hop Gamechangers",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191035",
+          "author": "Luke Jackson",
+          "description": "Featuring members of Amenra, Oathbreakers, and others, the Belgian metal band have the power and personality to go the distance.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/crouch-breaking-the-catatonic-state-review",
+          "publishedOn": "2026-03-19T13:26:52.000Z",
+          "wordCount": null,
+          "title": "Crouch, “Breaking the Catatonic State”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191027",
+          "author": "Maria Jesus Contreras, Michal Wieczorek",
+          "description": "Driven by guitars and heavily inspired by traditional Amazonian folkways, chicha isn't just Peruvian cumbia—it's a way of life.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/lists/chicha-cumbia-peru-guide",
+          "publishedOn": "2026-03-18T13:47:10.000Z",
+          "wordCount": null,
+          "title": "Chicha Forever: The Evolution of Peruvian Cumbia",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191052",
+          "author": "Joe Muggs",
+          "description": "The latest album from Xylitol looks back in order to go forward.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/xylitol-blumenfantasie-review",
+          "publishedOn": "2026-03-18T13:47:06.000Z",
+          "wordCount": null,
+          "title": "Xylitol, “Blumenfantasie”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190876",
+          "author": "George Grella",
+          "description": "An overview of the pioneering Belgian ensemble, one of the most unique voices in European contemporary classical music.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/lists/ictus-ensemble-album-guide",
+          "publishedOn": "2026-03-17T09:25:43.000Z",
+          "wordCount": null,
+          "title": "The Ictus Ensemble Chart Classical Music’s Next Frontier",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "191016",
+          "author": "Martin Douglas",
+          "description": "The chemistry between rapper and producer courses through this examination of a crumbling society.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/duncecap-samurai-banana-comfortably-suffering-review",
+          "publishedOn": "2026-03-17T09:20:40.000Z",
+          "wordCount": null,
+          "title": "Duncecap & Samurai Banana, “Comfortably Suffering”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190989",
+          "author": "Harry Levin",
+          "description": "Working with Jeff Tweedy, Max Clarke delivers a record full of warmth and energy.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/album-of-the-day/cut-worms-transmitter-review",
+          "publishedOn": "2026-03-16T13:57:35.000Z",
+          "wordCount": null,
+          "title": "Cut Worms, “Transmitter”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190523",
+          "author": "Jude Noel",
+          "description": "Bolstered by a Tyler, the Creator co-sign, the Tokyo label begins its second act.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/label-profile/clover-records-label-profile",
+          "publishedOn": "2026-03-16T13:57:26.000Z",
+          "wordCount": null,
+          "title": "Clover Records Is An Indie Pop Good-Luck Charm",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "190804",
+          "author": "McKay Felt",
+          "description": "Known primarily for the ’90s grunge explosion, the Pacific Northwest is currently nurturing a thriving rap community.\nRead full story on the Bandcamp Daily.",
+          "link": "https://daily.bandcamp.com/scene-report/pacific-northwest-rap-guide",
+          "publishedOn": "2026-03-16T13:55:41.000Z",
+          "wordCount": null,
+          "title": "Excavating the Pacific Northwest’s Art Rap Underground",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.15.1"
+}

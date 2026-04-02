@@ -1,0 +1,291 @@
+/* ============================================================
+   Bryan RSS — reader.css
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f9f7f4;
+  --surface: #ffffff;
+  --border: #e5e0d8;
+  --text: #1a1a1a;
+  --text-muted: #6b6560;
+  --text-faint: #a09b95;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --read-opacity: 0.38;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: "SF Mono", "Fira Mono", monospace;
+  --radius: 6px;
+  --max-width: 740px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161412;
+    --surface: #1f1c19;
+    --border: #2e2a26;
+    --text: #e8e4df;
+    --text-muted: #9c9590;
+    --text-faint: #605b55;
+    --accent: #60a5fa;
+    --accent-hover: #93c5fd;
+  }
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  white-space: nowrap;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.unread-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.sync-status {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  min-width: 60px;
+}
+
+/* ── Buttons ─────────────────────────────────────────────── */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+  font-family: var(--font);
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.12s, color 0.12s;
+  white-space: nowrap;
+}
+
+.btn--ghost {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-muted);
+}
+
+.btn--ghost:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+.btn--mark-read {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  padding: 2px 8px;
+}
+
+.btn--mark-read:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ── Feed ─────────────────────────────────────────────── */
+
+.feed {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+/* ── Feed item ───────────────────────────────────────────── */
+
+.feed-item {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  transition: opacity 0.2s;
+}
+
+.feed-item__meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.feed-item__date {
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.feed-item__source {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.feed-item__title {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.feed-item__title a {
+  color: var(--text);
+}
+
+.feed-item__title a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.feed-item__desc {
+  margin: 0 0 10px;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+
+  /* Clamp to 3 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Strip any inline HTML from feed descriptions */
+.feed-item__desc * {
+  font-size: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.feed-item__desc img {
+  display: none;
+}
+
+.feed-item__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feed-item__reading-time {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+}
+
+/* ── Read state ──────────────────────────────────────────── */
+
+.feed-item.is-read {
+  opacity: var(--read-opacity);
+}
+
+.feed-item.is-read .btn--mark-read {
+  display: none;
+}
+
+/* Hide read items when toggle is active */
+.hide-read .feed-item.is-read {
+  display: none;
+}
+
+/* ── Footer ──────────────────────────────────────────────── */
+
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px 20px 40px;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+}
+
+.site-footer a {
+  color: var(--text-faint);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .site-header__inner {
+    gap: 10px;
+  }
+
+  .toolbar {
+    gap: 6px;
+  }
+
+  .btn {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+
+  .site-title {
+    font-size: 0.9rem;
+  }
+}
