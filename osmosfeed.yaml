@@ -10,15 +10,12 @@ sources:
  - href: https://interconnected.org/home/feed
  - href: https://kneelingbus.substack.com/feed
  - href: https://www.robinsloan.com/feed.xml
- - href: https://www.garbageday.email/feed
+ - href: https://garbageday.substack.com/feed
  - href: https://8ball.substack.com/feed
  - href: https://theconvivialsociety.substack.com/feed
  - href: https://www.ribbonfarm.com/feed/
  - href: https://webcurios.co.uk/feed/
- - href: https://craigmod.com/roden/feed.xml
- - href: https://craigmod.com/ridgeline/feed.xml
  - href: https://subconscious.substack.com/feed
- - href: http://feeds.feedburner.com/NostalgiaForTheFuture
  - href: https://bruces.substack.com/feed
 
 # Culture & Criticism
@@ -29,17 +26,13 @@ sources:
  - href: http://feeds.feedburner.com/snarkmarket
  - href: https://pluralistic.net/feed/
  - href: https://reallifemag.com/feed/
- - href: https://www.e-flux.com/rss/
  - href: http://warrenellis.ltd/feed/
 
 # Architecture & Urbanism
 
  - href: https://bldgblog.com/feed/
- - href: https://speedbird.wordpress.com/feed/
  - href: https://blog.nearfuturelaboratory.com/feed/
- - href: http://feeds.feedburner.com/nicolasnova
  - href: https://www.thejaymo.net/feed/
- - href: https://blog.tobiasrevell.com/feed/
  - href: https://feeds.feedburner.com/RussellDavies
  - href: https://branch.climateaction.tech/feed/
 
@@ -55,7 +48,6 @@ sources:
  - href: https://maggieappleton.com/rss.xml
  - href: http://worrydream.com/feed.xml
  - href: https://timmaughan.com/feed/
- - href: https://www.projectsbyif.com/index.xml
  - href: https://medium.com/feed/@danhill
 
 # Material Culture & Objects
@@ -67,5 +59,4 @@ sources:
 # Science & Deep Time
 
  - href: https://api.quantamagazine.org/feed/
- - href: https://neo.life/feed/
  - href: http://feeds.feedburner.com/longnow
