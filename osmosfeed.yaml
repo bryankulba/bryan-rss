@@ -4,23 +4,68 @@ timezone: America/New_York  # Update to your local timezone if needed
 cacheMaxDays: 30
 
 sources:
-  # Newsletters
-  - href: https://sentiers.media/rss/
-  - href: https://interconnected.org/home/feed
-  - href: https://kneelingbus.substack.com/feed
-  - href: https://www.robinsloan.com/feed.xml
-  - href: https://garbageday.substack.com/feed
-  - href: https://8ball.substack.com/feed
+# Newsletters
 
-  # Blogs
-  - href: https://medium.com/feed/@danhill
-  - href: https://theconvivialsociety.substack.com/feed
-  - href: https://www.ribbonfarm.com/feed/
-  - href: https://reallifemag.com/feed/
+ - href: https://sentiers.media/rss/
+ - href: https://interconnected.org/home/feed
+ - href: https://kneelingbus.substack.com/feed
+ - href: https://www.robinsloan.com/feed.xml
+ - href: https://www.garbageday.email/feed
+ - href: https://8ball.substack.com/feed
+ - href: https://theconvivialsociety.substack.com/feed
+ - href: https://www.ribbonfarm.com/feed/
+ - href: https://webcurios.co.uk/feed/
+ - href: https://craigmod.com/roden/feed.xml
+ - href: https://craigmod.com/ridgeline/feed.xml
+ - href: https://subconscious.substack.com/feed
+ - href: http://feeds.feedburner.com/NostalgiaForTheFuture
+ - href: https://bruces.substack.com/feed
 
-  # Music & Sound
-  - href: https://www.thewire.co.uk/rss
-  # - href: https://daily.bandcamp.com/feed
+# Culture & Criticism
 
-  # Gibson-adjacent
-  - href: https://bruces.substack.com/feed
+ - href: https://wearethemutants.com/feed/
+ - href: https://feeds.kottke.org/main
+ - href: https://waxy.org/feed/
+ - href: http://feeds.feedburner.com/snarkmarket
+ - href: https://pluralistic.net/feed/
+ - href: https://reallifemag.com/feed/
+ - href: https://www.e-flux.com/rss/
+ - href: http://warrenellis.ltd/feed/
+
+# Architecture & Urbanism
+
+ - href: https://bldgblog.com/feed/
+ - href: https://speedbird.wordpress.com/feed/
+ - href: https://blog.nearfuturelaboratory.com/feed/
+ - href: http://feeds.feedburner.com/nicolasnova
+ - href: https://www.thejaymo.net/feed/
+ - href: https://blog.tobiasrevell.com/feed/
+ - href: https://feeds.feedburner.com/RussellDavies
+ - href: https://branch.climateaction.tech/feed/
+
+# Music & Sound
+
+ - href: https://www.thewire.co.uk/rss
+ - href: https://daily.bandcamp.com/feed
+
+# Technology & Making
+
+ - href: https://simonwillison.net/atom/everything/
+ - href: https://www.bunniestudios.com/blog/?feed=rss2
+ - href: https://maggieappleton.com/rss.xml
+ - href: http://worrydream.com/feed.xml
+ - href: https://timmaughan.com/feed/
+ - href: https://www.projectsbyif.com/index.xml
+ - href: https://medium.com/feed/@danhill
+
+# Material Culture & Objects
+
+ - href: https://we-make-money-not-art.com/feed/
+ - href: http://www.thingsmagazine.net/feed/
+ - href: https://fo.am/blog/rss/
+
+# Science & Deep Time
+
+ - href: https://api.quantamagazine.org/feed/
+ - href: https://neo.life/feed/
+ - href: http://feeds.feedburner.com/longnow
