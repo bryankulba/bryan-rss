@@ -28,17 +28,24 @@
         <time class="feed-item__date" datetime="{{isoUtcPublishTime}}">{{isoOffsetPublishDate}}</time>
         <span class="feed-item__source">{{source.title}}</span>
       </div>
-      <h2 class="feed-item__title">
-        <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{title}}</a>
-      </h2>
-      {{#if description}}
-      <p class="feed-item__desc">{{{description}}}</p>
-      {{/if}}
-      <div class="feed-item__actions">
-        <button class="js-mark-read btn btn--mark-read" data-id="{{id}}">Mark read</button>
-        {{#if readingTimeInMin}}
-        <span class="feed-item__reading-time">{{readingTimeInMin}} min read</span>
-        {{/if}}
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{title}}</a>
+          </h2>
+          {{#if description}}
+          <p class="feed-item__desc">{{{description}}}</p>
+          {{/if}}
+          <div class="feed-item__actions">
+            <button class="js-mark-read btn btn--mark-read" data-id="{{id}}">Mark read</button>
+            {{#if readingTimeInMin}}
+            <span class="feed-item__reading-time">{{readingTimeInMin}} min read</span>
+            {{/if}}
+          </div>
+        </div>
+        <div class="feed-item__image-wrap" hidden>
+          <img class="feed-item__image" alt="" loading="lazy">
+        </div>
       </div>
     </article>
     {{/each}}
