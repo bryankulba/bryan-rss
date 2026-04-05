@@ -220,7 +220,7 @@ a:hover {
 }
 
 .feed-item__title a {
-  color: var(--text);
+  color: var(--token-color-ui-link-heading);
 }
 
 .feed-item__title a:hover {
