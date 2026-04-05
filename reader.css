@@ -1,5 +1,6 @@
 /* ============================================================
    Bryan RSS — reader.css
+   Design token variables are defined in tokens.css (auto-generated).
    ============================================================ */
 
 *, *::before, *::after {
@@ -7,36 +8,26 @@
 }
 
 :root {
-  --bg: #f9f7f4;
-  --surface: #ffffff;
-  --border: #e5e0d8;
-  --text: #1a1a1a;
-  --text-muted: #6b6560;
-  --text-faint: #a09b95;
-  --accent: #2563eb;
-  --accent-hover: #1d4ed8;
-  --read-opacity: 0.38;
-  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  --font-mono: "SF Mono", "Fira Mono", monospace;
-  --radius: 6px;
-  --max-width: 740px;
-}
+  /* Mapped from tokens */
+  --bg:           var(--token-color-brand-background);
+  --text:         var(--token-color-text-default);
+  --text-muted:   var(--token-color-text-secondary);
+  --accent:       var(--token-color-brand-primary);
+  --accent-hover: var(--token-color-brand-accent);
+  --font:         var(--token-font-family-sans);
+  --font-serif:   var(--token-font-family-serif);
+  --radius:       var(--token-border-radius-md);
+  --max-width:    var(--token-layout-contentMaxWidth);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161412;
-    --surface: #1f1c19;
-    --border: #2e2a26;
-    --text: #e8e4df;
-    --text-muted: #9c9590;
-    --text-faint: #605b55;
-    --accent: #60a5fa;
-    --accent-hover: #93c5fd;
-  }
+  /* Derived — not in tokens */
+  --surface:      #ffffff;
+  --border:       #e0d4c4;
+  --text-faint:   #9a9490;
+  --read-opacity: 0.38;
 }
 
 html {
-  font-size: 16px;
+  font-size: var(--token-font-size-base);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -44,7 +35,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  line-height: 1.6;
+  line-height: var(--token-font-lineHeight-relaxed);
   margin: 0;
   padding: 0;
 }
@@ -63,6 +54,7 @@ a:hover {
 
 .site-header {
   border-bottom: 1px solid var(--border);
+  border-top: var(--token-border-width-accent) solid var(--token-color-brand-accent);
   background: var(--surface);
   position: sticky;
   top: 0;
@@ -72,16 +64,16 @@ a:hover {
 .site-header__inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 12px 20px;
+  padding: var(--token-spacing-sm) var(--token-spacing-md);
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: var(--token-spacing-md);
   flex-wrap: wrap;
 }
 
 .site-title {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: var(--token-font-size-base);
+  font-weight: var(--token-font-weight-semibold);
   margin: 0;
   flex: 1;
   white-space: nowrap;
@@ -90,18 +82,18 @@ a:hover {
 .toolbar {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--token-spacing-sm);
   flex-wrap: wrap;
 }
 
 .unread-count {
-  font-size: 0.8rem;
+  font-size: var(--token-font-size-sm);
   color: var(--text-muted);
   white-space: nowrap;
 }
 
 .sync-status {
-  font-size: 0.75rem;
+  font-size: var(--token-font-size-sm);
   color: var(--text-faint);
   min-width: 60px;
 }
@@ -112,13 +104,13 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 4px 10px;
+  padding: var(--token-spacing-xs) var(--token-spacing-sm);
   border-radius: var(--radius);
-  font-size: 0.8rem;
+  font-size: var(--token-font-size-sm);
   font-family: var(--font);
   cursor: pointer;
   border: 1px solid transparent;
-  transition: background 0.12s, color 0.12s;
+  transition: var(--token-transition-fast);
   white-space: nowrap;
 }
 
@@ -138,7 +130,7 @@ a:hover {
   border-color: var(--border);
   color: var(--text-faint);
   font-size: 0.75rem;
-  padding: 2px 8px;
+  padding: 2px var(--token-spacing-sm);
 }
 
 .btn--mark-read:hover {
@@ -151,37 +143,37 @@ a:hover {
 .feed {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 20px 60px;
+  padding: 0 var(--token-spacing-md) var(--token-spacing-2xl);
 }
 
 /* ── Feed item ───────────────────────────────────────────── */
 
 .feed-item {
-  padding: 20px 0;
+  padding: var(--token-spacing-xl) 0;
   border-bottom: 1px solid var(--border);
-  transition: opacity 0.2s;
+  transition: opacity var(--token-transition-base);
 }
 
 .feed-item__meta {
   display: flex;
   align-items: baseline;
-  gap: 10px;
-  margin-bottom: 4px;
+  gap: var(--token-spacing-sm);
+  margin-bottom: var(--token-spacing-xs);
 }
 
 .feed-item__date {
-  font-size: 0.78rem;
+  font-size: var(--token-font-size-sm);
   color: var(--text-faint);
   font-variant-numeric: tabular-nums;
   flex-shrink: 0;
 }
 
 .feed-item__source {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  font-weight: 500;
+  font-size: var(--token-font-size-sm);
+  color: var(--accent);
+  font-weight: var(--token-font-weight-medium);
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--token-font-letterSpacing-wide);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -191,7 +183,7 @@ a:hover {
 
 .feed-item__body {
   display: flex;
-  gap: 16px;
+  gap: var(--token-spacing-md);
   align-items: flex-start;
 }
 
@@ -214,16 +206,17 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--radius);
+  border-radius: var(--token-border-radius-image);
   background: var(--border);
   display: block;
 }
 
 .feed-item__title {
-  margin: 0 0 6px;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.4;
+  margin: 0 0 var(--token-spacing-xs);
+  font-family: var(--font-serif);
+  font-size: var(--token-font-size-xl);
+  font-weight: var(--token-font-weight-normal);
+  line-height: var(--token-font-lineHeight-tight);
 }
 
 .feed-item__title a {
@@ -236,10 +229,10 @@ a:hover {
 }
 
 .feed-item__desc {
-  margin: 0 0 10px;
-  font-size: 0.875rem;
+  margin: 0 0 var(--token-spacing-sm);
+  font-size: var(--token-font-size-sm);
   color: var(--text-muted);
-  line-height: 1.55;
+  line-height: var(--token-font-lineHeight-normal);
 
   /* Clamp to 3 lines */
   display: -webkit-box;
@@ -248,7 +241,6 @@ a:hover {
   overflow: hidden;
 }
 
-/* Strip any inline HTML from feed descriptions */
 .feed-item__desc * {
   font-size: inherit;
   color: inherit;
@@ -263,7 +255,7 @@ a:hover {
 .feed-item__actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: var(--token-spacing-md);
 }
 
 .feed-item__reading-time {
@@ -281,7 +273,6 @@ a:hover {
   display: none;
 }
 
-/* Hide read items when toggle is active */
 .hide-read .feed-item.is-read {
   display: none;
 }
@@ -291,8 +282,8 @@ a:hover {
 .site-footer {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 20px 20px 40px;
-  font-size: 0.78rem;
+  padding: var(--token-spacing-md) var(--token-spacing-md) var(--token-spacing-2xl);
+  font-size: var(--token-font-size-sm);
   color: var(--text-faint);
   border-top: 1px solid var(--border);
 }
@@ -305,19 +296,23 @@ a:hover {
 
 @media (max-width: 600px) {
   .site-header__inner {
-    gap: 10px;
+    gap: var(--token-spacing-sm);
   }
 
   .toolbar {
-    gap: 6px;
+    gap: var(--token-spacing-xs);
   }
 
   .btn {
-    padding: 4px 8px;
+    padding: var(--token-spacing-xs) var(--token-spacing-sm);
     font-size: 0.75rem;
   }
 
   .site-title {
-    font-size: 0.9rem;
+    font-size: var(--token-font-size-sm);
+  }
+
+  .feed-item__title {
+    font-size: var(--token-font-size-lg);
   }
 }
