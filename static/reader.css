@@ -304,8 +304,8 @@ a:hover {
   display: none;
 }
 
-/* Hide read items — but always keep favourites visible */
-.hide-read .feed-item.is-read:not(.is-favourite) {
+/* Hide read items (including favourites) */
+.hide-read .feed-item.is-read {
   display: none;
 }
 
