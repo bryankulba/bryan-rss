@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "node scripts/build-tokens.js",
     "build": "osmosfeed",
     "serve": "python3 -m http.server 8080 --directory public"
   },
