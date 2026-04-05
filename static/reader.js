@@ -13,6 +13,7 @@
 const GIST_ID_KEY   = 'rss_gist_id';
 const PAT_KEY       = 'rss_gist_pat';
 const LOCAL_KEY     = 'rss_read_ids';
+const HIDE_READ_KEY = 'rss_hide_read';
 const GIST_FILENAME = 'read-state.json';
 
 // ── State ────────────────────────────────────────────────────────────────────
@@ -210,10 +211,15 @@ async function setupSync() {
 
 // ── Hide/show read toggle ─────────────────────────────────────────────────────
 
-let hideReadActive = false;
+let hideReadActive = localStorage.getItem(HIDE_READ_KEY) === 'true';
 
 function toggleHideRead() {
   hideReadActive = !hideReadActive;
+  localStorage.setItem(HIDE_READ_KEY, hideReadActive);
+  applyHideRead();
+}
+
+function applyHideRead() {
   document.body.classList.toggle('hide-read', hideReadActive);
   const btn = document.getElementById('js-toggle-hide-read');
   if (btn) btn.textContent = hideReadActive ? 'Show read' : 'Hide read';
@@ -236,6 +242,7 @@ function syncLabel() {
 document.addEventListener('DOMContentLoaded', () => {
   // Apply local read state immediately
   applyReadState();
+  applyHideRead();
   setSyncStatus(syncLabel());
 
   // Sync from Gist on load if credentials are present
