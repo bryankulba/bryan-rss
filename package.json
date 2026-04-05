@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "osmosfeed"
+    "build": "osmosfeed",
+    "serve": "python3 -m http.server 8080 --directory public"
   },
   "dependencies": {
     "@osmoscraft/osmosfeed": "^1.15.1"

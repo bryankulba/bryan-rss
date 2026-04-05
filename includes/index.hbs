@@ -43,9 +43,11 @@
             {{/if}}
           </div>
         </div>
-        <div class="feed-item__image-wrap" hidden>
-          <img class="feed-item__image" alt="" loading="lazy">
+        {{#if imageUrl}}
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="{{imageUrl}}" alt="" loading="lazy">
         </div>
+        {{/if}}
       </div>
     </article>
     {{/each}}

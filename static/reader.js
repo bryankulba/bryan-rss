@@ -208,41 +208,6 @@ async function setupSync() {
   await syncFromGist();
 }
 
-// ── Poster images ─────────────────────────────────────────────────────────────
-
-function extractPostImages() {
-  document.querySelectorAll('.feed-item').forEach(article => {
-    const descEl  = article.querySelector('.feed-item__desc');
-    const imgWrap = article.querySelector('.feed-item__image-wrap');
-    const imgEl   = article.querySelector('.feed-item__image');
-    if (!descEl || !imgWrap || !imgEl) return;
-
-    // Find the first <img> inside the description HTML
-    const firstImg = descEl.querySelector('img');
-    if (!firstImg) return;
-
-    const src = firstImg.getAttribute('src') || '';
-
-    // Skip data URIs and anything that isn't a real http(s) URL
-    if (!src.startsWith('http://') && !src.startsWith('https://')) return;
-
-    imgEl.src = src;
-
-    // Hide the thumbnail if the image turns out to be tiny (e.g. tracking pixels)
-    imgEl.addEventListener('load', () => {
-      if (imgEl.naturalWidth < 50 || imgEl.naturalHeight < 50) {
-        imgWrap.hidden = true;
-      }
-    }, { once: true });
-
-    imgEl.addEventListener('error', () => {
-      imgWrap.hidden = true;
-    }, { once: true });
-
-    imgWrap.removeAttribute('hidden');
-  });
-}
-
 // ── Hide/show read toggle ─────────────────────────────────────────────────────
 
 let hideReadActive = false;
@@ -272,9 +237,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Apply local read state immediately
   applyReadState();
   setSyncStatus(syncLabel());
-
-  // Extract poster images from description HTML
-  extractPostImages();
 
   // Sync from Gist on load if credentials are present
   const { pat, gistId } = getCredentials();
