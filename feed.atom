@@ -2,10 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-05T01:54:45.389Z</updated>
+    <updated>2026-04-05T10:30:27.040Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Geist in the machine ⊗ The prospect of Butlerian Jihad]]></title>
+        <id>69d0355266f92e0001e98d18</id>
+        <link href="https://sentiers.media/geist-in-the-machine-the-prospect-of-butlerian-jihad-no-397/"/>
+        <updated>2026-04-05T10:00:46.000Z</updated>
+        <summary type="html"><![CDATA[No.397 — Ending the AI arms race  ⊗ Insight and future-fit decisions ⊗ Better AI creative collaborators ⊗ Progressive Paris ⊗ The asteroid ryugu and the building blocks of life]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[scan-for-secrets 0.2]]></title>
+        <id>https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything"/>
+        <updated>2026-04-05T04:07:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.2">scan-for-secrets 0.2</a></p>
+    <ul>
+<li>CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.</li>
+<li><code>-d/--directory</code> option can now be used multiple times to scan multiple directories.</li>
+<li>New <code>-f/--file</code> option for specifying one or more individual files to scan.</li>
+<li>New <code>scan_directory_iter()</code>, <code>scan_file()</code> and <code>scan_file_iter()</code> Python API functions.</li>
+<li>New <code>-v/--verbose</code> option which shows each directory that is being scanned.</li>
+</ul>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[scan-for-secrets 0.1.1]]></title>
+        <id>https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything"/>
+        <updated>2026-04-05T03:39:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.1.1">scan-for-secrets 0.1.1</a></p>
+    <blockquote>
+<ul>
+<li>Added documentation of the escaping schemes that are also scanned.</li>
+<li>Removed unnecessary <code>repr</code> escaping scheme, which was already covered by <code>json</code>.</li>
+</ul>
+</blockquote>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[scan-for-secrets 0.1]]></title>
+        <id>https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything"/>
+        <updated>2026-04-05T03:27:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.1">scan-for-secrets 0.1</a></p>
+    <p>I like publishing transcripts of local Claude Code sessions using my <a href="https://github.com/simonw/claude-code-transcripts">claude-code-transcripts</a> tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files.</p>
+<p>I built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory:</p>
+<pre><code>uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/
+</code></pre>
+<p>If you leave off the <code>-d</code> it defaults to the current directory.</p>
+<p>It doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, <a href="https://github.com/simonw/scan-for-secrets/blob/main/README.md#escaping-schemes">as described in the README</a>.</p>
+<p>If you have a set of secrets you always want to protect you can list commands to echo them in a <code>~/.scan-for-secrets.conf.sh</code> file. Mine looks like this:</p>
+<pre><code>llm keys get openai
+llm keys get anthropic
+llm keys get gemini
+llm keys get mistral
+awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
+</code></pre>
+<p>I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then <a href="https://gisthost.github.io/?d4b1a398bf3b6b14aade923dea69a1ac/index.html">dumped it into Claude Code</a> and told it to build the actual tool (using <a href="https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/">red/green TDD</a>, naturally.)</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[research-llm-apis 2026-04-04]]></title>
         <id>https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything</id>

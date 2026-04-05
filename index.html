@@ -26,6 +26,103 @@
   </header>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="69d0355266f92e0001e98d18">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-05T10:00:46.000Z">2026-04-05</time>
+        <span class="feed-item__source">Sentiers</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://sentiers.media/geist-in-the-machine-the-prospect-of-butlerian-jihad-no-397/" target="_blank" rel="noopener noreferrer">Geist in the machine ⊗ The prospect of Butlerian Jihad</a>
+          </h2>
+          <p class="feed-item__desc">No.397 — Ending the AI arms race  ⊗ Insight and future-fit decisions ⊗ Better AI creative collaborators ⊗ Progressive Paris ⊗ The asteroid ryugu and the building blocks of life</p>
+          <div class="feed-item__actions">
+            <button class="js-mark-read btn btn--mark-read" data-id="69d0355266f92e0001e98d18">Mark read</button>
+            <span class="feed-item__reading-time">9 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://sentiers.media/content/images/2026/04/Geist_in_the_machine-w.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-05T04:07:13.000Z">2026-04-05</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything" target="_blank" rel="noopener noreferrer">scan-for-secrets 0.2</a>
+          </h2>
+          <p class="feed-item__desc">Release: scan-for-secrets 0.2
+CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.
+-d/--directory option can now be used multiple times to scan multiple directories.
+New -f/--file option for specifying one or more individual files to scan.
+New scan_directory_iter(), scan_file() and scan_file_iter() Python API functions.
+New -v/--verbose option which shows each directory that is being scanned.</p>
+          <div class="feed-item__actions">
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-05T03:39:33.000Z">2026-04-04</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything" target="_blank" rel="noopener noreferrer">scan-for-secrets 0.1.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: scan-for-secrets 0.1.1
+Added documentation of the escaping schemes that are also scanned.
+Removed unnecessary repr escaping scheme, which was already covered by json.</p>
+          <div class="feed-item__actions">
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-05T03:27:13.000Z">2026-04-04</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything" target="_blank" rel="noopener noreferrer">scan-for-secrets 0.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: scan-for-secrets 0.1
+I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files.
+I built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory:
+uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/
+
+If you leave off the -d it defaults to the current directory.
+It doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, as described in the README.
+If you have a set of secrets you always want to protect you can list commands to echo them in a ~/.scan-for-secrets.conf.sh file. Mine looks like this:
+llm keys get openai
+llm keys get anthropic
+llm keys get gemini
+llm keys get mistral
+awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
+
+I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then dumped it into Claude Code and told it to build the actual tool (using red/green TDD, naturally.)
+Tags: projects, security, agentic-engineering, coding-agents, ai-assisted-programming, claude-code</p>
+          <div class="feed-item__actions">
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-05T00:32:11.000Z">2026-04-04</time>
