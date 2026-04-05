@@ -1,30 +1,40 @@
 /**
- * reader.js — Mark-as-read with GitHub Gist cross-device sync
+ * reader.js — Mark-as-read + Favourites with GitHub Gist cross-device sync
  *
  * localStorage keys:
- *   rss_gist_id  — GitHub Gist ID for read state storage
- *   rss_gist_pat — GitHub Personal Access Token (gist scope)
- *   rss_read_ids — JSON array of read article IDs (local cache)
+ *   rss_gist_id    — GitHub Gist ID for read state storage
+ *   rss_gist_pat   — GitHub Personal Access Token (gist scope)
+ *   rss_read_ids   — JSON array of read article IDs (local cache)
+ *   rss_fav_ids    — JSON array of favourited article IDs (local cache)
+ *   rss_hide_read  — boolean: hide read items
+ *   rss_show_favs  — boolean: show only favourites
+ *
+ * Gist schema (read-state.json):
+ *   { readIds: [...], favouriteIds: [...], updatedAt: "..." }
  *
  * To migrate to a PHP backend later: replace fetchRemoteState() and
  * saveRemoteState() to call your own API endpoint instead of Gist.
  */
 
-const GIST_ID_KEY   = 'rss_gist_id';
-const PAT_KEY       = 'rss_gist_pat';
-const LOCAL_KEY     = 'rss_read_ids';
-const HIDE_READ_KEY = 'rss_hide_read';
-const GIST_FILENAME = 'read-state.json';
+const GIST_ID_KEY    = 'rss_gist_id';
+const PAT_KEY        = 'rss_gist_pat';
+const LOCAL_KEY      = 'rss_read_ids';
+const FAV_KEY        = 'rss_fav_ids';
+const HIDE_READ_KEY  = 'rss_hide_read';
+const SHOW_FAVS_KEY  = 'rss_show_favs';
+const GIST_FILENAME  = 'read-state.json';
 
 // ── State ────────────────────────────────────────────────────────────────────
 
-let readIds  = new Set(JSON.parse(localStorage.getItem(LOCAL_KEY) || '[]'));
-let syncTimer = null;
+let readIds      = new Set(JSON.parse(localStorage.getItem(LOCAL_KEY) || '[]'));
+let favouriteIds = new Set(JSON.parse(localStorage.getItem(FAV_KEY)   || '[]'));
+let syncTimer    = null;
 
 // ── Local state helpers ───────────────────────────────────────────────────────
 
 function saveLocal() {
   localStorage.setItem(LOCAL_KEY, JSON.stringify([...readIds]));
+  localStorage.setItem(FAV_KEY,   JSON.stringify([...favouriteIds]));
 }
 
 function applyReadState() {
@@ -32,6 +42,15 @@ function applyReadState() {
     el.classList.toggle('is-read', readIds.has(el.dataset.articleId));
   });
   updateUnreadCount();
+}
+
+function applyFavouriteState() {
+  document.querySelectorAll('[data-article-id]').forEach(el => {
+    const isFav = favouriteIds.has(el.dataset.articleId);
+    el.classList.toggle('is-favourite', isFav);
+    const btn = el.querySelector('.js-favourite');
+    if (btn) btn.textContent = isFav ? '★' : '☆';
+  });
 }
 
 function updateUnreadCount() {
@@ -57,6 +76,22 @@ function markAllRead() {
   saveLocal();
   applyReadState();
   syncToGist();
+}
+
+// ── Favourite actions ─────────────────────────────────────────────────────────
+
+function toggleFavourite(id) {
+  if (favouriteIds.has(id)) {
+    favouriteIds.delete(id);
+  } else {
+    favouriteIds.add(id);
+    // Favouriting also marks as read
+    readIds.add(id);
+  }
+  saveLocal();
+  applyReadState();
+  applyFavouriteState();
+  debouncedSyncToGist();
 }
 
 // ── Gist API ──────────────────────────────────────────────────────────────────
@@ -110,7 +145,7 @@ async function saveRemoteState(state) {
 }
 
 async function createGist(pat) {
-  const initialState = { readIds: [], updatedAt: new Date().toISOString() };
+  const initialState = { readIds: [], favouriteIds: [], updatedAt: new Date().toISOString() };
   const res = await fetch('https://api.github.com/gists', {
     method: 'POST',
     headers: {
@@ -140,11 +175,13 @@ async function syncFromGist() {
   try {
     setSyncStatus('Syncing...');
     const remote = await fetchRemoteState();
-    if (remote?.readIds?.length) {
-      // Merge: union of local and remote (read state is append-only)
-      remote.readIds.forEach(id => readIds.add(id));
+    if (remote) {
+      // Merge: union of local and remote (both lists are append-only)
+      remote.readIds?.forEach(id => readIds.add(id));
+      remote.favouriteIds?.forEach(id => favouriteIds.add(id));
       saveLocal();
       applyReadState();
+      applyFavouriteState();
     }
     setSyncStatus('Synced ✓');
     setTimeout(() => setSyncStatus(syncLabel()), 3000);
@@ -160,8 +197,9 @@ async function syncToGist() {
 
   try {
     const state = {
-      readIds: [...readIds],
-      updatedAt: new Date().toISOString(),
+      readIds:      [...readIds],
+      favouriteIds: [...favouriteIds],
+      updatedAt:    new Date().toISOString(),
     };
     await saveRemoteState(state);
   } catch (err) {
@@ -225,6 +263,22 @@ function applyHideRead() {
   if (btn) btn.textContent = hideReadActive ? 'Show read' : 'Hide read';
 }
 
+// ── Show favourites toggle ────────────────────────────────────────────────────
+
+let showFavsActive = localStorage.getItem(SHOW_FAVS_KEY) === 'true';
+
+function toggleShowFavourites() {
+  showFavsActive = !showFavsActive;
+  localStorage.setItem(SHOW_FAVS_KEY, showFavsActive);
+  applyShowFavourites();
+}
+
+function applyShowFavourites() {
+  document.body.classList.toggle('show-favourites', showFavsActive);
+  const btn = document.getElementById('js-toggle-show-favourites');
+  if (btn) btn.classList.toggle('btn--active', showFavsActive);
+}
+
 // ── UI helpers ────────────────────────────────────────────────────────────────
 
 function setSyncStatus(msg) {
@@ -240,9 +294,10 @@ function syncLabel() {
 // ── Init ──────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Apply local read state immediately
   applyReadState();
+  applyFavouriteState();
   applyHideRead();
+  applyShowFavourites();
 
   // Sync from Gist on load if credentials are present; hide setup UI if configured
   const { pat, gistId } = getCredentials();
@@ -256,10 +311,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('js-mark-all-read')?.addEventListener('click', markAllRead);
   document.getElementById('js-setup-sync')?.addEventListener('click', setupSync);
   document.getElementById('js-toggle-hide-read')?.addEventListener('click', toggleHideRead);
+  document.getElementById('js-toggle-show-favourites')?.addEventListener('click', toggleShowFavourites);
 
-  // Per-article mark-read buttons (event delegation on document)
+  // Per-article buttons (event delegation)
   document.addEventListener('click', e => {
-    const btn = e.target.closest('.js-mark-read');
-    if (btn) markRead(btn.dataset.id);
+    const readBtn = e.target.closest('.js-mark-read');
+    if (readBtn) markRead(readBtn.dataset.id);
+
+    const favBtn = e.target.closest('.js-favourite');
+    if (favBtn) toggleFavourite(favBtn.dataset.id);
   });
 });

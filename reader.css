@@ -138,6 +138,37 @@ a:hover {
   color: var(--accent);
 }
 
+.btn--favourite {
+  background: transparent;
+  border: none;
+  color: var(--text-faint);
+  font-size: 1rem;
+  padding: 0 4px;
+  line-height: 1;
+  cursor: pointer;
+  transition: var(--token-transition-fast);
+}
+
+.btn--favourite:hover {
+  color: var(--accent-hover);
+}
+
+.feed-item.is-favourite .btn--favourite {
+  color: var(--accent-hover);
+}
+
+.btn--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn--active:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  color: #fff;
+}
+
 /* ── Feed ─────────────────────────────────────────────── */
 
 .feed {
@@ -273,7 +304,13 @@ a:hover {
   display: none;
 }
 
-.hide-read .feed-item.is-read {
+/* Hide read items — but always keep favourites visible */
+.hide-read .feed-item.is-read:not(.is-favourite) {
+  display: none;
+}
+
+/* Show only favourites */
+.show-favourites .feed-item:not(.is-favourite) {
   display: none;
 }
 

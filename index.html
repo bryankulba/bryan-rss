@@ -17,6 +17,7 @@
       <h1 class="site-title">Bryan RSS</h1>
       <div class="toolbar">
         <span id="js-unread-count" class="unread-count"></span>
+        <button id="js-toggle-show-favourites" class="btn btn--ghost">★ Favourites</button>
         <button id="js-toggle-hide-read" class="btn btn--ghost">Hide read</button>
         <button id="js-mark-all-read" class="btn btn--ghost">Mark all read</button>
         <button id="js-setup-sync" class="btn btn--ghost">Setup sync</button>
@@ -38,6 +39,7 @@
           </h2>
           <p class="feed-item__desc">No.397 — Ending the AI arms race  ⊗ Insight and future-fit decisions ⊗ Better AI creative collaborators ⊗ Progressive Paris ⊗ The asteroid ryugu and the building blocks of life</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="69d0355266f92e0001e98d18" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="69d0355266f92e0001e98d18">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
           </div>
@@ -64,6 +66,7 @@ New -f/--file option for specifying one or more individual files to scan.
 New scan_directory_iter(), scan_file() and scan_file_iter() Python API functions.
 New -v/--verbose option which shows each directory that is being scanned.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -84,6 +87,7 @@ New -v/--verbose option which shows each directory that is being scanned.</p>
 Added documentation of the escaping schemes that are also scanned.
 Removed unnecessary repr escaping scheme, which was already covered by json.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -117,6 +121,7 @@ awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
 I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then dumped it into Claude Code and told it to build the actual tool (using red/green TDD, naturally.)
 Tags: projects, security, agentic-engineering, coding-agents, ai-assisted-programming, claude-code</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -138,6 +143,7 @@ I'm working on a major change to my LLM Python library and CLI tool. LLM provide
 To help design that new abstraction layer I had Claude Code read through the Python client libraries for Anthropic, OpenAI, Gemini and Mistral and use those to help craft curl commands to access the raw JSON for both streaming and non-streaming modes across a range of different scenarios. Both the scripts and the captured outputs now live in this new repo.
 Tags: llm, apis, json, llms</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -156,6 +162,7 @@ Tags: llm, apis, json, llms</p>
           </h2>
           <p class="feed-item__desc">Today's links EU ready to cave to Trump on tech: Surrendermonkeys ahoy. Hey look at this: Delights to delectate. Object permanence: "Among a Thousand Fireflies"; "fiscal" not "physical"; Ontario's pusher premiere can't distribute vaccines; You need your head examined (if you trust an AI therapist); Women tell Pence about their periods; Zombie economy and digital arm-breakers; The trouble with tariffs. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. EU ready to cave to Trump on tech (permalink) Crises precipitate change. That's no reason to induce a crisis, but you'…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12621" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12621">Mark read</button>
             <span class="feed-item__reading-time">11 min read</span>
           </div>
@@ -178,6 +185,7 @@ GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 20
 — Kyle Daigle, COO, GitHub
 Tags: github, github-actions</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -208,6 +216,7 @@ I just started a new tag here for ai-security-research - it's up to 11 posts alr
     
 Tags: security, thomas-ptacek, careers, ai, generative-ai, llms, nicholas-carlini, ai-ethics, ai-security-research</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -231,6 +240,7 @@ Tags: security, thomas-ptacek, careers, ai, generative-ai, llms, nicholas-carlin
 That was 48 seconds. Our full conversation lasted 1 hour 40 minutes.
 Tags: ai-ethics, coding-agents, agentic-engineering, generative-ai, podcast-appearances, ai, llms, cognitive-debt</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -256,6 +266,7 @@ And we're now seeing on a daily basis something that never happened before: dupl
 — Willy Tarreau, Lead Software Developer. HAPROXY
 Tags: security, linux, generative-ai, ai, llms, ai-security-research</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -278,6 +289,7 @@ I'm spending hours per day on this now. It's intense.
 — Daniel Stenberg, lead developer of cURL
 Tags: daniel-stenberg, security, curl, generative-ai, ai, llms, ai-security-research</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -300,6 +312,7 @@ Something happened a month ago, and the world switched. Now we have real reports
 — Greg Kroah-Hartman, Linux kernel maintainer (bio), in conversation with Steven J. Vaughan-Nichols
 Tags: security, linux, generative-ai, ai, llms, ai-security-research</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -318,6 +331,7 @@ Tags: security, linux, generative-ai, ai, llms, ai-security-research</p>
           </h2>
           <p class="feed-item__desc">We’re expected to believe that the NY Times is a serious newspaper when they are sending a reporter to talk to dozens of ppl to debunk a claim from a known conspiracy theorist, fascist, and grifter that he’d teleported into a Waffle House?!?</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048663-were-expected-to-believe-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048663-were-expected-to-believe-">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -336,6 +350,7 @@ Tags: security, linux, generative-ai, ai, llms, ai-security-research</p>
           </h2>
           <p class="feed-item__desc">As Slow As Possible. Very very very slow versions of three classic video games: Pong, Breakout, and Missile Command. On the slowest setting, you’re almost begging for a notification functionality to alert you when you need to next engage.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048661-as-slow-as-possible-very" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048661-as-slow-as-possible-very">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -354,6 +369,7 @@ Tags: security, linux, generative-ai, ai, llms, ai-security-research</p>
           </h2>
           <p class="feed-item__desc">I have to say that I was a little bit charmed by the trailer for Supergirl. Looks promising.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048662-i-have-to-say-that" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048662-i-have-to-say-that">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -378,6 +394,7 @@ Tags: security, linux, generative-ai, ai, llms, ai-security-research</p>
          
 Tags: Bjork · music · rosalía · video</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/rosala-berghain-live" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/rosala-berghain-live">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -412,6 +429,7 @@ There aren’t many combinations to try, only 63. I usually try a few then run t
 Perhaps the code is different each night, perhaps it is the same – I wouldn’t know because I discover it successfully every time and go to sleep and forget what happened.
 I was gently advised against posting this because it makes me sound like a weirdo but you already know that about me. And now you know about the six buttons too.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/04/03/sleep" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/04/03/sleep">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -433,6 +451,7 @@ I was gently advised against posting this because it makes me sound like a weird
           </h2>
           <p class="feed-item__desc">A women had sex with identical twins (within a 4-day period), got pregnant, and now it’s impossible to tell which is the father, even with DNA testing.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048659-a-women-had-sex-with" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048659-a-women-had-sex-with">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -453,6 +472,7 @@ I was gently advised against posting this because it makes me sound like a weird
 In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed iframes without using a separate domain to host the files. Turns out you can inject <meta http-equiv="Content-Security-Policy"...> tags at the top of the iframe content and they'll be obeyed even if subsequent untrusted JavaScript tries to manipulate them.
 Tags: iframes, security, javascript, content-security-policy, sandboxing</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -471,6 +491,7 @@ Tags: iframes, security, javascript, content-security-policy, sandboxing</p>
           </h2>
           <p class="feed-item__desc">Tracker dashboard for the Artemis II mission using real-time data from JPL.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048657-tracker-dashboard-for-the" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048657-tracker-dashboard-for-the">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -490,6 +511,7 @@ Tags: iframes, security, javascript, content-security-policy, sandboxing</p>
           <p class="feed-item__desc">Two research groups say they have significantly reduced the amount of qubits and time required to crack common online security technologies.            
 The post New Advances Bring the Era of Quantum Computers Closer Than Ever first appeared on Quanta Magazine</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160668" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160668">Mark read</button>
             <span class="feed-item__reading-time">13 min read</span>
           </div>
@@ -521,6 +543,7 @@ That is so cool. Worth clicking through to see the high-resolution image.
          
 Tags: artemis · Earth · NASA · photography · science · space</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/this-is-us" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/this-is-us">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -542,6 +565,7 @@ Tags: artemis · Earth · NASA · photography · science · space</p>
           </h2>
           <p class="feed-item__desc">Does what it says on the tin: acid techno mix in Japanese sake brewery.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048654-does-what-it-says-on" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048654-does-what-it-says-on">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -585,6 +609,7 @@ That's a very effective scam. I join a lot of meetings where I find myself needi
 Every maintainer of open source software used by enough people to be worth taking in this way needs to be familiar with this attack strategy.
 Tags: open-source, packaging, security, social-engineering, supply-chain</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -603,6 +628,7 @@ Tags: open-source, packaging, security, social-engineering, supply-chain</p>
           </h2>
           <p class="feed-item__desc">“If Artemis II is successful, the astronauts will be the first humans to reach the moon’s orbit in more than 50 years, and their path around its far side will take them farther into the universe than any human being has previously traveled.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048653-if-artemis-ii-is-successf" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048653-if-artemis-ii-is-successf">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1002,6 +1028,7 @@ Here's the full list of chapters Lenny's team defined for the YouTube video:
         
 Tags: ai, kakapo, generative-ai, llms, podcast-appearances, coding-agents, agentic-engineering</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">13 min read</span>
           </div>
@@ -1048,6 +1075,7 @@ Pretty good, though it is missing the front part of the bicycle frame:
     
 Tags: google, ai, generative-ai, local-llms, llms, llm, vision-llms, pelican-riding-a-bicycle, llm-reasoning, gemma, llm-release, lm-studio</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -1071,6 +1099,7 @@ Tags: google, ai, generative-ai, local-llms, llms, llm, vision-llms, pelican-rid
 New models gemini-3.1-flash-lite-preview, gemma-4-26b-a4b-it and gemma-4-31b-it. See my notes on Gemma 4.
 Tags: gemini, llm, gemma</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1089,6 +1118,7 @@ Tags: gemini, llm, gemma</p>
           </h2>
           <p class="feed-item__desc">a new point-and-click text adventure made with World Builder, a game creator for the Mac first released in 1986 #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50566" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50566">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -1113,6 +1143,7 @@ Tags: gemini, llm, gemma</p>
 I know when I’m beaten. It’s gonna be KDO Lite for a few more days while I get my life in order. In the meantime, talk amongst yourselves…
 A missed checklist item from when the site moved servers a few months ago.↩</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/open-thread-3" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/open-thread-3">Mark read</button>
             <span class="feed-item__reading-time">15 min read</span>
           </div>
@@ -1131,6 +1162,7 @@ A missed checklist item from when the site moved servers a few months ago.↩</p
           </h2>
           <p class="feed-item__desc">“ICE Tours VT provides guided bus tours to many of these facilities, where you will learn about the scope, scale, and history of DHS in Vermont. Think Hollywood star tours, but instead of celebrity mansions you get federal surveillance infrastructure.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048650-ice-tours-vt-provides-gui" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048650-ice-tours-vt-provides-gui">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -1149,6 +1181,7 @@ A missed checklist item from when the site moved servers a few months ago.↩</p
           </h2>
           <p class="feed-item__desc">The exhibition delves into the political, ethical and cultural facets of the ideas and practices surrounding beauty</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://we-make-money-not-art.com/?p&#x3D;38948" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://we-make-money-not-art.com/?p&#x3D;38948">Mark read</button>
             <span class="feed-item__reading-time">10 min read</span>
           </div>
@@ -1170,6 +1203,7 @@ A missed checklist item from when the site moved servers a few months ago.↩</p
           </h2>
           <p class="feed-item__desc">Today's links It's extremely good that Claude's source-code leaked: Careful what you wish for. Hey look at this: Delights to delectate. Object permanence: "Elephantmen"; Eve Online war bankrolled by casino; Phishers take Mattel for $3m; Sanders wins 6 primaries, CNN airs Jesus "documentary"; Cuba is a vaccine powerhouse; Embroidered Toast; Mass layoffs at ATT. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. It's extremely good that Claude's source-code leaked (permalink) Anthropic's developers made an extremely basic configuration error, and as a result, the source…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12614" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12614">Mark read</button>
             <span class="feed-item__reading-time">17 min read</span>
           </div>
@@ -1202,6 +1236,7 @@ https://anarchive.fo.am/silver/community_and_coalition_building/
 
 Both texts find politics in the operational layer – how things are run, hosted, configured, and maintained – and both find something worth celebrating there: the ongoing, careful, sometimes joyful work of making and tending infrastructure for collective life.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="http://fo.am/blog/2026/04/01/coalition-infrastructure/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="http://fo.am/blog/2026/04/01/coalition-infrastructure/">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -1233,6 +1268,7 @@ And a couple of museums
 Here's a copy of the February newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!
 Tags: newsletter</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1391,6 +1427,7 @@ The Garden
 
 Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/on-air/chris-bohn-hosts-adventures-in-sound-and-music" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/on-air/chris-bohn-hosts-adventures-in-sound-and-music">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1412,6 +1449,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">“LLM-generated passwords…appear strong, but are fundamentally insecure, because LLMs are designed to predict tokens – the opposite of securely and uniformly sampling random characters.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048646-llm-generated-passwordsap" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048646-llm-generated-passwordsap">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -1433,6 +1471,7 @@ The same model ID no longer needs to be repeated in both the default model and a
 Improved documentation for Python API usage.
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1453,6 +1492,7 @@ Tags: llm, datasette</p>
 The actor who triggers an enrichment is now passed to the llm.mode(... actor=actor) method. #3
 Tags: enrichments, llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1478,6 +1518,7 @@ See also Dwells’ mashup of Everything In Its Right Place and N95.
          
 Tags: Kendrick Lamar · music · Radiohead · remix · video</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/kendrick-lamar-bloody-murder" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/kendrick-lamar-bloody-murder">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1499,6 +1540,7 @@ Tags: Kendrick Lamar · music · Radiohead · remix · video</p>
           </h2>
           <p class="feed-item__desc">From Heatmap News & MIT, the Electricity Price Hub is “a new public data platform that provides monthly, utility-level estimates of residential electricity rates and bills across the United States going back to 2021…”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048649-from-heatmap-news-mit" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048649-from-heatmap-news-mit">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1517,6 +1559,7 @@ Tags: Kendrick Lamar · music · Radiohead · remix · video</p>
           </h2>
           <p class="feed-item__desc">Scientists have genetically engineered tobacco plants to produce five psychedelic compounds, including psilocybin, DMT, and psychedelic compounds secreted by the Sonoran Desert toad.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048648-scientists-have-genetical" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048648-scientists-have-genetical">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1537,6 +1580,7 @@ Tags: Kendrick Lamar · music · Radiohead · remix · video</p>
 I will just say it: I wish the author was more woke. The book is very male-coded. The main chosen areas of investigation are: motorcycles! tanks! guns! wars! There are moments towards the end where Elon Musk and Bill Gates are talked about as if it was still 15 years ago and we haven’t actually learned anything since. (No word of Cybertruck, either.)
 We know maintenance tends to be unrewarded and forgotten come promotion time. We know that tedious tasks are often assigned to women and people of color while…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/stewart-brand-maintenance" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/stewart-brand-maintenance">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -1555,6 +1599,7 @@ We know maintenance tends to be unrewarded and forgotten come promotion time. We
           </h2>
           <p class="feed-item__desc">Not sure what level of prank/gag/stunt this is (note today’s date), but this is supposedly a fully functional compass that only points to the Olive Garden in Times Square.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048645-not-sure-what-level-of" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048645-not-sure-what-level-of">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1573,6 +1618,7 @@ We know maintenance tends to be unrewarded and forgotten come promotion time. We
           </h2>
           <p class="feed-item__desc">The Pioneering Coffee House Serving Since 1645. “In Oxford, ‘runners’ would go from coffee house to coffee house, picking up all the best news and delivering it back to customers, said Garner. You’re talking human wi-fi.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048644-the-pioneering-coffee-hou" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048644-the-pioneering-coffee-hou">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1591,6 +1637,7 @@ We know maintenance tends to be unrewarded and forgotten come promotion time. We
           </h2>
           <p class="feed-item__desc">After two years off, Tom Scott is back with a new YouTube series: “I took a road trip through every county in England, and filmed something interesting in each of them.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048643-tom-scott-is-back-with" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048643-tom-scott-is-back-with">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1610,6 +1657,7 @@ We know maintenance tends to be unrewarded and forgotten come promotion time. We
           <p class="feed-item__desc">The winning entries in the 2025 Global Physics Photowalk contest showcase the beauty of toil and discovery.            
 The post A Through-The-Lens Look at the World’s Particle Physics Labs first appeared on Quanta Magazine</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160237" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160237">Mark read</button>
             <span class="feed-item__reading-time">8 min read</span>
           </div>
@@ -1648,6 +1696,7 @@ As a commenter said on the video snippet I linked to above: “He’s just descr
          
 Tags: David Futrelle · Marc Andreessen · politics</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/andreessen-inability-sit-quietly" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/andreessen-inability-sit-quietly">Mark read</button>
             <span class="feed-item__reading-time">6 min read</span>
           </div>
@@ -1666,6 +1715,7 @@ Tags: David Futrelle · Marc Andreessen · politics</p>
           </h2>
           <p class="feed-item__desc">Today's links Trumpismo vs minilateralism: The enemy gets a vote. Hey look at this: Delights to delectate. Object permanence: My new sigfile is unstoppable; TBL on the future of the web (2006); Wonder Woman sweater pattern; Unpatchable drug cabinets; 50-building mural; DRM v (the next) Netflix. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trumpismo vs minilateralism (permalink) As November Kelly has pointed out, the weirdest thing about Trumpismo is how the man seethes and rails against a game that is thoroughly rigged in America's favor, because he resents havi…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12604" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12604">Mark read</button>
             <span class="feed-item__reading-time">11 min read</span>
           </div>
@@ -1686,6 +1736,7 @@ Tags: David Futrelle · Marc Andreessen · politics</p>
 Now uses datasette-llm to manage model configuration, which means you can control which models are available for extraction tasks using the extract purpose and LLM model configuration. #38
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1706,6 +1757,7 @@ Tags: llm, datasette</p>
 This plugin now uses datasette-llm to configure and manage models. This means it's possible to specify which models should be made available for enrichments, using the new enrichments purpose.
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1729,6 +1781,7 @@ Full prompts and responses and tool calls can now be logged to the llm_usage_pro
 Redesigned the /-/llm-usage-simple-prompt page, which now requires the llm-usage-simple-prompt permission.
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1749,6 +1802,7 @@ Tags: llm, datasette</p>
 The llm_prompt_context() plugin hook wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track tool call loops. #5
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1770,6 +1824,7 @@ Tags: llm, datasette</p>
 — Soohoon Choi, Slop Is Not Necessarily The Future
 Tags: slop, ai-assisted-programming, generative-ai, agentic-engineering, ai, llms</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1788,6 +1843,7 @@ Tags: slop, ai-assisted-programming, generative-ai, agentic-engineering, ai, llm
           </h2>
           <p class="feed-item__desc">Nothing Works in Trump’s America — Except Racism. “Trump is objectively bad at running the government, but he’s objectively good at running a Klan rally, and his supporters value the latter so much that they forgive the former.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048640-nothing-works-in-trumps-a" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048640-nothing-works-in-trumps-a">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -1896,6 +1952,7 @@ Obsidiana
     
 Rocket)</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/tracks/office-ambience-507" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/tracks/office-ambience-507">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1923,6 +1980,7 @@ It looks like the attack came from a leaked long-lived npm token. Axios have an 
 Via lobste.rs
 Tags: javascript, security, npm, supply-chain</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1941,6 +1999,7 @@ Tags: javascript, security, npm, supply-chain</p>
           </h2>
           <p class="feed-item__desc">The 2026 issue of the HTML Review, “an annual journal of literature made to exist on the web”.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048634-the-2026-issue-of-the" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048634-the-2026-issue-of-the">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -1962,6 +2021,7 @@ Ability to configure different API keys for models based on their purpose - for 
 I released llm-echo 0.3 to provide an API key testing utility I needed for the tests for this new feature.
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -1980,6 +2040,7 @@ Tags: llm, datasette</p>
           </h2>
           <p class="feed-item__desc">Mark Simonson reminisces about when he discovered type design. “The idea of coming up with an original alphabet design fired my imagination. And learning that it was possible to design type professionally was a revelation.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048636-mark-simonson-reminisces-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048636-mark-simonson-reminisces-">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2002,6 +2063,7 @@ My llm-mrchatterbox plugin is sync only. I wanted to try it out with various Dat
 So... I had Claude spin up this plugin that turns sync models into async models using a thread pool. This ended up needing an extra plugin hook mechanism in LLM itself, which I shipped just now in LLM 0.30.
 Tags: llm, async, python</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2023,6 +2085,7 @@ The register_models() plugin hook now takes an optional model_aliases parame
 Added docstrings to public classes and methods and included those directly in the documentation.
 Tags: llm</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/31/llm/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/31/llm/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2041,6 +2104,7 @@ Tags: llm</p>
           </h2>
           <p class="feed-item__desc">“By focusing its narrative on the tech industry itself, Halt and Catch Fire’s staying power has only increased. The story it tells still has something to say about our present-day reality.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048635-by-focusing-its-narrative" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048635-by-focusing-its-narrative">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2059,6 +2123,7 @@ Tags: llm</p>
           </h2>
           <p class="feed-item__desc">For the latest episode of Design Matters, Debbie Millman interviews Timothy Snyder about “how we misunderstand freedom, why truth and empathy are under threat, and what this political moment asks of us”. Millman is an *excellent* interviewer.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048637-for-the-latest-episode-of" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048637-for-the-latest-episode-of">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2079,6 +2144,7 @@ Tags: llm</p>
 Prompts now have the input_tokens and output_tokens fields populated on the response.
 Tags: llm</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2097,6 +2163,7 @@ Tags: llm</p>
           </h2>
           <p class="feed-item__desc">Endgame for the Open Web, brought on by LLM bots, content summarizing while driving no traffic, increasing paywalls for information of all kinds, locking down APIs (due to AI abuse), attacks on Wikipedia, disruption of open source communities, etc.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048638-endgame-for-the-open-web" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048638-endgame-for-the-open-web">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2119,6 +2186,7 @@ Mechanism for testing raw responses. #4
 New echo-needs-key model for testing model key logic. #7
 Tags: llm</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2137,6 +2205,7 @@ Tags: llm</p>
           </h2>
           <p class="feed-item__desc">NASA’s LRO found a new crater on the Moon…it’s 225 meters across and 43 meters deep. “According to predictions based on other lunar landmarks, a crater that big should form only once in 139 years.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048633-nasas-lro-found-a-new" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048633-nasas-lro-found-a-new">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2163,6 +2232,7 @@ All these emerging nations right now are stuck on coal. The story the US is tryi
          
 Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/us-the-last-big-petrostate" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/us-the-last-big-petrostate">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2181,6 +2251,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">Help! My Favorite Athlete Is an Idiot (Alt headline: When Sports Heroes Have Terrible Opinions). “Just root for the jersey and not necessarily the nitwit wearing it?”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048639-help-my-favorite-athlete-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048639-help-my-favorite-athlete-">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2199,6 +2270,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">Music for Intersecting Planes by Leila Bordreuil + Kali Malone Aphelion by Isolde & Isobelle Vision Transmissions by zakè, Christina Giannone, Tyresta Bodies of Water…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18135" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18135">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -2220,6 +2292,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">Today's links State Dems must stop ICE from stealing the midterms: The literal least they can do. Hey look at this: Delights to delectate. Object permanence: Power-strip bug; "Peaceful Baghdad" was actually Istanbul; Disney pirates Disney font; AMC v day-and-date; SF growth chart; Cuba’s meritocratic free med schools; Trump strategist v Trump; Monopoly so fragile. Upcoming appearances: Montreal, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. State Dems must stop ICE from stealing the midterms (permalink) Donald Trump has announced his intention to steal the midterms with a voter suppression law that would ban the mail-in voting…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12595" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12595">Mark read</button>
             <span class="feed-item__reading-time">10 min read</span>
           </div>
@@ -2238,6 +2311,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">The Ware for March 2026 is below: This ware malfunctioned, so I took it apart to see what’s going on and now it’s this month’s Name that Ware. As it would be far too easy to guess if I showed the whole circuit board, this is just a portion of the whole ware. I suspect […]</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7542" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7542">Mark read</button>
             <span class="feed-item__reading-time">7 min read</span>
           </div>
@@ -2256,6 +2330,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">The Ware for February 2026 is a WITRN C5. Congrats to Tim for guessing it, email me for your prize!</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7540" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7540">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2274,6 +2349,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">Astronaut Michael Fincke was rendered unable to speak while on the ISS, prompting an evacuation to Earth. “We’re almost 100% sure that this is a space-related thing.” Uh, I’ve been reading a lot of sci-fi recently; this is *exactly* how It starts.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048641-astronaut-michael-fincke-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048641-astronaut-michael-fincke-">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2292,6 +2368,7 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
           </h2>
           <p class="feed-item__desc">A new study shows that since 1990, the United States has caused $10 trillion in global climate damages. China is responsible for $9T. “Our emissions have caused damage not only to ourselves, but pretty substantial damage in other parts of the world.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048632-a-new-study-shows-that-1" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048632-a-new-study-shows-that-1">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -2315,6 +2392,7 @@ The file picker UI is now available as a <datasette-file-picker> Web Component. 
 New from datasette_files import get_file Python API for other plugins that need to access file data. #20
 Tags: datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2333,6 +2411,7 @@ Tags: datasette</p>
           </h2>
           <p class="feed-item__desc">Jesus Clarifies Return Will Be Strictly Limited To Carpentry Business. “My sole focus during this Second Coming will be various woodworking projects and not the establishment of a messianic kingdom.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048630-jesus-clarifies-return-wi" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048630-jesus-clarifies-return-wi">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -2354,6 +2433,7 @@ Tags: datasette</p>
 — Georgi Gerganov, explaining why it's hard to find local models that work well with coding agents
 Tags: coding-agents, generative-ai, ai, local-llms, llms, georgi-gerganov</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2374,6 +2454,7 @@ Tags: coding-agents, generative-ai, ai, local-llms, llms, georgi-gerganov</p>
 Adds the ability to configure which LLMs are available for which purpose, which means you can restrict the list of models that can be used with a specific plugin. #3
 Tags: llm, datasette</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2392,6 +2473,7 @@ Tags: llm, datasette</p>
           </h2>
           <p class="feed-item__desc">Today's links Market participation is exhausting: No one wants to be the sucker at the table. Hey look at this: Delights to delectate. Object permanence: EMI DRM v Brazil; "The Information"; Genome patenter v copyright troll (let them fight); Green investing isn't; Trump loves Big Tech; Kleptones' "24 Hours"; Lasermonks; Ransomware hospital; News co-ops; AI "art" sucks; Swisscom wifi is $838/24h; Millennials don't exist; Why Microsoft's chatbot turned Nazi; NYC's best dumpster-dived food; RIP Diana Wynne Jones; What really happened at the student protests in Trafalgar Square; Church-owned insurer has secret pedo priest files; Names that break databases; Reality-based communities; Hugo for websites; Cop cabs; Fake pediatrician group; Bring Your Own Bigwheeel; "How To Talk About Videogames."…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12587" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12587">Mark read</button>
             <span class="feed-item__reading-time">17 min read</span>
           </div>
@@ -2410,6 +2492,7 @@ Tags: llm, datasette</p>
           </h2>
           <p class="feed-item__desc">I love these looping GIF animations from perfectl00p that use Windows 3.1 elements (Minesweeper, Solitaire, SkiFree, Notepad).</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048291-i-love-these-looping-gif" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048291-i-love-these-looping-gif">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -2428,6 +2511,7 @@ Tags: llm, datasette</p>
           </h2>
           <p class="feed-item__desc">Pippin Barr tests your attention span with weirdly meditative slowed-down remakes of Pong, Breakout, and Missile Command #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50564" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50564">Mark read</button>
           </div>
         </div>
@@ -2446,6 +2530,7 @@ Tags: llm, datasette</p>
           <p class="feed-item__desc">The basic shape that best describes our expanding universe is also the hardest shape for physicists to understand.            
 The post In Expanding de Sitter Space, Quantum Mechanics Gets Even More Elusive first appeared on Quanta Magazine</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160503" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160503">Mark read</button>
             <span class="feed-item__reading-time">12 min read</span>
           </div>
@@ -2534,6 +2619,7 @@ First, I downloaded the British Library dataset split of all 19th-century books.
 Getting it to behave like a conversational model was a lot harder. Trip started by trying to train on plays by Oscar Wilde and George Bernard Shaw, but found they didn't provide enough pairs. Then he tried extracting dialogue pairs from the books themselves with poor results. The approach that worked was to have Claude Haiku and GPT-4o-mini generate synthetic conversation pairs for the supervised fine tuning, which solved the problem but sadly I think dilutes the "no training inputs from after 1899" claim from the original model card.
 Tags: ai, andrej-karpathy, generative-ai, local-llms, llms, ai-assisted-programming, hugging-face, llm, training-data, uv, ai-ethics, claude-code</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -2555,6 +2641,7 @@ Tags: ai, andrej-karpathy, generative-ai, local-llms, llms, ai-assisted-programm
           </h2>
           <p class="feed-item__desc">Alexander Kluge died. Just a couple of weeks after his friend Jurgen Habermas. THE FACE magazine died, again. Didn’t get as much done outside as…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18132" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18132">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -2576,6 +2663,7 @@ Tags: ai, andrej-karpathy, generative-ai, local-llms, llms, ai-assisted-programm
           </h2>
           <p class="feed-item__desc">Crispy! Read here.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/vector-voxels/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/vector-voxels/">Mark read</button>
             <span class="feed-item__reading-time">17 min read</span>
           </div>
@@ -2599,6 +2687,7 @@ Tags: ai, andrej-karpathy, generative-ai, local-llms, llms, ai-assisted-programm
 See Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer.
 Tags: llm</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2630,6 +2719,7 @@ This was achieved through showing Claude Code and Codex the browsers ground trut
 Via @_chenglou
 Tags: browsers, css, javascript, testing, react, typescript</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/29/pretext/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/29/pretext/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2652,6 +2742,7 @@ Tags: browsers, css, javascript, testing, react, typescript</p>
           <p class="feed-item__desc">Tool: Pretext — Under the Hood
 See my notes on Pretext here.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2672,6 +2763,7 @@ See my notes on Pretext here.</p>
 I learned that the OSV.dev open source vulnerability database has an open CORS JSON API, so I had Claude Code build this HTML tool for pasting in a pyproject.toml or requirements.txt file (or name of a GitHub repo containing those) and seeing a list of all reported vulnerabilities from that API.
 Tags: tools, python, supply-chain, vibe-coding, security</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2690,6 +2782,7 @@ Tags: tools, python, supply-chain, vibe-coding, security</p>
           </h2>
           <p class="feed-item__desc">No.396 — Tough week for Zuck ⊗ Learning in Motion ⊗ The people pushing back on AI ⊗ A wind-powered tumbleweed ⊗ Books, plants and playgrounds</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="69c84403156686000101351c" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="69c84403156686000101351c">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
           </div>
@@ -2717,6 +2810,7 @@ Tags: tools, python, supply-chain, vibe-coding, security</p>
          
 Tags: Daft Punk · Fred Again · music · Thomas Bangalter · video</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/rare-dj-set-daft-punk-thomas-bangalter" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/rare-dj-set-daft-punk-thomas-bangalter">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2744,6 +2838,7 @@ While I’m vibing (I call it vibing now, not coding and not vibe coding) while 
 — Matt Webb, An appreciation for (technical) architecture
 Tags: matt-webb, ai, llms, vibe-coding, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, definitions</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -2769,6 +2864,7 @@ I’m not an architect but some of my favourite books are about architecture.
 Here are three:
 How Buildings Learn: What Ha…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/03/28/architecture" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/03/28/architecture">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -2791,6 +2887,7 @@ How Buildings Learn: What Ha…</p>
           <p class="feed-item__desc">Release: datasette-showboat 0.1a2
 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2812,6 +2909,7 @@ I added an option to export a Markdown file from my app that lets Showboat incre
 — Richard Fontana, LGPLv3 co-author, weighing in on the chardet relicensing situation
 Tags: open-source, ai-ethics, llms, ai, generative-ai, ai-assisted-programming</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2945,6 +3043,7 @@ You don't need to open Xcode to build this kind of application!
 These two apps took very little time to build and have convinced me that building macOS apps in SwiftUI is a new capability I should consider for future projects.
 Tags: macos, ai, generative-ai, llms, vibe-coding, coding-agents, swift, claude-code</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">6 min read</span>
           </div>
@@ -2966,6 +3065,7 @@ Tags: macos, ai, generative-ai, llms, vibe-coding, coding-agents, swift, claude-
           </h2>
           <p class="feed-item__desc">Test footage from a slime simulator game made by former Epic Games employee Asher Zhu. You try to stay hydrated in the hot Tokyo summer by showering and drinking beverages from vending machines.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048582-test-footage-from-a-slime" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048582-test-footage-from-a-slime">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -2985,6 +3085,7 @@ Tags: macos, ai, generative-ai, llms, vibe-coding, coding-agents, swift, claude-
           <p class="feed-item__desc">Around the world, volcanologists are following the path of magma as it travels between connected volcanoes, in an effort that could lead to improved eruption forecasts.            
 The post When Coupled Volcanoes Talk, These Researchers Listen first appeared on Quanta Magazine</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160454" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160454">Mark read</button>
             <span class="feed-item__reading-time">12 min read</span>
           </div>
@@ -3006,6 +3107,7 @@ The post When Coupled Volcanoes Talk, These Researchers Listen first appeared on
           </h2>
           <p class="feed-item__desc">A list of chain restaurants whose names contain unusual structures, presented in decreasing order of how appealing it would be to eat in such a structure. (White Castle, Waffle House, etc.)</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048628-a-list-of-chain-restauran" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048628-a-list-of-chain-restauran">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -3024,6 +3126,7 @@ The post When Coupled Volcanoes Talk, These Researchers Listen first appeared on
           </h2>
           <p class="feed-item__desc">I have all the writing to do today, and I have at least half a dozen deliveries coming in, some of which are plants, which…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18129" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18129">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -3046,6 +3149,7 @@ The post When Coupled Volcanoes Talk, These Researchers Listen first appeared on
           <p class="feed-item__desc">Reading Time:  37 minutes   It does rather feel that the current situation in the Middle East, and the weird diplomatic gavotte that is currently happening around it, would be genuinely quite funny were it happening to another species on another planet. “Look!”, we would say, pointing and laughing, “look at the morons, ruining themselves with idiocy and venality,…
 Continue reading →</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://webcurios.co.uk/?p&#x3D;1492" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://webcurios.co.uk/?p&#x3D;1492">Mark read</button>
             <span class="feed-item__reading-time">38 min read</span>
           </div>
@@ -3071,6 +3175,7 @@ The Reco team then used a shadow deployment for a week to run the new and old ve
     
 Tags: go, json, ai, generative-ai, llms, agentic-engineering, vibe-porting</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -3231,6 +3336,7 @@ Palais De Mari Composed By Morton Feldman Performed By John Tilbury
 
 Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/on-air/misha-farrant-hosts-adventures-in-sound-and-music" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/on-air/misha-farrant-hosts-adventures-in-sound-and-music">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3252,6 +3358,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">There’s an upside-down “H” on the facade of a Frank Lloyd Wright building in Illinois. Here’s a deep dive into how it got there.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048602-theres-an-upside-down-h-o" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048602-theres-an-upside-down-h-o">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -3270,6 +3377,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">A comparison of different sorting algorithms (bubble, merge, heap, timsort). You can run them one at a time or race all seven.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048555-a-comparison-of-different" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048555-a-comparison-of-different">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -3288,6 +3396,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">A healthy dynamic. Read here.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/claude-cosleuth/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/claude-cosleuth/">Mark read</button>
             <span class="feed-item__reading-time">18 min read</span>
           </div>
@@ -3309,6 +3418,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">Off to see PROJECT HAIL MARY today, and then I need to crack a story idea that’s been eluding me for two weeks, and tomorrow…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18125" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18125">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -3330,6 +3440,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">Stephen Colbert is co-writing a Lord of the Rings movie. “The Lord of the Rings: Shadow of the Past is set 14 years after the passing of Frodo. Sam, Merry and Pippin set out to retrace the first steps of their adventure…”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048627-stephen-colbert-is-co-wri" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048627-stephen-colbert-is-co-wri">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3349,6 +3460,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           <p class="feed-item__desc">The quest to make mathematics rigorous has a long and spotty history — one mathematicians can learn from as they push to formalize everything in the computer program Lean.            
 The post In Math, Rigor Is Vital. But Are Digitized Proofs Taking It Too Far? first appeared on Quanta Magazine</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160228" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160228">Mark read</button>
             <span class="feed-item__reading-time">17 min read</span>
           </div>
@@ -3371,6 +3483,7 @@ The post In Math, Rigor Is Vital. But Are Digitized Proofs Taking It Too Far? fi
           <p class="feed-item__desc">David E. Dunning explores how mathematical notation is a social, world-building technology.            
 The post How Writing Changes Mathematical Thought first appeared on Quanta Magazine</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160323" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160323">Mark read</button>
             <span class="feed-item__reading-time">12 min read</span>
           </div>
@@ -3392,6 +3505,7 @@ The post How Writing Changes Mathematical Thought first appeared on Quanta Magaz
           </h2>
           <p class="feed-item__desc">An interview with Katerina Gkoutziouli and Daphne Dragona about a show that examines the escalation and multiplication of crises shaping the contemporary world</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://we-make-money-not-art.com/?p&#x3D;38892" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://we-make-money-not-art.com/?p&#x3D;38892">Mark read</button>
             <span class="feed-item__reading-time">12 min read</span>
           </div>
@@ -3413,6 +3527,7 @@ The post How Writing Changes Mathematical Thought first appeared on Quanta Magaz
           </h2>
           <p class="feed-item__desc">I noticed yesterday that NASA announced “President Trump’s Moon Base” will be commenced before the end of 2028, therefore the end of the President’s term.…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18119" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18119">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -3434,6 +3549,7 @@ The post How Writing Changes Mathematical Thought first appeared on Quanta Magaz
           </h2>
           <p class="feed-item__desc">Weird concept done well. Read here.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/aluminium/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/aluminium/">Mark read</button>
             <span class="feed-item__reading-time">17 min read</span>
           </div>
@@ -3455,6 +3571,7 @@ The post How Writing Changes Mathematical Thought first appeared on Quanta Magaz
           </h2>
           <p class="feed-item__desc">Today's links The cost of doing business: "Market definition" is a denial-of-service attack on antitrust law. Hey look at this: Delights to delectate. Object permanence: Union Pacific v model railroads; Warners v Potter fans; NYT's trademark trolling; Why Rebecca Black mashups suck; Jabba the peep; Grenfell costs v tenants. Upcoming appearances: Berkeley, Montreal, London, Berlin, Hay-on-Wye. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The cost of doing business (permalink) The most important part of any law, rule or policy isn't what it permits or prohibits – it's whether you can enforce the law at all. After all, as odious as a law that forbids people from thinki…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12580" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12580">Mark read</button>
             <span class="feed-item__reading-time">16 min read</span>
           </div>
@@ -3475,6 +3592,7 @@ The post How Writing Changes Mathematical Thought first appeared on Quanta Magaz
 
 Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil, harvesting what will be the bling tokens for an affluent culture many miles away. The soundtrack quakes with deep drones like synthetic shōmyō baritone chanting by Buddhist monks foretelling the fatal consequences of unchecked greed and ignorant hubris. The scene recalls a similarly ominous moment at the opening of The Exorcist (1973) when a stone talismanic statue is uncovered by archaeologists in northern Iraq. The devil in Uncut Gems will be revealed to be Man himself. I’m employing pompous terms here, because the thrust of Uncut Gems – indeed, of the Safdies’ films in general – is to build grand statements from little people. It’s a knowing …</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/in-writing/columns/daniel-lopatin-bling-tones-and-digital-iridescence" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/in-writing/columns/daniel-lopatin-bling-tones-and-digital-iridescence">Mark read</button>
             <span class="feed-item__reading-time">6 min read</span>
           </div>
@@ -3496,6 +3614,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">“Feminism is far from dead, but people love to write its obituary,” writes Rebecca Solnit. “In reality, it’s naively defeatist to assume millennia of patriarchy…could be or should have been fully disassembled in one lifetime.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048622-feminism-is-far-from-dead" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048622-feminism-is-far-from-dead">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -3514,6 +3633,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">We watched Zoolander last night and right before the Derelicte DJ throws on Relax, there’s a 2-second snippet of something that sounded super familiar. It took me a bit to track it down, but it’s trance banger Free by Mono Culture.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048626-we-watched-zoolander-last" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048626-we-watched-zoolander-last">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3532,6 +3652,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">A new edition of On Liberty, a canonical work of political philosophy, “is the first to officially name Harriet Taylor Mill as a co-author alongside John Stuart Mill”.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048623-a-new-edition-of-on" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048623-a-new-edition-of-on">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3550,6 +3671,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">“COVID probably killed 150,000 more people in its first two years than official U.S. tolls show”. Not surprising when you look at excess mortality numbers for that period.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048620-covid-probably-killed-150" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048620-covid-probably-killed-150">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3568,6 +3690,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">It is Old New Year’s Eve. The Julian Calendar wasn’t officially abolished here in the UK until 1752, and on that calendar the New Year…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18114" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18114">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -3589,6 +3712,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">Today's links Goodhart's Law vs "prediction markets": Putting a gun to the metric's head. Hey look at this: Delights to delectate. Object permanence: Apple v interop; Yahoo v the world; Rasputin v the Haunted Mansion; Opening chord from A Hard Day's Night; Mondrian Pong; "IP": Patent trolls v Apple. Upcoming appearances: Berkeley, Montreal, London, Berlin, Hay-on-Wye. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Goodhart's Law vs "prediction markets" (permalink) The most selectively believed-in verse in the conservative catechism is the idea that "incentives matter." Sure, "incentives matter" if you're seeking healthcare. That's why you're nibbled to death by co-pay…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12576" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12576">Mark read</button>
             <span class="feed-item__reading-time">15 min read</span>
           </div>
@@ -3607,6 +3731,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">Japan reflections and book recs. Read here.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/newsletters/good-trains/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/newsletters/good-trains/">Mark read</button>
             <span class="feed-item__reading-time">24 min read</span>
           </div>
@@ -3628,6 +3753,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">“Plain text accounting is a way of doing bookkeeping and accounting with plain text files and scriptable, command-line-friendly software.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048584-plain-text-accounting-is-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048584-plain-text-accounting-is-">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -3646,6 +3772,7 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
           </h2>
           <p class="feed-item__desc">Just renewed my membership for The Kid Should See This, a genuine internet treasure.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048624-just-renewed-my-membershi" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048624-just-renewed-my-membershi">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3671,6 +3798,7 @@ In the meantime, I thought the open thread we did a couple of weeks ago was so l
          
 Tags: kottke.org</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/its-an-open-thread-2" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/its-an-open-thread-2">Mark read</button>
             <span class="feed-item__reading-time">53 min read</span>
           </div>
@@ -3689,6 +3817,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">An interview with Andy Weir about the accuracy of the science in Project Hail Mary. “I’m proud that the only true violation of physics in the story is something you have to go down to the quantum level to find.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048621-an-interview-with-andy-we" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048621-an-interview-with-andy-we">Mark read</button>
             <span class="feed-item__reading-time">6 min read</span>
           </div>
@@ -3707,6 +3836,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">“Stop naming things after people, living or dead. No schools. No streets. No courthouses. No fountains. Just quit it.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048619-stop-naming-things-after-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048619-stop-naming-things-after-">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3725,6 +3855,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">Spring is surging out there in the world. A few little flashes of cold, then some rushes of warmth. I have some big pots and…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18097" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18097">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -3746,6 +3877,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">Today's links Understaffing as a form of enshittification: A way to shift value from workers, patients and shoppers to investors. Hey look at this: Delights to delectate. Object permanence: Marvel v "superhero"; What's a photocopier?; "Up Against It"; "Medusa's Web"; AI can't do your job; Coping with plenty; "The Shakedown"; Chickenized reverse-centaurs; France v iTunes; Copyfight discipline; Mystery lobbyists; "Where the Axe is Buried"; Free/open microprocessor; Folk models of computer security; Bug-eyed steampunk mask; Academics embracing Wikipedia. Upcoming appearances: Berkeley, Montreal, London, Berlin, Hay-on-Wye. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. U…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12570" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12570">Mark read</button>
             <span class="feed-item__reading-time">14 min read</span>
           </div>
@@ -3767,6 +3899,7 @@ Tags: kottke.org</p>
 
     Before founding Drowned By Local under a military curfew during the pandemic, the label’s curator, Laith Demashqieh, had been organising shows in Amman, bringing in artists like Drew McDowell and Hiro Kone, but he grew tired of being afraid of crackdowns and moral panics. “Drowned By Locals reflects a feeling of suffocation by proximity – by social pressure, familiarity, and consensus, as well as a general scepticism toward authority,” Demashqieh explains of the label’s name. Today is label operated from Jordan with nodes in the Netherlands and distributed with the help of befriended labels such as Industrial Coast. Drowned By Locals’ mission is, according to their motto, to give “voice and…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/tracks/unlimited-editions-drowned-by-locals" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/tracks/unlimited-editions-drowned-by-locals">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -3788,6 +3921,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">In an otherwise unpromisingly-titled article—“Could the US really release more of its strategic oil reserves?”—the Financial Times points out a surprising architectural vulnerability of the U.S. Strategic Oil Reserve. “The U.S. Strategic Oil Reserve is a series of vast, subterranean salt caverns in four different sites in Louisiana and Texas,” the article explains. “Many are … Continue reading "Contextual Collapse"</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.bldgblog.com/?p&#x3D;38031" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bldgblog.com/?p&#x3D;38031">Mark read</button>
             <span class="feed-item__reading-time">7 min read</span>
           </div>
@@ -3809,6 +3943,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">Another interesting night was had at Konsztrukting Soundz. Notably, Viv Corringham: New newsletter is out. I’m poking around the garden, assessing the winter damage –…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18093" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18093">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -3830,6 +3965,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">No.395 — Possibilities literacy ⊗ Proof ⊗ Energy falling below $100 ⊗ Roots and the meaning of life</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="69bee19421d6c30001ae8ab4" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="69bee19421d6c30001ae8ab4">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
           </div>
@@ -3851,6 +3987,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">A cartographer posits that our maps should be messier. “The idea that we must have a crisp line dividing one country from another is often inaccurate when it comes to what states are actually claiming.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048614-a-cartographer-posits-tha" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048614-a-cartographer-posits-tha">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3869,6 +4006,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">This is a diabolical phishing attack. “That generated a real case ID, and triggered real Apple emails to my inbox, properly signed, from Apple’s actual servers.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048578-this-is-a-diabolical-phis" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048578-this-is-a-diabolical-phis">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -3887,6 +4025,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">This is hilarious. A man was pictured in two different photos on the same front page of a local newspaper: one of him painting a holiday sign and a gs station security cam still of him taking a wallet.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048612-this-is-hilarious-a-man" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048612-this-is-hilarious-a-man">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3905,6 +4044,7 @@ Tags: kottke.org</p>
           </h2>
           <p class="feed-item__desc">“Some countries are better positioned to weather this energy crisis than they would have been just a few years ago. That’s because of the rapid growth of renewable energy, battery systems and electric vehicles…”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048617-some-countries-are-better" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048617-some-countries-are-better">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3940,6 +4080,7 @@ But the presence in most of those countries is due to diplomatic usage of milita
 [This is a vintage post originally from Nov 2012.]
 Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/12/11/britain-has-invaded-all-but-22-countries" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/12/11/britain-has-invaded-all-but-22-countries">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3961,6 +4102,7 @@ Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           </h2>
           <p class="feed-item__desc">An online museum of Chinese cigarette packaging art.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048597-an-online-museum-of-chine" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048597-an-online-museum-of-chine">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -3979,6 +4121,7 @@ Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           </h2>
           <p class="feed-item__desc">BIO is the I/O co-processor in the Baochip-1x, a mostly open source 22nm SoC I helped design. You can read more about the Baochip-1x’s background here, or pick up an evaluation board at Crowd Supply. In this post, I’ll talk about the origins of the BIO, starting by working through a detailed study of the […]</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7521" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7521">Mark read</button>
             <span class="feed-item__reading-time">24 min read</span>
           </div>
@@ -3997,6 +4140,7 @@ Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           </h2>
           <p class="feed-item__desc">The words shark (the animal) and shark (a predatory scoundrel) may have two different origins. “This would make ‘shark’ possibly the only word borrowed from a Mayan language into English directly.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048572-the-words-shark-the-anima" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048572-the-words-shark-the-anima">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -4015,6 +4159,7 @@ Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           </h2>
           <p class="feed-item__desc">15 new pieces of experimental web poetry and art, my personal faves are milkfish, Banner Highway, and Cursor Park #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50559" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50559">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -4036,6 +4181,7 @@ Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           </h2>
           <p class="feed-item__desc">Parachord is “a new kind of music player that invites all your streams, local audio files, and playlists scattered across multiple services to the same party”. Interesting!</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048524-parachord-is-a-new-kind" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048524-parachord-is-a-new-kind">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4054,6 +4200,7 @@ Tags: books · maps · Stuart Laycock · timeless posts · UK · USA</p>
           </h2>
           <p class="feed-item__desc">Every Fashion Designer, Explained. If you don’t know anything about fashion, this video will get you up to speed quickly. Vivienne Westwood, Nigo, Issey Miyake, Miuccia Prada, Dapper Dan, Hubert de Givenchy, etc. etc.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048560-every-fashion-designer-ex" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048560-every-fashion-designer-ex">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4081,6 +4228,7 @@ And do that without having to blanket my home in cameras. A drone seems like a g
 Surveillance: systematic observation. Often institutional. From “above.”
 Sousveillance, coine…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/03/20/filtered" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/03/20/filtered">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -4103,6 +4251,7 @@ Sousveillance, coine…</p>
           <p class="feed-item__desc">Reading Time:  36 minutes   Hello! Do you remember the last time that everything *didn’t* feel like it was teetering on the verge of total collapse? No, me neither; EXCITING, ISN’T IT? Anyway, here we are again in a situation where, thanks to the actions of a few disproportionately powerful people with very, very vested interests, a significant proportion…
 Continue reading →</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://webcurios.co.uk/?p&#x3D;1484" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://webcurios.co.uk/?p&#x3D;1484">Mark read</button>
             <span class="feed-item__reading-time">36 min read</span>
           </div>
@@ -4255,6 +4404,7 @@ Oxbow & Peter Brötzmann
 
 Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/on-air/lucy-thraves-hosts-adventures-in-sound-and-music-77407" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/on-air/lucy-thraves-hosts-adventures-in-sound-and-music-77407">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4276,6 +4426,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">300+ issues of the UK music magazine NME from 1969-1983. The ads alone are incredible.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048594-300-issues-of-the-uk" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048594-300-issues-of-the-uk">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4294,6 +4445,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">“The Tenth Muse is an art discovery engine. Over 120,000 artworks from museums and institutions — searchable by feeling, mood, atmosphere, era, and medium.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048595-the-tenth-muse-is-an" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048595-the-tenth-muse-is-an">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4312,6 +4464,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">Typos Have Plagued Us for Centuries. There’s the 1631 Bible that says “thou shalt commit adultery” but James Joyce resisted some of his corrections: “These are not misprints but beauties of my style hitherto undreamt of.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048618-typos-have-plagued-us-for" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048618-typos-have-plagued-us-for">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -4330,6 +4483,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">Paris now has a cycling network bigger than Amsterdam and “more daily trips in Paris are now made by bike than by car”.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048616-paris-now-has-a-cycling" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048616-paris-now-has-a-cycling">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -4354,6 +4508,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
          
 Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/the-human-city" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/the-human-city">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -4375,6 +4530,7 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           </h2>
           <p class="feed-item__desc">Gender Play in Nineteenth-Century Theater. “The most popular Shakespearean roles for women in the tragic repertoire were Romeo and Hamlet, but women also played Macbeth, Cardinal Wolsey, Shylock, Richard III, and Iago…”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048613-gender-play-in-nineteenth" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048613-gender-play-in-nineteenth">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4393,6 +4549,7 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           </h2>
           <p class="feed-item__desc">A study pitted adults vs little kids to see which was better at making paintings in the style of Jackson Pollock. “The researchers found that the kids’ paintings made in this manner resembled genuine Pollocks more than did those from adult painters.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048611-a-study-pitted-adults-vs" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048611-a-study-pitted-adults-vs">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4411,6 +4568,7 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           </h2>
           <p class="feed-item__desc">In which we discover that three notebook covers is not enough, because I simply have too much going on and each project needs its own…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18088" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18088">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -4432,6 +4590,7 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           </h2>
           <p class="feed-item__desc">Dawn Wilcox’s quest to chronicle the life & death of every woman in the US killed by a man. “Did women have no choice, Wilcox wondered, but to wander the world hoping never to step on a landmine of a man?”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048599-dawn-wilcoxs-quest-to-chr" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048599-dawn-wilcoxs-quest-to-chr">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -4450,6 +4609,7 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           </h2>
           <p class="feed-item__desc">Checking in with Theo Jansen’s Strandbeests, kinetic machine sculptures that move under their own power along the beach. Some of the most recent versions are quick fast and can even tow humans along behind them.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048562-checking-in-with-theo-jan" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048562-checking-in-with-theo-jan">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -4468,6 +4628,7 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
           </h2>
           <p class="feed-item__desc">Today's links Love of corporate bullshit is correlated with bad judgment: Synergizing the strategic inflection points on the global data network. Hey look at this: Delights to delectate. Object permanence: Bluetooth headsets; Fruit sticker decoder; iPod batteries v DRM; Bruces's SXSW keynote; Piracy isn't funding terrorism; Hope v optimism; Identical twin time-travel prank; Prisoners draw corporate crooks; Spanish junkbots; Sheriff's rape-kit denial; Non-dorky magic; Poetic bureaucrat mourns wolf; SXSW v MPAA; "Burning Days"; NYT paywall; Police rap-battle warning; Unions de-risk labor; "Murder the Truth" Upcoming appearances: Where to find me. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. …</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12565" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12565">Mark read</button>
             <span class="feed-item__reading-time">15 min read</span>
           </div>
@@ -4490,6 +4651,7 @@ premises at that location – is impossible to count. It’s testament to the fo
 
 The Wire 506 contains a user’s guide to Augustus Pablo’s extensive discography, spanning classic projects like the groundbreaking dub LP King Tubbys Meets Rockers Uptown, his instrumental…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/tracks/augustus-pablo-more-rockers-from-the-vaults" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/tracks/augustus-pablo-more-rockers-from-the-vaults">Mark read</button>
             <span class="feed-item__reading-time">6 min read</span>
           </div>
@@ -4511,6 +4673,7 @@ The Wire 506 contains a user’s guide to Augustus Pablo’s extensive discograp
           </h2>
           <p class="feed-item__desc">This is maybe the best baseball catch you’ll ever see. Or the most fun one anyway.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048585-this-is-maybe-the-best" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048585-this-is-maybe-the-best">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4529,6 +4692,7 @@ The Wire 506 contains a user’s guide to Augustus Pablo’s extensive discograp
           </h2>
           <p class="feed-item__desc">Miuccia Prada is worth $4.8 billion. How good of a person do you expect her to be? “I got to thinking about all this the other day while mulling the curious, oft-repeated fact that Miuccia Prada was, in her 1960s youth, a Communist.”</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048606-miuccia-prada-is-worth-48" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048606-miuccia-prada-is-worth-48">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -4547,6 +4711,7 @@ The Wire 506 contains a user’s guide to Augustus Pablo’s extensive discograp
           </h2>
           <p class="feed-item__desc">I’ve mentioned the following story to so many people, I thought I might as well put up a quick post about it. There are strong Kristian Birkeland vibes with this—and, of course, anything involving an entire mountain transformed into a kind of passive-cosmic megamachine is bound to get my attention. [Image: Watercolor by Karl Lemström, … Continue reading "The Landscape Architecture of Auroras on Demand"</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.bldgblog.com/?p&#x3D;38014" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bldgblog.com/?p&#x3D;38014">Mark read</button>
             <span class="feed-item__reading-time">8 min read</span>
           </div>
@@ -4595,6 +4760,7 @@ Cut a Möbius strip down the middle. Expecting two pieces, you get one, longer, 
 
 https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="http://fo.am/blog/2026/03/06/crafting-thresholds/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="http://fo.am/blog/2026/03/06/crafting-thresholds/">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -4616,6 +4782,7 @@ https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/</p>
           </h2>
           <p class="feed-item__desc">Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object permanence: Prison for spamming; Dotcom layoffs; Ethernet action-figures; UK libel reform; "Poe's Detective"; God's customer service center; "Making Hay"; Alexa privacy Valdez. Upcoming appearances: Where to find me. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. William Gibson vs Margaret Thatcher (permalink) William Gibson is one of history's most quotable sf writers: "The future is here, it's not evenly distributed"; "Don't let the little fuckers generation-gap you"; "Cyberspace is everting"; and the immortal: "The str…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12550" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12550">Mark read</button>
             <span class="feed-item__reading-time">12 min read</span>
           </div>
@@ -4634,6 +4801,7 @@ https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/</p>
           </h2>
           <p class="feed-item__desc">Missed my work targets yesterday, so today is a lock-in. Taking the opportunity to go through my Bandcamp listen list while I’m doing all the…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18073" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18073">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -4655,6 +4823,7 @@ https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/</p>
           </h2>
           <p class="feed-item__desc">Today's links Tools vs uses: Don't fall for it. Hey look at this: Delights to delectate. Object permanence: Amazon coders x Amazon warehouse workers; Bruces's ETECH speech; Steven King x unions; Tax-free S&P 500 companies; Make Pop Rocks; "Ain't Misbehavin'"; "Car Hacker's Handbook"; Pirates in Iceland. Upcoming appearances: Where to find me. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Tools vs uses (permalink) When you think of a legal loophole, you probably imagine a drafting error (or perhaps a sneaky insertion) that creates an advantage for a specific person or group of people. For example: Trump's 2017 "Big Beautiful Tax Cut" bill passed after its 479 pages we…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12545" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12545">Mark read</button>
             <span class="feed-item__reading-time">13 min read</span>
           </div>
@@ -4678,6 +4847,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
 
     In 1955, Radigue encountered Pierre Schaeffer in Paris, who invited her to join the Groupe des Recherches Musicales (GRM) studios as tape assistant. She learnt tape cutting, ‘mixage et montage’ (mixing and editing) techniq…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/in-writing/essays/liane-radigue-1932-2026" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/in-writing/essays/liane-radigue-1932-2026">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -4699,6 +4869,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">No.394 — Jobs below the AI ⊗ Seneca Falls Convention · 2048 ⊗ Manufacturing + AI ⊗ The psychological distance to climate disaster ⊗ GPS jamming</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="69b5cccf3cc30b00015387f1" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="69b5cccf3cc30b00015387f1">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
           </div>
@@ -4720,6 +4891,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">TIL. Read here.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/wrangler-init/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/wrangler-init/">Mark read</button>
             <span class="feed-item__reading-time">18 min read</span>
           </div>
@@ -4741,6 +4913,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">the same creator also made supercuts of every name, color, animal, vehicle, "she", "girl", "love", "yes" and "no" in every Beatles song #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50554" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50554">Mark read</button>
           </div>
         </div>
@@ -4758,6 +4931,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">Sam Henri-Gold on the MacBook Neo and how beginners get creative, pushing imperfect machines past their limits #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50551" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50551">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
@@ -4779,6 +4953,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">compare the key images used to illustrate a topic in 300+ different language Wikipedia editions around the world #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50548" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50548">Mark read</button>
           </div>
         </div>
@@ -4796,6 +4971,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">like Clive Thompson's NYT feature yesterday, this talks about why many devs are experiencing AI differently than other industries #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50546" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50546">Mark read</button>
             <span class="feed-item__reading-time">10 min read</span>
           </div>
@@ -4817,6 +4993,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           </h2>
           <p class="feed-item__desc">40 channels with a TV guide and fixed daily schedule #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50544" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50544">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -4839,6 +5016,7 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
           <p class="feed-item__desc">Reading Time:  39 minutes   I take ONE Friday off and I come back to the beginnings of World War III – look, obviously correlation is not causation, but I am never taking another week off EVER AGAIN lest it lead to armageddon or something (this is obviously a joke, like I care about armageddon; see you on the…
 Continue reading →</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://webcurios.co.uk/?p&#x3D;1476" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://webcurios.co.uk/?p&#x3D;1476">Mark read</button>
             <span class="feed-item__reading-time">39 min read</span>
           </div>
@@ -4861,6 +5039,7 @@ Let’s say: the intersection of hardware and AI. But our hunch is that it’s b
 There are new ways to get hardware into the hands of consumers, and new AI interactions that are now possible, and more, and these changes are happening independently but simultaneously. We’re tracking this as what we’re calling New Wave Hardware.
 So we got a few founders together at Betaworks in NYC earlier this week for a roundtable to compare notes (thank you B…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/03/12/nwh" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/03/12/nwh">Mark read</button>
             <span class="feed-item__reading-time">6 min read</span>
           </div>
@@ -4882,6 +5061,7 @@ So we got a few founders together at Betaworks in NYC earlier this week for a ro
           </h2>
           <p class="feed-item__desc">from 10k Drum Machines, which recently featured drum machines made from Donkey Kong, billiards, and the current time #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50541" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50541">Mark read</button>
             <span class="feed-item__reading-time">1 min read</span>
           </div>
@@ -4903,6 +5083,7 @@ So we got a few founders together at Betaworks in NYC earlier this week for a ro
           </h2>
           <p class="feed-item__desc">you can get it 80% clean but not much more, making this extremely unsatisfying #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50539" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50539">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -5040,6 +5221,7 @@ Eva Novoa
 
 Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/on-air/james-gormley-hosts-adventures-in-sound-and-music-77360" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/on-air/james-gormley-hosts-adventures-in-sound-and-music-77360">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
@@ -5061,6 +5243,7 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           </h2>
           <p class="feed-item__desc">The book challenges the Anglo-European anthropocentric conceptualisation of design that dominates practice, education and academic discourse</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://we-make-money-not-art.com/?p&#x3D;38821" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://we-make-money-not-art.com/?p&#x3D;38821">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
           </div>
@@ -5090,6 +5273,7 @@ The Wire 506. To find out what they said about them, subscribers can read the in
 
     Yellow Swans are a psychedelic noise duo comprising Pete Swanson and Gabriel Saloman Mindel. Originally formed in 2001 in Portland, Oregon, the group drew their influences from hardcore punk and DIY ethics of anarchist communities of the Pacific North West. During their initial seven year run, Yellow Swans released four studio albums and countless CD-Rs and cassettes, often produced in small numbers and distributed via mail order through their Collective Jyrk label. Swanson and Mindel toured extensively, building a …</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-yellow-swans" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-yellow-swans">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
@@ -5111,6 +5295,7 @@ The Wire 506. To find out what they said about them, subscribers can read the in
           </h2>
           <p class="feed-item__desc">One of my latest projects is the Baochip-1x, a mostly-open, full-custom silicon chip fabricated in TSMC 22nm, targeted at high assurance applications. It’s a security chip, but far more open than any other security chip; it’s also a general purpose microcontroller that fills a gap in between the Raspberry Pi RP2350 (found on the Pi […]</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7513" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7513">Mark read</button>
             <span class="feed-item__reading-time">15 min read</span>
           </div>
@@ -5134,6 +5319,7 @@ The Wire 506. To find out what they said about them, subscribers can read the in
 
 “ex” verse on “Dirty” – and the specific Liverpudlian callbacks – Bourbon rhymes with Jürgen – EsDeeKid’s Rebel is a particularly debauched version of a thematically common rap album: fast cars, girls, drugs, evading the police in fast cars to sell drugs and get girls. Whatever! Bu…</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-uk-rap-is-hijacked-by-london-s-police-force-for-clicks" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-uk-rap-is-hijacked-by-london-s-police-force-for-clicks">Mark read</button>
             <span class="feed-item__reading-time">5 min read</span>
           </div>
@@ -5155,6 +5341,7 @@ The Wire 506. To find out what they said about them, subscribers can read the in
           </h2>
           <p class="feed-item__desc">No.393 — The future belongs to the creative generalists ⊗ Media’s bad idea with Kalshi ⊗ Reimagining realism ⊗ Labor market impacts of AI ⊗ World record for fusion plasma ⊗ Apocalypse no</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="69acf5f7e71b0e00011aefa6" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="69acf5f7e71b0e00011aefa6">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
           </div>
@@ -5176,6 +5363,7 @@ The Wire 506. To find out what they said about them, subscribers can read the in
           </h2>
           <p class="feed-item__desc">prompt an "ai" for answers and drawings, or fulfill prompts yourself for more credits #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50536" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50536">Mark read</button>
           </div>
         </div>
@@ -5193,6 +5381,7 @@ The Wire 506. To find out what they said about them, subscribers can read the in
           </h2>
           <p class="feed-item__desc">help these intrepid researchers find all positive integers; they should team up with Brooklyn Integers #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50533" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50533">Mark read</button>
           </div>
         </div>
@@ -5210,33 +5399,9 @@ The Wire 506. To find out what they said about them, subscribers can read the in
           </h2>
           <p class="feed-item__desc">win points by calling from one of California's remaining 2,203 payphones #</p>
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50531" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50531">Mark read</button>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/03/07/vinge">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-07T04:30:00.000Z">2026-03-07</time>
-        <span class="feed-item__source">Interconnected</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://interconnected.org/home/2026/03/07/vinge" target="_blank" rel="noopener noreferrer">The violence of the Librareome Project</a>
-          </h2>
-          <p class="feed-item__desc">Vernor Vinge’s sci-fi novel Rainbows End (2006) is so prescient about AI training data.
-His short Fast Times at Fairmont High (2002) is set in the same universe, and was written in that era where we felt like we had line of sight to pervasive augmented reality and also 3D printers. I read it at the time and it’s a low-stakes high school drama (about augmented reality and 3D printers), but from today’s perspective it is more like a utopia (of a certain kind) – democratised tools of production, reality as consensus hallucinations, super empowered kids.
-The spine of Rainbows End is something called the “Librareome Project.”
-Ok SPOILERS – right? So stop here if you’re planning to read the book (which would you).
-The Librareome Project, you find out about a third of the way through, is a giant …</p>
-          <div class="feed-item__actions">
-            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/03/07/vinge">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://interconnected.org/home/2026/03/07/vinge.png?v&#x3D;1" alt="" loading="lazy">
         </div>
       </div>
     </article>
