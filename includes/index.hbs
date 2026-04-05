@@ -17,6 +17,7 @@
       <h1 class="site-title">{{siteTitle}}</h1>
       <div class="toolbar">
         <span id="js-unread-count" class="unread-count"></span>
+        <button id="js-toggle-show-favourites" class="btn btn--ghost">★ Favourites</button>
         <button id="js-toggle-hide-read" class="btn btn--ghost">Hide read</button>
         <button id="js-mark-all-read" class="btn btn--ghost">Mark all read</button>
         <button id="js-setup-sync" class="btn btn--ghost">Setup sync</button>
@@ -41,6 +42,7 @@
           <p class="feed-item__desc">{{{description}}}</p>
           {{/if}}
           <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="{{id}}" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="{{id}}">Mark read</button>
             {{#if readingTimeInMin}}
             <span class="feed-item__reading-time">{{readingTimeInMin}} min read</span>
