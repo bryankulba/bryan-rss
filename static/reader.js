@@ -243,11 +243,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Apply local read state immediately
   applyReadState();
   applyHideRead();
-  setSyncStatus(syncLabel());
 
-  // Sync from Gist on load if credentials are present
+  // Sync from Gist on load if credentials are present; hide setup UI if configured
   const { pat, gistId } = getCredentials();
-  if (pat && gistId) syncFromGist();
+  if (pat && gistId) {
+    syncFromGist();
+    document.getElementById('js-setup-sync')?.remove();
+    document.getElementById('js-sync-status')?.remove();
+  }
 
   // Header toolbar buttons
   document.getElementById('js-mark-all-read')?.addEventListener('click', markAllRead);
