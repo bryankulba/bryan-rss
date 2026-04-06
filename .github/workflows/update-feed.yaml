@@ -2,7 +2,7 @@ name: Update RSS feed
 
 on:
   schedule:
-    - cron: "0 10 * * *"  # 10:00 UTC (6am ET) daily
+    - cron: "0 0,4,12,16,20 * * *"  # 6pm, 10pm, 6am, 10am, 2pm MDT (UTC-6)
   push:
     branches:
       - main  # Rebuild on any config/template change
