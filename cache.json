@@ -110,6 +110,26 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/ai-bat/",
+          "author": null,
+          "description": "<p>A new edition of my pop-up newsletter. <a href=\"https://www.robinsloan.com/lab/ai-bat/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/ai-bat/",
+          "publishedOn": "2026-04-06T10:00:00.000Z",
+          "wordCount": 5336,
+          "title": "Dragoncatcher: The bat of fate",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
+          "id": "https://www.robinsloan.com/winter-garden/where-is-it-like/",
+          "author": null,
+          "description": "<p>And is it good to be one? <a href=\"https://www.robinsloan.com/winter-garden/where-is-it-like/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/winter-garden/where-is-it-like/",
+          "publishedOn": "2026-04-06T00:00:00.000Z",
+          "wordCount": 4527,
+          "title": "Winter Garden: Where is it like to be a language model?",
+          "imageUrl": "https://www.robinsloan.com/img/salesforce-bat.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/vector-voxels/",
           "author": null,
           "description": "<p>Crispy! <a href=\"https://www.robinsloan.com/lab/vector-voxels/\">Read here.</a></p>",
@@ -215,6 +235,106 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/0048682-the-astor-place-riots-of",
+          "author": null,
+          "description": "The Astor Place Riots of 1849 resulted in “the greatest loss of life in a civic insurrection in American history up to that time”. And they were incited over the “wrong” actor playing Macbeth.",
+          "link": "https://kottke.org/26/04/0048682-the-astor-place-riots-of",
+          "publishedOn": "2026-04-06T19:57:00.000Z",
+          "wordCount": 839,
+          "title": "The Astor Place Riots of 1849 resulted in &#8220;the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/transcription-by-ben-lerner",
+          "author": null,
+          "description": "I’ve been hearing nothing but good things about Ben Lerner’s new novel Transcription (Amazon) which comes out tomorrow. From the book’s description:\nWhat unfolds from this dreamlike circumstance is the unforgettable story of the triangle formed by Thomas, Max, and the narrator, and an exploration of fathers and sons, male friendship and rivalry, and the challenges of parenting in a burning world. One of the first great novels about the early days of COVID, it is also a brilliant meditation on those technologies that enrich or impoverish our connection to one another, that store or obliterate memory. Full of startling insight, but written with the intensity of a séance, Lerner shows us how the air is full of messages, full of ghosts. Ultimately Transcription demonstrates what only a work of fiction can record.\n\n\t\nAnd the cover is great:\n\nI read Lerner’s 10:04 years ago and really liked it…I might pick this one up (and at only 144 pages, I might actually finish it).1\nMore reading: Ben Lerner and the Impossible Interview, The Gentle Parenting Of Ben Lerner’s ‘Transcription’, A Novel as Slim as an iPhone Has a Lot to Say About Technology, Ben Lerner’s Latest Is a Strange and Brilliant Attempt to Resurrect the Novel, and Ben Lerner’s Big Feelings.\nI’ve not had good luck with reading lately. Lots of audiobooks but I haven’t read more than 20-30 pages of an actual book since returning from Japan in November. ↩\n\n\n \n\n        \n         \nTags: Ben Lerner · books · Transcription",
+          "link": "https://kottke.org/26/04/transcription-by-ben-lerner",
+          "publishedOn": "2026-04-06T18:56:00.000Z",
+          "wordCount": 906,
+          "title": "Transcription by Ben Lerner",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1775491981-dfdfbfa4.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048676-a-visual-history-of-explo",
+          "author": null,
+          "description": "A visual history of exploring the far side of the Moon. “The Moon is tidally locked, meaning that only one side of the Moon ever faces the Earth. [For millenia,] there was an entire half of our natural satellite that no human had ever seen before.”",
+          "link": "https://kottke.org/26/04/0048676-a-visual-history-of-explo",
+          "publishedOn": "2026-04-06T18:13:46.000Z",
+          "wordCount": 795,
+          "title": "A visual history of exploring the far side of the Moon ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048673-livestream-artemis-ii-is-",
+          "author": null,
+          "description": "Livestream: Artemis II is about to fly around the Moon. At around 1:56pm ET, they’ll surpass the Apollo 13 distance record. And: “At their closest point, they’ll pass roughly 4,000 miles above the lunar surface.”",
+          "link": "https://kottke.org/26/04/0048673-livestream-artemis-ii-is-",
+          "publishedOn": "2026-04-06T17:30:55.000Z",
+          "wordCount": 1166,
+          "title": "Livestream:  Artemis II is about to fly around the Moon ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048666-new-vocabulary-word-ram-h",
+          "author": null,
+          "description": "New vocabulary word: “RAM harvester”. RAM chips are so expensive right now that RAM harvesters are stealing them out of demo computers at electronics stores.",
+          "link": "https://kottke.org/26/04/0048666-new-vocabulary-word-ram-h",
+          "publishedOn": "2026-04-06T16:55:05.000Z",
+          "wordCount": 762,
+          "title": "New vocabulary word:  &#8220;RAM harvester&#8221; . RAM...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048670-missed-this-last-week-lan",
+          "author": null,
+          "description": "Missed this last week: Lane 8 dropped their Spring 2026 Mixtape. Available on YouTube and Soundcloud.",
+          "link": "https://kottke.org/26/04/0048670-missed-this-last-week-lan",
+          "publishedOn": "2026-04-06T16:01:59.000Z",
+          "wordCount": 714,
+          "title": "Missed this last week:  Lane 8 dropped their Spring 2026...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/pattern-index-max-cooper",
+          "author": null,
+          "description": "Max Cooper’s music videos are always worth a look. This one, directed by Katia Schutz, is for a song called Pattern Index from his forthcoming album (Feeling Is Structure, May 8).\nCooper describes Feeling Is Structure as an “audiovisual album”, which I take to mean that each song will have an associated video released with it. A second video, Ebb and Flow, is already out too:\n\n\n \n\n        \n         \nTags: Katia Schutz · Max Cooper · music · video",
+          "link": "https://kottke.org/26/04/pattern-index-max-cooper",
+          "publishedOn": "2026-04-06T15:22:00.000Z",
+          "wordCount": 738,
+          "title": "Pattern Index, Max Cooper",
+          "imageUrl": "https://i.ytimg.com/vi/oWaGNpz1X-I/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048664-lessons-from-fighting-can",
+          "author": null,
+          "description": "Lessons from fighting cancer that apply to resisting authoritarianism. 1. We need each other. 2. We must move, even when on uncertain ground. 3. Past trauma will bring us down if we do not release its effects on us. And more…",
+          "link": "https://kottke.org/26/04/0048664-lessons-from-fighting-can",
+          "publishedOn": "2026-04-06T14:38:10.000Z",
+          "wordCount": 767,
+          "title": "Lessons from fighting cancer that apply to resisting...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048665-the-promise-of-the-open",
+          "author": null,
+          "description": "“The promise of the open web was colonized by internet giants. But the power of LLMs and agentic coding means we can start to take it back. We can build customized, personal software for ourselves that does what we want.”",
+          "link": "https://kottke.org/26/04/0048665-the-promise-of-the-open",
+          "publishedOn": "2026-04-06T13:56:04.000Z",
+          "wordCount": 525,
+          "title": "&#8220;The promise of the open web was colonized by...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048658-louisiana-virginia-massac",
+          "author": null,
+          "description": "Louisiana, Virginia, Massachusetts, New York, and Maryland: only five US states have ever had a Black governor.",
+          "link": "https://kottke.org/26/04/0048658-louisiana-virginia-massac",
+          "publishedOn": "2026-04-06T13:06:00.000Z",
+          "wordCount": 836,
+          "title": "Louisiana, Virginia, Massachusetts, New York, and...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048663-were-expected-to-believe-",
           "author": null,
@@ -2068,6 +2188,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=160679",
+          "author": "Max G. Levy",
+          "description": "A vast meshwork of soil-bound fungi governs life aboveground. In Alaska, and at field sites around the world, researchers are racing to understand exactly how, with essential stores of carbon at stake.            \nThe post An Arctic Road Trip Brings Vital Underground Networks into View first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/an-arctic-road-trip-brings-vital-underground-networks-into-view-20260406/",
+          "publishedOn": "2026-04-06T15:08:33.000Z",
+          "wordCount": 5119,
+          "title": "An Arctic Road Trip Brings Vital Underground Networks into View",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Dirt-race-cr-Max-Levy-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=160668",
           "author": "Charlie Wood",
