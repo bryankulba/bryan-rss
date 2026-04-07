@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-06T21:19:38.641Z</updated>
+    <updated>2026-04-07T02:09:56.578Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Razor 1911’s 40-year retrospective for Revision 2026]]></title>
+        <id>https://waxy.org/?p=50569</id>
+        <link href="https://www.youtube.com/watch?v=2AnbYNudAyM"/>
+        <updated>2026-04-07T00:32:28.000Z</updated>
+        <summary type="html"><![CDATA[a whirlwind tribute to the legendary warez/demo group, this PC demo touches on a lot of scene history since 1985 #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;What caught my eye as a designer, as with most...]]></title>
+        <id>https://kottke.org/26/04/0048687-what-caught-my-eye-as</id>
+        <link href="https://kottke.org/26/04/0048687-what-caught-my-eye-as"/>
+        <updated>2026-04-06T22:26:24.000Z</updated>
+        <summary type="html"><![CDATA[“What caught my eye as a designer, as with most industrial plants and control rooms of that time, besides the knobs, levers, and buttons, was the use of a very specific seafoam green…” It’s time for some color theory…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Really interesting piece from Jodi Ettenberg  about...]]></title>
+        <id>https://kottke.org/26/04/0048688-really-interesting-piece-</id>
+        <link href="https://kottke.org/26/04/0048688-really-interesting-piece-"/>
+        <updated>2026-04-06T21:10:05.000Z</updated>
+        <summary type="html"><![CDATA[Really interesting piece from Jodi Ettenberg about microdosing a GLP-1 to manage her mast cell activation syndrome (MCAS). She’s noticed “way less pain” and can eat more foods without reactions (yoghurt, oats, mild curry pastes).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Astor Place Riots of 1849 resulted in &#8220;the...]]></title>
         <id>https://kottke.org/26/04/0048682-the-astor-place-riots-of</id>
@@ -3647,16 +3677,6 @@ The Wire 506. To find out what they said about them, subscribers can read the in
 “ex” verse on “Dirty” – and the specific Liverpudlian callbacks – Bourbon rhymes with Jürgen – EsDeeKid’s Rebel is a particularly debauched version of a thematically common rap album: fast cars, girls, drugs, evading the police in fast cars to sell drugs and get girls. Whatever! Bu…]]></summary>
         <author>
             <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An obscure media theory ⊗ World literacy]]></title>
-        <id>69acf5f7e71b0e00011aefa6</id>
-        <link href="https://sentiers.media/an-obscure-media-theory-world-literacy-no-393/"/>
-        <updated>2026-03-08T10:00:25.000Z</updated>
-        <summary type="html"><![CDATA[No.393 — The future belongs to the creative generalists ⊗ Media’s bad idea with Kalshi ⊗ Reimagining realism ⊗ Labor market impacts of AI ⊗ World record for fusion plasma ⊗ Apocalypse no]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
 </feed>
