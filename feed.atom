@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-07T16:56:55.914Z</updated>
+    <updated>2026-04-07T20:44:46.921Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A guide to which Apple chargers to use with which Apple...]]></title>
+        <id>https://kottke.org/26/04/0048681-a-guide-to-which-apple</id>
+        <link href="https://kottke.org/26/04/0048681-a-guide-to-which-apple"/>
+        <updated>2026-04-07T18:16:06.000Z</updated>
+        <summary type="html"><![CDATA[A guide to which Apple chargers to use with which Apple products in order to charge the quickest. (Your charger’s wattage really matters when the device’s battery level is 0-50%. After that, less so.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Solar Eclipse From the Far Side of the Moon]]></title>
         <id>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</id>
