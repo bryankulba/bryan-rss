@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-07T05:46:31.920Z</updated>
+    <updated>2026-04-07T13:15:29.389Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Shoe Pop Dream Gaze , a three-hour playlist from...]]></title>
+        <id>https://kottke.org/26/04/0048690-shoe-pop-dream-gaze-a</id>
+        <link href="https://kottke.org/26/04/0048690-shoe-pop-dream-gaze-a"/>
+        <updated>2026-04-07T12:32:35.000Z</updated>
+        <summary type="html"><![CDATA[Shoe Pop Dream Gaze, a three-hour playlist from Christina Hendricks’ all-vinyl DJ set. (You may remember Hendricks as Joan on Mad Men.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[status, week of 7apr26]]></title>
+        <id>https://warrenellis.ltd/?p=18163</id>
+        <link href="https://warrenellis.ltd/status/status-week-of-7apr26/"/>
+        <updated>2026-04-07T11:40:35.000Z</updated>
+        <summary type="html"><![CDATA[I have sowed 120 seed modules, planted 15 raspberry canes, repotted a bunch of other plants, planted bulbs in giant pots, lost some of said…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Switzerland's Goldilocks fiber (07 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12631</id>
+        <link href="https://pluralistic.net/2026/04/07/swisscom/"/>
+        <updated>2026-04-07T07:20:37.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Switzerland's Goldilocks fiber: Public provision is a layered question. Hey look at this: Delights to delectate. Object permanence: EU appoints henhouse fox (copyright); Emacs x Tron: Legacy; Spammer v dead man's AOL account; Scott Walker's pork fountain; "No toilets, try Amazon"; Iceland falls (x Panama Papers); Rooms in Milanese sewers; China bans Panama Papers; "Parent Hacks"; "The Nameless City"; Phishing the world's top breach expert. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Switzerland's Goldilocks fiber (permalink) If you live in Switzer…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Razor 1911’s 40-year retrospective for Revision 2026]]></title>
         <id>https://waxy.org/?p=50569</id>
@@ -297,6 +327,18 @@ http://127.0.0.1:8900/ - v0.65.2
         <summary type="html"><![CDATA[<p>And is it good to be one? <a href="https://www.robinsloan.com/winter-garden/where-is-it-like/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Below The Radar  50]]></title>
+        <id>https://www.thewire.co.uk/audio/btr/below-the-radar-50</id>
+        <link href="https://www.thewire.co.uk/audio/btr/below-the-radar-50"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire’s subscriber only download compilation is a bumper edition featuring 27 tracks by ans m, E The Artist, Isabelle Duthoite, Girl Pusher, Jay Mitta, Kareem Samara, Only Now and more
+
+Take out a print or digital subscription to The Wire to stream and download every edition of Below The Radar]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -3662,21 +3704,6 @@ The Wire 506. To find out what they said about them, subscribers can read the in
         <summary type="html"><![CDATA[One of my latest projects is the Baochip-1x, a mostly-open, full-custom silicon chip fabricated in TSMC 22nm, targeted at high assurance applications. It’s a security chip, but far more open than any other security chip; it’s also a general purpose microcontroller that fills a gap in between the Raspberry Pi RP2350 (found on the Pi […]]]></summary>
         <author>
             <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Against The Grain: UK rap is hijacked by London’s police force for clicks]]></title>
-        <id>https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-uk-rap-is-hijacked-by-london-s-police-force-for-clicks</id>
-        <link href="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-uk-rap-is-hijacked-by-london-s-police-force-for-clicks"/>
-        <updated>2026-03-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 506
-
-
-    Unlike Central Cee, the success of EsDeeKid is yet to translate into a smoothing out of his sound. The “OK” tag heard throughout EsDeeKid’s debut record Rebel comes from producer Wraith9, whose clattering, blown-out beats tie the project to a more recognisable North West underground. The tag crops up on tracks by rapper and dancer Blackhaine, while Rainy Miller mixed and mastered Wraith9’s own album Designer, an undersung release from 2025 that adds weight and complexity to cloudrap delivery.
-
-“ex” verse on “Dirty” – and the specific Liverpudlian callbacks – Bourbon rhymes with Jürgen – EsDeeKid’s Rebel is a particularly debauched version of a thematically common rap album: fast cars, girls, drugs, evading the police in fast cars to sell drugs and get girls. Whatever! Bu…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
         </author>
     </entry>
 </feed>
