@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-08T05:46:32.658Z</updated>
+    <updated>2026-04-08T13:17:19.549Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Resident Advisor:  there are signs that Boards of Canada...]]></title>
+        <id>https://kottke.org/26/04/0048699-resident-advisor-there-ar</id>
+        <link href="https://kottke.org/26/04/0048699-resident-advisor-there-ar"/>
+        <updated>2026-04-08T12:43:45.000Z</updated>
+        <summary type="html"><![CDATA[Resident Advisor: there are signs that Boards of Canada might release some new music soon. Please let this be true, we need this!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GLM-5.1: Towards Long-Horizon Tasks]]></title>
         <id>https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything</id>
