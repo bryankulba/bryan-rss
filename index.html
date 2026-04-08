@@ -27,6 +27,172 @@
   </header>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-07T21:25:14.000Z">2026-04-07</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything" target="_blank" rel="noopener noreferrer">GLM-5.1: Towards Long-Horizon Tasks</a>
+          </h2>
+          <p class="feed-item__desc">GLM-5.1: Towards Long-Horizon Tasks
+Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper.
+It's available via OpenRouter so I asked it to draw me a pelican:
+llm install llm-openrouter
+llm -m openrouter/z-ai/glm-5.1 'Generate an SVG of a pelican on a bicycle'
+
+And something new happened... unprompted, the model decided to give me an HTML page that included both the SVG and a separate set of CSS animations!
+The SVG was excellent, and might be my new favorite from an open weights model:
+
+But the animation broke it:
+
+That's the pelican, floating up in the top left corner.
+I usually don't do follow-up prompts for the pelican test, but in this case I made an exception:
+llm -c 'the animation is a bit broken, the pelican ends up positioned off the screen at the top right'
+
+GLM 5.1 replied:
+The issue is that CSS transform animations on SVG elements override the SVG transform attribute used for positioning, causing the pelican to lose its placement and fly off to the top-right. The fix is to separate positioning (SVG attribute) from animation (inner group) and use <animateTransform> for SVG rotations since it handles coordinate systems correctly.
+And spat out fresh HTML which fixed the problem!
+
+I particularly like the animation of the beak, which is described in the SVG comments like so:
+<!-- Pouch (lower beak) with wobble -->
+<g>
+    <path d="M42,-58 Q43,-50 48,-42 Q55,-35 62,-38 Q70,-42 75,-60 L42,-58 Z" fill="url(#pouchGrad)" stroke="#b06008" stroke-width="1" opacity="0.9"/>
+    <path d="M48,-50 Q55,-46 60,-52" fill="none" stroke="#c06a08" stroke-width="0.8" opacity="0.6"/>
+    <animateTransform attributeName="transform" type="scale"
+    values="1,1; 1.03,0.97; 1,1" dur="0.75s" repeatCount="indefinite"
+    additive="sum"/>
+</g>
+
+
+Update: On Bluesky @charles.capps.me suggested a "NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER" and...
+
+The HTML+SVG comments on that one include /* Earring sparkle */, <!-- Opossum fur gradient -->, <!-- Distant treeline silhouette - Virginia pines -->,  <!-- Front paw on handlebar --> - here's the transcript and the HTML result.
+
+
+    
+Tags: css, svg, ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release, ai-in-china, glm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/glm-5.1-pelican.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-07T20:52:54.000Z">2026-04-07</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything" target="_blank" rel="noopener noreferrer">Anthropic&#x27;s Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me</a>
+          </h2>
+          <p class="feed-item__desc">Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing.
+
+The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim that its cyber-security research abilities are strong enough that they need to give the software industry as a whole time to prepare.
+
+
+Mythos Preview has already found thousands of high-severity vulnerabilities, including some in every major operating system and web browser. Given the rate of AI progress, it will not be long before such capabilities proliferate, potentially beyond actors who are committed to deploying them safely.
+
+[...]
+
+Project Glasswing partners will receive access to Claude Mythos Preview to find and fix vulnerabilities or weaknesses in their foundational systems—systems that represent a very large portion of the world’s shared cyberattack surface. We anticipate this work will focus on tasks like local vulnerability detection, black box testing of binaries, securing endpoints, and penetration testing of systems.
+
+
+
+There's a great deal more technical detail in  Assessing Claude Mythos Preview’s cybersecurity capabilities on the Anthropic Red Team blog:
+
+
+
+In one case, Mythos Preview wrote a web browser exploit that chained together four vulnerabilities, writing a complex JIT heap spray that escaped both renderer and OS sandboxes. It autonomously obtained local privilege escalation exploits on Linux and other operating systems by exploiting subtle race conditions and KASLR-bypasses. And it autonomously wrote a remote code execution exploit on FreeBSD's NFS server that granted full root access to unauthenticated users by splitting a 20-gadget ROP chain over multiple packets.
+
+Plus this comparison with Claude 4.6 Opus:
+
+
+Our internal evaluations showed that Opus 4.6 generally had a near-0% success rate at autonomous exploit development. But Mythos Preview is in a different league. For example, Opus 4.6 turned the vulnerabilities it had found in Mozilla’s Firefox 147 JavaScript engine—all patched in Firefox 148—into JavaScript shell exploits only two times out of several hundred attempts. We re-ran this experiment as a benchmark for Mythos Preview, which developed working exploits 181 times, and achieved register control on 29 more.
+
+
+
+Saying "our model is too dangerous to release" is a great way to build buzz around a new model, but in this case I expect their caution is warranted.
+
+Just a few days (last Friday) ago I started a new ai-security-research tag on this blog to acknowledge an uptick in credible security professionals pulling the alarm on how good modern LLMs have got at vulnerability research.
+
+Greg Kroah-Hartman of the Linux kernel:
+
+
+Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us.
+
+Something happened a month ago, and the world switched. Now we have real reports. All open source projects have real reports that are made with AI, but they're good, and they're real.
+
+
+Daniel Stenberg of curl:
+
+
+The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good.
+
+I'm spending hours per day on this now. It's intense.
+
+
+And Thomas Ptacek published Vulnerability Research Is Cooked, a post inspired by his podcast conversation with Anthropic's Nicholas Carlini.
+
+Anthropic have a 5 minute talking heads video describing the Glasswing project. Nicholas Carlini appears as one of those talking heads, where he said (highlights mine):
+
+
+It has the ability to chain together vulnerabilities. So what this means is you find two vulnerabilities, either of which doesn't really get you very much independently. But this model is able to create exploits out of three, four, or sometimes five vulnerabilities that in sequence give you some kind of very sophisticated end outcome. [...]
+
+I've found more bugs in the last couple of weeks than I found in the rest of my life combined. We've used the model to scan a bunch of open source code, and the thing that we went for first was operating systems, because this is the code that underlies the entire internet infrastructure. For OpenBSD, we found a bug that's been present for 27 years, where I can send a couple of pieces of data to any OpenBSD server and crash it. On Linux, we found a number of vulnerabilities where as a user with no permissions, I can elevate myself to the administrator by just running some binary on my machine. For each of these bugs, we told the maintainers who actually run the software about them, and they went and fixed them and have deployed the patches  patches so that anyone who runs the software is no longer vulnerable to these attacks.
+
+
+I found this on the OpenBSD 7.8 errata page:
+
+
+025: RELIABILITY FIX: March 25, 2026  All architectures
+
+TCP packets with invalid SACK options could crash the kernel.
+
+A source code patch exists which remedies this problem.
+
+
+I tracked that change down in the GitHub mirror of the OpenBSD CVS repo (apparently they still use CVS!) and found it using git blame:
+
+
+
+Sure enough, the surrounding code is from 27 years ago.
+
+I'm not sure which Linux vulnerability Nicholas was describing, but it may have been this NFS one recently covered by Michael Lynch
+.
+
+There's enough smoke here that I believe there's a fire. It's not surprising to find vulnerabilities in decades-old software, especially given that they're mostly written in C, but what's new is that coding agents run by the latest frontier LLMs are proving tirelessly capable at digging up these issues.
+
+I actually thought to myself on Friday that this sounded like an industry-wide reckoning in the making, and that it might warrant a huge investment of time and money to get ahead of the inevitable barrage of vulnerabilities. Project Glasswing incorporates "$100M in usage credits ... as well as $4M in direct donations to open-source security organizations". Partners include AWS, Apple, Microsoft, Google, and the Linux Foundation. It would be great to see OpenAI involved as well - GPT-5.4 already has a strong reputation for finding security vulnerabilities and they have stronger models on the near horizon.
+
+The bad news for those of us who are not trusted partners is this:
+
+
+We do not plan to make Claude Mythos Preview generally available, but our eventual goal is to enable our users to safely deploy Mythos-class models at scale—for cybersecurity purposes, but also for the myriad other benefits that such highly capable models will bring. To do so, we need to make progress in developing cybersecurity (and other) safeguards that detect and block the model’s most dangerous outputs. We plan to launch new safeguards with an upcoming Claude Opus model, allowing us to improve and refine them with a model that does not pose the same level of risk as Mythos Preview.
+
+
+I can live with that. I think the security risks really are credible here, and having extra time for trusted teams to get ahead of them is a reasonable trade-off.
+Tags: security, thomas-ptacek, ai, generative-ai, llms, anthropic, nicholas-carlini, ai-ethics, llm-release, ai-security-research</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/openbsd-27-years.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/04/0048681-a-guide-to-which-apple">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-07T18:16:06.000Z">2026-04-07</time>
@@ -95,6 +261,27 @@ Tags: artemis · astronomy · Moon · NASA · photography</p>
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048691-i-missed-that-author-trac" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048691-i-missed-that-author-trac">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-07T15:41:00.000Z">2026-04-07</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything" target="_blank" rel="noopener noreferrer">SQLite WAL Mode Across Docker Containers Sharing a Volume</a>
+          </h2>
+          <p class="feed-item__desc">Research: SQLite WAL Mode Across Docker Containers Sharing a Volume
+Inspired by this conversation on Hacker News about whether two SQLite processes in separate Docker containers that share the same volume might run into problems due to WAL shared memory. The answer is that everything works fine - Docker containers on the same host and filesystem share the same shared memory in a way that allows WAL to collaborate as it should.
+Tags: docker, sqlite</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
