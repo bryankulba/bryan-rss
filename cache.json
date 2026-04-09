@@ -246,6 +246,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/04/0048708-international-chess-feder",
+          "author": null,
+          "description": "International Chess Federation Adds Race Car Piece. “The race car piece gets to go twice in one turn because it’s so fast.” Smart to capitalize on F1’s popularity; they should do my fave Monopoly piece next (the iron).",
+          "link": "https://kottke.org/26/04/0048708-international-chess-feder",
+          "publishedOn": "2026-04-09T20:38:58.000Z",
+          "wordCount": 522,
+          "title": "International Chess Federation Adds Race Car Piece ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/the-fabulous-design-of-duct-tape",
+          "author": null,
+          "description": "Bill Hammack, aka The Engineer Guy, is an amazing engineering educator and in this video he explains how duct tape is designed to simultaneously do three things well: “a) adhere with light pressure, b) stay in place, yet c) be removable”.\nControlling the stickiness of tape is of utmost importance. In fact, a key element of engineering tape is controlling its stickiness — and only by doing that can tape be wound into a useful roll. If the tape sticks too tightly to itself, we could not use it.\n\n\t\nGotta be honest: I was not expecting Silly Putty to make a relevant guest appearance during his explanation. And I love the ramp & ball test for tape stickiness near the end…a very elegant and simple bit of engineering:\nPressure sensitive tape predates much of the most elementary molecular understanding of adhesion; tape has been mass produced since the early twentieth century. That engineers developed and refined tape without this knowledge is no surprise — recall that the purpose of the engineering method is to solve problems before we have full scientific knowledge.\n\n \n\n        \n         \nTags: Bill Hammack · design · engineering · science · video",
+          "link": "https://kottke.org/26/04/the-fabulous-design-of-duct-tape",
+          "publishedOn": "2026-04-09T17:30:00.000Z",
+          "wordCount": 871,
+          "title": "The Fabulous Engineering and Design of Duct Tape",
+          "imageUrl": "https://i.ytimg.com/vi/E-F2QQuZZGk/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/04/0048703-someone-ported-mac-os-x",
           "author": null,
           "description": "Someone ported Mac OS X to the Nintendo Wii. “Since its launch in 2007, the Wii has seen several operating systems ported to it: Linux, NetBSD, and most-recently, Windows NT. Today, Mac OS X joins that list.”",
@@ -1293,6 +1313,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50571",
+          "author": "Andy Baio",
+          "description": "mind-bending recursive game inspired by 3Blue1Brown's recent video on the math behind Escher's Print Gallery #",
+          "link": "https://managore.itch.io/print-gallery-of-an-artist",
+          "publishedOn": "2026-04-09T18:12:37.000Z",
+          "wordCount": 1152,
+          "title": "Daniel Linssen’s Print Gallery Of An Artist",
+          "imageUrl": "https://img.itch.zone/aW1nLzI2NTczODMwLmdpZg==/original/96%2FQ%2FS.gif"
+        },
+        {
           "id": "https://waxy.org/?p=50569",
           "author": "Andy Baio",
           "description": "a whirlwind tribute to the legendary warez/demo group, this PC demo touches on a lot of scene history since 1985 #",
@@ -1855,6 +1885,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/asgi-gzip/releases/tag/0.3\">asgi-gzip 0.3</a></p>\n    <p>I ran into trouble deploying a new feature using <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events\">SSE</a> to a production Datasette instance, and it turned out that instance was using <a href=\"https://github.com/simonw/datasette-gzip\">datasette-gzip</a> which uses <a href=\"https://github.com/simonw/asgi-gzip\">asgi-gzip</a> which was incorrectly compressing <code>event/text-stream</code> responses.</p>\n<p><code>asgi-gzip</code> was extracted from Starlette, and has <a href=\"https://simonwillison.net/2022/Apr/28/issue-on-changes/\">a GitHub Actions scheduled workflow</a> to check Starlette for updates that need to be ported to the library... but that action had stopped running and hence had missed <a href=\"https://github.com/Kludex/starlette/commit/a9a8dab0cc3cbd05dca37650fc392717b9fe5bbf\">Starlette's own fix</a> for this issue.</p>\n<p>I ran the workflow and integrated the new fix, and now <code>datasette-gzip</code> and <code>asgi-gzip</code> both correctly handle <code>text/event-stream</code> in SSE responses.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gzip\">gzip</a>, <a href=\"https://simonwillison.net/tags/asgi\">asgi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+          "publishedOn": "2026-04-09T03:54:40.000Z",
+          "wordCount": 813,
+          "title": "asgi-gzip 0.3",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
           "author": null,

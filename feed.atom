@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-09T17:06:07.224Z</updated>
+    <updated>2026-04-09T20:48:04.889Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[International Chess Federation Adds Race Car Piece ....]]></title>
+        <id>https://kottke.org/26/04/0048708-international-chess-feder</id>
+        <link href="https://kottke.org/26/04/0048708-international-chess-feder"/>
+        <updated>2026-04-09T20:38:58.000Z</updated>
+        <summary type="html"><![CDATA[International Chess Federation Adds Race Car Piece. “The race car piece gets to go twice in one turn because it’s so fast.” Smart to capitalize on F1’s popularity; they should do my fave Monopoly piece next (the iron).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daniel Linssen’s Print Gallery Of An Artist]]></title>
+        <id>https://waxy.org/?p=50571</id>
+        <link href="https://managore.itch.io/print-gallery-of-an-artist"/>
+        <updated>2026-04-09T18:12:37.000Z</updated>
+        <summary type="html"><![CDATA[mind-bending recursive game inspired by 3Blue1Brown's recent video on the math behind Escher's Print Gallery #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fabulous Engineering and Design of Duct Tape]]></title>
+        <id>https://kottke.org/26/04/the-fabulous-design-of-duct-tape</id>
+        <link href="https://kottke.org/26/04/the-fabulous-design-of-duct-tape"/>
+        <updated>2026-04-09T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Bill Hammack, aka The Engineer Guy, is an amazing engineering educator and in this video he explains how duct tape is designed to simultaneously do three things well: “a) adhere with light pressure, b) stay in place, yet c) be removable”.
+Controlling the stickiness of tape is of utmost importance. In fact, a key element of engineering tape is controlling its stickiness — and only by doing that can tape be wound into a useful roll. If the tape sticks too tightly to itself, we could not use it.
+
+	
+Gotta be honest: I was not expecting Silly Putty to make a relevant guest appearance during his explanation. And I love the ramp & ball test for tape stickiness near the end…a very elegant and simple bit of engineering:
+Pressure sensitive tape predates much of the most elementary molecular understanding of adhesion; tape has been mass produced since the early twentieth century. That engineers developed and refined tape without this knowledge is no surprise — recall that the purpose of the engineering method is to solve problems before we have full scientific knowledge.
+
+ 
+
+        
+         
+Tags: Bill Hammack · design · engineering · science · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Someone ported Mac OS X to the Nintendo Wii ....]]></title>
         <id>https://kottke.org/26/04/0048703-someone-ported-mac-os-x</id>
@@ -80,6 +121,21 @@ Tags: Anton Elfilter · art · design]]></summary>
         <summary type="html"><![CDATA[Today's links Cindy Cohn's "Privacy's Defender": The history of digital rights, from the very beginning to this very moment. Hey look at this: Delights to delectate. Object permanence: Tariffs and monopolies; Paperclip dodecahedron; Class war comix; Glenn Beck's brain; Iceland v Pirates; Dashers v apps; Leaked NYPD goon squad manual. Upcoming appearances: Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Cindy Cohn's "Privacy's Defender" (permalink) I've known EFF executive director Cindy Cohn for 27 years. I met her when I needed cyberlaw advice for a startup I'd helped found. We got along so wel…]]></summary>
         <author>
             <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[asgi-gzip 0.3]]></title>
+        <id>https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything"/>
+        <updated>2026-04-09T03:54:40.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/asgi-gzip/releases/tag/0.3">asgi-gzip 0.3</a></p>
+    <p>I ran into trouble deploying a new feature using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events">SSE</a> to a production Datasette instance, and it turned out that instance was using <a href="https://github.com/simonw/datasette-gzip">datasette-gzip</a> which uses <a href="https://github.com/simonw/asgi-gzip">asgi-gzip</a> which was incorrectly compressing <code>event/text-stream</code> responses.</p>
+<p><code>asgi-gzip</code> was extracted from Starlette, and has <a href="https://simonwillison.net/2022/Apr/28/issue-on-changes/">a GitHub Actions scheduled workflow</a> to check Starlette for updates that need to be ported to the library... but that action had stopped running and hence had missed <a href="https://github.com/Kludex/starlette/commit/a9a8dab0cc3cbd05dca37650fc392717b9fe5bbf">Starlette's own fix</a> for this issue.</p>
+<p>I ran the workflow and integrated the new fix, and now <code>datasette-gzip</code> and <code>asgi-gzip</code> both correctly handle <code>text/event-stream</code> in SSE responses.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/gzip">gzip</a>, <a href="https://simonwillison.net/tags/asgi">asgi</a>, <a href="https://simonwillison.net/tags/python">python</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
