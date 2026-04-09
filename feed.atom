@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-09T05:48:20.544Z</updated>
+    <updated>2026-04-09T13:24:07.343Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[This sounds like an interesting podcast series from M....]]></title>
+        <id>https://kottke.org/26/04/0048680-this-sounds-like-an-inter</id>
+        <link href="https://kottke.org/26/04/0048680-this-sounds-like-an-inter"/>
+        <updated>2026-04-09T12:50:49.000Z</updated>
+        <summary type="html"><![CDATA[This sounds like an interesting podcast series from M. Gessen: The Idiot. “Compassion has its limits when it comes to your own cousin.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Cindy Cohn's "Privacy's Defender" (09 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12638</id>
+        <link href="https://pluralistic.net/2026/04/09/bernstein-2/"/>
+        <updated>2026-04-09T10:50:56.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Cindy Cohn's "Privacy's Defender": The history of digital rights, from the very beginning to this very moment. Hey look at this: Delights to delectate. Object permanence: Tariffs and monopolies; Paperclip dodecahedron; Class war comix; Glenn Beck's brain; Iceland v Pirates; Dashers v apps; Leaked NYPD goon squad manual. Upcoming appearances: Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Cindy Cohn's "Privacy's Defender" (permalink) I've known EFF executive director Cindy Cohn for 27 years. I met her when I needed cyberlaw advice for a startup I'd helped found. We got along so wel…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meta's new model is Muse Spark, and meta.ai chat has some interesting tools]]></title>
         <id>https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything</id>
@@ -4340,24 +4360,6 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
         <summary type="html"><![CDATA[The book challenges the Anglo-European anthropocentric conceptualisation of design that dominates practice, education and academic discourse]]></summary>
         <author>
             <name>Regine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Invisible Jukebox mix: Yellow Swans]]></title>
-        <id>https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-yellow-swans</id>
-        <link href="https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-yellow-swans"/>
-        <updated>2026-03-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 506
-
-
-    In The Wire 506 it is the turn of psychedelic noise duo Yellow Swans.
-
-The Wire 506. To find out what they said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.
-
-
-    Yellow Swans are a psychedelic noise duo comprising Pete Swanson and Gabriel Saloman Mindel. Originally formed in 2001 in Portland, Oregon, the group drew their influences from hardcore punk and DIY ethics of anarchist communities of the Pacific North West. During their initial seven year run, Yellow Swans released four studio albums and countless CD-Rs and cassettes, often produced in small numbers and distributed via mail order through their Collective Jyrk label. Swanson and Mindel toured extensively, building a …]]></summary>
-        <author>
-            <name>The Wire: Home</name>
         </author>
     </entry>
 </feed>
