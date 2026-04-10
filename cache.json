@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/04/10/open-mist",
+          "author": null,
+          "description": "A brief update on mist, my ephemeral Markdown editor with Google Docs-style comments and suggested edits:\nmist is now open source with an MIT license, and the mist repo is here on GitHub.\n(Try mist now and here’s my write-up from February.)\nWhat I love about Markdown is that it’s document-first. The formatting travels with the doc. I can’t tell you how many note-taking apps I’ve jumped between with my exact same folder of Markdown notes.\nThe same should be true for collaboration features like suggested edits. If somebody makes an edit to your doc, you should be able to download it and upload to a wholly different app before you accept the edit; you shouldn’t be tied to a single service just because you want comments.\n(And of course the doc should still be human-readable/writeable, and it’s cheating to just stuff a massive data-structure in a document header.)\nSo mist mixes Markdown and CriticMarkup – and I would love it if others picked up the same format. If apps are cheap and abundant in the era of vibing, then let’s focus on interop!\nWith mist itself:\nSeveral people have asked for the ability to self-host it. The README says how (it’s all on Cloudflare naturally). You can add new features to your own fork, though please do share upstream if you think others could benefit.\nAnd yes, contributions welcome! We’ve already received and merged our first pull request – thank you James Adam!\nNo, a document editor is not what we’re building at Inanimate. But it’s neat to release small useful projects that get made along the way. btw subscribe to our newsletter.\nMore posts tagged:\n\t\n\tinanimate\n\t(4).",
+          "link": "https://interconnected.org/home/2026/04/10/open-mist",
+          "publishedOn": "2026-04-10T16:35:00.000Z",
+          "wordCount": 590,
+          "title": "mist is now open source and looking for interop",
+          "imageUrl": "https://interconnected.org/home/2026/04/10/open-mist.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/04/03/sleep",
           "author": null,
           "description": "Mostly I go to sleep very easily. Like 3 minutes from lights out, max.\nI’m content, I exercise, I burn my tokens each day, I think all that helps.\nOften I wake early and think. I’m protective over what goes into my 4am thinking time, I enjoy it. You don’t get to choose what you think about at 4am. It’s inevitably going to be work. So I optimise for having interesting work and I’m very lucky there. Mostly I go back to sleep after a bit.\nSometimes I don’t get to sleep easily, for example in 2021.\nIn that case I close my eyes and visualise a device:\nThe device has 6 buttons arranged in two rows. It changes in appearance but the most common form in my imagination is a Dieter Rams-style enclosure in beige about 4 or 5 inches across with its buttons on the top, and the buttons are flush against each other with a circular depression on the top to push down with your finger.\nThe buttons are really satisfying to push. Good resistance, good slip-clunk into place when engaged.\nSometimes it’s different. Sometimes the button click in like a pen top when they’re down; sometimes they rise up as soon as I’m not pressing. Sometimes they light up when activated, sometimes not.\nThe game, in my imagination, is this:\nThere is some combination of buttons that I can push which causes me to instantaneously fall asleep. But I don’t know the code.\nSo what I imagine (it’s a visual and tactile experience) is trying every single combination of buttons until I push the right ones together.\nThere aren’t many combinations to try, only 63. I usually try a few then run through methodically by counting up in binary.\nPerhaps the code is different each night, perhaps it is the same – I wouldn’t know because I discover it successfully every time and go to sleep and forget what happened.\nI was gently advised against posting this because it makes me sound like a weirdo but you already know that about me. And now you know about the six buttons too.",
@@ -255,6 +265,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/0048709-stalins-task-in-building-",
+          "author": null,
+          "description": "“Stalin’s task in building what Senior calls his ‘Red Empire’ was made so much easier, and so much more brutal, by the intelligence the Cambridge spies passed to Moscow.”",
+          "link": "https://kottke.org/26/04/0048709-stalins-task-in-building-",
+          "publishedOn": "2026-04-10T16:05:07.000Z",
+          "wordCount": 748,
+          "title": "&#8220;Stalin&#8217;s task in building what Senior calls...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048722-charcuterie-is-a-visual-u",
+          "author": null,
+          "description": "Charcuterie is a visual Unicode symbol explorer. Click around, search, or use the pencil in the upper left to draw the shape you’re looking for. This is very cool.",
+          "link": "https://kottke.org/26/04/0048722-charcuterie-is-a-visual-u",
+          "publishedOn": "2026-04-10T15:35:29.000Z",
+          "wordCount": 754,
+          "title": "Charcuterie  is a visual Unicode symbol explorer. Click...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/diary-comics-from-the-1940s",
+          "author": null,
+          "description": "This is wonderful: a Redditor uploaded some of their grandmother’s comics that she made in the 1940s, documenting her marriage to the deployment of her husband for World War II. \nI never got to meet my grandma, she passed away young in 1977 but finding her 1940s sketches felt like she was finally introducing herself to me. She was so talented, and as you can see, she had absolutely zero filter (I finally understand where my mother and I get it from).\nMy favorite part is seeing her personality jump off the page. She goes from joking about Pre-Marital Chaos and Pancake Gravy to the gut-punch of my grandpa getting his deployment orders in ‘44. She wrote “Damn the Army and Hitler!”\n\n\t\n(thx, andy)\n\n \n\n        \n         \nTags: comics",
+          "link": "https://kottke.org/26/04/diary-comics-from-the-1940s",
+          "publishedOn": "2026-04-10T14:45:00.000Z",
+          "wordCount": 794,
+          "title": "Diary Comics From the 1940s",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1775767987-9d35a8ae.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048723-well-this-blows-fsg-has",
+          "author": null,
+          "description": "Well, this blows: FSG has shuttered their MCD imprint & Sean McDonald is leaving the company. MCD published so many good titles/authors: Questlove, Enshittification, Robin Sloan, Jeff VanderMeer, Sloane Crosley, Dilla Time, Tamara Shopsin…",
+          "link": "https://kottke.org/26/04/0048723-well-this-blows-fsg-has",
+          "publishedOn": "2026-04-10T13:56:14.000Z",
+          "wordCount": 968,
+          "title": "Well, this blows:  FSG has shuttered their MCD imprint &...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048717-this-tiny-e-ink-reader-is",
           "author": null,
@@ -1829,6 +1879,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-last-jukeboxes",
+          "author": null,
+          "description": "The Wire 507\n\n\n    In George Orwell’s Nineteen Eighty-Four the novel’s protagonist Winston Smith strays into the backstreet neighbourhood of the Proles, where he encounters the owner of a junkshop who recites this nursery rhyme to him. The junkshop is crammed with dusty treasures spilling out in disordered heaps, among them a glass paperweight containing a piece of pink coral. Fascinated by the uselessness of this object, Winston buys it.\n\n\n    Bradley’s, the site of a former wine merchant, predates its jukebox by about a decade, but the place looks Victorian, somewhere you might hold a séance, with its tasselled bell lampshades, arabesque-patterned wallpaper, red velvet banquette and assorted memorabilia that includes a framed photograph of the Hanway Club’s pipe-smoking president William…",
+          "link": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-last-jukeboxes",
+          "publishedOn": "2026-04-10T00:00:00.000Z",
+          "wordCount": 1461,
+          "title": "Against The Grain: London’s last jukeboxes",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/04/10/NSM_Prestige_2_Jukebox_copy_for_web.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/in-writing/essays/an-annual-message-from-the-wire",
           "author": null,
           "description": "In May 2025, The Wire put out an urgent call for support, citing rising costs and changes to the music and media landscapes as increasing threats to the magazine’s ongoing existence. Many of you heeded the call, by buying a subscription or a copy of the magazine, or by making a donation.\n\n500th issue in October, and move into the new year with renewed energy – we have just published issue 507 of the magazine, a special issue with two alternate covers featuring artwork by Savage Pencil.\n\nThe Wire is not immune.\n\n\n    So this month, please consider taking out a print subscription or a digital subscription. Or pick up a copy of the magazine in our online shop today. Or make a donation to our publishing fund.\n\nThe Wire has remained a unique and respected publication, 100 per cent independent and uncompromising, a forum for underground musicians and writers, and a trusted filter for readers to get to grips with all the creative music out there.\n\nThe Wire will continue to survive and thrive. We look forward to you joining us on that journey.\n\n\n    All at The Wire",
@@ -1935,6 +1995,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+          "author": null,
+          "description": "<p>I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.</p>\n<p>If you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o era model.</p>\n<p>This thought inspired by <a href=\"https://twitter.com/karpathy/status/2042334451611693415\">this Karpathy tweet</a> about the growing gap in understanding of AI capability based on the access points and domains people are using the models with:</p>\n<blockquote>\n<p>[...] It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and <em>at the same time</em>, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems.</p>\n<p>This part really works and has made dramatic strides because 2 properties:</p>\n<ol>\n<li>these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also</li>\n<li>they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them.</li>\n</ol>\n</blockquote>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/andrej-karpathy\">andrej-karpathy</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+          "publishedOn": "2026-04-10T15:56:02.000Z",
+          "wordCount": 811,
+          "title": "ChatGPT voice mode is a weaker model",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
           "author": null,
@@ -2638,6 +2708,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=160892",
+          "author": "Amanda Gefter",
+          "description": "Our tales of AI developing the will to survive, commandeer resources, and manipulate people say more about us than they do about language models.             \nThe post Why Do We Tell Ourselves Scary Stories About AI? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/why-do-we-tell-ourselves-scary-stories-about-ai-20260410/",
+          "publishedOn": "2026-04-10T14:25:09.000Z",
+          "wordCount": 4688,
+          "title": "Why Do We Tell Ourselves Scary Stories About AI?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Aihorrorstories_cr-Zara-PickenSocial.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=160842",
           "author": "Charlie Wood",

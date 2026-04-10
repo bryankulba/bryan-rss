@@ -2,10 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-10T13:05:47.588Z</updated>
+    <updated>2026-04-10T16:49:39.337Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[mist is now open source and looking for interop]]></title>
+        <id>https://interconnected.org/home/2026/04/10/open-mist</id>
+        <link href="https://interconnected.org/home/2026/04/10/open-mist"/>
+        <updated>2026-04-10T16:35:00.000Z</updated>
+        <summary type="html"><![CDATA[A brief update on mist, my ephemeral Markdown editor with Google Docs-style comments and suggested edits:
+mist is now open source with an MIT license, and the mist repo is here on GitHub.
+(Try mist now and here’s my write-up from February.)
+What I love about Markdown is that it’s document-first. The formatting travels with the doc. I can’t tell you how many note-taking apps I’ve jumped between with my exact same folder of Markdown notes.
+The same should be true for collaboration features like suggested edits. If somebody makes an edit to your doc, you should be able to download it and upload to a wholly different app before you accept the edit; you shouldn’t be tied to a single service just because you want comments.
+(And of course the doc should still be human-readable/writeable, and it’s cheating to just stuff a massive data-structure in a document header.)
+So mist mixes Markdown and CriticMarkup – and I would love it if others picked up the same format. If apps are cheap and abundant in the era of vibing, then let’s focus on interop!
+With mist itself:
+Several people have asked for the ability to self-host it. The README says how (it’s all on Cloudflare naturally). You can add new features to your own fork, though please do share upstream if you think others could benefit.
+And yes, contributions welcome! We’ve already received and merged our first pull request – thank you James Adam!
+No, a document editor is not what we’re building at Inanimate. But it’s neat to release small useful projects that get made along the way. btw subscribe to our newsletter.
+More posts tagged:
+	
+	inanimate
+	(4).]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;Stalin&#8217;s task in building what Senior calls...]]></title>
+        <id>https://kottke.org/26/04/0048709-stalins-task-in-building-</id>
+        <link href="https://kottke.org/26/04/0048709-stalins-task-in-building-"/>
+        <updated>2026-04-10T16:05:07.000Z</updated>
+        <summary type="html"><![CDATA[“Stalin’s task in building what Senior calls his ‘Red Empire’ was made so much easier, and so much more brutal, by the intelligence the Cambridge spies passed to Moscow.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT voice mode is a weaker model]]></title>
+        <id>https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything"/>
+        <updated>2026-04-10T15:56:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.</p>
+<p>If you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o era model.</p>
+<p>This thought inspired by <a href="https://twitter.com/karpathy/status/2042334451611693415">this Karpathy tweet</a> about the growing gap in understanding of AI capability based on the access points and domains people are using the models with:</p>
+<blockquote>
+<p>[...] It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) "Advanced Voice Mode" will fumble the dumbest questions in your Instagram's reels and <em>at the same time</em>, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems.</p>
+<p>This part really works and has made dramatic strides because 2 properties:</p>
+<ol>
+<li>these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also</li>
+<li>they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them.</li>
+</ol>
+</blockquote>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/andrej-karpathy">andrej-karpathy</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charcuterie  is a visual Unicode symbol explorer. Click...]]></title>
+        <id>https://kottke.org/26/04/0048722-charcuterie-is-a-visual-u</id>
+        <link href="https://kottke.org/26/04/0048722-charcuterie-is-a-visual-u"/>
+        <updated>2026-04-10T15:35:29.000Z</updated>
+        <summary type="html"><![CDATA[Charcuterie is a visual Unicode symbol explorer. Click around, search, or use the pencil in the upper left to draw the shape you’re looking for. This is very cool.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diary Comics From the 1940s]]></title>
+        <id>https://kottke.org/26/04/diary-comics-from-the-1940s</id>
+        <link href="https://kottke.org/26/04/diary-comics-from-the-1940s"/>
+        <updated>2026-04-10T14:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This is wonderful: a Redditor uploaded some of their grandmother’s comics that she made in the 1940s, documenting her marriage to the deployment of her husband for World War II. 
+I never got to meet my grandma, she passed away young in 1977 but finding her 1940s sketches felt like she was finally introducing herself to me. She was so talented, and as you can see, she had absolutely zero filter (I finally understand where my mother and I get it from).
+My favorite part is seeing her personality jump off the page. She goes from joking about Pre-Marital Chaos and Pancake Gravy to the gut-punch of my grandpa getting his deployment orders in ‘44. She wrote “Damn the Army and Hitler!”
+
+	
+(thx, andy)
+
+ 
+
+        
+         
+Tags: comics]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Do We Tell Ourselves Scary Stories About AI?]]></title>
+        <id>https://www.quantamagazine.org/?p=160892</id>
+        <link href="https://www.quantamagazine.org/why-do-we-tell-ourselves-scary-stories-about-ai-20260410/"/>
+        <updated>2026-04-10T14:25:09.000Z</updated>
+        <summary type="html"><![CDATA[Our tales of AI developing the will to survive, commandeer resources, and manipulate people say more about us than they do about language models.             
+The post Why Do We Tell Ourselves Scary Stories About AI? first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Amanda Gefter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Well, this blows:  FSG has shuttered their MCD imprint &...]]></title>
+        <id>https://kottke.org/26/04/0048723-well-this-blows-fsg-has</id>
+        <link href="https://kottke.org/26/04/0048723-well-this-blows-fsg-has"/>
+        <updated>2026-04-10T13:56:14.000Z</updated>
+        <summary type="html"><![CDATA[Well, this blows: FSG has shuttered their MCD imprint & Sean McDonald is leaving the company. MCD published so many good titles/authors: Questlove, Enshittification, Robin Sloan, Jeff VanderMeer, Sloane Crosley, Dilla Time, Tamara Shopsin…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Canny Valley and Creative Commons (10 Apr 2026)]]></title>
         <id>https://pluralistic.net/?p=12642</id>
@@ -25,6 +133,22 @@
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Against The Grain: London’s last jukeboxes]]></title>
+        <id>https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-last-jukeboxes</id>
+        <link href="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-last-jukeboxes"/>
+        <updated>2026-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 507
+
+
+    In George Orwell’s Nineteen Eighty-Four the novel’s protagonist Winston Smith strays into the backstreet neighbourhood of the Proles, where he encounters the owner of a junkshop who recites this nursery rhyme to him. The junkshop is crammed with dusty treasures spilling out in disordered heaps, among them a glass paperweight containing a piece of pink coral. Fascinated by the uselessness of this object, Winston buys it.
+
+
+    Bradley’s, the site of a former wine merchant, predates its jukebox by about a decade, but the place looks Victorian, somewhere you might hold a séance, with its tasselled bell lampshades, arabesque-patterned wallpaper, red velvet banquette and assorted memorabilia that includes a framed photograph of the Hanway Club’s pipe-smoking president William…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
