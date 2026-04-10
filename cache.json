@@ -110,6 +110,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/that-a-way/",
+          "author": null,
+          "description": "<p>That-a-way! <a href=\"https://www.robinsloan.com/lab/that-a-way/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/that-a-way/",
+          "publishedOn": "2026-04-10T11:00:00.000Z",
+          "wordCount": 5624,
+          "title": "Dragoncatcher: Reasoning models don't so much think as navigate",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/galactica-option/",
           "author": null,
           "description": "<p>Airgap century. <a href=\"https://www.robinsloan.com/lab/galactica-option/\">Read here.</a></p>",
@@ -265,6 +275,66 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/0048696-a-tour-of-the-mannequin",
+          "author": null,
+          "description": "A tour of the mannequin storage room at FIT. Each era’s mannequins are designed to mimic the “fashionable body” of that time period.",
+          "link": "https://kottke.org/26/04/0048696-a-tour-of-the-mannequin",
+          "publishedOn": "2026-04-10T20:22:30.000Z",
+          "wordCount": 775,
+          "title": "A tour of the mannequin storage room at FIT . Each...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048721-an-interview-with-ronald-",
+          "author": null,
+          "description": "An interview with Ronald Wayne, Apple’s forgotten third founder. (He was with the company all of 2 weeks.)",
+          "link": "https://kottke.org/26/04/0048721-an-interview-with-ronald-",
+          "publishedOn": "2026-04-10T19:38:51.000Z",
+          "wordCount": 729,
+          "title": "An interview with Ronald Wayne , Apple&#8217;s forgotten...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/radiohead-covers-joy-division-ceremony",
+          "author": null,
+          "description": "From a livestream recorded many years ago, this is Radiohead covering Joy Division’s Ceremony. The song was originally written by Joy Division but the version most people know is New Order’s — it was their first single. From Wikipedia:\n“Ceremony” was one of the last Joy Division songs to be composed, with lyrics written by Ian Curtis. According to guitarist Bernard Sumner, the group wrote the song a few weeks before Ian Curtis died “to try and heal him through music” and keep him “involved in the band and involved in music and remind him of what … a great future he had”. Sumner concluded, “Unfortunately, it didn’t work”.\nJust three versions of Joy Division performing the song exist, including one on the group’s compilation album Still.\n\n \n\n        \n         \nTags: Joy Division · music · New Order · Radiohead · remix · video",
+          "link": "https://kottke.org/26/04/radiohead-covers-joy-division-ceremony",
+          "publishedOn": "2026-04-10T18:51:00.000Z",
+          "wordCount": 904,
+          "title": "Radiohead Covers Joy Division&#8217;s Ceremony",
+          "imageUrl": "https://i.ytimg.com/vi/cedNya7e8Uc/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048715-oh-wow-this-is-a",
+          "author": null,
+          "description": "Oh wow, this is a trippy game inspired by MC Escher. My brain may be permanently broken by this.",
+          "link": "https://kottke.org/26/04/0048715-oh-wow-this-is-a",
+          "publishedOn": "2026-04-10T18:15:09.000Z",
+          "wordCount": 717,
+          "title": "Oh wow,  this is a trippy game inspired by MC Escher . My...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048714-a-short-analysis-of-what",
+          "author": null,
+          "description": "A short analysis of what makes Mark Antony’s “Friends, Romans, countrymen…” speech from Shakespeare’s Julius Caesar so good and effective.",
+          "link": "https://kottke.org/26/04/0048714-a-short-analysis-of-what",
+          "publishedOn": "2026-04-10T17:36:29.000Z",
+          "wordCount": 855,
+          "title": "A short analysis  of what makes Mark Antony&#8217;s...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048713-using-wiki-software-old-p",
+          "author": null,
+          "description": "Using wiki software, old photos, family stories, bank transactions, social media posts, and an LLM to sift through everything to build a personal encyclopedia.",
+          "link": "https://kottke.org/26/04/0048713-using-wiki-software-old-p",
+          "publishedOn": "2026-04-10T16:51:09.000Z",
+          "wordCount": 1075,
+          "title": "Using wiki software, old photos, family stories, bank...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048709-stalins-task-in-building-",
           "author": null,
@@ -1995,6 +2065,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
+          "author": null,
+          "description": "<p>Lenny <a href=\"https://twitter.com/lennysan/status/2042615413494939943\">posted</a> another snippet from <a href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\">our 1 hour 40 minute podcast recording</a> and it's about kākāpō parrots!</p>\n<p><video\n  src=\"https://static.simonwillison.net/static/2026/kakapo-lenny.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026/kakapo-lenny.jpg\"\n  controls\n  preload=\"none\"\n  playsinline\n  style=\"display:block; max-width:400px; width:100%; height:auto; margin:0 auto\"\n><track src=\"https://static.simonwillison.net/static/cors-allow/2026/kakapo-lenny.vtt\" kind=\"captions\" srclang=\"en\" label=\"English\"></video>\n</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kakapo\">kakapo</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
+          "publishedOn": "2026-04-10T19:07:02.000Z",
+          "wordCount": 723,
+          "title": "Kākāpō parrots",
+          "imageUrl": "https://static.simonwillison.net/static/2026/kakapo-lenny.jpg"
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
           "author": null,

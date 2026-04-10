@@ -2,10 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-10T16:49:39.337Z</updated>
+    <updated>2026-04-10T20:34:43.383Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A tour of the mannequin storage room at FIT . Each...]]></title>
+        <id>https://kottke.org/26/04/0048696-a-tour-of-the-mannequin</id>
+        <link href="https://kottke.org/26/04/0048696-a-tour-of-the-mannequin"/>
+        <updated>2026-04-10T20:22:30.000Z</updated>
+        <summary type="html"><![CDATA[A tour of the mannequin storage room at FIT. Each era’s mannequins are designed to mimic the “fashionable body” of that time period.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An interview with Ronald Wayne , Apple&#8217;s forgotten...]]></title>
+        <id>https://kottke.org/26/04/0048721-an-interview-with-ronald-</id>
+        <link href="https://kottke.org/26/04/0048721-an-interview-with-ronald-"/>
+        <updated>2026-04-10T19:38:51.000Z</updated>
+        <summary type="html"><![CDATA[An interview with Ronald Wayne, Apple’s forgotten third founder. (He was with the company all of 2 weeks.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kākāpō parrots]]></title>
+        <id>https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything"/>
+        <updated>2026-04-10T19:07:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>Lenny <a href="https://twitter.com/lennysan/status/2042615413494939943">posted</a> another snippet from <a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/">our 1 hour 40 minute podcast recording</a> and it's about kākāpō parrots!</p>
+<p><video
+  src="https://static.simonwillison.net/static/2026/kakapo-lenny.mp4"
+  poster="https://static.simonwillison.net/static/2026/kakapo-lenny.jpg"
+  controls
+  preload="none"
+  playsinline
+  style="display:block; max-width:400px; width:100%; height:auto; margin:0 auto"
+><track src="https://static.simonwillison.net/static/cors-allow/2026/kakapo-lenny.vtt" kind="captions" srclang="en" label="English"></video>
+</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/kakapo">kakapo</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Radiohead Covers Joy Division&#8217;s Ceremony]]></title>
+        <id>https://kottke.org/26/04/radiohead-covers-joy-division-ceremony</id>
+        <link href="https://kottke.org/26/04/radiohead-covers-joy-division-ceremony"/>
+        <updated>2026-04-10T18:51:00.000Z</updated>
+        <summary type="html"><![CDATA[From a livestream recorded many years ago, this is Radiohead covering Joy Division’s Ceremony. The song was originally written by Joy Division but the version most people know is New Order’s — it was their first single. From Wikipedia:
+“Ceremony” was one of the last Joy Division songs to be composed, with lyrics written by Ian Curtis. According to guitarist Bernard Sumner, the group wrote the song a few weeks before Ian Curtis died “to try and heal him through music” and keep him “involved in the band and involved in music and remind him of what … a great future he had”. Sumner concluded, “Unfortunately, it didn’t work”.
+Just three versions of Joy Division performing the song exist, including one on the group’s compilation album Still.
+
+ 
+
+        
+         
+Tags: Joy Division · music · New Order · Radiohead · remix · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oh wow,  this is a trippy game inspired by MC Escher . My...]]></title>
+        <id>https://kottke.org/26/04/0048715-oh-wow-this-is-a</id>
+        <link href="https://kottke.org/26/04/0048715-oh-wow-this-is-a"/>
+        <updated>2026-04-10T18:15:09.000Z</updated>
+        <summary type="html"><![CDATA[Oh wow, this is a trippy game inspired by MC Escher. My brain may be permanently broken by this.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A short analysis  of what makes Mark Antony&#8217;s...]]></title>
+        <id>https://kottke.org/26/04/0048714-a-short-analysis-of-what</id>
+        <link href="https://kottke.org/26/04/0048714-a-short-analysis-of-what"/>
+        <updated>2026-04-10T17:36:29.000Z</updated>
+        <summary type="html"><![CDATA[A short analysis of what makes Mark Antony’s “Friends, Romans, countrymen…” speech from Shakespeare’s Julius Caesar so good and effective.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using wiki software, old photos, family stories, bank...]]></title>
+        <id>https://kottke.org/26/04/0048713-using-wiki-software-old-p</id>
+        <link href="https://kottke.org/26/04/0048713-using-wiki-software-old-p"/>
+        <updated>2026-04-10T16:51:09.000Z</updated>
+        <summary type="html"><![CDATA[Using wiki software, old photos, family stories, bank transactions, social media posts, and an LLM to sift through everything to build a personal encyclopedia.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[mist is now open source and looking for interop]]></title>
         <id>https://interconnected.org/home/2026/04/10/open-mist</id>
@@ -112,6 +201,16 @@ The post Why Do We Tell Ourselves Scary Stories About AI? first appeared on Quan
         <summary type="html"><![CDATA[Well, this blows: FSG has shuttered their MCD imprint & Sean McDonald is leaving the company. MCD published so many good titles/authors: Questlove, Enshittification, Robin Sloan, Jeff VanderMeer, Sloane Crosley, Dilla Time, Tamara Shopsin…]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Reasoning models don't so much think as navigate]]></title>
+        <id>https://www.robinsloan.com/lab/that-a-way/</id>
+        <link href="https://www.robinsloan.com/lab/that-a-way/"/>
+        <updated>2026-04-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>That-a-way! <a href="https://www.robinsloan.com/lab/that-a-way/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
