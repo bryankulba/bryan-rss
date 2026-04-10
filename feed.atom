@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-09T20:48:04.889Z</updated>
+    <updated>2026-04-10T02:23:55.915Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[This tiny e-ink reader  is  small enough  to attach to...]]></title>
+        <id>https://kottke.org/26/04/0048717-this-tiny-e-ink-reader-is</id>
+        <link href="https://kottke.org/26/04/0048717-this-tiny-e-ink-reader-is"/>
+        <updated>2026-04-09T23:31:23.000Z</updated>
+        <summary type="html"><![CDATA[This tiny e-ink reader is small enough to attach to the back of your phone.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Headless Mary Magdalene by Artemisia Gentileschi]]></title>
+        <id>https://kottke.org/26/04/the-headless-mary-magdalene-by-artemisia-gentileschi</id>
+        <link href="https://kottke.org/26/04/the-headless-mary-magdalene-by-artemisia-gentileschi"/>
+        <updated>2026-04-09T22:45:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m charmed by this fragment of Artemisia Gentileschi’s painting of Mary Magdalene that’s up for auction later this month.
+For many years it was in a private collection in Germany where it lay rolled up in a cellar. The head of the saint had been cut out of the canvas, under circumstances that remain unclear, in an incident most probably linked to the chaos and looting of postwar Berlin.
+
+	
+Like the empty picture frames at the Isabella Stewart Gardner Museum, the rectangular hole in the painting invites the viewer to imagine what became of its former contents. Where is Magdalene’s head & shoulders now? Did it get framed as its own painting? Is it still hanging in someone’s house or tucked away in someone’s attic? Will it be reunited with the rest of the painting someday?
+Btw, this painting is a copy of another of Gentileschi’s previous works, which hangs in the Pitti Palace in Florence. There are some differences between the two paintings, but at least we know what the area inside that hole looks like, mostly.
+
+
+ 
+
+        
+         
+Tags: art · Artemisia Gentileschi]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Between the Impossible and the Inevitable: The Case for...]]></title>
+        <id>https://kottke.org/26/04/0048711-between-the-impossible-an</id>
+        <link href="https://kottke.org/26/04/0048711-between-the-impossible-an"/>
+        <updated>2026-04-09T22:01:57.000Z</updated>
+        <summary type="html"><![CDATA[Between the Impossible and the Inevitable: The Case for Defiance (aka Never F**king Surrender). “We make the future in the present, when we show up. Don’t surrender it to those who would destroy it.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Repo Size]]></title>
+        <id>https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"/>
+        <updated>2026-04-09T21:31:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/github-repo-size">GitHub Repo Size</a></p>
+    <p>GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly <a href="https://api.github.com/repos/simonw/datasette">API</a>. Paste a repo into this tool to see the size, <a href="https://tools.simonwillison.net/github-repo-size?repo=simonw%2Fdatasette">for example for simonw/datasette</a> (8.1MB).</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/cors">cors</a>, <a href="https://simonwillison.net/tags/github">github</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hostile Volume  is a simple and maddening game where you...]]></title>
+        <id>https://kottke.org/26/04/0048712-hostile-volume-is-a-simpl</id>
+        <link href="https://kottke.org/26/04/0048712-hostile-volume-is-a-simpl"/>
+        <updated>2026-04-09T21:12:18.000Z</updated>
+        <summary type="html"><![CDATA[Hostile Volume is a simple and maddening game where you need to hold the audio volume at 25%, which gets increasingly difficult with each level.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[International Chess Federation Adds Race Car Piece ....]]></title>
         <id>https://kottke.org/26/04/0048708-international-chess-feder</id>
@@ -4486,16 +4551,6 @@ Eva Novoa
 Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.]]></summary>
         <author>
             <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design Beyond the Human. Transdisciplinary Conversations about the Planet]]></title>
-        <id>https://we-make-money-not-art.com/?p=38821</id>
-        <link href="https://we-make-money-not-art.com/design-beyond-the-human-transdisciplinary-conversations-about-the-planet/"/>
-        <updated>2026-03-11T14:04:00.000Z</updated>
-        <summary type="html"><![CDATA[The book challenges the Anglo-European anthropocentric conceptualisation of design that dominates practice, education and academic discourse]]></summary>
-        <author>
-            <name>Regine</name>
         </author>
     </entry>
 </feed>

@@ -246,6 +246,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/04/0048717-this-tiny-e-ink-reader-is",
+          "author": null,
+          "description": "This tiny e-ink reader is small enough to attach to the back of your phone.",
+          "link": "https://kottke.org/26/04/0048717-this-tiny-e-ink-reader-is",
+          "publishedOn": "2026-04-09T23:31:23.000Z",
+          "wordCount": 703,
+          "title": "This tiny e-ink reader  is  small enough  to attach to...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/the-headless-mary-magdalene-by-artemisia-gentileschi",
+          "author": null,
+          "description": "I’m charmed by this fragment of Artemisia Gentileschi’s painting of Mary Magdalene that’s up for auction later this month.\nFor many years it was in a private collection in Germany where it lay rolled up in a cellar. The head of the saint had been cut out of the canvas, under circumstances that remain unclear, in an incident most probably linked to the chaos and looting of postwar Berlin.\n\n\t\nLike the empty picture frames at the Isabella Stewart Gardner Museum, the rectangular hole in the painting invites the viewer to imagine what became of its former contents. Where is Magdalene’s head & shoulders now? Did it get framed as its own painting? Is it still hanging in someone’s house or tucked away in someone’s attic? Will it be reunited with the rest of the painting someday?\nBtw, this painting is a copy of another of Gentileschi’s previous works, which hangs in the Pitti Palace in Florence. There are some differences between the two paintings, but at least we know what the area inside that hole looks like, mostly.\n\n\n \n\n        \n         \nTags: art · Artemisia Gentileschi",
+          "link": "https://kottke.org/26/04/the-headless-mary-magdalene-by-artemisia-gentileschi",
+          "publishedOn": "2026-04-09T22:45:00.000Z",
+          "wordCount": 860,
+          "title": "The Headless Mary Magdalene by Artemisia Gentileschi",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1775763512-6152b5e2.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048711-between-the-impossible-an",
+          "author": null,
+          "description": "Between the Impossible and the Inevitable: The Case for Defiance (aka Never F**king Surrender). “We make the future in the present, when we show up. Don’t surrender it to those who would destroy it.”",
+          "link": "https://kottke.org/26/04/0048711-between-the-impossible-an",
+          "publishedOn": "2026-04-09T22:01:57.000Z",
+          "wordCount": 528,
+          "title": "Between the Impossible and the Inevitable: The Case for...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048712-hostile-volume-is-a-simpl",
+          "author": null,
+          "description": "Hostile Volume is a simple and maddening game where you need to hold the audio volume at 25%, which gets increasingly difficult with each level.",
+          "link": "https://kottke.org/26/04/0048712-hostile-volume-is-a-simpl",
+          "publishedOn": "2026-04-09T21:12:18.000Z",
+          "wordCount": 731,
+          "title": "Hostile Volume  is a simple and maddening game where you...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/04/0048708-international-chess-feder",
           "author": null,
           "description": "International Chess Federation Adds Race Car Piece. “The race car piece gets to go twice in one turn because it’s so fast.” Smart to capitalize on F1’s popularity; they should do my fave Monopoly piece next (the iron).",
@@ -1886,6 +1926,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/github-repo-size\">GitHub Repo Size</a></p>\n    <p>GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly <a href=\"https://api.github.com/repos/simonw/datasette\">API</a>. Paste a repo into this tool to see the size, <a href=\"https://tools.simonwillison.net/github-repo-size?repo=simonw%2Fdatasette\">for example for simonw/datasette</a> (8.1MB).</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/cors\">cors</a>, <a href=\"https://simonwillison.net/tags/github\">github</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
+          "publishedOn": "2026-04-09T21:31:50.000Z",
+          "wordCount": 741,
+          "title": "GitHub Repo Size",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
           "author": null,
           "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/asgi-gzip/releases/tag/0.3\">asgi-gzip 0.3</a></p>\n    <p>I ran into trouble deploying a new feature using <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events\">SSE</a> to a production Datasette instance, and it turned out that instance was using <a href=\"https://github.com/simonw/datasette-gzip\">datasette-gzip</a> which uses <a href=\"https://github.com/simonw/asgi-gzip\">asgi-gzip</a> which was incorrectly compressing <code>event/text-stream</code> responses.</p>\n<p><code>asgi-gzip</code> was extracted from Starlette, and has <a href=\"https://simonwillison.net/2022/Apr/28/issue-on-changes/\">a GitHub Actions scheduled workflow</a> to check Starlette for updates that need to be ported to the library... but that action had stopped running and hence had missed <a href=\"https://github.com/Kludex/starlette/commit/a9a8dab0cc3cbd05dca37650fc392717b9fe5bbf\">Starlette's own fix</a> for this issue.</p>\n<p>I ran the workflow and integrated the new fix, and now <code>datasette-gzip</code> and <code>asgi-gzip</code> both correctly handle <code>text/event-stream</code> in SSE responses.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gzip\">gzip</a>, <a href=\"https://simonwillison.net/tags/asgi\">asgi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a></p>",
@@ -2526,16 +2576,6 @@
           "wordCount": 3628,
           "title": "collapse: data.models.worlds. What role does technology play in the intensifying state of crisis shaping our world?",
           "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/03/55145574524_875ec12596_c.jpg"
-        },
-        {
-          "id": "https://we-make-money-not-art.com/?p=38821",
-          "author": "Regine",
-          "description": "The book challenges the Anglo-European anthropocentric conceptualisation of design that dominates practice, education and academic discourse",
-          "link": "https://we-make-money-not-art.com/design-beyond-the-human-transdisciplinary-conversations-about-the-planet/",
-          "publishedOn": "2026-03-11T14:04:00.000Z",
-          "wordCount": 2624,
-          "title": "Design Beyond the Human. Transdisciplinary Conversations about the Planet",
-          "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/03/quercus_7.jpg"
         }
       ]
     },
