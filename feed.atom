@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-11T16:35:32.498Z</updated>
+    <updated>2026-04-11T20:31:22.957Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SQLite 3.53.0]]></title>
+        <id>https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything"/>
+        <updated>2026-04-11T19:56:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://sqlite.org/releaselog/3_53_0.html">SQLite 3.53.0</a></strong></p>
+SQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of accumulated user-facing and internal improvements. Some that stood out to me:</p>
+<ul>
+<li><code>ALTER TABLE</code> can now add and remove <code>NOT NULL</code> and <code>CHECK</code> constraints - I've previously used my own <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html#changing-not-null-status">sqlite-utils transform() method</a> for this.</li>
+<li>New <a href="https://sqlite.org/json1.html#jarrayins">json_array_insert() function</a> and its <code>jsonb</code> equivalent.</li>
+<li>Significant improvements to <a href="https://sqlite.org/climode.html">CLI mode</a>, including result formatting.</li>
+</ul>
+<p>The result formatting improvements come from a new library, the <a href="https://sqlite.org/src/file/ext/qrf">Query Results Formatter</a>. I <a href="https://github.com/simonw/tools/pull/266">had Claude Code</a> (on my phone) compile that to WebAssembly and build <a href="https://tools.simonwillison.net/sqlite-qrf">this playground interface</a> for trying that out.
+
+    <p><small></small>Via <a href="https://lobste.rs/s/sqsb24/sqlite_3_53_0">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQLite Query Result Formatter Demo]]></title>
+        <id>https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything"/>
+        <updated>2026-04-11T19:35:31.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/sqlite-qrf">SQLite Query Result Formatter Demo</a></p>
+    <p>See my notes <a href="https://simonwillison.net/2026/Apr/11/sqlite/">on SQLite 3.53.0</a>. This playground provides a UI for trying out the various rendering options for SQL result tables from the new Query Result Formatter library, compiled to WebAssembly.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Don't Be Evil (11 Apr 2026)]]></title>
         <id>https://pluralistic.net/?p=12651</id>
@@ -4664,17 +4699,6 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
         <summary type="html"><![CDATA[40 channels with a TV guide and fixed daily schedule #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webcurios 13/03/26]]></title>
-        <id>https://webcurios.co.uk/?p=1476</id>
-        <link href="https://webcurios.co.uk/webcurios-13-03-26/"/>
-        <updated>2026-03-13T06:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Reading Time:  39 minutes   I take ONE Friday off and I come back to the beginnings of World War III – look, obviously correlation is not causation, but I am never taking another week off EVER AGAIN lest it lead to armageddon or something (this is obviously a joke, like I care about armageddon; see you on the…
-Continue reading →]]></summary>
-        <author>
-            <name>admin</name>
         </author>
     </entry>
 </feed>

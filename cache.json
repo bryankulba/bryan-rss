@@ -241,16 +241,6 @@
           "wordCount": 10852,
           "title": "Webcurios 20/03/26",
           "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1476",
-          "author": "admin",
-          "description": "Reading Time:  39 minutes   I take ONE Friday off and I come back to the beginnings of World War III – look, obviously correlation is not causation, but I am never taking another week off EVER AGAIN lest it lead to armageddon or something (this is obviously a joke, like I care about armageddon; see you on the…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-13-03-26/",
-          "publishedOn": "2026-03-13T06:23:23.000Z",
-          "wordCount": 11690,
-          "title": "Webcurios 13/03/26",
-          "imageUrl": null
         }
       ]
     },
@@ -2075,6 +2065,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://sqlite.org/releaselog/3_53_0.html\">SQLite 3.53.0</a></strong></p>\nSQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of accumulated user-facing and internal improvements. Some that stood out to me:</p>\n<ul>\n<li><code>ALTER TABLE</code> can now add and remove <code>NOT NULL</code> and <code>CHECK</code> constraints - I've previously used my own <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#changing-not-null-status\">sqlite-utils transform() method</a> for this.</li>\n<li>New <a href=\"https://sqlite.org/json1.html#jarrayins\">json_array_insert() function</a> and its <code>jsonb</code> equivalent.</li>\n<li>Significant improvements to <a href=\"https://sqlite.org/climode.html\">CLI mode</a>, including result formatting.</li>\n</ul>\n<p>The result formatting improvements come from a new library, the <a href=\"https://sqlite.org/src/file/ext/qrf\">Query Results Formatter</a>. I <a href=\"https://github.com/simonw/tools/pull/266\">had Claude Code</a> (on my phone) compile that to WebAssembly and build <a href=\"https://tools.simonwillison.net/sqlite-qrf\">this playground interface</a> for trying that out.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/sqsb24/sqlite_3_53_0\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+          "publishedOn": "2026-04-11T19:56:53.000Z",
+          "wordCount": 813,
+          "title": "SQLite 3.53.0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/sqlite-qrf\">SQLite Query Result Formatter Demo</a></p>\n    <p>See my notes <a href=\"https://simonwillison.net/2026/Apr/11/sqlite/\">on SQLite 3.53.0</a>. This playground provides a UI for trying out the various rendering options for SQL result tables from the new Query Result Formatter library, compiled to WebAssembly.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything",
+          "publishedOn": "2026-04-11T19:35:31.000Z",
+          "wordCount": 750,
+          "title": "SQLite Query Result Formatter Demo",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
           "author": null,
