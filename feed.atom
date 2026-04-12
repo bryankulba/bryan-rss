@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-12T05:53:57.194Z</updated>
+    <updated>2026-04-12T12:57:58.161Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A peculiar mixture of omniscience and impotence ⊗ Electrostates & physics]]></title>
+        <id>69d9a25d9acd5400015c51fd</id>
+        <link href="https://sentiers.media/a-peculiar-mixture-of-omniscience-and-impotence-electrostates-physics-no-398/"/>
+        <updated>2026-04-12T10:00:20.000Z</updated>
+        <summary type="html"><![CDATA[No.398 — A scathing LLM YouTuber ⊗ “We ran a business LARP” ⊗ Making Sense of Slow AI ⊗ Solar power and chili peppers ⊗ Skeleton of Three Musketeers hero d’Artagnan]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SQLite 3.53.0]]></title>
         <id>https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything</id>
