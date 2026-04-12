@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-12T16:36:59.926Z</updated>
+    <updated>2026-04-12T20:34:00.502Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Tinfoil]]></title>
+        <id>https://www.robinsloan.com/lab/tinfoil/</id>
+        <link href="https://www.robinsloan.com/lab/tinfoil/"/>
+        <updated>2026-04-12T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>This is the good stuff. <a href="https://www.robinsloan.com/lab/tinfoil/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A peculiar mixture of omniscience and impotence ⊗ Electrostates & physics]]></title>
         <id>69d9a25d9acd5400015c51fd</id>

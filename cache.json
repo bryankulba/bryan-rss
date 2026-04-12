@@ -110,6 +110,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/tinfoil/",
+          "author": null,
+          "description": "<p>This is the good stuff. <a href=\"https://www.robinsloan.com/lab/tinfoil/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/tinfoil/",
+          "publishedOn": "2026-04-12T11:00:00.000Z",
+          "wordCount": 5310,
+          "title": "Dragoncatcher: Tinfoil",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/that-a-way/",
           "author": null,
           "description": "<p>That-a-way! <a href=\"https://www.robinsloan.com/lab/that-a-way/\">Read here.</a></p>",
