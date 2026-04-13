@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-13T06:13:48.515Z</updated>
+    <updated>2026-04-13T13:22:46.590Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Interviews with five novelists (Jesmyn Ward, Joyce Carol...]]></title>
+        <id>https://kottke.org/26/04/0048674-interviews-with-five-nove</id>
+        <link href="https://kottke.org/26/04/0048674-interviews-with-five-nove"/>
+        <updated>2026-04-13T13:12:46.000Z</updated>
+        <summary type="html"><![CDATA[Interviews with five novelists (Jesmyn Ward, Joyce Carol Oates, Jhumpa Lahiri, Ottessa Moshfegh, Margaret Atwood) on writing something true with fiction. Oates: “If you could read Toni Morrison, why would you read AI?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[generally: 13apr26]]></title>
+        <id>https://warrenellis.ltd/?p=18191</id>
+        <link href="https://warrenellis.ltd/status/generally-13apr26/"/>
+        <updated>2026-04-13T10:29:16.000Z</updated>
+        <summary type="html"><![CDATA[On Saturday I went into London to see Julianna Barwick and Mary Lattimore play at EARtH, and it was as marvellous as I hoped. On…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Austerity creates fascism (13 Apr 2026)]]></title>
         <id>https://pluralistic.net/?p=12658</id>
