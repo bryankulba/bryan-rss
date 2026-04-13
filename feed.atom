@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-13T17:03:05.639Z</updated>
+    <updated>2026-04-13T20:53:36.552Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We love  a slime mold  around here. &#8220;From mottled...]]></title>
+        <id>https://kottke.org/26/04/0048692-we-love-a-slime-mold</id>
+        <link href="https://kottke.org/26/04/0048692-we-love-a-slime-mold"/>
+        <updated>2026-04-13T20:24:19.000Z</updated>
+        <summary type="html"><![CDATA[We love a slime mold around here. “From mottled gray bulbs that look like snow-covered trees to pink, coral-like tendrils, Webb chronicles a huge array of colors and shapes.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This is incredible:  Google Has a Secret Reference Desk....]]></title>
+        <id>https://kottke.org/26/04/0048734-this-is-incredible-google</id>
+        <link href="https://kottke.org/26/04/0048734-this-is-incredible-google"/>
+        <updated>2026-04-13T19:34:58.000Z</updated>
+        <summary type="html"><![CDATA[This is incredible: Google Has a Secret Reference Desk. Here’s How to Use It. I knew some of these but not all, e.g.  verbatim mode “returns results for exactly what you typed, stripped of personalization and synonym-swapping.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Crystal Skull]]></title>
+        <id>https://kottke.org/26/04/the-crystal-skull</id>
+        <link href="https://kottke.org/26/04/the-crystal-skull"/>
+        <updated>2026-04-13T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[David Altmejd’s 2017 sculpture entitled “God” is one of the most disturbing artworks I’ve seen recently, so naturally I had to show all of you. If you need further wigging out, here you go. Lots more on his website and Instagram.
+
+ 
+
+        
+         
+Tags: art · David Altmejd]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Great new Patrick Radden Keefe piece on a New Orleans...]]></title>
+        <id>https://kottke.org/26/04/0048729-great-new-patrick-radden-</id>
+        <link href="https://kottke.org/26/04/0048729-great-new-patrick-radden-"/>
+        <updated>2026-04-13T17:15:49.000Z</updated>
+        <summary type="html"><![CDATA[Great new Patrick Radden Keefe piece on a New Orleans insurance fraud scheme involving big rigs. “After all, who would agree to be cut open on an operating table if it weren’t necessary? Quite a lot of people, it turns out.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fred Again&#8217;s Tiny Desk Concert]]></title>
         <id>https://kottke.org/26/04/fred-agains-tiny-desk-concert</id>
@@ -31,6 +77,29 @@ Tags: Fred Again · music · Tiny Desk Concerts · video]]></summary>
         <summary type="html"><![CDATA[Why Japan Has Such Good Railways. “Their system excels because of good public policy: business structure, land use rules, driving rules, superior models for privatization, and sound regulation.” Other countries can follow their lead.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the new `servo` crate]]></title>
+        <id>https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything"/>
+        <updated>2026-04-13T15:04:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/servo-crate-exploration#readme">Exploring the new `servo` crate</a></p>
+    <p>In <a href="https://servo.org/blog/2026/04/13/servo-0.1.0-release/">Servo is now available on crates.io</a> the Servo team announced the initial release of the <a href="https://crates.io/crates/servo">servo</a> crate, which packages their browser engine as an embeddable library.</p>
+<p>I set Claude Code for web <a href="https://github.com/simonw/research/pull/108">the task</a> of figuring out what it can do, building a CLI tool for taking screenshots using it and working out if it could be compiled to WebAssembly.</p>
+<p>The <code>servo-shot</code> Rust tool it built works pretty well:</p>
+<pre><code>git clone https://github.com/simonw/research
+cd research/servo-crate-exploration/servo-shot
+cargo build
+./target/debug/servo-shot https://news.ycombinator.com/
+</code></pre>
+<p>Here's the result:</p>
+<p><img alt="An accurately rendered screenshot of the Hacker News homepage" src="https://static.simonwillison.net/static/2026/servo-hn.png" /></p>
+<p>Compiling Servo itself to WebAssembly is not feasible due to its heavy use of threads and dependencies like SpiderMonkey, but Claude did build me <a href="https://simonw.github.io/research/servo-crate-exploration/html5ever-wasm-demo/www/">this playground page</a> for trying out a WebAssembly build of the <code>html5ever</code> and <code>markup5ever_rcdom</code> crates, providing a tool for turning fragments of HTML into a parse tree.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/research">research</a>, <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/servo">servo</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
