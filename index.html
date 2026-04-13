@@ -27,6 +27,41 @@
   </header>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-12T23:57:53.000Z">2026-04-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything" target="_blank" rel="noopener noreferrer">Gemma 4 audio with MLX</a>
+          </h2>
+          <p class="feed-item__desc">Thanks to a tip from Rahim Nathwani, here's a uv run recipe for transcribing an audio file on macOS using the 10.28 GB Gemma 4 E2B model with MLX and mlx-vlm:
+uv run --python 3.13 --with mlx_vlm --with torchvision --with gradio \
+  mlx_vlm.generate \
+  --model google/gemma-4-e2b-it \
+  --audio file.wav \
+  --prompt "Transcribe this audio" \
+  --max-tokens 500 \
+  --temperature 1.0
+
+
+  
+  Your browser does not support the audio element.
+
+I tried it on this 14 second .wav file and it output the following:
+This front here is a quick voice memo. I want to try it out with MLX VLM. Just going to see if it can be transcribed by Gemma and how that works.
+(That was supposed to be "This right here..." and "... how well that works" but I can hear why it misinterpreted that as "front" and "how that works".)
+Tags: uv, mlx, ai, gemma, llms, speech-to-text, python, generative-ai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/tinfoil/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-12T11:00:00.000Z">2026-04-12</time>
