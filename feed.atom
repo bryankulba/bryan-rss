@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-13T20:53:36.552Z</updated>
+    <updated>2026-04-14T02:24:45.710Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Media companies are increasingly blocking the Internet...]]></title>
+        <id>https://kottke.org/26/04/0048737-media-companies-are-incre</id>
+        <link href="https://kottke.org/26/04/0048737-media-companies-are-incre"/>
+        <updated>2026-04-13T21:57:57.000Z</updated>
+        <summary type="html"><![CDATA[Media companies are increasingly blocking the Internet Archive from archiving their material (but at the same time using the site to gather data for their stories).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Christophers]]></title>
+        <id>https://kottke.org/26/04/the-christophers</id>
+        <link href="https://kottke.org/26/04/the-christophers"/>
+        <updated>2026-04-13T21:03:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m so glad Steven Soderbergh unretired from filmmaking. His newest film, The Christophers, looks amazing. It stars Ian McKellen as a famous artist and Michaela Coel as his assistant — but of course there’s more to it. Reviewer David Sims calls it both a heist movie and “a meditation on the relationship between art and commerce”. I hope this one actually comes to Vermont so I can see it in the theater.
+Coel and McKellen both have such great faces, don’t you think?
+
+ 
+
+        
+         
+Tags: Ian McKellen · Michaela Coel · movies · The Christophers · trailers · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Steve Yegge]]></title>
+        <id>https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything"/>
+        <updated>2026-04-13T20:59:45.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/steve_yegge/status/2043747998740689171"><p>The TL;DR is that Google engineering appears to have the same AI adoption footprint as John Deere, the tractor company. Most of the industry has the same internal adoption curve: 20% agentic power users, 20% outright refusers, 60% still using Cursor or equivalent chat tool. It turns out Google has this curve too. [...]</p>
+<p>There has been an industry-wide hiring freeze for 18+ months, during which time nobody has been moving jobs. So there are no clued-in people coming in from the outside to tell Google how far behind they are, how utterly mediocre they have become as an eng org.</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/steve_yegge/status/2043747998740689171">Steve Yegge</a>, provocative, as always</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/steve-yegge">steve-yegge</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We love  a slime mold  around here. &#8220;From mottled...]]></title>
         <id>https://kottke.org/26/04/0048692-we-love-a-slime-mold</id>
@@ -24,6 +65,16 @@
         <summary type="html"><![CDATA[This is incredible: Google Has a Secret Reference Desk. Here’s How to Use It. I knew some of these but not all, e.g.  verbatim mode “returns results for exactly what you typed, stripped of personalization and synonym-swapping.”]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Who's paying for tokens and why? (The Anthropic 1000)]]></title>
+        <id>https://www.robinsloan.com/lab/ai-spend/</id>
+        <link href="https://www.robinsloan.com/lab/ai-spend/"/>
+        <updated>2026-04-13T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Clarifying information. <a href="https://www.robinsloan.com/lab/ai-spend/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -4849,26 +4900,6 @@ Wire writer Louise Gray, who has written extensively on Radigue, speaks for many
     In 1955, Radigue encountered Pierre Schaeffer in Paris, who invited her to join the Groupe des Recherches Musicales (GRM) studios as tape assistant. She learnt tape cutting, ‘mixage et montage’ (mixing and editing) techniq…]]></summary>
         <author>
             <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Syndicates of capital ⊗ Three modes of cognition]]></title>
-        <id>69b5cccf3cc30b00015387f1</id>
-        <link href="https://sentiers.media/syndicates-of-capital-three-modes-of-cognition-no-394/"/>
-        <updated>2026-03-15T10:00:15.000Z</updated>
-        <summary type="html"><![CDATA[No.394 — Jobs below the AI ⊗ Seneca Falls Convention · 2048 ⊗ Manufacturing + AI ⊗ The psychological distance to climate disaster ⊗ GPS jamming]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Wrangler init woes]]></title>
-        <id>https://www.robinsloan.com/lab/wrangler-init/</id>
-        <link href="https://www.robinsloan.com/lab/wrangler-init/"/>
-        <updated>2026-03-15T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>TIL. <a href="https://www.robinsloan.com/lab/wrangler-init/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>

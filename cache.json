@@ -44,16 +44,6 @@
           "wordCount": 2817,
           "title": "Habermas and his coffeehouses ⊗ The case for radical solar optimism",
           "imageUrl": "https://sentiers.media/content/images/2026/03/Coffeehouse-w.jpg"
-        },
-        {
-          "id": "69b5cccf3cc30b00015387f1",
-          "author": "Patrick Tanguay",
-          "description": "No.394 — Jobs below the AI ⊗ Seneca Falls Convention · 2048 ⊗ Manufacturing + AI ⊗ The psychological distance to climate disaster ⊗ GPS jamming",
-          "link": "https://sentiers.media/syndicates-of-capital-three-modes-of-cognition-no-394/",
-          "publishedOn": "2026-03-15T10:00:15.000Z",
-          "wordCount": 2598,
-          "title": "Syndicates of capital ⊗ Three modes of cognition",
-          "imageUrl": "https://sentiers.media/content/images/2026/03/Syndicates_of_capital._--ar_11_--sref_500490291_--pr_a21dd79d-ed97-42b0-8230-f590b18a4466_2-w.jpg"
         }
       ]
     },
@@ -109,6 +99,16 @@
       "feedUrl": "https://www.robinsloan.com/feed.xml",
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
+        {
+          "id": "https://www.robinsloan.com/lab/ai-spend/",
+          "author": null,
+          "description": "<p>Clarifying information. <a href=\"https://www.robinsloan.com/lab/ai-spend/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/ai-spend/",
+          "publishedOn": "2026-04-13T19:00:00.000Z",
+          "wordCount": 5454,
+          "title": "Dragoncatcher: Who's paying for tokens and why? (The Anthropic 1000)",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
         {
           "id": "https://www.robinsloan.com/lab/tinfoil/",
           "author": null,
@@ -208,16 +208,6 @@
           "wordCount": 7102,
           "title": "Good trains",
           "imageUrl": "https://www.robinsloan.com/img/train-strawberry.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/wrangler-init/",
-          "author": null,
-          "description": "<p>TIL. <a href=\"https://www.robinsloan.com/lab/wrangler-init/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/wrangler-init/",
-          "publishedOn": "2026-03-15T10:00:00.000Z",
-          "wordCount": 5356,
-          "title": "Dragoncatcher: Wrangler init woes",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -275,6 +265,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/0048737-media-companies-are-incre",
+          "author": null,
+          "description": "Media companies are increasingly blocking the Internet Archive from archiving their material (but at the same time using the site to gather data for their stories).",
+          "link": "https://kottke.org/26/04/0048737-media-companies-are-incre",
+          "publishedOn": "2026-04-13T21:57:57.000Z",
+          "wordCount": 739,
+          "title": "Media companies are increasingly blocking the Internet...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/the-christophers",
+          "author": null,
+          "description": "I’m so glad Steven Soderbergh unretired from filmmaking. His newest film, The Christophers, looks amazing. It stars Ian McKellen as a famous artist and Michaela Coel as his assistant — but of course there’s more to it. Reviewer David Sims calls it both a heist movie and “a meditation on the relationship between art and commerce”. I hope this one actually comes to Vermont so I can see it in the theater.\nCoel and McKellen both have such great faces, don’t you think?\n\n \n\n        \n         \nTags: Ian McKellen · Michaela Coel · movies · The Christophers · trailers · video",
+          "link": "https://kottke.org/26/04/the-christophers",
+          "publishedOn": "2026-04-13T21:03:00.000Z",
+          "wordCount": 751,
+          "title": "The Christophers",
+          "imageUrl": "https://i.ytimg.com/vi/m2d1x7VuDmo/sddefault.jpg"
+        },
         {
           "id": "https://kottke.org/26/04/0048692-we-love-a-slime-mold",
           "author": null,
@@ -2145,6 +2155,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/steve_yegge/status/2043747998740689171\"><p>The TL;DR is that Google engineering appears to have the same AI adoption footprint as John Deere, the tractor company. Most of the industry has the same internal adoption curve: 20% agentic power users, 20% outright refusers, 60% still using Cursor or equivalent chat tool. It turns out Google has this curve too. [...]</p>\n<p>There has been an industry-wide hiring freeze for 18+ months, during which time nobody has been moving jobs. So there are no clued-in people coming in from the outside to tell Google how far behind they are, how utterly mediocre they have become as an eng org.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/steve_yegge/status/2043747998740689171\">Steve Yegge</a>, provocative, as always</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/steve-yegge\">steve-yegge</a>, <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
+          "publishedOn": "2026-04-13T20:59:45.000Z",
+          "wordCount": 799,
+          "title": "Quoting Steve Yegge",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
           "author": null,
