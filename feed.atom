@@ -2,10 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-14T17:04:48.905Z</updated>
+    <updated>2026-04-14T20:52:35.548Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Authoritarian Megalomaniacs Love Gaudy Buildings]]></title>
+        <id>https://kottke.org/26/04/authoritarian-megalomaniacs-love-gaudy-buildings</id>
+        <link href="https://kottke.org/26/04/authoritarian-megalomaniacs-love-gaudy-buildings"/>
+        <updated>2026-04-14T20:32:00.000Z</updated>
+        <summary type="html"><![CDATA[You know who else wanted to construct gaudy buildings in his own image? Here’s Timothy Ryback on Adolf Hitler’s obsession “with adding an expensive new wing to the Reich chancellery”.
+The new annex, connected to the chancellery by a marble corridor hung with crystal chandeliers, was part of Hitler’s ambitious plans to align the Berlin cityscape with his vision for the future of the country. Hitler wanted a Triumphbogen, a triumphal arch, twice the size of the Arc de Triomphe in Paris. He wanted an “Avenue of Splendor” for military parades. “The Champs-Élysées is a hundred meters wide,” Hitler told Speer. “We will make our avenue twenty meters wider.” A planned Volkshalle was to accommodate 180,000. The Eiffel Tower could fit beneath its cupola. This “Hall of the People” was to be topped by the largest swastika on Earth. Berlin itself was to be rechristened as Weltstadt Germania, “Capital of the World.”
+
+	
+Ryback is the author of several books on Hitler and the Nazis, including his forthcoming 53 Days: How Hitler Dismantled a Democracy, which sounds like a must-read to me.
+I’ve been enjoying the series of articles he’s been doing at The Atlantic about the parallels between Hitler and the dangers of Trump’s authoritarianism without ever explicitly mentioning Trump. In addition to the above piece about architecture, he’s written about Hitler’s Greenland Obsession, What Happened When Hitler Took On Germany’s Central Banker, Hitler Used a Bogus Crisis of ‘Public Order’ to Make Himself Dictator, Hitler’s Terrible Tariffs, and The Oligarchs Who Came to Regret Supporting Hitler. If it looks like a duck…
+
+ 
+
+        
+         
+Tags: Adolf Hitler · architecture · Donald Trump · politics · Timothy Ryback]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This looks interesting:  Quiche is a highly customizable...]]></title>
+        <id>https://kottke.org/26/04/0048684-this-looks-interesting-qu</id>
+        <link href="https://kottke.org/26/04/0048684-this-looks-interesting-qu"/>
+        <updated>2026-04-14T19:47:59.000Z</updated>
+        <summary type="html"><![CDATA[This looks interesting: Quiche is a highly customizable but simple browser for iOS.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity Looks Like Proof of Work Now]]></title>
+        <id>https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything"/>
+        <updated>2026-04-14T19:41:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html">Cybersecurity Looks Like Proof of Work Now</a></strong></p>
+The UK's AI Safety Institute recently published <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">Our evaluation of Claude Mythos Preview’s cyber capabilities</a>, their own independent analysis of <a href="https://simonwillison.net/2026/Apr/7/project-glasswing/">Claude Mythos</a> which backs up Anthropic's claims that it is exceptionally effective at identifying security vulnerabilities.</p>
+<p>Drew Breunig notes that AISI's report shows that the more tokens (and hence money) they spent the better the result they got, which leads to a strong economic incentive to spend as much as possible on security reviews:</p>
+<blockquote>
+<p>If Mythos continues to find exploits so long as you keep throwing money at it, security is reduced to a brutally simple equation: <strong>to harden a system you need to spend more tokens discovering exploits than attackers will spend exploiting them</strong>.</p>
+</blockquote>
+<p>An interesting result of this is that open source libraries become <em>more</em> valuable, since the tokens spent securing them can be shared across all of their users. This directly counters the idea that the low cost of vibe-coding up a replacement for an open source library makes those open source projects less attractive.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/drew-breunig">drew-breunig</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; The internet known within China is a very...]]></title>
+        <id>https://kottke.org/26/04/0048745-the-internet-known-within</id>
+        <link href="https://kottke.org/26/04/0048745-the-internet-known-within"/>
+        <updated>2026-04-14T19:00:17.000Z</updated>
+        <summary type="html"><![CDATA[“The internet known within China is a very different internet to the one known by the world at large. It is censored, regulated and structured quite differently. It is controlled and managed, rather than organic and sprawling.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now Online: a Treasure Trove of 1000s of Secret Concert Recordings]]></title>
+        <id>https://kottke.org/26/04/online-treasure-trove-secret-concert-recordings</id>
+        <link href="https://kottke.org/26/04/online-treasure-trove-secret-concert-recordings"/>
+        <updated>2026-04-14T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For decades, a guy named Aadam Jacobs has been recording live music shows. His collection of over 10,000 shows since 1984 feature the likes of Nirvana, R.E.M., The Pixies, Björk, Depeche Mode, Liz Phair, Sonic Youth, The Cure, Phish, Fugazi, and so many more. With the help of archivists, the entire collection is making its way onto The Internet Archive.
+The growing Aadam Jacobs Collection is an internet treasure trove for music lovers, especially for fans of indie and punk rock during the 1980s through the early 2000s, when the scene blossomed and became mainstream. The collection features early-in-their-career performances from alternative and experimental artists like R.E.M., The Cure, The Pixies, The Replacements, Depeche Mode, Stereolab, Sonic Youth and Björk.
+There’s also a smattering of hip-hop, including a 1988 concert by rap pioneers Boogie Down Productions. Devotees of Phish were thrilled to discover that a previously uncirculated 1990 show by the jam band is included. And there are hundreds of sets by smaller artists who are unlikely to be known to even fans with the most obscure tastes.
+All of it is slowly becoming available for streaming and free download at the nonprofit online repository Internet Archive, including that nascent Nirvana show recording, with the audio from Jacobs’ cassette recorder cleaned up.
+
+	
+Some of the shows, like this pre-Dave Grohl one from Nirvana, were recorded before the bands hit it big. It’s wild to hear their performance of About a Girl get about three claps from the audience.
+
+ 
+
+        
+         
+Tags: Aadam Jacobs · Internet Archive · music]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the network effect of the weekend : &#8220;The...]]></title>
+        <id>https://kottke.org/26/04/0048740-on-the-network-effect-of</id>
+        <link href="https://kottke.org/26/04/0048740-on-the-network-effect-of"/>
+        <updated>2026-04-14T17:25:11.000Z</updated>
+        <summary type="html"><![CDATA[On the network effect of the weekend: “The essential characteristic of the weekend is not just the having of a day off, but rather that other people have the day off.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Collection of Transit Tickets]]></title>
         <id>https://kottke.org/26/04/a-collection-of-transit-tickets</id>
