@@ -276,6 +276,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/04/0048727-from-a-few-weeks-ago",
+          "author": null,
+          "description": "From a few weeks ago: Bush’s Tiny Desk Concert. Machinehead and Glycerine still hit.",
+          "link": "https://kottke.org/26/04/0048727-from-a-few-weeks-ago",
+          "publishedOn": "2026-04-15T20:04:56.000Z",
+          "wordCount": 739,
+          "title": "From a few weeks ago:  Bush&#8217;s Tiny Desk Concert ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048758-your-backpack-got-worse-o",
+          "author": null,
+          "description": "Your Backpack Got Worse On Purpose. “From a shareholder’s perspective, the bag that falls apart is the better product. That’s the business model. Repeat failure, repeat purchase, repeat revenue. The quality decline isn’t a side effect. It’s the strategy.”",
+          "link": "https://kottke.org/26/04/0048758-your-backpack-got-worse-o",
+          "publishedOn": "2026-04-15T19:22:10.000Z",
+          "wordCount": 1041,
+          "title": "Your Backpack Got Worse On Purpose . &#8220;From a...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048761-two-japanese-aquariums-ha",
+          "author": null,
+          "description": "Two Japanese aquariums have released their 2026 flowcharts of their penguins’ relationships. “Penguin drama can include serious crushes and heartbreaks but also adultery and egg-stealing.”",
+          "link": "https://kottke.org/26/04/0048761-two-japanese-aquariums-ha",
+          "publishedOn": "2026-04-15T18:40:00.000Z",
+          "wordCount": 770,
+          "title": "Two Japanese aquariums have released  their 2026...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/vintage-pan-am-luggage-tags",
+          "author": null,
+          "description": "I love these oversized prints of vintage Pan-Am luggage tags from artist Ella Freire. The typography and colors are just perfect. (via daringfireball)\n\n \n\n        \n         \nTags: art · design · Ella Freire · travel",
+          "link": "https://kottke.org/26/04/vintage-pan-am-luggage-tags",
+          "publishedOn": "2026-04-15T17:45:00.000Z",
+          "wordCount": 685,
+          "title": "Vintage Pan-Am Luggage Tags",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1776177088-f795ae53.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048748-fun-trompe-lil-graph-pape",
+          "author": null,
+          "description": "Fun trompe-l’œil graph paper drawings.",
+          "link": "https://kottke.org/26/04/0048748-fun-trompe-lil-graph-pape",
+          "publishedOn": "2026-04-15T17:08:44.000Z",
+          "wordCount": 672,
+          "title": "Fun trompe-l’œil graph paper drawings .",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/04/0048757-dont-just-replace-chavez",
           "author": null,
           "description": "Don’t Just Replace Chavez — Rethink Monuments. “A memorial based on the great-man theory of history is a tale only half told.” And: “There are elegant ways to pay tribute to groups of people.”",
@@ -2676,6 +2726,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://daringfireball.net/2026/04/piece_android_iphone_apps\"><p>The real goldmine isn’t that Apple gets a cut of every App Store transaction. It’s that Apple’s platforms have the best apps, and users who are drawn to the best apps are thus drawn to the iPhone, Mac, and iPad. That edge is waning. Not because software on other platforms is getting better, but because third-party software on iPhone, Mac, and iPad is regressing to the mean, <em>to some extent</em>, because fewer developers feel motivated — artistically, financially, or both — to create well-crafted idiomatic native apps exclusively for Apple’s platforms.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://daringfireball.net/2026/04/piece_android_iphone_apps\">John Gruber</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/apple\">apple</a>, <a href=\"https://simonwillison.net/tags/john-gruber\">john-gruber</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
+          "publishedOn": "2026-04-15T17:13:57.000Z",
+          "wordCount": 778,
+          "title": "Quoting John Gruber",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/\">Gemini 3.1 Flash TTS</a></strong></p>\nGoogle released Gemini 3.1 Flash TTS today, a new text-to-speech model that can be directed using prompts.</p>\n<p>It's presented via the standard Gemini API using <code>gemini-3.1-flash-tts-preview</code> as the model ID, but can only output audio files.</p>\n<p>The <a href=\"https://ai.google.dev/gemini-api/docs/speech-generation#transcript-tags\">prompting guide</a> is surprising, to say the least. Here's their example prompt to generate just a few short sentences of audio:</p>\n<pre><code># AUDIO PROFILE: Jaz R.\n## \"The Morning Hype\"\n\n## THE SCENE: The London Studio\nIt is 10:00 PM in a glass-walled studio overlooking the moonlit London skyline, but inside, it is blindingly bright. The red \"ON AIR\" tally light is blazing. Jaz is standing up, not sitting, bouncing on the balls of their heels to the rhythm of a thumping backing track. Their hands fly across the faders on a massive mixing desk. It is a chaotic, caffeine-fueled cockpit designed to wake up an entire nation.\n\n### DIRECTOR'S NOTES\nStyle:\n* The \"Vocal Smile\": You must hear the grin in the audio. The soft palate is always raised to keep the tone bright, sunny, and explicitly inviting.\n* Dynamics: High projection without shouting. Punchy consonants and elongated vowels on excitement words (e.g., \"Beauuutiful morning\").\n\nPace: Speaks at an energetic pace, keeping up with the fast music.  Speaks with A \"bouncing\" cadence. High-speed delivery with fluid transitions — no dead air, no gaps.\n\nAccent: Jaz is from Brixton, London\n\n### SAMPLE CONTEXT\nJaz is the industry standard for Top 40 radio, high-octane event promos, or any script that requires a charismatic Estuary accent and 11/10 infectious energy.\n\n#### TRANSCRIPT\n[excitedly] Yes, massive vibes in the studio! You are locked in and it is absolutely popping off in London right now. If you're stuck on the tube, or just sat there pretending to work... stop it. Seriously, I see you.\n[shouting] Turn this up! We've got the project roadmap landing in three, two... let's go!\n</code></pre>\n<p>Here's what I got using that example prompt:</p>\n<p><audio controls style=\"width: 100%\">\n  <source src=\"https://static.simonwillison.net/static/2026/gemini-flash-tts-london.wav\" type=\"audio/wav\">\n  Your browser does not support the audio element.\n</audio></p>\n<p>Then I modified it to say \"Jaz is from Newcastle\" and \"... requires a charismatic Newcastle accent\" and got this result:</p>\n<p><audio controls style=\"width: 100%\">\n  <source src=\"https://static.simonwillison.net/static/2026/gemini-flash-tts-newcastle.wav\" type=\"audio/wav\">\n  Your browser does not support the audio element.\n</audio></p>\n<p>Here's Exeter, Devon for good measure:</p>\n<p><audio controls style=\"width: 100%\">\n  <source src=\"https://static.simonwillison.net/static/2026/gemini-flash-tts-devon.wav\" type=\"audio/wav\">\n  Your browser does not support the audio element.\n</audio></p>\n<p>I <a href=\"https://gemini.google.com/share/dd0fba5a83c4\">had Gemini 3.1 Pro</a> vibe code <a href=\"https://tools.simonwillison.net/gemini-flash-tts\">this UI for trying it out</a>:</p>\n<p><img alt=\"Screenshot of a &quot;Gemini 3.1 Flash TTS&quot; web application interface. At the top is an &quot;API Key&quot; field with a masked password. Below is a &quot;TTS Mode&quot; section with a dropdown set to &quot;Multi-Speaker (Conversation)&quot;. &quot;Speaker 1 Name&quot; is set to &quot;Joe&quot; with &quot;Speaker 1 Voice&quot; set to &quot;Puck (Upbeat)&quot;. &quot;Speaker 2 Name&quot; is set to &quot;Jane&quot; with &quot;Speaker 2 Voice&quot; set to &quot;Kore (Firm)&quot;. Under &quot;Script / Prompt&quot; is a tip reading &quot;Tip: Format your text as a script using the Exact Speaker Names defined above.&quot; The script text area contains &quot;TTS the following conversation between Joe and Jane:\\n\\nJoe: How's it going today Jane?\\nJane: [yawn] Not too bad, how about you?&quot; A blue &quot;Generate Audio&quot; button is below. At the bottom is a &quot;Success!&quot; message with an audio player showing 00:00 / 00:06 and a &quot;Download WAV&quot; link.\" src=\"https://static.simonwillison.net/static/2026/gemini-flash-tts.jpg\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/text-to-speech\">text-to-speech</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+          "publishedOn": "2026-04-15T17:13:14.000Z",
+          "wordCount": 1118,
+          "title": "Gemini 3.1 Flash TTS",
+          "imageUrl": "https://static.simonwillison.net/static/2026/gemini-flash-tts-card.jpg"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-flash-tts\">Gemini 3.1 Flash TTS</a></p>\n    <p>See <a href=\"https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/\">my notes</a> on Google's new Gemini 3.1 Flash TTS text-to-speech model.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/google\">google</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
+          "publishedOn": "2026-04-15T16:41:46.000Z",
+          "wordCount": 728,
+          "title": "Gemini 3.1 Flash TTS",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/15/kyle-kingsbury/#atom-everything",
           "author": null,
