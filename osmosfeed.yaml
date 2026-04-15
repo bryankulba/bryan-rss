@@ -38,14 +38,8 @@ sources:
   # Gordon Brander — tools for thought, collective intelligence, the future of knowledge.
   - href: https://subconscious.substack.com/feed
 
-  # Bruce Sterling — design, futures, weird objects, speculative tech. Gibson's oldest collaborator.
-  # NOTE: bruces.substack.com appears to be inactive/abandoned. Use the Wired blog archive
-  # or his Tumblr (listed below under Culture) instead.
-  # - href: https://bruces.substack.com/feed   # LIKELY DEAD — verify before enabling
-
   # Warren Ellis — Sunday newsletter: culture, weird history, music, found objects.
-  # Pure Gibson-orbit material. Subscribe at orbitaloperations.com (email only, no RSS).
-  # The blog below has an RSS feed.
+  # Email-only at orbitaloperations.com — no RSS. The blog feed is listed under Culture below.
 
 # ── Culture & Criticism ───────────────────────────────────────────────────────
 
@@ -58,11 +52,6 @@ sources:
 
   # Andy Baio — music, film, internet culture, technology. Long-running and reliable.
   - href: https://waxy.org/feed/
-
-  # Snarkmarket — Robin Sloan, Matt Thompson, Tim Carmody. Sporadic but worth keeping.
-  # NOTE: Very infrequent posts (years between). Feedburner URL may be stale.
-  # Direct RSS is http://snarkmarket.com/feed — use that instead if feedburner breaks.
-  - href: http://feeds.feedburner.com/snarkmarket
 
   # Cory Doctorow — tech politics, monopoly, surveillance capitalism. High volume, high signal.
   - href: https://pluralistic.net/feed/
@@ -115,11 +104,6 @@ sources:
   # Maggie Appleton — digital gardening, tools for thought, visual essays on tech culture.
   - href: https://maggieappleton.com/rss.xml
 
-  # Bret Victor — worrydream.com. Very infrequent but significant when it appears.
-  # NOTE: Site hasn't had new essays since ~2017. Victor now posts at @bret@dynamic.land
-  # on Mastodon. Keep as archive feed but don't expect new posts.
-  - href: http://worrydream.com/feed.xml
-
   # Tim Maughan — fiction writer, technology critic, supply chain and infrastructure.
   - href: https://timmaughan.com/feed/
 
@@ -152,9 +136,6 @@ sources:
 
   # Charles Stross — SF writer, relentless analytical take on near futures.
   - href: http://www.antipope.org/charlie/blog-static/atom.xml
-
-  # James Bridle — technology, politics, new aesthetics. Gibson-adjacent sensibility.
-  - href: http://booktwo.org/feed/
 
 # ── Bryan found ───────────────────────────────────────────────────────────────
 
