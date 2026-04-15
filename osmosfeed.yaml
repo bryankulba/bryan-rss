@@ -1,61 +1,161 @@
 cacheUrl: https://bryankulba.github.io/bryan-rss/cache.json
 siteTitle: "Bryan RSS"
-timezone: America/New_York  # Update to your local timezone if needed
+timezone: America/Vancouver
 cacheMaxDays: 30
 
 sources:
-# Newsletters
 
- - href: https://sentiers.media/rss/
- - href: https://interconnected.org/home/feed
- - href: https://kneelingbus.substack.com/feed
- - href: https://www.robinsloan.com/feed.xml
- - href: https://garbageday.substack.com/feed
- - href: https://8ball.substack.com/feed
- - href: https://theconvivialsociety.substack.com/feed
- - href: https://www.ribbonfarm.com/feed/
- - href: https://webcurios.co.uk/feed/
- - href: https://subconscious.substack.com/feed
- - href: https://bruces.substack.com/feed
+# ── Newsletters ──────────────────────────────────────────────────────────────
 
-# Culture & Criticism
+  # Patrick Tanguay — weekly curation of futures, tech, society. Best signal/noise ratio here.
+  - href: https://sentiers.media/rss/
 
- - href: https://wearethemutants.com/feed/
- - href: https://feeds.kottke.org/main
- - href: https://waxy.org/feed/
- - href: http://feeds.feedburner.com/snarkmarket
- - href: https://pluralistic.net/feed/
- - href: https://reallifemag.com/feed/
- - href: http://warrenellis.ltd/feed/
+  # Matt Webb — design, AI, hardware, speculative thinking. Active 315-week streak.
+  - href: https://interconnected.org/home/feed
 
-# Architecture & Urbanism
+  # Drew Austin — urbanism, infrastructure, technology and the built environment.
+  - href: https://kneelingbus.substack.com/feed
 
- - href: https://bldgblog.com/feed/
- - href: https://blog.nearfuturelaboratory.com/feed/
- - href: https://www.thejaymo.net/feed/
- - href: https://branch.climateaction.tech/feed/
+  # Robin Sloan — fiction writer with sharp eye for media and culture. Also has a newsletter (robinsloan.com).
+  - href: https://www.robinsloan.com/feed.xml
 
-# Music & Sound
+  # Ryan Broderick — internet culture, media, weird corners of the web.
+  - href: https://garbageday.substack.com/feed
 
- - href: https://www.thewire.co.uk/rss
-#  - href: https://daily.bandcamp.com/feed
+  # Sean Monahan — culture, trends, tech. K-HOLE founder. Coined "normcore" and "vibe shift".
+  # Very good radar for subcultural signals before they surface.
+  - href: https://8ball.substack.com/feed
 
-# Technology & Making
+  # L.M. Sacasas — technology and the human condition. Philosophical, unhurried.
+  - href: https://theconvivialsociety.substack.com/feed
 
- - href: https://simonwillison.net/atom/everything/
- - href: https://www.bunniestudios.com/blog/?feed=rss2
- - href: https://maggieappleton.com/rss.xml
- - href: http://worrydream.com/feed.xml
- - href: https://timmaughan.com/feed/
- - href: https://medium.com/feed/@danhill
+  # Venkatesh Rao — long-form thinking on strategy, culture, and the present moment.
+  - href: https://www.ribbonfarm.com/feed/
 
-# Material Culture & Objects
+  # Matt Muir — weekly firehose of internet links. Exhausting and invaluable.
+  - href: https://webcurios.co.uk/feed/
 
- - href: https://we-make-money-not-art.com/feed/
- - href: http://www.thingsmagazine.net/feed/
- - href: https://fo.am/blog/rss/
+  # Gordon Brander — tools for thought, collective intelligence, the future of knowledge.
+  - href: https://subconscious.substack.com/feed
 
-# Science & Deep Time
+  # Bruce Sterling — design, futures, weird objects, speculative tech. Gibson's oldest collaborator.
+  # NOTE: bruces.substack.com appears to be inactive/abandoned. Use the Wired blog archive
+  # or his Tumblr (listed below under Culture) instead.
+  # - href: https://bruces.substack.com/feed   # LIKELY DEAD — verify before enabling
 
- - href: https://api.quantamagazine.org/feed/
- - href: http://feeds.feedburner.com/longnow
+  # Warren Ellis — Sunday newsletter: culture, weird history, music, found objects.
+  # Pure Gibson-orbit material. Subscribe at orbitaloperations.com (email only, no RSS).
+  # The blog below has an RSS feed.
+
+# ── Culture & Criticism ───────────────────────────────────────────────────────
+
+  # Pop culture archaeology — pulp SF, paperback covers, cult objects of the 60s–80s.
+  # Very Gibson's eBay brain.
+  - href: https://wearethemutants.com/feed/
+
+  # One of the original link-blogs. Culture, science, design, oddities. Still essential.
+  - href: https://feeds.kottke.org/main
+
+  # Andy Baio — music, film, internet culture, technology. Long-running and reliable.
+  - href: https://waxy.org/feed/
+
+  # Snarkmarket — Robin Sloan, Matt Thompson, Tim Carmody. Sporadic but worth keeping.
+  # NOTE: Very infrequent posts (years between). Feedburner URL may be stale.
+  # Direct RSS is http://snarkmarket.com/feed — use that instead if feedburner breaks.
+  - href: http://feeds.feedburner.com/snarkmarket
+
+  # Cory Doctorow — tech politics, monopoly, surveillance capitalism. High volume, high signal.
+  - href: https://pluralistic.net/feed/
+
+  # Essays on technology and lived experience. Sharp cultural criticism.
+  - href: https://reallifemag.com/feed/
+
+  # Warren Ellis — blog version. Culture, comics, weird history, found material.
+  - href: http://warrenellis.ltd/feed/
+
+  # Bruce Sterling — Tumblr stream of design, technology, strange objects.
+  - href: https://brucesterling.tumblr.com/rss
+
+  # Blackbird Spyplane — fashion/style with extremely sharp material-culture radar.
+  # Gibson's eye for clothing as signal.
+  - href: https://www.blackbirdspyplane.com/feed
+
+# ── Architecture, Urbanism & Place ───────────────────────────────────────────
+
+  # Geoff Manaugh — architecture, geography, infrastructure, weird spaces.
+  # The most Gibson-adjacent blog on the internet. Essential.
+  - href: https://bldgblog.com/feed/
+
+  # Julian Bleecker — design fiction, props from possible futures, speculative objects.
+  - href: https://blog.nearfuturelaboratory.com/feed/
+
+  # Jay Springett — futures, infrastructure, collapse, long-term thinking.
+  - href: https://www.thejaymo.net/feed/
+
+  # Internet and computing for a sustainable future.
+  - href: https://branch.climateaction.tech/feed/
+
+  # Craig Mod — walking, Japan, publishing, photography, deep attention to place.
+  - href: https://craigmod.com/index.xml
+
+# ── Music & Sound ─────────────────────────────────────────────────────────────
+
+  - href: https://www.thewire.co.uk/rss
+  # - href: https://daily.bandcamp.com/feed   # commented out in original
+
+# ── Technology & Making ───────────────────────────────────────────────────────
+
+  # Simon Willison — AI, tools, programming. Obsessively thorough.
+  - href: https://simonwillison.net/atom/everything/
+
+  # Andrew "bunnie" Huang — hardware, electronics, Shenzhen manufacturing.
+  # Deep inside the supply chain of objects.
+  - href: https://www.bunniestudios.com/blog/?feed=rss2
+
+  # Maggie Appleton — digital gardening, tools for thought, visual essays on tech culture.
+  - href: https://maggieappleton.com/rss.xml
+
+  # Bret Victor — worrydream.com. Very infrequent but significant when it appears.
+  # NOTE: Site hasn't had new essays since ~2017. Victor now posts at @bret@dynamic.land
+  # on Mastodon. Keep as archive feed but don't expect new posts.
+  - href: http://worrydream.com/feed.xml
+
+  # Tim Maughan — fiction writer, technology critic, supply chain and infrastructure.
+  - href: https://timmaughan.com/feed/
+
+  # Dan Hill — design, cities, technology policy. Formerly at IKEA/Sidewalk Labs.
+  - href: https://medium.com/feed/@danhill
+
+# ── Material Culture & Objects ────────────────────────────────────────────────
+
+  # Régine Debatty — art, technology, activism. Artists working at weird intersections.
+  - href: https://we-make-money-not-art.com/feed/
+
+  # Long-running UK journal of objects, design history, material culture. Quiet and precise.
+  - href: http://www.thingsmagazine.net/feed/
+
+  # FoAM — art-science-design collective. Speculative ecologies, futures, weird making.
+  - href: https://fo.am/blog/rss/
+
+  # Nicolas Nova — interaction design research, ethnography of tech, strange devices.
+  - href: http://feeds.feedburner.com/nicolasnova
+
+# ── Science & Deep Time ───────────────────────────────────────────────────────
+
+  - href: https://api.quantamagazine.org/feed/
+  - href: http://feeds.feedburner.com/longnow
+
+# ── SF & Speculative Writing ──────────────────────────────────────────────────
+
+  # Paul Graham Raven — infrastructure fiction, critical futures. Very Gibson-aware.
+  - href: https://www.velcro-city.co.uk/feed/
+
+  # Charles Stross — SF writer, relentless analytical take on near futures.
+  - href: http://www.antipope.org/charlie/blog-static/atom.xml
+
+  # James Bridle — technology, politics, new aesthetics. Gibson-adjacent sensibility.
+  - href: http://booktwo.org/feed/
+
+# ── Bryan found ───────────────────────────────────────────────────────────────
+
+  - href: https://disjunctionsmag.com/rss
