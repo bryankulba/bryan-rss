@@ -27,6 +27,121 @@
   </header>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-15T01:59:21.000Z">2026-04-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything" target="_blank" rel="noopener noreferrer">Zig 0.16.0 release notes: &quot;Juicy Main&quot;</a>
+          </h2>
+          <p class="feed-item__desc">Zig 0.16.0 release notes: "Juicy Main"
+really good release notes - comprehensive, detailed, and with relevant usage examples for each of the new features.
+Of particular note in the newly released Zig 0.16.0 is what they are calling "Juicy Main" - a dependency injection feature for your program's main() function where accepting a process.Init parameter grants access to a struct of useful properties:
+const std = @import("std");
+
+pub fn main(init: std.process.Init) !void {
+    /// general purpose allocator for temporary heap allocations:
+    const gpa = init.gpa;
+    /// default Io implementation:
+    const io = init.io;
+    /// access to environment variables:
+    std.log.info("{d} env vars", .{init.environ_map.count()});
+    /// access to CLI arguments
+    const args = try init.minimal.args.toSlice(
+        init.arena.allocator()
+    );
+}
+
+
+    
+Via Lobste.rs
+Tags: zig</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-14T23:58:53.000Z">2026-04-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything" target="_blank" rel="noopener noreferrer">datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection</a>
+          </h2>
+          <p class="feed-item__desc">datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection
+asgi-csrf Python library. These are something of a pain to work with - you need to scatter forms in templates with <input type="hidden" name="csrftoken" value="{{ csrftoken() }}"> lines and then selectively disable CSRF protection for APIs that are intended to be called from outside the browser.
+I've been following Filippo Valsorda's research here with interest, described in this detailed essay from August 2025 and shipped as part of Go 1.25 that same month.
+I've now landed the same change in Datasette. Here's the PR description - Claude Code did much of the work (across 10 commits, closely guided by me and cross-reviewed by GPT-5.4) but I've decided to start writing these PR descriptions by hand, partly to make them more concise and also as an exercise in keeping myself honest.
+New CSRF protection middleware inspired by Go 1.25 and this research by Filippo Valsorda. This replaces the old CSRF token based protection.
+Removes all instances of <input type="hidden" name="csrftoken" value="{{ csrftoken() }}"> in the templates - they are no longer needed.
+Removes the def skip_csrf(datasette, scope): plugin hook defined in datasette/hookspecs.py and its documentation and tests.
+Updated CSRF protection documentation to describe the new approach.
+Upgrade guide now describes the CSRF change.
+Tags: csrf, security, datasette, ai-assisted-programming</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-14T21:23:59.000Z">2026-04-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything" target="_blank" rel="noopener noreferrer">Trusted access for the next era of cyber defense</a>
+          </h2>
+          <p class="feed-item__desc">Trusted access for the next era of cyber defense
+Claude Mythos appears to be a new model called GPT-5.4-Cyber:
+In preparation for increasingly more capable models from OpenAI over the next few months, we are fine-tuning our models specifically to enable defensive cybersecurity use cases, starting today with a variant of GPT‑5.4 trained to be cyber-permissive: GPT‑5.4‑Cyber.
+They're also extending a program they launched in February (which I had missed) called Trusted Access for Cyber, where users can verify their identity (via a photo of a government-issued ID processed by Persona) to gain "reduced friction" access to OpenAI's models for cybersecurity work.
+Honestly, this OpenAI announcement is difficult to follow. Unsurprisingly they don't mention Anthropic at all, but much of the piece emphasizes their many years of existing cybersecurity work and their goal to "democratize access" to these tools, hence the emphasis on that self-service verification flow from February.
+If you want access to their best security tools you still need to go through an extra Google Form application process though, which doesn't feel particularly different to me from Anthropic's Project Glasswing.
+
+    
+Via Hacker News
+Tags: security, ai, openai, generative-ai, llms, anthropic, ai-security-research</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048753-if-every-congressman-faci">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-14T21:21:47.000Z">2026-04-14</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/04/0048753-if-every-congressman-faci" target="_blank" rel="noopener noreferrer">If Every Congressman Facing Credible Rape Allegations...</a>
+          </h2>
+          <p class="feed-item__desc">If Every Congressman Facing Credible Rape Allegations Resigned, We’d Have No One Left to Govern the Country. “It’s naïve to imagine the government can continue to function without the tireless dedication of our best and brightest rapists.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048753-if-every-congressman-faci" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048753-if-every-congressman-faci">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/04/authoritarian-megalomaniacs-love-gaudy-buildings">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-14T20:32:00.000Z">2026-04-14</time>
@@ -8480,25 +8595,6 @@ https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2024/12/isolator-1.jpeg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12545">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-16T13:53:43.000Z">2026-03-16</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/03/16/whittle-a-webserver/" target="_blank" rel="noopener noreferrer">Pluralistic: Tools vs uses (16 Mar 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Tools vs uses: Don't fall for it. Hey look at this: Delights to delectate. Object permanence: Amazon coders x Amazon warehouse workers; Bruces's ETECH speech; Steven King x unions; Tax-free S&P 500 companies; Make Pop Rocks; "Ain't Misbehavin'"; "Car Hacker's Handbook"; Pirates in Iceland. Upcoming appearances: Where to find me. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Tools vs uses (permalink) When you think of a legal loophole, you probably imagine a drafting error (or perhaps a sneaky insertion) that creates an advantage for a specific person or group of people. For example: Trump's 2017 "Big Beautiful Tax Cut" bill passed after its 479 pages we…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12545" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12545">Mark read</button>
-            <span class="feed-item__reading-time">13 min read</span>
-          </div>
         </div>
       </div>
     </article>
