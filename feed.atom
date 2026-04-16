@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-16T06:01:07.339Z</updated>
+    <updated>2026-04-16T13:25:56.604Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Great American GLP-1 Experiment . In the last few...]]></title>
+        <id>https://kottke.org/26/04/0048767-the-great-american-glp-1-</id>
+        <link href="https://kottke.org/26/04/0048767-the-great-american-glp-1-"/>
+        <updated>2026-04-16T13:01:09.000Z</updated>
+        <summary type="html"><![CDATA[The Great American GLP-1 Experiment. In the last few years, people have come up with all sorts of off-label uses for GLP-1s, including treating concussions, menopause, long Covid, IBS, drug addiction, anxiety, hair loss, and arthritis.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12674</id>
+        <link href="https://pluralistic.net/2026/04/16/pascals-wager/"/>
+        <updated>2026-04-16T11:09:32.000Z</updated>
+        <summary type="html"><![CDATA[Today's links A Pascal's Wager for AI Doomers: We're already being turned into paperclips. Hey look at this: Delights to delectate. Object permanence: Every pirate ebook on the internet; Sun's "Open DRM"; Untranslatable words; Let's encrypt is encrypting; Boots ruined by hedge fund; Brussels terrorists' opsec; Copyrighted Klingon; Murder Offsets. Upcoming appearances: Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. A Pascal's Wager for AI Doomers (permalink) Lest anyone accuse me of bargaining in bad faith here, let me start with this admission: I don't think AI is intelligent; nor do I think that th…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We've been overthinking the rain jacket]]></title>
+        <id>https://www.blackbirdspyplane.com/p/weve-been-overthinking-the-rain-jacket</id>
+        <link href="https://www.blackbirdspyplane.com/p/weve-been-overthinking-the-rain-jacket"/>
+        <updated>2026-04-16T11:03:17.000Z</updated>
+        <summary type="html"><![CDATA[Plus linen tees, non-wack-wedding quests, and more unbeatable recon]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette.io news preview]]></title>
         <id>https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything</id>
