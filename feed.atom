@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-15T20:44:41.460Z</updated>
+    <updated>2026-04-16T02:29:19.985Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette.io news preview]]></title>
+        <id>https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything"/>
+        <updated>2026-04-16T00:18:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/datasette-io-preview">datasette.io news preview</a></p>
+    <p>The <a href="https://datasette.io/">datasette.io</a> website has a news section built from this <a href="https://github.com/simonw/datasette.io/blob/main/news.yaml">news.yaml</a> file in the underlying GitHub repository. The YAML format looks like this:</p>
+<pre><code>- date: 2026-04-15
+  body: |-
+    [Datasette 1.0a27](https://docs.datasette.io/en/latest/changelog.html#a27-2026-04-15) changes how CSRF protection works in a way that simplifies form and API integration, and introduces a new `RenameTableEvent` for when a table is renamed by a SQL query.
+- date: 2026-03-18
+  body: |-
+    ...
+</code></pre>
+<p>This format is a little hard to edit, so I finally <a href="https://claude.ai/share/c96129b9-bcb0-4eba-aee9-4a7ad236dfb7">had Claude build a custom preview UI</a> to make checking for errors have slightly less friction.</p>
+<p>I built it using standard <a href="https://claude.ai/">claude.ai</a> and Claude Artifacts, taking advantage of Claude's ability to clone GitHub repos and look at their content as part of a regular chat:</p>
+<blockquote>
+<p><code>Clone https://github.com/simonw/datasette.io and look at the news.yaml file and how it is rendered on the homepage. Build an artifact I can paste that YAML into which previews what it will look like, and highlights any markdown errors or YAML errors</code></p>
+</blockquote>
+<p><img alt="Screenshot showing two side-by-side views of a datasette.io news preview tool. The left panel shows a dark-themed YAML editor with news entries containing date and body fields in Markdown format, with a red validation error at the bottom indicating the date field has an invalid format. The right panel shows the rendered preview output with formatted headings by date (April 2026, 18th March 2026), displaying 115 news entries with linked release names, inline code snippets, and changelog descriptions. A red badge with &quot;1&quot; appears on the left panel header indicating one validation error." src="https://static.simonwillison.net/static/2026/datasette-io-preview.jpg" /></p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-export-database 0.3a1]]></title>
+        <id>https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything"/>
+        <updated>2026-04-15T23:52:35.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-export-database/releases/tag/0.3a1">datasette-export-database 0.3a1</a></p>
+    <p>This plugin was using the <code>ds_csrftoken</code> cookie as part of a custom signed URL, which needed upgrading now that Datasette 1.0a27 <a href="https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/">no longer sets that cookie</a>.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a27]]></title>
+        <id>https://simonwillison.net/2026/Apr/15/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/15/datasette/#atom-everything"/>
+        <updated>2026-04-15T23:16:34.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a27">datasette 1.0a27</a></p>
+    <p>Two major changes in this new Datasette alpha. I covered the first of those <a href="https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/">in detail yesterday</a> - Datasette no longer uses Django-style CSRF form tokens, instead using modern browser headers <a href="https://words.filippo.io/csrf">as described by Filippo Valsorda</a>.</p>
+<p>The second big change is that Datasette now fires a new <a href="https://docs.datasette.io/en/latest/events.html#datasette.events.RenameTableEvent">RenameTableEvent</a> any time a table is renamed during a SQLite transaction. This is useful because some plugins (like <a href="https://github.com/datasette/datasette-comments">datasette-comments</a>) attach additional data to table records by name, so a renamed table requires them to react in appropriate ways.</p>
+<p>Here are the rest of the changes in the alpha:</p>
+<blockquote>
+<ul>
+<li>New <a href="https://docs.datasette.io/en/latest/internals.html#internals-datasette-client-actor">actor= parameter</a> for <code>datasette.client</code> methods, allowing internal requests to be made as a specific actor. This is particularly useful for writing automated tests. (<a href="https://github.com/simonw/datasette/pull/2688">#2688</a>)</li>
+<li>New <code>Database(is_temp_disk=True)</code> option, used internally for the internal database. This helps resolve intermittent database locked errors caused by the internal database being in-memory as opposed to on-disk. (<a href="https://github.com/simonw/datasette/issues/2683">#2683</a>) (<a href="https://github.com/simonw/datasette/pull/2684">#2684</a>)</li>
+<li>The <code>/&lt;database&gt;/&lt;table&gt;/-/upsert</code> API (<a href="https://docs.datasette.io/en/latest/json_api.html#tableupsertview">docs</a>) now rejects rows with <code>null</code> primary key values. (<a href="https://github.com/simonw/datasette/issues/1936">#1936</a>)</li>
+<li>Improved example in the API explorer for the <code>/-/upsert</code> endpoint (<a href="https://docs.datasette.io/en/latest/json_api.html#tableupsertview">docs</a>). (<a href="https://github.com/simonw/datasette/issues/1936">#1936</a>)</li>
+<li>The <code>/&lt;database&gt;.json</code> endpoint now includes an <code>"ok": true</code> key, for consistency with other JSON API responses.</li>
+<li><a href="https://docs.datasette.io/en/latest/internals.html#internals-utils-call-with-supported-arguments">call_with_supported_arguments()</a> is now documented as a supported public API. (<a href="https://github.com/simonw/datasette/pull/2678">#2678</a>)</li>
+</ul>
+</blockquote>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/python">python</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A rare event to capture on video:  an underwater volcanic...]]></title>
+        <id>https://kottke.org/26/04/0048766-a-rare-event-to-capture</id>
+        <link href="https://kottke.org/26/04/0048766-a-rare-event-to-capture"/>
+        <updated>2026-04-15T21:08:05.000Z</updated>
+        <summary type="html"><![CDATA[A rare event to capture on video: an underwater volcanic eruption in the Solomon Islands.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[From a few weeks ago:  Bush&#8217;s Tiny Desk Concert ....]]></title>
         <id>https://kottke.org/26/04/0048727-from-a-few-weeks-ago</id>
@@ -5983,26 +6057,6 @@ https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/]]></summary>
         <summary type="html"><![CDATA[Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object permanence: Prison for spamming; Dotcom layoffs; Ethernet action-figures; UK libel reform; "Poe's Detective"; God's customer service center; "Making Hay"; Alexa privacy Valdez. Upcoming appearances: Where to find me. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. William Gibson vs Margaret Thatcher (permalink) William Gibson is one of history's most quotable sf writers: "The future is here, it's not evenly distributed"; "Don't let the little fuckers generation-gap you"; "Cyberspace is everting"; and the immortal: "The str…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[not going out: 17mar26]]></title>
-        <id>https://warrenellis.ltd/?p=18073</id>
-        <link href="https://warrenellis.ltd/status/not-going-out-17mar26/"/>
-        <updated>2026-03-17T12:26:40.000Z</updated>
-        <summary type="html"><![CDATA[Missed my work targets yesterday, so today is a lock-in. Taking the opportunity to go through my Bandcamp listen list while I’m doing all the…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Miuccia Prada is worth $4.8B]]></title>
-        <id>https://www.blackbirdspyplane.com/p/miuccia-prada-is-worth-4-point-5-billion</id>
-        <link href="https://www.blackbirdspyplane.com/p/miuccia-prada-is-worth-4-point-5-billion"/>
-        <updated>2026-03-17T11:03:32.000Z</updated>
-        <summary type="html"><![CDATA[How good of a person do you expect her to be? A Spyplane deep dive.]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
