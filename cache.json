@@ -286,6 +286,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/04/0048765-the-astronomy-picture-of-",
+          "author": null,
+          "description": "The Astronomy Picture of the Day, in which the International Space Station looks like it’s landing on the Moon.",
+          "link": "https://kottke.org/26/04/0048765-the-astronomy-picture-of-",
+          "publishedOn": "2026-04-17T16:32:39.000Z",
+          "wordCount": 724,
+          "title": "The Astronomy Picture of the Day , in which the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/project-plowshare-nukes-for-peace",
+          "author": null,
+          "description": "I’d vaguely heard of Project Plowshare but good god, what a ridiculous and dangerous waste of time and money.\nAt the height of the Cold War, nuclear weapons were seen not only as devices of destruction, but also as tools for progress. Project Plowshare was a bold attempt to use atomic explosions for more practical purposes: from digging canals and creating harbors to reshaping entire landscapes. This project was designed to push the limits of what seemed possible, but instead turned into an environmental disaster.\n\n\t\nThis reminds me of that episode of the Simpsons when Homer buys a gun and uses it around the house for everything, like changing the TV channel and opening beer cans. If the only tool you have is a hammer…\n\n \n\n        \n         \nTags: Cold War · nuclear bombs · science · video",
+          "link": "https://kottke.org/26/04/project-plowshare-nukes-for-peace",
+          "publishedOn": "2026-04-17T15:45:00.000Z",
+          "wordCount": 804,
+          "title": "Project Plowshare: Nukes for Peace!",
+          "imageUrl": "https://i.ytimg.com/vi/h3DCdWyb0cc/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048763-here-are-some-things-that",
+          "author": null,
+          "description": "“Here are some things that have been found in donation bins: A live puppy. Live Japanese grenades. An 1854 tombstone for Rebecca Jane Nye. Old skulls. A stolen Frederic Remington sculpture. Customized Air Jordans made for Spike Lee.”",
+          "link": "https://kottke.org/26/04/0048763-here-are-some-things-that",
+          "publishedOn": "2026-04-17T15:00:44.000Z",
+          "wordCount": 797,
+          "title": "&#8220; Here are some things that have been found in...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048750-historian-eric-cline-auth",
+          "author": null,
+          "description": "Historian Eric Cline, author of 1177 BC, explains how the collapse of several civilizations circa 1200 BC was the result of an “overly interdependent system that had no way to absorb multiple shocks at once”.",
+          "link": "https://kottke.org/26/04/0048750-historian-eric-cline-auth",
+          "publishedOn": "2026-04-17T14:07:57.000Z",
+          "wordCount": 907,
+          "title": "Historian Eric Cline, author of 1177 BC,  explains how...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/04/hollywoods-world-map-of-california",
           "author": null,
           "description": "This is a map published in 1927 by Paramount Studios showing the areas of California & Nevada that doubled as shooting locations for far-flung locales, including Siberia, Wales, the Nile, New England, the Red Sea, and the Alps.\n\n \n\n        \n         \nTags: Hollywood · maps · movies",
@@ -3714,6 +3754,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=161067",
+          "author": "Matt von Hippel",
+          "description": "Some quantum cryptographers want to find ways to keep messages secret even if the rules of quantum mechanics don’t hold. The recently rediscovered idea of quantum jamming complicates things.            \nThe post Quantum ‘Jamming’ Explores the Truly Fundamental Principles of Nature first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/quantum-jamming-explores-the-truly-fundamental-principles-of-nature-20260417/",
+          "publishedOn": "2026-04-17T14:25:21.000Z",
+          "wordCount": 2883,
+          "title": "Quantum ‘Jamming’ Explores the Truly Fundamental Principles of Nature",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Quantum-Jamming-cr-Samuel-Velasco-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=160935",
           "author": "Viviane Callier",
