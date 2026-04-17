@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-17T02:25:44.504Z</updated>
+    <updated>2026-04-17T06:02:45.773Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a28]]></title>
+        <id>https://simonwillison.net/2026/Apr/17/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/17/datasette/#atom-everything"/>
+        <updated>2026-04-17T04:01:56.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a28">datasette 1.0a28</a></p>
+    <p>I was upgrading Datasette Cloud to <a href="https://simonwillison.net/2026/Apr/15/datasette/">1.0a27</a> and discovered a nasty collection of accidental breakages caused by changes in that alpha. This new alpha addresses those directly:</p>
+<blockquote>
+<ul>
+<li>Fixed a compatibility bug introduced in 1.0a27 where <code>execute_write_fn()</code> callbacks with a parameter name other than <code>conn</code> were seeing errors. (<a href="https://github.com/simonw/datasette/issues/2691">#2691</a>)</li>
+<li>The <a href="https://docs.datasette.io/en/latest/internals.html#database-close">database.close()</a> method now also shuts down the write connection for that database.</li>
+<li>New <a href="https://docs.datasette.io/en/latest/internals.html#datasette-close">datasette.close()</a> method for closing down all databases and resources associated with a Datasette instance. This is called automatically when the server shuts down. (<a href="https://github.com/simonw/datasette/pull/2693">#2693</a>)</li>
+<li>Datasette now includes a pytest plugin which automatically calls <code>datasette.close()</code> on temporary instances created in function-scoped fixtures and during tests. See <a href="https://docs.datasette.io/en/latest/testing_plugins.html#testing-plugins-autoclose">Automatic cleanup of Datasette instances</a> for details. This helps avoid running out of file descriptors in plugin test suites that were written before the <code>Database(is_temp_disk=True)</code> feature introduced in Datasette 1.0a27. (<a href="https://github.com/simonw/datasette/issues/2692">#2692</a>)</li>
+</ul>
+</blockquote>
+<p>Most of the changes in this release were implemented using Claude Code and the newly released Claude Opus 4.7.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hollywood&#8217;s World Map of California]]></title>
         <id>https://kottke.org/26/04/hollywoods-world-map-of-california</id>
@@ -6179,53 +6201,6 @@ The Wire 506 contains a user’s guide to Augustus Pablo’s extensive discograp
         <summary type="html"><![CDATA[I’ve mentioned the following story to so many people, I thought I might as well put up a quick post about it. There are strong Kristian Birkeland vibes with this—and, of course, anything involving an entire mountain transformed into a kind of passive-cosmic megamachine is bound to get my attention. [Image: Watercolor by Karl Lemström, … Continue reading "The Landscape Architecture of Auroras on Demand"]]></summary>
         <author>
             <name>Geoff Manaugh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crafting thresholds]]></title>
-        <id>http://fo.am/blog/2026/03/06/crafting-thresholds/</id>
-        <link href="http://fo.am/blog/2026/03/06/crafting-thresholds/"/>
-        <updated>2026-03-18T17:02:31.000Z</updated>
-        <summary type="html"><![CDATA[July 2024. A terrace in Istria. Tiles half-laid, some already fixed, a template that doesn't match the floor, an unanswered voice call from Brussels. 480 limestone pieces, CNC-cut from a shape proven mathematically a few months before. One constraint: no tile can be flipped.
-Three months, a long hot summer to find out if the pattern held.
-
-https://anarchive.fo.am/silver/spectres/
-
-            
-        
-    
-        
-        
-        
-        
-            
-                
-
-The same terrace, a second time. Look again. Resistance-cue: the moment the material doesn't do what the file said. Correction window: the gap – before "wrong" hardens – where resistance can still teach. Attention scaffold: the time, slack, and permission to keep that window open.
-Same terrace, same summer. A different language.
-
-Two texts – or one surface, walked twice. 
-
-
-https://anarchive.fo.am/silver/crafting_at_the_threshold_of_knowing/
-
-
-Cut a Möbius strip down the middle. Expecting two pieces, you get one, longer, with twice as many twists. The more you try to separate knowing from making – theory from practice, template from floor – the more surface there is to walk.
-
-
-https://anarchive.fo.am/fn/ag/dissecting_a_moebius_strip/]]></summary>
-        <author>
-            <name>fo.am weblog feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/811438957740130304</id>
-        <link href="https://brucesterling.tumblr.com/post/811438957740130304"/>
-        <updated>2026-03-18T15:41:33.000Z</updated>
-        <summary type="html"><![CDATA[*You’ll get over it, Sven]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
