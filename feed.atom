@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-16T20:45:10.881Z</updated>
+    <updated>2026-04-17T02:25:44.504Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hollywood&#8217;s World Map of California]]></title>
+        <id>https://kottke.org/26/04/hollywoods-world-map-of-california</id>
+        <link href="https://kottke.org/26/04/hollywoods-world-map-of-california"/>
+        <updated>2026-04-17T01:35:38.000Z</updated>
+        <summary type="html"><![CDATA[This is a map published in 1927 by Paramount Studios showing the areas of California & Nevada that doubled as shooting locations for far-flung locales, including Siberia, Wales, the Nile, New England, the Red Sea, and the Alps.
+
+ 
+
+        
+         
+Tags: Hollywood · maps · movies]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.25]]></title>
+        <id>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything"/>
+        <updated>2026-04-16T20:37:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.25">llm-anthropic 0.25</a></p>
+    <blockquote>
+<ul>
+<li>New model: <code>claude-opus-4.7</code>, which supports <code>thinking_effort</code>: <code>xhigh</code>. #66</li>
+<li>New <code>thinking_display</code> and <code>thinking_adaptive</code> boolean options. <code>thinking_display</code> summarized output is currently only available in JSON output or JSON logs.</li>
+<li>Increased default <code>max_tokens</code> to the maximum allowed for each model.</li>
+<li>No longer uses obsolete <code>structured-outputs-2025-11-13</code> beta header for older models.</li>
+</ul>
+</blockquote>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Researchers have found that  some aspects of sperm...]]></title>
         <id>https://kottke.org/26/04/0048764-researchers-have-found-th</id>

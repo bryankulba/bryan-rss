@@ -276,6 +276,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/04/hollywoods-world-map-of-california",
+          "author": null,
+          "description": "This is a map published in 1927 by Paramount Studios showing the areas of California & Nevada that doubled as shooting locations for far-flung locales, including Siberia, Wales, the Nile, New England, the Red Sea, and the Alps.\n\n \n\n        \n         \nTags: Hollywood · maps · movies",
+          "link": "https://kottke.org/26/04/hollywoods-world-map-of-california",
+          "publishedOn": "2026-04-17T01:35:38.000Z",
+          "wordCount": 711,
+          "title": "Hollywood&#8217;s World Map of California",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1776190771-e9b2546e.jpg"
+        },
+        {
           "id": "https://kottke.org/26/04/0048764-researchers-have-found-th",
           "author": null,
           "description": "Researchers have found that some aspects of sperm whales’ communication are “remarkably similar” to human languages.",
@@ -2786,6 +2796,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.25\">llm-anthropic 0.25</a></p>\n    <blockquote>\n<ul>\n<li>New model: <code>claude-opus-4.7</code>, which supports <code>thinking_effort</code>: <code>xhigh</code>. #66</li>\n<li>New <code>thinking_display</code> and <code>thinking_adaptive</code> boolean options. <code>thinking_display</code> summarized output is currently only available in JSON output or JSON logs.</li>\n<li>Increased default <code>max_tokens</code> to the maximum allowed for each model.</li>\n<li>No longer uses obsolete <code>structured-outputs-2025-11-13</code> beta header for older models.</li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
+          "publishedOn": "2026-04-16T20:37:12.000Z",
+          "wordCount": 775,
+          "title": "llm-anthropic 0.25",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
           "author": null,
