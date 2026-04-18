@@ -5,12 +5,13 @@
  *   rss_gist_id    — GitHub Gist ID for read state storage
  *   rss_gist_pat   — GitHub Personal Access Token (gist scope)
  *   rss_read_ids   — JSON array of read article IDs (local cache)
- *   rss_fav_ids    — JSON array of favourited article IDs (local cache)
+ *   rss_fav_ids    — JSON array of favourited article IDs (local cache, derived from rss_fav_data)
+ *   rss_fav_data   — JSON object map of rich favourite data keyed by article ID
  *   rss_hide_read  — boolean: hide read items
  *   rss_show_favs  — boolean: show only favourites
  *
  * Gist schema (read-state.json):
- *   { readIds: [...], favouriteIds: [...], updatedAt: "..." }
+ *   { readIds: [...], favouriteIds: [...], favouriteData: {...}, updatedAt: "..." }
  *
  * To migrate to a PHP backend later: replace fetchRemoteState() and
  * saveRemoteState() to call your own API endpoint instead of Gist.
@@ -20,21 +21,29 @@ const GIST_ID_KEY    = 'rss_gist_id';
 const PAT_KEY        = 'rss_gist_pat';
 const LOCAL_KEY      = 'rss_read_ids';
 const FAV_KEY        = 'rss_fav_ids';
+const FAV_DATA_KEY   = 'rss_fav_data';
 const HIDE_READ_KEY  = 'rss_hide_read';
 const SHOW_FAVS_KEY  = 'rss_show_favs';
 const GIST_FILENAME  = 'read-state.json';
 
 // ── State ────────────────────────────────────────────────────────────────────
 
-let readIds      = new Set(JSON.parse(localStorage.getItem(LOCAL_KEY) || '[]'));
-let favouriteIds = new Set(JSON.parse(localStorage.getItem(FAV_KEY)   || '[]'));
-let syncTimer    = null;
+let readIds       = new Set(JSON.parse(localStorage.getItem(LOCAL_KEY) || '[]'));
+let favouriteData = JSON.parse(localStorage.getItem(FAV_DATA_KEY) || '{}');
+let syncTimer     = null;
+
+// Derived Set — always kept in sync with favouriteData
+function getFavouriteIds() {
+  return new Set(Object.keys(favouriteData));
+}
 
 // ── Local state helpers ───────────────────────────────────────────────────────
 
 function saveLocal() {
   localStorage.setItem(LOCAL_KEY, JSON.stringify([...readIds]));
-  localStorage.setItem(FAV_KEY,   JSON.stringify([...favouriteIds]));
+  localStorage.setItem(FAV_DATA_KEY, JSON.stringify(favouriteData));
+  // Keep rss_fav_ids in sync for backward compatibility
+  localStorage.setItem(FAV_KEY, JSON.stringify(Object.keys(favouriteData)));
 }
 
 function applyReadState() {
@@ -45,8 +54,9 @@ function applyReadState() {
 }
 
 function applyFavouriteState() {
+  const favIds = getFavouriteIds();
   document.querySelectorAll('[data-article-id]').forEach(el => {
-    const isFav = favouriteIds.has(el.dataset.articleId);
+    const isFav = favIds.has(el.dataset.articleId);
     el.classList.toggle('is-favourite', isFav);
     const btn = el.querySelector('.js-favourite');
     if (btn) btn.textContent = isFav ? '★' : '☆';
@@ -81,17 +91,96 @@ function markAllRead() {
 // ── Favourite actions ─────────────────────────────────────────────────────────
 
 function toggleFavourite(id) {
-  if (favouriteIds.has(id)) {
-    favouriteIds.delete(id);
-  } else {
-    favouriteIds.add(id);
-    // Favouriting also marks as read
-    readIds.add(id);
-  }
+  // Already favourited — do nothing (removal handled in a future dedicated view)
+  if (favouriteData[id]) return;
+  showFavouriteDialog(id);
+}
+
+function saveFavourite(id, note, tags, postDate) {
+  favouriteData[id] = {
+    id,
+    favouritedAt: new Date().toISOString(),
+    postDate: postDate || null,
+    note: note.trim(),
+    tags: tags.map(t => t.trim()).filter(Boolean),
+  };
+  readIds.add(id);
   saveLocal();
   applyReadState();
   applyFavouriteState();
   debouncedSyncToGist();
+}
+
+// ── Favourite dialog ──────────────────────────────────────────────────────────
+
+let pendingFavId = null;
+
+function injectFavouriteDialog() {
+  const dialog = document.createElement('dialog');
+  dialog.id = 'js-fav-dialog';
+  dialog.innerHTML = `
+    <p class="fav-dialog__article-title" id="js-fav-dialog-title"></p>
+    <label class="fav-dialog__label">
+      Note
+      <textarea id="js-fav-note" rows="3" placeholder="What struck you about this?"></textarea>
+    </label>
+    <label class="fav-dialog__label">
+      Tags
+      <input id="js-fav-tags" type="text" placeholder="comma-separated  e.g. ai, design">
+    </label>
+    <div class="fav-dialog__actions">
+      <button id="js-fav-cancel" class="btn btn--ghost">Cancel</button>
+      <button id="js-fav-save" class="btn btn--primary">Save favourite</button>
+    </div>
+  `;
+  document.body.appendChild(dialog);
+
+  dialog.addEventListener('click', e => {
+    if (e.target === dialog) closeFavouriteDialog();
+  });
+
+  document.getElementById('js-fav-cancel').addEventListener('click', closeFavouriteDialog);
+
+  document.getElementById('js-fav-save').addEventListener('click', () => {
+    if (!pendingFavId) return;
+    const note = document.getElementById('js-fav-note').value;
+    const tagsRaw = document.getElementById('js-fav-tags').value;
+    const tags = tagsRaw.split(',');
+    saveFavourite(pendingFavId, note, tags, pendingFavPostDate);
+    closeFavouriteDialog();
+  });
+
+  // Allow Escape key to cancel
+  dialog.addEventListener('cancel', closeFavouriteDialog);
+}
+
+let pendingFavPostDate = null;
+
+function showFavouriteDialog(id) {
+  const articleEl = document.querySelector(`[data-article-id="${id}"]`);
+  const title = articleEl?.querySelector('.feed-item__title a')?.textContent?.trim() || '';
+  const postDate = articleEl?.querySelector('time[datetime]')?.getAttribute('datetime') || null;
+
+  pendingFavId = id;
+  pendingFavPostDate = postDate;
+
+  const dialog = document.getElementById('js-fav-dialog');
+  const titleEl = document.getElementById('js-fav-dialog-title');
+  const noteEl = document.getElementById('js-fav-note');
+  const tagsEl = document.getElementById('js-fav-tags');
+
+  if (titleEl) titleEl.textContent = title;
+  if (noteEl) noteEl.value = '';
+  if (tagsEl) tagsEl.value = '';
+
+  dialog.showModal();
+  noteEl?.focus();
+}
+
+function closeFavouriteDialog() {
+  pendingFavId = null;
+  pendingFavPostDate = null;
+  document.getElementById('js-fav-dialog')?.close();
 }
 
 // ── Gist API ──────────────────────────────────────────────────────────────────
@@ -145,7 +234,7 @@ async function saveRemoteState(state) {
 }
 
 async function createGist(pat) {
-  const initialState = { readIds: [], favouriteIds: [], updatedAt: new Date().toISOString() };
+  const initialState = { readIds: [], favouriteIds: [], favouriteData: {}, updatedAt: new Date().toISOString() };
   const res = await fetch('https://api.github.com/gists', {
     method: 'POST',
     headers: {
@@ -176,9 +265,19 @@ async function syncFromGist() {
     setSyncStatus('Syncing...');
     const remote = await fetchRemoteState();
     if (remote) {
-      // Merge: union of local and remote (both lists are append-only)
+      // Merge readIds: union
       remote.readIds?.forEach(id => readIds.add(id));
-      remote.favouriteIds?.forEach(id => favouriteIds.add(id));
+      // Merge favouriteData: union by ID (remote wins on conflict)
+      if (remote.favouriteData) {
+        favouriteData = { ...remote.favouriteData, ...favouriteData };
+      } else if (remote.favouriteIds) {
+        // Backward compat: remote only has IDs, no rich data — seed entries without metadata
+        remote.favouriteIds.forEach(id => {
+          if (!favouriteData[id]) {
+            favouriteData[id] = { id, favouritedAt: null, postDate: null, note: '', tags: [] };
+          }
+        });
+      }
       saveLocal();
       applyReadState();
       applyFavouriteState();
@@ -197,9 +296,10 @@ async function syncToGist() {
 
   try {
     const state = {
-      readIds:      [...readIds],
-      favouriteIds: [...favouriteIds],
-      updatedAt:    new Date().toISOString(),
+      readIds:       [...readIds],
+      favouriteIds:  Object.keys(favouriteData),
+      favouriteData,
+      updatedAt:     new Date().toISOString(),
     };
     await saveRemoteState(state);
   } catch (err) {
@@ -294,6 +394,8 @@ function syncLabel() {
 // ── Init ──────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
+  injectFavouriteDialog();
+
   applyReadState();
   applyFavouriteState();
   applyHideRead();
