@@ -73,7 +73,40 @@ function applyFavouriteState() {
     el.classList.toggle('is-favourite', isFav);
     const btn = el.querySelector('.js-favourite');
     if (btn) btn.textContent = isFav ? '★' : '☆';
+
+    // Update annotation (note + tags)
+    el.querySelector('.fav-annotation')?.remove();
+    if (isFav) {
+      const data = favouriteData[el.dataset.articleId];
+      if (data) el.appendChild(buildFavAnnotation(data));
+    }
   });
+}
+
+function buildFavAnnotation(data) {
+  const div = document.createElement('div');
+  div.className = 'fav-annotation';
+
+  if (data.note) {
+    const note = document.createElement('p');
+    note.className = 'fav-annotation__note';
+    note.textContent = data.note;
+    div.appendChild(note);
+  }
+
+  if (data.tags?.length) {
+    const tags = document.createElement('div');
+    tags.className = 'fav-annotation__tags';
+    data.tags.forEach(tag => {
+      const span = document.createElement('span');
+      span.className = 'fav-tag';
+      span.textContent = tag;
+      tags.appendChild(span);
+    });
+    div.appendChild(tags);
+  }
+
+  return div;
 }
 
 function updateUnreadCount() {

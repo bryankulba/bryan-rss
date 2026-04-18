@@ -312,6 +312,45 @@ a:hover {
   opacity: 1;
 }
 
+/* ── Favourite annotation (note + tags) ──────────────────── */
+
+.fav-annotation {
+  display: none;
+  margin-top: var(--token-spacing-sm);
+  padding-top: var(--token-spacing-sm);
+  border-top: 1px solid var(--border);
+}
+
+.show-favourites .fav-annotation {
+  display: block;
+}
+
+.fav-annotation__note {
+  margin: 0 0 var(--token-spacing-xs);
+  font-size: var(--token-font-size-sm);
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: var(--token-font-lineHeight-normal);
+}
+
+.fav-annotation__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--token-spacing-xs);
+}
+
+.fav-tag {
+  font-size: 0.7rem;
+  font-weight: var(--token-font-weight-medium);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 999px;
+  padding: 2px var(--token-spacing-sm);
+  letter-spacing: var(--token-font-letterSpacing-wide);
+  text-transform: lowercase;
+}
+
 /* Show only favourites */
 .show-favourites .feed-item:not(.is-favourite) {
   display: none;
