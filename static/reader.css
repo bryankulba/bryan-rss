@@ -332,7 +332,7 @@ a:hover {
 .fav-annotation__note {
   flex: 1;
   margin: 0;
-  font-size: var(--token-font-size-sm);
+  font-size: calc(var(--token-font-size-sm) * 0.8);
   color: var(--text-muted);
   font-style: italic;
   line-height: var(--token-font-lineHeight-normal);
@@ -376,7 +376,7 @@ a:hover {
 }
 
 .fav-tag {
-  font-size: 0.7rem;
+  font-size: calc(0.7rem * 0.8);
   font-weight: var(--token-font-weight-medium);
   color: var(--accent);
   background: color-mix(in srgb, var(--accent) 12%, transparent);
