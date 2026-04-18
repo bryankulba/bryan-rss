@@ -32,6 +32,19 @@ let readIds       = new Set(JSON.parse(localStorage.getItem(LOCAL_KEY) || '[]'))
 let favouriteData = JSON.parse(localStorage.getItem(FAV_DATA_KEY) || '{}');
 let syncTimer     = null;
 
+// Migrate old rss_fav_ids (plain array) into favouriteData if not already present
+(function migrateLegacyFavIds() {
+  const legacy = JSON.parse(localStorage.getItem(FAV_KEY) || '[]');
+  let migrated = false;
+  legacy.forEach(id => {
+    if (!favouriteData[id]) {
+      favouriteData[id] = { id, favouritedAt: null, postDate: null, note: '', tags: [] };
+      migrated = true;
+    }
+  });
+  if (migrated) localStorage.setItem(FAV_DATA_KEY, JSON.stringify(favouriteData));
+})();
+
 // Derived Set — always kept in sync with favouriteData
 function getFavouriteIds() {
   return new Set(Object.keys(favouriteData));
