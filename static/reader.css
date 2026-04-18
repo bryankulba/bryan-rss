@@ -316,7 +316,7 @@ a:hover {
 
 .fav-annotation {
   display: none;
-  margin-top: var(--token-spacing-sm);
+  margin-top: var(--token-spacing-md);
 }
 
 .show-favourites .fav-annotation {
