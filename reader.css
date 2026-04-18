@@ -307,6 +307,11 @@ a:hover {
   display: none;
 }
 
+/* Full opacity for favourites in favourites view */
+.show-favourites .feed-item.is-favourite {
+  opacity: 1;
+}
+
 /* Show only favourites */
 .show-favourites .feed-item:not(.is-favourite) {
   display: none;
