@@ -298,8 +298,8 @@ a:hover {
   display: none;
 }
 
-/* Default: hide read items that aren't favourited */
-.feed-item.is-read:not(.is-favourite) {
+/* Default: hide all read items */
+.feed-item.is-read {
   display: none;
 }
 
