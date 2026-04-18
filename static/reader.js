@@ -78,14 +78,16 @@ function applyFavouriteState() {
     el.querySelector('.fav-annotation')?.remove();
     if (isFav) {
       const data = favouriteData[el.dataset.articleId];
-      if (data) el.appendChild(buildFavAnnotation(data));
+      if (data) el.appendChild(buildFavAnnotation(el.dataset.articleId, data));
     }
   });
 }
 
-function buildFavAnnotation(data) {
+function buildFavAnnotation(id, data) {
   const div = document.createElement('div');
   div.className = 'fav-annotation';
+
+  const hasContent = data.note || data.tags?.length;
 
   if (data.note) {
     const note = document.createElement('p');
@@ -95,15 +97,30 @@ function buildFavAnnotation(data) {
   }
 
   if (data.tags?.length) {
-    const tags = document.createElement('div');
-    tags.className = 'fav-annotation__tags';
+    const tagsEl = document.createElement('div');
+    tagsEl.className = 'fav-annotation__tags';
     data.tags.forEach(tag => {
       const span = document.createElement('span');
       span.className = 'fav-tag';
       span.textContent = tag;
-      tags.appendChild(span);
+      tagsEl.appendChild(span);
     });
-    div.appendChild(tags);
+    div.appendChild(tagsEl);
+  }
+
+  if (hasContent) {
+    const editBtn = document.createElement('button');
+    editBtn.className = 'js-fav-edit btn fav-annotation__edit-btn';
+    editBtn.dataset.id = id;
+    editBtn.title = 'Edit note';
+    editBtn.textContent = '✏';
+    div.appendChild(editBtn);
+  } else {
+    const addBtn = document.createElement('button');
+    addBtn.className = 'js-fav-add-note btn fav-annotation__add-btn';
+    addBtn.dataset.id = id;
+    addBtn.textContent = '+ Add note';
+    div.appendChild(addBtn);
   }
 
   return div;
@@ -143,10 +160,11 @@ function toggleFavourite(id) {
 }
 
 function saveFavourite(id, note, tags, postDate) {
+  const existing = favouriteData[id];
   favouriteData[id] = {
     id,
-    favouritedAt: new Date().toISOString(),
-    postDate: postDate || null,
+    favouritedAt: existing?.favouritedAt || new Date().toISOString(),
+    postDate: existing?.postDate || postDate || null,
     note: note.trim(),
     tags: tags.map(t => t.trim()).filter(Boolean),
   };
@@ -202,7 +220,7 @@ function injectFavouriteDialog() {
 
 let pendingFavPostDate = null;
 
-function showFavouriteDialog(id) {
+function showFavouriteDialog(id, isEdit = false) {
   const articleEl = document.querySelector(`[data-article-id="${id}"]`);
   const title = articleEl?.querySelector('.feed-item__title a')?.textContent?.trim() || '';
   const postDate = articleEl?.querySelector('time[datetime]')?.getAttribute('datetime') || null;
@@ -214,10 +232,14 @@ function showFavouriteDialog(id) {
   const titleEl = document.getElementById('js-fav-dialog-title');
   const noteEl = document.getElementById('js-fav-note');
   const tagsEl = document.getElementById('js-fav-tags');
+  const saveBtn = document.getElementById('js-fav-save');
 
   if (titleEl) titleEl.textContent = title;
-  if (noteEl) noteEl.value = '';
-  if (tagsEl) tagsEl.value = '';
+  if (saveBtn) saveBtn.textContent = isEdit ? 'Update' : 'Save favourite';
+
+  const existing = favouriteData[id];
+  if (noteEl) noteEl.value = isEdit && existing ? (existing.note || '') : '';
+  if (tagsEl) tagsEl.value = isEdit && existing ? (existing.tags || []).join(', ') : '';
 
   dialog.showModal();
   noteEl?.focus();
@@ -470,5 +492,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const favBtn = e.target.closest('.js-favourite');
     if (favBtn) toggleFavourite(favBtn.dataset.id);
+
+    const editBtn = e.target.closest('.js-fav-edit');
+    if (editBtn) showFavouriteDialog(editBtn.dataset.id, true);
+
+    const addNoteBtn = e.target.closest('.js-fav-add-note');
+    if (addNoteBtn) showFavouriteDialog(addNoteBtn.dataset.id, true);
   });
 });
