@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-18T12:58:47.914Z</updated>
+    <updated>2026-04-18T13:53:27.479Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Georgia's voting technology blunder (18 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12698</id>
+        <link href="https://pluralistic.net/2026/04/18/dominion-sucks-actually/"/>
+        <updated>2026-04-18T13:00:44.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. Hey look at this: Delights to delectate. Object permanence: GWB's illegal iPod; McDonald's breakfast sandwich fanfic; Technofeudal debt; "The Everything Box"; $100m deli. Upcoming appearances: Los Angeles, San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Georgia's voting technology blunder (permalink) Nearly 25 years ago, in the aftermath of Bush v Gore, I got involved in a bunch of ugly tech policy fights over voting machines. The hanging chad debacle …]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Adding a new content type to my blog-to-newsletter tool]]></title>
         <id>https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything</id>
