@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/04/18/headless",
+          "author": null,
+          "description": "It’s pretty clear that apps and services are all going to have to go headless: that is, they will have to provide access and tools for personal AI agents without any of the visual UI that us humans use today.\nBy services I mean things like: getting a new passport; finding and booking a hotel or a flight; managing your bank account; shopping for t-shirts with a minimum cotton weight from brands similar to ones that you’ve bought from before.\nWhy? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.\nWhere this leaves design for the services… well, I have some thoughts on that.\nHeadless services? They’re happ…",
+          "link": "https://interconnected.org/home/2026/04/18/headless",
+          "publishedOn": "2026-04-18T17:00:00.000Z",
+          "wordCount": 1673,
+          "title": "Headless everything for personal AI",
+          "imageUrl": "https://interconnected.org/home/2026/04/18/headless.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/04/10/open-mist",
           "author": null,
           "description": "A brief update on mist, my ephemeral Markdown editor with Google Docs-style comments and suggested edits:\nmist is now open source with an MIT license, and the mist repo is here on GitHub.\n(Try mist now and here’s my write-up from February.)\nWhat I love about Markdown is that it’s document-first. The formatting travels with the doc. I can’t tell you how many note-taking apps I’ve jumped between with my exact same folder of Markdown notes.\nThe same should be true for collaboration features like suggested edits. If somebody makes an edit to your doc, you should be able to download it and upload to a wholly different app before you accept the edit; you shouldn’t be tied to a single service just because you want comments.\n(And of course the doc should still be human-readable/writeable, and it’s cheating to just stuff a massive data-structure in a document header.)\nSo mist mixes Markdown and CriticMarkup – and I would love it if others picked up the same format. If apps are cheap and abundant in the era of vibing, then let’s focus on interop!\nWith mist itself:\nSeveral people have asked for the ability to self-host it. The README says how (it’s all on Cloudflare naturally). You can add new features to your own fork, though please do share upstream if you think others could benefit.\nAnd yes, contributions welcome! We’ve already received and merged our first pull request – thank you James Adam!\nNo, a document editor is not what we’re building at Inanimate. But it’s neat to release small useful projects that get made along the way. btw subscribe to our newsletter.\nMore posts tagged:\n\t\n\tinanimate\n\t(4).",

@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-18T15:54:31.907Z</updated>
+    <updated>2026-04-18T16:37:55.292Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Headless everything for personal AI]]></title>
+        <id>https://interconnected.org/home/2026/04/18/headless</id>
+        <link href="https://interconnected.org/home/2026/04/18/headless"/>
+        <updated>2026-04-18T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s pretty clear that apps and services are all going to have to go headless: that is, they will have to provide access and tools for personal AI agents without any of the visual UI that us humans use today.
+By services I mean things like: getting a new passport; finding and booking a hotel or a flight; managing your bank account; shopping for t-shirts with a minimum cotton weight from brands similar to ones that you’ve bought from before.
+Why? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.
+Where this leaves design for the services… well, I have some thoughts on that.
+Headless services? They’re happ…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Georgia's voting technology blunder (18 Apr 2026)]]></title>
         <id>https://pluralistic.net/?p=12698</id>
