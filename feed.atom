@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-17T20:42:35.358Z</updated>
+    <updated>2026-04-18T02:08:30.091Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year]]></title>
+        <id>https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything"/>
+        <updated>2026-04-17T23:59:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>This year's <a href="https://us.pycon.org/2026/">PyCon US</a> is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017 and the first time in California since Santa Clara in 2013.</p>
+<p>If you're based in California this is a great opportunity to catch up with the Python community, meet a whole lot of interesting people and learn a ton of interesting things.</p>
+<p>In addition to regular PyCon programming we have two new dedicated tracks at the conference this year: an <a href="https://us.pycon.org/2026/tracks/ai/">AI track</a> on Friday and a <a href="https://us.pycon.org/2026/tracks/security/">Security track</a> on Saturday.</p>
+<p>The AI program was put together by track chairs Silona Bonewald (CitableAI) and Zac Hatfield-Dodds (Anthropic). I'll be an in-the-room chair this year, introducing speakers and helping everything run as smoothly as possible.</p>
+<p>Here's <a href="https://us.pycon.org/2026/schedule/talks/#May15">the AI track schedule</a> in full:</p>
+<ul>
+<li>11:00: <a href="https://us.pycon.org/2026/schedule/presentation/105/">AI-Assisted Contributions and Maintainer Load</a> - Paolo Melchiorre</li>
+<li>11:45: <a href="https://us.pycon.org/2026/schedule/presentation/66/">AI-Powered Python Education : Towards Adaptive and Inclusive Learning</a> - Sonny Mupfuni</li>
+<li>12:30: <a href="https://us.pycon.org/2026/schedule/presentation/23/">Making African Languages Visible: A Python-Based Guide to Low-Resource Language ID</a> - Gift Ojeabulu</li>
+<li>2:00: <a href="https://us.pycon.org/2026/schedule/presentation/138/">Running Large Language Models on Laptops: Practical Quantization Techniques in Python</a> - Aayush Kumar JVS</li>
+<li>2:45: <a href="https://us.pycon.org/2026/schedule/presentation/126/">Distributing AI with Python in the Browser: Edge Inference and Flexibility Without Infrastructure</a> - Fabio Pliger</li>
+<li>3:30: <a href="https://us.pycon.org/2026/schedule/presentation/110/">Don't Block the Loop: Python Async Patterns for AI Agents</a> - Aditya Mehra</li>
+<li>4:30: <a href="https://us.pycon.org/2026/schedule/presentation/81/">What Python Developers Need to Know About Hardware: A Practical Guide to GPU Memory, Kernel Scheduling, and Execution Models</a> - Santosh Appachu Devanira Poovaiah</li>
+<li>5:15: <a href="https://us.pycon.org/2026/schedule/presentation/101/">How to Build Your First Real-Time Voice Agent in Python (Without Losing Your Mind)</a> - Camila Hinojosa Añez, Elizabeth Fuentes</li>
+</ul>
+<p>(And here's <a href="https://gisthost.github.io/?dab27f61d85eb98f60db5991aa21ec89">how I scraped that as a Markdown list</a> from the schedule page using Claude Code and <a href="https://github.com/simonw/rodney">Rodney</a>.)</p>
+<h4 id="you-should-come-to-pycon-">You should come to PyCon US!</h4>
+<p>I've been going to PyCon for over twenty years now - I first went <a href="https://simonwillison.net/2005/Mar/28/pycon/">back in 2005</a>. It's one of my all-time favourite conference series. Even as it's grown to more than 2,000 attendees PyCon US has remained a heavily community-focused conference - it's the least <em>corporate</em> feeling large event I've ever attended.</p>
+<p>The talks are always great, but it's the add-ons around the talks that really make it work for me. The <a href="https://us.pycon.org/2026/events/lightning-talks/">lightning talks</a> slots are some of the most heavily attended sessions. The PyLadies auction is always deeply entertaining. The sprints are an incredible opportunity to contribute directly to projects that you use, coached by their maintainers.</p>
+<p>In addition to scheduled talks, the event has <strong>open spaces</strong>, where anyone can reserve space for a conversation about a topic - effectively PyCon's version of an <a href="https://en.wikipedia.org/wiki/Unconference">unconference</a>. I plan to spend a lot of my time in the open spaces this year - I'm hoping to join or instigate sessions about both <a href="https://datasette.io/">Datasette</a> and <a href="https://simonwillison.net/guides/agentic-engineering-patterns/">agentic engineering</a>.</p>
+<p>I'm on the board of the Python Software Foundation, and PyCon US remains one of our most important responsibilities - in the past it's been a key source of funding for the organization, but it's also core to our mission to "promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers".</p>
+<p><small>If you do come to Long Beach, we'd really appreciate it if you could book accommodation in the official hotel block, for reasons <a href="https://pyfound.blogspot.com/2026/04/pycon-us-2026-hotels.html">outlined in this post on the PSF blog</a>.</small></p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/conferences">conferences</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/pycon">pycon</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/psf">psf</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dan Sinker on the time Notre Dame students fought the Klan]]></title>
+        <id>https://waxy.org/?p=50579</id>
+        <link href="https://dansinker.com/posts/2026-04-17-notre-dame/"/>
+        <updated>2026-04-17T21:40:25.000Z</updated>
+        <summary type="html"><![CDATA[another 100-year-old story that rhymes with today's current events #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TasteBuds NYC]]></title>
+        <id>https://waxy.org/?p=50576</id>
+        <link href="https://www.youtube.com/@tastebuds_nyc/shorts"/>
+        <updated>2026-04-17T20:59:42.000Z</updated>
+        <summary type="html"><![CDATA[every week, two guys spin a wheel of countries and find a restaurant in NYC serving that cuisine, random joy ensues #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nancy Friedman notes the decline in quality in movie...]]></title>
+        <id>https://kottke.org/26/04/0048660-nancy-friedman-notes-the-</id>
+        <link href="https://kottke.org/26/04/0048660-nancy-friedman-notes-the-"/>
+        <updated>2026-04-17T20:49:50.000Z</updated>
+        <summary type="html"><![CDATA[Nancy Friedman notes the decline in quality in movie taglines. “As movies have become louder, flashier, and more expensive, their taglines have atrophied: they’re limp, lackluster, and uninspiring.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 16th season of the Dissect podcast is a deep dive...]]></title>
         <id>https://kottke.org/26/04/0048752-the-16th-season-of-the</id>
@@ -6298,36 +6361,6 @@ Tags: drones · pareidolia · photography · Pio Andrea Peri]]></summary>
         <summary type="html"><![CDATA[Monoprint means just what it says: it's a print method in which every print is unique. A less aspirational way to phrase that might be: you never know what you're going to get.]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Checking in with Theo Jansen&#8217;s Strandbeests,...]]></title>
-        <id>https://kottke.org/26/03/0048562-checking-in-with-theo-jan</id>
-        <link href="https://kottke.org/26/03/0048562-checking-in-with-theo-jan"/>
-        <updated>2026-03-19T13:55:25.000Z</updated>
-        <summary type="html"><![CDATA[Checking in with Theo Jansen’s Strandbeests, kinetic machine sculptures that move under their own power along the beach. Some of the most recent versions are quick fast and can even tow humans along behind them.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Love of corporate bullshit is correlated with bad judgment (19 Mar 2026)]]></title>
-        <id>https://pluralistic.net/?p=12565</id>
-        <link href="https://pluralistic.net/2026/03/19/jargon-watch/"/>
-        <updated>2026-03-19T12:47:06.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Love of corporate bullshit is correlated with bad judgment: Synergizing the strategic inflection points on the global data network. Hey look at this: Delights to delectate. Object permanence: Bluetooth headsets; Fruit sticker decoder; iPod batteries v DRM; Bruces's SXSW keynote; Piracy isn't funding terrorism; Hope v optimism; Identical twin time-travel prank; Prisoners draw corporate crooks; Spanish junkbots; Sheriff's rape-kit denial; Non-dorky magic; Poetic bureaucrat mourns wolf; SXSW v MPAA; "Burning Days"; NYT paywall; Police rap-battle warning; Unions de-risk labor; "Murder the Truth" Upcoming appearances: Where to find me. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[After the sneaker-drop apocalypse]]></title>
-        <id>https://www.blackbirdspyplane.com/p/after-the-sneaker-drop-apocalypse</id>
-        <link href="https://www.blackbirdspyplane.com/p/after-the-sneaker-drop-apocalypse"/>
-        <updated>2026-03-19T11:02:18.000Z</updated>
-        <summary type="html"><![CDATA[Swag footwear in an epochal wackness aftermath, sick jackets, tiny home enswaggeners & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
