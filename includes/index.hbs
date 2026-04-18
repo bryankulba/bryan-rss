@@ -18,7 +18,8 @@
       <div class="toolbar">
         <span id="js-unread-count" class="unread-count"></span>
         <button id="js-toggle-show-favourites" class="btn btn--ghost">★ Favourites</button>
-        <button id="js-toggle-hide-read" class="btn btn--ghost">Hide read</button>
+        <button id="js-toggle-archive" class="btn btn--ghost">Archive</button>
+        <button id="js-toggle-search" class="btn btn--ghost">&#x1F50D;</button>
         <button id="js-mark-all-read" class="btn btn--ghost">Mark all read</button>
         <button id="js-sync-now" class="btn btn--ghost" style="display:none">Sync</button>
         <button id="js-setup-sync" class="btn btn--ghost">Setup sync</button>
@@ -26,6 +27,12 @@
       </div>
     </div>
   </header>
+
+  <div class="search-shim" id="js-search-shim" hidden>
+    <div class="search-shim__inner">
+      <input type="search" id="js-search-input" class="search-shim__input" placeholder="Filter by title or content…" autocomplete="off" spellcheck="false">
+    </div>
+  </div>
 
   <main class="feed">
     {{#each articles}}
