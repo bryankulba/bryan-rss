@@ -421,20 +421,47 @@ async function setupSync() {
   await syncFromGist();
 }
 
-// ── Hide/show read toggle ─────────────────────────────────────────────────────
+// ── Archive toggle ────────────────────────────────────────────────────────────
 
-let hideReadActive = localStorage.getItem(HIDE_READ_KEY) === 'true';
+let archiveActive = localStorage.getItem(HIDE_READ_KEY) === 'true';
 
-function toggleHideRead() {
-  hideReadActive = !hideReadActive;
-  localStorage.setItem(HIDE_READ_KEY, hideReadActive);
-  applyHideRead();
+function toggleArchive() {
+  archiveActive = !archiveActive;
+  localStorage.setItem(HIDE_READ_KEY, archiveActive);
+  applyArchive();
 }
 
-function applyHideRead() {
-  document.body.classList.toggle('hide-read', hideReadActive);
-  const btn = document.getElementById('js-toggle-hide-read');
-  if (btn) btn.textContent = hideReadActive ? 'Show read' : 'Hide read';
+function applyArchive() {
+  document.body.classList.toggle('archive', archiveActive);
+  const btn = document.getElementById('js-toggle-archive');
+  if (btn) btn.classList.toggle('btn--active', archiveActive);
+}
+
+// ── Search ────────────────────────────────────────────────────────────────────
+
+function toggleSearch() {
+  const shim = document.getElementById('js-search-shim');
+  const input = document.getElementById('js-search-input');
+  const btn = document.getElementById('js-toggle-search');
+  const isOpen = !shim.hidden;
+  shim.hidden = isOpen;
+  if (btn) btn.classList.toggle('btn--active', !isOpen);
+  if (isOpen) {
+    input.value = '';
+    applySearch('');
+  } else {
+    input.focus();
+  }
+}
+
+function applySearch(query) {
+  const q = query.trim().toLowerCase();
+  document.querySelectorAll('[data-article-id]').forEach(el => {
+    if (!q) { el.classList.remove('search-hidden'); return; }
+    const title = el.querySelector('.feed-item__title')?.textContent?.toLowerCase() || '';
+    const desc  = el.querySelector('.feed-item__desc')?.textContent?.toLowerCase()  || '';
+    el.classList.toggle('search-hidden', !title.includes(q) && !desc.includes(q));
+  });
 }
 
 // ── Show favourites toggle ────────────────────────────────────────────────────
@@ -472,7 +499,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   applyReadState();
   applyFavouriteState();
-  applyHideRead();
+  applyArchive();
   applyShowFavourites();
 
   // Sync from Gist on load if credentials are present; swap setup button for sync button
@@ -488,8 +515,10 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('js-mark-all-read')?.addEventListener('click', markAllRead);
   document.getElementById('js-setup-sync')?.addEventListener('click', setupSync);
   document.getElementById('js-sync-now')?.addEventListener('click', syncFromGist);
-  document.getElementById('js-toggle-hide-read')?.addEventListener('click', toggleHideRead);
+  document.getElementById('js-toggle-archive')?.addEventListener('click', toggleArchive);
   document.getElementById('js-toggle-show-favourites')?.addEventListener('click', toggleShowFavourites);
+  document.getElementById('js-toggle-search')?.addEventListener('click', toggleSearch);
+  document.getElementById('js-search-input')?.addEventListener('input', e => applySearch(e.target.value));
 
   // Per-article buttons (event delegation)
   document.addEventListener('click', e => {

@@ -294,22 +294,18 @@ a:hover {
 
 /* ── Read state ──────────────────────────────────────────── */
 
-.feed-item.is-read {
-  opacity: var(--read-opacity);
-}
-
 .feed-item.is-read .btn--mark-read {
   display: none;
 }
 
-/* Hide read items, but not when in favourites view */
-.hide-read:not(.show-favourites) .feed-item.is-read {
+/* Archive view: show only read items */
+.archive .feed-item:not(.is-read) {
   display: none;
 }
 
-/* Full opacity for favourites in favourites view */
-.show-favourites .feed-item.is-favourite {
-  opacity: 1;
+/* Search filter */
+.feed-item.search-hidden {
+  display: none !important;
 }
 
 /* ── Favourite annotation (note + tags) ──────────────────── */
@@ -473,6 +469,36 @@ a:hover {
   justify-content: flex-end;
   gap: var(--token-spacing-sm);
   margin-top: var(--token-spacing-sm);
+}
+
+/* ── Search shim ─────────────────────────────────────────── */
+
+.search-shim {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.search-shim__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--token-spacing-sm) var(--token-spacing-md);
+}
+
+.search-shim__input {
+  width: 100%;
+  font-family: var(--font);
+  font-size: var(--token-font-size-sm);
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--token-spacing-xs) var(--token-spacing-sm);
+  outline: none;
+  transition: border-color var(--token-transition-fast);
+}
+
+.search-shim__input:focus {
+  border-color: var(--accent);
 }
 
 /* ── Footer ──────────────────────────────────────────────── */
