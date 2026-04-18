@@ -317,16 +317,21 @@ a:hover {
 .fav-annotation {
   display: none;
   margin-top: var(--token-spacing-sm);
-  padding-top: var(--token-spacing-sm);
-  border-top: 1px solid var(--border);
 }
 
 .show-favourites .fav-annotation {
   display: block;
 }
 
+.fav-annotation__note-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--token-spacing-sm);
+}
+
 .fav-annotation__note {
-  margin: 0 0 var(--token-spacing-xs);
+  flex: 1;
+  margin: 0;
   font-size: var(--token-font-size-sm);
   color: var(--text-muted);
   font-style: italic;
@@ -340,8 +345,8 @@ a:hover {
   font-size: 0.75rem;
   color: var(--text-faint);
   cursor: pointer;
-  margin-top: var(--token-spacing-xs);
-  display: block;
+  flex-shrink: 0;
+  line-height: var(--token-font-lineHeight-normal);
   transition: color var(--token-transition-fast);
 }
 

@@ -89,32 +89,38 @@ function buildFavAnnotation(id, data) {
 
   const hasContent = data.note || data.tags?.length;
 
-  if (data.note) {
-    const note = document.createElement('p');
-    note.className = 'fav-annotation__note';
-    note.textContent = data.note;
-    div.appendChild(note);
-  }
-
-  if (data.tags?.length) {
-    const tagsEl = document.createElement('div');
-    tagsEl.className = 'fav-annotation__tags';
-    data.tags.forEach(tag => {
-      const span = document.createElement('span');
-      span.className = 'fav-tag';
-      span.textContent = tag;
-      tagsEl.appendChild(span);
-    });
-    div.appendChild(tagsEl);
-  }
-
   if (hasContent) {
+    const row = document.createElement('div');
+    row.className = 'fav-annotation__note-row';
+
+    if (data.note) {
+      const note = document.createElement('p');
+      note.className = 'fav-annotation__note';
+      note.textContent = data.note;
+      row.appendChild(note);
+    }
+
     const editBtn = document.createElement('button');
     editBtn.className = 'js-fav-edit btn fav-annotation__edit-btn';
     editBtn.dataset.id = id;
     editBtn.title = 'Edit note';
     editBtn.textContent = '✏';
-    div.appendChild(editBtn);
+    row.appendChild(editBtn);
+
+    div.appendChild(row);
+
+    if (data.tags?.length) {
+      const tagsEl = document.createElement('div');
+      tagsEl.className = 'fav-annotation__tags';
+      tagsEl.style.marginTop = 'var(--token-spacing-xs)';
+      data.tags.forEach(tag => {
+        const span = document.createElement('span');
+        span.className = 'fav-tag';
+        span.textContent = tag;
+        tagsEl.appendChild(span);
+      });
+      div.appendChild(tagsEl);
+    }
   } else {
     const addBtn = document.createElement('button');
     addBtn.className = 'js-fav-add-note btn fav-annotation__add-btn';
