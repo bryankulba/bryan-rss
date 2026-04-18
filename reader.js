@@ -414,17 +414,19 @@ document.addEventListener('DOMContentLoaded', () => {
   applyHideRead();
   applyShowFavourites();
 
-  // Sync from Gist on load if credentials are present; hide setup UI if configured
+  // Sync from Gist on load if credentials are present; swap setup button for sync button
   const { pat, gistId } = getCredentials();
   if (pat && gistId) {
     syncFromGist();
     document.getElementById('js-setup-sync')?.remove();
-    document.getElementById('js-sync-status')?.remove();
+    const syncNowBtn = document.getElementById('js-sync-now');
+    if (syncNowBtn) syncNowBtn.style.display = '';
   }
 
   // Header toolbar buttons
   document.getElementById('js-mark-all-read')?.addEventListener('click', markAllRead);
   document.getElementById('js-setup-sync')?.addEventListener('click', setupSync);
+  document.getElementById('js-sync-now')?.addEventListener('click', syncFromGist);
   document.getElementById('js-toggle-hide-read')?.addEventListener('click', toggleHideRead);
   document.getElementById('js-toggle-show-favourites')?.addEventListener('click', toggleShowFavourites);
 

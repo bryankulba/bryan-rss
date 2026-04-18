@@ -62,11 +62,9 @@ a:hover {
 }
 
 .site-header__inner {
-  max-width: var(--max-width);
-  margin: 0 auto;
   padding: var(--token-spacing-sm) var(--token-spacing-md);
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: var(--token-spacing-md);
   flex-wrap: wrap;
 }
@@ -106,7 +104,7 @@ a:hover {
   gap: 4px;
   padding: var(--token-spacing-xs) var(--token-spacing-sm);
   border-radius: var(--radius);
-  font-size: var(--token-font-size-sm);
+  font-size: calc(var(--token-font-size-sm) * 0.8);
   font-family: var(--font);
   cursor: pointer;
   border: 1px solid transparent;
@@ -304,8 +302,8 @@ a:hover {
   display: none;
 }
 
-/* Hide read items (including favourites) */
-.hide-read .feed-item.is-read {
+/* Hide read items, but not when in favourites view */
+.hide-read:not(.show-favourites) .feed-item.is-read {
   display: none;
 }
 
