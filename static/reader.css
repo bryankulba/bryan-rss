@@ -317,6 +317,10 @@ a:hover {
   display: none !important;
 }
 
+.feed-item.search-match {
+  display: block !important;
+}
+
 /* ── Favourite annotation (note + tags) ──────────────────── */
 
 .fav-annotation {

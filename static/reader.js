@@ -457,10 +457,16 @@ function toggleSearch() {
 function applySearch(query) {
   const q = query.trim().toLowerCase();
   document.querySelectorAll('[data-article-id]').forEach(el => {
-    if (!q) { el.classList.remove('search-hidden'); return; }
+    if (!q) {
+      el.classList.remove('search-hidden');
+      el.classList.remove('search-match');
+      return;
+    }
     const title = el.querySelector('.feed-item__title')?.textContent?.toLowerCase() || '';
     const desc  = el.querySelector('.feed-item__desc')?.textContent?.toLowerCase()  || '';
-    el.classList.toggle('search-hidden', !title.includes(q) && !desc.includes(q));
+    const matches = title.includes(q) || desc.includes(q);
+    el.classList.toggle('search-hidden', !matches);
+    el.classList.toggle('search-match', matches);
   });
 }
 
