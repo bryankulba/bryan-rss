@@ -27,6 +27,91 @@
   </header>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-18T03:15:36.000Z">2026-04-17</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything" target="_blank" rel="noopener noreferrer">Adding a new content type to my blog-to-newsletter tool</a>
+          </h2>
+          <p class="feed-item__desc">Agentic Engineering Patterns >
+Here's an example of a deceptively short prompt that got a lot of work done in a single shot.
+First, some background. I send out a free Substack newsletter around once a week containing content copied-and-pasted from my blog. I'm effectively using Substack as a lightweight way to allow people to subscribe to my blog via email.
+I generate the newsletter with my blog-to-newsletter tool - an HTML and JavaScript app that fetches my latest content from this Datasette instance and formats it as rich text HTML, which I can then copy to my clipboard and paste into the Substack editor. Here's a detailed explanation of how that works.
+I recently added a new type of content to my blog to capture content that I post elsewhere, which I called "beats". These include things like releases of my open source projects, new tools that I've built, museums that I've visited (from niche-museums.com) and other external content.
+I wanted to include these in the generated newsletter. Here's the prompt I ran against the simonw/tools repository that hosts my blog-to-newsletter tool, using Claude Code on the web.
+Clone simonw/simonwillisonblog from github to /tmp for reference
+
+Update blog-to-newsletter.html to include beats that have descriptions - similar to how the Atom everything feed on the blog works
+
+Run it with python -m http.server and use `uvx rodney --help` to test it - compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net
+exact solution I needed. Let's break down the prompt.
+Clone simonw/simonwillisonblog from github to /tmp for reference
+I use this pattern a lot. Coding agents can clone code from GitHub, and the best way to explain a problem is often to have them look at relevant code. By telling them to clone to /tmp I ensure they don't accidentally end up including that reference code in their own commit later on.
+The simonw/simonwillisonblog repository contains the source code for my Django-powered simonwillison.net blog. This includes the logic and database schema for my new "beats" feature.
+Update blog-to-newsletter.html to include beats that have descriptions - similar to how the Atom everything feed on the blog works
+Referencing blog-to-newsletter.html is all I need here to tell Claude which of the 200+ HTML apps in that simonw/tools repo it should be modifying.
+Beats are automatically imported from multiple sources. Often they aren't very interesting - a dot-release bug fix for one of my smaller open source projects, for example.
+My blog includes a way for me to add additional descriptions to any beat, which provides extra commentary but also marks that beat as being more interesting than those that I haven't annotated in some way.
+I already use this as a distinction to decide which beats end up in my site's Atom feed. Telling Claude to imitate that saves me from having to describe the logic in any extra detail.
+Run it with python -m http.server and use `uvx rodney --help` to test it - compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net
+Coding agents always work best if they have some kind of validation mechanism they can use to test their own work.
+In this case I wanted Claude Code to actively check that the changes it made to my tool would correctly fetch and display the latest data.
+I reminded it to use python -m http.server as a static server because I've had issues in the past with applications that fetch data and break when served as a file from disk instead of a localhost server. In this particular case that may not have been necessary, but my prompting muscle memory has python -m http.server baked in at this point!
+I described the uvx rodney --help trick in the agentic manual testing chapter. Rodney is browser automation software that can be installed using uvx, and that has --help output designed to teach an agent everything it needs to know in order to use the tool.
+I figured that telling Claude to compare the results in the newsletter to the content of my blog's homepage would be enough for it to confidently verify that the new changes were working correctly, since I had recently posted content that matched the new requirements.
+You can see the full session here, or if that doesn't work I have an alternative transcript showing all of the individual tool calls.
+The resulting PR made exactly the right change. It added an additional UNION clause to the SQL query that fetched the blog's content, filtering out draft beats and beats that have nothing in their note column:
+
+...
+union all
+select
+  id,
+  'beat' as type,
+  title,
+  created,
+  slug,
+  'No HTML' as html,
+  json_object(
+    'created', date(created),
+    'beat_type', beat_type,
+    'title', title,
+    'url', url,
+    'commentary', commentary,
+    'note', note
+  ) as json,
+  url as external_url
+from blog_beat
+where coalesce(note, '') != '' and is_draft = 0
+union all
+...
+
+
+And it figured out a mapping of beat types to their formal names, presumably derived from the Django ORM definition that it read while it was exploring the reference codebase:
+
+const beatTypeDisplay = {
+  release: 'Release',
+  til: 'TIL',
+  til_update: 'TIL updated',
+  research: 'Research',
+  tool: 'Tool',
+  museum: 'Museum'
+};
+
+
+Telling agents to use another codebase as reference is a powerful shortcut for communicating complex concepts with minimal additional information needed in the prompt.
+Tags: ai, llms, prompt-engineering, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, github</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-17T23:59:03.000Z">2026-04-17</time>
@@ -10227,132 +10312,6 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048616-paris-now-has-a-cycling" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048616-paris-now-has-a-cycling">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/the-human-city">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-19T17:00:00.000Z">2026-03-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/the-human-city" target="_blank" rel="noopener noreferrer">The Human City</a>
-          </h2>
-          <p class="feed-item__desc">Photographer and drone pilot Pio Andrea Peri captured this overhead photo of a Sicilian city called Centuripe. Perched atop hilltops, the city looks like a person from above — even on Google Maps. (via daily overview)
-
- 
-
-        
-         
-Tags: drones · pareidolia · photography · Pio Andrea Peri</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/the-human-city" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/the-human-city">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1773853069-3ad4fd89.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/0048613-gender-play-in-nineteenth">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-19T16:22:25.000Z">2026-03-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/0048613-gender-play-in-nineteenth" target="_blank" rel="noopener noreferrer">Gender Play in Nineteenth-Century Theater . “The...</a>
-          </h2>
-          <p class="feed-item__desc">Gender Play in Nineteenth-Century Theater. “The most popular Shakespearean roles for women in the tragic repertoire were Romeo and Hamlet, but women also played Macbeth, Cardinal Wolsey, Shylock, Richard III, and Iago…”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048613-gender-play-in-nineteenth" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048613-gender-play-in-nineteenth">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/0048611-a-study-pitted-adults-vs">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-19T15:30:59.000Z">2026-03-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/0048611-a-study-pitted-adults-vs" target="_blank" rel="noopener noreferrer">A study pitted adults vs little kids to see which was...</a>
-          </h2>
-          <p class="feed-item__desc">A study pitted adults vs little kids to see which was better at making paintings in the style of Jackson Pollock. “The researchers found that the kids’ paintings made in this manner resembled genuine Pollocks more than did those from adult painters.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048611-a-study-pitted-adults-vs" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048611-a-study-pitted-adults-vs">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18088">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-19T15:04:11.000Z">2026-03-19</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/work/the-new-notebook-system-fourth-stage/" target="_blank" rel="noopener noreferrer">The New Notebook System: Fourth Stage</a>
-          </h2>
-          <p class="feed-item__desc">In which we discover that three notebook covers is not enough, because I simply have too much going on and each project needs its own…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18088" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18088">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/03/IMG_0574-scaled.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/0048599-dawn-wilcoxs-quest-to-chr">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-19T14:46:34.000Z">2026-03-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/0048599-dawn-wilcoxs-quest-to-chr" target="_blank" rel="noopener noreferrer">Dawn Wilcox’s quest to chronicle the life &amp; death...</a>
-          </h2>
-          <p class="feed-item__desc">Dawn Wilcox’s quest to chronicle the life & death of every woman in the US killed by a man. “Did women have no choice, Wilcox wondered, but to wander the world hoping never to step on a landmine of a man?”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048599-dawn-wilcoxs-quest-to-chr" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048599-dawn-wilcoxs-quest-to-chr">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.velcro-city.co.uk/?p&#x3D;12242">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-19T14:08:52.000Z">2026-03-19</time>
-        <span class="feed-item__source">Velcro City Tourist Board</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.velcro-city.co.uk/print-shop-dispatches/" target="_blank" rel="noopener noreferrer">print-shop dispatches</a>
-          </h2>
-          <p class="feed-item__desc">Monoprint means just what it says: it's a print method in which every print is unique. A less aspirational way to phrase that might be: you never know what you're going to get.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12242" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12242">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
           </div>
         </div>
       </div>
