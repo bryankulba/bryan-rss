@@ -333,6 +333,37 @@ a:hover {
   line-height: var(--token-font-lineHeight-normal);
 }
 
+.fav-annotation__edit-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  cursor: pointer;
+  margin-top: var(--token-spacing-xs);
+  display: block;
+  transition: color var(--token-transition-fast);
+}
+
+.fav-annotation__edit-btn:hover {
+  color: var(--accent);
+}
+
+.fav-annotation__add-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  cursor: pointer;
+  font-family: var(--font);
+  transition: color var(--token-transition-fast);
+}
+
+.fav-annotation__add-btn:hover {
+  color: var(--accent);
+}
+
 .fav-annotation__tags {
   display: flex;
   flex-wrap: wrap;
