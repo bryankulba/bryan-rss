@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-19T16:38:21.621Z</updated>
+    <updated>2026-04-19T20:36:01.797Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -34,6 +34,16 @@
         <summary type="html"><![CDATA[No.399 — The term “AGI” is almost useless at this point ⊗ Frugal AI ⊗ Design futures in infrastructure ⊗ The AI revolution in math has arrived ⊗ First Indigenous Group to ban data centers from its land ⊗ A macro array of colorful slime molds]]></summary>
         <author>
             <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shopkeeper Rampant]]></title>
+        <id>https://www.robinsloan.com/newsletters/shopkeeper-rampant/</id>
+        <link href="https://www.robinsloan.com/newsletters/shopkeeper-rampant/"/>
+        <updated>2026-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>A new line of business. <a href="https://www.robinsloan.com/newsletters/shopkeeper-rampant/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
