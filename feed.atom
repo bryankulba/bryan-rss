@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-19T05:57:54.319Z</updated>
+    <updated>2026-04-19T12:58:20.650Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[certainly will not finish: 19apr26]]></title>
+        <id>https://warrenellis.ltd/?p=18237</id>
+        <link href="https://warrenellis.ltd/status/certainly-will-not-finish-19apr26/"/>
+        <updated>2026-04-19T11:27:43.000Z</updated>
+        <summary type="html"><![CDATA[The next door neighbours are clearing their jungle of a garden and the mancub is furious. I’ve just expired my entire RSS feed, removed some…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Civilizational optionality ⊗ The social edge of intelligence]]></title>
+        <id>69e3f040771ee00001c11ed8</id>
+        <link href="https://sentiers.media/civilizational-optionality-the-social-edge-of-intelligence-no-399/"/>
+        <updated>2026-04-19T10:00:41.000Z</updated>
+        <summary type="html"><![CDATA[No.399 — The term “AGI” is almost useless at this point ⊗ Frugal AI ⊗ Design futures in infrastructure ⊗ The AI revolution in math has arrived ⊗ First Indigenous Group to ban data centers from its land ⊗ A macro array of colorful slime molds]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changes in the system prompt between Claude Opus 4.6 and 4.7]]></title>
         <id>https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything</id>
@@ -6147,85 +6167,6 @@ Adversarial Examples
         <summary type="html"><![CDATA[No.395 — Possibilities literacy ⊗ Proof ⊗ Energy falling below $100 ⊗ Roots and the meaning of life]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[RODEN] Meditation, Language, and LLMs]]></title>
-        <id>https://craigmod.com/roden/112/</id>
-        <link href="https://craigmod.com/roden/112/"/>
-        <updated>2026-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Roden Readers —
-Hello! It’s me, Craig Mod. Author of TBOT (amzn | bkshp). Poking my head out into newsletter land. This? Roden, a newsletter you signed up for at some point. Perhaps last week, perhaps fourteen years ago, when I started shooting these out.
-I’ve been busy. I’ve been doing something that I’m bad at and am trying to get better at: I’ve been having fun (and trying not to be crushed by the guilt of having fun). I went to LA and then Santa Fe and then Hokkaido with the binding agent of: eating great food with people I love. In Santa Fe I spent a few days meditating at Mountain Cloud Zen Center (more on that below; also, yes, fly from Japan to Santa Fe for Zen; also also, turns out the headquarters of their school is around the corner from my home ha ha ha). My body loves Santa Fe. Loves the crispness of the air. The elevation (once it gets used to it). The sharp light. The salsa. I spent a few mornings writing in Collected Works and generally came away from the whole visit thinking: I’d like to head back, eat More Salsa, spend more time in that corner of the US. In LA, I went deep on LLMs and Claws and all that with Kevin Rose (and also met some Hollywood-adjacent folks about book optioning), eating lots of Doordash’d Gwyneth Paltrow slop bowls and making software. I have to say, these three weeks of doofery have been some of the most fun weeks I’ve had in years. So, thanks for indulging me a bit of newsletter silence as I pretended to be a human out in the wild.]]></summary>
-        <author>
-            <name>Craig Mod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A cartographer posits that our maps should be messier ....]]></title>
-        <id>https://kottke.org/26/03/0048614-a-cartographer-posits-tha</id>
-        <link href="https://kottke.org/26/03/0048614-a-cartographer-posits-tha"/>
-        <updated>2026-03-20T21:31:12.000Z</updated>
-        <summary type="html"><![CDATA[A cartographer posits that our maps should be messier. “The idea that we must have a crisp line dividing one country from another is often inaccurate when it comes to what states are actually claiming.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is a diabolical phishing attack . &#8220;That...]]></title>
-        <id>https://kottke.org/26/03/0048578-this-is-a-diabolical-phis</id>
-        <link href="https://kottke.org/26/03/0048578-this-is-a-diabolical-phis"/>
-        <updated>2026-03-20T20:50:20.000Z</updated>
-        <summary type="html"><![CDATA[This is a diabolical phishing attack. “That generated a real case ID, and triggered real Apple emails to my inbox, properly signed, from Apple’s actual servers.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is hilarious.  A man was pictured in two different...]]></title>
-        <id>https://kottke.org/26/03/0048612-this-is-hilarious-a-man</id>
-        <link href="https://kottke.org/26/03/0048612-this-is-hilarious-a-man"/>
-        <updated>2026-03-20T20:00:34.000Z</updated>
-        <summary type="html"><![CDATA[This is hilarious. A man was pictured in two different photos on the same front page of a local newspaper: one of him painting a holiday sign and a gs station security cam still of him taking a wallet.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;Some countries are  better positioned to weather...]]></title>
-        <id>https://kottke.org/26/03/0048617-some-countries-are-better</id>
-        <link href="https://kottke.org/26/03/0048617-some-countries-are-better"/>
-        <updated>2026-03-20T19:19:21.000Z</updated>
-        <summary type="html"><![CDATA[“Some countries are better positioned to weather this energy crisis than they would have been just a few years ago. That’s because of the rapid growth of renewable energy, battery systems and electric vehicles…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Britain Has Invaded All but 22 Countries]]></title>
-        <id>https://kottke.org/12/11/britain-has-invaded-all-but-22-countries</id>
-        <link href="https://kottke.org/12/11/britain-has-invaded-all-but-22-countries"/>
-        <updated>2026-03-20T18:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Of the current 200 nations in the world, the British have invaded all but 22 of them. The lucky 22 include Sweden, Luxembourg, Mongolia, Bolivia, and Belarus. The full analysis is available in Stuart Laycock’s book, All the Countries We’ve Ever Invaded.
-Stuart Laycock, the author, has worked his way around the globe, through each country alphabetically, researching its history to establish whether, at any point, they have experienced an incursion by Britain.
-Only a comparatively small proportion of the total in Mr Laycock’s list of invaded states actually formed an official part of the empire.
-The remainder have been included because the British were found to have achieved some sort of military presence in the territory — however transitory — either through force, the threat of force, negotiation or payment.
-Incursions by British pirates, privateers or armed explorers have also been included, provided they were operating with the approval of their government.
-
-	
-The US currently has military personnel stationed in all but 43 countries.
-For instance, as of Sept. 30, 2011, there were 53,766 military personnel in Germany, 39,222 in Japan, 10,801 in Italy and 9,382 in the United Kingdom. That makes sense. But wait, scanning the list, you also see nine troops in Mali, eight in Barbados, seven in Laos, six in Lithuania, five in Lebanon, four in Moldova, three in Mongolia, two in Suriname and one in Gabon.
-
-	
-But the presence in most of those countries is due to diplomatic usage of military personnel. (thx, aaron)
-
- 
-
-         
-[This is a vintage post originally from Nov 2012.]
-Tags: books · maps · Stuart Laycock · timeless posts · UK · USA]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
