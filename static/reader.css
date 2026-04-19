@@ -401,6 +401,10 @@ a:hover {
   display: none;
 }
 
+.show-favourites .feed-item.is-favourite {
+  display: block;
+}
+
 /* ── Primary button ──────────────────────────────────────── */
 
 .btn--primary {

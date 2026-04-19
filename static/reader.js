@@ -60,7 +60,7 @@ function saveLocal() {
 }
 
 function applyReadState() {
-  document.querySelectorAll('[data-article-id]').forEach(el => {
+  document.querySelectorAll('.feed > [data-article-id]').forEach(el => {
     el.classList.toggle('is-read', readIds.has(el.dataset.articleId));
   });
   updateUnreadCount();
@@ -68,7 +68,7 @@ function applyReadState() {
 
 function applyFavouriteState() {
   const favIds = getFavouriteIds();
-  document.querySelectorAll('[data-article-id]').forEach(el => {
+  document.querySelectorAll('.feed > [data-article-id]').forEach(el => {
     const isFav = favIds.has(el.dataset.articleId);
     el.classList.toggle('is-favourite', isFav);
     const btn = el.querySelector('.js-favourite');
@@ -133,8 +133,8 @@ function buildFavAnnotation(id, data) {
 }
 
 function updateUnreadCount() {
-  const total  = document.querySelectorAll('[data-article-id]').length;
-  const unread = total - document.querySelectorAll('[data-article-id].is-read').length;
+  const total  = document.querySelectorAll('.feed > [data-article-id]').length;
+  const unread = total - document.querySelectorAll('.feed > [data-article-id].is-read').length;
   const el = document.getElementById('js-unread-count');
   if (el) el.textContent = unread > 0 ? `${unread} unread` : 'all read';
 }
@@ -149,7 +149,7 @@ function markRead(id) {
 }
 
 function markAllRead() {
-  document.querySelectorAll('[data-article-id]').forEach(el => {
+  document.querySelectorAll('.feed > [data-article-id]').forEach(el => {
     readIds.add(el.dataset.articleId);
   });
   saveLocal();
@@ -456,7 +456,7 @@ function toggleSearch() {
 
 function applySearch(query) {
   const q = query.trim().toLowerCase();
-  document.querySelectorAll('[data-article-id]').forEach(el => {
+  document.querySelectorAll('.feed > [data-article-id]').forEach(el => {
     if (!q) {
       el.classList.remove('search-hidden');
       el.classList.remove('search-match');
