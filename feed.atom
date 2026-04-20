@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-20T02:30:56.107Z</updated>
+    <updated>2026-04-20T14:04:22.942Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[rented robot mule: 20apr26]]></title>
+        <id>https://warrenellis.ltd/?p=18246</id>
+        <link href="https://warrenellis.ltd/status/rented-robot-mule-20apr26/"/>
+        <updated>2026-04-20T11:00:58.000Z</updated>
+        <summary type="html"><![CDATA[I have two “AI” devices in a drawer. I’ve tried various different forms of AI. AI tops every Google search now. I still have Perplexity,…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/814391448685412352</id>
+        <link href="https://brucesterling.tumblr.com/post/814391448685412352"/>
+        <updated>2026-04-20T05:50:08.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQL functions in Google Sheets to fetch data from Datasette]]></title>
+        <id>https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything"/>
+        <updated>2026-04-20T02:33:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>TIL:</strong> <a href="https://til.simonwillison.net/google-sheets/datasette-sql">SQL functions in Google Sheets to fetch data from Datasette</a></p>
+    <p>I put together some notes on patterns for fetching data from a Datasette instance directly into Google Sheets - using the <code>importdata()</code> function, a "named function" that wraps it or a Google Apps Script if you need to send an API token in an HTTP header (not supported by <code>importdata()</code>.)</p>
+<p>Here's <a href="https://docs.google.com/spreadsheets/d/14lRV2-AeBmjI3lJbl2apwfC_ncXqL0uSV68lmtzUI7I/edit?gid=0#gid=0">an example sheet</a> demonstrating all three methods.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/spreadsheets">spreadsheets</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/google">google</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Token Counter, now with model comparisons]]></title>
         <id>https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything</id>
@@ -32,6 +65,21 @@ I <a href="https://github.com/simonw/tools/pull/269">upgraded</a> my Claude Toke
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/tokenization">tokenization</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gallery:  Adam Bohman – Drawings, Collages, Paintings]]></title>
+        <id>https://www.thewire.co.uk/galleries/gallery-adam-bohman-drawings-collages-paintings</id>
+        <link href="https://www.thewire.co.uk/galleries/gallery-adam-bohman-drawings-collages-paintings"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since the mid-1970s, UK musician Adam Bohman has used pencils, pastels, crayons and ink and repurposed card to create playful and surreal artworks.
+
+The Wire 368. “I like different types of pens like biros and felt tip and indelible marker and fluorescent marker pens. And, of course, there’s all the different types of paper you can use.”
+
+
+    Adam Bohman: Drawings, Collages, Paintings is published by Otohon. Adam Bohman's residency at London's Cafe Oto runs between 21-23 April. Read his Epiphanies column, and Clive Bell’s review of the book, in The Wire 507. Subscribers can read both pieces online via the digital library.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>

@@ -242,12 +242,6 @@
       ]
     },
     {
-      "title": "ribbonfarm",
-      "feedUrl": "https://www.ribbonfarm.com/feed/",
-      "siteUrl": "https://www.ribbonfarm.com",
-      "articles": []
-    },
-    {
       "title": "webcurios",
       "feedUrl": "https://webcurios.co.uk/feed/",
       "siteUrl": "https://webcurios.co.uk",
@@ -2108,6 +2102,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18246",
+          "author": "Warren Ellis",
+          "description": "I have two “AI” devices in a drawer. I’ve tried various different forms of AI. AI tops every Google search now. I still have Perplexity,…",
+          "link": "https://warrenellis.ltd/status/rented-robot-mule-20apr26/",
+          "publishedOn": "2026-04-20T11:00:58.000Z",
+          "wordCount": 1606,
+          "title": "rented robot mule: 20apr26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_0977-scaled.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18237",
           "author": "Warren Ellis",
           "description": "The next door neighbours are clearing their jungle of a garden and the mancub is furious. I’ve just expired my entire RSS feed, removed some…",
@@ -2244,6 +2248,16 @@
       "feedUrl": "https://brucesterling.tumblr.com/rss",
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
+        {
+          "id": "https://brucesterling.tumblr.com/post/814391448685412352",
+          "author": null,
+          "description": "",
+          "link": "https://brucesterling.tumblr.com/post/814391448685412352",
+          "publishedOn": "2026-04-20T05:50:08.000Z",
+          "wordCount": 1212,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/7eac2339462dac99ea5063c3b5f74354/75f8aeb03a1e17fd-ed/s1280x1920/a2bf12428d613bef54c8968e3fbcb11420309298.png"
+        },
         {
           "id": "https://brucesterling.tumblr.com/post/813850474882252800",
           "author": null,
@@ -2555,6 +2569,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/galleries/gallery-adam-bohman-drawings-collages-paintings",
+          "author": null,
+          "description": "Since the mid-1970s, UK musician Adam Bohman has used pencils, pastels, crayons and ink and repurposed card to create playful and surreal artworks.\n\nThe Wire 368. “I like different types of pens like biros and felt tip and indelible marker and fluorescent marker pens. And, of course, there’s all the different types of paper you can use.”\n\n\n    Adam Bohman: Drawings, Collages, Paintings is published by Otohon. Adam Bohman's residency at London's Cafe Oto runs between 21-23 April. Read his Epiphanies column, and Clive Bell’s review of the book, in The Wire 507. Subscribers can read both pieces online via the digital library.",
+          "link": "https://www.thewire.co.uk/galleries/gallery-adam-bohman-drawings-collages-paintings",
+          "publishedOn": "2026-04-20T00:00:00.000Z",
+          "wordCount": 676,
+          "title": "Gallery:  Adam Bohman – Drawings, Collages, Paintings",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/04/20/Bear_And_Ram.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/tracks/premiere-dean-roberts-tribute",
           "author": null,
           "description": "Dean Roberts (24 March 1975–10 August 2024) was a New Zealand musician and composer who worked with electroacoustic music, minimalism, free improvisation, song cycles and rock. During the mid-1990s he was a member of the trio Thela with Rosy Parlane and Dion Workman, then recorded three albums under the name White Winged Moth, followed by a series of releases under his own name for labels such as Mille Plateaux, Ritornell and Kranky. Along with Martin Brandlmayr and Werner Dafeldecker, Roberts was a member of the trio Autistic Daughters. Roberts died on 10 August 2024, at the age of 49.\n\n\n    Tracklist\n\nDean Roberts “Kompakt Arcade”\n    \nAdrián de Alfonso “Remeje”\n    \nDean Roberts “Bird In The Curtain”\n    \nDean Roberts “Letter To Monday”\n    \nDean Roberts “Not Fire”\n\n\n    A statement by the Orchestra reads: “Is there a right way to remember someone? Probably not. Like the filming of a written story, it will necessarily betray the collection of images, sounds, impressions, projections that we created for ourselves. After Dean Roberts’s passing, we felt the need to come together, to commemorate him as a friend and as an artist, to perform his music to celebrate him. Here's the recording of that evening in Berlin. We wish Dean was there. Maybe he was.”\n\nDean Roberts was interviewed by Jon Dale in The Wire 291. Digital subscribers can read that interview in the digital archive here.",
@@ -2681,6 +2705,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
+          "author": null,
+          "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/google-sheets/datasette-sql\">SQL functions in Google Sheets to fetch data from Datasette</a></p>\n    <p>I put together some notes on patterns for fetching data from a Datasette instance directly into Google Sheets - using the <code>importdata()</code> function, a \"named function\" that wraps it or a Google Apps Script if you need to send an API token in an HTTP header (not supported by <code>importdata()</code>.)</p>\n<p>Here's <a href=\"https://docs.google.com/spreadsheets/d/14lRV2-AeBmjI3lJbl2apwfC_ncXqL0uSV68lmtzUI7I/edit?gid=0#gid=0\">an example sheet</a> demonstrating all three methods.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/spreadsheets\">spreadsheets</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/google\">google</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
+          "publishedOn": "2026-04-20T02:33:58.000Z",
+          "wordCount": 810,
+          "title": "SQL functions in Google Sheets to fetch data from Datasette",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything",
           "author": null,
