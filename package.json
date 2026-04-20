@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prebuild": "node scripts/build-tokens.js",
-    "build": "osmosfeed",
+    "build": "node scripts/safe-build.js",
     "serve": "python3 -m http.server 8080 --directory public"
   },
   "dependencies": {
