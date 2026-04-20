@@ -7,11 +7,11 @@ const { spawnSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const OSMOSFEED_BIN = path.resolve(__dirname, '../node_modules/@osmoscraft/osmosfeed/bin/main.js');
+const OSMOSFEED_CLI = path.resolve(__dirname, '../node_modules/.bin/osmosfeed');
 const YAML_PATH = path.resolve(__dirname, '../osmosfeed.yaml');
 
 function runOsmosfeed() {
-  return spawnSync('node', [OSMOSFEED_BIN], {
+  return spawnSync(OSMOSFEED_CLI, [], {
     stdio: ['inherit', 'pipe', 'inherit'],
     encoding: 'utf8',
   });
