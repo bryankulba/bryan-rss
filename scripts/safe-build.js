@@ -12,9 +12,14 @@ const YAML_PATH = path.resolve(__dirname, '../osmosfeed.yaml');
 
 function runOsmosfeed() {
   return spawnSync(OSMOSFEED_CLI, [], {
-    stdio: ['inherit', 'pipe', 'inherit'],
+    stdio: ['inherit', 'pipe', 'pipe'],
     encoding: 'utf8',
   });
+}
+
+function flush(result) {
+  if (result.stdout) process.stdout.write(result.stdout);
+  if (result.stderr) process.stderr.write(result.stderr);
 }
 
 const originalYaml = fs.readFileSync(YAML_PATH, 'utf8');
@@ -22,13 +27,14 @@ let exitCode = 0;
 
 try {
   let result = runOsmosfeed();
-  process.stdout.write(result.stdout || '');
+  flush(result);
 
   if (result.status !== 0) {
+    const combined = (result.stdout || '') + (result.stderr || '');
     const failPattern = /\[enrich\] Parse source failed (.+)/g;
     const failedFeeds = [];
     let match;
-    while ((match = failPattern.exec(result.stdout || '')) !== null) {
+    while ((match = failPattern.exec(combined)) !== null) {
       failedFeeds.push(match[1].trim());
     }
 
@@ -47,7 +53,7 @@ try {
       fs.writeFileSync(YAML_PATH, patched);
 
       result = runOsmosfeed();
-      process.stdout.write(result.stdout || '');
+      flush(result);
     }
 
     exitCode = result.status || 1;
