@@ -56,7 +56,7 @@ try {
       flush(result);
     }
 
-    exitCode = result.status || 1;
+    exitCode = result.status ?? 1;
   }
 } finally {
   fs.writeFileSync(YAML_PATH, originalYaml);
