@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-21T02:27:01.977Z</updated>
+    <updated>2026-04-21T06:02:16.786Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[*Chicken always works]]></title>
+        <id>https://brucesterling.tumblr.com/post/814479438650753024</id>
+        <link href="https://brucesterling.tumblr.com/post/814479438650753024"/>
+        <updated>2026-04-21T05:08:41.000Z</updated>
+        <summary type="html"><![CDATA[*Chicken always works]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The amazing mail sent to a video game publisher]]></title>
+        <id>https://waxy.org/?p=50581</id>
+        <link href="https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth"/>
+        <updated>2026-04-21T03:57:28.000Z</updated>
+        <summary type="html"><![CDATA[Stephen Totilo writes about what happened when Panic started prompting players who finished the games they published to send them a SASE #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Comrade Trump (20 Apr 2026)]]></title>
         <id>https://pluralistic.net/?p=12705</id>
@@ -6216,70 +6236,6 @@ Tags: kottke.org]]></summary>
     Before founding Drowned By Local under a military curfew during the pandemic, the label’s curator, Laith Demashqieh, had been organising shows in Amman, bringing in artists like Drew McDowell and Hiro Kone, but he grew tired of being afraid of crackdowns and moral panics. “Drowned By Locals reflects a feeling of suffocation by proximity – by social pressure, familiarity, and consensus, as well as a general scepticism toward authority,” Demashqieh explains of the label’s name. Today is label operated from Jordan with nodes in the Netherlands and distributed with the help of befriended labels such as Industrial Coast. Drowned By Locals’ mission is, according to their motto, to give “voice and…]]></summary>
         <author>
             <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI terminology of the week, circa Mar 2026]]></title>
-        <id>https://brucesterling.tumblr.com/post/811808821163032576</id>
-        <link href="https://brucesterling.tumblr.com/post/811808821163032576"/>
-        <updated>2026-03-22T17:40:22.000Z</updated>
-        <summary type="html"><![CDATA[Terms Related to AI and Agents
-A/B Testing
-AGI (Artificial General Intelligence)
-AGI Acceleration
-AI Accelerators
-AI Affordances
-AI Cognitive Pattern
-AI Cognitive Spirit
-AI Command Palette
-AI Companion
-AI Copiloting
-AI Feature Design
-AI Governance
-AI Leading States
-AI Literacy
-AI Models
-AI Partner
-AI Product Design
-AI Product Management
-AI Prompting
-AI Safety
-AI Strategy
-AI Suggestions Patterns
-AI Watermarking
-AI Wireframing
-AI as Assistant
-AI as Collaborator
-AI as Creative Partner
-AI as Infrastructure
-AI as Medium
-AI as Mirror
-AI as Substrate
-AI as Tool
-AI as Toy
-AI as Utility
-AI-Augmented Design
-AI-Generated Content Detection
-AI-Native Design
-AI-Powered Search
-API (Application Programming Interface)
-ASI (Artificial Superintelligence)
-Accepted/Reject Flow
-Adaptive UI
-Adversarial Examples
-…]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Contextual Collapse]]></title>
-        <id>https://www.bldgblog.com/?p=38031</id>
-        <link href="https://bldgblog.com/2026/03/contextual-collapse/"/>
-        <updated>2026-03-22T16:59:13.000Z</updated>
-        <summary type="html"><![CDATA[In an otherwise unpromisingly-titled article—“Could the US really release more of its strategic oil reserves?”—the Financial Times points out a surprising architectural vulnerability of the U.S. Strategic Oil Reserve. “The U.S. Strategic Oil Reserve is a series of vast, subterranean salt caverns in four different sites in Louisiana and Texas,” the article explains. “Many are … Continue reading "Contextual Collapse"]]></summary>
-        <author>
-            <name>Geoff Manaugh</name>
         </author>
     </entry>
 </feed>
