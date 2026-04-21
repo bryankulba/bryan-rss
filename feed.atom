@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-21T06:02:16.786Z</updated>
+    <updated>2026-04-21T13:22:27.143Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[&#8220; The Extrapolated Futures Archive  is a...]]></title>
+        <id>https://kottke.org/26/04/0048768-the-extrapolated-futures-</id>
+        <link href="https://kottke.org/26/04/0048768-the-extrapolated-futures-"/>
+        <updated>2026-04-21T12:56:04.000Z</updated>
+        <summary type="html"><![CDATA[“The Extrapolated Futures Archive is a reverse-lookup for speculative fiction. Describe a situation you are facing, and find the SF stories that already worked through the implications.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[21apr26]]></title>
+        <id>https://warrenellis.ltd/?p=18263</id>
+        <link href="https://warrenellis.ltd/status/21apr26/"/>
+        <updated>2026-04-21T11:04:16.000Z</updated>
+        <summary type="html"><![CDATA[Trifid Nebula. Anduril, Palantir and SpaceX are changing how America wages war. the Trump administration is turning to a new clique of defence upstarts that…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[*Chicken always works]]></title>
         <id>https://brucesterling.tumblr.com/post/814479438650753024</id>
@@ -6223,19 +6243,6 @@ Tags: kottke.org]]></summary>
         <summary type="html"><![CDATA[Today's links Understaffing as a form of enshittification: A way to shift value from workers, patients and shoppers to investors. Hey look at this: Delights to delectate. Object permanence: Marvel v "superhero"; What's a photocopier?; "Up Against It"; "Medusa's Web"; AI can't do your job; Coping with plenty; "The Shakedown"; Chickenized reverse-centaurs; France v iTunes; Copyfight discipline; Mystery lobbyists; "Where the Axe is Buried"; Free/open microprocessor; Folk models of computer security; Bug-eyed steampunk mask; Academics embracing Wikipedia. Upcoming appearances: Berkeley, Montreal, London, Berlin, Hay-on-Wye. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. U…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlimited Editions: Drowned by Locals]]></title>
-        <id>https://www.thewire.co.uk/audio/tracks/unlimited-editions-drowned-by-locals</id>
-        <link href="https://www.thewire.co.uk/audio/tracks/unlimited-editions-drowned-by-locals"/>
-        <updated>2026-03-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 506, Miloš Hroch compiles an annotated playlist of tracks from the Jordan based label
-
-
-    Before founding Drowned By Local under a military curfew during the pandemic, the label’s curator, Laith Demashqieh, had been organising shows in Amman, bringing in artists like Drew McDowell and Hiro Kone, but he grew tired of being afraid of crackdowns and moral panics. “Drowned By Locals reflects a feeling of suffocation by proximity – by social pressure, familiarity, and consensus, as well as a general scepticism toward authority,” Demashqieh explains of the label’s name. Today is label operated from Jordan with nodes in the Netherlands and distributed with the help of befriended labels such as Industrial Coast. Drowned By Locals’ mission is, according to their motto, to give “voice and…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
         </author>
     </entry>
 </feed>
