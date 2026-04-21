@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/04/21/courier",
+          "author": null,
+          "description": "I hack on hardware a whole bunch, at Inanimate and at home.\nAI is in the cloud. Interaction is in my room and in my hands. The job always begins by wiring together those two ends.\nSo the second thing I do, every single time, is bring up real-time messaging using JSON over websockets so I can connect my new device to a server, and have it emit events and listen for commands.\n(The first thing I do is bring up the hardware and get basic blinkenlights.)\nI want my on-device websockets client to have a super easy interface: give me an onMessage handler to deal with incoming messages.\nI need built-in wi-fi config (so I can carry my prototype around to different places). And I don’t want to have to choose which libraries I’m going to use each time, I want good defaults.\nThat’s what Courier does, i…",
+          "link": "https://interconnected.org/home/2026/04/21/courier",
+          "publishedOn": "2026-04-21T15:25:00.000Z",
+          "wordCount": 1191,
+          "title": "Courier: real-time messaging for ESP32 with batteries included (new library)",
+          "imageUrl": "https://interconnected.org/home/2026/04/21/courier.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/04/18/headless",
           "author": null,
           "description": "It’s pretty clear that apps and services are all going to have to go headless: that is, they will have to provide access and tools for personal AI agents without any of the visual UI that us humans use today.\nBy services I mean things like: getting a new passport; finding and booking a hotel or a flight; managing your bank account; shopping for t-shirts with a minimum cotton weight from brands similar to ones that you’ve bought from before.\nWhy? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.\nWhere this leaves design for the services… well, I have some thoughts on that.\nHeadless services? They’re happ…",
@@ -279,6 +289,56 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/teaser-trailer-for-silo-season-three",
+          "author": null,
+          "description": "As I watched the teaser trailer for season three of Silo, I discovered that I am very much looking forward to this new season. July 3, 2026.\n\n \n\n        \n         \nTags: silo · trailers · TV · video",
+          "link": "https://kottke.org/26/04/teaser-trailer-for-silo-season-three",
+          "publishedOn": "2026-04-21T16:20:00.000Z",
+          "wordCount": 778,
+          "title": "Teaser Trailer for Silo Season Three",
+          "imageUrl": "https://i.ytimg.com/vi/C9-_VVX9BvE/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048774-trials-for-a-pancreatic-c",
+          "author": null,
+          "description": "Trials for a pancreatic cancer mRNA vaccine: “Nearly 90% of people whose immune systems responded to the vaccine were still alive up to six years after receiving the last treatment. The five-year survival rate for pancreatic cancer is around 13%…”",
+          "link": "https://kottke.org/26/04/0048774-trials-for-a-pancreatic-c",
+          "publishedOn": "2026-04-21T15:24:25.000Z",
+          "wordCount": 826,
+          "title": "Trials for a pancreatic cancer mRNA vaccine :...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048775-nasas-curiosity-rover-has",
+          "author": null,
+          "description": "“NASA’s Curiosity rover has detected organic molecules on Mars, including chemicals widely considered building blocks for the origin of life of Earth.” And: “We think we’re looking at organic matter that’s been preserved on Mars for 3.5bn years.”",
+          "link": "https://kottke.org/26/04/0048775-nasas-curiosity-rover-has",
+          "publishedOn": "2026-04-21T14:31:48.000Z",
+          "wordCount": 750,
+          "title": "&#8220; NASA&#8217;s Curiosity rover has detected organic...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048769-its-getting-harder-to-spo",
+          "author": null,
+          "description": "It’s Getting Harder to Spot AI in Contemporary Publishing. And That’s Very, Very Bad. “The word salads that we might identify as AI today may not be the kind of machine-made writing that we will see tomorrow.”",
+          "link": "https://kottke.org/26/04/0048769-its-getting-harder-to-spo",
+          "publishedOn": "2026-04-21T14:08:22.000Z",
+          "wordCount": 522,
+          "title": "It&#8217;s Getting Harder to Spot AI in Contemporary...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048771-reciprocard-start-by-sear",
+          "author": null,
+          "description": "ReciproCard: “Start by searching for your home library above to instantly see every free reciprocal agreement you qualify for.” Use this to have more options for Libby ebooks.",
+          "link": "https://kottke.org/26/04/0048771-reciprocard-start-by-sear",
+          "publishedOn": "2026-04-21T13:29:46.000Z",
+          "wordCount": 843,
+          "title": "ReciproCard : &#8220;Start by searching for your home...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048768-the-extrapolated-futures-",
           "author": null,
@@ -1894,6 +1954,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=12709",
+          "author": "Cory Doctorow",
+          "description": "Today's links Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar poison? More watch-part motorcycles; \"Something New\"; \"Seeds\"; Bulldozer fight; Facebook tonsils; Against transparency. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\" (permalink) Quinn Slobodian and Ben Tarnoff's Muskism: A Guide for the Perplexed seeks to describe the ideology that gave rise to Elon Musk, the…",
+          "link": "https://pluralistic.net/2026/04/21/torment-nexusism/",
+          "publishedOn": "2026-04-21T13:18:50.000Z",
+          "wordCount": 3046,
+          "title": "Pluralistic: Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\" (21 Apr 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=12705",
           "author": "Cory Doctorow",
           "description": "Today's links Comrade Trump: Burning down the American empire to save it. Hey look at this: Delights to delectate. Object permanence: MPAA's threat-based 'education'; Cuehack; Heinlein on GWB; AT&T v the internet; British tax-havens v HMG; What is neoliberalism?; Newspaper landlords; Watch-part motorcycle; Tax havens bad; Buscemi's eyes; Sesame Street on lead poisoning. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Comrade Trump (permalink) There aren't a lot of things I agree with Mark Carney about, but there's one area where he and I are in total accord: the old, US-domina…",
@@ -2688,6 +2758,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://nial.se/blog/less-human-ai-agents-please/\"><p>AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task, they drift towards the familiar. Faced with hard constraints, they start negotiating with reality.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://nial.se/blog/less-human-ai-agents-please/\">Andreas Påhlsson-Notini</a>, Less human AI agents, please.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-agents\">ai-agents</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
+          "publishedOn": "2026-04-21T16:39:33.000Z",
+          "wordCount": 765,
+          "title": "Quoting Andreas Påhlsson-Notini",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://github.com/scosman/pelicans_riding_bicycles\">scosman/pelicans_riding_bicycles</a></strong></p>\nI firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles.</p>\n<p><img alt=\"The heading says &quot;Pelican Riding a Bicycle #1 - the image is a bear on a snowboard\" src=\"https://static.simonwillison.net/static/2026/pelican-poison-bear.jpg\" /></p>\n<p>(To be fair, most of the examples <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">I've published</a> count as poisoning too.)\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=47835735#47839493\">Hacker News comment</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
+          "publishedOn": "2026-04-21T15:54:43.000Z",
+          "wordCount": 753,
+          "title": "scosman/pelicans_riding_bicycles",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.6\">llm-openrouter 0.6</a></p>\n    <blockquote>\n<ul>\n<li><code>llm openrouter refresh</code> command for refreshing the list of available models without waiting for the cache to expire.</li>\n</ul>\n</blockquote>\n<p>I added this feature so I could try <a href=\"https://www.kimi.com/blog/kimi-k2-6\">Kimi 2.6</a> on OpenRouter as soon as it <a href=\"https://openrouter.ai/moonshotai/kimi-k2.6\">became available there</a>.</p>\n<p>Here's <a href=\"https://gisthost.github.io/?ecaad98efe0f747e27bc0e0ebc669e94/pelican.html\">its pelican</a> - this time as an HTML page because Kimi chose to include an HTML and JavaScript UI to control the animation. <a href=\"https://gist.github.com/simonw/ecaad98efe0f747e27bc0e0ebc669e94#2026-04-20t164936----conversation-01kpnwt8d2bt5qwkm60j9sbkbs-id-01kpnwra0prz6v822cct5b08kq\">Transcript here</a>.</p>\n<p><img alt=\"The bicycle is about right. The pelican is OK. It is pedaling furiously and flapping its wings a bit. Controls below the animation provide a pause button and sliders for controlling the speed and the wing flap.\" src=\"https://static.simonwillison.net/static/2026/kimi-k2-pelican-64-colors.gif\" /></p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/kimi\">kimi</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
+          "publishedOn": "2026-04-20T18:00:26.000Z",
+          "wordCount": 802,
+          "title": "llm-openrouter 0.6",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
           "author": null,

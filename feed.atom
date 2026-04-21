@@ -2,10 +2,123 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-21T13:22:27.143Z</updated>
+    <updated>2026-04-21T16:59:22.693Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Andreas Påhlsson-Notini]]></title>
+        <id>https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything"/>
+        <updated>2026-04-21T16:39:33.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://nial.se/blog/less-human-ai-agents-please/"><p>AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The current implementations keep showing their human origin again and again: lack of stringency, lack of patience, lack of focus. Faced with an awkward task, they drift towards the familiar. Faced with hard constraints, they start negotiating with reality.</p></blockquote>
+<p class="cite">&mdash; <a href="https://nial.se/blog/less-human-ai-agents-please/">Andreas Påhlsson-Notini</a>, Less human AI agents, please.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-agents">ai-agents</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teaser Trailer for Silo Season Three]]></title>
+        <id>https://kottke.org/26/04/teaser-trailer-for-silo-season-three</id>
+        <link href="https://kottke.org/26/04/teaser-trailer-for-silo-season-three"/>
+        <updated>2026-04-21T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[As I watched the teaser trailer for season three of Silo, I discovered that I am very much looking forward to this new season. July 3, 2026.
+
+ 
+
+        
+         
+Tags: silo · trailers · TV · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[scosman/pelicans_riding_bicycles]]></title>
+        <id>https://simonwillison.net/2026/Apr/21/scosman/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/21/scosman/#atom-everything"/>
+        <updated>2026-04-21T15:54:43.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/scosman/pelicans_riding_bicycles">scosman/pelicans_riding_bicycles</a></strong></p>
+I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles.</p>
+<p><img alt="The heading says &quot;Pelican Riding a Bicycle #1 - the image is a bear on a snowboard" src="https://static.simonwillison.net/static/2026/pelican-poison-bear.jpg" /></p>
+<p>(To be fair, most of the examples <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/">I've published</a> count as poisoning too.)
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=47835735#47839493">Hacker News comment</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Courier: real-time messaging for ESP32 with batteries included (new library)]]></title>
+        <id>https://interconnected.org/home/2026/04/21/courier</id>
+        <link href="https://interconnected.org/home/2026/04/21/courier"/>
+        <updated>2026-04-21T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[I hack on hardware a whole bunch, at Inanimate and at home.
+AI is in the cloud. Interaction is in my room and in my hands. The job always begins by wiring together those two ends.
+So the second thing I do, every single time, is bring up real-time messaging using JSON over websockets so I can connect my new device to a server, and have it emit events and listen for commands.
+(The first thing I do is bring up the hardware and get basic blinkenlights.)
+I want my on-device websockets client to have a super easy interface: give me an onMessage handler to deal with incoming messages.
+I need built-in wi-fi config (so I can carry my prototype around to different places). And I don’t want to have to choose which libraries I’m going to use each time, I want good defaults.
+That’s what Courier does, i…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trials for a pancreatic cancer mRNA vaccine :...]]></title>
+        <id>https://kottke.org/26/04/0048774-trials-for-a-pancreatic-c</id>
+        <link href="https://kottke.org/26/04/0048774-trials-for-a-pancreatic-c"/>
+        <updated>2026-04-21T15:24:25.000Z</updated>
+        <summary type="html"><![CDATA[Trials for a pancreatic cancer mRNA vaccine: “Nearly 90% of people whose immune systems responded to the vaccine were still alive up to six years after receiving the last treatment. The five-year survival rate for pancreatic cancer is around 13%…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; NASA&#8217;s Curiosity rover has detected organic...]]></title>
+        <id>https://kottke.org/26/04/0048775-nasas-curiosity-rover-has</id>
+        <link href="https://kottke.org/26/04/0048775-nasas-curiosity-rover-has"/>
+        <updated>2026-04-21T14:31:48.000Z</updated>
+        <summary type="html"><![CDATA[“NASA’s Curiosity rover has detected organic molecules on Mars, including chemicals widely considered building blocks for the origin of life of Earth.” And: “We think we’re looking at organic matter that’s been preserved on Mars for 3.5bn years.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It&#8217;s Getting Harder to Spot AI in Contemporary...]]></title>
+        <id>https://kottke.org/26/04/0048769-its-getting-harder-to-spo</id>
+        <link href="https://kottke.org/26/04/0048769-its-getting-harder-to-spo"/>
+        <updated>2026-04-21T14:08:22.000Z</updated>
+        <summary type="html"><![CDATA[It’s Getting Harder to Spot AI in Contemporary Publishing. And That’s Very, Very Bad. “The word salads that we might identify as AI today may not be the kind of machine-made writing that we will see tomorrow.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReciproCard : &#8220;Start by searching for your home...]]></title>
+        <id>https://kottke.org/26/04/0048771-reciprocard-start-by-sear</id>
+        <link href="https://kottke.org/26/04/0048771-reciprocard-start-by-sear"/>
+        <updated>2026-04-21T13:29:46.000Z</updated>
+        <summary type="html"><![CDATA[ReciproCard: “Start by searching for your home library above to instantly see every free reciprocal agreement you qualify for.” Use this to have more options for Libby ebooks.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Quinn Slobodian and Ben Tarnoff's "Muskism: A Guide for the Perplexed" (21 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12709</id>
+        <link href="https://pluralistic.net/2026/04/21/torment-nexusism/"/>
+        <updated>2026-04-21T13:18:50.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Quinn Slobodian and Ben Tarnoff's "Muskism: A Guide for the Perplexed": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar poison? More watch-part motorcycles; "Something New"; "Seeds"; Bulldozer fight; Facebook tonsils; Against transparency. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Quinn Slobodian and Ben Tarnoff's "Muskism: A Guide for the Perplexed" (permalink) Quinn Slobodian and Ben Tarnoff's Muskism: A Guide for the Perplexed seeks to describe the ideology that gave rise to Elon Musk, the…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220; The Extrapolated Futures Archive  is a...]]></title>
         <id>https://kottke.org/26/04/0048768-the-extrapolated-futures-</id>
@@ -44,6 +157,26 @@
         <summary type="html"><![CDATA[Stephen Totilo writes about what happened when Panic started prompting players who finished the games they published to send them a SASE #]]></summary>
         <author>
             <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openrouter 0.6]]></title>
+        <id>https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything"/>
+        <updated>2026-04-20T18:00:26.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openrouter/releases/tag/0.6">llm-openrouter 0.6</a></p>
+    <blockquote>
+<ul>
+<li><code>llm openrouter refresh</code> command for refreshing the list of available models without waiting for the cache to expire.</li>
+</ul>
+</blockquote>
+<p>I added this feature so I could try <a href="https://www.kimi.com/blog/kimi-k2-6">Kimi 2.6</a> on OpenRouter as soon as it <a href="https://openrouter.ai/moonshotai/kimi-k2.6">became available there</a>.</p>
+<p>Here's <a href="https://gisthost.github.io/?ecaad98efe0f747e27bc0e0ebc669e94/pelican.html">its pelican</a> - this time as an HTML page because Kimi chose to include an HTML and JavaScript UI to control the animation. <a href="https://gist.github.com/simonw/ecaad98efe0f747e27bc0e0ebc669e94#2026-04-20t164936----conversation-01kpnwt8d2bt5qwkm60j9sbkbs-id-01kpnwra0prz6v822cct5b08kq">Transcript here</a>.</p>
+<p><img alt="The bicycle is about right. The pelican is OK. It is pedaling furiously and flapping its wings a bit. Controls below the animation provide a pause button and sliders for controlling the speed and the wing flap." src="https://static.simonwillison.net/static/2026/kimi-k2-pelican-64-colors.gif" /></p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/openrouter">openrouter</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/kimi">kimi</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
