@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-22T02:24:30.090Z</updated>
+    <updated>2026-04-22T05:59:47.941Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Bobby Holley]]></title>
+        <id>https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything"/>
+        <updated>2026-04-22T05:40:56.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/"><p>As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week’s release of Firefox 150 includes fixes for <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-30/">271 vulnerabilities</a> identified during this initial evaluation. [...]</p>
+<p>Our experience is a hopeful one for teams who shake off the vertigo and get to work. You may need to reprioritize everything else to bring relentless and single-minded focus to the task, but there is light at the end of the tunnel. We are extremely proud of how our team rose to meet this challenge, and others will too. Our work isn’t finished, but we’ve turned the corner and can glimpse a future much better than just keeping up. <strong>Defenders finally have a chance to win, decisively</strong>.</p></blockquote>
+<p class="cite">&mdash; <a href="https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/">Bobby Holley</a>, CTO, Firefox</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/firefox">firefox</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/mozilla">mozilla</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changes to GitHub Copilot Individual plans]]></title>
+        <id>https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything"/>
+        <updated>2026-04-22T03:30:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/">Changes to GitHub Copilot Individual plans</a></strong></p>
+On the same day as Claude Code's temporary will-they-won't-they $100/month kerfuffle (for the moment, <a href="https://simonwillison.net/2026/Apr/22/claude-code-confusion/#they-reversed-it">they won't</a>), here's the latest on GitHub Copilot pricing.</p>
+<p>Unlike Anthropic, GitHub put up an official announcement about their changes, which include tightening usage limits, pausing signups for individual plans (!), restricting Claude Opus 4.7 to the more expensive $39/month "Pro+" plan, and dropping the previous Opus models entirely.</p>
+<p>The key paragraph:</p>
+<blockquote>
+<p>Agentic workflows have fundamentally changed Copilot’s compute demands. Long-running, parallelized sessions now regularly consume far more resources than the original plan structure was built to support. As Copilot’s agentic capabilities have expanded rapidly, agents are doing more work, and more customers are hitting usage limits designed to maintain service reliability.</p>
+</blockquote>
+<p>It's easy to forget that just six months ago heavy LLM users were burning an order of magnitude less tokens. Coding agents consume a <em>lot</em> of compute.</p>
+<p>Copilot was also unique (I believe) among agents in charging per-request, not per-token. (<em>Correction: Windsurf also operated a credit system like this which they <a href="https://windsurf.com/blog/windsurf-pricing-plans">abandoned last month</a></em>.) This means that single agentic requests which burn more tokens cut directly into their margins. The most recent pricing scheme addresses that with token-based usage limits on a per-session and weekly basis.</p>
+<p>My one problem with this announcement is that it doesn't clearly clarify <em>which</em> product called "GitHub Copilot" is affected by these changes. Last month in <a href="https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html">How many products does Microsoft have named 'Copilot'? I mapped every one</a> Tey Bannerman identified 75 products that share the Copilot brand, 15 of which have "GitHub Copilot" in the title.</p>
+<p>Judging by the linked <a href="https://github.com/features/copilot/plans">GitHub Copilot plans page</a> this covers Copilot CLI, Copilot cloud agent and code review (features on <a href="https://github.com/">GitHub.com</a> itself), and the Copilot IDE features available in VS Code, Zed, JetBrains and more.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=47838508">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/microsoft">microsoft</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/github-copilot">github-copilot</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Is Claude Code going to cost $100/month? Probably not - it's all very confusing]]></title>
         <id>https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-everything</id>
@@ -6523,26 +6562,6 @@ In the meantime, I thought the open thread we did a couple of weeks ago was so l
         
          
 Tags: kottke.org]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An interview with Andy Weir about the accuracy of the...]]></title>
-        <id>https://kottke.org/26/03/0048621-an-interview-with-andy-we</id>
-        <link href="https://kottke.org/26/03/0048621-an-interview-with-andy-we"/>
-        <updated>2026-03-23T17:27:31.000Z</updated>
-        <summary type="html"><![CDATA[An interview with Andy Weir about the accuracy of the science in Project Hail Mary. “I’m proud that the only true violation of physics in the story is something you have to go down to the quantum level to find.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Stop naming things after people, living or dead ....]]></title>
-        <id>https://kottke.org/26/03/0048619-stop-naming-things-after-</id>
-        <link href="https://kottke.org/26/03/0048619-stop-naming-things-after-"/>
-        <updated>2026-03-23T15:42:11.000Z</updated>
-        <summary type="html"><![CDATA[“Stop naming things after people, living or dead. No schools. No streets. No courthouses. No fountains. Just quit it.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
