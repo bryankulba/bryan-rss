@@ -280,6 +280,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/04/0048787-i-believe-in-an-old-fashi",
+          "author": null,
+          "description": "“I believe in an old-fashioned virtue called Doing the Freakin’ Work. Read the book, not the summary. Write the piece, not the prompt. Suffer like the artist you are. It ain’t easy, but if it were easy, it wouldn’t be worth doing.”",
+          "link": "https://kottke.org/26/04/0048787-i-believe-in-an-old-fashi",
+          "publishedOn": "2026-04-22T21:38:50.000Z",
+          "wordCount": 495,
+          "title": "&#8220;I believe in an old-fashioned virtue called Doing...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/this-ping-pong-robot-can-beat-elite-human-players",
+          "author": null,
+          "description": "Sony’s AI division has designed a robot that can beat elite human players at table tennis. From the paper:\nEvaluated in matches against elite and professional players under official competition rules, Ace achieved several victories and demonstrated consistent returns of high-speed, high-spin shots. These results highlight the potential of physical AI agents to perform complex, real-time interactive tasks, suggesting broader applications in domains requiring fast, precise human–robot interaction.\n\n\t\nAce is a fine name, but I might have gone with something like WALL-E Supreme instead. (Robbie Supreme?)\n\n \n\n        \n         \nTags: artificial intelligence · robots · sports · table tennis · video",
+          "link": "https://kottke.org/26/04/this-ping-pong-robot-can-beat-elite-human-players",
+          "publishedOn": "2026-04-22T20:48:00.000Z",
+          "wordCount": 820,
+          "title": "This Ping Pong Robot Can Beat Elite Human Players",
+          "imageUrl": "https://i.ytimg.com/vi/EH8kZDc7OLk/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/04/0048789-i-had-somehow-missed-or",
           "author": null,
           "description": "I had somehow missed (or forgotten) that Greta Gerwig is writing and directing an adaptation of The Magician’s Nephew, one of The Chronicles of Narnia books by C.S. Lewis. Filming has wrapped and it’s out in theaters on Nov 26.",
@@ -2267,16 +2287,6 @@
           "wordCount": 4787,
           "title": "Pluralistic: The cost of doing business (25 Mar 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12576",
-          "author": "Cory Doctorow",
-          "description": "Today's links Goodhart's Law vs \"prediction markets\": Putting a gun to the metric's head. Hey look at this: Delights to delectate. Object permanence: Apple v interop; Yahoo v the world; Rasputin v the Haunted Mansion; Opening chord from A Hard Day's Night; Mondrian Pong; \"IP\": Patent trolls v Apple. Upcoming appearances: Berkeley, Montreal, London, Berlin, Hay-on-Wye. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Goodhart's Law vs \"prediction markets\" (permalink) The most selectively believed-in verse in the conservative catechism is the idea that \"incentives matter.\" Sure, \"incentives matter\" if you're seeking healthcare. That's why you're nibbled to death by co-pay…",
-          "link": "https://pluralistic.net/2026/03/24/degenerated-gambling/",
-          "publishedOn": "2026-03-24T11:18:24.000Z",
-          "wordCount": 4457,
-          "title": "Pluralistic: Goodhart's Law vs \"prediction markets\" (24 Mar 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2410,16 +2420,6 @@
           "wordCount": 1401,
           "title": "moonbase: 25mar26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/03/71RNB-yIXFL._AC_UF8941000_QL80_.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18114",
-          "author": "Warren Ellis",
-          "description": "It is Old New Year’s Eve. The Julian Calendar wasn’t officially abolished here in the UK until 1752, and on that calendar the New Year…",
-          "link": "https://warrenellis.ltd/status/old-new-years-eve-24mar26/",
-          "publishedOn": "2026-03-24T11:23:12.000Z",
-          "wordCount": 1215,
-          "title": "old new year’s eve: 24mar26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/03/IMG_0785-scaled.jpg"
         }
       ]
     },
@@ -2658,22 +2658,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!fagK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fabb62b04-bc5e-4673-8a9d-5f46ce8c7cbd_1190x810.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/pusha-t-interview-spyplane-2026",
-          "author": "Blackbird Spyplane",
-          "description": "Being evil in your art, rocking cool under-the-radar clothes, not driving a Honda Fit & more with the legend Pusha T",
-          "link": "https://www.blackbirdspyplane.com/p/pusha-t-interview-spyplane-2026",
-          "publishedOn": "2026-03-24T11:03:40.000Z",
-          "wordCount": null,
-          "title": "Arrogance & excellence",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/319a6261-6180-45e9-81ab-5559a92bfe8d_1190x810.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/319a6261-6180-45e9-81ab-5559a92bfe8d_1190x810.png"
         }
       ]
     },

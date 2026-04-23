@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-22T20:53:58.857Z</updated>
+    <updated>2026-04-23T02:28:20.434Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[&#8220;I believe in an old-fashioned virtue called Doing...]]></title>
+        <id>https://kottke.org/26/04/0048787-i-believe-in-an-old-fashi</id>
+        <link href="https://kottke.org/26/04/0048787-i-believe-in-an-old-fashi"/>
+        <updated>2026-04-22T21:38:50.000Z</updated>
+        <summary type="html"><![CDATA[“I believe in an old-fashioned virtue called Doing the Freakin’ Work. Read the book, not the summary. Write the piece, not the prompt. Suffer like the artist you are. It ain’t easy, but if it were easy, it wouldn’t be worth doing.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Ping Pong Robot Can Beat Elite Human Players]]></title>
+        <id>https://kottke.org/26/04/this-ping-pong-robot-can-beat-elite-human-players</id>
+        <link href="https://kottke.org/26/04/this-ping-pong-robot-can-beat-elite-human-players"/>
+        <updated>2026-04-22T20:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Sony’s AI division has designed a robot that can beat elite human players at table tennis. From the paper:
+Evaluated in matches against elite and professional players under official competition rules, Ace achieved several victories and demonstrated consistent returns of high-speed, high-spin shots. These results highlight the potential of physical AI agents to perform complex, real-time interactive tasks, suggesting broader applications in domains requiring fast, precise human–robot interaction.
+
+	
+Ace is a fine name, but I might have gone with something like WALL-E Supreme instead. (Robbie Supreme?)
+
+ 
+
+        
+         
+Tags: artificial intelligence · robots · sports · table tennis · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I had somehow missed (or forgotten) that Greta Gerwig is...]]></title>
         <id>https://kottke.org/26/04/0048789-i-had-somehow-missed-or</id>
@@ -6685,36 +6715,6 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
         <summary type="html"><![CDATA[“COVID probably killed 150,000 more people in its first two years than official U.S. tolls show”. Not surprising when you look at excess mortality numbers for that period.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[old new year’s eve: 24mar26]]></title>
-        <id>https://warrenellis.ltd/?p=18114</id>
-        <link href="https://warrenellis.ltd/status/old-new-years-eve-24mar26/"/>
-        <updated>2026-03-24T11:23:12.000Z</updated>
-        <summary type="html"><![CDATA[It is Old New Year’s Eve. The Julian Calendar wasn’t officially abolished here in the UK until 1752, and on that calendar the New Year…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Goodhart's Law vs "prediction markets" (24 Mar 2026)]]></title>
-        <id>https://pluralistic.net/?p=12576</id>
-        <link href="https://pluralistic.net/2026/03/24/degenerated-gambling/"/>
-        <updated>2026-03-24T11:18:24.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Goodhart's Law vs "prediction markets": Putting a gun to the metric's head. Hey look at this: Delights to delectate. Object permanence: Apple v interop; Yahoo v the world; Rasputin v the Haunted Mansion; Opening chord from A Hard Day's Night; Mondrian Pong; "IP": Patent trolls v Apple. Upcoming appearances: Berkeley, Montreal, London, Berlin, Hay-on-Wye. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Goodhart's Law vs "prediction markets" (permalink) The most selectively believed-in verse in the conservative catechism is the idea that "incentives matter." Sure, "incentives matter" if you're seeking healthcare. That's why you're nibbled to death by co-pay…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arrogance & excellence]]></title>
-        <id>https://www.blackbirdspyplane.com/p/pusha-t-interview-spyplane-2026</id>
-        <link href="https://www.blackbirdspyplane.com/p/pusha-t-interview-spyplane-2026"/>
-        <updated>2026-03-24T11:03:40.000Z</updated>
-        <summary type="html"><![CDATA[Being evil in your art, rocking cool under-the-radar clothes, not driving a Honda Fit & more with the legend Pusha T]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
