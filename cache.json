@@ -1968,26 +1968,6 @@
           "wordCount": 633,
           "title": "We watched Zoolander last night and right before the...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/03/0048623-a-new-edition-of-on",
-          "author": null,
-          "description": "A new edition of On Liberty, a canonical work of political philosophy, “is the first to officially name Harriet Taylor Mill as a co-author alongside John Stuart Mill”.",
-          "link": "https://kottke.org/26/03/0048623-a-new-edition-of-on",
-          "publishedOn": "2026-03-24T17:56:51.000Z",
-          "wordCount": 625,
-          "title": "A new edition of On Liberty, a canonical work of...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/03/0048620-covid-probably-killed-150",
-          "author": null,
-          "description": "“COVID probably killed 150,000 more people in its first two years than official U.S. tolls show”. Not surprising when you look at excess mortality numbers for that period.",
-          "link": "https://kottke.org/26/03/0048620-covid-probably-killed-150",
-          "publishedOn": "2026-03-24T16:08:13.000Z",
-          "wordCount": 546,
-          "title": "&#8220;COVID probably killed 150,000 more people in its...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2497,16 +2477,6 @@
           "wordCount": 1221,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/58efb057ab4f20c38df2136b84565996/5f79749170082c9c-1e/s1280x1920/e6b49ebbcecc61ac2594518a6abb874f5881fda1.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/811990249606692864",
-          "author": null,
-          "description": "Next step: surveillance for every circus and the price of bread shoots up 300%",
-          "link": "https://brucesterling.tumblr.com/post/811990249606692864",
-          "publishedOn": "2026-03-24T17:44:06.000Z",
-          "wordCount": 1263,
-          "title": "Next step: surveillance for every circus and the price of bread shoots up 300%",
-          "imageUrl": "https://64.media.tumblr.com/19479feba61c343d488a8643f67c171c/dbd916f4cd1742d4-ff/s1280x1920/63435ec6da718007cfcff202c9a3e2e1f6928dbb.png"
         }
       ]
     },
@@ -2678,6 +2648,16 @@
       "feedUrl": "https://craigmod.com/index.xml",
       "siteUrl": "https://craigmod.com/",
       "articles": [
+        {
+          "id": "https://craigmod.com/essays/ipad_neo/",
+          "author": "Craig Mod",
+          "description": "The iPad should be radically (though obviously) touch-only. No keyboards. No pointers. No mice. No trackpads. Just your disgusting fingers flopping over the screen and mooshing into icons. It should not have any window’d modes. Each app should fill the whole screen and only the whole screen.\niPad apps should be weird as hell, unlike anything you find on a desktop operating system. PushPopPress began to illuminate this path fifteen years ago, and then they got slurped up — like so many other promising, young, talented designers and companies around that time — by Facebook, only to disappear into the wake of Mark Zuckerberg’s electric hydrofoil surfboard. Using an iPad should feel like a finger ballet. Your hands should be swooping and swiping and the whole OS should feel like skipping across a taut slackline, a bit bouncy and pleasing and physical but also precise and quick and focused taking you where you need to go, across some creative gulf. There should be no “hard edges” anywhere. iPadOS shouldn’t be anything like Windows or macOS or Linux, it shouldn’t be iOS made big, it should be only like iPadOS — a singular thing of finger-poking joy. When you pick up one of those magic slabs (and truly, the amount of engineering and power in those thin-as-heck slabs is something else) you should feel giddy, like you’re about to enter a whole ’nother computer-ing universe, one that is all about elegant multitouch tactility, worlds apart from your phone or your laptop.",
+          "link": "https://craigmod.com/essays/ipad_neo/",
+          "publishedOn": "2026-04-23T00:00:00.000Z",
+          "wordCount": 2143,
+          "title": "[ESSAYS] MacBook Neo and How the iPad Should Be",
+          "imageUrl": null
+        },
         {
           "id": "https://craigmod.com/ridgeline/226/",
           "author": "Craig Mod",

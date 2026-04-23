@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-23T02:28:20.434Z</updated>
+    <updated>2026-04-23T06:05:28.178Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[ESSAYS] MacBook Neo and How the iPad Should Be]]></title>
+        <id>https://craigmod.com/essays/ipad_neo/</id>
+        <link href="https://craigmod.com/essays/ipad_neo/"/>
+        <updated>2026-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The iPad should be radically (though obviously) touch-only. No keyboards. No pointers. No mice. No trackpads. Just your disgusting fingers flopping over the screen and mooshing into icons. It should not have any window’d modes. Each app should fill the whole screen and only the whole screen.
+iPad apps should be weird as hell, unlike anything you find on a desktop operating system. PushPopPress began to illuminate this path fifteen years ago, and then they got slurped up — like so many other promising, young, talented designers and companies around that time — by Facebook, only to disappear into the wake of Mark Zuckerberg’s electric hydrofoil surfboard. Using an iPad should feel like a finger ballet. Your hands should be swooping and swiping and the whole OS should feel like skipping across a taut slackline, a bit bouncy and pleasing and physical but also precise and quick and focused taking you where you need to go, across some creative gulf. There should be no “hard edges” anywhere. iPadOS shouldn’t be anything like Windows or macOS or Linux, it shouldn’t be iOS made big, it should be only like iPadOS — a singular thing of finger-poking joy. When you pick up one of those magic slabs (and truly, the amount of engineering and power in those thin-as-heck slabs is something else) you should feel giddy, like you’re about to enter a whole ’nother computer-ing universe, one that is all about elegant multitouch tactility, worlds apart from your phone or your laptop.]]></summary>
+        <author>
+            <name>Craig Mod</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220;I believe in an old-fashioned virtue called Doing...]]></title>
         <id>https://kottke.org/26/04/0048787-i-believe-in-an-old-fashi</id>
@@ -6683,36 +6694,6 @@ Uncut Gems (2019) opens in 2010 in Ethiopia, where low paid diamond miners toil,
         <link href="https://kottke.org/26/03/0048626-we-watched-zoolander-last"/>
         <updated>2026-03-24T20:00:22.000Z</updated>
         <summary type="html"><![CDATA[We watched Zoolander last night and right before the Derelicte DJ throws on Relax, there’s a 2-second snippet of something that sounded super familiar. It took me a bit to track it down, but it’s trance banger Free by Mono Culture.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new edition of On Liberty, a canonical work of...]]></title>
-        <id>https://kottke.org/26/03/0048623-a-new-edition-of-on</id>
-        <link href="https://kottke.org/26/03/0048623-a-new-edition-of-on"/>
-        <updated>2026-03-24T17:56:51.000Z</updated>
-        <summary type="html"><![CDATA[A new edition of On Liberty, a canonical work of political philosophy, “is the first to officially name Harriet Taylor Mill as a co-author alongside John Stuart Mill”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next step: surveillance for every circus and the price of bread shoots up 300%]]></title>
-        <id>https://brucesterling.tumblr.com/post/811990249606692864</id>
-        <link href="https://brucesterling.tumblr.com/post/811990249606692864"/>
-        <updated>2026-03-24T17:44:06.000Z</updated>
-        <summary type="html"><![CDATA[Next step: surveillance for every circus and the price of bread shoots up 300%]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;COVID probably killed 150,000 more people in its...]]></title>
-        <id>https://kottke.org/26/03/0048620-covid-probably-killed-150</id>
-        <link href="https://kottke.org/26/03/0048620-covid-probably-killed-150"/>
-        <updated>2026-03-24T16:08:13.000Z</updated>
-        <summary type="html"><![CDATA[“COVID probably killed 150,000 more people in its first two years than official U.S. tolls show”. Not surprising when you look at excess mortality numbers for that period.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
