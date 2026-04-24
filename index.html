@@ -35,6 +35,167 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-24T06:01:04.000Z">2026-04-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything" target="_blank" rel="noopener noreferrer">DeepSeek V4 - almost on the frontier, a fraction of the price</a>
+          </h2>
+          <p class="feed-item__desc">Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash.
+
+Both models are 1 million token context Mixture of Experts. Pro is 1.6T total parameters, 49B active. Flash is 284B total, 13B active. They're using the standard MIT license.
+
+I think this makes DeepSeek-V4-Pro the new largest open weights model. It's larger than Kimi K2.6 (1.1T) and GLM-5.1 (754B) and more than twice the size of DeepSeek V3.2 (685B).
+
+Pro is 865GB on Hugging Face, Flash is 160GB. I'm hoping that a lightly quantized Flash will run on my 128GB M5 MacBook Pro. It's possible the Pro model may run on it if I can stream just the necessary active experts from disk.
+
+For the moment I tried the models out via OpenRouter, using llm-openrouter:
+
+llm install llm-openrouter
+llm openrouter refresh
+llm -m openrouter/deepseek/deepseek-v4-pro 'Generate an SVG of a pelican riding a bicycle'
+
+
+Here's the pelican for DeepSeek-V4-Flash:
+
+
+
+And for DeepSeek-V4-Pro:
+
+
+
+For comparison, take a look at the pelicans I got from DeepSeek V3.2 in December, V3.1 in August, and V3-0324 in March 2025.
+
+So the pelicans are pretty good, but what's really notable here is the cost. DeepSeek V4 is a very, very inexpensive model.
+
+Here's DeepSeek's pricing page. They're charging $0.14/million tokens input and $0.28/million tokens output for Flash, and $1.74/million input and $3.48/million output for Pro.
+
+Here's a comparison table with the frontier models from Gemini, OpenAI and Anthropic:
+
+
+
+
+
+Model
+Input ($/M)
+Output ($/M)
+
+
+
+
+DeepSeek V4 Flash
+$0.14
+$0.28
+
+
+GPT-5.4 Nano
+$0.20
+$1.25
+
+
+Gemini 3.1 Flash-Lite
+$0.25
+$1.50
+
+
+Gemini 3 Flash Preview
+$0.50
+$3
+
+
+GPT-5.4 Mini
+$0.75
+$4.50
+
+
+Claude 4.5 Haiku
+$1
+$5
+
+
+DeepSeek V4 Pro
+$1.74
+$3.48
+
+
+Gemini 3.1 Pro
+$2
+$12
+
+
+GPT-5.4
+$2.50
+$15
+
+
+Claude Sonnet 4 / 4.5
+$3
+$15
+
+
+Claude Opus 4.5
+$5
+$25
+
+
+GPT-5.5
+$5
+$30
+
+
+
+
+DeepSeek-V4-Flash is the cheapest of the small models, beating even OpenAI's GPT-5.4 Nano. DeepSeek-V4-Pro is the cheapest of the larger frontier models.
+
+This note from the DeepSeek paper helps explain why they can price these models so low - they've focused a great deal on efficiency with this release, especially for longer context prompts:
+
+
+In the scenario of 1M-token context, even DeepSeek-V4-Pro, which has a larger number of activated parameters, attains only 27% of the single-token FLOPs (measured in equivalent FP8 FLOPs) and 10% of the KV cache size relative to DeepSeek-V3.2. Furthermore, DeepSeek-V4-Flash, with its smaller number of activated parameters, pushes efficiency even further: in the 1M-token context setting, it achieves only 10% of the single-token FLOPs and 7% of the KV cache size compared with DeepSeek-V3.2.
+
+
+DeepSeek's self-reported benchmarks in their paper show their Pro model competitive with those other frontier models, albeit with this note:
+
+
+Through the expansion of reasoning tokens, DeepSeek-V4-Pro-Max demonstrates superior performance relative to GPT-5.2 and Gemini-3.0-Pro on standard reasoning benchmarks. Nevertheless, its performance falls marginally short of GPT-5.4 and Gemini-3.1-Pro, suggesting a developmental trajectory that trails state-of-the-art frontier models by approximately 3 to 6 months.
+
+
+I'm keeping an eye on huggingface.co/unsloth/models as I expect the Unsloth team will have a set of quantized versions out pretty soon. It's going to be very interesting to see how well that Flash model runs on my own machine.
+Tags: ai, generative-ai, llms, llm, llm-pricing, pelican-riding-a-bicycle, deepseek, llm-release, openrouter, ai-in-china</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-24T04:09:54.000Z">2026-04-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything" target="_blank" rel="noopener noreferrer">It&#x27;s a big one</a>
+          </h2>
+          <p class="feed-item__desc">This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.
+Tags: newsletter</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/24/weekly/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/24/honker/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-24T01:50:07.000Z">2026-04-23</time>
@@ -11415,52 +11576,6 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048627-stephen-colbert-is-co-wri">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;160228">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-25T14:53:34.000Z">2026-03-25</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/" target="_blank" rel="noopener noreferrer">In Math, Rigor Is Vital. But Are Digitized Proofs Taking It Too Far?</a>
-          </h2>
-          <p class="feed-item__desc">The quest to make mathematics rigorous has a long and spotty history — one mathematicians can learn from as they push to formalize everything in the computer program Lean.            
-The post In Math, Rigor Is Vital. But Are Digitized Proofs Taking It Too Far? first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160228" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160228">Mark read</button>
-            <span class="feed-item__reading-time">17 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/03/FormalMess-crKristinaArmitage-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;160323">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-25T14:52:06.000Z">2026-03-25</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/how-writing-changes-mathematical-thought-20260325/" target="_blank" rel="noopener noreferrer">How Writing Changes Mathematical Thought</a>
-          </h2>
-          <p class="feed-item__desc">David E. Dunning explores how mathematical notation is a social, world-building technology.            
-The post How Writing Changes Mathematical Thought first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;160323" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;160323">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/03/David-Dunning-cr-Valerie-Plesch-Social.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
