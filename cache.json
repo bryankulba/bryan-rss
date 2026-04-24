@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/04/24/willows",
+          "author": null,
+          "description": "The Wind in the Willows right? Kenneth Grahame, 1908.\nWe all know the children’s story inside-out. Mole and Ratty and gruff Badger and conceited Mr Toad with his motorcars and all their adventures.\nI picked up the book as an adult - I can’t remember why - and it wasn’t what I expected.\nThis week I have been reading it again and it is again astonishing.\nI mean… let me share some of the prose with you.\nThis is when Mole encounters the river for the first time.\nGreen turf sloped down to either edge, brown snaky tree-roots gleamed below the surface of the quiet water, while ahead of them the silvery shoulder and foamy tumble of a weir, arm-in-arm with a restless dripping mill-wheel, that held up in its turn a grey-gabled mill-house, filled the air with a soothing murmur of sound, dull and smot…",
+          "link": "https://interconnected.org/home/2026/04/24/willows",
+          "publishedOn": "2026-04-24T17:56:00.000Z",
+          "wordCount": 1308,
+          "title": "The Wind in the Willows and reading out loud",
+          "imageUrl": "https://interconnected.org/home/2026/04/24/willows.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/04/21/courier",
           "author": null,
           "description": "I hack on hardware a whole bunch, at Inanimate and at home.\nAI is in the cloud. Interaction is in my room and in my hands. The job always begins by wiring together those two ends.\nSo the second thing I do, every single time, is bring up real-time messaging using JSON over websockets so I can connect my new device to a server, and have it emit events and listen for commands.\n(The first thing I do is bring up the hardware and get basic blinkenlights.)\nI want my on-device websockets client to have a super easy interface: give me an onMessage handler to deal with incoming messages.\nI need built-in wi-fi config (so I can carry my prototype around to different places). And I don’t want to have to choose which libraries I’m going to use each time, I want good defaults.\nThat’s what Courier does, i…",
@@ -279,6 +289,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/0048807-a-papyrus-of-part-of",
+          "author": null,
+          "description": "A papyrus of part of the Iliad has been discovered in a Roman-era tomb of mummies in Egypt. “The papyrus contains a passage from Book II of Homer’s Iliad, specifically the section known as the ‘Catalogue of Ships’…”",
+          "link": "https://kottke.org/26/04/0048807-a-papyrus-of-part-of",
+          "publishedOn": "2026-04-24T20:02:42.000Z",
+          "wordCount": 779,
+          "title": "A papyrus of part of the Iliad has been discovered in a...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048799-we-had-the-idea-to",
+          "author": null,
+          "description": "“We had the idea to make a Bodoni interpretation with potato stamps, so we bought 8kg of potatoes, some knives and [started carving]. When we finally had the full alphabet we stamped it on paper, made a font out of this and called it Bodedo.”",
+          "link": "https://kottke.org/26/04/0048799-we-had-the-idea-to",
+          "publishedOn": "2026-04-24T19:05:40.000Z",
+          "wordCount": 779,
+          "title": "&#8220;We had the idea to make a Bodoni interpretation...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/tenfold-knottiness",
+          "author": null,
+          "description": "While reading this article about the structure of complex knots, I ran across this diagram drawn by scientist Peter Guthrie Tait in 1885 for a paper called On Knots Part III. It’s one of two figures that together show all of the possible variations of knots with 10 crossings. I think the color plus the small multiples activated the Tufte array in my brain; anyway, I love this diagram. (via damn interesting)\n(I tried for the better part of an hour to track down a high-resolution copy of Tait’s paper to no avail. There are various contenders, but nothing that includes high-res scans of both knottiness diagrams. I’m curious about this archive of the original paper but not $41 curious. If anyone has access through their institution and wants to send me a PDF, I’d love that. Update: I have a copy of the paper and will be posting updated images soon! Thank you, Michael!)\n\n \n\n        \n         \nTags: mathematics · Peter Guthrie Tait · science",
+          "link": "https://kottke.org/26/04/tenfold-knottiness",
+          "publishedOn": "2026-04-24T18:19:12.000Z",
+          "wordCount": 822,
+          "title": "Tenfold Knottiness",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1776960165-1904b331.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048806-instead-of-losing-democra",
+          "author": null,
+          "description": "Instead of Losing Democratic Elections, What If We Just Stopped Having Them Altogether? “My goodness, imagine the efficiency. No long lines. No campaign ads. No need to pretend Wisconsin matters every four years.”",
+          "link": "https://kottke.org/26/04/0048806-instead-of-losing-democra",
+          "publishedOn": "2026-04-24T17:23:31.000Z",
+          "wordCount": 495,
+          "title": "Instead of Losing Democratic Elections, What If We Just...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048804-how-the-heck-does-shazam",
           "author": null,
