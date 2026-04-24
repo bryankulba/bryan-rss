@@ -227,6 +227,16 @@
       "siteUrl": "https://webcurios.co.uk",
       "articles": [
         {
+          "id": "https://webcurios.co.uk/?p=1522",
+          "author": "admin",
+          "description": "Reading Time:  35 minutes   Look, I’ll level with you – I have gotten to the end of the links and…I have emptied my brain. Literally. There is NOTHING LEFT between these ears of mine, and what you’re getting now is just the last few dregs of thought guttering through the pipes and down my fingers. SOMETIMES THAT’S JUST…\nContinue reading →",
+          "link": "https://webcurios.co.uk/webcurios-24-04-26/",
+          "publishedOn": "2026-04-24T06:23:23.000Z",
+          "wordCount": 10924,
+          "title": "Webcurios 24/04/26",
+          "imageUrl": null
+        },
+        {
           "id": "https://webcurios.co.uk/?p=1506",
           "author": "admin",
           "description": "Reading Time:  36 minutes   POOR KEIR. There he was thinking that a bit of being statesmanlike on the international stage might have extended his tenure into late 2026, maybe even 2027, and then up pops Mandy once again to fcuk him sideways and make it increasingly likely that the Labour Party’s abject humiliation in the upcoming local elections…\nContinue reading →",
@@ -2134,6 +2144,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=12727",
+          "author": "Cory Doctorow",
+          "description": "Today's links A free, open visual identity for enshittification: No mere poop emoji! Hey look at this: Delights to delectate. Object permanence: RIAA v little girl; Portal turret Easter egg; Atari v indie games; Chabon's Phantom Tollbooth intro; The 0.1%; Well-labeled inns; \"More Everything Forever.\" Upcoming appearances: London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. A free, open visual identity for enshittification (permalink) To my surprise, my life's work has turned out to be a long series of attempts to get people to engage with the abstract, distant issues of tech policy before it's too late. This is hard,…",
+          "link": "https://pluralistic.net/2026/04/24/poop-emoji-plus-plus/",
+          "publishedOn": "2026-04-24T12:50:06.000Z",
+          "wordCount": 3191,
+          "title": "Pluralistic: A free, open visual identity for enshittification (24 Apr 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=12722",
           "author": "Cory Doctorow",
           "description": "Today's links The (other) problem with automatic conversion of free software to proprietary software: You can't add ANY license to a public domain work. Hey look at this: Delights to delectate. Object permanence: Pimp My Snack; Abandoned Soviet missile silo full of cash; MPAA v 'democratizing culture'; 3,000 page garbage Kindle books; London's lost postal tunnels; Internet voting is stupid; Congress lobotomized itself; GWB v 'truth in politics'; Trump's FTC x tariff profiteering. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The (other) problem with automatic conversion of f…",
@@ -2899,6 +2919,16 @@
           "imageUrl": "https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg"
         },
         {
+          "id": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/milliseconds\">Millisecond Converter</a></p>\n    <p><a href=\"https://llm.datasette.io/\">LLM</a> reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+          "publishedOn": "2026-04-24T04:23:11.000Z",
+          "wordCount": 725,
+          "title": "Millisecond Converter",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
           "author": null,
           "description": "<p><a href=\"https://simonw.substack.com/p/gpt-55-chatgpt-images-20-qwen36-27b\">This week's edition</a> of my email newsletter (aka <a href=\"https://simonwillison.net/2023/Apr/4/substack-observable/\">content from this blog</a> delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
@@ -2957,6 +2987,16 @@
           "wordCount": 1382,
           "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
           "imageUrl": "https://static.simonwillison.net/static/2026/gpt-5.5-pelican-xhigh.png"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-via-codex/releases/tag/0.1a0\">llm-openai-via-codex 0.1a0</a></p>\n    <p>Hijacks your Codex CLI credentials to make API calls with LLM, as described <a href=\"https://simonwillison.net/2026/Apr/23/gpt-5-5/#llm-openai-via-codex\">in my post about GPT-5.5</a>.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/codex-cli\">codex-cli</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything",
+          "publishedOn": "2026-04-23T19:22:29.000Z",
+          "wordCount": 732,
+          "title": "llm-openai-via-codex 0.1a0",
+          "imageUrl": null
         },
         {
           "id": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",

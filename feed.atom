@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-24T06:07:34.855Z</updated>
+    <updated>2026-04-24T13:20:00.440Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: A free, open visual identity for enshittification (24 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12727</id>
+        <link href="https://pluralistic.net/2026/04/24/poop-emoji-plus-plus/"/>
+        <updated>2026-04-24T12:50:06.000Z</updated>
+        <summary type="html"><![CDATA[Today's links A free, open visual identity for enshittification: No mere poop emoji! Hey look at this: Delights to delectate. Object permanence: RIAA v little girl; Portal turret Easter egg; Atari v indie games; Chabon's Phantom Tollbooth intro; The 0.1%; Well-labeled inns; "More Everything Forever." Upcoming appearances: London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. A free, open visual identity for enshittification (permalink) To my surprise, my life's work has turned out to be a long series of attempts to get people to engage with the abstract, distant issues of tech policy before it's too late. This is hard,…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 24/04/26]]></title>
+        <id>https://webcurios.co.uk/?p=1522</id>
+        <link href="https://webcurios.co.uk/webcurios-24-04-26/"/>
+        <updated>2026-04-24T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  35 minutes   Look, I’ll level with you – I have gotten to the end of the links and…I have emptied my brain. Literally. There is NOTHING LEFT between these ears of mine, and what you’re getting now is just the last few dregs of thought guttering through the pipes and down my fingers. SOMETIMES THAT’S JUST…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DeepSeek V4 - almost on the frontier, a fraction of the price]]></title>
         <id>https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything</id>
@@ -113,6 +134,19 @@ llm -m openrouter/deepseek/deepseek-v4-pro 'Generate an SVG of a pelican riding 
 <p>I'm keeping an eye on <a href="https://huggingface.co/unsloth/models">huggingface.co/unsloth/models</a> as I expect the Unsloth team will have a set of quantized versions out pretty soon. It's going to be very interesting to see how well that Flash model runs on my own machine.</p>
     
         <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/deepseek">deepseek</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Millisecond Converter]]></title>
+        <id>https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything"/>
+        <updated>2026-04-24T04:23:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/milliseconds">Millisecond Converter</a></p>
+    <p><a href="https://llm.datasette.io/">LLM</a> reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -427,6 +461,19 @@ llm -m openai-codex/gpt-5.5 <span class="pl-s"><span class="pl-pds">'</span>Gene
         <summary type="html"><![CDATA[The earliest-known recordings of whale songs (from 1949) were recently discovered in the Woods Hole Oceanographic Institution’s archive. The scientists who recorded the audio didn’t even know what they were listening to.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openai-via-codex 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything"/>
+        <updated>2026-04-23T19:22:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openai-via-codex/releases/tag/0.1a0">llm-openai-via-codex 0.1a0</a></p>
+    <p>Hijacks your Codex CLI credentials to make API calls with LLM, as described <a href="https://simonwillison.net/2026/Apr/23/gpt-5-5/#llm-openai-via-codex">in my post about GPT-5.5</a>.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/codex-cli">codex-cli</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
