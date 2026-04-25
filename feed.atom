@@ -2,10 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-24T20:44:23.370Z</updated>
+    <updated>2026-04-25T02:10:41.616Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[llm 0.31]]></title>
+        <id>https://simonwillison.net/2026/Apr/24/llm/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/24/llm/#atom-everything"/>
+        <updated>2026-04-24T23:35:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.31">llm 0.31</a></p>
+    <blockquote>
+<ul>
+<li>New GPT-5.5 OpenAI model: <code>llm -m gpt-5.5</code>. <a href="https://github.com/simonw/llm/issues/1418">#1418</a></li>
+<li>New option to set the <a href="https://developers.openai.com/cookbook/examples/gpt-5/gpt-5_new_params_and_tools#1-verbosity-parameter">text verbosity level</a> for GPT-5+ OpenAI models: <code>-o verbosity low</code>. Values are <code>low</code>, <code>medium</code>, <code>high</code>.</li>
+<li>New option for setting the <a href="https://developers.openai.com/api/docs/guides/images-vision#choose-an-image-detail-level">image detail level</a> used for image attachments to OpenAI models: <code>-o image_detail low</code> - values are <code>low</code>, <code>high</code> and <code>auto</code>, and GPT-5.4 and 5.5 also accept <code>original</code>.</li>
+<li>Models listed in <code>extra-openai-models.yaml</code> are now also registered as asynchronous. <a href="https://github.com/simonw/llm/issues/1395">#1395</a></li>
+</ul>
+</blockquote>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/gpt">gpt</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The people do not yearn for automation]]></title>
+        <id>https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything"/>
+        <updated>2026-04-24T22:38:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation">The people do not yearn for automation</a></strong></p>
+This written and video essay by Nilay Patel explores why AI is unpopular with the general public even as usage numbers for ChatGPT continue to skyrocket.</p>
+<p>It’s a superb piece of commentary, and something I expect I’ll be thinking about for a long time to come.</p>
+<p>Nilay’s core idea is that people afflicted with “software brain” - who see the world as something to be automated as much as possible, and attempt to model everything in terms of information flows and data - are becoming detached from everyone else.</p>
+<blockquote>
+<p>[…] software brain has ruled the business world for a long time. AI has just made it easier than ever for more people to make more software than ever before — for every kind of business to automate big chunks of itself with software. It’s everywhere: the absolute cutting edge of advertising and marketing is automation with AI. It’s not being a creative.</p>
+<p>But: not everything is a business. Not everything is a loop! The entire human experience cannot be captured in a database. <em>That’s</em> the limit of software brain. That’s why people hate AI. It <em>flattens</em> them.</p>
+<p>Regular people don’t see the opportunity to write code as an opportunity at <em>all</em>. The people do not yearn for automation. I’m a full-on smart home sicko; the lights and shades and climate controls of my house are automated in dozens of ways. But huge companies like Apple, Google and Amazon have struggled for over a decade now to make regular people care about smart home automation at all. And they just don’t.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://daringfireball.net/linked/2026/04/23/patel-software-brain">John Gruber</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/nilay-patel">nilay-patel</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vintage Weekly Bus Passes]]></title>
+        <id>https://kottke.org/15/02/vintage-weekly-bus-passes</id>
+        <link href="https://kottke.org/15/02/vintage-weekly-bus-passes"/>
+        <updated>2026-04-24T20:55:00.000Z</updated>
+        <summary type="html"><![CDATA[A collection of weekly bus passes from Milwaukee, WI. Years covered are 1930-1979. Was there a new design every single week? (via @slowernet)
+
+ 
+
+         
+[This is a vintage post originally from Feb 2015.]
+Tags: design · timeless posts]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A papyrus of part of the Iliad has been discovered in a...]]></title>
         <id>https://kottke.org/26/04/0048807-a-papyrus-of-part-of</id>
@@ -7283,36 +7342,6 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
         <summary type="html"><![CDATA[A comparison of different sorting algorithms (bubble, merge, heap, timsort). You can run them one at a time or race all seven.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Cosleuth]]></title>
-        <id>https://www.robinsloan.com/lab/claude-cosleuth/</id>
-        <link href="https://www.robinsloan.com/lab/claude-cosleuth/"/>
-        <updated>2026-03-26T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>A healthy dynamic. <a href="https://www.robinsloan.com/lab/claude-cosleuth/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sailing ship time: 26mar26]]></title>
-        <id>https://warrenellis.ltd/?p=18125</id>
-        <link href="https://warrenellis.ltd/status/sailing-ship-time-26mar26/"/>
-        <updated>2026-03-26T11:53:49.000Z</updated>
-        <summary type="html"><![CDATA[Off to see PROJECT HAIL MARY today, and then I need to crack a story idea that’s been eluding me for two weeks, and tomorrow…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is it appropriate to ask your phone the weather?]]></title>
-        <id>https://www.blackbirdspyplane.com/p/is-it-appropriate-to-ask-your-phone-the-weather</id>
-        <link href="https://www.blackbirdspyplane.com/p/is-it-appropriate-to-ask-your-phone-the-weather"/>
-        <updated>2026-03-26T11:01:37.000Z</updated>
-        <summary type="html"><![CDATA[Great waxed-cotton caps and bags, S-tier approach shoes, a based weapon in the war against screencuckery & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
