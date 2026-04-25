@@ -35,6 +35,41 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-25T04:13:36.000Z">2026-04-24</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything" target="_blank" rel="noopener noreferrer">GPT-5.5 prompting guide</a>
+          </h2>
+          <p class="feed-item__desc">GPT-5.5 prompting guide
+available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model.
+Here's a neat trick they recommend for applications that might spend considerable time thinking before returning a user-visible response:
+Before any tool calls for a multi-step task, send a short user-visible update that acknowledges the request and states the first step. Keep it to one or two sentences.
+
+I've already noticed their Codex app doing this, and it does make longer running tasks feel less like the model has crashed.
+OpenAI suggest running the following in Codex to upgrade your existing code using advice embedded in their openai-docs skill:
+$openai-docs migrate this project to gpt-5.5
+
+The upgrade guide the coding agent will follow is this one, which even includes light instructions on how to rewrite prompts to better fit the model.
+Also relevant is the Using GPT-5.5 guide, which opens with this warning:
+To get the most out of GPT-5.5, treat it as a new model family to tune for, not a drop-in replacement for gpt-5.2 or gpt-5.4. Begin migration with a fresh baseline instead of carrying over every instruction from an older prompt stack. Start with the smallest prompt that preserves the product contract, then tune reasoning effort, verbosity, tool descriptions, and output format against representative examples.
+Interesting to see OpenAI recommend starting from scratch rather than trusting that existing prompts optimized for previous models will continue to work effectively with GPT-5.5.
+
+
+    
+Tags: ai, openai, prompt-engineering, generative-ai, llms, gpt</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/24/llm/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-24T23:35:07.000Z">2026-04-24</time>
@@ -11857,25 +11892,6 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048602-theres-an-upside-down-h-o" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048602-theres-an-upside-down-h-o">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/0048555-a-comparison-of-different">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-26T14:45:37.000Z">2026-03-26</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/0048555-a-comparison-of-different" target="_blank" rel="noopener noreferrer">A comparison of different sorting algorithms  (bubble,...</a>
-          </h2>
-          <p class="feed-item__desc">A comparison of different sorting algorithms (bubble, merge, heap, timsort). You can run them one at a time or race all seven.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048555-a-comparison-of-different" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048555-a-comparison-of-different">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
