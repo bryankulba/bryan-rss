@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-26T13:02:35.511Z</updated>
+    <updated>2026-04-26T16:40:39.373Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Paul Ford:  This Is How We Get Moral A.I. Companies ....]]></title>
+        <id>https://kottke.org/26/04/0048810-this-is-how-we-get</id>
+        <link href="https://kottke.org/26/04/0048810-this-is-how-we-get"/>
+        <updated>2026-04-26T15:43:32.000Z</updated>
+        <summary type="html"><![CDATA[Paul Ford: This Is How We Get Moral A.I. Companies. (Tl;dr: regulation.) “The entire culture of American technology is built around two terms: disruption and, of course, scale. But ethics are constraints on disruption and scale.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[*It&rsquo;s nice that ChatGPT would take the trouble to sign this meme]]></title>
+        <id>https://brucesterling.tumblr.com/post/814967579816919040</id>
+        <link href="https://brucesterling.tumblr.com/post/814967579816919040"/>
+        <updated>2026-04-26T14:27:29.000Z</updated>
+        <summary type="html"><![CDATA[*It’s nice that ChatGPT would take the trouble to sign this meme]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wow, Sabastian Sawe set a world record with a 1:59:30...]]></title>
+        <id>https://kottke.org/26/04/0048809-wow-sabastian-sawe-set-a</id>
+        <link href="https://kottke.org/26/04/0048809-wow-sabastian-sawe-set-a"/>
+        <updated>2026-04-26T14:19:49.000Z</updated>
+        <summary type="html"><![CDATA[Wow, Sabastian Sawe set a world record with a 1:59:30 marathon. “They call Sabastian Sawe the silent assassin. But it was impossible to ignore the beautiful destruction on the streets of London as the 30-year-old Kenyan…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't count L.A. out yet]]></title>
+        <id>https://www.blackbirdspyplane.com/p/dont-count-la-out-yet</id>
+        <link href="https://www.blackbirdspyplane.com/p/dont-count-la-out-yet"/>
+        <updated>2026-04-26T13:02:15.000Z</updated>
+        <summary type="html"><![CDATA[Good news from the city's cool maker frontlines]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scenario planning for the “jobless future” ⊗ Software brains & statistical engines]]></title>
         <id>69ed3ed9d26e5b00010f384e</id>
