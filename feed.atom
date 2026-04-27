@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-27T06:27:03.125Z</updated>
+    <updated>2026-04-27T13:48:40.303Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Daredevil Michelle Khare ran 7 marathons on 7 different...]]></title>
+        <id>https://kottke.org/26/04/0048812-daredevil-michelle-khare-</id>
+        <link href="https://kottke.org/26/04/0048812-daredevil-michelle-khare-"/>
+        <updated>2026-04-27T13:39:48.000Z</updated>
+        <summary type="html"><![CDATA[Daredevil Michelle Khare ran 7 marathons on 7 different continents in 7 days. The first one was on Antarctica.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moderna developed an mRNA Covid-flu combo vaccine and...]]></title>
+        <id>https://kottke.org/26/04/0048811-moderna-developed-an-mrna</id>
+        <link href="https://kottke.org/26/04/0048811-moderna-developed-an-mrna"/>
+        <updated>2026-04-27T13:11:07.000Z</updated>
+        <summary type="html"><![CDATA[Moderna developed an mRNA Covid-flu combo vaccine and it’s been approved for use in the EU, “but it continues to be shelved in the US, where it was developed”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[27apr26]]></title>
+        <id>https://warrenellis.ltd/?p=18269</id>
+        <link href="https://warrenellis.ltd/status/27apr26/"/>
+        <updated>2026-04-27T11:52:38.000Z</updated>
+        <summary type="html"><![CDATA[New newsletter up:]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: The enshittification multiverse (27 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12738</id>
+        <link href="https://pluralistic.net/2026/04/27/analogs-and-analogies/"/>
+        <updated>2026-04-27T08:39:48.000Z</updated>
+        <summary type="html"><![CDATA[Today's links The enshittification multiverse: It's a useful analogy. Hey look at this: Delights to delectate. Object permanence: Every complex ecosystem has parasites; Prison for "attempted infringement"; When We Were Robots in Egypt; Golfing in The Blitz; Copyright vs privacy (NZ edn); GOP support for pedophile Hastert; EFF's music license; RIP Jane Jacobs; California is fanfic; DMCA v medical implants; "Burglar's Guide to the City"; Flaming river; Fantasy accounting. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The enshittification multiverse (permalink) It's official: you have my consent and …]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Paul Ford:  This Is How We Get Moral A.I. Companies ....]]></title>
         <id>https://kottke.org/26/04/0048810-this-is-how-we-get</id>
@@ -7069,22 +7109,6 @@ Exciting new browser library from Cheng Lou, previously a React core developer a
         <summary type="html"><![CDATA[No.396 — Tough week for Zuck ⊗ Learning in Motion ⊗ The people pushing back on AI ⊗ A wind-powered tumbleweed ⊗ Books, plants and playgrounds]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ultra-Rare DJ Set From Daft Punk&#8217;s Thomas Bangalter]]></title>
-        <id>https://kottke.org/26/03/rare-dj-set-daft-punk-thomas-bangalter</id>
-        <link href="https://kottke.org/26/03/rare-dj-set-daft-punk-thomas-bangalter"/>
-        <updated>2026-03-28T20:51:06.000Z</updated>
-        <summary type="html"><![CDATA[For his recent London run of shows, Fred Again coaxed Daft Punk’s Thomas Bangalter out of his helmet and in front of the decks for a 2-hour collaborative DJ set. And you can watch the whole thing on YouTube.
-
- 
-
-        
-         
-Tags: Daft Punk · Fred Again · music · Thomas Bangalter · video]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
