@@ -35,6 +35,124 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-27T23:46:56.000Z">2026-04-27</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything" target="_blank" rel="noopener noreferrer">microsoft/VibeVoice</a>
+          </h2>
+          <p class="feed-item__desc">microsoft/VibeVoice
+Microsoft released it on January 21st, 2026 but I hadn't tried it until today. Here's a one-liner to run it on a Mac with uv, mlx-audio (by Prince Canuma) and the 5.71GB mlx-community/VibeVoice-ASR-4bit MLX conversion of the 17.3GB VibeVoice-ASR model, in this case against a downloaded copy of my recent podcast appearance with Lenny Rachitsky:
+uv run --with mlx-audio mlx_audio.stt.generate \
+  --model mlx-community/VibeVoice-ASR-4bit \
+  --audio lenny.mp3 --output-path lenny \
+  --format json --verbose --max-tokens 32768
+
+
+The tool reported back:
+Processing time: 524.79 seconds
+Prompt: 26615 tokens, 50.718 tokens-per-sec
+Generation: 20248 tokens, 38.585 tokens-per-sec
+Peak memory: 30.44 GB
+
+So that's 8 minutes 45 seconds for an hour of audio (running on a 128GB M5 Max MacBook Pro).
+I've tested it against .wav and .mp3 files and they both worked fine.
+If you omit --max-tokens it defaults to 8192, which is enough for about 25 minutes of audio. I discovered that through trial-and-error and quadrupled it to guarantee I'd get the full hour.
+That command reported using 30.44GB of RAM at peak, but in Activity Monitor I observed 61.5GB of usage during the prefill stage and around 18GB during the generating phase.
+Here's the resulting JSON. The key structure looks like this:
+{
+  "text": "And an open question for me is how many other knowledge work fields are actually prone to these agent loops?",
+  "start": 13.85,
+  "end": 19.5,
+  "duration": 5.65,
+  "speaker_id": 0
+},
+{
+  "text": "Now that we have this power, people almost underestimate what they can do with it.",
+  "start": 19.5,
+  "end": 22.78,
+  "duration": 3.280000000000001,
+  "speaker_id": 1
+},
+{
+  "text": "Today, probably 95% of the code that I produce, I didn't type it myself. I write so much of my code on my phone. It's wild.",
+  "start": 22.78,
+  "end": 30.0,
+  "duration": 7.219999999999999,
+  "speaker_id": 0
+}
+
+Since that's an array of objects we can open it in Datasette Lite, making it easier to browse.
+Amusingly that Datasette Lite view shows three speakers - it identified Lenny and me for the conversation, and then a separate Lenny for the voice he used for the additional intro and the sponsor reads!
+VibeVoice can only handle up to an hour of audio, so running the above command transcribed just the first hour of the podcast. To transcribe more than that you'd need to split the audio, ideally with a minute or so of overlap so you can avoid errors from partially transcribed words at the split point. You'd also need to then line up the identified speaker IDs across the multiple segments.
+
+
+    
+Tags: microsoft, python, datasette-lite, uv, mlx, prince-canuma, speech-to-text</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/vibevoice-terminal.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/04/the-self-defeating-both-sidesism-of-the-us-press">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-27T22:20:00.000Z">2026-04-27</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/04/the-self-defeating-both-sidesism-of-the-us-press" target="_blank" rel="noopener noreferrer">The Self-Defeating Both-Sidesism of the US Press</a>
+          </h2>
+          <p class="feed-item__desc">Greg Sargent writing for The New Republic:
+There’s no clean way to hive off terms like fascism or authoritarianism from Trump’s policies. Even if you disagree that the words apply, their use is backed up by a genuine attempt at intellectual justification for it. The use of these terms just is deeply linked to assessments of Trump’s actual policies, from the lawless renditions to foreign gulags to the unleashing of heavily armed militias in American cities to the naked intimidation of large swaths of civil society.
+By contrast, when Trump and MAGA media figures call Democrats “Communists” or “antifa,” all of that is entirely disconnected from any policy realities. Many press figures would like it if there were an Archimedean midpoint between the two parties on all these matters. But there isn’t. At the most basic level, one party continues to function as an actor in a liberal democracy, whereas Trump and much of his movement, with the eager participation of many Republicans, simply do not. Dispensing with harsh but accurate descriptions of his real goals would whitewash them.
+
+	
+See also Republican Extremism and the Myth of “Both Sides” in American Politics.
+
+ 
+
+        
+         
+Tags: Greg Sargent · journalism · politics · usa</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/the-self-defeating-both-sidesism-of-the-us-press" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/the-self-defeating-both-sidesism-of-the-us-press">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048829-olufmi-o-taiwo-on-magical">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-27T21:06:30.000Z">2026-04-27</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/04/0048829-olufmi-o-taiwo-on-magical" target="_blank" rel="noopener noreferrer">Olúfẹ́mi O. Táíwò on magical thinking and elite impunity...</a>
+          </h2>
+          <p class="feed-item__desc">Olúfẹ́mi O. Táíwò on magical thinking and elite impunity. “We are ruled by a class of people who seem either to believe or presume that war, disease, and apocalyptic destruction are things that will only ever happen to poorer and browner people.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048829-olufmi-o-taiwo-on-magical" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048829-olufmi-o-taiwo-on-magical">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/04/crocheted-technology">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-27T19:35:00.000Z">2026-04-27</time>
@@ -11876,28 +11994,6 @@ Tags: tools, python, supply-chain, vibe-coding, security</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="69c84403156686000101351c">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-29T10:00:02.000Z">2026-03-29</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/were-all-living-in-the-mirror-world-now-the-ai-boom-is-a-polycrisis-no-396/" target="_blank" rel="noopener noreferrer">We’re all living in the “Mirror World” now ⊗ The AI boom is a polycrisis</a>
-          </h2>
-          <p class="feed-item__desc">No.396 — Tough week for Zuck ⊗ Learning in Motion ⊗ The people pushing back on AI ⊗ A wind-powered tumbleweed ⊗ Books, plants and playgrounds</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="69c84403156686000101351c" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="69c84403156686000101351c">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://sentiers.media/content/images/2026/03/Were_all_living_in_the_Mirror_World_now-w.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

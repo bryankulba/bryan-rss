@@ -44,16 +44,6 @@
           "wordCount": 2678,
           "title": "Geist in the machine ⊗ The prospect of Butlerian Jihad",
           "imageUrl": "https://sentiers.media/content/images/2026/04/Geist_in_the_machine-w.jpg"
-        },
-        {
-          "id": "69c84403156686000101351c",
-          "author": "Patrick Tanguay",
-          "description": "No.396 — Tough week for Zuck ⊗ Learning in Motion ⊗ The people pushing back on AI ⊗ A wind-powered tumbleweed ⊗ Books, plants and playgrounds",
-          "link": "https://sentiers.media/were-all-living-in-the-mirror-world-now-the-ai-boom-is-a-polycrisis-no-396/",
-          "publishedOn": "2026-03-29T10:00:02.000Z",
-          "wordCount": 2676,
-          "title": "We’re all living in the “Mirror World” now ⊗ The AI boom is a polycrisis",
-          "imageUrl": "https://sentiers.media/content/images/2026/03/Were_all_living_in_the_Mirror_World_now-w.jpg"
         }
       ]
     },
@@ -269,6 +259,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/the-self-defeating-both-sidesism-of-the-us-press",
+          "author": null,
+          "description": "Greg Sargent writing for The New Republic:\nThere’s no clean way to hive off terms like fascism or authoritarianism from Trump’s policies. Even if you disagree that the words apply, their use is backed up by a genuine attempt at intellectual justification for it. The use of these terms just is deeply linked to assessments of Trump’s actual policies, from the lawless renditions to foreign gulags to the unleashing of heavily armed militias in American cities to the naked intimidation of large swaths of civil society.\nBy contrast, when Trump and MAGA media figures call Democrats “Communists” or “antifa,” all of that is entirely disconnected from any policy realities. Many press figures would like it if there were an Archimedean midpoint between the two parties on all these matters. But there isn’t. At the most basic level, one party continues to function as an actor in a liberal democracy, whereas Trump and much of his movement, with the eager participation of many Republicans, simply do not. Dispensing with harsh but accurate descriptions of his real goals would whitewash them.\n\n\t\nSee also Republican Extremism and the Myth of “Both Sides” in American Politics.\n\n \n\n        \n         \nTags: Greg Sargent · journalism · politics · usa",
+          "link": "https://kottke.org/26/04/the-self-defeating-both-sidesism-of-the-us-press",
+          "publishedOn": "2026-04-27T22:20:00.000Z",
+          "wordCount": 880,
+          "title": "The Self-Defeating Both-Sidesism of the US Press",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048829-olufmi-o-taiwo-on-magical",
+          "author": null,
+          "description": "Olúfẹ́mi O. Táíwò on magical thinking and elite impunity. “We are ruled by a class of people who seem either to believe or presume that war, disease, and apocalyptic destruction are things that will only ever happen to poorer and browner people.”",
+          "link": "https://kottke.org/26/04/0048829-olufmi-o-taiwo-on-magical",
+          "publishedOn": "2026-04-27T21:06:30.000Z",
+          "wordCount": 493,
+          "title": "Olúfẹ́mi O. Táíwò on magical thinking and elite impunity...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/crocheted-technology",
           "author": null,
@@ -3058,6 +3068,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://github.com/microsoft/VibeVoice\">microsoft/VibeVoice</a></strong></p>\nVibeVoice is Microsoft's Whisper-style audio model for speech-to-text, MIT licensed and with speaker diarization built into the model.</p>\n<p>Microsoft released it on January 21st, 2026 but I hadn't tried it until today. Here's a one-liner to run it on a Mac with <code>uv</code>, <a href=\"https://github.com/Blaizzy/mlx-audio\">mlx-audio</a> (by Prince Canuma) and the 5.71GB <a href=\"https://huggingface.co/mlx-community/VibeVoice-ASR-4bit\">mlx-community/VibeVoice-ASR-4bit</a> MLX conversion of the <a href=\"https://huggingface.co/microsoft/VibeVoice-ASR/tree/main\">17.3GB VibeVoice-ASR</a> model, in this case against a downloaded copy of my recent <a href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\">podcast appearance with Lenny Rachitsky</a>:</p>\n<pre><code>uv run --with mlx-audio mlx_audio.stt.generate \\\n  --model mlx-community/VibeVoice-ASR-4bit \\\n  --audio lenny.mp3 --output-path lenny \\\n  --format json --verbose --max-tokens 32768\n</code></pre>\n<p><img alt=\"Screenshot of a macOS terminal running an mlx-audio speech-to-text command using the VibeVoice-ASR-4bit model on lenny.mp3, showing download progress, a warning that audio duration (99.8 min) exceeds the 59 min maximum so it's trimming, encoding/prefilling/generating progress bars, then a Transcription section with JSON segments of speakers discussing AI coding agents, followed by stats: Processing time 524.79 seconds, Prompt 26615 tokens at 50.718 tokens-per-sec, Generation 20248 tokens at 38.585 tokens-per-sec, Peak memory 30.44 GB.\" src=\"https://static.simonwillison.net/static/2026/vibevoice-terminal.jpg\" /></p>\n<p>The tool reported back:</p>\n<pre><code>Processing time: 524.79 seconds\nPrompt: 26615 tokens, 50.718 tokens-per-sec\nGeneration: 20248 tokens, 38.585 tokens-per-sec\nPeak memory: 30.44 GB\n</code></pre>\n<p>So that's 8 minutes 45 seconds for an hour of audio (running on a 128GB M5 Max MacBook Pro).</p>\n<p>I've tested it against <code>.wav</code> and <code>.mp3</code> files and they both worked fine.</p>\n<p>If you omit <code>--max-tokens</code> it defaults to 8192, which is enough for about 25 minutes of audio. I discovered that through trial-and-error and quadrupled it to guarantee I'd get the full hour.</p>\n<p>That command reported using 30.44GB of RAM at peak, but in Activity Monitor I observed 61.5GB of usage during the prefill stage and around 18GB during the generating phase.</p>\n<p>Here's <a href=\"https://gist.github.com/simonw/d2c716c008b3ba395785f865c6387b6f\">the resulting JSON</a>. The key structure looks like this:</p>\n<pre><code>{\n  \"text\": \"And an open question for me is how many other knowledge work fields are actually prone to these agent loops?\",\n  \"start\": 13.85,\n  \"end\": 19.5,\n  \"duration\": 5.65,\n  \"speaker_id\": 0\n},\n{\n  \"text\": \"Now that we have this power, people almost underestimate what they can do with it.\",\n  \"start\": 19.5,\n  \"end\": 22.78,\n  \"duration\": 3.280000000000001,\n  \"speaker_id\": 1\n},\n{\n  \"text\": \"Today, probably 95% of the code that I produce, I didn't type it myself. I write so much of my code on my phone. It's wild.\",\n  \"start\": 22.78,\n  \"end\": 30.0,\n  \"duration\": 7.219999999999999,\n  \"speaker_id\": 0\n}\n</code></pre>\n<p>Since that's an array of objects we can <a href=\"https://lite.datasette.io/?json=https://gist.github.com/simonw/d2c716c008b3ba395785f865c6387b6f#/data/raw?_facet=speaker_id\">open it in Datasette Lite</a>, making it easier to browse.</p>\n<p>Amusingly that Datasette Lite view shows three speakers - it identified Lenny and me for the conversation, and then a separate Lenny for the voice he used for the additional intro and the sponsor reads!</p>\n<p>VibeVoice can only handle up to an hour of audio, so running the above command transcribed just the first hour of the podcast. To transcribe more than that you'd need to split the audio, ideally with a minute or so of overlap so you can avoid errors from partially transcribed words at the split point. You'd also need to then line up the identified speaker IDs across the multiple segments.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/mlx\">mlx</a>, <a href=\"https://simonwillison.net/tags/prince-canuma\">prince-canuma</a>, <a href=\"https://simonwillison.net/tags/speech-to-text\">speech-to-text</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything",
+          "publishedOn": "2026-04-27T23:46:56.000Z",
+          "wordCount": 1147,
+          "title": "microsoft/VibeVoice",
+          "imageUrl": "https://static.simonwillison.net/static/2026/vibevoice-terminal.jpg"
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
           "author": null,
