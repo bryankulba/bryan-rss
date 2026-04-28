@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-28T17:46:06.131Z</updated>
+    <updated>2026-04-28T21:06:23.991Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Some Cool Movie Explosions]]></title>
+        <id>https://kottke.org/26/04/some-cool-movie-explosions</id>
+        <link href="https://kottke.org/26/04/some-cool-movie-explosions"/>
+        <updated>2026-04-28T20:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Listen, sometimes you just want to watch things blow up. But safely and without consequence (although Arnold Schwarzenegger did somehow become the governor of California). So, can I interest you in three minutes of movie explosions? The 80s and 90s were really a golden age for kick-ass movie explosions. (via @tvaziri.com)
+
+ 
+
+        
+         
+Tags: movies · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;A half-century after it was published,  The Soul...]]></title>
+        <id>https://kottke.org/26/04/0048830-a-half-century-after-it-w</id>
+        <link href="https://kottke.org/26/04/0048830-a-half-century-after-it-w"/>
+        <updated>2026-04-28T19:18:27.000Z</updated>
+        <summary type="html"><![CDATA[“A half-century after it was published, The Soul of a New Machine does a better job challenging AI hype than most current criticism.” I thought something similarly (about the web) when I read Kidder’s book 25 years ago, during the aftermath of the dot com bust.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do I Belong in Tech Anymore?  &#8220;Why am I here? Does...]]></title>
+        <id>https://kottke.org/26/04/0048816-do-i-belong-in-tech</id>
+        <link href="https://kottke.org/26/04/0048816-do-i-belong-in-tech"/>
+        <updated>2026-04-28T18:30:10.000Z</updated>
+        <summary type="html"><![CDATA[Do I Belong in Tech Anymore? “Why am I here? Does any of this work actually matter? And if I stop caring about the quality of my work… will anyone notice?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;British energy major BP on Tuesday reported that...]]></title>
+        <id>https://kottke.org/26/04/0048836-british-energy-major-bp-o</id>
+        <link href="https://kottke.org/26/04/0048836-british-energy-major-bp-o"/>
+        <updated>2026-04-28T17:47:03.000Z</updated>
+        <summary type="html"><![CDATA[“British energy major BP on Tuesday reported that first-quarter profits more than doubled from a year ago, following a surge in oil and gas prices driven by the Middle East conflict.” Oh, surprise surprise.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I Love Boosters]]></title>
         <id>https://kottke.org/26/04/i-love-boosters</id>
@@ -7483,16 +7529,6 @@ The post In Expanding de Sitter Space, Quantum Mechanics Gets Even More Elusive 
         <summary type="html"><![CDATA[Alexander Kluge died. Just a couple of weeks after his friend Jurgen Habermas. THE FACE magazine died, again. Didn’t get as much done outside as…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Vector voxels]]></title>
-        <id>https://www.robinsloan.com/lab/vector-voxels/</id>
-        <link href="https://www.robinsloan.com/lab/vector-voxels/"/>
-        <updated>2026-03-30T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Crispy! <a href="https://www.robinsloan.com/lab/vector-voxels/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>

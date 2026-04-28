@@ -208,16 +208,6 @@
           "wordCount": 4527,
           "title": "Winter Garden: Where is it like to be a language model?",
           "imageUrl": "https://www.robinsloan.com/img/salesforce-bat.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/vector-voxels/",
-          "author": null,
-          "description": "<p>Crispy! <a href=\"https://www.robinsloan.com/lab/vector-voxels/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/vector-voxels/",
-          "publishedOn": "2026-03-30T09:00:00.000Z",
-          "wordCount": 5232,
-          "title": "Dragoncatcher: Vector voxels",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -269,6 +259,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/some-cool-movie-explosions",
+          "author": null,
+          "description": "Listen, sometimes you just want to watch things blow up. But safely and without consequence (although Arnold Schwarzenegger did somehow become the governor of California). So, can I interest you in three minutes of movie explosions? The 80s and 90s were really a golden age for kick-ass movie explosions. (via @tvaziri.com)\n\n \n\n        \n         \nTags: movies · video",
+          "link": "https://kottke.org/26/04/some-cool-movie-explosions",
+          "publishedOn": "2026-04-28T20:03:00.000Z",
+          "wordCount": 723,
+          "title": "Some Cool Movie Explosions",
+          "imageUrl": "https://i.ytimg.com/vi/qwl9azNeup4/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/04/0048830-a-half-century-after-it-w",
+          "author": null,
+          "description": "“A half-century after it was published, The Soul of a New Machine does a better job challenging AI hype than most current criticism.” I thought something similarly (about the web) when I read Kidder’s book 25 years ago, during the aftermath of the dot com bust.",
+          "link": "https://kottke.org/26/04/0048830-a-half-century-after-it-w",
+          "publishedOn": "2026-04-28T19:18:27.000Z",
+          "wordCount": 760,
+          "title": "&#8220;A half-century after it was published,  The Soul...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048816-do-i-belong-in-tech",
+          "author": null,
+          "description": "Do I Belong in Tech Anymore? “Why am I here? Does any of this work actually matter? And if I stop caring about the quality of my work… will anyone notice?”",
+          "link": "https://kottke.org/26/04/0048816-do-i-belong-in-tech",
+          "publishedOn": "2026-04-28T18:30:10.000Z",
+          "wordCount": 770,
+          "title": "Do I Belong in Tech Anymore?  &#8220;Why am I here? Does...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048836-british-energy-major-bp-o",
+          "author": null,
+          "description": "“British energy major BP on Tuesday reported that first-quarter profits more than doubled from a year ago, following a surge in oil and gas prices driven by the Middle East conflict.” Oh, surprise surprise.",
+          "link": "https://kottke.org/26/04/0048836-british-energy-major-bp-o",
+          "publishedOn": "2026-04-28T17:47:03.000Z",
+          "wordCount": 491,
+          "title": "&#8220;British energy major BP on Tuesday reported that...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/i-love-boosters",
           "author": null,
