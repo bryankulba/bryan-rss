@@ -35,6 +35,109 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12743">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-28T05:57:01.000Z">2026-04-27</time>
+        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://pluralistic.net/2026/04/27/mouseketeers/" target="_blank" rel="noopener noreferrer">Pluralistic: Vicky Osterweil&#x27;s &quot;The Extended Universe&quot; (28 Apr 2026)</a>
+          </h2>
+          <p class="feed-item__desc">Today's links Vicky Osterweil's "The Extended Universe": How Disney killed the movies and took over the world. Hey look at this: Delights to delectate. Object permanence: Zappa v censorship; Chemistry set with no chemicals; Short cons; Mitsubishi's Dieselgate; "Bellwether." Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Vicky Osterweil's "The Extended Universe" (permalink) Vicky Osterweil's The Extended Universe: How Disney Killed the Movies and Took Over the World makes the kind of long, polemical, startling and illuminating argument that defines great cultural criticism; it's the sort of book tha…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12743" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12743">Mark read</button>
+            <span class="feed-item__reading-time">10 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-28T05:23:05.000Z">2026-04-27</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything" target="_blank" rel="noopener noreferrer">What&#x27;s new in pip 26.1 - lockfiles and dependency cooldowns!</a>
+          </h2>
+          <p class="feed-item__desc">What's new in pip 26.1 - lockfiles and dependency cooldowns!
+pip tool for installing dependencies.
+This version drops support for Python 3.9 - fair enough, since it's been EOL since October. macOS still ships with python3 as a default Python 3.9, so I tried out the new Python version against Python 3.14 like this:
+uv python install 3.14
+mkdir /tmp/experiment
+cd /tmp/experiment
+python3.14 -m venv venv
+source venv/bin/activate
+pip install -U pip
+pip --version
+
+This confirmed I had pip 26.1 - then I tried out the new lock files:
+pip lock datasette llm
+
+This installs Datasette and LLM and all of their dependencies and writes the whole lot to a 519 line pylock.toml file - here's the result.
+The new release also supports dependency cooldowns, discussed here previously, via the new --uploaded-prior-to PXD option where X is a number of days. The format is P-number-of-days-D, following ISO duration format but only supporting days.
+I shipped a new release of LLM, version 0.31, three days ago. Here's how to use the new --uploaded-prior-to P4D option to ask for a version that is at least 4 days old.
+pip install llm --uploaded-prior-to P4D
+venv/bin/llm --version
+
+This gave me version 0.30.
+
+    
+Via Lobste.rs
+Tags: packaging, pip, python, security, supply-chain</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/28/talkie/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-28T02:47:42.000Z">2026-04-27</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/28/talkie/#atom-everything" target="_blank" rel="noopener noreferrer">Introducing talkie: a 13B vintage language model from 1930</a>
+          </h2>
+          <p class="feed-item__desc">Introducing talkie: a 13B vintage language model from 1930
+Nick Levine, David Duvenaud, and Alec Radford (of GPT, GPT-2, Whisper fame).
+talkie-1930-13b-base (53.1 GB) is a "13B language model trained on 260B tokens of historical pre-1931 English text". 
+talkie-1930-13b-it (26.6 GB) is a checkpoint "finetuned using a novel dataset of instruction-response pairs extracted from pre-1931 reference works", designed to power a chat interface. You can try that out here.
+Both models are Apache 2.0 licensed. Since the training data for the base model is entirely out of copyright (the USA copyright cutoff date is currently January 1, 1931), I'm hoping they later decide to release the training data as well.
+Their report suggests some fascinating research objectives for this class of model, including:
+How good are these models at predicting the future? "we calculated the surprisingness of short descriptions of historical events to a 13B model trained on pre-1931 text"
+Can these models invent things that are past their knowledge cutoffs? "As Demis Hassabis has asked, could a model trained up to 1911 independently discover General Relativity, as Einstein did in 1915?"
+Can they be taught to program? "Figure 3 (left-hand side) shows an early example of such a test, measuring how well models trained on pre-1931 text can, when given a few demonstration examples of Python programs, write new correct programs."
+I have a long-running interest in what I call "vegan models" - LLMs that are trained entirely on licensed or out-of-copyright data. I think the base model here qualifies, but the chat model isn't entirely pure due to the reliance on non-vegan models to help with the fine-tuning - emphasis mine:
+First, we generated instruction-response pairs from historical texts with regular structure, such as etiquette manuals, letter-writing manuals, cookbooks, dictionaries, encyclopedias, and poetry and fable collections (see Figure 7), and fine-tuned our base model on them using a simple chat format.
+Next, to improve instruction-following abilities, we generated synthetic prompts covering different types of tasks, such as summarizing documents, responding to direct information requests, and continuing multi-turn conversations coherently. We then ran online direct preference optimization on rollouts generated from these prompts, using Claude Sonnet 4.6 as a judge. [...]
+Finally, we did another round of supervised fine-tuning, this time on rejection-sampled multi-turn synthetic chats between Claude Opus 4.6 and talkie, to smooth out persistent rough edges in its conversational abilities.
+A major challenge in training talkie was avoiding accidental contamination, either from post-1931 text that snuck into the training corpus or from the fine-tuning assistance from modern LLMs introducing anachronistic knowledge to the chat model. 
+I recently wrote about Mr. Chatterbox, a similar vintage language model project which also had to turn to modern LLMs to create synthetic conversations to help train the chat model.
+The talkie team aspire to eventually move beyond this limitation:
+While we have tried to post-train talkie free from modern influence, reinforcement learning with AI feedback inevitably shapes talkie’s behavior anachronistically. (The 7B version of talkie emerged from RL speaking in listicles.) As we scale up, we hope to be able to use our vintage base models themselves as judges to enable a fully bootstrapped era-appropriate post-training pipeline.
+I couldn't resist hitting the talkie demo with my classic test prompt:
+Generate an SVG of a pelican riding a bicycle
+It replied:
+An SVG of a pelican riding a bicycle was generated in 1860. The pelican was represented as perched on the saddle, with its long bill pointed forward, and its legs astride the handles. The idea was suggested by the fact that pelicans are sometimes seen fishing on horseback, on the banks of the Rhine.
+Via Hacker News
+Tags: ai, generative-ai, local-llms, llms, training-data, ai-ethics, llm-release</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/28/talkie/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/28/talkie/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-27T23:46:56.000Z">2026-04-27</time>
@@ -101,6 +204,28 @@ Tags: microsoft, python, datasette-lite, uv, mlx, prince-canuma, speech-to-text<
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/vibevoice-terminal.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/talkie/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-27T23:00:00.000Z">2026-04-27</time>
+        <span class="feed-item__source">Robin Sloan</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.robinsloan.com/lab/talkie/" target="_blank" rel="noopener noreferrer">Dragoncatcher: Talkie and Claude (no, the other one)</a>
+          </h2>
+          <p class="feed-item__desc">A fabulous experiment. Read here.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/talkie/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/talkie/">Mark read</button>
+            <span class="feed-item__reading-time">19 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
