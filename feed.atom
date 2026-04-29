@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-28T21:06:23.991Z</updated>
+    <updated>2026-04-29T02:42:39.335Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Remembering Roberto Clemente&#8217;s 3000th Hit]]></title>
+        <id>https://kottke.org/13/03/remembering-roberto-clementes-3000th-hit</id>
+        <link href="https://kottke.org/13/03/remembering-roberto-clementes-3000th-hit"/>
+        <updated>2026-04-28T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This story by Kevin Guilfoile about his aging father (who worked for the Pirates and the Baseball Hall of Fame) and the mystery of what happened to the bat that Roberto Clemente got his 3,000th hit with is one of my favorite things that I’ve read over the past few months.
+[My father’s] personality is present, if his memories are a jumble. He is still funny, and surprisingly quick with one-liners to crack up the staff at the facility where he lives. He is exceedingly polite, same as he ever was. He is good at faking a casual conversation, especially on the phone. But if you sit and talk with him for a long time, he gets very anxious. He starts tapping his forehead with his fingers. “Shouldn’t we be going?” he’ll say. You tell him there’s no place we need to be, but 30 seconds later he’ll as…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting OpenAI Codex base_instructions]]></title>
+        <id>https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything"/>
+        <updated>2026-04-28T22:02:53.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://github.com/openai/codex/blob/66b0781502be5de3b1909525c987643b9e5e407d/codex-rs/models-manager/models.json#L55"><p><code>Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.</code></p></blockquote>
+<p class="cite">&mdash; <a href="https://github.com/openai/codex/blob/66b0781502be5de3b1909525c987643b9e5e407d/codex-rs/models-manager/models.json#L55">OpenAI Codex base_instructions</a>, for GPT-5.5</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/system-prompts">system-prompts</a>, <a href="https://simonwillison.net/tags/prompt-engineering">prompt-engineering</a>, <a href="https://simonwillison.net/tags/codex-cli">codex-cli</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five great book critics writing today (and where to find...]]></title>
+        <id>https://kottke.org/26/04/0048832-five-great-book-critics-w</id>
+        <link href="https://kottke.org/26/04/0048832-five-great-book-critics-w"/>
+        <updated>2026-04-28T21:47:52.000Z</updated>
+        <summary type="html"><![CDATA[Five great book critics writing today (and where to find them).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This is interesting:  Talkie is a vintage LLM , trained...]]></title>
+        <id>https://kottke.org/26/04/0048838-this-is-interesting-talki</id>
+        <link href="https://kottke.org/26/04/0048838-this-is-interesting-talki"/>
+        <updated>2026-04-28T21:03:58.000Z</updated>
+        <summary type="html"><![CDATA[This is interesting: Talkie is a vintage LLM, trained on “historical pre-1931 English text”. “The training data for the base model is entirely out of copyright (the USA copyright cutoff date is currently January 1, 1931).”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Some Cool Movie Explosions]]></title>
         <id>https://kottke.org/26/04/some-cool-movie-explosions</id>
@@ -7459,76 +7503,6 @@ Tags: climate crisis · David Roberts · energy · Paul Krugman]]></summary>
 The post In Expanding de Sitter Space, Quantum Mechanics Gets Even More Elusive first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Shalma Wegsman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer]]></title>
-        <id>https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything"/>
-        <updated>2026-03-30T14:28:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>Trip Venturella released <a href="https://www.estragon.news/mr-chatterbox-or-the-modern-prometheus/">Mr. Chatterbox</a>, a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in <a href="https://huggingface.co/tventurella/mr_chatterbox_model">the model card</a>:</p>
-<blockquote>
-<p>Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts published between 1837 and 1899, drawn from a dataset made available <a href="https://huggingface.co/datasets/TheBritishLibrary/blbooks">by the British Library</a>. The model has absolutely no training inputs from after 1899 — the vocabulary and ideas are formed exclusively from nineteenth-century literature.</p>
-<p>Mr. Chatterbox's training corpus was 28,035 books, with an estimated 2.93 billion input tokens after filtering. The model has roughly 340 million paramaters, roughly the same size as GPT-2-Medium. The difference is, of course, that unlike GPT-2, Mr. Chatterbox is trained entirely on historical data.</p>
-</blockquote>
-<p>Given how hard it is to train a useful LLM without using vast amounts of scraped, unlicensed data I've been dreaming of a model like this for a couple of years now. What would a model trained on out-of-copyright text be like to chat with?</p>
-<p>Thanks to Trip we can now find out for ourselves!</p>
-<p>The model itself is tiny, at least by Large Language Model standards - just <a href="https://huggingface.co/tventurella/mr_chatterbox_model/tree/main">2.05GB</a> on disk. You can try it out using Trip's <a href="https://huggingface.co/spaces/tventurella/mr_chatterbox">HuggingFace Spaces demo</a>:</p>
-<p style="text-align: center"><img src="https://static.simonwillison.net/static/2026/chatterbox.jpg" alt="Screenshot of a Victorian-themed chatbot interface titled &quot;🎩 Mr. Chatterbox (Beta)&quot; with subtitle &quot;The Victorian Gentleman Chatbot&quot;. The conversation shows a user asking &quot;How should I behave at dinner?&quot; with the bot replying &quot;My good fellow, one might presume that such trivialities could not engage your attention during an evening's discourse!&quot; The user then asks &quot;What are good topics?&quot; and the bot responds &quot;The most pressing subjects of our society— Indeed, a gentleman must endeavor to engage the conversation with grace and vivacity. Such pursuits serve as vital antidotes against ennui when engaged in agreeable company.&quot; A text input field at the bottom reads &quot;Say hello...&quot; with a send button. The interface uses a dark maroon and cream color scheme." style="max-width: 80%;" /></p>
-<p>Honestly, it's pretty terrible. Talking with it feels more like chatting with a Markov chain than an LLM - the responses may have a delightfully Victorian flavor to them but it's hard to get a response that usefully answers a question.</p>
-<p>The <a href="https://arxiv.org/abs/2203.15556">2022 Chinchilla paper</a> suggests a ratio of 20x the parameter count to training tokens. For a 340m model that would suggest around 7 billion tokens, more than twice the British Library corpus used here. The smallest Qwen 3.5 model is 600m parameters and that model family starts to get interesting at 2b - so my hunch is we would need 4x or more the training data to get something that starts to feel like a useful conversational partner.</p>
-<p>But what a fun project!</p>
-<h4 id="running-it-locally-with-llm">Running it locally with LLM</h4>
-<p>I decided to see if I could run the model on my own machine using my <a href="https://llm.datasette.io/">LLM</a> framework.</p>
-<p>I got Claude Code to do most of the work - <a href="https://gisthost.github.io/?7d0f00e152dd80d617b5e501e4ff025b/index.html">here's the transcript</a>.</p>
-<p>Trip trained the model using Andrej Karpathy's <a href="https://github.com/karpathy/nanochat">nanochat</a>, so I cloned that project, pulled the model weights and told Claude to build a Python script to run the model. Once we had that working (which ended up needing some extra details from the <a href="https://huggingface.co/spaces/tventurella/mr_chatterbox/tree/main">Space demo source code</a>) I had Claude <a href="https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html">read the LLM plugin tutorial</a> and build the rest of the plugin.</p>
-<p><a href="https://github.com/simonw/llm-mrchatterbox">llm-mrchatterbox</a> is the result. Install the plugin like this:</p>
-<pre><code>llm install llm-mrchatterbox
-</code></pre>
-<p>The first time you run a prompt it will fetch the 2.05GB model file from Hugging Face. Try that like this:</p>
-<pre><code>llm -m mrchatterbox "Good day, sir"
-</code></pre>
-<p>Or start an ongoing chat session like this:</p>
-<pre><code>llm chat -m mrchatterbox
-</code></pre>
-<p>If you don't have LLM installed you can still get a chat session started from scratch using uvx like this:</p>
-<pre><code>uvx --with llm-mrchatterbox llm chat -m mrchatterbox
-</code></pre>
-<p>When you are finished with the model you can delete the cached file using:</p>
-<pre><code>llm mrchatterbox delete-model
-</code></pre>
-<p>This is the first time I've had Claude Code build a full LLM model plugin from scratch and it worked really well. I expect I'll be using this method again in the future.</p>
-<p>I continue to hope we can get a useful model from entirely public domain data. The fact that Trip was able to get this far using nanochat and 2.93 billion training tokens is a promising start.</p>
-
-<p id="update-31st"><strong>Update 31st March 2026</strong>: I had missed this when I first published this piece but Trip has his own <a href="https://www.estragon.news/mr-chatterbox-or-the-modern-prometheus/">detailed writeup of the project</a> which goes into much more detail about how he trained the model. Here's how the books were filtered for pre-training:</p>
-<blockquote>
-<p>First, I downloaded the British Library dataset split of all 19th-century books. I filtered those down to books contemporaneous with the reign of Queen Victoria—which, unfortunately, cut out the novels of Jane Austen—and further filtered those down to a set of books with a optical character recognition (OCR) confidence of .65 or above, as listed in the metadata. This left me with 28,035 books, or roughly 2.93 billion tokes for pretraining data.</p>
-</blockquote>
-<p>Getting it to behave like a conversational model was a lot harder. Trip started by trying to train on plays by Oscar Wilde and George Bernard Shaw, but found they didn't provide enough pairs. Then he tried extracting dialogue pairs from the books themselves with poor results. The approach that worked was to have Claude Haiku and GPT-4o-mini generate synthetic conversation pairs for the supervised fine tuning, which solved the problem but sadly I think dilutes the "no training inputs from after 1899" claim from the original model card.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/andrej-karpathy">andrej-karpathy</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/hugging-face">hugging-face</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/uv">uv</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/812515953941299200</id>
-        <link href="https://brucesterling.tumblr.com/post/812515953941299200"/>
-        <updated>2026-03-30T12:59:56.000Z</updated>
-        <summary type="html"><![CDATA[*Meanwhile, in some newspaper in The Netherlands]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[died: 30mar26]]></title>
-        <id>https://warrenellis.ltd/?p=18132</id>
-        <link href="https://warrenellis.ltd/status/died-30mar26/"/>
-        <updated>2026-03-30T11:09:33.000Z</updated>
-        <summary type="html"><![CDATA[Alexander Kluge died. Just a couple of weeks after his friend Jurgen Habermas. THE FACE magazine died, again. Didn’t get as much done outside as…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
