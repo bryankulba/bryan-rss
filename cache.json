@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/04/29/syndicating-vibes",
+          "author": null,
+          "description": "Now we have abundant apps, we’ve hit a ceiling in good ways to track and share them.\nFor example, Simon Willison’s personal tools: \"Miscellaneous HTML+JavaScript tools built mostly with the help of LLMs.\"\nWillison lists 80+ useful tools and the search box can see 205. That’s a lot!\nHe has hyper-specific tools like one to track daylight savings changes in California, personal software to help build his newsletter from his blog, and a tool to edit using Strunk & White’s principle to omit needless words. (What’s especially neat is Willison shares the prompts and chat history behind each tool.)\nI keep a note when I see people sharing abundant apps.\nMatt Sephton shipped 20 macOS apps in a day. Everything from a sound effects generator to perspective correction to a language translator with a be…",
+          "link": "https://interconnected.org/home/2026/04/29/syndicating-vibes",
+          "publishedOn": "2026-04-29T17:58:00.000Z",
+          "wordCount": 1409,
+          "title": "We need RSS for sharing abundant vibe-coded apps",
+          "imageUrl": "https://interconnected.org/home/2026/04/29/syndicating-vibes.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/04/24/willows",
           "author": null,
           "description": "The Wind in the Willows right? Kenneth Grahame, 1908.\nWe all know the children’s story inside-out. Mole and Ratty and gruff Badger and conceited Mr Toad with his motorcars and all their adventures.\nI picked up the book as an adult - I can’t remember why - and it wasn’t what I expected.\nThis week I have been reading it again and it is again astonishing.\nI mean… let me share some of the prose with you.\nThis is when Mole encounters the river for the first time.\nGreen turf sloped down to either edge, brown snaky tree-roots gleamed below the surface of the quiet water, while ahead of them the silvery shoulder and foamy tumble of a weir, arm-in-arm with a restless dripping mill-wheel, that held up in its turn a grey-gabled mill-house, filled the air with a soothing murmur of sound, dull and smot…",
@@ -259,6 +269,66 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/0048851-trump-did-not-cause-the",
+          "author": null,
+          "description": "“Trump did not cause the attempts on his life. But it would be dishonest to deny that he is responsible for shaping the environment in which we live — for creating an atmosphere in which these kinds of events are more likely.”",
+          "link": "https://kottke.org/26/04/0048851-trump-did-not-cause-the",
+          "publishedOn": "2026-04-29T17:03:55.000Z",
+          "wordCount": 510,
+          "title": "&#8220;Trump did not cause the attempts on his life. But...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048850-on-may-22-boards-of",
+          "author": null,
+          "description": "On May 22, Boards of Canada is doing a handful of listening parties around the world (NYC, Tokyo, London, etc.) for their new album. “Tickets live Friday 1 May. Sign up for access by Thursday 30 April, 15:00 BST.”",
+          "link": "https://kottke.org/26/04/0048850-on-may-22-boards-of",
+          "publishedOn": "2026-04-29T16:19:20.000Z",
+          "wordCount": 774,
+          "title": "On May 22,  Boards of Canada is doing a handful of...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048849-holy-moly-dj-shadow-is",
+          "author": null,
+          "description": "Holy moly, DJ Shadow is doing a 30th anniversary tour for Endtroducing… Starts Sept 24 in San Diego. Endtroducing… is one of my all-time favorite albums.",
+          "link": "https://kottke.org/26/04/0048849-holy-moly-dj-shadow-is",
+          "publishedOn": "2026-04-29T15:47:34.000Z",
+          "wordCount": 758,
+          "title": "Holy moly,  DJ Shadow is doing a 30th anniversary tour...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048846-i-bought-friendster-for-3",
+          "author": null,
+          "description": "I Bought Friendster for $30k — Here’s What I’m Doing With It. “I created an iOS app for Friendster, and I made it so that in order to connect with someone as a friend, you have to actually tap phones together in real life.”",
+          "link": "https://kottke.org/26/04/0048846-i-bought-friendster-for-3",
+          "publishedOn": "2026-04-29T15:22:57.000Z",
+          "wordCount": 899,
+          "title": "I Bought Friendster for $30k — Here&#8217;s What...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048847-a-georgia-teen-diagnosed-",
+          "author": null,
+          "description": "A Georgia teen diagnosed with a rare cancer used his Make-A-Wish gift to help the homeless in his community. “I got out of my version of heck, and I want to help others who are in a similar situation, their own version.”",
+          "link": "https://kottke.org/26/04/0048847-a-georgia-teen-diagnosed-",
+          "publishedOn": "2026-04-29T14:47:57.000Z",
+          "wordCount": 806,
+          "title": "A Georgia teen diagnosed with a rare cancer  used his...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048843-the-intelligence-of-llms-",
+          "author": null,
+          "description": "The intelligence of LLMs is “a function of the social complexity of the civilization whose language it digested”, and their widespread use will lead to a thinning of that complexity, “undermining the conditions for its own advancement”. (And ours.)",
+          "link": "https://kottke.org/26/04/0048843-the-intelligence-of-llms-",
+          "publishedOn": "2026-04-29T14:10:02.000Z",
+          "wordCount": 512,
+          "title": "The intelligence of LLMs is &#8220;a function of the...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048841-teaser-trailer-for-season",
           "author": null,
@@ -2278,16 +2348,6 @@
           "wordCount": 595,
           "title": "Help! My Favorite Athlete Is an Idiot  (Alt headline:...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/03/0048641-astronaut-michael-fincke-",
-          "author": null,
-          "description": "Astronaut Michael Fincke was rendered unable to speak while on the ISS, prompting an evacuation to Earth. “We’re almost 100% sure that this is a space-related thing.” Uh, I’ve been reading a lot of sci-fi recently; this is *exactly* how It starts.",
-          "link": "https://kottke.org/26/03/0048641-astronaut-michael-fincke-",
-          "publishedOn": "2026-03-31T01:54:09.000Z",
-          "wordCount": 622,
-          "title": "Astronaut Michael Fincke was rendered unable to speak...",
-          "imageUrl": ""
         }
       ]
     },
@@ -4268,6 +4328,26 @@
       "siteUrl": "https://www.bunniestudios.com/blog",
       "articles": [
         {
+          "id": "https://www.bunniestudios.com/blog/?p=7551",
+          "author": "bunnie",
+          "description": "The Ware for April 2026 is a little bit different. Instead of showing a circuit board, I thought it’d be interesting to go inside the chips themselves and try to identify what’s happening on at the silicon level. Since chip reading isn’t a widely spread skill, we’ll start with a gentle introduction. For this series […]",
+          "link": "https://www.bunniestudios.com/blog/2026/name-that-ware-april-2026/",
+          "publishedOn": "2026-04-29T15:18:20.000Z",
+          "wordCount": 1169,
+          "title": "Name that Ware, April 2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.bunniestudios.com/blog/?p=7549",
+          "author": "bunnie",
+          "description": "The Ware for March 2026 is a Elecom DST C30SV 6 in 1 USB “docking station”. I’ll give the prize to tayken – the ware itself wasn’t terribly hard to guess on its own, so this month I’m just going with the first interesting response. Congrats, email me for your prize! As other readers commented, […]",
+          "link": "https://www.bunniestudios.com/blog/2026/winner-name-that-ware-march-2026/",
+          "publishedOn": "2026-04-29T15:18:08.000Z",
+          "wordCount": 939,
+          "title": "Winner, Name that Ware March 2026",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.bunniestudios.com/blog/?p=7542",
           "author": "bunnie",
           "description": "The Ware for March 2026 is below: This ware malfunctioned, so I took it apart to see what’s going on and now it’s this month’s Name that Ware. As it would be far too easy to guess if I showed the whole circuit board, this is just a portion of the whole ware. I suspect […]",
@@ -4378,6 +4458,26 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=161363",
+          "author": "Gregory Barber",
+          "description": "Zermelo-Fraenkel set theory is so widely accepted that modern mathematicians hardly think about it. But believing in its core principles didn’t come easily.            \nThe post Why Math’s Final Axiom Proved So Controversial first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/why-maths-final-axiom-proved-so-controversial-20260429/",
+          "publishedOn": "2026-04-29T14:54:31.000Z",
+          "wordCount": 2788,
+          "title": "Why Math’s Final Axiom Proved So Controversial",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/ZFCExplainer-crKristinaArmitage-Social.jpg"
+        },
+        {
+          "id": "https://www.quantamagazine.org/?p=161331",
+          "author": "Gregory Barber",
+          "description": "Ultrafinitism, a philosophy that rejects the infinite, has long been dismissed as mathematical heresy. But it is also producing new insights in math and beyond.            \nThe post What Can We Gain by Losing Infinity? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/what-can-we-gain-by-losing-infinity-20260429/",
+          "publishedOn": "2026-04-29T14:50:04.000Z",
+          "wordCount": 5592,
+          "title": "What Can We Gain by Losing Infinity?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Anti-Infinity-cr-Kristina-Armitage-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=161272",
           "author": "Shalma Wegsman",
