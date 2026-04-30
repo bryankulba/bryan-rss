@@ -35,6 +35,60 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-30T01:24:23.000Z">2026-04-29</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything" target="_blank" rel="noopener noreferrer">The Zig project&#x27;s rationale for their firm anti-AI contribution policy</a>
+          </h2>
+          <p class="feed-item__desc">Zig has one of the most stringent anti-LLM policies of any major open source project:
+No LLMs for issues.
+No LLMs for pull requests.
+No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.
+The most prominent project written in Zig may be the Bun JavaScript runtime, which was acquired by Anthropic in December 2025 and, unsurprisingly, makes heavy use of AI assistance.
+Bun operates its own fork of Zig, and recently achieved a 4x performance improvement on Bun compile after adding "parallel semantic analysis and multiple codegen units to the llvm backend". Here's that code. But @bunjavascript says:
+We do not currently plan to upstream this, as Zig has a strict ban on LLM-authored contributions.
+In Contributor Poker and Zig's AI Ban (via Lobste.rs) Zig Software Foundation VP of Community Loris Cro explains the rationale for this strict ban. It's the best articulation I've seen yet for a blanket ban on LLM-assisted contributions:
+In successful open source projects you eventually reach a point where you start getting more PRs than what you’re capable of processing. Given what I mentioned so far, it would make sense to stop accepting imperfect PRs in order to maximize ROI from your work, but that’s not what we do in the Zig project. Instead, we try our best to help new contributors to get their work in, even if they need some help getting there. We don’t do this just because it’s the “right” thing to do, but also because it’s the smart thing to do.
+Zig values contributors over their contributions. Each contributor represents an investment by the Zig core team - the primary goal of reviewing and accepting PRs isn't to land new code, it's to help grow new contributors who can become trusted and prolific over time.
+LLM assistance breaks that completely. It doesn't matter if the LLM helps you submit a perfect PR to Zig - the time the Zig team spends reviewing your work does nothing to help them add new, confident, trustworthy contributors to their overall project.
+Loris explains the name here:
+The reason I call it “contributor poker” is because, just like people say about the actual card game, “you play the person, not the cards”. In contributor poker, you bet on the contributor, not on the contents of their first PR.
+This makes a lot of sense to me. It relates to an idea I've seen circulating elsewhere: if a PR was mostly written by an LLM, why should a project maintainer spend time reviewing and discussing that PR as opposed to firing up their own LLM to solve the same problem?
+Tags: anthropic, zig, ai, llms, ai-ethics, open-source, javascript, ai-assisted-programming, generative-ai, bun</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-29T23:52:50.000Z">2026-04-29</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything" target="_blank" rel="noopener noreferrer">llm 0.32a1</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.32a1
+Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. #1426
+Tags: llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/04/0048844-winners-of-the-gdt-nature">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-04-29T20:55:53.000Z">2026-04-29</time>
@@ -316,6 +370,27 @@ Tags: projects, python, ai, annotated-release-notes, generative-ai, llms, llm</p
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/llm-032a0-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-04-29T18:57:47.000Z">2026-04-29</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything" target="_blank" rel="noopener noreferrer">llm 0.32a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.32a0
+See the annotated release notes.
+Tags: llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
         </div>
       </div>
     </article>
@@ -12538,114 +12613,6 @@ Tags: llm</p>
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048633-nasas-lro-found-a-new" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048633-nasas-lro-found-a-new">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/us-the-last-big-petrostate">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-31T14:00:00.000Z">2026-03-31</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/us-the-last-big-petrostate" target="_blank" rel="noopener noreferrer">The US Is the Last Big Petrostate</a>
-          </h2>
-          <p class="feed-item__desc">In a conversation with economist Paul Krugman, climate journalist David Roberts asserts that the United States and China are going in different directions in energy, one forwards and one back.
-One of the grand international stories right now — though it’s very hard when you’re in the midst of as much chaos and insanity as we are to get clear about the big narratives — is that the US is basically aligning itself as the last big petrostate. We’re going to go down with the fossil fuel ship, and China is aligning itself as the first electrostate. It is rapidly electrifying its economy, and it is dominating the technologies that enable an electrostate: batteries, EVs, etc., all that stuff. So where do you think the future lies?
-All these emerging nations right now are stuck on coal. The story the US is trying to tell you is “shift to LNG. It’s cleaner than coal.” You’ll get some emission reductions. And then, basically, you’ll become dependent on our LNG. And for emerging nations, that’s an enormous 50 year investment program. They’re thinking now, “well, where is the energy situation going to be in 50 years? Do we think that fossil fuels are going to win in 50 years?” By launching this war, I think we have accelerated the process of pushing emerging nations into China’s arms and faster toward clean energy. That’s going to be the big effect of all this.
-
- 
-
-        
-         
-Tags: climate crisis · David Roberts · energy · Paul Krugman</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/us-the-last-big-petrostate" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/us-the-last-big-petrostate">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/03/0048639-help-my-favorite-athlete-">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-31T13:17:09.000Z">2026-03-31</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/03/0048639-help-my-favorite-athlete-" target="_blank" rel="noopener noreferrer">Help! My Favorite Athlete Is an Idiot  (Alt headline:...</a>
-          </h2>
-          <p class="feed-item__desc">Help! My Favorite Athlete Is an Idiot (Alt headline: When Sports Heroes Have Terrible Opinions). “Just root for the jersey and not necessarily the nitwit wearing it?”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/03/0048639-help-my-favorite-athlete-" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/03/0048639-help-my-favorite-athlete-">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/petra-collins-interview-2026-star">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-31T11:04:01.000Z">2026-03-31</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/petra-collins-interview-2026-star" target="_blank" rel="noopener noreferrer">Beauty and horror</a>
-          </h2>
-          <p class="feed-item__desc">Techno-optimism is dead, hypersexualized youth is back, and more with Petra Collins the young photographic goat</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/petra-collins-interview-2026-star" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/petra-collins-interview-2026-star">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substack-post-media.s3.amazonaws.com/public/images/219e6d8a-e126-4f1c-9250-2dc3237f2dcb_1190x810.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18135">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-31T10:12:10.000Z">2026-03-31</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/in-the-meantime-31mar26/" target="_blank" rel="noopener noreferrer">in the meantime: 31mar26</a>
-          </h2>
-          <p class="feed-item__desc">Music for Intersecting Planes by Leila Bordreuil + Kali Malone Aphelion by Isolde & Isobelle Vision Transmissions by zakè, Christina Giannone, Tyresta Bodies of Water…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18135" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18135">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2020/04/thames-hold.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12595">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-03-31T10:00:59.000Z">2026-03-31</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/03/31/actual-federalist-society/" target="_blank" rel="noopener noreferrer">Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links State Dems must stop ICE from stealing the midterms: The literal least they can do. Hey look at this: Delights to delectate. Object permanence: Power-strip bug; "Peaceful Baghdad" was actually Istanbul; Disney pirates Disney font; AMC v day-and-date; SF growth chart; Cuba’s meritocratic free med schools; Trump strategist v Trump; Monopoly so fragile. Upcoming appearances: Montreal, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. State Dems must stop ICE from stealing the midterms (permalink) Donald Trump has announced his intention to steal the midterms with a voter suppression law that would ban the mail-in voting…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12595" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12595">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
           </div>
         </div>
       </div>

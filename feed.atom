@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-29T21:02:50.431Z</updated>
+    <updated>2026-04-30T02:43:53.068Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Zig project's rationale for their firm anti-AI contribution policy]]></title>
+        <id>https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything"/>
+        <updated>2026-04-30T01:24:23.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://ziglang.org/">Zig</a> has one of the most stringent <a href="https://ziglang.org/code-of-conduct/">anti-LLM policies</a> of any major open source project:</p>
+<blockquote>
+<p>No LLMs for issues.</p>
+<p>No LLMs for pull requests.</p>
+<p>No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.</p>
+</blockquote>
+<p>The most prominent project written in Zig may be the <a href="https://bun.com/">Bun</a> JavaScript runtime, which was <a href="https://bun.com/blog/bun-joins-anthropic">acquired by Anthropic</a> in December 2025 and, unsurprisingly, makes heavy use of AI assistance.</p>
+<p>Bun operates its own fork of Zig, and recently <a href="https://x.com/bunjavascript/status/2048427636414923250">achieved a 4x performance improvement</a> on Bun compile after adding "parallel semantic analysis and multiple codegen units to the llvm backend". Here's <a href="https://github.com/oven-sh/zig/compare/upgrade-0.15.2%E2%80%A6upgrade-0.15.2-fast">that code</a>. But <a href="https://twitter.com/bunjavascript/status/2048428104893542781">@bunjavascript says</a>:</p>
+<blockquote>
+<p>We do not currently plan to upstream this, as Zig has a strict ban on LLM-authored contributions.</p>
+</blockquote>
+<p>In <a href="https://kristoff.it/blog/contributor-poker-and-ai/">Contributor Poker and Zig's AI Ban</a> (<a href="https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban">via Lobste.rs</a>) Zig Software Foundation VP of Community Loris Cro explains the rationale for this strict ban. It's the best articulation I've seen yet for a blanket ban on LLM-assisted contributions:</p>
+<blockquote>
+<p>In successful open source projects you eventually reach a point where you start getting more PRs than what you’re capable of processing. Given what I mentioned so far, it would make sense to stop accepting imperfect PRs in order to maximize ROI from your work, but that’s not what we do in the Zig project. Instead, <strong>we try our best to help new contributors to get their work in, even if they need some help getting there</strong>. We don’t do this just because it’s the “right” thing to do, but also <strong>because it’s the smart thing to do</strong>.</p>
+</blockquote>
+<p>Zig values contributors over their contributions. Each contributor represents an investment by the Zig core team - the primary goal of reviewing and accepting PRs isn't to land new code, it's to help grow new contributors who can become trusted and prolific over time.</p>
+<p>LLM assistance breaks that completely. It doesn't matter if the LLM helps you submit a <em>perfect</em> PR to Zig - the time the Zig team spends reviewing your work does nothing to help them add new, confident, trustworthy contributors to their overall project.</p>
+<p>Loris explains the name here:</p>
+<blockquote>
+<p>The reason I call it “contributor poker” is because, just like people say about the actual card game, “you play the person, not the cards”. In contributor poker, you bet on the contributor, not on the contents of their first PR.</p>
+</blockquote>
+<p>This makes a lot of sense to me. It relates to an idea I've seen circulating elsewhere: if a PR was mostly written by an LLM, why should a project maintainer spend time reviewing and discussing that PR as opposed to firing up their own LLM to solve the same problem?</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/zig">zig</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/bun">bun</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.32a1]]></title>
+        <id>https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything"/>
+        <updated>2026-04-29T23:52:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32a1">llm 0.32a1</a></p>
+    <blockquote>
+<ul>
+<li>Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. <a href="https://github.com/simonw/llm/issues/1426">#1426</a></li>
+</ul>
+</blockquote>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Winners of the GDT Nature Photographer of the Year 2026 .]]></title>
         <id>https://kottke.org/26/04/0048844-winners-of-the-gdt-nature</id>
@@ -197,6 +247,19 @@ assistant:
 <p>I'm undecided as to whether that should be a feature in 0.32 or I should hold it for 0.33.</p>
     
         <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.32a0]]></title>
+        <id>https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything"/>
+        <updated>2026-04-29T18:57:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32a0">llm 0.32a0</a></p>
+    <p>See <a href="https://simonwillison.net/2026/Apr/29/llm/">the annotated release notes</a>.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -7721,64 +7784,6 @@ Useful writeup of today's supply chain attack against Axios, the HTTP client NPM
         <summary type="html"><![CDATA[NASA’s LRO found a new crater on the Moon…it’s 225 meters across and 43 meters deep. “According to predictions based on other lunar landmarks, a crater that big should form only once in 139 years.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The US Is the Last Big Petrostate]]></title>
-        <id>https://kottke.org/26/03/us-the-last-big-petrostate</id>
-        <link href="https://kottke.org/26/03/us-the-last-big-petrostate"/>
-        <updated>2026-03-31T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In a conversation with economist Paul Krugman, climate journalist David Roberts asserts that the United States and China are going in different directions in energy, one forwards and one back.
-One of the grand international stories right now — though it’s very hard when you’re in the midst of as much chaos and insanity as we are to get clear about the big narratives — is that the US is basically aligning itself as the last big petrostate. We’re going to go down with the fossil fuel ship, and China is aligning itself as the first electrostate. It is rapidly electrifying its economy, and it is dominating the technologies that enable an electrostate: batteries, EVs, etc., all that stuff. So where do you think the future lies?
-All these emerging nations right now are stuck on coal. The story the US is trying to tell you is “shift to LNG. It’s cleaner than coal.” You’ll get some emission reductions. And then, basically, you’ll become dependent on our LNG. And for emerging nations, that’s an enormous 50 year investment program. They’re thinking now, “well, where is the energy situation going to be in 50 years? Do we think that fossil fuels are going to win in 50 years?” By launching this war, I think we have accelerated the process of pushing emerging nations into China’s arms and faster toward clean energy. That’s going to be the big effect of all this.
-
- 
-
-        
-         
-Tags: climate crisis · David Roberts · energy · Paul Krugman]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Help! My Favorite Athlete Is an Idiot  (Alt headline:...]]></title>
-        <id>https://kottke.org/26/03/0048639-help-my-favorite-athlete-</id>
-        <link href="https://kottke.org/26/03/0048639-help-my-favorite-athlete-"/>
-        <updated>2026-03-31T13:17:09.000Z</updated>
-        <summary type="html"><![CDATA[Help! My Favorite Athlete Is an Idiot (Alt headline: When Sports Heroes Have Terrible Opinions). “Just root for the jersey and not necessarily the nitwit wearing it?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beauty and horror]]></title>
-        <id>https://www.blackbirdspyplane.com/p/petra-collins-interview-2026-star</id>
-        <link href="https://www.blackbirdspyplane.com/p/petra-collins-interview-2026-star"/>
-        <updated>2026-03-31T11:04:01.000Z</updated>
-        <summary type="html"><![CDATA[Techno-optimism is dead, hypersexualized youth is back, and more with Petra Collins the young photographic goat]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[in the meantime: 31mar26]]></title>
-        <id>https://warrenellis.ltd/?p=18135</id>
-        <link href="https://warrenellis.ltd/status/in-the-meantime-31mar26/"/>
-        <updated>2026-03-31T10:12:10.000Z</updated>
-        <summary type="html"><![CDATA[Music for Intersecting Planes by Leila Bordreuil + Kali Malone Aphelion by Isolde & Isobelle Vision Transmissions by zakè, Christina Giannone, Tyresta Bodies of Water…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: State Dems must stop ICE from stealing the midterms (31 Mar 2026)]]></title>
-        <id>https://pluralistic.net/?p=12595</id>
-        <link href="https://pluralistic.net/2026/03/31/actual-federalist-society/"/>
-        <updated>2026-03-31T10:00:59.000Z</updated>
-        <summary type="html"><![CDATA[Today's links State Dems must stop ICE from stealing the midterms: The literal least they can do. Hey look at this: Delights to delectate. Object permanence: Power-strip bug; "Peaceful Baghdad" was actually Istanbul; Disney pirates Disney font; AMC v day-and-date; SF growth chart; Cuba’s meritocratic free med schools; Trump strategist v Trump; Monopoly so fragile. Upcoming appearances: Montreal, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. State Dems must stop ICE from stealing the midterms (permalink) Donald Trump has announced his intention to steal the midterms with a voter suppression law that would ban the mail-in voting…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
