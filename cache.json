@@ -2338,36 +2338,6 @@
           "wordCount": 759,
           "title": "&#8220;By focusing its narrative on the tech industry...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/03/0048637-for-the-latest-episode-of",
-          "author": null,
-          "description": "For the latest episode of Design Matters, Debbie Millman interviews Timothy Snyder about “how we misunderstand freedom, why truth and empathy are under threat, and what this political moment asks of us”. Millman is an *excellent* interviewer.",
-          "link": "https://kottke.org/26/03/0048637-for-the-latest-episode-of",
-          "publishedOn": "2026-03-31T17:25:50.000Z",
-          "wordCount": 618,
-          "title": "For the latest episode of Design Matters,  Debbie Millman...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/03/0048638-endgame-for-the-open-web",
-          "author": null,
-          "description": "Endgame for the Open Web, brought on by LLM bots, content summarizing while driving no traffic, increasing paywalls for information of all kinds, locking down APIs (due to AI abuse), attacks on Wikipedia, disruption of open source communities, etc.",
-          "link": "https://kottke.org/26/03/0048638-endgame-for-the-open-web",
-          "publishedOn": "2026-03-31T16:16:17.000Z",
-          "wordCount": 916,
-          "title": "Endgame for the Open Web , brought on by LLM bots,...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/03/0048633-nasas-lro-found-a-new",
-          "author": null,
-          "description": "NASA’s LRO found a new crater on the Moon…it’s 225 meters across and 43 meters deep. “According to predictions based on other lunar landmarks, a crater that big should form only once in 139 years.”",
-          "link": "https://kottke.org/26/03/0048633-nasas-lro-found-a-new",
-          "publishedOn": "2026-03-31T15:00:26.000Z",
-          "wordCount": 611,
-          "title": "NASA&#8217;s LRO found a new crater on the Moon...",
-          "imageUrl": ""
         }
       ]
     },
@@ -4332,26 +4302,6 @@
           "publishedOn": "2026-03-31T20:35:51.000Z",
           "wordCount": 751,
           "title": "llm 0.30",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.4\">llm-echo 0.4</a></p>\n    <blockquote>\n<ul>\n<li>Prompts now have the <code>input_tokens</code> and <code>output_tokens</code> fields populated on the response.</li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything",
-          "publishedOn": "2026-03-31T16:48:59.000Z",
-          "wordCount": 707,
-          "title": "llm-echo 0.4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.3\">llm-echo 0.3</a></p>\n    <blockquote>\n<ul>\n<li>Mechanisms for <a href=\"https://github.com/simonw/llm-echo/blob/0.3/README.md#tool-calling\">testing tool calls</a>. #3</li>\n<li>Mechanism for <a href=\"https://github.com/simonw/llm-echo/blob/0.3/README.md#raw-responses\">testing raw responses</a>. #4</li>\n<li>New <code>echo-needs-key</code> model for <a href=\"https://github.com/simonw/llm-echo/blob/0.3/README.md#echo-needs-key-model\">testing model key logic</a>. #7</li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything",
-          "publishedOn": "2026-03-31T15:43:26.000Z",
-          "wordCount": 716,
-          "title": "llm-echo 0.3",
           "imageUrl": null
         }
       ]

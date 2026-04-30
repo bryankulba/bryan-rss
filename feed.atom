@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-30T02:43:53.068Z</updated>
+    <updated>2026-04-30T06:26:35.586Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -7716,72 +7716,6 @@ Useful writeup of today's supply chain attack against Axios, the HTTP client NPM
         <link href="https://kottke.org/26/03/0048635-by-focusing-its-narrative"/>
         <updated>2026-03-31T19:04:08.000Z</updated>
         <summary type="html"><![CDATA[“By focusing its narrative on the tech industry itself, Halt and Catch Fire’s staying power has only increased. The story it tells still has something to say about our present-day reality.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[For the latest episode of Design Matters,  Debbie Millman...]]></title>
-        <id>https://kottke.org/26/03/0048637-for-the-latest-episode-of</id>
-        <link href="https://kottke.org/26/03/0048637-for-the-latest-episode-of"/>
-        <updated>2026-03-31T17:25:50.000Z</updated>
-        <summary type="html"><![CDATA[For the latest episode of Design Matters, Debbie Millman interviews Timothy Snyder about “how we misunderstand freedom, why truth and empathy are under threat, and what this political moment asks of us”. Millman is an *excellent* interviewer.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-echo 0.4]]></title>
-        <id>https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything"/>
-        <updated>2026-03-31T16:48:59.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-echo/releases/tag/0.4">llm-echo 0.4</a></p>
-    <blockquote>
-<ul>
-<li>Prompts now have the <code>input_tokens</code> and <code>output_tokens</code> fields populated on the response.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Endgame for the Open Web , brought on by LLM bots,...]]></title>
-        <id>https://kottke.org/26/03/0048638-endgame-for-the-open-web</id>
-        <link href="https://kottke.org/26/03/0048638-endgame-for-the-open-web"/>
-        <updated>2026-03-31T16:16:17.000Z</updated>
-        <summary type="html"><![CDATA[Endgame for the Open Web, brought on by LLM bots, content summarizing while driving no traffic, increasing paywalls for information of all kinds, locking down APIs (due to AI abuse), attacks on Wikipedia, disruption of open source communities, etc.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-echo 0.3]]></title>
-        <id>https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/31/llm-echo-2/#atom-everything"/>
-        <updated>2026-03-31T15:43:26.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-echo/releases/tag/0.3">llm-echo 0.3</a></p>
-    <blockquote>
-<ul>
-<li>Mechanisms for <a href="https://github.com/simonw/llm-echo/blob/0.3/README.md#tool-calling">testing tool calls</a>. #3</li>
-<li>Mechanism for <a href="https://github.com/simonw/llm-echo/blob/0.3/README.md#raw-responses">testing raw responses</a>. #4</li>
-<li>New <code>echo-needs-key</code> model for <a href="https://github.com/simonw/llm-echo/blob/0.3/README.md#echo-needs-key-model">testing model key logic</a>. #7</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NASA&#8217;s LRO found a new crater on the Moon...]]></title>
-        <id>https://kottke.org/26/03/0048633-nasas-lro-found-a-new</id>
-        <link href="https://kottke.org/26/03/0048633-nasas-lro-found-a-new"/>
-        <updated>2026-03-31T15:00:26.000Z</updated>
-        <summary type="html"><![CDATA[NASA’s LRO found a new crater on the Moon…it’s 225 meters across and 43 meters deep. “According to predictions based on other lunar landmarks, a crater that big should form only once in 139 years.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
