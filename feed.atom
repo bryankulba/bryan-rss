@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-30T06:26:35.586Z</updated>
+    <updated>2026-04-30T13:50:12.559Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Two-way swaggerjacking]]></title>
+        <id>https://www.blackbirdspyplane.com/p/two-way-swaggerjacking</id>
+        <link href="https://www.blackbirdspyplane.com/p/two-way-swaggerjacking"/>
+        <updated>2026-04-30T11:03:16.000Z</updated>
+        <summary type="html"><![CDATA[A Top 5 Most Delightful Shop in the World provides. Plus sick footwear hiding in plain sight, dope new zip hoodies & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Zig project's rationale for their firm anti-AI contribution policy]]></title>
         <id>https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything</id>
@@ -7510,214 +7520,6 @@ Tags: David Futrelle · Marc Andreessen · politics]]></summary>
     <p>Tags: <a href="https://simonwillison.net/tags/slop">slop</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nothing Works in Trump&#8217;s America — Except Racism ....]]></title>
-        <id>https://kottke.org/26/03/0048640-nothing-works-in-trumps-a</id>
-        <link href="https://kottke.org/26/03/0048640-nothing-works-in-trumps-a"/>
-        <updated>2026-04-01T01:24:16.000Z</updated>
-        <summary type="html"><![CDATA[Nothing Works in Trump’s America — Except Racism. “Trump is objectively bad at running the government, but he’s objectively good at running a Klan rally, and his supporters value the latter so much that they forgive the former.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Office Ambience 507]]></title>
-        <id>https://www.thewire.co.uk/audio/tracks/office-ambience-507</id>
-        <link href="https://www.thewire.co.uk/audio/tracks/office-ambience-507"/>
-        <updated>2026-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The full chart:
-
-American Sharks
-    
-Not Dead Yet
-    
-Permanent Teeth)
-
-Marisa Anderson
-    
-The Anthology Of UnAmerican Folk Music
-    
-Thrill Jockey)
-
-ANSIEDAD1000
-    
-Abizzmo
-    
-Hakuna Kulala)
-
-Art Ensemble Of Chicago
-    
-People In Sorrow
-    
-Play Loud!)
-
-Steve Austin
-    
-Marked Cards & Loaded Dice
-    
-SuperNova)
-
-Betamax vs Sylvia Hallett
-    
-Betamax vs Sylvia Hallett
-    
-Picot)
-
-Xu Cheng
-    
-Poems Without Words
-    
-Dusty Ballz)
-
-Egg Meat
-    
-The Most Pathetic Poem Is Small People On Fire
-    
-Mutualism)
-
-otay:onii
-    
-Love Is In The Shit
-    
-Pelagic)
-
-Master’s Ashes
-    
-How The Mighty Have Fallen
-    
-Time To Kill)
-
-My Cat Is An Alien
-    
-IN∞FI∞NI∞TO
-    
-Opax Private Press/Elliptical Noise)
-
-upsammy & Valentina Magaletti
-    
-Seismo
-    
-Pan)
-
-Waltz Time
-    
-Happy Hometown 2026.02.09 @ Guangzhou Wuting
-    
-Friends Music/YouTube)
-
-Dagmar Zuniga
-    
-in filth your mystery is kingdom/far smile peasant in yellow music
-    
-AD 93)
-
-J Zunz
-    
-Obsidiana
-    
-Rocket)]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supply Chain Attack on Axios Pulls Malicious Dependency from npm]]></title>
-        <id>https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything"/>
-        <updated>2026-03-31T23:28:40.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://socket.dev/blog/axios-npm-package-compromised">Supply Chain Attack on Axios Pulls Malicious Dependency from npm</a></strong></p>
-Useful writeup of today's supply chain attack against Axios, the HTTP client NPM package with <a href="https://www.npmjs.com/package/axios">101 million weekly downloads</a>. Versions <code>1.14.1</code> and <code>0.30.4</code> both included a new dependency called <code>plain-crypto-js</code> which was freshly published malware, stealing credentials and installing a remote access trojan (RAT).</p>
-<p>It looks like the attack came from a leaked long-lived npm token. Axios have <a href="https://github.com/axios/axios/issues/7055">an open issue to adopt trusted publishing</a>, which would ensure that only their GitHub Actions workflows are able to publish to npm. The malware packages were published without an accompanying GitHub release, which strikes me as a useful heuristic for spotting potentially malicious releases - the same pattern was present for LiteLLM <a href="https://simonwillison.net/2026/Mar/24/malicious-litellm/">last week</a> as well.
-
-    <p><small></small>Via <a href="https://lobste.rs/s/l57wuc/supply_chain_attack_on_axios">lobste.rs</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/npm">npm</a>, <a href="https://simonwillison.net/tags/supply-chain">supply-chain</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2026 issue of the HTML Review , &#8220;an annual...]]></title>
-        <id>https://kottke.org/26/03/0048634-the-2026-issue-of-the</id>
-        <link href="https://kottke.org/26/03/0048634-the-2026-issue-of-the"/>
-        <updated>2026-03-31T23:13:53.000Z</updated>
-        <summary type="html"><![CDATA[The 2026 issue of the HTML Review, “an annual journal of literature made to exist on the web”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-llm 0.1a4]]></title>
-        <id>https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything"/>
-        <updated>2026-03-31T21:17:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a4">datasette-llm 0.1a4</a></p>
-    <blockquote>
-<ul>
-<li>Ability to <a href="https://github.com/datasette/datasette-llm/blob/0.1a4/README.md#model-references-with-custom-api-keys">configure different API keys for models based on their purpose</a> - for example, set it up so enrichments always use <code>gpt-5.4-mini</code> with an API key dedicated to that purpose. <a href="https://github.com/datasette/datasette-llm/pull/4">#4</a></li>
-</ul>
-</blockquote>
-<p>I released <a href="https://github.com/simonw/llm-echo/releases/tag/0.3">llm-echo 0.3</a> to provide an API key testing utility I needed for the tests for this new feature.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mark Simonson reminisces about when he discovered type...]]></title>
-        <id>https://kottke.org/26/03/0048636-mark-simonson-reminisces-</id>
-        <link href="https://kottke.org/26/03/0048636-mark-simonson-reminisces-"/>
-        <updated>2026-03-31T21:14:33.000Z</updated>
-        <summary type="html"><![CDATA[Mark Simonson reminisces about when he discovered type design. “The idea of coming up with an original alphabet design fired my imagination. And learning that it was possible to design type professionally was a revelation.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-all-models-async 0.1]]></title>
-        <id>https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything"/>
-        <updated>2026-03-31T20:52:02.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-all-models-async/releases/tag/0.1">llm-all-models-async 0.1</a></p>
-    <p>LLM plugins can define new models in both <a href="https://llm.datasette.io/en/stable/plugins/tutorial-model-plugin.html">sync</a> and <a href="https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#async-models">async</a> varieties. The async variants are most common for API-backed models - sync variants tend to be things that run the model directly within the plugin.</p>
-<p>My <a href="https://simonwillison.net/2026/Mar/30/mr-chatterbox/#running-it-locally-with-llm">llm-mrchatterbox</a> plugin is sync only. I wanted to try it out with various Datasette LLM features (specifically <a href="https://github.com/datasette/datasette-enrichments-llm">datasette-enrichments-llm</a>) but Datasette can only use async models.</p>
-<p>So... I had Claude spin up this plugin that turns sync models into async models using a thread pool. This ended up needing an extra plugin hook mechanism in LLM itself, which I shipped just now in <a href="https://llm.datasette.io/en/stable/changelog.html#v0-30">LLM 0.30</a>.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/async">async</a>, <a href="https://simonwillison.net/tags/python">python</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.30]]></title>
-        <id>https://simonwillison.net/2026/Mar/31/llm/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Mar/31/llm/#atom-everything"/>
-        <updated>2026-03-31T20:35:51.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.30">llm 0.30</a></p>
-    <blockquote>
-<ul>
-<li>The <a href="http://llm.datasette.io/en/stable/plugins/plugin-hooks.html#plugin-hooks-register-models">register_models() plugin hook</a> now takes an optional <code>model_aliases</code> parameter listing all of the models, async models and aliases that have been registered so far by other plugins. A plugin with <code>@hookimpl(trylast=True)</code> can use this to take previously registered models into account. <a href="https://github.com/simonw/llm/issues/1389">#1389</a></li>
-<li>Added docstrings to public classes and methods and included those directly in the documentation.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;By focusing its narrative on the tech industry...]]></title>
-        <id>https://kottke.org/26/03/0048635-by-focusing-its-narrative</id>
-        <link href="https://kottke.org/26/03/0048635-by-focusing-its-narrative"/>
-        <updated>2026-03-31T19:04:08.000Z</updated>
-        <summary type="html"><![CDATA[“By focusing its narrative on the tech industry itself, Halt and Catch Fire’s staying power has only increased. The story it tells still has something to say about our present-day reality.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
