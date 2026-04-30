@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-04-30T13:50:12.559Z</updated>
+    <updated>2026-04-30T17:19:34.234Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Farewell, Voting Rights Act]]></title>
+        <id>https://kottke.org/26/04/farewell-voting-rights-act</id>
+        <link href="https://kottke.org/26/04/farewell-voting-rights-act"/>
+        <updated>2026-04-30T16:14:36.000Z</updated>
+        <summary type="html"><![CDATA[Adam Serwer writing about the yesterday’s Supreme Court decision that guts much of whatever remains of the Voting Rights Act:
+In states with large Black populations that remain under Republican control — half of the Black American population resides in the South — lawmakers will now be able to draw districts that dilute Black residents’ voting power. In his opinion for the right-wing majority, Justice Samuel Alito wrote that “in considering the constitutionality of a districting scheme, courts must treat partisan advantage like any other race-neutral aim: a constitutionally permissible criterion that States may rely on as desired.” The Court’s decision is consonant with the philosophy, articulated by Kilpatrick in his earlier days, that the state is oppressive when it interferes with the r…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Come on everyone, we&#8217;re going to  Cursor Camp !]]></title>
+        <id>https://kottke.org/26/04/0048852-come-on-everyone-were-goi</id>
+        <link href="https://kottke.org/26/04/0048852-come-on-everyone-were-goi"/>
+        <updated>2026-04-30T15:21:02.000Z</updated>
+        <summary type="html"><![CDATA[Come on everyone, we’re going to Cursor Camp!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: How not to ban surveillance pricing (30 Apr 2026)]]></title>
+        <id>https://pluralistic.net/?p=12748</id>
+        <link href="https://pluralistic.net/2026/04/30/something-must-be-done/"/>
+        <updated>2026-04-30T14:38:35.000Z</updated>
+        <summary type="html"><![CDATA[Today's links How not to ban surveillance pricing: Maryland's new consumer protection law is all loophole. Hey look at this: Delights to delectate. Object permanence: Google's 8,000 Linux servers; Battleshoe; Knitted potholes; Unpack the court; "Robot Artists and Black Swans"; Enshittifying tech jobs. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How not to ban surveillance pricing (permalink) If you want to piss me off, it's easy: just breezily assert that our tech regulation problems are the result of the fast pace of technological change racing ahead of the plodding speed of governmental action…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two-way swaggerjacking]]></title>
         <id>https://www.blackbirdspyplane.com/p/two-way-swaggerjacking</id>
@@ -14,6 +45,16 @@
         <summary type="html"><![CDATA[A Top 5 Most Delightful Shop in the World provides. Plus sick footwear hiding in plain sight, dope new zip hoodies & more]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Tone control, part 2]]></title>
+        <id>https://www.robinsloan.com/lab/tone-control-2/</id>
+        <link href="https://www.robinsloan.com/lab/tone-control-2/"/>
+        <updated>2026-04-30T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>A subtle sycophancy. <a href="https://www.robinsloan.com/lab/tone-control-2/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -7438,88 +7479,6 @@ Tags: David Futrelle · Marc Andreessen · politics]]></summary>
         <summary type="html"><![CDATA[Today's links Trumpismo vs minilateralism: The enemy gets a vote. Hey look at this: Delights to delectate. Object permanence: My new sigfile is unstoppable; TBL on the future of the web (2006); Wonder Woman sweater pattern; Unpatchable drug cabinets; 50-building mural; DRM v (the next) Netflix. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trumpismo vs minilateralism (permalink) As November Kelly has pointed out, the weirdest thing about Trumpismo is how the man seethes and rails against a game that is thoroughly rigged in America's favor, because he resents havi…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-extract 0.3a0]]></title>
-        <id>https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything"/>
-        <updated>2026-04-01T03:32:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-extract/releases/tag/0.3a0">datasette-extract 0.3a0</a></p>
-    <ul>
-<li>Now uses <a href="https://github.com/datasette/datasette-llm">datasette-llm</a> to manage model configuration, which means you can control which models are available for extraction tasks using the <code>extract</code> purpose and <a href="https://github.com/datasette/datasette-llm/blob/main/README.md#configuration">LLM model configuration</a>. <a href="https://github.com/datasette/datasette-extract/issues/38">#38</a></li>
-</ul>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-enrichments-llm 0.2a0]]></title>
-        <id>https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything"/>
-        <updated>2026-04-01T03:28:44.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a0">datasette-enrichments-llm 0.2a0</a></p>
-    <blockquote>
-<ul>
-<li>This plugin now uses <a href="https://github.com/datasette/datasette-llm">datasette-llm</a> to configure and manage models. This means it's possible to <a href="https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration">specify which models</a> should be made available for enrichments, using the new <code>enrichments</code> purpose.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-llm-usage 0.2a0]]></title>
-        <id>https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything"/>
-        <updated>2026-04-01T03:24:03.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm-usage/releases/tag/0.2a0">datasette-llm-usage 0.2a0</a></p>
-    <blockquote>
-<ul>
-<li>Removed features relating to allowances and estimated pricing. These are now the domain of <a href="https://github.com/datasette/datasette-llm-accountant">datasette-llm-accountant</a>.</li>
-<li>Now depends on <a href="https://github.com/datasette/datasette-llm">datasette-llm</a> for model configuration. <a href="https://github.com/datasette/datasette-llm-usage/pull/3">#3</a></li>
-<li>Full prompts and responses and tool calls can now be logged to the <code>llm_usage_prompt_log</code> table in the internal database if you set the new <code>datasette-llm-usage.log_prompts</code> plugin configuration setting.</li>
-<li>Redesigned the <code>/-/llm-usage-simple-prompt</code> page, which now requires the <code>llm-usage-simple-prompt</code> permission.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-llm 0.1a5]]></title>
-        <id>https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything"/>
-        <updated>2026-04-01T03:11:01.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a5">datasette-llm 0.1a5</a></p>
-    <blockquote>
-<ul>
-<li>The <code>llm_prompt_context()</code> plugin hook wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track tool call loops. <a href="https://github.com/datasette/datasette-llm">#5</a></li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Soohoon Choi]]></title>
-        <id>https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything"/>
-        <updated>2026-04-01T02:07:16.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.greptile.com/blog/ai-slopware-future"><p>I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers ship reliable features fastest, which requires simple, maintainable code. Good code will prevail, not only because we want it to (though we do!), but because economic forces demand it. Markets will not reward slop in coding, in the long-term.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.greptile.com/blog/ai-slopware-future">Soohoon Choi</a>, Slop Is Not Necessarily The Future</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/slop">slop</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>

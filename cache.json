@@ -120,6 +120,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/tone-control-2/",
+          "author": null,
+          "description": "<p>A subtle sycophancy. <a href=\"https://www.robinsloan.com/lab/tone-control-2/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/tone-control-2/",
+          "publishedOn": "2026-04-30T10:00:00.000Z",
+          "wordCount": 5468,
+          "title": "Dragoncatcher: Tone control, part 2",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/talkie/",
           "author": null,
           "description": "<p>A fabulous experiment. <a href=\"https://www.robinsloan.com/lab/talkie/\">Read here.</a></p>",
@@ -269,6 +279,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/04/farewell-voting-rights-act",
+          "author": null,
+          "description": "Adam Serwer writing about the yesterday’s Supreme Court decision that guts much of whatever remains of the Voting Rights Act:\nIn states with large Black populations that remain under Republican control — half of the Black American population resides in the South — lawmakers will now be able to draw districts that dilute Black residents’ voting power. In his opinion for the right-wing majority, Justice Samuel Alito wrote that “in considering the constitutionality of a districting scheme, courts must treat partisan advantage like any other race-neutral aim: a constitutionally permissible criterion that States may rely on as desired.” The Court’s decision is consonant with the philosophy, articulated by Kilpatrick in his earlier days, that the state is oppressive when it interferes with the r…",
+          "link": "https://kottke.org/26/04/farewell-voting-rights-act",
+          "publishedOn": "2026-04-30T16:14:36.000Z",
+          "wordCount": 2015,
+          "title": "Farewell, Voting Rights Act",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/04/0048852-come-on-everyone-were-goi",
+          "author": null,
+          "description": "Come on everyone, we’re going to Cursor Camp!",
+          "link": "https://kottke.org/26/04/0048852-come-on-everyone-were-goi",
+          "publishedOn": "2026-04-30T15:21:02.000Z",
+          "wordCount": 672,
+          "title": "Come on everyone, we&#8217;re going to  Cursor Camp !",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/04/0048844-winners-of-the-gdt-nature",
           "author": null,
@@ -2394,6 +2424,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=12748",
+          "author": "Cory Doctorow",
+          "description": "Today's links How not to ban surveillance pricing: Maryland's new consumer protection law is all loophole. Hey look at this: Delights to delectate. Object permanence: Google's 8,000 Linux servers; Battleshoe; Knitted potholes; Unpack the court; \"Robot Artists and Black Swans\"; Enshittifying tech jobs. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How not to ban surveillance pricing (permalink) If you want to piss me off, it's easy: just breezily assert that our tech regulation problems are the result of the fast pace of technological change racing ahead of the plodding speed of governmental action…",
+          "link": "https://pluralistic.net/2026/04/30/something-must-be-done/",
+          "publishedOn": "2026-04-30T14:38:35.000Z",
+          "wordCount": 3977,
+          "title": "Pluralistic: How not to ban surveillance pricing (30 Apr 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=12743",
           "author": "Cory Doctorow",
           "description": "Today's links Vicky Osterweil's \"The Extended Universe\": How Disney killed the movies and took over the world. Hey look at this: Delights to delectate. Object permanence: Zappa v censorship; Chemistry set with no chemicals; Short cons; Mitsubishi's Dieselgate; \"Bellwether.\" Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Vicky Osterweil's \"The Extended Universe\" (permalink) Vicky Osterweil's The Extended Universe: How Disney Killed the Movies and Took Over the World makes the kind of long, polemical, startling and illuminating argument that defines great cultural criticism; it's the sort of book tha…",
@@ -4178,56 +4218,6 @@
           "publishedOn": "2026-04-01T22:00:34.000Z",
           "wordCount": 711,
           "title": "datasette-enrichments-llm 0.2a1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-extract/releases/tag/0.3a0\">datasette-extract 0.3a0</a></p>\n    <ul>\n<li>Now uses <a href=\"https://github.com/datasette/datasette-llm\">datasette-llm</a> to manage model configuration, which means you can control which models are available for extraction tasks using the <code>extract</code> purpose and <a href=\"https://github.com/datasette/datasette-llm/blob/main/README.md#configuration\">LLM model configuration</a>. <a href=\"https://github.com/datasette/datasette-extract/issues/38\">#38</a></li>\n</ul>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
-          "publishedOn": "2026-04-01T03:32:16.000Z",
-          "wordCount": 726,
-          "title": "datasette-extract 0.3a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-enrichments-llm/releases/tag/0.2a0\">datasette-enrichments-llm 0.2a0</a></p>\n    <blockquote>\n<ul>\n<li>This plugin now uses <a href=\"https://github.com/datasette/datasette-llm\">datasette-llm</a> to configure and manage models. This means it's possible to <a href=\"https://github.com/datasette/datasette-enrichments-llm/blob/0.2a0/README.md#configuration\">specify which models</a> should be made available for enrichments, using the new <code>enrichments</code> purpose.</li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything",
-          "publishedOn": "2026-04-01T03:28:44.000Z",
-          "wordCount": 723,
-          "title": "datasette-enrichments-llm 0.2a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm-usage/releases/tag/0.2a0\">datasette-llm-usage 0.2a0</a></p>\n    <blockquote>\n<ul>\n<li>Removed features relating to allowances and estimated pricing. These are now the domain of <a href=\"https://github.com/datasette/datasette-llm-accountant\">datasette-llm-accountant</a>.</li>\n<li>Now depends on <a href=\"https://github.com/datasette/datasette-llm\">datasette-llm</a> for model configuration. <a href=\"https://github.com/datasette/datasette-llm-usage/pull/3\">#3</a></li>\n<li>Full prompts and responses and tool calls can now be logged to the <code>llm_usage_prompt_log</code> table in the internal database if you set the new <code>datasette-llm-usage.log_prompts</code> plugin configuration setting.</li>\n<li>Redesigned the <code>/-/llm-usage-simple-prompt</code> page, which now requires the <code>llm-usage-simple-prompt</code> permission.</li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
-          "publishedOn": "2026-04-01T03:24:03.000Z",
-          "wordCount": 759,
-          "title": "datasette-llm-usage 0.2a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a5\">datasette-llm 0.1a5</a></p>\n    <blockquote>\n<ul>\n<li>The <code>llm_prompt_context()</code> plugin hook wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track tool call loops. <a href=\"https://github.com/datasette/datasette-llm\">#5</a></li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything",
-          "publishedOn": "2026-04-01T03:11:01.000Z",
-          "wordCount": 728,
-          "title": "datasette-llm 0.1a5",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://www.greptile.com/blog/ai-slopware-future\"><p>I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers ship reliable features fastest, which requires simple, maintainable code. Good code will prevail, not only because we want it to (though we do!), but because economic forces demand it. Markets will not reward slop in coding, in the long-term.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.greptile.com/blog/ai-slopware-future\">Soohoon Choi</a>, Slop Is Not Necessarily The Future</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/slop\">slop</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
-          "publishedOn": "2026-04-01T02:07:16.000Z",
-          "wordCount": 756,
-          "title": "Quoting Soohoon Choi",
           "imageUrl": null
         }
       ]
