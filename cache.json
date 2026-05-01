@@ -280,6 +280,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/0048855-i-fixed-a-few-bugs",
+          "author": null,
+          "description": "I fixed a few bugs on the Rolodex yesterday — some of the feeds weren’t updating and modifying sites wasn’t working properly. (Members get the mini-feedreader view!)",
+          "link": "https://kottke.org/26/05/0048855-i-fixed-a-few-bugs",
+          "publishedOn": "2026-05-01T16:37:26.000Z",
+          "wordCount": 740,
+          "title": "I fixed a few bugs on  the Rolodex  yesterday — some of...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048845-since-1900-scientists-hav",
+          "author": null,
+          "description": "“Since 1900, scientists have observed more than 20 phases of ice, many of them shaped under extreme conditions. The growing list includes hot ice and even ice that conducts electricity.”",
+          "link": "https://kottke.org/26/05/0048845-since-1900-scientists-hav",
+          "publishedOn": "2026-05-01T15:47:54.000Z",
+          "wordCount": 751,
+          "title": "&#8220;Since 1900,  scientists have observed more than 20...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048833-on-the-futility-of-border",
+          "author": null,
+          "description": "On the futility of border walls. “The Ozymandian ruins of many such walls litter our ancient and modern landscapes, because for as long as humanity has built hard borders, people have inevitably found ways to cross, topple or simply bypass them.”",
+          "link": "https://kottke.org/26/05/0048833-on-the-futility-of-border",
+          "publishedOn": "2026-05-01T14:58:18.000Z",
+          "wordCount": 496,
+          "title": "On the futility of border walls . &#8220;The Ozymandian...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048854-the-secret-to-success-is",
+          "author": null,
+          "description": "The Secret to Success Is ‘Monotasking’. “We find that in ­real‑world work, the more switches in attention a person makes, the lower is their end‑­of‑day assessed productivity.”",
+          "link": "https://kottke.org/26/05/0048854-the-secret-to-success-is",
+          "publishedOn": "2026-05-01T14:23:10.000Z",
+          "wordCount": 1582,
+          "title": "The Secret to Success Is &#8216;Monotasking&#8217; ....",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/04/farewell-voting-rights-act",
           "author": null,
           "description": "Adam Serwer writing about the yesterday’s Supreme Court decision that guts much of whatever remains of the Voting Rights Act:\nIn states with large Black populations that remain under Republican control — half of the Black American population resides in the South — lawmakers will now be able to draw districts that dilute Black residents’ voting power. In his opinion for the right-wing majority, Justice Samuel Alito wrote that “in considering the constitutionality of a districting scheme, courts must treat partisan advantage like any other race-neutral aim: a constitutionally permissible criterion that States may rely on as desired.” The Court’s decision is consonant with the philosophy, articulated by Kilpatrick in his earlier days, that the state is oppressive when it interferes with the r…",
@@ -4283,6 +4323,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=161513",
+          "author": "Marlowe Starling",
+          "description": "Remarkably preserved fossils found in southern China offer a fascinating window into what life looked like at the end of the Cambrian explosion, with half of the species uncovered being new to science.            \nThe post A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+          "publishedOn": "2026-05-01T15:05:38.000Z",
+          "wordCount": 3079,
+          "title": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/New-Canbrian-Fossils-cr.Han-Zeng-et.al-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=161363",
           "author": "Gregory Barber",

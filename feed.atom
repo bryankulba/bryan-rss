@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-01T13:15:38.824Z</updated>
+    <updated>2026-05-01T16:57:08.886Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I fixed a few bugs on  the Rolodex  yesterday — some of...]]></title>
+        <id>https://kottke.org/26/05/0048855-i-fixed-a-few-bugs</id>
+        <link href="https://kottke.org/26/05/0048855-i-fixed-a-few-bugs"/>
+        <updated>2026-05-01T16:37:26.000Z</updated>
+        <summary type="html"><![CDATA[I fixed a few bugs on the Rolodex yesterday — some of the feeds weren’t updating and modifying sites wasn’t working properly. (Members get the mini-feedreader view!)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;Since 1900,  scientists have observed more than 20...]]></title>
+        <id>https://kottke.org/26/05/0048845-since-1900-scientists-hav</id>
+        <link href="https://kottke.org/26/05/0048845-since-1900-scientists-hav"/>
+        <updated>2026-05-01T15:47:54.000Z</updated>
+        <summary type="html"><![CDATA[“Since 1900, scientists have observed more than 20 phases of ice, many of them shaped under extreme conditions. The growing list includes hot ice and even ice that conducts electricity.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life]]></title>
+        <id>https://www.quantamagazine.org/?p=161513</id>
+        <link href="https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/"/>
+        <updated>2026-05-01T15:05:38.000Z</updated>
+        <summary type="html"><![CDATA[Remarkably preserved fossils found in southern China offer a fascinating window into what life looked like at the end of the Cambrian explosion, with half of the species uncovered being new to science.            
+The post A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Marlowe Starling</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the futility of border walls . &#8220;The Ozymandian...]]></title>
+        <id>https://kottke.org/26/05/0048833-on-the-futility-of-border</id>
+        <link href="https://kottke.org/26/05/0048833-on-the-futility-of-border"/>
+        <updated>2026-05-01T14:58:18.000Z</updated>
+        <summary type="html"><![CDATA[On the futility of border walls. “The Ozymandian ruins of many such walls litter our ancient and modern landscapes, because for as long as humanity has built hard borders, people have inevitably found ways to cross, topple or simply bypass them.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Secret to Success Is &#8216;Monotasking&#8217; ....]]></title>
+        <id>https://kottke.org/26/05/0048854-the-secret-to-success-is</id>
+        <link href="https://kottke.org/26/05/0048854-the-secret-to-success-is"/>
+        <updated>2026-05-01T14:23:10.000Z</updated>
+        <summary type="html"><![CDATA[The Secret to Success Is ‘Monotasking’. “We find that in ­real‑world work, the more switches in attention a person makes, the lower is their end‑­of‑day assessed productivity.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Launching a permanent archive for XOXO]]></title>
         <id>https://waxy.org/?p=50595</id>
