@@ -280,6 +280,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/0048813-ada-palmer-bruce-schneier",
+          "author": null,
+          "description": "Ada Palmer & Bruce Schneier: AI Learns Language From Skewed Sources. That Could Change How We Humans Speak – and Think. “Our sense of the world may become distorted in ways we have barely begun to comprehend.”",
+          "link": "https://kottke.org/26/05/0048813-ada-palmer-bruce-schneier",
+          "publishedOn": "2026-05-01T20:42:33.000Z",
+          "wordCount": 511,
+          "title": "Ada Palmer & Bruce Schneier:  AI Learns Language From...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/who-merits-the-longest-ny-times-obituaries",
+          "author": null,
+          "description": "Using the NY Times Archive API, journalist Ted Alcorn built Below the Fold, a dashboard through which you can explore the last 25 years of Times coverage: 2.2 million articles containing 1.5 billion words. You can slice and dice this data in a bunch of different ways — it’s a fantastic resource.\nOne of the site’s sections is about obituaries. From that data, Alcorn produced this infographic of whose obits contained the highest word count:\n\nAs you can see, it’s a lot of world leaders, religious leaders, politicians, and white men. There only appear to be five women on the list. Notable non-politicians include Aleksandr Solzhenitsyn, Muhammad Ali, and Charles Schulz.\nThe whole dashboard is fun/enlightening to explore.\n\n \n\n        \n         \nTags: infoviz · journalism · NY Times · obituaries · Ted Alcorn",
+          "link": "https://kottke.org/26/05/who-merits-the-longest-ny-times-obituaries",
+          "publishedOn": "2026-05-01T19:55:00.000Z",
+          "wordCount": 850,
+          "title": "Who Merits the Longest NY Times Obituaries?",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1777650907-6fe143ac.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048823-amam-i-alternatively-infl",
+          "author": null,
+          "description": "Am…am I “alternatively influential”? Defined roughly as “public thinkers and tastemakers who have real clout in their own demesnes despite only modest internet followings”.",
+          "link": "https://kottke.org/26/05/0048823-amam-i-alternatively-infl",
+          "publishedOn": "2026-05-01T19:04:25.000Z",
+          "wordCount": 1097,
+          "title": "Am&#8230;am I  &#8220;alternatively influential&#8221; ?...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it",
+          "author": null,
+          "description": "This is excellent: Jamelle Bouie explains why he thinks the Supreme Court is corrupt and what we (through Congress) can do about it. Not all video transcripts work as text, but this one does, so I’m including his full remarks here: \nThe Supreme Court is corrupt.\nYou might hear that and think, “Well, Jamelle, you just disagree with the rulings. They’re not corrupt. They’re doing their jobs.” But I want to posit to you that they’re not doing their jobs. They’re in fact doing something very different. They’re acting as a super legislature, an unelected group of people who have taken it upon themselves to correct Congress. Not when Congress has overstepped its bounds, not when Congress has overstepped its powers, but when the court simply doesn’t like what they’re doing.\nTypically when we use …",
+          "link": "https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it",
+          "publishedOn": "2026-05-01T18:15:00.000Z",
+          "wordCount": 2512,
+          "title": "The Supreme Court Is Corrupt. This Is What We Can Do About It.",
+          "imageUrl": "https://i.ytimg.com/vi/SRzS61buXkQ/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/the-film-that-attacks-you",
+          "author": null,
+          "description": "For his latest video essay, Evan Puschak tells us about Un Chien Andalou, the pioneering surrealist short film by Luis Buñuel and Salvador Dalí. The film is particularly notable for a shocking shot in the opening scene, which, if you’ve seen it, you’ve likely never forgotten. Said Buñuel of the film:\nThis film has no intention of attracting nor pleasing the spectator; indeed, on the contrary, it attacks him, to the degree that he belongs to a society with which surrealism is at war.\n\n\t\nYou can watch Un Chien Andalou on YouTube:\n\nOne wonders what Buñuel and Dalí would have made of YouTube…\n\n \n\n        \n         \nTags: art · film school · Luis Buñuel · movies · Salvador Dali · Un Chien Andalou · video",
+          "link": "https://kottke.org/26/05/the-film-that-attacks-you",
+          "publishedOn": "2026-05-01T17:15:00.000Z",
+          "wordCount": 919,
+          "title": "The Film That Attacks You",
+          "imageUrl": "https://i.ytimg.com/vi/sj1y9FDJKCM/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/05/0048855-i-fixed-a-few-bugs",
           "author": null,
           "description": "I fixed a few bugs on the Rolodex yesterday — some of the feeds weren’t updating and modifying sites wasn’t working properly. (Members get the mini-feedreader view!)",
@@ -3216,6 +3266,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/inat-sightings\">iNaturalist Sightings</a></p>\n    <p>I wanted to see my <a href=\"https://www.inaturalist.org\">iNaturalist</a> observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using Claude Code for web.</p>\n<p>I started by building an <a href=\"https://github.com/simonw/inaturalist-clumper\">inaturalist-clumper</a> Python CLI for fetching and \"clumping\" observations - by default clumps use observations within 2 hours and 5km of each other.</p>\n<p>Then I setup <a href=\"https://github.com/simonw/inaturalist-clumps\">simonw/inaturalist-clumps</a> as a <a href=\"https://simonwillison.net/series/git-scraping/\">Git scraping</a> repository to run that tool and record the result to <a href=\"https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json\">clumps.json</a>.</p>\n<p>That JSON file is hosted on GitHub, which means it can be fetched by JavaScript using CORS.</p>\n<p>Finally I ran this prompt against my <a href=\"https://github.com/simonw/tools\">simonw/tools</a> repo:</p>\n<blockquote>\n<p><code>Build inat-sightings.html - an app that does a fetch() against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg small.jpg URLs for the thumbnails - with loading=lazy - but when a thumbnail is clicked showing the large.jpg in an HTML modal. Both small and large should include the common species names if available</code></p>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/inaturalist\">inaturalist</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+          "publishedOn": "2026-05-01T19:35:41.000Z",
+          "wordCount": 876,
+          "title": "iNaturalist Sightings",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
           "author": null,
           "description": "<p><strong><a href=\"https://github.com/openai/codex/releases/tag/rust-v0.128.0\">Codex CLI 0.128.0 adds /goal</a></strong></p>\nThe latest version of OpenAI's Codex CLI coding agent adds their own version of the <a href=\"https://ghuntley.com/ralph/\">Ralph loop</a>: you can now set a <code>/goal</code> and Codex will keep on looping until it evaluates that the goal has been completed... or the configured token budget has been exhausted.</p>\n<p>It looks like the feature is mainly implemented though the <a href=\"https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/continuation.md\">goals/continuation.md</a> and <a href=\"https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/budget_limit.md\">goals/budget_limit.md</a> prompts, which are automatically injected at the end of a turn.\n\n    <p><small></small>Via <a href=\"https://twitter.com/fcoury/status/2049917871799636201\">@fcoury</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/system-prompts\">system-prompts</a>, <a href=\"https://simonwillison.net/tags/codex-cli\">codex-cli</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
@@ -4194,16 +4254,6 @@
           "wordCount": 712,
           "title": "llm-gemini 0.30",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
-          "author": null,
-          "description": "<p>I just sent the March edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-03-march.md\">access it here</a>. In this month's newsletter:</p>\n<ul>\n<li>More agentic engineering patterns</li>\n<li>Streaming experts with MoE models on a Mac</li>\n<li>Model releases in March</li>\n<li>Vibe porting</li>\n<li>Supply chain attacks against PyPI and NPM</li>\n<li>Stuff I shipped</li>\n<li>What I'm using, March 2026 edition</li>\n<li>And a couple of museums</li>\n</ul>\n<p>Here's <a href=\"https://gist.github.com/simonw/8b5fa061937842659dbcd5bd676ce0e8\">a copy of the February newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
-          "publishedOn": "2026-04-02T05:15:04.000Z",
-          "wordCount": 780,
-          "title": "March 2026 sponsors-only newsletter",
-          "imageUrl": null
         }
       ]
     },
@@ -4305,18 +4355,7 @@
       "title": "fo.am weblog feed",
       "feedUrl": "https://fo.am/blog/rss/",
       "siteUrl": "https://fo.am/weblog/rss/",
-      "articles": [
-        {
-          "id": "http://fo.am/blog/2026/04/01/coalition-infrastructure/",
-          "author": null,
-          "description": "What if reimagining technology starts not with better tools, but with how we organise and gather?\n\n\n\nIn a conversation with Kate Rich, moving between bug reports, bylaws, and spell‑making, TITiPI – The Institute for Technology in the Public Interest – works through their experiment in instituting otherwise. They rethink what institutions are for, and what kinds of life they make possible. What do budgets, servers, and contracts become when shaped by abolitionist commitments, radical kinship, and elastic solidarities?\nhttps://anarchive.fo.am/silver/technology_in_the_public_interest/\n\n\n\n“Community and Coalition‑Building” follows a different thread: how formats for gathering travel, and what happens when they are remade in transit – picked up, compressed, decompressed, and adapted by people with their own infrastructures, constraints, and ways of working. It treats coalition as a design question, less a matter of shared ideology than of carefully tuned starting conditions that keep rooms open to unexpected participants and practices.\nhttps://anarchive.fo.am/silver/community_and_coalition_building/\n\n\n\nBoth texts find politics in the operational layer – how things are run, hosted, configured, and maintained – and both find something worth celebrating there: the ongoing, careful, sometimes joyful work of making and tending infrastructure for collective life.",
-          "link": "http://fo.am/blog/2026/04/01/coalition-infrastructure/",
-          "publishedOn": "2026-04-02T07:53:06.000Z",
-          "wordCount": 302,
-          "title": "Coalition & Infrastructure",
-          "imageUrl": "https://fo.am/media/images/01-travelling-formats.2e16d0ba.fill-600x600.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Quanta Magazine",

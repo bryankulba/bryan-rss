@@ -2,10 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-01T16:57:08.886Z</updated>
+    <updated>2026-05-01T20:51:45.636Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ada Palmer & Bruce Schneier:  AI Learns Language From...]]></title>
+        <id>https://kottke.org/26/05/0048813-ada-palmer-bruce-schneier</id>
+        <link href="https://kottke.org/26/05/0048813-ada-palmer-bruce-schneier"/>
+        <updated>2026-05-01T20:42:33.000Z</updated>
+        <summary type="html"><![CDATA[Ada Palmer & Bruce Schneier: AI Learns Language From Skewed Sources. That Could Change How We Humans Speak – and Think. “Our sense of the world may become distorted in ways we have barely begun to comprehend.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who Merits the Longest NY Times Obituaries?]]></title>
+        <id>https://kottke.org/26/05/who-merits-the-longest-ny-times-obituaries</id>
+        <link href="https://kottke.org/26/05/who-merits-the-longest-ny-times-obituaries"/>
+        <updated>2026-05-01T19:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Using the NY Times Archive API, journalist Ted Alcorn built Below the Fold, a dashboard through which you can explore the last 25 years of Times coverage: 2.2 million articles containing 1.5 billion words. You can slice and dice this data in a bunch of different ways — it’s a fantastic resource.
+One of the site’s sections is about obituaries. From that data, Alcorn produced this infographic of whose obits contained the highest word count:
+
+As you can see, it’s a lot of world leaders, religious leaders, politicians, and white men. There only appear to be five women on the list. Notable non-politicians include Aleksandr Solzhenitsyn, Muhammad Ali, and Charles Schulz.
+The whole dashboard is fun/enlightening to explore.
+
+ 
+
+        
+         
+Tags: infoviz · journalism · NY Times · obituaries · Ted Alcorn]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iNaturalist Sightings]]></title>
+        <id>https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything"/>
+        <updated>2026-05-01T19:35:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/inat-sightings">iNaturalist Sightings</a></p>
+    <p>I wanted to see my <a href="https://www.inaturalist.org">iNaturalist</a> observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using Claude Code for web.</p>
+<p>I started by building an <a href="https://github.com/simonw/inaturalist-clumper">inaturalist-clumper</a> Python CLI for fetching and "clumping" observations - by default clumps use observations within 2 hours and 5km of each other.</p>
+<p>Then I setup <a href="https://github.com/simonw/inaturalist-clumps">simonw/inaturalist-clumps</a> as a <a href="https://simonwillison.net/series/git-scraping/">Git scraping</a> repository to run that tool and record the result to <a href="https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json">clumps.json</a>.</p>
+<p>That JSON file is hosted on GitHub, which means it can be fetched by JavaScript using CORS.</p>
+<p>Finally I ran this prompt against my <a href="https://github.com/simonw/tools">simonw/tools</a> repo:</p>
+<blockquote>
+<p><code>Build inat-sightings.html - an app that does a fetch() against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg small.jpg URLs for the thumbnails - with loading=lazy - but when a thumbnail is clicked showing the large.jpg in an HTML modal. Both small and large should include the common species names if available</code></p>
+</blockquote>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/inaturalist">inaturalist</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Am&#8230;am I  &#8220;alternatively influential&#8221; ?...]]></title>
+        <id>https://kottke.org/26/05/0048823-amam-i-alternatively-infl</id>
+        <link href="https://kottke.org/26/05/0048823-amam-i-alternatively-infl"/>
+        <updated>2026-05-01T19:04:25.000Z</updated>
+        <summary type="html"><![CDATA[Am…am I “alternatively influential”? Defined roughly as “public thinkers and tastemakers who have real clout in their own demesnes despite only modest internet followings”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Supreme Court Is Corrupt. This Is What We Can Do About It.]]></title>
+        <id>https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it</id>
+        <link href="https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it"/>
+        <updated>2026-05-01T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[This is excellent: Jamelle Bouie explains why he thinks the Supreme Court is corrupt and what we (through Congress) can do about it. Not all video transcripts work as text, but this one does, so I’m including his full remarks here: 
+The Supreme Court is corrupt.
+You might hear that and think, “Well, Jamelle, you just disagree with the rulings. They’re not corrupt. They’re doing their jobs.” But I want to posit to you that they’re not doing their jobs. They’re in fact doing something very different. They’re acting as a super legislature, an unelected group of people who have taken it upon themselves to correct Congress. Not when Congress has overstepped its bounds, not when Congress has overstepped its powers, but when the court simply doesn’t like what they’re doing.
+Typically when we use …]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Film That Attacks You]]></title>
+        <id>https://kottke.org/26/05/the-film-that-attacks-you</id>
+        <link href="https://kottke.org/26/05/the-film-that-attacks-you"/>
+        <updated>2026-05-01T17:15:00.000Z</updated>
+        <summary type="html"><![CDATA[For his latest video essay, Evan Puschak tells us about Un Chien Andalou, the pioneering surrealist short film by Luis Buñuel and Salvador Dalí. The film is particularly notable for a shocking shot in the opening scene, which, if you’ve seen it, you’ve likely never forgotten. Said Buñuel of the film:
+This film has no intention of attracting nor pleasing the spectator; indeed, on the contrary, it attacks him, to the degree that he belongs to a society with which surrealism is at war.
+
+	
+You can watch Un Chien Andalou on YouTube:
+
+One wonders what Buñuel and Dalí would have made of YouTube…
+
+ 
+
+        
+         
+Tags: art · film school · Luis Buñuel · movies · Salvador Dali · Un Chien Andalou · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I fixed a few bugs on  the Rolodex  yesterday — some of...]]></title>
         <id>https://kottke.org/26/05/0048855-i-fixed-a-few-bugs</id>
@@ -7265,53 +7360,6 @@ A missed checklist item from when the site moved servers a few months ago.↩]]>
         <summary type="html"><![CDATA[Today's links It's extremely good that Claude's source-code leaked: Careful what you wish for. Hey look at this: Delights to delectate. Object permanence: "Elephantmen"; Eve Online war bankrolled by casino; Phishers take Mattel for $3m; Sanders wins 6 primaries, CNN airs Jesus "documentary"; Cuba is a vaccine powerhouse; Embroidered Toast; Mass layoffs at ATT. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. It's extremely good that Claude's source-code leaked (permalink) Anthropic's developers made an extremely basic configuration error, and as a result, the source…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coalition & Infrastructure]]></title>
-        <id>http://fo.am/blog/2026/04/01/coalition-infrastructure/</id>
-        <link href="http://fo.am/blog/2026/04/01/coalition-infrastructure/"/>
-        <updated>2026-04-02T07:53:06.000Z</updated>
-        <summary type="html"><![CDATA[What if reimagining technology starts not with better tools, but with how we organise and gather?
-
-
-
-In a conversation with Kate Rich, moving between bug reports, bylaws, and spell‑making, TITiPI – The Institute for Technology in the Public Interest – works through their experiment in instituting otherwise. They rethink what institutions are for, and what kinds of life they make possible. What do budgets, servers, and contracts become when shaped by abolitionist commitments, radical kinship, and elastic solidarities?
-https://anarchive.fo.am/silver/technology_in_the_public_interest/
-
-
-
-“Community and Coalition‑Building” follows a different thread: how formats for gathering travel, and what happens when they are remade in transit – picked up, compressed, decompressed, and adapted by people with their own infrastructures, constraints, and ways of working. It treats coalition as a design question, less a matter of shared ideology than of carefully tuned starting conditions that keep rooms open to unexpected participants and practices.
-https://anarchive.fo.am/silver/community_and_coalition_building/
-
-
-
-Both texts find politics in the operational layer – how things are run, hosted, configured, and maintained – and both find something worth celebrating there: the ongoing, careful, sometimes joyful work of making and tending infrastructure for collective life.]]></summary>
-        <author>
-            <name>fo.am weblog feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[March 2026 sponsors-only newsletter]]></title>
-        <id>https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything"/>
-        <updated>2026-04-02T05:15:04.000Z</updated>
-        <summary type="html"><![CDATA[<p>I just sent the March edition of my <a href="https://github.com/sponsors/simonw/">sponsors-only monthly newsletter</a>. If you are a sponsor (or if you start a sponsorship now) you can <a href="https://github.com/simonw-private/monthly/blob/main/2026-03-march.md">access it here</a>. In this month's newsletter:</p>
-<ul>
-<li>More agentic engineering patterns</li>
-<li>Streaming experts with MoE models on a Mac</li>
-<li>Model releases in March</li>
-<li>Vibe porting</li>
-<li>Supply chain attacks against PyPI and NPM</li>
-<li>Stuff I shipped</li>
-<li>What I'm using, March 2026 edition</li>
-<li>And a couple of museums</li>
-</ul>
-<p>Here's <a href="https://gist.github.com/simonw/8b5fa061937842659dbcd5bd676ce0e8">a copy of the February newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/newsletter">newsletter</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
