@@ -2318,16 +2318,6 @@
           "wordCount": 699,
           "title": "After two years off,  Tom Scott is back with a new...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/andreessen-inability-sit-quietly",
-          "author": null,
-          "description": "Tech investor and billionaire Marc Andreessen has many bad opinions (as evidenced by his investment portfolio). On a recent podcast, he shared a real boner: that he isn’t introspective, that people 400 years ago weren’t at all introspective, and that introspection was a construct invented by Freud in the early 1900s.\nIf you’ve read one (1) book, it’s not difficult to see what is wrong with Andreessen’s assertion and The Nation’s David Futrelle does a good job of rebutting it (archive link). But importantly, he also talks about why Andreessen might say such a thing (either because he honestly believes it or he’s performing the belief):\nWhen you examine your own motivations, desires, and inner life, neuroscientists have discovered, you are using the same parts of the brain that allow you to understand the motivations, desires, and inner lives of others. This means in turn that when you wall off access to your own inner life you also impair your capacity to imaginatively inhabit the experience of other people. Zero introspection is not just a personal quirk or a supposed productivity hack. It’s a permission slip for zero accountability. And Andreessen, it turns out, has good reasons for wanting to avoid accountability.\nHis firm has bet big on war and the companies that provide the technology behind it…\n\n\t\nFutrelle goes on to add:\nA man with enormous influence over the technologies of war and surveillance, over the political direction of the country, over the infrastructure of violence that his firm has spent a decade funding, has, in effect, announced that he has no interest in examining his conscience.\nAndreessen has built the perfect ideology for Silicon Valley in the Trump age: Move fast, break people, and don’t devote even a moment to self-examination.\n\n\t\nAs a commenter said on the video snippet I linked to above: “He’s just describing psychopathy. Zero introspection, zero remorse, 100% actions that benefit you.”\n\n \n\n        \n         \nTags: David Futrelle · Marc Andreessen · politics",
-          "link": "https://kottke.org/26/04/andreessen-inability-sit-quietly",
-          "publishedOn": "2026-04-01T14:00:00.000Z",
-          "wordCount": 1776,
-          "title": "&#8220;All of Humanity&#8217;s Problems Stem From Marc Andreessen&#8217;s Inability to Sit Quietly in a Room Alone&#8221;",
-          "imageUrl": ""
         }
       ]
     },
@@ -2336,6 +2326,26 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=50595",
+          "author": "Andy Baio",
+          "description": "We launched a permanent archive for all eight years of XOXO, along with some ridiculous merch, and we're really proud of it.",
+          "link": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
+          "publishedOn": "2026-05-01T02:27:18.000Z",
+          "wordCount": 1690,
+          "title": "Launching a permanent archive for XOXO",
+          "imageUrl": "https://waxy.org/wp-content/uploads/2026/04/image.png"
+        },
+        {
+          "id": "https://waxy.org/?p=50596",
+          "author": "Andy Baio",
+          "description": "what's the least amount of interactivity you can have in a game and still have it feel like a game? #",
+          "link": "https://www.rngdle.com/",
+          "publishedOn": "2026-04-30T20:59:54.000Z",
+          "wordCount": 82,
+          "title": "RNGdle",
+          "imageUrl": null
+        },
         {
           "id": "https://waxy.org/?p=50592",
           "author": "Andy Baio",
@@ -2671,21 +2681,6 @@
           "publishedOn": "2026-04-02T10:19:42.000Z",
           "wordCount": 5108,
           "title": "Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12604",
-          "author": "Cory Doctorow",
-          "description": "Today's links Trumpismo vs minilateralism: The enemy gets a vote. Hey look at this: Delights to delectate. Object permanence: My new sigfile is unstoppable; TBL on the future of the web (2006); Wonder Woman sweater pattern; Unpatchable drug cabinets; 50-building mural; DRM v (the next) Netflix. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trumpismo vs minilateralism (permalink) As November Kelly has pointed out, the weirdest thing about Trumpismo is how the man seethes and rails against a game that is thoroughly rigged in America's favor, because he resents havi…",
-          "link": "https://pluralistic.net/2026/04/01/minilateralism/",
-          "publishedOn": "2026-04-01T10:59:24.000Z",
-          "wordCount": 3216,
-          "title": "Pluralistic: Trumpismo vs minilateralism (01 Apr 2026)",
-          "enclosure": {
-            "url": "https://web.archive.org/web/20070706130940/http://webcast.oii.ox.ac.uk/download/oii/20060314_139/20060314_139.mp3",
-            "length": "70104504",
-            "type": "audio/mpeg"
-          },
           "imageUrl": null
         }
       ]
@@ -3270,6 +3265,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://github.com/openai/codex/releases/tag/rust-v0.128.0\">Codex CLI 0.128.0 adds /goal</a></strong></p>\nThe latest version of OpenAI's Codex CLI coding agent adds their own version of the <a href=\"https://ghuntley.com/ralph/\">Ralph loop</a>: you can now set a <code>/goal</code> and Codex will keep on looping until it evaluates that the goal has been completed... or the configured token budget has been exhausted.</p>\n<p>It looks like the feature is mainly implemented though the <a href=\"https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/continuation.md\">goals/continuation.md</a> and <a href=\"https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/budget_limit.md\">goals/budget_limit.md</a> prompts, which are automatically injected at the end of a turn.\n\n    <p><small></small>Via <a href=\"https://twitter.com/fcoury/status/2049917871799636201\">@fcoury</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/system-prompts\">system-prompts</a>, <a href=\"https://simonwillison.net/tags/codex-cli\">codex-cli</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
+          "publishedOn": "2026-04-30T23:23:17.000Z",
+          "wordCount": 792,
+          "title": "Codex CLI 0.128.0 adds /goal",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities\">Our evaluation of OpenAI&#x27;s GPT-5.5 cyber capabilities</a></strong></p>\nThe UK's AI Security Institute <a href=\"https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities\">previously evaluated Claude Mythos</a>: now they've evaluated GPT-5.5 for finding security vulnerability and found it to be comparable to Mythos, but unlike Mythos it's generally available right now.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+          "publishedOn": "2026-04-30T23:03:24.000Z",
+          "wordCount": 756,
+          "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban#c_cbtxub\"><p>It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are fundamentally different than LLM hallucinations, making them easy to spot. Furthermore, people who come from the world of agentic coding have a certain <em>digital smell</em> that is not obvious to them but is obvious to those who abstain. It's like when a smoker walks into the room, everybody who doesn't smoke instantly knows it.</p>\n<p>I'm not telling you not to smoke, but I am telling you not to smoke in my house.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban#c_cbtxub\">Andrew Kelley</a>, Creator of Zig</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/zig\">zig</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+          "link": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
+          "publishedOn": "2026-04-30T21:24:55.000Z",
+          "wordCount": 791,
+          "title": "Quoting Andrew Kelley",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything",
           "author": null,
