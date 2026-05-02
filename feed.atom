@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-01T20:51:45.636Z</updated>
+    <updated>2026-05-02T02:32:25.493Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ohhhhh dear, Richard Dawkins:  Is AI the Next Phase of...]]></title>
+        <id>https://kottke.org/26/05/0048859-is-ai-the-next-phase-of-e</id>
+        <link href="https://kottke.org/26/05/0048859-is-ai-the-next-phase-of-e"/>
+        <updated>2026-05-01T21:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Ohhhhh dear, Richard Dawkins: Is AI the Next Phase of Evolution? Claude Appears to Be Conscious. “My conversations with several Claudes and ChatGPTs have convinced me that these intelligent beings are at least as competent as any evolved organism.” 😬]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unruly Play : &#8220;A collection of 169 works of play...]]></title>
+        <id>https://kottke.org/26/05/0048840-unruly-play-a-collection-</id>
+        <link href="https://kottke.org/26/05/0048840-unruly-play-a-collection-"/>
+        <updated>2026-05-01T21:28:19.000Z</updated>
+        <summary type="html"><![CDATA[Unruly Play: “A collection of 169 works of play in unlikely places. Games about unusual things. Unexpected encounters.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ada Palmer & Bruce Schneier:  AI Learns Language From...]]></title>
         <id>https://kottke.org/26/05/0048813-ada-palmer-bruce-schneier</id>
@@ -7330,36 +7350,6 @@ A missed checklist item from when the site moved servers a few months ago.↩]]>
         <summary type="html"><![CDATA[“ICE Tours VT provides guided bus tours to many of these facilities, where you will learn about the scope, scale, and history of DHS in Vermont. Think Hollywood star tours, but instead of celebrity mansions you get federal surveillance infrastructure.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Picture Perfect. Challenging dominant Western beauty standards]]></title>
-        <id>https://we-make-money-not-art.com/?p=38948</id>
-        <link href="https://we-make-money-not-art.com/picture-perfect-challenging-dominant-western-beauty-standards/"/>
-        <updated>2026-04-02T13:59:19.000Z</updated>
-        <summary type="html"><![CDATA[The exhibition delves into the political, ethical and cultural facets of the ideas and practices surrounding beauty]]></summary>
-        <author>
-            <name>Regine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to not wear cool jackets wrong]]></title>
-        <id>https://www.blackbirdspyplane.com/p/how-to-not-wear-cool-jackets-wrong</id>
-        <link href="https://www.blackbirdspyplane.com/p/how-to-not-wear-cool-jackets-wrong"/>
-        <updated>2026-04-02T11:03:36.000Z</updated>
-        <summary type="html"><![CDATA[Guidance on the J.A.W.S. Interface, plus very dope jeans & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: It's extremely good that Claude's source-code leaked (02 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12614</id>
-        <link href="https://pluralistic.net/2026/04/02/limited-monopoly/"/>
-        <updated>2026-04-02T10:19:42.000Z</updated>
-        <summary type="html"><![CDATA[Today's links It's extremely good that Claude's source-code leaked: Careful what you wish for. Hey look at this: Delights to delectate. Object permanence: "Elephantmen"; Eve Online war bankrolled by casino; Phishers take Mattel for $3m; Sanders wins 6 primaries, CNN airs Jesus "documentary"; Cuba is a vaccine powerhouse; Embroidered Toast; Mass layoffs at ATT. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. It's extremely good that Claude's source-code leaked (permalink) Anthropic's developers made an extremely basic configuration error, and as a result, the source…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
