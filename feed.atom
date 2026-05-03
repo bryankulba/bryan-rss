@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-03T13:05:44.533Z</updated>
+    <updated>2026-05-03T16:47:42.027Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Anthropic]]></title>
+        <id>https://simonwillison.net/2026/May/3/anthropic/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/3/anthropic/#atom-everything"/>
+        <updated>2026-05-03T15:13:23.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.anthropic.com/research/claude-personal-guidance"><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situations, Claude expressed no sycophancy—only 9% of conversations included sycophantic behavior (Figure 2). But two domains were exceptions: we saw sycophantic behavior in 38% of conversations focused on spirituality, and 25% of conversations on relationships.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.anthropic.com/research/claude-personal-guidance">Anthropic</a>, How people ask Claude for personal guidance</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai-personality">ai-personality</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/sycophancy">sycophancy</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hard & breezy]]></title>
+        <id>https://www.blackbirdspyplane.com/p/hard-and-breezy</id>
+        <link href="https://www.blackbirdspyplane.com/p/hard-and-breezy"/>
+        <updated>2026-05-03T13:03:24.000Z</updated>
+        <summary type="html"><![CDATA[The endless sauce of waxed cotton, summery knits, vintage woven straw bags & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[potatoes: 3may26]]></title>
         <id>https://warrenellis.ltd/?p=18297</id>
@@ -6775,20 +6798,6 @@ awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
         <summary type="html"><![CDATA[Today's links EU ready to cave to Trump on tech: Surrendermonkeys ahoy. Hey look at this: Delights to delectate. Object permanence: "Among a Thousand Fireflies"; "fiscal" not "physical"; Ontario's pusher premiere can't distribute vaccines; You need your head examined (if you trust an AI therapist); Women tell Pence about their periods; Zombie economy and digital arm-breakers; The trouble with tariffs. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. EU ready to cave to Trump on tech (permalink) Crises precipitate change. That's no reason to induce a crisis, but you'…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Kyle Daigle]]></title>
-        <id>https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything"/>
-        <updated>2026-04-04T02:20:17.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/kdaigle/status/2040164759836778878"><p>[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.)</p>
-<p>GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/kdaigle/status/2040164759836778878">Kyle Daigle</a>, COO, GitHub</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/github-actions">github-actions</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>

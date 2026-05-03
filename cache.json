@@ -2801,6 +2801,22 @@
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
         {
+          "id": "https://www.blackbirdspyplane.com/p/hard-and-breezy",
+          "author": "Blackbird Spyplane",
+          "description": "The endless sauce of waxed cotton, summery knits, vintage woven straw bags & more",
+          "link": "https://www.blackbirdspyplane.com/p/hard-and-breezy",
+          "publishedOn": "2026-05-03T13:03:24.000Z",
+          "wordCount": null,
+          "title": "Hard & breezy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!wSeG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4972da24-bcc4-4cd8-ba5f-0f1b0b0d0126_450x800.gif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!wSeG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4972da24-bcc4-4cd8-ba5f-0f1b0b0d0126_450x800.gif"
+        },
+        {
           "id": "https://www.blackbirdspyplane.com/p/two-way-swaggerjacking",
           "author": "Blackbird Spyplane",
           "description": "A Top 5 Most Delightful Shop in the World provides. Plus sick footwear hiding in plain sight, dope new zip hoodies & more",
@@ -3149,6 +3165,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.anthropic.com/research/claude-personal-guidance\"><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situations, Claude expressed no sycophancy—only 9% of conversations included sycophantic behavior (Figure 2). But two domains were exceptions: we saw sycophantic behavior in 38% of conversations focused on spirituality, and 25% of conversations on relationships.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.anthropic.com/research/claude-personal-guidance\">Anthropic</a>, How people ask Claude for personal guidance</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-personality\">ai-personality</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/sycophancy\">sycophancy</a></p>",
+          "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+          "publishedOn": "2026-05-03T15:13:23.000Z",
+          "wordCount": 791,
+          "title": "Quoting Anthropic",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/2/sightings/#atom-everything",
           "author": null,
@@ -4037,16 +4063,6 @@
           "publishedOn": "2026-04-05T00:32:11.000Z",
           "wordCount": 711,
           "title": "research-llm-apis 2026-04-04",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/kdaigle/status/2040164759836778878\"><p>[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.)</p>\n<p>GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far this week.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/kdaigle/status/2040164759836778878\">Kyle Daigle</a>, COO, GitHub</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
-          "publishedOn": "2026-04-04T02:20:17.000Z",
-          "wordCount": 736,
-          "title": "Quoting Kyle Daigle",
           "imageUrl": null
         }
       ]
