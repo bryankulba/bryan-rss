@@ -2318,16 +2318,6 @@
           "wordCount": 1142,
           "title": "This Is Us",
           "imageUrl": "http://kottke.org/plus/misc/images/editor-1775226364-cbe60f10.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048654-does-what-it-says-on",
-          "author": null,
-          "description": "Does what it says on the tin: acid techno mix in Japanese sake brewery.",
-          "link": "https://kottke.org/26/04/0048654-does-what-it-says-on",
-          "publishedOn": "2026-04-03T13:55:56.000Z",
-          "wordCount": 753,
-          "title": "Does what it says on the tin:  acid techno mix in...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2862,16 +2852,6 @@
           "wordCount": 1214,
           "title": "&ldquo;Kind of yells &quot;Tumblr meme post&rdquo; even though I didn&rsquo;t find it on Tumblr",
           "imageUrl": "https://64.media.tumblr.com/39547ceb34e8d07cf14aea6e6b9c0f4e/96b05c88675d45af-af/s500x750/678d5314a98f84a41206acba1b68553a806c4d1a.webp"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/812870314198532096",
-          "author": null,
-          "description": "SHARE PRIZE XVIII Open Call ENG — Share Project\nPopular Singularity \nBy definition, a “Singularity” happens when science is advancing so fast that even scientists can’t understand it.\nHowever, *artists* can intuit it! \nThe “Singularity” concept was invented by Stanislaw Ulam and John Von Neumann, two elite veterans of the  atomic Manhattan Project.  A Singularity is always associated with scientists, programmers, rich moguls, and billionaire investors, even though none of them ever seem to know what it means and how  feels.  Instead, a *lived* singularity is left to the daily experience of all the rest of us.  \nObviously Artificial Intelligence is a complex and entangled technical subject.  The software is dense and stochastic, the server-farms are costly and gigantic, we know all that.   But if you’re a young modern child, you’re simply born in that fire.  You’re not amazed about it, you were given no choice.   If you’re ninety, it’s even more of your same old world, where you arrived long before any of these so-called amazing marvels.\n\nSo, this year, we ask our artists for clear, lucid, sincere art about the Singularity.  A popular, heartfelt folk art about it, immediate and accessible,  without any tech-jargon, or any ugly, lazy AI-slop.  Our city’s ivory tower is a National Cinema Museum, so we know “new media” and we also know “dead media.”  \n\nArt will last when hype dies!\n\nWhat is the Turinese “Arte Povera” version of a “singularity”?  An elegant, aestheticized singularity.   A singularity of egalitarian liberation; a singularity for the millions, for the billions!\nBruce Sterling, Direttore Artistico di Share Festival\nJasmina Tešanović, Curatrice di Share Prize",
-          "link": "https://brucesterling.tumblr.com/post/812870314198532096",
-          "publishedOn": "2026-04-03T10:52:21.000Z",
-          "wordCount": 1871,
-          "title": "Popular Singularity&nbsp;",
-          "imageUrl": "https://64.media.tumblr.com/a98faf424a0c067b855e9ee9afa1bc02/78eeb10ea02fe711-f9/s1280x1920/e2cb489a06d8d7b5c4d5f7e91003e9b3c1918468.jpg"
         }
       ]
     },
@@ -4187,16 +4167,6 @@
           "publishedOn": "2026-04-03T16:05:00.000Z",
           "wordCount": 841,
           "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
-          "author": null,
-          "description": "<p>The Axios team have published a <a href=\"https://github.com/axios/axios/issues/10636\">full postmortem</a> on the supply chain attack which resulted in a malware dependency going out <a href=\"https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/\">in a release the other day</a>, and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of <a href=\"https://github.com/axios/axios/issues/10636#issuecomment-4180237789\">how that worked</a>:</p>\r\n<blockquote>\r\n<p>so the attack vector mimics what google has documented here: <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering\">https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering</a></p>\r\n<p>they tailored this process specifically to me by doing the following:</p>\r\n<ul>\r\n<li>they reached out masquerading as the founder of a company they had cloned the companys founders likeness as well as the company itself.</li>\r\n<li>they then invited me to a real slack workspace. this workspace was branded to the companies ci and named in a plausible manner. the slack was thought out very well, they had channels where they were sharing linked-in posts, the linked in posts i presume just went to the real companys account but it was super convincing etc. they even had what i presume were fake profiles of the team of the company but also number of other oss maintainers.</li>\r\n<li>they scheduled a meeting with me to connect. the meeting was on ms teams. the meeting had what seemed to be a group of people that were involved.</li>\r\n<li>the meeting said something on my system was out of date. i installed the missing item as i presumed it was something to do with teams, and this was the RAT.</li>\r\n<li>everything was extremely well co-ordinated looked legit and was done in a professional manner.</li>\r\n</ul>\r\n</blockquote>\r\n<p>A RAT is a Remote Access Trojan - this was the software which stole the developer's credentials which could then be used to publish the malicious package.</p>\r\n<p>That's a <em>very effective</em> scam. I join a lot of meetings where I find myself needing to install Webex or Microsoft Teams or similar at the last moment and the time constraint means I always click \"yes\" to things as quickly as possible to make sure I don't join late.</p>\r\n<p>Every maintainer of open source software used by enough people to be worth taking in this way needs to be familiar with this attack strategy.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/social-engineering\">social-engineering</a>, <a href=\"https://simonwillison.net/tags/supply-chain\">supply-chain</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
-          "publishedOn": "2026-04-03T13:54:53.000Z",
-          "wordCount": 1090,
-          "title": "The Axios supply chain attack used individually targeted social engineering",
           "imageUrl": null
         }
       ]
