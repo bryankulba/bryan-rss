@@ -101,16 +101,6 @@
           "wordCount": 590,
           "title": "mist is now open source and looking for interop",
           "imageUrl": "https://interconnected.org/home/2026/04/10/open-mist.png?v=1"
-        },
-        {
-          "id": "https://interconnected.org/home/2026/04/03/sleep",
-          "author": null,
-          "description": "Mostly I go to sleep very easily. Like 3 minutes from lights out, max.\nI’m content, I exercise, I burn my tokens each day, I think all that helps.\nOften I wake early and think. I’m protective over what goes into my 4am thinking time, I enjoy it. You don’t get to choose what you think about at 4am. It’s inevitably going to be work. So I optimise for having interesting work and I’m very lucky there. Mostly I go back to sleep after a bit.\nSometimes I don’t get to sleep easily, for example in 2021.\nIn that case I close my eyes and visualise a device:\nThe device has 6 buttons arranged in two rows. It changes in appearance but the most common form in my imagination is a Dieter Rams-style enclosure in beige about 4 or 5 inches across with its buttons on the top, and the buttons are flush against each other with a circular depression on the top to push down with your finger.\nThe buttons are really satisfying to push. Good resistance, good slip-clunk into place when engaged.\nSometimes it’s different. Sometimes the button click in like a pen top when they’re down; sometimes they rise up as soon as I’m not pressing. Sometimes they light up when activated, sometimes not.\nThe game, in my imagination, is this:\nThere is some combination of buttons that I can push which causes me to instantaneously fall asleep. But I don’t know the code.\nSo what I imagine (it’s a visual and tactile experience) is trying every single combination of buttons until I push the right ones together.\nThere aren’t many combinations to try, only 63. I usually try a few then run through methodically by counting up in binary.\nPerhaps the code is different each night, perhaps it is the same – I wouldn’t know because I discover it successfully every time and go to sleep and forget what happened.\nI was gently advised against posting this because it makes me sound like a weirdo but you already know that about me. And now you know about the six buttons too.",
-          "link": "https://interconnected.org/home/2026/04/03/sleep",
-          "publishedOn": "2026-04-03T17:14:00.000Z",
-          "wordCount": 654,
-          "title": "A sleep aid",
-          "imageUrl": "https://interconnected.org/home/2026/04/03/sleep.png?v=1"
         }
       ]
     },
@@ -2288,36 +2278,6 @@
           "wordCount": 925,
           "title": "Rosalía Berghain Live",
           "imageUrl": "https://i.ytimg.com/vi/7fyufPkXLbs/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048659-a-women-had-sex-with",
-          "author": null,
-          "description": "A women had sex with identical twins (within a 4-day period), got pregnant, and now it’s impossible to tell which is the father, even with DNA testing.",
-          "link": "https://kottke.org/26/04/0048659-a-women-had-sex-with",
-          "publishedOn": "2026-04-03T16:53:19.000Z",
-          "wordCount": 947,
-          "title": "A women had sex with identical twins (within a 4-day...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048657-tracker-dashboard-for-the",
-          "author": null,
-          "description": "Tracker dashboard for the Artemis II mission using real-time data from JPL.",
-          "link": "https://kottke.org/26/04/0048657-tracker-dashboard-for-the",
-          "publishedOn": "2026-04-03T15:30:28.000Z",
-          "wordCount": 800,
-          "title": "Tracker dashboard for the Artemis II mission  using...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/this-is-us",
-          "author": null,
-          "description": "The commander of NASA’s Artemis II mission to the Moon, Reid Wiseman, took this photo of the Earth as the spacecraft speeds away our planet. \nThere are two auroras (top right and bottom left) and zodiacal light (bottom right) is visible as the Earth eclipses the Sun.\n\n\t\nThat is so cool. Worth clicking through to see the high-resolution image.\n\n \n\n        \n         \nTags: artemis · Earth · NASA · photography · science · space",
-          "link": "https://kottke.org/26/04/this-is-us",
-          "publishedOn": "2026-04-03T14:45:00.000Z",
-          "wordCount": 1142,
-          "title": "This Is Us",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1775226364-cbe60f10.jpg"
         }
       ]
     },
@@ -4158,16 +4118,6 @@
           "wordCount": 760,
           "title": "Quoting Greg Kroah-Hartman",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/test-csp-iframe-escape#readme\">Can JavaScript Escape a CSP Meta Tag Inside an Iframe?</a></p>\n    <p>In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed iframes without using a separate domain to host the files. Turns out you can inject <code>&lt;meta http-equiv=\"Content-Security-Policy\"...&gt;</code> tags at the top of the iframe content and they'll be obeyed even if subsequent untrusted JavaScript tries to manipulate them.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/iframes\">iframes</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/content-security-policy\">content-security-policy</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
-          "publishedOn": "2026-04-03T16:05:00.000Z",
-          "wordCount": 841,
-          "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
-          "imageUrl": null
         }
       ]
     },
@@ -4395,16 +4345,6 @@
           "wordCount": 5119,
           "title": "An Arctic Road Trip Brings Vital Underground Networks into View",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Dirt-race-cr-Max-Levy-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=160668",
-          "author": "Charlie Wood",
-          "description": "Two research groups say they have significantly reduced the amount of qubits and time required to crack common online security technologies.            \nThe post New Advances Bring the Era of Quantum Computers Closer Than Ever first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/new-advances-bring-the-era-of-quantum-computers-closer-than-ever-20260403/",
-          "publishedOn": "2026-04-03T15:19:16.000Z",
-          "wordCount": 3818,
-          "title": "New Advances Bring the Era of Quantum Computers Closer Than Ever",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/BreakingNewsQuantumComputing-crKristinaArmitage-Social.jpg"
         }
       ]
     },
