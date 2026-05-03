@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "69f66dce1e59b40001ddf4b4",
+          "author": "Patrick Tanguay",
+          "description": "No.401 — Why are London’s top galleries full of laptops? ⊗ This is how we get moral AI companies ⊗ Space to Breathe ⊗ The zero-days are numbered ⊗ A complete guide to the AMOC ⊗ The GDT Nature Photographer of the Year",
+          "link": "https://sentiers.media/hopkins-on-the-power-of-imagination-feral-thought-experiments-no-401/",
+          "publishedOn": "2026-05-03T10:00:19.000Z",
+          "wordCount": 2553,
+          "title": "Hopkins on the power of imagination ⊗ Feral thought experiments",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/05/luis-eusebio-0PyDdA6RmDc-unsplash-crop-w.jpg"
+        },
+        {
           "id": "69ed3ed9d26e5b00010f384e",
           "author": "Patrick Tanguay",
           "description": "No.400 — Extrapolated futures archive ⊗ The dissonance is expanding ⊗ South Korea to spur a renewables revolution ⊗ Eye contact with a humpback whale",
@@ -2238,46 +2248,6 @@
           "wordCount": 836,
           "title": "Louisiana, Virginia, Massachusetts, New York, and...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048663-were-expected-to-believe-",
-          "author": null,
-          "description": "We’re expected to believe that the NY Times is a serious newspaper when they are sending a reporter to talk to dozens of ppl to debunk a claim from a known conspiracy theorist, fascist, and grifter that he’d teleported into a Waffle House?!?",
-          "link": "https://kottke.org/26/04/0048663-were-expected-to-believe-",
-          "publishedOn": "2026-04-03T20:39:10.000Z",
-          "wordCount": 1039,
-          "title": "We&#8217;re expected to believe that the NY Times is a...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048661-as-slow-as-possible-very",
-          "author": null,
-          "description": "As Slow As Possible. Very very very slow versions of three classic video games: Pong, Breakout, and Missile Command. On the slowest setting, you’re almost begging for a notification functionality to alert you when you need to next engage.",
-          "link": "https://kottke.org/26/04/0048661-as-slow-as-possible-very",
-          "publishedOn": "2026-04-03T20:26:48.000Z",
-          "wordCount": 772,
-          "title": "As Slow As Possible . Very very very slow versions of...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048662-i-have-to-say-that",
-          "author": null,
-          "description": "I have to say that I was a little bit charmed by the trailer for Supergirl. Looks promising.",
-          "link": "https://kottke.org/26/04/0048662-i-have-to-say-that",
-          "publishedOn": "2026-04-03T19:45:14.000Z",
-          "wordCount": 802,
-          "title": "I have to say that I was a little bit charmed by  the...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/rosala-berghain-live",
-          "author": null,
-          "description": "I thought the official video of Berghain by Rosalía (feat. Björk & Yves Tumor) was great — “I don’t even know what this is — classical pop? surrealist orchestral?” — and this recent live performance from the Brit Awards takes the song to the next level. I loved it. (via kenzie)\n\n \n\n        \n         \nTags: Bjork · music · rosalía · video",
-          "link": "https://kottke.org/26/04/rosala-berghain-live",
-          "publishedOn": "2026-04-03T18:25:04.000Z",
-          "wordCount": 925,
-          "title": "Rosalía Berghain Live",
-          "imageUrl": "https://i.ytimg.com/vi/7fyufPkXLbs/sddefault.jpg"
         }
       ]
     },
@@ -2646,6 +2616,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18297",
+          "author": "Warren Ellis",
+          "description": "Potatoes. Haven’t been able to do anything in the garden all week, and things don’t look great out there – but things are growing, too.…",
+          "link": "https://warrenellis.ltd/status/potatoes-3may26/",
+          "publishedOn": "2026-05-03T12:30:06.000Z",
+          "wordCount": 1225,
+          "title": "potatoes: 3may26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1103.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18291",
           "author": "Warren Ellis",
@@ -4067,56 +4047,6 @@
           "publishedOn": "2026-04-04T02:20:17.000Z",
           "wordCount": 736,
           "title": "Quoting Kyle Daigle",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/\">Vulnerability Research Is Cooked</a></strong></p>\nThomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research.</p>\n<blockquote>\n<p>Within the next few months, coding agents will drastically alter both the practice and the economics of exploit development. Frontier model improvement won’t be a slow burn, but rather a step function. Substantial amounts of high-impact vulnerability research (maybe even most of it) will happen simply by pointing an agent at a source tree and typing “find me zero days”.</p>\n</blockquote>\n<p>Why are agents so good at this? A combination of baked-in knowledge, pattern matching ability and brute force:</p>\n<blockquote>\n<p>You can't design a better problem for an LLM agent than exploitation research.</p>\n<p>Before you feed it a single token of context, a frontier LLM already encodes supernatural amounts of correlation across vast bodies of source code. Is the Linux KVM hypervisor connected to the <code>hrtimer</code> subsystem, <code>workqueue</code>, or <code>perf_event</code>? The model knows.</p>\n<p>Also baked into those model weights: the complete library of documented \"bug classes\" on which all exploit development builds: stale pointers, integer mishandling, type confusion, allocator grooming, and all the known ways of promoting a wild write to a controlled 64-bit read/write in Firefox.</p>\n<p>Vulnerabilities are found by pattern-matching bug classes and constraint-solving for reachability and exploitability. Precisely the implicit search problems that LLMs are most gifted at solving. Exploit outcomes are straightforwardly testable success/failure trials. An agent never gets bored and will search forever if you tell it to.</p>\n</blockquote>\n<p>The article was partly inspired by <a href=\"https://securitycryptographywhatever.com/2026/03/25/ai-bug-finding/\">this episode of the Security Cryptography Whatever podcast</a>, where David Adrian, Deirdre Connolly, and Thomas interviewed Anthropic's Nicholas Carlini for 1 hour 16 minutes.</p>\n<p>I just started a new tag here for <a href=\"https://simonwillison.net/tags/ai-security-research/\">ai-security-research</a> - it's up to 11 posts already.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/nicholas-carlini\">nicholas-carlini</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
-          "publishedOn": "2026-04-03T23:59:08.000Z",
-          "wordCount": 1013,
-          "title": "Vulnerability Research Is Cooked",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
-          "author": null,
-          "description": "<p>A fun thing about <a href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\">recording a podcast</a> with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's <a href=\"https://x.com/lennysan/status/2039845666680176703\">one he shared on Twitter today</a> which ended up attracting over 1.1m views!</p>\n<p><video\n  src=\"https://static.simonwillison.net/static/2026/cognitive-cost.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026/cognitive-cost-poster.jpg\"\n  controls\n  preload=\"none\"\n  playsinline\n  style=\"display:block; max-width:400px; width:100%; height:auto; margin:0 auto\"\n><track src=\"https://static.simonwillison.net/static/2026/cognitive-cost.vtt\" kind=\"captions\" srclang=\"en\" label=\"English\"></video>\n</p>\n<p>That was 48 seconds. Our <a href=\"https://simonwillison.net/2026/Apr/2/lennys-podcast/\">full conversation</a> lasted 1 hour 40 minutes.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/podcast-appearances\">podcast-appearances</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
-          "publishedOn": "2026-04-03T23:57:04.000Z",
-          "wordCount": 774,
-          "title": "The cognitive impact of coding agents",
-          "imageUrl": "https://static.simonwillison.net/static/2026/cognitive-cost-card.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://lwn.net/Articles/1065620/\"><p>On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days (fridays and tuesdays seem the worst). Now most of these reports are correct, to the point that we had to bring in more maintainers to help us.</p>\n<p>And we're now seeing on a daily basis something that never happened before: duplicate reports, or the same bug found by two different people using (possibly slightly) different tools.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://lwn.net/Articles/1065620/\">Willy Tarreau</a>, Lead Software Developer. HAPROXY</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
-          "publishedOn": "2026-04-03T21:48:22.000Z",
-          "wordCount": 807,
-          "title": "Quoting Willy Tarreau",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://mastodon.social/@bagder/116336957584445742\"><p>The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good.</p>\n<p>I'm spending hours per day on this now. It's intense.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mastodon.social/@bagder/116336957584445742\">Daniel Stenberg</a>, lead developer of cURL</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/daniel-stenberg\">daniel-stenberg</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/curl\">curl</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
-          "publishedOn": "2026-04-03T21:46:07.000Z",
-          "wordCount": 739,
-          "title": "Quoting Daniel Stenberg",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://www.theregister.com/2026/03/26/greg_kroahhartman_ai_kernel/\"><p>Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us.</p>\n<p>Something happened a month ago, and the world switched. Now we have real reports. All open source projects have real reports that are made with AI, but they're good, and they're real.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.theregister.com/2026/03/26/greg_kroahhartman_ai_kernel/\">Greg Kroah-Hartman</a>, Linux kernel maintainer (<a href=\"https://en.wikipedia.org/wiki/Greg_Kroah-Hartman\">bio</a>), in conversation with Steven J. Vaughan-Nichols</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
-          "publishedOn": "2026-04-03T21:44:41.000Z",
-          "wordCount": 760,
-          "title": "Quoting Greg Kroah-Hartman",
           "imageUrl": null
         }
       ]
