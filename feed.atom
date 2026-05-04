@@ -2,10 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-04T17:28:41.000Z</updated>
+    <updated>2026-05-04T21:07:38.730Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Banksy: Blinded by Nationalism]]></title>
+        <id>https://kottke.org/26/05/new-banksy-blinded-by-nationalism</id>
+        <link href="https://kottke.org/26/05/new-banksy-blinded-by-nationalism"/>
+        <updated>2026-05-04T20:32:00.000Z</updated>
+        <summary type="html"><![CDATA[The artist Banksy has installed (without a permit, one assumes) a new statue in London that depicts a man in a suit marching off off a ledge, blinded by a flag.
+The artwork has been dubbed Blind Patriotism, although Banksy, enigmatic as always, doesn’t explain the meaning of his latest work. However, many have interpreted it as satirising the rise of nationalistic fervour in the UK, typified by the populist politician Nigel Farage and other forces on the far right.
+
+	
+Another bullseye for Banksy. 🎯
+
+ 
+
+        
+         
+Tags: art · Banksy · politics]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designer Jenny Volvovski&#8217;s collection of...]]></title>
+        <id>https://kottke.org/26/05/0048866-designer-jenny-volvovskis</id>
+        <link href="https://kottke.org/26/05/0048866-designer-jenny-volvovskis"/>
+        <updated>2026-05-04T19:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Designer Jenny Volvovski’s collection of unsolicited book cover designs. “I really wanted to design book covers but didn’t have any book cover work. So I hired myself to redesign my personal library.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I&#8217;m not a fan of the first part of  this music...]]></title>
+        <id>https://kottke.org/26/05/0048872-this-music-video</id>
+        <link href="https://kottke.org/26/05/0048872-this-music-video"/>
+        <updated>2026-05-04T19:02:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m not a fan of the first part of this music video (reminds me too much of dipshits I had to endure at school), but the single-take choreography from ~4:18 is great.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[According to this peer-reviewed paper,  the...]]></title>
+        <id>https://kottke.org/26/05/0048868-the-screeching-sound-of-p</id>
+        <link href="https://kottke.org/26/05/0048868-the-screeching-sound-of-p"/>
+        <updated>2026-05-04T18:24:00.000Z</updated>
+        <summary type="html"><![CDATA[According to this peer-reviewed paper, the “screeching sound of peeling tape” is caused by tiny sonic booms. The speeds at work here are in the range of Mach 0.7–1.8. Supersonic crafts!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TRE Python binding — ReDoS robustness demo]]></title>
+        <id>https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything"/>
+        <updated>2026-05-04T17:52:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/tre-python-binding#readme">TRE Python binding — ReDoS robustness demo</a></p>
+        <p>If it's <a href="https://simonwillison.net/2026/May/4/redis-array/">good enough for antirez</a> to add to Redis I figured Ville Laurikari's <a href="https://github.com/laurikari/tre/">TRE</a> regular expression engine was worth exploring in a little more detail.</p>
+<p>I had Claude Code build an experimental Python binding (it used <code>ctypes</code>) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard library implementation, thanks mainly to the lack of support for backtracking.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/regular-expressions">regular-expressions</a>, <a href="https://simonwillison.net/tags/c">c</a>, <a href="https://simonwillison.net/tags/ctypes">ctypes</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA has released some 12,000 unseen photos from the...]]></title>
+        <id>https://kottke.org/26/05/0048865-here-are-some-of-the-best</id>
+        <link href="https://kottke.org/26/05/0048865-here-are-some-of-the-best"/>
+        <updated>2026-05-04T17:40:00.000Z</updated>
+        <summary type="html"><![CDATA[NASA has released some 12,000 unseen photos from the recent Artemis II mission; here are some of the best shots.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Contiguous 41 States]]></title>
         <id>https://kottke.org/26/05/the-contiguous-41-states</id>
