@@ -2,10 +2,115 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-04T13:55:26.914Z</updated>
+    <updated>2026-05-04T17:28:41.000Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Contiguous 41 States]]></title>
+        <id>https://kottke.org/26/05/the-contiguous-41-states</id>
+        <link href="https://kottke.org/26/05/the-contiguous-41-states"/>
+        <updated>2026-05-04T16:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Nowhere on XKCD’s map of The Contiguous 41 States does it say that you need to find the missing seven states, but that’s immediately where my mind went. And it was a little more challenging than I anticipated — all of New England is present & accounted for somehow?
+The answer key is here, along with this tidbit:
+The United States did have exactly 41 states for a few days in 1889, from the admission of Montana, the 41st state, on November 8, to the admission of Washington (the state, not DC), the 42nd state, on November 11.
+
+	
+See also this super-sized US map with 64 states.
+And then after I wrote all of the above, I decided to check and of course I’d posted about this map before, soon after it came out. *sigh*
+
+ 
+
+        
+         
+Tags: maps · usa · xkcd]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A 55-minute mix of Boards of Canada B-sides and rarities .]]></title>
+        <id>https://kottke.org/26/05/0048863-a-55-minute-mix-of-boards</id>
+        <link href="https://kottke.org/26/05/0048863-a-55-minute-mix-of-boards"/>
+        <updated>2026-05-04T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[A 55-minute mix of Boards of Canada B-sides and rarities.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Redis Array Playground]]></title>
+        <id>https://simonwillison.net/2026/May/4/redis-array/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/4/redis-array/#atom-everything"/>
+        <updated>2026-05-04T15:53:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/redis-array">Redis Array Playground</a></p>
+        <p>Salvatore Sanfilippo submitted <a href="https://github.com/redis/redis/pull/15162">a PR</a> adding a new data type - arrays - to Redis. </p>
+<p>The new commands are <code>ARCOUNT</code>, <code>ARDEL</code>, <code>ARDELRANGE</code>, <code>ARGET</code>, <code>ARGETRANGE</code>, <code>ARGREP</code>, <code>ARINFO</code>, <code>ARINSERT</code>, <code>ARLASTITEMS</code>, <code>ARLEN</code>, <code>ARMGET</code>, <code>ARMSET</code>, <code>ARNEXT</code>, <code>AROP</code>, <code>ARRING</code>, <code>ARSCAN</code>, <code>ARSEEK</code>, <code>ARSET</code>.</p>
+<p>The implementation is currently available in a branch, so I <a href="https://github.com/simonw/tools/pull/277">had Claude Code for web</a> 
+build this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser.</p>
+<p><img alt="Screenshot of a Redis command builder UI. Left sidebar shows commands ARSCAN, ARSEEK, ARSET. Main panel has a &quot;predicate oneof&quot; section with a MATCH dropdown and value CHERRY, plus a &quot;+ add another&quot; button. Below is &quot;options (optional) oneof&quot; with checkboxes: AND (checked), OR (unchecked), LIMIT (checked, value 10), WITHVALUES (checked), NOCASE (checked). COMMAND section shows: ARGREP myarr - + MATCH CHERRY AND LIMIT 10 WITHVALUES NOCASE. A red &quot;Run command&quot; button is below. REPLY section shows &quot;(no reply yet)&quot;." src="https://static.simonwillison.net/static/2026/redis-array-explorer-card.jpg" /></p>
+<p>The most interesting new command is <code>ARGREP</code> which can run a server-side grep against a range of values in the array using the newly vendored <a href="https://github.com/laurikari/tre/">TRE regex library</a>.</p>
+<p>Salvatore wrote more about the AI-assisted development process for the array type in <a href="https://antirez.com/news/164">Redis array type: short story of a long development</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/salvatore-sanfilippo">salvatore-sanfilippo</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/redis">redis</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/regular-expressions">regular-expressions</a>, <a href="https://simonwillison.net/tags/c">c</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;They Would Never Use the Death Star on Us&#8221;:...]]></title>
+        <id>https://kottke.org/26/05/0048864-they-would-never-use-the-</id>
+        <link href="https://kottke.org/26/05/0048864-they-would-never-use-the-"/>
+        <updated>2026-05-04T15:20:00.000Z</updated>
+        <summary type="html"><![CDATA[“They Would Never Use the Death Star on Us”: Alderaan Residents Reflect on Their Support for the Empire as a Large Imperial Installation Enters the System. “The Senate was ineffective, and the liberal Jedi were out of touch…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hidden Mathematical Dance Inside Plant Cells]]></title>
+        <id>https://www.quantamagazine.org/?p=161634</id>
+        <link href="https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/"/>
+        <updated>2026-05-04T14:39:38.000Z</updated>
+        <summary type="html"><![CDATA[The sunlight-collecting organelles known as chloroplasts solve a packing problem: how to optimize photosynthesis without sustaining damage from dangerously intense rays.            
+The post The Hidden Mathematical Dance Inside Plant Cells first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Max G. Levy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Visual Comedy of Wes Anderson&#8217;s Isle of Dogs]]></title>
+        <id>https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs</id>
+        <link href="https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs"/>
+        <updated>2026-05-04T14:36:52.000Z</updated>
+        <summary type="html"><![CDATA[I’m gonna call it: Every Frame a Painting, my all-time favorite YouTube channel, is back. Tony Zhou and Taylor Ramos stopped producing their fantastic video essays back in 2017 and while they have popped up here and there since then, they’ve mostly stuck to their retirement.
+But for the past few months, the duo have been releasing video essays produced in partnership with Criterion: Night of the Living Dead: Limitations into Virtues, The Blade (1995): The Edges of Wuxia, and just yesterday, The Visual Comedy of Isle of Dogs (embedded above).
+For the past three decades, Wes Anderson has left a distinctive fingerprint in American comedy, with his penchant for artificial worlds, deadpan performances, literary devices, and snappy narration. But there’s something else. These movies are funny to look at. Over the years, Anderson has experimented more and more with visual comedy. And none of this is more apparent than in Isle of Dogs.
+
+	
+It looks like they’re doing about one video a month. I hope they keep it up…I love their videos.
+(Ok, maybe don’t read this bit until you’ve watched the Isle of Dogs video, but did you detect that Zhou’s narration seems to be synced to the mouth movements of the characters in the clips he’s talking over? Such a great little detail of visual comedy…I clapped my hands in glee like a toddler when I noticed.)
+
+ 
+
+        
+         
+Tags: film school · Isle of Dogs · movies · Taylor Ramos · Tony Zhou · video · Wes Anderson]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Sylvester Stallone Rescued the First Rambo Film With...]]></title>
+        <id>https://kottke.org/26/05/0048862-how-sylvester-stallone-re</id>
+        <link href="https://kottke.org/26/05/0048862-how-sylvester-stallone-re"/>
+        <updated>2026-05-04T13:57:00.000Z</updated>
+        <summary type="html"><![CDATA[How Sylvester Stallone Rescued the First Rambo Film With a Radical Recut, Cutting It From 3½ Hours to 93 Minutes. “The solution that ended up saving the movie wasn’t much less drastic, producing a 93-minute cut that excised most of Rambo’s dialogue.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[fig: 4may26]]></title>
         <id>https://warrenellis.ltd/?p=18300</id>
@@ -6744,65 +6849,6 @@ Lalit Maganti provides one of my favorite pieces of long-form writing on agentic
         <summary type="html"><![CDATA[No.397 — Ending the AI arms race  ⊗ Insight and future-fit decisions ⊗ Better AI creative collaborators ⊗ Progressive Paris ⊗ The asteroid ryugu and the building blocks of life]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[scan-for-secrets 0.2]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything"/>
-        <updated>2026-04-05T04:07:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.2">scan-for-secrets 0.2</a></p>
-    <ul>
-<li>CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.</li>
-<li><code>-d/--directory</code> option can now be used multiple times to scan multiple directories.</li>
-<li>New <code>-f/--file</code> option for specifying one or more individual files to scan.</li>
-<li>New <code>scan_directory_iter()</code>, <code>scan_file()</code> and <code>scan_file_iter()</code> Python API functions.</li>
-<li>New <code>-v/--verbose</code> option which shows each directory that is being scanned.</li>
-</ul>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[scan-for-secrets 0.1.1]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything"/>
-        <updated>2026-04-05T03:39:33.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.1.1">scan-for-secrets 0.1.1</a></p>
-    <blockquote>
-<ul>
-<li>Added documentation of the escaping schemes that are also scanned.</li>
-<li>Removed unnecessary <code>repr</code> escaping scheme, which was already covered by <code>json</code>.</li>
-</ul>
-</blockquote>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[scan-for-secrets 0.1]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything"/>
-        <updated>2026-04-05T03:27:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.1">scan-for-secrets 0.1</a></p>
-    <p>I like publishing transcripts of local Claude Code sessions using my <a href="https://github.com/simonw/claude-code-transcripts">claude-code-transcripts</a> tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files.</p>
-<p>I built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory:</p>
-<pre><code>uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/
-</code></pre>
-<p>If you leave off the <code>-d</code> it defaults to the current directory.</p>
-<p>It doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, <a href="https://github.com/simonw/scan-for-secrets/blob/main/README.md#escaping-schemes">as described in the README</a>.</p>
-<p>If you have a set of secrets you always want to protect you can list commands to echo them in a <code>~/.scan-for-secrets.conf.sh</code> file. Mine looks like this:</p>
-<pre><code>llm keys get openai
-llm keys get anthropic
-llm keys get gemini
-llm keys get mistral
-awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
-</code></pre>
-<p>I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then <a href="https://gisthost.github.io/?d4b1a398bf3b6b14aade923dea69a1ac/index.html">dumped it into Claude Code</a> and told it to build the actual tool (using <a href="https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/">red/green TDD</a>, naturally.)</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>

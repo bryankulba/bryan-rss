@@ -290,6 +290,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/the-contiguous-41-states",
+          "author": null,
+          "description": "Nowhere on XKCD’s map of The Contiguous 41 States does it say that you need to find the missing seven states, but that’s immediately where my mind went. And it was a little more challenging than I anticipated — all of New England is present & accounted for somehow?\nThe answer key is here, along with this tidbit:\nThe United States did have exactly 41 states for a few days in 1889, from the admission of Montana, the 41st state, on November 8, to the admission of Washington (the state, not DC), the 42nd state, on November 11.\n\n\t\nSee also this super-sized US map with 64 states.\nAnd then after I wrote all of the above, I decided to check and of course I’d posted about this map before, soon after it came out. *sigh*\n\n \n\n        \n         \nTags: maps · usa · xkcd",
+          "link": "https://kottke.org/26/05/the-contiguous-41-states",
+          "publishedOn": "2026-05-04T16:59:00.000Z",
+          "wordCount": 809,
+          "title": "The Contiguous 41 States",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1777901299-6763469f.png"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048863-a-55-minute-mix-of-boards",
+          "author": null,
+          "description": "A 55-minute mix of Boards of Canada B-sides and rarities.",
+          "link": "https://kottke.org/26/05/0048863-a-55-minute-mix-of-boards",
+          "publishedOn": "2026-05-04T16:15:00.000Z",
+          "wordCount": 738,
+          "title": "A 55-minute mix of Boards of Canada B-sides and rarities .",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048864-they-would-never-use-the-",
+          "author": null,
+          "description": "“They Would Never Use the Death Star on Us”: Alderaan Residents Reflect on Their Support for the Empire as a Large Imperial Installation Enters the System. “The Senate was ineffective, and the liberal Jedi were out of touch…”",
+          "link": "https://kottke.org/26/05/0048864-they-would-never-use-the-",
+          "publishedOn": "2026-05-04T15:20:00.000Z",
+          "wordCount": 523,
+          "title": "&#8220;They Would Never Use the Death Star on Us&#8221;:...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs",
+          "author": null,
+          "description": "I’m gonna call it: Every Frame a Painting, my all-time favorite YouTube channel, is back. Tony Zhou and Taylor Ramos stopped producing their fantastic video essays back in 2017 and while they have popped up here and there since then, they’ve mostly stuck to their retirement.\nBut for the past few months, the duo have been releasing video essays produced in partnership with Criterion: Night of the Living Dead: Limitations into Virtues, The Blade (1995): The Edges of Wuxia, and just yesterday, The Visual Comedy of Isle of Dogs (embedded above).\nFor the past three decades, Wes Anderson has left a distinctive fingerprint in American comedy, with his penchant for artificial worlds, deadpan performances, literary devices, and snappy narration. But there’s something else. These movies are funny to look at. Over the years, Anderson has experimented more and more with visual comedy. And none of this is more apparent than in Isle of Dogs.\n\n\t\nIt looks like they’re doing about one video a month. I hope they keep it up…I love their videos.\n(Ok, maybe don’t read this bit until you’ve watched the Isle of Dogs video, but did you detect that Zhou’s narration seems to be synced to the mouth movements of the characters in the clips he’s talking over? Such a great little detail of visual comedy…I clapped my hands in glee like a toddler when I noticed.)\n\n \n\n        \n         \nTags: film school · Isle of Dogs · movies · Taylor Ramos · Tony Zhou · video · Wes Anderson",
+          "link": "https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs",
+          "publishedOn": "2026-05-04T14:36:52.000Z",
+          "wordCount": 935,
+          "title": "The Visual Comedy of Wes Anderson&#8217;s Isle of Dogs",
+          "imageUrl": "https://i.ytimg.com/vi/eex-_BztHSE/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048862-how-sylvester-stallone-re",
+          "author": null,
+          "description": "How Sylvester Stallone Rescued the First Rambo Film With a Radical Recut, Cutting It From 3½ Hours to 93 Minutes. “The solution that ended up saving the movie wasn’t much less drastic, producing a 93-minute cut that excised most of Rambo’s dialogue.”",
+          "link": "https://kottke.org/26/05/0048862-how-sylvester-stallone-re",
+          "publishedOn": "2026-05-04T13:57:00.000Z",
+          "wordCount": 1015,
+          "title": "How Sylvester Stallone Rescued the First Rambo Film With...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/05/0048859-is-ai-the-next-phase-of-e",
           "author": null,
           "description": "Ohhhhh dear, Richard Dawkins: Is AI the Next Phase of Evolution? Claude Appears to Be Conscious. “My conversations with several Claudes and ChatGPTs have convinced me that these intelligent beings are at least as competent as any evolved organism.” 😬",
@@ -3186,6 +3236,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/redis-array\">Redis Array Playground</a></p>\n        <p>Salvatore Sanfilippo submitted <a href=\"https://github.com/redis/redis/pull/15162\">a PR</a> adding a new data type - arrays - to Redis. </p>\n<p>The new commands are <code>ARCOUNT</code>, <code>ARDEL</code>, <code>ARDELRANGE</code>, <code>ARGET</code>, <code>ARGETRANGE</code>, <code>ARGREP</code>, <code>ARINFO</code>, <code>ARINSERT</code>, <code>ARLASTITEMS</code>, <code>ARLEN</code>, <code>ARMGET</code>, <code>ARMSET</code>, <code>ARNEXT</code>, <code>AROP</code>, <code>ARRING</code>, <code>ARSCAN</code>, <code>ARSEEK</code>, <code>ARSET</code>.</p>\n<p>The implementation is currently available in a branch, so I <a href=\"https://github.com/simonw/tools/pull/277\">had Claude Code for web</a> \nbuild this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser.</p>\n<p><img alt=\"Screenshot of a Redis command builder UI. Left sidebar shows commands ARSCAN, ARSEEK, ARSET. Main panel has a &quot;predicate oneof&quot; section with a MATCH dropdown and value CHERRY, plus a &quot;+ add another&quot; button. Below is &quot;options (optional) oneof&quot; with checkboxes: AND (checked), OR (unchecked), LIMIT (checked, value 10), WITHVALUES (checked), NOCASE (checked). COMMAND section shows: ARGREP myarr - + MATCH CHERRY AND LIMIT 10 WITHVALUES NOCASE. A red &quot;Run command&quot; button is below. REPLY section shows &quot;(no reply yet)&quot;.\" src=\"https://static.simonwillison.net/static/2026/redis-array-explorer-card.jpg\" /></p>\n<p>The most interesting new command is <code>ARGREP</code> which can run a server-side grep against a range of values in the array using the newly vendored <a href=\"https://github.com/laurikari/tre/\">TRE regex library</a>.</p>\n<p>Salvatore wrote more about the AI-assisted development process for the array type in <a href=\"https://antirez.com/news/164\">Redis array type: short story of a long development</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/salvatore-sanfilippo\">salvatore-sanfilippo</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/redis\">redis</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/regular-expressions\">regular-expressions</a>, <a href=\"https://simonwillison.net/tags/c\">c</a></p>",
+          "link": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+          "publishedOn": "2026-05-04T15:53:57.000Z",
+          "wordCount": 862,
+          "title": "Redis Array Playground",
+          "imageUrl": "https://static.simonwillison.net/static/2026/redis-array-explorer-card.jpg"
+        },
+        {
           "id": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
           "author": null,
           "description": "<blockquote cite=\"https://www.anthropic.com/research/claude-personal-guidance\"><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situations, Claude expressed no sycophancy—only 9% of conversations included sycophantic behavior (Figure 2). But two domains were exceptions: we saw sycophantic behavior in 38% of conversations focused on spirituality, and 25% of conversations on relationships.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.anthropic.com/research/claude-personal-guidance\">Anthropic</a>, How people ask Claude for personal guidance</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-personality\">ai-personality</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/sycophancy\">sycophancy</a></p>",
@@ -4044,36 +4104,6 @@
           "wordCount": 842,
           "title": "Syntaqlite Playground",
           "imageUrl": "https://static.simonwillison.net/static/2026/syntaqlite-playground.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.2\">scan-for-secrets 0.2</a></p>\n    <ul>\n<li>CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.</li>\n<li><code>-d/--directory</code> option can now be used multiple times to scan multiple directories.</li>\n<li>New <code>-f/--file</code> option for specifying one or more individual files to scan.</li>\n<li>New <code>scan_directory_iter()</code>, <code>scan_file()</code> and <code>scan_file_iter()</code> Python API functions.</li>\n<li>New <code>-v/--verbose</code> option which shows each directory that is being scanned.</li>\n</ul>",
-          "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
-          "publishedOn": "2026-04-05T04:07:13.000Z",
-          "wordCount": 775,
-          "title": "scan-for-secrets 0.2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.1.1\">scan-for-secrets 0.1.1</a></p>\n    <blockquote>\n<ul>\n<li>Added documentation of the escaping schemes that are also scanned.</li>\n<li>Removed unnecessary <code>repr</code> escaping scheme, which was already covered by <code>json</code>.</li>\n</ul>\n</blockquote>",
-          "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
-          "publishedOn": "2026-04-05T03:39:33.000Z",
-          "wordCount": 732,
-          "title": "scan-for-secrets 0.1.1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/scan-for-secrets/releases/tag/0.1\">scan-for-secrets 0.1</a></p>\n    <p>I like publishing transcripts of local Claude Code sessions using my <a href=\"https://github.com/simonw/claude-code-transcripts\">claude-code-transcripts</a> tool but I'm often paranoid that one of my API keys or similar secrets might inadvertently be revealed in the detailed log files.</p>\n<p>I built this new Python scanning tool to help reassure me. You can feed it secrets and have it scan for them in a specified directory:</p>\n<pre><code>uvx scan-for-secrets $OPENAI_API_KEY -d logs-to-publish/\n</code></pre>\n<p>If you leave off the <code>-d</code> it defaults to the current directory.</p>\n<p>It doesn't just scan for the literal secrets - it also scans for common encodings of those secrets e.g. backslash or JSON escaping, <a href=\"https://github.com/simonw/scan-for-secrets/blob/main/README.md#escaping-schemes\">as described in the README</a>.</p>\n<p>If you have a set of secrets you always want to protect you can list commands to echo them in a <code>~/.scan-for-secrets.conf.sh</code> file. Mine looks like this:</p>\n<pre><code>llm keys get openai\nllm keys get anthropic\nllm keys get gemini\nllm keys get mistral\nawk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs\n</code></pre>\n<p>I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then <a href=\"https://gisthost.github.io/?d4b1a398bf3b6b14aade923dea69a1ac/index.html\">dumped it into Claude Code</a> and told it to build the actual tool (using <a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/\">red/green TDD</a>, naturally.)</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
-          "publishedOn": "2026-04-05T03:27:13.000Z",
-          "wordCount": 915,
-          "title": "scan-for-secrets 0.1",
-          "imageUrl": null
         }
       ]
     },
@@ -4172,6 +4202,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=161634",
+          "author": "Max G. Levy",
+          "description": "The sunlight-collecting organelles known as chloroplasts solve a packing problem: how to optimize photosynthesis without sustaining damage from dangerously intense rays.            \nThe post The Hidden Mathematical Dance Inside Plant Cells first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+          "publishedOn": "2026-05-04T14:39:38.000Z",
+          "wordCount": 3828,
+          "title": "The Hidden Mathematical Dance Inside Plant Cells",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/ChloroplastPacking-crBenediktPleyer_NomadicNostoc_SciencePhotoLibrary-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=161513",
           "author": "Marlowe Starling",
