@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-04T06:38:01.386Z</updated>
+    <updated>2026-05-04T13:55:26.914Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[fig: 4may26]]></title>
+        <id>https://warrenellis.ltd/?p=18300</id>
+        <link href="https://warrenellis.ltd/status/fig-4may26/"/>
+        <updated>2026-05-04T11:03:44.000Z</updated>
+        <summary type="html"><![CDATA[This is going to be a fig. Accessions: HOLLYWOOD HAUNTS THE WORLD was gifted me to the author, for which I am very grateful because…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/815677952092160000</id>
+        <link href="https://brucesterling.tumblr.com/post/815677952092160000"/>
+        <updated>2026-05-04T10:38:33.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Demand destruction vs fuel-superceding infrastructure (04 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12766</id>
+        <link href="https://pluralistic.net/2026/05/04/hope-in-the-dark/"/>
+        <updated>2026-05-04T09:39:28.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Demand destruction vs fuel-superceding infrastructure: Will Trump hormuz us into the full Gretacene? Hey look at this: Delights to delectate. Object permanence: Beck, Scientologist; Citizen journalism; Podcast-killing treaty; US x Kiwi copyright; Apple did a crime; DeCSS v civilian aviation; Navy x SF's queering; Micosoft v FLOSS; Sony-BMG needs a new DRM czar; Lossy copying sculpture; AI and the fatfinger economy. Upcoming appearances: Guelph, Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Demand destruction vs fuel-superceding infrastructure (permalink) No one is better at keeping hope alive than R…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Anthropic]]></title>
         <id>https://simonwillison.net/2026/May/3/anthropic/#atom-everything</id>
@@ -6772,20 +6801,6 @@ awk -F= '/aws_secret_access_key/{print $2}' ~/.aws/credentials | xargs
 <p>I built this tool using README-driven-development: I carefully constructed the README describing exactly how the tool should work, then <a href="https://gisthost.github.io/?d4b1a398bf3b6b14aade923dea69a1ac/index.html">dumped it into Claude Code</a> and told it to build the actual tool (using <a href="https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/">red/green TDD</a>, naturally.)</p>
     
         <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[research-llm-apis 2026-04-04]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything"/>
-        <updated>2026-04-05T00:32:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/research-llm-apis/releases/tag/2026-04-04">research-llm-apis 2026-04-04</a></p>
-    <p>I'm working on a <a href="https://github.com/simonw/llm/issues/1314">major change</a> to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different vendors thanks to its plugin system, and some of those vendors have grown new features over the past year which LLM's abstraction layer can't handle, such as server-side tool execution.</p>
-<p>To help design that new abstraction layer I had Claude Code read through the Python client libraries for Anthropic, OpenAI, Gemini and Mistral and use those to help craft <code>curl</code> commands to access the raw JSON for both streaming and non-streaming modes across a range of different scenarios. Both the scripts and the captured outputs now live in this new repo.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/apis">apis</a>, <a href="https://simonwillison.net/tags/json">json</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>

@@ -2374,6 +2374,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=12766",
+          "author": "Cory Doctorow",
+          "description": "Today's links Demand destruction vs fuel-superceding infrastructure: Will Trump hormuz us into the full Gretacene? Hey look at this: Delights to delectate. Object permanence: Beck, Scientologist; Citizen journalism; Podcast-killing treaty; US x Kiwi copyright; Apple did a crime; DeCSS v civilian aviation; Navy x SF's queering; Micosoft v FLOSS; Sony-BMG needs a new DRM czar; Lossy copying sculpture; AI and the fatfinger economy. Upcoming appearances: Guelph, Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Demand destruction vs fuel-superceding infrastructure (permalink) No one is better at keeping hope alive than R…",
+          "link": "https://pluralistic.net/2026/05/04/hope-in-the-dark/",
+          "publishedOn": "2026-05-04T09:39:28.000Z",
+          "wordCount": 4233,
+          "title": "Pluralistic: Demand destruction vs fuel-superceding infrastructure (04 May 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=12760",
           "author": "Cory Doctorow",
           "description": "Today's links The prehistory of the Democratic Nuremberg Caucus: Do bounties for ICE whistleblowers next! Hey look at this: Delights to delectate. Object permanence: Colbert v GWB; Wallaby milk; Jay Rosen's journalism precepts; Radical Media(TM); What is carried interest? TCP over pigeon; BNL v copyright; RIP Joanna Russ; GOP forcing students to repay scam loans. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The prehistory of the Democratic Nuremberg Caucus (permalink) Comrade Trump continues his unbroken streak of destroying the American empire's grip on the world, hastening the renewables transi…",
@@ -2607,6 +2617,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18300",
+          "author": "Warren Ellis",
+          "description": "This is going to be a fig. Accessions: HOLLYWOOD HAUNTS THE WORLD was gifted me to the author, for which I am very grateful because…",
+          "link": "https://warrenellis.ltd/status/fig-4may26/",
+          "publishedOn": "2026-05-04T11:03:44.000Z",
+          "wordCount": 1535,
+          "title": "fig: 4may26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1110.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18297",
           "author": "Warren Ellis",
           "description": "Potatoes. Haven’t been able to do anything in the garden all week, and things don’t look great out there – but things are growing, too.…",
@@ -2723,6 +2743,16 @@
       "feedUrl": "https://brucesterling.tumblr.com/rss",
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
+        {
+          "id": "https://brucesterling.tumblr.com/post/815677952092160000",
+          "author": null,
+          "description": "",
+          "link": "https://brucesterling.tumblr.com/post/815677952092160000",
+          "publishedOn": "2026-05-04T10:38:33.000Z",
+          "wordCount": 1225,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/7fc9ae504bc63974dd3a635e509ecb29/7f5d3de6b681241b-0c/s1280x1920/77ba63434fb4a294536063ce19d1b678ae84a14a.webp"
+        },
         {
           "id": "https://brucesterling.tumblr.com/post/815197334607708160",
           "author": null,
@@ -4043,16 +4073,6 @@
           "publishedOn": "2026-04-05T03:27:13.000Z",
           "wordCount": 915,
           "title": "scan-for-secrets 0.1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/research-llm-apis/releases/tag/2026-04-04\">research-llm-apis 2026-04-04</a></p>\n    <p>I'm working on a <a href=\"https://github.com/simonw/llm/issues/1314\">major change</a> to my LLM Python library and CLI tool. LLM provides an abstraction layer over hundreds of different LLMs from dozens of different vendors thanks to its plugin system, and some of those vendors have grown new features over the past year which LLM's abstraction layer can't handle, such as server-side tool execution.</p>\n<p>To help design that new abstraction layer I had Claude Code read through the Python client libraries for Anthropic, OpenAI, Gemini and Mistral and use those to help craft <code>curl</code> commands to access the raw JSON for both streaming and non-streaming modes across a range of different scenarios. Both the scripts and the captured outputs now live in this new repo.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/apis\">apis</a>, <a href=\"https://simonwillison.net/tags/json\">json</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
-          "publishedOn": "2026-04-05T00:32:11.000Z",
-          "wordCount": 711,
-          "title": "research-llm-apis 2026-04-04",
           "imageUrl": null
         }
       ]
