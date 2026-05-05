@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-05T13:50:42.719Z</updated>
+    <updated>2026-05-05T17:22:33.625Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pocket forests . &#8220;The Miyawaki method of...]]></title>
+        <id>https://kottke.org/26/05/0048869-pocket-forests</id>
+        <link href="https://kottke.org/26/05/0048869-pocket-forests"/>
+        <updated>2026-05-05T17:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Pocket forests. “The Miyawaki method of reforestation inserts small, densely packed wild acreage into urban environs. It’s proving wildly successful.” The key is densely planting diverse & native species…this isn’t just planting some trees.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Could This Fish Be a Notebook?  &#8220;David Byrne...]]></title>
+        <id>https://kottke.org/26/05/0048873-could-this-fish-be-a-note</id>
+        <link href="https://kottke.org/26/05/0048873-could-this-fish-be-a-note"/>
+        <updated>2026-05-05T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Could This Fish Be a Notebook? “David Byrne learns how fisheries from Iceland to the Great Lakes are using 100% of their catch — and shares his tips for making fish head soup.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A24&#8217;s Young Anthony Bourdain Movie]]></title>
+        <id>https://kottke.org/26/05/a24s-young-anthony-bourdain-movie</id>
+        <link href="https://kottke.org/26/05/a24s-young-anthony-bourdain-movie"/>
+        <updated>2026-05-05T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Huh. A24 is coming out with an Anthony Bourdain biopic that focuses on the time period around the chef/writer’s college years, when he first started working in kitchens. Directed by Matt Johnson, who co-created Nirvana the Band the Show and directed BlackBerry. Could be good. (via rex)
+
+ 
+
+        
+         
+Tags: Anthony Bourdain · movies · Tony · trailers · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Star Wars: The Phantom Menace in black & white with the...]]></title>
+        <id>https://kottke.org/26/05/0048876-becomes-the-best-space-ku</id>
+        <link href="https://kottke.org/26/05/0048876-becomes-the-best-space-ku"/>
+        <updated>2026-05-05T14:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Star Wars: The Phantom Menace in black & white with the Japanese audio track “becomes the best ‘Space Kurosawa’ movie ever made”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microshifting . &#8220;From a creativity standpoint,...]]></title>
+        <id>https://kottke.org/26/05/0048870-microshifting</id>
+        <link href="https://kottke.org/26/05/0048870-microshifting"/>
+        <updated>2026-05-05T14:20:01.000Z</updated>
+        <summary type="html"><![CDATA[Microshifting. “From a creativity standpoint, it’s good to take breaks. When you stop thinking about a task is when your best ideas come to you.” This is how I’ve worked for the past decade+…bursts of work throughout the day & week.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[5may26]]></title>
         <id>https://warrenellis.ltd/?p=18318</id>
@@ -34,6 +90,47 @@
         <summary type="html"><![CDATA[Plus earth's greatest clothing shop, a secret riverside oasis, and tons of delicious food. One road trip brings it all together]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-llm 0.1a7]]></title>
+        <id>https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything"/>
+        <updated>2026-05-05T01:56:55.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a7">datasette-llm 0.1a7</a></p>
+        <blockquote>
+<ul>
+<li>Mechanism for <a href="https://github.com/datasette/datasette-llm/blob/main/README.md#configuration">configuring default options</a> for specific models.</li>
+</ul>
+</blockquote>
+<p>Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a model with default options, e.g. to say all <a href="https://github.com/datasette/datasette-enrichments-llm">enrichment</a> operations should use a specific model with temperature set to 0.5.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-echo 0.5a0]]></title>
+        <id>https://simonwillison.net/2026/May/5/llm-echo/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/5/llm-echo/#atom-everything"/>
+        <updated>2026-05-05T01:31:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-echo/releases/tag/0.5a0">llm-echo 0.5a0</a></p>
+        <blockquote>
+<ul>
+<li>New <code>-o thinking 1</code> option to help test against <a href="https://llm.datasette.io/en/latest/changelog.html#a0-2026-04-28">LLM 0.32a0</a> and higher.</li>
+</ul>
+</blockquote>
+<p>This plugin provides a fake model called "echo" for LLM which doesn't run an LLM at all - it's useful for writing automated tests. You can now do this:</p>
+<pre><code>uvx --with llm==0.32a1 --with llm-echo==0.5a0 llm -m echo hi -o thinking 1
+</code></pre>
+<p>This will fake a reasoning block to standard error before returning JSON echoing the prompt.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6871,77 +6968,6 @@ The post An Arctic Road Trip Brings Vital Underground Networks into View first a
         <summary type="html"><![CDATA[Today's links Your boss wants to use surveillance data to cut your wages: Tech rights are labor rights (again). Hey look at this: Delights to delectate. Object permanence: Arthur C Clarke v Buddhist monks (x DST); Bomb squad v life-size Mario power-ups; Panama Papers; Chinese antitrust; Consumerism v New Jim Crow; Absurd English spelling; Save Netflix! David Cameron's dad v Panama Papers; Trick photos with a giant coin; End-stage capitalism. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Your boss wants to use surveillance data to cut your wages (permalink) What i…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google AI Edge Gallery]]></title>
-        <id>https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything"/>
-        <updated>2026-04-06T05:18:26.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337">Google AI Edge Gallery</a></strong></p>
-Terrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on your iPhone.</p>
-<p>It works <em>really</em> well. The E2B model is a 2.54GB download and is both fast and genuinely useful.</p>
-<p>The app also provides "ask questions about images" and audio transcription (up to 30s) with the two small Gemma 4 models, and has an interesting "skills" demo which demonstrates tool calling against eight different interactive widgets, each implemented as an HTML page (though sadly the source code is not visible): interactive-map, kitchen-adventure, calculate-hash, text-spinner, mood-tracker, mnemonic-password, query-wikipedia, and qr-code.</p>
-<p><img src="https://static.simonwillison.net/static/2026/gemini-agent-skills.jpg" alt="Screenshot of an &quot;Agent Skills&quot; chat interface using the Gemma-4-E2B-it model. The user prompt reads &quot;Show me the Castro Theatre on a map.&quot; The model response, labeled &quot;Model on GPU,&quot; shows it &quot;Called JS skill &#39;interactive-map/index.html&#39;&quot; and displays an embedded Google Map centered on a red pin at The Castro Theatre in San Francisco, with nearby landmarks visible including Starbelly, Cliff&#39;s Variety, Blind Butcher, GLBT Historical Society Museum, and Fable. An &quot;Open in Maps&quot; link and &quot;View in full screen&quot; button are shown. Below the map, the model states &quot;The interactive map view for the Castro Theatre has been shown.&quot; with a response time of 2.4 s. A text input field with &quot;Type prompt...&quot; placeholder, a &quot;+&quot; button, and a &quot;Skills&quot; button appear at the bottom." style="max-width: min(400px, 100%); margin: 0 auto; display: block;"></p>
-<p>(That demo did freeze the app when I tried to add a follow-up prompt though.)</p>
-<p>This is the first time I've seen a local model vendor release an official app for trying out their models on in iPhone. Sadly it's missing permanent logs - conversations with this app are ephemeral.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=47652561">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/iphone">iphone</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm-tool-use">llm-tool-use</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-ports 0.2]]></title>
-        <id>https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything"/>
-        <updated>2026-04-06T03:25:43.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-ports/releases/tag/0.2">datasette-ports 0.2</a></p>
-    <blockquote>
-<ul>
-<li>No longer requires Datasette - running <code>uvx datasette-ports</code> now works as well.</li>
-<li>Installing it as a Datasette plugin continues to provide the <code>datasette ports</code> command.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[scan-for-secrets 0.3]]></title>
-        <id>https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything"/>
-        <updated>2026-04-06T02:59:28.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/scan-for-secrets/releases/tag/0.3">scan-for-secrets 0.3</a></p>
-    <blockquote>
-<ul>
-<li>New <code>-r/--redact</code> option which shows the list of matches, asks for confirmation and then replaces every match with <code>REDACTED</code>, taking escaping rules into account.</li>
-<li>New Python function <code>redact_file(file_path: str | Path, secrets: list[str], replacement: str = "REDACTED") -&gt; int</code>.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cleanup Claude Code Paste]]></title>
-        <id>https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything"/>
-        <updated>2026-04-06T02:55:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/cleanup-claude-code-paste">Cleanup Claude Code Paste</a></p>
-    <p>Super-niche tool this. I sometimes copy prompts out of the Claude Code terminal app and they come out with a bunch of weird additional whitespace. This tool cleans that up.</p>
-<p><img alt="Screenshot of a web tool titled &quot;Cleanup Claude Code Paste&quot; with the subtitle &quot;Paste terminal output to remove the ❯ prompt, fix wrapped-line whitespace, and join lines into clean text.&quot; An input textarea contains pasted terminal output starting with &quot;❯ Add a -r/--redact option which asks for user approval (after telling it how many replacements will happen and in which files and which lines – standard output basically) and then rewrites the files in that folder to replace all matched secrets with REDACTED. Run tests with 'uv run pytest' and use red/green TDD&quot;. Below is a &quot;Cleaned output:&quot; section showing the same text with the ❯ prompt removed and whitespace cleaned up. A blue &quot;Copy to clipboard&quot; button appears at the bottom." src="https://static.simonwillison.net/static/2026/claude-code-cleanup.jpg" /></p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
