@@ -44,16 +44,6 @@
           "wordCount": 2692,
           "title": "A peculiar mixture of omniscience and impotence ⊗ Electrostates & physics",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/size/w1200/2026/04/55193054741_9916ebcb5f_k-w.jpg"
-        },
-        {
-          "id": "69d0355266f92e0001e98d18",
-          "author": "Patrick Tanguay",
-          "description": "No.397 — Ending the AI arms race  ⊗ Insight and future-fit decisions ⊗ Better AI creative collaborators ⊗ Progressive Paris ⊗ The asteroid ryugu and the building blocks of life",
-          "link": "https://sentiers.media/geist-in-the-machine-the-prospect-of-butlerian-jihad-no-397/",
-          "publishedOn": "2026-04-05T10:00:46.000Z",
-          "wordCount": 2678,
-          "title": "Geist in the machine ⊗ The prospect of Butlerian Jihad",
-          "imageUrl": "https://sentiers.media/content/images/2026/04/Geist_in_the_machine-w.jpg"
         }
       ]
     },
@@ -289,6 +279,16 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/05/0048867-you-can-watch-the-whole-m",
+          "author": null,
+          "description": "The Booksellers is a 2019 feature-length documentary film about antiquarian and rare book dealers; you can watch the whole movie for free on YouTube.",
+          "link": "https://kottke.org/26/05/0048867-you-can-watch-the-whole-m",
+          "publishedOn": "2026-05-04T21:51:00.000Z",
+          "wordCount": 790,
+          "title": "The Booksellers is a 2019 feature-length documentary film...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/05/new-banksy-blinded-by-nationalism",
           "author": null,
@@ -3095,22 +3095,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!rKrV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee5277b9-9a8c-4e78-90e0-9d7c687c7574_1190x810.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/natural-fiber-workout-gear-report",
-          "author": "Blackbird Spyplane",
-          "description": "Your guide to Gaia-amenable activewear to sweat in (& chill in)",
-          "link": "https://www.blackbirdspyplane.com/p/natural-fiber-workout-gear-report",
-          "publishedOn": "2026-04-05T14:08:08.000Z",
-          "wordCount": null,
-          "title": "Natural Fiber Workout Gear Report",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!6_SO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F949b2d62-91ee-4784-8774-8f5fc17cecee_2000x1348.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!6_SO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F949b2d62-91ee-4784-8774-8f5fc17cecee_2000x1348.png"
         }
       ]
     },
@@ -3285,6 +3269,46 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://daringfireball.net/2026/05/y_combinators_stake_in_openai\"><p>So it’s well known that Y Combinator owns <em>some</em> stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current <a href=\"https://openai.com/index/accelerating-the-next-phase-ai/\">$852 billion valuation</a>, that’s worth over $5 billion.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://daringfireball.net/2026/05/y_combinators_stake_in_openai\">John Gruber</a>, Y Combinator’s Stake in OpenAI</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/y-combinator\">y-combinator</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/john-gruber\">john-gruber</a></p>",
+          "link": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+          "publishedOn": "2026-05-05T00:46:29.000Z",
+          "wordCount": 762,
+          "title": "Quoting John Gruber",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://simonw.github.io/granite-4.1-3b-gguf-pelicans/\">Granite 4.1 3B SVG Pelican Gallery</a></strong></p>\nIBM released their <a href=\"https://research.ibm.com/blog/granite-4-1-ai-foundation-models\">Granite 4.1 family</a> of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes.</p>\n<p><a href=\"https://huggingface.co/blog/ibm-granite/granite-4-1\">Granite 4.1 LLMs: How They’re Built</a> by Granite team member Yousaf Shah describes the training process in detail.</p>\n<p>Unsloth released the <a href=\"https://huggingface.co/unsloth/granite-4.1-3b-GGUF\">unsloth/granite-4.1-3b-GGUF</a> collection of GGUF encoded quantized variants of the 3B model - 21 different model files ranging in size from 1.2GB to 6.34GB.</p>\n<p>All 21 of those Unsloth files add up to 51.3GB, which inspired me to finally try an experiment I've been wanting to run for ages: prompting \"Generate an SVG of a pelican riding a bicycle\" against different sized quantized variants of the same model to see what the results would look like.</p>\n<p>Honestly, <a href=\"https://simonw.github.io/granite-4.1-3b-gguf-pelicans/\">the results</a> are less interesting than I expected. There's no distinguishable pattern relating quality to size - they're all pretty terrible!</p>\n<p><img alt=\"Six different SVG images from models ranging in size from 1.67GB to 1.2GB. They are almost all an abstract collection of shapes - weirdly the smallest model had the best version of a bicycle, while the largest one had something that looked a tiny bit like a pelican.\" src=\"https://static.simonwillison.net/static/2026/granite-3B-pelicans.jpg\" /></p>\n<p>I'll likely try this again in the future with a model that's better at drawing pelicans.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ibm\">ibm</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+          "link": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+          "publishedOn": "2026-05-04T23:49:24.000Z",
+          "wordCount": 892,
+          "title": "Granite 4.1 3B SVG Pelican Gallery",
+          "imageUrl": "https://static.simonwillison.net/static/2026/granite-3B-card.jpg"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://blog.andymasley.com/p/data-center-land-use-issues-are-fake\"><p>[...] Between 2000 and 2024, farmers sold in total a Colorado-sized chunk of land all on their own, 77 times all land on data center property in 2028, and grew more food than ever on what was left. None of this caused any problems for US food access.</p>\n<p>And then, in the middle of all this, a farmer in Loudoun County sells a few acres of mediocre hay field to a hyperscaler for ten times its agricultural value, and the response is that we’re running out of farmland.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.andymasley.com/p/data-center-land-use-issues-are-fake\">Andy Masley</a>, pushing back against the \"land use\" argument against data center construction</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/andy-masley\">andy-masley</a></p>",
+          "link": "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything",
+          "publishedOn": "2026-05-04T22:51:09.000Z",
+          "wordCount": 794,
+          "title": "Quoting Andy Masley",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+          "author": null,
+          "description": "<p>I just sent out the April edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-04-april.md\">access it here</a>.</p>\n<p>In this month's newsletter:</p>\n<ul>\n<li>Opus 4.7 and GPT-5.5, both with price increases</li>\n<li>Claude Mythos and LLM security research</li>\n<li>ChatGPT Images 2.0</li>\n<li>More model releases</li>\n<li>Other highlights from my blog</li>\n<li>What I'm using, April 2026 edition</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-03-march.md\">a copy of the March newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+          "link": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+          "publishedOn": "2026-05-04T22:38:36.000Z",
+          "wordCount": 800,
+          "title": "April 2026 newsletter",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
           "author": null,

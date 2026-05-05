@@ -2,10 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-04T21:07:38.730Z</updated>
+    <updated>2026-05-05T02:33:51.513Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting John Gruber]]></title>
+        <id>https://simonwillison.net/2026/May/5/john-gruber/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/5/john-gruber/#atom-everything"/>
+        <updated>2026-05-05T00:46:29.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://daringfireball.net/2026/05/y_combinators_stake_in_openai"><p>So it’s well known that Y Combinator owns <em>some</em> stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current <a href="https://openai.com/index/accelerating-the-next-phase-ai/">$852 billion valuation</a>, that’s worth over $5 billion.</p></blockquote>
+<p class="cite">&mdash; <a href="https://daringfireball.net/2026/05/y_combinators_stake_in_openai">John Gruber</a>, Y Combinator’s Stake in OpenAI</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/y-combinator">y-combinator</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/john-gruber">john-gruber</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Granite 4.1 3B SVG Pelican Gallery]]></title>
+        <id>https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything"/>
+        <updated>2026-05-04T23:49:24.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://simonw.github.io/granite-4.1-3b-gguf-pelicans/">Granite 4.1 3B SVG Pelican Gallery</a></strong></p>
+IBM released their <a href="https://research.ibm.com/blog/granite-4-1-ai-foundation-models">Granite 4.1 family</a> of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes.</p>
+<p><a href="https://huggingface.co/blog/ibm-granite/granite-4-1">Granite 4.1 LLMs: How They’re Built</a> by Granite team member Yousaf Shah describes the training process in detail.</p>
+<p>Unsloth released the <a href="https://huggingface.co/unsloth/granite-4.1-3b-GGUF">unsloth/granite-4.1-3b-GGUF</a> collection of GGUF encoded quantized variants of the 3B model - 21 different model files ranging in size from 1.2GB to 6.34GB.</p>
+<p>All 21 of those Unsloth files add up to 51.3GB, which inspired me to finally try an experiment I've been wanting to run for ages: prompting "Generate an SVG of a pelican riding a bicycle" against different sized quantized variants of the same model to see what the results would look like.</p>
+<p>Honestly, <a href="https://simonw.github.io/granite-4.1-3b-gguf-pelicans/">the results</a> are less interesting than I expected. There's no distinguishable pattern relating quality to size - they're all pretty terrible!</p>
+<p><img alt="Six different SVG images from models ranging in size from 1.67GB to 1.2GB. They are almost all an abstract collection of shapes - weirdly the smallest model had the best version of a bicycle, while the largest one had something that looked a tiny bit like a pelican." src="https://static.simonwillison.net/static/2026/granite-3B-pelicans.jpg" /></p>
+<p>I'll likely try this again in the future with a model that's better at drawing pelicans.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ibm">ibm</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Andy Masley]]></title>
+        <id>https://simonwillison.net/2026/May/4/andy-masley/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/4/andy-masley/#atom-everything"/>
+        <updated>2026-05-04T22:51:09.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://blog.andymasley.com/p/data-center-land-use-issues-are-fake"><p>[...] Between 2000 and 2024, farmers sold in total a Colorado-sized chunk of land all on their own, 77 times all land on data center property in 2028, and grew more food than ever on what was left. None of this caused any problems for US food access.</p>
+<p>And then, in the middle of all this, a farmer in Loudoun County sells a few acres of mediocre hay field to a hyperscaler for ten times its agricultural value, and the response is that we’re running out of farmland.</p></blockquote>
+<p class="cite">&mdash; <a href="https://blog.andymasley.com/p/data-center-land-use-issues-are-fake">Andy Masley</a>, pushing back against the "land use" argument against data center construction</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/andy-masley">andy-masley</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[April 2026 newsletter]]></title>
+        <id>https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything"/>
+        <updated>2026-05-04T22:38:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>I just sent out the April edition of my <a href="https://github.com/sponsors/simonw/">sponsors-only monthly newsletter</a>. If you are a sponsor (or if you start a sponsorship now) you can <a href="https://github.com/simonw-private/monthly/blob/main/2026-04-april.md">access it here</a>.</p>
+<p>In this month's newsletter:</p>
+<ul>
+<li>Opus 4.7 and GPT-5.5, both with price increases</li>
+<li>Claude Mythos and LLM security research</li>
+<li>ChatGPT Images 2.0</li>
+<li>More model releases</li>
+<li>Other highlights from my blog</li>
+<li>What I'm using, April 2026 edition</li>
+</ul>
+<p>Here's <a href="https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-03-march.md">a copy of the March newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/newsletter">newsletter</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Booksellers is a 2019 feature-length documentary film...]]></title>
+        <id>https://kottke.org/26/05/0048867-you-can-watch-the-whole-m</id>
+        <link href="https://kottke.org/26/05/0048867-you-can-watch-the-whole-m"/>
+        <updated>2026-05-04T21:51:00.000Z</updated>
+        <summary type="html"><![CDATA[The Booksellers is a 2019 feature-length documentary film about antiquarian and rare book dealers; you can watch the whole movie for free on YouTube.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Banksy: Blinded by Nationalism]]></title>
         <id>https://kottke.org/26/05/new-banksy-blinded-by-nationalism</id>
@@ -6904,26 +6983,6 @@ Lalit Maganti provides one of my favorite pieces of long-form writing on agentic
         <p>Tags: <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Natural Fiber Workout Gear Report]]></title>
-        <id>https://www.blackbirdspyplane.com/p/natural-fiber-workout-gear-report</id>
-        <link href="https://www.blackbirdspyplane.com/p/natural-fiber-workout-gear-report"/>
-        <updated>2026-04-05T14:08:08.000Z</updated>
-        <summary type="html"><![CDATA[Your guide to Gaia-amenable activewear to sweat in (& chill in)]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Geist in the machine ⊗ The prospect of Butlerian Jihad]]></title>
-        <id>69d0355266f92e0001e98d18</id>
-        <link href="https://sentiers.media/geist-in-the-machine-the-prospect-of-butlerian-jihad-no-397/"/>
-        <updated>2026-04-05T10:00:46.000Z</updated>
-        <summary type="html"><![CDATA[No.397 — Ending the AI arms race  ⊗ Insight and future-fit decisions ⊗ Better AI creative collaborators ⊗ Progressive Paris ⊗ The asteroid ryugu and the building blocks of life]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
 </feed>
