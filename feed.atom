@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-05T06:14:35.426Z</updated>
+    <updated>2026-05-05T13:50:42.719Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[5may26]]></title>
+        <id>https://warrenellis.ltd/?p=18318</id>
+        <link href="https://warrenellis.ltd/status/5may26/"/>
+        <updated>2026-05-05T12:43:38.000Z</updated>
+        <summary type="html"><![CDATA[Picked up a smaller sling bag for those days where I just need the phone, earbuds or MP3 player and card wallet. Denim/kapok blend long-cut…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: The three armies fighting for the post-American world (05 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12771</id>
+        <link href="https://pluralistic.net/2026/05/05/three-is-a-magic-number/"/>
+        <updated>2026-05-05T12:31:41.000Z</updated>
+        <summary type="html"><![CDATA[Today's links The three armies fighting for the post-American world: Hippies, investors and hawks. Hey look at this: Delights to delectate. Object permanence: NK dictator's son v Tokyo Disneyland; Mainstream press and Bushies v Colbert; Taliban v Pakistan's first McDonald's; Norwegian sovereign wealth fund v exec compensation; Copyright v cheerleader uniforms; Dishwashers are Iphones. Upcoming appearances: Guelph, Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The three armies fighting for the post-American world (permalink) Political change is downstream of coalition building, and coalitions are fragile things, b…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Earth's least cynical place]]></title>
+        <id>https://www.blackbirdspyplane.com/p/spyplane-road-trip-of-wonders-pnw-2026</id>
+        <link href="https://www.blackbirdspyplane.com/p/spyplane-road-trip-of-wonders-pnw-2026"/>
+        <updated>2026-05-05T11:03:36.000Z</updated>
+        <summary type="html"><![CDATA[Plus earth's greatest clothing shop, a secret riverside oasis, and tons of delicious food. One road trip brings it all together]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting John Gruber]]></title>
         <id>https://simonwillison.net/2026/May/5/john-gruber/#atom-everything</id>
@@ -17,6 +47,64 @@
     <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/y-combinator">y-combinator</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/john-gruber">john-gruber</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emily Bick presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/audio/on-air/emily-bick-presents-adventures-in-sound-and-music-77918</id>
+        <link href="https://www.thewire.co.uk/audio/on-air/emily-bick-presents-adventures-in-sound-and-music-77918"/>
+        <updated>2026-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire’s weekly radio show on Resonance FM and Resonance Extra featured tracks by Winged Wheel, Egg Meat, Guttersnipe, Larry Wish and more
+
+Tracklist
+    
+Winged Wheel
+        
+“Can’t Say Goodbye Every Time”
+        
+Can’t Say Goodbye Every Time / Kiss Your Worries Goodbye
+        
+Stoned To Death)
+    
+Blood Sucking Maniacs
+        
+“A Pogo Is A Logo”
+        
+Blood Sucking Maniacs
+        
+ (Paradise of Bachelors)
+    
+Egg Meat
+        
+“What A Performance”
+        
+The Most Pathetic Poem Is Small People On Fire
+        
+Mutualism)
+    
+St Agnis
+        
+“Psalm Of Ascent EA 1”
+        
+Psalm Of Unagony
+        
+5 Gate Temple)
+    
+Heather Stebbins & Ning Yu
+        
+“Radio Chords”
+        
+Spirals
+        
+Carrier)
+    
+KA Posse
+        
+“Suckas Be Ready feat MCD-TA”
+        
+KA Posse …]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6852,135 +6940,6 @@ Terrible name, really great app: this is Google's official app for running their
 <p><img alt="Screenshot of a web tool titled &quot;Cleanup Claude Code Paste&quot; with the subtitle &quot;Paste terminal output to remove the ❯ prompt, fix wrapped-line whitespace, and join lines into clean text.&quot; An input textarea contains pasted terminal output starting with &quot;❯ Add a -r/--redact option which asks for user approval (after telling it how many replacements will happen and in which files and which lines – standard output basically) and then rewrites the files in that folder to replace all matched secrets with REDACTED. Run tests with 'uv run pytest' and use red/green TDD&quot;. Below is a &quot;Cleaned output:&quot; section showing the same text with the ❯ prompt removed and whitespace cleaned up. A blue &quot;Copy to clipboard&quot; button appears at the bottom." src="https://static.simonwillison.net/static/2026/claude-code-cleanup.jpg" /></p>
     
         <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-ports 0.1]]></title>
-        <id>https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything"/>
-        <updated>2026-04-06T00:23:55.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-ports/releases/tag/0.1">datasette-ports 0.1</a></p>
-    <p>Another <a href="https://gisthost.github.io/?f92d8a6bdadee1c77972b5e51954144e">example</a> of README-driven development, this time solving a problem that might be unique to me.</p>
-<p>I often find myself running a bunch of different <a href="https://datasette.io">Datasette</a> instances with different databases and different in-development plugins, spreads across dozens of different terminal windows - enough that I frequently lose them!</p>
-<p>Now I can run this:</p>
-<pre><code>datasette install datasette-ports
-datasette ports
-</code></pre>
-<p>And get a list of every running instance that looks something like this:</p>
-<pre><code>http://127.0.0.1:8333/ - v1.0a26
-  Databases: data
-  Plugins: datasette-enrichments, datasette-enrichments-llm, datasette-llm, datasette-secrets
-http://127.0.0.1:8001/ - v1.0a26
-  Databases: creatures
-  Plugins: datasette-extract, datasette-llm, datasette-secrets
-http://127.0.0.1:8900/ - v0.65.2
-  Databases: logs
-</code></pre>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winter Garden: Where is it like to be a language model?]]></title>
-        <id>https://www.robinsloan.com/winter-garden/where-is-it-like/</id>
-        <link href="https://www.robinsloan.com/winter-garden/where-is-it-like/"/>
-        <updated>2026-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>And is it good to be one? <a href="https://www.robinsloan.com/winter-garden/where-is-it-like/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Below The Radar  50]]></title>
-        <id>https://www.thewire.co.uk/audio/btr/below-the-radar-50</id>
-        <link href="https://www.thewire.co.uk/audio/btr/below-the-radar-50"/>
-        <updated>2026-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire’s subscriber only download compilation is a bumper edition featuring 27 tracks by ans m, E The Artist, Isabelle Duthoite, Girl Pusher, Jay Mitta, Kareem Samara, Only Now and more
-
-Take out a print or digital subscription to The Wire to stream and download every edition of Below The Radar]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eight years of wanting, three months of building with AI]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything"/>
-        <updated>2026-04-05T23:54:18.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://lalitm.com/post/building-syntaqlite-ai/">Eight years of wanting, three months of building with AI</a></strong></p>
-Lalit Maganti provides one of my favorite pieces of long-form writing on agentic engineering I've seen in ages.</p>
-<p>They spent eight years thinking about and then three months building <a href="https://github.com/lalitMaganti/syntaqlite">syntaqlite</a>, which they describe as "<a href="https://lalitm.com/post/syntaqlite/">high-fidelity devtools that SQLite deserves</a>".</p>
-<p>The goal was to provide fast, robust and comprehensive linting and verifying tools for SQLite, suitable for use in language servers and other development tools - a parser, formatter, and verifier for SQLite queries. I've found myself wanting this kind of thing in the past myself, hence my (far less production-ready) <a href="https://simonwillison.net/2026/Jan/30/sqlite-ast-2/">sqlite-ast</a> project from a few months ago.</p>
-<p>Lalit had been procrastinating on this project for years, because of the inevitable tedium of needing to work through 400+ grammar rules to help build a parser. That's exactly the kind of tedious work that coding agents excel at!</p>
-<p>Claude Code helped get over that initial hump and build the first prototype:</p>
-<blockquote>
-<p>AI basically let me put aside all my doubts on technical calls, my uncertainty of building the right thing and my reluctance to get started by giving me very concrete problems to work on. Instead of “I need to understand how SQLite’s parsing works”, it was “I need to get AI to suggest an approach for me so I can tear it up and build something better". I work so much better with concrete prototypes to play with and code to look at than endlessly thinking about designs in my head, and AI lets me get to that point at a pace I could not have dreamed about before. Once I took the first step, every step after that was so much easier.</p>
-</blockquote>
-<p>That first vibe-coded prototype worked great as a proof of concept, but they eventually made the decision to throw it away and start again from scratch. AI worked great for the low level details but did not produce a coherent high-level architecture:</p>
-<blockquote>
-<p>I found that AI made me procrastinate on key design decisions. Because refactoring was cheap, I could always say “I’ll deal with this later.” And because AI could refactor at the same industrial scale it generated code, the cost of deferring felt low. But it wasn’t: deferring decisions corroded my ability to think clearly because the codebase stayed confusing in the meantime.</p>
-</blockquote>
-<p>The second attempt took a lot longer and involved a great deal more human-in-the-loop decision making, but the result is a robust library that can stand the test of time.</p>
-<p>It's worth setting aside some time to read this whole thing - it's full of non-obvious downsides to working heavily with AI, as well as a detailed explanation of how they overcame those hurdles.</p>
-<p>The key idea I took away from this concerns AI's weakness in terms of design and architecture:</p>
-<blockquote>
-<p>When I was working on something where I didn’t even know what I wanted, AI was somewhere between unhelpful and harmful. The architecture of the project was the clearest case: I spent weeks in the early days following AI down dead ends, exploring designs that felt productive in the moment but collapsed under scrutiny. In hindsight, I have to wonder if it would have been faster just thinking it through without AI in the loop at all.</p>
-<p>But expertise alone isn’t enough. Even when I understood a problem deeply, AI still struggled if the task had no objectively checkable answer. Implementation has a right answer, at least at a local level: the code compiles, the tests pass, the output matches what you asked for. Design doesn’t. We’re still arguing about OOP decades after it first took off.</p>
-</blockquote>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=47648828">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links to click through and enjoy]]></title>
-        <id>https://www.thingsmagazine.net/?p=21146</id>
-        <link href="https://www.thingsmagazine.net/links-to-click-through-and-enjoy/"/>
-        <updated>2026-04-05T21:53:23.000Z</updated>
-        <summary type="html"><![CDATA[Architecture and Design. Is this the best McMansion exterior of all time? McTuscan Heaven / speaking of McMansions, we mistook this Presidential non-library for an April Fool / Gravity never left the discussion: Fallingwater’s preservation since 1937 has already cost … Continue reading →]]></summary>
-        <author>
-            <name>things magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Chengpeng Mou]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything"/>
-        <updated>2026-04-05T21:47:06.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/cpmou2022/status/2040606209800290404"><p>From anonymized U.S. ChatGPT data, we are seeing:</p>
-<ul>
-<li>~2M weekly messages on health insurance</li>
-<li>~600K weekly messages [classified as healthcare] from people living in “hospital deserts” (30 min drive to nearest hospital)</li>
-<li>7 out of 10 msgs happen outside clinic hours</li>
-</ul></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/cpmou2022/status/2040606209800290404">Chengpeng Mou</a>, Head of Business Finance, OpenAI</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Syntaqlite Playground]]></title>
-        <id>https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything"/>
-        <updated>2026-04-05T19:32:59.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/syntaqlite">Syntaqlite Playground</a></p>
-    <p>Lalit Maganti's <a href="https://github.com/LalitMaganti/syntaqlite">syntaqlite</a> is currently being discussed <a href="https://news.ycombinator.com/item?id=47648828">on Hacker News</a> thanks to <a href="https://lalitm.com/post/building-syntaqlite-ai/">Eight years of wanting, three months of building with AI</a>, a deep dive into how it was built.</p>
-<p>This inspired me to revisit <a href="https://github.com/simonw/research/tree/main/syntaqlite-python-extension#readme">a research project</a> I ran when Lalit first released it a couple of weeks ago, where I tried it out and then compiled it to a WebAssembly wheel so it could run in Pyodide in a browser (the library itself uses C and Rust).</p>
-<p>This <a href="https://tools.simonwillison.net/syntaqlite">new playground</a> loads up the Python library and provides a UI for trying out its different features: formating, parsing into an AST, validating, and tokenizing SQLite SQL queries.</p>
-<p><img src="https://static.simonwillison.net/static/2026/syntaqlite-playground.jpg" alt="Screenshot of a dark-themed SQL validation playground called SyntaqLite. The &quot;Validate&quot; tab is selected from options including Format, Parse, Validate, and Tokenize. The SQL input contains &quot;SELECT id, name FROM usr WHERE active = 1&quot; with a schema defining &quot;users&quot; and &quot;posts&quot; tables. Example buttons for &quot;Table typo&quot;, &quot;Column typo&quot;, and &quot;Valid query&quot; are shown above a red &quot;Validate SQL&quot; button. The Diagnostics panel shows an error for unknown table 'usr' with the suggestion &quot;did you mean 'users'?&quot;, and the JSON panel displays the corresponding error object with severity, message, and offset fields."></p>
-<p><strong>Update</strong>: not sure how I missed this but <a href="https://playground.syntaqlite.com/#p=sqlite-basic-select">syntaqlite has its own WebAssembly playground</a> linked to from the README.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
