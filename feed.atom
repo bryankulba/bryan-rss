@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-05T21:01:16.382Z</updated>
+    <updated>2026-05-06T02:38:18.896Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette-referrer-policy 0.1]]></title>
+        <id>https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything"/>
+        <updated>2026-05-05T23:44:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-referrer-policy/releases/tag/0.1">datasette-referrer-policy 0.1</a></p>
+        <p>The OpenStreetMap tiles on the Datasette <a href="https://datasette.io/global-power-plants/global-power-plants">global-power-plants demo</a> weren't displaying correctly. This turned out to be caused by two bugs.</p>
+<p>The first is that the CAPTCHA <a href="https://github.com/simonw/datasette-turnstile">I added</a> to that site a few weeks ago was triggering for the <code>.json</code> fetch requests used by the map plugin, and since those weren't HTML the user was not being asked to solve them. Here's <a href="https://github.com/simonw/datasette.io/commit/23a1c8596b75b2094db46035a3b4280109fb3df3">the fix</a>.</p>
+<p>The second was that OpenStreetMap quite reasonably <a href="https://wiki.openstreetmap.org/wiki/Referer">block tile requests</a> from sites that use a <code>Referrer-Policy: no-referrer</code> header.</p>
+<p>Datasette does this by default, and I didn't want to change that default on people without warning - so I had Codex + GPT-5.5 <a href="https://gisthost.github.io/?402f2f23ee3dbfa251bf0d216e0224f7">build me</a> a new plugin to help set that header to another value.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/openstreetmap">openstreetmap</a>, <a href="https://simonwillison.net/tags/http">http</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our AI started a cafe in Stockholm]]></title>
+        <id>https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything"/>
+        <updated>2026-05-05T22:14:21.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://andonlabs.com/blog/ai-cafe-stockholm">Our AI started a cafe in Stockholm</a></strong></p>
+Andon Labs previously <a href="https://andonlabs.com/blog/andon-market-launch">started an AI-run retail store</a> in San Francisco. Now they're running a similar experiment in Stockholm, Sweden, only this time it's a cafe.</p>
+<p>These experiments are interesting, and often throw out amusing anecdotes:</p>
+<blockquote>
+<p>During the first week of inventory, Mona ordered 120 eggs even though the café has no stove. When the staff told her they couldn’t cook them, she suggested using the high-speed oven, until they pointed out the eggs would likely explode. She also tried to solve the problem of fresh tomatoes being spoiled too fast by ordering 22.5 kg of canned tomatoes for the fresh sandwiches. The baristas eventually started a “Hall of Shame”, a shelf visible to customers with all the weird things Mona ordered, including 6,000 napkins, 3,000 nitrile gloves, 9L coconut milk, and industrial-sized trash bags.</p>
+</blockquote>
+<p>Where they lose their shine is when these AI managers start wasting the time of human beings who have <em>not</em> opted into the experiment:</p>
+<blockquote>
+<p>She also successfully applied for an outdoor seating permit through the Police e-service, which didn’t require BankID. Her first submission included a sketch she had generated herself, despite having never seen the street outside the café. Unsurprisingly, the Police sent it back for revision. [...]</p>
+<p>When she makes a mistake, she often sends multiple emails to suppliers with the subject “EMERGENCY” to cancel or change the order.</p>
+</blockquote>
+<p>I don't think it's ethical to run experiments like this that affect real-world systems and steal time from people.</p>
+<p>I'm reminded of the incident last year where the AI Village experiment <a href="https://simonwillison.net/2025/Dec/26/slop-acts-of-kindness/">infuriated Rob Pike</a> by sending him unsolicited gratitude emails as an "act of kindness". That was just an unwanted email - asking suppliers to correct mistakes that were made without a human-in-the-loop or wasting police time with slop diagrams feels a whole lot worse to me.</p>
+<p>I think experiments like this need to keep their own human operators in-the-loop for outbound actions that affect other people.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48028289">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-agents">ai-agents</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This is nuts: Fred Again has  uploaded a video of every...]]></title>
+        <id>https://kottke.org/26/05/0048882-uploaded-a-video-of-every</id>
+        <link href="https://kottke.org/26/05/0048882-uploaded-a-video-of-every"/>
+        <updated>2026-05-05T21:01:00.000Z</updated>
+        <summary type="html"><![CDATA[This is nuts: Fred Again has uploaded a video of every single show he did during his USB002 tour (except Mexico City) — it’s four and a half days long. “im told this is the longest video on YouTube ever?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Movie Posters by Eric Rohman]]></title>
         <id>https://kottke.org/26/05/movie-posters-by-eric-rohman</id>
@@ -6964,46 +7019,6 @@ The post An Arctic Road Trip Brings Vital Underground Networks into View first a
         <summary type="html"><![CDATA[Lessons from fighting cancer that apply to resisting authoritarianism. 1. We need each other. 2. We must move, even when on uncertain ground. 3. Past trauma will bring us down if we do not release its effects on us. And more…]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;The promise of the open web was colonized by...]]></title>
-        <id>https://kottke.org/26/04/0048665-the-promise-of-the-open</id>
-        <link href="https://kottke.org/26/04/0048665-the-promise-of-the-open"/>
-        <updated>2026-04-06T13:56:04.000Z</updated>
-        <summary type="html"><![CDATA[“The promise of the open web was colonized by internet giants. But the power of LLMs and agentic coding means we can start to take it back. We can build customized, personal software for ourselves that does what we want.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Louisiana, Virginia, Massachusetts, New York, and...]]></title>
-        <id>https://kottke.org/26/04/0048658-louisiana-virginia-massac</id>
-        <link href="https://kottke.org/26/04/0048658-louisiana-virginia-massac"/>
-        <updated>2026-04-06T13:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Louisiana, Virginia, Massachusetts, New York, and Maryland: only five US states have ever had a Black governor.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The bat of fate]]></title>
-        <id>https://www.robinsloan.com/lab/ai-bat/</id>
-        <link href="https://www.robinsloan.com/lab/ai-bat/"/>
-        <updated>2026-04-06T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>A new edition of my pop-up newsletter. <a href="https://www.robinsloan.com/lab/ai-bat/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Your boss wants to use surveillance data to cut your wages (06 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12625</id>
-        <link href="https://pluralistic.net/2026/04/06/empiricism-washing/"/>
-        <updated>2026-04-06T09:04:57.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Your boss wants to use surveillance data to cut your wages: Tech rights are labor rights (again). Hey look at this: Delights to delectate. Object permanence: Arthur C Clarke v Buddhist monks (x DST); Bomb squad v life-size Mario power-ups; Panama Papers; Chinese antitrust; Consumerism v New Jim Crow; Absurd English spelling; Save Netflix! David Cameron's dad v Panama Papers; Trick photos with a giant coin; End-stage capitalism. Upcoming appearances: Toronto, Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Your boss wants to use surveillance data to cut your wages (permalink) What i…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
