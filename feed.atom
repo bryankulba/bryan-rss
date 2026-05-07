@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-07T02:40:23.021Z</updated>
+    <updated>2026-05-07T06:34:28.325Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6894,72 +6894,6 @@ llm -m openrouter/z-ai/glm-5.1 'Generate an SVG of a pelican on a bicycle'
         <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/thomas-ptacek">thomas-ptacek</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/nicholas-carlini">nicholas-carlini</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A guide to which Apple chargers to use with which Apple...]]></title>
-        <id>https://kottke.org/26/04/0048681-a-guide-to-which-apple</id>
-        <link href="https://kottke.org/26/04/0048681-a-guide-to-which-apple"/>
-        <updated>2026-04-07T18:16:06.000Z</updated>
-        <summary type="html"><![CDATA[A guide to which Apple chargers to use with which Apple products in order to charge the quickest. (Your charger’s wattage really matters when the device’s battery level is 0-50%. After that, less so.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solar Eclipse From the Far Side of the Moon]]></title>
-        <id>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</id>
-        <link href="https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon"/>
-        <updated>2026-04-07T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This shot from Artemis II of the Moon eclipsing the Sun is one of the most breathtaking astronomical photos I’ve ever seen. Holy shit.
-Captured by the Artemis II crew during their lunar flyby on April 6, 2026, this image shows the Moon fully eclipsing the Sun. From the crew’s perspective, the Moon appears large enough to completely block the Sun, creating nearly 54 minutes of totality and extending the view far beyond what is possible from Earth.
-
-	
-Thanks to KDO reader Scott for pointing me to NASA’s Flickr account, which is possibly the easiest way to look at photos taken by the Artemis II mission. Like this one:
-
-And this one — then maybe I’ll stop (maybe):
-
-
- 
-
-        
-         
-Tags: artemis · astronomy · Moon · NASA · photography]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I missed that author Tracy Kidder  died a few weeks ago ....]]></title>
-        <id>https://kottke.org/26/04/0048691-i-missed-that-author-trac</id>
-        <link href="https://kottke.org/26/04/0048691-i-missed-that-author-trac"/>
-        <updated>2026-04-07T16:03:51.000Z</updated>
-        <summary type="html"><![CDATA[I missed that author Tracy Kidder died a few weeks ago. Kidder wrote the excellent The Soul of a New Machine, which won a National Book Award and a Pulitzer Prize.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQLite WAL Mode Across Docker Containers Sharing a Volume]]></title>
-        <id>https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything"/>
-        <updated>2026-04-07T15:41:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/sqlite-wal-docker-containers#readme">SQLite WAL Mode Across Docker Containers Sharing a Volume</a></p>
-    <p>Inspired by <a href="https://news.ycombinator.com/item?id=47637353">this conversation</a> on Hacker News about whether two SQLite processes in separate Docker containers that share the same volume might run into problems due to WAL shared memory. The answer is that everything works fine - Docker containers on the same host and filesystem share the same shared memory in a way that allows WAL to collaborate as it should.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/docker">docker</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hollywood, Ending  is John Green&#8217;s forthcoming...]]></title>
-        <id>https://kottke.org/26/04/0048694-hollywood-ending-is-john-</id>
-        <link href="https://kottke.org/26/04/0048694-hollywood-ending-is-john-"/>
-        <updated>2026-04-07T15:11:40.000Z</updated>
-        <summary type="html"><![CDATA[Hollywood, Ending is John Green’s forthcoming book, “a deeply observed novel about the tension between a public and a private life, and finding your safe someone to hold onto”.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>

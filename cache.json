@@ -2278,46 +2278,6 @@
           "wordCount": 735,
           "title": "Resident Advisor:  there are signs that Boards of Canada...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048681-a-guide-to-which-apple",
-          "author": null,
-          "description": "A guide to which Apple chargers to use with which Apple products in order to charge the quickest. (Your charger’s wattage really matters when the device’s battery level is 0-50%. After that, less so.)",
-          "link": "https://kottke.org/26/04/0048681-a-guide-to-which-apple",
-          "publishedOn": "2026-04-07T18:16:06.000Z",
-          "wordCount": 772,
-          "title": "A guide to which Apple chargers to use with which Apple...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
-          "author": null,
-          "description": "This shot from Artemis II of the Moon eclipsing the Sun is one of the most breathtaking astronomical photos I’ve ever seen. Holy shit.\nCaptured by the Artemis II crew during their lunar flyby on April 6, 2026, this image shows the Moon fully eclipsing the Sun. From the crew’s perspective, the Moon appears large enough to completely block the Sun, creating nearly 54 minutes of totality and extending the view far beyond what is possible from Earth.\n\n\t\nThanks to KDO reader Scott for pointing me to NASA’s Flickr account, which is possibly the easiest way to look at photos taken by the Artemis II mission. Like this one:\n\nAnd this one — then maybe I’ll stop (maybe):\n\n\n \n\n        \n         \nTags: artemis · astronomy · Moon · NASA · photography",
-          "link": "https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon",
-          "publishedOn": "2026-04-07T16:30:00.000Z",
-          "wordCount": 811,
-          "title": "Solar Eclipse From the Far Side of the Moon",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1775578728-0bb8ac31.png"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048691-i-missed-that-author-trac",
-          "author": null,
-          "description": "I missed that author Tracy Kidder died a few weeks ago. Kidder wrote the excellent The Soul of a New Machine, which won a National Book Award and a Pulitzer Prize.",
-          "link": "https://kottke.org/26/04/0048691-i-missed-that-author-trac",
-          "publishedOn": "2026-04-07T16:03:51.000Z",
-          "wordCount": 829,
-          "title": "I missed that author Tracy Kidder  died a few weeks ago ....",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048694-hollywood-ending-is-john-",
-          "author": null,
-          "description": "Hollywood, Ending is John Green’s forthcoming book, “a deeply observed novel about the tension between a public and a private life, and finding your safe someone to hold onto”.",
-          "link": "https://kottke.org/26/04/0048694-hollywood-ending-is-john-",
-          "publishedOn": "2026-04-07T15:11:40.000Z",
-          "wordCount": 758,
-          "title": "Hollywood, Ending  is John Green&#8217;s forthcoming...",
-          "imageUrl": ""
         }
       ]
     },
@@ -4128,16 +4088,6 @@
           "wordCount": 1926,
           "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
           "imageUrl": "https://static.simonwillison.net/static/2026/openbsd-27-years.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/sqlite-wal-docker-containers#readme\">SQLite WAL Mode Across Docker Containers Sharing a Volume</a></p>\n    <p>Inspired by <a href=\"https://news.ycombinator.com/item?id=47637353\">this conversation</a> on Hacker News about whether two SQLite processes in separate Docker containers that share the same volume might run into problems due to WAL shared memory. The answer is that everything works fine - Docker containers on the same host and filesystem share the same shared memory in a way that allows WAL to collaborate as it should.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/docker\">docker</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
-          "publishedOn": "2026-04-07T15:41:00.000Z",
-          "wordCount": 831,
-          "title": "SQLite WAL Mode Across Docker Containers Sharing a Volume",
-          "imageUrl": null
         }
       ]
     },
