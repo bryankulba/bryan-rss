@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-08T02:45:26.217Z</updated>
+    <updated>2026-05-08T05:56:48.114Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6966,62 +6966,6 @@ Tags: science · video · weather]]></summary>
         <summary type="html"><![CDATA[Oh, about that story you may have read about one guy single-handedly building a “billion-dollar company” using AI: The New York Times Got Played By A Telehealth Scam And Called It The Future Of AI. Oopsie!]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The latest big exposé  on the identity of Satoshi...]]></title>
-        <id>https://kottke.org/26/04/0048701-the-latest-big-expose-on</id>
-        <link href="https://kottke.org/26/04/0048701-the-latest-big-expose-on"/>
-        <updated>2026-04-08T17:35:49.000Z</updated>
-        <summary type="html"><![CDATA[The latest big exposé on the identity of Satoshi Nakamoto, the secretive inventor of Bitcoin, names cryptographer Adam Back as the likeliest suspect. John Carreyrou has won Pulitzers & helped expose the Theranos scam, but his evidence seems thin.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stunning Artemis II Phone Wallpapers]]></title>
-        <id>https://kottke.org/26/04/stunning-artemis-ii-phone-wallpapers</id>
-        <link href="https://kottke.org/26/04/stunning-artemis-ii-phone-wallpapers"/>
-        <updated>2026-04-08T16:06:16.000Z</updated>
-        <summary type="html"><![CDATA[NASA has made available more than a dozen mobile wallpapers of photos taken during the Artemis II mission for free download. Basic Apple Guy has made some wallpapers of his own (that are slightly larger than NASA’s and better for iPhones). I have also made a few of my own: Earth Rising Over the Moon With the Orion Capsule in the Foreground, A Sliver of Earth Over the Moon, and Kubrickian Earth.
-Here are a few of my favorites:
-
-
-
-Interstitial tip: if you’re using an iPhone with iOS 26, tap the Spatial Scene button when you’re editing your wallpaper and the phone will turn any of these images into a 3D-ish scene that moves when you move your phone. Works best with images containing multiple objects (like the Earthrises). Makes you feel a little bit more like you’re there. (This is also an amazing setup.)
-
-
-
-
-
-
-These are all real photos, cropped from the originals shared by NASA on Flickr and their website.
-I also went back and looked at some of the images from the Artemis I mission, which sent an Orion capsule around the Moon without a human crew. Here are a few wallpapers made from photos from that mission: Earth Moon Capsule, Lens Flare Trio, and Lunar Surface.
-
-
-
-Again, these three are from the Artemis I mission in late 2022. The first one works especially well with the Spatial Scene mode on iOS 26.
-
- 
-
-        
-         
-Tags: artemis · astronomy · Earth · iPhone · Moon · NASA · photography · science]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Giles Turnbull]]></title>
-        <id>https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything"/>
-        <updated>2026-04-08T15:18:49.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://gilest.org/notes/2026/human-ai/"><p>I have a feeling that <strong>everyone likes using AI tools to try doing someone else’s profession</strong>. They’re much less keen when someone else uses it for their profession.</p></blockquote>
-<p class="cite">&mdash; <a href="https://gilest.org/notes/2026/human-ai/">Giles Turnbull</a>, AI and the human voice</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/writing">writing</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
