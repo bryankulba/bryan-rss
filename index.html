@@ -35,6 +35,69 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/9/luke-curley/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-09T01:03:58.000Z">2026-05-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/9/luke-curley/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Luke Curley</a>
+          </h2>
+          <p class="feed-item__desc">WebRTC is designed to degrade and drop my prompt during poor network conditions.
+wtf my dude
+WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee. The idea is that conference calls depend on rapid back-and-forth, so pausing to wait for audio is unacceptable.
+…but as a user, I would much rather wait an extra 200ms for my slow/expensive prompt to be accurate. After all, I’m paying good money to boil the ocean, and a garbage prompt means a garbage response. It’s not like LLMs are particularly responsive anyway.
+But I’m not allowed to wait. It’s impossible to even retransmit a WebRTC audio packet within a browser; we tried at Discord. The implementation is hard-coded for real-time latency or else.
+
+— Luke Curley, OpenAI’s WebRTC Problem, in response to How OpenAI delivers low-latency voice AI at scale
+Tags: webrtc, openai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/9/luke-curley/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/9/luke-curley/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-08T21:00:11.000Z">2026-05-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything" target="_blank" rel="noopener noreferrer">Using Claude Code: The Unreasonable Effectiveness of HTML</a>
+          </h2>
+          <p class="feed-item__desc">Using Claude Code: The Unreasonable Effectiveness of HTML
+The article is crammed with interesting examples (collected on this site) and prompt suggestions like this one:
+Help me review this PR by creating an HTML artifact that describes it. I'm not very familiar with the streaming/backpressure logic so focus on that. Render the actual diff with inline margin annotations, color-code findings by severity and whatever else might be needed to convey the concept well.
+I've been defaulting to asking for most things in Markdown since the GPT-4 days, when the 8,192 token limit meant that Markdown's token-efficiency over HTML was extremely worthwhile.
+Thariq's piece here has caused me to reconsider that, especially for output. Asking Claude for an explanation in HTML means it can drop in SVG diagrams, interactive widgets, in-page navigation and all sorts of other neat ways of making the information more pleasant to navigate.
+I wrote about Useful patterns for building HTML tools last December, but that was focused very much on interactive utilities like the ones on my tools.simonwillison.net site. I'm excited to start experimenting more with rich HTML explanations in response to ad-hoc prompts.
+Trying this out on copy.fail
+copy.fail describes a recently discovered Linux security exploit, including a proof of concept distributed as obfuscated Python.
+I tried having GPT-5.5 create an HTML explanation of the exploit like this:
+curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Explain this code in detail. Reformat it, expand out any confusing bits and go deep into what it does and how it works. Output HTML, neatly styled and using capabilities of HTML and CSS and JavaScript to make the explanation rich and interactive and as clear as possible'
+Here's the resulting HTML page. It's pretty good, though I should have emphasized explaining the exploit over the Python harness around it.
+
+
+
+    
+Tags: html, security, markdown, ai, prompt-engineering, generative-ai, llms, llm, claude-code</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/python-script-explainer.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/05/0048909-submitted-a-petition-to-t">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-05-08T20:00:00.000Z">2026-05-08</time>
@@ -11219,112 +11282,6 @@ Tags: Bill Hammack · design · engineering · science · video</p>
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048697-how-to-guess-if-your" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048697-how-to-guess-if-your">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/post-digital-digital-glitch-collages">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-09T14:04:00.000Z">2026-04-09</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/post-digital-digital-glitch-collages" target="_blank" rel="noopener noreferrer">Post-Digital Digital Glitch Collages</a>
-          </h2>
-          <p class="feed-item__desc">I really love these collages by Anton Elfilter (Instagram, Threads). They are digital-ish? But also not? And does anyone else see the influence of Hilma af Klint in these? (via moss & fog)
-
- 
-
-        
-         
-Tags: Anton Elfilter · art · design</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/post-digital-digital-glitch-collages" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/post-digital-digital-glitch-collages">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1775484759-fc5cfed5.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048707-farmers-won-their-right-t">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-09T13:30:42.000Z">2026-04-09</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/0048707-farmers-won-their-right-t" target="_blank" rel="noopener noreferrer">Farmers won their right-to-repair fight against John...</a>
-          </h2>
-          <p class="feed-item__desc">Farmers won their right-to-repair fight against John Deere. The settlement includes a 10-year “agreement by Deere to provide ‘the digital tools ​required for the maintenance, diagnosis, and repair’ of tractors, combines, and other machinery”.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048707-farmers-won-their-right-t" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048707-farmers-won-their-right-t">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048680-this-sounds-like-an-inter">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-09T12:50:49.000Z">2026-04-09</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/0048680-this-sounds-like-an-inter" target="_blank" rel="noopener noreferrer">This sounds like an interesting podcast series from M....</a>
-          </h2>
-          <p class="feed-item__desc">This sounds like an interesting podcast series from M. Gessen: The Idiot. “Compassion has its limits when it comes to your own cousin.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048680-this-sounds-like-an-inter" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048680-this-sounds-like-an-inter">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/trends-dont-move-fast-for-real-ones">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-09T11:03:40.000Z">2026-04-09</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/trends-dont-move-fast-for-real-ones" target="_blank" rel="noopener noreferrer">Trends don&#x27;t move so fast when you&#x27;re a real one</a>
-          </h2>
-          <p class="feed-item__desc">Plus a 'xclusie early look at a hot drop, slept-on basics, fun gangster movies & more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/trends-dont-move-fast-for-real-ones" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/trends-dont-move-fast-for-real-ones">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!Czes!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bbda8c4-f560-40d7-b59d-46e7e528e094_1190x810.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12638">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-09T10:50:56.000Z">2026-04-09</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/04/09/bernstein-2/" target="_blank" rel="noopener noreferrer">Pluralistic: Cindy Cohn&#x27;s &quot;Privacy&#x27;s Defender&quot; (09 Apr 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Cindy Cohn's "Privacy's Defender": The history of digital rights, from the very beginning to this very moment. Hey look at this: Delights to delectate. Object permanence: Tariffs and monopolies; Paperclip dodecahedron; Class war comix; Glenn Beck's brain; Iceland v Pirates; Dashers v apps; Leaked NYPD goon squad manual. Upcoming appearances: Montreal, Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Cindy Cohn's "Privacy's Defender" (permalink) I've known EFF executive director Cindy Cohn for 27 years. I met her when I needed cyberlaw advice for a startup I'd helped found. We got along so wel…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12638" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12638">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
           </div>
         </div>
       </div>
