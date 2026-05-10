@@ -101,16 +101,6 @@
           "wordCount": 1673,
           "title": "Headless everything for personal AI",
           "imageUrl": "https://interconnected.org/home/2026/04/18/headless.png?v=1"
-        },
-        {
-          "id": "https://interconnected.org/home/2026/04/10/open-mist",
-          "author": null,
-          "description": "A brief update on mist, my ephemeral Markdown editor with Google Docs-style comments and suggested edits:\nmist is now open source with an MIT license, and the mist repo is here on GitHub.\n(Try mist now and here’s my write-up from February.)\nWhat I love about Markdown is that it’s document-first. The formatting travels with the doc. I can’t tell you how many note-taking apps I’ve jumped between with my exact same folder of Markdown notes.\nThe same should be true for collaboration features like suggested edits. If somebody makes an edit to your doc, you should be able to download it and upload to a wholly different app before you accept the edit; you shouldn’t be tied to a single service just because you want comments.\n(And of course the doc should still be human-readable/writeable, and it’s cheating to just stuff a massive data-structure in a document header.)\nSo mist mixes Markdown and CriticMarkup – and I would love it if others picked up the same format. If apps are cheap and abundant in the era of vibing, then let’s focus on interop!\nWith mist itself:\nSeveral people have asked for the ability to self-host it. The README says how (it’s all on Cloudflare naturally). You can add new features to your own fork, though please do share upstream if you think others could benefit.\nAnd yes, contributions welcome! We’ve already received and merged our first pull request – thank you James Adam!\nNo, a document editor is not what we’re building at Inanimate. But it’s neat to release small useful projects that get made along the way. btw subscribe to our newsletter.\nMore posts tagged:\n\t\n\tinanimate\n\t(4).",
-          "link": "https://interconnected.org/home/2026/04/10/open-mist",
-          "publishedOn": "2026-04-10T16:35:00.000Z",
-          "wordCount": 590,
-          "title": "mist is now open source and looking for interop",
-          "imageUrl": "https://interconnected.org/home/2026/04/10/open-mist.png?v=1"
         }
       ]
     },
@@ -2168,66 +2158,6 @@
           "wordCount": 904,
           "title": "Radiohead Covers Joy Division&#8217;s Ceremony",
           "imageUrl": "https://i.ytimg.com/vi/cedNya7e8Uc/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048715-oh-wow-this-is-a",
-          "author": null,
-          "description": "Oh wow, this is a trippy game inspired by MC Escher. My brain may be permanently broken by this.",
-          "link": "https://kottke.org/26/04/0048715-oh-wow-this-is-a",
-          "publishedOn": "2026-04-10T18:15:09.000Z",
-          "wordCount": 717,
-          "title": "Oh wow,  this is a trippy game inspired by MC Escher . My...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048714-a-short-analysis-of-what",
-          "author": null,
-          "description": "A short analysis of what makes Mark Antony’s “Friends, Romans, countrymen…” speech from Shakespeare’s Julius Caesar so good and effective.",
-          "link": "https://kottke.org/26/04/0048714-a-short-analysis-of-what",
-          "publishedOn": "2026-04-10T17:36:29.000Z",
-          "wordCount": 855,
-          "title": "A short analysis  of what makes Mark Antony&#8217;s...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048713-using-wiki-software-old-p",
-          "author": null,
-          "description": "Using wiki software, old photos, family stories, bank transactions, social media posts, and an LLM to sift through everything to build a personal encyclopedia.",
-          "link": "https://kottke.org/26/04/0048713-using-wiki-software-old-p",
-          "publishedOn": "2026-04-10T16:51:09.000Z",
-          "wordCount": 1075,
-          "title": "Using wiki software, old photos, family stories, bank...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048709-stalins-task-in-building-",
-          "author": null,
-          "description": "“Stalin’s task in building what Senior calls his ‘Red Empire’ was made so much easier, and so much more brutal, by the intelligence the Cambridge spies passed to Moscow.”",
-          "link": "https://kottke.org/26/04/0048709-stalins-task-in-building-",
-          "publishedOn": "2026-04-10T16:05:07.000Z",
-          "wordCount": 748,
-          "title": "&#8220;Stalin&#8217;s task in building what Senior calls...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048722-charcuterie-is-a-visual-u",
-          "author": null,
-          "description": "Charcuterie is a visual Unicode symbol explorer. Click around, search, or use the pencil in the upper left to draw the shape you’re looking for. This is very cool.",
-          "link": "https://kottke.org/26/04/0048722-charcuterie-is-a-visual-u",
-          "publishedOn": "2026-04-10T15:35:29.000Z",
-          "wordCount": 754,
-          "title": "Charcuterie  is a visual Unicode symbol explorer. Click...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/diary-comics-from-the-1940s",
-          "author": null,
-          "description": "This is wonderful: a Redditor uploaded some of their grandmother’s comics that she made in the 1940s, documenting her marriage to the deployment of her husband for World War II. \nI never got to meet my grandma, she passed away young in 1977 but finding her 1940s sketches felt like she was finally introducing herself to me. She was so talented, and as you can see, she had absolutely zero filter (I finally understand where my mother and I get it from).\nMy favorite part is seeing her personality jump off the page. She goes from joking about Pre-Marital Chaos and Pancake Gravy to the gut-punch of my grandpa getting his deployment orders in ‘44. She wrote “Damn the Army and Hitler!”\n\n\t\n(thx, andy)\n\n \n\n        \n         \nTags: comics",
-          "link": "https://kottke.org/26/04/diary-comics-from-the-1940s",
-          "publishedOn": "2026-04-10T14:45:00.000Z",
-          "wordCount": 794,
-          "title": "Diary Comics From the 1940s",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1775767987-9d35a8ae.jpg"
         }
       ]
     },
@@ -4028,16 +3958,6 @@
           "wordCount": 723,
           "title": "Kākāpō parrots",
           "imageUrl": "https://static.simonwillison.net/static/2026/kakapo-lenny.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
-          "author": null,
-          "description": "<p>I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.</p>\n<p>If you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o era model.</p>\n<p>This thought inspired by <a href=\"https://twitter.com/karpathy/status/2042334451611693415\">this Karpathy tweet</a> about the growing gap in understanding of AI capability based on the access points and domains people are using the models with:</p>\n<blockquote>\n<p>[...] It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and <em>at the same time</em>, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems.</p>\n<p>This part really works and has made dramatic strides because 2 properties:</p>\n<ol>\n<li>these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also</li>\n<li>they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them.</li>\n</ol>\n</blockquote>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/andrej-karpathy\">andrej-karpathy</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
-          "publishedOn": "2026-04-10T15:56:02.000Z",
-          "wordCount": 811,
-          "title": "ChatGPT voice mode is a weaker model",
-          "imageUrl": null
         }
       ]
     },
