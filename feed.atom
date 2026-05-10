@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-10T06:32:31.383Z</updated>
+    <updated>2026-05-10T13:14:32.931Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[No baby on board]]></title>
+        <id>https://www.blackbirdspyplane.com/p/no-baby-on-board</id>
+        <link href="https://www.blackbirdspyplane.com/p/no-baby-on-board"/>
+        <updated>2026-05-10T13:03:07.000Z</updated>
+        <summary type="html"><![CDATA[Sick walkable Mary Janes, why the best designers are all coming out of Belgium, a great NYC woodworker & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anti-dystopia ⊗ Our horizon of possibilities]]></title>
+        <id>69ff926683431200015cf787</id>
+        <link href="https://sentiers.media/anti-dystopia-our-horizon-of-possibilities-no-402/"/>
+        <updated>2026-05-10T10:00:23.000Z</updated>
+        <summary type="html"><![CDATA[No.402 — AI learns language from skewed sources ⊗ We can always do something about the future ⊗ The hidden Sungemite archipelago ⊗ Where Europe’s population is shrinking ⊗ Rogue One: The Andor Cut]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)]]></title>
         <id>https://pluralistic.net/?p=12791</id>
@@ -6384,105 +6404,6 @@ SQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of 
         <summary type="html"><![CDATA[Today's links Don't Be Evil: Evil genius is just a lack of shame. Hey look at this: Delights to delectate. Object permanence: FBI x Trotsky; Jakob Nielsen x headlines; Floppy disk stained glass; Zero tolerance for mismatched socks; EFF v DOGE. Upcoming appearances: Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Don't Be Evil (permalink) How I knew I was officially Old: I stopped being disoriented by the experience of meeting with grown-ass adults who wanted to thank me for the books of mine they'd read in their childhoods, which helped shape their lives. Instead of marveling that a book that felt to me l…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asymmetric Image Wars]]></title>
-        <id>https://disjunctionsmag.com/articles/asymmetric-image-wars</id>
-        <link href="https://disjunctionsmag.com/articles/asymmetric-image-wars"/>
-        <updated>2026-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Or, how I learnt to stop worrying and love the slop]]></summary>
-        <author>
-            <name>Disjunctions Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Daphni (aka Caribou),  a 7hr DJ set . 7 hours!]]></title>
-        <id>https://kottke.org/26/04/0048679-from-daphni-aka-caribou-a</id>
-        <link href="https://kottke.org/26/04/0048679-from-daphni-aka-caribou-a"/>
-        <updated>2026-04-10T22:25:32.000Z</updated>
-        <summary type="html"><![CDATA[From Daphni (aka Caribou), a 7hr DJ set. 7 hours!]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The trailer for Mary Oliver: Saved by the Beauty of the...]]></title>
-        <id>https://kottke.org/26/04/0048718-the-trailer-for-mary-oliv</id>
-        <link href="https://kottke.org/26/04/0048718-the-trailer-for-mary-oliv"/>
-        <updated>2026-04-10T21:39:51.000Z</updated>
-        <summary type="html"><![CDATA[The trailer for Mary Oliver: Saved by the Beauty of the World. The film is showing in select locations around the country and will air on PBS this summer.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ultimate Online Phreak Box . &#8220;This is a free...]]></title>
-        <id>https://kottke.org/26/04/0048710-ultimate-online-phreak-bo</id>
-        <link href="https://kottke.org/26/04/0048710-ultimate-online-phreak-bo"/>
-        <updated>2026-04-10T20:59:43.000Z</updated>
-        <summary type="html"><![CDATA[Ultimate Online Phreak Box. “This is a free online blue box, red box, and silver box.” (With this and a time machine, you could make free phone calls in the 1970s.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A tour of the mannequin storage room at FIT . Each...]]></title>
-        <id>https://kottke.org/26/04/0048696-a-tour-of-the-mannequin</id>
-        <link href="https://kottke.org/26/04/0048696-a-tour-of-the-mannequin"/>
-        <updated>2026-04-10T20:22:30.000Z</updated>
-        <summary type="html"><![CDATA[A tour of the mannequin storage room at FIT. Each era’s mannequins are designed to mimic the “fashionable body” of that time period.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An interview with Ronald Wayne , Apple&#8217;s forgotten...]]></title>
-        <id>https://kottke.org/26/04/0048721-an-interview-with-ronald-</id>
-        <link href="https://kottke.org/26/04/0048721-an-interview-with-ronald-"/>
-        <updated>2026-04-10T19:38:51.000Z</updated>
-        <summary type="html"><![CDATA[An interview with Ronald Wayne, Apple’s forgotten third founder. (He was with the company all of 2 weeks.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kākāpō parrots]]></title>
-        <id>https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything"/>
-        <updated>2026-04-10T19:07:02.000Z</updated>
-        <summary type="html"><![CDATA[<p>Lenny <a href="https://twitter.com/lennysan/status/2042615413494939943">posted</a> another snippet from <a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/">our 1 hour 40 minute podcast recording</a> and it's about kākāpō parrots!</p>
-<p><video
-  src="https://static.simonwillison.net/static/2026/kakapo-lenny.mp4"
-  poster="https://static.simonwillison.net/static/2026/kakapo-lenny.jpg"
-  controls
-  preload="none"
-  playsinline
-  style="display:block; max-width:400px; width:100%; height:auto; margin:0 auto"
-><track src="https://static.simonwillison.net/static/cors-allow/2026/kakapo-lenny.vtt" kind="captions" srclang="en" label="English"></video>
-</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/kakapo">kakapo</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radiohead Covers Joy Division&#8217;s Ceremony]]></title>
-        <id>https://kottke.org/26/04/radiohead-covers-joy-division-ceremony</id>
-        <link href="https://kottke.org/26/04/radiohead-covers-joy-division-ceremony"/>
-        <updated>2026-04-10T18:51:00.000Z</updated>
-        <summary type="html"><![CDATA[From a livestream recorded many years ago, this is Radiohead covering Joy Division’s Ceremony. The song was originally written by Joy Division but the version most people know is New Order’s — it was their first single. From Wikipedia:
-“Ceremony” was one of the last Joy Division songs to be composed, with lyrics written by Ian Curtis. According to guitarist Bernard Sumner, the group wrote the song a few weeks before Ian Curtis died “to try and heal him through music” and keep him “involved in the band and involved in music and remind him of what … a great future he had”. Sumner concluded, “Unfortunately, it didn’t work”.
-Just three versions of Joy Division performing the song exist, including one on the group’s compilation album Still.
-
- 
-
-        
-         
-Tags: Joy Division · music · New Order · Radiohead · remix · video]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
