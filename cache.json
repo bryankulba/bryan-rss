@@ -242,13 +242,74 @@
       "title": "We Are the Mutants",
       "feedUrl": "https://wearethemutants.com/feed/",
       "siteUrl": "https://wearethemutants.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://wearethemutants.com/?p=41849",
+          "author": "K.E. Roberts",
+          "description": "By K.E. Roberts\r\n\r\nThere’s a lot going on here, but let’s start at the beginning: did Voyager I and II really collect sounds from the outer planets and their moons as they passed by? Yes, in a way. Each of the probes was equipped with something called a Plasma Wave Subsystem...",
+          "link": "https://wearethemutants.com/2026/05/11/good-vibrations-the-legacy-of-the-nasa-voyager-recordings/",
+          "publishedOn": "2026-05-11T16:17:52.000Z",
+          "wordCount": 4876,
+          "title": "Good Vibrations: The Legacy of the NASA Voyager Recordings",
+          "imageUrl": "https://wearethemutants.com/wp-content/uploads/2026/05/watm-voyager-8.jpg"
+        }
+      ]
     },
     {
       "title": "kottke.org",
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/05/0048914-people-who-dont-like-peop",
+          "author": null,
+          "description": "People Who Don’t Like People Are Making All of Our Decisions. “We are living in the ultimate revenge of the nerds, driven by a crew of socially awkward tech bros who won’t stop until the society that they never quite fit into is obliterated.”",
+          "link": "https://kottke.org/26/05/0048914-people-who-dont-like-peop",
+          "publishedOn": "2026-05-11T17:13:00.000Z",
+          "wordCount": 816,
+          "title": "People Who Don&#8217;t Like People Are Making All of Our...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/grandma-stand",
+          "author": null,
+          "description": "Anyone of any age can stop by the Grandma Stand in New York’s Central Park to shoot the breeze with a grandmother. The concept has spread around the US  and is now the subject of an hour-long documentary on PBS.\nAt a time when the lack of connection is epidemic, wise witty grandmas sit behind a lemonade-like stand, offering life lessons to passersby in NYC’s Central Park. We see 20 diverse people candidly share their feelings. “Just a little love, a little talking. She’s speaking to my soul,” said a visitor. This film shows how a brief encounter has a strong impact and gives us insight into our own lives.\n\n\t\nYou can watch the complete documentary on the PBS site (like US-only). (via @prisonculture.bsky.social)\n\n \n\n        \n         \nTags: Grandma Stand · PBS · video",
+          "link": "https://kottke.org/26/05/grandma-stand",
+          "publishedOn": "2026-05-11T16:27:00.000Z",
+          "wordCount": 792,
+          "title": "Grandma Stand",
+          "imageUrl": "https://i.ytimg.com/vi/Bb2mlpas9rg/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048904-where-are-the-public-benc",
+          "author": null,
+          "description": "Where are the public benches on the internet? “Like cities that have prioritized cars, visiting the Internet now entails controlled apps and search engines, designed for extraction. There’s nowhere to rest because the benches are covered in spikes.”",
+          "link": "https://kottke.org/26/05/0048904-where-are-the-public-benc",
+          "publishedOn": "2026-05-11T15:57:00.000Z",
+          "wordCount": 745,
+          "title": "Where are the public benches on the internet?...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048911-a-pop-up-called-the-donal",
+          "author": null,
+          "description": "Now open in NYC: a pop-up called The Donald J. Trump and Jeffrey Epstein Memorial Reading Room, which consists of “all 3.5 million pages, 3,437 volumes, and 17,000 pounds of the released and partially redacted Epstein files”.",
+          "link": "https://kottke.org/26/05/0048911-a-pop-up-called-the-donal",
+          "publishedOn": "2026-05-11T15:20:00.000Z",
+          "wordCount": 714,
+          "title": "Now open in NYC:  a pop-up called The Donald J. Trump and...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048910-the-hidden-cassettes",
+          "author": null,
+          "description": "The Hidden Cassettes. “This is going to sound insane, but when I was a kid I found out my dad secretly recorded our phone calls.” (Be sure to read the “What?!” link.)",
+          "link": "https://kottke.org/26/05/0048910-the-hidden-cassettes",
+          "publishedOn": "2026-05-11T14:48:42.000Z",
+          "wordCount": 744,
+          "title": "The Hidden Cassettes . &#8220;This is going to sound...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/05/0048909-submitted-a-petition-to-t",
           "author": null,
@@ -3075,6 +3136,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://twitter.com/tobi/status/2053121182044451016\">Learning on the Shop floor</a></strong></p>\nTobias Lütke describes Shopify's internal coding agent tool, River, which operates entirely in public on their Slack:</p>\n<blockquote>\n<p>River does not respond to direct messages. She politely declines and suggests to create a public channel for you and her to start working in. I myself work with river in <code>#tobi_river</code> channel and many followed this pattern.  Every conversation is therefore searchable.  Anyone at Shopify  can jump in. In my own channel, there are over 100 people who, react to threads, add color and add context, pick up the torch, help with the reviews, remind me how rusty I am, and importantly, learn from watching. [...]</p>\n<p>As so often with German, there is a word for the kind of environment: <em>Lehrwerkstatt</em>. Literally: <strong>A teaching workshop</strong>. The whole shop floor is the classroom. You learn by being near the work. Being a constant learner is one of the core values of the firm.</p>\n<p>Shopify wants to be a Lehrwerkstatt at scale and River has now gotten us closer to this ideal than ever. It’s <em>osmosis learning</em>, because it does not require a curriculum, a training plan, or a manager. It just requires everyone's work to be visible to the maximum extent possible. Everyone learns from each other.</p>\n</blockquote>\n<p>I'm reminded of how Midjourney spent its first few years with the primary interface being public Discord channels, forcing users to share their prompts and learn from each other's experiments. I continue to believe that the early success of Midjourney was tied to this mechanism, helping to compensate for how weird and finicky text-to-image prompting is.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/slack\">slack</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/midjourney\">midjourney</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/tobias-lutke\">tobias-lutke</a></p>",
+          "link": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+          "publishedOn": "2026-05-11T15:46:36.000Z",
+          "wordCount": 983,
+          "title": "Learning on the Shop floor",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
           "author": null,
