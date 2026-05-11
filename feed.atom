@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-11T02:54:28.818Z</updated>
+    <updated>2026-05-11T07:39:13.520Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6415,19 +6415,6 @@ SQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of 
 
 
     <p>Tags: <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQLite Query Result Formatter Demo]]></title>
-        <id>https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything"/>
-        <updated>2026-04-11T19:35:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/sqlite-qrf">SQLite Query Result Formatter Demo</a></p>
-    <p>See my notes <a href="https://simonwillison.net/2026/Apr/11/sqlite/">on SQLite 3.53.0</a>. This playground provides a UI for trying out the various rendering options for SQL result tables from the new Query Result Formatter library, compiled to WebAssembly.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
