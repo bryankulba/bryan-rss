@@ -2,10 +2,147 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-11T17:53:40.692Z</updated>
+    <updated>2026-05-11T21:15:45.673Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Taken : this is a web page that shows how much data your...]]></title>
+        <id>https://kottke.org/26/05/0048922-taken</id>
+        <link href="https://kottke.org/26/05/0048922-taken"/>
+        <updated>2026-05-11T20:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Taken: this is a web page that shows how much data your browser can collect that websites can use to “fingerprint” your device, even without cookies. “It identified your device with enough specificity to distinguish it from most others on the internet.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mesmerizing 4K Video of a Cat-5 Super Typhoon]]></title>
+        <id>https://kottke.org/26/05/mesmerizing-4k-video-of-a-cat-5-super-typhoon</id>
+        <link href="https://kottke.org/26/05/mesmerizing-4k-video-of-a-cat-5-super-typhoon"/>
+        <updated>2026-05-11T20:02:25.000Z</updated>
+        <summary type="html"><![CDATA[Seán Doran, who I’ve featured here many times before for his remastered astronomy photos & videos, has taken photographs captured by a Japanese weather satellite of Typhoon Sinlaku in April 2026 and “repaired, remastered and transformed” the images into this breathtaking 4K video.
+The beauty of the storm as seen from above belies its fury and destructiveness. Sinlaku was “strongest tropical cyclone in the Northern Hemisphere” since 2021 and the strongest overall storm so far in 2026. The Mariana Islands, Guam, and Micronesia all suffered widespread damage and the storm has claimed 17 lives so far.
+
+ 
+
+        
+         
+Tags: hurricanes · mesmerizing · satellite imagery · Sean Doran · video · weather]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting James Shore]]></title>
+        <id>https://simonwillison.net/2026/May/11/james-shore/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/11/james-shore/#atom-everything"/>
+        <updated>2026-05-11T19:48:32.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs"><p>Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance costs. Three times as productive? One third the maintenance costs. Otherwise, you’re screwed. You’re trading a temporary speed boost for permanent indenture. [...]</p>
+<p>The math only works if the LLM <em>decreases</em> your maintenance costs, and by exactly the inverse of the rate it adds code. If you double your output and your cost of maintaining that output, two times two means you’ve quadrupled your maintenance costs. If you double your output and hold your maintenance costs steady, two times one means you’ve <em>still</em> doubled your maintenance costs.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs">James Shore</a>, You Need AI That Reduces Maintenance Costs</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your AI Use Is Breaking My Brain]]></title>
+        <id>https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything"/>
+        <updated>2026-05-11T19:21:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.404media.co/your-ai-use-is-breaking-my-brain/">Your AI Use Is Breaking My Brain</a></strong></p>
+Excellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to distort regular human writing styles.</p>
+<p>I particularly liked his use of the term "Zombie Internet" to define a different, more insidious alternative to the "Dead Internet" (which is just bots talking to each other):</p>
+<blockquote>
+<p>I called it the Zombie Internet because the truth is that large parts of the internet are not just bots talking to bots or bots talking to people. It’s people talking to bots, people talking to people, people creating “AI agents” and then instructing them to interact with people. It’s people using AI talking to people who are not using AI, and it’s people using AI talking to other people who are using AI. It’s influencer hustlebros who are teaching each other how to make AI influencers and have spun up automated YouTube channels and blogs and social media accounts that are spamming the internet for the sole purpose of making money. It is whatever the fuck “Moltbook” is and whatever the fuck X and LinkedIn have become. It’s AI summaries of real books being sold as the book itself and inspirational Reddit posts and comment threads in which people give heartfelt advice to some account that’s actually being run by a marketing firm. [...]</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://bsky.app/profile/jasonkoebler.bsky.social/post/3mllgvidacs2n">@jasonkoebler.bsky.social</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/definitions">definitions</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/slop">slop</a>, <a href="https://simonwillison.net/tags/jason-koebler">jason-koebler</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interesting thread about why rural towns don&#8217;t...]]></title>
+        <id>https://kottke.org/26/05/0048915-interesting-thread-about-</id>
+        <link href="https://kottke.org/26/05/0048915-interesting-thread-about-"/>
+        <updated>2026-05-11T19:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Interesting thread about why rural towns don’t vote blue: they don’t have to because small towns “actually operate very similarly to the ‘socialist agenda’ they pretend to be so afraid of” and “they’ve already been having to take of their own…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using LLM in the shebang line of a script]]></title>
+        <id>https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything"/>
+        <updated>2026-05-11T18:48:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>TIL:</strong> <a href="https://til.simonwillison.net/llms/llm-shebang">Using LLM in the shebang line of a script</a></p>
+        <p>Kim_Bruning <a href="https://news.ycombinator.com/item?id=48073246#48090590">on Hacker News</a>:</p>
+<blockquote>
+<p>But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...]</p>
+</blockquote>
+<p>This inspired me to look at patterns for doing exactly that with <a href="https://llm.datasette.io/en/stable/">LLM</a>. Here's the simplest, which takes advantage of <a href="https://llm.datasette.io/en/stable/fragments.html">LLM fragments</a>:</p>
+<pre><code>#!/usr/bin/env -S llm -f
+Generate an SVG of a pelican riding a bicycle
+</code></pre>
+<p>But you can also incorporate <a href="https://llm.datasette.io/en/stable/tools.html">tool calls</a> using the <code>-T name_of_tool</code> option:</p>
+<pre><code>#!/usr/bin/env -S llm -T llm_time -f
+Write a haiku that mentions the exact current time
+</code></pre>
+<p>Or even execute YAML templates directly that define extra tools as Python functions:</p>
+<pre><span class="pl-c"><span class="pl-c">#</span>!/usr/bin/env -S llm -t</span>
+<span class="pl-ent">model</span>: <span class="pl-s">gpt-5.4-mini</span>
+<span class="pl-ent">system</span>: <span class="pl-s">|</span>
+<span class="pl-s">  Use tools to run calculations</span>
+<span class="pl-s"></span><span class="pl-ent">functions</span>: <span class="pl-s">|</span>
+<span class="pl-s">  def add(a: int, b: int) -&gt; int:</span>
+<span class="pl-s">      return a + b</span>
+<span class="pl-s">  def multiply(a: int, b: int) -&gt; int:</span>
+<span class="pl-s">      return a * b</span></pre>
+
+<p>Then:</p>
+<pre><code>./calc.sh 'what is 2344 * 5252 + 134' --td
+</code></pre>
+<p>Which outputs (thanks to that <code>--td</code> tools debug option):</p>
+<pre><code>Tool call: multiply({'a': 2344, 'b': 5252})
+  12310688
+
+Tool call: add({'a': 12310688, 'b': 134})
+  12310822
+
+2344 × 5252 + 134 = **12,310,822**
+</code></pre>
+<p>Read the full TIL for <a href="https://til.simonwillison.net/llms/llm-shebang#templates-with-tools">a more complex example</a> that uses the Datasette SQL API to answer questions about content on my blog.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/llm-tool-use">llm-tool-use</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wallace & Gromit 24/7 Livestream]]></title>
+        <id>https://kottke.org/26/05/wallace-gromit-247-livestream</id>
+        <link href="https://kottke.org/26/05/wallace-gromit-247-livestream"/>
+        <updated>2026-05-11T17:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Aardman’s official Wallace & Gromit YouTube channel is livestreaming what appears to be the four shorts featuring the duo: A Grand Day Out, The Wrong Trousers, A Close Shave, and A Matter of Loaf or Death.
+I can’t find any further information about the stream — if those are the only animations that are available, if any of the movies are included, how long the stream will be up. But I’m watching The Wrong Trousers right now and eating a bit of cheese, so all is right with the world.
+
+ 
+
+        
+         
+Tags: Aardman Animations · animation · stop motion · video · Wallace and Gromit]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[People Who Don&#8217;t Like People Are Making All of Our...]]></title>
         <id>https://kottke.org/26/05/0048914-people-who-dont-like-peop</id>
