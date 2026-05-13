@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-13T18:00:40.623Z</updated>
+    <updated>2026-05-13T21:24:58.312Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What Childhood Folklore Did You Learn As a Kid?]]></title>
+        <id>https://kottke.org/26/05/what-childhood-folklore-did-you-learn-as-a-kid</id>
+        <link href="https://kottke.org/26/05/what-childhood-folklore-did-you-learn-as-a-kid"/>
+        <updated>2026-05-13T20:50:00.000Z</updated>
+        <summary type="html"><![CDATA[I loved this post by Kelsey Miller for Cup of Jo about “childlore”. 
+“Remember typing ‘BOOBS’ on a calculator?!” someone will blurt. “Or — or that thing when you’re driving by a cemetery and you have to hold your breath?” I love hearing the tiny differences in details (some people grew up lifting their feet off the floor when passing a graveyard). But what’s wild is how many of us grew up doing, drawing, singing, and believing the exact same funny little things: Miss Susie had a steamboat, Batman smelled, the floor was lava, and stepping on cracks broke our mothers’ backs.
+
+	
+For a definition of childlore, let’s go to the Wikipedia:
+Childlore is a folklore or folk culture that focuses specifically on children typically between the ages of 6 and 15. As a branch of folklore, childlore is con…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Number Gacha]]></title>
+        <id>https://waxy.org/?p=50632</id>
+        <link href="https://isabisabel.com/gacha/"/>
+        <updated>2026-05-13T20:38:16.000Z</updated>
+        <summary type="html"><![CDATA[like RNGdle, a minimalist experiment in addictive game mechanics #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Want to Live Like Costco People . &#8220;Embracing the...]]></title>
+        <id>https://kottke.org/26/05/0048905-i-want-to-live-like-costc</id>
+        <link href="https://kottke.org/26/05/0048905-i-want-to-live-like-costc"/>
+        <updated>2026-05-13T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I Want to Live Like Costco People. “Embracing the Costco lifestyle means accepting the fact that I am, in many ways, becoming my father.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robin Sloan writes about the personalized, AI-written,...]]></title>
+        <id>https://kottke.org/26/05/0048936-robin-sloan-writes-about-</id>
+        <link href="https://kottke.org/26/05/0048936-robin-sloan-writes-about-"/>
+        <updated>2026-05-13T19:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Robin Sloan writes about the personalized, AI-written, promo emails he’s been getting recently (I have too). “The form is subtler than a one-sized-fits-all promo blast, but it sucks way worse, because it’s fundamentally dishonest.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Would J.R.R. Tolkien Think of Palantir?]]></title>
+        <id>https://kottke.org/26/05/what-would-jrr-tolkien-think-of-palantir</id>
+        <link href="https://kottke.org/26/05/what-would-jrr-tolkien-think-of-palantir"/>
+        <updated>2026-05-13T18:38:00.000Z</updated>
+        <summary type="html"><![CDATA[Palantir, the data analysis defense contractor co-founded by Peter Thiel, was named after the magical seeing stones from J.R.R. Tolkien’s Lord of the Rings books. This video compares the ethos of the company with that of Tolkien.
+The palantiri of The Lord of the Rings are sort of like crystal balls or “seeing stones” that allow their users to communicate across vast distances, see events from afar, and sometimes even peer into the future. But just about everybody who tries to use a palantir in The Lord of the Rings is deceived by it, acting on the visions they’re receiving without the greater context or wisdom of what’s behind them. So why would the people behind Palantir want to name the company and build its culture around these powerful yet easily corruptible magical objects?
+J.R.R. Tol…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the Sad Wives of AI . &#8220;Princess Diana...]]></title>
+        <id>https://kottke.org/26/05/0048935-meet-the-sad-wives-of-ai</id>
+        <link href="https://kottke.org/26/05/0048935-meet-the-sad-wives-of-ai"/>
+        <updated>2026-05-13T17:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet the Sad Wives of AI. “Princess Diana famously said there were three people in her marriage. For the sad wives of AI, the third is a chatbot.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Just dropped:  Foo Fighters&#8217; Tiny Desk Concert ....]]></title>
         <id>https://kottke.org/26/05/0048937-foo-fighters-tiny-desk-co</id>
@@ -6702,26 +6769,6 @@ Tags: design]]></summary>
         <summary type="html"><![CDATA[I have seen great minds of my acquaintance eaten by “the blockchain,” IoT, NFTs and now AI across the last fifteen years. I used to…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: In praise of (some) compartmentalization (14 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12663</id>
-        <link href="https://pluralistic.net/2026/04/14/compartment/"/>
-        <updated>2026-04-14T08:32:55.000Z</updated>
-        <summary type="html"><![CDATA[Today's links In praise of (some) compartmentalization: Go with the flow (mostly). Hey look at this: Delights to delectate. Object permanence: Multitasking teens; Copyrighted dirt; NZ internet disconnection x CHCH quake; Hubble cake; Churchill's booze Rx; Fraud-resistant election tech. Upcoming appearances: Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. In praise of (some) compartmentalization (permalink) If there's one FAQ I get Q'ed most F'ly, it's this: "How do you get so much done?" The short answer is, "I write when I'm anxious (which is how I came to write nine books during lockdown)." The long ans…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&ldquo;Kind of yells &quot;Tumblr meme post&rdquo; even though I didn&rsquo;t find it on Tumblr]]></title>
-        <id>https://brucesterling.tumblr.com/post/813850474882252800</id>
-        <link href="https://brucesterling.tumblr.com/post/813850474882252800"/>
-        <updated>2026-04-14T06:31:35.000Z</updated>
-        <summary type="html"><![CDATA[“Kind of yells "Tumblr meme post” even though I didn’t find it on Tumblr]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
