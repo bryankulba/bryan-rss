@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-13T14:28:47.031Z</updated>
+    <updated>2026-05-13T18:00:40.623Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Just dropped:  Foo Fighters&#8217; Tiny Desk Concert ....]]></title>
+        <id>https://kottke.org/26/05/0048937-foo-fighters-tiny-desk-co</id>
+        <link href="https://kottke.org/26/05/0048937-foo-fighters-tiny-desk-co"/>
+        <updated>2026-05-13T17:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Just dropped: Foo Fighters’ Tiny Desk Concert. The setlist includes Learn to Fly, My Hero, and Everlong.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop-Motion Lego Dr. Strangelove]]></title>
+        <id>https://kottke.org/12/10/stop-motion-lego-dr-strangelove</id>
+        <link href="https://kottke.org/12/10/stop-motion-lego-dr-strangelove"/>
+        <updated>2026-05-13T16:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Two sequences from Dr. Strangelove done in Lego: Muffley’s call to Kissoff on the hotline in the war room and Dr. Strangelove’s increasingly erratic presentation of his plan to preserve humanity in a mine shaft.
+
+
+This is really well done. (via bb)
+
+ 
+
+         
+[This is a vintage post originally from Oct 2012.]
+Tags: Dr. Strangelove · Lego · movies · stop motion · timeless posts · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Boris Mann]]></title>
+        <id>https://simonwillison.net/2026/May/13/boris-mann/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/13/boris-mann/#atom-everything"/>
+        <updated>2026-05-13T16:15:50.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://bsky.app/profile/bmann.ca/post/3mlp2ipupv22z"><p>“11 AI agents” is meaningless as a phrase. </p>
+<p>If I said “I have 11 spreadsheets” or “I have 11 browser tabs” to do my work, it means about the same thing.</p></blockquote>
+<p class="cite">&mdash; <a href="https://bsky.app/profile/bmann.ca/post/3mlp2ipupv22z">Boris Mann</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-agents">ai-agents</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/agent-definitions">agent-definitions</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Billionaire solipsism, dictator solipsism, AI, and the fascist paradigm (13 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12801</id>
+        <link href="https://pluralistic.net/2026/05/13/vibe-governance/"/>
+        <updated>2026-05-13T15:47:35.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Billionaire solipsism, dictator solipsism, AI, and the fascist paradigm: AGI works best in a K-hole. Hey look at this: Delights to delectate. Object permanence: Woz's remotes; Furbeowulf; Vinge on AR; Oligarch buys FSU; DNC x GOP megadonors; John Key v Panama Papers; Two elevators, one shaft; Save Firefox! "Cyclopedia Exotica"; Eat the brood. Upcoming appearances: Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Billionaire solipsism, dictator solipsism, AI, and the fascist paradigm (permalink) With great power comes great solipsism: the more power you wield over other people, the less real they become…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adam Serwer : &#8220;Violence serves an authoritarian...]]></title>
+        <id>https://kottke.org/26/05/0048932-adam-serwer</id>
+        <link href="https://kottke.org/26/05/0048932-adam-serwer"/>
+        <updated>2026-05-13T15:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Adam Serwer: “Violence serves an authoritarian agenda.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A map of the regions of the US , as voted on by Reddit...]]></title>
+        <id>https://kottke.org/26/05/0048903-a-map-of-the-regions-of-t</id>
+        <link href="https://kottke.org/26/05/0048903-a-map-of-the-regions-of-t"/>
+        <updated>2026-05-13T15:13:33.000Z</updated>
+        <summary type="html"><![CDATA[A map of the regions of the US, as voted on by Reddit users. I think this seems mostly correct? One funny artifact: Washington state got some votes for “Northeast”, probably because ppl confused it with D.C. or with “Northwest”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How the Bird Eye Was Pushed to an Evolutionary Extreme]]></title>
         <id>https://www.quantamagazine.org/?p=161921</id>
@@ -15,6 +88,16 @@
 The post How the Bird Eye Was Pushed to an Evolutionary Extreme first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Yasemin Saplakoglu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Laying it on thick]]></title>
+        <id>https://www.robinsloan.com/lab/ai-promotion/</id>
+        <link href="https://www.robinsloan.com/lab/ai-promotion/"/>
+        <updated>2026-05-13T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>A new scourge. <a href="https://www.robinsloan.com/lab/ai-promotion/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -31,6 +114,20 @@ The post How the Bird Eye Was Pushed to an Evolutionary Extreme first appeared o
         <p>Tags: <a href="https://simonwillison.net/tags/content-security-policy">content-security-policy</a>, <a href="https://simonwillison.net/tags/iframes">iframes</a>, <a href="https://simonwillison.net/tags/security">security</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlimited Editions: Potlatch]]></title>
+        <id>https://www.thewire.co.uk/audio/tracks/unlimited-editions-potlatch</id>
+        <link href="https://www.thewire.co.uk/audio/tracks/unlimited-editions-potlatch"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 508, Seymour Wright compiles an annotated playlist from across the label’s 30 year history
+
+L’Épaisseur De L’Air – Live (reviewed in The Wire 503/504).
+
+L’Essai Sur Le Don,” Oger explains. “It was important for me, [especially] the concept of ‘dépense improductive’ (which might translate as ‘unproductive expenditure’). The main thing is the threefold obligation to give, to receive and to return. With a notion of challenge. I think that’s something which could be a typical feature of improvised music. There is an energy flow between musicians themselves, and between musicians and audience, of course during concerts, but also when listening to recordings. On a strictly personal level, I think that creating the label was a way for me to give back what I had received when listening to…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
