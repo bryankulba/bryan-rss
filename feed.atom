@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-13T06:47:13.744Z</updated>
+    <updated>2026-05-13T14:28:47.031Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How the Bird Eye Was Pushed to an Evolutionary Extreme]]></title>
+        <id>https://www.quantamagazine.org/?p=161921</id>
+        <link href="https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/"/>
+        <updated>2026-05-13T14:04:30.000Z</updated>
+        <summary type="html"><![CDATA[The bird retina is one of the most energetically expensive tissues in the animal kingdom, yet it doesn’t use the energy advantage of oxygen. New research finally explains how this is possible.            
+The post How the Bird Eye Was Pushed to an Evolutionary Extreme first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Yasemin Saplakoglu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSP Allow-list Experiment]]></title>
         <id>https://simonwillison.net/2026/May/13/csp-allow/#atom-everything</id>
@@ -6614,89 +6625,6 @@ Tags: design]]></summary>
         <summary type="html"><![CDATA[“Kind of yells "Tumblr meme post” even though I didn’t find it on Tumblr]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[RIDGELINE] Walk and Talk — The Portuguese Coastal Camino]]></title>
-        <id>https://craigmod.com/ridgeline/226/</id>
-        <link href="https://craigmod.com/ridgeline/226/"/>
-        <updated>2026-04-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ridgeline subscribers —
-We were lucky. Maybe the luckiest group walking the Portuguese coastal Camino. (Certainly the second luckiest.) All the things conspired in our favor: The weather, the food, the quality of the path (lots of great seaside boardwalk walking for miles and miles), the kind old café owners who suffered our group’s order-chaos with inspired equanimity.
-A Walk and Talk was afoot. Kevin and I have run a bunch of these things now. We’ve walked:]]></summary>
-        <author>
-            <name>Craig Mod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Media companies are increasingly blocking the Internet...]]></title>
-        <id>https://kottke.org/26/04/0048737-media-companies-are-incre</id>
-        <link href="https://kottke.org/26/04/0048737-media-companies-are-incre"/>
-        <updated>2026-04-13T21:57:57.000Z</updated>
-        <summary type="html"><![CDATA[Media companies are increasingly blocking the Internet Archive from archiving their material (but at the same time using the site to gather data for their stories).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Christophers]]></title>
-        <id>https://kottke.org/26/04/the-christophers</id>
-        <link href="https://kottke.org/26/04/the-christophers"/>
-        <updated>2026-04-13T21:03:00.000Z</updated>
-        <summary type="html"><![CDATA[I’m so glad Steven Soderbergh unretired from filmmaking. His newest film, The Christophers, looks amazing. It stars Ian McKellen as a famous artist and Michaela Coel as his assistant — but of course there’s more to it. Reviewer David Sims calls it both a heist movie and “a meditation on the relationship between art and commerce”. I hope this one actually comes to Vermont so I can see it in the theater.
-Coel and McKellen both have such great faces, don’t you think?
-
- 
-
-        
-         
-Tags: Ian McKellen · Michaela Coel · movies · The Christophers · trailers · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Steve Yegge]]></title>
-        <id>https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything"/>
-        <updated>2026-04-13T20:59:45.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/steve_yegge/status/2043747998740689171"><p>The TL;DR is that Google engineering appears to have the same AI adoption footprint as John Deere, the tractor company. Most of the industry has the same internal adoption curve: 20% agentic power users, 20% outright refusers, 60% still using Cursor or equivalent chat tool. It turns out Google has this curve too. [...]</p>
-<p>There has been an industry-wide hiring freeze for 18+ months, during which time nobody has been moving jobs. So there are no clued-in people coming in from the outside to tell Google how far behind they are, how utterly mediocre they have become as an eng org.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/steve_yegge/status/2043747998740689171">Steve Yegge</a>, provocative, as always</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/steve-yegge">steve-yegge</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We love  a slime mold  around here. &#8220;From mottled...]]></title>
-        <id>https://kottke.org/26/04/0048692-we-love-a-slime-mold</id>
-        <link href="https://kottke.org/26/04/0048692-we-love-a-slime-mold"/>
-        <updated>2026-04-13T20:24:19.000Z</updated>
-        <summary type="html"><![CDATA[We love a slime mold around here. “From mottled gray bulbs that look like snow-covered trees to pink, coral-like tendrils, Webb chronicles a huge array of colors and shapes.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is incredible:  Google Has a Secret Reference Desk....]]></title>
-        <id>https://kottke.org/26/04/0048734-this-is-incredible-google</id>
-        <link href="https://kottke.org/26/04/0048734-this-is-incredible-google"/>
-        <updated>2026-04-13T19:34:58.000Z</updated>
-        <summary type="html"><![CDATA[This is incredible: Google Has a Secret Reference Desk. Here’s How to Use It. I knew some of these but not all, e.g.  verbatim mode “returns results for exactly what you typed, stripped of personalization and synonym-swapping.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Who's paying for tokens and why? (The Anthropic 1000)]]></title>
-        <id>https://www.robinsloan.com/lab/ai-spend/</id>
-        <link href="https://www.robinsloan.com/lab/ai-spend/"/>
-        <updated>2026-04-13T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Clarifying information. <a href="https://www.robinsloan.com/lab/ai-spend/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>
