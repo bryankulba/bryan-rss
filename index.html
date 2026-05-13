@@ -35,6 +35,76 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/12/datasette/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-12T23:41:06.000Z">2026-05-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/12/datasette/#atom-everything" target="_blank" rel="noopener noreferrer">datasette 1.0a29</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 1.0a29
+New TokenRestrictions.abbreviated(datasette) utility method for creating "_r" dictionaries. #2695
+Table headers and column options are now visible even if a table contains zero rows. #2701
+Fixed bug with display of column actions dialog on Mobile Safari. #2708
+Fixed bug where tests could crash with a segfault due to a race condition between Datasette.close() and Datasette.close(). #2709
+That segfault bug was gnarly. I added a mechanism to Datasette recently that would automatically close connections at the end of each test, but it turned out that introduced a race condition where an in-flight query could sometimes be executing in a thread against a connection while it was being closed. I ended up solving that by having Codex CLI (with GPT-5.5 xhigh) create a minimal Dockerfile that recreated the bug.
+Tags: projects, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/12/datasette/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/12/datasette/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-12T22:59:58.000Z">2026-05-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Mo Bitar</a>
+          </h2>
+          <p class="feed-item__desc">Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change literally everything. And he's gonna say, what's a Ralph loop? And you will say, give me $18,000 worth of API credits and I'll show you. Now you won't actually do anything, because you can't do anything. Because nobody can, because nobody knows what they're doing. But by the time he figures that out, you'll have a new title, and equity bump. [...]
+Talk about automation constantly. Nothing arouses the slumbering capitalists than the mention of automation. Drop names too, bro. Like talk about specific team members you can automate out of existence. Be like, yo, I automated Gary, bro. Tag Gary in the message. Tag him in Slack in a very public channel. Be like, yo, I just automated @Gary. His function has been Ralph Looped. And tag your CEO in the same message. You think you're getting laid off after that?
+
+— Mo Bitar, The Unethical Guide to Surviving AI Layoffs, TikTok
+Tags: ai-ethics, tiktok, careers, ai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-12T22:21:51.000Z">2026-05-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Mitchell Hashimoto</a>
+          </h2>
+          <p class="feed-item__desc">The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, they follow secular trends supported by analysts and broad public sentiment. Oh, Gartner said that "AI strategy" is most important? McKinsey said "context" needs to be managed? Well, "Context Engine for AI Apps" is going to be defensible. Buy it.
+
+— Mitchell Hashimoto, in a conversation about the design of the Redis homepage
+Tags: marketing, mitchell-hashimoto, redis</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/05/0048928-basketball-musician">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-05-12T20:00:00.000Z">2026-05-12</time>
@@ -91,6 +161,29 @@ For the first time in the history of the Reporters Without Borders (RSF) World P
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048921-sounds-of-the-60s-the-ibm" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048921-sounds-of-the-60s-the-ibm">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/12/llm/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-12T17:45:07.000Z">2026-05-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/12/llm/#atom-everything" target="_blank" rel="noopener noreferrer">llm 0.32a2</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.32a2
+A bunch of useful stuff in this LLM alpha, but the most important detail is this one:
+Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions. This enables interleaved reasoning across tool calls for GPT-5 class models. #1435
+This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the -R or --hide-reasoning flags if you don't want to see that.
+Tags: llm, projects, openai, generative-ai, annotated-release-notes, ai, llms</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/12/llm/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/12/llm/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
@@ -11131,85 +11224,6 @@ The post The AI Revolution in Math Has Arrived first appeared on Quanta Magazine
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/04/Math-AI-Update-cr-Nash-Weerasekera-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048725-rebecca-solnit-the-united">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-13T14:31:58.000Z">2026-04-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/0048725-rebecca-solnit-the-united" target="_blank" rel="noopener noreferrer">Rebecca Solnit: “ The United States is being...</a>
-          </h2>
-          <p class="feed-item__desc">Rebecca Solnit: “The United States is being murdered, and it’s an inside job. Every department, every branch, every bureau and function of the federal government is being fatally corrupted or altogether dismantled or disabled.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048725-rebecca-solnit-the-united" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048725-rebecca-solnit-the-united">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048724-hungarian-opposition-oust">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-13T13:38:49.000Z">2026-04-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/0048724-hungarian-opposition-oust" target="_blank" rel="noopener noreferrer">Hungarian Opposition Ousts Viktor Orbán After 16 Years...</a>
-          </h2>
-          <p class="feed-item__desc">Hungarian Opposition Ousts Viktor Orbán After 16 Years in Power. “Magyar…pledged to repair Hungary’s strained relationship with the EU, crack down on corruption and funnel funds towards long-neglected public services.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048724-hungarian-opposition-oust" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048724-hungarian-opposition-oust">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/0048674-interviews-with-five-nove">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-13T13:12:46.000Z">2026-04-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/0048674-interviews-with-five-nove" target="_blank" rel="noopener noreferrer">Interviews with five novelists (Jesmyn Ward, Joyce Carol...</a>
-          </h2>
-          <p class="feed-item__desc">Interviews with five novelists (Jesmyn Ward, Joyce Carol Oates, Jhumpa Lahiri, Ottessa Moshfegh, Margaret Atwood) on writing something true with fiction. Oates: “If you could read Toni Morrison, why would you read AI?”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/0048674-interviews-with-five-nove" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/0048674-interviews-with-five-nove">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18191">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-13T10:29:16.000Z">2026-04-13</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/generally-13apr26/" target="_blank" rel="noopener noreferrer">generally: 13apr26</a>
-          </h2>
-          <p class="feed-item__desc">On Saturday I went into London to see Julianna Barwick and Mary Lattimore play at EARtH, and it was as marvellous as I hoped. On…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18191" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18191">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/04/PICT0041.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

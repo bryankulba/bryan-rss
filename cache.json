@@ -2299,36 +2299,6 @@
           "wordCount": 831,
           "title": "Why Japan Has Such Good Railways . &#8220;Their system...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048725-rebecca-solnit-the-united",
-          "author": null,
-          "description": "Rebecca Solnit: “The United States is being murdered, and it’s an inside job. Every department, every branch, every bureau and function of the federal government is being fatally corrupted or altogether dismantled or disabled.”",
-          "link": "https://kottke.org/26/04/0048725-rebecca-solnit-the-united",
-          "publishedOn": "2026-04-13T14:31:58.000Z",
-          "wordCount": 486,
-          "title": "Rebecca Solnit: &#8220; The United States is being...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048724-hungarian-opposition-oust",
-          "author": null,
-          "description": "Hungarian Opposition Ousts Viktor Orbán After 16 Years in Power. “Magyar…pledged to repair Hungary’s strained relationship with the EU, crack down on corruption and funnel funds towards long-neglected public services.”",
-          "link": "https://kottke.org/26/04/0048724-hungarian-opposition-oust",
-          "publishedOn": "2026-04-13T13:38:49.000Z",
-          "wordCount": 743,
-          "title": "Hungarian Opposition Ousts Viktor Orbán After 16 Years...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048674-interviews-with-five-nove",
-          "author": null,
-          "description": "Interviews with five novelists (Jesmyn Ward, Joyce Carol Oates, Jhumpa Lahiri, Ottessa Moshfegh, Margaret Atwood) on writing something true with fiction. Oates: “If you could read Toni Morrison, why would you read AI?”",
-          "link": "https://kottke.org/26/04/0048674-interviews-with-five-nove",
-          "publishedOn": "2026-04-13T13:12:46.000Z",
-          "wordCount": 757,
-          "title": "Interviews with five novelists (Jesmyn Ward, Joyce Carol...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2826,16 +2796,6 @@
           "wordCount": 1391,
           "title": "going going: 14apr26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/pain.gif"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18191",
-          "author": "Warren Ellis",
-          "description": "On Saturday I went into London to see Julianna Barwick and Mary Lattimore play at EARtH, and it was as marvellous as I hoped. On…",
-          "link": "https://warrenellis.ltd/status/generally-13apr26/",
-          "publishedOn": "2026-04-13T10:29:16.000Z",
-          "wordCount": 1232,
-          "title": "generally: 13apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/PICT0041.jpg"
         }
       ]
     },
@@ -3292,6 +3252,46 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a29\">datasette 1.0a29</a></p>\n        <blockquote>\n<ul>\n<li>New <code>TokenRestrictions.abbreviated(datasette)</code> <a href=\"https://docs.datasette.io/en/latest/internals.html#tokenrestrictions\">utility method</a> for creating <code>\"_r\"</code> dictionaries. <a href=\"https://github.com/simonw/datasette/issues/2695\">#2695</a></li>\n<li>Table headers and column options are now visible even if a table contains zero rows. <a href=\"https://github.com/simonw/datasette/issues/2701\">#2701</a></li>\n<li>Fixed bug with display of column actions dialog on Mobile Safari. <a href=\"https://github.com/simonw/datasette/issues/2708\">#2708</a></li>\n<li>Fixed bug where tests could crash with a segfault due to a race condition between <code>Datasette.close()</code> and <code>Datasette.close()</code>. <a href=\"https://github.com/simonw/datasette/issues/2709\">#2709</a></li>\n</ul>\n</blockquote>\n<p>That segfault bug was <em>gnarly</em>. I added a mechanism to Datasette recently that would automatically close connections at the end of each test, but it turned out that introduced a race condition where an in-flight query could sometimes be executing in a thread against a connection while it was being closed. I ended up solving that by having Codex CLI (with GPT-5.5 xhigh) create <a href=\"https://github.com/simonw/datasette/issues/2709#issuecomment-4435604727\">a minimal Dockerfile</a> that recreated the bug.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+          "link": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+          "publishedOn": "2026-05-12T23:41:06.000Z",
+          "wordCount": 842,
+          "title": "datasette 1.0a29",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.tiktok.com/@atmoio/video/7638649825382190350\"><p>Now, if your CEO has never heard the phrase Ralph Loop, oh man, you are less than 30 days away from your next promotion. I'm not even exaggerating. Walk into his office, close the door, and say, hey chief, been experimenting with something. It's called Ralph Loops. And I think it could change literally everything. And he's gonna say, what's a Ralph loop? And you will say, give me $18,000 worth of API credits and I'll show you. Now you won't actually do anything, because you can't do anything. Because nobody can, because nobody knows what they're doing. But by the time he figures that out, you'll have a new title, and equity bump. [...]</p>\n<p>Talk about automation constantly. Nothing arouses the slumbering capitalists than the mention of automation. Drop names too, bro. Like talk about specific team members you can automate out of existence. Be like, yo, I automated Gary, bro. Tag Gary in the message. Tag him in Slack in a very public channel. Be like, yo, I just automated @Gary. His function has been Ralph Looped. And tag your CEO in the same message. You think you're getting laid off after that?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.tiktok.com/@atmoio/video/7638649825382190350\">Mo Bitar</a>, The Unethical Guide to Surviving AI Layoffs, TikTok</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/tiktok\">tiktok</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+          "publishedOn": "2026-05-12T22:59:58.000Z",
+          "wordCount": 887,
+          "title": "Quoting Mo Bitar",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://lobste.rs/s/oznirn/redis_cost_ambition#c_dzrja0\"><p>The thing about 90% of TDMs [Technical Decision Makers] is that they're motivated primarily by NOT GETTING FIRED. These aren't people who browser Lobsters or push to GH on the weekend. These are people that work 9 to 5, get paid, go home, and NEVER THINK ABOUT WORK AGAIN. So to achieve all that, they follow secular trends supported by analysts and broad public sentiment. Oh, Gartner said that \"AI strategy\" is most important? McKinsey said \"context\" needs to be managed? Well, \"Context Engine for AI Apps\" is going to be defensible. Buy it.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://lobste.rs/s/oznirn/redis_cost_ambition#c_dzrja0\">Mitchell Hashimoto</a>, in a conversation about the design of the <a href=\"https://redis.io/\">Redis homepage</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/marketing\">marketing</a>, <a href=\"https://simonwillison.net/tags/mitchell-hashimoto\">mitchell-hashimoto</a>, <a href=\"https://simonwillison.net/tags/redis\">redis</a></p>",
+          "link": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+          "publishedOn": "2026-05-12T22:21:51.000Z",
+          "wordCount": 786,
+          "title": "Quoting Mitchell Hashimoto",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32a2\">llm 0.32a2</a></p>\n        <p>A bunch of useful stuff in this <a href=\"https://llm.datasette.io/\">LLM</a> alpha, but the most important detail is this one:</p>\n<blockquote>\n<p>Most reasoning-capable OpenAI models now use the <a href=\"https://platform.openai.com/docs/api-reference/responses\"><code>/v1/responses</code></a> endpoint instead of <code>/v1/chat/completions</code>. This enables interleaved reasoning across tool calls for GPT-5 class models. <a href=\"https://github.com/simonw/llm/pull/1435\">#1435</a></p>\n</blockquote>\n<p>This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the <code>-R</code> or <code>--hide-reasoning</code> flags if you don't want to see that.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+          "publishedOn": "2026-05-12T17:45:07.000Z",
+          "wordCount": 803,
+          "title": "llm 0.32a2",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
           "author": null,
