@@ -2,10 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-13T02:51:59.044Z</updated>
+    <updated>2026-05-13T06:47:13.744Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CSP Allow-list Experiment]]></title>
+        <id>https://simonwillison.net/2026/May/13/csp-allow/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/13/csp-allow/#atom-everything"/>
+        <updated>2026-05-13T04:50:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/csp-allow">CSP Allow-list Experiment</a></p>
+        <p>An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see <a href="https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/">previous note</a>) and have a custom <code>fetch()</code> that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list and then refresh the page.</p>
+<p><img alt="Screenshot of a web tool titled &quot;CSP Allow-list Experiment&quot; with buttons Reset sample, Clear allow-list, Refresh preview. Left panel shows HTML source code starting with &lt;!doctype html&gt;. Right panel shows Preview with CSP header default-src 'none'; script-src 'unsafe-inline'; style-s... and heading &quot;Sandbox fetch test&quot;. A modal dialog from tools.simonwillison.net is overlaid reading: &quot;The sandbox tried to connect to: https://api.inaturalist.org   Add this origin to the CSP connect-src allow-list and refresh the page?&quot; with an unchecked checkbox &quot;Don't allow tools.simonwillison.net to prompt you again&quot; and Cancel and OK buttons. Below is &quot;Messages from sandbox&quot; showing fetch-catch blocked https://api.inaturalist.org/v1/observations?per... connect-src · https://api.inaturalist.org. At the bottom left is &quot;Allowed fetch() origins&quot; with an input field containing https://api.github.com, an Add button, and a tag https://api.github.com x." src="https://static.simonwillison.net/static/2026/csp-allow.jpg" /></p>
+<p>I built this one with GPT-5.5 xhigh running in the Codex desktop app.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/content-security-policy">content-security-policy</a>, <a href="https://simonwillison.net/tags/iframes">iframes</a>, <a href="https://simonwillison.net/tags/security">security</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette 1.0a29]]></title>
         <id>https://simonwillison.net/2026/May/12/datasette/#atom-everything</id>
@@ -6681,93 +6697,6 @@ Tags: Ian McKellen · Michaela Coel · movies · The Christophers · trailers ·
         <summary type="html"><![CDATA[<p>Clarifying information. <a href="https://www.robinsloan.com/lab/ai-spend/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Crystal Skull]]></title>
-        <id>https://kottke.org/26/04/the-crystal-skull</id>
-        <link href="https://kottke.org/26/04/the-crystal-skull"/>
-        <updated>2026-04-13T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[David Altmejd’s 2017 sculpture entitled “God” is one of the most disturbing artworks I’ve seen recently, so naturally I had to show all of you. If you need further wigging out, here you go. Lots more on his website and Instagram.
-
- 
-
-        
-         
-Tags: art · David Altmejd]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Great new Patrick Radden Keefe piece on a New Orleans...]]></title>
-        <id>https://kottke.org/26/04/0048729-great-new-patrick-radden-</id>
-        <link href="https://kottke.org/26/04/0048729-great-new-patrick-radden-"/>
-        <updated>2026-04-13T17:15:49.000Z</updated>
-        <summary type="html"><![CDATA[Great new Patrick Radden Keefe piece on a New Orleans insurance fraud scheme involving big rigs. “After all, who would agree to be cut open on an operating table if it weren’t necessary? Quite a lot of people, it turns out.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fred Again&#8217;s Tiny Desk Concert]]></title>
-        <id>https://kottke.org/26/04/fred-agains-tiny-desk-concert</id>
-        <link href="https://kottke.org/26/04/fred-agains-tiny-desk-concert"/>
-        <updated>2026-04-13T16:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Almost three years ago exactly, Fred Again rolled into the NPR studios and did a Tiny Desk Concert.
-When Fred again.. first proposed a Tiny Desk concert, it wasn’t immediately clear how he was going to make it work — not because he lacked creativity, but because translating purely electronic music at the Desk is a daunting task for anyone. How would an artist, whose performances take the form of DJ sets in front of massive audiences, curate an intimate and unique experience? But what the British songwriter and producer came up with is a reminder of what a Tiny Desk is at its best: an opportunity for artists to challenge themselves in such a way that it almost feels like they’re making new music, all while sticking to what feels true to them. For Fred again.. that meant re-learning the marimba, playing the vibraphone, singing at the piano and looping sounds and beats — all at the same time.
-
- 
-
-        
-         
-Tags: Fred Again · music · Tiny Desk Concerts · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Japan Has Such Good Railways . &#8220;Their system...]]></title>
-        <id>https://kottke.org/26/04/0048720-why-japan-has-such-good</id>
-        <link href="https://kottke.org/26/04/0048720-why-japan-has-such-good"/>
-        <updated>2026-04-13T15:40:06.000Z</updated>
-        <summary type="html"><![CDATA[Why Japan Has Such Good Railways. “Their system excels because of good public policy: business structure, land use rules, driving rules, superior models for privatization, and sound regulation.” Other countries can follow their lead.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring the new `servo` crate]]></title>
-        <id>https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything"/>
-        <updated>2026-04-13T15:04:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/servo-crate-exploration#readme">Exploring the new `servo` crate</a></p>
-    <p>In <a href="https://servo.org/blog/2026/04/13/servo-0.1.0-release/">Servo is now available on crates.io</a> the Servo team announced the initial release of the <a href="https://crates.io/crates/servo">servo</a> crate, which packages their browser engine as an embeddable library.</p>
-<p>I set Claude Code for web <a href="https://github.com/simonw/research/pull/108">the task</a> of figuring out what it can do, building a CLI tool for taking screenshots using it and working out if it could be compiled to WebAssembly.</p>
-<p>The <code>servo-shot</code> Rust tool it built works pretty well:</p>
-<pre><code>git clone https://github.com/simonw/research
-cd research/servo-crate-exploration/servo-shot
-cargo build
-./target/debug/servo-shot https://news.ycombinator.com/
-</code></pre>
-<p>Here's the result:</p>
-<p><img alt="An accurately rendered screenshot of the Hacker News homepage" src="https://static.simonwillison.net/static/2026/servo-hn.png" /></p>
-<p>Compiling Servo itself to WebAssembly is not feasible due to its heavy use of threads and dependencies like SpiderMonkey, but Claude did build me <a href="https://simonw.github.io/research/servo-crate-exploration/html5ever-wasm-demo/www/">this playground page</a> for trying out a WebAssembly build of the <code>html5ever</code> and <code>markup5ever_rcdom</code> crates, providing a tool for turning fragments of HTML into a parse tree.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/research">research</a>, <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/servo">servo</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The AI Revolution in Math Has Arrived]]></title>
-        <id>https://www.quantamagazine.org/?p=160931</id>
-        <link href="https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413/"/>
-        <updated>2026-04-13T14:54:41.000Z</updated>
-        <summary type="html"><![CDATA[AI is being used to prove new results at a rapid pace. Mathematicians think this is just the beginning.            
-The post The AI Revolution in Math Has Arrived first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Konstantin Kakaes</name>
         </author>
     </entry>
 </feed>
