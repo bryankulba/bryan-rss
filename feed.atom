@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-13T21:24:58.312Z</updated>
+    <updated>2026-05-14T02:54:09.996Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the Datasette blog]]></title>
+        <id>https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything"/>
+        <updated>2026-05-13T23:59:39.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://datasette.io/blog/2026/new-blog/">Welcome to the Datasette blog</a></strong></p>
+We have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog.</p>
+<p>I built this using OpenAI Codex desktop, which turns out to have the Markdown session transcript export feature I've always wanted. Here's <a href="https://gist.github.com/simonw/885b11eee46822622b8031a1f4e5f3a3">the session that built the blog</a>. See also <a href="https://github.com/simonw/datasette.io/issues/179">issue 179</a>.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/codex">codex</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Childhood Folklore Did You Learn As a Kid?]]></title>
         <id>https://kottke.org/26/05/what-childhood-folklore-did-you-learn-as-a-kid</id>
@@ -6719,56 +6734,6 @@ Tags: design]]></summary>
         <summary type="html"><![CDATA[An AI bot created by Andon Labs is running its own retail store in San Francisco. The bot has hired a pair of human employees and “has a corporate card, a phone number, email, internet access and eyes through security cameras”.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Soil Turn—A Field Guide to Artistic Earthly Engagements]]></title>
-        <id>https://we-make-money-not-art.com/?p=38940</id>
-        <link href="https://we-make-money-not-art.com/soil-turn-a-field-guide-to-artistic-earthly-engagements/"/>
-        <updated>2026-04-14T14:21:52.000Z</updated>
-        <summary type="html"><![CDATA[The book offers a survey of creative practices that engage with soil in all its dimensions. While I expected land art and pottery, I encountered edible soil, a floating food forest, hidden soil soundscapes, co-production with non-human collaborators, a decomposing SUV, explorations of earthworm’s perception, life within damaged soil ecosystems and many other works that call for a shift from control to care]]></summary>
-        <author>
-            <name>Regine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;Gerontocracy has always thrived in undemocratic...]]></title>
-        <id>https://kottke.org/26/04/0048739-gerontocracy-has-always-t</id>
-        <link href="https://kottke.org/26/04/0048739-gerontocracy-has-always-t"/>
-        <updated>2026-04-14T14:15:31.000Z</updated>
-        <summary type="html"><![CDATA[“Gerontocracy has always thrived in undemocratic places — Communist people’s republics, Gulf monarchies — where only death could pry power from the ruling elders. American gerontocracy is exceptional for being freely elected.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An interactive explainer on the physics of GPS ....]]></title>
-        <id>https://kottke.org/26/04/0048738-an-interactive-explainer-</id>
-        <link href="https://kottke.org/26/04/0048738-an-interactive-explainer-"/>
-        <updated>2026-04-14T13:21:43.000Z</updated>
-        <summary type="html"><![CDATA[An interactive explainer on the physics of GPS. “The answer is in some ways simpler than you’d expect, and in other ways more complex. GPS is fundamentally a translation tool: it converts time into distance.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spyplane Ultimate BAY AREA Guide]]></title>
-        <id>https://www.blackbirdspyplane.com/p/spyplane-ultimate-bay-area-guide</id>
-        <link href="https://www.blackbirdspyplane.com/p/spyplane-ultimate-bay-area-guide"/>
-        <updated>2026-04-14T10:50:43.000Z</updated>
-        <summary type="html"><![CDATA[The slappiest food, shops, drinks, sights, nature trails & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[going going: 14apr26]]></title>
-        <id>https://warrenellis.ltd/?p=18197</id>
-        <link href="https://warrenellis.ltd/status/going-going-14apr26/"/>
-        <updated>2026-04-14T10:38:56.000Z</updated>
-        <summary type="html"><![CDATA[I have seen great minds of my acquaintance eaten by “the blockchain,” IoT, NFTs and now AI across the last fifteen years. I used to…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>

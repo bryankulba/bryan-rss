@@ -2289,26 +2289,6 @@
           "wordCount": 520,
           "title": "An AI bot created by Andon Labs is running its own...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048739-gerontocracy-has-always-t",
-          "author": null,
-          "description": "“Gerontocracy has always thrived in undemocratic places — Communist people’s republics, Gulf monarchies — where only death could pry power from the ruling elders. American gerontocracy is exceptional for being freely elected.”",
-          "link": "https://kottke.org/26/04/0048739-gerontocracy-has-always-t",
-          "publishedOn": "2026-04-14T14:15:31.000Z",
-          "wordCount": 465,
-          "title": "&#8220;Gerontocracy has always thrived in undemocratic...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048738-an-interactive-explainer-",
-          "author": null,
-          "description": "An interactive explainer on the physics of GPS. “The answer is in some ways simpler than you’d expect, and in other ways more complex. GPS is fundamentally a translation tool: it converts time into distance.”",
-          "link": "https://kottke.org/26/04/0048738-an-interactive-explainer-",
-          "publishedOn": "2026-04-14T13:21:43.000Z",
-          "wordCount": 768,
-          "title": "An interactive explainer on the physics of GPS ....",
-          "imageUrl": ""
         }
       ]
     },
@@ -2806,16 +2786,6 @@
           "wordCount": 1336,
           "title": "shades: 15apr26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/PICT0054.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18197",
-          "author": "Warren Ellis",
-          "description": "I have seen great minds of my acquaintance eaten by “the blockchain,” IoT, NFTs and now AI across the last fifteen years. I used to…",
-          "link": "https://warrenellis.ltd/status/going-going-14apr26/",
-          "publishedOn": "2026-04-14T10:38:56.000Z",
-          "wordCount": 1391,
-          "title": "going going: 14apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/pain.gif"
         }
       ]
     },
@@ -3092,22 +3062,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!czrI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d3e77ab-4781-42f2-b580-2a16ec275916_2000x2491.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/spyplane-ultimate-bay-area-guide",
-          "author": "Blackbird Spyplane",
-          "description": "The slappiest food, shops, drinks, sights, nature trails & more",
-          "link": "https://www.blackbirdspyplane.com/p/spyplane-ultimate-bay-area-guide",
-          "publishedOn": "2026-04-14T10:50:43.000Z",
-          "wordCount": null,
-          "title": "Spyplane Ultimate BAY AREA Guide",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!8_jO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc3d271a-5bc6-40ab-997d-baa86f9946cd_2000x2483.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!8_jO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc3d271a-5bc6-40ab-997d-baa86f9946cd_2000x2483.png"
         }
       ]
     },
@@ -3262,6 +3216,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://datasette.io/blog/2026/new-blog/\">Welcome to the Datasette blog</a></strong></p>\nWe have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog.</p>\n<p>I built this using OpenAI Codex desktop, which turns out to have the Markdown session transcript export feature I've always wanted. Here's <a href=\"https://gist.github.com/simonw/885b11eee46822622b8031a1f4e5f3a3\">the session that built the blog</a>. See also <a href=\"https://github.com/simonw/datasette.io/issues/179\">issue 179</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
+          "link": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+          "publishedOn": "2026-05-13T23:59:39.000Z",
+          "wordCount": 776,
+          "title": "Welcome to the Datasette blog",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
           "author": null,
@@ -4267,16 +4231,6 @@
           "wordCount": 4929,
           "title": "Uncertainty as a field of action. An interview with Amanda Masha Caminals",
           "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/05/moulding-mourning-mouths-fotograma-2.jpg"
-        },
-        {
-          "id": "https://we-make-money-not-art.com/?p=38940",
-          "author": "Regine",
-          "description": "The book offers a survey of creative practices that engage with soil in all its dimensions. While I expected land art and pottery, I encountered edible soil, a floating food forest, hidden soil soundscapes, co-production with non-human collaborators, a decomposing SUV, explorations of earthworm’s perception, life within damaged soil ecosystems and many other works that call for a shift from control to care",
-          "link": "https://we-make-money-not-art.com/soil-turn-a-field-guide-to-artistic-earthly-engagements/",
-          "publishedOn": "2026-04-14T14:21:52.000Z",
-          "wordCount": 2811,
-          "title": "Soil Turn—A Field Guide to Artistic Earthly Engagements",
-          "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/04/konza-prairie-biril-2017-3.jpg"
         }
       ]
     },
