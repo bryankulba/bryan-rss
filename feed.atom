@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-14T21:08:35.771Z</updated>
+    <updated>2026-05-15T02:55:45.199Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Not so locked in any more]]></title>
+        <id>https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything"/>
+        <updated>2026-05-14T22:53:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>This <a href="https://simonwillison.net/2026/May/14/mitchell-hashimoto/">Mitchell Hashimoto quote</a> about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week.</p>
+<p>I was talking to someone who worked for a medium sized technology company with a pair of legacy/<a href="https://simonwillison.net/2018/Jul/17/mark-norman-francis/">legendary</a> iPhone and Android apps.</p>
+<p>They told me they had just completed a coding-agent driven rewrite of both apps to React Native.</p>
+<p>I asked why they chose that, given that coding agents presumably drive down the cost of maintaining separate iPhone and Android apps.</p>
+<p>They said that React Native has improved a lot over the past few years and covered everything their apps needed to do.</p>
+<p>And... if it turned out to be the wrong decision, they could <strong>just port back to native</strong> in the future.</p>
+<p>Like Mitchell said:</p>
+<blockquote>
+<p>Programming languages used to be LOCK IN, and they're increasingly not so.</p>
+</blockquote>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/react">react</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Mitchell Hashimoto]]></title>
+        <id>https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything"/>
+        <updated>2026-05-14T22:31:20.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/mitchellh/status/2055039647924007222"><p>[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. Its useful until its not then it can be thrown out. That's interesting!</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/mitchellh/status/2055039647924007222">Mitchell Hashimoto</a>, on Bun porting from Zig to Rust</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/zig">zig</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/mitchell-hashimoto">mitchell-hashimoto</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/bun">bun</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Russell Vought Became the Shadow President]]></title>
         <id>https://kottke.org/26/05/how-russell-vought-became-the-shadow-president</id>
@@ -6612,63 +6646,6 @@ Tags: books · Margaret Atwood · movies · The Handmaid's Tale · The Testament
         <summary type="html"><![CDATA[Listen to the NYC Subway play some Train Jazz. “Every dot is a real subway train. Eight hundred of them, give or take, form a small jazz combo (walking bass, piano, sax, vibes, brushes) that has been playing without pause for over a hundred years.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ancient Weapons Active in Your Immune System Today]]></title>
-        <id>https://www.quantamagazine.org/?p=160935</id>
-        <link href="https://www.quantamagazine.org/the-ancient-weapons-active-in-your-immune-system-today-20260415/"/>
-        <updated>2026-04-15T14:47:25.000Z</updated>
-        <summary type="html"><![CDATA[Dozens of new discoveries reveal that defenses evolved by bacteria and viruses billions of years ago still define our own innate immune system.            
-The post The Ancient Weapons Active in Your Immune System Today first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Viviane Callier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Engineer Guy Bill Hammack has written a book based on...]]></title>
-        <id>https://kottke.org/26/04/0048675-the-engineer-guy-bill-ham</id>
-        <link href="https://kottke.org/26/04/0048675-the-engineer-guy-bill-ham"/>
-        <updated>2026-04-15T14:38:03.000Z</updated>
-        <summary type="html"><![CDATA[The Engineer Guy Bill Hammack has written a book based on his great YouTube channel: The Things We Make: The Unknown History of Invention from Cathedrals to Soda Cans.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It&#8217;s Happening: More Signs of Life From Boards of Canada]]></title>
-        <id>https://kottke.org/26/04/its-happening-more-signs-of-life-from-boards-of-canada</id>
-        <link href="https://kottke.org/26/04/its-happening-more-signs-of-life-from-boards-of-canada"/>
-        <updated>2026-04-15T13:50:00.000Z</updated>
-        <summary type="html"><![CDATA[I reported last week that signs of activity have been detected from Boards of Canada in the form of mysterious VHS tapes sent out to fans. Yesterday, the group’s record label posted a bunch of photos of posters hung up in cities around the world (NYC, Tokyo, LA) that match BoC’s style. First new album since 2013’s Tomorrow’s Harvest? Let’s hope so!
-
- 
-
-        
-         
-Tags: Boards of Canada · music]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[shades: 15apr26]]></title>
-        <id>https://warrenellis.ltd/?p=18219</id>
-        <link href="https://warrenellis.ltd/status/shades-15apr26/"/>
-        <updated>2026-04-15T10:43:56.000Z</updated>
-        <summary type="html"><![CDATA[I should be pissed off that I’ve been sleeping so poorly this week. As of this morning, the only thing I’m really irritated by is…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The milestone of Gemma 4]]></title>
-        <id>https://www.robinsloan.com/lab/gemma-milestone/</id>
-        <link href="https://www.robinsloan.com/lab/gemma-milestone/"/>
-        <updated>2026-04-15T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Small and capable. <a href="https://www.robinsloan.com/lab/gemma-milestone/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>

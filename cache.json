@@ -178,16 +178,6 @@
           "wordCount": 5460,
           "title": "Shopkeeper Rampant",
           "imageUrl": "https://www.robinsloan.com/img/pps-foil.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/gemma-milestone/",
-          "author": null,
-          "description": "<p>Small and capable. <a href=\"https://www.robinsloan.com/lab/gemma-milestone/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/gemma-milestone/",
-          "publishedOn": "2026-04-15T10:00:00.000Z",
-          "wordCount": 5347,
-          "title": "Dragoncatcher: The milestone of Gemma 4",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -2289,26 +2279,6 @@
           "wordCount": 808,
           "title": "Listen to the NYC Subway play some  Train Jazz ....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048675-the-engineer-guy-bill-ham",
-          "author": null,
-          "description": "The Engineer Guy Bill Hammack has written a book based on his great YouTube channel: The Things We Make: The Unknown History of Invention from Cathedrals to Soda Cans.",
-          "link": "https://kottke.org/26/04/0048675-the-engineer-guy-bill-ham",
-          "publishedOn": "2026-04-15T14:38:03.000Z",
-          "wordCount": 747,
-          "title": "The Engineer Guy Bill Hammack has written a book based on...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/its-happening-more-signs-of-life-from-boards-of-canada",
-          "author": null,
-          "description": "I reported last week that signs of activity have been detected from Boards of Canada in the form of mysterious VHS tapes sent out to fans. Yesterday, the group’s record label posted a bunch of photos of posters hung up in cities around the world (NYC, Tokyo, LA) that match BoC’s style. First new album since 2013’s Tomorrow’s Harvest? Let’s hope so!\n\n \n\n        \n         \nTags: Boards of Canada · music",
-          "link": "https://kottke.org/26/04/its-happening-more-signs-of-life-from-boards-of-canada",
-          "publishedOn": "2026-04-15T13:50:00.000Z",
-          "wordCount": 759,
-          "title": "It&#8217;s Happening: More Signs of Life From Boards of Canada",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1776259968-c7f66feb.jpg"
         }
       ]
     },
@@ -2826,16 +2796,6 @@
           "wordCount": 1345,
           "title": "certainly will not finish: 19apr26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_0978-scaled.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18219",
-          "author": "Warren Ellis",
-          "description": "I should be pissed off that I’ve been sleeping so poorly this week. As of this morning, the only thing I’m really irritated by is…",
-          "link": "https://warrenellis.ltd/status/shades-15apr26/",
-          "publishedOn": "2026-04-15T10:43:56.000Z",
-          "wordCount": 1336,
-          "title": "shades: 15apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/PICT0054.jpg"
         }
       ]
     },
@@ -3282,6 +3242,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
+          "author": null,
+          "description": "<p>This <a href=\"https://simonwillison.net/2026/May/14/mitchell-hashimoto/\">Mitchell Hashimoto quote</a> about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week.</p>\n<p>I was talking to someone who worked for a medium sized technology company with a pair of legacy/<a href=\"https://simonwillison.net/2018/Jul/17/mark-norman-francis/\">legendary</a> iPhone and Android apps.</p>\n<p>They told me they had just completed a coding-agent driven rewrite of both apps to React Native.</p>\n<p>I asked why they chose that, given that coding agents presumably drive down the cost of maintaining separate iPhone and Android apps.</p>\n<p>They said that React Native has improved a lot over the past few years and covered everything their apps needed to do.</p>\n<p>And... if it turned out to be the wrong decision, they could <strong>just port back to native</strong> in the future.</p>\n<p>Like Mitchell said:</p>\n<blockquote>\n<p>Programming languages used to be LOCK IN, and they're increasingly not so.</p>\n</blockquote>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/react\">react</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
+          "publishedOn": "2026-05-14T22:53:49.000Z",
+          "wordCount": 855,
+          "title": "Not so locked in any more",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/mitchellh/status/2055039647924007222\"><p>[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. Its useful until its not then it can be thrown out. That's interesting!</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitchellh/status/2055039647924007222\">Mitchell Hashimoto</a>, on Bun porting from Zig to Rust</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/zig\">zig</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/mitchell-hashimoto\">mitchell-hashimoto</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/bun\">bun</a></p>",
+          "link": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
+          "publishedOn": "2026-05-14T22:31:20.000Z",
+          "wordCount": 768,
+          "title": "Quoting Mitchell Hashimoto",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything",
           "author": null,
@@ -4406,16 +4386,6 @@
           "wordCount": 2883,
           "title": "Quantum ‘Jamming’ Explores the Truly Fundamental Principles of Nature",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Quantum-Jamming-cr-Samuel-Velasco-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=160935",
-          "author": "Viviane Callier",
-          "description": "Dozens of new discoveries reveal that defenses evolved by bacteria and viruses billions of years ago still define our own innate immune system.            \nThe post The Ancient Weapons Active in Your Immune System Today first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/the-ancient-weapons-active-in-your-immune-system-today-20260415/",
-          "publishedOn": "2026-04-15T14:47:25.000Z",
-          "wordCount": 4782,
-          "title": "The Ancient Weapons Active in Your Immune System Today",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Our-Bacterial-Immunity-cr-Maggie-Chiang-Social.jpg"
         }
       ]
     },
