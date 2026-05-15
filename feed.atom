@@ -2,10 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-15T14:02:52.790Z</updated>
+    <updated>2026-05-15T17:26:29.971Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[On &#8220;rich guy has an opinion&#8221; journalism ,...]]></title>
+        <id>https://kottke.org/26/05/0048953-on-rich-guy-has-an-opinio</id>
+        <link href="https://kottke.org/26/05/0048953-on-rich-guy-has-an-opinio"/>
+        <updated>2026-05-15T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[On “rich guy has an opinion” journalism, i.e. “entire news stories dedicated to the otherwise unremarkable opinion of a rich person, or news stories that fold the opinions of rich people into their otherwise neutral coverage”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[World History Timeline]]></title>
+        <id>https://kottke.org/26/05/world-history-timeline</id>
+        <link href="https://kottke.org/26/05/world-history-timeline"/>
+        <updated>2026-05-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This World History Timeline (2016) shows how nations, empires, and ruling groups shifted and evolved across the globe from 3000 BCE to the present. It takes a second to understand what you’re looking at — I thought it was a sort of stretched geographical map at first. Get your own here.
+The chart is based on Joseph Priestley’s A New Chart of History (1769):
+
+Priestley is best known for his co-discovery of oxygen.
+
+ 
+
+        
+         
+Tags: infoviz · Joseph Priestley · maps · timelines]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New York’s Neue Galerie Will Merge With the Metropolitan...]]></title>
+        <id>https://kottke.org/26/05/0048951-new-yorks-neue-galerie-wi</id>
+        <link href="https://kottke.org/26/05/0048951-new-yorks-neue-galerie-wi"/>
+        <updated>2026-05-15T15:11:00.000Z</updated>
+        <summary type="html"><![CDATA[New York’s Neue Galerie Will Merge With the Metropolitan Museum. “The merger will significantly bolster the Met’s holdings of early 20th-century Austrian and German art…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Neanderthal dentist:  archaeologists found evidence...]]></title>
+        <id>https://kottke.org/26/05/0048950-archaeologists-found-evid</id>
+        <link href="https://kottke.org/26/05/0048950-archaeologists-found-evid"/>
+        <updated>2026-05-15T14:47:00.000Z</updated>
+        <summary type="html"><![CDATA[The Neanderthal dentist: archaeologists found evidence of a decayed tooth being drilled out with a stone tools 59,000 years ago. “It’s now the oldest known evidence of dentistry — or any direct medical treatment.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sarah Rose (who is blind): &#8220;Meta glasses are...]]></title>
+        <id>https://kottke.org/26/05/0048948-they-are-completely-revol</id>
+        <link href="https://kottke.org/26/05/0048948-they-are-completely-revol"/>
+        <updated>2026-05-15T13:56:06.000Z</updated>
+        <summary type="html"><![CDATA[Sarah Rose (who is blind): “Meta glasses are absolute game changers for the blind community…they are completely revolutionary.” And: “It really is incredible to talk to your glasses and ask them what they see and have them tell you.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interstellar Visitors]]></title>
         <id>https://www.quantamagazine.org/?p=161957</id>
@@ -75,6 +134,21 @@ The post Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interste
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QR code generator]]></title>
+        <id>https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything"/>
+        <updated>2026-05-15T04:00:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/qr-code-generator">QR code generator</a></p>
+        <p>Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks.</p>
+<p><img alt="Screenshot of a QR code generator web form. Heading &quot;QR code generator&quot; with subtitle &quot;Create a scannable code for a URL, text, or WiFi network.&quot; A segmented toggle shows &quot;URL / text&quot; and &quot;WiFi&quot; with WiFi selected. Below are fields: &quot;Network name (SSID)&quot; with placeholder &quot;My WiFi&quot;; &quot;Password&quot; with placeholder &quot;Password&quot; and a blue &quot;Show&quot; link; &quot;Security&quot; dropdown set to &quot;WPA / WPA2 / WPA3 (most common)&quot;; an unchecked &quot;Hidden&quot; checkbox; helper text &quot;Not sure? Leave it on WPA / WPA2 / WPA3 — that covers almost every home WiFi network.&quot; Below that: &quot;Style&quot; dropdown set to &quot;Square&quot;, an unchecked &quot;Border&quot; checkbox, &quot;Size&quot; dropdown set to &quot;Medium&quot;, and a &quot;Color&quot; swatch showing black. At the bottom is a blue &quot;Generate QR code&quot; button." src="https://static.simonwillison.net/static/2026/qr-code-generate.jpg" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>

@@ -271,6 +271,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/0048953-on-rich-guy-has-an-opinio",
+          "author": null,
+          "description": "On “rich guy has an opinion” journalism, i.e. “entire news stories dedicated to the otherwise unremarkable opinion of a rich person, or news stories that fold the opinions of rich people into their otherwise neutral coverage”.",
+          "link": "https://kottke.org/26/05/0048953-on-rich-guy-has-an-opinio",
+          "publishedOn": "2026-05-15T16:48:00.000Z",
+          "wordCount": 745,
+          "title": "On &#8220;rich guy has an opinion&#8221; journalism ,...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/world-history-timeline",
+          "author": null,
+          "description": "This World History Timeline (2016) shows how nations, empires, and ruling groups shifted and evolved across the globe from 3000 BCE to the present. It takes a second to understand what you’re looking at — I thought it was a sort of stretched geographical map at first. Get your own here.\nThe chart is based on Joseph Priestley’s A New Chart of History (1769):\n\nPriestley is best known for his co-discovery of oxygen.\n\n \n\n        \n         \nTags: infoviz · Joseph Priestley · maps · timelines",
+          "link": "https://kottke.org/26/05/world-history-timeline",
+          "publishedOn": "2026-05-15T16:00:00.000Z",
+          "wordCount": 741,
+          "title": "World History Timeline",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1778856644-f0b5f843.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048951-new-yorks-neue-galerie-wi",
+          "author": null,
+          "description": "New York’s Neue Galerie Will Merge With the Metropolitan Museum. “The merger will significantly bolster the Met’s holdings of early 20th-century Austrian and German art…”",
+          "link": "https://kottke.org/26/05/0048951-new-yorks-neue-galerie-wi",
+          "publishedOn": "2026-05-15T15:11:00.000Z",
+          "wordCount": 794,
+          "title": "New York’s Neue Galerie Will Merge With the Metropolitan...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048950-archaeologists-found-evid",
+          "author": null,
+          "description": "The Neanderthal dentist: archaeologists found evidence of a decayed tooth being drilled out with a stone tools 59,000 years ago. “It’s now the oldest known evidence of dentistry — or any direct medical treatment.”",
+          "link": "https://kottke.org/26/05/0048950-archaeologists-found-evid",
+          "publishedOn": "2026-05-15T14:47:00.000Z",
+          "wordCount": 746,
+          "title": "The Neanderthal dentist:  archaeologists found evidence...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048948-they-are-completely-revol",
+          "author": null,
+          "description": "Sarah Rose (who is blind): “Meta glasses are absolute game changers for the blind community…they are completely revolutionary.” And: “It really is incredible to talk to your glasses and ask them what they see and have them tell you.”",
+          "link": "https://kottke.org/26/05/0048948-they-are-completely-revol",
+          "publishedOn": "2026-05-15T13:56:06.000Z",
+          "wordCount": 788,
+          "title": "Sarah Rose (who is blind): &#8220;Meta glasses are...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/05/how-russell-vought-became-the-shadow-president",
           "author": null,
           "description": "One of the biggest assholes in the Trump regime is Russell Vought — and that’s really saying something; it’s a fierce competition. He’s the guy who said in 2023 that he wanted to put federal workers “in trauma”. ProPublica produced a video in Oct 2025 about how Vought is acting as a shadow president in his drive to dismantle the US federal government.\nRussell Vought is one of the most powerful people in the Trump administration. For almost three decades, he worked in Congress and held prominent roles at conservative think tanks. But he was little known outside of political circles. He’s now the director of the White House Office of Management and Budget and the chief architect of President Donald Trump’s campaign to radically reduce the size of the federal bureaucracy. \nIn this video, ProP…",
@@ -3202,6 +3252,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/qr-code-generator\">QR code generator</a></p>\n        <p>Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks.</p>\n<p><img alt=\"Screenshot of a QR code generator web form. Heading &quot;QR code generator&quot; with subtitle &quot;Create a scannable code for a URL, text, or WiFi network.&quot; A segmented toggle shows &quot;URL / text&quot; and &quot;WiFi&quot; with WiFi selected. Below are fields: &quot;Network name (SSID)&quot; with placeholder &quot;My WiFi&quot;; &quot;Password&quot; with placeholder &quot;Password&quot; and a blue &quot;Show&quot; link; &quot;Security&quot; dropdown set to &quot;WPA / WPA2 / WPA3 (most common)&quot;; an unchecked &quot;Hidden&quot; checkbox; helper text &quot;Not sure? Leave it on WPA / WPA2 / WPA3 — that covers almost every home WiFi network.&quot; Below that: &quot;Style&quot; dropdown set to &quot;Square&quot;, an unchecked &quot;Border&quot; checkbox, &quot;Size&quot; dropdown set to &quot;Medium&quot;, and a &quot;Color&quot; swatch showing black. At the bottom is a blue &quot;Generate QR code&quot; button.\" src=\"https://static.simonwillison.net/static/2026/qr-code-generate.jpg\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
+          "publishedOn": "2026-05-15T04:00:49.000Z",
+          "wordCount": 794,
+          "title": "QR code generator",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
           "author": null,
