@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-15T20:59:19.962Z</updated>
+    <updated>2026-05-16T02:42:57.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[inaturalist-clumper 0.1]]></title>
+        <id>https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything"/>
+        <updated>2026-05-15T23:53:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/inaturalist-clumper/releases/tag/0.1">inaturalist-clumper 0.1</a></p>
+        <p>Part of the infrastructure I use for <a href="https://simonwillison.net/2026/May/1/inat-sightings/">publishing my iNaturalist sightings on my blog</a>. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release.</p>
+<p>You can see an example of the output <a href="https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json">in this JSON file</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/inaturalist">inaturalist</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Physicist Chanda Prescod-Weinstein on  who should read...]]></title>
+        <id>https://kottke.org/26/05/0048958-who-should-read-books-abo</id>
+        <link href="https://kottke.org/26/05/0048958-who-should-read-books-abo"/>
+        <updated>2026-05-15T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Physicist Chanda Prescod-Weinstein on who should read books about physics. “The question of ‘What is space-time?’ doesn’t belong only to scientists. It belongs to everyone who has ever wondered about the bigger picture.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quaker principles line up quite well with modern...]]></title>
         <id>https://kottke.org/26/05/0048955-quaker-principles-line-up</id>
@@ -147,6 +172,16 @@ Tags: infoviz · Joseph Priestley · maps · timelines]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Western Gull, Rock Pigeon]]></title>
+        <id>https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything"/>
+        <updated>2026-05-15T14:42:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/660343826/large.jpg" alt="Western Gull"></p><p><img src="https://static.inaturalist.org/photos/660344126/large.jpg" alt="Rock Pigeon"></p><p>Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, US</p><p>I went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks.</p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sarah Rose (who is blind): &#8220;Meta glasses are...]]></title>
         <id>https://kottke.org/26/05/0048948-they-are-completely-revol</id>
         <link href="https://kottke.org/26/05/0048948-they-are-completely-revol"/>
@@ -238,6 +273,28 @@ Continue reading →]]></summary>
     
     
         <p>Tags: <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-llm-limits 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything"/>
+        <updated>2026-05-15T00:42:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm-limits/releases/tag/0.1a0">datasette-llm-limits 0.1a0</a></p>
+        <p>This plugin works in conjunction with <a href="https://github.com/datasette/datasette-llm">datasette-llm</a> and <a href="https://github.com/datasette/datasette-llm-accountant">datasette-llm-accountant</a> to let you configure a per-user (or global) spending limit for LLM usage inside of Datasette. Configuration looks something like this:</p>
+<pre><span class="pl-ent">plugins</span>:
+  <span class="pl-ent">datasette-llm-limits</span>:
+    <span class="pl-ent">limits</span>:
+      <span class="pl-ent">per-user-daily</span>:
+        <span class="pl-ent">scope</span>: <span class="pl-s">actor</span>
+        <span class="pl-ent">window</span>: <span class="pl-s">rolling-24h</span>
+        <span class="pl-ent">amount_usd</span>: <span class="pl-c1">1.00</span>
+</pre>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -6654,67 +6711,6 @@ It’s kind of incredible how well Brennan’s system worked. It’s ingenious. 
 Tags: engineering · inventions · Louis Brennan · physics · science · trains · video]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I mentioned this book in a previous post but it deserves...]]></title>
-        <id>https://kottke.org/26/04/0048741-i-mentioned-this-book-in</id>
-        <link href="https://kottke.org/26/04/0048741-i-mentioned-this-book-in"/>
-        <updated>2026-04-16T14:31:55.000Z</updated>
-        <summary type="html"><![CDATA[I mentioned this book in a previous post but it deserves its own thing: Timothy Ryback’s 53 Days: How Hitler Dismantled a Democracy will hit shelves in September. A must-read for me.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The People&#8217;s Clock: a Timepiece Made of People]]></title>
-        <id>https://kottke.org/26/04/the-peoples-clock</id>
-        <link href="https://kottke.org/26/04/the-peoples-clock"/>
-        <updated>2026-04-16T13:45:00.000Z</updated>
-        <summary type="html"><![CDATA[As part of his Real Time series, artist Maarten Baas has created The People’s Clock, a timepiece that lives in Amsterdam’s Schiphol airport. To create the clock’s “workings”, Baas recorded more than 1000 volunteers moving as the clock’s hands over a 12-hour period. If you look carefully, you can see a single individual dressed in orange at the edge of the circle acting as the second hand:
-
-Each of the installed clock’s faces is a looped video of that recording, synced to the current time. Here’s a quick behind-the-scenes video of how the clock was made:
-
-See also Baas’s Sweeper’s Clock and Schiphol Clock.
-
-
- 
-
-        
-         
-Tags: amsterdam · art · clocks · Maarten Baas · time · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Great American GLP-1 Experiment . In the last few...]]></title>
-        <id>https://kottke.org/26/04/0048767-the-great-american-glp-1-</id>
-        <link href="https://kottke.org/26/04/0048767-the-great-american-glp-1-"/>
-        <updated>2026-04-16T13:01:09.000Z</updated>
-        <summary type="html"><![CDATA[The Great American GLP-1 Experiment. In the last few years, people have come up with all sorts of off-label uses for GLP-1s, including treating concussions, menopause, long Covid, IBS, drug addiction, anxiety, hair loss, and arthritis.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: A Pascal's Wager for AI Doomers (16 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12674</id>
-        <link href="https://pluralistic.net/2026/04/16/pascals-wager/"/>
-        <updated>2026-04-16T11:09:32.000Z</updated>
-        <summary type="html"><![CDATA[Today's links A Pascal's Wager for AI Doomers: We're already being turned into paperclips. Hey look at this: Delights to delectate. Object permanence: Every pirate ebook on the internet; Sun's "Open DRM"; Untranslatable words; Let's encrypt is encrypting; Boots ruined by hedge fund; Brussels terrorists' opsec; Copyrighted Klingon; Murder Offsets. Upcoming appearances: Toronto, San Francisco, London, Berlin, NYC, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. A Pascal's Wager for AI Doomers (permalink) Lest anyone accuse me of bargaining in bad faith here, let me start with this admission: I don't think AI is intelligent; nor do I think that th…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We've been overthinking the rain jacket]]></title>
-        <id>https://www.blackbirdspyplane.com/p/weve-been-overthinking-the-rain-jacket</id>
-        <link href="https://www.blackbirdspyplane.com/p/weve-been-overthinking-the-rain-jacket"/>
-        <updated>2026-04-16T11:03:17.000Z</updated>
-        <summary type="html"><![CDATA[Plus linen tees, non-wack-wedding quests, and more unbeatable recon]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
