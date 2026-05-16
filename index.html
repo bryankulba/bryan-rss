@@ -35,6 +35,29 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/16/julia-evans/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-16T16:45:37.000Z">2026-05-16</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/16/julia-evans/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Julia Evans</a>
+          </h2>
+          <p class="feed-item__desc">[...] in the last 10 years I’ve learned to really love and respect CSS as a technology.
+So I decided years ago that I wanted to react to “CSS is hard” by getting better at CSS and taking it seriously as a technology, instead of devaluing it. Doing that changed everything for me: I learned that so many of my frustrations (“centering is impossible”) had been addressed in CSS a long time ago, and that also what “centering” means is not always straightforward and it makes sense that there are many ways to do it. CSS is hard because it’s solving a hard problem!
+
+— Julia Evans, Moving away from Tailwind, and learning to structure my CSS
+Tags: css, julia-evans</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/16/julia-evans/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/16/julia-evans/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12821">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-05-16T08:35:41.000Z">2026-05-16</time>
@@ -10976,60 +10999,6 @@ Continue reading →</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://webcurios.co.uk/?p&#x3D;1506">Mark read</button>
             <span class="feed-item__reading-time">36 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/17/datasette/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-17T04:01:56.000Z">2026-04-16</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Apr/17/datasette/#atom-everything" target="_blank" rel="noopener noreferrer">datasette 1.0a28</a>
-          </h2>
-          <p class="feed-item__desc">Release: datasette 1.0a28
-I was upgrading Datasette Cloud to 1.0a27 and discovered a nasty collection of accidental breakages caused by changes in that alpha. This new alpha addresses those directly:
-Fixed a compatibility bug introduced in 1.0a27 where execute_write_fn() callbacks with a parameter name other than conn were seeing errors. (#2691)
-The database.close() method now also shuts down the write connection for that database.
-New datasette.close() method for closing down all databases and resources associated with a Datasette instance. This is called automatically when the server shuts down. (#2693)
-Datasette now includes a pytest plugin which automatically calls datasette.close() on temporary instances created in function-scoped fixtures and during tests. See Automatic cleanup of Datasette instances for details. This helps avoid running out of file descriptors in plugin test suites that were written before the Database(is_temp_disk=True) feature introduced in Datasette 1.0a27. (#2692)
-Most of the changes in this release were implemented using Claude Code and the newly released Claude Opus 4.7.
-Tags: datasette</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/17/datasette/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/17/datasette/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/04/hollywoods-world-map-of-california">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-17T01:35:38.000Z">2026-04-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/04/hollywoods-world-map-of-california" target="_blank" rel="noopener noreferrer">Hollywood’s World Map of California</a>
-          </h2>
-          <p class="feed-item__desc">This is a map published in 1927 by Paramount Studios showing the areas of California & Nevada that doubled as shooting locations for far-flung locales, including Siberia, Wales, the Nile, New England, the Red Sea, and the Alps.
-
- 
-
-        
-         
-Tags: Hollywood · maps · movies</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/04/hollywoods-world-map-of-california" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/04/hollywoods-world-map-of-california">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1776190771-e9b2546e.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

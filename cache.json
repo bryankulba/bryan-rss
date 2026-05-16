@@ -2249,16 +2249,6 @@
           "wordCount": 907,
           "title": "Historian Eric Cline, author of 1177 BC,  explains how...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/hollywoods-world-map-of-california",
-          "author": null,
-          "description": "This is a map published in 1927 by Paramount Studios showing the areas of California & Nevada that doubled as shooting locations for far-flung locales, including Siberia, Wales, the Nile, New England, the Red Sea, and the Alps.\n\n \n\n        \n         \nTags: Hollywood · maps · movies",
-          "link": "https://kottke.org/26/04/hollywoods-world-map-of-california",
-          "publishedOn": "2026-04-17T01:35:38.000Z",
-          "wordCount": 711,
-          "title": "Hollywood&#8217;s World Map of California",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1776190771-e9b2546e.jpg"
         }
       ]
     },
@@ -3247,6 +3237,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/\"><p>[...] in the last 10 years I’ve learned to really love and respect CSS as a technology.</p>\n<p>So I decided years ago that I wanted to react to “CSS is hard” by getting better at CSS and taking it seriously as a technology, instead of devaluing it. Doing that changed everything for me: I learned that so many of my frustrations (“centering is impossible”) had been addressed in CSS a long time ago, and that also what “centering” means is not always straightforward and it makes sense that there are many ways to do it. CSS is hard because it’s solving a hard problem!</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/\">Julia Evans</a>, Moving away from Tailwind, and learning to structure my CSS</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a>, <a href=\"https://simonwillison.net/tags/julia-evans\">julia-evans</a></p>",
+          "link": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
+          "publishedOn": "2026-05-16T16:45:37.000Z",
+          "wordCount": 795,
+          "title": "Quoting Julia Evans",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
           "author": null,
           "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/inaturalist-clumper/releases/tag/0.1\">inaturalist-clumper 0.1</a></p>\n        <p>Part of the infrastructure I use for <a href=\"https://simonwillison.net/2026/May/1/inat-sightings/\">publishing my iNaturalist sightings on my blog</a>. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release.</p>\n<p>You can see an example of the output <a href=\"https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json\">in this JSON file</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/inaturalist\">inaturalist</a></p>",
@@ -4125,16 +4125,6 @@
           "wordCount": 1331,
           "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
           "imageUrl": "https://static.simonwillison.net/static/2026/pycon-us-card.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a28\">datasette 1.0a28</a></p>\n    <p>I was upgrading Datasette Cloud to <a href=\"https://simonwillison.net/2026/Apr/15/datasette/\">1.0a27</a> and discovered a nasty collection of accidental breakages caused by changes in that alpha. This new alpha addresses those directly:</p>\n<blockquote>\n<ul>\n<li>Fixed a compatibility bug introduced in 1.0a27 where <code>execute_write_fn()</code> callbacks with a parameter name other than <code>conn</code> were seeing errors. (<a href=\"https://github.com/simonw/datasette/issues/2691\">#2691</a>)</li>\n<li>The <a href=\"https://docs.datasette.io/en/latest/internals.html#database-close\">database.close()</a> method now also shuts down the write connection for that database.</li>\n<li>New <a href=\"https://docs.datasette.io/en/latest/internals.html#datasette-close\">datasette.close()</a> method for closing down all databases and resources associated with a Datasette instance. This is called automatically when the server shuts down. (<a href=\"https://github.com/simonw/datasette/pull/2693\">#2693</a>)</li>\n<li>Datasette now includes a pytest plugin which automatically calls <code>datasette.close()</code> on temporary instances created in function-scoped fixtures and during tests. See <a href=\"https://docs.datasette.io/en/latest/testing_plugins.html#testing-plugins-autoclose\">Automatic cleanup of Datasette instances</a> for details. This helps avoid running out of file descriptors in plugin test suites that were written before the <code>Database(is_temp_disk=True)</code> feature introduced in Datasette 1.0a27. (<a href=\"https://github.com/simonw/datasette/issues/2692\">#2692</a>)</li>\n</ul>\n</blockquote>\n<p>Most of the changes in this release were implemented using Claude Code and the newly released Claude Opus 4.7.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything",
-          "publishedOn": "2026-04-17T04:01:56.000Z",
-          "wordCount": 880,
-          "title": "datasette 1.0a28",
-          "imageUrl": null
         }
       ]
     },
