@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-16T06:20:27.916Z</updated>
+    <updated>2026-05-16T13:17:54.114Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Making sense of Trump's unscheduled sudden midair disassembly of the American empire (16 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12821</id>
+        <link href="https://pluralistic.net/2026/05/16/technopoly/"/>
+        <updated>2026-05-16T08:35:41.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Making sense of Trump's unscheduled sudden midair disassembly of the American empire: Don't mistake "powerful" for "durable." Hey look at this: Delights to delectate. Object permanence: Copyrighted law; Viral videos v cops; Crooked banker v tiny bat; "Infested"; Can the means of computation be seized? Upcoming appearances: Berlin, Hay-on-Wye, London, LA, Menlo Park, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Making sense of Trump's unscheduled sudden midair disassembly of the American empire (permalink) For generations, the American empire was the most powerful force on earth, and so we tended to assume that it was the most durable fo…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[inaturalist-clumper 0.1]]></title>
         <id>https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything</id>
@@ -6609,26 +6619,6 @@ Continue reading →]]></summary>
 Tags: Hollywood · maps · movies]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-anthropic 0.25]]></title>
-        <id>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything"/>
-        <updated>2026-04-16T20:37:12.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.25">llm-anthropic 0.25</a></p>
-    <blockquote>
-<ul>
-<li>New model: <code>claude-opus-4.7</code>, which supports <code>thinking_effort</code>: <code>xhigh</code>. #66</li>
-<li>New <code>thinking_display</code> and <code>thinking_adaptive</code> boolean options. <code>thinking_display</code> summarized output is currently only available in JSON output or JSON logs.</li>
-<li>Increased default <code>max_tokens</code> to the maximum allowed for each model.</li>
-<li>No longer uses obsolete <code>structured-outputs-2025-11-13</code> beta header for older models.</li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
