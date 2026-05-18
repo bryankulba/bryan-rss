@@ -281,6 +281,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/0048954-perhaps-businesses-are-co",
+          "author": null,
+          "description": "Perhaps businesses are collecting too much data for their own good. “Each morning at 10am, I get an email from Caroline in the finance team showing the cash we have in the bank compared with the same day last year. This fact offers no hiding place.”",
+          "link": "https://kottke.org/26/05/0048954-perhaps-businesses-are-co",
+          "publishedOn": "2026-05-18T17:16:00.000Z",
+          "wordCount": 798,
+          "title": "Perhaps businesses are collecting too much data for...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d",
+          "author": null,
+          "description": "Mike Monteiro on how to deal with your suddenly grown-up kids. “When your kid leaves it is the happiest day of your life and also the saddest day of your life. And a lot of other feelings in between.” In the midst of this right now; it’s been a lot.",
+          "link": "https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d",
+          "publishedOn": "2026-05-18T16:36:00.000Z",
+          "wordCount": 788,
+          "title": "Mike Monteiro on how to deal with your suddenly grown-up...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/whats-your-favorite-recipe",
+          "author": null,
+          "description": "I am not what you would call a dedicated home cook. But every once in a while, I get a bee in my bonnet and make something from my small cache of recipes or from something I saw online that looked good. Some of my go-tos include:\nRigatoni With White Bolognese (PDF)\nOrecchiette with Sausage and Broccoli\nPressure Cooker Mushroom Risotto\nCaldo Verde (Portuguese Potato and Kale Soup With Sausage)\nSmoked Haddock Chowder (April Bloomfield)\nThe World’s Best Pancakes\nSmoky Corn Chowder\nSome of these aren’t particularly easy to make, but the flavors created with the extra time are worth it.\nWhat are some of your favorite recipes?\n(I don’t have any good photos of any of the above recipes, so I included one of some avocado toast I made: mashed avocado with evoo, tomatoes + balsamic vinegar, fried egg (crispy w/ runny yolk), chili oil, toast, lots of salt on everything.)1\nNot sure where I learned this, but when making food, I salt everything separately. That way, each flavor gets accentuated on its own — even in soups or casseroles — instead of the whole thing just being vaguely salty. The main purpose of salt is not to make food salty, it’s to heighten the flavors already present. ↩\n\n\n \n\n        \n         \nTags: cooking · food",
+          "link": "https://kottke.org/26/05/whats-your-favorite-recipe",
+          "publishedOn": "2026-05-18T15:33:00.000Z",
+          "wordCount": 3851,
+          "title": "What&#8217;s Your Favorite Recipe?",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1779117981-e4608556.jpg"
+        },
+        {
           "id": "https://kottke.org/26/05/0048963-this-whole-15000-word-pro",
           "author": null,
           "description": "I have always liked Steve Kerr, but I did not expect to read this whole 15,000-word profile of him at ESPN. Really interesting throughout.",
@@ -3157,6 +3187,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything",
+          "author": null,
+          "description": "<p><img src=\"https://static.inaturalist.org/photos/662161673/large.jpg\" alt=\"Glaucous-winged Gull\"></p><p><img src=\"https://static.inaturalist.org/photos/662161721/large.jpg\" alt=\"Glaucous-winged Gull\"></p><p><img src=\"https://static.inaturalist.org/photos/662161937/large.jpg\" alt=\"Brown Pelican\"></p><p><img src=\"https://static.inaturalist.org/photos/662161148/large.jpg\" alt=\"Snowy Egret\"></p><p><img src=\"https://static.inaturalist.org/photos/662161189/large.jpg\" alt=\"Snowy Egret\"></p><p><img src=\"https://static.inaturalist.org/photos/662160828/large.jpg\" alt=\"Canada Goose\"></p><p><img src=\"https://static.inaturalist.org/photos/662160866/large.jpg\" alt=\"Canada Goose\"></p><p>Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose, in Los Angeles River, CA, US</p><p>I'm heading home from PyCon US today so I went on a last morning walk to try and spot a pelican. I saw one! Didn't get a great photo of that, but I did see some goslings down by the swan boat lake.</p>",
+          "link": "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything",
+          "publishedOn": "2026-05-18T14:51:00.000Z",
+          "wordCount": 777,
+          "title": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
           "author": null,
           "description": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/\">GDS weighs in on the NHS&#x27;s decision to retreat from Open Source</a></strong></p>\nTerence Eden continues his coverage of the NHS' <a href=\"https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/\">poorly considered decision</a> to close down access to their open source repositories in response to vulnerabilities reported to them as part of <a href=\"https://simonwillison.net/2026/Apr/7/project-glasswing/\">Project Glasswing</a>.</p>\n<p>Now the Government Digital Service have joined the conversation with <a href=\"https://www.gov.uk/guidance/ai-open-code-and-vulnerability-risk-in-the-public-sector\">AI, open code and vulnerability risk in the public sector</a>, published May 14th. Their key recommendation:</p>\n<blockquote>\n<p>Keep open by default. Making everything private adds additional delivery and policy costs, and can reduce reuse and scrutiny. Openness should remain the default posture, with closure used sparingly and deliberately. </p>\n</blockquote>\n<p>While they don't mention the NHS by name, Terence speaks the language of the civil service and interprets this as a major escalation:</p>\n<blockquote>\n<p>Within the UK's Civil Service you occasionally hear the expression \"being invited to a meeting <em>without biscuits</em>\". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those internal disagreements to spill over into public.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gov-uk\">gov-uk</a>, <a href=\"https://simonwillison.net/tags/terence-eden\">terence-eden</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
@@ -4281,7 +4321,18 @@
       "title": "Charlie's Diary",
       "feedUrl": "http://www.antipope.org/charlie/blog-static/atom.xml",
       "siteUrl": "http://www.antipope.org/charlie/blog-static/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html",
+          "author": null,
+          "description": "(This blog essay is overdue because I'm still waiting for new prescription glasses and writing while cross-eyed with text zoomed to 250% is tedious. They should be here later this week. Meanwhile ...) Back in January 2022 I wrote an...",
+          "link": "http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html",
+          "publishedOn": "2026-05-18T17:31:42.000Z",
+          "wordCount": 2279,
+          "title": "The Enshittification of History",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Disjunctions Magazine",
