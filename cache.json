@@ -2493,16 +2493,6 @@
           "wordCount": 4878,
           "title": "Pluralistic: Comrade Trump (20 Apr 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12698",
-          "author": "Cory Doctorow",
-          "description": "Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. Hey look at this: Delights to delectate. Object permanence: GWB's illegal iPod; McDonald's breakfast sandwich fanfic; Technofeudal debt; \"The Everything Box\"; $100m deli. Upcoming appearances: Los Angeles, San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Georgia's voting technology blunder (permalink) Nearly 25 years ago, in the aftermath of Bush v Gore, I got involved in a bunch of ugly tech policy fights over voting machines. The hanging chad debacle …",
-          "link": "https://pluralistic.net/2026/04/18/dominion-sucks-actually/",
-          "publishedOn": "2026-04-18T13:00:44.000Z",
-          "wordCount": 4446,
-          "title": "Pluralistic: Georgia's voting technology blunder (18 Apr 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -4024,16 +4014,6 @@
           "publishedOn": "2026-04-18T23:59:40.000Z",
           "wordCount": 1743,
           "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/extract-system-prompts#readme\">Claude system prompts as a git timeline</a></p>\n    <p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts\">publish the system prompts</a> for Claude chat and make that page <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts.md\">available as Markdown</a>. I had Claude Code turn that page into separate files for each model and model family with fake git commit dates to enable browsing the changes via the GitHub commit view.</p>\n<p>I used this to write my own <a href=\"https://simonwillison.net/2026/Apr/18/opus-system-prompt/\">detailed notes on the changes between Opus 4.6 and 4.7</a>.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/system-prompts\">system-prompts</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
-          "publishedOn": "2026-04-18T12:25:00.000Z",
-          "wordCount": 857,
-          "title": "Claude system prompts as a git timeline",
           "imageUrl": null
         }
       ]

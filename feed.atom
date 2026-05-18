@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-17T20:48:20.100Z</updated>
+    <updated>2026-05-18T03:28:51.738Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6379,30 +6379,6 @@ Where this leaves design for the services… well, I have some thoughts on that.
 Headless services? They’re happ…]]></summary>
         <author>
             <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Georgia's voting technology blunder (18 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12698</id>
-        <link href="https://pluralistic.net/2026/04/18/dominion-sucks-actually/"/>
-        <updated>2026-04-18T13:00:44.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. Hey look at this: Delights to delectate. Object permanence: GWB's illegal iPod; McDonald's breakfast sandwich fanfic; Technofeudal debt; "The Everything Box"; $100m deli. Upcoming appearances: Los Angeles, San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Georgia's voting technology blunder (permalink) Nearly 25 years ago, in the aftermath of Bush v Gore, I got involved in a bunch of ugly tech policy fights over voting machines. The hanging chad debacle …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude system prompts as a git timeline]]></title>
-        <id>https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything"/>
-        <updated>2026-04-18T12:25:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/extract-system-prompts#readme">Claude system prompts as a git timeline</a></p>
-    <p>Anthropic <a href="https://platform.claude.com/docs/en/release-notes/system-prompts">publish the system prompts</a> for Claude chat and make that page <a href="https://platform.claude.com/docs/en/release-notes/system-prompts.md">available as Markdown</a>. I had Claude Code turn that page into separate files for each model and model family with fake git commit dates to enable browsing the changes via the GitHub commit view.</p>
-<p>I used this to write my own <a href="https://simonwillison.net/2026/Apr/18/opus-system-prompt/">detailed notes on the changes between Opus 4.6 and 4.7</a>.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/system-prompts">system-prompts</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
