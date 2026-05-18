@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-18T03:28:51.738Z</updated>
+    <updated>2026-05-18T08:01:09.114Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6365,20 +6365,6 @@ Matt Webb thinks <strong>headless</strong> services are about to become much mor
         <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/prompt-engineering">prompt-engineering</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/system-prompts">system-prompts</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Headless everything for personal AI]]></title>
-        <id>https://interconnected.org/home/2026/04/18/headless</id>
-        <link href="https://interconnected.org/home/2026/04/18/headless"/>
-        <updated>2026-04-18T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s pretty clear that apps and services are all going to have to go headless: that is, they will have to provide access and tools for personal AI agents without any of the visual UI that us humans use today.
-By services I mean things like: getting a new passport; finding and booking a hotel or a flight; managing your bank account; shopping for t-shirts with a minimum cotton weight from brands similar to ones that you’ve bought from before.
-Why? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.
-Where this leaves design for the services… well, I have some thoughts on that.
-Headless services? They’re happ…]]></summary>
-        <author>
-            <name>Interconnected</name>
         </author>
     </entry>
 </feed>
