@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-19T02:57:55.820Z</updated>
+    <updated>2026-05-19T07:43:48.595Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: There's no such thing as "age verification" (19 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12827</id>
+        <link href="https://pluralistic.net/2026/05/19/shes-dead-of-course/"/>
+        <updated>2026-05-19T07:17:09.000Z</updated>
+        <summary type="html"><![CDATA[Today's links There's no such thing as "age verification": The foreseeable and foreseen consequences of "something must be done"/"there, I've done something." Hey look at this: Delights to delectate. Object permanence: Apple Stores exist; Responsible spam; Australia loves Hollywood('s copyright); TCP over Syrian donkey; Icelandic Pirate get funded; Algorithmic cruelty; Trump loves data brokers; Douglas Adams, vindicated; Blog history; Sex names; Flickr's Gamma; "Fuzzy Nation"; The Intercept publishes Snowden docs; Software version of CIA sabotage manual; Who owns covid vaccines? Anal clenching v depression; Web is 10; Danish birds x ringtones; Office-supply X-wing; Nintendo 3DS license sucks is unbelievably bad; Public Interest Internet. Upcoming appearances: Berlin, Hay-on-Wye, London, Ka…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The last six months in LLMs in five minutes]]></title>
         <id>https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything</id>
