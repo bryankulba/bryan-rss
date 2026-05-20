@@ -291,6 +291,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/what-if-lock-in-doesnt-matter-so-much-anymore",
+          "author": null,
+          "description": "Interesting observation by Mitchell Hashimoto (creator of Vagrant and Ghostty) on how a company’s or product’s choice of programming language matters less in the age of agentic programming:\nOn the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they’re increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. It’s useful until it’s not then it can be thrown out. That’s interesting!\n\n\t\nHashimoto is talking about this complete rewrite of Bun (a Javascript/Typescript toolkit that’s owned by Anthropic and includes “a fast JavaScript runtime designed as a drop-in replacement for Node.js”) in a completely diff…",
+          "link": "https://kottke.org/26/05/what-if-lock-in-doesnt-matter-so-much-anymore",
+          "publishedOn": "2026-05-20T21:25:00.000Z",
+          "wordCount": 1081,
+          "title": "What If Lock-In Doesn&#8217;t Matter So Much Anymore?",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/all-the-star-wars-lightsaber-designs",
+          "author": null,
+          "description": "This scan isn’t very good (best I could find), but these are all the lightsabers used by Jedi and Sith in the various Star Wars shows and movies. I think this is from a few years ago, so I’m not sure how up to date it is.\nIn the SW universe, making your own saber is a Jedi and Sith rite of passage, which accounts for the diversity in design. No shortcuts allowed…Babu Frik wasn’t out there selling Ancient Laser Sword™ kits to young padawans (kyber crystal sold separately). (via dennis crowley)\n\n \n\n        \n         \nTags: movies · Star Wars · TV",
+          "link": "https://kottke.org/26/05/all-the-star-wars-lightsaber-designs",
+          "publishedOn": "2026-05-20T20:15:00.000Z",
+          "wordCount": 779,
+          "title": "All the Star Wars Lightsaber Designs",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1779286796-ba4d8317.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048991-writes-about-her-story-ga",
+          "author": null,
+          "description": "My friend Adriana wrote about her story game based on Dante’s Inferno. “In Vya, I modeled Pom after the poet Alice Notley, whose Descent of Alette (1996) is one of the great contributions to the literature of katabasis.”",
+          "link": "https://kottke.org/26/05/0048991-writes-about-her-story-ga",
+          "publishedOn": "2026-05-20T19:15:45.000Z",
+          "wordCount": 767,
+          "title": "My friend Adriana  wrote about her story game based on...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/how-to-make-a-living-as-an-artist",
+          "author": null,
+          "description": "Contemporary pop artist fnnch’s essay on How to Make a Living as an Artist is pretty great. Lots in here that resonates with my experience of turning a creative hobby (KDO) into a business.\nMost people who enjoy making art should not try to make it their full time job. When you turn an avocation (hobby) into a vocation (job) you have to do new things you do not enjoy. Emails, events, meetings, accounting, and more. These are not only a drag but can actually strip the joy from the rest of your art practice.\nEven the work itself can become a burden because you now have to make it. Amateurs can wait for inspiration; professionals must create every day.\nIf you enjoy making art, ask yourself why that is not enough? Why do you need to make money from this activity? Why do you need to do it with more of your time? Can it not perhaps give you more joy remaining a hobby?\nI have played the drums for many years, and while I was once tempted to go pro, I have always resisted. Drumming is a refuge for me. A joy. An escape. I play when I want. I don’t play when I don’t want. This is no longer true for my painting. Beware. Think hard.\n\n\t\nAnd:\nMaking your challenge more difficult is that artists are usually not just entrepreneurs but solopreneurs. There is rarely enough money in art to support even a single person, so we do not get to specialize as one might in high tech entrepreneurship, in which it is totally common to have one co-founder focus on product and another on sales. Most people, at least at first, must do it all. Most artists do not want to do it all. They want to just make art. I am sorry. Some people have a gallery or life partner who acts as a business partner. But most of the time, there is no one to help you. You must think about your art practice as a business.\n\n\t\nImage: paintings of various honey bears by fnnch.\n\n \n\n        \n         \nTags: art · business · fnnch · how to",
+          "link": "https://kottke.org/26/05/how-to-make-a-living-as-an-artist",
+          "publishedOn": "2026-05-20T18:14:00.000Z",
+          "wordCount": 2178,
+          "title": "How to Make a Living as an Artist",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1779294247-1d1d6073.jpg"
+        },
+        {
           "id": "https://kottke.org/26/05/0048987-an-ongoing-series-of-arti",
           "author": null,
           "description": "From Universe Today, an ongoing series of articles on A Brief-ish History of SETI (Search for Extraterrestrial Intelligence). Part I is entitled “Where is Everybody?”",
