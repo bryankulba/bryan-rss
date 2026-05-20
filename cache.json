@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/05/20/resident",
+          "author": null,
+          "description": "We’re open sourcing Resident, our library for running AI-authored code on microcontrollers – with no compile step and no firmware flashing.\nIt’s our twist on vibe coding firmware, built for instantly loading new device functionality coded by end users. It’s aimed at device developers, like us. We use Resident in all our work.\n(We = Inanimate.)\nResident gives you a code sandbox on ESP32 devices and a driver API to provide hardware control and events. So an end user can push an app over Wi-Fi that instantly turns their clock into an interactive pill timer (for example) but the app can’t run probes on the home Wi-Fi network.\nIt comes bundled with a set of Claude skills. I told Claude about the capabilities of a compatible dev kit and asked it to push a simple app. Here it is:\n\nAt Inanimate, w…",
+          "link": "https://interconnected.org/home/2026/05/20/resident",
+          "publishedOn": "2026-05-20T14:14:00.000Z",
+          "wordCount": 1982,
+          "title": "Resident: vibe coding firmware (our new sandbox library for ESP32 devices)",
+          "imageUrl": "https://interconnected.org/home/2026/05/20/resident.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/05/15/filtered",
           "author": null,
           "description": "1.\nI love this terrible fake address generator:\nWe have spent 3 years collecting data from every country to generate this enormous database.\n…it promises.\nThese are not English addresses:\n\"2 Scott Common Jenniferstad S60 2PT\"\n\"4 Matilda Via North Emilychester M20 1BT\"\n\"Flat 48v Harrison Motorway Lake Gary EH4 5LQ\"\nGood story: Inside Number 0, John Finnemore.\n2.\nKentucky Superstitions (1920) by Daniel Lindsey Thomas and Lucy Blayney Thomas:\nSome household and domestic life superstitions, from part 4:\n\"An accidental dropping of a knife brings a woman caller.\"\n(My nan would always say it would be a man caller, to the point that if I drop a knife I reflexively say “man coming” to this day.)\n\"If you spill salt on the table, you will get a scolding before Friday.\"\n\"If you burn salt on the stove …",
@@ -270,6 +280,36 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/05/0048984-a-pep-talk-in-the-face-of",
+          "author": null,
+          "description": "A pep talk in the face of despair. “Things can always get better, but it doesn’t happen via inertia. It happens because a lot of people tried.”",
+          "link": "https://kottke.org/26/05/0048984-a-pep-talk-in-the-face-of",
+          "publishedOn": "2026-05-20T14:34:00.000Z",
+          "wordCount": 753,
+          "title": "A pep talk in the face of despair . &#8220;Things can...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048979-our-world-in-ten-building",
+          "author": null,
+          "description": "Our World in Ten Buildings: How Architecture Defines Who We Are and How We Live. Among the buildings are a school in Mass., a hospital in Rwanda, a prison in Norway, and a lighthouse in Maine. Intriguing!",
+          "link": "https://kottke.org/26/05/0048979-our-world-in-ten-building",
+          "publishedOn": "2026-05-20T14:00:00.000Z",
+          "wordCount": 762,
+          "title": "Our World in Ten Buildings: How Architecture Defines Who...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048983-indias-hottest-district-s",
+          "author": null,
+          "description": "India’s Hottest District Shuts at 10 AM as Mercury Breaches 48 Degrees Celsius Mark. “After 10am, Banda becomes deserted. At first, you see one or two people outside. Then, as the day rises, there is only silence.” (48C = 118F)",
+          "link": "https://kottke.org/26/05/0048983-indias-hottest-district-s",
+          "publishedOn": "2026-05-20T13:19:00.000Z",
+          "wordCount": 812,
+          "title": "India&#8217;s Hottest District Shuts at 10 AM as Mercury...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/05/0048890-oneshotted",
           "author": null,
@@ -2698,6 +2738,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18396",
+          "author": "Warren Ellis",
+          "description": "Faig Ahmed. OPERATIONS: ALL THE THINGSSTATUS: inbox 175, rss 1000, everything is out of controlREADING: THE REVOLUTIONISTS, Jason Burke (UK) (US+) By Christmas 1975, the CIA’s…",
+          "link": "https://warrenellis.ltd/status/20may26/",
+          "publishedOn": "2026-05-20T11:39:56.000Z",
+          "wordCount": 1258,
+          "title": "20may26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1230-scaled.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18378",
           "author": "Warren Ellis",
           "description": "Annoyingly, this is just a quick logging, as I lost yesterday to trying to figure out new accounting software I’ve been told to use which…",
@@ -3199,6 +3249,16 @@
       "feedUrl": "https://www.thewire.co.uk/rss",
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
+        {
+          "id": "https://www.thewire.co.uk/in-writing/essays/a-bardo-gong-bath-of-in-betweenness-jake-muir-reviewed",
+          "author": null,
+          "description": "The Wire 508\n\nJake Muir\n    \n Pareidolia\n    \n enmossed DL/LP\n\n\n    The results run the gamut of effectiveness, but whatever the merits of a given project – in fairness, the approach is not without its successes – the premise tends to hinge on a presumed internal homogeneity: that metal is pure horror vacui in excelsis, to be carved and moulded, that it has no space.\n\n\n    Named after the disquieting impulse to identify recognisable, often facial, features in random formations (the man in the moon being a famous example), 2026’s suitably uncanny Pareidolia is not the first of Muir’s releases that could be considered a genre excavation: Lady’s Mantle (2018) is a lysergic slipstream of sun-bleached surf rock on the brink of dissolving in spindrift, while Mana (2021) is part investigation, pa…",
+          "link": "https://www.thewire.co.uk/in-writing/essays/a-bardo-gong-bath-of-in-betweenness-jake-muir-reviewed",
+          "publishedOn": "2026-05-20T00:00:00.000Z",
+          "wordCount": 1335,
+          "title": "“A bardo gong bath of in-betweenness”: Jake Muir reviewed",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/05/20/Jake_Muir__Camille_Blake-25_copy.jpg"
+        },
         {
           "id": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-diy-sound-systems",
           "author": null,
@@ -4292,6 +4352,26 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=162104",
+          "author": "Konstantin Kakaes",
+          "description": "By replacing the most fundamental concept in topology, Peter Scholze and Dustin Clausen are taking the first step in a far bigger program to understand why numbers behave the way they do.            \nThe post Two Researchers Are Rebuilding Mathematics From the Ground Up first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/",
+          "publishedOn": "2026-05-20T14:52:19.000Z",
+          "wordCount": 6122,
+          "title": "Two Researchers Are Rebuilding Mathematics From the Ground Up",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/TearInTopology-crKristinaArmitage-Social.jpg"
+        },
+        {
+          "id": "https://www.quantamagazine.org/?p=162115",
+          "author": "Konstantin Kakaes",
+          "description": "Grothendieck is revered in the world of math; outside of it, he’s known for his unusual life, if he’s known at all. But what were his actual mathematical contributions?            \nThe post How Alexander Grothendieck Revolutionized 20th-Century Mathematics first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/",
+          "publishedOn": "2026-05-20T14:50:37.000Z",
+          "wordCount": 3471,
+          "title": "How Alexander Grothendieck Revolutionized 20th-Century Mathematics",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/Grothendieck-cr-Mercedes-deBellard-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=161994",
           "author": "Natalie Wolchover",

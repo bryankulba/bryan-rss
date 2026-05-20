@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-20T07:42:10.268Z</updated>
+    <updated>2026-05-20T14:58:42.243Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Two Researchers Are Rebuilding Mathematics From the Ground Up]]></title>
+        <id>https://www.quantamagazine.org/?p=162104</id>
+        <link href="https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/"/>
+        <updated>2026-05-20T14:52:19.000Z</updated>
+        <summary type="html"><![CDATA[By replacing the most fundamental concept in topology, Peter Scholze and Dustin Clausen are taking the first step in a far bigger program to understand why numbers behave the way they do.            
+The post Two Researchers Are Rebuilding Mathematics From the Ground Up first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Konstantin Kakaes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Alexander Grothendieck Revolutionized 20th-Century Mathematics]]></title>
+        <id>https://www.quantamagazine.org/?p=162115</id>
+        <link href="https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/"/>
+        <updated>2026-05-20T14:50:37.000Z</updated>
+        <summary type="html"><![CDATA[Grothendieck is revered in the world of math; outside of it, he’s known for his unusual life, if he’s known at all. But what were his actual mathematical contributions?            
+The post How Alexander Grothendieck Revolutionized 20th-Century Mathematics first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Konstantin Kakaes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A pep talk in the face of despair . &#8220;Things can...]]></title>
+        <id>https://kottke.org/26/05/0048984-a-pep-talk-in-the-face-of</id>
+        <link href="https://kottke.org/26/05/0048984-a-pep-talk-in-the-face-of"/>
+        <updated>2026-05-20T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[A pep talk in the face of despair. “Things can always get better, but it doesn’t happen via inertia. It happens because a lot of people tried.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resident: vibe coding firmware (our new sandbox library for ESP32 devices)]]></title>
+        <id>https://interconnected.org/home/2026/05/20/resident</id>
+        <link href="https://interconnected.org/home/2026/05/20/resident"/>
+        <updated>2026-05-20T14:14:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re open sourcing Resident, our library for running AI-authored code on microcontrollers – with no compile step and no firmware flashing.
+It’s our twist on vibe coding firmware, built for instantly loading new device functionality coded by end users. It’s aimed at device developers, like us. We use Resident in all our work.
+(We = Inanimate.)
+Resident gives you a code sandbox on ESP32 devices and a driver API to provide hardware control and events. So an end user can push an app over Wi-Fi that instantly turns their clock into an interactive pill timer (for example) but the app can’t run probes on the home Wi-Fi network.
+It comes bundled with a set of Claude skills. I told Claude about the capabilities of a compatible dev kit and asked it to push a simple app. Here it is:
+
+At Inanimate, w…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our World in Ten Buildings: How Architecture Defines Who...]]></title>
+        <id>https://kottke.org/26/05/0048979-our-world-in-ten-building</id>
+        <link href="https://kottke.org/26/05/0048979-our-world-in-ten-building"/>
+        <updated>2026-05-20T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our World in Ten Buildings: How Architecture Defines Who We Are and How We Live. Among the buildings are a school in Mass., a hospital in Rwanda, a prison in Norway, and a lighthouse in Maine. Intriguing!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[India&#8217;s Hottest District Shuts at 10 AM as Mercury...]]></title>
+        <id>https://kottke.org/26/05/0048983-indias-hottest-district-s</id>
+        <link href="https://kottke.org/26/05/0048983-indias-hottest-district-s"/>
+        <updated>2026-05-20T13:19:00.000Z</updated>
+        <summary type="html"><![CDATA[India’s Hottest District Shuts at 10 AM as Mercury Breaches 48 Degrees Celsius Mark. “After 10am, Banda becomes deserted. At first, you see one or two people outside. Then, as the day rises, there is only silence.” (48C = 118F)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20may26]]></title>
+        <id>https://warrenellis.ltd/?p=18396</id>
+        <link href="https://warrenellis.ltd/status/20may26/"/>
+        <updated>2026-05-20T11:39:56.000Z</updated>
+        <summary type="html"><![CDATA[Faig Ahmed. OPERATIONS: ALL THE THINGSSTATUS: inbox 175, rss 1000, everything is out of controlREADING: THE REVOLUTIONISTS, Jason Burke (UK) (US+) By Christmas 1975, the CIA’s…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New-to-me vocabulary:  oneshotted , &#8220;a term that...]]></title>
         <id>https://kottke.org/26/05/0048890-oneshotted</id>
@@ -34,6 +112,28 @@ My favorite and also, when I think about it too much, least favorite trailer mom
 Tags: Cookie Queens · Girl Scouts · movies · trailers · video]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“A bardo gong bath of in-betweenness”: Jake Muir reviewed]]></title>
+        <id>https://www.thewire.co.uk/in-writing/essays/a-bardo-gong-bath-of-in-betweenness-jake-muir-reviewed</id>
+        <link href="https://www.thewire.co.uk/in-writing/essays/a-bardo-gong-bath-of-in-betweenness-jake-muir-reviewed"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 508
+
+Jake Muir
+    
+ Pareidolia
+    
+ enmossed DL/LP
+
+
+    The results run the gamut of effectiveness, but whatever the merits of a given project – in fairness, the approach is not without its successes – the premise tends to hinge on a presumed internal homogeneity: that metal is pure horror vacui in excelsis, to be carved and moulded, that it has no space.
+
+
+    Named after the disquieting impulse to identify recognisable, often facial, features in random formations (the man in the moon being a famous example), 2026’s suitably uncanny Pareidolia is not the first of Muir’s releases that could be considered a genre excavation: Lady’s Mantle (2018) is a lysergic slipstream of sun-bleached surf rock on the brink of dissolving in spindrift, while Mana (2021) is part investigation, pa…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
