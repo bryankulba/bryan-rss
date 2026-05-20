@@ -2,10 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-20T14:58:42.243Z</updated>
+    <updated>2026-05-20T18:15:40.024Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How fast is 10 tokens per second really?]]></title>
+        <id>https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything"/>
+        <updated>2026-05-20T17:57:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://mikeveerman.github.io/tokenspeed/">How fast is 10 tokens per second really?</a></strong></p>
+Neat little HTML app by Mike Veerman (<a href="https://github.com/MikeVeerman/tokenspeed/blob/master/index.html">source code here</a>) which simulates LLM token output speeds from 5/second to 800/second.</p>
+<p>Useful if you see a model advertised as "30 tokens/second" and want to get a feel for what that actually looks like.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48174920">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Universe Today,  an ongoing series of articles on A...]]></title>
+        <id>https://kottke.org/26/05/0048987-an-ongoing-series-of-arti</id>
+        <link href="https://kottke.org/26/05/0048987-an-ongoing-series-of-arti"/>
+        <updated>2026-05-20T17:28:00.000Z</updated>
+        <summary type="html"><![CDATA[From Universe Today, an ongoing series of articles on A Brief-ish History of SETI (Search for Extraterrestrial Intelligence). Part I is entitled “Where is Everybody?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You Can Make an App for That . &#8220;The most important...]]></title>
+        <id>https://kottke.org/26/05/0048971-you-can-make-an-app-for-t</id>
+        <link href="https://kottke.org/26/05/0048971-you-can-make-an-app-for-t"/>
+        <updated>2026-05-20T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[You Can Make an App for That. “The most important thing you’ll need is taste. Not objectively good taste, necessarily, so much as a keen sense of your own.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Mob Boss President]]></title>
+        <id>https://kottke.org/26/05/our-mob-boss-president</id>
+        <link href="https://kottke.org/26/05/our-mob-boss-president"/>
+        <updated>2026-05-20T15:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Jamelle Bouie writes that each US president molds the presidency in his own image and Trump has constructed a “government as protection racket and the president as mob boss”.1
+So what manner of presidency has Trump devised for himself?
+You could call it the pecuniary presidency, a presidency not devoted to the public good or to the preservation of the union or even to some narrow ideological crusade, but to the quest for personal enrichment. A presidency devoted to the aggrandizement of a single person, not to satisfy a grand design for the nation but to squeeze a few million here and a few billion there out of the public coffers for your own benefit.
+This isn’t the “honest graft” of Tammany Hall — corruption as the price paid for public improvement. It is petty theft. It’s stealing from the Treasury and using your authority, enhanced by the baroque theories of your allies on the Supreme Court, to make yourself unaccountable. It is government as protection racket and the president as mob boss (a role that Trump has clearly embraced).
+
+	
+As I wrote last month:
+I’ve found it useful to think of DJT’s 2nd term primarily as a heist: a theft of money & power from the American people by a con man who finally found the perfect score.
+
+	
+Trump feels like he’s running the largest casino in the world and he’s gonna take his deserved cut.
+I love Bouie but “pecuniary presidency” isn’t going to catch fire in the public’s imagination. But I also do not have a better suggestion beyond “mob boss presidency”. And maybe it doesn’t matter much anyway. Even “liberal” Americans are still hesitant to believe that the high office of the US presidency, the duly elected “leader of the free world”, could be corrupted so completely that you can plainly and factually refer to him as a thief and mobster. ↩
+
+
+ 
+
+        
+         
+Tags: Donald Trump · Jamelle Bouie · politics · usa]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google I/O, Gemini Spark, Antigravity]]></title>
+        <id>https://simonwillison.net/2026/May/20/google-io/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/20/google-io/#atom-everything"/>
+        <updated>2026-05-20T15:32:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are "coming soon".</p>
+<p>I actually prefer to write about things that are in general availability, because I've had instances in the past where the previews didn't match what was released to the general public later on.</p>
+<p>Aside from <a href="https://simonwillison.net/2026/May/19/gemini-35-flash/">Gemini 3.5 Flash</a> the most interesting announcement looks to be Google's upcoming OpenClaw competitor <a href="https://gemini.google/overview/agent/spark/">Gemini Spark</a>, described as "your personal AI agent" which can "connect natively with your favorite Google apps like Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps". The FAQ for that also includes this confusing detail:</p>
+<blockquote>
+<p><strong>What Gemini model does Gemini Spark run on?</strong></p>
+<p>Gemini Spark runs on Gemini 3.5 Flash and Antigravity.</p>
+</blockquote>
+<p>The <a href="https://antigravity.google/">antigravity.google</a> website currently lists Antigravity as a desktop app, a CLI agent tool (written in Go), the <a href="https://github.com/google-antigravity/antigravity-sdk-python">Antigravity SDK</a> (an open source Python wrapper around a bundled closed source Go binary), and the original Antigravity IDE (a VS Code fork).</p>
+<p>I guess Gemini Spark, the user-facing hosted agent product, might be running on that Go binary, but I'm not sure why that's worth mentioning in the FAQ!</p>
+<p>Naturally I went looking for notes on how Gemini Spark intends to handle the risk of prompt injection. The best information I could find on that was in the <a href="https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud">Everything Google Cloud customers need to know coming out of Google I/O</a> post aimed at enterprise customers, which includes:</p>
+<blockquote>
+<p>Spark operates in a fully managed, secure runtime on Google Cloud, meaning you get enterprise-grade security without ever having to manage the underlying infrastructure. Every task executes in a fresh, strictly isolated, ephemeral VM to help ensure data never overlaps between sessions. To protect your enterprise, all traffic routes through our secure Agent Gateway that enforces Data Loss Prevention (DLP) policies, while user credentials remain fully encrypted and are never exposed directly to the agent.</p>
+</blockquote>
+<p>Given how many people are going to be piping <em>very</em> sensitive data through Gemini Spark in the near future I hope they've made this bullet-proof, or this could be a top candidate for the agent security <a href="https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/#1-year-a-challenger-disaster-for-coding-agent-security">challenger disaster</a> that we still haven't seen.</p>
+<p>Also of note: in <a href="https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/">Transitioning Gemini CLI to Antigravity CLI</a> Google announce that the <a href="https://github.com/google-gemini/gemini-cli">open source Gemini CLI</a> tool (Apache 2.0 licensed TypeScript) will stop working with their AI subscription plans on June 18th, replaced by the new closed source <a href="https://github.com/google-antigravity/antigravity-cli">Antigravity CLI</a>.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/google-io">google-io</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mariame Kaba&#8217;s letter to young activists :...]]></title>
+        <id>https://kottke.org/26/05/0048985-mariame-kabas-letter-to-y</id>
+        <link href="https://kottke.org/26/05/0048985-mariame-kabas-letter-to-y"/>
+        <updated>2026-05-20T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Mariame Kaba’s letter to young activists: “I don’t know how things will turn out, but I am committed to something other than this — the current structure and state of this world. We can live differently.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two Researchers Are Rebuilding Mathematics From the Ground Up]]></title>
         <id>https://www.quantamagazine.org/?p=162104</id>
@@ -82,6 +183,16 @@ At Inanimate, w…]]></summary>
         <summary type="html"><![CDATA[Faig Ahmed. OPERATIONS: ALL THE THINGSSTATUS: inbox 175, rss 1000, everything is out of controlREADING: THE REVOLUTIONISTS, Jason Burke (UK) (US+) By Christmas 1975, the CIA’s…]]></summary>
         <author>
             <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: The fourth law]]></title>
+        <id>https://www.robinsloan.com/lab/fourth-law/</id>
+        <link href="https://www.robinsloan.com/lab/fourth-law/"/>
+        <updated>2026-05-20T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>AI must not lie. <a href="https://www.robinsloan.com/lab/fourth-law/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -6891,26 +7002,6 @@ That’s what Courier does, i…]]></summary>
         <summary type="html"><![CDATA[Trifid Nebula. Anduril, Palantir and SpaceX are changing how America wages war. the Trump administration is turning to a new clique of defence upstarts that…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*Chicken always works]]></title>
-        <id>https://brucesterling.tumblr.com/post/814479438650753024</id>
-        <link href="https://brucesterling.tumblr.com/post/814479438650753024"/>
-        <updated>2026-04-21T05:08:41.000Z</updated>
-        <summary type="html"><![CDATA[*Chicken always works]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The amazing mail sent to a video game publisher]]></title>
-        <id>https://waxy.org/?p=50581</id>
-        <link href="https://www.gamefile.news/p/panic-mail-arco-despelote-time-flies-thank-goodness-teeth"/>
-        <updated>2026-04-21T03:57:28.000Z</updated>
-        <summary type="html"><![CDATA[Stephen Totilo writes about what happened when Panic started prompting players who finished the games they published to send them a SASE #]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>
