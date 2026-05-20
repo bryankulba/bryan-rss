@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-20T02:58:06.094Z</updated>
+    <updated>2026-05-20T07:42:10.268Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6811,47 +6811,6 @@ That’s what Courier does, i…]]></summary>
         <summary type="html"><![CDATA[Stephen Totilo writes about what happened when Panic started prompting players who finished the games they published to send them a SASE #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-openrouter 0.6]]></title>
-        <id>https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything"/>
-        <updated>2026-04-20T18:00:26.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openrouter/releases/tag/0.6">llm-openrouter 0.6</a></p>
-    <blockquote>
-<ul>
-<li><code>llm openrouter refresh</code> command for refreshing the list of available models without waiting for the cache to expire.</li>
-</ul>
-</blockquote>
-<p>I added this feature so I could try <a href="https://www.kimi.com/blog/kimi-k2-6">Kimi 2.6</a> on OpenRouter as soon as it <a href="https://openrouter.ai/moonshotai/kimi-k2.6">became available there</a>.</p>
-<p>Here's <a href="https://gisthost.github.io/?ecaad98efe0f747e27bc0e0ebc669e94/pelican.html">its pelican</a> - this time as an HTML page because Kimi chose to include an HTML and JavaScript UI to control the animation. <a href="https://gist.github.com/simonw/ecaad98efe0f747e27bc0e0ebc669e94#2026-04-20t164936----conversation-01kpnwt8d2bt5qwkm60j9sbkbs-id-01kpnwra0prz6v822cct5b08kq">Transcript here</a>.</p>
-<p><img alt="The bicycle is about right. The pelican is OK. It is pedaling furiously and flapping its wings a bit. Controls below the animation provide a pause button and sliders for controlling the speed and the wing flap." src="https://static.simonwillison.net/static/2026/kimi-k2-pelican-64-colors.gif" /></p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/openrouter">openrouter</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/kimi">kimi</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Comrade Trump (20 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12705</id>
-        <link href="https://pluralistic.net/2026/04/20/praxis/"/>
-        <updated>2026-04-20T16:44:33.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Comrade Trump: Burning down the American empire to save it. Hey look at this: Delights to delectate. Object permanence: MPAA's threat-based 'education'; Cuehack; Heinlein on GWB; AT&T v the internet; British tax-havens v HMG; What is neoliberalism?; Newspaper landlords; Watch-part motorcycle; Tax havens bad; Buscemi's eyes; Sesame Street on lead poisoning. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Comrade Trump (permalink) There aren't a lot of things I agree with Mark Carney about, but there's one area where he and I are in total accord: the old, US-domina…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Physical ‘Life Force’ Turns Biology’s Wheels?]]></title>
-        <id>https://www.quantamagazine.org/?p=161098</id>
-        <link href="https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/"/>
-        <updated>2026-04-20T15:00:16.000Z</updated>
-        <summary type="html"><![CDATA[The bacterial flagellar motor is finally understood after 50 years. In its workings, columnist Natalie Wolchover finds the essence of life.            
-The post What Physical ‘Life Force’ Turns Biology’s Wheels? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Natalie Wolchover</name>
         </author>
     </entry>
 </feed>
