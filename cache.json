@@ -101,16 +101,6 @@
           "wordCount": 1308,
           "title": "The Wind in the Willows and reading out loud",
           "imageUrl": "https://interconnected.org/home/2026/04/24/willows.png?v=1"
-        },
-        {
-          "id": "https://interconnected.org/home/2026/04/21/courier",
-          "author": null,
-          "description": "I hack on hardware a whole bunch, at Inanimate and at home.\nAI is in the cloud. Interaction is in my room and in my hands. The job always begins by wiring together those two ends.\nSo the second thing I do, every single time, is bring up real-time messaging using JSON over websockets so I can connect my new device to a server, and have it emit events and listen for commands.\n(The first thing I do is bring up the hardware and get basic blinkenlights.)\nI want my on-device websockets client to have a super easy interface: give me an onMessage handler to deal with incoming messages.\nI need built-in wi-fi config (so I can carry my prototype around to different places). And I don’t want to have to choose which libraries I’m going to use each time, I want good defaults.\nThat’s what Courier does, i…",
-          "link": "https://interconnected.org/home/2026/04/21/courier",
-          "publishedOn": "2026-04-21T15:25:00.000Z",
-          "wordCount": 1191,
-          "title": "Courier: real-time messaging for ESP32 with batteries included (new library)",
-          "imageUrl": "https://interconnected.org/home/2026/04/21/courier.png?v=1"
         }
       ]
     },
@@ -2449,56 +2439,6 @@
           "wordCount": 778,
           "title": "Teaser Trailer for Silo Season Three",
           "imageUrl": "https://i.ytimg.com/vi/C9-_VVX9BvE/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048774-trials-for-a-pancreatic-c",
-          "author": null,
-          "description": "Trials for a pancreatic cancer mRNA vaccine: “Nearly 90% of people whose immune systems responded to the vaccine were still alive up to six years after receiving the last treatment. The five-year survival rate for pancreatic cancer is around 13%…”",
-          "link": "https://kottke.org/26/04/0048774-trials-for-a-pancreatic-c",
-          "publishedOn": "2026-04-21T15:24:25.000Z",
-          "wordCount": 826,
-          "title": "Trials for a pancreatic cancer mRNA vaccine :...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048775-nasas-curiosity-rover-has",
-          "author": null,
-          "description": "“NASA’s Curiosity rover has detected organic molecules on Mars, including chemicals widely considered building blocks for the origin of life of Earth.” And: “We think we’re looking at organic matter that’s been preserved on Mars for 3.5bn years.”",
-          "link": "https://kottke.org/26/04/0048775-nasas-curiosity-rover-has",
-          "publishedOn": "2026-04-21T14:31:48.000Z",
-          "wordCount": 750,
-          "title": "&#8220; NASA&#8217;s Curiosity rover has detected organic...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048769-its-getting-harder-to-spo",
-          "author": null,
-          "description": "It’s Getting Harder to Spot AI in Contemporary Publishing. And That’s Very, Very Bad. “The word salads that we might identify as AI today may not be the kind of machine-made writing that we will see tomorrow.”",
-          "link": "https://kottke.org/26/04/0048769-its-getting-harder-to-spo",
-          "publishedOn": "2026-04-21T14:08:22.000Z",
-          "wordCount": 522,
-          "title": "It&#8217;s Getting Harder to Spot AI in Contemporary...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048771-reciprocard-start-by-sear",
-          "author": null,
-          "description": "ReciproCard: “Start by searching for your home library above to instantly see every free reciprocal agreement you qualify for.” Use this to have more options for Libby ebooks.",
-          "link": "https://kottke.org/26/04/0048771-reciprocard-start-by-sear",
-          "publishedOn": "2026-04-21T13:29:46.000Z",
-          "wordCount": 843,
-          "title": "ReciproCard : &#8220;Start by searching for your home...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048768-the-extrapolated-futures-",
-          "author": null,
-          "description": "“The Extrapolated Futures Archive is a reverse-lookup for speculative fiction. Describe a situation you are facing, and find the SF stories that already worked through the implications.”",
-          "link": "https://kottke.org/26/04/0048768-the-extrapolated-futures-",
-          "publishedOn": "2026-04-21T12:56:04.000Z",
-          "wordCount": 723,
-          "title": "&#8220; The Extrapolated Futures Archive  is a...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2793,16 +2733,6 @@
           "wordCount": 4331,
           "title": "Pluralistic: It's not a crime if we do it (to nurses) with an app (22 Apr 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12709",
-          "author": "Cory Doctorow",
-          "description": "Today's links Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\": A rocket exploding in a human face, forever. Hey look at this: Delights to delectate. Object permanence: Is sugar poison? More watch-part motorcycles; \"Something New\"; \"Seeds\"; Bulldozer fight; Facebook tonsils; Against transparency. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\" (permalink) Quinn Slobodian and Ben Tarnoff's Muskism: A Guide for the Perplexed seeks to describe the ideology that gave rise to Elon Musk, the…",
-          "link": "https://pluralistic.net/2026/04/21/torment-nexusism/",
-          "publishedOn": "2026-04-21T13:18:50.000Z",
-          "wordCount": 3046,
-          "title": "Pluralistic: Quinn Slobodian and Ben Tarnoff's \"Muskism: A Guide for the Perplexed\" (21 Apr 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2976,16 +2906,6 @@
           "wordCount": 1175,
           "title": "27apr26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_1031-scaled.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18263",
-          "author": "Warren Ellis",
-          "description": "Trifid Nebula. Anduril, Palantir and SpaceX are changing how America wages war. the Trump administration is turning to a new clique of defence upstarts that…",
-          "link": "https://warrenellis.ltd/status/21apr26/",
-          "publishedOn": "2026-04-21T11:04:16.000Z",
-          "wordCount": 1744,
-          "title": "21apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/hubble-dazzles-with-yo-scaled.jpg"
         }
       ]
     },
@@ -3436,6 +3356,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm\"><p>We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into <strong>Cloud Services Agreements with Anthropic PBC</strong> (“Anthropic”), an AI research and development public benefit corporation, with respect to access to <strong>compute capacity across COLOSSUS and COLOSSUS II</strong>. Pursuant to these agreements, the customer <strong>has agreed to pay us $1.25 billion per month</strong> through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm\">SpaceX S-1</a>, highlights mine</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/grok\">grok</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+          "publishedOn": "2026-05-20T22:26:36.000Z",
+          "wordCount": 808,
+          "title": "Quoting SpaceX S-1",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
           "author": null,
