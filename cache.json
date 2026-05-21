@@ -281,6 +281,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/water-world",
+          "author": null,
+          "description": "Water World, created by Seán Doran from imagery captured by a NASA/NOAA weather satellite, is a gorgeous, swirling, painterly portrait of the Earth’s dynamic atmosphere. Doran calls it “a meditative slow gaze at Earth’s atmosphere, revealing the hidden depths of activity in the water-filled skies of planet Earth”. It’s 4K, so put it on the biggest screen you can find and just sit back and watch.\n\n \n\n        \n         \nTags: clouds · Earth · meditative · mesmerizing · Sean Doran · video · weather",
+          "link": "https://kottke.org/26/05/water-world",
+          "publishedOn": "2026-05-21T20:30:00.000Z",
+          "wordCount": 730,
+          "title": "Water World",
+          "imageUrl": "https://i.ytimg.com/vi/OTnJyARSqL4/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0048998-the-secret-to-winning-on-",
+          "author": null,
+          "description": "The Secret to Winning on Jeopardy. “To win on Jeopardy, you don’t need to learn everything. You just need to learn one thing about everything.” As an proficient player of Yell Answers At The TV Jeopardy in my teen years, I can confirm this strat.",
+          "link": "https://kottke.org/26/05/0048998-the-secret-to-winning-on-",
+          "publishedOn": "2026-05-21T19:24:00.000Z",
+          "wordCount": 812,
+          "title": "The Secret to Winning on Jeopardy . &#8220;To win on...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0048996-paul-browns-ipod",
+          "author": null,
+          "description": "Paul Brown’s iPod. This is a lovely remembrance & time capsule: a playable iPod emulator of “the music on the iPod my dad had in 2018 before he died”. Click wheel works and everything.",
+          "link": "https://kottke.org/26/05/0048996-paul-browns-ipod",
+          "publishedOn": "2026-05-21T18:44:00.000Z",
+          "wordCount": 747,
+          "title": "Paul Brown&#8217;s iPod . This is a lovely remembrance &...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/05/what-number-was-stephen-colbert-thinking-of",
           "author": null,
           "description": "One of the questions on The Colbert Questionert that Stephen Colbert would administer to his celebrity guests was “What number am I thinking of?” As you can see from this compilation, his answer was often, but not always, “no”.\n\nA few of the guests said “42” but none ever said “69”?\nSo anyway, the Late Show is coming to an end tonight, a casualty of CBS’s newfound fealty to the Trump regime, and Stephen Colbert finally took the questionert himself. And yes, at last, he revealed the number that he was thinking of…to Robert De Niro no less:\n\n\n \n\n        \n         \nTags: Stephen Colbert · The Late Show · TV · video",
@@ -3398,6 +3428,46 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+          "author": null,
+          "description": "<p>We just <a href=\"https://datasette.io/blog/2026/datasette-agent/\">announced the first release of Datasette Agent</a>, a new extensible AI assistant for Datasette. I've been working on my <a href=\"https://llm.datasette.io/\">LLM</a> Python library for just over three years now, and Datasette Agent represents the moment that LLM and <a href=\"https://datasette.io/\">Datasette</a> finally come together. I'm really excited about it!</p>\r\n<p>Datasette Agent provides a conversational interface for asking questions of the data you have stored in Datasette. Add the <a href=\"https://github.com/datasette/datasette-agent-charts\">datasette-agent-charts</a> plugin and it can generate charts of your data as well.</p>\r\n<h4 id=\"the-demo\">The demo</h4>\r\n<p>The <a href=\"\">announcement post</a> (on the new Datasette project blog) includes this <a href=\"https://www.youtube.com/watch?v=AFZKp6hbFjI\">demo video</a>:</p>\r\n\r\n<iframe style=\"margin-bottom: 1.5em;\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/AFZKp6hbFjI\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"allowfullscreen\"> </iframe>\r\n\r\n\r\n<p>I recorded the video against the new <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> live demo instance, which runs Datasette Agent against example databases including the classic <a href=\"https://datasette.io/global-power-plants\">global-power-plants</a> by <a href=\"https://www.wri.org/research/global-database-power-plants\">WRI</a>, and a copy of the <a href=\"https://datasette.simonwillison.net/\">Datasette backup</a> of my blog.</p>\r\n<p>The live demo runs on <a href=\"https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite\">Gemini 3.1 Flash-Lite</a> - it's cheap, fast and has no trouble writing SQLite queries.</p>\r\n<p>A question I asked in the demo was:</p>\r\n<blockquote>\r\n<p>when did Simon most recently see a pelican?</p>\r\n</blockquote>\r\n<p>Which ran <a href=\"https://datasette.simonwillison.net/simonwillisonblog?sql=SELECT+title%2C+commentary%2C+created+FROM+blog_beat+WHERE+beat_type+%3D+%27sighting%27+AND+%28title+LIKE+%27%25pelican%25%27+OR+commentary+LIKE+%27%25pelican%25%27%29+ORDER+BY+created+DESC+LIMIT+5\">this SQL query</a>:</p>\r\n<div class=\"highlight highlight-source-sql\"><pre><span class=\"pl-k\">SELECT</span>\r\n  title, commentary, created\r\n<span class=\"pl-k\">FROM</span>\r\n  blog_beat\r\n<span class=\"pl-k\">WHERE</span>\r\n  beat_type <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">'</span>sighting<span class=\"pl-pds\">'</span></span>\r\n  <span class=\"pl-k\">AND</span> (title <span class=\"pl-k\">LIKE</span> <span class=\"pl-s\"><span class=\"pl-pds\">'</span>%pelican%<span class=\"pl-pds\">'</span></span> <span class=\"pl-k\">OR</span> commentary <span class=\"pl-k\">LIKE</span> <span class=\"pl-s\"><span class=\"pl-pds\">'</span>%pelican%<span class=\"pl-pds\">'</span></span>)\r\n<span class=\"pl-k\">ORDER BY</span>\r\n  created <span class=\"pl-k\">DESC</span>\r\n<span class=\"pl-k\">LIMIT</span>\r\n  <span class=\"pl-c1\">5</span></pre></div>\r\n<p>And replied:</p>\r\n<blockquote>\r\n<p>The most recent sighting of a pelican by Simon was recorded on <strong>May 20, 2026</strong>.</p>\r\n<p>The observation included a California Brown Pelican, along with a Common Loon, Canada Goose, Striped Shore Crab, and a California Sea Lion.</p>\r\n</blockquote>\r\n<p>Here's <a href=\"https://simonwillison.net/2026/May/20/sighting-363395265/\">that sighting on my blog</a>, and the <a href=\"https://gist.github.com/simonw/a46d17b69659a4866adb1d868280091d\">Markdown export</a> of the full conversation transcript.</p>\r\n<h4 id=\"the-plugins\">The plugins</h4>\r\n<p>My favorite feature of Datasette Agent is that, like the rest of Datasette, it's extensible using plugins.</p>\r\n<p>We've shipped three plugins so far:</p>\r\n<ul>\r\n<li>\r\n<a href=\"https://github.com/datasette/datasette-agent-charts\">datasette-agent-charts</a>, shown in the video, adds charts to Datasette Agent, powered by <a href=\"https://observablehq.com/plot/\">Observable Plot</a>.</li>\r\n<li>\r\n<a href=\"https://github.com/datasette/datasette-agent-openai-imagegen\">datasette-agent-openai-imagegen</a> adds an image generation tool to Datasette Agent using <a href=\"https://openai.com/index/introducing-chatgpt-images-2-0/\">ChatGPT Images 2.0</a>.</li>\r\n<li>\r\n<a href=\"https://github.com/datasette/datasette-agent-sprites\">datasette-agent-sprites</a> provides tools for executing code in a <a href=\"https://sprites.dev/\">Fly Sprites</a> persistent sandbox.</li>\r\n</ul>\r\n<p>Building plugins is <em>really fun</em>. I have a bunch more prototypes that aren't quite alpha-quality yet.</p>\r\n<p>Claude Code and OpenAI Codex are both proving excellent at writing plugins - just point them at a checkout of the <a href=\"https://github.com/datasette/datasette-agent\">datasette-agent repo</a> for reference and tell them what you want to build!</p>\r\n<h4 id=\"running-it-against-local-models\">Running it against local models</h4>\r\n<p>I've also been having fun running the new plugin against local models. Here's a <code>uv</code> one-liner to run the plugin against <a href=\"https://huggingface.co/google/gemma-4-26B-A4B\">gemma-4-26b-a4b</a> in <a href=\"https://lmstudio.ai\">LM Studio</a> on a Mac:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>uvx --prerelease=allow \\\r\n  --with datasette-agent --with llm-lmstudio \\\r\n  datasette --internal internal.db --root \\\r\n  -s plugins.datasette-llm.default_model lmstudio/google/gemma-4-26b-a4b \\\r\n  data.db</pre></div>\r\n<p>Datasette Agent needs reliable tool calls and the ability for a model to produce SQL queries that run against SQLite. The open weight models released in the past six months are increasingly able to handle that.</p>\r\n<h4 id=\"what-s-next\">What's next</h4>\r\n<p>Datasette Agent opens up <em>so many</em> opportunities for the LLM and Datasette ecosystem in general.</p>\r\n<p>It's already informed <a href=\"https://simonwillison.net/2026/Apr/29/llm/\">the major LLM 0.32a0 refactor</a> which I'm nearly ready to roll into a stable release, maybe with some additional \"LLM agent\" abstractions extracte from Datasette Agent itself.</p>\r\n<p>I've been exploring my own take on the Claude Artifacts, which is shaping up nicely as a plugin.</p>\r\n<p>I'm excited to use Datasette Agent to build my own <a href=\"https://simonwillison.net/2026/May/19/5-minute-llms/#5-minutes-llms.013.jpeg\">Claw</a> - a personal AI assistant built around data imported from different parts of my digital life, which is a neat excuse to revisit my older <a href=\"https://dogsheep.github.io\">Dogsheep</a> family of tools.</p>\r\n<p>We'll also be rolling out Datasette Agent for users of <a href=\"https://datasette.cloud/\">Datasette Cloud</a>.</p>\r\n<p>Join our <a href=\"https://discord.gg/hdxyusUFv\">#datasette-agent Discord channel</a> if you'd like to talk about the project.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+          "publishedOn": "2026-05-21T19:52:19.000Z",
+          "wordCount": 1309,
+          "title": "Datasette Agent",
+          "imageUrl": "https://static.simonwillison.net/static/2026/datasette-agent.jpg"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-sprites/releases/tag/0.1a0\">datasette-agent-sprites 0.1a0</a></p>\n        <p>A Datasette Agent plugin for running commands in a <a href=\"https://sprites.dev\">Fly Sprites</a> sandbox.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/fly\">fly</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+          "publishedOn": "2026-05-21T18:21:07.000Z",
+          "wordCount": 731,
+          "title": "datasette-agent-sprites 0.1a0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-charts/releases/tag/0.1a2\">datasette-agent-charts 0.1a2</a></p>\n        <blockquote>\n<ul>\n<li>\"View SQL query\" buttons below rendered charts.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
+          "publishedOn": "2026-05-21T15:15:58.000Z",
+          "wordCount": 720,
+          "title": "datasette-agent-charts 0.1a2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a3\">datasette-agent 0.1a3</a></p>\n        <blockquote>\n<ul>\n<li>\"View SQL query\" buttons for both visible tables and collapsed SQL result tool calls.</li>\n<li>Don't display empty reasoning chunks</li>\n<li>Improved handling of truncated responses - table still displays to the user even if the SQL results were truncated when showing the agent.</li>\n</ul>\n</blockquote>\n<p>See <a href=\"https://datasette.io/blog/2026/datasette-agent/\">Datasette Agent, an extensible AI assistant for Datasette</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
+          "publishedOn": "2026-05-21T15:04:09.000Z",
+          "wordCount": 763,
+          "title": "datasette-agent 0.1a3",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
           "author": null,
           "description": "<blockquote cite=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm\"><p>We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into <strong>Cloud Services Agreements with Anthropic PBC</strong> (“Anthropic”), an AI research and development public benefit corporation, with respect to access to <strong>compute capacity across COLOSSUS and COLOSSUS II</strong>. Pursuant to these agreements, the customer <strong>has agreed to pay us $1.25 billion per month</strong> through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm\">SpaceX S-1</a>, highlights mine</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/grok\">grok</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
@@ -3425,6 +3495,16 @@
           "publishedOn": "2026-05-20T15:32:17.000Z",
           "wordCount": 1137,
           "title": "Google I/O, Gemini Spark, Antigravity",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/20/datasette-agent-charts/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-charts/releases/tag/0.1a1\">datasette-agent-charts 0.1a1</a></p>\n        <blockquote>\n<ul>\n<li>More color! Bar and waffle charts without a color column are shaded by magnitude with a sequential color scheme; color columns holding text values use the <code>observable10</code> categorical scheme. #2</li>\n<li>Now checks <code>execute-sql</code> permission before running the query to find the column names.</li>\n<li>Charts now display interactive tooltips.</li>\n<li>Fixed a bug where <code>waffleY</code> charts were not described to the agent.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/20/datasette-agent-charts/#atom-everything",
+          "publishedOn": "2026-05-20T14:52:16.000Z",
+          "wordCount": 773,
+          "title": "datasette-agent-charts 0.1a1",
           "imageUrl": null
         },
         {
@@ -3568,6 +3648,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://simonwillison.net/2026/May/15/datasette-agent/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a2\">datasette-agent 0.1a2</a></p>\n        <blockquote>\n<ul>\n<li>Tool availability can now be attached to a <code>required_permission</code>. The default background agent tools now require the new <code>datasette-agent-background</code> permission. #10</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/15/datasette-agent/#atom-everything",
+          "publishedOn": "2026-05-15T00:03:00.000Z",
+          "wordCount": 733,
+          "title": "datasette-agent 0.1a2",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
           "author": null,
           "description": "<p>This <a href=\"https://simonwillison.net/2026/May/14/mitchell-hashimoto/\">Mitchell Hashimoto quote</a> about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week.</p>\n<p>I was talking to someone who worked for a medium sized technology company with a pair of legacy/<a href=\"https://simonwillison.net/2018/Jul/17/mark-norman-francis/\">legendary</a> iPhone and Android apps.</p>\n<p>They told me they had just completed a coding-agent driven rewrite of both apps to React Native.</p>\n<p>I asked why they chose that, given that coding agents presumably drive down the cost of maintaining separate iPhone and Android apps.</p>\n<p>They said that React Native has improved a lot over the past few years and covered everything their apps needed to do.</p>\n<p>And... if it turned out to be the wrong decision, they could <strong>just port back to native</strong> in the future.</p>\n<p>Like Mitchell said:</p>\n<blockquote>\n<p>Programming languages used to be LOCK IN, and they're increasingly not so.</p>\n</blockquote>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/react\">react</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
@@ -3585,6 +3675,16 @@
           "publishedOn": "2026-05-14T22:31:20.000Z",
           "wordCount": 768,
           "title": "Quoting Mitchell Hashimoto",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/14/datasette-agent/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a1\">datasette-agent 0.1a1</a></p>\n        <blockquote>\n<ul>\n<li>Now uses the <code>execute-sql</code> permission when deciding which tables to list to the user. #8</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/14/datasette-agent/#atom-everything",
+          "publishedOn": "2026-05-14T22:01:42.000Z",
+          "wordCount": 727,
+          "title": "datasette-agent 0.1a1",
           "imageUrl": null
         },
         {
