@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-22T03:27:14.152Z</updated>
+    <updated>2026-05-22T07:42:35.139Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service]]></title>
+        <id>https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything"/>
+        <updated>2026-05-22T04:48:32.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived">FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service</a></strong></p>
+Back in 2024 Cox Media Group were caught trying to sell advertisers packages based on "active listening", with <a href="https://www.documentcloud.org/documents/25051283-cmg-pitch-deck-on-voice-data-advertising-active-listening/">this deck</a> which claimed:</p>
+<blockquote>
+<ul>
+<li>Smart devices capture real-time intent data by listening to our conversations</li>
+<li>Advertisers can pair this voice-data with behavioral data to target in-market consumers</li>
+</ul>
+</blockquote>
+<p>I wrote about this <a href="https://simonwillison.net/2024/Sep/2/facebook-cmg/">in September 2024</a>. My theory:</p>
+<blockquote>
+<p>I think <strong>active listening</strong> is the term that the team came up with for “something that sounds fancy but really just means the way ad targeting platforms work already”. Then they got over-excited about the new metaphor and added that first couple of slides that talk about “voice data”, without really understanding how the tech works or what kind of a shitstorm that could kick off when people who DID understand technology started paying attention to their marketing.</p>
+</blockquote>
+<p>This FTC press release appears to confirm that's pretty much what happened:</p>
+<blockquote>
+<p>CMG, MindSift and 1010 Digital Works claimed their “Active Listening” branded marketing service listened in on consumers’ conversations overheard by smart devices, in real time, to target advertising [...]</p>
+<p>According to the complaints, this service did not, in fact, listen in on consumers’ conversations or use voice data at all—nor did the service accurately place ads in customers’ desired locations. Instead, the service the companies provided consisted of reselling—at a significant markup—email lists obtained from other data brokers.</p>
+</blockquote>
+<p>The FTC also clarify that hiding an "opt-in" to using voice data in terms of service would not be acceptable, as tricks like that do not constitute "adequate consent":</p>
+<blockquote>
+<p>The FTC also alleged that all three companies deceived potential customers by claiming that consumers had opted into the Active Listening service. The company, however, did not seek or obtain consumers’ consent, according to the complaints. Instead, the companies claimed that consumers had “opted in” by agreeing to the terms of service that people have to accept when downloading and using apps. Clicking through mandatory terms of service does not constitute “opt-in consent” for such an invasive service or for use of consumers’ voice data from inside their homes. If the Active Listening service had functioned as advertised, this collection and use of consumers’ voice data without adequate consent would itself violate Section 5 of the FTC Act.</p>
+</blockquote>
+<p>Attempting to myth bust <a href="https://simonwillison.net/tags/microphone-ads-conspiracy/">the conspiracy theory</a> that our mobile devices target ads to us based on spying through the microphones continues to be my least rewarding niche online hobby. It's nice to have a new piece of ammunition.
+
+    <p><small></small>Via <a href="https://twitter.com/nydiatisdale/status/2057657844321705993">@nydiatisdale</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/privacy">privacy</a>, <a href="https://simonwillison.net/tags/microphone-ads-conspiracy">microphone-ads-conspiracy</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[More than 340 local news outlets are now blocking the Internet Archive]]></title>
         <id>https://waxy.org/?p=50639</id>
@@ -6909,117 +6945,6 @@ Tags: artificial intelligence · robots · sports · table tennis · video]]></s
         <link href="https://kottke.org/26/04/0048789-i-had-somehow-missed-or"/>
         <updated>2026-04-22T20:02:33.000Z</updated>
         <summary type="html"><![CDATA[I had somehow missed (or forgotten) that Greta Gerwig is writing and directing an adaptation of The Magician’s Nephew, one of The Chronicles of Narnia books by C.S. Lewis. Filming has wrapped and it’s out in theaters on Nov 26.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A group of &#8220;unauthorized users&#8221; have...]]></title>
-        <id>https://kottke.org/26/04/0048792-a-group-of-unauthorized-u</id>
-        <link href="https://kottke.org/26/04/0048792-a-group-of-unauthorized-u"/>
-        <updated>2026-04-22T18:55:37.000Z</updated>
-        <summary type="html"><![CDATA[A group of “unauthorized users” have accessed Anthropic’s Mythos AI model, which the company recently said they couldn’t widely release because it was too dangerous. Whoopsie doodle! Maybe don’t use guessable paths for your powerful cyberattack model?]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;Even the Weather Felt Expensive&#8221;]]></title>
-        <id>https://kottke.org/26/04/even-the-weather-felt-expensive</id>
-        <link href="https://kottke.org/26/04/even-the-weather-felt-expensive"/>
-        <updated>2026-04-22T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Filmmaker Noah Hawley was invited to Amazon founder Jeff Bezos’s Campfire retreat in 2018. Reflecting on the experience recently for The Atlantic, Hawley writes that today’s super-rich have stopped “pretending that the rules of human society apply” to them.
-The Jeff Bezos of 2018 acted as if he still believed that people’s impression of him mattered, that his financial and social value could be affected by negative publicity. He still believed that his actions had consequences. He had not yet freed himself—the way Daniel Plainview freed himself—from the rules of men.
-Eight years later, Bezos and two of the world’s other richest men—Mark Zuckerberg and Elon Musk—have clearly left the world of consequences behind. They float in a sensory-deprivation tank the size of the planet, in which their actions are only ever judged by themselves.
-The closer I’ve gotten to the world of wealth, the more I understand that being truly rich doesn’t mean amassing enough money to afford superyachts, private jets, or a million acres of land. It means that everything becomes effectively free. Any asset can be acquired but nothing can ever be lost, because for soon-to-be trillionaires, no level of loss could significantly change their global standing or personal power. For them, the word failure has ceased to mean anything.
-
-	
-Daisy Grewal in 2012 for Scientific American: How Wealth Reduces Compassion.
-Who is more likely to lie, cheat, and steal—the poor person or the rich one? It’s temping to think that the wealthier you are, the more likely you are to act fairly. After all, if you already have enough for yourself, it’s easier to think about what others may need. But research suggests the opposite is true: as people climb the social ladder, their compassionate feelings towards other people decline.
-
-	
-Billionaire Wilderness: The Ultra-Wealthy and the Remaking of the American West by Justin Farrell sounds like an interesting read along these same lines.
-
- 
-
-        
-         
-Tags: Daisy Grewal · Jeff Bezos · Noah Hawley · wealth]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wow, this interview!  &#8220;I&#8217;ve never had an...]]></title>
-        <id>https://kottke.org/26/04/0048788-wow-this-interview-ive-ne</id>
-        <link href="https://kottke.org/26/04/0048788-wow-this-interview-ive-ne"/>
-        <updated>2026-04-22T17:51:04.000Z</updated>
-        <summary type="html"><![CDATA[Wow, this interview! “I’ve never had an interview quite like this one with Charlize Theron.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;In a new book called “Israel: What Went Wrong?,”...]]></title>
-        <id>https://kottke.org/26/04/0048786-in-a-new-book-called</id>
-        <link href="https://kottke.org/26/04/0048786-in-a-new-book-called"/>
-        <updated>2026-04-22T17:00:46.000Z</updated>
-        <summary type="html"><![CDATA[“In a new book called “Israel: What Went Wrong?,” [Israeli professor of Holocaust & genocide studies] Omer Bartov argues that Zionism has morphed into an ideology of extremism that led to genocide in Gaza following the Hamas attacks of October 7th.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model]]></title>
-        <id>https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything"/>
-        <updated>2026-04-22T16:45:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://qwen.ai/blog?id=qwen3.6-27b">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</a></strong></p>
-Big claims from Qwen about their latest open weight model:</p>
-<blockquote>
-<p>Qwen3.6-27B delivers flagship-level agentic coding performance, surpassing the previous-generation open-source flagship Qwen3.5-397B-A17B (397B total / 17B active MoE) across all major coding benchmarks.</p>
-</blockquote>
-<p>On Hugging Face <a href="https://huggingface.co/Qwen/Qwen3.5-397B-A17B/tree/main">Qwen3.5-397B-A17B</a> is 807GB, this new <a href="https://huggingface.co/Qwen/Qwen3.6-27B/tree/main">Qwen3.6-27B</a> is 55.6GB.</p>
-<p>I tried it out with the 16.8GB Unsloth <a href="https://huggingface.co/unsloth/Qwen3.6-27B-GGUF">Qwen3.6-27B-GGUF:Q4_K_M</a> quantized version and <code>llama-server</code> using this recipe by <a href="https://news.ycombinator.com/item?id=47863217#47865140">benob on Hacker News</a>, after first installing <code>llama-server</code> using <code>brew install llama.cpp</code>:</p>
-<pre><code>llama-server \        
-    -hf unsloth/Qwen3.6-27B-GGUF:Q4_K_M \
-    --no-mmproj \
-    --fit on \
-    -np 1 \
-    -c 65536 \
-    --cache-ram 4096 -ctxcp 2 \
-    --jinja \
-    --temp 0.6 \
-    --top-p 0.95 \
-    --top-k 20 \
-    --min-p 0.0 \
-    --presence-penalty 0.0 \
-    --repeat-penalty 1.0 \
-    --reasoning on \
-    --chat-template-kwargs '{"preserve_thinking": true}'
-</code></pre>
-<p>Here's <a href="https://gist.github.com/simonw/4d99d730c840df594096366db1d27281">the transcript</a> for "Generate an SVG of a pelican riding a bicycle". This is an <em>outstanding</em> result for a 16.8GB local model:</p>
-<p><img alt="Bicycle has spokes, a chain and a correctly shaped frame. Handlebars are a bit detached. Pelican has wing on the handlebars, weirdly bent legs that touch the pedals and a good bill. Background details are pleasant - semi-transparent clouds, birds, grass, sun." src="https://static.simonwillison.net/static/2026/Qwen3.6-27B-GGUF-Q4_K_M.png" /></p>
-<p>Performance numbers reported by <code>llama-server</code>:</p>
-<ul>
-<li>Reading: 20 tokens, 0.4s, 54.32 tokens/s</li>
-<li>Generation: 4,444 tokens, 2min 53s, 25.57 tokens/s</li>
-</ul>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=47863217">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llama-cpp">llama-cpp</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lessons from a 1969 documentary on Nazi-occupied France...]]></title>
-        <id>https://kottke.org/26/04/0048780-lessons-from-a-1969-docum</id>
-        <link href="https://kottke.org/26/04/0048780-lessons-from-a-1969-docum"/>
-        <updated>2026-04-22T16:11:12.000Z</updated>
-        <summary type="html"><![CDATA[Lessons from a 1969 documentary on Nazi-occupied France on how fascism takes root. “A former undercover British agent recalls that working-class French were eager to help him and to shelter him. Those who were wealthier preferred to stay out of it.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
