@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-21T21:26:49.687Z</updated>
+    <updated>2026-05-22T03:27:14.152Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[More than 340 local news outlets are now blocking the Internet Archive]]></title>
+        <id>https://waxy.org/?p=50639</id>
+        <link href="https://www.niemanlab.org/2026/05/more-than-340-local-news-outlets-are-limiting-the-internet-archives-access-to-their-journalism/"/>
+        <updated>2026-05-22T00:23:48.000Z</updated>
+        <summary type="html"><![CDATA[Nieman Lab continues to report on news orgs blocking the Archive's crawlers over fears of AI training #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Water World]]></title>
         <id>https://kottke.org/26/05/water-world</id>
@@ -125,6 +135,16 @@ Tags: clouds · Earth · meditative · mesmerizing · Sean Doran · video · wea
         <p>Tags: <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/fly">fly</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: The new funnel]]></title>
+        <id>https://www.robinsloan.com/lab/ai-funnel/</id>
+        <link href="https://www.robinsloan.com/lab/ai-funnel/"/>
+        <updated>2026-05-21T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>The LLM sent me. <a href="https://www.robinsloan.com/lab/ai-funnel/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -7000,74 +7020,6 @@ Big claims from Qwen about their latest open weight model:</p>
         <link href="https://kottke.org/26/04/0048780-lessons-from-a-1969-docum"/>
         <updated>2026-04-22T16:11:12.000Z</updated>
         <summary type="html"><![CDATA[Lessons from a 1969 documentary on Nazi-occupied France on how fascism takes root. “A former undercover British agent recalls that working-class French were eager to help him and to shelter him. Those who were wealthier preferred to stay out of it.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: It's not a crime if we do it (to nurses) with an app (22 Apr 2026)]]></title>
-        <id>https://pluralistic.net/?p=12718</id>
-        <link href="https://pluralistic.net/2026/04/22/uber-for-nurses/"/>
-        <updated>2026-04-22T15:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Today's links It's not a crime if we do it (to nurses) with an app: It's not a bald spot, it's a solar panel for a sex machine. Hey look at this: Delights to delectate. Object permanence: PKD named names; Weird Al v Lada Gaga; South Korean Olympic torture camps; McDonald's v ice-cream hackers. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. It's not a crime if we do it (to nurses) with an app (permalink) If I could abolish one piece of received wisdom about tech policy, it would be this: "Tech moves at the speed of innovation and regulation moves at the speed of government, so…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new short story from Jeff VanderMeer (Annihilation,...]]></title>
-        <id>https://kottke.org/26/04/0048782-new-short-story-from-jeff</id>
-        <link href="https://kottke.org/26/04/0048782-new-short-story-from-jeff"/>
-        <updated>2026-04-22T15:17:54.000Z</updated>
-        <summary type="html"><![CDATA[A new short story from Jeff VanderMeer (Annihilation, etc.) called Constellations about a mission that has crash-landed on a distant planet.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots]]></title>
-        <id>https://www.quantamagazine.org/?p=161167</id>
-        <link href="https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422/"/>
-        <updated>2026-04-22T14:49:47.000Z</updated>
-        <summary type="html"><![CDATA[With a newly discovered mathematical tool, researchers are hoping to gain unprecedented insight into the structure of complex knots.            
-The post A Powerful New ‘QR Code’ Untangles Math’s Knottiest Knots first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Erica Klarreich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finally! The Trailer for the Coyote vs. ACME Movie.]]></title>
-        <id>https://kottke.org/26/04/finally-the-trailer-for-the-coyote-vs-acme-movie</id>
-        <link href="https://kottke.org/26/04/finally-the-trailer-for-the-coyote-vs-acme-movie"/>
-        <updated>2026-04-22T14:25:00.000Z</updated>
-        <summary type="html"><![CDATA[We thought this day would never come. But we kept the faith and now we can begin to reap the rewards: there is actually a trailer for the Coyote vs. ACME movie and the movie itself is actually coming out on Aug 28.
-Quick recap of the situation so far: Ian Frazier wrote a story for the New Yorker in 1990 about an imagined lawsuit brought by Wile E. Coyote against the Acme Company. Fast forward to 2022-23: James Gunn, Dave Green, Will Forte, and others make a movie based on the NYer article…and then Warner Bros. shelves the movie to take a tax write-off. Like, they are going to destroy the completed film. And now, somehow, miraculously, Warner seems to have finally done the right thing and sold the rights to the film so it can be released (which is theoretically the primary reason for their business, releasing movies).
-
- 
-
-        
-         
-Tags: business · Coyote Vs. Acme · movies · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Well, here it is at last: the new Boards of Canada album...]]></title>
-        <id>https://kottke.org/26/04/0048785-well-here-it-is-at</id>
-        <link href="https://kottke.org/26/04/0048785-well-here-it-is-at"/>
-        <updated>2026-04-22T14:10:59.000Z</updated>
-        <summary type="html"><![CDATA[Well, here it is at last: the new Boards of Canada album is called Inferno and it will be released on May 28. Pre-order or pre-save the album.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jamelle Bouie on the truly unprecedented open corruption...]]></title>
-        <id>https://kottke.org/26/04/0048783-jamelle-bouie-on-the-trul</id>
-        <link href="https://kottke.org/26/04/0048783-jamelle-bouie-on-the-trul"/>
-        <updated>2026-04-22T13:41:09.000Z</updated>
-        <summary type="html"><![CDATA[Jamelle Bouie on the truly unprecedented open corruption of the Trump regime. I’ve found it useful to think of DJT’s 2nd term primarily as a heist: a theft of money & power from the American people by a con man who finally found the perfect score.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
