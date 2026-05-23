@@ -2389,26 +2389,6 @@
           "wordCount": 763,
           "title": "If you want to surf elsewhere in the galaxy,  it...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/traitors-to-the-project-of-patriarchy",
-          "author": null,
-          "description": "On a recent mini-episode of the Becoming the People podcast, Prentis Hemphill talked about traitors to the patriarchy. Here’s a short excerpt:\n\nI only want to spend time with men who are traitors to that project, the project of patriarchy and patriarchal violence. I want to hang out with traitors and snitches and betrayers of that system. If you do not actively identify as a traitors to that system, if you don’t actively have receipts, I don’t think that a lot of people should necessarily believe that they can invest time in in you.\n\n\t\nHere’s the full episode (which you can also listen to on Apple Podcasts):\n\n(via @rebeccawooolf)\n\n \n\n        \n         \nTags: Prentis Hemphill · video",
-          "link": "https://kottke.org/26/04/traitors-to-the-project-of-patriarchy",
-          "publishedOn": "2026-04-23T13:55:00.000Z",
-          "wordCount": 825,
-          "title": "Traitors to the Project of Patriarchy",
-          "imageUrl": "https://i.ytimg.com/vi/62WLRzUuYeI/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048793-i-love-the-chutzpah-of",
-          "author": null,
-          "description": "I love the chutzpah of this: all 35 of Shakespeare’s plays ranked. Romeo & Juliet didn’t crack the top 20 but Macbeth, Hamlet, and Twelfth Night made the top 5. Worth it for the old photos of productions feat. Ralph Fiennes, Judi Dench, Brian Cox…",
-          "link": "https://kottke.org/26/04/0048793-i-love-the-chutzpah-of",
-          "publishedOn": "2026-04-23T13:13:29.000Z",
-          "wordCount": 788,
-          "title": "I love the chutzpah of this:  all 35 of...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2707,16 +2687,6 @@
           "publishedOn": "2026-04-24T12:50:06.000Z",
           "wordCount": 3191,
           "title": "Pluralistic: A free, open visual identity for enshittification (24 Apr 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12722",
-          "author": "Cory Doctorow",
-          "description": "Today's links The (other) problem with automatic conversion of free software to proprietary software: You can't add ANY license to a public domain work. Hey look at this: Delights to delectate. Object permanence: Pimp My Snack; Abandoned Soviet missile silo full of cash; MPAA v 'democratizing culture'; 3,000 page garbage Kindle books; London's lost postal tunnels; Internet voting is stupid; Congress lobotomized itself; GWB v 'truth in politics'; Trump's FTC x tariff profiteering. Upcoming appearances: San Francisco, London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The (other) problem with automatic conversion of f…",
-          "link": "https://pluralistic.net/2026/04/23/poison-pill/",
-          "publishedOn": "2026-04-23T12:25:06.000Z",
-          "wordCount": 3977,
-          "title": "Pluralistic: The (other) problem with automatic conversion of free software to proprietary software (23 Apr 2026)",
           "imageUrl": null
         }
       ]
@@ -3187,22 +3157,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!crNt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60399a1a-1021-4205-a44f-95dc18953c65_2000x2667.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/crimes-against-yourself",
-          "author": "Blackbird Spyplane",
-          "description": "Plus rare underwear returns comet-like, abundant Cool Clothes intel & more",
-          "link": "https://www.blackbirdspyplane.com/p/crimes-against-yourself",
-          "publishedOn": "2026-04-23T11:01:44.000Z",
-          "wordCount": null,
-          "title": "Crimes against yourself",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!NtBo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a7301f8-8a49-49fb-b5d0-09b78f7128f5_2000x2342.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!NtBo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a7301f8-8a49-49fb-b5d0-09b78f7128f5_2000x2342.png"
         }
       ]
     },
@@ -3367,6 +3321,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone\">The memory shortage is causing a repricing of consumer electronics</a></strong></p>\nDavid Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly more expensive over the next few years.</p>\n<p>The short version is that memory manufacturers - of which there are just three remaining large companies - have a fixed capacity in terms of how many wafers they can process at any one time. This fixed wafer capacity is then split between DDR - used in desktops and servers, LPDDR - used in mobile phones and low-energy devices, and HBM - used with GPUs.</p>\n<p>Until recently, HBM got just 2% of that wafer allocation. The enormous growth in AI data centers has pushed that up to an expected 20% by the end of 2026, and \"a single gigabyte of HBM consumes more than three times the wafer capacity that a gigabyte of DDR or LPDDR does\".</p>\n<p>Memory companies have learned from the extinction of their rivals that you should always under-provision rather than over-provision your fabricator capacity. The profit margins and demand for HBM (high-bandwidth memory) will constrain the production of consumer-device RAM for several years.</p>\n<p>This is already being felt in the sub-$100 smartphone market, which is particularly important to markets like Africa and South Asia.</p>\n<p>(The original title of the piece was \"AI is killing the cheap smartphone\" but I'm using the Hacker News rephrased title, which I think does more justice to the content.)\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48229319\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/memory\">memory</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
+          "link": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+          "publishedOn": "2026-05-22T22:01:31.000Z",
+          "wordCount": 966,
+          "title": "The memory shortage is causing a repricing of consumer electronics",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
           "author": null,
@@ -4295,16 +4259,6 @@
           "publishedOn": "2026-04-23T19:22:29.000Z",
           "wordCount": 732,
           "title": "llm-openai-via-codex 0.1a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://maggieappleton.com/gathering-structures\"><p>[...] if you ever needed another reason to <a href=\"https://www.swyx.io/learn-in-public\">learn in public</a> by <a href=\"https://maggieappleton.com/garden-history\">digital gardening</a> or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have no right to be there. A+ side benefit.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://maggieappleton.com/gathering-structures\">Maggie Appleton</a>, Gathering Structures (<a href=\"https://notes.andymatuschak.org/Work_with_the_garage_door_up\">via</a>)</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/blogging\">blogging</a>, <a href=\"https://simonwillison.net/tags/maggie-appleton\">maggie-appleton</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
-          "publishedOn": "2026-04-23T13:35:37.000Z",
-          "wordCount": 746,
-          "title": "Quoting Maggie Appleton",
           "imageUrl": null
         }
       ]
