@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-24T16:58:48.803Z</updated>
+    <updated>2026-05-24T20:54:04.667Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Armin Ronacher]]></title>
+        <id>https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything"/>
+        <updated>2026-05-24T18:46:53.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://lucumr.pocoo.org/2026/5/24/pi-oss/"><p>The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...]</p>
+<p>So at least personally, I increasingly want issue reports to be condensed to what the human actually observed:</p>
+<ol>
+<li>I ran this command.</li>
+<li>I expected this to happen.</li>
+<li>This happened instead.</li>
+<li>Here is the exact error or log.</li>
+</ol></blockquote>
+<p class="cite">&mdash; <a href="https://lucumr.pocoo.org/2026/5/24/pi-oss/">Armin Ronacher</a>, on slop issues filed against <a href="https://pi.dev/">Pi</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/github-issues">github-issues</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/armin-ronacher">armin-ronacher</a>, <a href="https://simonwillison.net/tags/pi">pi</a>, <a href="https://simonwillison.net/tags/slop">slop</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mad House — Usborne Creepy Computer Games]]></title>
+        <id>https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything"/>
+        <updated>2026-05-24T17:14:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/usborne-mad-house">Mad House — Usborne Creepy Computer Games</a></p>
+        <p>Via <a href="https://news.ycombinator.com/item?id=48258194">Hacker News</a> I learned that UK publisher Usborne published <a href="https://usborne.com/us/books/computer-and-coding-books">free PDFs of their 1980s Computer Books</a>, some of which I remember working through on my Commodore 64 as a child.</p>
+<p>These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine.</p>
+<p>I remember playing "Mad House" typed in from the book "Creepy Computer Games", so I fed that PDF <a href="https://claude.ai/share/7b4a5617-f586-4744-b082-1650cab607cb">into Claude</a> and had it build an interactive version of that game in JavaScript and HTML:</p>
+<blockquote>
+<p><code>Build a vanilla JS artifact that exactly recreates the game Mad House from this book, make sure it's mobile friendly and has a suitable retro aesthetic</code></p>
+<p><code>Credit the book title and link to https://usborne.com/us/books/computer-and-coding-books</code></p>
+</blockquote>
+<p><img alt="Screenshot of a retro green-on-black terminal-style game interface titled &quot;MAD HOUSE — A REAL NIGHTMARE —&quot; with a REC indicator, FOOTSTEPS 240, DOORS counter, three rows of ASCII corridors made of asterisks with &quot;&gt;&quot; and &quot;&lt;&quot; door markers, &quot;PRESS START TO BEGIN&quot; text, NEAR DOOR controls (X and C) and FAR DOOR controls (N and M), and a &quot;▶ START / RESTART&quot; button at the bottom." src="https://static.simonwillison.net/static/2026/mad-house.jpg" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/computer-history">computer-history</a>, <a href="https://simonwillison.net/tags/games">games</a>, <a href="https://simonwillison.net/tags/tools">tools</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The skeleton library ⊗ Could humans become “Sun-eaters”?]]></title>
         <id>6a10d7e3d3dd4d0001ef2011</id>
