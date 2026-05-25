@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-25T14:50:22.824Z</updated>
+    <updated>2026-05-25T17:42:17.493Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[THE VISIONARIES, Wolfram Eilenberger]]></title>
+        <id>https://warrenellis.ltd/?p=18404</id>
+        <link href="https://warrenellis.ltd/books/the-visionaries-wolfram-eilenberger/"/>
+        <updated>2026-05-25T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After all, one did not write a book for other people. Any more than one wrote it for an already existing self. One wrote it,…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: No honor among (ad-tech) thieves (25 May 2026)]]></title>
         <id>https://pluralistic.net/?p=12837</id>
