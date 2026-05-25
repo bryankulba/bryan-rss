@@ -35,6 +35,90 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/24/datasette/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-24T23:52:37.000Z">2026-05-24</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/24/datasette/#atom-everything" target="_blank" rel="noopener noreferrer">datasette 1.0a30</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 1.0a30
+The big new feature in this alpha is a new customizable "Jump to..." menu, described in detail in The extensible "Jump to" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this:
+
+The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin.
+Tags: projects, datasette, annotated-release-notes</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/24/datasette/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/24/datasette/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-24T23:19:34.000Z">2026-05-24</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-agent 0.1a4</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-agent 0.1a4
+Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30, datasette-agent now presents this "Start a new agent chat" interface as part of the Jump to menu, any time you hit /:
+
+You can try this out by signing into agent.datasette.io using your GitHub account.
+Tags: datasette, datasette-agent</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-05-24T21:38:32.000Z">2026-05-24</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-fixtures 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-fixtures 0.1a0
+One of the smaller features in Datasette 1.0a30 is this:
+New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites.
+This new plugin takes advantage of that API. You can try it out using uvx without even installing Datasette like this:
+uvx --prerelease=allow \
+  --with datasette-fixtures datasette \
+  --get /fixtures/roadside_attractions.json
+Which outputs:
+{
+  "ok": true,
+  "next": null,
+  "rows": [
+    {"pk": 1, "name": "The Mystery Spot", "address": "465 Mystery Spot Road, Santa Cruz, CA 95065", "url": "https://www.mysteryspot.com/", "latitude": 37.0167, "longitude": -122.0024},
+    {"pk": 2, "name": "Winchester Mystery House", "address": "525 South Winchester Boulevard, San Jose, CA 95128", "url": "https://winchestermysteryhouse.com/", "latitude": 37.3184, "longitude": -121.9511},
+    {"pk": 3, "name": "Burlingame Museum of PEZ Memorabilia", "address": "214 California Drive, Burlingame, CA 94010", "url": null, "latitude": 37.5793, "longitude": -122.3442},
+    {"pk": 4, "name": "Bigfoot Discovery Museum", "address": "5497 Highway 9, Felton, CA 95018", "url": "https://www.bigfootdiscoveryproject.com/", "latitude": 37.0414, "longitude": -122.0725}
+  ],
+  "truncated": false
+}
+Tags: datasette, uv</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-05-24T18:46:53.000Z">2026-05-24</time>
@@ -10453,48 +10537,6 @@ Tags: text-to-image, pelican-riding-a-bicycle, ai, generative-ai, slop, chatgpt<
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/why-are-you-like-this.jpeg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-25T12:06:55.000Z">2026-04-25</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Romain Huet</a>
-          </h2>
-          <p class="feed-item__desc">Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore.
-GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer.
-
-— Romain Huet, confirming OpenAI won't release a GPT-5.5-Codex model
-Tags: generative-ai, gpt, openai, ai, llms</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12732">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-04-25T11:17:58.000Z">2026-04-25</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/04/25/machiavellian/" target="_blank" rel="noopener noreferrer">Pluralistic: Ada Palmer&#x27;s &quot;Inventing the Renaissance&quot; (25 Apr 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Ada Palmer's "Inventing the Renaissance": A tour-de-force, a magnum opus, a work of utter brilliance. Hey look at this: Delights to delectate. Object permanence: Gloating about the dot-bomb; RIAA sues PC-less family; John Deere v infosec; Foxconn v Wisconsin; Copyfraud x torturers' reputations; "Careless People." Upcoming appearances: London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Ada Palmer's "Inventing the Renaissance" (permalink) Ada Palmer may just be the most bewilderingly talented person I know: a genius sf writer, incredible librettist and singer, wildly innovative educator, and a leading hi…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12732" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12732">Mark read</button>
-            <span class="feed-item__reading-time">11 min read</span>
-          </div>
         </div>
       </div>
     </article>

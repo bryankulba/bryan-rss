@@ -2488,16 +2488,6 @@
           "wordCount": 3528,
           "title": "Pluralistic: The enshittification multiverse (27 Apr 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12732",
-          "author": "Cory Doctorow",
-          "description": "Today's links Ada Palmer's \"Inventing the Renaissance\": A tour-de-force, a magnum opus, a work of utter brilliance. Hey look at this: Delights to delectate. Object permanence: Gloating about the dot-bomb; RIAA sues PC-less family; John Deere v infosec; Foxconn v Wisconsin; Copyfraud x torturers' reputations; \"Careless People.\" Upcoming appearances: London, Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Ada Palmer's \"Inventing the Renaissance\" (permalink) Ada Palmer may just be the most bewilderingly talented person I know: a genius sf writer, incredible librettist and singer, wildly innovative educator, and a leading hi…",
-          "link": "https://pluralistic.net/2026/04/25/machiavellian/",
-          "publishedOn": "2026-04-25T11:17:58.000Z",
-          "wordCount": 3399,
-          "title": "Pluralistic: Ada Palmer's \"Inventing the Renaissance\" (25 Apr 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -3131,6 +3121,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a30\">datasette 1.0a30</a></p>\n        <p>The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in <a href=\"https://datasette.io/blog/2026/jump-menu/\">The extensible \"Jump to\" menu in Datasette 1.0a30</a> on the Datasette blog. You can try it out by hitting <code>/</code> on <a href=\"https://latest.datasette.io/\">latest.datasette.io</a> - it looks like this:</p>\n<p><img alt=\"Animated demo - the Jump to menu appears, and as the user types it filters to specific databases and tables and debug options\" src=\"https://static.simonwillison.net/static/2026/menu.gif\" /></p>\n<p>The new <a href=\"https://docs.datasette.io/en/latest/plugin_hooks.html#jump-items-sql-datasette-actor-request\">jump_items_sql()</a> plugin hook allows plugins to add their own items to the set that's searched by the plugin.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a></p>",
+          "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+          "publishedOn": "2026-05-24T23:52:37.000Z",
+          "wordCount": 786,
+          "title": "datasette 1.0a30",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a4\">datasette-agent 0.1a4</a></p>\n        <p>Taking advantage of the new <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-makejumpsections\">makeJumpSections()</a> JavaScript plugin hook added in <a href=\"https://docs.datasette.io/en/latest/changelog.html#a30-2026-05-24\">Datasette 1.0a30</a>, <code>datasette-agent</code> now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit <code>/</code>:</p>\n<p><img alt=\"Animated demo - this time the demo starts on agent.datasette.io and when the menu opens it has a new Start chat box below the search box - entering 'count entries' and hitting the button causes it to start an agent conversation that counts the number of entries and returns 3300.\" src=\"https://static.simonwillison.net/static/2026/menu-agent.gif\" /></p>\n<p>You can try this out by signing into <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> using your GitHub account.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+          "publishedOn": "2026-05-24T23:19:34.000Z",
+          "wordCount": 763,
+          "title": "datasette-agent 0.1a4",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-fixtures/releases/tag/0.1a0\">datasette-fixtures 0.1a0</a></p>\n        <p>One of the smaller features in <a href=\"https://docs.datasette.io/en/latest/changelog.html#a30-2026-05-24\">Datasette 1.0a30</a> is this:</p>\n<blockquote>\n<p>New documented <a href=\"https://docs.datasette.io/en/latest/testing_plugins.html#datasette-fixtures-populate-fixture-database\">datasette.fixtures.populate_fixture_database(conn)</a> helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites.</p>\n</blockquote>\n<p>This new plugin takes advantage of that API. You can try it out using <code>uvx</code> without even installing Datasette like this:</p>\n<pre>uvx --prerelease=allow \\\n  --with datasette-fixtures datasette \\\n  --get /fixtures/roadside_attractions.json</pre>\n<p>Which outputs:</p>\n<pre>{\n  <span class=\"pl-ent\">\"ok\"</span>: <span class=\"pl-c1\">true</span>,\n  <span class=\"pl-ent\">\"next\"</span>: <span class=\"pl-c1\">null</span>,\n  <span class=\"pl-ent\">\"rows\"</span>: [\n    {<span class=\"pl-ent\">\"pk\"</span>: <span class=\"pl-c1\">1</span>, <span class=\"pl-ent\">\"name\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>The Mystery Spot<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"address\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>465 Mystery Spot Road, Santa Cruz, CA 95065<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"url\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://www.mysteryspot.com/<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"latitude\"</span>: <span class=\"pl-c1\">37.0167</span>, <span class=\"pl-ent\">\"longitude\"</span>: <span class=\"pl-c1\">-122.0024</span>},\n    {<span class=\"pl-ent\">\"pk\"</span>: <span class=\"pl-c1\">2</span>, <span class=\"pl-ent\">\"name\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Winchester Mystery House<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"address\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>525 South Winchester Boulevard, San Jose, CA 95128<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"url\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://winchestermysteryhouse.com/<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"latitude\"</span>: <span class=\"pl-c1\">37.3184</span>, <span class=\"pl-ent\">\"longitude\"</span>: <span class=\"pl-c1\">-121.9511</span>},\n    {<span class=\"pl-ent\">\"pk\"</span>: <span class=\"pl-c1\">3</span>, <span class=\"pl-ent\">\"name\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Burlingame Museum of PEZ Memorabilia<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"address\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>214 California Drive, Burlingame, CA 94010<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"url\"</span>: <span class=\"pl-c1\">null</span>, <span class=\"pl-ent\">\"latitude\"</span>: <span class=\"pl-c1\">37.5793</span>, <span class=\"pl-ent\">\"longitude\"</span>: <span class=\"pl-c1\">-122.3442</span>},\n    {<span class=\"pl-ent\">\"pk\"</span>: <span class=\"pl-c1\">4</span>, <span class=\"pl-ent\">\"name\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Bigfoot Discovery Museum<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"address\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>5497 Highway 9, Felton, CA 95018<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"url\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://www.bigfootdiscoveryproject.com/<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"latitude\"</span>: <span class=\"pl-c1\">37.0414</span>, <span class=\"pl-ent\">\"longitude\"</span>: <span class=\"pl-c1\">-122.0725</span>}\n  ],\n  <span class=\"pl-ent\">\"truncated\"</span>: <span class=\"pl-c1\">false</span>\n}</pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
+          "link": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+          "publishedOn": "2026-05-24T21:38:32.000Z",
+          "wordCount": 872,
+          "title": "datasette-fixtures 0.1a0",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
           "author": null,
@@ -3970,16 +3990,6 @@
           "wordCount": 800,
           "title": "WHY ARE YOU LIKE THIS",
           "imageUrl": "https://static.simonwillison.net/static/2026/why-are-you-like-this.jpeg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/romainhuet/status/2047955381578838357\"><p>Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore.</p>\n<p>GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/romainhuet/status/2047955381578838357\">Romain Huet</a>, confirming OpenAI won't release a GPT-5.5-Codex model</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
-          "publishedOn": "2026-04-25T12:06:55.000Z",
-          "wordCount": 729,
-          "title": "Quoting Romain Huet",
-          "imageUrl": null
         }
       ]
     },
