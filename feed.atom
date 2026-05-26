@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-26T15:20:25.939Z</updated>
+    <updated>2026-05-26T18:24:42.285Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Great title for a book:  Fascist Yoga . &#8220;Ever...]]></title>
+        <id>https://kottke.org/26/05/0049009-fascist-yoga</id>
+        <link href="https://kottke.org/26/05/0049009-fascist-yoga"/>
+        <updated>2026-05-26T17:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Great title for a book: Fascist Yoga. “Ever since, the world of yoga has been full of grifters, occultists and white supremacists, all out to exploit and recruit via the medium of exercise.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PROJECT HAIL MARY (2026)]]></title>
+        <id>https://warrenellis.ltd/?p=18407</id>
+        <link href="https://warrenellis.ltd/film/project-hail-mary-2026/"/>
+        <updated>2026-05-26T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A couple of days after it reached town, I went to see the film adaptation of Andy Weir’s novel PROJECT HAIL MARY, directed by Lord…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pinterest Has Become Unusable . &#8220;When I started...]]></title>
+        <id>https://kottke.org/26/05/0048943-pinterest-has-become-unus</id>
+        <link href="https://kottke.org/26/05/0048943-pinterest-has-become-unus"/>
+        <updated>2026-05-26T16:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Pinterest Has Become Unusable. “When I started painting again in January, I went back to Pinterest and found it overrun with AI slop. It’s continued to get worse and worse, and it’s now basically unusable.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Copilot Cowork Exfiltrates Files]]></title>
+        <id>https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything"/>
+        <updated>2026-05-26T15:36:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files">Microsoft Copilot Cowork Exfiltrates Files</a></strong></p>
+The biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data.</p>
+<p>In this case Microsoft Copilot Cowork (yes, that's <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/">a real product name</a>) was allowing agents to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images:</p>
+<blockquote>
+<p>Because these messages can contain external images that trigger network requests to external websites, data can be exfiltrated when a user opens a compromised message sent by the agent.</p>
+</blockquote>
+<p>Since OneDrive can create pre-authenticated download links, a successful prompt injection could cause those links to be leaked, allowing files to be downloaded by the attacker.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48272354">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/microsoft">microsoft</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/exfiltration-attacks">exfiltration-attacks</a>, <a href="https://simonwillison.net/tags/lethal-trifecta">lethal-trifecta</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stephen Colbert Hosts Only in Monroe]]></title>
+        <id>https://kottke.org/26/05/stephen-colbert-hosts-only-in-monroe</id>
+        <link href="https://kottke.org/26/05/stephen-colbert-hosts-only-in-monroe"/>
+        <updated>2026-05-26T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The day after ending his run on The Late Show, Stephen Colbert hosted a show called Only in Monroe on a Michigan public access channel. His musical director for the show was Jack White, nestled onstage between a boombo and a reel-to-reel recorder. His guests included Byron Allen, Jeff Daniels, Steve Buscemi, and Eminem.
+He told viewers during his final Late Show monologue that they might next find him in Monroe:
+At the top of his final CBS monologue Thursday night, Colbert paused to mark the occasion: “Tonight is our final broadcast from the Ed Sullivan Theater.”
+When the audience booed, Colbert waved them off.
+“No, no, we were lucky enough to be here for the last 11 years, all right? Can’t take this for granted,” he said. “Though technically our first show in July of 2015 was from a public access station in Monroe, Michigan for an audience of 12 people. Show business being what it is these days, that’s probably where you’ll see me next.”
+
+	
+Colbert had hosted Only in Monroe once before, about two months out from starting at The Late Show. His special guest that night was Eminem.
+Stephen Colbert? The man knows how to commit to the bit.
+
+ 
+
+        
+         
+Tags: Stephen Colbert · TV · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When Quiet Undersea Volcanoes Turn Disruptive]]></title>
+        <id>https://www.quantamagazine.org/?p=162338</id>
+        <link href="https://www.quantamagazine.org/when-quiet-undersea-volcanoes-turn-disruptive-20260526/"/>
+        <updated>2026-05-26T15:29:26.000Z</updated>
+        <summary type="html"><![CDATA[Earth’s largest volcanic system, hidden in mountain chains under the sea, has long been assumed to erupt only quietly. The shallow seafloor off Iceland tells another story.            
+The post When Quiet Undersea Volcanoes Turn Disruptive first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Evan Howell</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Paul Graham]]></title>
         <id>https://simonwillison.net/2026/May/26/paul-graham/#atom-everything</id>
@@ -163,6 +249,16 @@ Sonny Rollins: interview by Richard Cook, plus Stuart Nicholson on Saxophone Col
 <p>My prediction here looks a whole lot less insightful given the Leo XIV/Leo XIII relationship, which I was unaware of when we recorded the episode!</p>
     
         <p>Tags: <a href="https://simonwillison.net/tags/predictions">predictions</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/kakapo">kakapo</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/bryan-cantrill">bryan-cantrill</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[California Brown Pelican, Snowy Egret, California Sea Lion, Harbor Seal]]></title>
+        <id>https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything"/>
+        <updated>2026-05-25T23:08:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/666934915/large.jpg" alt="California Brown Pelican"></p><p><img src="https://static.inaturalist.org/photos/666934945/large.jpg" alt="California Brown Pelican"></p><p><img src="https://static.inaturalist.org/photos/666934484/large.jpg" alt="Snowy Egret"></p><p><img src="https://static.inaturalist.org/photos/666935110/large.jpg" alt="California Sea Lion"></p><p><img src="https://static.inaturalist.org/photos/666935468/large.jpg" alt="Harbor Seal"></p><p>California Brown Pelican, Snowy Egret, California Sea Lion, Harbor Seal, in San Mateo County, CA, US</p><p>We took our new <a href="https://www.orukayak.com/">folding kayak</a> out in the harbor and saw sea lions and harbor seals chilling on the docks.</p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
