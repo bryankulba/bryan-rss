@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-26T07:43:23.951Z</updated>
+    <updated>2026-05-26T15:20:25.939Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Paul Graham]]></title>
+        <id>https://simonwillison.net/2026/May/26/paul-graham/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/26/paul-graham/#atom-everything"/>
+        <updated>2026-05-26T15:02:30.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/paulg/status/2058844147092488401"><p>A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize something is written by AI, it's hard not to ignore it.</p>
+<p>I have never knowingly finished reading an email signed by a human but written by AI. It feels like being lied to, and who would stand for that?</p>
+<p>[<a href="https://twitter.com/paulg/status/2058863028523659390">...</a>] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me. </p>
+<p>It's not impressive to use AI to write stuff for you; any teenager can do that.</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/paulg/status/2058844147092488401">Paul Graham</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/writing">writing</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/paul-graham">paul-graham</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An unusual new-to-me animal:  the aardwolf . It&#8217;s a...]]></title>
+        <id>https://kottke.org/26/05/0049007-the-aardwolf</id>
+        <link href="https://kottke.org/26/05/0049007-the-aardwolf"/>
+        <updated>2026-05-26T14:56:00.000Z</updated>
+        <summary type="html"><![CDATA[An unusual new-to-me animal: the aardwolf. It’s a hyena but it eats insects like an aardvark. The cubs are incredibly cute.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Essential summertime reading:  Drowning Doesn’t Look Like...]]></title>
+        <id>https://kottke.org/26/05/0049006-drowning-doesnt-look-like</id>
+        <link href="https://kottke.org/26/05/0049006-drowning-doesnt-look-like"/>
+        <updated>2026-05-26T14:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Essential summertime reading: Drowning Doesn’t Look Like Drowning. “Drowning is almost always a deceptively quiet event. The waving, splashing, and yelling that dramatic conditioning (television) prepares us to look for, is rarely seen in real life.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[let go]]></title>
+        <id>https://warrenellis.ltd/?p=18411</id>
+        <link href="https://warrenellis.ltd/status/let-go/"/>
+        <updated>2026-05-26T11:33:12.000Z</updated>
+        <summary type="html"><![CDATA[Tony Cokes. Well, the heatwave is here. Today is linen trousers, thin socks and one of the 100% cotton popover tops I get from from…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12844</id>
+        <link href="https://pluralistic.net/2026/05/26/the-ai-will-continue/"/>
+        <updated>2026-05-26T09:45:37.000Z</updated>
+        <summary type="html"><![CDATA[Today's links The AI bubble isn't like the internet bubble: No one had to force-feed the web to workers. Hey look at this: Delights to delectate. Object permanence: Website graveyard; Anti-librarian witch-hunt; Denmark v Marmite; The unnecessariat. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The AI bubble isn't like the internet bubble (permalink) One of the surprise breakout software products of the early web was Lotus Notes, a kind of primitive precursor to all-in-one office productivity suites like GDocs, Office365, etc. It was so important that its creator, Ray Ozzie, was promot…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Corey Quinn]]></title>
         <id>https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything</id>
@@ -17,6 +73,21 @@
     <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/corey-quinn">corey-quinn</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sonny Rollins (7 September 1930–25 May 2026)]]></title>
+        <id>https://www.thewire.co.uk/in-writing/the-portal/sonny-rollins-7-september-1930-25-may-2026</id>
+        <link href="https://www.thewire.co.uk/in-writing/the-portal/sonny-rollins-7-september-1930-25-may-2026"/>
+        <updated>2026-05-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 18 free to read in our online library for one month, including Richard Cook’s interview, and Stuart Nicholson’s essay on the 1956 album Saxophone Colossus.
+    
+
+     
+
+Sonny Rollins: interview by Richard Cook, plus Stuart Nicholson on Saxophone Colossus]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6408,16 +6479,6 @@ Tags: astronomy · photography · science · space]]></summary>
         <summary type="html"><![CDATA[Today's links The enshittification multiverse: It's a useful analogy. Hey look at this: Delights to delectate. Object permanence: Every complex ecosystem has parasites; Prison for "attempted infringement"; When We Were Robots in Egypt; Golfing in The Blitz; Copyright vs privacy (NZ edn); GOP support for pedophile Hastert; EFF's music license; RIP Jane Jacobs; California is fanfic; DMCA v medical implants; "Burglar's Guide to the City"; Flaming river; Fantasy accounting. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The enshittification multiverse (permalink) It's official: you have my consent and …]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[At Intel]]></title>
-        <id>https://disjunctionsmag.com/articles/at-intel</id>
-        <link href="https://disjunctionsmag.com/articles/at-intel"/>
-        <updated>2026-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Organising within and against the semiconductor industry]]></summary>
-        <author>
-            <name>Disjunctions Magazine</name>
         </author>
     </entry>
 </feed>
