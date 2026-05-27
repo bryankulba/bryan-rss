@@ -2189,66 +2189,6 @@
           "wordCount": 493,
           "title": "Olúfẹ́mi O. Táíwò on magical thinking and elite impunity...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/crocheted-technology",
-          "author": null,
-          "description": "Nicole Nikolich is a textile artist whose current focus is making crochet artworks that reference old school technology. You can explore her work on her website, at Paradigm Gallery and on Instagram. Some of her artworks are available for sale here.\nI’m a sucker for these types of projects because innovations in textile production led to the development of the first computers and the work of artists like Nikolich bring that relationship full circle. See also The Embroidered Computer.\n\n \n\n        \n         \nTags: art · computing · crochet · Nicole Nikolich",
-          "link": "https://kottke.org/26/04/crocheted-technology",
-          "publishedOn": "2026-04-27T19:35:00.000Z",
-          "wordCount": 740,
-          "title": "Crocheted Technology",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1777303085-b69a416c.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048827-livestream-of-the-big-bea",
-          "author": null,
-          "description": "Livestream of the Big Bear bald eagle nest (perched 145 feet up in a pine tree) with two fuzzy bald eagle chicks that hatched 3 weeks ago.",
-          "link": "https://kottke.org/26/04/0048827-livestream-of-the-big-bea",
-          "publishedOn": "2026-04-27T18:48:00.000Z",
-          "wordCount": 780,
-          "title": "Livestream of the Big Bear bald eagle nest  (perched 145...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048826-presidents-can-be-impeach",
-          "author": null,
-          "description": "Presidents Can Be Impeached Because Benjamin Franklin Thought It Was Better Than Assassination. “The Constitution’s impeachment procedures make the removal of the chief magistrate less violent, less disruptive, and less error-prone than assassination.”",
-          "link": "https://kottke.org/26/04/0048826-presidents-can-be-impeach",
-          "publishedOn": "2026-04-27T18:20:01.000Z",
-          "wordCount": 481,
-          "title": "Presidents Can Be Impeached Because Benjamin Franklin...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048825-thoughtful-thread-on-the-",
-          "author": null,
-          "description": "Thoughtful thread on the armed man who rushed the WHCA dinner. “This guy is indicative of people who are anti Trump not having a voice because Congress and SCOTUS have enabled Trump to obliterate any recourse they have when he does horrible things.”",
-          "link": "https://kottke.org/26/04/0048825-thoughtful-thread-on-the-",
-          "publishedOn": "2026-04-27T18:01:13.000Z",
-          "wordCount": 737,
-          "title": "Thoughtful thread on the armed man who rushed the WHCA...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048819-endocrine-disrupting-chem",
-          "author": null,
-          "description": "“Endocrine-disrupting chemicals, often found in plastic, coupled with climate change’s effects…are each linked to reductions in fertility and fecundity across global species – including in humans.” Argh, no one wants a Children of Men prequel…",
-          "link": "https://kottke.org/26/04/0048819-endocrine-disrupting-chem",
-          "publishedOn": "2026-04-27T17:05:22.000Z",
-          "wordCount": 470,
-          "title": "&#8220;Endocrine-disrupting chemicals, often found in...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048815-teaser-trailer-for-season",
-          "author": null,
-          "description": "Teaser trailer for season four of Star Trek: Strange New Worlds. “Space is limitless in its beauty. And in its terror.” (Reminder: they are doing an episode with puppets this season.)",
-          "link": "https://kottke.org/26/04/0048815-teaser-trailer-for-season",
-          "publishedOn": "2026-04-27T16:03:04.000Z",
-          "wordCount": 787,
-          "title": "Teaser trailer for season four of Star Trek: Strange New...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3176,6 +3116,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/kyletrainemoji/status/2059301102814953511\"><p>PICARD: Data, shields up</p>\n<p>DATA: Brilliant! Shields can reduce damage we sustain. Not immunity. Not hubris. Just prudence. It's not precaution—it's strategy.</p>\n<p>[camera shakes]</p>\n<p>WORF: HULL BREACHES ON NINE DECKS</p>\n<p>DATA: Here's what happened: you told me to raise shields, and I didn't</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/kyletrainemoji/status/2059301102814953511\">Kyle Ferrana</a>, @KyleTrainEmoji</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
+          "publishedOn": "2026-05-27T06:41:43.000Z",
+          "wordCount": 731,
+          "title": "Quoting Kyle Ferrana",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
           "author": null,
           "description": "<p><strong><a href=\"https://daniel.haxx.se/blog/2026/05/26/the-pressure/\">The pressure</a></strong></p>\nDaniel Stenberg on the unprecedented level of pressure the <code>curl</code> team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported.</p>\n<blockquote>\n<p>The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that <strong>on average we now get more than one report per day</strong>. The quality is way higher than ever before. The reports are typically <em>very</em> detailed and long. [...]</p>\n<p>For the first time in my life, my wife voiced concerns about my work hours and my imbalanced work/life situation. I work more than I’ve done before, but the flood keeps coming. [...]</p>\n<p>This is a never-before seen or experienced pressure on the curl project and its security team members. An avalanche of high priority work that trumps all other things in the project that is primarily mental because we certainly <em>could</em> ignore them all if we wanted, but we feel a responsibility, we have a conscience and we are proud about our work.</p>\n</blockquote>\n<p>The good news is that <code>curl</code> is a very solid piece of software, so the vulnerabilities people are finding tend not to be of high severity:</p>\n<blockquote>\n<p>What is also a good trend: almost no one finds <em>terrible</em> vulnerabilities. All vulnerabilities found the last few years in curl have <em>all</em> been deemed severity LOW or MEDIUM. I'm not saying there won't be any more HIGH ever, but at least they are rare. The <a href=\"https://curl.se/docs/CVE-2023-38545.html\">most recent severity high curl CVE</a> was published in October 2023.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/dw02ye/pressure\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/curl\">curl</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/daniel-stenberg\">daniel-stenberg</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
@@ -4074,26 +4024,6 @@
           "wordCount": 1147,
           "title": "microsoft/VibeVoice",
           "imageUrl": "https://static.simonwillison.net/static/2026/vibevoice-terminal.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
-          "author": null,
-          "description": "<p>For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on <a href=\"https://openai.com/\">openai.com</a>.</p>\r\n<p>OpenAI, July 22nd 2019 in <a href=\"https://openai.com/index/microsoft-invests-in-and-partners-with-openai/\">Microsoft invests in and partners with OpenAI to support us building beneficial AGI</a> (emphasis mine):</p>\r\n<blockquote>\r\n<p>OpenAI is producing a sequence of increasingly powerful AI technologies, which requires a lot of capital for computational power. The most obvious way to cover costs is to build a product, but that would mean changing our focus. Instead, we intend to license <strong>some of our pre-AGI technologies</strong>, with Microsoft becoming our preferred partner for commercializing them.</p>\r\n</blockquote>\r\n<p>But what <em>is</em> AGI? The <a href=\"https://openai.com/charter/\">OpenAI Charter</a> was first published in April 2018 and has remained unchanged at least since this <a href=\"https://web.archive.org/web/20190311213352/https://openai.com/charter/\">March 11th 2019 archive.org capture</a>:</p>\r\n<blockquote>\r\n<p>OpenAI’s mission is to ensure that artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at most economically valuable work—benefits all of humanity.</p>\r\n</blockquote>\r\n<p>Here's the problem: if you're going to sign an agreement with Microsoft that is dependent on knowing when \"AGI\" has been achieved, you need something a little more concrete.</p>\r\n<p>In December 2024 <a href=\"https://www.theinformation.com/articles/microsoft-and-openai-wrangle-over-terms-of-their-blockbuster-partnership\">The Information reported the details</a> (summarized here outside of their paywall <a href=\"https://techcrunch.com/2024/12/26/microsoft-and-openai-have-a-financial-definition-of-agi-report/\">by TechCrunch</a>):</p>\r\n<blockquote>\r\n<p>Last year’s agreement between Microsoft and OpenAI, which hasn’t been disclosed, said AGI would be achieved only when OpenAI has developed systems that have the ability to generate the maximum total profits to which its earliest investors, including Microsoft, are entitled, according to documents OpenAI distributed to investors. Those profits total about $100 billion, the documents showed.</p>\r\n</blockquote>\r\n<p>So AGI is now whenever OpenAI's systems are capable of generating $100 billion in profit?</p>\r\n<p>In October 2025 the process changed to being judged by an \"independent expert panel\". In <a href=\"https://openai.com/index/next-chapter-of-microsoft-openai-partnership/\">The next chapter of the Microsoft–OpenAI partnership</a>:</p>\r\n<blockquote>\r\n<p>The agreement preserves key elements that have fueled this successful partnership—meaning OpenAI remains Microsoft’s frontier model partner and Microsoft continues to have exclusive IP rights and Azure API exclusivity until Artificial General Intelligence (AGI). [...]</p>\r\n<p>Once AGI is declared by OpenAI, that declaration will now be verified by an independent expert panel. [...]</p>\r\n<p>Microsoft’s IP rights to research, defined as the confidential methods used in the development of models and systems, will remain until either the expert panel verifies AGI or through 2030, whichever is first.</p>\r\n</blockquote>\r\n<p>OpenAI on February 27th, 2026 in <a href=\"https://openai.com/index/continuing-microsoft-partnership/\">Joint Statement from OpenAI and Microsoft</a>:</p>\r\n<blockquote>\r\n<p><strong>AGI definition and processes are unchanged</strong>. The contractual definition of AGI and the process for determining if it has been achieved remains the same.</p>\r\n</blockquote>\r\n<p>OpenAI today, April 27th 2026 in <a href=\"https://openai.com/index/next-phase-of-microsoft-partnership/\">The next phase of the Microsoft OpenAI partnership</a> (emphasis mine):</p>\r\n<blockquote>\r\n<ul>\r\n<li>Microsoft will continue to have a license to OpenAI IP for models and products through 2032.  Microsoft’s license will now be non-exclusive.</li>\r\n<li>Microsoft will no longer pay a revenue share to OpenAI.</li>\r\n<li>Revenue share payments from OpenAI to Microsoft continue through 2030, <strong>independent of OpenAI’s technology progress</strong>, at the same percentage but subject to a total cap.</li>\r\n</ul>\r\n</blockquote>\r\n<p>As far as I can tell \"independent of OpenAI’s technology progress\" is a declaration that the AGI clause is now dead. Here's The Verge coming to the same conclusion: <a href=\"https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract\">The AGI clause is dead</a>.</p>\r\n<p>My all-time favorite commentary on OpenAI's approach to AGI remains this 2023 hypothetical <a href=\"https://www.bloomberg.com/opinion/articles/2023-11-20/who-controls-openai\">by Matt Levine</a>:</p>\r\n<blockquote>\r\n<p>And the investors wailed and gnashed their teeth but it’s true, that is what they agreed to, and they had no legal recourse. And OpenAI’s new CEO, and its nonprofit board, cut them a check for their capped return and said “bye” and went back to running OpenAI for the benefit of humanity. It turned out that a benign, carefully governed artificial superintelligence is really good for humanity, and OpenAI quickly solved all of humanity’s problems and ushered in an age of peace and abundance in which nobody wanted for anything or needed any Microsoft products. And capitalism came to an end.</p>\r\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/computer-history\">computer-history</a>, <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
-          "publishedOn": "2026-04-27T18:38:17.000Z",
-          "wordCount": 1405,
-          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://workspaceupdates.googleblog.com/2026/04/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-devices.html\">Speech translation in Google Meet is now rolling out to mobile devices</a></strong></p>\nI just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked!</p>\n<p>This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two separate languages and Meet translates from one to the other and - with a short delay - repeats the text in your preferred language, with a rough imitation of the original speaker's voice.</p>\n<p>It can only handle English, Spanish, French, German, Portuguese, and Italian at the moment. It's also still very alpha - I ran it successfully between two laptops running web browsers, but then when I tried between an iPhone and an iPad it didn't seem to work.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/translation\">translation</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
-          "publishedOn": "2026-04-27T17:37:47.000Z",
-          "wordCount": 844,
-          "title": "Speech translation in Google Meet is now rolling out to mobile devices",
-          "imageUrl": null
         }
       ]
     },
