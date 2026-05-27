@@ -271,6 +271,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/make-way-for-beavers",
+          "author": null,
+          "description": "A Tube station in West London used to have a flooding problem. Instead of opting for an expensive reworking of the landscape via reservoir & levee, local officials reintroduced a family of beavers into the area.\nThe beavers are part of an unlikely effort to bring back a vanished species and help Britain adapt to a very modern problem: climate change.\nBritain is famous for drizzle, but climate change is making rainfall heavier and more erratic. Places that didn’t used to flood are now waterlogged. So scientists have enlisted some of the animal kingdom’s best flood engineers — beavers — to help.\nIn West London, conservationists got a government license to resettle a family of five beavers in a 20-acre urban park near the Greenford Tube station. It used to be a golf course, with a creek running through it. Within weeks, the beavers dammed up the creek, creating a pond that holds water and stops it from spilling into the city. They also diverted the creek’s flow into smaller tributaries, creating a wetland that better absorbs heavy rainfall — mitigating the risk of flooding downstream.\n“They effectively turned this site into a giant sponge that can take heavy rainfall and slowly release water back into the landscape, creating a lot more resilience for flooding,” explains Sean McCormack, a local veterinarian who started the Ealing Beaver Project, named for the London borough of Ealing, where it’s located.\n\n\t\nThe beaver-engineered landscape has attracted other animals, increasing the area’s biodiversity:\n“By felling trees, they’ve also opened up the canopy, and we’ve seen an abundance of biodiversity,” McCormack says.\nFreshwater shrimp have appeared in the creek, he says, plus eight new species of birds, two types of bats and rare brown hairstreak butterflies, which lay their eggs on blackthorn branches nibbled by beavers.\n\n \n\n        \n         \nTags: beavers · climate crisis · UK · video",
+          "link": "https://kottke.org/26/05/make-way-for-beavers",
+          "publishedOn": "2026-05-27T21:30:00.000Z",
+          "wordCount": 968,
+          "title": "Make Way for Beavers",
+          "imageUrl": "https://i.ytimg.com/vi/Wg0PVSYo4FA/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/american-wealth-sliced-up",
+          "author": null,
+          "description": "Using the Federal Reserve’s Distribution of Household Wealth in the U.S. since 1989 data, Ryan Thorpe imagines a pizza party with 100 guests and 100 slices of pizza as a stand-in for the United States:\nWe’re having a pizza party with 100 guests! Let’s divvy up the slices the way wealth is divided among American households:\n• 1 person gets 30 slices\n• 9 people get 3.7 slices each\n• 40 people get 0.75 slices each\n• 50 people get 0.05 slices each\nDig in! But watch out for “those people” trying to steal your 0.05.\n\n\t\nI checked the math and it’s not quite 100 slices…it’s ~96.1 I whipped up a pizza pie chart (embedded above) so you can visualize how much each person gets. Is this the kind of party we Americans want to attend on a daily basis?\nI imagine Thorpe rounded off some numbers for clarity. ↩\n\n\n \n\n        \n         \nTags: infoviz · pizza · Ryan Thorpe · usa · wealth",
+          "link": "https://kottke.org/26/05/american-wealth-sliced-up",
+          "publishedOn": "2026-05-27T20:20:00.000Z",
+          "wordCount": 902,
+          "title": "American Wealth, Sliced Up",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1779906389-4962fa55.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/05/0049023-scientists-have-discovere",
+          "author": null,
+          "description": "As part of the Ocean Census project, “scientists have discovered 1,121 marine species in a single year”. Discoveries include “a new species of deep-sea ghost shark, a symbiotic bristle worm…as well as corals, crabs, shrimps, sea urchins, and anemones”.",
+          "link": "https://kottke.org/26/05/0049023-scientists-have-discovere",
+          "publishedOn": "2026-05-27T19:30:00.000Z",
+          "wordCount": 761,
+          "title": "As part of the Ocean Census project,  &#8220;scientists...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/caught-in-joy-music-for-flow-rest-and-reset",
+          "author": null,
+          "description": "The moment I clicked through to the Caught In Joy YouTube channel, I knew I was going to love it. The description:\nOver 80 albums designed to focus, flow and reset. Instrumental electronic music for you brain to wander.\n\n\t\nAnd from the website:\nCaught In Joy (Karol Pokojowczyk) is a multi-instrumentalist based in Florida, passionately dedicated to live composing, hardware synthesizers, and tape recording - a completely independent music project. I strive to create four albums and visual performances every month, entirely by myself.\nI started my professional life as a software engineer and later became a serial entrepreneur, with a few successes along the way. After more than 30 years of working, I saved enough to fund my dream: building a home studio where I could finally focus fully on music.\n\n\t\n\nIn the past three years, he’s released 80+ albums and other performances, which are available for purchase on BandCamp. I’ve only had time to listen to bits and pieces of a few albums & videos, but I know a bunch of them are going into my Underscore collection very soon.1 (via johnny decimal)\nUnderscore is one of my favorite things I’ve ever built because it’s simple, it does exactly what I want, and I use it every day. ↩\n\n\n \n\n        \n         \nTags: Caught In Joy · music · video",
+          "link": "https://kottke.org/26/05/caught-in-joy-music-for-flow-rest-and-reset",
+          "publishedOn": "2026-05-27T18:34:00.000Z",
+          "wordCount": 1072,
+          "title": "Caught In Joy: Music for Flow, Rest, and Reset",
+          "imageUrl": "https://i.ytimg.com/vi/7GKxcwYeNWs/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/05/0049021-a-recent-study-of-25m-sci",
           "author": null,
           "description": "A recent study of 2.5M scientific papers found ~146,900 fake citations, presumably hallucinated by AI. The fake citations “were not limited to a handful of bad apples but appeared across many papers, each containing a small number of fake references.”",
@@ -2207,6 +2247,26 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=50647",
+          "author": "Andy Baio",
+          "description": "disturbing post on the leveraged financing of the AI infrastructure buildout from No One's Happy, a new anonymously-authored blog #",
+          "link": "https://nooneshappy.com/article/the-ai-bubble/",
+          "publishedOn": "2026-05-27T20:23:56.000Z",
+          "wordCount": 4941,
+          "title": "The AI Bubble",
+          "imageUrl": null
+        },
+        {
+          "id": "https://waxy.org/?p=50645",
+          "author": "Andy Baio",
+          "description": "no info about how the ownership change happened, though they say it will be run by the same team #",
+          "link": "https://support.last.fm/t/last-fm-is-now-independent/118591",
+          "publishedOn": "2026-05-27T20:07:58.000Z",
+          "wordCount": 688,
+          "title": "Last.fm goes independent after 19 years at CBS Interactive",
+          "imageUrl": "https://us1.discourse-cdn.com/flex021/uploads/lastfm/original/2X/f/f1f8c34ea6f18aad5b8f89905e38ba7b3424d9b1.png"
+        },
         {
           "id": "https://waxy.org/?p=50642",
           "author": "Andy Baio",
