@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-26T21:43:28.444Z</updated>
+    <updated>2026-05-27T03:34:30.772Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The pressure]]></title>
+        <id>https://simonwillison.net/2026/May/26/the-pressure/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/26/the-pressure/#atom-everything"/>
+        <updated>2026-05-26T23:48:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">The pressure</a></strong></p>
+Daniel Stenberg on the unprecedented level of pressure the <code>curl</code> team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported.</p>
+<blockquote>
+<p>The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that <strong>on average we now get more than one report per day</strong>. The quality is way higher than ever before. The reports are typically <em>very</em> detailed and long. [...]</p>
+<p>For the first time in my life, my wife voiced concerns about my work hours and my imbalanced work/life situation. I work more than I’ve done before, but the flood keeps coming. [...]</p>
+<p>This is a never-before seen or experienced pressure on the curl project and its security team members. An avalanche of high priority work that trumps all other things in the project that is primarily mental because we certainly <em>could</em> ignore them all if we wanted, but we feel a responsibility, we have a conscience and we are proud about our work.</p>
+</blockquote>
+<p>The good news is that <code>curl</code> is a very solid piece of software, so the vulnerabilities people are finding tend not to be of high severity:</p>
+<blockquote>
+<p>What is also a good trend: almost no one finds <em>terrible</em> vulnerabilities. All vulnerabilities found the last few years in curl have <em>all</em> been deemed severity LOW or MEDIUM. I'm not saying there won't be any more HIGH ever, but at least they are rare. The <a href="https://curl.se/docs/CVE-2023-38545.html">most recent severity high curl CVE</a> was published in October 2023.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://lobste.rs/s/dw02ye/pressure">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/curl">curl</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/daniel-stenberg">daniel-stenberg</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Son’s Math Homework Is Essentially Just Pokémon ....]]></title>
+        <id>https://kottke.org/26/05/0049015-my-sons-math-homework-is-</id>
+        <link href="https://kottke.org/26/05/0049015-my-sons-math-homework-is-"/>
+        <updated>2026-05-26T21:56:00.000Z</updated>
+        <summary type="html"><![CDATA[My Son’s Math Homework Is Essentially Just Pokémon. “As I watched my son play Prodigy, it became clear there wasn’t much learning happening. In about 10 minutes of gameplay, he spent less than 30 seconds answering math questions.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The first-ever Enhanced Games (open to those using...]]></title>
         <id>https://kottke.org/26/05/0049017-all-three-won-their-respe</id>
@@ -6561,77 +6596,6 @@ I just encountered this feature via a "try this out now" prompt in a Google Meet
         <summary type="html"><![CDATA[Teaser trailer for season four of Star Trek: Strange New Worlds. “Space is limitless in its beauty. And in its terror.” (Reminder: they are doing an episode with puppets this season.)]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Physicists Discover the Most Complex Forms of Ice Yet]]></title>
-        <id>https://www.quantamagazine.org/?p=161272</id>
-        <link href="https://www.quantamagazine.org/physicists-discover-the-most-complex-forms-of-ice-yet-20260427/"/>
-        <updated>2026-04-27T15:08:23.000Z</updated>
-        <summary type="html"><![CDATA[Scientists keep detecting new forms of ice. According to simulations, there could be many more left to find.            
-The post Physicists Discover the Most Complex Forms of Ice Yet first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Shalma Wegsman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sombrero Galaxy: The Universe&#8217;s Dusty Brimmed Hat]]></title>
-        <id>https://kottke.org/26/04/sombrero-galaxy-the-universes-dusty-brimmed-hat</id>
-        <link href="https://kottke.org/26/04/sombrero-galaxy-the-universes-dusty-brimmed-hat"/>
-        <updated>2026-04-27T14:59:00.000Z</updated>
-        <summary type="html"><![CDATA[An amazing capture of galaxy Messier 104, aka the Sombrero Galaxy, by the 570-megapixel Dark Energy Camera mounted on a Chilean observatory.
-The Sombrero galaxy (Messier 104) is a galactic masterpiece that captivates scientists and astronomy enthusiasts alike. Its intricate system of globular star clusters lends insight into stellar populations, and astronomers are intrigued by the supermassive black hole at its center. Its distinctive visual features and relative brightness make it a favorite among amateur astronomers. The fascinating story of its discovery, involving three esteemed astronomers, has earned it a spot on one of the most important lists of deep sky objects. Today, it stands as one of the most iconic galaxies in the night sky.
-
-	
-If you want the full image, you can download the 725 MB file from the project’s site. (via petapixel)
-
- 
-
-        
-         
-Tags: astronomy · photography · science · space]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gunfire of the Vanities: Trump Dinner Shooting Defines a...]]></title>
-        <id>https://kottke.org/26/04/0048814-gunfire-of-the-vanities-t</id>
-        <link href="https://kottke.org/26/04/0048814-gunfire-of-the-vanities-t"/>
-        <updated>2026-04-27T14:10:38.000Z</updated>
-        <summary type="html"><![CDATA[Gunfire of the Vanities: Trump Dinner Shooting Defines a Violent, Unserious America, “a land where guns are everywhere and a callous elite media dons formalwear to toast its own humiliation by our narcissist king”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daredevil Michelle Khare ran 7 marathons on 7 different...]]></title>
-        <id>https://kottke.org/26/04/0048812-daredevil-michelle-khare-</id>
-        <link href="https://kottke.org/26/04/0048812-daredevil-michelle-khare-"/>
-        <updated>2026-04-27T13:39:48.000Z</updated>
-        <summary type="html"><![CDATA[Daredevil Michelle Khare ran 7 marathons on 7 different continents in 7 days. The first one was on Antarctica.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moderna developed an mRNA Covid-flu combo vaccine and...]]></title>
-        <id>https://kottke.org/26/04/0048811-moderna-developed-an-mrna</id>
-        <link href="https://kottke.org/26/04/0048811-moderna-developed-an-mrna"/>
-        <updated>2026-04-27T13:11:07.000Z</updated>
-        <summary type="html"><![CDATA[Moderna developed an mRNA Covid-flu combo vaccine and it’s been approved for use in the EU, “but it continues to be shelved in the US, where it was developed”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[27apr26]]></title>
-        <id>https://warrenellis.ltd/?p=18269</id>
-        <link href="https://warrenellis.ltd/status/27apr26/"/>
-        <updated>2026-04-27T11:52:38.000Z</updated>
-        <summary type="html"><![CDATA[New newsletter up:]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>

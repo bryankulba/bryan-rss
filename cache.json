@@ -281,6 +281,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/0049015-my-sons-math-homework-is-",
+          "author": null,
+          "description": "My Son’s Math Homework Is Essentially Just Pokémon. “As I watched my son play Prodigy, it became clear there wasn’t much learning happening. In about 10 minutes of gameplay, he spent less than 30 seconds answering math questions.”",
+          "link": "https://kottke.org/26/05/0049015-my-sons-math-homework-is-",
+          "publishedOn": "2026-05-26T21:56:00.000Z",
+          "wordCount": 750,
+          "title": "My Son’s Math Homework Is Essentially Just Pokémon ....",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/05/0049017-all-three-won-their-respe",
           "author": null,
           "description": "The first-ever Enhanced Games (open to those using performance-enhancing drugs) featured 42 athletes, three of whom were competing clean. All three won their respective events.",
@@ -2239,46 +2249,6 @@
           "wordCount": 787,
           "title": "Teaser trailer for season four of Star Trek: Strange New...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/sombrero-galaxy-the-universes-dusty-brimmed-hat",
-          "author": null,
-          "description": "An amazing capture of galaxy Messier 104, aka the Sombrero Galaxy, by the 570-megapixel Dark Energy Camera mounted on a Chilean observatory.\nThe Sombrero galaxy (Messier 104) is a galactic masterpiece that captivates scientists and astronomy enthusiasts alike. Its intricate system of globular star clusters lends insight into stellar populations, and astronomers are intrigued by the supermassive black hole at its center. Its distinctive visual features and relative brightness make it a favorite among amateur astronomers. The fascinating story of its discovery, involving three esteemed astronomers, has earned it a spot on one of the most important lists of deep sky objects. Today, it stands as one of the most iconic galaxies in the night sky.\n\n\t\nIf you want the full image, you can download the 725 MB file from the project’s site. (via petapixel)\n\n \n\n        \n         \nTags: astronomy · photography · science · space",
-          "link": "https://kottke.org/26/04/sombrero-galaxy-the-universes-dusty-brimmed-hat",
-          "publishedOn": "2026-04-27T14:59:00.000Z",
-          "wordCount": 815,
-          "title": "Sombrero Galaxy: The Universe&#8217;s Dusty Brimmed Hat",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1777300980-6cf188be.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/04/0048814-gunfire-of-the-vanities-t",
-          "author": null,
-          "description": "Gunfire of the Vanities: Trump Dinner Shooting Defines a Violent, Unserious America, “a land where guns are everywhere and a callous elite media dons formalwear to toast its own humiliation by our narcissist king”.",
-          "link": "https://kottke.org/26/04/0048814-gunfire-of-the-vanities-t",
-          "publishedOn": "2026-04-27T14:10:38.000Z",
-          "wordCount": 496,
-          "title": "Gunfire of the Vanities: Trump Dinner Shooting Defines a...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048812-daredevil-michelle-khare-",
-          "author": null,
-          "description": "Daredevil Michelle Khare ran 7 marathons on 7 different continents in 7 days. The first one was on Antarctica.",
-          "link": "https://kottke.org/26/04/0048812-daredevil-michelle-khare-",
-          "publishedOn": "2026-04-27T13:39:48.000Z",
-          "wordCount": 833,
-          "title": "Daredevil Michelle Khare ran 7 marathons on 7 different...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048811-moderna-developed-an-mrna",
-          "author": null,
-          "description": "Moderna developed an mRNA Covid-flu combo vaccine and it’s been approved for use in the EU, “but it continues to be shelved in the US, where it was developed”.",
-          "link": "https://kottke.org/26/04/0048811-moderna-developed-an-mrna",
-          "publishedOn": "2026-04-27T13:11:07.000Z",
-          "wordCount": 477,
-          "title": "Moderna developed an mRNA Covid-flu combo vaccine and...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2771,16 +2741,6 @@
           "wordCount": 1282,
           "title": "28apr26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_1038-scaled.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18269",
-          "author": "Warren Ellis",
-          "description": "New newsletter up:",
-          "link": "https://warrenellis.ltd/status/27apr26/",
-          "publishedOn": "2026-04-27T11:52:38.000Z",
-          "wordCount": 1175,
-          "title": "27apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_1031-scaled.jpg"
         }
       ]
     },
@@ -3215,6 +3175,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://daniel.haxx.se/blog/2026/05/26/the-pressure/\">The pressure</a></strong></p>\nDaniel Stenberg on the unprecedented level of pressure the <code>curl</code> team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported.</p>\n<blockquote>\n<p>The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that <strong>on average we now get more than one report per day</strong>. The quality is way higher than ever before. The reports are typically <em>very</em> detailed and long. [...]</p>\n<p>For the first time in my life, my wife voiced concerns about my work hours and my imbalanced work/life situation. I work more than I’ve done before, but the flood keeps coming. [...]</p>\n<p>This is a never-before seen or experienced pressure on the curl project and its security team members. An avalanche of high priority work that trumps all other things in the project that is primarily mental because we certainly <em>could</em> ignore them all if we wanted, but we feel a responsibility, we have a conscience and we are proud about our work.</p>\n</blockquote>\n<p>The good news is that <code>curl</code> is a very solid piece of software, so the vulnerabilities people are finding tend not to be of high severity:</p>\n<blockquote>\n<p>What is also a good trend: almost no one finds <em>terrible</em> vulnerabilities. All vulnerabilities found the last few years in curl have <em>all</em> been deemed severity LOW or MEDIUM. I'm not saying there won't be any more HIGH ever, but at least they are rare. The <a href=\"https://curl.se/docs/CVE-2023-38545.html\">most recent severity high curl CVE</a> was published in October 2023.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/dw02ye/pressure\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/curl\">curl</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/daniel-stenberg\">daniel-stenberg</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+          "link": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+          "publishedOn": "2026-05-26T23:48:45.000Z",
+          "wordCount": 978,
+          "title": "The pressure",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
           "author": null,
@@ -4360,16 +4330,6 @@
           "wordCount": 5592,
           "title": "What Can We Gain by Losing Infinity?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Anti-Infinity-cr-Kristina-Armitage-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=161272",
-          "author": "Shalma Wegsman",
-          "description": "Scientists keep detecting new forms of ice. According to simulations, there could be many more left to find.            \nThe post Physicists Discover the Most Complex Forms of Ice Yet first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/physicists-discover-the-most-complex-forms-of-ice-yet-20260427/",
-          "publishedOn": "2026-04-27T15:08:23.000Z",
-          "wordCount": 3282,
-          "title": "Physicists Discover the Most Complex Forms of Ice Yet",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/IceXXI-cr.Richard-Drury-Social.jpg"
         }
       ]
     },
