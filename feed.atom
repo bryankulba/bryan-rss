@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-27T21:52:57.972Z</updated>
+    <updated>2026-05-28T02:53:55.449Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[sqlite AGENTS.md]]></title>
+        <id>https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything"/>
+        <updated>2026-05-27T23:44:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/sqlite/sqlite/blob/master/AGENTS.md">sqlite AGENTS.md</a></strong></p>
+SQLite gained an AGENTS.md file <a href="https://github.com/sqlite/sqlite/commit/a1e5778889252d2609a59fd9b819d70392c5789e">five days ago</a> - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It includes:</p>
+<blockquote>
+<p>SQLite does not accept pull requests without prior agreement and/or accompanying legal paperwork that places the pull request in the public domain. However, the human SQLite developers will review a concise and well-written pull request as a proof-of-concept prior to reimplementing the changes themselves.</p>
+<p>SQLite does not accept agentic code. However the project will accept agentic bug reports that include a reproducible test case. Patches or pull requests demonstrating a possible fix, for documentation purposes, are welcomed.</p>
+</blockquote>
+<p>The <a href="https://github.com/sqlite/sqlite/commit/db7fe319ed5a18dbc732ab8eacea557f41cd910f">most recent commit</a> to that file removed the word "(currently)" from "SQLite does not accept agentic code, with the commit message "Strengthen the statement about not accepting agentic code".</p>
+<p>Meanwhile the SQLite forum was being flooded with so many AI-generated bug reports - of varying quality - that they've now <a href="https://sqlite.org/forum/forumpost/2e7a8d6ba4b46d8315e80fd4a1e2feb40948dff5b7b11d5ba9cea5cb40aa252b">split those off</a> into a <a href="https://sqlite.org/bugs/forum">new SQLite Bug Forum</a>. D. Richard Hipp is resolving issues on there with a flurry of commits to the codebase.
+
+    <p><small></small>Via <a href="https://discord.com/channels/823971286308356157/1097032579812687943/1507447792598253748">Alex Garcia on the Datasette Discord</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/d-richard-hipp">d-richard-hipp</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Make Way for Beavers]]></title>
         <id>https://kottke.org/26/05/make-way-for-beavers</id>
@@ -6505,69 +6527,6 @@ Tags: Boots Riley · I Love Boosters · movies · trailers · video]]></summary>
         <summary type="html"><![CDATA[The Era of AI Malaise. “The AI has learned to code. The AI is building itself. Will I have a job tomorrow? Will the market crash? Why does OpenAI need a bunker? Do I need a bunker? Maybe I should have a bunker.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It&#8217;s the Age of Electricity and America...]]></title>
-        <id>https://kottke.org/26/04/0048835-its-the-age-of-electricit</id>
-        <link href="https://kottke.org/26/04/0048835-its-the-age-of-electricit"/>
-        <updated>2026-04-28T14:15:53.000Z</updated>
-        <summary type="html"><![CDATA[It’s the Age of Electricity and America Isn’t Ready. “Our grid is too old and our supply of electricity too small. If we don’t meet this moment, we will face an impoverished future of more expensive, less reliable energy, and slower economic growth.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Matthew Yglesias]]></title>
-        <id>https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything"/>
-        <updated>2026-04-28T13:25:29.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/mattyglesias/status/2049105745132585161"><p>Five months in, I think I've decided that I don't want to vibecode — I want professionally managed software companies to use AI coding assistance to make more/better/cheaper software products that they sell to me for money.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/mattyglesias/status/2049105745132585161">Matthew Yglesias</a></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elizabeth Kolbert&#8217;s profile of EPA head Lee Zeldin...]]></title>
-        <id>https://kottke.org/26/04/0048821-elizabeth-kolberts-profil</id>
-        <link href="https://kottke.org/26/04/0048821-elizabeth-kolberts-profil"/>
-        <updated>2026-04-28T13:15:56.000Z</updated>
-        <summary type="html"><![CDATA[Elizabeth Kolbert’s profile of EPA head Lee Zeldin. “In a little more than a year, Zeldin has transformed the E.P.A. from an agency devoted to protecting human health and the environment into one that, more or less openly, sides with polluters.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's just clothes, and the stakes are enormous]]></title>
-        <id>https://www.blackbirdspyplane.com/p/its-just-clothes-and-the-stakes-are-enormous</id>
-        <link href="https://www.blackbirdspyplane.com/p/its-just-clothes-and-the-stakes-are-enormous"/>
-        <updated>2026-04-28T11:03:34.000Z</updated>
-        <summary type="html"><![CDATA[Ornament vs. utility and the definition of Good Design]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[28apr26]]></title>
-        <id>https://warrenellis.ltd/?p=18287</id>
-        <link href="https://warrenellis.ltd/status/28apr26/"/>
-        <updated>2026-04-28T10:52:54.000Z</updated>
-        <summary type="html"><![CDATA[I hate these “recalibration” weeks where I have to reset routines, intents and diet back to zero. Headline: Scientists Say They’ve Figured Out a Way…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/815132516557209600</id>
-        <link href="https://brucesterling.tumblr.com/post/815132516557209600"/>
-        <updated>2026-04-28T10:09:05.000Z</updated>
-        <summary type="html"><![CDATA[talkie: an LM from 1930]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>

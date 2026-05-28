@@ -2219,26 +2219,6 @@
           "wordCount": 510,
           "title": "The Era of AI Malaise . &#8220;The AI has learned to...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048835-its-the-age-of-electricit",
-          "author": null,
-          "description": "It’s the Age of Electricity and America Isn’t Ready. “Our grid is too old and our supply of electricity too small. If we don’t meet this moment, we will face an impoverished future of more expensive, less reliable energy, and slower economic growth.”",
-          "link": "https://kottke.org/26/04/0048835-its-the-age-of-electricit",
-          "publishedOn": "2026-04-28T14:15:53.000Z",
-          "wordCount": 885,
-          "title": "It&#8217;s the Age of Electricity and America...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048821-elizabeth-kolberts-profil",
-          "author": null,
-          "description": "Elizabeth Kolbert’s profile of EPA head Lee Zeldin. “In a little more than a year, Zeldin has transformed the E.P.A. from an agency devoted to protecting human health and the environment into one that, more or less openly, sides with polluters.”",
-          "link": "https://kottke.org/26/04/0048821-elizabeth-kolberts-profil",
-          "publishedOn": "2026-04-28T13:15:56.000Z",
-          "wordCount": 1022,
-          "title": "Elizabeth Kolbert&#8217;s profile of EPA head Lee Zeldin...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2751,16 +2731,6 @@
           "wordCount": 1302,
           "title": "29apr26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_1034-scaled.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18287",
-          "author": "Warren Ellis",
-          "description": "I hate these “recalibration” weeks where I have to reset routines, intents and diet back to zero. Headline: Scientists Say They’ve Figured Out a Way…",
-          "link": "https://warrenellis.ltd/status/28apr26/",
-          "publishedOn": "2026-04-28T10:52:54.000Z",
-          "wordCount": 1282,
-          "title": "28apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_1038-scaled.jpg"
         }
       ]
     },
@@ -2838,16 +2808,6 @@
           "wordCount": 1509,
           "title": "Non fungible",
           "imageUrl": "https://64.media.tumblr.com/f13ba178a91360094fae879f73edb1e7/1137764444062ef9-30/s1280x1920/6ebc35df5923b24b2e0455133d8b2e9b4a7ad0ca.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/815132516557209600",
-          "author": null,
-          "description": "talkie: an LM from 1930",
-          "link": "https://brucesterling.tumblr.com/post/815132516557209600",
-          "publishedOn": "2026-04-28T10:09:05.000Z",
-          "wordCount": 1155,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/e3fc21a1494f78acc086b5f4edf04009/c350d7a5866df918-4f/s1280x1920/1ad30cc106a3125f798ead5473163a6083054215.jpg"
         }
       ]
     },
@@ -3015,22 +2975,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!_Go0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5fe379f-f4bd-4a05-a952-54883c56671e_1190x810.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/its-just-clothes-and-the-stakes-are-enormous",
-          "author": "Blackbird Spyplane",
-          "description": "Ornament vs. utility and the definition of Good Design",
-          "link": "https://www.blackbirdspyplane.com/p/its-just-clothes-and-the-stakes-are-enormous",
-          "publishedOn": "2026-04-28T11:03:34.000Z",
-          "wordCount": null,
-          "title": "It's just clothes, and the stakes are enormous",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!EhY2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1867e663-03a0-4e3f-8eef-9c9dd9a77435_1979x1355.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!EhY2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1867e663-03a0-4e3f-8eef-9c9dd9a77435_1979x1355.png"
         }
       ]
     },
@@ -3205,6 +3149,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://github.com/sqlite/sqlite/blob/master/AGENTS.md\">sqlite AGENTS.md</a></strong></p>\nSQLite gained an AGENTS.md file <a href=\"https://github.com/sqlite/sqlite/commit/a1e5778889252d2609a59fd9b819d70392c5789e\">five days ago</a> - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It includes:</p>\n<blockquote>\n<p>SQLite does not accept pull requests without prior agreement and/or accompanying legal paperwork that places the pull request in the public domain. However, the human SQLite developers will review a concise and well-written pull request as a proof-of-concept prior to reimplementing the changes themselves.</p>\n<p>SQLite does not accept agentic code. However the project will accept agentic bug reports that include a reproducible test case. Patches or pull requests demonstrating a possible fix, for documentation purposes, are welcomed.</p>\n</blockquote>\n<p>The <a href=\"https://github.com/sqlite/sqlite/commit/db7fe319ed5a18dbc732ab8eacea557f41cd910f\">most recent commit</a> to that file removed the word \"(currently)\" from \"SQLite does not accept agentic code, with the commit message \"Strengthen the statement about not accepting agentic code\".</p>\n<p>Meanwhile the SQLite forum was being flooded with so many AI-generated bug reports - of varying quality - that they've now <a href=\"https://sqlite.org/forum/forumpost/2e7a8d6ba4b46d8315e80fd4a1e2feb40948dff5b7b11d5ba9cea5cb40aa252b\">split those off</a> into a <a href=\"https://sqlite.org/bugs/forum\">new SQLite Bug Forum</a>. D. Richard Hipp is resolving issues on there with a flurry of commits to the codebase.\n\n    <p><small></small>Via <a href=\"https://discord.com/channels/823971286308356157/1097032579812687943/1507447792598253748\">Alex Garcia on the Datasette Discord</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/d-richard-hipp\">d-richard-hipp</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+          "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+          "publishedOn": "2026-05-27T23:44:37.000Z",
+          "wordCount": 902,
+          "title": "sqlite AGENTS.md",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
           "author": null,
@@ -4083,16 +4037,6 @@
           "publishedOn": "2026-04-28T22:02:53.000Z",
           "wordCount": 719,
           "title": "Quoting OpenAI Codex base_instructions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/mattyglesias/status/2049105745132585161\"><p>Five months in, I think I've decided that I don't want to vibecode — I want professionally managed software companies to use AI coding assistance to make more/better/cheaper software products that they sell to me for money.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/mattyglesias/status/2049105745132585161\">Matthew Yglesias</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything",
-          "publishedOn": "2026-04-28T13:25:29.000Z",
-          "wordCount": 719,
-          "title": "Quoting Matthew Yglesias",
           "imageUrl": null
         }
       ]
