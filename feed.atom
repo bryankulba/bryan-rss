@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-28T18:35:15.534Z</updated>
+    <updated>2026-05-28T21:54:26.929Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[From The Mandalorian and Grogu,  an extended loop of...]]></title>
+        <id>https://kottke.org/26/05/0049029-an-extended-loop-of-shaka</id>
+        <link href="https://kottke.org/26/05/0049029-an-extended-loop-of-shaka"/>
+        <updated>2026-05-28T20:34:00.000Z</updated>
+        <summary type="html"><![CDATA[From The Mandalorian and Grogu, an extended loop of Shakari, a synth-y track from composer Ludwig Göransson. See also Niamos from Andor (composed by Nicholas Britell).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Not a surprise but nice to have the data: the Federal...]]></title>
+        <id>https://kottke.org/26/05/0049033-inflation-would-be-much-l</id>
+        <link href="https://kottke.org/26/05/0049033-inflation-would-be-much-l"/>
+        <updated>2026-05-28T19:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Not a surprise but nice to have the data: the Federal Reserve calculated that inflation would be much lower without Trump’s stupid tariffs.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Backward Index]]></title>
+        <id>https://kottke.org/26/05/the-backward-index</id>
+        <link href="https://kottke.org/26/05/the-backward-index"/>
+        <updated>2026-05-28T18:38:00.000Z</updated>
+        <summary type="html"><![CDATA[How do dictionary makers keep track of similarly suffixed words, like those ending in -ism, -graphy, -ness, or -ology? With a computer, it’s simple, but how did they do it before the computing age? Starting in the 1950s, lexicographers at Merriam-Webster typed all of the words in the dictionary out backwards and organized them alphabetically into a collection called the Backward Index.
+The Backward Index evidently turned out to be a useful tool in the pre-electronic age. For example, it could help identify a set of related terms that should be defined in similar ways, including open compounds (Highland pony, Shetland pony, Welsh pony), closed compounds (blocklike, clocklike, rocklike, socklike, chalklike), and morphologically related terms (phytopathological, ethological, lithological, orn…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On The Fuel Efficiency of Launching My Enemies Into The...]]></title>
         <id>https://kottke.org/26/05/0049031-on-the-fuel-efficiency-of</id>
