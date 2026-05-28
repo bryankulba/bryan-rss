@@ -271,6 +271,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/05/0049031-on-the-fuel-efficiency-of",
+          "author": null,
+          "description": "On The Fuel Efficiency of Launching My Enemies Into The Sun. Incredibly nerdy and fun: does it require more power to eject a person from the solar system or launch them into the Sun?",
+          "link": "https://kottke.org/26/05/0049031-on-the-fuel-efficiency-of",
+          "publishedOn": "2026-05-28T18:01:00.000Z",
+          "wordCount": 860,
+          "title": "On The Fuel Efficiency of Launching My Enemies Into The...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0049026-the-rise-fall-of-petty-ty",
+          "author": null,
+          "description": "The Rise & Fall Of ‘Petty Tyrants’. “The energy required to deceive is unsustainable. Reality is relentless. The tyrant who chooses to fight it is doomed.”",
+          "link": "https://kottke.org/26/05/0049026-the-rise-fall-of-petty-ty",
+          "publishedOn": "2026-05-28T17:23:00.000Z",
+          "wordCount": 482,
+          "title": "The Rise & Fall Of ‘Petty Tyrants’ . &#8220;The energy...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/05/0049030-searching-for-the-absolut",
+          "author": null,
+          "description": "Down with -maxxing! Searching for the absolute best option isn’t always the wisest course of action. Better to make a good-enough choice so “a great deal of energy gets freed up for living, instead of being spent on wondering about how to live”.",
+          "link": "https://kottke.org/26/05/0049030-searching-for-the-absolut",
+          "publishedOn": "2026-05-28T16:33:00.000Z",
+          "wordCount": 943,
+          "title": "Down with -maxxing!  Searching for the absolute best...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/05/0049027-a-first-for-star-wars-fil",
           "author": null,
           "description": "There are no lightsabers in The Mandalorian and Grogu, a first for Star Wars films. There are also no Wilhelm screams in the movie, which is weird because I thought I heard snippets of it everywhere (even Mando’s blaster sounded a little Wilhelm-ish).",
@@ -2167,6 +2197,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=50649",
+          "author": "Andy Baio",
+          "description": "for the JavaScript sickos, a cursed crossword puzzle where every clue is an eval of its answer #",
+          "link": "https://lyra.horse/fun/jscrossword/",
+          "publishedOn": "2026-05-28T16:26:16.000Z",
+          "wordCount": 2987,
+          "title": "JS Crossword",
+          "imageUrl": "https://lyra.horse/fun/jscrossword/banner.png"
+        },
         {
           "id": "https://waxy.org/?p=50647",
           "author": "Andy Baio",
