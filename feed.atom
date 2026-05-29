@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-29T07:53:45.080Z</updated>
+    <updated>2026-05-29T14:59:33.706Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How Should a Book Sound? And What About Footnotes?...]]></title>
+        <id>https://kottke.org/26/05/0049039-how-should-a-book-sound-a</id>
+        <link href="https://kottke.org/26/05/0049039-how-should-a-book-sound-a"/>
+        <updated>2026-05-29T14:10:00.000Z</updated>
+        <summary type="html"><![CDATA[How Should a Book Sound? And What About Footnotes? Footnotes present “kind of a nasty problem for an audiobook: where do the footnotes go? There is no bottom of the page in an audiobook, obviously.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Key Chemistry Question Answered, No Quantum Computer Required]]></title>
+        <id>https://www.quantamagazine.org/?p=162533</id>
+        <link href="https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529/"/>
+        <updated>2026-05-29T13:54:11.000Z</updated>
+        <summary type="html"><![CDATA[Do we need quantum computers to fully understand complex chemical reactions? A new result, decades in the making, shows the surprising power of ordinary “classical” machines.            
+The post Key Chemistry Question Answered, No Quantum Computer Required first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Kevin Hartnett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[doommaxxing]]></title>
+        <id>https://warrenellis.ltd/?p=18436</id>
+        <link href="https://warrenellis.ltd/status/doommaxxing/"/>
+        <updated>2026-05-29T11:48:25.000Z</updated>
+        <summary type="html"><![CDATA[Doom is the prefix du jour. Doomscrolling, doomposting, doomsplaining, doomspreading, doomgooing, and doomliving dominate discourse. (Ok, I made the last two up.) Doom joins other…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Out now: new Boards of Canada album.  Get it wherever you...]]></title>
+        <id>https://kottke.org/26/05/0049038-get-it-wherever-you-buy-o</id>
+        <link href="https://kottke.org/26/05/0049038-get-it-wherever-you-buy-o"/>
+        <updated>2026-05-29T11:31:00.000Z</updated>
+        <summary type="html"><![CDATA[Out now: new Boards of Canada album. Get it wherever you buy or stream music.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette 1.0a31]]></title>
         <id>https://simonwillison.net/2026/May/29/datasette/#atom-everything</id>
@@ -321,6 +362,140 @@ The post How We See the Beautiful, Violent Sun first appeared on Quanta Magazine
         <summary type="html"><![CDATA[It was never about "tech", not least because there's no such thing as "tech". There is only people using things to do stuff, and if that is anything, then it is politics.]]></summary>
         <author>
             <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Misha Farrant presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/audio/on-air/misha-farrant-presents-adventures-in-sound-and-music-78121</id>
+        <link href="https://www.thewire.co.uk/audio/on-air/misha-farrant-presents-adventures-in-sound-and-music-78121"/>
+        <updated>2026-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire’s weekly radio show on Resonance FM and Resonance Extra featured music by Diamanda Galás, Labake Sabbath, ST AGNIS, Aho Ssan and more
+
+Tracklist
+
+Diamanda Galás
+    
+“Broken Gargoyles II Abiectio”
+    
+Broken Gargoyles
+    
+ (Intravenal Sound Operations)
+
+Labake Sabbath
+    
+“IN PAIN GOING INSANE”
+    
+METAL MADNESS
+    
+The Gate)
+
+ST AGNIS
+    
+“Exitium”
+    
+PSALM OF UNAGONY
+    
+5 GATE TEMPLE)
+
+Aho Ssan
+    
+“100 Suns Part II”
+    
+The Sun Turned Black
+    
+Subtext)
+
+Devon Rexi meets John T Gast
+    
+“Habitiat Ibiza”
+    
+Breathstep
+    
+ (Accidental Meetings)
+
+American Cream Band
+    
+“Leda And The Swan”
+    
+Twin
+    
+ (Quindi)
+
+Aphex Twin
+    
+“Goon Gumpas”
+    
+Richard D James Album
+    
+ (Warp)
+
+Cel Genesis
+    
+“In The Shadows So Blissful”
+    
+Heaven Was Never Far
+    
+ (TAR)
+
+Wounder
+    
+“Squeal Like A Pig”
+    
+Builder
+    
+ (Bandcamp)
+
+Mukqs
+    
+“Bucket Rolling Festa”
+    
+Juckport
+    
+ (Hausu Mountain)
+
+KΣITO
+    
+“Shinkai”
+    
+Jakuzure Butoh
+    
+ (Sea Cucumber)
+
+Bill Orcutt & Mabe Fratti
+    
+“The Heaven Of Our Misery”
+    
+Almost Waking
+    
+ (TAR/MM/UOH)
+
+Alison Cotton
+    
+“The Gods Laugh At Those Who Make Plans”
+    
+The Gods Laugh
+    
+ (Glitterbeat)
+
+Trigger Object
+    
+“Choking On A Crunchwrap Supreme As The World Burns”
+    
+Choking On A Crunchwrap Supreme As The World Burns
+    
+ (Accident Prone)
+
+Lucy Liyou
+    
+“Finale (Transition)!”
+    
+MR COBRA
+    
+ (Orange Milk)
+
+Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6279,66 +6454,6 @@ In states with large Black populations that remain under Republican control — 
         <summary type="html"><![CDATA[<p>A subtle sycophancy. <a href="https://www.robinsloan.com/lab/tone-control-2/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Zig project's rationale for their firm anti-AI contribution policy]]></title>
-        <id>https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything"/>
-        <updated>2026-04-30T01:24:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://ziglang.org/">Zig</a> has one of the most stringent <a href="https://ziglang.org/code-of-conduct/">anti-LLM policies</a> of any major open source project:</p>
-<blockquote>
-<p>No LLMs for issues.</p>
-<p>No LLMs for pull requests.</p>
-<p>No LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.</p>
-</blockquote>
-<p>The most prominent project written in Zig may be the <a href="https://bun.com/">Bun</a> JavaScript runtime, which was <a href="https://bun.com/blog/bun-joins-anthropic">acquired by Anthropic</a> in December 2025 and, unsurprisingly, makes heavy use of AI assistance.</p>
-<p>Bun operates its own fork of Zig, and recently <a href="https://x.com/bunjavascript/status/2048427636414923250">achieved a 4x performance improvement</a> on Bun compile after adding "parallel semantic analysis and multiple codegen units to the llvm backend". Here's <a href="https://github.com/oven-sh/zig/compare/upgrade-0.15.2%E2%80%A6upgrade-0.15.2-fast">that code</a>. But <a href="https://twitter.com/bunjavascript/status/2048428104893542781">@bunjavascript says</a>:</p>
-<blockquote>
-<p>We do not currently plan to upstream this, as Zig has a strict ban on LLM-authored contributions.</p>
-</blockquote>
-<p>In <a href="https://kristoff.it/blog/contributor-poker-and-ai/">Contributor Poker and Zig's AI Ban</a> (<a href="https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban">via Lobste.rs</a>) Zig Software Foundation VP of Community Loris Cro explains the rationale for this strict ban. It's the best articulation I've seen yet for a blanket ban on LLM-assisted contributions:</p>
-<blockquote>
-<p>In successful open source projects you eventually reach a point where you start getting more PRs than what you’re capable of processing. Given what I mentioned so far, it would make sense to stop accepting imperfect PRs in order to maximize ROI from your work, but that’s not what we do in the Zig project. Instead, <strong>we try our best to help new contributors to get their work in, even if they need some help getting there</strong>. We don’t do this just because it’s the “right” thing to do, but also <strong>because it’s the smart thing to do</strong>.</p>
-</blockquote>
-<p>Zig values contributors over their contributions. Each contributor represents an investment by the Zig core team - the primary goal of reviewing and accepting PRs isn't to land new code, it's to help grow new contributors who can become trusted and prolific over time.</p>
-<p>LLM assistance breaks that completely. It doesn't matter if the LLM helps you submit a <em>perfect</em> PR to Zig - the time the Zig team spends reviewing your work does nothing to help them add new, confident, trustworthy contributors to their overall project.</p>
-<p>Loris explains the name here:</p>
-<blockquote>
-<p>The reason I call it “contributor poker” is because, just like people say about the actual card game, “you play the person, not the cards”. In contributor poker, you bet on the contributor, not on the contents of their first PR.</p>
-</blockquote>
-<p>This makes a lot of sense to me. It relates to an idea I've seen circulating elsewhere: if a PR was mostly written by an LLM, why should a project maintainer spend time reviewing and discussing that PR as opposed to firing up their own LLM to solve the same problem?</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/zig">zig</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/bun">bun</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.32a1]]></title>
-        <id>https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything"/>
-        <updated>2026-04-29T23:52:50.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32a1">llm 0.32a1</a></p>
-    <blockquote>
-<ul>
-<li>Fixed a bug in 0.32a0 where tool-calling conversations were not correctly reinflated from SQLite. <a href="https://github.com/simonw/llm/issues/1426">#1426</a></li>
-</ul>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winners of the GDT Nature Photographer of the Year 2026 .]]></title>
-        <id>https://kottke.org/26/04/0048844-winners-of-the-gdt-nature</id>
-        <link href="https://kottke.org/26/04/0048844-winners-of-the-gdt-nature"/>
-        <updated>2026-04-29T20:55:53.000Z</updated>
-        <summary type="html"><![CDATA[Winners of the GDT Nature Photographer of the Year 2026.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
