@@ -2189,36 +2189,6 @@
           "wordCount": 899,
           "title": "I Bought Friendster for $30k — Here&#8217;s What...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048847-a-georgia-teen-diagnosed-",
-          "author": null,
-          "description": "A Georgia teen diagnosed with a rare cancer used his Make-A-Wish gift to help the homeless in his community. “I got out of my version of heck, and I want to help others who are in a similar situation, their own version.”",
-          "link": "https://kottke.org/26/04/0048847-a-georgia-teen-diagnosed-",
-          "publishedOn": "2026-04-29T14:47:57.000Z",
-          "wordCount": 806,
-          "title": "A Georgia teen diagnosed with a rare cancer  used his...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048843-the-intelligence-of-llms-",
-          "author": null,
-          "description": "The intelligence of LLMs is “a function of the social complexity of the civilization whose language it digested”, and their widespread use will lead to a thinning of that complexity, “undermining the conditions for its own advancement”. (And ours.)",
-          "link": "https://kottke.org/26/04/0048843-the-intelligence-of-llms-",
-          "publishedOn": "2026-04-29T14:10:02.000Z",
-          "wordCount": 512,
-          "title": "The intelligence of LLMs is &#8220;a function of the...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/04/0048841-teaser-trailer-for-season",
-          "author": null,
-          "description": "Teaser trailer for season four of Ted Lasso. Looks like he & Coach Beard are back in the UK to coach AFC Richmond’s women’s team. Premieres Aug 5 on Apple TV.",
-          "link": "https://kottke.org/26/04/0048841-teaser-trailer-for-season",
-          "publishedOn": "2026-04-29T13:26:10.000Z",
-          "wordCount": 783,
-          "title": "Teaser trailer for season four of Ted Lasso . Looks like...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2741,16 +2711,6 @@
           "wordCount": 1225,
           "title": "potatoes: 3may26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1103.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18291",
-          "author": "Warren Ellis",
-          "description": "Accessions: Somehow missed this one on release. Showed up on a Kindle sale. HOUSE OF DAY, HOUSE OF NIGHT, Olga Tokarczuk (UK) (US+) PREVIOUSLY: And…",
-          "link": "https://warrenellis.ltd/status/29apr26/",
-          "publishedOn": "2026-04-29T10:38:23.000Z",
-          "wordCount": 1302,
-          "title": "29apr26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/04/IMG_1034-scaled.jpg"
         }
       ]
     },
@@ -2985,22 +2945,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!ZWZi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e5fd899-fcb5-4bd2-a189-f23ab9d7503f_1190x810.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/milan-design-art-food-drink-guide-2026",
-          "author": "Blackbird Spyplane",
-          "description": "The best food, drinks, work & art at Design Week and beyond",
-          "link": "https://www.blackbirdspyplane.com/p/milan-design-art-food-drink-guide-2026",
-          "publishedOn": "2026-04-29T11:01:45.000Z",
-          "wordCount": null,
-          "title": "Wonders of Milan - Salone Special City Guide",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!_Go0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5fe379f-f4bd-4a05-a952-54883c56671e_1190x810.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!_Go0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5fe379f-f4bd-4a05-a952-54883c56671e_1190x810.png"
         }
       ]
     },
@@ -3185,6 +3129,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+          "author": null,
+          "description": "<p>The most interesting thing about <a href=\"https://www.anthropic.com/news/series-h\">Anthropic's $65B Series H announcement</a> is this line (emphasis mine):</p>\n<blockquote>\n<p>Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed <strong>$47 billion</strong> earlier this month.</p>\n</blockquote>\n<p>Anthropic have made a bit of a habit of sharing their \"run-rate revenue\" in this kind of announcement, which is an annualized projection of their current revenue - typically calculated by taking the most recent month and multiplying by 12.</p>\n<p>Earlier this year:</p>\n<ul>\n<li>Apr 6, 2026 in <a href=\"https://www.anthropic.com/news/google-broadcom-partnership-compute\">Anthropic expands partnership with Google and Broadcom</a>: \"Our run-rate revenue has now surpassed <strong>$30 billion</strong>—up from approximately <strong>$9 billion</strong> at the end of 2025.\"</li>\n<li>Feb 12, 2026 in <a href=\"https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation\">Anthropic raises $30 billion in Series G</a>: \"Today, our run-rate revenue is <strong>$14 billion</strong>, with this figure growing over 10x annually in each of those past three years.\"</li>\n</ul>\n<p>I had <a href=\"https://claude.ai/share/f52e82bd-7e09-49a5-b658-0b9999ce5a45\">Claude Opus 4.8 make me</a> this chart using <a href=\"https://matplotlib.org/\">Matplotlib</a> (Claude: \"a data line chart is more straightforward matplotlib work—not really a design piece\"):</p>\n<p><img alt=\"Line chart titled &quot;Run-rate revenue&quot; with y-axis &quot;Run-rate revenue ($bn)&quot; from $0bn to $50bn, showing four data points rising sharply: Dec 31 2025 $9bn, Feb 12 2026 $14bn, Apr 1 2026 $30bn, May 7 2026 $47bn.\" src=\"https://static.simonwillison.net/static/2026/anthropic-run-rate.png\" /></p>\n<p>Back in April <a href=\"https://www.axios.com/2026/04/13/anthropic-revenue-growth-ai\">Axios CEO Jim VandeHei wrote</a> that he could not find \"any company — in any industry, in any era — that has scaled organic revenue this quickly at this level as Anthropic\" - and that was when they were at a paltry $30 billion.</p>\n<p>(Also <a href=\"https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs\">in Axios today</a> is an anonymously sourced note that \"An AI consultant tells Axios one of their clients recently spent half a billion dollars in a single month after failing to put usage limits on Claude licenses for employees\" - times that by 12 and you get an extra $6 billion in annualized run-rate!)</p>\n<p>Ed Zitron was <a href=\"https://www.wheresyoured.at/anthropics-profitability-swindle/\">extremely skeptical of that $30 billion number</a> - I wonder if his skepticism will update for the new $47 billion figure.</p>\n<p>I've seen a few people dismiss this as untrustworthy, because the numbers come from Anthropic. That doesn't hold up: these numbers were included in announcements of their fundraises, and lying to investors who just put in $65 billion would be securities fraud. They're even less likely to lie given that the real numbers will no doubt come out in their S-1 when they file for their IPO.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+          "publishedOn": "2026-05-29T01:23:08.000Z",
+          "wordCount": 1071,
+          "title": "Anthropic's run-rate revenue hits $47 billion",
+          "imageUrl": "https://static.simonwillison.net/static/2026/anthropic-run-rate.png"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+          "author": null,
+          "description": "<p>Anthropic shipped <a href=\"https://www.anthropic.com/news/claude-opus-4-8\">Claude Opus 4.8</a> today. My favourite thing about it is this note in the release announcement:</p>\r\n<blockquote>\r\n<p>Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor. There’s still more to be done: we’re working on developing and releasing models that provide many of the same capabilities as Opus at a lower cost.</p>\r\n</blockquote>\r\n<p>It's so refreshing to see an AI lab honestly describe a release as a minor incremental improvement over the previous model!</p>\r\n<p>Honesty seems to be a theme. Here's my other favorite note from that announcement:</p>\r\n<blockquote>\r\n<p>One of the most prominent improvements in Opus 4.8 is its <em>honesty</em>. We train all our models to be honest---for instance, to avoid making claims that they can't support. But a general problem with AI models is that they sometimes jump to conclusions, confidently claiming to have made progress in their work despite the evidence being thin. Early testers report that Opus 4.8 is more likely to flag uncertainties about its work and less likely to make unsupported claims. This is borne out in <a href=\"https://www.anthropic.com/claude-opus-4-8-system-card\">our evaluations</a>, which show that Opus 4.8 is around four times less likely than its predecessor to allow flaws in code it has written to pass unremarked.</p>\r\n</blockquote>\r\n<p>That linked system card includes the following:</p>\r\n<blockquote>\r\n<p>Claude Opus 4.8 had the lowest incorrect-rate of the six models on every benchmark—the most direct measure of factual hallucination. It achieved this mainly by abstaining on questions about which it was uncertain rather than by answering more questions correctly.</p>\r\n</blockquote>\r\n<h4 id=\"model-characteristics\">Model characteristics</h4>\r\n<p>Not much has changed since 4.7.</p>\r\n<p>It's priced the same as Opus 4.5/4.6/4.7 - $5/million input and $25 per million output. \"Fast mode\" is twice that price, which is a significant reduction from their previous models - fast mode on 4.6/4.7 remains at $30/$150. Note that <a href=\"https://platform.claude.com/docs/en/build-with-claude/fast-mode\">fast mode</a> is only available to organizations that are part of the research preview, \"Contact your account manager to request access\".</p>\r\n<p>Both the reliable knowledge cutoff and the training data cutoff are January 2026, the same as for 4.7.</p>\r\n<p>The context window is still 1,000,000 tokens, and the max output is 128,000 tokens.</p>\r\n<p>The <a href=\"https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8\">What's new in Claude Opus 4.8</a> document has some of the more interesting details. These caught my eye:</p>\r\n<blockquote>\r\n<p><strong>Mid-conversation system messages</strong>. Claude Opus 4.8 accepts <code>role: \"system\"</code> messages immediately after a user turn in the <code>messages</code> array (subject to <a href=\"https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#limitations\">placement rules</a>). This lets you append updated instructions later in a long-running conversation without restating the full system prompt, which preserves <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-caching\">prompt cache</a> hits on the earlier turns and reduces input cost on agentic loops.</p>\r\n</blockquote>\r\n<p>See also <a href=\"https://github.com/anthropics/anthropic-sdk-python/commit/2b826760101664ef89db42132932f53ba97c894d#diff-a947c9c02eab58e8ddbe799a11832d533836d242e07c7251997f8543f0981f2f\">this update</a> to the Anthropic Python SDK. Being able to steer the system prompt mid-conversation sounds really powerful. I was worried this would be incompatible with the abstraction provided by my own <a href=\"https://llm.datasette.io/en/stable/python-api.html#system-prompts\">LLM library</a>, which expects a single system prompt per conversation... but it turns out my recent <a href=\"https://simonwillison.net/2026/Apr/29/llm/\">redesign</a> should handle that <a href=\"https://github.com/simonw/llm-anthropic/issues/73\">just fine</a>.</p>\r\n<blockquote>\r\n<p><strong>Lower prompt cache minimum</strong>. The minimum cacheable prompt length on Claude Opus 4.8 is 1,024 tokens, lower than on Claude Opus 4.7.</p>\r\n</blockquote>\r\n<p>I checked and 4.7's minimum <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-caching#cache-limitations\">was 4,096</a>.</p>\r\n<h4 id=\"and-some-pelicans\">And some pelicans</h4>\r\n<p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffea4f7546626d627862dc241a4e3a86a\">pelicans riding bicycles</a> for all five thinking levels, <code>low</code>, <code>medium</code>, <code>high</code>, <code>xhigh</code>, and <code>max</code>:</p>\r\n\r\n<div style=\"display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; max-width: 900px; margin: 0 auto;\">\r\n    <figure style=\"grid-column: span 2; margin: 0; text-align: center;\">\r\n        <img src=\"https://static.simonwillison.net/static/2026/claude-opus-4.8-low.png\" alt=\"Flat-style cartoon illustration of a white duck with an orange beak and legs riding a black bicycle, its feet on the pedals, against a blue sky and green grass background.\" style=\"width: 100%; height: auto; border: 1px solid #ccc;\" />\r\n        <figcaption style=\"margin-top: 0.5rem; font-family: system-ui, sans-serif; font-weight: bold;\">\r\n            <a href=\"https://gist.github.com/simonw/fea4f7546626d627862dc241a4e3a86a#response\">low</a>\r\n        </figcaption>\r\n    </figure>\r\n    <figure style=\"grid-column: span 2; margin: 0; text-align: center;\">\r\n        <img src=\"https://static.simonwillison.net/static/2026/claude-opus-4.8-medium.png\" alt=\"Flat-style illustration of a white egret or heron with an orange beak and legs riding a black bicycle, against a blue sky and green grass background.\" style=\"width: 100%; height: auto; border: 1px solid #ccc;\" />\r\n        <figcaption style=\"margin-top: 0.5rem; font-family: system-ui, sans-serif; font-weight: bold;\">\r\n            <a href=\"https://gist.github.com/simonw/fea4f7546626d627862dc241a4e3a86a#response-1\">medium</a>\r\n        </figcaption>\r\n    </figure>\r\n    <figure style=\"grid-column: span 2; margin: 0; text-align: center;\">\r\n        <img src=\"https://static.simonwillison.net/static/2026/claude-opus-4.8-high.png\" alt=\"Cartoon illustration of a white duck with an orange beak riding a black bicycle, against a light blue sky with a pale yellow sun in the upper left and a green ground line at the bottom.\" style=\"width: 100%; height: auto; border: 1px solid #ccc;\" />\r\n        <figcaption style=\"margin-top: 0.5rem; font-family: system-ui, sans-serif; font-weight: bold;\">\r\n            <a href=\"https://gist.github.com/simonw/fea4f7546626d627862dc241a4e3a86a#response-2\">high</a>\r\n        </figcaption>\r\n    </figure>\r\n    <figure style=\"grid-column: span 3; margin: 0; text-align: center;\">\r\n        <img src=\"https://static.simonwillison.net/static/2026/claude-opus-4.8-xhigh.png\" alt=\"Cartoon illustration of a white pelican with an orange beak riding a black bicycle, its orange legs extending down to the pedals, against a blue sky with a yellow sun and green ground.\" style=\"width: 100%; height: auto; border: 1px solid #ccc;\" />\r\n        <figcaption style=\"margin-top: 0.5rem; font-family: system-ui, sans-serif; font-weight: bold;\">\r\n            <a href=\"https://gist.github.com/simonw/fea4f7546626d627862dc241a4e3a86a#response-3\">xhigh</a>\r\n        </figcaption>\r\n    </figure>\r\n    <figure style=\"grid-column: span 3; margin: 0; text-align: center;\">\r\n        <img src=\"https://static.simonwillison.net/static/2026/claude-opus-4.8-max.png\" alt=\"Cartoon illustration of a white pelican with an orange beak riding a red bicycle on green grass, against a light blue sky with a fluffy white cloud and a yellow sun.\" style=\"width: 100%; height: auto; border: 1px solid #ccc;\" />\r\n        <figcaption style=\"margin-top: 0.5rem; font-family: system-ui, sans-serif; font-weight: bold;\"><a href=\"https://gist.github.com/simonw/fea4f7546626d627862dc241a4e3a86a#response-4\">max</a></figcaption>\r\n    </figure>\r\n</div>\r\n\r\n\r\n<p>This time I ran them using the <a href=\"https://llm.datasette.io/en/stable/usage.html\">LLM CLI</a>, exported the logs to Markdown and then had Claude Opus 4.8 <a href=\"https://github.com/simonw/tools/commit/71e4944766b577a327ff048cc63b739ba4cbade9\">build me</a> an HTML tool that could render that Markdown with the <code>svg</code> fenced code blocks displayed as SVGs on the page.</p>\r\n\r\n<p>(I later had GPT-5.5 xhigh in Codex <a href=\"https://gist.github.com/simonw/bb5a267f8144dfe4e92e50a014e49e98\">update that code</a> to remove any XSS holes. I'm sure Claude could have done that if I'd asked, but GPT-5.5 is my code security blanket at the moment.)</p>\r\n\r\n<p>The max one  was clearly the best, but it did take 25 input, 17,167 output tokens for a total cost of <a href=\"https://www.llm-prices.com/#it=25&amp;ot=17167&amp;ic=5&amp;oc=25&amp;sel=claude-opus-4-5\">43 cents</a>!</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+          "link": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+          "publishedOn": "2026-05-28T23:59:50.000Z",
+          "wordCount": 1380,
+          "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+          "imageUrl": "https://static.simonwillison.net/static/2026/opus-3-8-card.jpg"
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.25.1\">llm-anthropic 0.25.1</a></p>\n        <blockquote>\n<ul>\n<li>New model: <a href=\"https://www.anthropic.com/news/claude-opus-4-8\">Claude Opus 4.8</a> (<code>claude-opus-4.8</code>).</li>\n<li>New <code>-o fast 1</code> option for <a href=\"https://platform.claude.com/docs/en/build-with-claude/fast-mode\">fast mode</a>, for organizations with that feature enabled on their account.</li>\n<li>Default max_tokens for each model now defaults to that model's maximum output rather than 8,192. <a href=\"https://github.com/simonw/llm-anthropic/issues/72\">#72</a></li>\n</ul>\n</blockquote>\n<p>See also my <a href=\"https://simonwillison.net/2026/May/28/claude-opus-4-8/\">notes on Opus 4.8</a> - I used this new release of <code>llm-anthropic</code> to generate the pelicans.</p>",
+          "link": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+          "publishedOn": "2026-05-28T23:54:56.000Z",
+          "wordCount": 775,
+          "title": "llm-anthropic 0.25.1",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
           "author": null,
@@ -4290,26 +4264,6 @@
           "wordCount": 3079,
           "title": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/New-Canbrian-Fossils-cr.Han-Zeng-et.al-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=161363",
-          "author": "Gregory Barber",
-          "description": "Zermelo-Fraenkel set theory is so widely accepted that modern mathematicians hardly think about it. But believing in its core principles didn’t come easily.            \nThe post Why Math’s Final Axiom Proved So Controversial first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/why-maths-final-axiom-proved-so-controversial-20260429/",
-          "publishedOn": "2026-04-29T14:54:31.000Z",
-          "wordCount": 2788,
-          "title": "Why Math’s Final Axiom Proved So Controversial",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/ZFCExplainer-crKristinaArmitage-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=161331",
-          "author": "Gregory Barber",
-          "description": "Ultrafinitism, a philosophy that rejects the infinite, has long been dismissed as mathematical heresy. But it is also producing new insights in math and beyond.            \nThe post What Can We Gain by Losing Infinity? first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/what-can-we-gain-by-losing-infinity-20260429/",
-          "publishedOn": "2026-04-29T14:50:04.000Z",
-          "wordCount": 5592,
-          "title": "What Can We Gain by Losing Infinity?",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/04/Anti-Infinity-cr-Kristina-Armitage-Social.jpg"
         }
       ]
     },
