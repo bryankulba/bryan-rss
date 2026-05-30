@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/05/30/fedex",
+          "author": null,
+          "description": "Ok a bunch of friends have their own personal AI agent using OpenClaw or Hermes or whatever.\nConfession time: I don’t.\nI haven’t found I need one. I’m a heavy user of agents for coding, sure, and a few isolated tasks. I haven’t found I need one digging through my notes or sending emails for me.\nBut really because of two fears:\nData security. I’m cautious of something that can non-deterministically execute and get tricked into emailing confidential info or accidentally delete old photos without me noticing.\nPsychic integrity – I’ll say more about this in a bit.\nSo I’m a scaredy cat, whatever. Those concerns have kept me away. \nWell, you know, concerns go out the window when you have your back against the wall? Last weekend, that’s what happened.\nI’m shipping clocks.\nYes, finally, I know. It…",
+          "link": "https://interconnected.org/home/2026/05/30/fedex",
+          "publishedOn": "2026-05-30T15:44:00.000Z",
+          "wordCount": 1979,
+          "title": "How global logistics got me over my fear of personal agents",
+          "imageUrl": "https://interconnected.org/home/2026/05/30/fedex.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/05/20/resident",
           "author": null,
           "description": "We’re open sourcing Resident, our library for running AI-authored code on microcontrollers – with no compile step and no firmware flashing.\nIt’s our twist on vibe coding firmware, built for instantly loading new device functionality coded by end users. It’s aimed at device developers, like us. We use Resident in all our work.\n(We = Inanimate.)\nResident gives you a code sandbox on ESP32 devices and a driver API to provide hardware control and events. So an end user can push an app over Wi-Fi that instantly turns their clock into an interactive pill timer (for example) but the app can’t run probes on the home Wi-Fi network.\nIt comes bundled with a set of Claude skills. I told Claude about the capabilities of a compatible dev kit and asked it to push a simple app. Here it is:\n\nAt Inanimate, w…",
@@ -2206,16 +2216,6 @@
           "wordCount": 16,
           "title": "Number Gacha",
           "imageUrl": "/gacha/preview.png"
-        },
-        {
-          "id": "https://waxy.org/?p=50595",
-          "author": "Andy Baio",
-          "description": "We launched a permanent archive for all eight years of XOXO, along with some ridiculous merch, and we're really proud of it.",
-          "link": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
-          "publishedOn": "2026-05-01T02:27:18.000Z",
-          "wordCount": 1690,
-          "title": "Launching a permanent archive for XOXO",
-          "imageUrl": "https://waxy.org/wp-content/uploads/2026/04/image.png"
         }
       ]
     },

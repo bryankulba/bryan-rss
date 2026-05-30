@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-30T13:25:05.509Z</updated>
+    <updated>2026-05-30T17:02:09.822Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How global logistics got me over my fear of personal agents]]></title>
+        <id>https://interconnected.org/home/2026/05/30/fedex</id>
+        <link href="https://interconnected.org/home/2026/05/30/fedex"/>
+        <updated>2026-05-30T15:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Ok a bunch of friends have their own personal AI agent using OpenClaw or Hermes or whatever.
+Confession time: I don’t.
+I haven’t found I need one. I’m a heavy user of agents for coding, sure, and a few isolated tasks. I haven’t found I need one digging through my notes or sending emails for me.
+But really because of two fears:
+Data security. I’m cautious of something that can non-deterministically execute and get tricked into emailing confidential info or accidentally delete old photos without me noticing.
+Psychic integrity – I’ll say more about this in a bit.
+So I’m a scaredy cat, whatever. Those concerns have kept me away. 
+Well, you know, concerns go out the window when you have your back against the wall? Last weekend, that’s what happened.
+I’m shipping clocks.
+Yes, finally, I know. It…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[waiting for the drop]]></title>
         <id>https://warrenellis.ltd/?p=18438</id>
@@ -6380,16 +6399,6 @@ The post A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life f
         <summary type="html"><![CDATA[The Secret to Success Is ‘Monotasking’. “We find that in ­real‑world work, the more switches in attention a person makes, the lower is their end‑­of‑day assessed productivity.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launching a permanent archive for XOXO]]></title>
-        <id>https://waxy.org/?p=50595</id>
-        <link href="https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/"/>
-        <updated>2026-05-01T02:27:18.000Z</updated>
-        <summary type="html"><![CDATA[We launched a permanent archive for all eight years of XOXO, along with some ridiculous merch, and we're really proud of it.]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>
