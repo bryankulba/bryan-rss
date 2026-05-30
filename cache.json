@@ -2216,36 +2216,6 @@
           "wordCount": 1690,
           "title": "Launching a permanent archive for XOXO",
           "imageUrl": "https://waxy.org/wp-content/uploads/2026/04/image.png"
-        },
-        {
-          "id": "https://waxy.org/?p=50596",
-          "author": "Andy Baio",
-          "description": "what's the least amount of interactivity you can have in a game and still have it feel like a game? #",
-          "link": "https://www.rngdle.com/",
-          "publishedOn": "2026-04-30T20:59:54.000Z",
-          "wordCount": 82,
-          "title": "RNGdle",
-          "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=50592",
-          "author": "Andy Baio",
-          "description": "Anil Dash on Flickr Commons' enduring legacy as a home for public domain photos from institutions around the world #",
-          "link": "https://www.anildash.com/2026/04/30/artemis-photos-flickr/",
-          "publishedOn": "2026-04-30T20:50:25.000Z",
-          "wordCount": 3392,
-          "title": "Why are the Artemis II photos on Flickr?",
-          "imageUrl": "/images/nasa-flickr-moon.jpg"
-        },
-        {
-          "id": "https://waxy.org/?p=50589",
-          "author": "Andy Baio",
-          "description": "telling the time using more than 20,000 Google Street View images found around NYC #",
-          "link": "https://clock.alltext.nyc/",
-          "publishedOn": "2026-04-30T20:32:29.000Z",
-          "wordCount": 3011,
-          "title": "NYC Street Clock",
-          "imageUrl": "./nyc_clock_link_preview.png"
         }
       ]
     },
@@ -2254,6 +2224,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=12856",
+          "author": "Cory Doctorow",
+          "description": "Today's links Carneyism without Carney: Eh? Hey look at this: Delights to delectate. Object permanence: Replacing pharma patents with bounties; USTR v cheap leukemia meds; Plutocrats x wealth segregation; Anonymous Analytics; Scott Walker sells off donors; Anonymization v metadata; Probably; Amazon warehouse workers are the future of Amazon coders; Warcraft eggs; Brainwashing school; People who don't know The Onion is satire; \"Company Town\"; America is a scam. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Carneyism without Carney (permalink) The \"Third Way\" in liberal poli…",
+          "link": "https://pluralistic.net/2026/05/30/rupture/",
+          "publishedOn": "2026-05-30T09:31:41.000Z",
+          "wordCount": 3541,
+          "title": "Pluralistic: Carneyism without Carney (30 May 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=12852",
           "author": "Cory Doctorow",
@@ -2462,6 +2442,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18438",
+          "author": "Warren Ellis",
+          "description": "Will Stovall. There is, for me, a weird pleasure in taking a night to wait for an idea to drop by touring the mental terrain…",
+          "link": "https://warrenellis.ltd/status/waiting-for-the-drop/",
+          "publishedOn": "2026-05-30T11:29:14.000Z",
+          "wordCount": 1459,
+          "title": "waiting for the drop",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/image_processing20260512-2-wp64gq-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18436",
           "author": "Warren Ellis",
@@ -3911,36 +3901,6 @@
           "publishedOn": "2026-05-01T19:35:41.000Z",
           "wordCount": 876,
           "title": "iNaturalist Sightings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://github.com/openai/codex/releases/tag/rust-v0.128.0\">Codex CLI 0.128.0 adds /goal</a></strong></p>\nThe latest version of OpenAI's Codex CLI coding agent adds their own version of the <a href=\"https://ghuntley.com/ralph/\">Ralph loop</a>: you can now set a <code>/goal</code> and Codex will keep on looping until it evaluates that the goal has been completed... or the configured token budget has been exhausted.</p>\n<p>It looks like the feature is mainly implemented though the <a href=\"https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/continuation.md\">goals/continuation.md</a> and <a href=\"https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/budget_limit.md\">goals/budget_limit.md</a> prompts, which are automatically injected at the end of a turn.\n\n    <p><small></small>Via <a href=\"https://twitter.com/fcoury/status/2049917871799636201\">@fcoury</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/system-prompts\">system-prompts</a>, <a href=\"https://simonwillison.net/tags/codex-cli\">codex-cli</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
-          "publishedOn": "2026-04-30T23:23:17.000Z",
-          "wordCount": 792,
-          "title": "Codex CLI 0.128.0 adds /goal",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities\">Our evaluation of OpenAI&#x27;s GPT-5.5 cyber capabilities</a></strong></p>\nThe UK's AI Security Institute <a href=\"https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities\">previously evaluated Claude Mythos</a>: now they've evaluated GPT-5.5 for finding security vulnerability and found it to be comparable to Mythos, but unlike Mythos it's generally available right now.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
-          "publishedOn": "2026-04-30T23:03:24.000Z",
-          "wordCount": 756,
-          "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban#c_cbtxub\"><p>It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are fundamentally different than LLM hallucinations, making them easy to spot. Furthermore, people who come from the world of agentic coding have a certain <em>digital smell</em> that is not obvious to them but is obvious to those who abstain. It's like when a smoker walks into the room, everybody who doesn't smoke instantly knows it.</p>\n<p>I'm not telling you not to smoke, but I am telling you not to smoke in my house.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban#c_cbtxub\">Andrew Kelley</a>, Creator of Zig</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/zig\">zig</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-          "link": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
-          "publishedOn": "2026-04-30T21:24:55.000Z",
-          "wordCount": 791,
-          "title": "Quoting Andrew Kelley",
           "imageUrl": null
         }
       ]

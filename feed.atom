@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-30T06:44:28.161Z</updated>
+    <updated>2026-05-30T13:25:05.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[waiting for the drop]]></title>
+        <id>https://warrenellis.ltd/?p=18438</id>
+        <link href="https://warrenellis.ltd/status/waiting-for-the-drop/"/>
+        <updated>2026-05-30T11:29:14.000Z</updated>
+        <summary type="html"><![CDATA[Will Stovall. There is, for me, a weird pleasure in taking a night to wait for an idea to drop by touring the mental terrain…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Carneyism without Carney (30 May 2026)]]></title>
+        <id>https://pluralistic.net/?p=12856</id>
+        <link href="https://pluralistic.net/2026/05/30/rupture/"/>
+        <updated>2026-05-30T09:31:41.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Carneyism without Carney: Eh? Hey look at this: Delights to delectate. Object permanence: Replacing pharma patents with bounties; USTR v cheap leukemia meds; Plutocrats x wealth segregation; Anonymous Analytics; Scott Walker sells off donors; Anonymization v metadata; Probably; Amazon warehouse workers are the future of Amazon coders; Warcraft eggs; Brainwashing school; People who don't know The Onion is satire; "Company Town"; America is a scam. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Carneyism without Carney (permalink) The "Third Way" in liberal poli…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Slow blogging day today; I spent some time on the KDO...]]></title>
         <id>https://kottke.org/26/05/0049044-a-simple-list-of-links-to</id>
@@ -6368,81 +6388,6 @@ The post A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life f
         <link href="https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/"/>
         <updated>2026-05-01T02:27:18.000Z</updated>
         <summary type="html"><![CDATA[We launched a permanent archive for all eight years of XOXO, along with some ridiculous merch, and we're really proud of it.]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Codex CLI 0.128.0 adds /goal]]></title>
-        <id>https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"/>
-        <updated>2026-04-30T23:23:17.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/openai/codex/releases/tag/rust-v0.128.0">Codex CLI 0.128.0 adds /goal</a></strong></p>
-The latest version of OpenAI's Codex CLI coding agent adds their own version of the <a href="https://ghuntley.com/ralph/">Ralph loop</a>: you can now set a <code>/goal</code> and Codex will keep on looping until it evaluates that the goal has been completed... or the configured token budget has been exhausted.</p>
-<p>It looks like the feature is mainly implemented though the <a href="https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/continuation.md">goals/continuation.md</a> and <a href="https://github.com/openai/codex/blob/6014b6679ffbd92eeddffa3ad7b4402be6a7fefe/codex-rs/core/templates/goals/budget_limit.md">goals/budget_limit.md</a> prompts, which are automatically injected at the end of a turn.
-
-    <p><small></small>Via <a href="https://twitter.com/fcoury/status/2049917871799636201">@fcoury</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/prompt-engineering">prompt-engineering</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/system-prompts">system-prompts</a>, <a href="https://simonwillison.net/tags/codex-cli">codex-cli</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our evaluation of OpenAI's GPT-5.5 cyber capabilities]]></title>
-        <id>https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything"/>
-        <updated>2026-04-30T23:03:24.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities">Our evaluation of OpenAI&#x27;s GPT-5.5 cyber capabilities</a></strong></p>
-The UK's AI Security Institute <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">previously evaluated Claude Mythos</a>: now they've evaluated GPT-5.5 for finding security vulnerability and found it to be comparable to Mythos, but unlike Mythos it's generally available right now.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Andrew Kelley]]></title>
-        <id>https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything"/>
-        <updated>2026-04-30T21:24:55.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban#c_cbtxub"><p>It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are fundamentally different than LLM hallucinations, making them easy to spot. Furthermore, people who come from the world of agentic coding have a certain <em>digital smell</em> that is not obvious to them but is obvious to those who abstain. It's like when a smoker walks into the room, everybody who doesn't smoke instantly knows it.</p>
-<p>I'm not telling you not to smoke, but I am telling you not to smoke in my house.</p></blockquote>
-<p class="cite">&mdash; <a href="https://lobste.rs/s/ifcyr1/contributor_poker_zig_s_ai_ban#c_cbtxub">Andrew Kelley</a>, Creator of Zig</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/zig">zig</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RNGdle]]></title>
-        <id>https://waxy.org/?p=50596</id>
-        <link href="https://www.rngdle.com/"/>
-        <updated>2026-04-30T20:59:54.000Z</updated>
-        <summary type="html"><![CDATA[what's the least amount of interactivity you can have in a game and still have it feel like a game? #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why are the Artemis II photos on Flickr?]]></title>
-        <id>https://waxy.org/?p=50592</id>
-        <link href="https://www.anildash.com/2026/04/30/artemis-photos-flickr/"/>
-        <updated>2026-04-30T20:50:25.000Z</updated>
-        <summary type="html"><![CDATA[Anil Dash on Flickr Commons' enduring legacy as a home for public domain photos from institutions around the world #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC Street Clock]]></title>
-        <id>https://waxy.org/?p=50589</id>
-        <link href="https://clock.alltext.nyc/"/>
-        <updated>2026-04-30T20:32:29.000Z</updated>
-        <summary type="html"><![CDATA[telling the time using more than 20,000 Google Street View images found around NYC #]]></summary>
         <author>
             <name>Andy Baio</name>
         </author>
