@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-30T02:50:56.994Z</updated>
+    <updated>2026-05-30T06:44:28.161Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6445,46 +6445,6 @@ The UK's AI Security Institute <a href="https://www.aisi.gov.uk/blog/our-evaluat
         <summary type="html"><![CDATA[telling the time using more than 20,000 Google Street View images found around NYC #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We need RSS for sharing abundant vibe-coded apps]]></title>
-        <id>https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything"/>
-        <updated>2026-04-30T18:38:48.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://interconnected.org/home/2026/04/29/syndicating-vibes">We need RSS for sharing abundant vibe-coded apps</a></strong></p>
-Matt Webb:</p>
-<blockquote>
-<p>I would love an RSS web feed for all those various tools and apps pages, each item with an “Install” button. (But install to where?)</p>
-<p>The lesson here is that when vibe-coding accelerates app development, apps become more personal, more situated, and more frequent. Shipping a tool or a micro-app is less like launching a website and more like posting on a blog.</p>
-</blockquote>
-<p>This inspired me to <a href="https://github.com/simonw/simonwillisonblog/pull/665">have Claude</a> add an Atom feed (and icon) to my <a href="https://simonwillison.net/elsewhere/tool/">/elsewhere/tools/</a> page, which itself is populated by content from my <a href="https://tools.simonwillison.net/">tools.simonwillison.net</a> site.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/atom">atom</a>, <a href="https://simonwillison.net/tags/matt-webb">matt-webb</a>, <a href="https://simonwillison.net/tags/rss">rss</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Farewell, Voting Rights Act]]></title>
-        <id>https://kottke.org/26/04/farewell-voting-rights-act</id>
-        <link href="https://kottke.org/26/04/farewell-voting-rights-act"/>
-        <updated>2026-04-30T16:14:36.000Z</updated>
-        <summary type="html"><![CDATA[Adam Serwer writing about the yesterday’s Supreme Court decision that guts much of whatever remains of the Voting Rights Act:
-In states with large Black populations that remain under Republican control — half of the Black American population resides in the South — lawmakers will now be able to draw districts that dilute Black residents’ voting power. In his opinion for the right-wing majority, Justice Samuel Alito wrote that “in considering the constitutionality of a districting scheme, courts must treat partisan advantage like any other race-neutral aim: a constitutionally permissible criterion that States may rely on as desired.” The Court’s decision is consonant with the philosophy, articulated by Kilpatrick in his earlier days, that the state is oppressive when it interferes with the r…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Come on everyone, we&#8217;re going to  Cursor Camp !]]></title>
-        <id>https://kottke.org/26/04/0048852-come-on-everyone-were-goi</id>
-        <link href="https://kottke.org/26/04/0048852-come-on-everyone-were-goi"/>
-        <updated>2026-04-30T15:21:02.000Z</updated>
-        <summary type="html"><![CDATA[Come on everyone, we’re going to Cursor Camp!]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
