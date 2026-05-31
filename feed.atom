@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-31T03:35:07.593Z</updated>
+    <updated>2026-05-31T07:44:23.696Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6377,91 +6377,6 @@ The whole dashboard is fun/enlightening to explore.
         
          
 Tags: infoviz · journalism · NY Times · obituaries · Ted Alcorn]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iNaturalist Sightings]]></title>
-        <id>https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything"/>
-        <updated>2026-05-01T19:35:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/inat-sightings">iNaturalist Sightings</a></p>
-    <p>I wanted to see my <a href="https://www.inaturalist.org">iNaturalist</a> observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using Claude Code for web.</p>
-<p>I started by building an <a href="https://github.com/simonw/inaturalist-clumper">inaturalist-clumper</a> Python CLI for fetching and "clumping" observations - by default clumps use observations within 2 hours and 5km of each other.</p>
-<p>Then I setup <a href="https://github.com/simonw/inaturalist-clumps">simonw/inaturalist-clumps</a> as a <a href="https://simonwillison.net/series/git-scraping/">Git scraping</a> repository to run that tool and record the result to <a href="https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json">clumps.json</a>.</p>
-<p>That JSON file is hosted on GitHub, which means it can be fetched by JavaScript using CORS.</p>
-<p>Finally I ran this prompt against my <a href="https://github.com/simonw/tools">simonw/tools</a> repo:</p>
-<blockquote>
-<p><code>Build inat-sightings.html - an app that does a fetch() against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg small.jpg URLs for the thumbnails - with loading=lazy - but when a thumbnail is clicked showing the large.jpg in an HTML modal. Both small and large should include the common species names if available</code></p>
-</blockquote>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/inaturalist">inaturalist</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Am&#8230;am I  &#8220;alternatively influential&#8221; ?...]]></title>
-        <id>https://kottke.org/26/05/0048823-amam-i-alternatively-infl</id>
-        <link href="https://kottke.org/26/05/0048823-amam-i-alternatively-infl"/>
-        <updated>2026-05-01T19:04:25.000Z</updated>
-        <summary type="html"><![CDATA[Am…am I “alternatively influential”? Defined roughly as “public thinkers and tastemakers who have real clout in their own demesnes despite only modest internet followings”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Supreme Court Is Corrupt. This Is What We Can Do About It.]]></title>
-        <id>https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it</id>
-        <link href="https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it"/>
-        <updated>2026-05-01T18:15:00.000Z</updated>
-        <summary type="html"><![CDATA[This is excellent: Jamelle Bouie explains why he thinks the Supreme Court is corrupt and what we (through Congress) can do about it. Not all video transcripts work as text, but this one does, so I’m including his full remarks here: 
-The Supreme Court is corrupt.
-You might hear that and think, “Well, Jamelle, you just disagree with the rulings. They’re not corrupt. They’re doing their jobs.” But I want to posit to you that they’re not doing their jobs. They’re in fact doing something very different. They’re acting as a super legislature, an unelected group of people who have taken it upon themselves to correct Congress. Not when Congress has overstepped its bounds, not when Congress has overstepped its powers, but when the court simply doesn’t like what they’re doing.
-Typically when we use …]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Film That Attacks You]]></title>
-        <id>https://kottke.org/26/05/the-film-that-attacks-you</id>
-        <link href="https://kottke.org/26/05/the-film-that-attacks-you"/>
-        <updated>2026-05-01T17:15:00.000Z</updated>
-        <summary type="html"><![CDATA[For his latest video essay, Evan Puschak tells us about Un Chien Andalou, the pioneering surrealist short film by Luis Buñuel and Salvador Dalí. The film is particularly notable for a shocking shot in the opening scene, which, if you’ve seen it, you’ve likely never forgotten. Said Buñuel of the film:
-This film has no intention of attracting nor pleasing the spectator; indeed, on the contrary, it attacks him, to the degree that he belongs to a society with which surrealism is at war.
-
-	
-You can watch Un Chien Andalou on YouTube:
-
-One wonders what Buñuel and Dalí would have made of YouTube…
-
- 
-
-        
-         
-Tags: art · film school · Luis Buñuel · movies · Salvador Dali · Un Chien Andalou · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I fixed a few bugs on  the Rolodex  yesterday — some of...]]></title>
-        <id>https://kottke.org/26/05/0048855-i-fixed-a-few-bugs</id>
-        <link href="https://kottke.org/26/05/0048855-i-fixed-a-few-bugs"/>
-        <updated>2026-05-01T16:37:26.000Z</updated>
-        <summary type="html"><![CDATA[I fixed a few bugs on the Rolodex yesterday — some of the feeds weren’t updating and modifying sites wasn’t working properly. (Members get the mini-feedreader view!)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;Since 1900,  scientists have observed more than 20...]]></title>
-        <id>https://kottke.org/26/05/0048845-since-1900-scientists-hav</id>
-        <link href="https://kottke.org/26/05/0048845-since-1900-scientists-hav"/>
-        <updated>2026-05-01T15:47:54.000Z</updated>
-        <summary type="html"><![CDATA[“Since 1900, scientists have observed more than 20 phases of ice, many of them shaped under extreme conditions. The growing list includes hot ice and even ice that conducts electricity.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

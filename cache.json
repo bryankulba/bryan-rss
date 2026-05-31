@@ -2079,56 +2079,6 @@
           "wordCount": 850,
           "title": "Who Merits the Longest NY Times Obituaries?",
           "imageUrl": "http://kottke.org/plus/misc/images/editor-1777650907-6fe143ac.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048823-amam-i-alternatively-infl",
-          "author": null,
-          "description": "Am…am I “alternatively influential”? Defined roughly as “public thinkers and tastemakers who have real clout in their own demesnes despite only modest internet followings”.",
-          "link": "https://kottke.org/26/05/0048823-amam-i-alternatively-infl",
-          "publishedOn": "2026-05-01T19:04:25.000Z",
-          "wordCount": 1097,
-          "title": "Am&#8230;am I  &#8220;alternatively influential&#8221; ?...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it",
-          "author": null,
-          "description": "This is excellent: Jamelle Bouie explains why he thinks the Supreme Court is corrupt and what we (through Congress) can do about it. Not all video transcripts work as text, but this one does, so I’m including his full remarks here: \nThe Supreme Court is corrupt.\nYou might hear that and think, “Well, Jamelle, you just disagree with the rulings. They’re not corrupt. They’re doing their jobs.” But I want to posit to you that they’re not doing their jobs. They’re in fact doing something very different. They’re acting as a super legislature, an unelected group of people who have taken it upon themselves to correct Congress. Not when Congress has overstepped its bounds, not when Congress has overstepped its powers, but when the court simply doesn’t like what they’re doing.\nTypically when we use …",
-          "link": "https://kottke.org/26/05/the-supreme-court-is-corrupt-this-is-what-we-can-do-about-it",
-          "publishedOn": "2026-05-01T18:15:00.000Z",
-          "wordCount": 2512,
-          "title": "The Supreme Court Is Corrupt. This Is What We Can Do About It.",
-          "imageUrl": "https://i.ytimg.com/vi/SRzS61buXkQ/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/the-film-that-attacks-you",
-          "author": null,
-          "description": "For his latest video essay, Evan Puschak tells us about Un Chien Andalou, the pioneering surrealist short film by Luis Buñuel and Salvador Dalí. The film is particularly notable for a shocking shot in the opening scene, which, if you’ve seen it, you’ve likely never forgotten. Said Buñuel of the film:\nThis film has no intention of attracting nor pleasing the spectator; indeed, on the contrary, it attacks him, to the degree that he belongs to a society with which surrealism is at war.\n\n\t\nYou can watch Un Chien Andalou on YouTube:\n\nOne wonders what Buñuel and Dalí would have made of YouTube…\n\n \n\n        \n         \nTags: art · film school · Luis Buñuel · movies · Salvador Dali · Un Chien Andalou · video",
-          "link": "https://kottke.org/26/05/the-film-that-attacks-you",
-          "publishedOn": "2026-05-01T17:15:00.000Z",
-          "wordCount": 919,
-          "title": "The Film That Attacks You",
-          "imageUrl": "https://i.ytimg.com/vi/sj1y9FDJKCM/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048855-i-fixed-a-few-bugs",
-          "author": null,
-          "description": "I fixed a few bugs on the Rolodex yesterday — some of the feeds weren’t updating and modifying sites wasn’t working properly. (Members get the mini-feedreader view!)",
-          "link": "https://kottke.org/26/05/0048855-i-fixed-a-few-bugs",
-          "publishedOn": "2026-05-01T16:37:26.000Z",
-          "wordCount": 740,
-          "title": "I fixed a few bugs on  the Rolodex  yesterday — some of...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048845-since-1900-scientists-hav",
-          "author": null,
-          "description": "“Since 1900, scientists have observed more than 20 phases of ice, many of them shaped under extreme conditions. The growing list includes hot ice and even ice that conducts electricity.”",
-          "link": "https://kottke.org/26/05/0048845-since-1900-scientists-hav",
-          "publishedOn": "2026-05-01T15:47:54.000Z",
-          "wordCount": 751,
-          "title": "&#8220;Since 1900,  scientists have observed more than 20...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3922,16 +3872,6 @@
           "wordCount": 849,
           "title": "Sightings",
           "imageUrl": "https://static.simonwillison.net/static/2026/sightings-beats-card.jpg.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/inat-sightings\">iNaturalist Sightings</a></p>\n    <p>I wanted to see my <a href=\"https://www.inaturalist.org\">iNaturalist</a> observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using Claude Code for web.</p>\n<p>I started by building an <a href=\"https://github.com/simonw/inaturalist-clumper\">inaturalist-clumper</a> Python CLI for fetching and \"clumping\" observations - by default clumps use observations within 2 hours and 5km of each other.</p>\n<p>Then I setup <a href=\"https://github.com/simonw/inaturalist-clumps\">simonw/inaturalist-clumps</a> as a <a href=\"https://simonwillison.net/series/git-scraping/\">Git scraping</a> repository to run that tool and record the result to <a href=\"https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json\">clumps.json</a>.</p>\n<p>That JSON file is hosted on GitHub, which means it can be fetched by JavaScript using CORS.</p>\n<p>Finally I ran this prompt against my <a href=\"https://github.com/simonw/tools\">simonw/tools</a> repo:</p>\n<blockquote>\n<p><code>Build inat-sightings.html - an app that does a fetch() against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg small.jpg URLs for the thumbnails - with loading=lazy - but when a thumbnail is clicked showing the large.jpg in an HTML modal. Both small and large should include the common species names if available</code></p>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/inaturalist\">inaturalist</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
-          "publishedOn": "2026-05-01T19:35:41.000Z",
-          "wordCount": 876,
-          "title": "iNaturalist Sightings",
-          "imageUrl": null
         }
       ]
     },
