@@ -2129,26 +2129,6 @@
           "wordCount": 751,
           "title": "&#8220;Since 1900,  scientists have observed more than 20...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048833-on-the-futility-of-border",
-          "author": null,
-          "description": "On the futility of border walls. “The Ozymandian ruins of many such walls litter our ancient and modern landscapes, because for as long as humanity has built hard borders, people have inevitably found ways to cross, topple or simply bypass them.”",
-          "link": "https://kottke.org/26/05/0048833-on-the-futility-of-border",
-          "publishedOn": "2026-05-01T14:58:18.000Z",
-          "wordCount": 496,
-          "title": "On the futility of border walls . &#8220;The Ozymandian...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048854-the-secret-to-success-is",
-          "author": null,
-          "description": "The Secret to Success Is ‘Monotasking’. “We find that in ­real‑world work, the more switches in attention a person makes, the lower is their end‑­of‑day assessed productivity.”",
-          "link": "https://kottke.org/26/05/0048854-the-secret-to-success-is",
-          "publishedOn": "2026-05-01T14:23:10.000Z",
-          "wordCount": 1582,
-          "title": "The Secret to Success Is &#8216;Monotasking&#8217; ....",
-          "imageUrl": ""
         }
       ]
     },
@@ -3053,6 +3033,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/\"><p>Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/\">Karen Kwok for Reuters Breakingviews</a>, citing \"a person familiar with the matter\"</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+          "publishedOn": "2026-05-31T01:48:12.000Z",
+          "wordCount": 744,
+          "title": "Quoting Karen Kwok for Reuters Breakingviews",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.anthropic.com/engineering/how-we-contain-claude\">How we contain Claude across products</a></strong></p>\nA complaint I often have about sandboxing products is that they are rarely thoroughly <em>documented</em>, and in the absence of detailed documentation it's hard to know how much I can trust them.</p>\n<p>Anthropic just published a fantastic overview of how their various sandbox techniques work across <a href=\"https://claude.ai/\">Claude.ai</a>, Claude Code, and Cowork.</p>\n<blockquote>\n<p>We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker.</p>\n</blockquote>\n<p>Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows).</p>\n<p>There's a lot in here, including some interesting stories of risks they missed such as the <code>api.anthropic.com/v1/files</code> exfiltration vector <a href=\"https://simonwillison.net/2026/Jan/14/claude-cowork-exfiltrates-files/\">covered here previously</a>.</p>\n<p>This reminded me it's time I took another look at Anthropic's open source <a href=\"https://github.com/anthropic-experimental/sandbox-runtime\">srt (Anthropic Sandbox Runtime)</a> tool - it's mature enough know that I'm ready to give it a proper go.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a></p>",
+          "link": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+          "publishedOn": "2026-05-30T21:36:24.000Z",
+          "wordCount": 934,
+          "title": "How we contain Claude across products",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p>\n        <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p>\n<p>When I first built it <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">four years ago</a> I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app.</p>\n<p>This worked, but had the disadvantage that any JavaScript in <code>&lt;script&gt;</code> tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins.</p>\n<p>This morning I <a href=\"https://github.com/simonw/research/pull/112\">set Claude Opus 4.8 the task</a> (in Claude Code for web) of figuring out how to run Python ASGI apps in Pyodide using Service Workers instead, and it seems to work! Here's a <a href=\"https://simonw.github.io/research/pyodide-asgi-browser/\">basic ASGI FastCGI demo</a> and here's <a href=\"https://simonw.github.io/research/pyodide-asgi-browser/datasette.html\">a demo that runs Datasette 1.0a31</a>.</p>\n<p>I'm still getting my head around exactly how it works, but once I've done that I plan to upgrade Datasette Lite itself.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/asgi\">asgi</a>, <a href=\"https://simonwillison.net/tags/service-workers\">service-workers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a></p>",
+          "link": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+          "publishedOn": "2026-05-30T21:02:16.000Z",
+          "wordCount": 961,
+          "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
           "author": null,
@@ -4127,16 +4137,6 @@
           "wordCount": 3828,
           "title": "The Hidden Mathematical Dance Inside Plant Cells",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/ChloroplastPacking-crBenediktPleyer_NomadicNostoc_SciencePhotoLibrary-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=161513",
-          "author": "Marlowe Starling",
-          "description": "Remarkably preserved fossils found in southern China offer a fascinating window into what life looked like at the end of the Cambrian explosion, with half of the species uncovered being new to science.            \nThe post A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
-          "publishedOn": "2026-05-01T15:05:38.000Z",
-          "wordCount": 3079,
-          "title": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/05/New-Canbrian-Fossils-cr.Han-Zeng-et.al-Social.jpg"
         }
       ]
     },
