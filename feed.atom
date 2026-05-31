@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-31T17:04:33.003Z</updated>
+    <updated>2026-05-31T20:57:33.382Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -1644,6 +1644,21 @@ So this is valid:</li>
         <summary type="html"><![CDATA[*I blame science fiction dystopias]]></summary>
         <author>
             <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pydantic-monty investigation]]></title>
+        <id>https://simonwillison.net/2026/May/22/monty-investigation/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/22/monty-investigation/#atom-everything"/>
+        <updated>2026-05-22T22:41:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/monty-investigation#readme">pydantic-monty investigation</a></p>
+        <p>It's been a few months since <a href="https://simonwillison.net/2026/Feb/6/pydantic-monty/">I last poked at Monty</a>, the sandboxed subset of Python implemented in Rust. I had Claude Code look at the most recent release.</p>
+<p>Importantly the <code>max_duration_secs</code>, <code>max_memory</code>, <code>max_allocations</code>, and <code>max_recursion_depth</code> settings all appear to work as advertised.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/pydantic">pydantic</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
