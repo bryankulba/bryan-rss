@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-05-31T20:57:33.382Z</updated>
+    <updated>2026-06-01T03:48:07.987Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a32]]></title>
+        <id>https://simonwillison.net/2026/May/31/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/May/31/datasette/#atom-everything"/>
+        <updated>2026-05-31T23:23:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a32">datasette 1.0a32</a></p>
+        <p>A minor bugfix release. Fixes a bug with <code>INSERT ... RETURNING</code> queries via the <a href="https://datasette.io/blog/2026/sql-write-queries/">new /db/-/execute-write endpoint</a> and a bunch of <a href="https://docs.datasette.io/en/latest/settings.html#setting-base-url">base_url</a> issues which showed up when I was <a href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/">experimenting with Service Workers</a> yesterday.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The solution might be cancelling my AI subscription]]></title>
         <id>https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything</id>
@@ -6390,26 +6404,6 @@ I have a new camera (a Canon R6 Mark II) so I'm taking a lot more photos of bird
     <p>Tags: <a href="https://simonwillison.net/tags/blogging">blogging</a>, <a href="https://simonwillison.net/tags/photography">photography</a>, <a href="https://simonwillison.net/tags/wildlife">wildlife</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/inaturalist">inaturalist</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Claude Managed Agents feature request]]></title>
-        <id>https://www.robinsloan.com/lab/managed-agents-feature-request/</id>
-        <link href="https://www.robinsloan.com/lab/managed-agents-feature-request/"/>
-        <updated>2026-05-02T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Live data. <a href="https://www.robinsloan.com/lab/managed-agents-feature-request/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: The prehistory of the Democratic Nuremberg Caucus (02 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12760</id>
-        <link href="https://pluralistic.net/2026/05/02/denazification/"/>
-        <updated>2026-05-02T11:22:11.000Z</updated>
-        <summary type="html"><![CDATA[Today's links The prehistory of the Democratic Nuremberg Caucus: Do bounties for ICE whistleblowers next! Hey look at this: Delights to delectate. Object permanence: Colbert v GWB; Wallaby milk; Jay Rosen's journalism precepts; Radical Media(TM); What is carried interest? TCP over pigeon; BNL v copyright; RIP Joanna Russ; GOP forcing students to repay scam loans. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The prehistory of the Democratic Nuremberg Caucus (permalink) Comrade Trump continues his unbroken streak of destroying the American empire's grip on the world, hastening the renewables transi…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

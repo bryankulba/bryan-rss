@@ -178,16 +178,6 @@
           "wordCount": 5539,
           "title": "Dragoncatcher: Referer reality",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/managed-agents-feature-request/",
-          "author": null,
-          "description": "<p>Live data. <a href=\"https://www.robinsloan.com/lab/managed-agents-feature-request/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/managed-agents-feature-request/",
-          "publishedOn": "2026-05-02T13:00:00.000Z",
-          "wordCount": 5278,
-          "title": "Dragoncatcher: Claude Managed Agents feature request",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -2318,16 +2308,6 @@
           "wordCount": 4233,
           "title": "Pluralistic: Demand destruction vs fuel-superceding infrastructure (04 May 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12760",
-          "author": "Cory Doctorow",
-          "description": "Today's links The prehistory of the Democratic Nuremberg Caucus: Do bounties for ICE whistleblowers next! Hey look at this: Delights to delectate. Object permanence: Colbert v GWB; Wallaby milk; Jay Rosen's journalism precepts; Radical Media(TM); What is carried interest? TCP over pigeon; BNL v copyright; RIP Joanna Russ; GOP forcing students to repay scam loans. Upcoming appearances: Berlin, NYC, Barcelona, Hay-on-Wye, London, NYC. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The prehistory of the Democratic Nuremberg Caucus (permalink) Comrade Trump continues his unbroken streak of destroying the American empire's grip on the world, hastening the renewables transi…",
-          "link": "https://pluralistic.net/2026/05/02/denazification/",
-          "publishedOn": "2026-05-02T11:22:11.000Z",
-          "wordCount": 3677,
-          "title": "Pluralistic: The prehistory of the Democratic Nuremberg Caucus (02 May 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2959,6 +2939,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/May/31/datasette/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a32\">datasette 1.0a32</a></p>\n        <p>A minor bugfix release. Fixes a bug with <code>INSERT ... RETURNING</code> queries via the <a href=\"https://datasette.io/blog/2026/sql-write-queries/\">new /db/-/execute-write endpoint</a> and a bunch of <a href=\"https://docs.datasette.io/en/latest/settings.html#setting-base-url\">base_url</a> issues which showed up when I was <a href=\"https://simonwillison.net/2026/May/30/pyodide-asgi-browser/\">experimenting with Service Workers</a> yesterday.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a></p>",
+          "link": "https://simonwillison.net/2026/May/31/datasette/#atom-everything",
+          "publishedOn": "2026-05-31T23:23:38.000Z",
+          "wordCount": 761,
+          "title": "datasette 1.0a32",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
           "author": null,
