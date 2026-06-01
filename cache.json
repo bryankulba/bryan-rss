@@ -224,6 +224,16 @@
       "siteUrl": "https://wearethemutants.com",
       "articles": [
         {
+          "id": "http://wearethemutants.com/?p=42029",
+          "author": "K.E. Roberts",
+          "description": "By Richard McKenna\r\n\r\nIncredibly, it took only four years for the spectacle to regurgitate the absurdist nightmare future that George Miller had assembled in 1982’s Mad Max 2 as that most inane and transitory of commodities: a children’s board game...",
+          "link": "https://wearethemutants.com/2026/06/01/drive-and-survive-milton-bradleys-thunder-road-1986/",
+          "publishedOn": "2026-06-01T15:35:51.000Z",
+          "wordCount": 4194,
+          "title": "Drive and Survive: Milton Bradley’s ‘Thunder Road’, 1986",
+          "imageUrl": "https://i0.wp.com/wearethemutants.com/wp-content/uploads/2024/11/thunder-road-we-are-the-mutants.jpeg?fit=1200%2C673&ssl=1"
+        },
+        {
           "id": "http://wearethemutants.com/?p=41965",
           "author": "Richard McKenna",
           "description": "By Richard McKenna\r\n\r\nFirst released in 1978 by Archon, a publisher based in London’s Soho district, UFOs gains some added legitimacy from the fact that it was written by Brit Bob Rickard, who in 1973 founded what would eventually become the Fortean Times, a monthly magazine devoted to...",
@@ -260,6 +270,66 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/meet-the-ukrainian-stunt-pilot-who-shoots-down-russian-drones",
+          "author": null,
+          "description": "Timur Fatkullin is a Ukrainian flying ace who uses his acrobatic flying skills honed before the war to shoot down Russian drones.\nWhen I fly close to the target, I can’t engage because there’s houses or infrastructure underneath. So we keep flying, keeping it in the searchlight, in the spotlight. And we’re not even, because it’s like 200 kilos target and we’re six tons, and it’s black Shahed in the black night. But from my aerobatics, I brought formation flying. You have to be professional, you have to be confident, practice a lot, anticipate a lot, and trust completely each other. There’s no other way. So these skills help enormously, and with this aircraft, we can stay in the air up to 4.5 hours. It’s my devotion, not just to my country, but to aviation. That’s the truth.\n\n\t\nAs you can see in this video from the NY Times, planes like these shoot the drones down using low-fi techniques: with machine guns mounted in the planes’ doorways.\n\nOne of the drone-hunting pilots, who are civilian volunteers: “Standing aside and doing nothing is impossible. For our team, it’s impossible.”\nAnd from a different perspective, here’s a WSJ video profile of a Ukrainian drone pilot:\n\n\n \n\n        \n         \nTags: drones · Russia · ukraine · war",
+          "link": "https://kottke.org/26/06/meet-the-ukrainian-stunt-pilot-who-shoots-down-russian-drones",
+          "publishedOn": "2026-06-01T17:10:00.000Z",
+          "wordCount": 899,
+          "title": "Meet the Ukrainian Stunt Pilot Who Shoots Down Russian Drones",
+          "imageUrl": "https://i.ytimg.com/vi/KhypDhI7kU0/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/06/0049028-power-lines-maps-that-sha",
+          "author": null,
+          "description": "Power Lines: Maps That Shaped the Way We See the World. “A collection of the greatest political maps in history and how these images have an unmatched power to influence our thinking — and our world.”",
+          "link": "https://kottke.org/26/06/0049028-power-lines-maps-that-sha",
+          "publishedOn": "2026-06-01T16:32:00.000Z",
+          "wordCount": 794,
+          "title": "Power Lines: Maps That Shaped the Way We See the World ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049054-serena-williams-has-annou",
+          "author": null,
+          "description": "“Serena Williams has announced her sensational return to professional tennis at 44 years old next week at the Queen’s Club in London.” Yessss.",
+          "link": "https://kottke.org/26/06/0049054-serena-williams-has-annou",
+          "publishedOn": "2026-06-01T15:56:07.000Z",
+          "wordCount": 738,
+          "title": "&#8220; Serena Williams has announced her sensational...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/the-illuminated-windows-of-nyc",
+          "author": null,
+          "description": "For his project Windows, Dave Krugman took photos of hundreds of NYC apartment windows at night and stitched them together into ever-shifting typologies. What’s going on in each of those apartments?\n\n \n\n        \n         \nTags: Dave Krugman · NYC · photography",
+          "link": "https://kottke.org/26/06/the-illuminated-windows-of-nyc",
+          "publishedOn": "2026-06-01T15:00:00.000Z",
+          "wordCount": 704,
+          "title": "The Illuminated Windows of NYC",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1780323177-401fbbf1.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/06/0049048-legendary-film-editor-mar",
+          "author": null,
+          "description": "Legendary film editor Marcia Lucas died last week. Lucas edited Star Wars (won an Oscar for it), Taxi Driver, Return of the Jedi, and American Graffiti. It was Marcia that suggested to George Lucas that Darth Vader kill Obi-Wan Kenobi.",
+          "link": "https://kottke.org/26/06/0049048-legendary-film-editor-mar",
+          "publishedOn": "2026-06-01T14:14:00.000Z",
+          "wordCount": 760,
+          "title": "Legendary film editor Marcia Lucas died last week ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049047-roost",
+          "author": null,
+          "description": "Roost is a messaging app where messages aren’t instant; they travel between users at the speed of whichever bird they use to send it. Note sending is limited by the # of birds in your rookery…if they’re all out, you have to wait until one returns.",
+          "link": "https://kottke.org/26/06/0049047-roost",
+          "publishedOn": "2026-06-01T13:30:00.000Z",
+          "wordCount": 807,
+          "title": "Roost  is a messaging app where messages aren&#8217;t...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/05/0049044-a-simple-list-of-links-to",
           "author": null,
@@ -2115,6 +2185,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=12860",
+          "author": "Cory Doctorow",
+          "description": "Today's links Molly Crabapple's 'Here Where We Live Is Our Country': An essential book for this moment and for the moments that led to it. Hey look at this: Delights to delectate. Object permanence: Home chemistry sets in danger; Every pirate wants to be an admiral; Painful computer workarounds; JPEG patent invalidated; UBS whistleblower v USA (x USA); David Foster Wallace x tennis; Who cares about \"bandwidth hogs?\" Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Molly Crabapple's 'Here Where We Live Is Our Country' (permalink) Molly Crabapple's Here Where We Live Is Our Cou…",
+          "link": "https://pluralistic.net/2026/06/01/doikayt/",
+          "publishedOn": "2026-06-01T09:25:48.000Z",
+          "wordCount": 5162,
+          "title": "Pluralistic: Molly Crabapple's 'Here Where We Live Is Our Country' (01 Jun 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=12856",
           "author": "Cory Doctorow",
           "description": "Today's links Carneyism without Carney: Eh? Hey look at this: Delights to delectate. Object permanence: Replacing pharma patents with bounties; USTR v cheap leukemia meds; Plutocrats x wealth segregation; Anonymous Analytics; Scott Walker sells off donors; Anonymization v metadata; Probably; Amazon warehouse workers are the future of Amazon coders; Warcraft eggs; Brainwashing school; People who don't know The Onion is satire; \"Company Town\"; America is a scam. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Carneyism without Carney (permalink) The \"Third Way\" in liberal poli…",
@@ -2322,6 +2402,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18442",
+          "author": "Warren Ellis",
+          "description": "After losing several hours yesterday to running every fix and check I could think of, I came to the sad conclusion that this laptop, a…",
+          "link": "https://warrenellis.ltd/status/retired-1jun26/",
+          "publishedOn": "2026-06-01T11:16:11.000Z",
+          "wordCount": 1604,
+          "title": "retired: 1jun26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/seventhseal.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18438",
           "author": "Warren Ellis",
@@ -2776,6 +2866,16 @@
       "siteUrl": "https://craigmod.com/",
       "articles": [
         {
+          "id": "https://craigmod.com/ridgeline/228/",
+          "author": "Craig Mod",
+          "description": "Ridgeline subscribers —\nThanks for all the “Yo!“s last week. It looks like transmissions from mailbot2k are getting through. (Let me know if you see any “rendering errors” in your email clients; I think we fixed the Proton Mail issues.) FYI, because the last issue of Roden ended up in many a spam folder, let me also announce here a reading I’m doing next week:\nWednesday, June 10, 2026, Malaprop’s Bookstore in Asheville, NC (RSVP at that link!)\nHope to see you there!",
+          "link": "https://craigmod.com/ridgeline/228/",
+          "publishedOn": "2026-06-01T00:00:00.000Z",
+          "wordCount": 1897,
+          "title": "[RIDGELINE] Walking the Brooklyn Bridge",
+          "imageUrl": "https://craigmod.com/ridgeline/images/228/228.jpg"
+        },
+        {
           "id": "https://craigmod.com/ridgeline/227/",
           "author": "Craig Mod",
           "description": "Ridgeline subscribers —\nHey there! This is Craig Mod broadcasting Ridgeline from my new home-cooked newsletter software, mailbot2000. An issue of Roden came out last week and was sent via mb2k, if you’re subbed to Roden and didn’t get it, please let me know / check your spam. If you are getting this and didn’t “Yo” me for Roden, please reply with a little “Yo!” to let me know this is arriving (it also signals to Gmail that this isn’t spam). OK, onward!",
@@ -2802,6 +2902,16 @@
       "feedUrl": "https://www.thewire.co.uk/rss",
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
+        {
+          "id": "https://www.thewire.co.uk/in-writing/columns/hibiki-inamoto-rumbling-stomachs-and-discotheque-chandeliers",
+          "author": null,
+          "description": "Straight To Hell\n\nStraight To Hell (2026) is a nine part series for Netflix Japan, chronicling Hosoki’s rise and fall over 50 years.\n\nStraight To Hell score benefits from their collaborative relationship, as Inamoto finds powerfully imaginative ways to conduct a musical portrait of a complex character like Hosoki. The early orchestral waltz (“Snake Woman”) is intermittently interrupted by the noisy interloping of an erhu, a two-stringed fiddle. It just doesn’t fit. Its reverb is displaced from the warm strings, yet it overwhelms them. Its melodic tow is full of contortions, causing the resonant frequencies to bite as the erhu squeals. When Hosoki arrives at a TV station to do one of her infamously arrogant readings of celebrities, her demeanour is captured as haughty and regal. Her glamour…",
+          "link": "https://www.thewire.co.uk/in-writing/columns/hibiki-inamoto-rumbling-stomachs-and-discotheque-chandeliers",
+          "publishedOn": "2026-06-01T00:00:00.000Z",
+          "wordCount": 1977,
+          "title": "Hibiki Inamoto: Rumbling Stomachs and Discotheque Chandeliers",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/06/01/straight_to_hell_crop.jpg"
+        },
         {
           "id": "https://www.thewire.co.uk/audio/on-air/misha-farrant-presents-adventures-in-sound-and-music-78121",
           "author": null,
@@ -3970,6 +4080,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=162566",
+          "author": "Siddhant Pusdekar",
+          "description": "Lifelike biochemistry continued to unfold in sterilized soil for six years, pointing to a metabolic theory for how biology began.            \nThe post The Dirt That Refused To Die first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/",
+          "publishedOn": "2026-06-01T14:44:57.000Z",
+          "wordCount": 3141,
+          "title": "The Dirt That Refused To Die",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Abiotic-metabolism-cr-Samuel-Velasco-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=162533",
           "author": "Kevin Hartnett",
