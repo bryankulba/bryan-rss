@@ -2158,6 +2158,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50659",
+          "author": "Andy Baio",
+          "description": "a massively-multiplayer online rave (via) #",
+          "link": "https://hallucinate.site/",
+          "publishedOn": "2026-06-02T03:09:18.000Z",
+          "wordCount": 8,
+          "title": "Hallucinate.site",
+          "imageUrl": "/screenshot.png"
+        },
+        {
           "id": "https://waxy.org/?p=50653",
           "author": "Andy Baio",
           "description": "Misty De Méo writes about a 1994 Japanese BBS preserved forever on CD-ROM and browsable in Infinite Mac #",
@@ -2651,16 +2661,6 @@
           "wordCount": 1535,
           "title": "fig: 4may26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1110.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18297",
-          "author": "Warren Ellis",
-          "description": "Potatoes. Haven’t been able to do anything in the garden all week, and things don’t look great out there – but things are growing, too.…",
-          "link": "https://warrenellis.ltd/status/potatoes-3may26/",
-          "publishedOn": "2026-05-03T12:30:06.000Z",
-          "wordCount": 1225,
-          "title": "potatoes: 3may26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1103.jpg"
         }
       ]
     },
@@ -2879,22 +2879,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!EMRx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcd03023-b2ab-4ab7-8a10-1de66869216d_1982x1323.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/hard-and-breezy",
-          "author": "Blackbird Spyplane",
-          "description": "The endless sauce of waxed cotton, summery knits, vintage woven straw bags & more",
-          "link": "https://www.blackbirdspyplane.com/p/hard-and-breezy",
-          "publishedOn": "2026-05-03T13:03:24.000Z",
-          "wordCount": null,
-          "title": "Hard & breezy",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!wSeG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4972da24-bcc4-4cd8-ba5f-0f1b0b0d0126_450x800.gif",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!wSeG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4972da24-bcc4-4cd8-ba5f-0f1b0b0d0126_450x800.gif"
         }
       ]
     },
@@ -4018,16 +4002,6 @@
           "wordCount": 862,
           "title": "Redis Array Playground",
           "imageUrl": "https://static.simonwillison.net/static/2026/redis-array-explorer-card.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://www.anthropic.com/research/claude-personal-guidance\"><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situations, Claude expressed no sycophancy—only 9% of conversations included sycophantic behavior (Figure 2). But two domains were exceptions: we saw sycophantic behavior in 38% of conversations focused on spirituality, and 25% of conversations on relationships.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.anthropic.com/research/claude-personal-guidance\">Anthropic</a>, How people ask Claude for personal guidance</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-personality\">ai-personality</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/sycophancy\">sycophancy</a></p>",
-          "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
-          "publishedOn": "2026-05-03T15:13:23.000Z",
-          "wordCount": 791,
-          "title": "Quoting Anthropic",
-          "imageUrl": null
         }
       ]
     },

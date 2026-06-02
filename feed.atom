@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-01T22:33:16.400Z</updated>
+    <updated>2026-06-02T03:42:40.581Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hallucinate.site]]></title>
+        <id>https://waxy.org/?p=50659</id>
+        <link href="https://hallucinate.site/"/>
+        <updated>2026-06-02T03:09:18.000Z</updated>
+        <summary type="html"><![CDATA[a massively-multiplayer online rave (via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why Wildfire Experts Are So Worried About This Year’s...]]></title>
         <id>https://kottke.org/26/06/0049050-why-wildfire-experts-are-</id>
@@ -6605,39 +6615,6 @@ Tags: film school · Isle of Dogs · movies · Taylor Ramos · Tony Zhou · vide
         <summary type="html"><![CDATA[Today's links Demand destruction vs fuel-superceding infrastructure: Will Trump hormuz us into the full Gretacene? Hey look at this: Delights to delectate. Object permanence: Beck, Scientologist; Citizen journalism; Podcast-killing treaty; US x Kiwi copyright; Apple did a crime; DeCSS v civilian aviation; Navy x SF's queering; Micosoft v FLOSS; Sony-BMG needs a new DRM czar; Lossy copying sculpture; AI and the fatfinger economy. Upcoming appearances: Guelph, Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Demand destruction vs fuel-superceding infrastructure (permalink) No one is better at keeping hope alive than R…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Anthropic]]></title>
-        <id>https://simonwillison.net/2026/May/3/anthropic/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/3/anthropic/#atom-everything"/>
-        <updated>2026-05-03T15:13:23.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.anthropic.com/research/claude-personal-guidance"><p>We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situations, Claude expressed no sycophancy—only 9% of conversations included sycophantic behavior (Figure 2). But two domains were exceptions: we saw sycophantic behavior in 38% of conversations focused on spirituality, and 25% of conversations on relationships.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.anthropic.com/research/claude-personal-guidance">Anthropic</a>, How people ask Claude for personal guidance</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai-personality">ai-personality</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/sycophancy">sycophancy</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hard & breezy]]></title>
-        <id>https://www.blackbirdspyplane.com/p/hard-and-breezy</id>
-        <link href="https://www.blackbirdspyplane.com/p/hard-and-breezy"/>
-        <updated>2026-05-03T13:03:24.000Z</updated>
-        <summary type="html"><![CDATA[The endless sauce of waxed cotton, summery knits, vintage woven straw bags & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[potatoes: 3may26]]></title>
-        <id>https://warrenellis.ltd/?p=18297</id>
-        <link href="https://warrenellis.ltd/status/potatoes-3may26/"/>
-        <updated>2026-05-03T12:30:06.000Z</updated>
-        <summary type="html"><![CDATA[Potatoes. Haven’t been able to do anything in the garden all week, and things don’t look great out there – but things are growing, too.…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
