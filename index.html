@@ -35,6 +35,39 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-02T22:21:52.000Z">2026-06-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything" target="_blank" rel="noopener noreferrer">Microsoft&#x27;s new MAI models</a>
+          </h2>
+          <p class="feed-item__desc">Microsoft announced two new text LLMs this morning - MAI-Thinking-1 (reasoning, 1T parameters, 35B active, available to "select early partners") and MAI-Code-1-Flash (137B Parameters, 5B active, "purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code"). I've not been able to try either of them just yet.
+It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 "is preferred to Sonnet 4.6 in our blind human side-by-side evaluations", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop. (UPDATE: I got this entirely wrong, see note below.)
+Also of note:
+We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.
+And for MAI-Code-1-Flash as well:
+It is built end-to-end by Microsoft using clean and appropriately licensed data.
+I would very much like to learn more about this "appropriately licensed" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? (Update: the answer is no, see note below.)
+Update: My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the model card for MAI-Code-1-Flash lists it as 137B with 5B active and the MAI-Thinking-1 technical paper reveals it to be a 1T model with 35B active.
+I deeply regret this error.
+Update 2: That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web:
+The majority of our web HTML corpus comes from a proprietary crawl. After initial page discovery and selection, approximately 1.2 trillion pages are crawled and parsed. [...] In addition to Microsoft standard policy Sec. 2.4, we apply UT1 block list (Prigent, 2026) to remove adult content and piracy-related domains. In all, this filtering reduces the corpus from 1.2 trillion pages to 794 billion pages. Given the prevalence of AI-generated content on the web, we also score pages with a proprietary AI-content detection model and use manual inspection to identify domains with extensive AI-generated content; those domains are filtered out of the training corpus.
+[...]
+We process Common Crawl with the same pipeline. [...] After filtering, deduplication, merging with the proprietary web corpus, and a final round of exact-URL and content-level fuzzy deduplication, the Common Crawl portion contains 24.2 billion pages.
+I did not cover this one at all well, which is somewhat ironic since I was at the Microsoft Build conference when I wrote this up! I'm sorry for not digging deeper before publishing my initial notes.
+Tags: llm-release, generative-ai, ai, microsoft, llms, training-data</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/06/0049067-the-100-greatest-bird-nam">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-02T20:05:00.000Z">2026-06-02</time>
@@ -68,6 +101,48 @@
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50665" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50665">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-02T19:28:36.000Z">2026-06-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-agent-micropython 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-agent-micropython 0.1a0
+I want Datasette Agent to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox!
+Tags: python, sandboxing, datasette, webassembly, datasette-agent</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-02T19:20:47.000Z">2026-06-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything" target="_blank" rel="noopener noreferrer">micropython-wasm 0.1a1</a>
+          </h2>
+          <p class="feed-item__desc">Release: micropython-wasm 0.1a1
+Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython.
+Tags: python, sandboxing, webassembly</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
           </div>
         </div>
       </div>
@@ -405,6 +480,27 @@ Tags: javascript, tools, ai-assisted-programming, claude, codex</p>
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-02T03:43:45.000Z">2026-06-01</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything" target="_blank" rel="noopener noreferrer">micropython-wasm 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: micropython-wasm 0.1a0
+My latest sandboxing experiment: This alpha package bundles a lightly customized WASM build of MicroPython with a wrapper to execute code in it via wasmtime.
+Tags: python, sandboxing, webassembly</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
@@ -11087,145 +11183,6 @@ Tags: salvatore-sanfilippo, webassembly, generative-ai, agentic-engineering, ai,
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/redis-array-explorer-card.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048864-they-would-never-use-the-">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-04T15:20:00.000Z">2026-05-04</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048864-they-would-never-use-the-" target="_blank" rel="noopener noreferrer">“They Would Never Use the Death Star on Us”:...</a>
-          </h2>
-          <p class="feed-item__desc">“They Would Never Use the Death Star on Us”: Alderaan Residents Reflect on Their Support for the Empire as a Large Imperial Installation Enters the System. “The Senate was ineffective, and the liberal Jedi were out of touch…”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048864-they-would-never-use-the-" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048864-they-would-never-use-the-">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;161634">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-04T14:39:38.000Z">2026-05-04</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/" target="_blank" rel="noopener noreferrer">The Hidden Mathematical Dance Inside Plant Cells</a>
-          </h2>
-          <p class="feed-item__desc">The sunlight-collecting organelles known as chloroplasts solve a packing problem: how to optimize photosynthesis without sustaining damage from dangerously intense rays.            
-The post The Hidden Mathematical Dance Inside Plant Cells first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;161634" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;161634">Mark read</button>
-            <span class="feed-item__reading-time">13 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/05/ChloroplastPacking-crBenediktPleyer_NomadicNostoc_SciencePhotoLibrary-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-04T14:36:52.000Z">2026-05-04</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs" target="_blank" rel="noopener noreferrer">The Visual Comedy of Wes Anderson’s Isle of Dogs</a>
-          </h2>
-          <p class="feed-item__desc">I’m gonna call it: Every Frame a Painting, my all-time favorite YouTube channel, is back. Tony Zhou and Taylor Ramos stopped producing their fantastic video essays back in 2017 and while they have popped up here and there since then, they’ve mostly stuck to their retirement.
-But for the past few months, the duo have been releasing video essays produced in partnership with Criterion: Night of the Living Dead: Limitations into Virtues, The Blade (1995): The Edges of Wuxia, and just yesterday, The Visual Comedy of Isle of Dogs (embedded above).
-For the past three decades, Wes Anderson has left a distinctive fingerprint in American comedy, with his penchant for artificial worlds, deadpan performances, literary devices, and snappy narration. But there’s something else. These movies are funny to look at. Over the years, Anderson has experimented more and more with visual comedy. And none of this is more apparent than in Isle of Dogs.
-
-	
-It looks like they’re doing about one video a month. I hope they keep it up…I love their videos.
-(Ok, maybe don’t read this bit until you’ve watched the Isle of Dogs video, but did you detect that Zhou’s narration seems to be synced to the mouth movements of the characters in the clips he’s talking over? Such a great little detail of visual comedy…I clapped my hands in glee like a toddler when I noticed.)
-
- 
-
-        
-         
-Tags: film school · Isle of Dogs · movies · Taylor Ramos · Tony Zhou · video · Wes Anderson</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/eex-_BztHSE/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048862-how-sylvester-stallone-re">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-04T13:57:00.000Z">2026-05-04</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048862-how-sylvester-stallone-re" target="_blank" rel="noopener noreferrer">How Sylvester Stallone Rescued the First Rambo Film With...</a>
-          </h2>
-          <p class="feed-item__desc">How Sylvester Stallone Rescued the First Rambo Film With a Radical Recut, Cutting It From 3½ Hours to 93 Minutes. “The solution that ended up saving the movie wasn’t much less drastic, producing a 93-minute cut that excised most of Rambo’s dialogue.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048862-how-sylvester-stallone-re" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048862-how-sylvester-stallone-re">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18300">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-04T11:03:44.000Z">2026-05-04</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/fig-4may26/" target="_blank" rel="noopener noreferrer">fig: 4may26</a>
-          </h2>
-          <p class="feed-item__desc">This is going to be a fig. Accessions: HOLLYWOOD HAUNTS THE WORLD was gifted me to the author, for which I am very grateful because…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18300" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18300">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1110.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://brucesterling.tumblr.com/post/815677952092160000">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-04T10:38:33.000Z">2026-05-04</time>
-        <span class="feed-item__source">BruceS</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://brucesterling.tumblr.com/post/815677952092160000" target="_blank" rel="noopener noreferrer">Untitled</a>
-          </h2>
-          <p class="feed-item__desc">No content preview</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/815677952092160000" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/815677952092160000">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://64.media.tumblr.com/7fc9ae504bc63974dd3a635e509ecb29/7f5d3de6b681241b-0c/s1280x1920/77ba63434fb4a294536063ce19d1b678ae84a14a.webp" alt="" loading="lazy">
         </div>
       </div>
     </article>

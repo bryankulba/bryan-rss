@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-02T22:22:08.275Z</updated>
+    <updated>2026-06-03T03:52:09.521Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's new MAI models]]></title>
+        <id>https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything"/>
+        <updated>2026-06-02T22:21:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>Microsoft <a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">announced two new text LLMs</a> this morning - <strong><a href="https://microsoft.ai/news/introducing-mai-thinking-1/">MAI-Thinking-1</a></strong> (reasoning, 1T parameters, 35B active, available to "select early partners") and <strong><a href="https://microsoft.ai/news/introducingmai-code-1-flash/">MAI-Code-1-Flash</a></strong> (137B Parameters, 5B active, "purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code"). I've not been able to try either of them just yet.</p>
+<p><strike>It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 "is preferred to Sonnet 4.6 in our blind human side-by-side evaluations", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop.</strike> (UPDATE: I got this entirely wrong, see note below.)</p>
+<p>Also <a href="https://microsoft.ai/news/introducing-mai-thinking-1/">of note</a>:</p>
+<blockquote>
+<p>We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.</p>
+</blockquote>
+<p>And for <a href="https://microsoft.ai/news/introducingmai-code-1-flash/">MAI-Code-1-Flash</a> as well:</p>
+<blockquote>
+<p>It is built end-to-end by Microsoft using clean and appropriately licensed data.</p>
+</blockquote>
+<p>I would <em>very much</em> like to learn more about this "appropriately licensed" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? (<strong>Update</strong>: the answer is no, see note below.)</p>
+<p><strong>Update</strong>: My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the <a href="https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF">model card for MAI-Code-1-Flash</a> lists it as 137B with 5B active and the <a href="https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf">MAI-Thinking-1 technical paper</a> reveals it to be a 1T model with 35B active.</p>
+<p>I deeply regret this error.</p>
+<p><strong>Update 2</strong>: That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web:</p>
+<blockquote>
+<p>The majority of our web HTML corpus comes from a proprietary crawl. After initial page discovery and selection, approximately 1.2 trillion pages are crawled and parsed. [...] In addition to Microsoft standard policy Sec. 2.4, we apply UT1 block list (Prigent, 2026) to remove adult content and piracy-related domains. In all, this filtering reduces the corpus from 1.2 trillion pages to 794 billion pages. Given the prevalence of AI-generated content on the web, we also score pages with a proprietary AI-content detection model and use manual inspection to identify domains with extensive AI-generated content; those domains are filtered out of the training corpus.</p>
+<p>[...]</p>
+<p>We process Common Crawl with the same pipeline. [...] After filtering, deduplication, merging with the proprietary web corpus, and a final round of exact-URL and content-level fuzzy deduplication, the Common Crawl portion contains 24.2 billion pages.</p>
+</blockquote>
+<p>I did not cover this one at all well, which is somewhat ironic since I was at the Microsoft Build conference when I wrote this up! I'm sorry for not digging deeper before publishing my initial notes.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/microsoft">microsoft</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 100 Greatest Bird Names of All Time , including...]]></title>
         <id>https://kottke.org/26/06/0049067-the-100-greatest-bird-nam</id>
@@ -24,6 +55,34 @@
         <summary type="html"><![CDATA[extremely anxiety-inducing (via) #]]></summary>
         <author>
             <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-agent-micropython 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything"/>
+        <updated>2026-06-02T19:28:36.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent-micropython/releases/tag/0.1a0">datasette-agent-micropython 0.1a0</a></p>
+        <p>I want <a href="https://agent.datasette.io">Datasette Agent</a> to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox!</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[micropython-wasm 0.1a1]]></title>
+        <id>https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything"/>
+        <updated>2026-06-02T19:20:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/micropython-wasm/releases/tag/0.1a1">micropython-wasm 0.1a1</a></p>
+        <p>Fixes for some limitations that emerged while I was trying to use this to build <code>datasette-agent-micropython</code>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -204,6 +263,20 @@ Tags: art · birds · John Rooney · palestine]]></summary>
     
     
         <p>Tags: <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/codex">codex</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[micropython-wasm 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything"/>
+        <updated>2026-06-02T03:43:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/micropython-wasm/releases/tag/0.1a0">micropython-wasm 0.1a0</a></p>
+        <p>My latest sandboxing experiment: This alpha package bundles a lightly customized WASM build of <a href="https://micropython.org/">MicroPython</a> with a wrapper to execute code in it via <a href="https://wasmtime.dev/">wasmtime</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -6735,78 +6808,6 @@ build this interactive playground for trying out the new commands in a WASM-comp
         <p>Tags: <a href="https://simonwillison.net/tags/salvatore-sanfilippo">salvatore-sanfilippo</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/redis">redis</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/regular-expressions">regular-expressions</a>, <a href="https://simonwillison.net/tags/c">c</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;They Would Never Use the Death Star on Us&#8221;:...]]></title>
-        <id>https://kottke.org/26/05/0048864-they-would-never-use-the-</id>
-        <link href="https://kottke.org/26/05/0048864-they-would-never-use-the-"/>
-        <updated>2026-05-04T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[“They Would Never Use the Death Star on Us”: Alderaan Residents Reflect on Their Support for the Empire as a Large Imperial Installation Enters the System. “The Senate was ineffective, and the liberal Jedi were out of touch…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Hidden Mathematical Dance Inside Plant Cells]]></title>
-        <id>https://www.quantamagazine.org/?p=161634</id>
-        <link href="https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/"/>
-        <updated>2026-05-04T14:39:38.000Z</updated>
-        <summary type="html"><![CDATA[The sunlight-collecting organelles known as chloroplasts solve a packing problem: how to optimize photosynthesis without sustaining damage from dangerously intense rays.            
-The post The Hidden Mathematical Dance Inside Plant Cells first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Max G. Levy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Visual Comedy of Wes Anderson&#8217;s Isle of Dogs]]></title>
-        <id>https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs</id>
-        <link href="https://kottke.org/26/05/the-visual-comedy-of-wes-andersons-isle-of-dogs"/>
-        <updated>2026-05-04T14:36:52.000Z</updated>
-        <summary type="html"><![CDATA[I’m gonna call it: Every Frame a Painting, my all-time favorite YouTube channel, is back. Tony Zhou and Taylor Ramos stopped producing their fantastic video essays back in 2017 and while they have popped up here and there since then, they’ve mostly stuck to their retirement.
-But for the past few months, the duo have been releasing video essays produced in partnership with Criterion: Night of the Living Dead: Limitations into Virtues, The Blade (1995): The Edges of Wuxia, and just yesterday, The Visual Comedy of Isle of Dogs (embedded above).
-For the past three decades, Wes Anderson has left a distinctive fingerprint in American comedy, with his penchant for artificial worlds, deadpan performances, literary devices, and snappy narration. But there’s something else. These movies are funny to look at. Over the years, Anderson has experimented more and more with visual comedy. And none of this is more apparent than in Isle of Dogs.
-
-	
-It looks like they’re doing about one video a month. I hope they keep it up…I love their videos.
-(Ok, maybe don’t read this bit until you’ve watched the Isle of Dogs video, but did you detect that Zhou’s narration seems to be synced to the mouth movements of the characters in the clips he’s talking over? Such a great little detail of visual comedy…I clapped my hands in glee like a toddler when I noticed.)
-
- 
-
-        
-         
-Tags: film school · Isle of Dogs · movies · Taylor Ramos · Tony Zhou · video · Wes Anderson]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Sylvester Stallone Rescued the First Rambo Film With...]]></title>
-        <id>https://kottke.org/26/05/0048862-how-sylvester-stallone-re</id>
-        <link href="https://kottke.org/26/05/0048862-how-sylvester-stallone-re"/>
-        <updated>2026-05-04T13:57:00.000Z</updated>
-        <summary type="html"><![CDATA[How Sylvester Stallone Rescued the First Rambo Film With a Radical Recut, Cutting It From 3½ Hours to 93 Minutes. “The solution that ended up saving the movie wasn’t much less drastic, producing a 93-minute cut that excised most of Rambo’s dialogue.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[fig: 4may26]]></title>
-        <id>https://warrenellis.ltd/?p=18300</id>
-        <link href="https://warrenellis.ltd/status/fig-4may26/"/>
-        <updated>2026-05-04T11:03:44.000Z</updated>
-        <summary type="html"><![CDATA[This is going to be a fig. Accessions: HOLLYWOOD HAUNTS THE WORLD was gifted me to the author, for which I am very grateful because…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/815677952092160000</id>
-        <link href="https://brucesterling.tumblr.com/post/815677952092160000"/>
-        <updated>2026-05-04T10:38:33.000Z</updated>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
