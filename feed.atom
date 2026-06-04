@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-04T03:45:19.840Z</updated>
+    <updated>2026-06-04T08:19:32.962Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Delusion as a service (04 Jun 2026)]]></title>
+        <id>https://pluralistic.net/?p=12874</id>
+        <link href="https://pluralistic.net/2026/06/03/mission-space/"/>
+        <updated>2026-06-04T06:42:39.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Delusion as a service: Destructive diagnostics. Hey look at this: Delights to delectate. Object permanence: Gay Days at Disney World; Parametric 3D printable key; Fine against sculpture for "storing bike on public property"; TPP is a wash; Reagan was Trump; Steampunk roadster; "Every Heart a Doorway"; Shoplifters x Tumblr; Amazon v mass arbitration; Driver-owned Uber alternative; Censorware censors criticism of censorware; 3 strikes copyright termination is illegal; Replacing al Qaeda bomb recipes with cakes; $10m grilled cheese platform; Dick van Dyke x Bernie; Efficiency is inefficient; I quit. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em.…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ted Chiang on the question of LLM consciousness]]></title>
         <id>https://waxy.org/?p=50694</id>
@@ -6590,62 +6600,6 @@ Andon Labs previously <a href="https://andonlabs.com/blog/andon-market-launch">s
         <link href="https://kottke.org/26/05/0048882-uploaded-a-video-of-every"/>
         <updated>2026-05-05T21:01:00.000Z</updated>
         <summary type="html"><![CDATA[This is nuts: Fred Again has uploaded a video of every single show he did during his USB002 tour (except Mexico City) — it’s four and a half days long. “im told this is the longest video on YouTube ever?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Movie Posters by Eric Rohman]]></title>
-        <id>https://kottke.org/26/05/movie-posters-by-eric-rohman</id>
-        <link href="https://kottke.org/26/05/movie-posters-by-eric-rohman"/>
-        <updated>2026-05-05T19:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Some nice work here from Swedish designer Eric Rohman, who designed thousands of movie posters in the early-to-mid 20th century. (via meanwhile)
-
- 
-
-        
-         
-Tags: design · Eric Rohman · movie posters · movies]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The official trailer for Christopher Nolan&#8217;s The...]]></title>
-        <id>https://kottke.org/26/05/0048881-the-official-trailer-for-</id>
-        <link href="https://kottke.org/26/05/0048881-the-official-trailer-for-"/>
-        <updated>2026-05-05T19:16:01.000Z</updated>
-        <summary type="html"><![CDATA[The official trailer for Christopher Nolan’s The Odyssey was just released. Really looking forward to this.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What now-familiar domain names looked like before they...]]></title>
-        <id>https://kottke.org/26/05/0048878-what-now-familiar-domain-</id>
-        <link href="https://kottke.org/26/05/0048878-what-now-familiar-domain-"/>
-        <updated>2026-05-05T18:28:44.000Z</updated>
-        <summary type="html"><![CDATA[What now-familiar domain names looked like before they were bought by big-time companies, e.g. openai.com was “the personal homepage of a guy named glenn”, doordash.com was a porn site, threads.com sold spools of thread.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pocket forests . &#8220;The Miyawaki method of...]]></title>
-        <id>https://kottke.org/26/05/0048869-pocket-forests</id>
-        <link href="https://kottke.org/26/05/0048869-pocket-forests"/>
-        <updated>2026-05-05T17:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Pocket forests. “The Miyawaki method of reforestation inserts small, densely packed wild acreage into urban environs. It’s proving wildly successful.” The key is densely planting diverse & native species…this isn’t just planting some trees.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Could This Fish Be a Notebook?  &#8220;David Byrne...]]></title>
-        <id>https://kottke.org/26/05/0048873-could-this-fish-be-a-note</id>
-        <link href="https://kottke.org/26/05/0048873-could-this-fish-be-a-note"/>
-        <updated>2026-05-05T16:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Could This Fish Be a Notebook? “David Byrne learns how fisheries from Iceland to the Great Lakes are using 100% of their catch — and shares his tips for making fish head soup.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
