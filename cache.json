@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/06/05/splitbody",
+          "author": null,
+          "description": "When we end up voluntary ceding control of our own body parts to AI (for example so we can automatically walk around the grocery story while simultaneously catching up on boxsets on a VR headset) I wonder what that will feel like.\nThe underlying tech is currently in research phase.\nWhat I mean is that humanoid robots are coming (as previously discussed).\nAnd while robots are a mechanical challenge and a software challenge, some people are asking: what if you took that software part and pointed it at something else? Like, not a robot shaped like the human body but the human body itself.\nFor example: you can directly drive the muscles using Electrical Muscle Stimulation (EMS).\nHere’s a new wearable called Human Operator which won MIT Hard Mode 2026.\nHuman Operator is a human augmentation too…",
+          "link": "https://interconnected.org/home/2026/06/05/splitbody",
+          "publishedOn": "2026-06-05T16:45:00.000Z",
+          "wordCount": 1550,
+          "title": "Self-driving legs to walk me to the office",
+          "imageUrl": "https://interconnected.org/home/2026/06/05/splitbody.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/05/30/fedex",
           "author": null,
           "description": "Ok a bunch of friends have their own personal AI agent using OpenClaw or Hermes or whatever.\nConfession time: I don’t.\nI haven’t found I need one. I’m a heavy user of agents for coding, sure, and a few isolated tasks. I haven’t found I need one digging through my notes or sending emails for me.\nBut really because of two fears:\nData security. I’m cautious of something that can non-deterministically execute and get tricked into emailing confidential info or accidentally delete old photos without me noticing.\nPsychic integrity – I’ll say more about this in a bit.\nSo I’m a scaredy cat, whatever. Those concerns have kept me away. \nWell, you know, concerns go out the window when you have your back against the wall? Last weekend, that’s what happened.\nI’m shipping clocks.\nYes, finally, I know. It…",
@@ -300,6 +310,16 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/summer-fridays-open-thread",
+          "author": null,
+          "description": "I’m observing summer Fridays here at KDO again this year, which means I (mostly) won’t be posting here on Fridays. If past years are any guide, this doesn’t actually have too much of an effect on how much I work or post…more of a redistribution of time & effort. But it’s nice to have the extra non-weekend day to catch up on other things. This morning, I lounged in bed a little, sat on my deck and read while drinking my morning chai, and stared off into the distance on this lovely day. Then I need to finish mowing my lawn after posting this.\nSince it’s been a bit since the last open thread, let’s convene one today. What’s been going on in your neck of the woods? Anything you’d like to share with the rest of the group? Do you have something fun coming up? Something you’re dreading? How can we help? What’s the best thing you’ve seen or read or listened to recently? Got a new project? Or an old one, rekindled?\n\n \n\n        \n         \nTags: kottke.org · open threads",
+          "link": "https://kottke.org/26/06/summer-fridays-open-thread",
+          "publishedOn": "2026-06-05T14:52:00.000Z",
+          "wordCount": 4113,
+          "title": "Summer Fridays, Open Thread",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1780670453-f078f4e1.jpg"
+        },
         {
           "id": "https://kottke.org/26/06/0049083-illustrated-break-downs-o",
           "author": null,
