@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-05T17:52:41.971Z</updated>
+    <updated>2026-06-05T21:24:18.915Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Refining humanity (05 Jun 2026)]]></title>
+        <id>https://pluralistic.net/?p=12880</id>
+        <link href="https://pluralistic.net/2026/06/05/defining-humanity/"/>
+        <updated>2026-06-05T20:49:39.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Refining humanity: What our technology is shows us what we're not. Hey look at this: Delights to delectate. Object permanence: GNU Radio; France v "follow us on Twitter"; Aaronsw vindicated; Capitalism's crooked refs. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Refining humanity (permalink) One of the best ways to evaluate your own understanding of a subject is to attempt to explain it to someone else. Through explaining things, we discover how much of the "totally obvious" world is actually full of ambiguity, mystery and contradiction. There's a great bit in Rowan…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Self-driving legs to walk me to the office]]></title>
         <id>https://interconnected.org/home/2026/06/05/splitbody</id>
@@ -6740,34 +6750,6 @@ Tags: artemis · astronomy · Earth · photography · science · Sean Doran · s
         <summary type="html"><![CDATA[Plus paradoxically sick footwear that sold out instantly but also people are sleeping on it, a new under-the-radar NYC line & more]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Bubbles are REALLY evil (07 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12778</id>
-        <link href="https://pluralistic.net/2026/05/07/dump-the-pumpers/"/>
-        <updated>2026-05-07T08:08:49.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Bubbles are REALLY evil: Bernie Ebbers got what was coming to him. Hey look at this: Delights to delectate. Object permanence: Mozilla v DHS wiretaps; Judge v FCC's internet wiretaps; Foxconn workers must promise not to kill themselves; "Shannon's Law"; How to password; Stimmies killed the McJob; "Little Bosses Everywhere." Upcoming appearances: Guelph, Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Bubbles are REALLY evil (permalink) I am on record as saying that every economic bubble is terrible, but some bubbles do at least leave behind a salvageable productive residue while others leave behind no…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Repo Stats]]></title>
-        <id>https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything"/>
-        <updated>2026-05-07T07:25:14.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/github-repo-stats">GitHub Repo Stats</a></p>
-        <p>One of the things I always look for when evaluating a new GitHub repository is the number of commits it has... but that number isn't visible on GitHub's mobile site layout. I built this tool to fix that, using this prompt:</p>
-<blockquote>
-<p><code>Given a GitHub repo URL or foo/bar repo ID show information about that repo absorbed via wither REST or graphql CORS fetch() including the number of commits in the repo and other useful stats</code></p>
-</blockquote>
-<p>Example output for <a href="https://tools.simonwillison.net/github-repo-stats?repo=simonw%2Fdatasette">simonw/datasette</a> and <a href="https://tools.simonwillison.net/github-repo-stats?repo=simonw%2Fllm">simonw/llm</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/github">github</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
