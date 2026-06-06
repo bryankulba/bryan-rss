@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-06T17:11:09.350Z</updated>
+    <updated>2026-06-06T21:02:39.517Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Criticizing the everything machine (06 Jun 2026)]]></title>
+        <id>https://pluralistic.net/?p=12885</id>
+        <link href="https://pluralistic.net/2026/06/06/applied-counterescatology/"/>
+        <updated>2026-06-06T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Criticizing the everything machine: It slices, it dices, it even makes paperclips! Hey look at this: Delights to delectate. Object permanence: Parliament v DRM; Colbert's commencement; Counterfeiting x luxury goods; Joule thief; Lean-back media. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Criticizing the everything machine (permalink) "Gish Gallop" is the debating term for an opponent who makes so many claims that "it's impossible to address them in the time available" (it's named for Creationist Duane Gish, who was notorious for this tactic): https://en.wikipedia.…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[micropython-wasm 0.1a2]]></title>
         <id>https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything</id>
@@ -6654,17 +6664,6 @@ Tags: science · tsunamis · video]]></summary>
         <summary type="html"><![CDATA[It’s David Attenborough’s 100th birthday today! One of my few genuine heroes.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webcurios 08/05/26]]></title>
-        <id>https://webcurios.co.uk/?p=1525</id>
-        <link href="https://webcurios.co.uk/webcurios-08-05-26/"/>
-        <updated>2026-05-08T06:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Reading Time:  44 minutes   Well, even in its partially incomplete form that’s a, er, miserable-looking set of electoral results, isn’t it? Good to see, based on the extent to which the Reform vote maps closely to the Brexit vote, that you CAN in fact fool people twice! Well done everyone! Well done! Anyway, that’s all too miserable to…
-Continue reading →]]></summary>
-        <author>
-            <name>admin</name>
         </author>
     </entry>
 </feed>
