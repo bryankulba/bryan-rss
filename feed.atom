@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-06T06:51:24.082Z</updated>
+    <updated>2026-06-06T13:27:38.698Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6682,92 +6682,6 @@ while playing Grand Theft Auto and actually that was the majority component of m
 Incid…]]></summary>
         <author>
             <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;In nine experiments involving 1,800 participants,...]]></title>
-        <id>https://kottke.org/26/05/0048820-in-nine-experiments-invol</id>
-        <link href="https://kottke.org/26/05/0048820-in-nine-experiments-invol"/>
-        <updated>2026-05-07T21:53:38.000Z</updated>
-        <summary type="html"><![CDATA[“In nine experiments involving 1,800 participants, researchers found that people consistently underestimated how interesting and enjoyable conversations about boring topics would be.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rogue One: The Andor Cut]]></title>
-        <id>https://kottke.org/26/05/rogue-one-the-andor-cut</id>
-        <link href="https://kottke.org/26/05/rogue-one-the-andor-cut"/>
-        <updated>2026-05-07T20:45:00.000Z</updated>
-        <summary type="html"><![CDATA[David Kaylor is re-editing Rogue One into what he calls “The Andor Cut”; the trailer seems pretty compelling and well-done. He says this is Rogue One if it was produced after Andor:
-The original version is the events of Rogue One as seen through Jyn’s perspective, and this is through Cassian’s.
-
-	
-The remixed Rogue One will be out on May 25, available in 4K with 5.1 surround sound. Kaylor has previously produced cuts of all three original trilogy Star Wars movies, Star Wars: Episode III - The Siege of Mandalore & Revenge of the Sith (a combo of the third prequel and part of the 7th season of Clone Wars), and Star Trek: Picard: The Last Generation (a recut of Star Trek: Picard’s 3rd season).
-This edit is not to be confused with Andor: The Rogue One Arc, which recuts Rogue One into an Andor-like three-episode arc, leaning heavily on Andor’s soundtrack to set the mood.
-This edit is kind of an expression of that with a movie I generally really liked - moving its energy from emulating the jaunty, swashbuckling OT, to more in line with its prequel show’s feel.
-Up front, I don’t actually think this elevates or changes Rogue One in any meaningful way. The movie is still the movie, still fast paced and action oriented, particularly compared to Andor’s fiercer, slower, and paranoid ethos. But I do think the elements Andor is rooted in become far more apparent foregrounded to this soundtrack. Where the movie somewhat failed to recapture the energy and excitement of traditional Star Wars (and not for lack of Giacchino effort), the places where it takes itself seriously should now feel less dissonant in a [tonal] context that seriously considers them.
-
-	
-I’ve watched The Rogue One Arc and am looking forward to comparing it to The Andor Cut. And I’ve been seriously contemplating yet another rewatch of the TV series.
-
- 
-
-        
-         
-Tags: andor · movies · remix · Rogue One · Star Wars · trailers · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A brief history:  lessons from the rise and fall of...]]></title>
-        <id>https://kottke.org/26/05/0048896-lessons-from-the-rise-and</id>
-        <link href="https://kottke.org/26/05/0048896-lessons-from-the-rise-and"/>
-        <updated>2026-05-07T19:57:25.000Z</updated>
-        <summary type="html"><![CDATA[A brief history: lessons from the rise and fall of Reconstruction. “Must America be forever defined by strict hierarchies of race, gender, religion, and wealth – or can the nation finally realize its promise of egalitarian pluralism?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-gemini 0.31]]></title>
-        <id>https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything"/>
-        <updated>2026-05-07T19:57:06.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-gemini/releases/tag/0.31">llm-gemini 0.31</a></p>
-        <blockquote>
-<ul>
-<li><code>gemini-3.1-flash-lite</code> is <a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available">no longer a preview</a>. </li>
-</ul>
-</blockquote>
-<p>Here's my write-up of the <a href="https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/">Gemini 3.1 Flash-Lite Preview model</a> back in March. I don't believe this new non-preview model has changed since then.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Abolitionist Map of NYC]]></title>
-        <id>https://kottke.org/26/05/the-abolitionist-map-of-nyc</id>
-        <link href="https://kottke.org/26/05/the-abolitionist-map-of-nyc"/>
-        <updated>2026-05-07T18:58:42.000Z</updated>
-        <summary type="html"><![CDATA[The website for the Abolitionist Guide to NYC is just getting started, but the site does house an Abolitionist Map of NYC.
-The Abolitionist Map of NYC offers a geographic survey of incarceration and anti-carceral resistance in Manahatta from the Dutch colonization of Lenapehoking to the present day. The map highlights some of the first jails and prisons to exist in the area, the movement of facilities from one place to the next, and sites of rebellion against the expansion of the prison industrial complex.
-It is meant to serve as a tool for abolitionist resistance grounded in a long view of the struggle, tactics, and goals.
-
-	
-The map is available as a PDF and as an interactive version. (via @prisonculture.bsky.social)
-
- 
-
-        
-         
-Tags: maps · NYC · prison]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
