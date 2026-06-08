@@ -188,16 +188,6 @@
           "wordCount": 5455,
           "title": "Dragoncatcher: News travels too fast these days",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/referer/",
-          "author": null,
-          "description": "<p>Love that misspelling. <a href=\"https://www.robinsloan.com/lab/referer/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/referer/",
-          "publishedOn": "2026-05-10T09:00:00.000Z",
-          "wordCount": 5539,
-          "title": "Dragoncatcher: Referer reality",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -310,6 +300,36 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/0049090-wind-and-solar-generated-",
+          "author": null,
+          "description": "“For the first time, wind and solar generated more electricity than gas worldwide in April 2026.”",
+          "link": "https://kottke.org/26/06/0049090-wind-and-solar-generated-",
+          "publishedOn": "2026-06-08T20:33:00.000Z",
+          "wordCount": 754,
+          "title": "&#8220;For the first time,  wind and solar generated more...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049099-a-lovely-story-by-mary-hk",
+          "author": null,
+          "description": "A lovely story by Mary H.K. Choi about her husband and wedding. “A green card wedding was the story I was selling…but it became clear I’d wanted to get married for all the typical risky reasons most of us do: love, understanding, hope.”",
+          "link": "https://kottke.org/26/06/0049099-a-lovely-story-by-mary-hk",
+          "publishedOn": "2026-06-08T19:47:00.000Z",
+          "wordCount": 788,
+          "title": "A lovely story by Mary H.K. Choi about her husband and...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049097-a-long-and-difficult-to-r",
+          "author": null,
+          "description": "From the New Yorker, a long and difficult-to-read report by Heidi Blake about how the truly disgusting and evil Tate brothers built a sexual slavery empire.",
+          "link": "https://kottke.org/26/06/0049097-a-long-and-difficult-to-r",
+          "publishedOn": "2026-06-08T19:00:00.000Z",
+          "wordCount": 473,
+          "title": "From the New Yorker,  a long and difficult-to-read report...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/06/0049098-the-supreme-court-has-inv",
           "author": null,
@@ -4350,6 +4370,16 @@
       "feedUrl": "http://www.antipope.org/charlie/blog-static/atom.xml",
       "siteUrl": "http://www.antipope.org/charlie/blog-static/",
       "articles": [
+        {
+          "id": "http://www.antipope.org/charlie/blog-static/2026/06/back-at-the-coal-face.html",
+          "author": null,
+          "description": "I must remember that now I'm over 60, doing more than one SF convention in a month is probably more than my stamina can cope with. (Which is going to make this November really interesting as I'm about to say...",
+          "link": "http://www.antipope.org/charlie/blog-static/2026/06/back-at-the-coal-face.html",
+          "publishedOn": "2026-06-08T19:26:36.000Z",
+          "wordCount": 997,
+          "title": "Back at the coal face",
+          "imageUrl": null
+        },
         {
           "id": "http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html",
           "author": null,

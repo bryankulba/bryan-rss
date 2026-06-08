@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-08T18:25:04.573Z</updated>
+    <updated>2026-06-08T21:49:27.981Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[&#8220;For the first time,  wind and solar generated more...]]></title>
+        <id>https://kottke.org/26/06/0049090-wind-and-solar-generated-</id>
+        <link href="https://kottke.org/26/06/0049090-wind-and-solar-generated-"/>
+        <updated>2026-06-08T20:33:00.000Z</updated>
+        <summary type="html"><![CDATA[“For the first time, wind and solar generated more electricity than gas worldwide in April 2026.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A lovely story by Mary H.K. Choi about her husband and...]]></title>
+        <id>https://kottke.org/26/06/0049099-a-lovely-story-by-mary-hk</id>
+        <link href="https://kottke.org/26/06/0049099-a-lovely-story-by-mary-hk"/>
+        <updated>2026-06-08T19:47:00.000Z</updated>
+        <summary type="html"><![CDATA[A lovely story by Mary H.K. Choi about her husband and wedding. “A green card wedding was the story I was selling…but it became clear I’d wanted to get married for all the typical risky reasons most of us do: love, understanding, hope.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back at the coal face]]></title>
+        <id>http://www.antipope.org/charlie/blog-static/2026/06/back-at-the-coal-face.html</id>
+        <link href="http://www.antipope.org/charlie/blog-static/2026/06/back-at-the-coal-face.html"/>
+        <updated>2026-06-08T19:26:36.000Z</updated>
+        <summary type="html"><![CDATA[I must remember that now I'm over 60, doing more than one SF convention in a month is probably more than my stamina can cope with. (Which is going to make this November really interesting as I'm about to say...]]></summary>
+        <author>
+            <name>Charlie's Diary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From the New Yorker,  a long and difficult-to-read report...]]></title>
+        <id>https://kottke.org/26/06/0049097-a-long-and-difficult-to-r</id>
+        <link href="https://kottke.org/26/06/0049097-a-long-and-difficult-to-r"/>
+        <updated>2026-06-08T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From the New Yorker, a long and difficult-to-read report by Heidi Blake about how the truly disgusting and evil Tate brothers built a sexual slavery empire.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Supreme Court Has Invented a Right to Discriminate ....]]></title>
         <id>https://kottke.org/26/06/0049098-the-supreme-court-has-inv</id>
@@ -6609,16 +6649,6 @@ Cyberpunk has always been the moral operating system of the future—the one tha
         <summary type="html"><![CDATA[No.402 — AI learns language from skewed sources ⊗ We can always do something about the future ⊗ The hidden Sungemite archipelago ⊗ Where Europe’s population is shrinking ⊗ Rogue One: The Andor Cut]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Referer reality]]></title>
-        <id>https://www.robinsloan.com/lab/referer/</id>
-        <link href="https://www.robinsloan.com/lab/referer/"/>
-        <updated>2026-05-10T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Love that misspelling. <a href="https://www.robinsloan.com/lab/referer/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>
