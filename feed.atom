@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-08T08:54:10.477Z</updated>
+    <updated>2026-06-08T15:45:22.568Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My Students Can’t Read . &#8220;There is a measurable,...]]></title>
+        <id>https://kottke.org/26/06/0049091-my-students-cant-read</id>
+        <link href="https://kottke.org/26/06/0049091-my-students-cant-read"/>
+        <updated>2026-06-08T15:29:00.000Z</updated>
+        <summary type="html"><![CDATA[My Students Can’t Read. “There is a measurable, generational collapse in sustained reading and writing, and the academy is responding to it with improvisation and exhaustion rather than the structural overhaul it requires.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Terry Tao Became an Evangelist for AI in Math]]></title>
+        <id>https://www.quantamagazine.org/?p=162849</id>
+        <link href="https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/"/>
+        <updated>2026-06-08T15:17:08.000Z</updated>
+        <summary type="html"><![CDATA[With automated proof-checkers, a problem can be broken up into small chunks, solved bit-by-bit, then reassembled with confidence that every piece is correct. For some, this heralds a new area in mathematical research.            
+The post How Terry Tao Became an Evangelist for AI in Math first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Kevin Hartnett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LEGO Batman’s Commodore 64 BASIC easter egg]]></title>
+        <id>https://waxy.org/?p=50739</id>
+        <link href="https://waxy.org/2026/06/lego-batmans-commodore-64-basic-easter-egg/"/>
+        <updated>2026-06-08T15:15:58.000Z</updated>
+        <summary type="html"><![CDATA[Cabel Sasser found a great easter egg in the new Lego Batman game. (Audio on!) For anyone who grew up with a Commodore 64, this is perfect nerd sniping. I transcribed the C64 BASIC code from Cabel’s video for you to try yourself. Just copy the code below and paste it into your emulator of […]]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yeah, I’ll read the hell out of  a Wesley Morris profile...]]></title>
+        <id>https://kottke.org/26/06/0049092-a-wesley-morris-profile-o</id>
+        <link href="https://kottke.org/26/06/0049092-a-wesley-morris-profile-o"/>
+        <updated>2026-06-08T14:55:46.000Z</updated>
+        <summary type="html"><![CDATA[Yeah, I’ll read the hell out of a Wesley Morris profile of Steven Spielberg. “Spielberg has always known that his movies are attempts to understand his boyhood and his parents, to try to heal them through fiction and illuminate parts of himself.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[off position]]></title>
+        <id>https://warrenellis.ltd/?p=18480</id>
+        <link href="https://warrenellis.ltd/status/off-position/"/>
+        <updated>2026-06-08T11:18:20.000Z</updated>
+        <summary type="html"><![CDATA[Shawn Huckins. Amazon Web Services are having issues. Which means half the internet is off. I’m okay with that. If I wasn’t buried in finishing…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steve Barrow (29 September 1945–30 May 2026)]]></title>
+        <id>https://www.thewire.co.uk/in-writing/essays/steve-barrow-29-september-1945-30-may-2026</id>
+        <link href="https://www.thewire.co.uk/in-writing/essays/steve-barrow-29-september-1945-30-may-2026"/>
+        <updated>2026-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When I moved to London for work in the late summer of 1975, just after that year’s Notting Hill carnival, the streets of North Kensington were still ablaze with the sounds of reggae and dub; it was inevitable that I would become more acquainted with a music that I had only come across previously in the occasional pop hit. By the time I started in radio three years later, I was a convert, interviewing reggae greats such as Burning Spear, Freddie McGregor, Dennis Brown, and Culture’s Joe Hill for BBC Radio Lancashire. I thought I knew everything. It was getting to know Steve Barrow that not only convinced me I knew nothing but that I had to spend the rest of my life learning.
+
+
+    His entry into the reggae business involved time spent working at Honest Jon’s record shop in Ladbroke Grove in…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette-agent-edit 0.1a0]]></title>
         <id>https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything</id>
@@ -6079,6 +6143,20 @@ Many of his correspondents, he learned, had discovered their condition very rece
         <summary type="html"><![CDATA[Today's links A fascist paradigm: The change that changed everything. Hey look at this: Delights to delectate. Object permanence: Openstreetmap x Isle of Wight; Found grocery lists; Mayor wants to pray away potholes; Designing a D120; "Too Like the Lightning." Upcoming appearances: Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. A fascist paradigm (permalink) Yesterday, I attended a workshop on systems thinking and political change, which included a presentation on the work of Donella Meadows, whose Thinking in Systems is a canonical work on the subject: https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer "…]]></summary>
         <author>
             <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Queercore in Britain]]></title>
+        <id>https://www.thewire.co.uk/in-writing/essays/queercore</id>
+        <link href="https://www.thewire.co.uk/in-writing/essays/queercore"/>
+        <updated>2026-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Queercore, Audrey Golden traces the unsung history of the genre in the UK
+
+NME, then the most widely read ‘rock inkie’ in the world. Beyond the thrill of mainstream coverage, the band was conscious of the kind of attention likely to come from the paper – an approach more keen to sensationalise queer rockers than to celebrate a small group of artists with shared identities who wanted to make good music while liberating the LGBTQ+ community from sociocultural and legal shackles. So the members of Sister George came up with an idea to subvert NME’s gaze, through which queercore gained a visibility and strength in London that would empower artists for decades to come.
+
+Holy Titclamps, Larry-bob Roberts. Queercore books and films to date have omitted London, one of the most vibrant queer punk s…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
