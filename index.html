@@ -35,6 +35,32 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-07T23:56:38.000Z">2026-06-07</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-agent-edit 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-agent-edit 0.1a0
+I'm planning several plugins for Datasette Agent which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files.
+Agentic editing of text is a little tricky to get right. My favorite published design for this is for the Claude text editor, which implements the following tools:
+view - view sections of a file, with line numbers added to every line.
+str_replace - find an exact old_str and replace it with new_str - fail if the original string is not unique
+insert - insert the specified text after the specified line number
+Rather than recreate these patterns for every plugin that needs them I decided to create this base plugin, datasette-agent-edit, which implements the core tools in a way that allows them to be adapted for other plugins.
+Tags: ai, datasette, generative-ai, llms, llm-tool-use, datasette-agent</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/hiking-sandal-realness">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-07T13:01:31.000Z">2026-06-07</time>
@@ -10672,25 +10698,6 @@ Tags: careers, sqlite</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12791">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-09T12:51:02.000Z">2026-05-09</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/05/09/cossie-livvie-crissie/" target="_blank" rel="noopener noreferrer">Pluralistic: Trump&#x27;s fruitless search for a goreable ox (09 May 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Trump's fruitless search for a goreable ox: You can keep billionaires happy, or you can fight the cost of living crisis, but not both. Hey look at this: Delights to delectate. Object permanence: Typewriter bust; Phrack's new issue; Panama Papers whistleblower speaks; The PRO Act; Zuck's new mind-control ray. Upcoming appearances: Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trump's fruitless search for a goreable ox (permalink) I've got good news and bad news for Trump. The good news: you can get elected by promising to do something about the cost of living crisis, and the president actually has a …</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12791" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12791">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
         </div>
       </div>
     </article>

@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-07T21:10:53.677Z</updated>
+    <updated>2026-06-08T03:44:21.323Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette-agent-edit 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything"/>
+        <updated>2026-06-07T23:56:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent-edit/releases/tag/0.1a0">datasette-agent-edit 0.1a0</a></p>
+        <p>I'm planning several plugins for <a href="https://agent.datasette.io/">Datasette Agent</a> which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files.</p>
+<p>Agentic editing of text is a little tricky to get right. My favorite published design for this is for the <a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool#use-the-text-editor-tool">Claude text editor</a>, which implements the following tools:</p>
+<ul>
+<li><code>view</code> - view sections of a file, with line numbers added to every line.</li>
+<li><code>str_replace</code> - find an exact <code>old_str</code> and replace it with <code>new_str</code> - fail if the original string is not unique</li>
+<li><code>insert</code> - insert the specified text after the specified line number</li>
+</ul>
+<p>Rather than recreate these patterns for every plugin that needs them I decided to create this base plugin, <code>datasette-agent-edit</code>, which implements the core tools in a way that allows them to be adapted for other plugins.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-tool-use">llm-tool-use</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hiking-sandal realness]]></title>
         <id>https://www.blackbirdspyplane.com/p/hiking-sandal-realness</id>
@@ -6456,16 +6477,6 @@ Cyberpunk has always been the moral operating system of the future—the one tha
         <summary type="html"><![CDATA[<p>Love that misspelling. <a href="https://www.robinsloan.com/lab/referer/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12791</id>
-        <link href="https://pluralistic.net/2026/05/09/cossie-livvie-crissie/"/>
-        <updated>2026-05-09T12:51:02.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Trump's fruitless search for a goreable ox: You can keep billionaires happy, or you can fight the cost of living crisis, but not both. Hey look at this: Delights to delectate. Object permanence: Typewriter bust; Phrack's new issue; Panama Papers whistleblower speaks; The PRO Act; Zuck's new mind-control ray. Upcoming appearances: Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trump's fruitless search for a goreable ox (permalink) I've got good news and bad news for Trump. The good news: you can get elected by promising to do something about the cost of living crisis, and the president actually has a …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

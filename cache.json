@@ -2428,16 +2428,6 @@
           "wordCount": 3596,
           "title": "Pluralistic: 2024 (apart from the obvious) (11 May 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12791",
-          "author": "Cory Doctorow",
-          "description": "Today's links Trump's fruitless search for a goreable ox: You can keep billionaires happy, or you can fight the cost of living crisis, but not both. Hey look at this: Delights to delectate. Object permanence: Typewriter bust; Phrack's new issue; Panama Papers whistleblower speaks; The PRO Act; Zuck's new mind-control ray. Upcoming appearances: Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trump's fruitless search for a goreable ox (permalink) I've got good news and bad news for Trump. The good news: you can get elected by promising to do something about the cost of living crisis, and the president actually has a …",
-          "link": "https://pluralistic.net/2026/05/09/cossie-livvie-crissie/",
-          "publishedOn": "2026-05-09T12:51:02.000Z",
-          "wordCount": 3121,
-          "title": "Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -3089,6 +3079,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-edit/releases/tag/0.1a0\">datasette-agent-edit 0.1a0</a></p>\n        <p>I'm planning several plugins for <a href=\"https://agent.datasette.io/\">Datasette Agent</a> which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files.</p>\n<p>Agentic editing of text is a little tricky to get right. My favorite published design for this is for the <a href=\"https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool#use-the-text-editor-tool\">Claude text editor</a>, which implements the following tools:</p>\n<ul>\n<li><code>view</code> - view sections of a file, with line numbers added to every line.</li>\n<li><code>str_replace</code> - find an exact <code>old_str</code> and replace it with <code>new_str</code> - fail if the original string is not unique</li>\n<li><code>insert</code> - insert the specified text after the specified line number</li>\n</ul>\n<p>Rather than recreate these patterns for every plugin that needs them I decided to create this base plugin, <code>datasette-agent-edit</code>, which implements the core tools in a way that allows them to be adapted for other plugins.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+          "publishedOn": "2026-06-07T23:56:38.000Z",
+          "wordCount": 882,
+          "title": "datasette-agent-edit 0.1a0",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
           "author": null,
