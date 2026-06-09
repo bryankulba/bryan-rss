@@ -35,6 +35,35 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-08T23:58:04.000Z">2026-06-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything" target="_blank" rel="noopener noreferrer">Siri AI at WWDC 2026</a>
+          </h2>
+          <p class="feed-item__desc">Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict "I'll believe it when I see it" policy for everything they announced today. 
+The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute.
+It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in order to integrate with Apple Intelligence. Vision LLMs were a much less mature category in June 2024.
+The new Core AI library looks like a good step in enabling developers to finally take full advantage of Apple's hardware for running their own models. It integrates with Meta's open source PyTorch ecosystem, using these Core AI PyTorch extensions:
+Core AI PyTorch Extensions (coreai-torch) is a Python package that bridges PyTorch and Core AI. You can use it to bring up an existing PyTorch model — exported as a torch.export.ExportedProgram — into a Core AI AIProgram ready to run on Apple hardware, traversing the FX graph node-by-node and mapping ATen operators to Core AI operations.
+You can install an iOS 27 Developer Beta today, which supposedly has the new features - but you then have to make it through a waiting list for access to the new Siri AI. Aaron Perris from MacRumors reports having made it off the waitlist so we may start seeing credible reports on how well Siri AI works in the very near future.
+Update: These Private Cloud Compute Gemini models are running in Google Cloud, and using NVIDIA hardware. According to Expanding Private Cloud Compute on Apple's Security Research blog:
+For the most demanding tasks, including agentic tool-use and complex reasoning, we worked with Google and NVIDIA to extend our PCC infrastructure to Google Cloud systems using NVIDIA GPUs, while maintaining Apple's powerful security and privacy protections. [...]
+PCC on Google Cloud leverages many of the same architectural security patterns as PCC on Apple silicon to implement these layered protections: initial network data parsing for each request happens in a dedicated process within its own namespace, shared inference software is recycled with a short time-to-live duration, and attested keys are held in a separate, dedicated confidential VM isolated from external inputs. [...]
+As with PCC on Apple silicon, all binaries will be published for public inspection.
+Tags: vision-llms, apple, generative-ai, ai, llms, gemini, nvidia, google</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/06/0049090-wind-and-solar-generated-">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-08T20:33:00.000Z">2026-06-08</time>
@@ -10977,49 +11006,6 @@ Tags: careers, sqlite</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/no-baby-on-board">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-10T13:03:07.000Z">2026-05-10</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/no-baby-on-board" target="_blank" rel="noopener noreferrer">No baby on board</a>
-          </h2>
-          <p class="feed-item__desc">Sick walkable Mary Janes, why the best designers are all coming out of Belgium, a great NYC woodworker & more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/no-baby-on-board" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/no-baby-on-board">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!qXvk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa237495b-3ad0-4a16-a3d3-500eded2c934_2000x2569.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="69ff926683431200015cf787">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-10T10:00:23.000Z">2026-05-10</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/anti-dystopia-our-horizon-of-possibilities-no-402/" target="_blank" rel="noopener noreferrer">Anti-dystopia ⊗ Our horizon of possibilities</a>
-          </h2>
-          <p class="feed-item__desc">No.402 — AI learns language from skewed sources ⊗ We can always do something about the future ⊗ The hidden Sungemite archipelago ⊗ Where Europe’s population is shrinking ⊗ Rogue One: The Andor Cut</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="69ff926683431200015cf787" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="69ff926683431200015cf787">Mark read</button>
-            <span class="feed-item__reading-time">8 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/05/Our_horizon_of_possibilities-w-1.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
