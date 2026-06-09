@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-09T07:44:46.077Z</updated>
+    <updated>2026-06-09T14:45:50.063Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/818950308008001536</id>
+        <link href="https://brucesterling.tumblr.com/post/818950308008001536"/>
+        <updated>2026-06-09T13:31:15.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Naomi Kritzer's "Obstetrix" (09 Jun 2026)]]></title>
+        <id>https://pluralistic.net/?p=12890</id>
+        <link href="https://pluralistic.net/2026/06/09/deliver-us/"/>
+        <updated>2026-06-09T13:30:12.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Naomi Kritzer's "Obstetrix": When forced birth cultists become forced obstetrics militants. Hey look at this: Delights to delectate. Object permanence: DD-WRT; iTunes DRM is illegal; Fingertip magnet; Sony passwords v Gawker passwords; RIAA recants on 3 strikes; Parachute wedding dress; Roald Dahl (jerk); "Level Up"; The rent's too damned high; RIAA v "Search by artist"; "Robopocalypse"; You are not a wallet; The man who created the religious right; NY x voting; NY x antitrust; Media companies fund Heritage Minister's campaign; Richard Dreyfuss x iTunes EULA; 3-way street; RIAA lawyer becomes Solicitor General; Brock Allen's wrist-slap; Ad-tech interop; Apple's manorial security; Billionaires aren't taxed, "Rabbits." Upcoming appearances: Kansas City, LA, Menlo Park, Toronto,…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Analyze this]]></title>
+        <id>https://www.blackbirdspyplane.com/p/analyze-this-against-color-analysis-and-other-code-unlocker-hogwash</id>
+        <link href="https://www.blackbirdspyplane.com/p/analyze-this-against-color-analysis-and-other-code-unlocker-hogwash"/>
+        <updated>2026-06-09T11:03:41.000Z</updated>
+        <summary type="html"><![CDATA[Would-be "code unlockers" deserve extreme skepticism]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[James Blood Ulmer (8 February 1940–3 June 2026)]]></title>
+        <id>https://www.thewire.co.uk/in-writing/the-portal/james-blood-ulmer-8-february-1940-3-june-2026</id>
+        <link href="https://www.thewire.co.uk/in-writing/the-portal/james-blood-ulmer-8-february-1940-3-june-2026"/>
+        <updated>2026-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 171 free to read in our online archive.
+
+
+    Odd Man Out: James Blood Ulmer interviewed by Steve Holtje, The Wire 171, May 1998]]></summary>
+        <author>
+            <name>The Wire: Home</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Siri AI at WWDC 2026]]></title>
         <id>https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything</id>
@@ -6628,19 +6670,6 @@ Cyberpunk is morally good—not because it’s virtuous in the Sunday‑school s
 Cyberpunk has always been the moral operating system of the future—the one that boots up when the official firmware crashes. It’s the literature of people who know that systems fail, institutions rot, and the glossy brochure…]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting New York Times Editors’ Note]]></title>
-        <id>https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything"/>
-        <updated>2026-05-10T23:58:49.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/2026/04/14/world/canada/election-carney-liberal-party.html"><p><em>This article was updated after The Times learned that a remark attributed to Pierre Poilievre, the Conservative leader, was in fact an A.I.-generated summary of his views about Canadian politics that A.I. rendered as a quotation. The reporter should have checked the accuracy of what the A.I. tool returned.  The article now accurately quotes from a speech delivered by Mr. Poilievre in April. [...] He did not refer to politicians who changed allegiances as turncoats in that speech.</em></p></blockquote>
-<p class="cite">&mdash; <a href="https://www.nytimes.com/2026/04/14/world/canada/election-carney-liberal-party.html">New York Times Editors’ Note</a></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/hallucinations">hallucinations</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/new-york-times">new-york-times</a>, <a href="https://simonwillison.net/tags/journalism">journalism</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
