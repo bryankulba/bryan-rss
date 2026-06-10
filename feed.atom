@@ -2,10 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-10T18:29:54.936Z</updated>
+    <updated>2026-06-10T21:59:50.734Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The White House’s Top Science Goal Is Ignorance . “The...]]></title>
+        <id>https://kottke.org/26/06/0049117-the-white-houses-top-scie</id>
+        <link href="https://kottke.org/26/06/0049117-the-white-houses-top-scie"/>
+        <updated>2026-06-10T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The White House’s Top Science Goal Is Ignorance. “The actions are seen as a deliberate attempt to stifle science and ignore the reality of climate change, in order to support the fossil-fuel industry and satisfy the climate denialism of Trump’s base.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Last Surviving Japanese Porsche 912 Police Car]]></title>
+        <id>https://kottke.org/26/06/the-last-surviving-japanese-porsche-912-police-car</id>
+        <link href="https://kottke.org/26/06/the-last-surviving-japanese-porsche-912-police-car"/>
+        <updated>2026-06-10T20:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Oof, what a beauty. In the 1960s, four Porsche 912s were customized for use as police cars in Japan. This one, which was used in Kanagawa until 1973, is the only one left standing (and even it needed restoration).
+This Japanese police 912 served in Kanagawa Prefecture from 1968 to 1973, operating on the Daisan Keihin and Tomei Expressways. Over five years of service, it covered more than 155,000km and even played a role in stopping a speeder traveling at 178 km/h.⁠
+⁠Police vehicles are usually scrapped after their service life, but this one was an exception. After being retired due to engine failure, it was kept and displayed at a police academy for 26 years. Over time, exposure to the elements caused significant deterioration, and in 1999 it was sold to a scrapyard. After six months of negotiations, it was eventually recovered.⁠
+
+	
+
+Here are a couple of photos of 912s while in service back in the day.
+
+
+
+ 
+
+        
+         
+Tags: cars · Japan · police · Porsche]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DiffusionGemma]]></title>
+        <id>https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything"/>
+        <updated>2026-06-10T20:00:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/">DiffusionGemma</a></strong></p>
+Last May Google briefly released an experimental Gemini Diffusion model. I <a href="https://simonwillison.net/2025/May/21/gemini-diffusion/">tried the preview at the time</a> and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it.</p>
+<p>That research has returned in the best possible way: as a new open weight (Apache 2 licensed) Gemma model, <a href="https://huggingface.co/google/diffusiongemma-26B-A4B-it">google/diffusiongemma-26B-A4B-it</a>.</p>
+<p>NVIDIA are currently <a href="https://build.nvidia.com/google/diffusiongemma-26b-a4b-it">hosting the model for free</a> on their NIM cloud API. I used that API to <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fe5e234a6dc6eef61e209ce1629620042">generate this pelican</a>, which took 4.4s (according to <code>time uv run generate.py</code>) to return 2,409 tokens - so at least 500 tokens/second.</p>
+<p><img alt="Flat minimalist illustration of a white pelican with a large orange beak riding a red bicycle with black wheels, against a pale blue background with a green line representing the ground" src="https://static.simonwillison.net/static/2026/diffusiongemma-pelican.png" />
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48478471">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/nvidia">nvidia</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/gemma">gemma</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/llm-performance">llm-performance</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This song has no instruments in it]]></title>
+        <id>https://waxy.org/?p=50822</id>
+        <link href="https://www.youtube.com/watch?v=_Rk-hmIMv6I"/>
+        <updated>2026-06-10T19:55:12.000Z</updated>
+        <summary type="html"><![CDATA[Andy Brewer turns pink noise into a polyphonic sine synthesizer using only the EQ
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your Search Results Are Getting Sloptimized . SEO (and...]]></title>
+        <id>https://kottke.org/26/06/0049116-your-search-results-are-g</id>
+        <link href="https://kottke.org/26/06/0049116-your-search-results-are-g"/>
+        <updated>2026-06-10T19:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Your Search Results Are Getting Sloptimized. SEO (and Google’s embrace of it) has spent the last 25 years ruining the internet and search results. Now it’s GEO’s turn (generative-engine optimization).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Futurism on a new bounty marketplace paying people to humiliate themselves]]></title>
+        <id>https://waxy.org/?p=50819</id>
+        <link href="https://futurism.com/future-society/meme-coin-man-tattoo-name-forehead"/>
+        <updated>2026-06-10T19:49:18.000Z</updated>
+        <summary type="html"><![CDATA[extremely dystopian, unsurprisingly started by a memecoin trading platform
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best Headlights in the World Are Illegal in America...]]></title>
+        <id>https://kottke.org/26/06/0049108-the-best-headlights-in-th</id>
+        <link href="https://kottke.org/26/06/0049108-the-best-headlights-in-th"/>
+        <updated>2026-06-10T19:07:00.000Z</updated>
+        <summary type="html"><![CDATA[The Best Headlights in the World Are Illegal in America. “America’s roads are now full of tactical-grade headlights, and no one is happy about it.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Grappling With the Existential AI Threat]]></title>
         <id>https://kottke.org/26/06/grappling-with-the-existential-ai-threat</id>
@@ -39,6 +134,17 @@ Tags: artificial intelligence · Charity Majors · programming]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Beth Mathews on the history of vacuum-formed signage in L.A.]]></title>
+        <id>https://waxy.org/?p=50794</id>
+        <link href="https://bethmathews.substack.com/p/the-history-behind-the-signs-lighting"/>
+        <updated>2026-06-10T16:55:43.000Z</updated>
+        <summary type="html"><![CDATA[I saw these all over the valley when I was a kid in the ’80s, but never knew the process behind their distinctive look
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[75-Minute DJ Set From Daft Punk’s Thomas Bangalter]]></title>
         <id>https://kottke.org/26/06/75-minute-dj-set-from-daft-punks-thomas-bangalter</id>
         <link href="https://kottke.org/26/06/75-minute-dj-set-from-daft-punks-thomas-bangalter"/>
@@ -54,6 +160,28 @@ Was it scary to be that big? “It was almost performance art where you create t
 Tags: Daft Punk · music · Thomas Bangalter · video]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[we were online]]></title>
+        <id>https://waxy.org/?p=50790</id>
+        <link href="https://wewere.online/"/>
+        <updated>2026-06-10T16:28:59.000Z</updated>
+        <summary type="html"><![CDATA[the live cursor trails are from real people with the browser extension installed, currently 28 people across 19 timezones
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ethan Mollick on working with Claude Fable]]></title>
+        <id>https://waxy.org/?p=50787</id>
+        <link href="https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos"/>
+        <updated>2026-06-10T16:23:48.000Z</updated>
+        <summary type="html"><![CDATA[he published several projects it generated, including three games and a detailed interactive isochrone map
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
         </author>
     </entry>
     <entry>
@@ -6872,16 +7000,6 @@ Many of his correspondents, he learned, had discovered their condition very rece
         <summary type="html"><![CDATA[Your favorite shirt doesn't have a 22 S.P.I. count. Is it garbage?]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: A fascist paradigm (12 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12798</id>
-        <link href="https://pluralistic.net/2026/05/12/donella-meadows/"/>
-        <updated>2026-05-12T07:22:17.000Z</updated>
-        <summary type="html"><![CDATA[Today's links A fascist paradigm: The change that changed everything. Hey look at this: Delights to delectate. Object permanence: Openstreetmap x Isle of Wight; Found grocery lists; Mayor wants to pray away potholes; Designing a D120; "Too Like the Lightning." Upcoming appearances: Barcelona, Berlin, Hay-on-Wye, London, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. A fascist paradigm (permalink) Yesterday, I attended a workshop on systems thinking and political change, which included a presentation on the work of Donella Meadows, whose Thinking in Systems is a canonical work on the subject: https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer "…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
