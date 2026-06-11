@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-11T18:46:09.440Z</updated>
+    <updated>2026-06-11T22:01:30.812Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ian&#8217;s Shoelace Site Is Still The Best Site For...]]></title>
+        <id>https://kottke.org/26/06/0049127-ians-shoelace-site-is-sti</id>
+        <link href="https://kottke.org/26/06/0049127-ians-shoelace-site-is-sti"/>
+        <updated>2026-06-11T21:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Ian’s Shoelace Site Is Still The Best Site For Tying Your Shoes. However: “What is the point of adding value to the internet if it is only going to rob you? Why do research, make diagrams, and develop new knots?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“This song has no instruments in it.”  This is cool: a...]]></title>
+        <id>https://kottke.org/26/06/0049125-this-song-has-no-instrume</id>
+        <link href="https://kottke.org/26/06/0049125-this-song-has-no-instrume"/>
+        <updated>2026-06-11T20:17:00.000Z</updated>
+        <summary type="html"><![CDATA[“This song has no instruments in it.” This is cool: a song made only from pink noise and an equalizer.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This is clever & depressing: the  Apocalypse Early...]]></title>
+        <id>https://kottke.org/26/06/0049124-apocalypse-early-warning-</id>
+        <link href="https://kottke.org/26/06/0049124-apocalypse-early-warning-"/>
+        <updated>2026-06-11T19:57:00.000Z</updated>
+        <summary type="html"><![CDATA[This is clever & depressing: the Apocalypse Early Warning System tracks private jet activity. “In the event of an imminent nuclear apocalypse, we suspect that many people who have access to private jets will immediately take to the skies…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Hand-Drawn Visual Guide to Chili Peppers]]></title>
+        <id>https://kottke.org/26/06/a-hand-drawn-visual-guide-to-chili-peppers</id>
+        <link href="https://kottke.org/26/06/a-hand-drawn-visual-guide-to-chili-peppers"/>
+        <updated>2026-06-11T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For his great visual field guide to the chili peppers of the world, Erik Gauger hand-drew 176 peppers from India, South America, Korea, Thailand, Africa, and seemingly every other place on the Earth.
+Capsaicin, the compound that makes chili peppers hot is an evolutionary filter designed to punish mammals and reward birds. Mammals feel it as pain because mammal digestion destroys seeds. Birds don’t have the receptor that detects it, so they eat the fruit, fly off, and deposit the seeds far from the plant from which they ate. The plant needed birds, and birds didn’t mind the heat, because to them there was no heat to mind.
+What we’ve built from that, from the paprika, the Thai bird’s eye, the ancho, the chocolate habanero, began as a dispersal mechanism. Humans entered the picture late and changed almost everything about the pepper’s form, flavor, and range. But the underlying logic is still there in every fruit: a molecule that says no to the animals who won’t deliver their seeds far from the tree.
+
+	
+Each drawing is accompanied by a description of the pepper, where it originated, the heat level, and even what hot sauces feature it.
+
+See also Gauger’s Hot Sauces of the World page & poster.
+
+
+ 
+
+        
+         
+Tags: art · Erik Gauger · food · illustration]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[John Thomson’s photos of China (1860s-70s) ....]]></title>
         <id>https://kottke.org/26/06/0049122-john-thomsons-photos-of-c</id>
@@ -6966,16 +7020,6 @@ Tags: Dr. Strangelove · Lego · movies · stop motion · timeless posts · vide
 The post How the Bird Eye Was Pushed to an Evolutionary Extreme first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Yasemin Saplakoglu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Laying it on thick]]></title>
-        <id>https://www.robinsloan.com/lab/ai-promotion/</id>
-        <link href="https://www.robinsloan.com/lab/ai-promotion/"/>
-        <updated>2026-05-13T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>A new scourge. <a href="https://www.robinsloan.com/lab/ai-promotion/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>

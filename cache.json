@@ -158,16 +158,6 @@
           "wordCount": 5442,
           "title": "Dragoncatcher: The big button",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/ai-promotion/",
-          "author": null,
-          "description": "<p>A new scourge. <a href=\"https://www.robinsloan.com/lab/ai-promotion/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/ai-promotion/",
-          "publishedOn": "2026-05-13T08:00:00.000Z",
-          "wordCount": 5537,
-          "title": "Dragoncatcher: Laying it on thick",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -260,6 +250,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/0049127-ians-shoelace-site-is-sti",
+          "author": null,
+          "description": "Ian’s Shoelace Site Is Still The Best Site For Tying Your Shoes. However: “What is the point of adding value to the internet if it is only going to rob you? Why do research, make diagrams, and develop new knots?”",
+          "link": "https://kottke.org/26/06/0049127-ians-shoelace-site-is-sti",
+          "publishedOn": "2026-06-11T21:10:00.000Z",
+          "wordCount": 784,
+          "title": "Ian&#8217;s Shoelace Site Is Still The Best Site For...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049125-this-song-has-no-instrume",
+          "author": null,
+          "description": "“This song has no instruments in it.” This is cool: a song made only from pink noise and an equalizer.",
+          "link": "https://kottke.org/26/06/0049125-this-song-has-no-instrume",
+          "publishedOn": "2026-06-11T20:17:00.000Z",
+          "wordCount": 767,
+          "title": "“This song has no instruments in it.”  This is cool: a...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049124-apocalypse-early-warning-",
+          "author": null,
+          "description": "This is clever & depressing: the Apocalypse Early Warning System tracks private jet activity. “In the event of an imminent nuclear apocalypse, we suspect that many people who have access to private jets will immediately take to the skies…”",
+          "link": "https://kottke.org/26/06/0049124-apocalypse-early-warning-",
+          "publishedOn": "2026-06-11T19:57:00.000Z",
+          "wordCount": 742,
+          "title": "This is clever & depressing: the  Apocalypse Early...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/a-hand-drawn-visual-guide-to-chili-peppers",
+          "author": null,
+          "description": "For his great visual field guide to the chili peppers of the world, Erik Gauger hand-drew 176 peppers from India, South America, Korea, Thailand, Africa, and seemingly every other place on the Earth.\nCapsaicin, the compound that makes chili peppers hot is an evolutionary filter designed to punish mammals and reward birds. Mammals feel it as pain because mammal digestion destroys seeds. Birds don’t have the receptor that detects it, so they eat the fruit, fly off, and deposit the seeds far from the plant from which they ate. The plant needed birds, and birds didn’t mind the heat, because to them there was no heat to mind.\nWhat we’ve built from that, from the paprika, the Thai bird’s eye, the ancho, the chocolate habanero, began as a dispersal mechanism. Humans entered the picture late and changed almost everything about the pepper’s form, flavor, and range. But the underlying logic is still there in every fruit: a molecule that says no to the animals who won’t deliver their seeds far from the tree.\n\n\t\nEach drawing is accompanied by a description of the pepper, where it originated, the heat level, and even what hot sauces feature it.\n\nSee also Gauger’s Hot Sauces of the World page & poster.\n\n\n \n\n        \n         \nTags: art · Erik Gauger · food · illustration",
+          "link": "https://kottke.org/26/06/a-hand-drawn-visual-guide-to-chili-peppers",
+          "publishedOn": "2026-06-11T19:00:00.000Z",
+          "wordCount": 890,
+          "title": "A Hand-Drawn Visual Guide to Chili Peppers",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1781200571-805f09f2.jpg"
+        },
         {
           "id": "https://kottke.org/26/06/0049122-john-thomsons-photos-of-c",
           "author": null,
