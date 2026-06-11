@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-11T15:55:54.907Z</updated>
+    <updated>2026-06-11T18:46:09.440Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[John Thomson’s photos of China (1860s-70s) ....]]></title>
+        <id>https://kottke.org/26/06/0049122-john-thomsons-photos-of-c</id>
+        <link href="https://kottke.org/26/06/0049122-john-thomsons-photos-of-c"/>
+        <updated>2026-06-11T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[John Thomson’s photos of China (1860s-70s). “Unlike many other early photographers he didn’t spend all his time photographing palaces and ruins. He also captured a lot of daily life including peasants, merchants, and criminals.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Million Times]]></title>
+        <id>https://waxy.org/?p=50851</id>
+        <link href="https://milliontimes.vercel.app/"/>
+        <updated>2026-06-11T17:31:55.000Z</updated>
+        <summary type="html"><![CDATA[a remake of Humans since 1982’s beautiful kinetic clock sculptures
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A close-up look at some of Spain’s oldest & most...]]></title>
+        <id>https://kottke.org/26/06/0049121-a-close-up-look-at-some-o</id>
+        <link href="https://kottke.org/26/06/0049121-a-close-up-look-at-some-o"/>
+        <updated>2026-06-11T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A close-up look at some of Spain’s oldest & most compelling cave paintings. “We lost the connection they had to this world. They led the way quite nicely and successfully, and we got…distracted.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For the first time on record,  solar overtook coal in the...]]></title>
+        <id>https://kottke.org/26/06/0049118-solar-overtook-coal-in-th</id>
+        <link href="https://kottke.org/26/06/0049118-solar-overtook-coal-in-th"/>
+        <updated>2026-06-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For the first time on record, solar overtook coal in the US electricity mix in May 2026. “Solar supplied a record 12.8% of US electricity, while coal fell to 12.2%, its fourth-lowest monthly share ever.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a33]]></title>
+        <id>https://simonwillison.net/2026/Jun/11/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/11/datasette/#atom-everything"/>
+        <updated>2026-06-11T15:26:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a33">datasette 1.0a33</a></p>
+        <p>This alpha is a significant step on the road to a stable 1.0, finally extending the <code>?_extra=</code> pattern I introduced <a href="https://docs.datasette.io/en/1.0a3/changelog.html#a3-2023-08-09">in Datasette 1.0a3</a> to cover queries and rows in addition to tables. That pattern is also <a href="https://docs.datasette.io/en/latest/json_api.html#expanding-json-responses">now documented</a>!</p>
+<p>I wrote a whole lot more about the new release on the Datasette project blog: <strong><a href="http://datasette.io/blog/2026/api-extras/">Datasette 1.0a33 with JSON extras in the API</a></strong>.</p>
+<p>Because API explorer tools are almost free to build now I had Claude Fable 5 in Claude Code (for <a href="https://gist.github.com/simonw/d8bf1a8f36e28fbd595cede946e0ab6d">the plan</a>) and GPT-5.5 xhigh in Codex Desktop (for <a href="https://gist.github.com/simonw/12d5e09797072a6807d7b9cfcc8ff6b7">the implementation</a>) build me this <a href="https://tools.simonwillison.net/datasette-extras-explorer">custom extras API explorer</a> to help demonstrate the feature:</p>
+<p><img alt="Screenshot of a web application titled &quot;Datasette extras explorer&quot;. A URL input field contains https://latest.datasette.io/fixtures/facetable.json with a teal Explore button next to it. Below, a left panel labeled EXTRAS (30) lists checkboxes: all_columns - All columns in the table, regardless of _col/_nocol filtering; column_types - Column type assignments for this table; columns (checked) - Column names returned by this query; count - Total count of rows matching these filters; count_sql - SQL query used to calculate the total count; custom_table_templates - Custom template names considered for this table; database - Database name; database_color - Color assigned to the database. A right panel labeled RESPONSE shows GET /fixtures/fac… with Copy JSON and Copy URL buttons, then a dark JSON viewer showing 200 - 9.9 KB - 114ms and JSON: &quot;ok&quot;: true, &quot;next&quot;: null, &quot;columns&quot;: (highlighted array) &quot;pk&quot;, &quot;created&quot;, &quot;planet_int&quot;, &quot;on_earth&quot;, &quot;state&quot;, &quot;_city_id&quot;, &quot;_neighborhood&quot;, &quot;tags&quot;, &quot;complex_array&quot;, &quot;distinct_some_null&quot;, &quot;n&quot;, &quot;rows&quot;: list of objects." src="https://static.simonwillison.net/static/2026/extras-explorer.png" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Becoming by Max Cooper]]></title>
         <id>https://kottke.org/26/06/becoming-by-max-cooper</id>
@@ -81,6 +139,20 @@ The post What’s the Future of Gene Editing? first appeared on Quanta Magazine]
         <summary type="html"><![CDATA[The worst-dressed famous people and rare sauce lords among them, rare cool tiny-mic-style-advice dudes, rare shirts, and more unbeatable recon]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[asyncinject 0.7]]></title>
+        <id>https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything"/>
+        <updated>2026-06-11T06:28:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/asyncinject/releases/tag/0.7">asyncinject 0.7</a></p>
+        <p>I built this utility library to support an <code>asyncio</code> dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model!</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/async">async</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6904,22 +6976,6 @@ The post How the Bird Eye Was Pushed to an Evolutionary Extreme first appeared o
         <summary type="html"><![CDATA[<p>A new scourge. <a href="https://www.robinsloan.com/lab/ai-promotion/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSP Allow-list Experiment]]></title>
-        <id>https://simonwillison.net/2026/May/13/csp-allow/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/13/csp-allow/#atom-everything"/>
-        <updated>2026-05-13T04:50:45.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/csp-allow">CSP Allow-list Experiment</a></p>
-        <p>An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see <a href="https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/">previous note</a>) and have a custom <code>fetch()</code> that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list and then refresh the page.</p>
-<p><img alt="Screenshot of a web tool titled &quot;CSP Allow-list Experiment&quot; with buttons Reset sample, Clear allow-list, Refresh preview. Left panel shows HTML source code starting with &lt;!doctype html&gt;. Right panel shows Preview with CSP header default-src 'none'; script-src 'unsafe-inline'; style-s... and heading &quot;Sandbox fetch test&quot;. A modal dialog from tools.simonwillison.net is overlaid reading: &quot;The sandbox tried to connect to: https://api.inaturalist.org   Add this origin to the CSP connect-src allow-list and refresh the page?&quot; with an unchecked checkbox &quot;Don't allow tools.simonwillison.net to prompt you again&quot; and Cancel and OK buttons. Below is &quot;Messages from sandbox&quot; showing fetch-catch blocked https://api.inaturalist.org/v1/observations?per... connect-src · https://api.inaturalist.org. At the bottom left is &quot;Allowed fetch() origins&quot; with an input field containing https://api.github.com, an Add button, and a tag https://api.github.com x." src="https://static.simonwillison.net/static/2026/csp-allow.jpg" /></p>
-<p>I built this one with GPT-5.5 xhigh running in the Codex desktop app.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/content-security-policy">content-security-policy</a>, <a href="https://simonwillison.net/tags/iframes">iframes</a>, <a href="https://simonwillison.net/tags/security">security</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>

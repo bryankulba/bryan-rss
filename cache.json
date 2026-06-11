@@ -261,6 +261,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049122-john-thomsons-photos-of-c",
+          "author": null,
+          "description": "John Thomson’s photos of China (1860s-70s). “Unlike many other early photographers he didn’t spend all his time photographing palaces and ruins. He also captured a lot of daily life including peasants, merchants, and criminals.”",
+          "link": "https://kottke.org/26/06/0049122-john-thomsons-photos-of-c",
+          "publishedOn": "2026-06-11T18:00:00.000Z",
+          "wordCount": 751,
+          "title": "John Thomson’s photos of China (1860s-70s) ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049121-a-close-up-look-at-some-o",
+          "author": null,
+          "description": "A close-up look at some of Spain’s oldest & most compelling cave paintings. “We lost the connection they had to this world. They led the way quite nicely and successfully, and we got…distracted.”",
+          "link": "https://kottke.org/26/06/0049121-a-close-up-look-at-some-o",
+          "publishedOn": "2026-06-11T17:00:00.000Z",
+          "wordCount": 780,
+          "title": "A close-up look at some of Spain’s oldest & most...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049118-solar-overtook-coal-in-th",
+          "author": null,
+          "description": "For the first time on record, solar overtook coal in the US electricity mix in May 2026. “Solar supplied a record 12.8% of US electricity, while coal fell to 12.2%, its fourth-lowest monthly share ever.”",
+          "link": "https://kottke.org/26/06/0049118-solar-overtook-coal-in-th",
+          "publishedOn": "2026-06-11T16:00:00.000Z",
+          "wordCount": 506,
+          "title": "For the first time on record,  solar overtook coal in the...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/06/becoming-by-max-cooper",
           "author": null,
           "description": "Released a few days ago, this is the official video for Max Cooper’s Becoming, directed by Brandon Eversole. It’s mesmerizing, trippy, and a little bit glitchy. The video is also notable for being so wide that it breaks YouTube’s desktop layout — anything less than stretching my browser window to the edges of my screen and I can’t read the left-most text under the video.\n\n \n\n        \n         \nTags: Brandon Eversole · Max Cooper · mesmerizing · music · video",
@@ -2128,6 +2158,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50851",
+          "author": "Andy Baio",
+          "description": "a remake of Humans since 1982’s beautiful kinetic clock sculptures\n#",
+          "link": "https://milliontimes.vercel.app/",
+          "publishedOn": "2026-06-11T17:31:55.000Z",
+          "wordCount": 68,
+          "title": "A Million Times",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=50826",
           "author": "Andy Baio",
           "description": "two of my favorite internet people chat about ranking their biggest worries, publicly navigating illness, and organic produce\n#",
@@ -3280,6 +3320,26 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a33\">datasette 1.0a33</a></p>\n        <p>This alpha is a significant step on the road to a stable 1.0, finally extending the <code>?_extra=</code> pattern I introduced <a href=\"https://docs.datasette.io/en/1.0a3/changelog.html#a3-2023-08-09\">in Datasette 1.0a3</a> to cover queries and rows in addition to tables. That pattern is also <a href=\"https://docs.datasette.io/en/latest/json_api.html#expanding-json-responses\">now documented</a>!</p>\n<p>I wrote a whole lot more about the new release on the Datasette project blog: <strong><a href=\"http://datasette.io/blog/2026/api-extras/\">Datasette 1.0a33 with JSON extras in the API</a></strong>.</p>\n<p>Because API explorer tools are almost free to build now I had Claude Fable 5 in Claude Code (for <a href=\"https://gist.github.com/simonw/d8bf1a8f36e28fbd595cede946e0ab6d\">the plan</a>) and GPT-5.5 xhigh in Codex Desktop (for <a href=\"https://gist.github.com/simonw/12d5e09797072a6807d7b9cfcc8ff6b7\">the implementation</a>) build me this <a href=\"https://tools.simonwillison.net/datasette-extras-explorer\">custom extras API explorer</a> to help demonstrate the feature:</p>\n<p><img alt=\"Screenshot of a web application titled &quot;Datasette extras explorer&quot;. A URL input field contains https://latest.datasette.io/fixtures/facetable.json with a teal Explore button next to it. Below, a left panel labeled EXTRAS (30) lists checkboxes: all_columns - All columns in the table, regardless of _col/_nocol filtering; column_types - Column type assignments for this table; columns (checked) - Column names returned by this query; count - Total count of rows matching these filters; count_sql - SQL query used to calculate the total count; custom_table_templates - Custom template names considered for this table; database - Database name; database_color - Color assigned to the database. A right panel labeled RESPONSE shows GET /fixtures/fac… with Copy JSON and Copy URL buttons, then a dark JSON viewer showing 200 - 9.9 KB - 114ms and JSON: &quot;ok&quot;: true, &quot;next&quot;: null, &quot;columns&quot;: (highlighted array) &quot;pk&quot;, &quot;created&quot;, &quot;planet_int&quot;, &quot;on_earth&quot;, &quot;state&quot;, &quot;_city_id&quot;, &quot;_neighborhood&quot;, &quot;tags&quot;, &quot;complex_array&quot;, &quot;distinct_some_null&quot;, &quot;n&quot;, &quot;rows&quot;: list of objects.\" src=\"https://static.simonwillison.net/static/2026/extras-explorer.png\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
+          "publishedOn": "2026-06-11T15:26:49.000Z",
+          "wordCount": 836,
+          "title": "datasette 1.0a33",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/asyncinject/releases/tag/0.7\">asyncinject 0.7</a></p>\n        <p>I built this utility library to support an <code>asyncio</code> dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/async\">async</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
+          "publishedOn": "2026-06-11T06:28:09.000Z",
+          "wordCount": 774,
+          "title": "asyncinject 0.7",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
           "author": null,
           "description": "<p><strong><a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p>\nBig scoop for Maxwell Zeff at Wired:</p>\n<blockquote>\n<p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p>\n</blockquote>\n<p>There's been a <em>huge</em> outcry about Anthropic's policy, <a href=\"https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/\">tucked away in their system card</a>, that Claude Fable/Mythos would identify \"requests targeting frontier LLM development\" and \"limit effectiveness\" without notifying the user.</p>\n<p>It's good news that they're dropping the invisible aspect of this. It would be a whole lot better of they dropped this category of refusals entirely.</p>\n<p><strong>Update</strong>: More details from <a href=\"https://twitter.com/claudedevs/status/2064949876463645026\">@ClaudeDevs on Twitter</a>:</p>\n<blockquote>\n<p>We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.</p>\n<p>Starting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).</p>\n<p>We wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
@@ -4128,16 +4188,6 @@
           "wordCount": 713,
           "title": "Quoting Boris Mann",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/csp-allow\">CSP Allow-list Experiment</a></p>\n        <p>An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see <a href=\"https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/\">previous note</a>) and have a custom <code>fetch()</code> that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list and then refresh the page.</p>\n<p><img alt=\"Screenshot of a web tool titled &quot;CSP Allow-list Experiment&quot; with buttons Reset sample, Clear allow-list, Refresh preview. Left panel shows HTML source code starting with &lt;!doctype html&gt;. Right panel shows Preview with CSP header default-src 'none'; script-src 'unsafe-inline'; style-s... and heading &quot;Sandbox fetch test&quot;. A modal dialog from tools.simonwillison.net is overlaid reading: &quot;The sandbox tried to connect to: https://api.inaturalist.org   Add this origin to the CSP connect-src allow-list and refresh the page?&quot; with an unchecked checkbox &quot;Don't allow tools.simonwillison.net to prompt you again&quot; and Cancel and OK buttons. Below is &quot;Messages from sandbox&quot; showing fetch-catch blocked https://api.inaturalist.org/v1/observations?per... connect-src · https://api.inaturalist.org. At the bottom left is &quot;Allowed fetch() origins&quot; with an input field containing https://api.github.com, an Add button, and a tag https://api.github.com x.\" src=\"https://static.simonwillison.net/static/2026/csp-allow.jpg\" /></p>\n<p>I built this one with GPT-5.5 xhigh running in the Codex desktop app.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/content-security-policy\">content-security-policy</a>, <a href=\"https://simonwillison.net/tags/iframes\">iframes</a>, <a href=\"https://simonwillison.net/tags/security\">security</a></p>",
-          "link": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
-          "publishedOn": "2026-05-13T04:50:45.000Z",
-          "wordCount": 775,
-          "title": "CSP Allow-list Experiment",
-          "imageUrl": "https://static.simonwillison.net/static/2026/csp-allow.jpg"
         }
       ]
     },
