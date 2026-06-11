@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-11T03:42:16.072Z</updated>
+    <updated>2026-06-11T08:45:12.561Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude]]></title>
+        <id>https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything"/>
+        <updated>2026-06-11T03:45:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p>
+Big scoop for Maxwell Zeff at Wired:</p>
+<blockquote>
+<p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p>
+</blockquote>
+<p>There's been a <em>huge</em> outcry about Anthropic's policy, <a href="https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/">tucked away in their system card</a>, that Claude Fable/Mythos would identify "requests targeting frontier LLM development" and "limit effectiveness" without notifying the user.</p>
+<p>It's good news that they're dropping the invisible aspect of this. It would be a whole lot better of they dropped this category of refusals entirely.</p>
+<p><strong>Update</strong>: More details from <a href="https://twitter.com/claudedevs/status/2064949876463645026">@ClaudeDevs on Twitter</a>:</p>
+<blockquote>
+<p>We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.</p>
+<p>Starting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).</p>
+<p>We wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.</p>
+</blockquote>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette-agent 0.2a0]]></title>
         <id>https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything</id>
@@ -6881,106 +6906,6 @@ L’Essai Sur Le Don,” Oger explains. “It was important for me, [especially]
     <p>Tags: <a href="https://simonwillison.net/tags/marketing">marketing</a>, <a href="https://simonwillison.net/tags/mitchell-hashimoto">mitchell-hashimoto</a>, <a href="https://simonwillison.net/tags/redis">redis</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;So, at about 14, I became the team&#8217;s...]]></title>
-        <id>https://kottke.org/26/05/0048928-basketball-musician</id>
-        <link href="https://kottke.org/26/05/0048928-basketball-musician"/>
-        <updated>2026-05-12T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[“So, at about 14, I became the team’s unofficial basketball musician,” writes Theocharis Papatrechas. “A big shot earned a triumphant snare drum roll with a resolving crash. And if someone missed badly — an airball — I’d drop in a ‘du-ba-dum’”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The World Press Freedom Index at Global 25-Year Low]]></title>
-        <id>https://kottke.org/26/05/the-world-press-freedom-index-at-global-25-year-low</id>
-        <link href="https://kottke.org/26/05/the-world-press-freedom-index-at-global-25-year-low"/>
-        <updated>2026-05-12T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since Reporters Without Borders started tracking their World Press Freedom Index 25 years ago, the global rating has never been lower than the 2026 score. From a summary of their analysis:
-For the first time in the history of the Reporters Without Borders (RSF) World Press Freedom Index, over half of the world’s countries now fall into the “difficult” or “very serious” categories for press freedom. In 25 years, the average score of all 180 countries and territories surveyed in the Index has never been so low. Since 2001, the expansion of increasingly restrictive legal arsenals — particularly those linked to national security policies — has been steadily eroding the right to information, even in democratic countries. The Index’s legal indicator has declined the most over the past year, a cl…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sounds of the 60s: the IBM 1401  (punchcard collation,...]]></title>
-        <id>https://kottke.org/26/05/0048921-sounds-of-the-60s-the-ibm</id>
-        <link href="https://kottke.org/26/05/0048921-sounds-of-the-60s-the-ibm"/>
-        <updated>2026-05-12T18:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Sounds of the 60s: the IBM 1401 (punchcard collation, reel-to-reel recorder, etc). These aren’t the sounds of my computing childhood but I imagine they’re nostalgic for some of you.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.32a2]]></title>
-        <id>https://simonwillison.net/2026/May/12/llm/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/12/llm/#atom-everything"/>
-        <updated>2026-05-12T17:45:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32a2">llm 0.32a2</a></p>
-        <p>A bunch of useful stuff in this <a href="https://llm.datasette.io/">LLM</a> alpha, but the most important detail is this one:</p>
-<blockquote>
-<p>Most reasoning-capable OpenAI models now use the <a href="https://platform.openai.com/docs/api-reference/responses"><code>/v1/responses</code></a> endpoint instead of <code>/v1/chat/completions</code>. This enables interleaved reasoning across tool calls for GPT-5 class models. <a href="https://github.com/simonw/llm/pull/1435">#1435</a></p>
-</blockquote>
-<p>This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the <code>-R</code> or <code>--hide-reasoning</code> flags if you don't want to see that.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jamelle Bouie thinks Alexandria Ocasio-Cortez is...]]></title>
-        <id>https://kottke.org/26/05/0048931-yeah-shes-running</id>
-        <link href="https://kottke.org/26/05/0048931-yeah-shes-running"/>
-        <updated>2026-05-12T17:28:56.000Z</updated>
-        <summary type="html"><![CDATA[Jamelle Bouie thinks Alexandria Ocasio-Cortez is positioning herself for a 2028 presidential run. “Yeah, she’s running.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Being Fed Content]]></title>
-        <id>https://kottke.org/26/05/being-fed-content</id>
-        <link href="https://kottke.org/26/05/being-fed-content"/>
-        <updated>2026-05-12T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[From an interview (gift link) with Don Hertzfeldt, creator of World of Tomorrow:
-Not to sound like a curmudgeon, but when I was a teenager, I took the train to go to the record store to find rare stuff. Spotify is way more convenient, but that wasn’t the point. The point was to get out and to feel like you’re hunting, to feel like you’re living your life. I’m going to the movies, I’m going to this show. What streaming has done—it’s very convenient, but it’s taken the feeling of going hunting and turned it into we’re all just being fed. We’re all farm animals that are just being fed, and we’re being fed content. You can just stay home. Just stay home. We’ll just feed it to you. No wonder everyone’s depressed.
-
-	
-I feel like Xochitl Gonzalez’s piece on robotaxis, People Who Don’t Like People Are Making All of Our Decisions, rhymes with Hertzfeldt’s comments:
-For two decades, I have watched us blindly fall for one sales pitch after another. Every app and advancement comes shrouded in promises of “progress” and “connectivity” and “convenience.” And in many early cases — such as the invention of ride-sharing apps — Silicon Valley truly did deliver a better mousetrap. But we’re getting diminishing returns. We are living in Silicon Valley’s future now, and we are lonelier, more anxious, and more polarized than ever before.
-
- 
-
-        
-         
-Tags: Don Hertzfeldt · interviews · Xochitl Gonzalez]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Qualified, Competent, Sincere”: The MUFON Symposium Proceedings]]></title>
-        <id>http://wearethemutants.com/?p=41889</id>
-        <link href="https://wearethemutants.com/2026/05/12/qualified-competent-sincere-the-mufon-symposium-proceedings/"/>
-        <updated>2026-05-12T16:14:18.000Z</updated>
-        <summary type="html"><![CDATA[The suggestive commonalities of these disparate MUFON presenters does seem to buttress the now-common view that the entire world of postwar American ufology was a giant blind alley meant to distract from and obfuscate top secret U.S. military programs...]]></summary>
-        <author>
-            <name>Michael Grasso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Study:  &#8220;A few weeks of X&#8217;s algorithm can...]]></title>
-        <id>https://kottke.org/26/05/0048913-a-few-weeks-of-xs-algorit</id>
-        <link href="https://kottke.org/26/05/0048913-a-few-weeks-of-xs-algorit"/>
-        <updated>2026-05-12T15:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Study: “A few weeks of X’s algorithm can make you more right‑wing – and it doesn’t wear off quickly.” People using the “For You” feed were more likely to favor GOP policies, less likely to want Trump prosecuted, and were more pro-Russia (vs Ukraine).]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
