@@ -2159,46 +2159,6 @@
           "wordCount": 532,
           "title": "Study:  &#8220;A few weeks of X&#8217;s algorithm can...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes",
-          "author": null,
-          "description": "Aphantasia (the inability to visualize) is one of those things that I find endlessly fascinating; I’ve written about it a few times since 2016, most recently in response to Larissa MacFarquhar’s 2025 piece for the New Yorker: Some People Can’t See Mental Images. The Consequences Are Profound.\nMany of his correspondents, he learned, had discovered their condition very recently, after reading about it or hearing it described on the radio. Their whole lives, they had heard people talk about picturing, and imagining, and counting sheep, and visualizing beaches, and seeing in the mind’s eye, and assumed that all those idioms were only metaphors or colorful hyperbole. It was amazing how profoundly people could misunderstand one another, and assume that others didn’t mean what they were saying—ho…",
-          "link": "https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes",
-          "publishedOn": "2026-05-12T14:55:00.000Z",
-          "wordCount": 2041,
-          "title": "Can You See the World When You Close Your Eyes?",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1778519863-b06228d6.png"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048926-were-diversifying-the-uni",
-          "author": null,
-          "description": "We’re Diversifying the University by Hiring More Crackpots. “For too long, the university has ignored the wisdom of the donor class and hired based on academic excellence. Regrettably, this has led to the underrepresentation of discredited viewpoints…”",
-          "link": "https://kottke.org/26/05/0048926-were-diversifying-the-uni",
-          "publishedOn": "2026-05-12T14:05:00.000Z",
-          "wordCount": 496,
-          "title": "We’re Diversifying the University by Hiring More...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048925-digg",
-          "author": null,
-          "description": "Digg has (sorta) relaunched (again) and instead of an underwhelming Reddit clone, it’s now just scraping noted fascist cesspool “X” for AI news and telling us that Sam Altman is influential in AI? This is embarrassing. It’ll probably be a huge success.",
-          "link": "https://kottke.org/26/05/0048925-digg",
-          "publishedOn": "2026-05-12T13:23:00.000Z",
-          "wordCount": 832,
-          "title": "Digg  has (sorta) relaunched (again) and instead of an...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii",
-          "author": null,
-          "description": "How NASA Built Artemis II’s Fault-Tolerant Computer. “Every subsystem must be designed to survive cosmic-ray bit flips, radiation-induced latch-ups, and hardware faults without a single second of downtime.” (A: An extreme level of redundancy.)",
-          "link": "https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii",
-          "publishedOn": "2026-05-12T13:14:02.000Z",
-          "wordCount": 774,
-          "title": "How NASA Built Artemis II&#8217;s Fault-Tolerant...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2207,6 +2167,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=50826",
+          "author": "Andy Baio",
+          "description": "two of my favorite internet people chat about ranking their biggest worries, publicly navigating illness, and organic produce\n#",
+          "link": "https://www.youtube.com/watch?v=8irhCqM7XUo",
+          "publishedOn": "2026-06-10T20:30:24.000Z",
+          "wordCount": null,
+          "title": "Simone Giertz asks Hank Green anything",
+          "imageUrl": null
+        },
         {
           "id": "https://waxy.org/?p=50822",
           "author": "Andy Baio",
@@ -3079,22 +3049,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!2gSZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F968dfd24-e320-4f23-babd-f5d9f4d14595_1575x1048.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men",
-          "author": "Blackbird Spyplane",
-          "description": "Your favorite shirt doesn't have a 22 S.P.I. count. Is it garbage?",
-          "link": "https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men",
-          "publishedOn": "2026-05-12T11:03:47.000Z",
-          "wordCount": null,
-          "title": "Connoisseurs vs. con men",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!sq2D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd65d499-92b8-48d4-beb0-7332f995d740_1900x1268.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!sq2D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd65d499-92b8-48d4-beb0-7332f995d740_1900x1268.png"
         }
       ]
     },
@@ -3339,6 +3293,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.2a0\">datasette-agent 0.2a0</a></p>\n        <p>Highlights from the release notes:</p>\n<blockquote>\n<ul>\n<li>Tools can now ask the user questions mid-execution. Tools that declare a <code>context</code> parameter receive a <code>ToolContext</code> object, and <code>await context.ask_user(...)</code> can ask a yes/no, multiple-choice (<code>options=[...]</code>) or free-text (<code>free_text=True</code>) question. While a question is unanswered the agent turn suspends: the question renders as a form in the chat UI and persists to the internal database, so suspended conversations survive a server restart. Once answered, the tool re-executes from the top with stored answers replayed, so call <code>ask_user()</code> before performing side effects. <a href=\"https://github.com/datasette/datasette-agent/pull/20\">#20</a></li>\n<li>New built-in <code>save_query</code> tool: the agent can save SQL it has written as a <a href=\"https://docs.datasette.io/en/latest/sql_queries.html#saved-queries\">Datasette stored query</a>. Saving always requires human approval - the agent shows the full SQL plus the proposed name, database and visibility, and nothing is stored until you click Yes. <a href=\"https://github.com/datasette/datasette-agent/pull/20\">#20</a></li>\n</ul>\n</blockquote>\n<p>The <code>ask_user()</code> feature was enabled by the new LLM alpha I <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/#adding-features-to-datasette-agent-and-llm-using-claude-code\">built yesterday</a> with the help of Claude Fable 5.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+          "publishedOn": "2026-06-10T23:57:27.000Z",
+          "wordCount": 884,
+          "title": "datasette-agent 0.2a0",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
           "author": null,

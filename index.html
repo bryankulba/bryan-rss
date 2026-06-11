@@ -35,6 +35,30 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-10T23:57:27.000Z">2026-06-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-agent 0.2a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-agent 0.2a0
+Highlights from the release notes:
+Tools can now ask the user questions mid-execution. Tools that declare a context parameter receive a ToolContext object, and await context.ask_user(...) can ask a yes/no, multiple-choice (options=[...]) or free-text (free_text=True) question. While a question is unanswered the agent turn suspends: the question renders as a form in the chat UI and persists to the internal database, so suspended conversations survive a server restart. Once answered, the tool re-executes from the top with stored answers replayed, so call ask_user() before performing side effects. #20
+New built-in save_query tool: the agent can save SQL it has written as a Datasette stored query. Saving always requires human approval - the agent shows the full SQL plus the proposed name, database and visibility, and nothing is stored until you click Yes. #20
+The ask_user() feature was enabled by the new LLM alpha I built yesterday with the help of Claude Fable 5.
+Tags: ai, datasette, generative-ai, llms, datasette-agent</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/06/0049117-the-white-houses-top-scie">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-10T21:30:00.000Z">2026-06-10</time>
@@ -87,6 +111,25 @@ Tags: cars · Japan · police · Porsche</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1781041121-2e1a10a2.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;50826">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-10T20:30:24.000Z">2026-06-10</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.youtube.com/watch?v&#x3D;8irhCqM7XUo" target="_blank" rel="noopener noreferrer">Simone Giertz asks Hank Green anything</a>
+          </h2>
+          <p class="feed-item__desc">two of my favorite internet people chat about ranking their biggest worries, publicly navigating illness, and organic produce
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50826" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50826">Mark read</button>
+          </div>
         </div>
       </div>
     </article>
@@ -11514,107 +11557,6 @@ Tags: Don Hertzfeldt · interviews · Xochitl Gonzalez</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048913-a-few-weeks-of-xs-algorit">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-12T14:55:00.000Z">2026-05-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes" target="_blank" rel="noopener noreferrer">Can You See the World When You Close Your Eyes?</a>
-          </h2>
-          <p class="feed-item__desc">Aphantasia (the inability to visualize) is one of those things that I find endlessly fascinating; I’ve written about it a few times since 2016, most recently in response to Larissa MacFarquhar’s 2025 piece for the New Yorker: Some People Can’t See Mental Images. The Consequences Are Profound.
-Many of his correspondents, he learned, had discovered their condition very recently, after reading about it or hearing it described on the radio. Their whole lives, they had heard people talk about picturing, and imagining, and counting sheep, and visualizing beaches, and seeing in the mind’s eye, and assumed that all those idioms were only metaphors or colorful hyperbole. It was amazing how profoundly people could misunderstand one another, and assume that others didn’t mean what they were saying—ho…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes">Mark read</button>
-            <span class="feed-item__reading-time">7 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1778519863-b06228d6.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048926-were-diversifying-the-uni">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-12T14:05:00.000Z">2026-05-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048926-were-diversifying-the-uni" target="_blank" rel="noopener noreferrer">We’re Diversifying the University by Hiring More...</a>
-          </h2>
-          <p class="feed-item__desc">We’re Diversifying the University by Hiring More Crackpots. “For too long, the university has ignored the wisdom of the donor class and hired based on academic excellence. Regrettably, this has led to the underrepresentation of discredited viewpoints…”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048926-were-diversifying-the-uni" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048926-were-diversifying-the-uni">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048925-digg">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-12T13:23:00.000Z">2026-05-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048925-digg" target="_blank" rel="noopener noreferrer">Digg  has (sorta) relaunched (again) and instead of an...</a>
-          </h2>
-          <p class="feed-item__desc">Digg has (sorta) relaunched (again) and instead of an underwhelming Reddit clone, it’s now just scraping noted fascist cesspool “X” for AI news and telling us that Sam Altman is influential in AI? This is embarrassing. It’ll probably be a huge success.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048925-digg" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048925-digg">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-12T13:14:02.000Z">2026-05-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii" target="_blank" rel="noopener noreferrer">How NASA Built Artemis II’s Fault-Tolerant...</a>
-          </h2>
-          <p class="feed-item__desc">How NASA Built Artemis II’s Fault-Tolerant Computer. “Every subsystem must be designed to survive cosmic-ray bit flips, radiation-induced latch-ups, and hardware faults without a single second of downtime.” (A: An extreme level of redundancy.)</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-12T11:03:47.000Z">2026-05-12</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men" target="_blank" rel="noopener noreferrer">Connoisseurs vs. con men</a>
-          </h2>
-          <p class="feed-item__desc">Your favorite shirt doesn't have a 22 S.P.I. count. Is it garbage?</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!sq2D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd65d499-92b8-48d4-beb0-7332f995d740_1900x1268.png" alt="" loading="lazy">
         </div>
       </div>
     </article>

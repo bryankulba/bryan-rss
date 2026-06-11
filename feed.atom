@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-10T21:59:50.734Z</updated>
+    <updated>2026-06-11T03:42:16.072Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette-agent 0.2a0]]></title>
+        <id>https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything"/>
+        <updated>2026-06-10T23:57:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent/releases/tag/0.2a0">datasette-agent 0.2a0</a></p>
+        <p>Highlights from the release notes:</p>
+<blockquote>
+<ul>
+<li>Tools can now ask the user questions mid-execution. Tools that declare a <code>context</code> parameter receive a <code>ToolContext</code> object, and <code>await context.ask_user(...)</code> can ask a yes/no, multiple-choice (<code>options=[...]</code>) or free-text (<code>free_text=True</code>) question. While a question is unanswered the agent turn suspends: the question renders as a form in the chat UI and persists to the internal database, so suspended conversations survive a server restart. Once answered, the tool re-executes from the top with stored answers replayed, so call <code>ask_user()</code> before performing side effects. <a href="https://github.com/datasette/datasette-agent/pull/20">#20</a></li>
+<li>New built-in <code>save_query</code> tool: the agent can save SQL it has written as a <a href="https://docs.datasette.io/en/latest/sql_queries.html#saved-queries">Datasette stored query</a>. Saving always requires human approval - the agent shows the full SQL plus the proposed name, database and visibility, and nothing is stored until you click Yes. <a href="https://github.com/datasette/datasette-agent/pull/20">#20</a></li>
+</ul>
+</blockquote>
+<p>The <code>ask_user()</code> feature was enabled by the new LLM alpha I <a href="https://simonwillison.net/2026/Jun/9/claude-fable-5/#adding-features-to-datasette-agent-and-llm-using-claude-code">built yesterday</a> with the help of Claude Fable 5.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The White House’s Top Science Goal Is Ignorance . “The...]]></title>
         <id>https://kottke.org/26/06/0049117-the-white-houses-top-scie</id>
@@ -38,6 +59,17 @@ Here are a couple of photos of 912s while in service back in the day.
 Tags: cars · Japan · police · Porsche]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simone Giertz asks Hank Green anything]]></title>
+        <id>https://waxy.org/?p=50826</id>
+        <link href="https://www.youtube.com/watch?v=8irhCqM7XUo"/>
+        <updated>2026-06-10T20:30:24.000Z</updated>
+        <summary type="html"><![CDATA[two of my favorite internet people chat about ranking their biggest worries, publicly navigating illness, and organic produce
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
         </author>
     </entry>
     <entry>
@@ -6949,57 +6981,6 @@ Tags: Don Hertzfeldt · interviews · Xochitl Gonzalez]]></summary>
         <summary type="html"><![CDATA[Study: “A few weeks of X’s algorithm can make you more right‑wing – and it doesn’t wear off quickly.” People using the “For You” feed were more likely to favor GOP policies, less likely to want Trump prosecuted, and were more pro-Russia (vs Ukraine).]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can You See the World When You Close Your Eyes?]]></title>
-        <id>https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes</id>
-        <link href="https://kottke.org/26/05/can-you-see-the-world-when-you-close-your-eyes"/>
-        <updated>2026-05-12T14:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Aphantasia (the inability to visualize) is one of those things that I find endlessly fascinating; I’ve written about it a few times since 2016, most recently in response to Larissa MacFarquhar’s 2025 piece for the New Yorker: Some People Can’t See Mental Images. The Consequences Are Profound.
-Many of his correspondents, he learned, had discovered their condition very recently, after reading about it or hearing it described on the radio. Their whole lives, they had heard people talk about picturing, and imagining, and counting sheep, and visualizing beaches, and seeing in the mind’s eye, and assumed that all those idioms were only metaphors or colorful hyperbole. It was amazing how profoundly people could misunderstand one another, and assume that others didn’t mean what they were saying—ho…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We’re Diversifying the University by Hiring More...]]></title>
-        <id>https://kottke.org/26/05/0048926-were-diversifying-the-uni</id>
-        <link href="https://kottke.org/26/05/0048926-were-diversifying-the-uni"/>
-        <updated>2026-05-12T14:05:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re Diversifying the University by Hiring More Crackpots. “For too long, the university has ignored the wisdom of the donor class and hired based on academic excellence. Regrettably, this has led to the underrepresentation of discredited viewpoints…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digg  has (sorta) relaunched (again) and instead of an...]]></title>
-        <id>https://kottke.org/26/05/0048925-digg</id>
-        <link href="https://kottke.org/26/05/0048925-digg"/>
-        <updated>2026-05-12T13:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Digg has (sorta) relaunched (again) and instead of an underwhelming Reddit clone, it’s now just scraping noted fascist cesspool “X” for AI news and telling us that Sam Altman is influential in AI? This is embarrassing. It’ll probably be a huge success.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How NASA Built Artemis II&#8217;s Fault-Tolerant...]]></title>
-        <id>https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii</id>
-        <link href="https://kottke.org/26/05/0048908-how-nasa-built-artemis-ii"/>
-        <updated>2026-05-12T13:14:02.000Z</updated>
-        <summary type="html"><![CDATA[How NASA Built Artemis II’s Fault-Tolerant Computer. “Every subsystem must be designed to survive cosmic-ray bit flips, radiation-induced latch-ups, and hardware faults without a single second of downtime.” (A: An extreme level of redundancy.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connoisseurs vs. con men]]></title>
-        <id>https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men</id>
-        <link href="https://www.blackbirdspyplane.com/p/connoisseurs-versus-con-men"/>
-        <updated>2026-05-12T11:03:47.000Z</updated>
-        <summary type="html"><![CDATA[Your favorite shirt doesn't have a 22 S.P.I. count. Is it garbage?]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
