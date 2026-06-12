@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-12T14:54:39.852Z</updated>
+    <updated>2026-06-12T18:05:25.045Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Joe “Handyman” Negri, a Mister Rogers’ Neighborhood...]]></title>
+        <id>https://kottke.org/26/06/0049129-has-died-at-age-99</id>
+        <link href="https://kottke.org/26/06/0049129-has-died-at-age-99"/>
+        <updated>2026-06-12T17:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Joe “Handyman” Negri, a Mister Rogers’ Neighborhood fixture, has died at age 99. “He really was like the friendly fellow you might find walking around a neighborhood. He was just incredibly gentle as a person, but also as a musician.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Authorities Investigate Huge Etching of ‘8647’ on...]]></title>
+        <id>https://kottke.org/26/06/0049130-us-authorities-investigat</id>
+        <link href="https://kottke.org/26/06/0049130-us-authorities-investigat"/>
+        <updated>2026-06-12T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[US Authorities Investigate Huge Etching of ‘8647’ on National Mall Grounds. Bwahaha. Make it a new US National Treasure. An Interior Dept. spokeperson hyperbolically called it a “threat against the president”. 🙄]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[David Hockney, iconic British artist known for his...]]></title>
+        <id>https://kottke.org/26/06/0049128-david-hockney-iconic-brit</id>
+        <link href="https://kottke.org/26/06/0049128-david-hockney-iconic-brit"/>
+        <updated>2026-06-12T15:39:16.000Z</updated>
+        <summary type="html"><![CDATA[David Hockney, iconic British artist known for his colorful landscapes and pool scenes, dies at 88. “His work is admired — loved is not too strong a word — by the millions who, worldwide, flock to see it because it presupposes an expectation of pleasure.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Where Did Earth Get Its Oceans? Maybe It Made Them Itself.]]></title>
         <id>https://www.quantamagazine.org/?p=163038</id>
@@ -6900,35 +6930,6 @@ Tags: Spike Jonze · video · Zendaya]]></summary>
         <summary type="html"><![CDATA[Politics in Britain has returned to high psychodrama, the kind you normally find in failing states. Just noticed I haven’t set the date window on…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-ip-rate-limit 0.1a0]]></title>
-        <id>https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything"/>
-        <updated>2026-05-14T04:10:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-ip-rate-limit/releases/tag/0.1a0">datasette-ip-rate-limit 0.1a0</a></p>
-        <p>The <a href="https://datasette.io/">datasette.io</a> site was being hammered by poorly-behaved crawlers, so I had Codex (GPT-5.5 xhigh) build a configurable rate limiting plugin to block IPs that were hammering specific areas of the site too quickly.</p>
-<p>Here's <a href="https://github.com/simonw/datasette.io/blob/b6022bf9987661b94a26d3143028193a6cabfdcf/datasette.yml#L103-L116">the production configuration</a> I'm using on that site for the new plugin:</p>
-<pre>  <span class="pl-ent">datasette-ip-rate-limit</span>:
-    <span class="pl-ent">header</span>: <span class="pl-s">Fly-Client-IP</span>
-    <span class="pl-ent">max_keys</span>: <span class="pl-c1">10000</span>
-    <span class="pl-ent">exempt_paths</span>:
-    - <span class="pl-s"><span class="pl-pds">"</span>/static/*<span class="pl-pds">"</span></span>
-    - <span class="pl-s"><span class="pl-pds">"</span>/-/turnstile*<span class="pl-pds">"</span></span>
-    <span class="pl-ent">rules</span>:
-    - <span class="pl-ent">name</span>: <span class="pl-s">demo-databases</span>
-      <span class="pl-ent">paths</span>:
-      - <span class="pl-s"><span class="pl-pds">"</span>/global-power-plants/*<span class="pl-pds">"</span></span>
-      - <span class="pl-s"><span class="pl-pds">"</span>/legislators/*<span class="pl-pds">"</span></span>
-      <span class="pl-ent">window_seconds</span>: <span class="pl-c1">60</span>
-      <span class="pl-ent">max_requests</span>: <span class="pl-c1">60</span>
-      <span class="pl-ent">block_seconds</span>: <span class="pl-c1">20</span></pre>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/rate-limiting">rate-limiting</a>, <a href="https://simonwillison.net/tags/codex">codex</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
