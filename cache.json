@@ -2049,16 +2049,6 @@
           "wordCount": 788,
           "title": "Sarah Rose (who is blind): &#8220;Meta glasses are...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/how-russell-vought-became-the-shadow-president",
-          "author": null,
-          "description": "One of the biggest assholes in the Trump regime is Russell Vought — and that’s really saying something; it’s a fierce competition. He’s the guy who said in 2023 that he wanted to put federal workers “in trauma”. ProPublica produced a video in Oct 2025 about how Vought is acting as a shadow president in his drive to dismantle the US federal government.\nRussell Vought is one of the most powerful people in the Trump administration. For almost three decades, he worked in Congress and held prominent roles at conservative think tanks. But he was little known outside of political circles. He’s now the director of the White House Office of Management and Budget and the chief architect of President Donald Trump’s campaign to radically reduce the size of the federal bureaucracy. \nIn this video, ProP…",
-          "link": "https://kottke.org/26/05/how-russell-vought-became-the-shadow-president",
-          "publishedOn": "2026-05-14T20:00:00.000Z",
-          "wordCount": 782,
-          "title": "How Russell Vought Became the Shadow President",
-          "imageUrl": "https://i.ytimg.com/vi/w1LuV82l0vs/sddefault.jpg"
         }
       ]
     },
@@ -3981,56 +3971,6 @@
           "publishedOn": "2026-05-15T04:00:49.000Z",
           "wordCount": 794,
           "title": "QR code generator",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm-limits/releases/tag/0.1a0\">datasette-llm-limits 0.1a0</a></p>\n        <p>This plugin works in conjunction with <a href=\"https://github.com/datasette/datasette-llm\">datasette-llm</a> and <a href=\"https://github.com/datasette/datasette-llm-accountant\">datasette-llm-accountant</a> to let you configure a per-user (or global) spending limit for LLM usage inside of Datasette. Configuration looks something like this:</p>\n<pre><span class=\"pl-ent\">plugins</span>:\n  <span class=\"pl-ent\">datasette-llm-limits</span>:\n    <span class=\"pl-ent\">limits</span>:\n      <span class=\"pl-ent\">per-user-daily</span>:\n        <span class=\"pl-ent\">scope</span>: <span class=\"pl-s\">actor</span>\n        <span class=\"pl-ent\">window</span>: <span class=\"pl-s\">rolling-24h</span>\n        <span class=\"pl-ent\">amount_usd</span>: <span class=\"pl-c1\">1.00</span>\n</pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
-          "publishedOn": "2026-05-15T00:42:09.000Z",
-          "wordCount": 757,
-          "title": "datasette-llm-limits 0.1a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/15/datasette-agent/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a2\">datasette-agent 0.1a2</a></p>\n        <blockquote>\n<ul>\n<li>Tool availability can now be attached to a <code>required_permission</code>. The default background agent tools now require the new <code>datasette-agent-background</code> permission. #10</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
-          "link": "https://simonwillison.net/2026/May/15/datasette-agent/#atom-everything",
-          "publishedOn": "2026-05-15T00:03:00.000Z",
-          "wordCount": 733,
-          "title": "datasette-agent 0.1a2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
-          "author": null,
-          "description": "<p>This <a href=\"https://simonwillison.net/2026/May/14/mitchell-hashimoto/\">Mitchell Hashimoto quote</a> about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week.</p>\n<p>I was talking to someone who worked for a medium sized technology company with a pair of legacy/<a href=\"https://simonwillison.net/2018/Jul/17/mark-norman-francis/\">legendary</a> iPhone and Android apps.</p>\n<p>They told me they had just completed a coding-agent driven rewrite of both apps to React Native.</p>\n<p>I asked why they chose that, given that coding agents presumably drive down the cost of maintaining separate iPhone and Android apps.</p>\n<p>They said that React Native has improved a lot over the past few years and covered everything their apps needed to do.</p>\n<p>And... if it turned out to be the wrong decision, they could <strong>just port back to native</strong> in the future.</p>\n<p>Like Mitchell said:</p>\n<blockquote>\n<p>Programming languages used to be LOCK IN, and they're increasingly not so.</p>\n</blockquote>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/react\">react</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
-          "publishedOn": "2026-05-14T22:53:49.000Z",
-          "wordCount": 855,
-          "title": "Not so locked in any more",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/mitchellh/status/2055039647924007222\"><p>[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. Its useful until its not then it can be thrown out. That's interesting!</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitchellh/status/2055039647924007222\">Mitchell Hashimoto</a>, on Bun porting from Zig to Rust</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/zig\">zig</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/mitchell-hashimoto\">mitchell-hashimoto</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/bun\">bun</a></p>",
-          "link": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
-          "publishedOn": "2026-05-14T22:31:20.000Z",
-          "wordCount": 768,
-          "title": "Quoting Mitchell Hashimoto",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/14/datasette-agent/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.1a1\">datasette-agent 0.1a1</a></p>\n        <blockquote>\n<ul>\n<li>Now uses the <code>execute-sql</code> permission when deciding which tables to list to the user. #8</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
-          "link": "https://simonwillison.net/2026/May/14/datasette-agent/#atom-everything",
-          "publishedOn": "2026-05-14T22:01:42.000Z",
-          "wordCount": 727,
-          "title": "datasette-agent 0.1a1",
           "imageUrl": null
         }
       ]
