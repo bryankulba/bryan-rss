@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6a2df83b76163b00017c40ee",
+          "author": "Patrick Tanguay",
+          "description": "No.407 — The frame vs. the framer ⊗ The formula won ⊗ Google’s AI Overviews are Google’s own ⊗ World Without End ⊗ It hunts using its shadow",
+          "link": "https://sentiers.media/we-may-be-entering-a-second-axial-age-radical-abundance-no-407/",
+          "publishedOn": "2026-06-14T10:00:07.000Z",
+          "wordCount": 2936,
+          "title": "We may be entering a second Axial Age ⊗ Radical abundance",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/daniel-honies-yJwcjpalCyY-unsplash-w.jpg"
+        },
+        {
           "id": "6a247f2689ae7500014517c2",
           "author": "Patrick Tanguay",
           "description": "No.406 — Sensing the third horizon ⊗ The public should own half of the big AI companies ⊗ Cities that lost the economic development plot ⊗ The illuminated windows of NYC",
@@ -1919,26 +1929,6 @@
           "wordCount": 819,
           "title": "&#8220;In 2014, the Dutch scholar Hans Corneel de Roos...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048958-who-should-read-books-abo",
-          "author": null,
-          "description": "Physicist Chanda Prescod-Weinstein on who should read books about physics. “The question of ‘What is space-time?’ doesn’t belong only to scientists. It belongs to everyone who has ever wondered about the bigger picture.”",
-          "link": "https://kottke.org/26/05/0048958-who-should-read-books-abo",
-          "publishedOn": "2026-05-15T21:00:00.000Z",
-          "wordCount": 735,
-          "title": "Physicist Chanda Prescod-Weinstein on  who should read...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048955-quaker-principles-line-up",
-          "author": null,
-          "description": "Quaker principles line up quite well with modern parenting research. “Infused in all of these practices is the conviction that children are not lesser proto-adults, but fellow beings worthy of respect and agency regardless of their behavior.”",
-          "link": "https://kottke.org/26/05/0048955-quaker-principles-line-up",
-          "publishedOn": "2026-05-15T20:15:00.000Z",
-          "wordCount": 746,
-          "title": "Quaker principles line up quite well with modern...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3841,16 +3831,6 @@
           "publishedOn": "2026-05-16T16:45:37.000Z",
           "wordCount": 795,
           "title": "Quoting Julia Evans",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/inaturalist-clumper/releases/tag/0.1\">inaturalist-clumper 0.1</a></p>\n        <p>Part of the infrastructure I use for <a href=\"https://simonwillison.net/2026/May/1/inat-sightings/\">publishing my iNaturalist sightings on my blog</a>. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release.</p>\n<p>You can see an example of the output <a href=\"https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json\">in this JSON file</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/inaturalist\">inaturalist</a></p>",
-          "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
-          "publishedOn": "2026-05-15T23:53:11.000Z",
-          "wordCount": 764,
-          "title": "inaturalist-clumper 0.1",
           "imageUrl": null
         }
       ]

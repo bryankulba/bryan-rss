@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-14T08:14:47.094Z</updated>
+    <updated>2026-06-14T13:58:12.082Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We may be entering a second Axial Age ⊗ Radical abundance]]></title>
+        <id>6a2df83b76163b00017c40ee</id>
+        <link href="https://sentiers.media/we-may-be-entering-a-second-axial-age-radical-abundance-no-407/"/>
+        <updated>2026-06-14T10:00:07.000Z</updated>
+        <summary type="html"><![CDATA[No.407 — The frame vs. the framer ⊗ The formula won ⊗ Google’s AI Overviews are Google’s own ⊗ World Without End ⊗ It hunts using its shadow]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Publishing WASM wheels to PyPI for use with Pyodide]]></title>
         <id>https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything</id>
@@ -6554,41 +6564,6 @@ Terence Eden continues his coverage of the NHS' <a href="https://shkspr.mobi/blo
         <summary type="html"><![CDATA[Today's links Making sense of Trump's unscheduled sudden midair disassembly of the American empire: Don't mistake "powerful" for "durable." Hey look at this: Delights to delectate. Object permanence: Copyrighted law; Viral videos v cops; Crooked banker v tiny bat; "Infested"; Can the means of computation be seized? Upcoming appearances: Berlin, Hay-on-Wye, London, LA, Menlo Park, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Making sense of Trump's unscheduled sudden midair disassembly of the American empire (permalink) For generations, the American empire was the most powerful force on earth, and so we tended to assume that it was the most durable fo…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[inaturalist-clumper 0.1]]></title>
-        <id>https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything"/>
-        <updated>2026-05-15T23:53:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/inaturalist-clumper/releases/tag/0.1">inaturalist-clumper 0.1</a></p>
-        <p>Part of the infrastructure I use for <a href="https://simonwillison.net/2026/May/1/inat-sightings/">publishing my iNaturalist sightings on my blog</a>. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release.</p>
-<p>You can see an example of the output <a href="https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json">in this JSON file</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/inaturalist">inaturalist</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Physicist Chanda Prescod-Weinstein on  who should read...]]></title>
-        <id>https://kottke.org/26/05/0048958-who-should-read-books-abo</id>
-        <link href="https://kottke.org/26/05/0048958-who-should-read-books-abo"/>
-        <updated>2026-05-15T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Physicist Chanda Prescod-Weinstein on who should read books about physics. “The question of ‘What is space-time?’ doesn’t belong only to scientists. It belongs to everyone who has ever wondered about the bigger picture.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quaker principles line up quite well with modern...]]></title>
-        <id>https://kottke.org/26/05/0048955-quaker-principles-line-up</id>
-        <link href="https://kottke.org/26/05/0048955-quaker-principles-line-up"/>
-        <updated>2026-05-15T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Quaker principles line up quite well with modern parenting research. “Infused in all of these practices is the conviction that children are not lesser proto-adults, but fellow beings worthy of respect and agency regardless of their behavior.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
