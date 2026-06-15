@@ -148,16 +148,6 @@
           "wordCount": 5392,
           "title": "Dragoncatcher: The fourth law",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/newsletters/season-of-change/",
-          "author": null,
-          "description": "<p>A burst of support; books about Apple. <a href=\"https://www.robinsloan.com/newsletters/season-of-change/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/newsletters/season-of-change/",
-          "publishedOn": "2026-05-17T00:00:00.000Z",
-          "wordCount": 6569,
-          "title": "Season of change",
-          "imageUrl": "https://www.robinsloan.com/img/artemis-eclipse.jpg"
         }
       ]
     },
@@ -240,6 +230,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/on-inherent-ai-risk-extinction-level-capitalism",
+          "author": null,
+          "description": "Matthew Butterick is a lawyer, programmer, writer, and designer. He’s written a long, interesting piece about the inherent risks of AI called Extinction-Level Capitalism. It is well-worth a read; I’ve excerpted several passages here but urge you read the whole thing.\nIn prac­tice, certain people in a capi­talist liberal democ­racy tend to get increas­ingly rich. Absent coun­ter­mea­sures, the wealthy gain control of the polit­ical appa­ratus, thwarting liberal-demo­c­ratic norms. This tension between capital and poli­tics is a long-consid­ered topic. A key early work was, of course, Karl Marx’s Capital (about which more later). In the current era, Mancur Olson’s book The Rise and Decline of Nations set out how small groups with a shared interest (which could include capital concen­tra­tion…",
+          "link": "https://kottke.org/26/06/on-inherent-ai-risk-extinction-level-capitalism",
+          "publishedOn": "2026-06-15T16:29:19.000Z",
+          "wordCount": 1217,
+          "title": "On Inherent AI Risk: &#8220;Extinction-Level Capitalism&#8221;",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049123-paul-mccartney-on-song-ex",
+          "author": null,
+          "description": "Paul McCartney on Song Exploder. I think he was with The Beatles at some point?",
+          "link": "https://kottke.org/26/06/0049123-paul-mccartney-on-song-ex",
+          "publishedOn": "2026-06-15T15:11:32.000Z",
+          "wordCount": 705,
+          "title": "Paul McCartney on Song Exploder . I think he was with...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/the-knicks-starting-five-painted-on-one-dollar-bills",
+          "author": null,
+          "description": "Artist Claire Salvo has painted the starting five of the world champion NY Knicks on a set of US one dollar bills. If you’re in NYC, you may have seen these cheekily pasted up around the city.\n\nShe’s selling a print of all five bills but is also auctioning off the hand-painted originals. The auction ends in a bit more than 4 days and the top bid currently stands at $3200.\n\n\nSee also: The Harriet Tubman $20 Stamp and a discussion of whether such modification of US currency is legal or not.\n\n \n\n        \n         \nTags: art · Claire Salvo · NY Knicks · sports",
+          "link": "https://kottke.org/26/06/the-knicks-starting-five-painted-on-one-dollar-bills",
+          "publishedOn": "2026-06-15T14:22:00.000Z",
+          "wordCount": 789,
+          "title": "The Knicks Starting Five Painted on One Dollar Bills",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1781532482-d55c95d3.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/06/0049133-sports-but-make-it-wealth",
+          "author": null,
+          "description": "Sports but make it wealth inequality: “Brunson…didn’t take an extra $113M so the Knicks could sign KAT, Mikal Bridges and keep OG long term… It’s almost as if sharing wealth leads to better outcomes for all…”",
+          "link": "https://kottke.org/26/06/0049133-sports-but-make-it-wealth",
+          "publishedOn": "2026-06-15T13:48:00.000Z",
+          "wordCount": 1059,
+          "title": "Sports but make it wealth inequality :...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/06/0049132-the-worlds-first-trillion",
           "author": null,
@@ -2205,6 +2235,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=12921",
+          "author": "Cory Doctorow",
+          "description": "Today's links AI and amateurism: When is generative content vernacular? Hey look at this: Delights to delectate. Object permanence: Disney characters x clean underwear; Transparent Pontiac; Makers v dog with LED collar; Microsoft buys Linkedin; Legitimate greatness. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. AI and amateurism (permalink) Over the weekend, I did an interview about my forthcoming book The Reverse Centaur's Guide to Life After AI (a book about being a better AI critic), and the interviewer said she was surprised that I wasn't an AI booster, based on my d…",
+          "link": "https://pluralistic.net/2026/06/15/vernacular/",
+          "publishedOn": "2026-06-15T15:40:29.000Z",
+          "wordCount": 4371,
+          "title": "Pluralistic: AI and amateurism (15 Jun 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=12917",
           "author": "Cory Doctorow",
           "description": "Today's links Shareholder supremacy and the precog CEO: A bright line test that's totally unfalsifiable. Hey look at this: Delights to delectate. Object permanence: Msft v Linux geeks; James Joyce scholars v Joyce estate; iPod sweatshops; Pratchett initiates assisted suicide; Lego-making machine made of Lego; Laid off workers v gag clauses; The ACCESS Act. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Shareholder supremacy and the precog CEO (permalink) It's been 55 years since Milton Friedman – cursed be his name – published his NYT editorial, \"The Social Responsibility…",
@@ -2383,6 +2423,26 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18545",
+          "author": "Warren Ellis",
+          "description": "Yesterday, as is tradition, I gave herself the first ripe raspberry of summer. Today, we were out in the garden in the rain with a…",
+          "link": "https://warrenellis.ltd/status/status-15jun26/",
+          "publishedOn": "2026-06-15T10:59:00.000Z",
+          "wordCount": 1711,
+          "title": "status 15jun26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/IMG_1389-scaled.jpg"
+        },
+        {
+          "id": "https://warrenellis.ltd/?p=18517",
+          "author": "Warren Ellis",
+          "description": "Alexis Mata. Noah Barker. The complex puzzle known as little red dots has become more complete since their initial discovery by NASA’s James Webb Space…",
+          "link": "https://warrenellis.ltd/mc/morning-computer-sunup/",
+          "publishedOn": "2026-06-15T05:00:00.000Z",
+          "wordCount": 1443,
+          "title": "morning computer sunup",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/a056b9311ecee512a57f42f49ed55f019866ceec_video.gif"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18513",
           "author": "Warren Ellis",
           "description": "It has rained all damned week. Three thunderstorms yesterday alone. Teeming down today. It’s dark when I wake up. Middle of June and I’m still…",
@@ -2559,6 +2619,16 @@
       "feedUrl": "https://brucesterling.tumblr.com/rss",
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
+        {
+          "id": "https://brucesterling.tumblr.com/post/819462247062585344",
+          "author": null,
+          "description": "*That is one brave little toaster",
+          "link": "https://brucesterling.tumblr.com/post/819462247062585344",
+          "publishedOn": "2026-06-15T05:08:18.000Z",
+          "wordCount": 2955,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/a9838aebd4ef54063888c1b338633710/ec2ba8feb917f986-f3/s1280x1920/22e46b8ce982f7f065d5e4767c2662d6a7f7e65e.webp"
+        },
         {
           "id": "https://brucesterling.tumblr.com/post/818950308008001536",
           "author": null,
@@ -2983,6 +3053,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos\">&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline</a></strong></p>\nLots of \"source familiar with the administration's thinking\" and \"source close to Anthropic\" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">export control Mythos/Fable story</a> so far.</p>\n<p>Logan Graham (<a href=\"https://logangraham.xyz\">I lead the Frontier Red Team at Anthropic</a>), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite <a href=\"https://simonwillison.net/tags/nicholas-carlini/\">Nicholas Carlini</a> are reported to be meeting with the Commerce Department today in D.C. Good luck to them!</p>\n<p>(I just noticed Logan was \"Special Adviser to the Prime Minister\" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.)</p>\n<p>This closing notes doesn't give me much optimism that we'll be getting Fable back any time soon:</p>\n<blockquote>\n<p><strong>The bottom line</strong>: One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance <a href=\"https://www.anthropic.com/news/fable-mythos-access\">may be</a> impossible.</p>\n<p>Absent that, a source familiar with the administration's thinking said it may simply come down to an attitude fix where, instead of feeling dismissed, \"everyone feels safe, secure and happy.\"</p>\n</blockquote>\n<p>This made me wonder if Anthropic ever successfully addressed the class of attacks described in the <a href=\"https://llm-attacks.org/\">Universal and Transferable Adversarial Attacks on Aligned Language Models</a> paper from 2023.</p>\n<p>It looks like their <a href=\"https://www.anthropic.com/research/next-generation-constitutional-classifiers\">Constitutional Classifiers</a> work (that post is from January this year) is relevant to that. They continue to claim that no \"universal jailbreak\" has been found against Claude Mythos, <a href=\"https://www.anthropic.com/news/fable-mythos-access\">classifying the jailbreak</a> that triggered the US government response as \"a potential narrow, non-universal jailbreak\".\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jailbreaking\">jailbreaking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/nicholas-carlini\">nicholas-carlini</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+          "publishedOn": "2026-06-15T14:57:33.000Z",
+          "wordCount": 998,
+          "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything",
           "author": null,
@@ -3812,26 +3892,6 @@
           "wordCount": 916,
           "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
-          "author": null,
-          "description": "<p>In preparation for a lightning talk I'm giving at PyCon US <a href=\"https://us.pycon.org/2026/schedule/presentation/175/\">this afternoon</a> I decided to figure out how many names OpenClaw has <em>actually</em> had since that <a href=\"https://github.com/openclaw/openclaw/commit/f6dd362d39b8e30bd79ef7560aab9575712ccc11\">first commit</a> back in November.</p>\n<p>Thanks to this <a href=\"https://tools.simonwillison.net/python/#first_line_historypy\">first_line_history.py tool</a> (<a href=\"https://github.com/simonw/tools/blob/main/python/first_line_history.py\">code here</a>) the answer, according to the Git history of the OpenClaw README, is:</p>\n<p>Warelay → CLAWDIS → CLAWDBOT → Clawdbot → Moltbot →🦞 OpenClaw</p>\n<p>Or in detail (the output from the tool):</p>\n<pre>\n2025-11-24T11:23:15+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/16dfc1\">16dfc1</a> # Warelay — WhatsApp Relay CLI (Twilio)\n2025-11-24T11:41:37+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/d4153d\">d4153d</a> # 📡 Warelay — WhatsApp Relay CLI (Twilio)\n2025-11-24T17:47:57+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/343ef9\">343ef9</a> # 📡 warelay — WhatsApp Relay CLI (Twilio)\n2025-11-25T04:44:10+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/14b3c6\">14b3c6</a> # 📡 warelay — WhatsApp Relay CLI\n2025-11-25T12:48:40+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/481402\">481402</a> # 📡 warelay — Send, receive, and auto-reply on WhatsApp—Twilio-backed or QR-linked.\n2025-11-25T13:50:18+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/d51a3e\">d51a3e</a> # warelay 📡 - Send, receive, and auto-reply on WhatsApp via Twilio or QR-linked WhatsApp Web; webhook setup in one command\n2025-11-25T13:51:13+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/4d2a8a\">4d2a8a</a> # 📡 warelay — Send, receive, and auto-reply on WhatsApp—Twilio-backed or QR-linked.\n2025-11-25T14:52:43+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/1ef7f4\">1ef7f4</a> # 📡 warelay — Send, receive, and auto-reply on WhatsApp.\n2025-12-03T15:45:32+00:00 <a href=\"https://github.com/openclaw/openclaw/commit/a27ee2\">a27ee2</a> # 🦞 CLAWDIS — WhatsApp Gateway for AI Agents\n2025-12-08T12:43:13+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/17fa2f\">17fa2f</a> # 🦞 CLAWDIS — WhatsApp & Telegram Gateway for AI Agents\n2025-12-19T18:41:17+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/771043\">771043</a> # 🦞 CLAWDIS — Personal AI Assistant\n2026-01-04T14:32:47+00:00 <a href=\"https://github.com/openclaw/openclaw/commit/246ada\">246ada</a> # 🦞 CLAWDBOT — Personal AI Assistant\n2026-01-10T05:14:09+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/cdb915\">cdb915</a> # 🦞 Clawdbot — Personal AI Assistant\n2026-01-27T13:37:47-05:00 <a href=\"https://github.com/openclaw/openclaw/commit/3fe4b2\">3fe4b2</a> # 🦞 Moltbot — Personal AI Assistant\n2026-01-30T03:15:10+01:00 <a href=\"https://github.com/openclaw/openclaw/commit/9a7160\">9a7160</a> # 🦞 OpenClaw — Personal AI Assistant\n</pre>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/openclaw\">openclaw</a>, <a href=\"https://simonwillison.net/tags/git\">git</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
-          "link": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
-          "publishedOn": "2026-05-16T20:23:30.000Z",
-          "wordCount": 945,
-          "title": "Warelay -> OpenClaw",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/\"><p>[...] in the last 10 years I’ve learned to really love and respect CSS as a technology.</p>\n<p>So I decided years ago that I wanted to react to “CSS is hard” by getting better at CSS and taking it seriously as a technology, instead of devaluing it. Doing that changed everything for me: I learned that so many of my frustrations (“centering is impossible”) had been addressed in CSS a long time ago, and that also what “centering” means is not always straightforward and it makes sense that there are many ways to do it. CSS is hard because it’s solving a hard problem!</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/\">Julia Evans</a>, Moving away from Tailwind, and learning to structure my CSS</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a>, <a href=\"https://simonwillison.net/tags/julia-evans\">julia-evans</a></p>",
-          "link": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
-          "publishedOn": "2026-05-16T16:45:37.000Z",
-          "wordCount": 795,
-          "title": "Quoting Julia Evans",
-          "imageUrl": null
         }
       ]
     },
@@ -3944,6 +4004,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=163092",
+          "author": "Natalie Wolchover",
+          "description": "Plausible answers range from 17 to — in all seriousness — 995.5.            \nThe post How Many Elementary Particles Are There, Really? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
+          "publishedOn": "2026-06-15T15:07:59.000Z",
+          "wordCount": 3678,
+          "title": "How Many Elementary Particles Are There, Really?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Qualia-ElementaryParticles-crKristinaArmitage-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=163038",
           "author": "Robin George Andrews",
