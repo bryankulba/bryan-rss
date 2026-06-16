@@ -2,10 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-16T09:24:52.439Z</updated>
+    <updated>2026-06-16T16:47:11.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Georgi Gerganov]]></title>
+        <id>https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything"/>
+        <updated>2026-06-16T16:04:59.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://news.ycombinator.com/item?id=48555993#48557304"><p>I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small <a href="https://github.com/search?q=%22Assisted-by%22+user%3Aggml-org&amp;type=commits&amp;ref=advsearch">mundane tasks at ggml-org</a> - nothing really impressive, but definitely a helpful tool for a maintainer. I think I would be using it much more, if I didn't have to spend a lot of my time on reviewing PRs. Currently, I have a very lightweight harness - the pi agent with everything stripped (<code>pi -nc --offline</code>) and <a href="https://github.com/ggml-org/llama.cpp/blob/master/.pi/gg/SYSTEM.md">a short system prompt</a> to align it a bit with my style.</p></blockquote>
+<p class="cite">&mdash; <a href="https://news.ycombinator.com/item?id=48555993#48557304">Georgi Gerganov</a>, Hacker News comment on <a href="https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/">Running local models is good now</a> by  Boykis</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/georgi-gerganov">georgi-gerganov</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/pi">pi</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;If Platner’s past rhetoric about and treatment of...]]></title>
+        <id>https://kottke.org/26/06/0049154-isnt-the-implication-that</id>
+        <link href="https://kottke.org/26/06/0049154-isnt-the-implication-that"/>
+        <updated>2026-06-16T15:58:00.000Z</updated>
+        <summary type="html"><![CDATA[“If Platner’s past rhetoric about and treatment of women are the natural price of running a working class candidate, isn’t the implication that working class men by nature mistreat the women in their lives?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A million new SpaceX satellites will destroy the night...]]></title>
+        <id>https://kottke.org/26/06/0049147-a-million-new-spacex-sate</id>
+        <link href="https://kottke.org/26/06/0049147-a-million-new-spacex-sate"/>
+        <updated>2026-06-16T15:16:00.000Z</updated>
+        <summary type="html"><![CDATA[A million new SpaceX satellites will destroy the night sky — for everyone on Earth. They already have 10K satellites in orbit and they want to add a million more. 🥴]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Ambient Album From Marconi Union]]></title>
+        <id>https://kottke.org/26/06/new-ambient-album-from-marconi-union</id>
+        <link href="https://kottke.org/26/06/new-ambient-album-from-marconi-union"/>
+        <updated>2026-06-16T14:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Marconi Union, which you might remember for creating the most relaxing song in the world, has released a new album: Multiforms: Ambient Transmissions, Vol. 3. You can watch the visual album on YouTube or stream it from a variety of sources. This went straight into my Underscore collection.
+
+ 
+
+        
+         
+Tags: Marconi Union]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 40 Most Rage-Inducing Problems in Tech . Like:...]]></title>
+        <id>https://kottke.org/26/06/0049149-the-40-most-rage-inducing</id>
+        <link href="https://kottke.org/26/06/0049149-the-40-most-rage-inducing"/>
+        <updated>2026-06-16T13:36:00.000Z</updated>
+        <summary type="html"><![CDATA[The 40 Most Rage-Inducing Problems in Tech. Like: “4. Please, please stop asking me to verify my humanity by clicking on tiny motorcycles.” and “35. To Mark Zuckerberg, specifically: Shut up about the Roman Empire.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commodore (you know, the 64 folks) is  releasing a flip...]]></title>
+        <id>https://kottke.org/26/06/0049157-releasing-a-flip-phone</id>
+        <link href="https://kottke.org/26/06/0049157-releasing-a-flip-phone"/>
+        <updated>2026-06-16T12:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Commodore (you know, the 64 folks) is releasing a flip phone. “No social media, no browser. Runs 99% of Android apps (without Android). T9-style texting adds mindful friction. Audiophile grade HD Audio.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[16jun26]]></title>
+        <id>https://warrenellis.ltd/?p=18564</id>
+        <link href="https://warrenellis.ltd/status/16jun26/"/>
+        <updated>2026-06-16T12:30:53.000Z</updated>
+        <summary type="html"><![CDATA[The G-Shock is running three minutes fast, it turns out! I love a big chunky G-Shock. I read yesterday that they’re coming back into fashion…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to dress when it's too hot]]></title>
+        <id>https://www.blackbirdspyplane.com/p/how-to-dress-well-when-its-too-hot</id>
+        <link href="https://www.blackbirdspyplane.com/p/how-to-dress-well-when-its-too-hot"/>
+        <updated>2026-06-16T10:50:53.000Z</updated>
+        <summary type="html"><![CDATA[Shorts Report & beyond — it’s Spyplane Swelter-Weather Swag Week]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Fable 5 Export Controls Harm US Cyber Defense]]></title>
         <id>https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything</id>
@@ -68,6 +157,18 @@ I <a href="https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/">quot
         <p>Tags: <a href="https://simonwillison.net/tags/captchas">captchas</a>, <a href="https://simonwillison.net/tags/cloudflare">cloudflare</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abdullah Ibrahim (9 October 1934–15 June 2026)]]></title>
+        <id>https://www.thewire.co.uk/in-writing/the-portal/abdullah-ibrahim-9-october-1934-15-june-2026</id>
+        <link href="https://www.thewire.co.uk/in-writing/the-portal/abdullah-ibrahim-9-october-1934-15-june-2026"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Struggle, In Grace: Abdullah Ibrahim: Music, Revolution & Prayer. Interview by Graham Lock, The Wire 8, October 1984
+    
+Abdullah Ibrahim’s Epiphanies. The Wire 454, December 2021]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -1295,6 +1396,164 @@ Jonathon Ready highlights one of the more eyebrow-raising details from the <a hr
         <summary type="html"><![CDATA[a natural evolution of Follow the Crypto, her project tracking over $130m spent by crypto companies in last year's elections #]]></summary>
         <author>
             <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joseph Stannard presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/audio/on-air/joseph-stannard-presents-adventures-in-sound-and-music-78290</id>
+        <link href="https://www.thewire.co.uk/audio/on-air/joseph-stannard-presents-adventures-in-sound-and-music-78290"/>
+        <updated>2026-06-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire’s weekly radio show on Resonance FM and Resonance Extra featured music by Neptune, Boards Of Canada, Luke Haines, Concepción Huerta and more
+
+Tracklist
+
+Neptune
+    
+“#41”
+    
+Play Some Music
+    
+Sleeping Giant Glossolalia)
+
+Boards Of Canada
+    
+“Hydrogen Helium Lithium Leviathan”
+    
+Inferno
+    
+Warp)
+
+BLKE
+    
+“So Do I”
+    
+BLKE
+    
+Tonzonen)
+
+Sun Ra & His Arkestra
+    
+“Outer Reach Intensity Energy – Cosmos Rendezvous”
+    
+Somewhere Over The Rainbow
+    
+Strut)
+
+Black Arches
+    
+“This Is What Admin Does To You Again”
+    
+Live At The Strongroom
+    
+Bandcamp)
+
+Phil McCoy dubbed out by Adrian Sherwood
+    
+“2”
+    
+60bpm 33rpm
+    
+Flaming Pines)
+
+Quiet Husband
+    
+“Abstraction”
+    
+The Architecture Of Perception
+    
+Industrial Coast)
+
+Luke Haines
+    
+“Izzy Wizzy Let's Get Busy”
+    
+Izzy Wizzy Let's Get Busy
+    
+Cherry Red)
+
+Tatyana Jane
+    
+“Orbit”
+    
+Discordia
+    
+Ed Banger/Because)
+
+Mark Jenkin
+    
+“Cornish Affirmative”
+    
+Rose Of Nevada OST
+    
+Invada)
+
+Rift
+    
+“Pandora”
+    
+Morana
+    
+Metalheadz)
+
+Darkthrone
+    
+“Siberian Thaw”
+    
+Pre-Historic Metal
+    
+Peaceville)
+
+Blood Incantation
+    
+“Dawn”
+    
+All Gates Open OST
+    
+Century Media)
+
+Kee Avil
+    
+“Un”
+    
+Vapor
+    
+NNA Tapes)
+
+Bodega System
+    
+“Midday Con Mr Clean”
+    
+Nightcliff
+    
+Bandcamp)
+
+Wire Worms
+    
+“Infinite Delight”
+    
+Beneath The Eildon Tree
+    
+Cruel Nature)
+
+Kevin Richard Martin
+    
+“Disintegration Time”
+    
+Blue Loops
+    
+ (Pressure)
+
+Concepción Huerta
+    
+“La Tierra Y Sus Poderes Subterráneos”
+    
+El Sol De Los Muertos
+    
+Signal Noise)
+
+Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6785,22 +7044,6 @@ The post What Do Gödel’s Incompleteness Theorems Truly Mean? first appeared o
         <summary type="html"><![CDATA[“In 2014, the Dutch scholar Hans Corneel de Roos first noticed that the Icelandic version of Dracula was in fact not a translation, but was rather a very different novel from Stoker’s version.” The “translation” was published in 1901.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Against The Grain: London's DIY sound systems]]></title>
-        <id>https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-diy-sound-systems</id>
-        <link href="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-london-s-diy-sound-systems"/>
-        <updated>2026-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 508
-
-
-    Sound systems have a long history of using non-commercial spaces. The late Jah Shaka played town halls, co-operative spaces and community hubs across the country, partly because they allowed the Black community a freedom of expression and spiritual autonomy denied in the nightclubs of postwar Britain. And in recent years, with music venues battered by runaway property speculation and rising running costs, sound systems and dance promoters have had to be increasingly creative at finding new contexts for their music.
-
-
-    Recent decades have been a struggle for this music community, with economic and licensing conditions both posing problems. Audiences at sound system events aren’t there to flaunt their social status, so the bar take is lower than at more upwardly mobile …]]></summary>
-        <author>
-            <name>The Wire: Home</name>
         </author>
     </entry>
 </feed>
