@@ -2483,6 +2483,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18523",
+          "author": "Warren Ellis",
+          "description": "Xie Lei. Viceroy Los Cabos. Sea levels are just the start of how climate change will upend the ocean. Rising temperatures are also threatening a…",
+          "link": "https://warrenellis.ltd/mc/morning-computer-ocean-days/",
+          "publishedOn": "2026-06-16T05:00:00.000Z",
+          "wordCount": 1468,
+          "title": "morning computer ocean days",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/lei-2-960x1358-1.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18537",
           "author": "Warren Ellis",
           "description": "I had this on VHS about a million years ago. HAXAN is a lovely little thing, genuinely strange, and I am looking forward to discovering…",
@@ -2738,16 +2748,6 @@
           "wordCount": 1747,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/7920f24efd9c02ed1f5213836795ee1d/658e72633b083c1b-20/s1280x1920/fc0dfb4d1ce37344c8a6bf631d7d21ee1f5a7bfb.webp"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/816864792374640640",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/816864792374640640",
-          "publishedOn": "2026-05-17T13:02:52.000Z",
-          "wordCount": 1952,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/25c58e0918d2bee4ad8912cd1516f5ad/d92ac8fbea160dba-5b/s1280x1920/c48462681cc671873f4959419c94df44476280b2.png"
         }
       ]
     },
@@ -3123,6 +3123,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense\">The Fable 5 Export Controls Harm US Cyber Defense</a></strong></p>\nI <a href=\"https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/\">quoted The Atlantic</a> quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\":</p>\n<blockquote>\n<p>The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, turned the output into scripts that test the patches.</p>\n</blockquote>\n<p>As Kate points out, this is absurd. Coding models fix bugs, and security exploits are the most important category of bugs for them to fix!</p>\n<blockquote>\n<p>Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. That is not a guardrail bypass. It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day. [...]</p>\n<p>The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches.</p>\n</blockquote>\n<p>This whole situation is such a mess. Non-technical decision-makers have been hearing that models that can \"craft cyber attacks\" are uniquely dangerous for months. Now they look ready to ban any model that can help us secure our code.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jailbreaking\">jailbreaking</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+          "publishedOn": "2026-06-16T05:20:29.000Z",
+          "wordCount": 989,
+          "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
           "author": null,
@@ -3981,16 +3991,6 @@
           "publishedOn": "2026-05-18T14:51:00.000Z",
           "wordCount": 777,
           "title": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/\">GDS weighs in on the NHS&#x27;s decision to retreat from Open Source</a></strong></p>\nTerence Eden continues his coverage of the NHS' <a href=\"https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/\">poorly considered decision</a> to close down access to their open source repositories in response to vulnerabilities reported to them as part of <a href=\"https://simonwillison.net/2026/Apr/7/project-glasswing/\">Project Glasswing</a>.</p>\n<p>Now the Government Digital Service have joined the conversation with <a href=\"https://www.gov.uk/guidance/ai-open-code-and-vulnerability-risk-in-the-public-sector\">AI, open code and vulnerability risk in the public sector</a>, published May 14th. Their key recommendation:</p>\n<blockquote>\n<p>Keep open by default. Making everything private adds additional delivery and policy costs, and can reduce reuse and scrutiny. Openness should remain the default posture, with closure used sparingly and deliberately. </p>\n</blockquote>\n<p>While they don't mention the NHS by name, Terence speaks the language of the civil service and interprets this as a major escalation:</p>\n<blockquote>\n<p>Within the UK's Civil Service you occasionally hear the expression \"being invited to a meeting <em>without biscuits</em>\". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those internal disagreements to spill over into public.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gov-uk\">gov-uk</a>, <a href=\"https://simonwillison.net/tags/terence-eden\">terence-eden</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
-          "publishedOn": "2026-05-17T15:59:41.000Z",
-          "wordCount": 916,
-          "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
           "imageUrl": null
         }
       ]

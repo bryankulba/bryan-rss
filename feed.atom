@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-16T03:51:38.019Z</updated>
+    <updated>2026-06-16T09:24:52.439Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Fable 5 Export Controls Harm US Cyber Defense]]></title>
+        <id>https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything"/>
+        <updated>2026-06-16T05:20:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense">The Fable 5 Export Controls Harm US Cyber Defense</a></strong></p>
+I <a href="https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/">quoted The Atlantic</a> quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the "jailbreak" that got Claude Fable 5 banned under an export control really was "fix this code":</p>
+<blockquote>
+<p>The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, turned the output into scripts that test the patches.</p>
+</blockquote>
+<p>As Kate points out, this is absurd. Coding models fix bugs, and security exploits are the most important category of bugs for them to fix!</p>
+<blockquote>
+<p>Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. That is not a guardrail bypass. It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day. [...]</p>
+<p>The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches.</p>
+</blockquote>
+<p>This whole situation is such a mess. Non-technical decision-makers have been hearing that models that can "craft cyber attacks" are uniquely dangerous for months. Now they look ready to ban any model that can help us secure our code.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/jailbreaking">jailbreaking</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[morning computer ocean days]]></title>
+        <id>https://warrenellis.ltd/?p=18523</id>
+        <link href="https://warrenellis.ltd/mc/morning-computer-ocean-days/"/>
+        <updated>2026-06-16T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Xie Lei. Viceroy Los Cabos. Sea levels are just the start of how climate change will upend the ocean. Rising temperatures are also threatening a…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Matteo Wong, The Atlantic]]></title>
         <id>https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything</id>
@@ -6768,37 +6801,6 @@ The post What Do Gödel’s Incompleteness Theorems Truly Mean? first appeared o
     Recent decades have been a struggle for this music community, with economic and licensing conditions both posing problems. Audiences at sound system events aren’t there to flaunt their social status, so the bar take is lower than at more upwardly mobile …]]></summary>
         <author>
             <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GDS weighs in on the NHS's decision to retreat from Open Source]]></title>
-        <id>https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything"/>
-        <updated>2026-05-17T15:59:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/">GDS weighs in on the NHS&#x27;s decision to retreat from Open Source</a></strong></p>
-Terence Eden continues his coverage of the NHS' <a href="https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/">poorly considered decision</a> to close down access to their open source repositories in response to vulnerabilities reported to them as part of <a href="https://simonwillison.net/2026/Apr/7/project-glasswing/">Project Glasswing</a>.</p>
-<p>Now the Government Digital Service have joined the conversation with <a href="https://www.gov.uk/guidance/ai-open-code-and-vulnerability-risk-in-the-public-sector">AI, open code and vulnerability risk in the public sector</a>, published May 14th. Their key recommendation:</p>
-<blockquote>
-<p>Keep open by default. Making everything private adds additional delivery and policy costs, and can reduce reuse and scrutiny. Openness should remain the default posture, with closure used sparingly and deliberately. </p>
-</blockquote>
-<p>While they don't mention the NHS by name, Terence speaks the language of the civil service and interprets this as a major escalation:</p>
-<blockquote>
-<p>Within the UK's Civil Service you occasionally hear the expression "being invited to a meeting <em>without biscuits</em>". It implies a rather frosty discussion without any of the polite niceties of a normal meeting. In general though, even when people have severe disagreements, it is rare for tempers to fray. It is even rarer for those internal disagreements to spill over into public.</p>
-</blockquote>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gov-uk">gov-uk</a>, <a href="https://simonwillison.net/tags/terence-eden">terence-eden</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/816864792374640640</id>
-        <link href="https://brucesterling.tumblr.com/post/816864792374640640"/>
-        <updated>2026-05-17T13:02:52.000Z</updated>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
