@@ -2,10 +2,142 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-16T16:47:11.893Z</updated>
+    <updated>2026-06-16T22:09:40.211Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Is this the sloppiest AI slop video of all time?  The...]]></title>
+        <id>https://kottke.org/26/06/0049155-is-this-the-sloppiest-ai-</id>
+        <link href="https://kottke.org/26/06/0049155-is-this-the-sloppiest-ai-"/>
+        <updated>2026-06-16T20:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Is this the sloppiest AI slop video of all time? The AI-generated voiceover (at ~6:45) gets tripped up saying “what WWE” and basically sings Daisy Bell for more than 10 minutes until someone kicks the server.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[THE BIG THREE, Neel Burton]]></title>
+        <id>https://warrenellis.ltd/?p=18543</id>
+        <link href="https://warrenellis.ltd/books/the-big-three-neel-burton/"/>
+        <updated>2026-06-16T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For better or worse, Socrates, Plato, and Aristotle engineered the Western mind. Above all, they formed part of a movement that stood at the crossroads…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If I lived in LA, I would go to this concert at the...]]></title>
+        <id>https://kottke.org/26/06/0049160-music-from-the-films-of-w</id>
+        <link href="https://kottke.org/26/06/0049160-music-from-the-films-of-w"/>
+        <updated>2026-06-16T19:38:00.000Z</updated>
+        <summary type="html"><![CDATA[If I lived in LA, I would go to this concert at the Hollywood Bowl: Music From the Films of Wes Anderson. “Over three nights, musicians including Beck, Jenny Lewis, Jackson Browne, and Mothersbaugh himself perform favorite songs, scores…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disclosure Day surely sets a world record for the number...]]></title>
+        <id>https://kottke.org/26/06/0049158-spielberg-faces</id>
+        <link href="https://kottke.org/26/06/0049158-spielberg-faces"/>
+        <updated>2026-06-16T18:47:03.000Z</updated>
+        <summary type="html"><![CDATA[Disclosure Day surely sets a world record for the number of Spielberg Faces.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The man who’s spent a lifetime making one giant map]]></title>
+        <id>https://waxy.org/?p=50887</id>
+        <link href="https://www.youtube.com/watch?v=Is8N7B9b0GQ"/>
+        <updated>2026-06-16T17:56:40.000Z</updated>
+        <summary type="html"><![CDATA[People Makes Games talks to Jerry Gretzinger about his game-like map, now over 4,000 8″x10″ panels
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It is trivially easy to use Reddit to manipulate AI search, new research suggests]]></title>
+        <id>https://waxy.org/?p=50884</id>
+        <link href="https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/"/>
+        <updated>2026-06-16T17:32:36.000Z</updated>
+        <summary type="html"><![CDATA[the preprint paper shows how a few words of text in a comment can consistently poison searches
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Walter White’s Big Hat]]></title>
+        <id>https://kottke.org/26/06/walter-whites-big-hat</id>
+        <link href="https://kottke.org/26/06/walter-whites-big-hat"/>
+        <updated>2026-06-16T17:28:00.000Z</updated>
+        <summary type="html"><![CDATA[In this modified scene from Breaking Bad, Walter White’s hat grows in proportion to his ego. YT commenter: “He was just brimming with confidence.” Could be time for a BB rewatch. (via @ernie.tedium.co)
+
+ 
+
+        
+         
+Tags: Breaking Bad · remix · TV · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;Film posters inadvertently photographed by...]]></title>
+        <id>https://kottke.org/26/06/0049036-film-posters-inadvertentl</id>
+        <link href="https://kottke.org/26/06/0049036-film-posters-inadvertentl"/>
+        <updated>2026-06-16T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[“Film posters inadvertently photographed by [British] postwar town planners.” Includes posters for Help!, Shaft, Dr. No, Planet of the Apes, and many more.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bubbles.town]]></title>
+        <id>https://waxy.org/?p=50880</id>
+        <link href="https://bubbles.town/"/>
+        <updated>2026-06-16T16:37:37.000Z</updated>
+        <summary type="html"><![CDATA[a new social link aggregator, but with posts from 5,000+ independent blogs (including mine) as the data source
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A history of web browsers on video game consoles]]></title>
+        <id>https://waxy.org/?p=50877</id>
+        <link href="https://vale.rocks/posts/game-console-browsers"/>
+        <updated>2026-06-16T16:25:28.000Z</updated>
+        <summary type="html"><![CDATA[Nintendo and Sony decided not to release browsers for any console since the Wii U and PlayStation 4
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fontificator]]></title>
+        <id>https://waxy.org/?p=50874</id>
+        <link href="https://unsung.aresluna.org/fontificator/"/>
+        <updated>2026-06-16T16:14:15.000Z</updated>
+        <summary type="html"><![CDATA[Marcin Wichary shares an internal tool he built while he was at Medium for quickly exploring type options
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heikki’s Garden of Flowers]]></title>
+        <id>https://waxy.org/?p=50871</id>
+        <link href="https://garden-of-flowers.heikkilotvonen.com/?essay"/>
+        <updated>2026-06-16T16:11:45.000Z</updated>
+        <summary type="html"><![CDATA[a precursor to ASCII art, a collection of 2,500 examples of pictorial letterpress art from the 1600s to now
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Georgi Gerganov]]></title>
         <id>https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything</id>
@@ -17,6 +149,17 @@
     <p>Tags: <a href="https://simonwillison.net/tags/georgi-gerganov">georgi-gerganov</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/pi">pi</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firewood Splitting Simulator]]></title>
+        <id>https://waxy.org/?p=50869</id>
+        <link href="https://screen.toys/firewood/"/>
+        <updated>2026-06-16T16:00:07.000Z</updated>
+        <summary type="html"><![CDATA[more fun at Gavin Shapiro’s screen.toys
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
         </author>
     </entry>
     <entry>
