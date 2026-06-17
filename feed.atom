@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-16T22:09:40.211Z</updated>
+    <updated>2026-06-17T03:54:03.063Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[NetNewsWire Status]]></title>
+        <id>https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything"/>
+        <updated>2026-06-17T03:36:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://inessential.com/2026/06/15/netnewswire-status.html">NetNewsWire Status</a></strong></p>
+I find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, <em>really</em> good - free from any commercial pressure.</p>
+<p>The software is NetNewsWire, first released in 2002 and <a href="https://netnewswire.com/history.html">made open source</a> in 2018. I've been using it on Mac and iPhone for several years now and I'm finding it indispensable.
+
+    <p><small></small>Via <a href="https://lobste.rs/s/0mximk/netnewswire_status">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/brent-simmons">brent-simmons</a>, <a href="https://simonwillison.net/tags/netnewswire">netnewswire</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Is this the sloppiest AI slop video of all time?  The...]]></title>
         <id>https://kottke.org/26/06/0049155-is-this-the-sloppiest-ai-</id>
@@ -114,6 +131,25 @@ Tags: Breaking Bad · remix · TV · video]]></summary>
 via) #]]></summary>
         <author>
             <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-tailscale 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything"/>
+        <updated>2026-06-16T16:18:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-tailscale/releases/tag/0.1a0">datasette-tailscale 0.1a0</a></p>
+        <p>A very experimental alpha plugin which lets you do this:</p>
+<pre><code>datasette tailscale mydata.db \
+  --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview
+</code></pre>
+<p>This starts a localhost Datasette server with a <a href="https://tailscale.com/">Tailscale</a> sidecar that connects it to your Tailnet, such that <code>http://datasette-preview/</code> serves Datasette.</p>
+<p>It's using the Python bindings for the experimental <a href="https://github.com/tailscale/tailscale-rs">tailscale-rs</a> library. I <a href="https://github.com/tailscale/tailscale-rs/issues/243">filed an issue</a> asking if there's a cleaner way of setting up the proxy mechanism.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/tailscale">tailscale</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7106,85 +7142,6 @@ Tags: art · Julian Baumgartner · meditative · timeless posts · video]]></sum
         <link href="https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d"/>
         <updated>2026-05-18T16:36:00.000Z</updated>
         <summary type="html"><![CDATA[Mike Monteiro on how to deal with your suddenly grown-up kids. “When your kid leaves it is the happiest day of your life and also the saddest day of your life. And a lot of other feelings in between.” In the midst of this right now; it’s been a lot.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What&#8217;s Your Favorite Recipe?]]></title>
-        <id>https://kottke.org/26/05/whats-your-favorite-recipe</id>
-        <link href="https://kottke.org/26/05/whats-your-favorite-recipe"/>
-        <updated>2026-05-18T15:33:00.000Z</updated>
-        <summary type="html"><![CDATA[I am not what you would call a dedicated home cook. But every once in a while, I get a bee in my bonnet and make something from my small cache of recipes or from something I saw online that looked good. Some of my go-tos include:
-Rigatoni With White Bolognese (PDF)
-Orecchiette with Sausage and Broccoli
-Pressure Cooker Mushroom Risotto
-Caldo Verde (Portuguese Potato and Kale Soup With Sausage)
-Smoked Haddock Chowder (April Bloomfield)
-The World’s Best Pancakes
-Smoky Corn Chowder
-Some of these aren’t particularly easy to make, but the flavors created with the extra time are worth it.
-What are some of your favorite recipes?
-(I don’t have any good photos of any of the above recipes, so I included one of some avocado toast I made: mashed avocado with evoo, tomatoes + balsamic vinegar, fried egg (crispy w/ runny yolk), chili oil, toast, lots of salt on everything.)1
-Not sure where I learned this, but when making food, I salt everything separately. That way, each flavor gets accentuated on its own — even in soups or casseroles — instead of the whole thing just being vaguely salty. The main purpose of salt is not to make food salty, it’s to heighten the flavors already present. ↩
-
-
- 
-
-        
-         
-Tags: cooking · food]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Do Gödel’s Incompleteness Theorems Truly Mean?]]></title>
-        <id>https://www.quantamagazine.org/?p=161994</id>
-        <link href="https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/"/>
-        <updated>2026-05-18T15:14:42.000Z</updated>
-        <summary type="html"><![CDATA[At 25, Kurt Gödel proved there can never be a mathematical “theory of everything.” Columnist Natalie Wolchover explores the implications.            
-The post What Do Gödel’s Incompleteness Theorems Truly Mean? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Natalie Wolchover</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose]]></title>
-        <id>https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything"/>
-        <updated>2026-05-18T14:51:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/662161673/large.jpg" alt="Glaucous-winged Gull"></p><p><img src="https://static.inaturalist.org/photos/662161721/large.jpg" alt="Glaucous-winged Gull"></p><p><img src="https://static.inaturalist.org/photos/662161937/large.jpg" alt="Brown Pelican"></p><p><img src="https://static.inaturalist.org/photos/662161148/large.jpg" alt="Snowy Egret"></p><p><img src="https://static.inaturalist.org/photos/662161189/large.jpg" alt="Snowy Egret"></p><p><img src="https://static.inaturalist.org/photos/662160828/large.jpg" alt="Canada Goose"></p><p><img src="https://static.inaturalist.org/photos/662160866/large.jpg" alt="Canada Goose"></p><p>Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose, in Los Angeles River, CA, US</p><p>I'm heading home from PyCon US today so I went on a last morning walk to try and spot a pelican. I saw one! Didn't get a great photo of that, but I did see some goslings down by the swan boat lake.</p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I have always liked Steve Kerr, but I did not expect to...]]></title>
-        <id>https://kottke.org/26/05/0048963-this-whole-15000-word-pro</id>
-        <link href="https://kottke.org/26/05/0048963-this-whole-15000-word-pro"/>
-        <updated>2026-05-18T14:45:00.000Z</updated>
-        <summary type="html"><![CDATA[I have always liked Steve Kerr, but I did not expect to read this whole 15,000-word profile of him at ESPN. Really interesting throughout.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Handy app: &#8220;Point your camera at anything (a dress,...]]></title>
-        <id>https://kottke.org/26/05/0048959-what-color-is-this</id>
-        <link href="https://kottke.org/26/05/0048959-what-color-is-this"/>
-        <updated>2026-05-18T14:05:31.000Z</updated>
-        <summary type="html"><![CDATA[Handy app: “Point your camera at anything (a dress, a paint swatch, a flower, your kid’s drawing) and What Color Is This? names the color instantly.” I like the increasingly specific color labels (e.g. blue to light blue to Tiffany blue).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;In 2014, the Dutch scholar Hans Corneel de Roos...]]></title>
-        <id>https://kottke.org/26/05/0048946-the-icelandic-version-of-</id>
-        <link href="https://kottke.org/26/05/0048946-the-icelandic-version-of-"/>
-        <updated>2026-05-18T12:45:00.000Z</updated>
-        <summary type="html"><![CDATA[“In 2014, the Dutch scholar Hans Corneel de Roos first noticed that the Icelandic version of Dracula was in fact not a translation, but was rather a very different novel from Stoker’s version.” The “translation” was published in 1901.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
