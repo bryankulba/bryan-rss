@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-17T15:21:58.298Z</updated>
+    <updated>2026-06-17T18:13:44.702Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Black Jeopardy Misses YouTube channel catalogs  just...]]></title>
+        <id>https://kottke.org/26/06/0049159-just-how-little-jeopardy-</id>
+        <link href="https://kottke.org/26/06/0049159-just-how-little-jeopardy-"/>
+        <updated>2026-06-17T17:54:00.000Z</updated>
+        <summary type="html"><![CDATA[The Black Jeopardy Misses YouTube channel catalogs just how little Jeopardy contestants know about Black history, culture, and celebrities. (See also, of course, Black Jeopardy, which drives home a similar point in a different way.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Charity Majors]]></title>
+        <id>https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything"/>
+        <updated>2026-06-17T17:12:41.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline#footnote-2"><p>What happened in 2025 was this: <strong>the economics of code production were turned upside down</strong>. Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code went from being treasured, reused, cared for and carefully curated, to being disposable and regenerable, practically overnight.</p></blockquote>
+<p class="cite">&mdash; <a href="https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline#footnote-2">Charity Majors</a>, AI demands more engineering discipline. Not less</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/charity-majors">charity-majors</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two Huge Collections of Leonardo’s Codexes Digitally Reunited After 400 Years]]></title>
+        <id>https://kottke.org/26/06/two-huge-collections-of-leonardos-codexes-digitally-reunited-after-400-years</id>
+        <link href="https://kottke.org/26/06/two-huge-collections-of-leonardos-codexes-digitally-reunited-after-400-years"/>
+        <updated>2026-06-17T16:14:00.000Z</updated>
+        <summary type="html"><![CDATA[For the first time in hundreds of years, two collections of Leonardo da Vinci’s notebooks have been brought together online at the Leonardotheka. In some cases, pages that were cut apart centuries ago have been digitally joined so we can see the full pages again, as Leonardo drew and wrote them. From the press release:
+Marking the culmination of a 10-year project in collaboration with Royal Collection Trust, Windsor, the Veneranda Biblioteca Ambrosiana, Milan, and the Biblioteca Leonardiana in Vinci, a dedicated group of Leonardo scholars and digital experts has worked to bring approximately 3,500 pages of manuscripts back together after they were separated and cut into pieces in the late 16th century. Leonardotheka reveals new insights into Leonardo’s thoughts, vision and working process …]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A searchable archive of the almost 5000 TV episodes that...]]></title>
+        <id>https://kottke.org/26/06/0049156-a-searchable-archive-of-t</id>
+        <link href="https://kottke.org/26/06/0049156-a-searchable-archive-of-t"/>
+        <updated>2026-06-17T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[A searchable archive of the almost 5000 TV episodes that naturalist David Attenborough has worked on in his career (1954-present). “Search by animal, habitat, location, natural phenomenon, or theme to find exactly the episode you’re looking for.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?]]></title>
         <id>https://www.quantamagazine.org/?p=163183</id>
@@ -62,6 +106,26 @@ Tags: crime · Errol Morris · movies · murder · video]]></summary>
         <summary type="html"><![CDATA[Trying to keep up with my own brain today. Flurry of thoughts. This edition of Feed Me connected to some recent notions. Mostly offline today…]]></summary>
         <author>
             <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: The secret of lightness]]></title>
+        <id>https://www.robinsloan.com/lab/secret-of-lightness/</id>
+        <link href="https://www.robinsloan.com/lab/secret-of-lightness/"/>
+        <updated>2026-06-17T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>e do not yet understand how to train language models. <a href="https://www.robinsloan.com/lab/secret-of-lightness/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: The story is computers]]></title>
+        <id>https://www.robinsloan.com/lab/story-is-computers/</id>
+        <link href="https://www.robinsloan.com/lab/story-is-computers/"/>
+        <updated>2026-06-17T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Not rupture but continuation. <a href="https://www.robinsloan.com/lab/story-is-computers/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
