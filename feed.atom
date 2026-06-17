@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-17T03:54:03.063Z</updated>
+    <updated>2026-06-17T09:02:00.577Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[morning hot world computer]]></title>
+        <id>https://warrenellis.ltd/?p=18527</id>
+        <link href="https://warrenellis.ltd/mc/morning-hot-world-computer/"/>
+        <updated>2026-06-17T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Seth Pick. Songs prep the brains of finches yet to hatch for a hot world Exposure to parents’ “heat calls” makes finch young more resilient…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[<click-to-play> — a still that plays]]></title>
+        <id>https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything"/>
+        <updated>2026-06-17T03:56:10.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/click-to-play-component">&lt;click-to-play&gt; — a still that plays</a></p>
+        <p>A progressive enchantment Web Component that turns this markup:</p>
+<pre><code>&lt;click-to-play&gt;
+  &lt;a href="URL to GIF"&gt;
+    &lt;img src="URL to first frame" alt="..."&gt;
+  &lt;/a&gt;
+&lt;/click-to-play&gt;
+</code></pre>
+<p>Into a still frame with a click to play button which loads the GIF on demand. For when you don't want big GIFs to be loaded unless people want to play them.</p>
+<p>Here's <a href="https://simonwillison.net/2026/Jun/16/datasette/">an example</a> that demonstrates the new row editing tools in Datasette - in fact I built this Web Component for that post.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/gif">gif</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/progressive-enhancement">progressive-enhancement</a>, <a href="https://simonwillison.net/tags/web-components">web-components</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NetNewsWire Status]]></title>
         <id>https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything</id>
@@ -19,6 +51,26 @@ I find this inspiring. Brent Simmons retired a year ago, and his retirement proj
 
 
     <p>Tags: <a href="https://simonwillison.net/tags/brent-simmons">brent-simmons</a>, <a href="https://simonwillison.net/tags/netnewswire">netnewswire</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a34]]></title>
+        <id>https://simonwillison.net/2026/Jun/16/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/16/datasette/#atom-everything"/>
+        <updated>2026-06-16T21:31:24.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a34">datasette 1.0a34</a></p>
+        <p>Quoting the release notes:</p>
+<blockquote>
+<p>The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page.</p>
+</blockquote>
+<p><click-to-play><a href="https://static.simonwillison.net/static/2026/datasette-edit.gif"><img src="https://static.simonwillison.net/static/2026/datasette-edit-first-frame.gif" /></a></click-to-play></p>
+
+<p>The inspiration for this feature - which is <em>long</em> overdue - was <a href="https://agent.datasette.io/">Datasette Agent</a>. I added <a href="https://simonwillison.net/2026/Jun/15/datasette-agent/">SQL write support</a> to that the other day which highlighted how absurd it was that you could insert and edit ties via the chat interface but not in the regular Datasette UI!</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -7067,83 +7119,6 @@ Local models wildly outperform expectations
         <p>Tags: <a href="https://simonwillison.net/tags/lightning-talks">lightning-talks</a>, <a href="https://simonwillison.net/tags/pycon">pycon</a>, <a href="https://simonwillison.net/tags/speaking">speaking</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/annotated-talks">annotated-talks</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;I have travelled all over the world in the last 30...]]></title>
-        <id>https://kottke.org/26/05/0048968-the-density-of-assholes-i</id>
-        <link href="https://kottke.org/26/05/0048968-the-density-of-assholes-i"/>
-        <updated>2026-05-18T20:47:00.000Z</updated>
-        <summary type="html"><![CDATA[“I have travelled all over the world in the last 30 years, and have never seen anything like the density of assholes I just encountered in Japan, [i.e.] tourists being an unbearable menace specifically while on and around their phones.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watching an Art Conservator Restore a Damaged Painting]]></title>
-        <id>https://kottke.org/18/08/watching-an-art-conservator-restore-a-damaged-painting</id>
-        <link href="https://kottke.org/18/08/watching-an-art-conservator-restore-a-damaged-painting"/>
-        <updated>2026-05-18T19:49:00.000Z</updated>
-        <summary type="html"><![CDATA[There’s something so relaxing about watching art conservator Julian Baumgartner restore this damaged painting, a self-portrait by Italian painter Emma Gaggiotti Richards. I love how he paints tiny cracks in the damaged areas to match those in the rest of the painting.
-There are many more videos and photos of Baumgartner’s restoration process on Instagram and YouTube. (via the kid should see this)
-
- 
-
-         
-[This is a vintage post originally from Aug 2018.]
-Tags: art · Julian Baumgartner · meditative · timeless posts · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Marbles Squared  is a puzzle game  30 years in the...]]></title>
-        <id>https://kottke.org/26/05/0048966-marbles-squared</id>
-        <link href="https://kottke.org/26/05/0048966-marbles-squared"/>
-        <updated>2026-05-18T19:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Marbles Squared is a puzzle game 30 years in the making that you can play on the web, Game Boy, ZX Spectrum Next, and Palm Pilot.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ben Prunty has  composed   the soundtrack  to a new game,...]]></title>
-        <id>https://kottke.org/26/05/0048965-the-soundtrack</id>
-        <link href="https://kottke.org/26/05/0048965-the-soundtrack"/>
-        <updated>2026-05-18T18:26:21.000Z</updated>
-        <summary type="html"><![CDATA[Ben Prunty has composed the soundtrack to a new game, Subnautica 2. Prunty did the FTL: Faster Than Light soundtrack back in the day, which I love.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Enshittification of History]]></title>
-        <id>http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html</id>
-        <link href="http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html"/>
-        <updated>2026-05-18T17:31:42.000Z</updated>
-        <summary type="html"><![CDATA[(This blog essay is overdue because I'm still waiting for new prescription glasses and writing while cross-eyed with text zoomed to 250% is tedious. They should be here later this week. Meanwhile ...) Back in January 2022 I wrote an...]]></summary>
-        <author>
-            <name>Charlie's Diary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Perhaps businesses are collecting too much data for...]]></title>
-        <id>https://kottke.org/26/05/0048954-perhaps-businesses-are-co</id>
-        <link href="https://kottke.org/26/05/0048954-perhaps-businesses-are-co"/>
-        <updated>2026-05-18T17:16:00.000Z</updated>
-        <summary type="html"><![CDATA[Perhaps businesses are collecting too much data for their own good. “Each morning at 10am, I get an email from Caroline in the finance team showing the cash we have in the bank compared with the same day last year. This fact offers no hiding place.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mike Monteiro on how to deal with your suddenly grown-up...]]></title>
-        <id>https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d</id>
-        <link href="https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d"/>
-        <updated>2026-05-18T16:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Mike Monteiro on how to deal with your suddenly grown-up kids. “When your kid leaves it is the happiest day of your life and also the saddest day of your life. And a lot of other feelings in between.” In the midst of this right now; it’s been a lot.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>

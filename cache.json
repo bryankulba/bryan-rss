@@ -2009,66 +2009,6 @@
           "wordCount": 724,
           "title": "Comparisons as Predictable as the Sunrise . The Pudding...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048968-the-density-of-assholes-i",
-          "author": null,
-          "description": "“I have travelled all over the world in the last 30 years, and have never seen anything like the density of assholes I just encountered in Japan, [i.e.] tourists being an unbearable menace specifically while on and around their phones.”",
-          "link": "https://kottke.org/26/05/0048968-the-density-of-assholes-i",
-          "publishedOn": "2026-05-18T20:47:00.000Z",
-          "wordCount": 791,
-          "title": "&#8220;I have travelled all over the world in the last 30...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/18/08/watching-an-art-conservator-restore-a-damaged-painting",
-          "author": null,
-          "description": "There’s something so relaxing about watching art conservator Julian Baumgartner restore this damaged painting, a self-portrait by Italian painter Emma Gaggiotti Richards. I love how he paints tiny cracks in the damaged areas to match those in the rest of the painting.\nThere are many more videos and photos of Baumgartner’s restoration process on Instagram and YouTube. (via the kid should see this)\n\n \n\n         \n[This is a vintage post originally from Aug 2018.]\nTags: art · Julian Baumgartner · meditative · timeless posts · video",
-          "link": "https://kottke.org/18/08/watching-an-art-conservator-restore-a-damaged-painting",
-          "publishedOn": "2026-05-18T19:49:00.000Z",
-          "wordCount": 485,
-          "title": "Watching an Art Conservator Restore a Damaged Painting",
-          "imageUrl": "https://i.ytimg.com/vi/W0MzKWx0GRw/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048966-marbles-squared",
-          "author": null,
-          "description": "Marbles Squared is a puzzle game 30 years in the making that you can play on the web, Game Boy, ZX Spectrum Next, and Palm Pilot.",
-          "link": "https://kottke.org/26/05/0048966-marbles-squared",
-          "publishedOn": "2026-05-18T19:08:00.000Z",
-          "wordCount": 737,
-          "title": "Marbles Squared  is a puzzle game  30 years in the...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048965-the-soundtrack",
-          "author": null,
-          "description": "Ben Prunty has composed the soundtrack to a new game, Subnautica 2. Prunty did the FTL: Faster Than Light soundtrack back in the day, which I love.",
-          "link": "https://kottke.org/26/05/0048965-the-soundtrack",
-          "publishedOn": "2026-05-18T18:26:21.000Z",
-          "wordCount": 821,
-          "title": "Ben Prunty has  composed   the soundtrack  to a new game,...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048954-perhaps-businesses-are-co",
-          "author": null,
-          "description": "Perhaps businesses are collecting too much data for their own good. “Each morning at 10am, I get an email from Caroline in the finance team showing the cash we have in the bank compared with the same day last year. This fact offers no hiding place.”",
-          "link": "https://kottke.org/26/05/0048954-perhaps-businesses-are-co",
-          "publishedOn": "2026-05-18T17:16:00.000Z",
-          "wordCount": 798,
-          "title": "Perhaps businesses are collecting too much data for...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d",
-          "author": null,
-          "description": "Mike Monteiro on how to deal with your suddenly grown-up kids. “When your kid leaves it is the happiest day of your life and also the saddest day of your life. And a lot of other feelings in between.” In the midst of this right now; it’s been a lot.",
-          "link": "https://kottke.org/26/05/0048964-mike-monteiro-on-how-to-d",
-          "publishedOn": "2026-05-18T16:36:00.000Z",
-          "wordCount": 788,
-          "title": "Mike Monteiro on how to deal with your suddenly grown-up...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2612,6 +2552,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18527",
+          "author": "Warren Ellis",
+          "description": "Seth Pick. Songs prep the brains of finches yet to hatch for a hot world Exposure to parents’ “heat calls” makes finch young more resilient…",
+          "link": "https://warrenellis.ltd/mc/morning-hot-world-computer/",
+          "publishedOn": "2026-06-17T05:00:00.000Z",
+          "wordCount": 1231,
+          "title": "morning hot world computer",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/image_processing20260507-2-glgce3-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18543",
           "author": "Warren Ellis",
@@ -3300,6 +3250,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/click-to-play-component\">&lt;click-to-play&gt; — a still that plays</a></p>\n        <p>A progressive enchantment Web Component that turns this markup:</p>\n<pre><code>&lt;click-to-play&gt;\n  &lt;a href=\"URL to GIF\"&gt;\n    &lt;img src=\"URL to first frame\" alt=\"...\"&gt;\n  &lt;/a&gt;\n&lt;/click-to-play&gt;\n</code></pre>\n<p>Into a still frame with a click to play button which loads the GIF on demand. For when you don't want big GIFs to be loaded unless people want to play them.</p>\n<p>Here's <a href=\"https://simonwillison.net/2026/Jun/16/datasette/\">an example</a> that demonstrates the new row editing tools in Datasette - in fact I built this Web Component for that post.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gif\">gif</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/progressive-enhancement\">progressive-enhancement</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+          "publishedOn": "2026-06-17T03:56:10.000Z",
+          "wordCount": 811,
+          "title": "<click-to-play> — a still that plays",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
           "author": null,
           "description": "<p><strong><a href=\"https://inessential.com/2026/06/15/netnewswire-status.html\">NetNewsWire Status</a></strong></p>\nI find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, <em>really</em> good - free from any commercial pressure.</p>\n<p>The software is NetNewsWire, first released in 2002 and <a href=\"https://netnewswire.com/history.html\">made open source</a> in 2018. I've been using it on Mac and iPhone for several years now and I'm finding it indispensable.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/0mximk/netnewswire_status\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/brent-simmons\">brent-simmons</a>, <a href=\"https://simonwillison.net/tags/netnewswire\">netnewswire</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
@@ -3307,6 +3267,16 @@
           "publishedOn": "2026-06-17T03:36:09.000Z",
           "wordCount": 781,
           "title": "NetNewsWire Status",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a34\">datasette 1.0a34</a></p>\n        <p>Quoting the release notes:</p>\n<blockquote>\n<p>The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page.</p>\n</blockquote>\n<p><click-to-play><a href=\"https://static.simonwillison.net/static/2026/datasette-edit.gif\"><img src=\"https://static.simonwillison.net/static/2026/datasette-edit-first-frame.gif\" /></a></click-to-play></p>\n\n<p>The inspiration for this feature - which is <em>long</em> overdue - was <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. I added <a href=\"https://simonwillison.net/2026/Jun/15/datasette-agent/\">SQL write support</a> to that the other day which highlighted how absurd it was that you could insert and edit ties via the chat interface but not in the regular Datasette UI!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+          "publishedOn": "2026-06-16T21:31:24.000Z",
+          "wordCount": 825,
+          "title": "datasette 1.0a34",
           "imageUrl": null
         },
         {
@@ -4488,16 +4458,6 @@
           "publishedOn": "2026-06-08T19:26:36.000Z",
           "wordCount": 997,
           "title": "Back at the coal face",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html",
-          "author": null,
-          "description": "(This blog essay is overdue because I'm still waiting for new prescription glasses and writing while cross-eyed with text zoomed to 250% is tedious. They should be here later this week. Meanwhile ...) Back in January 2022 I wrote an...",
-          "link": "http://www.antipope.org/charlie/blog-static/2026/05/the-enshittification-of-histor.html",
-          "publishedOn": "2026-05-18T17:31:42.000Z",
-          "wordCount": 2279,
-          "title": "The Enshittification of History",
           "imageUrl": null
         }
       ]
