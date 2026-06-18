@@ -35,6 +35,103 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/06/watch-baseball-games-in-realtime-in-8-bit-view">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-18T00:49:51.000Z">2026-06-17</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/06/watch-baseball-games-in-realtime-in-8-bit-view" target="_blank" rel="noopener noreferrer">Watch Baseball Games in Realtime in 8-Bit View</a>
+          </h2>
+          <p class="feed-item__desc">This is kind of fantastic: Ribbie lets you watch actual MLB baseball games “rendered pitch by pitch in a cozy 8-bit view while they happen”.
+Ribbie is a simple way to keep a live baseball game nearby. It shows the score, the bases, the count, and a tiny pixel field that moves with the real game.
+I built it because I wanted something between a stats tab and a full broadcast. Something you can leave open while you work, cook, or do whatever else, then glance over and know what is happening.
+
+	
+There are a few different views you can use. The image above is the fullscreen view. Here’s the fullscreen game chooser view and the room view of the game.
+
+
+I love this. Nice use of Silkscreen too. 😊
+
+ 
+
+        
+         
+Tags: baseball · design · Silkscreen · sports · typography</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/watch-baseball-games-in-realtime-in-8-bit-view" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/watch-baseball-games-in-realtime-in-8-bit-view">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1781743366-9394458d.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-17T23:58:39.000Z">2026-06-17</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything" target="_blank" rel="noopener noreferrer">GLM-5.2 is probably the most powerful text-only open weights LLM</a>
+          </h2>
+          <p class="feed-item__desc">Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster - with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model - Z.ai have a separate vision family most recently represented by GLM-5V-Turbo, but that one isn't open weights. GLM-5.2 has a 1 million token context window, up from GLM-5.1's 200,000.
+
+The buzz around this model is strong.
+
+Artificial Analysis, who run one of the most widely respected independent benchmarks: GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index.
+
+
+GLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43)
+
+
+They did however find it to be quite token-hungry:
+
+
+GLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k)
+
+
+The model is also now ranked 2nd on the Code Arena WebDev leaderboard, behind only Claude Fable 5. That leaderboard measures "front-end web development tasks, including agentic coding workflows". I'm impressed to see it rank so highly given the lack of image input, which I had incorrectly assumed was a key part of building a truly great frontend coding model.
+
+I've been trying it out via OpenRouter, which has it from 9 different providers, almost all of which are charging $1.40/million for input and $4.40/million for output. For comparison, GPT-5.5 is $5/$30 and Claude Opus 4.5-4.8 is $5/$25.
+
+Excellent pelican, disappointing opossum
+
+GLM-5.1 gave me one of my favorite pelicans and my all time favorite opossum (for the prompt "Generate an SVG of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER".) Interestingly, in both of those cases the model chose to return SVG wrapped in an HTML document that added additional animations using CSS.
+
+Let's try GLM-5.2. For "Generate an SVG of a pelican riding a bicycle" I got this:
+
+
+
+It's a self-contained fully animated SVG, and the animations aren't broken! Often I'll see eyes falling off or wheels rotating independently of the bicycle but here everything works great. It's a very nice vector illustration of a pelican too. Very impressive.
+
+Sadly, the NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER did not come out nearly as well:
+
+
+
+This is such a step down from GLM-5.1! As a reminder, that possum looked like this:
+
+
+
+5.2 didn't even try to animate it.
+Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release, openrouter, ai-in-china, glm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/glm-5.2-pelican-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/06/0049163-full-set-of-underworld-pl">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-17T20:27:00.000Z">2026-06-17</time>
@@ -11572,106 +11669,6 @@ Fix for bug where llm_prompt_context() hook did not fully collect chains of resp
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048972-adult-friendship-became-o">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048975-fake-courtesy-machine">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-19T15:21:00.000Z">2026-05-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048975-fake-courtesy-machine" target="_blank" rel="noopener noreferrer">The  fake courtesy machine  is a wooden hand-cranked...</a>
-          </h2>
-          <p class="feed-item__desc">The fake courtesy machine is a wooden hand-cranked contraption that types “I hope this email finds you well” over and over again. Jacquard loom & player piano vibes.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048975-fake-courtesy-machine" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048975-fake-courtesy-machine">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048974-how-to-get-more-fun-and-u">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-19T14:37:00.000Z">2026-05-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048974-how-to-get-more-fun-and-u" target="_blank" rel="noopener noreferrer">Marcin Wichary on  how to get more fun and utility from...</a>
-          </h2>
-          <p class="feed-item__desc">Marcin Wichary on how to get more fun and utility from your keyboard experience. “Break all the rules. You’re designing for the audience of one.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048974-how-to-get-more-fun-and-u" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048974-how-to-get-more-fun-and-u">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/05/0048969-comparisons-as-predictabl">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-19T13:55:07.000Z">2026-05-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/05/0048969-comparisons-as-predictabl" target="_blank" rel="noopener noreferrer">Comparisons as Predictable as the Sunrise . The Pudding...</a>
-          </h2>
-          <p class="feed-item__desc">Comparisons as Predictable as the Sunrise. The Pudding analyzed 200,000 similes from popular fiction. “The clichés are obvious, marked by a single tall spike that overshadows the others.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/05/0048969-comparisons-as-predictabl" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/05/0048969-comparisons-as-predictabl">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/how-to-wear-color-well-vehicular-swag-edition">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-19T11:03:36.000Z">2026-05-19</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/how-to-wear-color-well-vehicular-swag-edition" target="_blank" rel="noopener noreferrer">How to wear color well: Vehicular Swag Edition</a>
-          </h2>
-          <p class="feed-item__desc">Popping color combos to wear right now</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/how-to-wear-color-well-vehicular-swag-edition" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/how-to-wear-color-well-vehicular-swag-edition">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!3XyK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F878d47e1-567f-4b63-a2ad-25484baf6762_2000x2557.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18378">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-05-19T10:44:59.000Z">2026-05-19</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/19may26/" target="_blank" rel="noopener noreferrer">19may26</a>
-          </h2>
-          <p class="feed-item__desc">Annoyingly, this is just a quick logging, as I lost yesterday to trying to figure out new accounting software I’ve been told to use which…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18378" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18378">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/05/IMG_1233-scaled.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
