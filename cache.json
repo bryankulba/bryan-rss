@@ -2059,46 +2059,6 @@
           "wordCount": 1731,
           "title": "There&#8217;s No Earthly Way of Knowing Which Direction We Are Going&#8230;",
           "imageUrl": "http://kottke.org/plus/misc/images/editor-1779225185-1e599bef.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048970-cowcumbers",
-          "author": null,
-          "description": "Cucumbers used to be called “cowcumbers”. I’m sorry, what?!",
-          "link": "https://kottke.org/26/05/0048970-cowcumbers",
-          "publishedOn": "2026-05-19T18:12:00.000Z",
-          "wordCount": 868,
-          "title": "Cucumbers used to be called  &#8220;cowcumbers&#8221; ....",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048977-but-reparations-treason-f",
-          "author": null,
-          "description": "No reparations for Black Americans. No student loan forgiveness. No UBI for average Americans. But reparations, treason forgiveness, and UBI for the Jan 6th insurrectionists & criminals who attacked Congress. Got it, got it, got it.",
-          "link": "https://kottke.org/26/05/0048977-but-reparations-treason-f",
-          "publishedOn": "2026-05-19T17:34:00.000Z",
-          "wordCount": 661,
-          "title": "No reparations for Black Americans. No student loan...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048976-alexandra-petri-imagines-",
-          "author": null,
-          "description": "On the heels of turning Orwell’s Animal Farm into a kids’ movie, Alexandra Petri imagines other dystopian source material for family flicks. “Andy Serkis’s Maus: Talking mice? Great. Talking mice and cats? Even better!”",
-          "link": "https://kottke.org/26/05/0048976-alexandra-petri-imagines-",
-          "publishedOn": "2026-05-19T16:45:00.000Z",
-          "wordCount": 757,
-          "title": "On the heels of turning Orwell&#8217;s Animal Farm into a...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048972-adult-friendship-became-o",
-          "author": null,
-          "description": "“Somewhere between ‘Let’s catch up soon’ and ‘Sorry, life has been hectic’, adult friendship became one of the most emotionally significant and least discussed losses of modern life.”",
-          "link": "https://kottke.org/26/05/0048972-adult-friendship-became-o",
-          "publishedOn": "2026-05-19T15:59:00.000Z",
-          "wordCount": 758,
-          "title": "&#8220;Somewhere between &#8216;Let’s catch up...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2657,6 +2617,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18532",
+          "author": "Warren Ellis",
+          "description": "David Muenzer. Afropresentism and Kinternet: “Afropresentism says, I am here bearing witness, yes, and it aches. And yes, I am grieving. And most importantly, yes,…",
+          "link": "https://warrenellis.ltd/mc/morning-world-computer/",
+          "publishedOn": "2026-06-18T05:00:00.000Z",
+          "wordCount": 1346,
+          "title": "morning world computer",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/delsartesystemof00stebuoft_0162-edit.webp"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18540",
           "author": "Warren Ellis",
@@ -4246,26 +4216,6 @@
           "publishedOn": "2026-05-19T20:45:43.000Z",
           "wordCount": 724,
           "title": "datasette-llm-accountant 0.1a4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.32a0\">llm-gemini 0.32a0</a></p>\n        <blockquote>\n<ul>\n<li>Compatible with <code>llm&gt;=0.32a0</code> alpha - adds the ability to stream reasoning tokens.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
-          "publishedOn": "2026-05-19T20:36:23.000Z",
-          "wordCount": 733,
-          "title": "llm-gemini 0.32a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a8\">datasette-llm 0.1a8</a></p>\n        <blockquote>\n<ul>\n<li>Fix for bug where <code>llm_prompt_context()</code> hook did not fully collect chains of responses. #7</li>\n</ul>\n</blockquote>",
-          "link": "https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything",
-          "publishedOn": "2026-05-19T20:28:16.000Z",
-          "wordCount": 731,
-          "title": "datasette-llm 0.1a8",
           "imageUrl": null
         }
       ]
