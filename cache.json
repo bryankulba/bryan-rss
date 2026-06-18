@@ -148,16 +148,6 @@
           "wordCount": 5510,
           "title": "Dragoncatcher: The new funnel",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/fourth-law/",
-          "author": null,
-          "description": "<p>AI must not lie. <a href=\"https://www.robinsloan.com/lab/fourth-law/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/fourth-law/",
-          "publishedOn": "2026-05-20T10:00:00.000Z",
-          "wordCount": 5392,
-          "title": "Dragoncatcher: The fourth law",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -240,6 +230,56 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/0049176-the-side-that-won-the-civ",
+          "author": null,
+          "description": "The Side That Won the Civil War is Now Banning Books About Why the Civil War Was Fought. “It is a well-known feature of civil society that nervous middle managers often act far more radically than top executives out of a sense of self-preservation.”",
+          "link": "https://kottke.org/26/06/0049176-the-side-that-won-the-civ",
+          "publishedOn": "2026-06-18T21:54:00.000Z",
+          "wordCount": 800,
+          "title": "The Side That Won the Civil War is Now Banning Books...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049177-record-winter-temperature",
+          "author": null,
+          "description": "Record winter temperatures in Antarctic raise fears over speed of climate breakdown. “This is absolutely crazy. It is also about 20C above normal for this time of the year. That is a huge anomaly.”",
+          "link": "https://kottke.org/26/06/0049177-record-winter-temperature",
+          "publishedOn": "2026-06-18T21:04:00.000Z",
+          "wordCount": 753,
+          "title": "Record winter temperatures in Antarctic raise fears over...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/monty-python-the-philosophers-football-match",
+          "author": null,
+          "description": "As the World Cup gets underway here in the Americas, here’s a look back at a football battle for the ages: Germany vs. Greece in The Philosophers’ Football Match. Germany’s lineup included Nietzsche , Kant, Hegel, Wittgenstein, and Marx while the likes of Plato, Socrates, Sophocles, and Archimedes took the field for Greece.\nHegel is arguing that reality is merely an a priori adjunct of non-naturalistic ethics, Kant — via the categorical imperative — is holding that ontologically, it exists only in the imagination, and Marx is claiming it was offside.\n\n\t\n(thx, meg)\n\n \n\n        \n         \nTags: Monty Python · remix · soccer · sports · video",
+          "link": "https://kottke.org/26/06/monty-python-the-philosophers-football-match",
+          "publishedOn": "2026-06-18T20:07:00.000Z",
+          "wordCount": 774,
+          "title": "Monty Python: The Philosophers&#8217; Football Match",
+          "imageUrl": "https://i.ytimg.com/vi/LfduUFF_i1A/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/06/0049169-us-science-is-in-chaos",
+          "author": null,
+          "description": "“The prevailing emotions among scientists right now are rage and shock.” U.S. Science Is in Chaos. “This compact that has existed since World War II, that made the U.S. the successful, prosperous nation that it is, is being dismantled.”",
+          "link": "https://kottke.org/26/06/0049169-us-science-is-in-chaos",
+          "publishedOn": "2026-06-18T19:25:00.000Z",
+          "wordCount": 832,
+          "title": "&#8220;The prevailing emotions among scientists right now...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049174-the-founding-story-behind",
+          "author": null,
+          "description": "The Founding Story Behind Japan’s Oldest Whisky Maker. “Success in the Japanese market required a lighter, more delicate flavor profile than Western spirits typically offered.” And so Suntory was born.",
+          "link": "https://kottke.org/26/06/0049174-the-founding-story-behind",
+          "publishedOn": "2026-06-18T18:45:00.000Z",
+          "wordCount": 740,
+          "title": "The Founding Story Behind Japan’s Oldest Whisky Maker ....",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/06/supermountains-the-boring-billion-and-their-connection-to-life-on-earth",
           "author": null,
@@ -2078,6 +2118,26 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50828",
+          "author": "Andy Baio",
+          "description": "Without permission, a marketing agency republished the entirety of John Koenig's Dictionary of Obscure Sorrows book, replacing its art with AI slop and adding new AI words. Their unauthorized site now ranks higher than the real one everywhere.",
+          "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+          "publishedOn": "2026-06-18T18:44:22.000Z",
+          "wordCount": 2555,
+          "title": "The Wholesale Plagiarism of Obscure Sorrows",
+          "imageUrl": "https://waxy.org/wp-content/uploads/2026/06/image-4.png"
+        },
+        {
+          "id": "https://waxy.org/?p=50898",
+          "author": "Andy Baio",
+          "description": "explore nearly 40,000 images of isolated objects from Wikipedia in chaotic collages\nvia) #",
+          "link": "https://neal.fun/wiki-spy/",
+          "publishedOn": "2026-06-18T16:01:02.000Z",
+          "wordCount": null,
+          "title": "Neal.fun’s Wiki Spy",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=50891",
           "author": "Andy Baio",
           "description": "“turn your site into a place people can bump into each other”\n#",
@@ -2638,6 +2698,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18572",
+          "author": "Warren Ellis",
+          "description": "I have always wanted to see this, and it popped up on sale while I was trawling through the bottom of Amazon the other night.…",
+          "link": "https://warrenellis.ltd/library/judex-on-blu-ray/",
+          "publishedOn": "2026-06-18T20:00:00.000Z",
+          "wordCount": 1313,
+          "title": "JUDEX On Blu-Ray",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/IMG_1418-scaled.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18575",
           "author": "Warren Ellis",
           "description": "The raspberries are excellent this year so far. I felt the need to offline for an hour, so I walked into town while listening to…",
@@ -3150,6 +3220,16 @@
       "feedUrl": "https://craigmod.com/index.xml",
       "siteUrl": "https://craigmod.com/",
       "articles": [
+        {
+          "id": "https://craigmod.com/ridgeline/230/",
+          "author": "Craig Mod",
+          "description": "Ridgeline subscribers —\nAlex Wolfe walks. He walks weird walks and I like weird walks, so when Alex reached out to do a little walk (not a weird one, really, just a little one with a sprinkle of weird), I — of course — said: Sure.\nHis pitch: “A short walk through privately owned public spaces I mapped through Midtown.” Sounded good to me. Midtown, a word that evokes little more than Sbarro, tourists, Tiffany’s, bad suits, cement, cement, MoMA, cement, and glass walls rising from the pavement. I was up for a revision of my internal mapping.",
+          "link": "https://craigmod.com/ridgeline/230/",
+          "publishedOn": "2026-06-18T00:00:00.000Z",
+          "wordCount": 2129,
+          "title": "[RIDGELINE] Walking New York POPS",
+          "imageUrl": "https://craigmod.com/ridgeline/images/230/230.jpg"
+        },
         {
           "id": "https://craigmod.com/ridgeline/229/",
           "author": "Craig Mod",
