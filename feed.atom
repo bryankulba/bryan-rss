@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-19T17:55:05.586Z</updated>
+    <updated>2026-06-19T21:08:42.976Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: The Big Con (19 Jun 2026)]]></title>
+        <id>https://pluralistic.net/?p=12944</id>
+        <link href="https://pluralistic.net/2026/06/19/too-big-to-fact-check/"/>
+        <updated>2026-06-19T20:54:32.000Z</updated>
+        <summary type="html"><![CDATA[Today's links The Big Con: Making the pile of shit bigger won't increase the number of ponies underneath it. Hey look at this: Delights to delectate. Object permanence: TVA v SETI@Home; Telemarketers v DHS batphones; Matt Stone's MPAA censorship memo; Stonehenge pocket watch; W3C v security research; Congressional mass-shooting response simulator; Dynastic wealth; Gig economy astroturf; Meta publishes your AI prompts. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The Big Con (permalink) Partway through Bridget Read's unmissabl…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cssQuake]]></title>
+        <id>https://waxy.org/?p=50933</id>
+        <link href="https://cssquake.com/"/>
+        <updated>2026-06-19T20:03:25.000Z</updated>
+        <summary type="html"><![CDATA[Quake in the browser without WebGL, it uses PolyCSS to render textured 3D meshes in the DOM with CSS
+via) #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Camel Trophy Off Road]]></title>
+        <id>https://warrenellis.ltd/?p=18583</id>
+        <link href="https://warrenellis.ltd/jot/camel-trophy-off-road/"/>
+        <updated>2026-06-19T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been bad. I’ve done the worst thing in the world. I’ve been on eBay. The Camel Trophy was an international driving competition sponsored by…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[THE REVOLUTIONISTS, Jason Burke]]></title>
+        <id>https://warrenellis.ltd/?p=18581</id>
+        <link href="https://warrenellis.ltd/books/the-revolutionists-jason-burke/"/>
+        <updated>2026-06-19T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Another idea newly influential in analytic circles at this time originated with Brian Jenkins, an expert at the Rand Corporation in California, who had studied…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I am obsessed with these two ads]]></title>
         <id>https://interconnected.org/home/2026/06/19/signs</id>
@@ -25,6 +66,16 @@ I have questions about the very concept of an LED mask (can’t you go outside? 
 These components don’t work together. Health and beauty vs…]]></summary>
         <author>
             <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: De-datafication]]></title>
+        <id>https://www.robinsloan.com/lab/de-datafication/</id>
+        <link href="https://www.robinsloan.com/lab/de-datafication/"/>
+        <updated>2026-06-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>What would it take... to start anew? <a href="https://www.robinsloan.com/lab/de-datafication/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
