@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-19T04:03:45.747Z</updated>
+    <updated>2026-06-19T15:10:04.920Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Golden Age Of Bond Villains]]></title>
+        <id>http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html</id>
+        <link href="http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html"/>
+        <updated>2026-06-19T11:50:01.000Z</updated>
+        <summary type="html"><![CDATA[So, the second novel in the Laundry Files, The Jennifer Morgue, was first published on November 1st, 2006. And while it was superficially a pastiche of the Bond movie canon (as it existed at that time--I was writing before the...]]></summary>
+        <author>
+            <name>Charlie's Diary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[19jun26]]></title>
+        <id>https://warrenellis.ltd/?p=18586</id>
+        <link href="https://warrenellis.ltd/status/19jun26/"/>
+        <updated>2026-06-19T11:33:30.000Z</updated>
+        <summary type="html"><![CDATA[Too much to do today. Had three deliveries before noon – a CD, a magazine, and a pair of pre-owned grey canvas Carharrt work trousers…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 19/06/26]]></title>
+        <id>https://webcurios.co.uk/?p=1560</id>
+        <link href="https://webcurios.co.uk/webcurios-19-06-26/"/>
+        <updated>2026-06-19T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  37 minutes   ANDY IS COMING! ANDY WILL SAVE US! ANDY WILL MAKE EVERYTHING BETTER! Yes, that’s right, thanks to Labour’s byelection victory overnight we can now look forward to several weeks more tedious Westminster soap opera as two incredibly-unpopular men compete with one soon-to-be-incredibly-unpopular man to see who gets the questionable honour of dragging this country…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Marcin Wichary on designing finger-friendly interactions]]></title>
         <id>https://waxy.org/?p=50926</id>
@@ -385,6 +416,78 @@ Alex Wolfe walks. He walks weird walks and I like weird walks, so when Alex reac
 His pitch: “A short walk through privately owned public spaces I mapped through Midtown.” Sounded good to me. Midtown, a word that evokes little more than Sbarro, tourists, Tiffany’s, bad suits, cement, cement, MoMA, cement, and glass walls rising from the pavement. I was up for a revision of my internal mapping.]]></summary>
         <author>
             <name>Craig Mod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Emily Bick presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/audio/on-air/emily-bick-presents-adventures-in-sound-and-music-78327</id>
+        <link href="https://www.thewire.co.uk/audio/on-air/emily-bick-presents-adventures-in-sound-and-music-78327"/>
+        <updated>2026-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire’s weekly radio show on Resonance FM and Resonance Extra featured music by Tara Clerkin Trio, Fire-Toolz, Steve Gunn, Hawkwind and more
+
+Tracklist
+
+Tara Clerkin Trio
+    
+“Movin’ On”
+    
+Somewhere Good
+    
+ (World Of Echo)
+
+Methods Body + Holland Andrews
+    
+“Speechless”
+    
+Remain
+    
+ (Whited Sepulchre)
+
+Fire-Toolz featuring Jennifer Holm
+    
+“And Where Is The Heart? I’ve Searched My Entire Home”
+    
+Lavender Networks
+    
+ (Warp)
+
+Murex
+    
+“Hardness Of A Silverspoon”
+    
+Hardness Of A Silverspoon
+    
+ (Young)
+
+Steve Gunn
+    
+“Shape Of A Wave”
+    
+Shape Of A Wave
+    
+ (No Quarter)
+
+Hans Reichel
+    
+“Wenn Das Rohr Dommelt”
+    
+Dalbergia Retusa
+    
+ (Black Truffle)
+
+Bolka
+    
+“hovoransky potuček feat DJ Urine”
+    
+schwarzkopf
+    
+ (mappa)
+
+Rump State
+    
+“Castl…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6799,124 +6902,6 @@ The post How Ecotypes Harbor the Genetic Memory of a Species’ Past first appea
         <summary type="html"><![CDATA[I can feel it today. Sumer is icumen in. I have had an incredibly unproductive week so far, at a very bad time in my…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting SpaceX S-1]]></title>
-        <id>https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything"/>
-        <updated>2026-05-20T22:26:36.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm"><p>We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into <strong>Cloud Services Agreements with Anthropic PBC</strong> (“Anthropic”), an AI research and development public benefit corporation, with respect to access to <strong>compute capacity across COLOSSUS and COLOSSUS II</strong>. Pursuant to these agreements, the customer <strong>has agreed to pay us $1.25 billion per month</strong> through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm">SpaceX S-1</a>, highlights mine</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/grok">grok</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What If Lock-In Doesn&#8217;t Matter So Much Anymore?]]></title>
-        <id>https://kottke.org/26/05/what-if-lock-in-doesnt-matter-so-much-anymore</id>
-        <link href="https://kottke.org/26/05/what-if-lock-in-doesnt-matter-so-much-anymore"/>
-        <updated>2026-05-20T21:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Interesting observation by Mitchell Hashimoto (creator of Vagrant and Ghostty) on how a company’s or product’s choice of programming language matters less in the age of agentic programming:
-On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they’re increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. It’s useful until it’s not then it can be thrown out. That’s interesting!
-
-	
-Hashimoto is talking about this complete rewrite of Bun (a Javascript/Typescript toolkit that’s owned by Anthropic and includes “a fast JavaScript runtime designed as a drop-in replacement for Node.js”) in a completely diff…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All the Star Wars Lightsaber Designs]]></title>
-        <id>https://kottke.org/26/05/all-the-star-wars-lightsaber-designs</id>
-        <link href="https://kottke.org/26/05/all-the-star-wars-lightsaber-designs"/>
-        <updated>2026-05-20T20:15:00.000Z</updated>
-        <summary type="html"><![CDATA[This scan isn’t very good (best I could find), but these are all the lightsabers used by Jedi and Sith in the various Star Wars shows and movies. I think this is from a few years ago, so I’m not sure how up to date it is.
-In the SW universe, making your own saber is a Jedi and Sith rite of passage, which accounts for the diversity in design. No shortcuts allowed…Babu Frik wasn’t out there selling Ancient Laser Sword™ kits to young padawans (kyber crystal sold separately). (via dennis crowley)
-
- 
-
-        
-         
-Tags: movies · Star Wars · TV]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My friend Adriana  wrote about her story game based on...]]></title>
-        <id>https://kottke.org/26/05/0048991-writes-about-her-story-ga</id>
-        <link href="https://kottke.org/26/05/0048991-writes-about-her-story-ga"/>
-        <updated>2026-05-20T19:15:45.000Z</updated>
-        <summary type="html"><![CDATA[My friend Adriana wrote about her story game based on Dante’s Inferno. “In Vya, I modeled Pom after the poet Alice Notley, whose Descent of Alette (1996) is one of the great contributions to the literature of katabasis.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Make a Living as an Artist]]></title>
-        <id>https://kottke.org/26/05/how-to-make-a-living-as-an-artist</id>
-        <link href="https://kottke.org/26/05/how-to-make-a-living-as-an-artist"/>
-        <updated>2026-05-20T18:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Contemporary pop artist fnnch’s essay on How to Make a Living as an Artist is pretty great. Lots in here that resonates with my experience of turning a creative hobby (KDO) into a business.
-Most people who enjoy making art should not try to make it their full time job. When you turn an avocation (hobby) into a vocation (job) you have to do new things you do not enjoy. Emails, events, meetings, accounting, and more. These are not only a drag but can actually strip the joy from the rest of your art practice.
-Even the work itself can become a burden because you now have to make it. Amateurs can wait for inspiration; professionals must create every day.
-If you enjoy making art, ask yourself why that is not enough? Why do you need to make money from this activity? Why do you need to do it with more of your time? Can it not perhaps give you more joy remaining a hobby?
-I have played the drums for many years, and while I was once tempted to go pro, I have always resisted. Drumming is a refuge for me. A joy. An escape. I play when I want. I don’t play when I don’t want. This is no longer true for my painting. Beware. Think hard.
-
-	
-And:
-Making your challenge more difficult is that artists are usually not just entrepreneurs but solopreneurs. There is rarely enough money in art to support even a single person, so we do not get to specialize as one might in high tech entrepreneurship, in which it is totally common to have one co-founder focus on product and another on sales. Most people, at least at first, must do it all. Most artists do not want to do it all. They want to just make art. I am sorry. Some people have a gallery or life partner who acts as a business partner. But most of the time, there is no one to help you. You must think about your art practice as a business.
-
-	
-Image: paintings of various honey bears by fnnch.
-
- 
-
-        
-         
-Tags: art · business · fnnch · how to]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How fast is 10 tokens per second really?]]></title>
-        <id>https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything"/>
-        <updated>2026-05-20T17:57:45.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://mikeveerman.github.io/tokenspeed/">How fast is 10 tokens per second really?</a></strong></p>
-Neat little HTML app by Mike Veerman (<a href="https://github.com/MikeVeerman/tokenspeed/blob/master/index.html">source code here</a>) which simulates LLM token output speeds from 5/second to 800/second.</p>
-<p>Useful if you see a model advertised as "30 tokens/second" and want to get a feel for what that actually looks like.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48174920">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Universe Today,  an ongoing series of articles on A...]]></title>
-        <id>https://kottke.org/26/05/0048987-an-ongoing-series-of-arti</id>
-        <link href="https://kottke.org/26/05/0048987-an-ongoing-series-of-arti"/>
-        <updated>2026-05-20T17:28:00.000Z</updated>
-        <summary type="html"><![CDATA[From Universe Today, an ongoing series of articles on A Brief-ish History of SETI (Search for Extraterrestrial Intelligence). Part I is entitled “Where is Everybody?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You Can Make an App for That . &#8220;The most important...]]></title>
-        <id>https://kottke.org/26/05/0048971-you-can-make-an-app-for-t</id>
-        <link href="https://kottke.org/26/05/0048971-you-can-make-an-app-for-t"/>
-        <updated>2026-05-20T16:48:00.000Z</updated>
-        <summary type="html"><![CDATA[You Can Make an App for That. “The most important thing you’ll need is taste. Not objectively good taste, necessarily, so much as a keen sense of your own.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>

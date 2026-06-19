@@ -147,6 +147,16 @@
       "siteUrl": "https://webcurios.co.uk",
       "articles": [
         {
+          "id": "https://webcurios.co.uk/?p=1560",
+          "author": "admin",
+          "description": "Reading Time:  37 minutes   ANDY IS COMING! ANDY WILL SAVE US! ANDY WILL MAKE EVERYTHING BETTER! Yes, that’s right, thanks to Labour’s byelection victory overnight we can now look forward to several weeks more tedious Westminster soap opera as two incredibly-unpopular men compete with one soon-to-be-incredibly-unpopular man to see who gets the questionable honour of dragging this country…\nContinue reading →",
+          "link": "https://webcurios.co.uk/webcurios-19-06-26/",
+          "publishedOn": "2026-06-19T06:23:23.000Z",
+          "wordCount": 11336,
+          "title": "Webcurios 19/06/26",
+          "imageUrl": null
+        },
+        {
           "id": "https://webcurios.co.uk/?p=1552",
           "author": "admin",
           "description": "Reading Time:  40 minutes   Thanks to The Horror Of The News I could do another opening thing about how fcuking sh1t it is that everyone is a racist now. BUT I AM NOT GOING TO DO THAT BECAUSE…. Nominations are open for The Tiny Awards 2026! Once again Kris, Matt and I are running our small annual awards ceremony…\nContinue reading →",
@@ -1989,66 +1999,6 @@
           "wordCount": 501,
           "title": "At Long Last, I Have Maxximized My Looks ....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/what-if-lock-in-doesnt-matter-so-much-anymore",
-          "author": null,
-          "description": "Interesting observation by Mitchell Hashimoto (creator of Vagrant and Ghostty) on how a company’s or product’s choice of programming language matters less in the age of agentic programming:\nOn the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they’re increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. It’s useful until it’s not then it can be thrown out. That’s interesting!\n\n\t\nHashimoto is talking about this complete rewrite of Bun (a Javascript/Typescript toolkit that’s owned by Anthropic and includes “a fast JavaScript runtime designed as a drop-in replacement for Node.js”) in a completely diff…",
-          "link": "https://kottke.org/26/05/what-if-lock-in-doesnt-matter-so-much-anymore",
-          "publishedOn": "2026-05-20T21:25:00.000Z",
-          "wordCount": 1081,
-          "title": "What If Lock-In Doesn&#8217;t Matter So Much Anymore?",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/all-the-star-wars-lightsaber-designs",
-          "author": null,
-          "description": "This scan isn’t very good (best I could find), but these are all the lightsabers used by Jedi and Sith in the various Star Wars shows and movies. I think this is from a few years ago, so I’m not sure how up to date it is.\nIn the SW universe, making your own saber is a Jedi and Sith rite of passage, which accounts for the diversity in design. No shortcuts allowed…Babu Frik wasn’t out there selling Ancient Laser Sword™ kits to young padawans (kyber crystal sold separately). (via dennis crowley)\n\n \n\n        \n         \nTags: movies · Star Wars · TV",
-          "link": "https://kottke.org/26/05/all-the-star-wars-lightsaber-designs",
-          "publishedOn": "2026-05-20T20:15:00.000Z",
-          "wordCount": 779,
-          "title": "All the Star Wars Lightsaber Designs",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1779286796-ba4d8317.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048991-writes-about-her-story-ga",
-          "author": null,
-          "description": "My friend Adriana wrote about her story game based on Dante’s Inferno. “In Vya, I modeled Pom after the poet Alice Notley, whose Descent of Alette (1996) is one of the great contributions to the literature of katabasis.”",
-          "link": "https://kottke.org/26/05/0048991-writes-about-her-story-ga",
-          "publishedOn": "2026-05-20T19:15:45.000Z",
-          "wordCount": 767,
-          "title": "My friend Adriana  wrote about her story game based on...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/how-to-make-a-living-as-an-artist",
-          "author": null,
-          "description": "Contemporary pop artist fnnch’s essay on How to Make a Living as an Artist is pretty great. Lots in here that resonates with my experience of turning a creative hobby (KDO) into a business.\nMost people who enjoy making art should not try to make it their full time job. When you turn an avocation (hobby) into a vocation (job) you have to do new things you do not enjoy. Emails, events, meetings, accounting, and more. These are not only a drag but can actually strip the joy from the rest of your art practice.\nEven the work itself can become a burden because you now have to make it. Amateurs can wait for inspiration; professionals must create every day.\nIf you enjoy making art, ask yourself why that is not enough? Why do you need to make money from this activity? Why do you need to do it with more of your time? Can it not perhaps give you more joy remaining a hobby?\nI have played the drums for many years, and while I was once tempted to go pro, I have always resisted. Drumming is a refuge for me. A joy. An escape. I play when I want. I don’t play when I don’t want. This is no longer true for my painting. Beware. Think hard.\n\n\t\nAnd:\nMaking your challenge more difficult is that artists are usually not just entrepreneurs but solopreneurs. There is rarely enough money in art to support even a single person, so we do not get to specialize as one might in high tech entrepreneurship, in which it is totally common to have one co-founder focus on product and another on sales. Most people, at least at first, must do it all. Most artists do not want to do it all. They want to just make art. I am sorry. Some people have a gallery or life partner who acts as a business partner. But most of the time, there is no one to help you. You must think about your art practice as a business.\n\n\t\nImage: paintings of various honey bears by fnnch.\n\n \n\n        \n         \nTags: art · business · fnnch · how to",
-          "link": "https://kottke.org/26/05/how-to-make-a-living-as-an-artist",
-          "publishedOn": "2026-05-20T18:14:00.000Z",
-          "wordCount": 2178,
-          "title": "How to Make a Living as an Artist",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1779294247-1d1d6073.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0048987-an-ongoing-series-of-arti",
-          "author": null,
-          "description": "From Universe Today, an ongoing series of articles on A Brief-ish History of SETI (Search for Extraterrestrial Intelligence). Part I is entitled “Where is Everybody?”",
-          "link": "https://kottke.org/26/05/0048987-an-ongoing-series-of-arti",
-          "publishedOn": "2026-05-20T17:28:00.000Z",
-          "wordCount": 714,
-          "title": "From Universe Today,  an ongoing series of articles on A...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0048971-you-can-make-an-app-for-t",
-          "author": null,
-          "description": "You Can Make an App for That. “The most important thing you’ll need is taste. Not objectively good taste, necessarily, so much as a keen sense of your own.”",
-          "link": "https://kottke.org/26/05/0048971-you-can-make-an-app-for-t",
-          "publishedOn": "2026-05-20T16:48:00.000Z",
-          "wordCount": 487,
-          "title": "You Can Make an App for That . &#8220;The most important...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2658,6 +2608,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18586",
+          "author": "Warren Ellis",
+          "description": "Too much to do today. Had three deliveries before noon – a CD, a magazine, and a pair of pre-owned grey canvas Carharrt work trousers…",
+          "link": "https://warrenellis.ltd/status/19jun26/",
+          "publishedOn": "2026-06-19T11:33:30.000Z",
+          "wordCount": 1312,
+          "title": "19jun26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2024/05/bbc-test-card.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18572",
           "author": "Warren Ellis",
           "description": "I have always wanted to see this, and it popped up on sale while I was trawling through the bottom of Amazon the other night.…",
@@ -3227,6 +3187,16 @@
       "feedUrl": "https://www.thewire.co.uk/rss",
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
+        {
+          "id": "https://www.thewire.co.uk/audio/on-air/emily-bick-presents-adventures-in-sound-and-music-78327",
+          "author": null,
+          "description": "The Wire’s weekly radio show on Resonance FM and Resonance Extra featured music by Tara Clerkin Trio, Fire-Toolz, Steve Gunn, Hawkwind and more\n\nTracklist\n\nTara Clerkin Trio\n    \n“Movin’ On”\n    \nSomewhere Good\n    \n (World Of Echo)\n\nMethods Body + Holland Andrews\n    \n“Speechless”\n    \nRemain\n    \n (Whited Sepulchre)\n\nFire-Toolz featuring Jennifer Holm\n    \n“And Where Is The Heart? I’ve Searched My Entire Home”\n    \nLavender Networks\n    \n (Warp)\n\nMurex\n    \n“Hardness Of A Silverspoon”\n    \nHardness Of A Silverspoon\n    \n (Young)\n\nSteve Gunn\n    \n“Shape Of A Wave”\n    \nShape Of A Wave\n    \n (No Quarter)\n\nHans Reichel\n    \n“Wenn Das Rohr Dommelt”\n    \nDalbergia Retusa\n    \n (Black Truffle)\n\nBolka\n    \n“hovoransky potuček feat DJ Urine”\n    \nschwarzkopf\n    \n (mappa)\n\nRump State\n    \n“Castl…",
+          "link": "https://www.thewire.co.uk/audio/on-air/emily-bick-presents-adventures-in-sound-and-music-78327",
+          "publishedOn": "2026-06-18T00:00:00.000Z",
+          "wordCount": 728,
+          "title": "Emily Bick presents  Adventures In Sound And Music",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/06/19/18_june_aism.jpg"
+        },
         {
           "id": "https://www.thewire.co.uk/in-writing/the-portal/abdullah-ibrahim-9-october-1934-15-june-2026",
           "author": null,
@@ -4233,26 +4203,6 @@
           "wordCount": 763,
           "title": "datasette-agent 0.1a3",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm\"><p>We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into <strong>Cloud Services Agreements with Anthropic PBC</strong> (“Anthropic”), an AI research and development public benefit corporation, with respect to access to <strong>compute capacity across COLOSSUS and COLOSSUS II</strong>. Pursuant to these agreements, the customer <strong>has agreed to pay us $1.25 billion per month</strong> through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm\">SpaceX S-1</a>, highlights mine</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/grok\">grok</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
-          "publishedOn": "2026-05-20T22:26:36.000Z",
-          "wordCount": 808,
-          "title": "Quoting SpaceX S-1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://mikeveerman.github.io/tokenspeed/\">How fast is 10 tokens per second really?</a></strong></p>\nNeat little HTML app by Mike Veerman (<a href=\"https://github.com/MikeVeerman/tokenspeed/blob/master/index.html\">source code here</a>) which simulates LLM token output speeds from 5/second to 800/second.</p>\n<p>Useful if you see a model advertised as \"30 tokens/second\" and want to get a feel for what that actually looks like.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48174920\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
-          "publishedOn": "2026-05-20T17:57:45.000Z",
-          "wordCount": 770,
-          "title": "How fast is 10 tokens per second really?",
-          "imageUrl": null
         }
       ]
     },
@@ -4555,6 +4505,16 @@
       "feedUrl": "http://www.antipope.org/charlie/blog-static/atom.xml",
       "siteUrl": "http://www.antipope.org/charlie/blog-static/",
       "articles": [
+        {
+          "id": "http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html",
+          "author": null,
+          "description": "So, the second novel in the Laundry Files, The Jennifer Morgue, was first published on November 1st, 2006. And while it was superficially a pastiche of the Bond movie canon (as it existed at that time--I was writing before the...",
+          "link": "http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html",
+          "publishedOn": "2026-06-19T11:50:01.000Z",
+          "wordCount": 6563,
+          "title": "The Golden Age Of Bond Villains",
+          "imageUrl": null
+        },
         {
           "id": "http://www.antipope.org/charlie/blog-static/2026/06/back-at-the-coal-face.html",
           "author": null,
