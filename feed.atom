@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-20T03:27:34.373Z</updated>
+    <updated>2026-06-20T07:49:39.279Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6768,116 +6768,6 @@ Tags: clouds · Earth · meditative · mesmerizing · Sean Doran · video · wea
         <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/uv">uv</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Secret to Winning on Jeopardy . &#8220;To win on...]]></title>
-        <id>https://kottke.org/26/05/0048998-the-secret-to-winning-on-</id>
-        <link href="https://kottke.org/26/05/0048998-the-secret-to-winning-on-"/>
-        <updated>2026-05-21T19:24:00.000Z</updated>
-        <summary type="html"><![CDATA[The Secret to Winning on Jeopardy. “To win on Jeopardy, you don’t need to learn everything. You just need to learn one thing about everything.” As an proficient player of Yell Answers At The TV Jeopardy in my teen years, I can confirm this strat.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paul Brown&#8217;s iPod . This is a lovely remembrance &...]]></title>
-        <id>https://kottke.org/26/05/0048996-paul-browns-ipod</id>
-        <link href="https://kottke.org/26/05/0048996-paul-browns-ipod"/>
-        <updated>2026-05-21T18:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Paul Brown’s iPod. This is a lovely remembrance & time capsule: a playable iPod emulator of “the music on the iPod my dad had in 2018 before he died”. Click wheel works and everything.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-agent-sprites 0.1a0]]></title>
-        <id>https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything"/>
-        <updated>2026-05-21T18:21:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent-sprites/releases/tag/0.1a0">datasette-agent-sprites 0.1a0</a></p>
-        <p>A Datasette Agent plugin for running commands in a <a href="https://sprites.dev">Fly Sprites</a> sandbox.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/fly">fly</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The new funnel]]></title>
-        <id>https://www.robinsloan.com/lab/ai-funnel/</id>
-        <link href="https://www.robinsloan.com/lab/ai-funnel/"/>
-        <updated>2026-05-21T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>The LLM sent me. <a href="https://www.robinsloan.com/lab/ai-funnel/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Number Was Stephen Colbert Thinking Of?]]></title>
-        <id>https://kottke.org/26/05/what-number-was-stephen-colbert-thinking-of</id>
-        <link href="https://kottke.org/26/05/what-number-was-stephen-colbert-thinking-of"/>
-        <updated>2026-05-21T17:48:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the questions on The Colbert Questionert that Stephen Colbert would administer to his celebrity guests was “What number am I thinking of?” As you can see from this compilation, his answer was often, but not always, “no”.
-
-A few of the guests said “42” but none ever said “69”?
-So anyway, the Late Show is coming to an end tonight, a casualty of CBS’s newfound fealty to the Trump regime, and Stephen Colbert finally took the questionert himself. And yes, at last, he revealed the number that he was thinking of…to Robert De Niro no less:
-
-
- 
-
-        
-         
-Tags: Stephen Colbert · The Late Show · TV · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is impressive:  an AI model has disproved an...]]></title>
-        <id>https://kottke.org/26/05/0049001-an-ai-model-has-disproved</id>
-        <link href="https://kottke.org/26/05/0049001-an-ai-model-has-disproved"/>
-        <updated>2026-05-21T16:58:00.000Z</updated>
-        <summary type="html"><![CDATA[This is impressive: an AI model has disproved an 80-year-old conjecture by Paul Erdős. “The proof came from a new general-purpose reasoning model, rather than from a system trained specifically for mathematics.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three Hours of Unbelievable Moments From Nature, Narrated by David Attenborough]]></title>
-        <id>https://kottke.org/26/05/three-hours-unbelievable-nature-david-attenborough</id>
-        <link href="https://kottke.org/26/05/three-hours-unbelievable-nature-david-attenborough"/>
-        <updated>2026-05-21T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Wow, BBC Earth has posted this three-hour-long video to YouTube of David Attenborough narrating Unbelievable Moments From Nature. I’ve had it on in the background for the last little while as I’m working and it’s great.
-
- 
-
-        
-         
-Tags: David Attenborough · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;US is ‘simply choosing not to stop’ Ebola...]]></title>
-        <id>https://kottke.org/26/05/0048995-us-is-simply-choosing-not</id>
-        <link href="https://kottke.org/26/05/0048995-us-is-simply-choosing-not"/>
-        <updated>2026-05-21T16:15:00.000Z</updated>
-        <summary type="html"><![CDATA[“US is ‘simply choosing not to stop’ Ebola outbreak after massive public health cuts.” Just so fucking stupid and maddening and wasteful and dangerous and callous and evil.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump Destroyed USAID. Now People Are Dying....]]></title>
-        <id>https://kottke.org/26/05/0048994-trump-destroyed-usaid-now</id>
-        <link href="https://kottke.org/26/05/0048994-trump-destroyed-usaid-now"/>
-        <updated>2026-05-21T15:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Trump Destroyed USAID. Now People Are Dying. “Everyone, especially in South Sudan, wanted to know if the US really had cut off aid. It was easier for them to believe that the aid organizations were lying to them than to think that the US would do this.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
