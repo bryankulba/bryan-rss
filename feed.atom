@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-19T21:08:42.976Z</updated>
+    <updated>2026-06-20T03:27:34.373Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Sean Lynch]]></title>
+        <id>https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"/>
+        <updated>2026-06-19T22:45:49.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://news.ycombinator.com/item?id=48592163#48593190"><p>The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...]</p>
+<p>Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win.</p></blockquote>
+<p class="cite">&mdash; <a href="https://news.ycombinator.com/item?id=48592163#48593190">Sean Lynch</a>, comment on Hacker News</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/skills">skills</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: The Big Con (19 Jun 2026)]]></title>
         <id>https://pluralistic.net/?p=12944</id>
@@ -6864,116 +6878,6 @@ Tags: David Attenborough · video]]></summary>
         <summary type="html"><![CDATA[Trump Destroyed USAID. Now People Are Dying. “Everyone, especially in South Sudan, wanted to know if the US really had cut off aid. It was easier for them to believe that the aid organizations were lying to them than to think that the US would do this.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-agent-charts 0.1a2]]></title>
-        <id>https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything"/>
-        <updated>2026-05-21T15:15:58.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent-charts/releases/tag/0.1a2">datasette-agent-charts 0.1a2</a></p>
-        <blockquote>
-<ul>
-<li>"View SQL query" buttons below rendered charts.</li>
-</ul>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free admission to Canadian national parks this summer!...]]></title>
-        <id>https://kottke.org/26/05/0048992-free-admission-to-canadia</id>
-        <link href="https://kottke.org/26/05/0048992-free-admission-to-canadia"/>
-        <updated>2026-05-21T15:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Free admission to Canadian national parks this summer! “From June 19 to September 7, no fees apply for: admission for all visitors to all national historic sites, national parks, and national marine conservation areas operated by Parks Canada.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-agent 0.1a3]]></title>
-        <id>https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything"/>
-        <updated>2026-05-21T15:04:09.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent/releases/tag/0.1a3">datasette-agent 0.1a3</a></p>
-        <blockquote>
-<ul>
-<li>"View SQL query" buttons for both visible tables and collapsed SQL result tool calls.</li>
-<li>Don't display empty reasoning chunks</li>
-<li>Improved handling of truncated responses - table still displays to the user even if the SQL results were truncated when showing the agent.</li>
-</ul>
-</blockquote>
-<p>See <a href="https://datasette.io/blog/2026/datasette-agent/">Datasette Agent, an extensible AI assistant for Datasette</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Shopping isn't politics (21 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12833</id>
-        <link href="https://pluralistic.net/2026/05/21/purity-culture/"/>
-        <updated>2026-05-21T15:03:37.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Shopping isn't politics: The personal isn't political. Hey look at this: Delights to delectate. Object permanence: Neither arphid nor RFID; Gor novel sex slave cult; Violent economist sex criminals; Vade et caca in pilleum et ipse traheatur super aures tuo; "We Stand on Guard"; Healthy FLOSS; Lawsuits 2.0; CDC v zombie apocalypse; Gandhi's speeches; Apple v games about Palestine; Second Life chuds v Bernie; UK was never a "white" country; Dead, broke; Who Broke the Internet? (III) Upcoming appearances: Hay-on-Wye, London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Shopping isn't politics (permalin…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Ecotypes Harbor the Genetic Memory of a Species’ Past]]></title>
-        <id>https://www.quantamagazine.org/?p=162299</id>
-        <link href="https://www.quantamagazine.org/how-ecotypes-harbor-the-genetic-memory-of-a-species-past-20260521/"/>
-        <updated>2026-05-21T14:48:20.000Z</updated>
-        <summary type="html"><![CDATA[Evolutionary biologists are uncovering genomic mechanisms that allow populations to adapt quickly to different, hyperlocal habitats without splitting into new species.            
-The post How Ecotypes Harbor the Genetic Memory of a Species’ Past first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Marlowe Starling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[At Long Last, I Have Maxximized My Looks ....]]></title>
-        <id>https://kottke.org/26/05/0048981-at-long-last-i-have-maxxi</id>
-        <link href="https://kottke.org/26/05/0048981-at-long-last-i-have-maxxi"/>
-        <updated>2026-05-21T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[At Long Last, I Have Maxximized My Looks. “Apparently, eating a fistful of iguana tranquilizers for breakfast every morning has turned me cold-blooded, and I am no longer appropriately adapted for life on the Earth’s surface.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project a Black Planet: The Art and Culture of Panafrica]]></title>
-        <id>https://we-make-money-not-art.com/?p=39068</id>
-        <link href="https://we-make-money-not-art.com/project-a-black-planet-the-art-and-culture-of-panafrica/"/>
-        <updated>2026-05-21T14:16:45.000Z</updated>
-        <summary type="html"><![CDATA[A touring international exhibition examines the cultural manifestations and enduring influence of Pan-Africanism from the 1920s to the present]]></summary>
-        <author>
-            <name>Regine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Take the grace-based path]]></title>
-        <id>https://www.blackbirdspyplane.com/p/the-grace-based-path</id>
-        <link href="https://www.blackbirdspyplane.com/p/the-grace-based-path"/>
-        <updated>2026-05-21T11:03:02.000Z</updated>
-        <summary type="html"><![CDATA[Plus cool sneakers, lamps, incense tendrils to sniff pon & more unbeatable recon]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[hints of summer: 21may26]]></title>
-        <id>https://warrenellis.ltd/?p=18402</id>
-        <link href="https://warrenellis.ltd/status/hints-of-summer-21may26/"/>
-        <updated>2026-05-21T10:05:59.000Z</updated>
-        <summary type="html"><![CDATA[I can feel it today. Sumer is icumen in. I have had an incredibly unproductive week so far, at a very bad time in my…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
