@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-20T13:57:51.255Z</updated>
+    <updated>2026-06-20T17:24:38.188Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: How the Epstein Class recruits (20 Jun 2026)]]></title>
+        <id>https://pluralistic.net/?p=12949</id>
+        <link href="https://pluralistic.net/2026/06/20/any-club-that-would-have-me/"/>
+        <updated>2026-06-20T16:12:26.000Z</updated>
+        <summary type="html"><![CDATA[Today's links How the Epstein Class recruits: Oh wait, THAT'S what this was?! Hey look at this: Delights to delectate. Object permanence: MPAA blasted in WSJ; RFID skimmers; Post-Soviet inventions; "Farthing"; "Dirty, Drunk and Punk"; Dweb v founders' frailty; Tax cheating made simple; Oregon v corporate medicine. Upcoming appearances: Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How the Epstein Class recruits (permalink) Perhaps you've encountered the stories about Dialog, an extremely weird secret society associated with Peter "Antichrist" Thiel, whose membersh…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You Have to Poop in the Eiffel Tower]]></title>
+        <id>https://waxy.org/?p=50935</id>
+        <link href="https://www.youtube.com/watch?v=1v2g3GLaJtE"/>
+        <updated>2026-06-20T15:36:20.000Z</updated>
+        <summary type="html"><![CDATA[Hank Green on the hidden beauty of maintenance and infrastructure
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[we (believe that we) have always lived in the castle]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12263</id>
+        <link href="https://www.velcro-city.co.uk/we-believe-that-we-have-always-lived-in-the-castle/"/>
+        <updated>2026-06-20T09:29:18.000Z</updated>
+        <summary type="html"><![CDATA[B D McClay asks “when exactly was science fiction [literature] about jacked bros in space“, and concludes that the answer is quite possibly “never”—or at least “not back in the Golden Age, despite claims persistent over decades that it was”. McClay thinks that this metanarrative has a lot to do with the long-standing resentment of […]]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Sean Lynch]]></title>
         <id>https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything</id>
@@ -6619,42 +6650,6 @@ David Oks provides the clearest explanation I've seen yet of why consumer produc
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service]]></title>
-        <id>https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything"/>
-        <updated>2026-05-22T04:48:32.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived">FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service</a></strong></p>
-Back in 2024 Cox Media Group were caught trying to sell advertisers packages based on "active listening", with <a href="https://www.documentcloud.org/documents/25051283-cmg-pitch-deck-on-voice-data-advertising-active-listening/">this deck</a> which claimed:</p>
-<blockquote>
-<ul>
-<li>Smart devices capture real-time intent data by listening to our conversations</li>
-<li>Advertisers can pair this voice-data with behavioral data to target in-market consumers</li>
-</ul>
-</blockquote>
-<p>I wrote about this <a href="https://simonwillison.net/2024/Sep/2/facebook-cmg/">in September 2024</a>. My theory:</p>
-<blockquote>
-<p>I think <strong>active listening</strong> is the term that the team came up with for “something that sounds fancy but really just means the way ad targeting platforms work already”. Then they got over-excited about the new metaphor and added that first couple of slides that talk about “voice data”, without really understanding how the tech works or what kind of a shitstorm that could kick off when people who DID understand technology started paying attention to their marketing.</p>
-</blockquote>
-<p>This FTC press release appears to confirm that's pretty much what happened:</p>
-<blockquote>
-<p>CMG, MindSift and 1010 Digital Works claimed their “Active Listening” branded marketing service listened in on consumers’ conversations overheard by smart devices, in real time, to target advertising [...]</p>
-<p>According to the complaints, this service did not, in fact, listen in on consumers’ conversations or use voice data at all—nor did the service accurately place ads in customers’ desired locations. Instead, the service the companies provided consisted of reselling—at a significant markup—email lists obtained from other data brokers.</p>
-</blockquote>
-<p>The FTC also clarify that hiding an "opt-in" to using voice data in terms of service would not be acceptable, as tricks like that do not constitute "adequate consent":</p>
-<blockquote>
-<p>The FTC also alleged that all three companies deceived potential customers by claiming that consumers had opted into the Active Listening service. The company, however, did not seek or obtain consumers’ consent, according to the complaints. Instead, the companies claimed that consumers had “opted in” by agreeing to the terms of service that people have to accept when downloading and using apps. Clicking through mandatory terms of service does not constitute “opt-in consent” for such an invasive service or for use of consumers’ voice data from inside their homes. If the Active Listening service had functioned as advertised, this collection and use of consumers’ voice data without adequate consent would itself violate Section 5 of the FTC Act.</p>
-</blockquote>
-<p>Attempting to myth bust <a href="https://simonwillison.net/tags/microphone-ads-conspiracy/">the conspiracy theory</a> that our mobile devices target ads to us based on spying through the microphones continues to be my least rewarding niche online hobby. It's nice to have a new piece of ammunition.
-
-    <p><small></small>Via <a href="https://twitter.com/nydiatisdale/status/2057657844321705993">@nydiatisdale</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/privacy">privacy</a>, <a href="https://simonwillison.net/tags/microphone-ads-conspiracy">microphone-ads-conspiracy</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
