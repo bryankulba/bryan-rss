@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-21T03:56:57.244Z</updated>
+    <updated>2026-06-21T08:32:47.493Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6599,26 +6599,6 @@ David Oks provides the clearest explanation I've seen yet of why consumer produc
     <p>Tags: <a href="https://simonwillison.net/tags/memory">memory</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eric Rodenbeck on AI as a Design Medium . &#8220;In my...]]></title>
-        <id>https://kottke.org/26/05/0048999-eric-rodenbeck-on-ai-as-a</id>
-        <link href="https://kottke.org/26/05/0048999-eric-rodenbeck-on-ai-as-a"/>
-        <updated>2026-05-22T17:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Eric Rodenbeck on AI as a Design Medium. “In my class, the first principle is simple: Do not take what comes back from prompts at face value. Interrogate it. Iterate on it. Stay with it longer than feels efficient.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Art But Make It Sports  is now available in book form....]]></title>
-        <id>https://kottke.org/26/05/0048993-art-but-make-it-sports</id>
-        <link href="https://kottke.org/26/05/0048993-art-but-make-it-sports"/>
-        <updated>2026-05-22T16:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Art But Make It Sports is now available in book form. “Epic moments in modern sports are masterfully paired with their fine art doppelgangers…”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
