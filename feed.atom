@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-21T08:32:47.493Z</updated>
+    <updated>2026-06-21T14:05:42.984Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Wearing color is a community service]]></title>
+        <id>https://www.blackbirdspyplane.com/p/wearing-color-is-a-community-service</id>
+        <link href="https://www.blackbirdspyplane.com/p/wearing-color-is-a-community-service"/>
+        <updated>2026-06-21T13:02:08.000Z</updated>
+        <summary type="html"><![CDATA[How I'm doing it this summer]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(One) good AI is here ⊗ Taste as interface behaviour]]></title>
+        <id>6a3707e3959c830001fdf99e</id>
+        <link href="https://sentiers.media/one-good-ai-is-here-taste-as-interface-behaviour-no-408/"/>
+        <updated>2026-06-21T10:00:36.000Z</updated>
+        <summary type="html"><![CDATA[No.408 — Futures studies as a mosaic 2 ⊗ Digital Colonialism ⊗ How the Squamish built Senakw ⊗ Extreme dynamic symmetry]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: How the Epstein Class recruits (20 Jun 2026)]]></title>
         <id>https://pluralistic.net/?p=12949</id>
@@ -6563,42 +6583,6 @@ So this is valid:</li>
         <summary type="html"><![CDATA[*I blame science fiction dystopias]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[pydantic-monty investigation]]></title>
-        <id>https://simonwillison.net/2026/May/22/monty-investigation/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/22/monty-investigation/#atom-everything"/>
-        <updated>2026-05-22T22:41:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/monty-investigation#readme">pydantic-monty investigation</a></p>
-        <p>It's been a few months since <a href="https://simonwillison.net/2026/Feb/6/pydantic-monty/">I last poked at Monty</a>, the sandboxed subset of Python implemented in Rust. I had Claude Code look at the most recent release.</p>
-<p>Importantly the <code>max_duration_secs</code>, <code>max_memory</code>, <code>max_allocations</code>, and <code>max_recursion_depth</code> settings all appear to work as advertised.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/pydantic">pydantic</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The memory shortage is causing a repricing of consumer electronics]]></title>
-        <id>https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything"/>
-        <updated>2026-05-22T22:01:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone">The memory shortage is causing a repricing of consumer electronics</a></strong></p>
-David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly more expensive over the next few years.</p>
-<p>The short version is that memory manufacturers - of which there are just three remaining large companies - have a fixed capacity in terms of how many wafers they can process at any one time. This fixed wafer capacity is then split between DDR - used in desktops and servers, LPDDR - used in mobile phones and low-energy devices, and HBM - used with GPUs.</p>
-<p>Until recently, HBM got just 2% of that wafer allocation. The enormous growth in AI data centers has pushed that up to an expected 20% by the end of 2026, and "a single gigabyte of HBM consumes more than three times the wafer capacity that a gigabyte of DDR or LPDDR does".</p>
-<p>Memory companies have learned from the extinction of their rivals that you should always under-provision rather than over-provision your fabricator capacity. The profit margins and demand for HBM (high-bandwidth memory) will constrain the production of consumer-device RAM for several years.</p>
-<p>This is already being felt in the sub-$100 smartphone market, which is particularly important to markets like Africa and South Asia.</p>
-<p>(The original title of the piece was "AI is killing the cheap smartphone" but I'm using the Hacker News rephrased title, which I think does more justice to the content.)
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48229319">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/memory">memory</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
