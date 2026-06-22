@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-22T03:58:58.318Z</updated>
+    <updated>2026-06-22T09:51:04.890Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/820111598026997760</id>
+        <link href="https://brucesterling.tumblr.com/post/820111598026997760"/>
+        <updated>2026-06-22T09:09:27.000Z</updated>
+        <summary type="html"><![CDATA[What comes around, goes around – 因果応報]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[morning computer little sticks]]></title>
+        <id>https://warrenellis.ltd/?p=18589</id>
+        <link href="https://warrenellis.ltd/status/morning-computer-little-sticks/"/>
+        <updated>2026-06-22T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Leonora Carrington. CONNECTED: Yuji Agematsu. Love the little SCHWA alien. morning computer: some useful things first thing in the day. My free weekly newsletter is…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[sqlite-utils 4.0rc1 adds migrations and nested transactions]]></title>
         <id>https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything</id>
@@ -6680,49 +6700,6 @@ Sonny Rollins: interview by Richard Cook, plus Stuart Nicholson on Saxophone Col
         <summary type="html"><![CDATA[No.404 — Le mal du siècle, bis ⊗ AI Resist List and the Luddite Lab ⊗ Microcosm Industries ⊗ Narrative inheritance ⊗ Books in an age of AI ⊗ The near-term future of climate adaptation ⊗ The Neanderthal dentist]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On the <dl>]]></title>
-        <id>https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything"/>
-        <updated>2026-05-23T20:24:48.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://benmyers.dev/blog/on-the-dl/">On the &lt;dl&gt;</a></strong></p>
-I learned a few new-to-me things about the <code>&lt;dl&gt;</code> element from this article by Ben Meyer:</p>
-<ol>
-<li>A <code>&lt;dt&gt;</code> can be followed by <em>multiple</em> <code>&lt;dd&gt;</code></li>
-<li>You can optionally group the <code>&lt;dt&gt;</code> and <code>&lt;dd&gt;</code> elements in a <code>&lt;div&gt;</code> for styling - but only a <code>&lt;div&gt;</code>.</li>
-<li>You can label them using ARIA.</li>
-<li>They've been called "description lists", not "definition lists", since <a href="https://www.w3.org/TR/2008/WD-html5-20080122/#the-dl">an HTML5 draft in 2008</a>.
-So this is valid:</li>
-</ol>
-<pre><span class="pl-kos">&lt;</span><span class="pl-ent">h2</span> <span class="pl-c1">id</span>="<span class="pl-s">credits</span>"<span class="pl-kos">&gt;</span>Credits<span class="pl-kos">&lt;/</span><span class="pl-ent">h2</span><span class="pl-kos">&gt;</span>
-<span class="pl-kos">&lt;</span><span class="pl-ent">dl</span> <span class="pl-c1">aria-labelledby</span>="<span class="pl-s">credits</span>"<span class="pl-kos">&gt;</span>
-  <span class="pl-kos">&lt;</span><span class="pl-ent">div</span><span class="pl-kos">&gt;</span>
-    <span class="pl-kos">&lt;</span><span class="pl-ent">dt</span><span class="pl-kos">&gt;</span>Author<span class="pl-kos">&lt;/</span><span class="pl-ent">dt</span><span class="pl-kos">&gt;</span>
-    <span class="pl-kos">&lt;</span><span class="pl-ent">dd</span><span class="pl-kos">&gt;</span>Jeffrey Zeldman<span class="pl-kos">&lt;/</span><span class="pl-ent">dd</span><span class="pl-kos">&gt;</span>
-    <span class="pl-kos">&lt;</span><span class="pl-ent">dd</span><span class="pl-kos">&gt;</span>Ethan Marcotte<span class="pl-kos">&lt;/</span><span class="pl-ent">dd</span><span class="pl-kos">&gt;</span>
-  <span class="pl-kos">&lt;/</span><span class="pl-ent">div</span><span class="pl-kos">&gt;</span>
-<span class="pl-kos">&lt;/</span><span class="pl-ent">dl</span><span class="pl-kos">&gt;</span></pre>
-
-<p>Here's a useful note from Adrian Roselli on <a href="https://adrianroselli.com/2025/01/updated-brief-note-on-description-list-support.html">screen reader support for description lists</a>.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48247325">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/css">css</a>, <a href="https://simonwillison.net/tags/html">html</a>, <a href="https://simonwillison.net/tags/screen-readers">screen-readers</a>, <a href="https://simonwillison.net/tags/web-standards">web-standards</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/817427174316490753</id>
-        <link href="https://brucesterling.tumblr.com/post/817427174316490753"/>
-        <updated>2026-05-23T18:01:41.000Z</updated>
-        <summary type="html"><![CDATA[*I blame science fiction dystopias]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>

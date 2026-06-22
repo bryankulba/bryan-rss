@@ -2503,6 +2503,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18589",
+          "author": "Warren Ellis",
+          "description": "Leonora Carrington. CONNECTED: Yuji Agematsu. Love the little SCHWA alien. morning computer: some useful things first thing in the day. My free weekly newsletter is…",
+          "link": "https://warrenellis.ltd/status/morning-computer-little-sticks/",
+          "publishedOn": "2026-06-22T05:00:00.000Z",
+          "wordCount": 1190,
+          "title": "morning computer little sticks",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/carrington-111-960x1186-1.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18583",
           "author": "Warren Ellis",
           "description": "I’ve been bad. I’ve done the worst thing in the world. I’ve been on eBay. The Camel Trophy was an international driving competition sponsored by…",
@@ -2800,6 +2810,16 @@
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
         {
+          "id": "https://brucesterling.tumblr.com/post/820111598026997760",
+          "author": null,
+          "description": "What comes around, goes around – 因果応報",
+          "link": "https://brucesterling.tumblr.com/post/820111598026997760",
+          "publishedOn": "2026-06-22T09:09:27.000Z",
+          "wordCount": null,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
           "id": "https://brucesterling.tumblr.com/post/819462247062585344",
           "author": null,
           "description": "*That is one brave little toaster",
@@ -2838,16 +2858,6 @@
           "wordCount": 2649,
           "title": "Language models are really keen to sell old books nowadays",
           "imageUrl": null
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/817427174316490753",
-          "author": null,
-          "description": "*I blame science fiction dystopias",
-          "link": "https://brucesterling.tumblr.com/post/817427174316490753",
-          "publishedOn": "2026-05-23T18:01:41.000Z",
-          "wordCount": 1747,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/7920f24efd9c02ed1f5213836795ee1d/658e72633b083c1b-20/s1280x1920/fc0dfb4d1ce37344c8a6bf631d7d21ee1f5a7bfb.webp"
         }
       ]
     },
@@ -4058,16 +4068,6 @@
           "wordCount": 841,
           "title": "Mad House — Usborne Creepy Computer Games",
           "imageUrl": "https://static.simonwillison.net/static/2026/mad-house.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://benmyers.dev/blog/on-the-dl/\">On the &lt;dl&gt;</a></strong></p>\nI learned a few new-to-me things about the <code>&lt;dl&gt;</code> element from this article by Ben Meyer:</p>\n<ol>\n<li>A <code>&lt;dt&gt;</code> can be followed by <em>multiple</em> <code>&lt;dd&gt;</code></li>\n<li>You can optionally group the <code>&lt;dt&gt;</code> and <code>&lt;dd&gt;</code> elements in a <code>&lt;div&gt;</code> for styling - but only a <code>&lt;div&gt;</code>.</li>\n<li>You can label them using ARIA.</li>\n<li>They've been called \"description lists\", not \"definition lists\", since <a href=\"https://www.w3.org/TR/2008/WD-html5-20080122/#the-dl\">an HTML5 draft in 2008</a>.\nSo this is valid:</li>\n</ol>\n<pre><span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">h2</span> <span class=\"pl-c1\">id</span>=\"<span class=\"pl-s\">credits</span>\"<span class=\"pl-kos\">&gt;</span>Credits<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">h2</span><span class=\"pl-kos\">&gt;</span>\n<span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">dl</span> <span class=\"pl-c1\">aria-labelledby</span>=\"<span class=\"pl-s\">credits</span>\"<span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">div</span><span class=\"pl-kos\">&gt;</span>\n    <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">dt</span><span class=\"pl-kos\">&gt;</span>Author<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">dt</span><span class=\"pl-kos\">&gt;</span>\n    <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">dd</span><span class=\"pl-kos\">&gt;</span>Jeffrey Zeldman<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">dd</span><span class=\"pl-kos\">&gt;</span>\n    <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">dd</span><span class=\"pl-kos\">&gt;</span>Ethan Marcotte<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">dd</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">div</span><span class=\"pl-kos\">&gt;</span>\n<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">dl</span><span class=\"pl-kos\">&gt;</span></pre>\n\n<p>Here's a useful note from Adrian Roselli on <a href=\"https://adrianroselli.com/2025/01/updated-brief-note-on-description-list-support.html\">screen reader support for description lists</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48247325\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a>, <a href=\"https://simonwillison.net/tags/html\">html</a>, <a href=\"https://simonwillison.net/tags/screen-readers\">screen-readers</a>, <a href=\"https://simonwillison.net/tags/web-standards\">web-standards</a></p>",
-          "link": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-          "publishedOn": "2026-05-23T20:24:48.000Z",
-          "wordCount": 811,
-          "title": "On the <dl>",
-          "imageUrl": null
         }
       ]
     },
