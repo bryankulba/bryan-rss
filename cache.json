@@ -44,16 +44,6 @@
           "wordCount": 2869,
           "title": "Holding the human line as cyborgs ⊗ A framework for action",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/05/23077444582_08a3eb6ede_b-w.jpg"
-        },
-        {
-          "id": "6a10d7e3d3dd4d0001ef2011",
-          "author": "Patrick Tanguay",
-          "description": "No.404 — Le mal du siècle, bis ⊗ AI Resist List and the Luddite Lab ⊗ Microcosm Industries ⊗ Narrative inheritance ⊗ Books in an age of AI ⊗ The near-term future of climate adaptation ⊗ The Neanderthal dentist",
-          "link": "https://sentiers.media/the-skeleton-library-could-humans-become-sun-eaters-no-404/",
-          "publishedOn": "2026-05-24T10:00:08.000Z",
-          "wordCount": 2491,
-          "title": "The skeleton library ⊗ Could humans become “Sun-eaters”?",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/size/w1200/2026/05/enrico-bet-TCsCykbwSJw-unsplash-w.jpg"
         }
       ]
     },
@@ -240,6 +230,76 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/0049192-scientists-have-found-evi",
+          "author": null,
+          "description": "Scientists have found evidence of mass death due to the plague 5000 years ago, which goes against the prevailing theory that plague wasn’t that deadly until more recently.",
+          "link": "https://kottke.org/26/06/0049192-scientists-have-found-evi",
+          "publishedOn": "2026-06-22T21:46:00.000Z",
+          "wordCount": 753,
+          "title": "Scientists have found evidence of mass death due to the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049194-a-long-oral-history-of-st",
+          "author": null,
+          "description": "A long oral history of Steven Spielberg and his career. “He’s a terrific collaborator. He himself is a continuous lightbulb flickering on and off with one idea after another, but he’s not terribly protective of an idea.”",
+          "link": "https://kottke.org/26/06/0049194-a-long-oral-history-of-st",
+          "publishedOn": "2026-06-22T20:19:00.000Z",
+          "wordCount": 758,
+          "title": "A long oral history of Steven Spielberg and his career ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/meet-the-man-behind-the-most-beautiful-books-in-the-world",
+          "author": null,
+          "description": "I appreciate what 2K/DENMARK’s Klaus Krogh says about their ambitions when he and his wife started the company:\nWhen I started this company together with my wife, I said we got to become a very very small company. Why? Because we are going to put so much effort into each and every assignment that nobody’s going to pay for it. So we are not going to grow any. Now almost 40 years later, we have the very best customers. We have customers in 43 countries. We do typesetting in Chinese and Japanese. Why? Well, because we take care. We do our very best every time.\n\n \n\n        \n         \nTags: 2K/DENMARK · design · Klaus Krogh · typography",
+          "link": "https://kottke.org/26/06/meet-the-man-behind-the-most-beautiful-books-in-the-world",
+          "publishedOn": "2026-06-22T19:15:00.000Z",
+          "wordCount": 806,
+          "title": "Meet the Man Behind the Most Beautiful Books in the World",
+          "imageUrl": "https://i.ytimg.com/vi/3tIk4CZbJV4/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/06/0049195-the-trailer-for-klara-and",
+          "author": null,
+          "description": "The trailer for Klara and the Sun, directed by Taika Waititi and based on the bestseller by Kazuo Ishiguro.",
+          "link": "https://kottke.org/26/06/0049195-the-trailer-for-klara-and",
+          "publishedOn": "2026-06-22T18:30:00.000Z",
+          "wordCount": 938,
+          "title": "The trailer for Klara and the Sun , directed by Taika...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049188-ai-economics-for-dummies",
+          "author": null,
+          "description": "AI Economics for Dummies. “The Wall Street Journal’s business editor moves into Alex’s house, having accepted a part-time position as Alex’s human footstool. He never asks to see the books.”",
+          "link": "https://kottke.org/26/06/0049188-ai-economics-for-dummies",
+          "publishedOn": "2026-06-22T18:18:00.000Z",
+          "wordCount": 484,
+          "title": "AI Economics for Dummies . &#8220;The Wall Street...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049190-great-piece-by-ta-nehisi-",
+          "author": null,
+          "description": "Great piece by Ta-Nehisi Coates on how “the portrait of America as an imperial power cuts against its self-image as a righteous cradle of democracy” and what that means for the next Black president.",
+          "link": "https://kottke.org/26/06/0049190-great-piece-by-ta-nehisi-",
+          "publishedOn": "2026-06-22T17:29:00.000Z",
+          "wordCount": 494,
+          "title": "Great piece by Ta-Nehisi Coates  on how “the portrait of...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049186-shifted-the-entirety-of-j",
+          "author": null,
+          "description": "A new seismic phenomenon: seismic waves from the 2011 Tohoku-Oki earthquake ricocheted off the Earth’s core and shifted the entirety of Japan 6 millimeters to the east, enough to disrupt GPS measurements.",
+          "link": "https://kottke.org/26/06/0049186-shifted-the-entirety-of-j",
+          "publishedOn": "2026-06-22T16:56:00.000Z",
+          "wordCount": 758,
+          "title": "A new seismic phenomenon: seismic waves from the 2011...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/06/america-vs-europe-two-ways-to-build-a-city",
           "author": null,
@@ -2344,6 +2404,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=12954",
+          "author": "Cory Doctorow",
+          "description": "Today's links Good politics: Just make people's lives better. Hey look at this: Delights to delectate. Object permanence: WWII online; Xbox security blunders; Homeless bloggers; Thermal printer racing game; Robbing a bank to get healthcare in jail; Crumb v Trump; \"The Blues Brothers\"; Bagelheads; Pickpocket training mannequin; Windmill joke; Singularity skepticism; GPU Dieselgate; Peleton bricks treadmills; Juul's junk science. Upcoming appearances: Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Good politics (permalink) Some people love to admire a beautiful footb…",
+          "link": "https://pluralistic.net/2026/06/22/8-for-what-we-will/",
+          "publishedOn": "2026-06-22T17:16:08.000Z",
+          "wordCount": 3676,
+          "title": "Pluralistic: Good politics (22 Jun 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=12949",
           "author": "Cory Doctorow",
