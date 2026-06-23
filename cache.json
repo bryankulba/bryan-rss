@@ -231,6 +231,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049204-the-us-is-in-the-middle-o",
+          "author": null,
+          "description": "Not surprising to KDO readers and I don’t really know who still needs to hear this in June 2026 but: the US is in the middle of a “rolling coup” by ultra-conservatives who are “well along the path of destroying our democracy”.",
+          "link": "https://kottke.org/26/06/0049204-the-us-is-in-the-middle-o",
+          "publishedOn": "2026-06-23T20:20:00.000Z",
+          "wordCount": 507,
+          "title": "Not surprising to KDO readers and I don’t really know who...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049191-yet-another-unsurprising-",
+          "author": null,
+          "description": "Yet another unsurprising article about how bigger SUVs and trucks have resulted in more pedestrian deaths in the US over the past two decades.",
+          "link": "https://kottke.org/26/06/0049191-yet-another-unsurprising-",
+          "publishedOn": "2026-06-23T19:20:00.000Z",
+          "wordCount": 472,
+          "title": "Yet another unsurprising article about how  bigger SUVs...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/room-tone",
+          "author": null,
+          "description": "For each of their on-camera interviews with filmmakers, actors, critics, and other film nerds, Criterion records 30 seconds of “room tone” that is used to cut the footage into a seamless video.\nWhen trying to explain what room tone is to someone unfamiliar with the concept, I reach for an architectural metaphor. If words are the bricks of a scene, then surely room tone is the mortar that binds them together. It gives sonic coherence to an edited piece built from different takes within the same location.\nAsking a cast and crew to observe a moment of silence is an acknowledgment that room tone cannot be faked. You cannot substitute it with a recording from another production, and you cannot generate it using artificial intelligence. It is something you capture at a specific time and place that has not occurred before and will not occur again. This is our attempt at freezing such fleeting moments — and welcoming those to come.\n\n\t\nAnd then at the end of each year, they cut the room tone recordings into a compilation video; here’s 2025’s video:\n\nAs well as 2024’s and 2023’s:\n\nI find these videos equal parts charming and meditative. As movies & TV become ever-more fast-paced and our attention bent to black rectangular pocket casinos, it’s increasingly rare to witness people sitting still with only their thoughts to occupy them. We see Humans Frantically Doing everywhere these days, but these room tone videos are a good reminder that Humans Just Being is an essential part of life as well.\n\n \n\n        \n         \nTags: Criterion Collection",
+          "link": "https://kottke.org/26/06/room-tone",
+          "publishedOn": "2026-06-23T18:23:00.000Z",
+          "wordCount": 952,
+          "title": "Room Tone",
+          "imageUrl": "https://i.ytimg.com/vi/LjBII76kdc0/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/06/0049202-giant-banana-pulled-over-",
           "author": null,
           "description": "Giant Banana Pulled Over in Montana: Driver Says Cops Have Stopped Him 100s Of Times. “The reason I pulled you over, that light back there, you peeled out.”",
@@ -2038,6 +2068,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50952",
+          "author": "Andy Baio",
+          "description": "Nolen Royalty on how LLMs have changed the signals we use to gauge human effort\n#",
+          "link": "http://eieio.games/blog/legibility-of-effort/",
+          "publishedOn": "2026-06-23T18:29:01.000Z",
+          "wordCount": 1732,
+          "title": "Legibility of Effort",
+          "imageUrl": "https://eieio.games/images/legibility-of-effort/og.png"
+        },
+        {
           "id": "https://waxy.org/?p=50950",
           "author": "Andy Baio",
           "description": "I’m enjoying this Connections variant made by Hank Green, the scoring provides some additional challenge\n#",
@@ -2677,16 +2717,6 @@
           "publishedOn": "2026-05-26T09:45:37.000Z",
           "wordCount": 4052,
           "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12837",
-          "author": "Cory Doctorow",
-          "description": "Today's links No honor among (ad-tech) thieves: Including \"and\" and \"the.\" Hey look at this: Delights to delectate. Object permanence: Budweiser nunchuks; GOP vote-suppressor voted illegally; Airbnb enshittifies; Oculus enshittifies; Nintendo copyfrauds its fans; Meritocracy to eugenics pipeline; Ultima Online crisis management; SNES cartridge urinal; JJ Abrams x Axanar, \"Sex Criminals\"; Beating school filters for fun; Orphan works; Japanese ATM heist; How the Sacklers rigged the game. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. No honor among (ad-tech) thieves (permalink) It should…",
-          "link": "https://pluralistic.net/2026/05/25/lying-spies/",
-          "publishedOn": "2026-05-25T08:21:45.000Z",
-          "wordCount": 3853,
-          "title": "Pluralistic: No honor among (ad-tech) thieves (25 May 2026)",
           "imageUrl": null
         }
       ]
@@ -3495,6 +3525,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/opfs-pyodide\">OPFS + Pyodide test harness</a></p>\n        <p>I've been pondering if <a href=\"https://lite.datasette.io/\">Datasette Lite</a> - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer.</p>\n<p>That's what <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system\">OFPS</a> (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+          "publishedOn": "2026-06-23T18:58:54.000Z",
+          "wordCount": 791,
+          "title": "OPFS + Pyodide test harness",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
           "author": null,
