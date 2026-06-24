@@ -231,6 +231,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049197-the-art-of-star-wars-ando",
+          "author": null,
+          "description": "Mentioned this in passing a few months ago, but wanted to remind you that The Art of Star Wars: Andor is coming out in about a week. Looks great.",
+          "link": "https://kottke.org/26/06/0049197-the-art-of-star-wars-ando",
+          "publishedOn": "2026-06-24T20:08:00.000Z",
+          "wordCount": 782,
+          "title": "Mentioned this in passing a few months ago, but wanted to...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049146-did-a-medieval-flying-mon",
+          "author": null,
+          "description": "Did a medieval flying monk spot Halley’s comet, twice? It’s complicated. Halley’s Comet came around in 1066 and it’s likely Eilmer of Malmesbury saw a different comet in 1018, not Halley’s in 989.",
+          "link": "https://kottke.org/26/06/0049146-did-a-medieval-flying-mon",
+          "publishedOn": "2026-06-24T19:00:00.000Z",
+          "wordCount": 753,
+          "title": "Did a medieval flying monk spot Halley’s comet, twice?...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049210-how-the-new-york-times-ch",
+          "author": null,
+          "description": "How The New York Times Changed Its Coverage of Trans People. No surprise: it became much more negative, less affirming/protective and more skeptical/restrictive.",
+          "link": "https://kottke.org/26/06/0049210-how-the-new-york-times-ch",
+          "publishedOn": "2026-06-24T17:55:00.000Z",
+          "wordCount": 508,
+          "title": "How The New York Times Changed Its Coverage of Trans...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/06/0049212-lifts-in-film",
           "author": null,
           "description": "Lifts in Film: a collection of movie & TV scenes featuring elevators, including Speed, The Shining, Drive, Mad Men, Die Hard, Pulp Fiction, The Silence of the Lambs, and many more.",
@@ -2128,6 +2158,26 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50965",
+          "author": "Andy Baio",
+          "description": "On-Together: Virtual Co-Working sits at the bottom of your desktop while you work with others\nAftermath #",
+          "link": "https://www.teenvogue.com/story/focus-gaming-apps-that-help-combat-adhd-like-behavior",
+          "publishedOn": "2026-06-24T19:18:54.000Z",
+          "wordCount": 24526,
+          "title": "Teen Vogue on focus gaming apps as digital third spaces",
+          "imageUrl": "https://assets.teenvogue.com/photos/6a270a184410e7aaf424e877/16:9/w_1280,c_limit/2.png"
+        },
+        {
+          "id": "https://waxy.org/?p=50962",
+          "author": "Andy Baio",
+          "description": "with my old friend Annalee Newitz as editor-in-chief!\n#",
+          "link": "https://bsky.app/profile/annaleen.bsky.social/post/3mp2ecdpno22u",
+          "publishedOn": "2026-06-24T18:57:20.000Z",
+          "wordCount": 579,
+          "title": "Starlog is back after 17 years",
+          "imageUrl": "https://cdn.bsky.app/img/avatar_thumbnail/plain/did:plc:qaqh5r6sxs62ykbzki4tcyad/bafkreicx7bo5j3zkoqjow45owpivi6iavqs6f3xzu47djmrfbjzzgj5bk4"
+        },
+        {
           "id": "https://waxy.org/?p=50960",
           "author": "Andy Baio",
           "description": "if you like that, he did followups on dynamic lighting and shaders for 3D objects with oil-painted textures\n#",
@@ -3585,6 +3635,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>\n<p>My other reaction is that <em>I don't know anything about these people</em>.</p>\n<p>They haven't put themselves out there. They haven't said anything true. [...]</p>\n<p>The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, other than that they use particular tools.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://macwright.com/2026/06/24/accidental-anonymity.html\">Tom MacWright</a>, Accidental anonymity</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/tom-macwright\">tom-macwright</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+          "publishedOn": "2026-06-24T18:13:51.000Z",
+          "wordCount": 786,
+          "title": "Quoting Tom MacWright",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
           "author": null,
