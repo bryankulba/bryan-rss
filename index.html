@@ -35,6 +35,41 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/23/datasette/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-23T21:34:37.000Z">2026-06-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/23/datasette/#atom-everything" target="_blank" rel="noopener noreferrer">datasette 1.0a35</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 1.0a35
+I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes:
+New "Create table" interface in the database actions menu, backed by the /<database>/-/create JSON API. It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. (#2787)
+New "Alter table" table action and /<database>/<table>/-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, NOT NULLconstraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a "Drop table" button. (#2788)
+New Template context documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. (#1510, #2127, #1477, #2803)
+Here's a rough video demo I made of the new create/alter table feature as part of reviewing the PR:
+
+  
+
+
+    
+    
+        
+Tags: datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/23/datasette/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/23/datasette/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/create-alter-demo-first-frame.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/06/0049204-the-us-is-in-the-middle-o">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-23T20:20:00.000Z">2026-06-23</time>
