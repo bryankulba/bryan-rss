@@ -231,6 +231,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049212-lifts-in-film",
+          "author": null,
+          "description": "Lifts in Film: a collection of movie & TV scenes featuring elevators, including Speed, The Shining, Drive, Mad Men, Die Hard, Pulp Fiction, The Silence of the Lambs, and many more.",
+          "link": "https://kottke.org/26/06/0049212-lifts-in-film",
+          "publishedOn": "2026-06-24T16:56:00.000Z",
+          "wordCount": 768,
+          "title": "Lifts in Film : a collection of movie & TV scenes...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049209-gerrymandle",
+          "author": null,
+          "description": "Gerrymandle is a daily game where you “draw electoral district lines to win more seats than your opponents and win the election”.",
+          "link": "https://kottke.org/26/06/0049209-gerrymandle",
+          "publishedOn": "2026-06-24T16:02:00.000Z",
+          "wordCount": 718,
+          "title": "Gerrymandle  is a daily game where you “draw electoral...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049206-kelly-hayes-interviews-re",
+          "author": null,
+          "description": "Kelly Hayes interviews Rebecca Solnit. “There is no rewind button on history. Once people have power & agency, and have seen what it’s like to have rights, voting rights, reproductive rights, they’re not interested in going back. And we’re the majority.”",
+          "link": "https://kottke.org/26/06/0049206-kelly-hayes-interviews-re",
+          "publishedOn": "2026-06-24T15:00:00.000Z",
+          "wordCount": 763,
+          "title": "Kelly Hayes interviews Rebecca Solnit . &#8220;There is...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/06/cow-trip-a-retired-dad-agrees-to-rescue-a-baby-cow",
           "author": null,
           "description": "This is one of those videos that you start watching and then can’t really stop until you’ve finished. Cow Trip tells the story of an effort to save a baby cow by driving it (and another baby cow rescue) in a not-huge SUV 600 miles from Vermont to a sanctuary in Maryland.\nA calf in Vermont hits the lottery when a farmer decides to save him. But someone has to drive the baby cow 600 miles to his new home. A freshly retired doctor and his filmmaker daughter volunteer for the job, but nothing goes as planned. What emerges is an unlikely story of a community of people who will do anything to give one calf a real home.\n\n\t\nI think maybe this needs to be a children’s book?\n\n \n\n        \n         \nTags: video",
@@ -2097,6 +2127,26 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=50960",
+          "author": "Andy Baio",
+          "description": "if you like that, he did followups on dynamic lighting and shaders for 3D objects with oil-painted textures\n#",
+          "link": "https://www.youtube.com/watch?v=fdI1ZJtAJmI",
+          "publishedOn": "2026-06-24T17:30:53.000Z",
+          "wordCount": null,
+          "title": "Texturing 3D models in real-time with oil painting",
+          "imageUrl": null
+        },
+        {
+          "id": "https://waxy.org/?p=50958",
+          "author": "Andy Baio",
+          "description": "don’t miss the interactive map of 5,000 historical menus pulled from the NYPL’s Buttolph collection\n#",
+          "link": "https://pudding.cool/2026/06/menu-story/",
+          "publishedOn": "2026-06-24T16:55:31.000Z",
+          "wordCount": 51,
+          "title": "The Pudding’s early history of U.S. restaurant dining",
+          "imageUrl": "https://pudding.cool/2026/06/menu-story/assets/social-facebook.jpg"
+        },
         {
           "id": "https://waxy.org/?p=50952",
           "author": "Andy Baio",
@@ -4324,16 +4374,6 @@
           "wordCount": 808,
           "title": "Quoting Paul Graham",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/quinnypig/status/2058960462256210268\"><p>I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have ever seen.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/quinnypig/status/2058960462256210268\">Corey Quinn</a>, on Anthropic co-founder Christopher Olah's <a href=\"https://www.washingtonpost.com/world/2026/05/25/pope-elevates-ai-ethics-religious-imperative-with-first-encyclical/\">influence</a> on <em>Magnifica Humanitas</em></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/corey-quinn\">corey-quinn</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
-          "link": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
-          "publishedOn": "2026-05-26T02:28:54.000Z",
-          "wordCount": 730,
-          "title": "Quoting Corey Quinn",
-          "imageUrl": null
         }
       ]
     },
@@ -4446,6 +4486,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=163304",
+          "author": "Simon Frantz",
+          "description": "The hunt for these ghostly particles has required some of the most audacious experiment setups ever built.            \nThe post How Physicists Track and Trap the Elusive Neutrino first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/",
+          "publishedOn": "2026-06-24T16:04:32.000Z",
+          "wordCount": 3191,
+          "title": "How Physicists Track and Trap the Elusive Neutrino",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2055/06/SuperKamiokandeObservatoryInKamiokaJapan-crKamioka-Observatory_ICRR_UniversityOfTokyo-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=163336",
           "author": "Steve Nadis",

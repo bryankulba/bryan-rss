@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-24T14:25:59.271Z</updated>
+    <updated>2026-06-24T17:52:51.830Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Texturing 3D models in real-time with oil painting]]></title>
+        <id>https://waxy.org/?p=50960</id>
+        <link href="https://www.youtube.com/watch?v=fdI1ZJtAJmI"/>
+        <updated>2026-06-24T17:30:53.000Z</updated>
+        <summary type="html"><![CDATA[if you like that, he did followups on dynamic lighting and shaders for 3D objects with oil-painted textures
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lifts in Film : a collection of movie & TV scenes...]]></title>
+        <id>https://kottke.org/26/06/0049212-lifts-in-film</id>
+        <link href="https://kottke.org/26/06/0049212-lifts-in-film"/>
+        <updated>2026-06-24T16:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Lifts in Film: a collection of movie & TV scenes featuring elevators, including Speed, The Shining, Drive, Mad Men, Die Hard, Pulp Fiction, The Silence of the Lambs, and many more.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Pudding’s early history of U.S. restaurant dining]]></title>
+        <id>https://waxy.org/?p=50958</id>
+        <link href="https://pudding.cool/2026/06/menu-story/"/>
+        <updated>2026-06-24T16:55:31.000Z</updated>
+        <summary type="html"><![CDATA[don’t miss the interactive map of 5,000 historical menus pulled from the NYPL’s Buttolph collection
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Physicists Track and Trap the Elusive Neutrino]]></title>
+        <id>https://www.quantamagazine.org/?p=163304</id>
+        <link href="https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/"/>
+        <updated>2026-06-24T16:04:32.000Z</updated>
+        <summary type="html"><![CDATA[The hunt for these ghostly particles has required some of the most audacious experiment setups ever built.            
+The post How Physicists Track and Trap the Elusive Neutrino first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Simon Frantz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gerrymandle  is a daily game where you “draw electoral...]]></title>
+        <id>https://kottke.org/26/06/0049209-gerrymandle</id>
+        <link href="https://kottke.org/26/06/0049209-gerrymandle"/>
+        <updated>2026-06-24T16:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Gerrymandle is a daily game where you “draw electoral district lines to win more seats than your opponents and win the election”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kelly Hayes interviews Rebecca Solnit . &#8220;There is...]]></title>
+        <id>https://kottke.org/26/06/0049206-kelly-hayes-interviews-re</id>
+        <link href="https://kottke.org/26/06/0049206-kelly-hayes-interviews-re"/>
+        <updated>2026-06-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kelly Hayes interviews Rebecca Solnit. “There is no rewind button on history. Once people have power & agency, and have seen what it’s like to have rights, voting rights, reproductive rights, they’re not interested in going back. And we’re the majority.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cow Trip: A Retired Dad Agrees to Rescue a Baby Cow]]></title>
         <id>https://kottke.org/26/06/cow-trip-a-retired-dad-agrees-to-rescue-a-baby-cow</id>
@@ -7119,19 +7182,6 @@ The post When Quiet Undersea Volcanoes Turn Disruptive first appeared on Quanta 
         <summary type="html"><![CDATA[Today's links The AI bubble isn't like the internet bubble: No one had to force-feed the web to workers. Hey look at this: Delights to delectate. Object permanence: Website graveyard; Anti-librarian witch-hunt; Denmark v Marmite; The unnecessariat. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The AI bubble isn't like the internet bubble (permalink) One of the surprise breakout software products of the early web was Lotus Notes, a kind of primitive precursor to all-in-one office productivity suites like GDocs, Office365, etc. It was so important that its creator, Ray Ozzie, was promot…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Corey Quinn]]></title>
-        <id>https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"/>
-        <updated>2026-05-26T02:28:54.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/quinnypig/status/2058960462256210268"><p>I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have ever seen.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/quinnypig/status/2058960462256210268">Corey Quinn</a>, on Anthropic co-founder Christopher Olah's <a href="https://www.washingtonpost.com/world/2026/05/25/pope-elevates-ai-ethics-religious-imperative-with-first-encyclical/">influence</a> on <em>Magnifica Humanitas</em></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/corey-quinn">corey-quinn</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
