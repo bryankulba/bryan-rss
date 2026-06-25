@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-25T18:08:28.936Z</updated>
+    <updated>2026-06-25T21:40:58.703Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sad news: long-time tech journalist, blogger, and...]]></title>
+        <id>https://kottke.org/26/06/0049217-om-malik-passed-away-yest</id>
+        <link href="https://kottke.org/26/06/0049217-om-malik-passed-away-yest"/>
+        <updated>2026-06-25T21:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Sad news: long-time tech journalist, blogger, and entrepreneur Om Malik passed away yesterday aged 59.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Although fleeting,  [sports] have the enduring power to...]]></title>
+        <id>https://kottke.org/26/06/0049214-sports-have-the-enduring-</id>
+        <link href="https://kottke.org/26/06/0049214-sports-have-the-enduring-"/>
+        <updated>2026-06-25T19:25:00.000Z</updated>
+        <summary type="html"><![CDATA[“Although fleeting, [sports] have the enduring power to inspire. For a few moments or a few days, divisions crumble, replaced by the beauty of kinship.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deep dive:  An interactive introduction to the terrific...]]></title>
+        <id>https://kottke.org/26/06/0049136-an-interactive-introducti</id>
+        <link href="https://kottke.org/26/06/0049136-an-interactive-introducti"/>
+        <updated>2026-06-25T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Deep dive: An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Criterion’s Massive Stanley Kubrick Box Set]]></title>
         <id>https://kottke.org/26/06/criterions-massive-stanley-kubrick-box-set</id>
@@ -7128,33 +7158,6 @@ Tags: bread · food · how to · video]]></summary>
         <summary type="html"><![CDATA[I needed a new belt in a shade of brown, to match the brown straps on two watches I’ve recently bought. Just for the hell…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: AI and a world without migrants (27 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12847</id>
-        <link href="https://pluralistic.net/2026/05/27/unnecessariat/"/>
-        <updated>2026-05-27T07:57:41.000Z</updated>
-        <summary type="html"><![CDATA[Today's links AI and a world without migrants: It's solipsism all the way down. Hey look at this: Delights to delectate. Object permanence: Manuscript rabbits; "What Will Come After"; Pastejacking; Terrorism phrenology; Vaccine waivers were promised 20 years ago. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. AI and a world without migrants (permalink) I don't care who you are, there will always be times when hell is other people. Not because other people are horrible – quite the opposite! Other people are wonderful, but boy are they ever stubborn. From boardgames to romance, team spor…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Kyle Ferrana]]></title>
-        <id>https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything"/>
-        <updated>2026-05-27T06:41:43.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/kyletrainemoji/status/2059301102814953511"><p>PICARD: Data, shields up</p>
-<p>DATA: Brilliant! Shields can reduce damage we sustain. Not immunity. Not hubris. Just prudence. It's not precaution—it's strategy.</p>
-<p>[camera shakes]</p>
-<p>WORF: HULL BREACHES ON NINE DECKS</p>
-<p>DATA: Here's what happened: you told me to raise shields, and I didn't</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/kyletrainemoji/status/2059301102814953511">Kyle Ferrana</a>, @KyleTrainEmoji</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
