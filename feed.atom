@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-24T21:21:33.653Z</updated>
+    <updated>2026-06-25T02:57:33.159Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[simonw/browser-compat-db]]></title>
+        <id>https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything"/>
+        <updated>2026-06-24T23:59:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/simonw/browser-compat-db">simonw/browser-compat-db</a></strong></p>
+Inspired by Mozilla's <a href="https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/">new MDN MCP service</a> - <a href="https://github.com/mdn/mcp">source code here</a> - I decided to try converting their comprehensive <a href="https://github.com/mdn/browser-compat-data">mdn/browser-compat-data</a> repository full of browser compatibility data into a SQLite database.</p>
+<p>This new GitHub repo includes a Claude Code for web (Opus 4.8) <a href="https://github.com/simonw/browser-compat-db/blob/main/build_db.py">generated script</a> for doing that using <a href="https://github.com/simonw/sqlite-utils">sqlite-utils</a>.</p>
+<p>I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build <a href="https://github.com/simonw/browser-compat-db/blob/main/.github/workflows/build-db.yml">a GitHub Actions workflow</a> that builds the database and then force-pushes it to a <code>db</code> "orphan" branch.</p>
+<p>You can download the resulting database <a href="https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db">from here</a>, and since it's hosted with open CORS headers you can also <a href="https://lite.datasette.io/?url=https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db#/browser-compat/releases_tree">explore it with Datasette Lite</a>.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/mozilla">mozilla</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/github-actions">github-actions</a>, <a href="https://simonwillison.net/tags/datasette-lite">datasette-lite</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a>, <a href="https://simonwillison.net/tags/mdn">mdn</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Good headline from the NYT for a change:  President...]]></title>
+        <id>https://kottke.org/26/06/0049213-president-narcissus-and-t</id>
+        <link href="https://kottke.org/26/06/0049213-president-narcissus-and-t"/>
+        <updated>2026-06-24T22:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Good headline from the NYT for a change: President Narcissus and the Fetid Reflecting Pool.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mentioned this in passing a few months ago, but wanted to...]]></title>
         <id>https://kottke.org/26/06/0049197-the-art-of-star-wars-ando</id>
@@ -7210,46 +7237,6 @@ The post When Quiet Undersea Volcanoes Turn Disruptive first appeared on Quanta 
     <p>Tags: <a href="https://simonwillison.net/tags/writing">writing</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/paul-graham">paul-graham</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An unusual new-to-me animal:  the aardwolf . It&#8217;s a...]]></title>
-        <id>https://kottke.org/26/05/0049007-the-aardwolf</id>
-        <link href="https://kottke.org/26/05/0049007-the-aardwolf"/>
-        <updated>2026-05-26T14:56:00.000Z</updated>
-        <summary type="html"><![CDATA[An unusual new-to-me animal: the aardwolf. It’s a hyena but it eats insects like an aardvark. The cubs are incredibly cute.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Essential summertime reading:  Drowning Doesn’t Look Like...]]></title>
-        <id>https://kottke.org/26/05/0049006-drowning-doesnt-look-like</id>
-        <link href="https://kottke.org/26/05/0049006-drowning-doesnt-look-like"/>
-        <updated>2026-05-26T14:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Essential summertime reading: Drowning Doesn’t Look Like Drowning. “Drowning is almost always a deceptively quiet event. The waving, splashing, and yelling that dramatic conditioning (television) prepares us to look for, is rarely seen in real life.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[let go]]></title>
-        <id>https://warrenellis.ltd/?p=18411</id>
-        <link href="https://warrenellis.ltd/status/let-go/"/>
-        <updated>2026-05-26T11:33:12.000Z</updated>
-        <summary type="html"><![CDATA[Tony Cokes. Well, the heatwave is here. Today is linen trousers, thin socks and one of the 100% cotton popover tops I get from from…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12844</id>
-        <link href="https://pluralistic.net/2026/05/26/the-ai-will-continue/"/>
-        <updated>2026-05-26T09:45:37.000Z</updated>
-        <summary type="html"><![CDATA[Today's links The AI bubble isn't like the internet bubble: No one had to force-feed the web to workers. Hey look at this: Delights to delectate. Object permanence: Website graveyard; Anti-librarian witch-hunt; Denmark v Marmite; The unnecessariat. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The AI bubble isn't like the internet bubble (permalink) One of the surprise breakout software products of the early web was Lotus Notes, a kind of primitive precursor to all-in-one office productivity suites like GDocs, Office365, etc. It was so important that its creator, Ray Ozzie, was promot…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

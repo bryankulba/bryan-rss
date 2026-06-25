@@ -231,6 +231,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049213-president-narcissus-and-t",
+          "author": null,
+          "description": "Good headline from the NYT for a change: President Narcissus and the Fetid Reflecting Pool.",
+          "link": "https://kottke.org/26/06/0049213-president-narcissus-and-t",
+          "publishedOn": "2026-06-24T22:20:00.000Z",
+          "wordCount": 443,
+          "title": "Good headline from the NYT for a change:  President...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/06/0049197-the-art-of-star-wars-ando",
           "author": null,
           "description": "Mentioned this in passing a few months ago, but wanted to remind you that The Art of Star Wars: Andor is coming out in about a week. Looks great.",
@@ -2129,26 +2139,6 @@
           "wordCount": 1110,
           "title": "Stephen Colbert Hosts Only in Monroe",
           "imageUrl": "https://i.ytimg.com/vi/jJTXB5uT_C4/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/05/0049007-the-aardwolf",
-          "author": null,
-          "description": "An unusual new-to-me animal: the aardwolf. It’s a hyena but it eats insects like an aardvark. The cubs are incredibly cute.",
-          "link": "https://kottke.org/26/05/0049007-the-aardwolf",
-          "publishedOn": "2026-05-26T14:56:00.000Z",
-          "wordCount": 756,
-          "title": "An unusual new-to-me animal:  the aardwolf . It&#8217;s a...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/05/0049006-drowning-doesnt-look-like",
-          "author": null,
-          "description": "Essential summertime reading: Drowning Doesn’t Look Like Drowning. “Drowning is almost always a deceptively quiet event. The waving, splashing, and yelling that dramatic conditioning (television) prepares us to look for, is rarely seen in real life.”",
-          "link": "https://kottke.org/26/05/0049006-drowning-doesnt-look-like",
-          "publishedOn": "2026-05-26T14:06:00.000Z",
-          "wordCount": 770,
-          "title": "Essential summertime reading:  Drowning Doesn’t Look Like...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2838,16 +2828,6 @@
           "wordCount": 4103,
           "title": "Pluralistic: AI and a world without migrants (27 May 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12844",
-          "author": "Cory Doctorow",
-          "description": "Today's links The AI bubble isn't like the internet bubble: No one had to force-feed the web to workers. Hey look at this: Delights to delectate. Object permanence: Website graveyard; Anti-librarian witch-hunt; Denmark v Marmite; The unnecessariat. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The AI bubble isn't like the internet bubble (permalink) One of the surprise breakout software products of the early web was Lotus Notes, a kind of primitive precursor to all-in-one office productivity suites like GDocs, Office365, etc. It was so important that its creator, Ray Ozzie, was promot…",
-          "link": "https://pluralistic.net/2026/05/26/the-ai-will-continue/",
-          "publishedOn": "2026-05-26T09:45:37.000Z",
-          "wordCount": 4052,
-          "title": "Pluralistic: The AI bubble isn't like the internet bubble (26 May 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -3171,16 +3151,6 @@
           "wordCount": 2527,
           "title": "PROJECT HAIL MARY (2026)",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/hail-mary.png"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18411",
-          "author": "Warren Ellis",
-          "description": "Tony Cokes. Well, the heatwave is here. Today is linen trousers, thin socks and one of the 100% cotton popover tops I get from from…",
-          "link": "https://warrenellis.ltd/status/let-go/",
-          "publishedOn": "2026-05-26T11:33:12.000Z",
-          "wordCount": 1849,
-          "title": "let go",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/05/Share-Selection-square.jpg"
         }
       ]
     },
@@ -3635,6 +3605,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://github.com/simonw/browser-compat-db\">simonw/browser-compat-db</a></strong></p>\nInspired by Mozilla's <a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/\">new MDN MCP service</a> - <a href=\"https://github.com/mdn/mcp\">source code here</a> - I decided to try converting their comprehensive <a href=\"https://github.com/mdn/browser-compat-data\">mdn/browser-compat-data</a> repository full of browser compatibility data into a SQLite database.</p>\n<p>This new GitHub repo includes a Claude Code for web (Opus 4.8) <a href=\"https://github.com/simonw/browser-compat-db/blob/main/build_db.py\">generated script</a> for doing that using <a href=\"https://github.com/simonw/sqlite-utils\">sqlite-utils</a>.</p>\n<p>I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build <a href=\"https://github.com/simonw/browser-compat-db/blob/main/.github/workflows/build-db.yml\">a GitHub Actions workflow</a> that builds the database and then force-pushes it to a <code>db</code> \"orphan\" branch.</p>\n<p>You can download the resulting database <a href=\"https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db\">from here</a>, and since it's hosted with open CORS headers you can also <a href=\"https://lite.datasette.io/?url=https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db#/browser-compat/releases_tree\">explore it with Datasette Lite</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/mozilla\">mozilla</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/mdn\">mdn</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+          "publishedOn": "2026-06-24T23:59:03.000Z",
+          "wordCount": 864,
+          "title": "simonw/browser-compat-db",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
           "author": null,
