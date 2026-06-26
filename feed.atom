@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-26T14:20:35.239Z</updated>
+    <updated>2026-06-26T17:45:11.830Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting OpenAI]]></title>
+        <id>https://simonwillison.net/2026/Jun/26/openai/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/26/openai/#atom-everything"/>
+        <updated>2026-06-26T17:10:43.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://openai.com/index/previewing-gpt-5-6-sol/"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...]</p>
+<p>We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ahead of today’s launch. At their request, we are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly. [...]</p>
+<p>GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount.</p></blockquote>
+<p class="cite">&mdash; <a href="https://openai.com/index/previewing-gpt-5-6-sol/">OpenAI</a>, Previewing GPT‑5.6 Sol: a next-generation model</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/gpt">gpt</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A story about what being neighborly is all about ....]]></title>
+        <id>https://kottke.org/26/06/0049220-a-story-about-what-being-</id>
+        <link href="https://kottke.org/26/06/0049220-a-story-about-what-being-"/>
+        <updated>2026-06-26T17:06:00.000Z</updated>
+        <summary type="html"><![CDATA[A story about what being neighborly is all about. “I reported back to the neighborhood text thread, and I wasn’t sure what to expect. What came back, from one neighbor after another, was the same question: what can we do to help?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Boeing 747 Begins Its Final Descent . The 747 is...]]></title>
+        <id>https://kottke.org/26/06/0049208-the-boeing-747-begins-its</id>
+        <link href="https://kottke.org/26/06/0049208-the-boeing-747-begins-its"/>
+        <updated>2026-06-26T16:24:00.000Z</updated>
+        <summary type="html"><![CDATA[The Boeing 747 Begins Its Final Descent. The 747 is being phased out for newer and more efficient jets. Ian Bogost takes a look at how the massive plane, which took flight only 5 months before “Neil Armstrong set foot on the moon”, came to be.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[After 80 Years, Mathematicians Give Famed ‘Erdős Method’ an Upgrade]]></title>
+        <id>https://www.quantamagazine.org/?p=163481</id>
+        <link href="https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626/"/>
+        <updated>2026-06-26T15:26:29.000Z</updated>
+        <summary type="html"><![CDATA[Decades ago, Paul Erdős used randomness to illuminate the vast and weird world of networks. Now mathematicians are making his technique even more powerful.            
+The post After 80 Years, Mathematicians Give Famed ‘Erdős Method’ an Upgrade first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Leila Sloman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s America’s Birthday. What Are We Celebrating?  Some...]]></title>
+        <id>https://kottke.org/26/06/0049221-its-americas-birthday-wha</id>
+        <link href="https://kottke.org/26/06/0049221-its-americas-birthday-wha"/>
+        <updated>2026-06-26T15:20:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s America’s Birthday. What Are We Celebrating? Some good thoughts in here from Tressie McMillan Cottom, Jamelle Bouie, M. Gessen, and Lydia Polgreen.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Bob Ross painting of a mountain summit is being...]]></title>
+        <id>https://kottke.org/26/06/0049218-a-bob-ross-painting-of-a-</id>
+        <link href="https://kottke.org/26/06/0049218-a-bob-ross-painting-of-a-"/>
+        <updated>2026-06-26T14:54:00.000Z</updated>
+        <summary type="html"><![CDATA[A Bob Ross painting of a mountain summit is being auctioned off soon. “Sale proceeds will benefit Ball State University. Ball State University owns WIPB, the PBS station where Bob Ross filmed thirty seasons of The Joy of Painting.” $50-70K esitmate.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220;Turn your site into a place people can bump into...]]></title>
         <id>https://kottke.org/26/06/0049203-cool-feature-where-people</id>
