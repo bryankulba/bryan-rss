@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-25T21:40:58.703Z</updated>
+    <updated>2026-06-26T03:27:59.347Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GigaOm founder Om Malik has passed at age 59]]></title>
+        <id>https://waxy.org/?p=50970</id>
+        <link href="https://om.co/2026/06/24/1966-2026/"/>
+        <updated>2026-06-26T00:11:20.000Z</updated>
+        <summary type="html"><![CDATA[a blogger’s blogger, Om was always so kind and supportive of my projects
+Kottke #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI and Liability]]></title>
+        <id>https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"/>
+        <updated>2026-06-25T22:28:46.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html">AI and Liability</a></strong></p>
+Bruce Schneier on the recent <a href="https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/">German ruling</a> that Google be held liable for errors introduced in their AI overviews:</p>
+<blockquote>
+<p>AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...]</p>
+<p>To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introduce disastrous incentives for corporate misbehavior. Why hire human writers, lawyers or doctors when AIs are not only cheaper, but also absolve employers whenever they make a mistake?</p>
+</blockquote>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/bruce-schneier">bruce-schneier</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/law">law</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/hallucinations">hallucinations</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sad news: long-time tech journalist, blogger, and...]]></title>
         <id>https://kottke.org/26/06/0049217-om-malik-passed-away-yest</id>
@@ -55,6 +84,20 @@ P.S. While it’s not a fancypants box set, the KDO tag page for Stanley Kubrick
 Tags: Criterion Collection · movies · Stanley Kubrick · video]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-export-database 0.3a2]]></title>
+        <id>https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything"/>
+        <updated>2026-06-25T17:21:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-export-database/releases/tag/0.3a2">datasette-export-database 0.3a2</a></p>
+        <p>An embarrassingly tiny release. The <code>pyproject.toml</code> had pinned to <code>datasette==1.0a27</code>, inadvertently making this plugin incompatible with all other Datasette versions. It's now <code>datasette&gt;=1.0a27</code> instead.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7148,16 +7191,6 @@ Wow! Check out all those bubbles…ours didn’t look anything like that. I actu
 Tags: bread · food · how to · video]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vintage]]></title>
-        <id>https://warrenellis.ltd/?p=18418</id>
-        <link href="https://warrenellis.ltd/status/vintage/"/>
-        <updated>2026-05-27T10:09:03.000Z</updated>
-        <summary type="html"><![CDATA[I needed a new belt in a shade of brown, to match the brown straps on two watches I’ve recently bought. Just for the hell…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
