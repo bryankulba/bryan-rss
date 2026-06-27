@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-26T21:16:45.399Z</updated>
+    <updated>2026-06-27T02:52:18.194Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Dean W. Ball]]></title>
+        <id>https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything"/>
+        <updated>2026-06-26T22:25:46.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.hyperdimensional.co/p/what-should-be-done"><p>This is a bad state of affairs. Consider, in particular, some industry dynamics:</p>
+<ol>
+<li>Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work.</li>
+<li>The ongoing AI infrastructure buildout—the one that is, according to former US AI Czar David Sacks, <a href="https://fortune.com/2026/05/04/trump-ai-czar-david-sacks-american-gdp-economy/">essential to the US economy</a>, assumes a functionally global total addressable market for US AI services. No one is building $100 billion dollar data centers to serve frontier models to whatever 100 companies the US government will allow access. [...]</li>
+</ol></blockquote>
+<p class="cite">&mdash; <a href="https://www.hyperdimensional.co/p/what-should-be-done">Dean W. Ball</a>, 35 thoughts on what has happened and what America should do</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Half-Life 2 in the browser]]></title>
+        <id>https://waxy.org/?p=50972</id>
+        <link href="https://hl2.slqnt.dev/"/>
+        <updated>2026-06-26T21:25:14.000Z</updated>
+        <summary type="html"><![CDATA[a quirky WebGL port by a high school student, check it out before it disappears
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Timothy B. Lee]]></title>
         <id>https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything</id>
@@ -6992,84 +7020,6 @@ The Backward Index evidently turned out to be a useful tool in the pre-electroni
         <summary type="html"><![CDATA[There are no lightsabers in The Mandalorian and Grogu, a first for Star Wars films. There are also no Wilhelm screams in the movie, which is weird because I thought I heard snippets of it everywhere (even Mando’s blaster sounded a little Wilhelm-ish).]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[100 Iconic Moments From Sir David Attenborough]]></title>
-        <id>https://kottke.org/26/05/100-iconic-moments-from-sir-david-attenborough</id>
-        <link href="https://kottke.org/26/05/100-iconic-moments-from-sir-david-attenborough"/>
-        <updated>2026-05-28T14:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s the keep the David Attenborough love going: this is a six-hour video featuring 100 of the most iconic moments from the famed naturalist’s work. I got this via Enrique, who rightly asserts that “There’s no such thing as too much David Attenborough.”
-See also Three Hours of Unbelievable Moments From Nature, Narrated by David Attenborough.
-
- 
-
-        
-         
-Tags: David Attenborough · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How We See the Beautiful, Violent Sun]]></title>
-        <id>https://www.quantamagazine.org/?p=162417</id>
-        <link href="https://www.quantamagazine.org/how-we-see-the-beautiful-violent-sun-20260528/"/>
-        <updated>2026-05-28T14:16:52.000Z</updated>
-        <summary type="html"><![CDATA[Over hundreds of years, increasingly sophisticated instruments have revealed — and continue to reveal — the secrets of our star.            
-The post How We See the Beautiful, Violent Sun first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Simon Frantz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Consider the Sister : an interview with Amy Wallace....]]></title>
-        <id>https://kottke.org/26/05/0049025-consider-the-sister</id>
-        <link href="https://kottke.org/26/05/0049025-consider-the-sister"/>
-        <updated>2026-05-28T14:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Consider the Sister: an interview with Amy Wallace. “It was hard work being David Foster Wallace’s little sister. It still is. The job of preserving the memory of her brother as a complex, vibrant, often joyful person has fallen to her.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I, Sisyphus, Am Ninety-Five Percent of the Way There ....]]></title>
-        <id>https://kottke.org/26/05/0049024-i-sisyphus-am-ninety-five</id>
-        <link href="https://kottke.org/26/05/0049024-i-sisyphus-am-ninety-five"/>
-        <updated>2026-05-28T13:35:00.000Z</updated>
-        <summary type="html"><![CDATA[I, Sisyphus, Am Ninety-Five Percent of the Way There. “Honestly, folks, we are so, so close. The summit is largely visible. It is nearly visible. There is a concept of visibility at play here that is impossible to ignore.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Hold on for dear life (28 May 2026)]]></title>
-        <id>https://pluralistic.net/?p=12852</id>
-        <link href="https://pluralistic.net/2026/05/28/we-live-in-a-society/"/>
-        <updated>2026-05-28T11:24:23.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Hold on for dear life: Not your keys, not your wallet, entirely your problem. Hey look at this: Delights to delectate. Object permanence: Who owns "Web 2.0"; EFF saves bloggers' sources; Non-porn porn; Redaction fails; Canadian Tories say markets, not government, will help flood victims; Forced gold-farming; Walkaway cover; Oracle eats shit in Java API case; Captain America was a Nazi spy; Who Broke the Internet? (Pt IV). Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Hold on for dear life (permalink) From the earliest days of technopolitics, the role of technology in res…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do you wanna look hot or do you wanna look cool?]]></title>
-        <id>https://www.blackbirdspyplane.com/p/looking-hot-vs-looking-cool</id>
-        <link href="https://www.blackbirdspyplane.com/p/looking-hot-vs-looking-cool"/>
-        <updated>2026-05-28T11:02:47.000Z</updated>
-        <summary type="html"><![CDATA[Plus a perfect gift that costs ~nothing, home-enswaggening light switches & more unbeatable recon]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[i find this line of questioning exhilarating]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12255</id>
-        <link href="https://www.velcro-city.co.uk/i-find-this-line-of-questioning-exhilarating/"/>
-        <updated>2026-05-28T10:34:16.000Z</updated>
-        <summary type="html"><![CDATA[It was never about "tech", not least because there's no such thing as "tech". There is only people using things to do stuff, and if that is anything, then it is politics.]]></summary>
-        <author>
-            <name>PGR</name>
         </author>
     </entry>
 </feed>
