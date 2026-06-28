@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-28T07:49:05.061Z</updated>
+    <updated>2026-06-28T13:41:25.166Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The no-human future ⊗ The cult of optimisation]]></title>
+        <id>6a3f33de3dd8ae0001279441</id>
+        <link href="https://sentiers.media/the-no-human-future-the-cult-of-optimisation-no-409/"/>
+        <updated>2026-06-28T13:10:48.000Z</updated>
+        <summary type="html"><![CDATA[No.409 — The golden age of Bond villains ⊗ Predictions Volume 1 ⊗ GLM-5.2 is a step change ⊗ Earth’s underground fungus network ⊗ Huge collections of Leonardo’s codexes]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Filtered for that which motivates form]]></title>
         <id>https://interconnected.org/home/2026/06/27/filtered</id>
@@ -6707,36 +6717,6 @@ Yes, finally, I know. It…]]></summary>
         <summary type="html"><![CDATA[Today's links Carneyism without Carney: Eh? Hey look at this: Delights to delectate. Object permanence: Replacing pharma patents with bounties; USTR v cheap leukemia meds; Plutocrats x wealth segregation; Anonymous Analytics; Scott Walker sells off donors; Anonymization v metadata; Probably; Amazon warehouse workers are the future of Amazon coders; Warcraft eggs; Brainwashing school; People who don't know The Onion is satire; "Company Town"; America is a scam. Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Carneyism without Carney (permalink) The "Third Way" in liberal poli…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Slow blogging day today; I spent some time on the KDO...]]></title>
-        <id>https://kottke.org/26/05/0049044-a-simple-list-of-links-to</id>
-        <link href="https://kottke.org/26/05/0049044-a-simple-list-of-links-to"/>
-        <updated>2026-05-29T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Slow blogging day today; I spent some time on the KDO undercarriage and a new little members-only feature for the Rolodex: a simple list of links to the latest posts from Rolodex sites. (Click on “Latest Posts”; like I said, it’s a wee feed reader.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pope Releases Encyclical On Perils Of Disney’s ‘Star...]]></title>
-        <id>https://kottke.org/26/05/0049043-pope-releases-encyclical-</id>
-        <link href="https://kottke.org/26/05/0049043-pope-releases-encyclical-"/>
-        <updated>2026-05-29T20:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Pope Releases Encyclical On Perils Of Disney’s ‘Star Wars’ Strategy. “I fear for what horrors the fan base might soon endure, but I would be negligent not to give Andor its flowers.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radiohead&#8217;s OK Computer reimagined as Nintendo 64...]]></title>
-        <id>https://kottke.org/26/05/0049041-radioheads-ok-computer-re</id>
-        <link href="https://kottke.org/26/05/0049041-radioheads-ok-computer-re"/>
-        <updated>2026-05-29T19:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Radiohead’s OK Computer reimagined as Nintendo 64 songs, featuring reworked sounds from Mario Kart, Super Mario 64, Ocarina of Time, Goldeneye 007, and more.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
