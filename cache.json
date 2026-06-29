@@ -261,6 +261,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049227-on-decision-fatigue",
+          "author": null,
+          "description": "On decision fatigue: “Why are you so tired? The answer has to do with how many times you’ve had to make a decision throughout the day.” And: “The quality of our decisions deteriorates as we accumulate previous decisions.”",
+          "link": "https://kottke.org/26/06/0049227-on-decision-fatigue",
+          "publishedOn": "2026-06-29T21:00:00.000Z",
+          "wordCount": 885,
+          "title": "On decision fatigue : &#8220;Why are you so tired? The...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/06/0049233-christian-marclays-the-cl",
+          "author": null,
+          "description": "If you’ve never seen it (or even if you have), Christian Marclay’s The Clock will be showing at LACMA from July 26 to August 23, including two 24-hour showings.",
+          "link": "https://kottke.org/26/06/0049233-christian-marclays-the-cl",
+          "publishedOn": "2026-06-29T19:00:00.000Z",
+          "wordCount": 782,
+          "title": "If you’ve never seen it (or even if you have),  Christian...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/06/phyllis-the-goat-and-the-senior-league-wii-bowling-champions",
           "author": null,
           "description": "Senior living communities generally don’t go viral or gain media attention for positive reasons, so it’s nice to see this story about the University Village Retirement Community in Tulsa, Oklahoma and their champion Wii bowling team.\nOn this recent Thursday in June, their hopes are pinned on Phyllis Wimer, known as Phyllis Killer or Phyllis the GOAT for the many strikes she bowls; Charlene “the Grasshopper” Giles, whose hop gives her some extra oomph as she releases the ball; “Marvelous” Marcia Ness, who describes herself as a “tough old broad,” ready to bowl after recovering from a broken wrist and back; and “Rollin’” Ron Demaree, who grips the lower-left handlebar on his motorized wheelchair to propel himself upward and forward for more power in his roll.\n\n\t\nPhyllis the GOAT is 95 years old and rolls 300s in practice sessions like it’s nothing. Here’s a local news segment on the team from a few months ago:\n\nI was very into Wii Sports 20 years ago (!!!) and still occasionally play Switch Sports with the kids (golf, bowling, and tennis mostly). They’re great party/gathering games and evidently also great for staying active and sharp in your 90s.\n\n \n\n        \n         \nTags: bowling · Nintendo · sports · video · video games · Wii",
@@ -3440,6 +3460,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
+          "author": null,
+          "description": "<p>Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari:</p>\n<pre><code>osascript -e 'tell application \"Safari\" to count tabs of every window'\n</code></pre>\n<p><img alt=\"I ran it in a terminal window and got back 370.\" src=\"https://static.simonwillison.net/static/2026/tab-shame.jpg\" /></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/safari\">safari</a>, <a href=\"https://simonwillison.net/tags/til\">til</a>, <a href=\"https://simonwillison.net/tags/applescript\">applescript</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
+          "publishedOn": "2026-06-29T18:36:18.000Z",
+          "wordCount": 748,
+          "title": "Count the number of Safari tabs",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
           "author": null,
