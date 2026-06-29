@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-29T08:56:48.463Z</updated>
+    <updated>2026-06-29T15:41:58.692Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What Breaks a Cell’s Ribs Can Make It Stronger]]></title>
+        <id>https://www.quantamagazine.org/?p=163714</id>
+        <link href="https://www.quantamagazine.org/what-breaks-a-cells-ribs-can-make-it-stronger-20260629/"/>
+        <updated>2026-06-29T14:00:09.000Z</updated>
+        <summary type="html"><![CDATA[The mechanical process of cell division exerts powerful, if microscopic, forces. How do the molecular machines that power it manage the strain?            
+The post What Breaks a Cell’s Ribs Can Make It Stronger first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Jake Buehler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maybe It Will Happen Today]]></title>
+        <id>https://kottke.org/26/06/maybe-it-will-happen-today</id>
+        <link href="https://kottke.org/26/06/maybe-it-will-happen-today"/>
+        <updated>2026-06-29T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On Friday, I got a bee in my bonnet that this t-shirt should exist and so I made it and now you can buy it. The shirt is simple, straightforward, $25 (+s&h), and ships all over the world.
+A promotion. Making a new friend. Or the big cork-popping event; you know the one. Today could be the day!
+
+	
+Maybe it’ll even happen before the shirt reaches your mailbox! We should be so lucky.
+Thanks to Dan Cederholm at SimpleBits for his Free Lunch font and to Fourthwall for handling the shopping, printing, and fulfillment.
+Oh, and I also zhuzhed up the Goods page, where you can still get the Hypertext, Process, and Choppke’s tees. More fine not-hypertext products to come soon.
+
+ 
+
+        
+         
+Tags: fashion · kottke.org]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Writers Who Wrote The Most in History . &#8220;Corin...]]></title>
+        <id>https://kottke.org/26/06/0049226-the-writers-who-wrote-the</id>
+        <link href="https://kottke.org/26/06/0049226-the-writers-who-wrote-the"/>
+        <updated>2026-06-29T13:04:31.000Z</updated>
+        <summary type="html"><![CDATA[The Writers Who Wrote The Most in History. “Corin Tellado published more than 4,000 novels, mostly under a contract with Spanish publisher Bruguera, which obligated her to deliver a 76-page novel every single week for years.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Jon Udell]]></title>
         <id>https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything</id>
@@ -6628,58 +6671,6 @@ I find this post by David Wilson very relatable. David lists 16+ projects he's s
         <summary type="html"><![CDATA[No.405 — Big Tech’s anti-labor playbook ⊗ Evidence for the future? ⊗ Māori data sovereignty ⊗ Superhot rock holds the energy of the future ⊗ Britain tries a new solution: beavers]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Karen Kwok for Reuters Breakingviews]]></title>
-        <id>https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"/>
-        <updated>2026-05-31T01:48:12.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/"><p>Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/">Karen Kwok for Reuters Breakingviews</a>, citing "a person familiar with the matter"</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we contain Claude across products]]></title>
-        <id>https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything"/>
-        <updated>2026-05-30T21:36:24.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.anthropic.com/engineering/how-we-contain-claude">How we contain Claude across products</a></strong></p>
-A complaint I often have about sandboxing products is that they are rarely thoroughly <em>documented</em>, and in the absence of detailed documentation it's hard to know how much I can trust them.</p>
-<p>Anthropic just published a fantastic overview of how their various sandbox techniques work across <a href="https://claude.ai/">Claude.ai</a>, Claude Code, and Cowork.</p>
-<blockquote>
-<p>We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker.</p>
-</blockquote>
-<p>Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows).</p>
-<p>There's a lot in here, including some interesting stories of risks they missed such as the <code>api.anthropic.com/v1/files</code> exfiltration vector <a href="https://simonwillison.net/2026/Jan/14/claude-cowork-exfiltrates-files/">covered here previously</a>.</p>
-<p>This reminded me it's time I took another look at Anthropic's open source <a href="https://github.com/anthropic-experimental/sandbox-runtime">srt (Anthropic Sandbox Runtime)</a> tool - it's mature enough know that I'm ready to give it a proper go.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Running Python ASGI apps in the browser via Pyodide + a service worker]]></title>
-        <id>https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything"/>
-        <updated>2026-05-30T21:02:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p>
-        <p><a href="https://lite.datasette.io/">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p>
-<p>When I first built it <a href="https://simonwillison.net/2022/May/4/datasette-lite/">four years ago</a> I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app.</p>
-<p>This worked, but had the disadvantage that any JavaScript in <code>&lt;script&gt;</code> tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins.</p>
-<p>This morning I <a href="https://github.com/simonw/research/pull/112">set Claude Opus 4.8 the task</a> (in Claude Code for web) of figuring out how to run Python ASGI apps in Pyodide using Service Workers instead, and it seems to work! Here's a <a href="https://simonw.github.io/research/pyodide-asgi-browser/">basic ASGI FastCGI demo</a> and here's <a href="https://simonw.github.io/research/pyodide-asgi-browser/datasette.html">a demo that runs Datasette 1.0a31</a>.</p>
-<p>I'm still getting my head around exactly how it works, but once I've done that I plan to upgrade Datasette Lite itself.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/asgi">asgi</a>, <a href="https://simonwillison.net/tags/service-workers">service-workers</a>, <a href="https://simonwillison.net/tags/pyodide">pyodide</a>, <a href="https://simonwillison.net/tags/datasette-lite">datasette-lite</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
