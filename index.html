@@ -35,6 +35,98 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049234-what-is-queer-typography">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-30T21:23:33.000Z">2026-06-30</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/06/0049234-what-is-queer-typography" target="_blank" rel="noopener noreferrer">What is queer typography?  “I think that covers a...</a>
+          </h2>
+          <p class="feed-item__desc">What is queer typography? “I think that covers a lot of what queerness means: an attitude in the face of conformity, an attitude in the sea of passivity, an attitude to say yes when others say no.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049234-what-is-queer-typography" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049234-what-is-queer-typography">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-30T21:23:02.000Z">2026-06-30</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything" target="_blank" rel="noopener noreferrer">What&#x27;s new in Claude Sonnet 5</a>
+          </h2>
+          <p class="feed-item__desc">What's new in Claude Sonnet 5
+this morning. I always head straight for the "what's new" developer docs because they tend to have more actionable information than the official announcement post.
+Anthropic say of Sonnet 5 that "its performance is close to that of Opus 4.8, but at lower prices". The system card helps explain how they were able to release the model without being blocked by the US government:
+Sonnet 5 is significantly less capable at cyber tasks than Mythos 5: its safeguards are thus similar to those we apply to Opus 4.7 and Opus 4.8 (models that are more capable than Sonnet 5 but much less capable than Mythos 5).
+Of note from the "what's new" API changes:
+Sampling parameters temperature, top_p, top_k are no longer supported.
+It has a 1 million token context window and 128,000 maximum output tokens.
+It features "the same set of tools and platform features as Claude Sonnet 4.6"
+Adaptive thinking is on by default, unless you specify "thinking": {type: "disabled"}.
+The pricing is the same as Sonnet 4.6: $3/million input, $15/million input, with an introductory discount to $2/$10 until 31st August. But...
+The model has a new tokenizer, where "The same input text produces approximately 30% more tokens than on Claude Sonnet 4.6." - effectively a 30% price increase.
+I used my Claude Token Counter tool to try out the new tokenizer. Here are my results for several larger documents:
+Document
+      Sonnet 4.6
+      Opus 4.7
+      Sonnet 5
+    
+Universal Declaration of Human Rights (English)
+      2,356
+      3,347
+1.42x
+      3,341
+1.42x
+    
+Universal Declaration of Human Rights (Spanish)
+      3,572
+      4,753
+1.33x
+      4,747
+1.33x
+    
+Universal Declaration of Human Rights (Chinese, Mandarin Simplified)
+      3,334
+      3,366
+1.01x
+      3,360
+1.01x
+    
+sqlite_utils/db.py (4,279 lines of Python)
+      44,014
+      56,118
+1.28x
+      56,113
+1.27x
+    
+So the new token is roughly 1.4x times more expensive for English, 1.33x for Spanish, 1.28x for Python code and effectively the same cost for Simplified Mandarin.
+Here's the pelican. It's nothing to write home about. Sonnet 5 thinks it looks like a goose.
+
+
+    
+Via Hacker News
+Tags: ai, generative-ai, llms, anthropic, claude, llm-pricing, pelican-riding-a-bicycle, llm-release</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/sonnet-5-pelican.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-06-30T17:39:23.000Z">2026-06-30</time>
@@ -11653,25 +11745,6 @@ The post The Dirt That Refused To Die first appeared on Quanta Magazine</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/06/seventhseal.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12860">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-01T09:25:48.000Z">2026-06-01</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/06/01/doikayt/" target="_blank" rel="noopener noreferrer">Pluralistic: Molly Crabapple&#x27;s &#x27;Here Where We Live Is Our Country&#x27; (01 Jun 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Molly Crabapple's 'Here Where We Live Is Our Country': An essential book for this moment and for the moments that led to it. Hey look at this: Delights to delectate. Object permanence: Home chemistry sets in danger; Every pirate wants to be an admiral; Painful computer workarounds; JPEG patent invalidated; UBS whistleblower v USA (x USA); David Foster Wallace x tennis; Who cares about "bandwidth hogs?" Upcoming appearances: London, Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Molly Crabapple's 'Here Where We Live Is Our Country' (permalink) Molly Crabapple's Here Where We Live Is Our Cou…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12860" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12860">Mark read</button>
-            <span class="feed-item__reading-time">17 min read</span>
-          </div>
         </div>
       </div>
     </article>
