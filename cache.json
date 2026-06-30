@@ -44,16 +44,6 @@
           "wordCount": 2895,
           "title": "On metanarratives ⊗ Do not resign from life",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/Eddalaerenogdens000117736v3FinnReyk_orig_0352-crop.jpg"
-        },
-        {
-          "id": "6a1a1123dea4d900013c65d4",
-          "author": "Patrick Tanguay",
-          "description": "No.405 — Big Tech’s anti-labor playbook ⊗ Evidence for the future? ⊗ Māori data sovereignty ⊗ Superhot rock holds the energy of the future ⊗ Britain tries a new solution: beavers",
-          "link": "https://sentiers.media/holding-the-human-line-as-cyborgs-a-framework-for-action-no-405/",
-          "publishedOn": "2026-05-31T10:00:37.000Z",
-          "wordCount": 2869,
-          "title": "Holding the human line as cyborgs ⊗ A framework for action",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/05/23077444582_08a3eb6ede_b-w.jpg"
         }
       ]
     },
@@ -260,6 +250,16 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/06/0049231-a-tour-of-some-playground",
+          "author": null,
+          "description": "A tour of some playgrounds in NYC designed by kids, with features like pollinator gardens, hair-braiding stations, a floor-is-lava obstacle course, and human-sized chess boards. Love it — children should get way more of a say w/ stuff like this.",
+          "link": "https://kottke.org/26/06/0049231-a-tour-of-some-playground",
+          "publishedOn": "2026-06-29T22:00:00.000Z",
+          "wordCount": 895,
+          "title": "A tour of some playgrounds in NYC designed by kids ,...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/06/0049227-on-decision-fatigue",
           "author": null,
@@ -2038,6 +2038,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=50985",
+          "author": "Andy Baio",
+          "description": "another brilliant guide to the movies by internet cinephile Neil Cicierega\n#",
+          "link": "https://www.youtube.com/watch?v=XGWxJaZpDXo",
+          "publishedOn": "2026-06-30T01:45:06.000Z",
+          "wordCount": null,
+          "title": "Horrorfan1’s Guide to Horror",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=50972",
           "author": "Andy Baio",
           "description": "a quirky WebGL port by a high school student, check it out before it disappears\nWeb Curios #",
@@ -3240,22 +3250,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!sDKG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7727600c-8124-490e-9c5d-7ad549edfe7d_1719x1744.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/rare-vintage-report-search-terms-hidden-troves-concorde",
-          "author": "Blackbird Spyplane",
-          "description": "Your favorite clothes are out there waiting for you to find them",
-          "link": "https://www.blackbirdspyplane.com/p/rare-vintage-report-search-terms-hidden-troves-concorde",
-          "publishedOn": "2026-05-31T13:01:34.000Z",
-          "wordCount": null,
-          "title": "Rare vintage report",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!V8l5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d52708-e3e6-4b20-a364-9ddd43cac0c0_3024x2909.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!V8l5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d52708-e3e6-4b20-a364-9ddd43cac0c0_3024x2909.png"
         }
       ]
     },
@@ -3460,6 +3454,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/html-table-extractor\">HTML table extractor</a></p>\n        <p>Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON.</p>\n<p>Try it out by selecting everything on the Wikipedia <a href=\"https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_the_San_Francisco_Bay_Area\">List of cities and towns in the San Francisco Bay Area</a> page and pasting it directly into the tool:</p>\n<p><img alt=\"Screenshot of a web interface for converting table data between formats. A row of tabs labeled HTML, Markdown, CSV, TSV, and JSON sits below the bottom edge of a styled data table, with the TSV tab currently selected. The TSV tab displays the table's contents as tab-separated plain text in a monospaced font inside a bordered panel, with a &quot;Copy&quot; button in the upper right of that panel.\" src=\"https://static.simonwillison.net/static/2026/html-table.jpg\" /></p>\n<p>On a similar note, I recently <a href=\"https://github.com/simonw/tools/commit/f278e977751dbc1948baedfc2f26b6de870f60e6\">rebuilt</a> my <a href=\"https://tools.simonwillison.net/rich-text-to-markdown\">Rich text to markdown</a> tool to add support for tables and generally improve the UI.</p>\n<p><strong>Update</strong>: It turns out Wikipedia has an open CORS API for retrieving the full rendered HTML content of any page - <a href=\"https://tools.simonwillison.net/cors-fetch#url=https%3A%2F%2Fen.wikipedia.org%2Fw%2Fapi.php%3Faction%3Dparse%26page%3DList_of_cities_and_towns_in_the_San_Francisco_Bay_Area%26prop%3Dtext%26format%3Djson%26origin%3D%2A\">demo here</a>  - so I <a href=\"https://gist.github.com/simonw/f226fe96f464ec7d81d6996cb466436d\">had Codex</a> add the ability to search Wikipedia for a page and then automatically import and display any tables from that page.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/html\">html</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/wikipedia\">wikipedia</a>, <a href=\"https://simonwillison.net/tags/cors\">cors</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+          "publishedOn": "2026-06-29T23:38:21.000Z",
+          "wordCount": 905,
+          "title": "HTML table extractor",
+          "imageUrl": "https://static.simonwillison.net/static/2026/html-table.jpg"
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
           "author": null,
@@ -4226,43 +4230,7 @@
       "title": "bunnie's blog",
       "feedUrl": "https://www.bunniestudios.com/blog/?feed=rss2",
       "siteUrl": "https://www.bunniestudios.com/blog",
-      "articles": [
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7556",
-          "author": "bunnie",
-          "description": "Last month’s name that ware demonstrates that even though non-destructive IR imaging is not capable of resolving an individual bit cell, at least at 22nm it is still possible to constrain the number of bits in an SRAM macro. An important step in establishing trust in a computer is measuring all of its state and […]",
-          "link": "https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/",
-          "publishedOn": "2026-05-31T15:21:33.000Z",
-          "wordCount": 2940,
-          "title": "On Reading SRAMs in IR Images, and Establishing Bounds on Trust",
-          "enclosure": {
-            "url": "https://bunniefoo.com/iris/iris_at_home_sm.mp4",
-            "length": "10379063",
-            "type": "video/mp4"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7561",
-          "author": "bunnie",
-          "description": "The Ware for May 2026 is shown below. This month’s ware is on a theme similar to last month’s but about…50 years older. Lots of things change over the years, but the geometric organization of an array never goes out of style. On the other hand, I increasingly miss things that were designed for repair, […]",
-          "link": "https://www.bunniestudios.com/blog/2026/name-that-ware-may-2026/",
-          "publishedOn": "2026-05-31T15:17:06.000Z",
-          "wordCount": 966,
-          "title": "Name that Ware, May 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7559",
-          "author": "bunnie",
-          "description": "Seems like I overestimated people’s interest in looking at silicon images! Congrats to k8 for attempting the challenge, I appreciate the participation. email me for your prize! Recall that the list of possible memory dimensions is limited to a list of 28 possible types of memories. Given that, here’s the mapping of macros to memory […]",
-          "link": "https://www.bunniestudios.com/blog/2026/winner-name-that-ware-april-2026/",
-          "publishedOn": "2026-05-31T15:13:01.000Z",
-          "wordCount": 956,
-          "title": "Winner, Name that Ware April 2026",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Maggie Appleton",

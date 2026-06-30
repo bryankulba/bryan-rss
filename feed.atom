@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-29T21:24:07.163Z</updated>
+    <updated>2026-06-30T03:26:07.838Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Horrorfan1’s Guide to Horror]]></title>
+        <id>https://waxy.org/?p=50985</id>
+        <link href="https://www.youtube.com/watch?v=XGWxJaZpDXo"/>
+        <updated>2026-06-30T01:45:06.000Z</updated>
+        <summary type="html"><![CDATA[another brilliant guide to the movies by internet cinephile Neil Cicierega
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML table extractor]]></title>
+        <id>https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything"/>
+        <updated>2026-06-29T23:38:21.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/html-table-extractor">HTML table extractor</a></p>
+        <p>Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON.</p>
+<p>Try it out by selecting everything on the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_the_San_Francisco_Bay_Area">List of cities and towns in the San Francisco Bay Area</a> page and pasting it directly into the tool:</p>
+<p><img alt="Screenshot of a web interface for converting table data between formats. A row of tabs labeled HTML, Markdown, CSV, TSV, and JSON sits below the bottom edge of a styled data table, with the TSV tab currently selected. The TSV tab displays the table's contents as tab-separated plain text in a monospaced font inside a bordered panel, with a &quot;Copy&quot; button in the upper right of that panel." src="https://static.simonwillison.net/static/2026/html-table.jpg" /></p>
+<p>On a similar note, I recently <a href="https://github.com/simonw/tools/commit/f278e977751dbc1948baedfc2f26b6de870f60e6">rebuilt</a> my <a href="https://tools.simonwillison.net/rich-text-to-markdown">Rich text to markdown</a> tool to add support for tables and generally improve the UI.</p>
+<p><strong>Update</strong>: It turns out Wikipedia has an open CORS API for retrieving the full rendered HTML content of any page - <a href="https://tools.simonwillison.net/cors-fetch#url=https%3A%2F%2Fen.wikipedia.org%2Fw%2Fapi.php%3Faction%3Dparse%26page%3DList_of_cities_and_towns_in_the_San_Francisco_Bay_Area%26prop%3Dtext%26format%3Djson%26origin%3D%2A">demo here</a>  - so I <a href="https://gist.github.com/simonw/f226fe96f464ec7d81d6996cb466436d">had Codex</a> add the ability to search Wikipedia for a page and then automatically import and display any tables from that page.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/html">html</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/wikipedia">wikipedia</a>, <a href="https://simonwillison.net/tags/cors">cors</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A tour of some playgrounds in NYC designed by kids ,...]]></title>
+        <id>https://kottke.org/26/06/0049231-a-tour-of-some-playground</id>
+        <link href="https://kottke.org/26/06/0049231-a-tour-of-some-playground"/>
+        <updated>2026-06-29T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A tour of some playgrounds in NYC designed by kids, with features like pollinator gardens, hair-braiding stations, a floor-is-lava obstacle course, and human-sized chess boards. Love it — children should get way more of a say w/ stuff like this.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On decision fatigue : &#8220;Why are you so tired? The...]]></title>
         <id>https://kottke.org/26/06/0049227-on-decision-fatigue</id>
@@ -6734,56 +6773,6 @@ I find this post by David Wilson very relatable. David lists 16+ projects he's s
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Reading SRAMs in IR Images, and Establishing Bounds on Trust]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7556</id>
-        <link href="https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/"/>
-        <updated>2026-05-31T15:21:33.000Z</updated>
-        <summary type="html"><![CDATA[Last month’s name that ware demonstrates that even though non-destructive IR imaging is not capable of resolving an individual bit cell, at least at 22nm it is still possible to constrain the number of bits in an SRAM macro. An important step in establishing trust in a computer is measuring all of its state and […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Name that Ware, May 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7561</id>
-        <link href="https://www.bunniestudios.com/blog/2026/name-that-ware-may-2026/"/>
-        <updated>2026-05-31T15:17:06.000Z</updated>
-        <summary type="html"><![CDATA[The Ware for May 2026 is shown below. This month’s ware is on a theme similar to last month’s but about…50 years older. Lots of things change over the years, but the geometric organization of an array never goes out of style. On the other hand, I increasingly miss things that were designed for repair, […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winner, Name that Ware April 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7559</id>
-        <link href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-april-2026/"/>
-        <updated>2026-05-31T15:13:01.000Z</updated>
-        <summary type="html"><![CDATA[Seems like I overestimated people’s interest in looking at silicon images! Congrats to k8 for attempting the challenge, I appreciate the participation. email me for your prize! Recall that the list of possible memory dimensions is limited to a list of 28 possible types of memories. Given that, here’s the mapping of macros to memory […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rare vintage report]]></title>
-        <id>https://www.blackbirdspyplane.com/p/rare-vintage-report-search-terms-hidden-troves-concorde</id>
-        <link href="https://www.blackbirdspyplane.com/p/rare-vintage-report-search-terms-hidden-troves-concorde"/>
-        <updated>2026-05-31T13:01:34.000Z</updated>
-        <summary type="html"><![CDATA[Your favorite clothes are out there waiting for you to find them]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holding the human line as cyborgs ⊗ A framework for action]]></title>
-        <id>6a1a1123dea4d900013c65d4</id>
-        <link href="https://sentiers.media/holding-the-human-line-as-cyborgs-a-framework-for-action-no-405/"/>
-        <updated>2026-05-31T10:00:37.000Z</updated>
-        <summary type="html"><![CDATA[No.405 — Big Tech’s anti-labor playbook ⊗ Evidence for the future? ⊗ Māori data sovereignty ⊗ Superhot rock holds the energy of the future ⊗ Britain tries a new solution: beavers]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
 </feed>
