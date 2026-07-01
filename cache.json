@@ -261,6 +261,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/06/0049235-playwright-georgica-pettu",
+          "author": null,
+          "description": "Playwright Georgica Pettus has written a play called Truck, which is based on the excellent documentary Hands on a Hardbody. “I thought, ‘This is the best premise for a play, because all the attention goes to the dialogue.’”",
+          "link": "https://kottke.org/26/06/0049235-playwright-georgica-pettu",
+          "publishedOn": "2026-06-30T22:10:00.000Z",
+          "wordCount": 813,
+          "title": "Playwright Georgica Pettus has written a play called...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/06/0049234-what-is-queer-typography",
           "author": null,
           "description": "What is queer typography? “I think that covers a lot of what queerness means: an attitude in the face of conformity, an attitude in the sea of passivity, an attitude to say yes when others say no.”",
@@ -2059,36 +2069,6 @@
           "wordCount": 738,
           "title": "&#8220; Serena Williams has announced her sensational...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/the-illuminated-windows-of-nyc",
-          "author": null,
-          "description": "For his project Windows, Dave Krugman took photos of hundreds of NYC apartment windows at night and stitched them together into ever-shifting typologies. What’s going on in each of those apartments?\n\n \n\n        \n         \nTags: Dave Krugman · NYC · photography",
-          "link": "https://kottke.org/26/06/the-illuminated-windows-of-nyc",
-          "publishedOn": "2026-06-01T15:00:00.000Z",
-          "wordCount": 704,
-          "title": "The Illuminated Windows of NYC",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1780323177-401fbbf1.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/06/0049048-legendary-film-editor-mar",
-          "author": null,
-          "description": "Legendary film editor Marcia Lucas died last week. Lucas edited Star Wars (won an Oscar for it), Taxi Driver, Return of the Jedi, and American Graffiti. It was Marcia that suggested to George Lucas that Darth Vader kill Obi-Wan Kenobi.",
-          "link": "https://kottke.org/26/06/0049048-legendary-film-editor-mar",
-          "publishedOn": "2026-06-01T14:14:00.000Z",
-          "wordCount": 760,
-          "title": "Legendary film editor Marcia Lucas died last week ....",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049047-roost",
-          "author": null,
-          "description": "Roost is a messaging app where messages aren’t instant; they travel between users at the speed of whichever bird they use to send it. Note sending is limited by the # of birds in your rookery…if they’re all out, you have to wait until one returns.",
-          "link": "https://kottke.org/26/06/0049047-roost",
-          "publishedOn": "2026-06-01T13:30:00.000Z",
-          "wordCount": 807,
-          "title": "Roost  is a messaging app where messages aren&#8217;t...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3056,16 +3036,6 @@
           "wordCount": 1661,
           "title": "wavy",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/hubbard-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18442",
-          "author": "Warren Ellis",
-          "description": "After losing several hours yesterday to running every fix and check I could think of, I came to the sad conclusion that this laptop, a…",
-          "link": "https://warrenellis.ltd/status/retired-1jun26/",
-          "publishedOn": "2026-06-01T11:16:11.000Z",
-          "wordCount": 1604,
-          "title": "retired: 1jun26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/seventhseal.jpg"
         }
       ]
     },
@@ -3514,6 +3484,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/anthropicai/status/2072106151890809341\"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>\n<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/anthropicai/status/2072106151890809341\">Anthropic</a>, on Twitter</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+          "publishedOn": "2026-06-30T23:58:15.000Z",
+          "wordCount": 738,
+          "title": "Quoting Anthropic",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://deepmind.google/models/gemini-image/flash-lite/\">Nano Banana 2 Lite</a></strong></p>\nAlso known as Gemini 3.1 Flash Lite Image (<code>gemini-3.1-flash-lite-image</code> <a href=\"https://ai.google.dev/gemini-api/docs/image-generation\">in their API</a>), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".</p>\n<p>I <a href=\"https://aistudio.google.com/app/prompts/new_chat?model=gemini-3.1-flash-lite-image\">used AI studio</a> to run this prompt:</p>\n<blockquote>\n<p><code>Do a where's Waldo style image but it's where is the raccoon holding a ham radio</code></p>\n</blockquote>\n<p><img alt=\"Densely illustrated &quot;Where's Waldo&quot;-style cartoon of a woodland festival filled with anthropomorphic animals (bears, foxes, badgers, rabbits, squirrels, owls) under a banner reading &quot;FOREE'S FESTIVAL&quot; and another reading &quot;FOREST FIVAL,&quot; with bunting flags strung between trees, a Ferris wheel on the right, market stalls including one labeled &quot;ACORN FAIR,&quot; signs reading &quot;BANDSTAND,&quot; &quot;HAM RADIO MEET&quot; (appearing twice), and a stage where a bear plays guitar, a raccoon uses a ham radio, a badger plays drums, an owl looks on, and a fox plays trumpet, with crowds of animals wandering forest paths between trees and mountains in the background.\" src=\"https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg\" /></p>\n<p>I like that one better than <a href=\"https://simonwillison.net/2026/Apr/21/gpt-image-2/#nano-banana-2-and-pro\">the results I got from the other Nano Banana models</a> when I tried this back in April. It spelled Forest Festival wrong in two different ways though.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48735444\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/text-to-image\">text-to-image</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/nano-banana\">nano-banana</a></p>",
+          "link": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+          "publishedOn": "2026-06-30T22:15:35.000Z",
+          "wordCount": 827,
+          "title": "Nano Banana 2 Lite",
+          "imageUrl": "https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg"
+        },
         {
           "id": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
           "author": null,
@@ -4549,16 +4539,6 @@
           "wordCount": 3720,
           "title": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Magic-Gravity-cr-Irene-Perez-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=162566",
-          "author": "Siddhant Pusdekar",
-          "description": "Lifelike biochemistry continued to unfold in sterilized soil for six years, pointing to a metabolic theory for how biology began.            \nThe post The Dirt That Refused To Die first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/",
-          "publishedOn": "2026-06-01T14:44:57.000Z",
-          "wordCount": 3141,
-          "title": "The Dirt That Refused To Die",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Abiotic-metabolism-cr-Samuel-Velasco-Social.jpg"
         }
       ]
     },

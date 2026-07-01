@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-06-30T21:26:36.270Z</updated>
+    <updated>2026-07-01T03:34:50.522Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Anthropic]]></title>
+        <id>https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything"/>
+        <updated>2026-06-30T23:58:15.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/anthropicai/status/2072106151890809341"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>
+<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/anthropicai/status/2072106151890809341">Anthropic</a>, on Twitter</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nano Banana 2 Lite]]></title>
+        <id>https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything"/>
+        <updated>2026-06-30T22:15:35.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://deepmind.google/models/gemini-image/flash-lite/">Nano Banana 2 Lite</a></strong></p>
+Also known as Gemini 3.1 Flash Lite Image (<code>gemini-3.1-flash-lite-image</code> <a href="https://ai.google.dev/gemini-api/docs/image-generation">in their API</a>), this is the "fastest and cheapest Gemini image model, engineered for velocity and scale".</p>
+<p>I <a href="https://aistudio.google.com/app/prompts/new_chat?model=gemini-3.1-flash-lite-image">used AI studio</a> to run this prompt:</p>
+<blockquote>
+<p><code>Do a where's Waldo style image but it's where is the raccoon holding a ham radio</code></p>
+</blockquote>
+<p><img alt="Densely illustrated &quot;Where's Waldo&quot;-style cartoon of a woodland festival filled with anthropomorphic animals (bears, foxes, badgers, rabbits, squirrels, owls) under a banner reading &quot;FOREE'S FESTIVAL&quot; and another reading &quot;FOREST FIVAL,&quot; with bunting flags strung between trees, a Ferris wheel on the right, market stalls including one labeled &quot;ACORN FAIR,&quot; signs reading &quot;BANDSTAND,&quot; &quot;HAM RADIO MEET&quot; (appearing twice), and a stage where a bear plays guitar, a raccoon uses a ham radio, a badger plays drums, an owl looks on, and a fox plays trumpet, with crowds of animals wandering forest paths between trees and mountains in the background." src="https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg" /></p>
+<p>I like that one better than <a href="https://simonwillison.net/2026/Apr/21/gpt-image-2/#nano-banana-2-and-pro">the results I got from the other Nano Banana models</a> when I tried this back in April. It spelled Forest Festival wrong in two different ways though.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48735444">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/text-to-image">text-to-image</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/nano-banana">nano-banana</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Playwright Georgica Pettus has written a play called...]]></title>
+        <id>https://kottke.org/26/06/0049235-playwright-georgica-pettu</id>
+        <link href="https://kottke.org/26/06/0049235-playwright-georgica-pettu"/>
+        <updated>2026-06-30T22:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Playwright Georgica Pettus has written a play called Truck, which is based on the excellent documentary Hands on a Hardbody. “I thought, ‘This is the best premise for a play, because all the attention goes to the dialogue.’”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is queer typography?  &#8220;I think that covers a...]]></title>
         <id>https://kottke.org/26/06/0049234-what-is-queer-typography</id>
@@ -6964,63 +7010,6 @@ Tags: drones · Russia · ukraine · war]]></summary>
 Incredibly, it took only four years for the spectacle to regurgitate the absurdist nightmare future that George Miller had assembled in 1982’s Mad Max 2 as that most inane and transitory of commodities: a children’s board game...]]></summary>
         <author>
             <name>K.E. Roberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Illuminated Windows of NYC]]></title>
-        <id>https://kottke.org/26/06/the-illuminated-windows-of-nyc</id>
-        <link href="https://kottke.org/26/06/the-illuminated-windows-of-nyc"/>
-        <updated>2026-06-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For his project Windows, Dave Krugman took photos of hundreds of NYC apartment windows at night and stitched them together into ever-shifting typologies. What’s going on in each of those apartments?
-
- 
-
-        
-         
-Tags: Dave Krugman · NYC · photography]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Dirt That Refused To Die]]></title>
-        <id>https://www.quantamagazine.org/?p=162566</id>
-        <link href="https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/"/>
-        <updated>2026-06-01T14:44:57.000Z</updated>
-        <summary type="html"><![CDATA[Lifelike biochemistry continued to unfold in sterilized soil for six years, pointing to a metabolic theory for how biology began.            
-The post The Dirt That Refused To Die first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Siddhant Pusdekar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Legendary film editor Marcia Lucas died last week ....]]></title>
-        <id>https://kottke.org/26/06/0049048-legendary-film-editor-mar</id>
-        <link href="https://kottke.org/26/06/0049048-legendary-film-editor-mar"/>
-        <updated>2026-06-01T14:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Legendary film editor Marcia Lucas died last week. Lucas edited Star Wars (won an Oscar for it), Taxi Driver, Return of the Jedi, and American Graffiti. It was Marcia that suggested to George Lucas that Darth Vader kill Obi-Wan Kenobi.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Roost  is a messaging app where messages aren&#8217;t...]]></title>
-        <id>https://kottke.org/26/06/0049047-roost</id>
-        <link href="https://kottke.org/26/06/0049047-roost"/>
-        <updated>2026-06-01T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Roost is a messaging app where messages aren’t instant; they travel between users at the speed of whichever bird they use to send it. Note sending is limited by the # of birds in your rookery…if they’re all out, you have to wait until one returns.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[retired: 1jun26]]></title>
-        <id>https://warrenellis.ltd/?p=18442</id>
-        <link href="https://warrenellis.ltd/status/retired-1jun26/"/>
-        <updated>2026-06-01T11:16:11.000Z</updated>
-        <summary type="html"><![CDATA[After losing several hours yesterday to running every fix and check I could think of, I came to the sad conclusion that this laptop, a…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
