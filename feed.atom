@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-02T02:59:16.104Z</updated>
+    <updated>2026-07-02T07:29:00.249Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6830,126 +6830,6 @@ Eskimo)]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[micropython-wasm 0.1a1]]></title>
-        <id>https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything"/>
-        <updated>2026-06-02T19:20:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/micropython-wasm/releases/tag/0.1a1">micropython-wasm 0.1a1</a></p>
-        <p>Fixes for some limitations that emerged while I was trying to use this to build <code>datasette-agent-micropython</code>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Best Thing About The Satanic Panic . &#8220;There’s...]]></title>
-        <id>https://kottke.org/26/06/0049065-the-best-thing-about-the-</id>
-        <link href="https://kottke.org/26/06/0049065-the-best-thing-about-the-"/>
-        <updated>2026-06-02T18:56:00.000Z</updated>
-        <summary type="html"><![CDATA[The Best Thing About The Satanic Panic. “There’s a phenomenon called the rhyme-as-reason effect that says people are more likely to believe something is true if it rhymes.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JS Crossword . &#8220;This crossword uses some...]]></title>
-        <id>https://kottke.org/26/06/0049057-js-crossword</id>
-        <link href="https://kottke.org/26/06/0049057-js-crossword"/>
-        <updated>2026-06-02T18:19:00.000Z</updated>
-        <summary type="html"><![CDATA[JS Crossword. “This crossword uses some lesser-known and cursed JS features, so I’d recommend it for people already somewhat familiar with JavaScript.” Diabolical.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[California Brown Pelican]]></title>
-        <id>https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything"/>
-        <updated>2026-06-02T18:17:03.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/671786719/large.jpg" alt="California Brown Pelican"></p><p>California Brown Pelican, in Fort Mason, CA, US</p><p>I'm at the <a href="https://build.microsoft.com/">Microsoft Build</a> conference today, held at <a href="https://en.wikipedia.org/wiki/Fort_Mason">Fort Mason</a> in San Francisco. There are California Brown Pelicans diving into the water directly behind venue!</p>
-<p>Microsoft <a href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">announced two new text LLMs</a> this morning - <strong>MAI-Thinking-1</strong> (reasoning, 35B parameters, available to "select early partners") and <strong>MAI-Code-1-Flash</strong> (5B parameters, "purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code"). I've not been able to try either of them just yet.</p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Unsolved Mystery of Lorem Ipsum]]></title>
-        <id>https://waxy.org/?p=50661</id>
-        <link href="https://www.youtube.com/watch?v=kL1PDqzqhM4"/>
-        <updated>2026-06-02T17:59:03.000Z</updated>
-        <summary type="html"><![CDATA[excellent new video from Emily Zhang's Rabbit Hole, now over 200k subscribers with only three videos since its February launch (via) #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daft Punk, Medieval-Style]]></title>
-        <id>https://kottke.org/26/06/daft-punk-medieval-style</id>
-        <link href="https://kottke.org/26/06/daft-punk-medieval-style"/>
-        <updated>2026-06-02T17:23:59.000Z</updated>
-        <summary type="html"><![CDATA[Watch and listen to bardcore trio Courseval play a cover version of Daft Punk’s Veridis Quo, a track from Discovery. This is lovely. And a banger.
-Courseval have covered other popular music in medieval style, including Rihanna’s Umbrella, Take On Me by A-Ha, Bad Romance by Lady Gaga, and Gloria Gaynor’s I Will Survive.
-
- 
-
-        
-         
-Tags: Courseval · Daft Punk · music · remix · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frozen To -22 Degrees, BYD’s New EV Just Charged To 97%...]]></title>
-        <id>https://kottke.org/26/06/0049059-frozen-to--22-degrees-byd</id>
-        <link href="https://kottke.org/26/06/0049059-frozen-to--22-degrees-byd"/>
-        <updated>2026-06-02T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Frozen To -22 Degrees, BYD’s New EV Just Charged To 97% In Only 12 Minutes. This is genuinely impressive — charging and driving an EV in subzero winter weather is just brutal (ask me how I know).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[They’re doing a film adaptation of Tomorrow, and...]]></title>
-        <id>https://kottke.org/26/06/0049062-theyre-doing-a-film-adapt</id>
-        <link href="https://kottke.org/26/06/0049062-theyre-doing-a-film-adapt"/>
-        <updated>2026-06-02T15:52:00.000Z</updated>
-        <summary type="html"><![CDATA[They’re doing a film adaptation of Tomorrow, and Tomorrow, and Tomorrow. Daisy Edgar-Jones will play Sadie (perfect choice) and the director is Oscar-winner Siân Heder (Coda).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“There Ain’t Nothin’ Different”: When Dystopian Sci-Fi Ruled the Cola Wars]]></title>
-        <id>http://wearethemutants.com/?p=41991</id>
-        <link href="https://wearethemutants.com/2026/06/02/there-aint-nothin-different-when-dystopian-sci-fi-ruled-the-cola-wars/"/>
-        <updated>2026-06-02T15:21:23.000Z</updated>
-        <summary type="html"><![CDATA[By K.E. Roberts
-
-Star Wars and the Cola Wars collided, launching a series of futuristic, high concept TV ads that included all the major players. At the heart of it was one Ridley Scott...]]></summary>
-        <author>
-            <name>K.E. Roberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Birds of Palestine]]></title>
-        <id>https://kottke.org/26/06/the-birds-of-palestine</id>
-        <link href="https://kottke.org/26/06/the-birds-of-palestine"/>
-        <updated>2026-06-02T15:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Illustrator John Rooney has teamed up with the Middle East Children’s Alliance to produce and sell this Birds of Palestine print. Rooney on Instagram: “All profits will be going towards providing emergency assistance to children and families in what is still a dire situation in Palestine.”
-
- 
-
-        
-         
-Tags: art · birds · John Rooney · palestine]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
