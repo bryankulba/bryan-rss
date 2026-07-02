@@ -251,6 +251,76 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049253-the-average-paid-newslett",
+          "author": null,
+          "description": "“The average paid newsletter costs $10 per month or $100 per year, according to analysis of thousands of publications hosted on Beehiiv.” KDO memberships start at $3/mo. and I haven’t raised prices since 2016. You folks are getting an incredible deal!",
+          "link": "https://kottke.org/26/07/0049253-the-average-paid-newslett",
+          "publishedOn": "2026-07-02T17:25:00.000Z",
+          "wordCount": 746,
+          "title": "&#8220; The average paid newsletter costs $10 per month...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049250-hank-green-interviews-ze-",
+          "author": null,
+          "description": "Hank Green interviews Ze Frank, who kind of invented the modern YouTube format (aka vlogging). “At the episode’s end, Ze lays down some of the best advice Hank’s ever heard.”",
+          "link": "https://kottke.org/26/07/0049250-hank-green-interviews-ze-",
+          "publishedOn": "2026-07-02T16:45:00.000Z",
+          "wordCount": 849,
+          "title": "Hank Green interviews Ze Frank , who kind of invented...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049249-why-the-panic-about-trans",
+          "author": null,
+          "description": "Parker Molloy on why the panic about trans women in sports is not actually about fairness or protecting women & girls (in the similar way Gamergate was not about “ethics in games journalism”).",
+          "link": "https://kottke.org/26/07/0049249-why-the-panic-about-trans",
+          "publishedOn": "2026-07-02T16:04:00.000Z",
+          "wordCount": 631,
+          "title": "Parker Molloy on  why the panic about trans women in...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049247-will-america-ever-give-wh",
+          "author": null,
+          "description": "Will America Ever Give White-Man Rights to Everyone Else? “These documents…were written by rich white men for the benefit of rich white men, and this country has never for a day recovered from their failure.”",
+          "link": "https://kottke.org/26/07/0049247-will-america-ever-give-wh",
+          "publishedOn": "2026-07-02T15:38:00.000Z",
+          "wordCount": 642,
+          "title": "Will America Ever Give White-Man Rights to Everyone...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049248-the-us-constitution-is-fo",
+          "author": null,
+          "description": "The US Constitution Is for Simple Folk Still Burdened by the Belief That Words Have Meaning. “The true Constitution is not a document. It’s more of a gut feeling. It is a shimmering legal gas that settles wherever conservatives need it most…”",
+          "link": "https://kottke.org/26/07/0049248-the-us-constitution-is-fo",
+          "publishedOn": "2026-07-02T15:08:00.000Z",
+          "wordCount": 656,
+          "title": "The US Constitution Is for Simple Folk Still Burdened by...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049246-what-is-the-united-states",
+          "author": null,
+          "description": "Rebecca Solnit: What Is the United States of America Now? “The United States of America is a truck that has driven into a ditch. The United States of America is a program that has been hacked.” But also: “It is the country that gave the world jazz…”",
+          "link": "https://kottke.org/26/07/0049246-what-is-the-united-states",
+          "publishedOn": "2026-07-02T14:38:00.000Z",
+          "wordCount": 651,
+          "title": "Rebecca Solnit:  What Is the United States of America...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049175-report-from-a-celebrity-i",
+          "author": null,
+          "description": "Report from a cruise full of celebrity impersonators. “A woman sat a toddler down beside us, while another, larger toddler tugged at her capris. At this point, every child was starting to look like Wallace Shawn.”",
+          "link": "https://kottke.org/26/07/0049175-report-from-a-celebrity-i",
+          "publishedOn": "2026-07-02T14:08:00.000Z",
+          "wordCount": 757,
+          "title": "Report from a cruise full of celebrity impersonators ....",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049245-erling-haaland-brings-the",
           "author": null,
           "description": "Erling Haaland “brings the intensity of a raiding party to the sport”. And: “Haaland can call to mind a shark circling dark waters.”",
@@ -3375,6 +3445,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
+          "author": null,
+          "description": "<p>I saw Geoffrey Litt speak at <a href=\"https://www.ai.engineer/worldsfair/2026\">AIE</a> yesterday, and one framing he used particularly resonated with me:</p>\n<p><strong>Understand to participate</strong></p>\n<p>Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> as your understanding drifts from how the code actually works.</p>\n<p>His argument is that you need to understand the code to a depth that enables you to participate further with the model:</p>\n<blockquote>\n<p>You can learn what the agent is doing to make sure you can be an active participant in the creative process. [...]</p>\n<p>You need a rich set of concepts in your mind to think creatively and fluently about how to move something forward. If you're lacking that fluency, your ability to participate in the project is meaningfully limited.</p>\n</blockquote>\n<p>The AIE talks are all recorded - all 300+ of them! - and should be trickling out over the next three weeks. Geoffrey's is one that I recommend catching on YouTube.</p>\n<p>Geoffrey also published <a href=\"https://twitter.com/geoffreylitt/status/2072522251300409556\">a thread version of his talk</a> on Twitter.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/geoffrey-litt\">geoffrey-litt</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
+          "publishedOn": "2026-07-02T17:07:14.000Z",
+          "wordCount": 910,
+          "title": "Understand to participate",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
           "author": null,
           "description": "<blockquote cite=\"https://twitter.com/anthropicai/status/2072106151890809341\"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>\n<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/anthropicai/status/2072106151890809341\">Anthropic</a>, on Twitter</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
@@ -4200,6 +4280,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=163841",
+          "author": "Jay Bennett",
+          "description": "Faced with observations of early black holes and galaxies that weren’t expected to exist, scientists have come up with a wealth of new theories to explain them. Now they just need to figure out which ones are true.            \nThe post Astrophysicists Puzzle Over Webb’s New Universe first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+          "publishedOn": "2026-07-02T14:57:31.000Z",
+          "wordCount": 3646,
+          "title": "Astrophysicists Puzzle Over Webb’s New Universe",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/JWSTUpdate-crKristinaArmitage-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=163798",
           "author": "Yasemin Saplakoglu",
