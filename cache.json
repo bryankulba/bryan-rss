@@ -251,12 +251,42 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049254--weather-forecasts-are-le",
+          "author": null,
+          "description": "As it was foretold: the Trump regime gutted the NOAA and now weather forecasts are less accurate. An atmospheric scientist: “The forecasts I’m able to offer you are less accurate than they would otherwise be.”",
+          "link": "https://kottke.org/26/07/0049254--weather-forecasts-are-le",
+          "publishedOn": "2026-07-02T19:25:00.000Z",
+          "wordCount": 737,
+          "title": "As it was foretold: the Trump regime gutted the NOAA and...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049251-the-40-best-albums-from-t",
+          "author": null,
+          "description": "Something for the digital crate-diggers: The 40 Best Albums From the Last 40 Years That You Probably Didn’t Hear (But Should’ve). I’d only heard of one or two these…",
+          "link": "https://kottke.org/26/07/0049251-the-40-best-albums-from-t",
+          "publishedOn": "2026-07-02T18:45:00.000Z",
+          "wordCount": 1103,
+          "title": "Something for the digital crate-diggers:  The 40 Best...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049252-dictionary-of-the-illegib",
+          "author": null,
+          "description": "“Dictionary of the Illegible proposes illegibility as a strategy for navigating a world increasingly governed by visibility, efficiency, and total surveillance.”",
+          "link": "https://kottke.org/26/07/0049252-dictionary-of-the-illegib",
+          "publishedOn": "2026-07-02T18:05:00.000Z",
+          "wordCount": 727,
+          "title": "&#8220; Dictionary of the Illegible  proposes...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049253-the-average-paid-newslett",
           "author": null,
           "description": "“The average paid newsletter costs $10 per month or $100 per year, according to analysis of thousands of publications hosted on Beehiiv.” KDO memberships start at $3/mo. and I haven’t raised prices since 2016. You folks are getting an incredible deal!",
           "link": "https://kottke.org/26/07/0049253-the-average-paid-newslett",
           "publishedOn": "2026-07-02T17:25:00.000Z",
-          "wordCount": 746,
+          "wordCount": 1005,
           "title": "&#8220; The average paid newsletter costs $10 per month...",
           "imageUrl": ""
         },
@@ -266,7 +296,7 @@
           "description": "Hank Green interviews Ze Frank, who kind of invented the modern YouTube format (aka vlogging). “At the episode’s end, Ze lays down some of the best advice Hank’s ever heard.”",
           "link": "https://kottke.org/26/07/0049250-hank-green-interviews-ze-",
           "publishedOn": "2026-07-02T16:45:00.000Z",
-          "wordCount": 849,
+          "wordCount": 935,
           "title": "Hank Green interviews Ze Frank , who kind of invented...",
           "imageUrl": ""
         },
@@ -286,7 +316,7 @@
           "description": "Will America Ever Give White-Man Rights to Everyone Else? “These documents…were written by rich white men for the benefit of rich white men, and this country has never for a day recovered from their failure.”",
           "link": "https://kottke.org/26/07/0049247-will-america-ever-give-wh",
           "publishedOn": "2026-07-02T15:38:00.000Z",
-          "wordCount": 642,
+          "wordCount": 637,
           "title": "Will America Ever Give White-Man Rights to Everyone...",
           "imageUrl": ""
         },
@@ -3444,6 +3474,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts#readme\">Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts</a></p>\n        <p>One of this morning's AIE keynotes covered <a href=\"https://github.com/stanfordnlp/dspy\">dspy</a>, which reminded me I've been meaning to see if it could help me improve the system prompt used by <a href=\"https://agent.datasette.io\">Datasette Agent</a> - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5:</p>\n<blockquote>\n<p><code>Pip install the latest Datasette alpha and datasette-agent and dspy - then figure out how to use dspy to evaluate and improve the main system prompts used by Datasette Agent for the feature where it can execute read only SQL queries to answer user questions about data.</code></p>\n</blockquote>\n<p>Fable chose to test using GPT 4.1 mini and nano, and identified several promising looking directions for improvements. I particularly like this one:</p>\n<blockquote>\n<p>The schema listing gives only table names; the \"don't call describe_table if you already have the information\" advice caused column-name guessing (page_count, o.order_id, first_name) and error-retry loops in baseline traces. Either include column names in the prompt's schema listing or soften that advice.</p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/evals\">evals</a>, <a href=\"https://simonwillison.net/tags/dspy\">dspy</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+          "publishedOn": "2026-07-02T18:25:00.000Z",
+          "wordCount": 970,
+          "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
           "author": null,
