@@ -35,6 +35,69 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-02T19:33:12.000Z">2026-07-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything" target="_blank" rel="noopener noreferrer">llm-coding-agent 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm-coding-agent 0.1a0
+Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.
+I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript):
+Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands
+Then:
+Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment
+Here's the spec, the resulting README file, and the sequence of commits.
+I've shipped a slop-alpha to PyPI, so you can run the new agent like this:
+uvx --prerelease=allow --with llm-coding-agent llm code
+
+It's pretty good for a first attempt! Here's the (Fable-authored) README, which lists recipes like llm code --yolo and llm code --allow "pytest*" --allow "git diff*".
+It also presents a Python API based around a CodingAgent(model="gpt-5.5", root="/path", approve=True).run("Fix the failing test in tests/test_parser.py") class which I didn't ask for but I'm delighted to see implemented.
+Here's the suite of tools it implemented, listed using uvx ... llm tools:
+CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -> str
+Replace an exact string in a file.
+old_string must match the file contents exactly (including
+whitespace) and must identify a unique location unless replace_all
+is true. Returns a diff of the change so it can be verified.
+CodingTools_execute_command(command: str, timeout: int = 120) -> str
+Run a shell command in the session root directory.
+Returns combined stdout and stderr followed by an Exit code line.
+timeout is in seconds (maximum 600); on timeout the whole process
+tree is killed.
+CodingTools_list_files(pattern: str = '**/*', path: str = '.') -> str
+List files matching a glob pattern, newest first.
+Skips hidden directories, node_modules, __pycache__ and (in a git
+repository) anything covered by .gitignore. Returns at most 200
+paths relative to the searched directory.
+CodingTools_read_file(path: str, offset: int = 0, limit: int = 2000) -> str
+Read a text file, returning numbered lines like cat -n.
+Paths are relative to the session root. Use offset (0-based first
+line) and limit (max lines) to page through files too large to read
+in one call.
+CodingTools_search_files(pattern: str, path: str = '.', glob: str = None, max_results: int = 100) -> str
+Search file contents for a regular expression.
+Returns matches as path:line_number:line, capped at max_results.
+Use glob (e.g. "*.py") to restrict which files are searched.
+CodingTools_write_file(path: str, content: str) -> str
+Create or overwrite a file with the given content.
+Parent directories are created as needed. Prefer edit_file for
+modifying existing files.
+I tried it out by running llm code --yolo and then prompting:
+mkdir /tmp/demo and then in that folder create a simple swiftui CLI app for telling the time in ascii art
+Here's the transcript, in which GPT-5.5 reasoning notes that "SwiftUI isn't suitable for a true CLI" and then builds an app that outputs this on swift run AsciiTime:
+Tags: projects, ai, generative-ai, llm, llm-tool-use, coding-agents, claude-code, claude-mythos-fable</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049254--weather-forecasts-are-le">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-02T19:25:00.000Z">2026-07-02</time>
@@ -336,6 +399,122 @@ The post Astrophysicists Puzzle Over Webb’s New Universe first appeared on Qua
             <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13002">Mark read</button>
             <span class="feed-item__reading-time">11 min read</span>
           </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-78534">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-02T00:00:00.000Z">2026-07-01</time>
+        <span class="feed-item__source">The Wire: Home</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-78534" target="_blank" rel="noopener noreferrer">James Gormley presents  Adventures In Sound And Music</a>
+          </h2>
+          <p class="feed-item__desc">The Wire’s weekly radio show on Resonance FM and Resonance Extra featured music by Nuke Watch, Weird Shit U.S.A.2, Lesley Mok, Mavin Tate, Speaker Music and more
+
+Tracklist
+
+Nuke Watch
+    
+ “New American Psycho 2”
+    
+ from Fusion
+    
+Sagome)
+
+Weird Shit U.S.A.2
+    
+ “Ketamine Era (edit)”
+    
+ from Slow Diet Ketamine Era
+    
+Artetetra)
+
+Negro Leo
+    
+ “Coisado”
+    
+ from White Elephant
+    
+ (Hive Mind)
+
+Victoria Mingot
+    
+ “Zero Sensuality”
+    
+ from God Spill
+    
+ (5 Gate Temple)
+
+Lesley Mok
+    
+ “Midland”
+    
+ from Transient
+    
+ (American Dreams)
+
+Speaker Music
+    
+ “Saecularhythmia – The Rhythmanalyst relates to semiocoustic reason.” *
+    
+ from Synoptic Audio
+    
+Planet Mu)
+    
+Object Collection and Richard Foreman
+    
+ “Elsewhere 1”
+    
+ from Suppose Beautiful Madeleine Harvey
+    
+Infrequent Seams)
+
+Marvin Tate featuring LeRoy Bach
+    
+ “Darren”
+    
+ from Controlled Burn
+    
+ (Amalgam)
+
+Nurse With Wound
+    
+ “I Was No Longer His Dominant”
+    
+ from Automating Volume One
+    
+ (United Dairies)
+
+Chris Corsano & Tashi Dorji
+    
+ “Parallel Deceptions”
+    
+ from Live At Ritual Botanica
+    
+Feeding Tube)
+
+SML
+    
+ “The Drums (edit)”
+    
+ from Spontaneous Music Live
+    
+ (International Anthem)
+
+*Also featured on The Wire Tapper 71
+
+Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-78534" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-78534">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.thewire.co.uk/img/max/1200/1200/2026/07/02/Wire_aism_2_July.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
@@ -1299,6 +1478,26 @@ Tags: shot-scraper</p>
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50985" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50985">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://craigmod.com/roden/115/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-06-30T00:00:00.000Z">2026-06-29</time>
+        <span class="feed-item__source">Craig Mod — Writer + Photographer</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://craigmod.com/roden/115/" target="_blank" rel="noopener noreferrer">[RODEN] Go Knicks, A Better Goodreads, &#x27;Cheap&#x27; Killer Films</a>
+          </h2>
+          <p class="feed-item__desc">Roden Readers —
+Go Knicks! Or something like that. What a time to be in NYC. (So everyone tells me.) I watched the last game in the courtyard at a Jane Jacobs–designed co-op in the West Village surrounded by kids and crunchy adults and then wandered in a collective stupor through the streets of New York until about two in the morning bearing witness to decades of repressed joy. A few nights later, Matt Rodbard and I were having dinner in Fort Greene and in walked Spike Lee, looking as happy as any a man could look.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://craigmod.com/roden/115/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://craigmod.com/roden/115/">Mark read</button>
+            <span class="feed-item__reading-time">8 min read</span>
           </div>
         </div>
       </div>
@@ -11445,101 +11644,6 @@ Tags: how to · Jason Zweig · working</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/the-three-ways-to-make-a-living">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;162658">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-03T14:34:29.000Z">2026-06-03</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/" target="_blank" rel="noopener noreferrer">Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.</a>
-          </h2>
-          <p class="feed-item__desc">In holographic theories, physicists may have traced the pliability of space-time to its quantum roots: a measure of quantumness known as “magic.”            
-The post Entanglement Builds Space-Time. Now “Magic” Gives It Gravity. first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;162658" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;162658">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/06/Magic-Gravity-cr-Irene-Perez-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049066-muji-once-sold-a-car">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-03T14:24:38.000Z">2026-06-03</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049066-muji-once-sold-a-car" target="_blank" rel="noopener noreferrer">TIL that  Muji once sold a car . “The Muji Car 1000...</a>
-          </h2>
-          <p class="feed-item__desc">TIL that Muji once sold a car. “The Muji Car 1000 was a debadged and stripped down 2-door version of the Nissan March, with the smallest engine, an automatic, steel wheels, and A/C, available in one color: white.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049066-muji-once-sold-a-car" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049066-muji-once-sold-a-car">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-03T12:01:27.000Z">2026-06-03</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything" target="_blank" rel="noopener noreferrer">Uber Caps Usage of AI Tools Like Claude Code to Manage Costs</a>
-          </h2>
-          <p class="feed-item__desc">Uber Caps Usage of AI Tools Like Claude Code to Manage Costs
-the other day about Uber blowing its 2026 AI budget in four months, and how that wasn't particularly surprising given they would have set that budget in 2025, before anyone could have predicted how popular token-burning coding agents were about to become.
-Natalie Lung for Bloomberg:
-The rideshare giant is limiting all employees to $1,500 in monthly token spending per AI coding tool, an Uber spokesperson said in response to a Bloomberg News inquiry. That means spending on one tool doesn’t have a bearing on the budget for another. The limits, which have been instituted in recent months, only apply to agentic coding software such as Cursor or Anthropic PBC’s Claude Code.
-A $1,500 monthly limit per tool strikes me as a rational policy response to over-spending, and much more sensible than those tokenmaxxing leaderboards encouraging employees to compete for as much AI usage as possible.
-It's also interesting in that it hints at a real dollar value for what Uber is getting out of these tools. If we assume two actively used tools per engineer that's $3,000 * 12 = $36,000 cap per engineer per year. Levels.fyi lists the median yearly compensation package for Uber software engineers in the USA at $330,000.
-That means each employee's AI spending cap is ~11% of that median compensation package.
-I noted that my own token usage comes to about $1,000/month against each of Anthropic and OpenAI - which currently costs me just $100 per provider thanks to their generous subsidized plans for individual subscribers. Those plans are no longer available to larger companies like Uber.
-Their new policy means if I were working at Uber I'd still have ~$500/month of tokens to spare for each of those tools, given my current usage patterns.
-
-
-    
-Tags: ai, generative-ai, llms, llm-pricing, coding-agents, uber</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18467">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-03T10:37:02.000Z">2026-06-03</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/taste/" target="_blank" rel="noopener noreferrer">taste</a>
-          </h2>
-          <p class="feed-item__desc">Marisa Aragón Ware. All year I’ve been reading about taste. Someone somewhere identified that one of the things AI can’t do is “taste.” Now it…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18467" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18467">Mark read</button>
-            <span class="feed-item__reading-time">7 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/06/Socialist-Modernism-in-Former-Yugoslavia-the-third-photo-album-digital-guide-in-3rd-edition-o.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
