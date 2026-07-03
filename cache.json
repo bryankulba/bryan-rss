@@ -53,6 +53,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/07/03/factories",
+          "author": null,
+          "description": "I went into my kid’s school a couple months back and spoke to the year group about manufacturing.\nHonestly it was the most rewarding speaking gig I’ve done all year.\nIt was about the process of making my AI clock and I have a ton of pics from my factory visit to Shenzhen (mostly pics that I have only shared with Kickstarter backers).\nI talked about where ideas come from and the value of playing around, and how it’s neat to learn new techniques that you can combine together.\nI talked about prototyping and design – and was sure to use the words “prototyping” and “design”. I showed exploratory sketches and what CAD looks like.\nI handed round various iterations of e-paper screens, and electronics from breadboard to PCB, and various iterations of plastic parts.\nIt’s interesting to see how a pla…",
+          "link": "https://interconnected.org/home/2026/07/03/factories",
+          "publishedOn": "2026-07-03T15:33:00.000Z",
+          "wordCount": 1092,
+          "title": "Factories are just rooms",
+          "imageUrl": "https://interconnected.org/home/2026/07/03/factories.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/06/27/filtered",
           "author": null,
           "description": "1.\nIt’s hot in London so I’ve been seeing a lot of handheld portable fans, usually with a strap so you can hang it round your neck.\nMy faves are the ones with thermoelectric coolers in the middle of the fan: a small plate that is so cold that it is covered with icy condensation. It’s the Peltier effect (the plate is really hot on the back) and the first time I’ve seen a thermoelectric cooler in the wild.\nHere’s a thermoelectric handheld fan on Alibaba. Three quid each if you’re buying over a million.\nA fan looks like a fan because of the mechanism used for the movement of air.\nI’ve been meditating this week on what motivates form in product design.\nHey free concept: AirPods with built-in Peltier thermoelectric coolers so the buds are ice-cold in your ear holes.\n2.\nA fan moves air; electron…",
@@ -2410,7 +2420,7 @@
           "description": "Today's links CARDiac, syntax coloring, view source and vibe code: With great abstraction comes great power comes great responsibility comes great loss of fidelity. Hey look at this: Delights to delectate. Object permanence: Real elections v reality TV; Copyright troll loses license; Who gets fed housing subsidies? Trump x forced labor. Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. CARDiac, syntax coloring, view source and vibe code (permalink) In the mid-1970s, my dad – then a budding computer scientist, subsequently a math teacher – brought home my first computer: the CARDiac,…",
           "link": "https://pluralistic.net/2026/07/03/rod-logic/",
           "publishedOn": "2026-07-03T09:00:15.000Z",
-          "wordCount": 4325,
+          "wordCount": 4327,
           "title": "Pluralistic: CARDiac, syntax coloring, view source and vibe code (03 Jul 2026)",
           "imageUrl": null
         },
@@ -3354,6 +3364,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+          "author": null,
+          "description": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-06-june.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Claude Fable 5, GPT-5.6, and US export restrictions</li>\n<li>GLM-5.2 is the new best open weights model</li>\n<li>Tokenmaxxing is so over</li>\n<li>Datasette Apps</li>\n<li>sqlite-utils and shot-scraper and Datasette</li>\n<li>Miscellaneous WASM projects</li>\n<li>Other model releases</li>\n<li>What I'm using</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-05-may.md\">a copy of the May newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+          "publishedOn": "2026-07-03T14:50:50.000Z",
+          "wordCount": 829,
+          "title": "June 2026 newsletter",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
           "author": null,
