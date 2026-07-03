@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-03T02:43:06.090Z</updated>
+    <updated>2026-07-03T07:18:37.174Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/821096012140658688</id>
+        <link href="https://brucesterling.tumblr.com/post/821096012140658688"/>
+        <updated>2026-07-03T05:56:18.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[llm-coding-agent 0.1a0]]></title>
         <id>https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything</id>
@@ -6887,113 +6896,6 @@ The band played for about 90 minutes (2 sets plus an encore), working through tr
         
          
 Tags: David Byrne · music · Talking Heads · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paul Giamatti appears on The Tommy Tiernan Show ....]]></title>
-        <id>https://kottke.org/26/06/0049052-paul-giamatti-appears-on-</id>
-        <link href="https://kottke.org/26/06/0049052-paul-giamatti-appears-on-"/>
-        <updated>2026-06-03T19:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Paul Giamatti appears on The Tommy Tiernan Show. Here’s the catch: “Each episode Tommy welcomes mystery guests and interviews them without any preparation or knowledge of who will be joining him until they meet in studio.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haiku  is a generative music album for MacOS....]]></title>
-        <id>https://kottke.org/26/06/0049073-haiku</id>
-        <link href="https://kottke.org/26/06/0049073-haiku"/>
-        <updated>2026-06-03T18:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Haiku is a generative music album for MacOS. “Haiku is a work of generative music that builds its own sound from nothing each time you open it, and never plays the same way twice — a record that exists only while it is playing.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tony Gilroy Accepts Award for Andor: “Fuck the Empire!&#8221;]]></title>
-        <id>https://kottke.org/26/06/tony-gilroy-accepts-award-for-andor-fuck-the-empire-1</id>
-        <link href="https://kottke.org/26/06/tony-gilroy-accepts-award-for-andor-fuck-the-empire-1"/>
-        <updated>2026-06-03T17:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Now that Andor has been out for a while, showrunner Tony Gilroy is free to speak his mind on what the show was all about. I mean, it was pretty clear to the audience, but now he can say his piece. Andor won a Peabody Award and at the awards ceremony, Gilroy gave the following acceptance speech:
-We spent six years contemplating a fascist takeover of a galaxy far, far away. Six years thinking about what happens to ordinary beings when an authoritarian, insane, unchecked regime comes into the deal, and the show is really kind of what we learned.
-If you’re not willing to fight for the things that you love — your family, community, your culture, your planet, your truth, freedom — there’s an asshole ready to come in and take it away. We learned that bravery and sacrifice and resistance comes in …]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;As far as artist signatures go, Jan van...]]></title>
-        <id>https://kottke.org/26/06/0049034-he-spells-out-his-own-nam</id>
-        <link href="https://kottke.org/26/06/0049034-he-spells-out-his-own-nam"/>
-        <updated>2026-06-03T16:37:00.000Z</updated>
-        <summary type="html"><![CDATA[“As far as artist signatures go, Jan van Kessel’s seventeenth-century painting in which he spells out his own name with caterpillars and snakes must be up there with the best of them.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Companies are using Reddit to manipulate ChatGPT and Google AI search]]></title>
-        <id>https://waxy.org/?p=50672</id>
-        <link href="https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/"/>
-        <updated>2026-06-03T16:13:32.000Z</updated>
-        <summary type="html"><![CDATA[404 Media reports on companies specializing in AEO, AI-engine optimization, the evolution of SEO scum #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Mihai Parparita reads social media via RSS]]></title>
-        <id>https://waxy.org/?p=50670</id>
-        <link href="https://blog.persistent.info/2026/06/how-i-consume-bluesky-and-twitter-and.html"/>
-        <updated>2026-06-03T16:06:58.000Z</updated>
-        <summary type="html"><![CDATA[his Stream Spigot tool now supports Mastodon, Bluesky, and X/Twitter using Nitter's reverse-engineered private endpoints #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Good news! As of June 1,  a transmission line is...]]></title>
-        <id>https://kottke.org/26/06/0049070-a-transmission-line-is-de</id>
-        <link href="https://kottke.org/26/06/0049070-a-transmission-line-is-de"/>
-        <updated>2026-06-03T15:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Good news! As of June 1, a transmission line is delivering hydro-generated electricity into NYC: “1,250 megawatts of clean energy directly into New York City’s power grid”. That’s around 20% of the city’s total electric load, now clean.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seas of Blood, Rains of Fire: The Post-Apocalyptic Worlds of Early ‘Dungeons & Dragons’]]></title>
-        <id>http://wearethemutants.com/?p=42049</id>
-        <link href="https://wearethemutants.com/2026/06/03/seas-of-blood-rains-of-fire-the-post-apocalyptic-worlds-of-early-dungeons-dragons/"/>
-        <updated>2026-06-03T15:28:43.000Z</updated>
-        <summary type="html"><![CDATA[By Michael Grasso 
-
-A couple of years ago, a canny and intelligent friend referred to the Advanced Dungeons & Dragons setting of the Forgotten Realms as "post-apocalyptic." I thought for a moment, ready to dismiss the fictional world’s bog-standard fantasy feudalism as nothing of the sort...]]></summary>
-        <author>
-            <name>Michael Grasso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Three Ways to Make a Living]]></title>
-        <id>https://kottke.org/26/06/the-three-ways-to-make-a-living</id>
-        <link href="https://kottke.org/26/06/the-three-ways-to-make-a-living"/>
-        <updated>2026-06-03T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Well, this is kinda depressing, courtesy of Jason Zweig’s father:
-There are three ways to make a living:
-1) Lie to people who want to be lied to, and you’ll get rich.
-2) Tell the truth to those who want the truth, and you’ll make a living.
-3) Tell the truth to those who want to be lied to, and you’ll go broke.
-
-	
-I aim for #2. But maybe society needs more of #3 and, it goes without saying, a whole lot less of #1. (via df)
-
- 
-
-        
-         
-Tags: how to · Jason Zweig · working]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
