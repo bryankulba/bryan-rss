@@ -2623,16 +2623,6 @@
           "wordCount": 4879,
           "title": "Pluralistic: Refining humanity (05 Jun 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12874",
-          "author": "Cory Doctorow",
-          "description": "Today's links Delusion as a service: Destructive diagnostics. Hey look at this: Delights to delectate. Object permanence: Gay Days at Disney World; Parametric 3D printable key; Fine against sculpture for \"storing bike on public property\"; TPP is a wash; Reagan was Trump; Steampunk roadster; \"Every Heart a Doorway\"; Shoplifters x Tumblr; Amazon v mass arbitration; Driver-owned Uber alternative; Censorware censors criticism of censorware; 3 strikes copyright termination is illegal; Replacing al Qaeda bomb recipes with cakes; $10m grilled cheese platform; Dick van Dyke x Bernie; Efficiency is inefficient; I quit. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em.…",
-          "link": "https://pluralistic.net/2026/06/03/mission-space/",
-          "publishedOn": "2026-06-04T06:42:39.000Z",
-          "wordCount": 4661,
-          "title": "Pluralistic: Delusion as a service (04 Jun 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -3364,6 +3354,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+          "author": null,
+          "description": "<p>One of the most interesting tips I got from <a href=\"https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_30_main_stage_1230_2026_06_08t09_35_43_039z\">the Fireside Chat</a> I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.</p>\n<p>The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.</p>\n<p>Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.</p>\n<p>I prompted Claude Code just now with:</p>\n<blockquote>\n<p><code>For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent</code></p>\n</blockquote>\n<p>Claude saved this memory file in <code>~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md</code>:</p>\n<blockquote>\n<pre><code>---\nname: delegate-coding-to-subagents\ndescription: Simon wants coding tasks delegated to subagents running an appropriately lower-power model\nmetadata: \n  node_type: memory\n  type: feedback\n  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a\n---\n</code></pre>\n<p>Stated by Simon on 2026-07-03: \"For all coding tasks use your judgement to\ndecide an appropriate lower power model and run that in a subagent.\"</p>\n<p><strong>Why:</strong> cost/efficiency — implementation work rarely needs the top-tier\nmodel; judgment, review, and synthesis stay with the main loop.</p>\n<p><strong>How to apply:</strong> when a task in this project is primarily writing/editing\ncode, spawn an Agent with a model override (sonnet for substantive\nimplementation, haiku for trivial/mechanical edits) and a self-contained\nprompt; review the result in the main loop before committing. Design,\nauditing, data synthesis, and anything judgment-heavy stays in the main\nmodel. See also [[project-goals]].</p>\n</blockquote>\n<p>So far it seems to be working well. I'm getting a <em>ton</em> of work done and my Fable allowance is shrinking less quickly than before.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+          "publishedOn": "2026-07-03T18:51:06.000Z",
+          "wordCount": 1083,
+          "title": "Fable's judgement",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
           "author": null,

@@ -35,6 +35,51 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/3/judgement/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-03T18:51:06.000Z">2026-07-03</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/3/judgement/#atom-everything" target="_blank" rel="noopener noreferrer">Fable&#x27;s judgement</a>
+          </h2>
+          <p class="feed-item__desc">One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.
+The example they gave was testing. You can tell Fable "only use automated testing for larger features, don't update and run tests for small copy or design changes" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.
+Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.
+I prompted Claude Code just now with:
+For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent
+Claude saved this memory file in ~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md:
+---
+name: delegate-coding-to-subagents
+description: Simon wants coding tasks delegated to subagents running an appropriately lower-power model
+metadata: 
+  node_type: memory
+  type: feedback
+  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a
+---
+
+Stated by Simon on 2026-07-03: "For all coding tasks use your judgement to
+decide an appropriate lower power model and run that in a subagent."
+Why: cost/efficiency — implementation work rarely needs the top-tier
+model; judgment, review, and synthesis stay with the main loop.
+How to apply: when a task in this project is primarily writing/editing
+code, spawn an Agent with a model override (sonnet for substantive
+implementation, haiku for trivial/mechanical edits) and a self-contained
+prompt; review the result in the main loop before committing. Design,
+auditing, data synthesis, and anything judgment-heavy stays in the main
+model. See also [[project-goals]].
+So far it seems to be working well. I'm getting a ton of work done and my Fable allowance is shrinking less quickly than before.
+Tags: claude, ai, claude-code, llms, prompt-engineering, coding-agents, generative-ai, claude-mythos-fable, anthropic</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/3/judgement/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/3/judgement/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://interconnected.org/home/2026/07/03/factories">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-03T15:33:00.000Z">2026-07-03</time>
@@ -11277,25 +11322,6 @@ Tags: Fred Rogers · stamps · TV · USPS</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12874">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-04T06:42:39.000Z">2026-06-03</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/06/03/mission-space/" target="_blank" rel="noopener noreferrer">Pluralistic: Delusion as a service (04 Jun 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Delusion as a service: Destructive diagnostics. Hey look at this: Delights to delectate. Object permanence: Gay Days at Disney World; Parametric 3D printable key; Fine against sculpture for "storing bike on public property"; TPP is a wash; Reagan was Trump; Steampunk roadster; "Every Heart a Doorway"; Shoplifters x Tumblr; Amazon v mass arbitration; Driver-owned Uber alternative; Censorware censors criticism of censorware; 3 strikes copyright termination is illegal; Replacing al Qaeda bomb recipes with cakes; $10m grilled cheese platform; Dick van Dyke x Bernie; Efficiency is inefficient; I quit. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em.…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12874" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12874">Mark read</button>
-            <span class="feed-item__reading-time">16 min read</span>
-          </div>
         </div>
       </div>
     </article>
