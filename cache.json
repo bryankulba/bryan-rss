@@ -1869,46 +1869,6 @@
           "wordCount": 696,
           "title": "Illustrated break-downs of how common objects work ....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049082-descartes-against-humanit",
-          "author": null,
-          "description": "“Descartes Against Humanity” and Other Games Designed by Famous Philosophers.",
-          "link": "https://kottke.org/26/06/0049082-descartes-against-humanit",
-          "publishedOn": "2026-06-04T21:00:00.000Z",
-          "wordCount": 418,
-          "title": "“Descartes Against Humanity” and Other Games Designed by...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049087-chipotlai-max",
-          "author": null,
-          "description": "Chipotlai Max is an AI agent that runs on “stolen compute” from Chipotle’s AI chat bot. They are looking to borrow from bots from Ikea, Expedia, Home Depot, and others.",
-          "link": "https://kottke.org/26/06/0049087-chipotlai-max",
-          "publishedOn": "2026-06-04T20:20:00.000Z",
-          "wordCount": 838,
-          "title": "Chipotlai Max  is an AI agent that runs on “stolen...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/12/08/the-life-and-death-of-sports-fans",
-          "author": null,
-          "description": "Team Spirit is a wonderful short film for ESPN by Errol Morris about the funerals of die-hard sports fans.\n\nI love the Steelers fan laid out in a recliner under a Steelers blanket in front of a television with a Steelers game on as if “he just fell asleep watching the game”.\n\n \n\n         \n[This is a vintage post originally from Aug 2012.]\nTags: Errol Morris · sports · timeless posts · video",
-          "link": "https://kottke.org/12/08/the-life-and-death-of-sports-fans",
-          "publishedOn": "2026-06-04T19:40:00.000Z",
-          "wordCount": 477,
-          "title": "The Life and Death of Sports Fans",
-          "imageUrl": "https://i.ytimg.com/vi/8tdqBbMcJX8/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/06/0049084-the-official-trailer-for-",
-          "author": null,
-          "description": "The official trailer for season three of Silo. Looks like we finally get some origin story stuff (well, more than a brief scene at least).",
-          "link": "https://kottke.org/26/06/0049084-the-official-trailer-for-",
-          "publishedOn": "2026-06-04T18:51:00.000Z",
-          "wordCount": 768,
-          "title": "The official trailer for season three of Silo . Looks...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3996,16 +3956,6 @@
           "publishedOn": "2026-06-05T11:10:05.000Z",
           "wordCount": 799,
           "title": "Quoting Andreas Kling",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against\">AI enthusiasts are in a race against time, AI skeptics are in a race against entropy</a></strong></p>\nCharity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams:</p>\n<blockquote>\n<p>The enthusiasts are <em>not wrong</em>. We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, existential threat.</p>\n<p>The skeptics are also <em>not wrong</em>. When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, institutional knowledge evaporates. You end up with systems nobody understands, products burbling into incoherence, and on-call rotations that grind people up and spit them out. That is ALSO a real existential threat.</p>\n</blockquote>\n<p>Charity recommends treating this as both a leadership challenge and an engineering challenge. The key issue:</p>\n<blockquote>\n<p>There is no natural feedback loop connecting enthusiasts with skeptics.</p>\n</blockquote>\n<p>Designing feedback loops to help \"mend the gap in shared reality\" between the two groups is a fascinating organizational design problem.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/ri4flr/ai_enthusiasts_are_race_against_time_ai\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/charity-majors\">charity-majors</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
-          "publishedOn": "2026-06-04T23:55:27.000Z",
-          "wordCount": 961,
-          "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
           "imageUrl": null
         }
       ]
