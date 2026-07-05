@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-05T02:49:45.512Z</updated>
+    <updated>2026-07-05T07:23:33.407Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -166,6 +166,17 @@
 </blockquote>
     
         <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sqlite-utils 4.0rc2]]></title>
+        <id>https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything"/>
+        <updated>2026-07-05T00:47:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-utils/releases/tag/4.0rc2">sqlite-utils 4.0rc2</a></p>
+        <p>See <a href="https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/">sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</a>.</p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -6696,39 +6707,6 @@ OpenAI first teased this <a href="https://openai.com/index/introducing-lockdown-
         <summary type="html"><![CDATA[Today's links Refining humanity: What our technology is shows us what we're not. Hey look at this: Delights to delectate. Object permanence: GNU Radio; France v "follow us on Twitter"; Aaronsw vindicated; Capitalism's crooked refs. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Refining humanity (permalink) One of the best ways to evaluate your own understanding of a subject is to attempt to explain it to someone else. Through explaining things, we discover how much of the "totally obvious" world is actually full of ambiguity, mystery and contradiction. There's a great bit in Rowan…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Self-driving legs to walk me to the office]]></title>
-        <id>https://interconnected.org/home/2026/06/05/splitbody</id>
-        <link href="https://interconnected.org/home/2026/06/05/splitbody"/>
-        <updated>2026-06-05T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[When we end up voluntary ceding control of our own body parts to AI (for example so we can automatically walk around the grocery story while simultaneously catching up on boxsets on a VR headset) I wonder what that will feel like.
-The underlying tech is currently in research phase.
-What I mean is that humanoid robots are coming (as previously discussed).
-And while robots are a mechanical challenge and a software challenge, some people are asking: what if you took that software part and pointed it at something else? Like, not a robot shaped like the human body but the human body itself.
-For example: you can directly drive the muscles using Electrical Muscle Stimulation (EMS).
-Here’s a new wearable called Human Operator which won MIT Hard Mode 2026.
-Human Operator is a human augmentation too…]]></summary>
-        <author>
-            <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Summer Fridays, Open Thread]]></title>
-        <id>https://kottke.org/26/06/summer-fridays-open-thread</id>
-        <link href="https://kottke.org/26/06/summer-fridays-open-thread"/>
-        <updated>2026-06-05T14:52:00.000Z</updated>
-        <summary type="html"><![CDATA[I’m observing summer Fridays here at KDO again this year, which means I (mostly) won’t be posting here on Fridays. If past years are any guide, this doesn’t actually have too much of an effect on how much I work or post…more of a redistribution of time & effort. But it’s nice to have the extra non-weekend day to catch up on other things. This morning, I lounged in bed a little, sat on my deck and read while drinking my morning chai, and stared off into the distance on this lovely day. Then I need to finish mowing my lawn after posting this.
-Since it’s been a bit since the last open thread, let’s convene one today. What’s been going on in your neck of the woods? Anything you’d like to share with the rest of the group? Do you have something fun coming up? Something you’re dreading? How can we help? What’s the best thing you’ve seen or read or listened to recently? Got a new project? Or an old one, rekindled?
-
- 
-
-        
-         
-Tags: kottke.org · open threads]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
