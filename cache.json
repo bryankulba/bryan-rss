@@ -2453,16 +2453,6 @@
           "wordCount": 3522,
           "title": "Pluralistic: Naomi Kritzer's \"Obstetrix\" (09 Jun 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12885",
-          "author": "Cory Doctorow",
-          "description": "Today's links Criticizing the everything machine: It slices, it dices, it even makes paperclips! Hey look at this: Delights to delectate. Object permanence: Parliament v DRM; Colbert's commencement; Counterfeiting x luxury goods; Joule thief; Lean-back media. Upcoming appearances: Kansas City, LA, Menlo Park, Toronto, NYC, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Criticizing the everything machine (permalink) \"Gish Gallop\" is the debating term for an opponent who makes so many claims that \"it's impossible to address them in the time available\" (it's named for Creationist Duane Gish, who was notorious for this tactic): https://en.wikipedia.…",
-          "link": "https://pluralistic.net/2026/06/06/applied-counterescatology/",
-          "publishedOn": "2026-06-06T18:00:00.000Z",
-          "wordCount": 3543,
-          "title": "Pluralistic: Criticizing the everything machine (06 Jun 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2477,6 +2467,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18645",
+          "author": "Warren Ellis",
+          "description": "Tamara Dean. Eliza Douglas. journaia. morning computer: some useful things first thing in the day. My free weekly newsletter is at https://orbitaloperations.beehiiv.com/",
+          "link": "https://warrenellis.ltd/mc/morning-computer-self/",
+          "publishedOn": "2026-07-06T05:00:00.000Z",
+          "wordCount": 1162,
+          "title": "morning computer self",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/dean-11-960x720-1.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18642",
           "author": "Warren Ellis",
@@ -3138,6 +3138,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc3\">sqlite-utils 4.0rc3</a></p>\n        <p>I hoped to release <code>sqlite-utils 4.0</code> stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 <a href=\"https://sqlite-utils.datasette.io/en/latest/changelog.html#rc3-2026-07-05\">kept getting bigger</a>.</p>\n<p>The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to <a href=\"https://sqlite-utils.datasette.io/en/latest/python-api.html#foreign-keys\">table.foreign_keys</a> and hence needed to land for the 4.0 stable release.</p>\n<p><code>sqlite-utils</code> also now follows SQLite's convention for case insensitive column names, which turned out to touch <a href=\"https://sqlite-utils.datasette.io/en/latest/changelog.html#case-insensitive-column-matching\">a bunch of different places at once</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+          "publishedOn": "2026-07-06T05:40:08.000Z",
+          "wordCount": 858,
+          "title": "sqlite-utils 4.0rc3",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
           "author": null,
