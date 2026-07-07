@@ -44,16 +44,6 @@
           "wordCount": 2936,
           "title": "We may be entering a second Axial Age ⊗ Radical abundance",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/daniel-honies-yJwcjpalCyY-unsplash-w.jpg"
-        },
-        {
-          "id": "6a247f2689ae7500014517c2",
-          "author": "Patrick Tanguay",
-          "description": "No.406 — Sensing the third horizon ⊗ The public should own half of the big AI companies ⊗ Cities that lost the economic development plot ⊗ The illuminated windows of NYC",
-          "link": "https://sentiers.media/on-metanarratives-do-not-resign-from-life-no-406/",
-          "publishedOn": "2026-06-07T10:00:28.000Z",
-          "wordCount": 2895,
-          "title": "On metanarratives ⊗ Do not resign from life",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/Eddalaerenogdens000117736v3FinnReyk_orig_0352-crop.jpg"
         }
       ]
     },
@@ -110,6 +100,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/fable-is-good/",
+          "author": null,
+          "description": "<p>Astonishment. <a href=\"https://www.robinsloan.com/lab/fable-is-good/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/fable-is-good/",
+          "publishedOn": "2026-07-06T20:00:00.000Z",
+          "wordCount": 5746,
+          "title": "Dragoncatcher: Fable is very good",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/de-datafication/",
           "author": null,
           "description": "<p>What would it take... to start anew? <a href=\"https://www.robinsloan.com/lab/de-datafication/\">Read here.</a></p>",
@@ -137,16 +137,6 @@
           "publishedOn": "2026-06-17T09:00:00.000Z",
           "wordCount": 5510,
           "title": "Dragoncatcher: The story is computers",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/bigger-story/",
-          "author": null,
-          "description": "<p>We are using somebody else's vacuum tubes. <a href=\"https://www.robinsloan.com/lab/bigger-story/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/bigger-story/",
-          "publishedOn": "2026-06-07T11:00:00.000Z",
-          "wordCount": 5585,
-          "title": "Dragoncatcher: The bigger story",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
@@ -3038,22 +3028,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6c5a46b7-e7b0-468c-809e-72c934320176_1378x1028.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/hiking-sandal-realness",
-          "author": "Blackbird Spyplane",
-          "description": "Plus summer-weight button ups, a packable linen suit, non-wack tabi sneakers & more on-demand recon",
-          "link": "https://www.blackbirdspyplane.com/p/hiking-sandal-realness",
-          "publishedOn": "2026-06-07T13:01:31.000Z",
-          "wordCount": null,
-          "title": "Hiking-sandal realness",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!EhQE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3f306c8-a38e-479a-9c9f-5844443bca01_2842x2841.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!EhQE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3f306c8-a38e-479a-9c9f-5844443bca01_2842x2841.png"
         }
       ]
     },
@@ -3258,6 +3232,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://huggingface.co/tencent/Hy3\">tencent/Hy3</a></strong></p>\nNew Apache 2.0 licensed model from Tencent in China:</p>\n<blockquote>\n<p>Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.</p>\n</blockquote>\n<p>The full-sized model is 598GB on Hugging Face, and the FP8 quantized one <a href=\"https://huggingface.co/tencent/Hy3-FP8/tree/main\">is 300GB</a>. The context length is 256K.</p>\n<p>It's available for free <a href=\"https://openrouter.ai/tencent/hy3:free\">on OpenRouter until July 21st</a>. I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this:</p>\n<p><img alt=\"Flat-style cartoon illustration  of a white pelican with a large orange beak riding a red bicycle across a pale blue background, its long orange legs stretched down to the pedals, with gray horizontal motion lines behind it suggesting speed.\" src=\"https://static.simonwillison.net/static/2026/hy3-pelican.png\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+          "publishedOn": "2026-07-06T23:57:35.000Z",
+          "wordCount": 882,
+          "title": "tencent/Hy3",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
           "author": null,
