@@ -241,6 +241,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/medieval-wound-man",
+          "author": null,
+          "description": "From The Public Domain Review, The Many Lives of the Medieval Wound Man, a diagram found in many medical texts beginning in the early 1400s.\nLiving on today in libraries from Copenhagen to Munich, the strange figure of the Wound Man gives modern viewers a glimpse of the worrying injuries that the medieval body could receive through war, accident, and epidemic. But at the same time, it shows that medieval people did not think of themselves as helpless victims in the face of these assaults. Far from reinforcing the common perception of the European Middle Ages as a backwards and bloody period of human history, the Wound Man reminds us that it was in fact a period busy with innovative medical treatments, a vital link between the long-standing cures of the classical world and developments that were to follow in early Renaissance medicine.\n\n \n\n        \n         \nTags: illustration · medicine",
+          "link": "https://kottke.org/26/07/medieval-wound-man",
+          "publishedOn": "2026-07-07T22:17:00.000Z",
+          "wordCount": 829,
+          "title": "Medieval Wound Man",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1783344961-22aba619.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/07/0049277-if-only-there-had-been-a-",
+          "author": null,
+          "description": "If Only There Had Been a Sign That the Face-Melting Nazi from Indiana Jones Wouldn’t Make a Good Senator. “Marion Ravenwood said he trapped her in a room and physically assaulted her. But I decided to keep supporting Toht anyway.”",
+          "link": "https://kottke.org/26/07/0049277-if-only-there-had-been-a-",
+          "publishedOn": "2026-07-07T21:38:00.000Z",
+          "wordCount": 681,
+          "title": "If Only There Had Been a Sign That the Face-Melting Nazi...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049269-interviews-with-some-of-t",
           "author": null,
           "description": "Interviews with some of the dwindling number of survivors of World War II Japanese American incarceration camps, including George Takei.",
@@ -2896,16 +2916,6 @@
           "wordCount": 1421,
           "title": "big world cafe",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/image_processing20260527-2-emtbzg.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18480",
-          "author": "Warren Ellis",
-          "description": "Shawn Huckins. Amazon Web Services are having issues. Which means half the internet is off. I’m okay with that. If I wasn’t buried in finishing…",
-          "link": "https://warrenellis.ltd/status/off-position/",
-          "publishedOn": "2026-06-08T11:18:20.000Z",
-          "wordCount": 1500,
-          "title": "off position",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/huckins-8.jpg"
         }
       ]
     },
@@ -3356,6 +3366,46 @@
           "publishedOn": "2026-07-07T19:32:57.000Z",
           "wordCount": 2730,
           "title": "sqlite-utils 4.0, now with database schema migrations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-migrate/releases/tag/0.2\">sqlite-migrate 0.2</a></p>\n        <p>The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
+          "publishedOn": "2026-07-07T16:33:55.000Z",
+          "wordCount": 771,
+          "title": "sqlite-migrate 0.2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/github-code-component\">github-code Web Component</a></p>\n        <p>An experimental Web Component built using GPT-5.5 and <a href=\"https://gist.github.com/simonw/0e3db21947b5ae7e29e8a4f69a0b0617\">the following prompt</a>:</p>\n<blockquote>\n<p><code>let's build a Web Component for embedding code from GitHub</code></p>\n<p><code>&lt;github-code href=\"https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18\"&gt;&lt;/github-code&gt;</code></p>\n<p><code>It takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sqlite-ast/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py, then uses fetch() to fetch them and displays the specified range of lines - with line numbers, no syntax highlighting though</code></p>\n<p><code>Show me a preview web browser so I can see your work</code></p>\n</blockquote>\n<p>Here's what it looks like embedded on this page:</p>\n<p><github-code href=\"https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18\"></github-code></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+          "publishedOn": "2026-07-07T16:18:16.000Z",
+          "wordCount": 823,
+          "title": "github-code Web Component",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0\">sqlite-utils 4.0</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Jul/7/sqlite-utils-4/\">sqlite-utils 4.0, now with database schema migrations</a> for details.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
+          "publishedOn": "2026-07-07T15:42:43.000Z",
+          "wordCount": 763,
+          "title": "sqlite-utils 4.0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc4\">sqlite-utils 4.0rc4</a></p>\n        <p>The last RC before the 4.0 stable release. Mainly <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150\">implements feedback</a> from a detailed review by Claude Fable 5.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+          "publishedOn": "2026-07-07T05:36:15.000Z",
+          "wordCount": 774,
+          "title": "sqlite-utils 4.0rc4",
           "imageUrl": null
         },
         {

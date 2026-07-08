@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-07T21:21:37.333Z</updated>
+    <updated>2026-07-08T02:27:58.558Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Medieval Wound Man]]></title>
+        <id>https://kottke.org/26/07/medieval-wound-man</id>
+        <link href="https://kottke.org/26/07/medieval-wound-man"/>
+        <updated>2026-07-07T22:17:00.000Z</updated>
+        <summary type="html"><![CDATA[From The Public Domain Review, The Many Lives of the Medieval Wound Man, a diagram found in many medical texts beginning in the early 1400s.
+Living on today in libraries from Copenhagen to Munich, the strange figure of the Wound Man gives modern viewers a glimpse of the worrying injuries that the medieval body could receive through war, accident, and epidemic. But at the same time, it shows that medieval people did not think of themselves as helpless victims in the face of these assaults. Far from reinforcing the common perception of the European Middle Ages as a backwards and bloody period of human history, the Wound Man reminds us that it was in fact a period busy with innovative medical treatments, a vital link between the long-standing cures of the classical world and developments that were to follow in early Renaissance medicine.
+
+ 
+
+        
+         
+Tags: illustration · medicine]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If Only There Had Been a Sign That the Face-Melting Nazi...]]></title>
+        <id>https://kottke.org/26/07/0049277-if-only-there-had-been-a-</id>
+        <link href="https://kottke.org/26/07/0049277-if-only-there-had-been-a-"/>
+        <updated>2026-07-07T21:38:00.000Z</updated>
+        <summary type="html"><![CDATA[If Only There Had Been a Sign That the Face-Melting Nazi from Indiana Jones Wouldn’t Make a Good Senator. “Marion Ravenwood said he trapped her in a room and physically assaulted her. But I decided to keep supporting Toht anyway.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Interviews with some of the dwindling number of...]]></title>
         <id>https://kottke.org/26/07/0049269-interviews-with-some-of-t</id>
@@ -257,6 +284,42 @@ Tags: design · fashion · iPhone · soccer · sports · World Cup 2026]]></summ
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[sqlite-migrate 0.2]]></title>
+        <id>https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything"/>
+        <updated>2026-07-07T16:33:55.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-migrate/releases/tag/0.2">sqlite-migrate 0.2</a></p>
+        <p>The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[github-code Web Component]]></title>
+        <id>https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything"/>
+        <updated>2026-07-07T16:18:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/github-code-component">github-code Web Component</a></p>
+        <p>An experimental Web Component built using GPT-5.5 and <a href="https://gist.github.com/simonw/0e3db21947b5ae7e29e8a4f69a0b0617">the following prompt</a>:</p>
+<blockquote>
+<p><code>let's build a Web Component for embedding code from GitHub</code></p>
+<p><code>&lt;github-code href="https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18"&gt;&lt;/github-code&gt;</code></p>
+<p><code>It takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sqlite-ast/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py, then uses fetch() to fetch them and displays the specified range of lines - with line numbers, no syntax highlighting though</code></p>
+<p><code>Show me a preview web browser so I can see your work</code></p>
+</blockquote>
+<p>Here's what it looks like embedded on this page:</p>
+<p><github-code href="https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18"></github-code></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/web-components">web-components</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hans Zimmer: Live in Concert]]></title>
         <id>https://kottke.org/26/07/hans-zimmer-live-in-concert</id>
         <link href="https://kottke.org/26/07/hans-zimmer-live-in-concert"/>
@@ -270,6 +333,20 @@ Tags: design · fashion · iPhone · soccer · sports · World Cup 2026]]></summ
 Tags: Hans Zimmer · Martin Timko · movies · music · remix · video]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sqlite-utils 4.0]]></title>
+        <id>https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything"/>
+        <updated>2026-07-07T15:42:43.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-utils/releases/tag/4.0">sqlite-utils 4.0</a></p>
+        <p>See <a href="https://simonwillison.net/2026/Jul/7/sqlite-utils-4/">sqlite-utils 4.0, now with database schema migrations</a> for details.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -310,6 +387,20 @@ Tags: Hans Zimmer · Martin Timko · movies · music · remix · video]]></summa
         <summary type="html"><![CDATA[Heatwave-tested]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sqlite-utils 4.0rc4]]></title>
+        <id>https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything"/>
+        <updated>2026-07-07T05:36:15.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-utils/releases/tag/4.0rc4">sqlite-utils 4.0rc4</a></p>
+        <p>The last RC before the 4.0 stable release. Mainly <a href="https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150">implements feedback</a> from a detailed review by Claude Fable 5.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7120,16 +7211,6 @@ The post How Terry Tao Became an Evangelist for AI in Math first appeared on Qua
         <summary type="html"><![CDATA[Yeah, I’ll read the hell out of a Wesley Morris profile of Steven Spielberg. “Spielberg has always known that his movies are attempts to understand his boyhood and his parents, to try to heal them through fiction and illuminate parts of himself.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[off position]]></title>
-        <id>https://warrenellis.ltd/?p=18480</id>
-        <link href="https://warrenellis.ltd/status/off-position/"/>
-        <updated>2026-06-08T11:18:20.000Z</updated>
-        <summary type="html"><![CDATA[Shawn Huckins. Amazon Web Services are having issues. Which means half the internet is off. I’m okay with that. If I wasn’t buried in finishing…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
