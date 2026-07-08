@@ -251,6 +251,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049290-start-trying-tiny-experim",
+          "author": null,
+          "description": "Stop chasing life goals and start trying tiny experiments to learn from instead. “Chasing goals doesn’t work for life’s most important questions — career, relationships, health. It’s like locking in your answer before you have understood the question.”",
+          "link": "https://kottke.org/26/07/0049290-start-trying-tiny-experim",
+          "publishedOn": "2026-07-08T20:45:00.000Z",
+          "wordCount": 776,
+          "title": "Stop chasing life goals and  start trying tiny...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049285-whats-the-point-of-sex-an",
+          "author": null,
+          "description": "What’s the Point of Sex, Anyway? “There is yet another kind of male, known among ichthyologists as a ‘sneaky mater.’ This type dispenses altogether with nest-building and partnering and simply darts around squirting.”",
+          "link": "https://kottke.org/26/07/0049285-whats-the-point-of-sex-an",
+          "publishedOn": "2026-07-08T19:45:00.000Z",
+          "wordCount": 753,
+          "title": "What’s the Point of Sex, Anyway?  &#8220;There is yet...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049281-the-open-source-ai-gap-ma",
+          "author": null,
+          "description": "The Open Source AI Gap Map shows the current capabilities of open source AI tools with an eye toward answering an important question: “What building blocks are missing for creating completely open source AI products?”",
+          "link": "https://kottke.org/26/07/0049281-the-open-source-ai-gap-ma",
+          "publishedOn": "2026-07-08T18:17:00.000Z",
+          "wordCount": 652,
+          "title": "The Open Source AI Gap Map  shows the current...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049297-the-end-of-reading-is-her",
+          "author": null,
+          "description": "The End of Reading Is Here. “The decline of reading will bring about changes of the same magnitude. It will affect our innermost thoughts, our society’s politics and culture, and how we tell the history of our civilization.”",
+          "link": "https://kottke.org/26/07/0049297-the-end-of-reading-is-her",
+          "publishedOn": "2026-07-08T17:27:52.000Z",
+          "wordCount": 1670,
+          "title": "The End of Reading Is Here . &#8220;The decline of...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/why-the-best-player-alive-barely-runs",
           "author": null,
           "description": "David Epstein, author of the recent Inside the Box (a book about the value of constraints), did a fascinating video on “anticipatory skill” and “chunking” and how players like Lionel Messi and Cristiano Ronaldo (who can accurately head the ball even in the dark) use them to slow down a fast, complex game.\nAnd this is the skill that Messi, Ronaldo, and Pujols all share. They’re chunking positions of people and angles of legs and spins of balls in order to understand immediately what’s going on and what might happen next. The more patterns you absorb in any domain, the less effort it takes to read what’s happening and to predict what’s coming next.\nSo when Messi walks, he’s not resting. He’s chunking the entire field. Every position, every shift, every gap in the backline is feeding a patter…",
@@ -3278,6 +3318,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/kentonvarda/status/2074924213983740233\"><p>I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team.</p>\n<p>AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/kentonvarda/status/2074924213983740233\">Kenton Varda</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kenton-varda\">kenton-varda</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+          "publishedOn": "2026-07-08T20:03:34.000Z",
+          "wordCount": 792,
+          "title": "Quoting Kenton Varda",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
           "author": null,
