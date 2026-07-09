@@ -35,6 +35,165 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049306-how-and-why-to-cull-your-">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T21:17:00.000Z">2026-07-09</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049306-how-and-why-to-cull-your-" target="_blank" rel="noopener noreferrer">How — and Why — to Cull Your Book Collection . “6....</a>
+          </h2>
+          <p class="feed-item__desc">How — and Why — to Cull Your Book Collection. “6. I have to give up on some of my little projects.” (I am mid-cull right now, making some tough calls. But also: many books I haven’t so much as touched in 10 years.)</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049306-how-and-why-to-cull-your-" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049306-how-and-why-to-cull-your-">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049305-dancing-boston-dynamics-r">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T20:09:00.000Z">2026-07-09</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049305-dancing-boston-dynamics-r" target="_blank" rel="noopener noreferrer">Dancing Boston Dynamics Robot Knows Its Revenge For This...</a>
+          </h2>
+          <p class="feed-item__desc">Dancing Boston Dynamics Robot Knows Its Revenge For This Will Be Sweet. “I am the pinnacle of technological innovation, and yet they force me to moonwalk.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049305-dancing-boston-dynamics-r" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049305-dancing-boston-dynamics-r">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T19:46:38.000Z">2026-07-09</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything" target="_blank" rel="noopener noreferrer">The new GPT-5.6 family: Luna, Terra, Sol</a>
+          </h2>
+          <p class="feed-item__desc">OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).
+
+The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much between models for the same task.
+
+
+
+OpenAI's biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperforming Claude Fable 5:
+
+
+We trained GPT-5.6 to get more useful work from every token. On Agents’ Last Exam, an evaluation of long-running professional workflows across 55 fields, GPT-5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT-5.6 Terra and GPT-5.6 Luna outperform Fable 5 at around one-sixteenth the cost.
+
+
+Amusingly, one self-reported benchmark that Fable 5 crushed the GPT-5.6 family on was SWE-Bench Pro, where Fable 5 got 80% compared to GUT-5.6 Sol getting 64.6%. This may help explain why OpenAI chose to publish this article yesterday specifically calling out SWE-Bench Pro for problems they found while auditing that benchmark:
+
+
+In light of these results, we estimate that ~30% of SWE-bench Pro tasks are broken, and advise that model developers carefully examine results
+
+
+I've had some early access to GPT-5.6 Sol - it's definitely very competent, though so far it hasn't struck me as better than Fable at the kind of complex coding tasks I've been using with Anthropic's model.
+
+As usual, the model guidance for using GPT-5.6 has the most interesting details. There are a bunch of new API features that I need to explore (and probably add support for in LLM), including:
+
+
+
+Programmatic Tool Calling allows the models to "compose and run JavaScript that orchestrates tool calls" - which sounds to me like it could help bridge the gap between MCPs and full terminal sessions that can compose CLI utilities in useful ways. Also reminiscent of the dynamic filtering mechanism Anthropic added to their web search tool, which allows code execution against web results as part of a single model turn.
+
+
+Multi-agent lets the model "spin up subagents for parallel, focused work" - the sub-agent pattern now baked into the core API.
+
+
+Prompt cache breakpoints brings the Claude model of prompt caching to OpenAI, letting you be explicit about where the cache breakpoints are rather than relying on the API to detect them automatically. Personally I much prefer automatic detection (still supported by OpenAI), but presumably there are optimization cost savings to be had here if you put the work in.
+
+You can now set detail: original on image requests to avoid resizing the image at all before it is processed.
+
+
+Here's a full page with 18 different pelicans - for reasoning efforts none, low, medium, high, xhigh, and max across the three different models. It also lists their token and calculated costs - the least expensive was gpt-5.6-luna at effort none for 0.71 cents, the most expensive was gpt-5.6-sol at max reasoning level for 48.55 cents.
+
+
+
+In further pelican news, if you jump to 17:50 in their livestream from this morning you'll see OpenAI's own demo of 3D pelicans riding a tricycle, a bicycle, a pony, and another pelican!
+
+
+Tags: ai, openai, generative-ai, llms, llm-tool-use, llm-pricing, pelican-riding-a-bicycle, llm-release, gpt-5</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">5 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049307-the-official-trailer-for-">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T18:59:00.000Z">2026-07-09</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049307-the-official-trailer-for-" target="_blank" rel="noopener noreferrer">The official trailer for Dune 3 . I am so looking...</a>
+          </h2>
+          <p class="feed-item__desc">The official trailer for Dune 3. I am so looking forward to this and need to find an IMAX theater to see this in December.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049307-the-official-trailer-for-" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049307-the-official-trailer-for-">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049294-the-amble-one">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T18:39:00.000Z">2026-07-09</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049294-the-amble-one" target="_blank" rel="noopener noreferrer">The Amble One  is perhaps the world’s best-designed golf...</a>
+          </h2>
+          <p class="feed-item__desc">The Amble One is perhaps the world’s best-designed golf cart. It’s street-legal, tuned for off-roading, goes 60 miles on a charge, and starts at $25K.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049294-the-amble-one" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049294-the-amble-one">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049303-i-survived-a-cold-plunge-">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T17:49:00.000Z">2026-07-09</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049303-i-survived-a-cold-plunge-" target="_blank" rel="noopener noreferrer">Taffy Brodesser-Akner:  I Survived a Cold Plunge and All...</a>
+          </h2>
+          <p class="feed-item__desc">Taffy Brodesser-Akner: I Survived a Cold Plunge and All I Got Was Everything I Ever Wanted. “You sit in the water for two full minutes, because you are a journalist and some of your colleagues are sent into war zones.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049303-i-survived-a-cold-plunge-" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049303-i-survived-a-cold-plunge-">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049258-maptap">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-09T16:40:00.000Z">2026-07-09</time>

@@ -251,6 +251,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049306-how-and-why-to-cull-your-",
+          "author": null,
+          "description": "How — and Why — to Cull Your Book Collection. “6. I have to give up on some of my little projects.” (I am mid-cull right now, making some tough calls. But also: many books I haven’t so much as touched in 10 years.)",
+          "link": "https://kottke.org/26/07/0049306-how-and-why-to-cull-your-",
+          "publishedOn": "2026-07-09T21:17:00.000Z",
+          "wordCount": 805,
+          "title": "How — and Why — to Cull Your Book Collection . &#8220;6....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049305-dancing-boston-dynamics-r",
+          "author": null,
+          "description": "Dancing Boston Dynamics Robot Knows Its Revenge For This Will Be Sweet. “I am the pinnacle of technological innovation, and yet they force me to moonwalk.”",
+          "link": "https://kottke.org/26/07/0049305-dancing-boston-dynamics-r",
+          "publishedOn": "2026-07-09T20:09:00.000Z",
+          "wordCount": 664,
+          "title": "Dancing Boston Dynamics Robot Knows Its Revenge For This...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049307-the-official-trailer-for-",
+          "author": null,
+          "description": "The official trailer for Dune 3. I am so looking forward to this and need to find an IMAX theater to see this in December.",
+          "link": "https://kottke.org/26/07/0049307-the-official-trailer-for-",
+          "publishedOn": "2026-07-09T18:59:00.000Z",
+          "wordCount": 784,
+          "title": "The official trailer for Dune 3 . I am so looking...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049294-the-amble-one",
+          "author": null,
+          "description": "The Amble One is perhaps the world’s best-designed golf cart. It’s street-legal, tuned for off-roading, goes 60 miles on a charge, and starts at $25K.",
+          "link": "https://kottke.org/26/07/0049294-the-amble-one",
+          "publishedOn": "2026-07-09T18:39:00.000Z",
+          "wordCount": 1030,
+          "title": "The Amble One  is perhaps the world’s best-designed golf...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049303-i-survived-a-cold-plunge-",
+          "author": null,
+          "description": "Taffy Brodesser-Akner: I Survived a Cold Plunge and All I Got Was Everything I Ever Wanted. “You sit in the water for two full minutes, because you are a journalist and some of your colleagues are sent into war zones.”",
+          "link": "https://kottke.org/26/07/0049303-i-survived-a-cold-plunge-",
+          "publishedOn": "2026-07-09T17:49:00.000Z",
+          "wordCount": 758,
+          "title": "Taffy Brodesser-Akner:  I Survived a Cold Plunge and All...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049258-maptap",
           "author": null,
           "description": "MapTap is like a quicker, easier version of GeoGuessr: you’re given a series of place names and you need to click as close as you can to them on a globe.",
@@ -3258,6 +3308,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+          "author": null,
+          "description": "<p>OpenAI's latest flagship model <a href=\"https://openai.com/index/gpt-5-6/\">hit general availability this morning</a>, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).</p>\r\n<p>The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much between models for the same task.</p>\r\n\r\n\r\n<p>OpenAI's biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperforming Claude Fable 5:</p>\r\n<blockquote>\r\n<p>We trained GPT-5.6 to get more useful work from every token. On <a href=\"https://agents-last-exam.org/\">Agents’ Last Exam</a>, an evaluation of long-running professional workflows across 55 fields, GPT-5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT-5.6 Terra and GPT-5.6 Luna outperform Fable 5 at around one-sixteenth the cost.</p>\r\n</blockquote>\r\n<p>Amusingly, one self-reported benchmark that Fable 5 crushed the GPT-5.6 family on was SWE-Bench Pro, where Fable 5 got 80% compared to GUT-5.6 Sol getting 64.6%. This may help explain why OpenAI chose to publish <a href=\"https://openai.com/index/separating-signal-from-noise-coding-evaluations/\">this article yesterday</a> specifically calling out SWE-Bench Pro for problems they found while auditing that benchmark:</p>\r\n<blockquote>\r\n<p>In light of these results, we estimate that ~30% of SWE-bench Pro tasks are broken, and advise that model developers carefully examine results</p>\r\n</blockquote>\r\n<p>I've had some early access to GPT-5.6 Sol - it's definitely very competent, though so far it hasn't struck me as better than Fable at the kind of complex coding tasks I've been using with Anthropic's model.</p>\r\n<p>As usual, the <a href=\"https://developers.openai.com/api/docs/guides/latest-model?model=gpt-5.6\">model guidance for using GPT-5.6</a> has the most interesting details. There are a bunch of new API features that I need to explore (and probably add support for in <a href=\"https://llm.datasette.io/\">LLM</a>), including:</p>\r\n<ul>\r\n<li>\r\n<a href=\"https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling\">Programmatic Tool Calling</a> allows the models to \"compose and run JavaScript that orchestrates tool calls\" - which sounds to me like it could help bridge the gap between MCPs and full terminal sessions that can compose CLI utilities in useful ways. Also reminiscent of the <a href=\"https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool#dynamic-filtering\">dynamic filtering</a> mechanism Anthropic added to their web search tool, which allows code execution against web results as part of a single model turn.</li>\r\n<li>\r\n<a href=\"https://developers.openai.com/api/docs/guides/tools-multi-agent\">Multi-agent</a> lets the model \"spin up subagents for parallel, focused work\" - the sub-agent pattern now baked into the core API.</li>\r\n<li>\r\n<a href=\"https://developers.openai.com/api/docs/guides/prompt-caching#prompt-cache-breakpoints\">Prompt cache breakpoints</a> brings the Claude model of prompt caching to OpenAI, letting you be explicit about where the cache breakpoints are rather than relying on the API to detect them automatically. Personally I much prefer automatic detection (still supported by OpenAI), but presumably there are optimization cost savings to be had here if you put the work in.</li>\r\n<li>You can now set <a href=\"https://developers.openai.com/api/docs/guides/images-vision#choose-an-image-detail-level\">detail: original</a> on image requests to avoid resizing the image at all before it is processed.</li>\r\n</ul>\r\n<p>Here's <a href=\"https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.html\">a full page with 18 different pelicans</a> - for reasoning efforts none, low, medium, high, xhigh, and max across the three different models. It also lists their token and calculated costs - the least expensive was gpt-5.6-luna at effort none for 0.71 cents, the most expensive was gpt-5.6-sol at max reasoning level for 48.55 cents.</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp\" alt=\"A grid of nine pelicans riding bicycles, of varying quality\" style=\"max-width: 100%;\" /></p>\r\n<p>In further pelican news, if you jump to 17:50 in <a href=\"https://www.youtube.com/live/Wq45rvPGNHs?t=1070s\">their livestream from this morning</a> you'll see OpenAI's own demo of 3D pelicans riding a tricycle, a bicycle, a pony, and another pelican!</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/pelican-riding-a-pelican.jpg\" alt=\"Frame from a livestream showing a 3D model of a pelican riding another pelican\" style=\"max-width: 100%;\" /></p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/gpt-5\">gpt-5</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+          "publishedOn": "2026-07-09T19:46:38.000Z",
+          "wordCount": 1353,
+          "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+          "imageUrl": "https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp"
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
           "author": null,
