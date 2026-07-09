@@ -35,6 +35,135 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049280-a-fun-and-really-well-don">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-09T00:07:00.000Z">2026-07-08</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049280-a-fun-and-really-well-don" target="_blank" rel="noopener noreferrer">This is  a fun and really well-done triple mashup  of...</a>
+          </h2>
+          <p class="feed-item__desc">This is a fun and really well-done triple mashup of Outkast’s B.O.B. (Bombs Over Baghdad), Hitchcock’s The Birds, and Sesame Street.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049280-a-fun-and-really-well-don" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049280-a-fun-and-really-well-don">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-08T23:57:21.000Z">2026-07-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything" target="_blank" rel="noopener noreferrer">Rewriting Bun in Rust</a>
+          </h2>
+          <p class="feed-item__desc">Rewriting Bun in Rust
+since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.
+Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks.
+Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine:
+Our bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. Until very recently, programming language choice was a one-way decision for a project like Bun.
+Everyone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in Things You Should Never Do, Part I back in April 2000!
+Coding agents powered by today's frontier models change that equation.
+Why pick Rust? It all came down to those challenges with memory management:
+A large percentage of bugs from that list are use-after-free, double-free, and "forgot to free" in an error path. In safe Rust, these are compiler errors and RAII-like automatic cleanup with Drop.
+A crucial enabling factor for the rewrite was that the Bun test suite was written in TypeScript, which meant it could act as a conformance suite. This allowed an agent harness to automate much of the initial port from Bun to Rust, initially as an experiment to try out an earlier version of the model we now have access to as Mythos/Fable.
+At first, I didn't expect it to work. A few days in, a high % of the test suite started passing and I saw how much the new Rust code matched up with the original Zig codebase. My opinion went from "this is worth trying" to "I'm going to merge this". [...]
+For most of those 11 days (and after), I monitored workflows - manually reading the outputs to check for issues and bugs, and prompting Claude to edit the loop to fix things.
+How do you review a PR with +1 million lines added? How do you start to build the confidence needed to responsibly merge large quantities of LLM-authored code?
+A language-independent test suite with a million assertions, adversarial code review and when something does go wrong, fixing the process that generates the code instead of hand-fixing the code.
+The new implementation of Bun has been live in Claude Code for nearly a month now:
+Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.
+A perk of working at Anthropic is that you don't have to pay for your tokens - handy when the estimated cost is $165,000!
+Pre-merge, this took 5.9 billion uncached input tokens, 690 million output tokens, and 72 billion cached input token reads — around $165,000 at API pricing.
+This whole thing is a fascinating case study in taking on wildly ambitious projects with the help of coordinated parallel agents.
+
+    
+Via Hacker News
+Tags: ai, rust, zig, generative-ai, llms, ai-assisted-programming, anthropic, bun, conformance-suites, agentic-engineering, claude-mythos-fable</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">5 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-08T23:20:48.000Z">2026-07-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything" target="_blank" rel="noopener noreferrer">Introducing GPT‑Live</a>
+          </h2>
+          <p class="feed-item__desc">Introducing GPT‑Live
+finally upgraded the model used by ChatGPT voice mode!
+I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5:
+For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live.
+The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner.
+During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as I can tell they made some tweaks and it's now less likely to happen.
+From looking back at my transcripts I think it was this bit that triggered the interrupting laugh:
+so where are the owls when they're not, like before dusk? The owls exist, right? Are they hiding in holes? Where are they hiding?
+My longest conversation with the new model has been a full hour while walking the dog (and taking photos of pelicans). I have not yet managed to take a photo of an owl.
+
+    
+Via Hacker News
+Tags: text-to-speech, ai, openai, generative-ai, llms, multi-modal-output, llm-release, speech-to-text</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049288-sealed-copy-super-mario">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-08T22:45:00.000Z">2026-07-08</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049288-sealed-copy-super-mario" target="_blank" rel="noopener noreferrer">A sealed copy of Super Mario Bros. NES cartridge...</a>
+          </h2>
+          <p class="feed-item__desc">A sealed copy of Super Mario Bros. NES cartridge recently sold at auction for $3 million. “It bears the coveted gloss sticker seal affixed to the top lid, identifying it as a second-production example.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049288-sealed-copy-super-mario" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049288-sealed-copy-super-mario">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049295-robin-sloan-is-rewriting-">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-08T21:35:00.000Z">2026-07-08</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049295-robin-sloan-is-rewriting-" target="_blank" rel="noopener noreferrer">This is neat:  Robin Sloan is rewriting his 2009 short...</a>
+          </h2>
+          <p class="feed-item__desc">This is neat: Robin Sloan is rewriting his 2009 short story, Mr. Penumbra’s 24-Hour Bookstore. “The interplay between books and technology has changed since I wrote them…but also that I have become a different writer, and a better one.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049295-robin-sloan-is-rewriting-" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049295-robin-sloan-is-rewriting-">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049290-start-trying-tiny-experim">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-08T20:45:00.000Z">2026-07-08</time>
@@ -11749,68 +11878,6 @@ Tags: Jason Kottke · photography · travel</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://we-make-money-not-art.com/wp-content/uploads/2026/05/2.HoB-calculation-1024x750-1.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://brucesterling.tumblr.com/post/818950308008001536">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-09T13:31:15.000Z">2026-06-09</time>
-        <span class="feed-item__source">BruceS</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://brucesterling.tumblr.com/post/818950308008001536" target="_blank" rel="noopener noreferrer">Untitled</a>
-          </h2>
-          <p class="feed-item__desc">No content preview</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/818950308008001536" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/818950308008001536">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://64.media.tumblr.com/d31dbdcb0930e86a982c9d64bd1600fa/a70343f11c42db17-14/s1280x1920/9ca083bcb14841c033e748ab6437beb04971cbc0.webp" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;12890">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-09T13:30:12.000Z">2026-06-09</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/06/09/deliver-us/" target="_blank" rel="noopener noreferrer">Pluralistic: Naomi Kritzer&#x27;s &quot;Obstetrix&quot; (09 Jun 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Naomi Kritzer's "Obstetrix": When forced birth cultists become forced obstetrics militants. Hey look at this: Delights to delectate. Object permanence: DD-WRT; iTunes DRM is illegal; Fingertip magnet; Sony passwords v Gawker passwords; RIAA recants on 3 strikes; Parachute wedding dress; Roald Dahl (jerk); "Level Up"; The rent's too damned high; RIAA v "Search by artist"; "Robopocalypse"; You are not a wallet; The man who created the religious right; NY x voting; NY x antitrust; Media companies fund Heritage Minister's campaign; Richard Dreyfuss x iTunes EULA; 3-way street; RIAA lawyer becomes Solicitor General; Brock Allen's wrist-slap; Ad-tech interop; Apple's manorial security; Billionaires aren't taxed, "Rabbits." Upcoming appearances: Kansas City, LA, Menlo Park, Toronto,…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;12890" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;12890">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/analyze-this-against-color-analysis-and-other-code-unlocker-hogwash">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-09T11:03:41.000Z">2026-06-09</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/analyze-this-against-color-analysis-and-other-code-unlocker-hogwash" target="_blank" rel="noopener noreferrer">Analyze this</a>
-          </h2>
-          <p class="feed-item__desc">Would-be "code unlockers" deserve extreme skepticism</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/analyze-this-against-color-analysis-and-other-code-unlocker-hogwash" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/analyze-this-against-color-analysis-and-other-code-unlocker-hogwash">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substack-post-media.s3.amazonaws.com/public/images/6c5a46b7-e7b0-468c-809e-72c934320176_1378x1028.png" alt="" loading="lazy">
         </div>
       </div>
     </article>
