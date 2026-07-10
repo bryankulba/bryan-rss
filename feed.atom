@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-09T21:21:40.312Z</updated>
+    <updated>2026-07-10T02:46:16.280Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Publishers prepare to opt-out of Google search over AI training]]></title>
+        <id>https://waxy.org/?p=51009</id>
+        <link href="https://www.adweek.com/media/publishers-opt-out-google-search/"/>
+        <updated>2026-07-10T02:20:24.000Z</updated>
+        <summary type="html"><![CDATA[I missed the news that Cloudflare will start blocking Googlebot by default on September 15
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Venetian Bridge Brawls in 17th and 18th Century Art ....]]></title>
+        <id>https://kottke.org/26/07/0049289-venetian-bridge-brawls-in</id>
+        <link href="https://kottke.org/26/07/0049289-venetian-bridge-brawls-in"/>
+        <updated>2026-07-10T01:59:41.000Z</updated>
+        <summary type="html"><![CDATA[Venetian Bridge Brawls in 17th and 18th Century Art. “Before crowds jostled for biennale parties and gondola rides, Venice’s waterways witnessed scenes of an even more violent kind…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting OpenAI]]></title>
+        <id>https://simonwillison.net/2026/Jul/10/openai/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/10/openai/#atom-everything"/>
+        <updated>2026-07-10T01:05:57.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote>
+<p class="cite">&mdash; <a href="https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex">OpenAI</a>, trying (unsuccessfully) to clarify ChatGPT Work</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How — and Why — to Cull Your Book Collection . &#8220;6....]]></title>
         <id>https://kottke.org/26/07/0049306-how-and-why-to-cull-your-</id>
@@ -6901,16 +6935,6 @@ Tags: Facebook · movies · The Social Reckoning · trailers · video]]></summar
 The post An Early Step on the Long, Strange Road to Photosynthesis first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Carrie Arnold</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[big world cafe]]></title>
-        <id>https://warrenellis.ltd/?p=18509</id>
-        <link href="https://warrenellis.ltd/status/big-world-cafe/"/>
-        <updated>2026-06-10T10:17:26.000Z</updated>
-        <summary type="html"><![CDATA[Paul Thek. For no good reason, I woke up today thinking about BIG WORLD CAFE, a music tv show that ran for… 1989. One year.…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>

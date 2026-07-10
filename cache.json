@@ -251,6 +251,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049289-venetian-bridge-brawls-in",
+          "author": null,
+          "description": "Venetian Bridge Brawls in 17th and 18th Century Art. “Before crowds jostled for biennale parties and gondola rides, Venice’s waterways witnessed scenes of an even more violent kind…”",
+          "link": "https://kottke.org/26/07/0049289-venetian-bridge-brawls-in",
+          "publishedOn": "2026-07-10T01:59:41.000Z",
+          "wordCount": 732,
+          "title": "Venetian Bridge Brawls in 17th and 18th Century Art ....",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049306-how-and-why-to-cull-your-",
           "author": null,
           "description": "How — and Why — to Cull Your Book Collection. “6. I have to give up on some of my little projects.” (I am mid-cull right now, making some tough calls. But also: many books I haven’t so much as touched in 10 years.)",
@@ -2088,6 +2098,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51009",
+          "author": "Andy Baio",
+          "description": "I missed the news that Cloudflare will start blocking Googlebot by default on September 15\n#",
+          "link": "https://www.adweek.com/media/publishers-opt-out-google-search/",
+          "publishedOn": "2026-07-10T02:20:24.000Z",
+          "wordCount": 10737,
+          "title": "Publishers prepare to opt-out of Google search over AI training",
+          "imageUrl": "https://static-www.adweek.com/wp-content/uploads/2026/07/Gemini_Generated_Image_lblroulblroulblr.png?w=600&h=315&crop=1"
+        },
+        {
           "id": "https://waxy.org/?p=51006",
           "author": "Andy Baio",
           "description": "the best outcome for the studio, I hope we get another documentary out of it\n#",
@@ -2906,16 +2926,6 @@
           "wordCount": 1208,
           "title": "interlude",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2024/04/INTERLUDE-WATERFALL.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18509",
-          "author": "Warren Ellis",
-          "description": "Paul Thek. For no good reason, I woke up today thinking about BIG WORLD CAFE, a music tv show that ran for… 1989. One year.…",
-          "link": "https://warrenellis.ltd/status/big-world-cafe/",
-          "publishedOn": "2026-06-10T10:17:26.000Z",
-          "wordCount": 1421,
-          "title": "big world cafe",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/image_processing20260527-2-emtbzg.jpg"
         }
       ]
     },
@@ -3308,6 +3318,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\">OpenAI</a>, trying (unsuccessfully) to clarify ChatGPT Work</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+          "publishedOn": "2026-07-10T01:05:57.000Z",
+          "wordCount": 768,
+          "title": "Quoting OpenAI",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
           "author": null,
