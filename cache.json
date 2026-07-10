@@ -261,6 +261,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049300-sodas-with-a-doctorate",
+          "author": null,
+          "description": "Fun thread: “sodas with a doctorate” (e.g. Dr. Pepper).",
+          "link": "https://kottke.org/26/07/0049300-sodas-with-a-doctorate",
+          "publishedOn": "2026-07-10T16:10:00.000Z",
+          "wordCount": 704,
+          "title": "Fun thread:  “sodas with a doctorate”  (e.g. Dr. Pepper).",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049278-voicedot",
+          "author": null,
+          "description": "VoiceDot: “Every dot on this globe is a real person’s voice — a short story about a place, a memory, a feeling. Tap one and hear someone from the other side of the world.” And you can record your own for others to hear.",
+          "link": "https://kottke.org/26/07/0049278-voicedot",
+          "publishedOn": "2026-07-10T14:34:00.000Z",
+          "wordCount": 796,
+          "title": "VoiceDot : &#8220;Every dot on this globe is a real...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049289-venetian-bridge-brawls-in",
           "author": null,
           "description": "Venetian Bridge Brawls in 17th and 18th Century Art. “Before crowds jostled for biennale parties and gondola rides, Venice’s waterways witnessed scenes of an even more violent kind…”",
@@ -3219,6 +3239,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://youtu.be/v4vkwUf4AMw?t=2427\"><p>The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it.</p>\n<p>There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time.</p>\n<p>You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world.</p>\n<p>And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy.</p>\n<p>And maybe you shouldn't. Like, there's an incredible argument for, nope, you shouldn't do that. Nope, the trade-offs required to make this product are so high at a societal level that we should stop it.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://youtu.be/v4vkwUf4AMw?t=2427\">Nilay Patel</a>, The Vergecast</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/augmented-reality\">augmented-reality</a>, <a href=\"https://simonwillison.net/tags/nilay-patel\">nilay-patel</a>, <a href=\"https://simonwillison.net/tags/privacy\">privacy</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+          "publishedOn": "2026-07-10T17:05:26.000Z",
+          "wordCount": 896,
+          "title": "Quoting Nilay Patel",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
           "author": null,
           "description": "<blockquote cite=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\">OpenAI</a>, trying (unsuccessfully) to clarify ChatGPT Work</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
@@ -4027,16 +4057,6 @@
           "wordCount": 774,
           "title": "asyncinject 0.7",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p>\nBig scoop for Maxwell Zeff at Wired:</p>\n<blockquote>\n<p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p>\n</blockquote>\n<p>There's been a <em>huge</em> outcry about Anthropic's policy, <a href=\"https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/\">tucked away in their system card</a>, that Claude Fable/Mythos would identify \"requests targeting frontier LLM development\" and \"limit effectiveness\" without notifying the user.</p>\n<p>It's good news that they're dropping the invisible aspect of this. It would be a whole lot better of they dropped this category of refusals entirely.</p>\n<p><strong>Update</strong>: More details from <a href=\"https://twitter.com/claudedevs/status/2064949876463645026\">@ClaudeDevs on Twitter</a>:</p>\n<blockquote>\n<p>We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.</p>\n<p>Starting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).</p>\n<p>We wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-          "publishedOn": "2026-06-11T03:45:49.000Z",
-          "wordCount": 1000,
-          "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-          "imageUrl": null
         }
       ]
     },
@@ -4155,6 +4175,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=164067",
+          "author": "Rohini Subrahmanyam",
+          "description": "Researchers thought that what enabled complex fluids to break apart was their elasticity. But a crack in a nonelastic simple fluid has them questioning that idea.            \nThe post We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture. first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+          "publishedOn": "2026-07-10T14:51:48.000Z",
+          "wordCount": 2710,
+          "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/CrackingLiquids-cr-Adapted-with-permission-from-Phys.-Rev.-Lett.-136-124002.-Copyrighted-by-the-American-Physical-Society.-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=164029",
           "author": "Janna Levin and Steven Strogatz",

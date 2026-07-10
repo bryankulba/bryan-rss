@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-10T14:19:29.069Z</updated>
+    <updated>2026-07-10T17:46:00.929Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Nilay Patel]]></title>
+        <id>https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"/>
+        <updated>2026-07-10T17:05:26.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://youtu.be/v4vkwUf4AMw?t=2427"><p>The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it.</p>
+<p>There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time.</p>
+<p>You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world.</p>
+<p>And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy.</p>
+<p>And maybe you shouldn't. Like, there's an incredible argument for, nope, you shouldn't do that. Nope, the trade-offs required to make this product are so high at a societal level that we should stop it.</p></blockquote>
+<p class="cite">&mdash; <a href="https://youtu.be/v4vkwUf4AMw?t=2427">Nilay Patel</a>, The Vergecast</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/augmented-reality">augmented-reality</a>, <a href="https://simonwillison.net/tags/nilay-patel">nilay-patel</a>, <a href="https://simonwillison.net/tags/privacy">privacy</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fun thread:  “sodas with a doctorate”  (e.g. Dr. Pepper).]]></title>
+        <id>https://kottke.org/26/07/0049300-sodas-with-a-doctorate</id>
+        <link href="https://kottke.org/26/07/0049300-sodas-with-a-doctorate"/>
+        <updated>2026-07-10T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Fun thread: “sodas with a doctorate” (e.g. Dr. Pepper).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.]]></title>
+        <id>https://www.quantamagazine.org/?p=164067</id>
+        <link href="https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/"/>
+        <updated>2026-07-10T14:51:48.000Z</updated>
+        <summary type="html"><![CDATA[Researchers thought that what enabled complex fluids to break apart was their elasticity. But a crack in a nonelastic simple fluid has them questioning that idea.            
+The post We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture. first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Rohini Subrahmanyam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VoiceDot : &#8220;Every dot on this globe is a real...]]></title>
+        <id>https://kottke.org/26/07/0049278-voicedot</id>
+        <link href="https://kottke.org/26/07/0049278-voicedot"/>
+        <updated>2026-07-10T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[VoiceDot: “Every dot on this globe is a real person’s voice — a short story about a place, a memory, a feeling. Tap one and hear someone from the other side of the world.” And you can record your own for others to hear.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: "Rights for robots" and the AI slavery fantasy (10 Jul 2026)]]></title>
         <id>https://pluralistic.net/?p=13024</id>
@@ -6895,31 +6943,6 @@ The post What’s the Future of Gene Editing? first appeared on Quanta Magazine]
     
     
         <p>Tags: <a href="https://simonwillison.net/tags/async">async</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude]]></title>
-        <id>https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything"/>
-        <updated>2026-06-11T03:45:49.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p>
-Big scoop for Maxwell Zeff at Wired:</p>
-<blockquote>
-<p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p>
-</blockquote>
-<p>There's been a <em>huge</em> outcry about Anthropic's policy, <a href="https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/">tucked away in their system card</a>, that Claude Fable/Mythos would identify "requests targeting frontier LLM development" and "limit effectiveness" without notifying the user.</p>
-<p>It's good news that they're dropping the invisible aspect of this. It would be a whole lot better of they dropped this category of refusals entirely.</p>
-<p><strong>Update</strong>: More details from <a href="https://twitter.com/claudedevs/status/2064949876463645026">@ClaudeDevs on Twitter</a>:</p>
-<blockquote>
-<p>We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.</p>
-<p>Starting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).</p>
-<p>We wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.</p>
-</blockquote>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
