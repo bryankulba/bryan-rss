@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-10T17:46:00.929Z</updated>
+    <updated>2026-07-10T21:04:06.092Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[This ancient Egyptian painter’s palette from 3000 years...]]></title>
+        <id>https://kottke.org/26/07/0049298-this-ancient-egyptian-pai</id>
+        <link href="https://kottke.org/26/07/0049298-this-ancient-egyptian-pai"/>
+        <updated>2026-07-10T18:20:00.000Z</updated>
+        <summary type="html"><![CDATA[This ancient Egyptian painter’s palette from 3000 years ago still contains traces on the original colors. (Wtf, I have old watercolor paints that look older than this…)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Nilay Patel]]></title>
         <id>https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything</id>
@@ -6931,20 +6941,6 @@ The post What’s the Future of Gene Editing? first appeared on Quanta Magazine]
         <summary type="html"><![CDATA[The worst-dressed famous people and rare sauce lords among them, rare cool tiny-mic-style-advice dudes, rare shirts, and more unbeatable recon]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[asyncinject 0.7]]></title>
-        <id>https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything"/>
-        <updated>2026-06-11T06:28:09.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/asyncinject/releases/tag/0.7">asyncinject 0.7</a></p>
-        <p>I built this utility library to support an <code>asyncio</code> dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model!</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/async">async</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
