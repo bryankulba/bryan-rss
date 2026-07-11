@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-11T13:13:04.853Z</updated>
+    <updated>2026-07-11T16:54:55.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Examples from sci-fi of voice interfaces that stay on task]]></title>
+        <id>https://interconnected.org/home/2026/07/11/on-task</id>
+        <link href="https://interconnected.org/home/2026/07/11/on-task"/>
+        <updated>2026-07-11T17:49:00.000Z</updated>
+        <summary type="html"><![CDATA[I wonder how you would design a really single-minded voice UI?
+Like, voice interfaces are really good now because of AI.
+But they’re so unbounded. If you’re having a voice interaction with a computer or with a device, you could end up having a conversation about anything.
+And while a voice UI is great within a domain, do you really want to be gossiping about movies or having a psychotherapy session with your fridge? I mean, at that point what even is a product?
+i.e. how would you have a single purpose Alexa?
+So I’ve been spelunking Technovelgy for things that speak but only in a limited domain.
+(Technovelgy is a database of over 4,000 inventions from sci-fi.)
+Like this ATM that discourages long convos:
+He headed for the ATM in the back… he knew it was watching him as he walked up to it.
+“I…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: Workplace "flexibility" isn't (11 Jul 2026)]]></title>
         <id>https://pluralistic.net/?p=13028</id>
