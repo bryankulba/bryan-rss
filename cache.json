@@ -110,6 +110,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/stop-ai-march/",
+          "author": null,
+          "description": "<p>Great to be out in the street. <a href=\"https://www.robinsloan.com/lab/stop-ai-march/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/stop-ai-march/",
+          "publishedOn": "2026-07-12T10:00:00.000Z",
+          "wordCount": 6050,
+          "title": "Dragoncatcher: Report from the march to Stop the AI Race",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/newsletters/penumbra-is-up-all-night/",
           "author": null,
           "description": "<p>Welcome to Summer Workshop 2026. <a href=\"https://www.robinsloan.com/newsletters/penumbra-is-up-all-night/\">Read here.</a></p>",
@@ -1897,6 +1907,46 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=51021",
+          "author": "Andy Baio",
+          "description": "parallel-universe video sharing community in the style of 2009-era YouTube\nWeb Curios #",
+          "link": "https://www.kamtape.com/",
+          "publishedOn": "2026-07-12T15:42:55.000Z",
+          "wordCount": null,
+          "title": "KamTape",
+          "imageUrl": null
+        },
+        {
+          "id": "https://waxy.org/?p=51018",
+          "author": "Andy Baio",
+          "description": "fascinating postmortem of blockchain music startup Nina Protocol, which is shutting down this week\nAUX #",
+          "link": "https://components.news/not-your-keys-not-your-songs-nina-protocol/",
+          "publishedOn": "2026-07-12T15:32:22.000Z",
+          "wordCount": 2714,
+          "title": "Not your keys, not your songs",
+          "imageUrl": "https://storage.ghost.io/c/f0/ec/f0ec8f30-845f-4eec-ad69-9a1be55b8693/content/images/size/w1200/2026/07/Marche_fune--bre_compose--e_pour_les_fune--railles_d-un_grand_homme_sourd_-_Alphonse_Allais-1.jpeg"
+        },
+        {
+          "id": "https://waxy.org/?p=51016",
+          "author": "Andy Baio",
+          "description": "run by anonymous organizers and promoted without social media, the whole thing sounded great\n#",
+          "link": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+          "publishedOn": "2026-07-12T15:24:16.000Z",
+          "wordCount": 30372,
+          "title": "Wired on NYC’s Summer of Ludd festival",
+          "imageUrl": "https://media.wired.com/photos/6a440cd07bfc78bf5e9f6406/191:100/w_1280,c_limit/GenZ-Luddite-Summer-Culture-IMG_4448.jpg"
+        },
+        {
+          "id": "https://waxy.org/?p=51014",
+          "author": "Andy Baio",
+          "description": "OpenType font that turns bracketed text into QR codes\n#",
+          "link": "https://qr.jim.sh/",
+          "publishedOn": "2026-07-12T15:14:58.000Z",
+          "wordCount": 800,
+          "title": "Jim’s QR Code Font",
+          "imageUrl": null
+        },
         {
           "id": "https://waxy.org/?p=51009",
           "author": "Andy Baio",

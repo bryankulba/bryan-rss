@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-12T13:14:13.405Z</updated>
+    <updated>2026-07-12T16:56:21.302Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[KamTape]]></title>
+        <id>https://waxy.org/?p=51021</id>
+        <link href="https://www.kamtape.com/"/>
+        <updated>2026-07-12T15:42:55.000Z</updated>
+        <summary type="html"><![CDATA[parallel-universe video sharing community in the style of 2009-era YouTube
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Not your keys, not your songs]]></title>
+        <id>https://waxy.org/?p=51018</id>
+        <link href="https://components.news/not-your-keys-not-your-songs-nina-protocol/"/>
+        <updated>2026-07-12T15:32:22.000Z</updated>
+        <summary type="html"><![CDATA[fascinating postmortem of blockchain music startup Nina Protocol, which is shutting down this week
+AUX #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wired on NYC’s Summer of Ludd festival]]></title>
+        <id>https://waxy.org/?p=51016</id>
+        <link href="https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/"/>
+        <updated>2026-07-12T15:24:16.000Z</updated>
+        <summary type="html"><![CDATA[run by anonymous organizers and promoted without social media, the whole thing sounded great
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jim’s QR Code Font]]></title>
+        <id>https://waxy.org/?p=51014</id>
+        <link href="https://qr.jim.sh/"/>
+        <updated>2026-07-12T15:14:58.000Z</updated>
+        <summary type="html"><![CDATA[OpenType font that turns bracketed text into QR codes
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Party clothes]]></title>
         <id>https://www.blackbirdspyplane.com/p/party-clothes</id>
@@ -24,6 +68,16 @@
         <summary type="html"><![CDATA[No.411 — Stacking spaces ⊗ Why Leonardo was a saboteur ⊗ Futuring through discomfort ⊗ Imagining a new digital commons for creative AI ⊗ Project Circle ⊗ Umberto Eco library opens in Bologna]]></summary>
         <author>
             <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Report from the march to Stop the AI Race]]></title>
+        <id>https://www.robinsloan.com/lab/stop-ai-march/</id>
+        <link href="https://www.robinsloan.com/lab/stop-ai-march/"/>
+        <updated>2026-07-12T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Great to be out in the street. <a href="https://www.robinsloan.com/lab/stop-ai-march/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
