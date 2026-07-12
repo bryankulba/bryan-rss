@@ -35,6 +35,53 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-11T23:50:20.000Z">2026-07-11</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything" target="_blank" rel="noopener noreferrer">sqlite-utils 4.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: sqlite-utils 4.1
+The first dot-release since 4.0 a few days ago, introducing a number of minor new features.
+sqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. (#684)
+sqlite-utils already had features that allow you to pass blocks of Python code as CLI arguments, for example this one for the sqlite-utils convert command:
+sqlite-utils convert content.db articles headline '
+def convert(value):
+    return value.upper()'
+Allowing blocks of code to generate new rows directly was on obvious extension of that pattern:
+sqlite-utils insert data.db creatures --code '
+def rows():
+    yield {"id": 1, "name": "Cleo"}
+    yield {"id": 2, "name": "Suna"}
+' --pk id
+sqlite-utils insert and sqlite-utils upsert now accept --type column-name type to override the type automatically chosen when the table is created. This is useful for CSV or TSV columns such as ZIP codes that look like integers but should be stored as TEXT to preserve leading zeros. (#131)
+A long-standing feature request which turned out to be a simple implementation.
+New table.drop_index(name) method and sqlite-utils drop-index command for dropping an index by name. Both accept ignore=True/--ignore to ignore a missing index. (#626)
+sqlite-utils query can now read the SQL query from standard input by passing - in place of the query, for example echo "select * from dogs" | sqlite-utils query dogs.db -. (#765)
+Two more small features. I had Codex review all open issues and highlight the easiest ones!
+sqlite-utils upsert can now infer the primary key of an existing table, so --pk can be omitted when upserting into a table that already has a primary key.
+Another Codex suggestion, an obvious missing CLI feature from a Python library improvement that shipped in the 4.0 release.
+table.transform() and table.transform_sql() now accept strict=True or strict=False to change a table’s SQLite strict mode. Omitting the option preserves the existing mode. (#787)
+The sqlite-utils transform command now accepts --strict and --no-strict to change a table’s strict mode. (#787)
+These two were inspired by Prefer STRICT tables in SQLite by Evan Hahn, which did the rounds on Hacker News today. Evan pointed out that:
+Unfortunately, I don’t think there’s a way to ALTER a table to make it strict. I think you have to copy the data out of the non-strict table into the strict one.
+That's exactly what the sqlite-utils transform mechanism does, so I extended it to add the ability to switch tables from strict to non-strict and vice-versa.
+Here's the GPT-5.6 Sol xhigh Codex transcript I used to implement those new strict table features. One of the most useful prompts I ran was this one:
+use uv run python -c and manually exercise the new .transform(strict=) option, see if you can find any edge-cases or bugs
+Effectively telling the model to manually test its work, outside of the automated tests it had already written. This turned up two minor issues that we then fixed.
+Tags: projects, python, sqlite, sqlite-utils, annotated-release-notes, ai-assisted-programming</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://interconnected.org/home/2026/07/11/on-task">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-11T17:49:00.000Z">2026-07-11</time>
@@ -10809,76 +10856,6 @@ Tags: ai</p>
             <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;50859" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;50859">Mark read</button>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;163038">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-12T14:04:20.000Z">2026-06-12</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/" target="_blank" rel="noopener noreferrer">Where Did Earth Get Its Oceans? Maybe It Made Them Itself.</a>
-          </h2>
-          <p class="feed-item__desc">At first, scientists thought Earth’s water came from comets. Then, asteroids. Now, they wonder if Earth’s water is homegrown.            
-The post Where Did Earth Get Its Oceans? Maybe It Made Them Itself. first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;163038" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;163038">Mark read</button>
-            <span class="feed-item__reading-time">13 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/06/Origins-of-Earth-Water-cr-Ada-Zejun-Shen-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.thingsmagazine.net/?p&#x3D;21173">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-12T13:47:16.000Z">2026-06-12</time>
-        <span class="feed-item__source">things magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.thingsmagazine.net/in-living-colour-2/" target="_blank" rel="noopener noreferrer">In living colour</a>
-          </h2>
-          <p class="feed-item__desc">Mix and match for May and June. Starting with a post about the work of Montréal artist and author Raymond Biesinger / ‘Twilight of the Velocipede: Typesetting Races before the Age of Linotype’ / Pixel Skylines, urban backgrounds from old … Continue reading →</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.thingsmagazine.net/?p&#x3D;21173" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.thingsmagazine.net/?p&#x3D;21173">Mark read</button>
-            <span class="feed-item__reading-time">11 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/06/12/wet">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-12T12:42:00.000Z">2026-06-12</time>
-        <span class="feed-item__source">Interconnected</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://interconnected.org/home/2026/06/12/wet" target="_blank" rel="noopener noreferrer">Wet thoughts</a>
-          </h2>
-          <p class="feed-item__desc">Wet lab.
-“Wet lab” was a new term to me, I had to look it up – it’s a laboratory with chemicals where there’s spill risk etc. I have a physics background myself and the closest I came to liquids was liquid nitrogen, and when you spill that it just boils furiously and goes away.
-Don’t do this: if you put your open hand into a dewar of liquid nitrogen, you can hold it under the liquid at -196C/-320F because the boiling on the surface of your hand makes an insulating quilt. It’s a fun game. Closing your hand will create traps and you’ll get horrible burns.
-Wet market.
-The Wuhan wet markets entered the vernacular during Covid right? There are new things you need to refer to in a new context.
-Wet-bulb temperature.
-"The lowest temperature that can be reached by the evaporation of water" (Wikiped…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/06/12/wet" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/06/12/wet">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://interconnected.org/home/2026/06/12/wet.png?v&#x3D;1" alt="" loading="lazy">
         </div>
       </div>
     </article>
