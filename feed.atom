@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-13T17:52:57.757Z</updated>
+    <updated>2026-07-13T20:55:37.480Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TIL about Fredkin’s paradox . “With this kind of...]]></title>
+        <id>https://kottke.org/26/07/0049320-til-about-fredkins-parado</id>
+        <link href="https://kottke.org/26/07/0049320-til-about-fredkins-parado"/>
+        <updated>2026-07-13T20:39:00.000Z</updated>
+        <summary type="html"><![CDATA[TIL about Fredkin’s paradox. “With this kind of decision, what Fredkin’s paradox tells us is if it’s very difficult to decide, it’s probably because the alternatives are equivalent, and therefore it doesn’t matter which one you choose.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Universe of Short Film  is an amazing site for...]]></title>
+        <id>https://kottke.org/26/07/0049291-the-universe-of-short-fil</id>
+        <link href="https://kottke.org/26/07/0049291-the-universe-of-short-fil"/>
+        <updated>2026-07-13T19:49:00.000Z</updated>
+        <summary type="html"><![CDATA[The Universe of Short Film is an amazing site for watching, sharing, and connecting around short films. This is really cool…not sure why the site isn’t better known.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Earth’s Holes]]></title>
+        <id>https://kottke.org/26/07/earths-holes</id>
+        <link href="https://kottke.org/26/07/earths-holes"/>
+        <updated>2026-07-13T18:49:00.000Z</updated>
+        <summary type="html"><![CDATA[From XKCD, a tour of some of the Earth’s deepest and most notable holes, including mines, caves, boreholes, subway stations, lakes, tunnels, neutrino detectors, and, of course, the Mariana Trench.
+I was surprised to learn that a pair of boreholes, the Kola Superdeep Borehole and the Deepwater Horizon Borehole, are actually deeper than the Mariana Trench. Explain XKCD has more info on each of the various holes, including the truly bonkers Cave of Crystals in Mexico.
+
+ 
+
+        
+         
+Tags: geology · infoviz · Randall Munroe · xkcd]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ocean Vuong has a photograpy show opening at The...]]></title>
+        <id>https://kottke.org/26/07/0049319-ocean-vuong-has-a-photogr</id>
+        <link href="https://kottke.org/26/07/0049319-ocean-vuong-has-a-photogr"/>
+        <updated>2026-07-13T17:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Ocean Vuong has a photograpy show opening at The Wadsworth Museum in Hartford, CT in August. Vuong used “portraiture, landscape, and snapshots to document queer and immigrant life in the Connecticut River Valley over two decades”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When A.I. Is a Member of the Family . How a family of...]]></title>
         <id>https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th</id>
