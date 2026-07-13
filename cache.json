@@ -271,6 +271,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters",
+          "author": null,
+          "description": "This might be my new favorite skate video? It follows a pair of young skaters around the city as they chat about their friendship, share tips about living life, and try skating everything that is even remotely skateable.\nBest friends, Ari and Luca are two of the most promising NYC talents right now. They are consistently street skating, crushing events, and are keeping skateboarding exciting for a generation we seemingly missed.\nIf these two stick with it, we have no problem betting that they’ll be the next big names out of the city, and we were lucky enough to catch them right before they arrive.\n\n\t\n(via craid mod)\n\n \n\n        \n         \nTags: cities · NYC · skateboarding · sports · video",
+          "link": "https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters",
+          "publishedOn": "2026-07-13T13:48:00.000Z",
+          "wordCount": 918,
+          "title": "Exploring NYC With Next Generation Skaters",
+          "imageUrl": "https://i.ytimg.com/vi/eBtGXMiIj58/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/07/0049309-can-we-agree-to-pause-the",
+          "author": null,
+          "description": "Can we agree to pause the AI race? “If we can’t, then we are not as sovereign as we imagine; if we can’t, a machine god has already taken over this planet, and it’s called the market.”",
+          "link": "https://kottke.org/26/07/0049309-can-we-agree-to-pause-the",
+          "publishedOn": "2026-07-13T12:55:46.000Z",
+          "wordCount": 653,
+          "title": "Can we agree to pause the AI race?  &#8220;If we can’t,...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049298-this-ancient-egyptian-pai",
           "author": null,
           "description": "This ancient Egyptian painter’s palette from 3000 years ago still contains traces on the original colors. (Wtf, I have old watercolor paints that look older than this…)",
@@ -2255,6 +2275,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=13031",
+          "author": "Cory Doctorow",
+          "description": "Today's links Why aren't AI companies competing directly with their customers? Why sell picks and shovels if you've already struck gold? Hey look at this: Delights to delectate. Object permanence: Pro-logging Lorax; Anti-DRM picture book; Whose cops did America train? Day on a Device; Theresa May x Fresh Prince; Ratfucking Corbyn supporters; Infosec v W3C DRM; Remix Public Enemy; Hungary's Cold War cartoons; America is unpaving its roads; Olympic overruns are world champions; Vivendi lobbyist is now UN copyright boss; Boris's racism; Facebook's insider stalkers; Semantic drift, ethical drift. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I …",
+          "link": "https://pluralistic.net/2026/07/13/go-meta-meta/",
+          "publishedOn": "2026-07-13T08:15:24.000Z",
+          "wordCount": 3359,
+          "title": "Pluralistic: Why aren't AI companies competing directly with their customers? (13 Jul 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=13028",
           "author": "Cory Doctorow",
           "description": "Today's links Workplace \"flexibility\" isn't: What the gig economy calls flexibility is just risk-shifting. Hey look at this: Delights to delectate. Object permanence: \"Alanya to Alanya\"; ToS are the internet's biggest lie; Soviet jokes; Fox rapists v gag orders; GBAO is the future; \"Fun Family\"; Sacklers get to keep the loot. Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Workplace \"flexibility\" isn't (permalink) Here's an irony: the \"gig economy\" is a statistical black hole. Workers, customers and regulators know very little about the most basic aspects of it: how much workers g…",
@@ -3887,36 +3917,6 @@
           "wordCount": 1085,
           "title": "Why AI hasn’t replaced software engineers, and won’t",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
-          "author": null,
-          "description": "<p>The <a href=\"https://blog.pyodide.org/posts/314-release/\">Pyodide 314.0 release announcement</a> (via <a href=\"https://news.ycombinator.com/item?id=48462759\">Hacker News</a>) includes news I've been looking forward to for a long time:</p>\r\n<blockquote>\r\n<p>You can now publish Python packages built for Pyodide (or any Python runtime compatible with <a href=\"https://pyodide.org/en/stable/development/abi.html\">the PyEmscripten platform defined in PEP 783</a>) directly to PyPI and install them at runtime.</p>\r\n<p>Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review.</p>\r\n<p>Moving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows.</p>\r\n</blockquote>\r\n<p>Here's the <a href=\"https://github.com/pypi/warehouse/pull/19804\">PR to PyPI itself supporting this</a>, which landed on April 21st.</p>\r\n<p>I adore <a href=\"https://pyodide.org\">Pyodide</a>, and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them.</p>\r\n<p>Thanks to the efforts of a whole lot of people, that's now been fixed!</p>\r\n<h4 id=\"trying-it-out-with-luau-wasm\">Trying it out with luau-wasm</h4>\r\n<p>I decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my <a href=\"https://github.com/simonw/research/tree/main/pluau-wasm-pyodide#readme\">Luau WebAssembly research spike</a> from 9th March.</p>\r\n<p><a href=\"https://luau.org\">Luau</a> is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", <a href=\"https://luau.org/news/2022-11-04-luau-origins-and-evolution/\">developed by Roblox</a> and released under an MIT license.</p>\r\n<p>It's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I <a href=\"https://gist.github.com/simonw/1761eab6ba11d4053f56f955a28ad76b\">set Codex + GPT-5.5 xhigh</a> the task of packaging my experiment up and publishing it to PyPI using GitHub Actions.</p>\r\n<p>It took some iteration, but here's the result: <a href=\"https://pypi.org/project/luau-wasm/\">luau-wasm</a> is a brand new PyPI package which publishes a 276KB <code>luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl</code> file which can be used in Pyodide like this:</p>\r\n<pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">micropip</span>\r\n<span class=\"pl-k\">await</span> <span class=\"pl-s1\">micropip</span>.<span class=\"pl-c1\">install</span>(<span class=\"pl-s\">\"luau-wasm\"</span>)\r\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">luau_wasm</span>\r\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">luau_wasm</span>.<span class=\"pl-c1\">execute</span>(<span class=\"pl-s\">r'''</span>\r\n<span class=\"pl-s\">local animals = {\"fox\", \"owl\", \"frog\", \"rabbit\"}</span>\r\n<span class=\"pl-s\">table.sort(animals, function(a, b) return #a &lt; #b end)</span>\r\n<span class=\"pl-s\">for i, name in animals do print(i .. \". \" .. name .. \" (\" .. #name .. \")\") end</span>\r\n<span class=\"pl-s\">'''</span>))</pre>\r\n<p>You can run that code <a href=\"https://pyodide.org/en/stable/console.html\">in the Pyodide REPL demo</a> to see it in action.</p>\r\n<p>The <a href=\"https://github.com/simonw/luau-wasm\">GitHub repo for luau-wasm</a> includes all of the build and deploy scripts (using the latest <a href=\"https://github.com/pypa/cibuildwheel\">cibuildwheel</a>) and also deploys an HTML demo page which loads Pyodide, installs <code>luau-wasm</code> and provides an interface for trying it out: <a href=\"https://simonw.github.io/luau-wasm/\">https://simonw.github.io/luau-wasm/</a></p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/luau-wasm.jpg\" alt=\"Screenshot of a web app titled &quot;Luau WASM&quot; with subtitle &quot;Run Luau in the browser through Pyodide after installing the luau-wasm WebAssembly wheel from PyPI.&quot; A green &quot;Ready&quot; status badge is at top right. Below are example buttons: &quot;Hello World&quot;, &quot;Variables&quot;, &quot;Tables&quot;, &quot;Fibonacci&quot;, &quot;Runtime Error&quot;. A &quot;LUAU SOURCE&quot; code editor contains: local function fib(n: number): number / if n &lt; 2 then return n end / return fib(n - 1) + fib(n - 2) / end / local out = {} / for i = 0, 12 do / table.insert(out, tostring(fib(i))) / end / print(table.concat(out, &quot;, &quot;)). On the right is an &quot;OUTPUT&quot; panel with a &quot;Copy&quot; button showing dark terminal output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. At the bottom left are a blue &quot;Run&quot; button, a &quot;Clear&quot; button, and the text &quot;6.0 ms&quot;.\" style=\"max-width: 100%;\" /></p>\r\n<h4 id=\"how-many-packages-are-using-this-so-far-\">How many packages are using this so far?</h4>\r\n<p>I was curious to see how many packages are currently publishing wheels for this platform.</p>\r\n<p>After some <a href=\"https://chatgpt.com/share/6a2dee92-b110-83e8-9f53-ba9259b751ed\">tinkering with ChatGPT</a> I got to <a href=\"https://gist.github.com/simonw/4a34a49fca63bc09c50bc31e17b3d33b?permalink_comment_id=6198602#gistcomment-6198602\">this BigQuery SQL</a> which I ran against PyPI's <a href=\"https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/#public-dataset\">public dataset on BigQuery</a>. Here's the <a href=\"https://gist.github.com/simonw/4a34a49fca63bc09c50bc31e17b3d33b\">raw JSON</a> of query results and here's a SQLite SQL query <a href=\"https://lite.datasette.io/?json=https://gist.github.com/simonw/4a34a49fca63bc09c50bc31e17b3d33b#/data?sql=select%0A++name%2C%0A++platform_tag%2C%0A++matching_file_count%2C%0A++max%28latest_upload%29+as+latest_upload%2C%0A++example_files%0Afrom+%28%0A++--+your+existing+query+here%2C+without+order+by%0A++select%0A++++name%2C%0A++++platform_tag%2C%0A++++matching_file_count%2C%0A++++latest_upload%2C%0A++++example_files%0A++from+raw%0A%29%0Agroup+by+name%0Aorder+by+latest_upload+desc%3B\">in Datasette Lite</a> which dedupes packages by most recent upload date.</p>\r\n<p>If the query is right, there are currently 28 PyPI packages publishing with the new <code>pyemscripten_202*_wasm32</code> tags:</p>\r\n<p><a href=\"https://pypi.org/project/luau-wasm/\">luau-wasm</a>, <a href=\"https://pypi.org/project/uuid7-rs/\">uuid7-rs</a>, <a href=\"https://pypi.org/project/cmm-16bit/\">cmm-16bit</a>, <a href=\"https://pypi.org/project/pyOpenTTDAdmin/\">pyOpenTTDAdmin</a>, <a href=\"https://pypi.org/project/imgui-bundle/\">imgui-bundle</a>, <a href=\"https://pypi.org/project/numbertoolkit/\">numbertoolkit</a>, <a href=\"https://pypi.org/project/bashkit/\">bashkit</a>, <a href=\"https://pypi.org/project/geoarrow-rust-core/\">geoarrow-rust-core</a>, <a href=\"https://pypi.org/project/arro3-io/\">arro3-io</a>, <a href=\"https://pypi.org/project/arro3-core/\">arro3-core</a>, <a href=\"https://pypi.org/project/arro3-compute/\">arro3-compute</a>, <a href=\"https://pypi.org/project/onnx/\">onnx</a>, <a href=\"https://pypi.org/project/powerfit-em/\">powerfit-em</a>, <a href=\"https://pypi.org/project/tcod/\">tcod</a>, <a href=\"https://pypi.org/project/chonkie-core/\">chonkie-core</a>, <a href=\"https://pypi.org/project/tokie/\">tokie</a>, <a href=\"https://pypi.org/project/robotraconteur/\">robotraconteur</a>, <a href=\"https://pypi.org/project/pydantic_core/\">pydantic_core</a>, <a href=\"https://pypi.org/project/yaml-rs/\">yaml-rs</a>, <a href=\"https://pypi.org/project/cadquery-ocp-novtk-OCP.wasm/\">cadquery-ocp-novtk-OCP.wasm</a>, <a href=\"https://pypi.org/project/uuid_utils/\">uuid_utils</a>, <a href=\"https://pypi.org/project/base64_utils/\">base64_utils</a>, <a href=\"https://pypi.org/project/pycdfpp/\">pycdfpp</a>, <a href=\"https://pypi.org/project/lib3mf-OCP.wasm/\">lib3mf-OCP.wasm</a>, <a href=\"https://pypi.org/project/typst/\">typst</a>, <a href=\"https://pypi.org/project/toml-rs/\">toml-rs</a>, <a href=\"https://pypi.org/project/onnx-weekly/\">onnx-weekly</a>, <a href=\"https://pypi.org/project/dummy-pyodide-ext-test/\">dummy-pyodide-ext-test</a></p>\r\n<p>Here's hoping we see a whole lot more of those showing up over the coming months and years.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/lua\">lua</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
-          "publishedOn": "2026-06-13T23:55:18.000Z",
-          "wordCount": 1294,
-          "title": "Publishing WASM wheels to PyPI for use with Pyodide",
-          "imageUrl": "https://static.simonwillison.net/static/2026/luau-wasm.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/luau-wasm/releases/tag/0.1a0\">luau-wasm 0.1a0</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/\">Publishing WASM wheels to PyPI for use with Pyodide</a> for details.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/lua\">lua</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
-          "publishedOn": "2026-06-13T23:14:30.000Z",
-          "wordCount": 738,
-          "title": "luau-wasm 0.1a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/sqlite-column-provenance#readme\">Mapping SQLite result columns back to their source `table.column`</a></p>\n        <p>It would be neat if arbitrary SQL queries in <a href=\"https://datasette.io/\">Datasette</a> could be rendered with additional information based on which columns from which tables were included in the results.</p>\n<p>To build that, we would need to be able to look at a SQL query like <code>select users.name, orders.total from users join orders on orders.user_id = users.id</code> and programmatically identify the <code>table.column</code> for each result - navigating not just joins but also more complex syntax like CTEs.</p>\n<p>I decided to set Claude Code (Opus 4.8, since Fable is currently <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">banned by the US government</a>) on the problem. It found several promising solutions - one using <a href=\"https://github.com/rogerbinns/apsw\">apsw</a>, another that uses <code>ctypes</code> to access the SQLite <code>sqlite3_column_table_name()</code> <a href=\"https://sqlite.org/c3ref/column_database_name.html\">C function</a> (which is not otherwise exposed to Python), and one using clever interrogation of the output of <code>EXPLAIN</code>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
-          "publishedOn": "2026-06-13T23:05:00.000Z",
-          "wordCount": 926,
-          "title": "Mapping SQLite result columns back to their source `table.column`",
-          "imageUrl": null
         }
       ]
     },
@@ -4024,6 +4024,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=164112",
+          "author": "Natalie Wolchover",
+          "description": "An invisible difference in 10% of humans poses deep mysteries in several fields at once.            \nThe post Why Am I Left-Handed? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/why-am-i-left-handed-20260713/",
+          "publishedOn": "2026-07-13T14:22:22.000Z",
+          "wordCount": 3561,
+          "title": "Why Am I Left-Handed?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/QualiaLeftHand-crKristinaArmitage-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=164067",
           "author": "Rohini Subrahmanyam",
