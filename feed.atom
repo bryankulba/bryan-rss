@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-12T20:42:20.773Z</updated>
+    <updated>2026-07-13T02:32:28.614Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Directly Responsible Individuals (DRI)]]></title>
+        <id>https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything"/>
+        <updated>2026-07-12T23:57:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/">Directly Responsible Individuals (DRI)</a></strong></p>
+I went looking for a definition of "Directly Responsible Individuals" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is "ultimately accountable for the success or failure of a specific project, initiative, or activity".</p>
+<p>I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I don't think an agent should <em>ever</em> be considered the DRI for a project - that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot.</p>
+<p>(See also <a href="https://simonwillison.net/2025/Feb/3/a-computer-can-never-be-held-accountable/">IBM's legendary 1979 training slide</a> that states "A computer can never be held accountable, therefore a computer must never make a management decision.")
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/apple">apple</a>, <a href="https://simonwillison.net/tags/management">management</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/gitlab">gitlab</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[shot-scraper 1.11]]></title>
+        <id>https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything"/>
+        <updated>2026-07-12T23:46:52.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/shot-scraper/releases/tag/1.11">shot-scraper 1.11</a></p>
+        <p>Some minor improvements, mainly around command option consistency and making the <code>server:</code> mechanism <a href="https://shot-scraper.datasette.io/en/stable/multi.html#running-a-server-for-the-duration-of-the-session">used by</a> both <code>shot-scraper video</code> and <code>shot-scraper multi</code> work if the server takes longer than a second to start serving traffic.</p>
+<blockquote>
+<ul>
+<li><code>server:</code> processes used by <code>shot-scraper multi</code> and <code>shot-scraper video</code> now wait up to 30 seconds for the target URL to accept connections, polling for port availability and replacing the previous fixed one-second delay. <a href="https://github.com/simonw/shot-scraper/issues/197">#197</a></li>
+<li>The <code>shot-scraper</code>, <code>pdf</code>, <code>html</code>, <code>accessibility</code> and <code>har</code> commands now have a <code>--js-file</code> option for loading JavaScript from a local file, standard input or <code>gh:username/script</code>, as an alternative to <code>--javascript</code>which accepts the string of JavaScript directly as an argument. <a href="https://github.com/simonw/shot-scraper/issues/192">#192</a></li>
+<li><code>shot-scraper multi</code> supports the equivalent <code>js_file:</code> YAML key. </li>
+<li>The <code>shot-scraper javascript</code> and <code>shot-scraper html</code> commands now have a <code>--timeout</code> option for consistency with other commands. <a href="https://github.com/simonw/shot-scraper/issues/118">#118</a></li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/shot-scraper">shot-scraper</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fable gets another bump]]></title>
+        <id>https://simonwillison.net/2026/Jul/12/bump/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/12/bump/#atom-everything"/>
+        <updated>2026-07-12T21:20:07.000Z</updated>
+        <summary type="html"><![CDATA[<p>One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, <a href="https://x.com/claudeai/status/2076351399999557669">bumped the date</a> that Fable stops being available in their Claude Max plans:</p>
+<blockquote>
+<p>We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</p>
+<p>As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits.</p>
+</blockquote>
+<p>Anthropic's original rationale for this was compute constraints - they wanted a better idea of both demand and compute availability before committing to keeping the new model cheap for subscribers.</p>
+<p>OpenAI appear confident that they won't need to restrict access to GPT-5.6 in the same way. Here's Thibault Sottiaux <a href="https://twitter.com/thsottiaux/status/2076365965915467978">this morning</a>:</p>
+<blockquote>
+<p>The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:</p>
+<ul>
+<li>Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans</li>
+<li>Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared</li>
+<li>We hit 6M active users, and are landing a usage reset in the next hour</li>
+</ul>
+</blockquote>
+<p>At this point I think Anthropic should change track and keep Fable permanently available on those plans. OpenAI are winning users simply due to the uncertainty that surrounds Fable access.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sqlite-utils 4.1.1]]></title>
+        <id>https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything"/>
+        <updated>2026-07-12T20:55:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-utils/releases/tag/4.1.1">sqlite-utils 4.1.1</a></p>
+        <p>Mainly a fix for an edge case that regular Claude chat spotted while <a href="https://claude.ai/share/564b187d-d126-47ea-9b59-07c16ade0b70">experimenting with the 4.1 release</a> to answer a question about ON DELETE.</p>
+<blockquote>
+<ul>
+<li><code>table.transform()</code> now raises a <code>TransactionError</code> if called while a transaction is open with <code>PRAGMA foreign_keys</code> enabled and the table is referenced by foreign keys with destructive <code>ON DELETE</code> actions - <code>CASCADE</code>, <code>SET NULL</code> or <code>SET DEFAULT</code>. The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions and silently delete or modify referencing rows. See <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html#python-api-transform-foreign-keys-transactions">Foreign keys and transactions</a> for details and workarounds. (<a href="https://github.com/simonw/sqlite-utils/issues/794">#794</a>)</li>
+<li>The <a href="https://sqlite-utils.datasette.io/en/stable/cli.html">CLI</a> and <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html">Python API</a> documentation now cross-reference each other: CLI sections link to the equivalent Python API functionality and Python API sections link back to the corresponding CLI command. (<a href="https://github.com/simonw/sqlite-utils/issues/791">#791</a>)</li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[KamTape]]></title>
         <id>https://waxy.org/?p=51021</id>
