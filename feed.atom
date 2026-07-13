@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-13T02:32:28.614Z</updated>
+    <updated>2026-07-13T06:50:59.736Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -163,6 +163,17 @@ AUX #]]></summary>
         <summary type="html"><![CDATA[<p>Great to be out in the street. <a href="https://www.robinsloan.com/lab/stop-ai-march/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[RIDGELINE] Kazunori Hamana in Apartamento]]></title>
+        <id>https://craigmod.com/ridgeline/231/</id>
+        <link href="https://craigmod.com/ridgeline/231/"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ridgeline subscribers —
+Man, it was fun talking with Kazunori Hamana back in January. He’s lived a bizarre life, seemingly one without a roadmap, though I suspect his laid-back, subtly-goatee’d vibes belie a cunning streak. He was welcoming and rough-edged in a disarming way. He lives out in the wilds of Chiba, in an area that feels like it may cease to exist without his presence in ten or fifteen years. Many lives ago, he lived in the wilds of Shibuya, running a select / used-clothing shop called “Blues” out of Ura-Harajuku (back when Ura-Hara was a place you’d catch whispers of on rogue Usenet forums, or in copies of TOKION snatched from Casa Magazines in the West Village, if anywhere; today it is splayed about TikTok like a glazed ham at Old Country Buffet) and driving around in a Ferrari. Now he drives a kei-truck and spends all the money he makes selling his incredible pottery on buying land and old homes on the Chiba coast, setting up artist residencies, creating space for artist communities to take root.]]></summary>
+        <author>
+            <name>Craig Mod</name>
         </author>
     </entry>
     <entry>
@@ -6692,16 +6703,6 @@ Arvind Narayanan and Sayash Kappor take on the question of AI job losses through
         <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Shareholder supremacy and the precog CEO (13 Jun 2026)]]></title>
-        <id>https://pluralistic.net/?p=12917</id>
-        <link href="https://pluralistic.net/2026/06/13/minority-shareholder-report/"/>
-        <updated>2026-06-13T17:49:56.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Shareholder supremacy and the precog CEO: A bright line test that's totally unfalsifiable. Hey look at this: Delights to delectate. Object permanence: Msft v Linux geeks; James Joyce scholars v Joyce estate; iPod sweatshops; Pratchett initiates assisted suicide; Lego-making machine made of Lego; Laid off workers v gag clauses; The ACCESS Act. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Shareholder supremacy and the precog CEO (permalink) It's been 55 years since Milton Friedman – cursed be his name – published his NYT editorial, "The Social Responsibility…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
