@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-14T17:12:10.628Z</updated>
+    <updated>2026-07-14T20:58:20.477Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[lobste.rs is now running on SQLite]]></title>
+        <id>https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything"/>
+        <updated>2026-07-14T19:44:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite">lobste.rs is now running on SQLite</a></strong></p>
+Community site <a href="https://lobste.rs">Lobsters</a> has been planning a migration away from MariaDB <a href="https://github.com/lobsters/lobsters/issues/539#issuecomment-4959857588">since August 2018</a> - originally targeting PostgreSQL, but last year they decided to <a href="https://github.com/lobsters/lobsters/issues/539#issuecomment-2964114295">investigate SQLite</a> instead.</p>
+<p>This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward:</p>
+<blockquote>
+<p>SQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down</p>
+</blockquote>
+<p>The Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. <a href="https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite#c_c9ydhs">There's also</a> a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the <a href="https://github.com/rack/rack-attack">Rack::Attack</a> middleware for blocking and throttling abusive requests.</p>
+<p>There are plenty more details in both the linked thread and this <a href="https://github.com/lobsters/lobsters/pull/1927">SQLite migration PR</a> by Thomas Dziedzic, which added 735 lines and removed 593 lines across 30 commits and 188 files. That PR built on top of previous PRs <a href="https://github.com/lobsters/lobsters/pull/1705">#1705</a>, <a href="https://github.com/lobsters/lobsters/pull/1871">#1871</a>, and <a href="https://github.com/lobsters/lobsters/pull/1924">#1924</a>.</p>
+<p>This is a really useful case study, and a great reminder that you can get a whole lot done with a single server and SQLite in 2026.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/migrations">migrations</a>, <a href="https://simonwillison.net/tags/ops">ops</a>, <a href="https://simonwillison.net/tags/rails">rails</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/lobsters">lobsters</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump Dismantled a Federal Climate Website. These Women...]]></title>
+        <id>https://kottke.org/26/07/0049330-trump-dismantled-a-federa</id>
+        <link href="https://kottke.org/26/07/0049330-trump-dismantled-a-federa"/>
+        <updated>2026-07-14T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trump Dismantled a Federal Climate Website. These Women Rebuilt It. “It’s not a pretty picture for climate communication and climate journalism right now.” You can check out the new site at climate.us.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Armin Ronacher]]></title>
+        <id>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything"/>
+        <updated>2026-07-14T18:04:23.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/"><p>The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else.</p>
+<p>Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people.</p></blockquote>
+<p class="cite">&mdash; <a href="https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/">Armin Ronacher</a>, The Tower Keeps Rising</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/software-engineering">software-engineering</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/armin-ronacher">armin-ronacher</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A short, hypnotic video by Matthew Wilcock of the music...]]></title>
+        <id>https://kottke.org/26/07/0049338-a-short-hypnotic-video-by</id>
+        <link href="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by"/>
+        <updated>2026-07-14T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A short, hypnotic video by Matthew Wilcock of the music generated by a tennis rally at Wimbledon. “Duplicating the players and then using the rhythm of the multiple tennis balls as they cross the pink line to drive the rhythm of the piece.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Swiss project proves the viability of solar panels...]]></title>
         <id>https://kottke.org/26/07/0049310-placed-in-the-otherwise-u</id>
@@ -14,6 +69,20 @@
         <summary type="html"><![CDATA[Swiss project proves the viability of solar panels placed in the otherwise unused space between railroad tracks.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a37]]></title>
+        <id>https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything"/>
+        <updated>2026-07-14T16:31:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a37">datasette 1.0a37</a></p>
+        <p>A minor release. Performance and <a href="https://docs.datasette.io/en/latest/authentication.html#authentication-permissions-explained">documentation</a> improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>

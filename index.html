@@ -35,6 +35,96 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T19:44:11.000Z">2026-07-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything" target="_blank" rel="noopener noreferrer">lobste.rs is now running on SQLite</a>
+          </h2>
+          <p class="feed-item__desc">lobste.rs is now running on SQLite
+Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead.
+This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward:
+SQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down
+The Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. There's also a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the Rack::Attack middleware for blocking and throttling abusive requests.
+There are plenty more details in both the linked thread and this SQLite migration PR by Thomas Dziedzic, which added 735 lines and removed 593 lines across 30 commits and 188 files. That PR built on top of previous PRs #1705, #1871, and #1924.
+This is a really useful case study, and a great reminder that you can get a whole lot done with a single server and SQLite in 2026.
+
+
+    
+Tags: migrations, ops, rails, sqlite, lobsters</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049330-trump-dismantled-a-federa">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T19:00:00.000Z">2026-07-14</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049330-trump-dismantled-a-federa" target="_blank" rel="noopener noreferrer">Trump Dismantled a Federal Climate Website. These Women...</a>
+          </h2>
+          <p class="feed-item__desc">Trump Dismantled a Federal Climate Website. These Women Rebuilt It. “It’s not a pretty picture for climate communication and climate journalism right now.” You can check out the new site at climate.us.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049330-trump-dismantled-a-federa" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049330-trump-dismantled-a-federa">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T18:04:23.000Z">2026-07-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Armin Ronacher</a>
+          </h2>
+          <p class="feed-item__desc">The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience of having to explain a change to somebody else.
+Before agents, some of this shared understanding was maintained by friction. If I wanted to change your storage layer, I usually had to read your code, ask you questions, and perhaps coordinate with another team whose service depended on it. This was slow, and much of that slowness was waste but not all of it was. Some of it was the process by which your understanding became mine, and by which both of us discovered whether we still agreed about how the system worked. This friction synchronizes people.
+
+— Armin Ronacher, The Tower Keeps Rising
+Tags: ai, software-engineering, llms, coding-agents, ai-assisted-programming, generative-ai, armin-ronacher, agentic-engineering</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T18:00:00.000Z">2026-07-14</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by" target="_blank" rel="noopener noreferrer">A short, hypnotic video by Matthew Wilcock of the music...</a>
+          </h2>
+          <p class="feed-item__desc">A short, hypnotic video by Matthew Wilcock of the music generated by a tennis rally at Wimbledon. “Duplicating the players and then using the rhythm of the multiple tennis balls as they cross the pink line to drive the rhythm of the piece.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-14T17:02:00.000Z">2026-07-14</time>
@@ -50,6 +140,27 @@
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T16:31:41.000Z">2026-07-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything" target="_blank" rel="noopener noreferrer">datasette 1.0a37</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 1.0a37
+A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break.
+Tags: datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
       </div>
