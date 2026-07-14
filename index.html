@@ -35,6 +35,198 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T00:56:20.000Z">2026-07-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything" target="_blank" rel="noopener noreferrer">Using uvx in GitHub Actions in a cache-friendly way</a>
+          </h2>
+          <p class="feed-item__desc">TIL: Using uvx in GitHub Actions in a cache-friendly way
+I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like.
+The trick is setting a UV_EXCLUDE_NEWER: "2026-07-12" environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any uvx tool-name commands will resolve to the most recent version as-of that date, and you can bust the cache and upgrade the tools by bumping the date in the future.
+My goal here is to use Python tools in GitHub Actions without every run of the workflow hitting PyPI to download a fresh copy of the tool and its dependencies.
+Tags: packaging, pypi, python, github-actions, uv</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049329-by-looking-for-cosmic-coo">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-13T23:50:00.000Z">2026-07-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049329-by-looking-for-cosmic-coo" target="_blank" rel="noopener noreferrer">“A star located about 1,300 light-years from Earth...</a>
+          </h2>
+          <p class="feed-item__desc">“A star located about 1,300 light-years from Earth shows signs of having devoured one of its planets — and is now gearing up for a second helping…” Scientists found signs of the meal by looking for “cosmic cookie crumbs”.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049329-by-looking-for-cosmic-coo" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049329-by-looking-for-cosmic-coo">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/13/doomql/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-13T22:34:41.000Z">2026-07-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/13/doomql/#atom-everything" target="_blank" rel="noopener noreferrer">DOOMQL</a>
+          </h2>
+          <p class="feed-item__desc">DOOMQL
+lot of fun: 
+DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data?
+The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen.
+It's implemented as a Python terminal script - I tried it out like this:
+cd /tmp
+git clone https://github.com/petergpt/doomql
+cd doomql
+uv run host/doomql.py
+
+
+Here's the huge SQL query that implements a full ray tracer in SQLite using a recursive CTE.
+Running the above script creates a /tmp/doomql/.doomql/doomql.sqlite SQLite database, which you can explore using Datasette like this:
+uvx --prerelease=allow  --with datasette-apps datasette \
+  /tmp/doomql/.doomql/doomql.sqlite \
+  -p 4444 --root --secret 1 --internal internal.db
+
+The --with datasette-apps option installs the new Datasette Apps plugin, which supports creating custom HTML+JavaScript apps that can run SQL queries directly within the Datasette interface.
+I created a new app, pasted the copy-paste prompt into Claude chat (Fable 5) and told it:
+Build an app that displays the current state of the screen using the frame_pixels view with its x, y, r, g, b columns. have it refresh once a second.
+This got me a working HTML+JavaScript app inside Datasette that could reflect the current state while I played the game in my terminal. Then I added:
+add a minimap
+And now my Datasette App looks like this:
+
+Here's the HTML app code - paste that into your own Datasette instance (using the uvx --with datasette-apps recipe from above) to try it yourself.
+
+    
+Via @petergostev
+Tags: games, sql, sqlite, ai, datasette, generative-ai, llms, ai-assisted-programming, gpt, datasette-apps</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/13/doomql/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/13/doomql/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/doomql-datasette-app.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-13T21:45:27.000Z">2026-07-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything" target="_blank" rel="noopener noreferrer">datasette code-frequency chart on GitHub</a>
+          </h2>
+          <p class="feed-item__desc">datasette code-frequency chart on GitHub
+Datasette open source project:
+
+The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol.
+
+
+    
+Tags: github, ai, datasette, generative-ai, llms, ai-assisted-programming, coding-agents</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/digger">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-13T21:35:00.000Z">2026-07-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/digger" target="_blank" rel="noopener noreferrer">Digger</a>
+          </h2>
+          <p class="feed-item__desc">I’d seen that there was a new Tom Cruise movie coming out this fall called Digger, but I was not prepared for the trailer, in which we see Cruise playing a dipshit oligarch in what appears to be a Dr. Strangelove-style satire/thriller.
+The most powerful man in the world embarks on a frantic mission to prove he is humanity’s savior before the disaster he’s unleashed destroys everything.
+
+	
+The film is directed by Alejandro Iñárritu (Amores perros, Birdman, The Revenant) and also stars John Goodman as a geriatric president, Sandra Hüller, and Jesse Plemons. Digger has just moved near the top of my most-anticipated movies of 2026 list.
+
+ 
+
+        
+         
+Tags: Digger · movies · Tom Cruise · trailers · video</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/digger" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/digger">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://i.ytimg.com/vi/qORTe1wW3Wg/sddefault.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51029">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-13T20:58:40.000Z">2026-07-13</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://clipart.studio/" target="_blank" rel="noopener noreferrer">clipart.studio</a>
+          </h2>
+          <p class="feed-item__desc">make and share collages from the Internet Archive’s magazine collection or upload your own PDF
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51029" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51029">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://clipart.studio/assets/og.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51025">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-13T20:56:17.000Z">2026-07-13</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://aim.cee.wtf/" target="_blank" rel="noopener noreferrer">Buddy List</a>
+          </h2>
+          <p class="feed-item__desc">an AIM-style buddy list of your active Bluesky mutuals, no login necessary
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51025" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51025">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049320-til-about-fredkins-parado">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-13T20:39:00.000Z">2026-07-13</time>
@@ -11033,28 +11225,6 @@ Tags: careers, ai, generative-ai, llms, arvind-narayanan, ai-ethics</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="6a2df83b76163b00017c40ee">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-14T10:00:07.000Z">2026-06-14</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/we-may-be-entering-a-second-axial-age-radical-abundance-no-407/" target="_blank" rel="noopener noreferrer">We may be entering a second Axial Age ⊗ Radical abundance</a>
-          </h2>
-          <p class="feed-item__desc">No.407 — The frame vs. the framer ⊗ The formula won ⊗ Google’s AI Overviews are Google’s own ⊗ World Without End ⊗ It hunts using its shadow</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="6a2df83b76163b00017c40ee" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="6a2df83b76163b00017c40ee">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/daniel-honies-yJwcjpalCyY-unsplash-w.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
