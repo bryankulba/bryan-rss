@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-15T06:12:02.033Z</updated>
+    <updated>2026-07-15T13:38:23.021Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6827,130 +6827,6 @@ I <a href="https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/">quot
     <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/jailbreaking">jailbreaking</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare CAPTCHA on at least one ampersand]]></title>
-        <id>https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything"/>
-        <updated>2026-06-16T00:21:36.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>TIL:</strong> <a href="https://til.simonwillison.net/cloudflare/captcha-on-at-least-one-ampersand">Cloudflare CAPTCHA on at least one ampersand</a></p>
-        <p>I'm using Cloudflare's CAPTCHA (they call it a "Web Application Firewall &gt; Custom rules &gt; Managed Challenge" these days) to prevent crawlers from aggresively spidering my <a href="https://simonwillison.net/2017/Oct/5/django-postgresql-faceted-search/">faceted search engine</a> on this site, but I got fed up of even simple <code>?q=term</code> searches triggering the challenge.</p>
-<p>After some mucking around with Claude Code it turns out you can register the following rule instead, so the CAPTCHA only kicks in for search URLs containing at least one ampersand:</p>
-<p><code>(http.request.uri.path wildcard r"/search/*" and http.request.uri.query contains "&amp;")</code></p>
-<p>And now <a href="https://simonwillison.net/search/?q=lemur">/search/?q=lemur</a> works without triggering a CAPTCHA!</p>
-<p>Also included: notes on <a href="https://til.simonwillison.net/cloudflare/captcha-on-at-least-one-ampersand#trying-the-cloudflare-mcp">trying out the Cloudflare MCP with Claude Code</a>, though it turned out not to be able to edit the rules in question so I had Claude Code <a href="https://til.simonwillison.net/cloudflare/captcha-on-at-least-one-ampersand#using-the-api-instead">switch to the Cloudflare API</a> instead.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/captchas">captchas</a>, <a href="https://simonwillison.net/tags/cloudflare">cloudflare</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abdullah Ibrahim (9 October 1934–15 June 2026)]]></title>
-        <id>https://www.thewire.co.uk/in-writing/the-portal/abdullah-ibrahim-9-october-1934-15-june-2026</id>
-        <link href="https://www.thewire.co.uk/in-writing/the-portal/abdullah-ibrahim-9-october-1934-15-june-2026"/>
-        <updated>2026-06-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In Struggle, In Grace: Abdullah Ibrahim: Music, Revolution & Prayer. Interview by Graham Lock, The Wire 8, October 1984
-    
-Abdullah Ibrahim’s Epiphanies. The Wire 454, December 2021]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How The Heck Do Solar Panels Work?  &#8220;Every hour,...]]></title>
-        <id>https://kottke.org/26/06/0049150-how-the-heck-do-solar-pan</id>
-        <link href="https://kottke.org/26/06/0049150-how-the-heck-do-solar-pan"/>
-        <updated>2026-06-15T23:12:00.000Z</updated>
-        <summary type="html"><![CDATA[How The Heck Do Solar Panels Work? “Every hour, the Earth receives enough sunlight to power all of human civilization for a year. It arrives silently, from all directions, at no cost.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mad Max creator George Miller  wants to make one more Mad...]]></title>
-        <id>https://kottke.org/26/06/0049151-wants-to-make-one-more-ma</id>
-        <link href="https://kottke.org/26/06/0049151-wants-to-make-one-more-ma"/>
-        <updated>2026-06-15T21:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Mad Max creator George Miller wants to make one more Mad Max movie and a TV series before calling it quits.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Randomly thought of  Brendan Dassey  today. He&#8217;s...]]></title>
-        <id>https://kottke.org/26/06/0049145-brendan-dassey</id>
-        <link href="https://kottke.org/26/06/0049145-brendan-dassey"/>
-        <updated>2026-06-15T20:39:00.000Z</updated>
-        <summary type="html"><![CDATA[Randomly thought of Brendan Dassey today. He’s still serving out his life sentence for, IMO, having absolutely nothing to do with the murder at the center of Netflix’s Making a Murderer.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-apps 0.1a3]]></title>
-        <id>https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything"/>
-        <updated>2026-06-15T20:25:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-apps/releases/tag/0.1a3">datasette-apps 0.1a3</a></p>
-        <blockquote>
-<ul>
-<li>Fixed a bug where users without the <code>create-app</code> permission could still create apps. <a href="https://github.com/datasette/datasette-apps/issues/27">#27</a></li>
-<li>Fixed a bug where it was impossible to grant permission to edit an app to users who were not the app's owner. The rules for edit/delete are now the same as view: if the app is private only the owner can modify it, otherwise permission is controlled by Datasette's regular permission system. <a href="https://github.com/datasette/datasette-apps/issues/29">#29</a></li>
-</ul>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HAXAN On Blu-Ray]]></title>
-        <id>https://warrenellis.ltd/?p=18537</id>
-        <link href="https://warrenellis.ltd/library/haxan-on-blu-ray/"/>
-        <updated>2026-06-15T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I had this on VHS about a million years ago. HAXAN is a lovely little thing, genuinely strange, and I am looking forward to discovering…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The SpaceX IPO Is A Giant Unworkable Con Orchestrated By...]]></title>
-        <id>https://kottke.org/26/06/0049143-the-spacex-ipo-is-a-giant</id>
-        <link href="https://kottke.org/26/06/0049143-the-spacex-ipo-is-a-giant"/>
-        <updated>2026-06-15T19:58:00.000Z</updated>
-        <summary type="html"><![CDATA[The SpaceX IPO Is A Giant Unworkable Con Orchestrated By An Overt White Supremacist Huckster. “He’s endlessly mythologized by a shitty corporate press, eager to ignore his virulent racism & financial fraud bc he’s accumulated obscene amounts of money.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Telescope Ranchers]]></title>
-        <id>https://kottke.org/26/06/telescope-ranchers</id>
-        <link href="https://kottke.org/26/06/telescope-ranchers"/>
-        <updated>2026-06-15T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Rockwood, Texas is home to a unique business, Starfront Observatories. Owner/operator Bray Falls hosts hundreds of other people’s telescopes in perfect conditions — ultra-dark skies (Class 1 on the Bortle scale), clear weather, and fast internet — so astrophotographers from around the world can run their scopes and make observations completely from their computers. 
-Out in the middle of nowhere Texas, a young astrophotographer is running one of the largest telescope ranches on Earth. Stargazers from around the world ship their gear to Bray Falls, who tends 550 telescopes (and counting) on 40 acres outside Brady, the geographic heart of Texas. Customers control the scopes from a laptop anywhere on the planet for as little as 99 dollars a month. We dropped by Starfront Observatories on a perfect dark sky night to see how the operation actually works.
-
-	
-I fisrt learned about telescope ranching late last year from astrophotographer Ian Lauer; he’s got a good video about Starfront Observatories as well:
-
-The imagery produced by the telescopes on this ranch is impressive. Here’s one of Falls’ own images, a nebula he discovered called The Crown of Thorns Nebula.
-I’ll start this off by saying this nebula should not be here! Supernova remnants are the remains of stars which detonated long ago. Nearly all supernova remnants in the sky exist within 10° of the Milky Way band, where the greatest density of stars can be seen.
-This remnant lives 42° off the beaten path in VIRGO! It is a remnant that stands alone surrounded by nothing. It is the only supernova remnant in the constellation Virgo.
-It is so far from where it should be, that my scientist friend Dr. Robert Fesen has doubts that it could be what we think it is, and so a professional observatory has collected data on the object and is now studying it.
-
- 
-
-        
-         
-Tags: astronomy · Bray Falls · Ian Lauer · photography · science · space · texas · video]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
