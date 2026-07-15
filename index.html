@@ -35,6 +35,136 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51034">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T23:13:49.000Z">2026-07-14</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.gamesindustry.biz/how-evil-trout-aims-to-turn-a-cult-free-game-into-a-steam-hit-again" target="_blank" rel="noopener noreferrer">How Evil Trout aims to turn a cult free game into a Steam hit again</a>
+          </h2>
+          <p class="feed-item__desc">The Incident at Galley House, the fully-voiced graphical adaption of the brilliant Type Help, is out now
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51034" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51034">Mark read</button>
+            <span class="feed-item__reading-time">25 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://assetsio.gnwcdn.com/Image-2_2Ufk9Bb.jpg?width&#x3D;1200&amp;height&#x3D;630&amp;fit&#x3D;crop&amp;enable&#x3D;upscale&amp;auto&#x3D;webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51032">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T23:04:50.000Z">2026-07-14</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://parakeet.co/blog/the-shape-of-apps/" target="_blank" rel="noopener noreferrer">The Shape of Apps</a>
+          </h2>
+          <p class="feed-item__desc">Louie Mantia on the history, limitations, and benefits of Apple’s squircle icons
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51032" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51032">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T22:43:35.000Z">2026-07-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting GitHub Changelog</a>
+          </h2>
+          <p class="feed-item__desc">Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration.
+
+— GitHub Changelog, embracing dependency cooldowns
+Tags: dependency-cooldowns, packaging, security, github</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T22:29:45.000Z">2026-07-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything" target="_blank" rel="noopener noreferrer">simonw/pedalican</a>
+          </h2>
+          <p class="feed-item__desc">simonw/pedalican
+first announced back in May, but today I accidentally activated a "pet" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own.
+So I did, and now I have a cute little pelican on a bicycle bouncing around my desktop giving me updates on my Codex tasks.
+
+    
+    Your browser does not support HTML5 video.
+  
+
+The most interesting thing about this process was watching how the custom pet was created. I told it I wanted a custom pet that was a pelican riding a bicycle and GPT-5.6 Sol xhigh did the rest of the work, using several rounds with gpt-image-2 to generate the necessary sprite assets.
+I had it make extensive notes and record all of the intermediary steps. My GItHub repo includes every generated image and combined sprite sheet, plus GIFs for each of the animation loops such as this one, called waving.gif:
+
+That GIF was compiled from a single image generated by gpt-image-2 that looked like this:
+
+And that image was created by executing this prompt against the initial generated character reference image, which was created with this prompt, which has this structure:
+Create one clean full-body reference sprite for Codex pet Pedalican.
+Pet identity: A compact adorable baby pelican with a round cream-white body, soft coral-orange bill and feet, riding a tiny sky-blue bicycle [...]
+Place a single centered pose on a perfectly flat pure magenta #FF00FF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. [...]
+I've been looking out for ways to use image generation to create simple game-ready sprites, so I spent some time digging into this mechanism to see how it works.
+The key implementation details are open source - these two skills in particular, both Apache 2.0 licensed:
+hatch-pet from openai/skills
+imagegen from openai/codex
+And yes, GPT-5.6 Sol did come up with the name "Pedalican". I like it!
+
+
+    
+Tags: ai, prompt-engineering, generative-ai, llms, text-to-image, pelican-riding-a-bicycle, codex</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/pedalican-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049334-werwulf">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-14T21:06:10.000Z">2026-07-14</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049334-werwulf" target="_blank" rel="noopener noreferrer">Robert Eggers continues his run of One Word Title Films...</a>
+          </h2>
+          <p class="feed-item__desc">Robert Eggers continues his run of One Word Title Films Featuring Very Strange Men with Werwulf. I’m not a horror guy but I was pleasantly surprised by Nosferatu, which I quite liked.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049334-werwulf" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049334-werwulf">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-14T19:44:11.000Z">2026-07-14</time>
@@ -11400,47 +11530,6 @@ Tags: art · Claire Salvo · NY Knicks · sports</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1781532482-d55c95d3.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049133-sports-but-make-it-wealth">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-15T13:48:00.000Z">2026-06-15</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049133-sports-but-make-it-wealth" target="_blank" rel="noopener noreferrer">Sports but make it wealth inequality :...</a>
-          </h2>
-          <p class="feed-item__desc">Sports but make it wealth inequality: “Brunson…didn’t take an extra $113M so the Knicks could sign KAT, Mikal Bridges and keep OG long term… It’s almost as if sharing wealth leads to better outcomes for all…”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049133-sports-but-make-it-wealth" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049133-sports-but-make-it-wealth">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18545">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-15T10:59:00.000Z">2026-06-15</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/status-15jun26/" target="_blank" rel="noopener noreferrer">status 15jun26</a>
-          </h2>
-          <p class="feed-item__desc">Yesterday, as is tradition, I gave herself the first ripe raspberry of summer. Today, we were out in the garden in the rain with a…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18545" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18545">Mark read</button>
-            <span class="feed-item__reading-time">6 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/06/IMG_1389-scaled.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
