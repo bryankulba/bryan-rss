@@ -2039,56 +2039,6 @@
           "wordCount": 1052,
           "title": "Telescope Ranchers",
           "imageUrl": "https://i.ytimg.com/vi/bN48vEqaQs8/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/06/0049142-how-to-get-out-of-bed",
-          "author": null,
-          "description": "How to get out of bed. “There is no 28 point shot in basketball. The only way to come back from a 27 point deficit is one shot at a time. Two points here. Two points there. A few three pointers sprinkled in.”",
-          "link": "https://kottke.org/26/06/0049142-how-to-get-out-of-bed",
-          "publishedOn": "2026-06-15T18:10:00.000Z",
-          "wordCount": 829,
-          "title": "How to get out of bed . &#8220;There is no 28 point shot...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049139-will-be-performing-a-coll",
-          "author": null,
-          "description": "DJ Shadow and the BBC Symphony Orchestra will be performing a “collaborative reimagination for orchestra” of his seminal album Endtroducing… in December. Tickets are already sold out, but there will be a recording!",
-          "link": "https://kottke.org/26/06/0049139-will-be-performing-a-coll",
-          "publishedOn": "2026-06-15T17:29:00.000Z",
-          "wordCount": 840,
-          "title": "DJ Shadow and the BBC Symphony Orchestra  will be...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/on-inherent-ai-risk-extinction-level-capitalism",
-          "author": null,
-          "description": "Matthew Butterick is a lawyer, programmer, writer, and designer. He’s written a long, interesting piece about the inherent risks of AI called Extinction-Level Capitalism. It is well-worth a read; I’ve excerpted several passages here but urge you read the whole thing.\nIn prac­tice, certain people in a capi­talist liberal democ­racy tend to get increas­ingly rich. Absent coun­ter­mea­sures, the wealthy gain control of the polit­ical appa­ratus, thwarting liberal-demo­c­ratic norms. This tension between capital and poli­tics is a long-consid­ered topic. A key early work was, of course, Karl Marx’s Capital (about which more later). In the current era, Mancur Olson’s book The Rise and Decline of Nations set out how small groups with a shared interest (which could include capital concen­tra­tion…",
-          "link": "https://kottke.org/26/06/on-inherent-ai-risk-extinction-level-capitalism",
-          "publishedOn": "2026-06-15T16:29:19.000Z",
-          "wordCount": 1217,
-          "title": "On Inherent AI Risk: &#8220;Extinction-Level Capitalism&#8221;",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049123-paul-mccartney-on-song-ex",
-          "author": null,
-          "description": "Paul McCartney on Song Exploder. I think he was with The Beatles at some point?",
-          "link": "https://kottke.org/26/06/0049123-paul-mccartney-on-song-ex",
-          "publishedOn": "2026-06-15T15:11:32.000Z",
-          "wordCount": 705,
-          "title": "Paul McCartney on Song Exploder . I think he was with...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/the-knicks-starting-five-painted-on-one-dollar-bills",
-          "author": null,
-          "description": "Artist Claire Salvo has painted the starting five of the world champion NY Knicks on a set of US one dollar bills. If you’re in NYC, you may have seen these cheekily pasted up around the city.\n\nShe’s selling a print of all five bills but is also auctioning off the hand-painted originals. The auction ends in a bit more than 4 days and the top bid currently stands at $3200.\n\n\nSee also: The Harriet Tubman $20 Stamp and a discussion of whether such modification of US currency is legal or not.\n\n \n\n        \n         \nTags: art · Claire Salvo · NY Knicks · sports",
-          "link": "https://kottke.org/26/06/the-knicks-starting-five-painted-on-one-dollar-bills",
-          "publishedOn": "2026-06-15T14:22:00.000Z",
-          "wordCount": 789,
-          "title": "The Knicks Starting Five Painted on One Dollar Bills",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1781532482-d55c95d3.jpg"
         }
       ]
     },
@@ -2682,16 +2632,6 @@
             "length": "23748420",
             "type": "audio/mpeg"
           },
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12921",
-          "author": "Cory Doctorow",
-          "description": "Today's links AI and amateurism: When is generative content vernacular? Hey look at this: Delights to delectate. Object permanence: Disney characters x clean underwear; Transparent Pontiac; Makers v dog with LED collar; Microsoft buys Linkedin; Legitimate greatness. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, Edinburgh, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. AI and amateurism (permalink) Over the weekend, I did an interview about my forthcoming book The Reverse Centaur's Guide to Life After AI (a book about being a better AI critic), and the interviewer said she was surprised that I wasn't an AI booster, based on my d…",
-          "link": "https://pluralistic.net/2026/06/15/vernacular/",
-          "publishedOn": "2026-06-15T15:40:29.000Z",
-          "wordCount": 4371,
-          "title": "Pluralistic: AI and amateurism (15 Jun 2026)",
           "imageUrl": null
         }
       ]
@@ -4163,36 +4103,6 @@
           "wordCount": 800,
           "title": "datasette-apps 0.1a3",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.1a2\">datasette-apps 0.1a2</a></p>\n        <blockquote>\n<ul>\n<li>Custom network/CSP origins for apps are now guarded by a new <code>apps-set-csp</code> permission, with an optional <code>allowed_csp_origins</code> plugin allow-list for non-privileged users. The Datasette Agent app creation tool enforces the same rules. <a href=\"https://github.com/datasette/datasette-apps/issues/24\">#24</a></li>\n<li>Stored query picker now supports keyboard navigation and shows the three most recent accessible stored queries when focused.</li>\n<li><code>#fragment</code> links inside apps are no longer intercepted by the external-link confirmation modal. <a href=\"https://github.com/datasette/datasette-apps/issues/23\">#23</a></li>\n<li>Fixed link confirmation modal and logging panels in <code>?full=1</code> full-screen mode. <a href=\"https://github.com/datasette/datasette-apps/issues/26\">#26</a></li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything",
-          "publishedOn": "2026-06-15T17:26:11.000Z",
-          "wordCount": 810,
-          "title": "datasette-apps 0.1a2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.3a0\">datasette-agent 0.3a0</a></p>\n        <blockquote>\n<ul>\n<li>New tool, <code>execute_write_sql</code>, which requests user approval and then writes to a database - taking user permissions into account. <a href=\"https://github.com/datasette/datasette-agent/issues/27\">#27</a></li>\n</ul>\n</blockquote>\n<p>I added a mechanism for asking user approval in <a href=\"https://simonwillison.net/2026/Jun/10/datasette-agent/\">datasette agent 0.2a0</a>. The new <code>execute_write_sql</code> tool can now prompt the user for all kinds of useful operations. Here's an example where I add some pelican sightings to my <code>pelican_sightings</code> table:</p>\n<p><img alt=\"Screenshot of a chat interface showing a write SQL confirmation dialog. User message (blue bubble): &quot;I saw 4 pelicans flying over the harbor&quot;. Collapsed tool section: &quot;► Tool: execute_write_sql&quot;. A yellow-bordered confirmation card reads: &quot;Confirm write SQL batch / Database: pelicans / Statements execute in order. If one statement fails, later statements will not be executed. / Statement 1 / INSERT INTO pelican_sightings (number_of_pelicans, notes) VALUES (:number_of_pelicans, :notes); / number_of_pelicans 4 / notes Flying over the harbor&quot;. A table with columns &quot;Operation, Database, Table, Required permissions&quot; shows row: &quot;insert, pelicans, pelican_sightings&quot; with permission buttons &quot;insert-row&quot;, &quot;update-row&quot;, &quot;delete-row&quot;. Below: &quot;Execute 1 write SQL statement against database 'pelicans'? / Asked by tool: execute_write_sql&quot; with &quot;Yes&quot; (blue) and &quot;No&quot; (gray) buttons.\" src=\"https://static.simonwillison.net/static/2026/i-saw-pelicans-agent.jpg\" /></p>\n<p>The new version also enhances the <code>datasette agent chat</code> terminal mode to support approvals, and adds several new options including <code>--unsafe</code> mode for auto-approving them:</p>\n<blockquote>\n<ul>\n<li><code>datasette agent chat</code> can execute tools that require user approval. <a href=\"https://github.com/datasette/datasette-agent/issues/30\">#30</a></li>\n<li>Three new options for <code>datasette agent chat</code> - <code>--root</code> to run as root, <code>--yes</code> to approve all ask user questions, and <code>--unsafe</code> for both.</li>\n<li>Tools can now provide plain text alternatives to HTML, for display in the <code>datasette agent chat</code> CLI. <a href=\"https://github.com/datasette/datasette-agent/issues/31\">#31</a></li>\n</ul>\n</blockquote>\n<p>The <code>datasette agent chat content.db -m gpt-5.5 --unsafe</code> command can now be used to chat directly with a specific database <em>and</em> directly modify it through prompts like \"create a notes table\", \"add a note about X\" etc.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
-          "publishedOn": "2026-06-15T17:19:27.000Z",
-          "wordCount": 909,
-          "title": "datasette-agent 0.3a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos\">&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline</a></strong></p>\nLots of \"source familiar with the administration's thinking\" and \"source close to Anthropic\" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">export control Mythos/Fable story</a> so far.</p>\n<p>Logan Graham (<a href=\"https://logangraham.xyz\">I lead the Frontier Red Team at Anthropic</a>), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite <a href=\"https://simonwillison.net/tags/nicholas-carlini/\">Nicholas Carlini</a> are reported to be meeting with the Commerce Department today in D.C. Good luck to them!</p>\n<p>(I just noticed Logan was \"Special Adviser to the Prime Minister\" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.)</p>\n<p>This closing notes doesn't give me much optimism that we'll be getting Fable back any time soon:</p>\n<blockquote>\n<p><strong>The bottom line</strong>: One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance <a href=\"https://www.anthropic.com/news/fable-mythos-access\">may be</a> impossible.</p>\n<p>Absent that, a source familiar with the administration's thinking said it may simply come down to an attitude fix where, instead of feeling dismissed, \"everyone feels safe, secure and happy.\"</p>\n</blockquote>\n<p>This made me wonder if Anthropic ever successfully addressed the class of attacks described in the <a href=\"https://llm-attacks.org/\">Universal and Transferable Adversarial Attacks on Aligned Language Models</a> paper from 2023.</p>\n<p>It looks like their <a href=\"https://www.anthropic.com/research/next-generation-constitutional-classifiers\">Constitutional Classifiers</a> work (that post is from January this year) is relevant to that. They continue to claim that no \"universal jailbreak\" has been found against Claude Mythos, <a href=\"https://www.anthropic.com/news/fable-mythos-access\">classifying the jailbreak</a> that triggered the US government response as \"a potential narrow, non-universal jailbreak\".\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jailbreaking\">jailbreaking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/nicholas-carlini\">nicholas-carlini</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
-          "publishedOn": "2026-06-15T14:57:33.000Z",
-          "wordCount": 998,
-          "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
-          "imageUrl": null
         }
       ]
     },
@@ -4449,16 +4359,6 @@
           "wordCount": 3295,
           "title": "Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Shuffling-Math-cr-XXXXX-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=163092",
-          "author": "Natalie Wolchover",
-          "description": "Plausible answers range from 17 to — in all seriousness — 995.5.            \nThe post How Many Elementary Particles Are There, Really? first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
-          "publishedOn": "2026-06-15T15:07:59.000Z",
-          "wordCount": 3678,
-          "title": "How Many Elementary Particles Are There, Really?",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Qualia-ElementaryParticles-crKristinaArmitage-Social.jpg"
         }
       ]
     },
