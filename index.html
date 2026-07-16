@@ -35,6 +35,163 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049279-time-sensitive">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T17:00:00.000Z">2026-07-16</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049279-time-sensitive" target="_blank" rel="noopener noreferrer">New-to-me podcast that looks really interesting:  Time...</a>
+          </h2>
+          <p class="feed-item__desc">New-to-me podcast that looks really interesting: Time Sensitive, “a podcast featuring candid, revealing long-form conversations with leading minds about their life and work through the lens of time”.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049279-time-sensitive" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049279-time-sensitive">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/amazing-newspaper-ad-highlighting-period-poverty">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T15:36:00.000Z">2026-07-16</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/amazing-newspaper-ad-highlighting-period-poverty" target="_blank" rel="noopener noreferrer">Amazing Newspaper Ad Highlighting Period Poverty</a>
+          </h2>
+          <p class="feed-item__desc">To draw attention to the millions of girls who cannot afford period products, the MENstruation Foundation ran a unique advertisement in three major South African newspapers.
+Readers of The Star, The Mercury and Cape Times opened their newspapers this week to find something deeply uncomfortable: period blood stains on the front page, seeping through to the pages beneath — as if the newspaper itself had been used as a sanitary pad.
+
+	
+South African schoolgirls suffering from period poverty are forced to use newspapers, rags, and even cow dung in place of sanitary pads. Here’s a short video of what the ad looks like as you page through the paper, culminating in a full page highlighting the foundation’s free sanitary pad dispensers placed in schools.
+
+Maybe one of the best advertisements I’ve ever seen? (thx, caroline)
+
+ 
+
+        
+         
+Tags: advertising · health · video</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/amazing-newspaper-ad-highlighting-period-poverty" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/amazing-newspaper-ad-highlighting-period-poverty">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1784162492-4559d26a.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/16/inkling/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T15:35:25.000Z">2026-07-16</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/16/inkling/#atom-everything" target="_blank" rel="noopener noreferrer">Inkling: Our open-weights model</a>
+          </h2>
+          <p class="feed-item__desc">Inkling: Our open-weights model
+They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released "once that work is complete".
+The model card is much shorter than I've come to expect from US AI labs. It links to even shorter Training Data Documentation with almost nothing of interest in it - it's best summarized by these two paragraphs:
+The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection.
+Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties.
+By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own Tinker training platform:
+Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning.
+There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4.
+Here's its attempt at an SVG pelican riding a bicycle, which I generated using this curl command against the Thinking Machines API:
+curl "https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions" \
+  -H "Authorization: Bearer $TINKER_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "thinkingmachines/Inkling",
+    "messages": [
+      {"role": "user", "content": "Generate an SVG of a pelican riding a bicycle"}
+    ],
+    "stream": false
+  }'
+
+
+Full response here.
+
+Since it's a multi-modal model I had it describe its own image (after I rendered it to a JPEG) by sending this JSON:
+{
+  "model": "thinkingmachines/Inkling",
+  "messages": [{
+    "role": "user",
+    "content": [
+      {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64,$BASE_64_JPEG"}},
+      {"type": "text", "text": "Describe this image in detail"},
+    ],
+  }],
+  "stream": false
+}
+
+
+Here's the full response. It thought it had drawn a "stork or seagull":
+This is a cheerful, flat-vector cartoon illustration featuring a white bird riding a bicycle across a green landscape.
+The Bird: The central figure is a stylized white bird—resembling a stork or seagull—with a plump, rounded body. It has a long, prominent orange beak that is slightly open, revealing a black line for the mouth. Its eye is small and black with a tiny white highlight. The bird has black wing and tail feathers with white edges, and thin orange legs ending in black feet that rest on the bicycle's orange pedals.
+The Bicycle: The bike has a simple black frame with two large wheels featuring black tires, gray inner rims, and black spokes arranged in a cross pattern. The handlebars are black, and there are bright orange pedals attached to a black crank. A white seat is visible behind the bird's body.
+The Setting: The scene is set against a clear, light blue sky. There are two fluffy white clouds—one on the left side and a smaller one near the bird's head on the right. A bright, solid yellow sun shines in the upper right corner. At the bottom, there are rolling green hills with a smooth, curved top edge where the bicycle rests.
+The overall style is playful, simple, and colorful, with clean lines and a bright, sunny atmosphere.
+Via Hacker News
+Tags: ai, generative-ai, llms, training-data, pelican-riding-a-bicycle, llm-release</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/16/inkling/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/16/inkling/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">5 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/inkling-pelican.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049336-uncovered">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T14:56:00.000Z">2026-07-16</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049336-uncovered" target="_blank" rel="noopener noreferrer">Uncovered , a site for judging books by their first...</a>
+          </h2>
+          <p class="feed-item__desc">Uncovered, a site for judging books by their first pages. “No cover. No bestseller sticker, no celebrity book club, no BookTok trend. You read the opening of a real book, blind, and answer the only question that matters: would you keep reading?”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049336-uncovered" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049336-uncovered">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049333-the-resonant-computing-ma">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T14:15:00.000Z">2026-07-16</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049333-the-resonant-computing-ma" target="_blank" rel="noopener noreferrer">The Resonant Computing Manifesto . “We can now build...</a>
+          </h2>
+          <p class="feed-item__desc">The Resonant Computing Manifesto. “We can now build technology that adaptively shapes itself in service of our individual and collective aspirations. We can build resonant environments that bring out the best in every human who inhabits them.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049333-the-resonant-computing-ma" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049333-the-resonant-computing-ma">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049323-what-would-a-rainbow-look">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-16T13:30:00.000Z">2026-07-16</time>
@@ -10913,82 +11070,6 @@ Tags: crime · Errol Morris · movies · murder · video</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18527">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T05:00:00.000Z">2026-06-16</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/mc/morning-hot-world-computer/" target="_blank" rel="noopener noreferrer">morning hot world computer</a>
-          </h2>
-          <p class="feed-item__desc">Seth Pick. Songs prep the brains of finches yet to hatch for a hot world Exposure to parents’ “heat calls” makes finch young more resilient…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18527" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18527">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/06/image_processing20260507-2-glgce3-scaled.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T03:56:10.000Z">2026-06-16</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything" target="_blank" rel="noopener noreferrer">— a still that plays</a>
-          </h2>
-          <p class="feed-item__desc">Tool: <click-to-play> — a still that plays
-A progressive enchantment Web Component that turns this markup:
-<click-to-play>
-  <a href="URL to GIF">
-    <img src="URL to first frame" alt="...">
-  </a>
-</click-to-play>
-
-Into a still frame with a click to play button which loads the GIF on demand. For when you don't want big GIFs to be loaded unless people want to play them.
-Here's an example that demonstrates the new row editing tools in Datasette - in fact I built this Web Component for that post.
-Tags: gif, javascript, progressive-enhancement, web-components</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T03:36:09.000Z">2026-06-16</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything" target="_blank" rel="noopener noreferrer">NetNewsWire Status</a>
-          </h2>
-          <p class="feed-item__desc">NetNewsWire Status
-really good - free from any commercial pressure.
-The software is NetNewsWire, first released in 2002 and made open source in 2018. I've been using it on Mac and iPhone for several years now and I'm finding it indispensable.
-
-    
-Via Lobste.rs
-Tags: brent-simmons, netnewswire, open-source</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
         </div>
       </div>
     </article>
