@@ -261,6 +261,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049323-what-would-a-rainbow-look",
+          "author": null,
+          "description": "What would a rainbow look like if we had two suns (like on Tatooine)?",
+          "link": "https://kottke.org/26/07/0049323-what-would-a-rainbow-look",
+          "publishedOn": "2026-07-16T13:30:00.000Z",
+          "wordCount": 730,
+          "title": "What would a rainbow look like if we had two suns (like...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049340-a-few-highlights-from-a-c",
           "author": null,
           "description": "A few highlights from a collection of lovely woodblock-printed sugoroku game boards from Japan. “The gameboards use stories and maps to teach children history and geography.”",
@@ -1979,36 +1989,6 @@
           "wordCount": 773,
           "title": "Proposed UI rule of thumb : &#8220;If I take a...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049155-is-this-the-sloppiest-ai-",
-          "author": null,
-          "description": "Is this the sloppiest AI slop video of all time? The AI-generated voiceover (at ~6:45) gets tripped up saying “what WWE” and basically sings Daisy Bell for more than 10 minutes until someone kicks the server.",
-          "link": "https://kottke.org/26/06/0049155-is-this-the-sloppiest-ai-",
-          "publishedOn": "2026-06-16T20:28:00.000Z",
-          "wordCount": 488,
-          "title": "Is this the sloppiest AI slop video of all time?  The...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049160-music-from-the-films-of-w",
-          "author": null,
-          "description": "If I lived in LA, I would go to this concert at the Hollywood Bowl: Music From the Films of Wes Anderson. “Over three nights, musicians including Beck, Jenny Lewis, Jackson Browne, and Mothersbaugh himself perform favorite songs, scores…”",
-          "link": "https://kottke.org/26/06/0049160-music-from-the-films-of-w",
-          "publishedOn": "2026-06-16T19:38:00.000Z",
-          "wordCount": 801,
-          "title": "If I lived in LA, I would go to this concert at the...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049158-spielberg-faces",
-          "author": null,
-          "description": "Disclosure Day surely sets a world record for the number of Spielberg Faces.",
-          "link": "https://kottke.org/26/06/0049158-spielberg-faces",
-          "publishedOn": "2026-06-16T18:47:03.000Z",
-          "wordCount": 714,
-          "title": "Disclosure Day surely sets a world record for the number...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2706,16 +2686,6 @@
           "wordCount": 1231,
           "title": "morning hot world computer",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/image_processing20260507-2-glgce3-scaled.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18543",
-          "author": "Warren Ellis",
-          "description": "For better or worse, Socrates, Plato, and Aristotle engineered the Western mind. Above all, they formed part of a movement that stood at the crossroads…",
-          "link": "https://warrenellis.ltd/books/the-big-three-neel-burton/",
-          "publishedOn": "2026-06-16T20:00:00.000Z",
-          "wordCount": 1652,
-          "title": "THE BIG THREE, Neel Burton",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/02/gang-of-three.jpg"
         }
       ]
     },
@@ -2724,6 +2694,16 @@
       "feedUrl": "https://brucesterling.tumblr.com/rss",
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
+        {
+          "id": "https://brucesterling.tumblr.com/post/822294453093040128",
+          "author": null,
+          "description": "Meanwhile, in the free-market USA of 1887",
+          "link": "https://brucesterling.tumblr.com/post/822294453093040128",
+          "publishedOn": "2026-07-16T11:25:00.000Z",
+          "wordCount": 2883,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/9af32cba7b4c82f3eb3212772f8de4dc/9ffd1fd48a060dc0-e7/s1280x1920/fdc103d03f229c875e51f26fe4d5023fcb8ee03e.jpg"
+        },
         {
           "id": "https://brucesterling.tumblr.com/post/821733959118520320",
           "author": null,
@@ -2801,6 +2781,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/what-a-city-needs-to-be-truly-up-antwerp-cool-city-guide",
+          "author": "Blackbird Spyplane",
+          "description": "Robust civic-swag indicators, some of the world's best clothes, & more in our new favorite place: Antwerp",
+          "link": "https://www.blackbirdspyplane.com/p/what-a-city-needs-to-be-truly-up-antwerp-cool-city-guide",
+          "publishedOn": "2026-07-16T11:04:03.000Z",
+          "wordCount": null,
+          "title": "What your city needs to be truly \"up\"",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!WsxC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe788d1b0-4099-4fe4-95b3-6eeed403cc41_1588x1934.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!WsxC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe788d1b0-4099-4fe4-95b3-6eeed403cc41_1588x1934.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/is-ambient-music-evil",
           "author": "Blackbird Spyplane",
@@ -3002,6 +2998,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/about/artists/the-wooster-group/-the-wooster-group-s-use-of-vinyl-nayatt-school-redux",
+          "author": null,
+          "description": "Nayatt School Redux\n\nEarly Shaker Spirituals. It was a masterful, spare performance where a 1976 LP of the same name by the Sisters Of The Shaker Community in Sabbathday Lake, Maine, is played in its entirety. A performer introduces the record, then places it on a turntable visible to the side of the stage and lowers the needle. Four older women in traditional Shaker attire – Elizabeth LeCompte, Suzzy Roche, Frances McDormand, and Cynthia Hedstrom – then present a series of dances and sing with the unaccompanied voices of the women on the recording. This is punctuated by pauses where liner notes are read and then the record is turned over.\n\n\n    I was aware of this recurring device from reading about early Wooster Group works. The dance piece Hula (1981) uses a similar process with an LP b…",
+          "link": "https://www.thewire.co.uk/about/artists/the-wooster-group/-the-wooster-group-s-use-of-vinyl-nayatt-school-redux",
+          "publishedOn": "2026-07-14T00:00:00.000Z",
+          "wordCount": 1534,
+          "title": "“More than just a carrier of recorded sound”: The Wooster Group's use of vinyl",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.thewire.co.uk/about/contributors/ken-hollings/a-seamless-formation-of-reflective-surfaces-bibliotek-ufo-reviewed",
           "author": null,
           "description": "The Wire 510\n\nBibliotek: UFO\n        \nVarious\n        \nMusic Out Of The Moon was also released for the first time that same year.\n    \nAuthentic Music From Another Planet, to Frank Comstock’s Project Comstock and Russ Garcia’s Fantastica, the discerning earthbound listener has been offered some pretty lush visions of extraterrestrial living. Perhaps a little too lush. Hauntology’s lure is characterised more by elusiveness than by any tangible presence, producing material representations of what stubbornly refuses to exist.\n    \nBibliotek: UFO is the first in a projected series of releases devoted to reimagined forms of library music, cinematic easy listening and reverse engineered futurism. Its individual contributors remain as bemused and mystified by the wayward points of light seen in the skies as those wild-eyed observers from almost eight decades ago. Nothing remains more mid-century modern than a good UFO sighting. After all, Kenneth Arnold was a pilot too.\n    \nBibliotek: UFO are interchangeable both with one another and within each other, constituting between them what appears to be a seamless formation of reflective surfaces – or a conspiracy set in motion by a single mind. It's all fairly even and harmonious, each bright light and matchless velocity being just different enough from the next to keep you listening. The discreet electronic loops, beats and melodies remain constant throughout; but, as with many a UFO sighting, there are few surprises after the initial gasp of wonder.\n    \n\n    \nBibliotek: UFO to a safe outdoor location anytime you feel like watching the skies.\n    \nThis review appears in The Wire 510 along with many other reviews of new and recent records, books, films, festivals and more. To read them all, pick up a copy of the magazine in our online shop. Wire subscribers can also read the issue in our online magazine library.",
@@ -3138,6 +3144,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/\"><p>I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer.</p>\n<p>Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it.</p>\n<p>Or just walk away.</p>\n<p>AI is a tool, just like other tools we use.  And it's clearly a useful one.</p>\n<p>It may not have been that \"clearly\" even just a year ago, but it's no longer in question today.</p>\n<p>There are other questions around AI (like what the economy of it will actually look like in the end), but \"is it useful\" is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/\">Linus Torvalds</a>, Linux Media Mailing List</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/linus-torvalds\">linus-torvalds</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+          "publishedOn": "2026-07-16T13:26:10.000Z",
+          "wordCount": 856,
+          "title": "Quoting Linus Torvalds",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
           "author": null,
@@ -3906,16 +3922,6 @@
           "publishedOn": "2026-06-17T03:36:09.000Z",
           "wordCount": 781,
           "title": "NetNewsWire Status",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a34\">datasette 1.0a34</a></p>\n        <p>Quoting the release notes:</p>\n<blockquote>\n<p>The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page.</p>\n</blockquote>\n<p><click-to-play><a href=\"https://static.simonwillison.net/static/2026/datasette-edit.gif\"><img src=\"https://static.simonwillison.net/static/2026/datasette-edit-first-frame.gif\" /></a></click-to-play></p>\n\n<p>The inspiration for this feature - which is <em>long</em> overdue - was <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. I added <a href=\"https://simonwillison.net/2026/Jun/15/datasette-agent/\">SQL write support</a> to that the other day which highlighted how absurd it was that you could insert and edit ties via the chat interface but not in the regular Datasette UI!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
-          "publishedOn": "2026-06-16T21:31:24.000Z",
-          "wordCount": 825,
-          "title": "datasette 1.0a34",
           "imageUrl": null
         }
       ]
