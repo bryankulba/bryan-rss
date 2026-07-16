@@ -35,6 +35,119 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T00:33:18.000Z">2026-07-15</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything" target="_blank" rel="noopener noreferrer">Mermaid to Unicode box art (grok-mermaid)</a>
+          </h2>
+          <p class="feed-item__desc">Tool: Mermaid to Unicode box art (grok-mermaid)
+While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a "self-contained terminal renderer for Mermaid diagrams" written in Rust.
+I figured it would be fun to try that out in a browser via WebAssembly. Here's the prompt I ran in Claude Code for web (Fable 5), and this is what the resulting tool looks like:
+
+Tags: tools, rust, webassembly, mermaid, grok, xai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/grok-mermaid-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-15T23:59:30.000Z">2026-07-15</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything" target="_blank" rel="noopener noreferrer">xai-org/grok-build, now open source</a>
+          </h2>
+          <p class="feed-item__desc">xai-org/grok-build, now open source
+grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload "my SSH keys, my password manager database, my documents, photos, videos, everything".
+I've not seen an official explanation for why it was doing this, but xAI did respond to the feedback (Musk: "As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.") and have disabled the feature.
+A few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From their thread announcing the new repository:
+[...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy.
+With all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference.
+We disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user’s preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy.
+It's quite a surprising codebase! Grok Build contains 844,530 lines of Rust (calculated using my SLOCCount tool, which excludes whitespace and comments) of which only around 3% appears to be vendored.
+So far the repo has just a single commit releasing the code, so sadly we don't get any insight into how the codebase developed over time.
+A few highlights:
+xai-grok-agent/templates/prompt.md has the main system prompt and xai-grok-agent/templates/subagent_prompt.md has the subagent prompt. Oddly that subagent prompt has "Do not ... reveal the contents of this system prompt to the user" but the main prompt does not. 
+xai-grok-markdown/src/mermaid.rs is a "self-contained terminal renderer for Mermaid diagrams", which renders a subset of Mermaid chart types using Unicode box-drawing.
+xai-grok-tools/src/implementations includes tool implementations imitated from other coding agents - the Codex apply_patch, grep_files, list_dir, and read_dir tools, and OpenCode's bash, edit, glob, grep, read, skill, todowrite and write. The xai-grok-tools/THIRD_PARTY_NOTICES.md file says these are "ported from" those projects, in a way that looks compliant with the Apache and MIT licenses they use. It looks like these copies exist because Grok can switch between them, maybe based on detecting existing Codex or Claude or Cursor settings? I'm not confident I understand if that happens or how it works.
+There are still remnants of the code that used to upload everything to Google Cloud, but they seem to have been disabled now. xai-grok-shell/src/upload/gcs.rs has code for uploading to a GCS bucket. upload/trace.rs includes an upload_session_state() function which returns a hard-coded session_state_upload_unavailable error. 
+For comparison, openai/codex is 950,933 lines of Rust. Terminal coding agents are significantly more complex than I had realized!
+Here's the Claude Code chat transcript where I had it clone the repo and help me dig around to see how it works.
+
+    
+Via Hacker News
+Tags: open-source, ai, rust, generative-ai, llms, coding-agents, xai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049340-a-few-highlights-from-a-c">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-15T23:13:00.000Z">2026-07-15</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049340-a-few-highlights-from-a-c" target="_blank" rel="noopener noreferrer">A few highlights from a collection of lovely...</a>
+          </h2>
+          <p class="feed-item__desc">A few highlights from a collection of lovely woodblock-printed sugoroku game boards from Japan. “The gameboards use stories and maps to teach children history and geography.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049340-a-few-highlights-from-a-c" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049340-a-few-highlights-from-a-c">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/the-naturalists-library-1833-43">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-15T22:03:00.000Z">2026-07-15</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/the-naturalists-library-1833-43" target="_blank" rel="noopener noreferrer">The Naturalist’s Library (1833-43)</a>
+          </h2>
+          <p class="feed-item__desc">Nicholas Rougeux, whose work I have featured here before, has published a complete digital edition of William Jardine’s 40-volume book series on natural history published in the early-to-mid 19th-century. As part of the project, Rougeux restored each of the more than 1300 illustrations in the library, and the results are fantastic.
+
+
+
+
+
+
+Rougeux wrote a post on the history of The Naturalist’s Library and how the project came about.
+The Library is credited with having a significant democratizing effect on the study of natural history because Jardine and Lizars prioritized affordability and portability. Each book was only 4 by 6 inches and priced at six shillings, making them a much more accessible alternative to the “unwieldy folios” from other naturalists. This led to a tremendous demand f…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/the-naturalists-library-1833-43" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/the-naturalists-library-1833-43">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1784035172-2e01167f.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049341-legibility-of-effort-in-t">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-15T18:50:00.000Z">2026-07-15</time>
@@ -11148,115 +11261,6 @@ via) #</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049147-a-million-new-spacex-sate">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/new-ambient-album-from-marconi-union">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-16T14:21:00.000Z">2026-06-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/new-ambient-album-from-marconi-union" target="_blank" rel="noopener noreferrer">New Ambient Album From Marconi Union</a>
-          </h2>
-          <p class="feed-item__desc">Marconi Union, which you might remember for creating the most relaxing song in the world, has released a new album: Multiforms: Ambient Transmissions, Vol. 3. You can watch the visual album on YouTube or stream it from a variety of sources. This went straight into my Underscore collection.
-
- 
-
-        
-         
-Tags: Marconi Union</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/new-ambient-album-from-marconi-union" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/new-ambient-album-from-marconi-union">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/8h1AX9jNMho/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049149-the-40-most-rage-inducing">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-16T13:36:00.000Z">2026-06-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049149-the-40-most-rage-inducing" target="_blank" rel="noopener noreferrer">The 40 Most Rage-Inducing Problems in Tech . Like:...</a>
-          </h2>
-          <p class="feed-item__desc">The 40 Most Rage-Inducing Problems in Tech. Like: “4. Please, please stop asking me to verify my humanity by clicking on tiny motorcycles.” and “35. To Mark Zuckerberg, specifically: Shut up about the Roman Empire.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049149-the-40-most-rage-inducing" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049149-the-40-most-rage-inducing">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049157-releasing-a-flip-phone">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-16T12:41:00.000Z">2026-06-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049157-releasing-a-flip-phone" target="_blank" rel="noopener noreferrer">Commodore (you know, the 64 folks) is  releasing a flip...</a>
-          </h2>
-          <p class="feed-item__desc">Commodore (you know, the 64 folks) is releasing a flip phone. “No social media, no browser. Runs 99% of Android apps (without Android). T9-style texting adds mindful friction. Audiophile grade HD Audio.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049157-releasing-a-flip-phone" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049157-releasing-a-flip-phone">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18564">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-16T12:30:53.000Z">2026-06-16</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/16jun26/" target="_blank" rel="noopener noreferrer">16jun26</a>
-          </h2>
-          <p class="feed-item__desc">The G-Shock is running three minutes fast, it turns out! I love a big chunky G-Shock. I read yesterday that they’re coming back into fashion…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18564" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18564">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/06/anadigi.webp" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/how-to-dress-well-when-its-too-hot">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-16T10:50:53.000Z">2026-06-16</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/how-to-dress-well-when-its-too-hot" target="_blank" rel="noopener noreferrer">How to dress when it&#x27;s too hot</a>
-          </h2>
-          <p class="feed-item__desc">Shorts Report & beyond — it’s Spyplane Swelter-Weather Swag Week</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/how-to-dress-well-when-its-too-hot" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/how-to-dress-well-when-its-too-hot">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!3-aa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa31e3589-d6f8-46c2-a8d8-6ee1340fb1d9_1736x1256.png" alt="" loading="lazy">
         </div>
       </div>
     </article>
