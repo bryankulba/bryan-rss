@@ -3140,6 +3140,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/llm-cliche-highlighter\">LLM cliché highlighter</a></p>\n        <p>I got frustrated reading <em>yet another</em> article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+          "publishedOn": "2026-07-17T12:11:11.000Z",
+          "wordCount": 863,
+          "title": "LLM cliché highlighter",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
           "author": null,
           "description": "<p>Suggestion for hyperscalers feeling pressure over data center water use:</p>\n<p>Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby!</p>\n<p>Google <a href=\"https://sustainability.google/reports/google-2026-environmental-report/\">used 10.9 billion gallons in 2025</a>, so about 30 million gallons per day.</p>\n<p>The Coachella Valley has <a href=\"https://www.cvwd.org/167/Water-Conservation\">120 golf courses each using ~800 acre-feet per year</a>,  which is ~750,000 gallons per day.</p>\n<p>So Google buying up 40 of those courses (1/3) should do the trick.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-energy-usage\">ai-energy-usage</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
