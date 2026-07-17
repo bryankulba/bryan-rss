@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-16T20:54:36.659Z</updated>
+    <updated>2026-07-17T02:26:05.642Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Firefox in WebAssembly]]></title>
+        <id>https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything"/>
+        <updated>2026-07-16T23:34:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://developer.puter.com/labs/firefox-wasm/">Firefox in WebAssembly</a></strong></p>
+This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.</p>
+<p>Here's my blog, running in Firefox, running in WebAssembly, running in Chrome:</p>
+<p><img alt="A Chrome window. The tab has the Firefox UI and has loaded my blog. On the right is the Chrome network panel showing that it loaded resources that include a 233MB gecko.wasm and an 18MB chrome-assets.tar.zst" src="https://static.simonwillison.net/static/2026/firefox-wasm.webp" /></p>
+<p>They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.</p>
+<p>The demo funnels all traffic over a WebSocket protocol (using the <a href="https://github.com/MercuryWorkshop/wisp-protocol">Wisp protocol</a>) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.</p>
+<p>(That proxying sounds expensive! The team <a href="https://news.ycombinator.com/item?id=48926939#48936563">had to scale the servers up</a> to handle the traffic during the Hacker News conversation about the project.)</p>
+<p>Puter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to <code>http://www.example.com/</code> were in cleartext.</p>
+<p><a href="https://github.com/HeyPuter/firefox-wasm">Here's the repo</a> for <code>firefox-wasm</code>. <a href="https://github.com/theogbob/WebkitWasm">theogbob/WebkitWasm</a> is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48926939">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/firefox">firefox</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jennifer Daniel previews the new emoji coming in Unicode 18.0]]></title>
+        <id>https://waxy.org/?p=51049</id>
+        <link href="https://jenniferdaniel.substack.com/p/why-do-some-new-emoji-look-familiar"/>
+        <updated>2026-07-16T22:00:45.000Z</updated>
+        <summary type="html"><![CDATA[cracked face, pickle, eraser, lighthouse, and more
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dustin.works]]></title>
+        <id>https://waxy.org/?p=51046</id>
+        <link href="https://dustin.works/"/>
+        <updated>2026-07-16T21:10:07.000Z</updated>
+        <summary type="html"><![CDATA[a very good personal homepage by Dustin Mierau
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kimi K3, and what we can still learn from the pelican benchmark]]></title>
         <id>https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything</id>
@@ -275,6 +320,22 @@ Mira Murati's Thinking Machines Lab just released their first open-weights model
 
 
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mermaid to ASCII art (mermaid-ascii)]]></title>
+        <id>https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything"/>
+        <updated>2026-07-16T14:57:39.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/mermaid-ascii">Mermaid to ASCII art (mermaid-ascii)</a></p>
+        <p>After building the <a href="https://simonwillison.net/2026/Jul/16/grok-mermaid/">Mermaid to ASCII tool based on Grok Build's Rust code</a> I learned that there's an older, more fully-featured Go library called <a href="https://github.com/AlexanderGrooff/mermaid-ascii">AlexanderGrooff/mermaid-ascii</a> that implements a similar pattern, so I had Claude Fable 5 compile that one to WebAssembly as well so I could compare the two.</p>
+<p>This one includes support for colors!</p>
+<p><img alt="Screenshot of a Mermaid diagram editor web app. A row of tab buttons reads: Flowchart, Multiple links, Subgraphs, Multi-line labels, Colors (selected, highlighted blue), Sequence, Alt fragment, Loop + note, Parallel. Below is a text input area containing: &quot;graph LR / Build:::good --&gt; Test:::good / Test --&gt; Deploy:::warn / Deploy --&gt; Rollback:::bad / classDef good color:#3fb950 / classDef warn color:#e3b341 / classDef bad color:#ff7b72&quot;. A control row shows an unchecked &quot;ASCII only&quot; checkbox, &quot;Padding X: 5&quot;, &quot;Padding Y: 5&quot;, &quot;Box padding: 1&quot;, and buttons &quot;Copy as text&quot; and &quot;Copy link to this diagram&quot;. At the bottom on a black background is the rendered left-to-right flowchart with four connected boxes: &quot;Build&quot; (green text), &quot;Test&quot; (green text), &quot;Deploy&quot; (yellow text), &quot;Rollback&quot; (red text), each linked by arrows." src="https://static.simonwillison.net/static/2026/mermaid-ascii.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/go">go</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/mermaid">mermaid</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -6990,56 +7051,6 @@ The Thin Blue Line (1988) not only exposed a miscarriage of justice and freed an
 Tags: crime · Errol Morris · movies · murder · video]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andrea Pitzer writes about  the forced labor happening in...]]></title>
-        <id>https://kottke.org/26/06/0049161-the-forced-labor-happenin</id>
-        <link href="https://kottke.org/26/06/0049161-the-forced-labor-happenin"/>
-        <updated>2026-06-17T13:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Andrea Pitzer writes about the forced labor happening in Trump’s immigrant concentration camps and its roots in chattel slavery in the US and in Nazi & Soviet work camps.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proposed UI rule of thumb : &#8220;If I take a...]]></title>
-        <id>https://kottke.org/26/06/0049141-proposed-ui-rule-of-thumb</id>
-        <link href="https://kottke.org/26/06/0049141-proposed-ui-rule-of-thumb"/>
-        <updated>2026-06-17T13:14:05.000Z</updated>
-        <summary type="html"><![CDATA[Proposed UI rule of thumb: “If I take a screenshot of your app at any moment, it must make sense.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[17jun26]]></title>
-        <id>https://warrenellis.ltd/?p=18568</id>
-        <link href="https://warrenellis.ltd/status/17jun26/"/>
-        <updated>2026-06-17T11:44:27.000Z</updated>
-        <summary type="html"><![CDATA[Trying to keep up with my own brain today. Flurry of thoughts. This edition of Feed Me connected to some recent notions. Mostly offline today…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The secret of lightness]]></title>
-        <id>https://www.robinsloan.com/lab/secret-of-lightness/</id>
-        <link href="https://www.robinsloan.com/lab/secret-of-lightness/"/>
-        <updated>2026-06-17T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>e do not yet understand how to train language models. <a href="https://www.robinsloan.com/lab/secret-of-lightness/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The story is computers]]></title>
-        <id>https://www.robinsloan.com/lab/story-is-computers/</id>
-        <link href="https://www.robinsloan.com/lab/story-is-computers/"/>
-        <updated>2026-06-17T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Not rupture but continuation. <a href="https://www.robinsloan.com/lab/story-is-computers/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>

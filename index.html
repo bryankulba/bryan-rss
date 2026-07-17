@@ -35,6 +35,80 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T23:34:16.000Z">2026-07-16</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything" target="_blank" rel="noopener noreferrer">Firefox in WebAssembly</a>
+          </h2>
+          <p class="feed-item__desc">Firefox in WebAssembly
+Here's my blog, running in Firefox, running in WebAssembly, running in Chrome:
+
+They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.
+The demo funnels all traffic over a WebSocket protocol (using the Wisp protocol) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.
+(That proxying sounds expensive! The team had to scale the servers up to handle the traffic during the Hacker News conversation about the project.)
+Puter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to http://www.example.com/ were in cleartext.
+Here's the repo for firefox-wasm. theogbob/WebkitWasm is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.
+
+    
+Via Hacker News
+Tags: browsers, firefox, ai, webassembly, generative-ai, llms, ai-assisted-programming, claude, claude-mythos-fable</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/firefox-wasm.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51049">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T22:00:45.000Z">2026-07-16</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://jenniferdaniel.substack.com/p/why-do-some-new-emoji-look-familiar" target="_blank" rel="noopener noreferrer">Jennifer Daniel previews the new emoji coming in Unicode 18.0</a>
+          </h2>
+          <p class="feed-item__desc">cracked face, pickle, eraser, lighthouse, and more
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51049" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51049">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51046">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T21:10:07.000Z">2026-07-16</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://dustin.works/" target="_blank" rel="noopener noreferrer">dustin.works</a>
+          </h2>
+          <p class="feed-item__desc">a very good personal homepage by Dustin Mierau
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51046" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51046">Mark read</button>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://dustin.works/og/site.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-16T20:19:30.000Z">2026-07-16</time>
@@ -479,6 +553,29 @@ Tags: ai, generative-ai, llms, training-data, pelican-riding-a-bicycle, llm-rele
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/inkling-pelican.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-16T14:57:39.000Z">2026-07-16</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything" target="_blank" rel="noopener noreferrer">Mermaid to ASCII art (mermaid-ascii)</a>
+          </h2>
+          <p class="feed-item__desc">Tool: Mermaid to ASCII art (mermaid-ascii)
+After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 compile that one to WebAssembly as well so I could compare the two.
+This one includes support for colors!
+
+Tags: go, tools, webassembly, mermaid</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
         </div>
       </div>
     </article>
@@ -11294,110 +11391,6 @@ Tags: crime · Errol Morris · movies · murder · video</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://i.ytimg.com/vi/_Q4DKniaiAE/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049161-the-forced-labor-happenin">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T13:54:00.000Z">2026-06-17</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049161-the-forced-labor-happenin" target="_blank" rel="noopener noreferrer">Andrea Pitzer writes about  the forced labor happening in...</a>
-          </h2>
-          <p class="feed-item__desc">Andrea Pitzer writes about the forced labor happening in Trump’s immigrant concentration camps and its roots in chattel slavery in the US and in Nazi & Soviet work camps.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049161-the-forced-labor-happenin" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049161-the-forced-labor-happenin">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049141-proposed-ui-rule-of-thumb">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T13:14:05.000Z">2026-06-17</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049141-proposed-ui-rule-of-thumb" target="_blank" rel="noopener noreferrer">Proposed UI rule of thumb : “If I take a...</a>
-          </h2>
-          <p class="feed-item__desc">Proposed UI rule of thumb: “If I take a screenshot of your app at any moment, it must make sense.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049141-proposed-ui-rule-of-thumb" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049141-proposed-ui-rule-of-thumb">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18568">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T11:44:27.000Z">2026-06-17</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/17jun26/" target="_blank" rel="noopener noreferrer">17jun26</a>
-          </h2>
-          <p class="feed-item__desc">Trying to keep up with my own brain today. Flurry of thoughts. This edition of Feed Me connected to some recent notions. Mostly offline today…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18568" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18568">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/06/IMG_1425.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/secret-of-lightness/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T10:00:00.000Z">2026-06-17</time>
-        <span class="feed-item__source">Robin Sloan</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.robinsloan.com/lab/secret-of-lightness/" target="_blank" rel="noopener noreferrer">Dragoncatcher: The secret of lightness</a>
-          </h2>
-          <p class="feed-item__desc">e do not yet understand how to train language models. Read here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/secret-of-lightness/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/secret-of-lightness/">Mark read</button>
-            <span class="feed-item__reading-time">19 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/story-is-computers/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-17T09:00:00.000Z">2026-06-17</time>
-        <span class="feed-item__source">Robin Sloan</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.robinsloan.com/lab/story-is-computers/" target="_blank" rel="noopener noreferrer">Dragoncatcher: The story is computers</a>
-          </h2>
-          <p class="feed-item__desc">Not rupture but continuation. Read here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/story-is-computers/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/story-is-computers/">Mark read</button>
-            <span class="feed-item__reading-time">18 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
