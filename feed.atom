@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-17T13:22:09.948Z</updated>
+    <updated>2026-07-17T17:09:12.831Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Frozen 2 should be rated R]]></title>
+        <id>https://interconnected.org/home/2026/07/17/frozen</id>
+        <link href="https://interconnected.org/home/2026/07/17/frozen"/>
+        <updated>2026-07-17T16:35:00.000Z</updated>
+        <summary type="html"><![CDATA[I watched Ferris Bueller’s Day Off which was as great as I remember.
+It has an age rating of PG-13 in the US and 15 in the UK for bad language and some kissing. (There is also lying to parents but apparently that doesn’t count.)
+This seems absurd.
+I have way less problem with some light cursing/petting than films that are ostensibly for kids like cartoons and superhero movies that treat mass existential threat as an incident plot point in the hero’s journey.
+Like:
+Frozen 2 in which the entire city is almost destroyed by a tidal wave
+the recent Superman movie in which the city actually is destroyed, and although it is reconstructed we never hear about the people crushed by debris etc.
+Superman is rated PG-13 in the US, 12A in the UK. There’s off-screen loss of life but on-screen is widespre…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Martin Picard’s Mitochondrial Theory of Mind]]></title>
+        <id>https://www.quantamagazine.org/?p=164237</id>
+        <link href="https://www.quantamagazine.org/martin-picards-mitochondrial-theory-of-mind-20260717/"/>
+        <updated>2026-07-17T14:31:05.000Z</updated>
+        <summary type="html"><![CDATA[The biologist’s bold “energetic view of life” looks to the body’s strangest organelles as the link between cells, health, and mind and the foundation of our experience of being alive.            
+The post Martin Picard’s Mitochondrial Theory of Mind first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Rachel Nuwer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Kimi K3]]></title>
+        <id>https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"/>
+        <updated>2026-07-17T13:43:53.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://news.ycombinator.com/item?id=48935342#48936515"><p>Is there something I can actually help you with today?</p></blockquote>
+<p class="cite">&mdash; <a href="https://news.ycombinator.com/item?id=48935342#48936515">Kimi K3</a>, after refusing to leak its system prompt</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/kimi">kimi</a>, <a href="https://simonwillison.net/tags/ai-personality">ai-personality</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links for a heatwave]]></title>
         <id>https://www.thingsmagazine.net/?p=21186</id>
@@ -61,6 +102,66 @@ Continue reading →]]></summary>
     <p>Tags: <a href="https://simonwillison.net/tags/ai-energy-usage">ai-energy-usage</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Misha Farrant presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/about/contributors/misha-farrant/misha-farrant-presents-adventures-in-sound-and-music-78678</id>
+        <link href="https://www.thewire.co.uk/about/contributors/misha-farrant/misha-farrant-presents-adventures-in-sound-and-music-78678"/>
+        <updated>2026-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire's weekly show on Resonance FM and Resonance Extra featured an exclusive mix by 'nonsense sorcerer' excel dj, plus tracks by BBBBBBB / Fatboi Sharif / Ratsmagik, Jay Mitta, and more
+
+Tracklist
+
+DJ PATWA
+    
+“JARĀ’IM” (excerpt)
+    
+Harara Baile
+    
+Heat Crimes)
+
+Jay Mitta
+    
+“27”
+    
+Kazi Kwanza
+    
+Nyege Nyege Tapes)
+
+BBBBBBB / Fatboi Sharif / Ratsmagick
+    
+“Christmas In Sodom”
+    
+Christmas In Sodom
+    
+DeathBomb Arc)
+
+K Trio
+    
+“Cat Drawer”
+    
+Parientes De La Vida
+    
+577)
+
+Jesus Is The Path To Heaven
+    
+“Little Lamb”
+    
+power !
+    
+Bandcamp)
+
+“World Citizen Mix” by excel dj
+
+David Sylvian & Ryuichi Sakamoto “World Citizen edit + The Human Surge 3 [opening]”
+    
+คริสติน่า อากีล่าร์ [Christina Aguilar] ZOOM!!
+    
+Eman Chabas & Mozany Bué de Ahh “Tomas Tomas”…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6814,16 +6915,6 @@ The post Why the Human Genome’s Tangled Physicality May Confound AI first appe
         <summary type="html"><![CDATA[Cooling shirts, heatwave headgear, powerful hot-weather mindset changes and more in the finale of our "How to Dress When it's Too Hot" Guide]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[morning world computer]]></title>
-        <id>https://warrenellis.ltd/?p=18532</id>
-        <link href="https://warrenellis.ltd/mc/morning-world-computer/"/>
-        <updated>2026-06-18T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[David Muenzer. Afropresentism and Kinternet: “Afropresentism says, I am here bearing witness, yes, and it aches. And yes, I am grieving. And most importantly, yes,…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
