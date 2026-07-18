@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-18T16:55:20.403Z</updated>
+    <updated>2026-07-18T20:42:55.735Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SQLite Query Explainer]]></title>
+        <id>https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything"/>
+        <updated>2026-07-18T17:19:10.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/sqlite-query-explainer">SQLite Query Explainer</a></p>
+        <p>Julia Evan's, in <a href="https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/">Learning a few things about running SQLite</a>:</p>
+<blockquote>
+<p>Maybe one day I’ll learn to read a query plan.</p>
+</blockquote>
+<p>Big same.... which inspired me to <a href="https://github.com/simonw/tools/pull/299#issue-4919268017">have Fable build</a> this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN.</p>
+<p>Approach with caution, since I don't know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/julia-evans">julia-evans</a>, <a href="https://simonwillison.net/tags/pyodide">pyodide</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude make Fable 5 permanent]]></title>
         <id>https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything</id>
@@ -6628,17 +6647,6 @@ These components don’t work together. Health and beauty vs…]]></summary>
         <summary type="html"><![CDATA[Too much to do today. Had three deliveries before noon – a CD, a magazine, and a pair of pre-owned grey canvas Carharrt work trousers…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webcurios 19/06/26]]></title>
-        <id>https://webcurios.co.uk/?p=1560</id>
-        <link href="https://webcurios.co.uk/webcurios-19-06-26/"/>
-        <updated>2026-06-19T06:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Reading Time:  37 minutes   ANDY IS COMING! ANDY WILL SAVE US! ANDY WILL MAKE EVERYTHING BETTER! Yes, that’s right, thanks to Labour’s byelection victory overnight we can now look forward to several weeks more tedious Westminster soap opera as two incredibly-unpopular men compete with one soon-to-be-incredibly-unpopular man to see who gets the questionable honour of dragging this country…
-Continue reading →]]></summary>
-        <author>
-            <name>admin</name>
         </author>
     </entry>
 </feed>
