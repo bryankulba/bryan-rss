@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6a5a8a562666d70001a40174",
+          "author": "Patrick Tanguay",
+          "description": "No.412 — Techno-negativity ⊗ Billionaire derangement ⊗ The march to Stop the AI Race ⊗ Losing the ability to discover ⊗ How to talk about “AI” ⊗ Underwater kites",
+          "link": "https://sentiers.media/the-looting-of-science-fiction-weve-been-here-before-no-412/",
+          "publishedOn": "2026-07-19T10:00:42.000Z",
+          "wordCount": 2942,
+          "title": "The looting of science fiction ⊗ We’ve been here before",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/size/w1200/2026/07/buckminster_fuller-institute-w.jpg"
+        },
+        {
           "id": "6a52a5333858240001b9cd30",
           "author": "Patrick Tanguay",
           "description": "No.411 — Stacking spaces ⊗ Why Leonardo was a saboteur ⊗ Futuring through discomfort ⊗ Imagining a new digital commons for creative AI ⊗ Project Circle ⊗ Umberto Eco library opens in Bologna",
@@ -2146,16 +2156,6 @@
           "wordCount": null,
           "title": "You Have to Poop in the Eiffel Tower",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=50933",
-          "author": "Andy Baio",
-          "description": "Quake in the browser without WebGL, it uses PolyCSS to render textured 3D meshes in the DOM with CSS\nvia) #",
-          "link": "https://cssquake.com/",
-          "publishedOn": "2026-06-19T20:03:25.000Z",
-          "wordCount": 1227,
-          "title": "cssQuake",
-          "imageUrl": "https://cssquake.com/assets/cssquake-social.webp"
         }
       ]
     },
@@ -2338,16 +2338,6 @@
           "wordCount": 2900,
           "title": "Pluralistic: How the Epstein Class recruits (20 Jun 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12944",
-          "author": "Cory Doctorow",
-          "description": "Today's links The Big Con: Making the pile of shit bigger won't increase the number of ponies underneath it. Hey look at this: Delights to delectate. Object permanence: TVA v SETI@Home; Telemarketers v DHS batphones; Matt Stone's MPAA censorship memo; Stonehenge pocket watch; W3C v security research; Congressional mass-shooting response simulator; Dynastic wealth; Gig economy astroturf; Meta publishes your AI prompts. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The Big Con (permalink) Partway through Bridget Read's unmissabl…",
-          "link": "https://pluralistic.net/2026/06/19/too-big-to-fact-check/",
-          "publishedOn": "2026-06-19T20:54:32.000Z",
-          "wordCount": 3700,
-          "title": "Pluralistic: The Big Con (19 Jun 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2362,6 +2352,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18699",
+          "author": "Warren Ellis",
+          "description": "I grew lilies. I have a whole new, and hopefully long-term, plan for the garden, and am looking at an autumn/winter of being outside with…",
+          "link": "https://warrenellis.ltd/status/19jul26/",
+          "publishedOn": "2026-07-19T11:15:52.000Z",
+          "wordCount": 1437,
+          "title": "19jul26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/IMG_1643.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18651",
           "author": "Warren Ellis",
@@ -2431,26 +2431,6 @@
           "wordCount": 1190,
           "title": "morning computer little sticks",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/carrington-111-960x1186-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18583",
-          "author": "Warren Ellis",
-          "description": "I’ve been bad. I’ve done the worst thing in the world. I’ve been on eBay. The Camel Trophy was an international driving competition sponsored by…",
-          "link": "https://warrenellis.ltd/jot/camel-trophy-off-road/",
-          "publishedOn": "2026-06-19T20:00:00.000Z",
-          "wordCount": 1392,
-          "title": "Camel Trophy Off Road",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/camel-trophy-scaled.webp"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18581",
-          "author": "Warren Ellis",
-          "description": "Another idea newly influential in analytic circles at this time originated with Brian Jenkins, an expert at the Rand Corporation in California, who had studied…",
-          "link": "https://warrenellis.ltd/books/the-revolutionists-jason-burke/",
-          "publishedOn": "2026-06-19T20:00:00.000Z",
-          "wordCount": 1806,
-          "title": "THE REVOLUTIONISTS, Jason Burke",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/01/revolutionists.jpg"
         }
       ]
     },
@@ -3741,16 +3721,6 @@
           "publishedOn": "2026-06-21T22:01:04.000Z",
           "wordCount": 859,
           "title": "Temporary Cloudflare Accounts for AI agents",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://news.ycombinator.com/item?id=48592163#48593190\"><p>The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...]</p>\n<p>Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=48592163#48593190\">Sean Lynch</a>, comment on Hacker News</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/skills\">skills</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-          "publishedOn": "2026-06-19T22:45:49.000Z",
-          "wordCount": 752,
-          "title": "Quoting Sean Lynch",
           "imageUrl": null
         }
       ]

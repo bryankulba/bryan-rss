@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-19T06:28:17.228Z</updated>
+    <updated>2026-07-19T13:12:08.586Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[19jul26]]></title>
+        <id>https://warrenellis.ltd/?p=18699</id>
+        <link href="https://warrenellis.ltd/status/19jul26/"/>
+        <updated>2026-07-19T11:15:52.000Z</updated>
+        <summary type="html"><![CDATA[I grew lilies. I have a whole new, and hopefully long-term, plan for the garden, and am looking at an autumn/winter of being outside with…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The looting of science fiction ⊗ We’ve been here before]]></title>
+        <id>6a5a8a562666d70001a40174</id>
+        <link href="https://sentiers.media/the-looting-of-science-fiction-weve-been-here-before-no-412/"/>
+        <updated>2026-07-19T10:00:42.000Z</updated>
+        <summary type="html"><![CDATA[No.412 — Techno-negativity ⊗ Billionaire derangement ⊗ The march to Stop the AI Race ⊗ Losing the ability to discover ⊗ How to talk about “AI” ⊗ Underwater kites]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Mania Is Eviscerating Global Decision-Making]]></title>
         <id>https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything</id>
@@ -6607,61 +6627,6 @@ The announcement says this is "for AI agents" but (as is pretty common these day
         <summary type="html"><![CDATA[B D McClay asks “when exactly was science fiction [literature] about jacked bros in space“, and concludes that the answer is quite possibly “never”—or at least “not back in the Golden Age, despite claims persistent over decades that it was”. McClay thinks that this metanarrative has a lot to do with the long-standing resentment of […]]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Sean Lynch]]></title>
-        <id>https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"/>
-        <updated>2026-06-19T22:45:49.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://news.ycombinator.com/item?id=48592163#48593190"><p>The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...]</p>
-<p>Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win.</p></blockquote>
-<p class="cite">&mdash; <a href="https://news.ycombinator.com/item?id=48592163#48593190">Sean Lynch</a>, comment on Hacker News</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/skills">skills</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: The Big Con (19 Jun 2026)]]></title>
-        <id>https://pluralistic.net/?p=12944</id>
-        <link href="https://pluralistic.net/2026/06/19/too-big-to-fact-check/"/>
-        <updated>2026-06-19T20:54:32.000Z</updated>
-        <summary type="html"><![CDATA[Today's links The Big Con: Making the pile of shit bigger won't increase the number of ponies underneath it. Hey look at this: Delights to delectate. Object permanence: TVA v SETI@Home; Telemarketers v DHS batphones; Matt Stone's MPAA censorship memo; Stonehenge pocket watch; W3C v security research; Congressional mass-shooting response simulator; Dynastic wealth; Gig economy astroturf; Meta publishes your AI prompts. Upcoming appearances: LA, Menlo Park, Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The Big Con (permalink) Partway through Bridget Read's unmissabl…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cssQuake]]></title>
-        <id>https://waxy.org/?p=50933</id>
-        <link href="https://cssquake.com/"/>
-        <updated>2026-06-19T20:03:25.000Z</updated>
-        <summary type="html"><![CDATA[Quake in the browser without WebGL, it uses PolyCSS to render textured 3D meshes in the DOM with CSS
-via) #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Camel Trophy Off Road]]></title>
-        <id>https://warrenellis.ltd/?p=18583</id>
-        <link href="https://warrenellis.ltd/jot/camel-trophy-off-road/"/>
-        <updated>2026-06-19T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been bad. I’ve done the worst thing in the world. I’ve been on eBay. The Camel Trophy was an international driving competition sponsored by…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[THE REVOLUTIONISTS, Jason Burke]]></title>
-        <id>https://warrenellis.ltd/?p=18581</id>
-        <link href="https://warrenellis.ltd/books/the-revolutionists-jason-burke/"/>
-        <updated>2026-06-19T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Another idea newly influential in analytic circles at this time originated with Brian Jenkins, an expert at the Rand Corporation in California, who had studied…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
