@@ -148,16 +148,6 @@
           "wordCount": 5746,
           "title": "Dragoncatcher: Fable is very good",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/de-datafication/",
-          "author": null,
-          "description": "<p>What would it take... to start anew? <a href=\"https://www.robinsloan.com/lab/de-datafication/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/de-datafication/",
-          "publishedOn": "2026-06-19T12:00:00.000Z",
-          "wordCount": 5472,
-          "title": "Dragoncatcher: De-datafication",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -2471,16 +2461,6 @@
           "wordCount": 1806,
           "title": "THE REVOLUTIONISTS, Jason Burke",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/01/revolutionists.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18586",
-          "author": "Warren Ellis",
-          "description": "Too much to do today. Had three deliveries before noon – a CD, a magazine, and a pair of pre-owned grey canvas Carharrt work trousers…",
-          "link": "https://warrenellis.ltd/status/19jun26/",
-          "publishedOn": "2026-06-19T11:33:30.000Z",
-          "wordCount": 1312,
-          "title": "19jun26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2024/05/bbc-test-card.jpg"
         }
       ]
     },
@@ -3796,7 +3776,18 @@
       "title": "Maggie Appleton",
       "feedUrl": "https://maggieappleton.com/rss.xml",
       "siteUrl": "https://maggieappleton.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://maggieappleton.com/in-memoriam/",
+          "author": null,
+          "description": "A delayed education on the trenches and scales of suffering",
+          "link": "https://maggieappleton.com/in-memoriam/",
+          "publishedOn": "2026-07-18T00:00:00.000Z",
+          "wordCount": 1868,
+          "title": "In Memoriam, Encountering World War I, and Thinkable Horrors",
+          "imageUrl": "https://maggieappleton.com/og/in-memoriam.png"
+        }
+      ]
     },
     {
       "title": "Stories by Dan Hill on Medium",
@@ -4079,18 +4070,7 @@
       "title": "Charlie's Diary",
       "feedUrl": "http://www.antipope.org/charlie/blog-static/atom.xml",
       "siteUrl": "http://www.antipope.org/charlie/blog-static/",
-      "articles": [
-        {
-          "id": "http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html",
-          "author": null,
-          "description": "So, the second novel in the Laundry Files, The Jennifer Morgue, was first published on November 1st, 2006. And while it was superficially a pastiche of the Bond movie canon (as it existed at that time--I was writing before the...",
-          "link": "http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html",
-          "publishedOn": "2026-06-19T11:50:01.000Z",
-          "wordCount": 6563,
-          "title": "The Golden Age Of Bond Villains",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Disjunctions Magazine",

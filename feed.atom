@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-18T20:42:55.735Z</updated>
+    <updated>2026-07-19T02:27:54.932Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -68,6 +68,16 @@ A certain vintage if Python web nerd might be delighted to learn that the most r
         <updated>2026-07-18T04:20:15.000Z</updated>
         <author>
             <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Memoriam, Encountering World War I, and Thinkable Horrors]]></title>
+        <id>https://maggieappleton.com/in-memoriam/</id>
+        <link href="https://maggieappleton.com/in-memoriam/"/>
+        <updated>2026-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A delayed education on the trenches and scales of suffering]]></summary>
+        <author>
+            <name>Maggie Appleton</name>
         </author>
     </entry>
     <entry>
@@ -6617,36 +6627,6 @@ I have questions about the very concept of an LED mask (can’t you go outside? 
 These components don’t work together. Health and beauty vs…]]></summary>
         <author>
             <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: De-datafication]]></title>
-        <id>https://www.robinsloan.com/lab/de-datafication/</id>
-        <link href="https://www.robinsloan.com/lab/de-datafication/"/>
-        <updated>2026-06-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>What would it take... to start anew? <a href="https://www.robinsloan.com/lab/de-datafication/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Golden Age Of Bond Villains]]></title>
-        <id>http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html</id>
-        <link href="http://www.antipope.org/charlie/blog-static/2026/06/rule-by-bond-villains.html"/>
-        <updated>2026-06-19T11:50:01.000Z</updated>
-        <summary type="html"><![CDATA[So, the second novel in the Laundry Files, The Jennifer Morgue, was first published on November 1st, 2006. And while it was superficially a pastiche of the Bond movie canon (as it existed at that time--I was writing before the...]]></summary>
-        <author>
-            <name>Charlie's Diary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19jun26]]></title>
-        <id>https://warrenellis.ltd/?p=18586</id>
-        <link href="https://warrenellis.ltd/status/19jun26/"/>
-        <updated>2026-06-19T11:33:30.000Z</updated>
-        <summary type="html"><![CDATA[Too much to do today. Had three deliveries before noon – a CD, a magazine, and a pair of pre-owned grey canvas Carharrt work trousers…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
