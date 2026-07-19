@@ -35,6 +35,67 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-19T05:06:21.000Z">2026-07-18</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything" target="_blank" rel="noopener noreferrer">AI Mania Is Eviscerating Global Decision-Making</a>
+          </h2>
+          <p class="feed-item__desc">AI Mania Is Eviscerating Global Decision-Making
+In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI.
+Here's a report from an engineer at a company with a token leaderboard:
+Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job.
+I particularly enjoyed this report of a conversation with a skeptical executive at an over-enthusiastic company:
+I asked why this was being repeated without opposition. Was it just sales fluff?
+The answer was a lot more interesting. It was partially ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their customers were saying absurd things about achieving 100x productivity, and this meant that if any executive at the vendor said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired.
+Via Hacker News
+Tags: ai, ai-ethics, ai-misuse</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-19T03:54:09.000Z">2026-07-18</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything" target="_blank" rel="noopener noreferrer">Claude Code uses Bun written in Rust now</a>
+          </h2>
+          <p class="feed-item__desc">In Rewriting Bun in Rust Jarred Sumner made the following claim:
+Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.
+I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust.
+I found these two commands convincing:
+strings ~/.local/bin/claude | grep -m1 'Bun v1'
+
+For me this outputs Bun v1.4.0 (macOS arm64). The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version.
+strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\.rs'
+
+This outputs a list of 563 filenames, starting with these:
+src/runtime/bake/dev_server/mod.rs
+src/runtime/bake/production.rs
+src/bundler/bundle_v2.rs
+
+It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, "Boring is good".
+Tags: bun, rust, anthropic, claude-code, jarred-sumner</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-18T17:19:10.000Z">2026-07-18</time>
@@ -10547,39 +10608,6 @@ via) #</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/01/revolutionists.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/06/19/signs">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-19T17:28:00.000Z">2026-06-19</time>
-        <span class="feed-item__source">Interconnected</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://interconnected.org/home/2026/06/19/signs" target="_blank" rel="noopener noreferrer">I am obsessed with these two ads</a>
-          </h2>
-          <p class="feed-item__desc">I didn’t know what a near-infrared LED mask was a week ago, and now I am obsessed with this ad from Omnilux.
-
-Because there’s a lot going on.
-The aesthetic of the mask itself is wild: the lines look like sinews as if the woman has been flensed
-But the schematic flesh is commercial! The logo on the forehead!
-Yet she has glossy hair and a spa outfit
-And is drinking a glass of white wine??
-Let’s not get into the red glow through the holes in the face
-The ad copy is tight af, no messing around: retail, popularity, timely, professional, boom boom boom.
-"Your best skin awaits"
-I have questions about the very concept of an LED mask (can’t you go outside? but now we’ve internalised a fear of the sky because of UV?) but that’s not my point.
-These components don’t work together. Health and beauty vs…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/06/19/signs" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/06/19/signs">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://interconnected.org/home/2026/06/19/signs.png?v&#x3D;1" alt="" loading="lazy">
         </div>
       </div>
     </article>
