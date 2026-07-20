@@ -2146,16 +2146,6 @@
           "wordCount": null,
           "title": "How the New York Times changed its coverage of trans people",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=50935",
-          "author": "Andy Baio",
-          "description": "Hank Green on the hidden beauty of maintenance and infrastructure\n#",
-          "link": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
-          "publishedOn": "2026-06-20T15:36:20.000Z",
-          "wordCount": null,
-          "title": "You Have to Poop in the Eiffel Tower",
-          "imageUrl": null
         }
       ]
     },
@@ -2327,16 +2317,6 @@
           "publishedOn": "2026-06-22T17:16:08.000Z",
           "wordCount": 3676,
           "title": "Pluralistic: Good politics (22 Jun 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12949",
-          "author": "Cory Doctorow",
-          "description": "Today's links How the Epstein Class recruits: Oh wait, THAT'S what this was?! Hey look at this: Delights to delectate. Object permanence: MPAA blasted in WSJ; RFID skimmers; Post-Soviet inventions; \"Farthing\"; \"Dirty, Drunk and Punk\"; Dweb v founders' frailty; Tax cheating made simple; Oregon v corporate medicine. Upcoming appearances: Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How the Epstein Class recruits (permalink) Perhaps you've encountered the stories about Dialog, an extremely weird secret society associated with Peter \"Antichrist\" Thiel, whose membersh…",
-          "link": "https://pluralistic.net/2026/06/20/any-club-that-would-have-me/",
-          "publishedOn": "2026-06-20T16:12:26.000Z",
-          "wordCount": 2900,
-          "title": "Pluralistic: How the Epstein Class recruits (20 Jun 2026)",
           "imageUrl": null
         }
       ]
@@ -2883,6 +2863,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/techemails/status/2078854346683678927\">Sam Altman</a>, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/sam-altman\">sam-altman</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+          "publishedOn": "2026-07-20T03:47:59.000Z",
+          "wordCount": 820,
+          "title": "Quoting Sam Altman",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
           "author": null,
@@ -4032,16 +4022,6 @@
           "publishedOn": "2026-06-23T10:03:20.000Z",
           "wordCount": 2634,
           "title": "the very capacities that make agency possible",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12263",
-          "author": "PGR",
-          "description": "B D McClay asks “when exactly was science fiction [literature] about jacked bros in space“, and concludes that the answer is quite possibly “never”—or at least “not back in the Golden Age, despite claims persistent over decades that it was”. McClay thinks that this metanarrative has a lot to do with the long-standing resentment of […]",
-          "link": "https://www.velcro-city.co.uk/we-believe-that-we-have-always-lived-in-the-castle/",
-          "publishedOn": "2026-06-20T09:29:18.000Z",
-          "wordCount": 3708,
-          "title": "we (believe that we) have always lived in the castle",
           "imageUrl": null
         }
       ]

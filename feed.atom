@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-20T02:42:43.411Z</updated>
+    <updated>2026-07-20T06:43:23.163Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Sam Altman]]></title>
+        <id>https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"/>
+        <updated>2026-07-20T03:47:59.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/techemails/status/2078854346683678927"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/techemails/status/2078854346683678927">Sam Altman</a>, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/sam-altman">sam-altman</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[19jul26]]></title>
         <id>https://warrenellis.ltd/?p=18699</id>
@@ -6596,37 +6609,6 @@ The announcement says this is "for AI agents" but (as is pretty common these day
         <summary type="html"><![CDATA[No.408 — Futures studies as a mosaic 2 ⊗ Digital Colonialism ⊗ How the Squamish built Senakw ⊗ Extreme dynamic symmetry]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: How the Epstein Class recruits (20 Jun 2026)]]></title>
-        <id>https://pluralistic.net/?p=12949</id>
-        <link href="https://pluralistic.net/2026/06/20/any-club-that-would-have-me/"/>
-        <updated>2026-06-20T16:12:26.000Z</updated>
-        <summary type="html"><![CDATA[Today's links How the Epstein Class recruits: Oh wait, THAT'S what this was?! Hey look at this: Delights to delectate. Object permanence: MPAA blasted in WSJ; RFID skimmers; Post-Soviet inventions; "Farthing"; "Dirty, Drunk and Punk"; Dweb v founders' frailty; Tax cheating made simple; Oregon v corporate medicine. Upcoming appearances: Toronto, NYC, Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How the Epstein Class recruits (permalink) Perhaps you've encountered the stories about Dialog, an extremely weird secret society associated with Peter "Antichrist" Thiel, whose membersh…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You Have to Poop in the Eiffel Tower]]></title>
-        <id>https://waxy.org/?p=50935</id>
-        <link href="https://www.youtube.com/watch?v=1v2g3GLaJtE"/>
-        <updated>2026-06-20T15:36:20.000Z</updated>
-        <summary type="html"><![CDATA[Hank Green on the hidden beauty of maintenance and infrastructure
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[we (believe that we) have always lived in the castle]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12263</id>
-        <link href="https://www.velcro-city.co.uk/we-believe-that-we-have-always-lived-in-the-castle/"/>
-        <updated>2026-06-20T09:29:18.000Z</updated>
-        <summary type="html"><![CDATA[B D McClay asks “when exactly was science fiction [literature] about jacked bros in space“, and concludes that the answer is quite possibly “never”—or at least “not back in the Golden Age, despite claims persistent over decades that it was”. McClay thinks that this metanarrative has a lot to do with the long-standing resentment of […]]]></summary>
-        <author>
-            <name>PGR</name>
         </author>
     </entry>
 </feed>
