@@ -2,10 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-20T14:00:24.817Z</updated>
+    <updated>2026-07-20T17:58:52.206Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Who’s Afraid of Chinese Models?]]></title>
+        <id>https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything"/>
+        <updated>2026-07-20T17:09:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://stratechery.com/2026/whos-afraid-of-chinese-models/">Who’s Afraid of Chinese Models?</a></strong></p>
+Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:</p>
+<blockquote>
+<p>The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else.</p>
+</blockquote>
+<p>Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision <a href="https://qwen.ai/blog?id=qwen3.7">not to release Qwen 3.7 Max</a> in May - may have been influenced by a <a href="http://english.scio.gov.cn/topnews/2026-07/18/content_118605932.html">recent speech</a> by Xi Jinping, who said:</p>
+<blockquote>
+<p>We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://daringfireball.net/linked/2026/07/20/thompson-chinese-models-distillation">John Gruber</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I love the 1-bit aesthetic of  this story-driven city...]]></title>
+        <id>https://kottke.org/26/07/0049326-this-story-driven-city-bu</id>
+        <link href="https://kottke.org/26/07/0049326-this-story-driven-city-bu"/>
+        <updated>2026-07-20T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[I love the 1-bit aesthetic of this story-driven city builder game called GlagStone.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Organisms That Make Earth’s Harshest Places Home]]></title>
+        <id>https://www.quantamagazine.org/?p=164222</id>
+        <link href="https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720/"/>
+        <updated>2026-07-20T15:03:48.000Z</updated>
+        <summary type="html"><![CDATA[Extremophiles that thrive in the most unforgiving environments aren’t just biological curiosities. Understanding their resilience has many implications for us.            
+The post The Organisms That Make Earth’s Harshest Places Home first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Jake Buehler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Meaning of Nolan’s The Odyssey]]></title>
+        <id>https://kottke.org/26/07/the-meaning-of-nolans-the-odyssey</id>
+        <link href="https://kottke.org/26/07/the-meaning-of-nolans-the-odyssey"/>
+        <updated>2026-07-20T13:59:00.000Z</updated>
+        <summary type="html"><![CDATA[I suspect like many of you, I saw The Odyssey this weekend. I really liked it and the more I read & think about the film, the more it grows in my esteem. This thread by Mmina Maclang-Tamayo (spoilers!) is pretty much how I interpreted what Nolan was trying to convey.
+As it turns out, it was 10,000% important that Christopher Nolan’s The Odyssey was delivered in American accents, beyond just the Emily Wilson linguistics of it all.
+It’s because it was about America.
+I didn’t think it’d be possible to spoil a 3000 year-old epic, but here’s a 🧵
+The emphasis on what’s happening back in Ithaca, with the royal courts and suitors to Penelope reflect upon the internal politics of taking the anxieties of the people about external invaders to attempt to seize power.
+Then, Odysseus returns with the r…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[From BBC Earth,  the trailer  for  Evolution , a...]]></title>
         <id>https://kottke.org/26/07/0049263-the-trailer</id>
