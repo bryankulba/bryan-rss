@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-21T02:25:50.381Z</updated>
+    <updated>2026-07-21T06:26:04.725Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6788,17 +6788,6 @@ The announcement says this is "for AI agents" but (as is pretty common these day
     <p>Tags: <a href="https://simonwillison.net/tags/cloudflare">cloudflare</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the New York Times changed its coverage of trans people]]></title>
-        <id>https://waxy.org/?p=50940</id>
-        <link href="https://www.thedissident.news/exclusive-how-the-new-york-times-changed-its-coverage-of-trans-people/"/>
-        <updated>2026-06-21T16:36:47.000Z</updated>
-        <summary type="html"><![CDATA[analysis of 3,242 articles over the last 12 years shows a clear shift from affirming to skeptical framing starting in 2022
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>
