@@ -44,16 +44,6 @@
           "wordCount": 2510,
           "title": "The no-human future ⊗ The cult of optimisation",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/Haeckel_Muscinae-w.jpg"
-        },
-        {
-          "id": "6a3707e3959c830001fdf99e",
-          "author": "Patrick Tanguay",
-          "description": "No.408 — Futures studies as a mosaic 2 ⊗ Digital Colonialism ⊗ How the Squamish built Senakw ⊗ Extreme dynamic symmetry",
-          "link": "https://sentiers.media/one-good-ai-is-here-taste-as-interface-behaviour-no-408/",
-          "publishedOn": "2026-06-21T10:00:36.000Z",
-          "wordCount": 2533,
-          "title": "(One) good AI is here ⊗ Taste as interface behaviour",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/06/meriol_lehmann-lislet-sud-w.jpg"
         }
       ]
     },
@@ -240,6 +230,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/07/0049350-the-lost-joy-of-music-pir",
+          "author": null,
+          "description": "The Lost Joy of Music Piracy. “Still to this day, I’ve never seen such an actively maintained network of knowledge and output, it really sucked me in.”",
+          "link": "https://kottke.org/26/07/0049350-the-lost-joy-of-music-pir",
+          "publishedOn": "2026-07-20T23:47:00.000Z",
+          "wordCount": 975,
+          "title": "The Lost Joy of Music Piracy . &#8220;Still to this day,...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/goofy-oversized-wicker-costumes",
+          "author": null,
+          "description": "Artist Lewis Prosser describes himself on Instagram as an “absurdist basket-maker”. His costumes for a project called Making Merrie reflect that self-description.\n\n\n\nMaking Merrie explores the material culture of folk theatre. Inspired by mummers’ plays and masked traditions along the Wales/England border, Making Merrie combines craft, performance, and language to reflect on cultural heritage and exchange.\nMummers’ plays are traditional folk performances with roots over 500 years old, often tied to Christmas and New Year. Full of humour and spontaneous revelry, these plays were staged in streets, homes, or pubs by amateur troupes, telling simple stories of combat, death, and miraculous revival. Unlike the religious Mystery Plays, mummers’ plays are secular, carnivalesque, and performed for community fun.\nThe project features large-scale wicker costumes, handcrafted using regional willow basketry techniques, highlighting basketry as an essential human skill we’re at risk of forgetting—a skill that, if lost, means losing part of what it is to be human.\n\n\t\n(via colossal)\n\n \n\n        \n         \nTags: art · Lewis Prosser",
+          "link": "https://kottke.org/26/07/goofy-oversized-wicker-costumes",
+          "publishedOn": "2026-07-20T21:48:00.000Z",
+          "wordCount": 811,
+          "title": "Goofy Oversized Wicker Costumes",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1784579497-6e308df9.jpg"
+        },
         {
           "id": "https://kottke.org/26/07/0049354-how-he-used-to-work-at-ma",
           "author": null,
@@ -2743,22 +2753,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!BqKl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc84d559c-6c8f-4867-bdbb-53a31dcfbe94_2000x2634.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/wearing-color-is-a-community-service",
-          "author": "Blackbird Spyplane",
-          "description": "How I'm doing it this summer",
-          "link": "https://www.blackbirdspyplane.com/p/wearing-color-is-a-community-service",
-          "publishedOn": "2026-06-21T13:02:08.000Z",
-          "wordCount": null,
-          "title": "Wearing color is a community service",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!hp81!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c28e70b-46e8-49f1-b954-96d14221db74_1960x2822.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!hp81!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c28e70b-46e8-49f1-b954-96d14221db74_1960x2822.png"
         }
       ]
     },
