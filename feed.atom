@@ -2,10 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-21T13:43:02.785Z</updated>
+    <updated>2026-07-21T17:15:41.126Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The trailer for Behemoth! , a forthcoming film written...]]></title>
+        <id>https://kottke.org/26/07/0049359-the-trailer-for-behemoth</id>
+        <link href="https://kottke.org/26/07/0049359-the-trailer-for-behemoth"/>
+        <updated>2026-07-21T17:03:00.000Z</updated>
+        <summary type="html"><![CDATA[The trailer for Behemoth!, a forthcoming film written and directed by Tony Gilroy (Michael Clayton, Andor) and starring Pedro Pascal & Olivia Wilde. Great trailer: it pulls you in without revealing anything about the plot.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the use of AI for creative work  (type design in this...]]></title>
+        <id>https://kottke.org/26/07/0049356-on-the-use-of-ai-for-crea</id>
+        <link href="https://kottke.org/26/07/0049356-on-the-use-of-ai-for-crea"/>
+        <updated>2026-07-21T16:22:00.000Z</updated>
+        <summary type="html"><![CDATA[On the use of AI for creative work (type design in this case). “A tool that shields us from the friction of the work is compelling, but if we don’t experience the friction, we will never change the work.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“No CGI” Is Really Just Invisible CGI]]></title>
+        <id>https://kottke.org/26/07/no-cgi-is-really-just-invisible-cgi</id>
+        <link href="https://kottke.org/26/07/no-cgi-is-really-just-invisible-cgi"/>
+        <updated>2026-07-21T15:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Mission Impossible. Oppenheimer. F1. The Odyssey. Top Gun: Maverick. Mad Max: Fury Road. Inception. Dune. Filmmakers and studios who make movies like these love to emphasize their heavy use of practical effects, i.e. real cars jumping real bridges or real people hanging off of real airplanes. “No CGI”, they say, despite the hundreds of names in the visual effects section of the films’ credits.
+In his six-part series, Jonas Ussing, who co-owns a visual effects studio in Denmark, takes a look at these “No CGI” films and shows us just how much digital graphical effects goes into them. For instance, did you know that every single flying jet in Top Gun: Maverick, a movie we were assured was all practical effects, was built with CGI? Take a look:
+
+His latest video is all about Christopher Nolan:
+
+I’ve only watched bits and pieces of these videos so far (the Nolan one is 71 minutes long), but when ILM’s Todd Vaziri says something film-related is good, it’s good.
+
+ 
+
+        
+         
+Tags: cgi · film school · Jonas Ussing · movies · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nativ: Run AI models locally on your Mac]]></title>
+        <id>https://simonwillison.net/2026/Jul/21/nativ/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/21/nativ/#atom-everything"/>
+        <updated>2026-07-21T14:22:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://blaizzy.github.io/nativ/">Nativ: Run AI models locally on your Mac</a></strong></p>
+Prince Canuma is the developer behind the excellent <a href="https://github.com/Blaizzy/mlx-vlm">MLX-VLM</a> Python library for running vision-LLMs using MLX on a Mac.</p>
+<p>I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models.</p>
+<p>The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48982681">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/macos">macos</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/mlx">mlx</a>, <a href="https://simonwillison.net/tags/prince-canuma">prince-canuma</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The official trailer for Avengers: Doomsday . They’ve...]]></title>
+        <id>https://kottke.org/26/07/0049357-the-official-trailer-for-</id>
+        <link href="https://kottke.org/26/07/0049357-the-official-trailer-for-"/>
+        <updated>2026-07-21T14:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The official trailer for Avengers: Doomsday. They’ve gotten (some of) the band back together — perhaps this will be a return to form for Marvel?]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New lecture series from authoritarianism scholar Timothy...]]></title>
+        <id>https://kottke.org/26/07/0049352-hitler-and-stalin-today</id>
+        <link href="https://kottke.org/26/07/0049352-hitler-and-stalin-today"/>
+        <updated>2026-07-21T13:40:00.000Z</updated>
+        <summary type="html"><![CDATA[New lecture series from authoritarianism scholar Timothy Snyder: Hitler and Stalin Today. “The course begins with the colonial background that made totalitarianism possible, and which remains an essential element of our politics now.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Fireside Chat with Cat and Thariq from the Claude Code team]]></title>
         <id>https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything</id>
@@ -282,6 +361,19 @@
         <summary type="html"><![CDATA[Today's links Dealing with dickovers: The web is an open platform, and that matters. Hey look at this: Delights to delectate. Object permanence: Broadcast's bad week; Congress v wifi; EFF v DRM law; Snowden and bunnie's smartphone smartcase. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Dealing with dickovers (permalink) One of 2026's better tech-related coinages is "dickover," John Gruber's term for a modal panel, popover, or curtain presented by a website or app, deliberately obscuring its own content to frustrate the user with an unwanted, unnecessary, mandatory interaction; e.g. ask…]]></summary>
         <author>
             <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlimited Editions: GLARC]]></title>
+        <id>https://www.thewire.co.uk/about/contributors/daryl-worthington/unlimited-editions-glarc</id>
+        <link href="https://www.thewire.co.uk/about/contributors/daryl-worthington/unlimited-editions-glarc"/>
+        <updated>2026-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 510, Daryl Worthington compiles an annotated playlist of tracks from the Glasgow based label
+
+
+    GLARC releases music on tape, often presented in unconventional packaging ranging from crosswords to pottery. Sonically, the label has covered diverse ground but DIY experimentalism and unconventional songwriting are constants. This has manifested as tender evolutions of post-punk, bold new takes on traditional folk songs, unconventional chamber music and playful sound art. As part of plans to mark their tenth decade, GLARC is launching a new website built on Neocities, developed with programmer ada fuge who also works under the aliases netgf and bitrot. It will eventually host the GLARC catalogue as a free to access torrented archive and is part of the label’s strive to break free f…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6887,16 +6979,6 @@ Tags: Alexi Lalas · soccer · sports · Thierry Henry · World Cup · World Cup
         <summary type="html"><![CDATA[What comes around, goes around – 因果応報]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[morning computer little sticks]]></title>
-        <id>https://warrenellis.ltd/?p=18589</id>
-        <link href="https://warrenellis.ltd/status/morning-computer-little-sticks/"/>
-        <updated>2026-06-22T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Leonora Carrington. CONNECTED: Yuji Agematsu. Love the little SCHWA alien. morning computer: some useful things first thing in the day. My free weekly newsletter is…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
