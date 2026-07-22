@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-22T13:45:46.805Z</updated>
+    <updated>2026-07-22T17:15:12.888Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A digital museum of video game levels …you can move...]]></title>
+        <id>https://kottke.org/26/07/0049367-a-digital-museum-of-video</id>
+        <link href="https://kottke.org/26/07/0049367-a-digital-museum-of-video"/>
+        <updated>2026-07-22T17:09:00.000Z</updated>
+        <summary type="html"><![CDATA[A digital museum of video game levels…you can move freely around each level using your keyboard. Heavy on Nintendo games (Mario Kart 64, Wii Sports, etc.) but also includes Portal, Halo, Katamari Damacy, GTA III, and World of Warcraft.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I have lived more than two score and twelve years on this...]]></title>
+        <id>https://kottke.org/26/07/0049366-there-are-two-copies-of-t</id>
+        <link href="https://kottke.org/26/07/0049366-there-are-two-copies-of-t"/>
+        <updated>2026-07-22T16:24:00.000Z</updated>
+        <summary type="html"><![CDATA[I have lived more than two score and twelve years on this Earth and somehow I didn’t know that there are two copies of the Gettysburg Address written in Lincoln’s own hand in the Smithsonian (and five overall).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cassette Tapes of the Great Migration , a collection...]]></title>
+        <id>https://kottke.org/26/07/0049365-the-cassette-tapes-of-the</id>
+        <link href="https://kottke.org/26/07/0049365-the-cassette-tapes-of-the"/>
+        <updated>2026-07-22T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The Cassette Tapes of the Great Migration, a collection of oral histories recorded in Michigan in the 1970s of Black people who had previously escaped the Jim Crow South. “If we don’t get it from those individuals, then we can’t get it from anyone else.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; Researchers let AI models run a simulated society...]]></title>
+        <id>https://kottke.org/26/07/0049364-researchers-let-ai-models</id>
+        <link href="https://kottke.org/26/07/0049364-researchers-let-ai-models"/>
+        <updated>2026-07-22T14:50:59.000Z</updated>
+        <summary type="html"><![CDATA[“Researchers let AI models run a simulated society. Claude was the safest — and Grok committed 180 crimes and went extinct within 4 days.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brian Eno on the Cherished Sounds of Failure]]></title>
+        <id>https://kottke.org/26/07/brian-eno-on-the-cherished-sounds-of-failure</id>
+        <link href="https://kottke.org/26/07/brian-eno-on-the-cherished-sounds-of-failure"/>
+        <updated>2026-07-22T14:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Near the end of 1995, the artist and producer Brian Eno wrote the following about new media in his diary, which entries were later collected in a book called A Year with Swollen Appendices.
+Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit — all these will be cherished and emulated as soon as they can be avoided. 
+It’s the sound of failure: so much of modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them. 
+Note to the artist: when the medium fails conspicuously, and especially if it fails in new ways, the listener believes something is happening beyond its limits.
+
+	
+Nailed it.
+
+ 
+
+        
+         
+Tags: Brian Eno]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google Is Building an A.I. Fence Around the Internet It...]]></title>
         <id>https://kottke.org/26/07/0049362-google-is-building-an-ai-</id>
@@ -6671,17 +6733,6 @@ Tags: Amazon]]></summary>
         <summary type="html"><![CDATA[Six has gotta be more than coincidence]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moss Moss]]></title>
-        <id>https://waxy.org/?p=50945</id>
-        <link href="https://noelcody.itch.io/moss-moss"/>
-        <updated>2026-06-23T04:11:06.000Z</updated>
-        <summary type="html"><![CDATA[charming PICO-8 platformer by Noel Cody
-Michael Eades #]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>

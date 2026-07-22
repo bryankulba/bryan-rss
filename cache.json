@@ -231,6 +231,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049367-a-digital-museum-of-video",
+          "author": null,
+          "description": "A digital museum of video game levels…you can move freely around each level using your keyboard. Heavy on Nintendo games (Mario Kart 64, Wii Sports, etc.) but also includes Portal, Halo, Katamari Damacy, GTA III, and World of Warcraft.",
+          "link": "https://kottke.org/26/07/0049367-a-digital-museum-of-video",
+          "publishedOn": "2026-07-22T17:09:00.000Z",
+          "wordCount": 739,
+          "title": "A digital museum of video game levels …you can move...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049366-there-are-two-copies-of-t",
+          "author": null,
+          "description": "I have lived more than two score and twelve years on this Earth and somehow I didn’t know that there are two copies of the Gettysburg Address written in Lincoln’s own hand in the Smithsonian (and five overall).",
+          "link": "https://kottke.org/26/07/0049366-there-are-two-copies-of-t",
+          "publishedOn": "2026-07-22T16:24:00.000Z",
+          "wordCount": 915,
+          "title": "I have lived more than two score and twelve years on this...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049365-the-cassette-tapes-of-the",
+          "author": null,
+          "description": "The Cassette Tapes of the Great Migration, a collection of oral histories recorded in Michigan in the 1970s of Black people who had previously escaped the Jim Crow South. “If we don’t get it from those individuals, then we can’t get it from anyone else.”",
+          "link": "https://kottke.org/26/07/0049365-the-cassette-tapes-of-the",
+          "publishedOn": "2026-07-22T15:30:00.000Z",
+          "wordCount": 765,
+          "title": "The Cassette Tapes of the Great Migration , a collection...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049364-researchers-let-ai-models",
+          "author": null,
+          "description": "“Researchers let AI models run a simulated society. Claude was the safest — and Grok committed 180 crimes and went extinct within 4 days.”",
+          "link": "https://kottke.org/26/07/0049364-researchers-let-ai-models",
+          "publishedOn": "2026-07-22T14:50:59.000Z",
+          "wordCount": 848,
+          "title": "&#8220; Researchers let AI models run a simulated society...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/brian-eno-on-the-cherished-sounds-of-failure",
+          "author": null,
+          "description": "Near the end of 1995, the artist and producer Brian Eno wrote the following about new media in his diary, which entries were later collected in a book called A Year with Swollen Appendices.\nWhatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit — all these will be cherished and emulated as soon as they can be avoided. \nIt’s the sound of failure: so much of modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them. \nNote to the artist: when the medium fails conspicuously, and especially if it fails in new ways, the listener believes something is happening beyond its limits.\n\n\t\nNailed it.\n\n \n\n        \n         \nTags: Brian Eno",
+          "link": "https://kottke.org/26/07/brian-eno-on-the-cherished-sounds-of-failure",
+          "publishedOn": "2026-07-22T14:08:00.000Z",
+          "wordCount": 1015,
+          "title": "Brian Eno on the Cherished Sounds of Failure",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049362-google-is-building-an-ai-",
           "author": null,
           "description": "Google Is Building an A.I. Fence Around the Internet It Once Championed. “Google has often said it was ‘sending out more traffic & the web is bigger than ever. And then right next to that is a bunch of publishers whose businesses are getting destroyed.’”",
@@ -2186,16 +2236,6 @@
           "wordCount": 6433,
           "title": "4 x 3",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=50945",
-          "author": "Andy Baio",
-          "description": "charming PICO-8 platformer by Noel Cody\nMichael Eades #",
-          "link": "https://noelcody.itch.io/moss-moss",
-          "publishedOn": "2026-06-23T04:11:06.000Z",
-          "wordCount": 1364,
-          "title": "Moss Moss",
-          "imageUrl": "https://img.itch.zone/aW1nLzI2MTExNDM4LmdpZg==/original/zf17cf.gif"
         }
       ]
     },
