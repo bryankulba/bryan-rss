@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-22T17:15:12.888Z</updated>
+    <updated>2026-07-22T21:03:40.252Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Frozen Polygon Waves]]></title>
+        <id>https://kottke.org/26/07/frozen-polygon-waves</id>
+        <link href="https://kottke.org/26/07/frozen-polygon-waves"/>
+        <updated>2026-07-22T20:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Well, this is just absolutely lovely: photographer and artist Jan Erik Waider shot these videos of cracked-but-unbroken Baltic Sea ice undulating with the gentle motion of the sea. Mesmerizing…I could watch these for hours.
+
+ 
+
+        
+         
+Tags: Jan Erik Waider · mesmerizing · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What do America’s earliest restaurant menus teach us...]]></title>
+        <id>https://kottke.org/26/07/0049370-what-do-americas-earliest</id>
+        <link href="https://kottke.org/26/07/0049370-what-do-americas-earliest"/>
+        <updated>2026-07-22T19:58:00.000Z</updated>
+        <summary type="html"><![CDATA[What do America’s earliest restaurant menus teach us about America? “A menu describes what a restaurant serves — but a menu also describes who is being served. They reflect the class, gender, political, technological, and environmental shifts of history.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A list of Jurassic Park computers in excruciating detail...]]></title>
+        <id>https://kottke.org/26/07/0049369-a-list-of-jurassic-park-c</id>
+        <link href="https://kottke.org/26/07/0049369-a-list-of-jurassic-park-c"/>
+        <updated>2026-07-22T19:18:00.000Z</updated>
+        <summary type="html"><![CDATA[A list of Jurassic Park computers in excruciating detail, including an Apple Powerbook 100, a SGI R4000 Indigo, the Motorola Envoy (PDA), and some Thinking Machines CM-5s. “This is a Unix system, I know this!”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There is nothing more I love in this world right now than...]]></title>
+        <id>https://kottke.org/26/07/0049371-these-two-lunch-ladies-pe</id>
+        <link href="https://kottke.org/26/07/0049371-these-two-lunch-ladies-pe"/>
+        <updated>2026-07-22T18:28:00.000Z</updated>
+        <summary type="html"><![CDATA[There is nothing more I love in this world right now than these two lunch ladies performing Firestarter by The Prodigy.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unclassifiable Artists]]></title>
+        <id>https://kottke.org/26/07/unclassifiable-artists</id>
+        <link href="https://kottke.org/26/07/unclassifiable-artists"/>
+        <updated>2026-07-22T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Using William Blake (aka “the patron saint of unclassifiable artists”) as an example, Evan Puschak’s latest video explores how society often rejects artists whose work doesn’t fit neatly into established categories and frameworks of criticism and commerce.
+What you’re seeing here, these are not paintings. They’re prints of engravings from Blake’s illuminated books, which he designed, wrote, etched, colored, and printed himself using a technique that he invented. These extraordinary books are works of art that mix and synthesize categories. And as a result, the art world of the late 17 and early 1800s didn’t really know what to make of them. And Blake never sold more than a handful.
+
+ 
+
+        
+         
+Tags: art · Evan Puschak · poetry · video · William Blake]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A digital museum of video game levels …you can move...]]></title>
         <id>https://kottke.org/26/07/0049367-a-digital-museum-of-video</id>
@@ -6723,16 +6786,6 @@ Tags: Amazon]]></summary>
         <summary type="html"><![CDATA[A clip from an essay on Zhaungzi's approach to virtue.]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/820199913170305024</id>
-        <link href="https://brucesterling.tumblr.com/post/820199913170305024"/>
-        <updated>2026-06-23T08:33:11.000Z</updated>
-        <summary type="html"><![CDATA[Six has gotta be more than coincidence]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
