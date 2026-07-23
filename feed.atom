@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-23T02:30:01.614Z</updated>
+    <updated>2026-07-23T06:28:26.968Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Seth Larson]]></title>
+        <id>https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything"/>
+        <updated>2026-07-23T04:50:36.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/"><p>The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was <a href="https://github.com/pypi/warehouse/pull/19727">put in place</a> to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.</p></blockquote>
+<p class="cite">&mdash; <a href="https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/">Seth Larson</a>, PyPI blog</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/packaging">packaging</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/supply-chain">supply-chain</a>, <a href="https://simonwillison.net/tags/pypi">pypi</a>, <a href="https://simonwillison.net/tags/seth-michael-larson">seth-michael-larson</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Thomas Ptacek]]></title>
         <id>https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything</id>
@@ -6841,94 +6854,6 @@ John Wick (2014) typifies this muscular approach to film scoring. John Wick was 
 #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Room Tone]]></title>
-        <id>https://kottke.org/26/06/room-tone</id>
-        <link href="https://kottke.org/26/06/room-tone"/>
-        <updated>2026-06-23T18:23:00.000Z</updated>
-        <summary type="html"><![CDATA[For each of their on-camera interviews with filmmakers, actors, critics, and other film nerds, Criterion records 30 seconds of “room tone” that is used to cut the footage into a seamless video.
-When trying to explain what room tone is to someone unfamiliar with the concept, I reach for an architectural metaphor. If words are the bricks of a scene, then surely room tone is the mortar that binds them together. It gives sonic coherence to an edited piece built from different takes within the same location.
-Asking a cast and crew to observe a moment of silence is an acknowledgment that room tone cannot be faked. You cannot substitute it with a recording from another production, and you cannot generate it using artificial intelligence. It is something you capture at a specific time and place that has not occurred before and will not occur again. This is our attempt at freezing such fleeting moments — and welcoming those to come.
-
-	
-And then at the end of each year, they cut the room tone recordings into a compilation video; here’s 2025’s video:
-
-As well as 2024’s and 2023’s:
-
-I find these videos equal parts charming and meditative. As movies & TV become ever-more fast-paced and our attention bent to black rectangular pocket casinos, it’s increasingly rare to witness people sitting still with only their thoughts to occupy them. We see Humans Frantically Doing everywhere these days, but these room tone videos are a good reminder that Humans Just Being is an essential part of life as well.
-
- 
-
-        
-         
-Tags: Criterion Collection]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Giant Banana Pulled Over in Montana: Driver Says Cops...]]></title>
-        <id>https://kottke.org/26/06/0049202-giant-banana-pulled-over-</id>
-        <link href="https://kottke.org/26/06/0049202-giant-banana-pulled-over-"/>
-        <updated>2026-06-23T17:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Giant Banana Pulled Over in Montana: Driver Says Cops Have Stopped Him 100s Of Times. “The reason I pulled you over, that light back there, you peeled out.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some Great Deals on Tech Stuff]]></title>
-        <id>https://kottke.org/26/06/some-great-deals-on-tech-stuff</id>
-        <link href="https://kottke.org/26/06/some-great-deals-on-tech-stuff"/>
-        <updated>2026-06-23T16:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon is doing their Prime Day sale again this summer and for those with Prime memberships, it’s a chance to upgrade some tech items at rarely seen prices. Here are a few items I’ve got my eye on:
-The AirPods Pro 3 are still my daily headphones; I really do love them so much. They’re $180 right now, which I think is the lowest price they’ve been.
-Apple’s AirPods Max 2 headphones are on sale for a ridiculous $400 (27% off)…the lowest price ever.
-I do not have the latest Kindle Paperwhite, but I just now bought one for  $125 (22% off). After a long period of foundering, I’ve gotten back into reading again and want an upgrade over the four-year-old Kindle I’m currently using.
-I don’t have one of these and reviews have been mixed (some ppl love them and some are lukewarm on them), but the pocket-sized X4 E-Book Reader is on sale for $55 (20% off). It’s so small you can attach it to the back of your phone.
-My finger is hovered over the “add to cart” button on the 15-inch M5 MacBook Air ($1150, 20% off). I have the 15-inch M4 Air and absolutely love it…but I wouldn’t mind something a little beefier for some of the programming stuff I’ve been doing lately.
-Regarding the Apple stuff on the list, it’s helpful to keep in mind that Tim Cook recently said in an interview that Apple is going to be raising their prices “to offset the surging costs of memory and storage chips”. It’s unclear when this will happen, but it makes all the current Apple deals look even better.
-
- 
-
-        
-         
-Tags: Amazon]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brexit vote: 10 years on . &#8220;&#8216;Absolute...]]></title>
-        <id>https://kottke.org/26/06/0049189-brexit-vote-10-years-on</id>
-        <link href="https://kottke.org/26/06/0049189-brexit-vote-10-years-on"/>
-        <updated>2026-06-23T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Brexit vote: 10 years on. “‘Absolute nightmare, shambles, and still is to this day,’ says Tony Rutherford a decade after he voted leave to save the British fishing industry.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 x 3]]></title>
-        <id>https://waxy.org/?p=50950</id>
-        <link href="https://www.hankgreen.com/fourbythree"/>
-        <updated>2026-06-23T15:58:33.000Z</updated>
-        <summary type="html"><![CDATA[I’m enjoying this Connections variant made by Hank Green, the scoring provides some additional challenge
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the very capacities that make agency possible]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12268</id>
-        <link href="https://www.velcro-city.co.uk/the-very-capacities-that-make-agency-possible/"/>
-        <updated>2026-06-23T10:03:20.000Z</updated>
-        <summary type="html"><![CDATA[A clip from an essay on Zhaungzi's approach to virtue.]]></summary>
-        <author>
-            <name>PGR</name>
         </author>
     </entry>
 </feed>
