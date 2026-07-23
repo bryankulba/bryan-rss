@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-23T06:28:26.968Z</updated>
+    <updated>2026-07-23T13:51:08.798Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Quietest Mathematician Has Always Been Worth Listening To]]></title>
+        <id>https://www.quantamagazine.org/?p=164138</id>
+        <link href="https://www.quantamagazine.org/john-pardon-wins-the-2026-fields-medal-for-work-in-symplectic-geometry-20260723/"/>
+        <updated>2026-07-23T13:40:17.000Z</updated>
+        <summary type="html"><![CDATA[John Pardon sees connections between different areas of math that others don’t. For that vision, he’s now been awarded a Fields Medal.            
+The post The Quietest Mathematician Has Always Been Worth Listening To first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Konstantin Kakaes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amid Life’s Chaos, a Meticulous Mathematician Finds Stability]]></title>
+        <id>https://www.quantamagazine.org/?p=164585</id>
+        <link href="https://www.quantamagazine.org/yu-deng-wins-the-fields-medal-2026-for-his-work-on-the-random-data-problem-20260723/"/>
+        <updated>2026-07-23T13:34:39.000Z</updated>
+        <summary type="html"><![CDATA[Before he won a Fields Medal for his pioneering work balancing randomness and order, Yu Deng first had to achieve equilibrium in his own life.
+            
+The post Amid Life’s Chaos, a Meticulous Mathematician Finds Stability first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Jordana Cepelewicz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your exoskeleton is showing]]></title>
+        <id>https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing</id>
+        <link href="https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing"/>
+        <updated>2026-07-23T11:01:12.000Z</updated>
+        <summary type="html"><![CDATA[New journeys into sauce, plus intel on small-run bags, caps & sandals]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: California's privacy obstacle course (23 Jul 2026)]]></title>
+        <id>https://pluralistic.net/?p=13065</id>
+        <link href="https://pluralistic.net/2026/07/23/drop-a-dime/"/>
+        <updated>2026-07-23T10:27:55.000Z</updated>
+        <summary type="html"><![CDATA[Today's links California's privacy obstacle course: Malice or incompetence (why not both?). Hey look at this: Delights to delectate. Object permanence: Continuous partial attention, TSA is the worst; Trump's FCC v the future. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. California's privacy obstacle course (permalink) Data brokers are a cancer. There's a direct line from the unrestricted collection, retention and processing of our data to a host of evils, from deepfake porn to phishing scams; from racial discrimination in hiring to ICE roundups of migrants; from targeted election inter…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[23JUL2026 / accessions]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12281</id>
+        <link href="https://www.velcro-city.co.uk/23jul2026-accessions/"/>
+        <updated>2026-07-23T07:34:19.000Z</updated>
+        <summary type="html"><![CDATA[Harrison, Leckie, Swift.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Seth Larson]]></title>
         <id>https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything</id>
@@ -17,6 +70,16 @@
     <p>Tags: <a href="https://simonwillison.net/tags/packaging">packaging</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/supply-chain">supply-chain</a>, <a href="https://simonwillison.net/tags/pypi">pypi</a>, <a href="https://simonwillison.net/tags/seth-michael-larson">seth-michael-larson</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“AI” is a Candy House]]></title>
+        <id>https://disjunctionsmag.com/articles/ai-candy-house</id>
+        <link href="https://disjunctionsmag.com/articles/ai-candy-house"/>
+        <updated>2026-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jennifer Egan’s prescient reclamation of human sensemaking]]></summary>
+        <author>
+            <name>Disjunctions Magazine</name>
         </author>
     </entry>
     <entry>
@@ -6761,99 +6824,6 @@ Tags: video]]></summary>
         <summary type="html"><![CDATA[How We’ll Fight the Platform War Against Big AI. “Here are some of the proven tactics that have helped shift the balance of power in prior tech reckonings…”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tyler Bates: Priapic Throb and Unmuffled Exhaust]]></title>
-        <id>https://www.thewire.co.uk/in-writing/columns/tyler-bates-priapic-throb-and-unmuffled-exhaust</id>
-        <link href="https://www.thewire.co.uk/in-writing/columns/tyler-bates-priapic-throb-and-unmuffled-exhaust"/>
-        <updated>2026-06-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[John Wick franchise serves a preoccupation with stunt-based machismo
-
-Reservoir Dogs (1992) and The Dark Knight Returns (1986) bare their nerdy disposition, movies like Snyder’s Dawn Of The Dead (2004), Zombie’s The Devil’s Rejects (2005) and Gunn’s Slither (2006) feel desperate to not be assumed nerdy. Tyler Bates’ guitar-brandishing smack-downs are a key ingredient in this generic slipstream of macho actioner scoring. It might be an imitative practice, but its predominance gives cause to musicologically reflect on its spread.
-
-John Wick (2014) typifies this muscular approach to film scoring. John Wick was the first film developed and produced by Stahelski and Leitch’s stunt company 87Eleven, which since 1997 had been providing stunt choreography, supervision and execution for bloodied mo…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette 1.0a35]]></title>
-        <id>https://simonwillison.net/2026/Jun/23/datasette/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/23/datasette/#atom-everything"/>
-        <updated>2026-06-23T21:34:37.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a35">datasette 1.0a35</a></p>
-        <p>I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes:</p>
-<blockquote>
-<ul>
-<li>New "Create table" interface in the database actions menu, backed by the <code>/&lt;database&gt;/-/create</code> <a href="https://docs.datasette.io/en/latest/json_api.html#tablecreateview">JSON API</a>. It can define columns, primary keys, custom column types, <code>NOT NULL</code> constraints, literal defaults, expression defaults and single-column foreign keys. (<a href="https://github.com/simonw/datasette/issues/2787">#2787</a>)</li>
-<li>New "Alter table" table action and <code>/&lt;database&gt;/&lt;table&gt;/-/alter</code> <a href="https://docs.datasette.io/en/latest/json_api.html#tablealterview">JSON API</a> for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, <code>NOT NULL</code>constraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a "Drop table" button. (<a href="https://github.com/simonw/datasette/issues/2788">#2788</a>)</li>
-<li>New <a href="https://docs.datasette.io/en/latest/template_context.html#template-context">Template context</a> documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. (<a href="https://github.com/simonw/datasette/issues/1510">#1510</a>, <a href="https://github.com/simonw/datasette/issues/2127">#2127</a>, <a href="https://github.com/simonw/datasette/issues/1477">#1477</a>, <a href="https://github.com/simonw/datasette/pull/2803">#2803</a>)</li>
-</ul>
-</blockquote>
-<p>Here's a rough video demo I made of the new create/alter table feature as part of <a href="https://github.com/simonw/datasette/pull/2789">reviewing the PR</a>:</p>
-<p><video
-  controls
-  playsinline
-  preload="none"
-  poster="https://static.simonwillison.net/static/2026/create-alter-demo-first-frame.jpg"
-  width="1280"
-  height="1056" style="max-width: 100%; height: auto"
->
-  <source src="https://static.simonwillison.net/static/2026/create-alter-demo.mp4" type="video/mp4">
-</video>
-</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Not surprising to KDO readers and I don’t really know who...]]></title>
-        <id>https://kottke.org/26/06/0049204-the-us-is-in-the-middle-o</id>
-        <link href="https://kottke.org/26/06/0049204-the-us-is-in-the-middle-o"/>
-        <updated>2026-06-23T20:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Not surprising to KDO readers and I don’t really know who still needs to hear this in June 2026 but: the US is in the middle of a “rolling coup” by ultra-conservatives who are “well along the path of destroying our democracy”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yet another unsurprising article about how  bigger SUVs...]]></title>
-        <id>https://kottke.org/26/06/0049191-yet-another-unsurprising-</id>
-        <link href="https://kottke.org/26/06/0049191-yet-another-unsurprising-"/>
-        <updated>2026-06-23T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Yet another unsurprising article about how bigger SUVs and trucks have resulted in more pedestrian deaths in the US over the past two decades.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OPFS + Pyodide test harness]]></title>
-        <id>https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything"/>
-        <updated>2026-06-23T18:58:54.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/opfs-pyodide">OPFS + Pyodide test harness</a></p>
-        <p>I've been pondering if <a href="https://lite.datasette.io/">Datasette Lite</a> - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer.</p>
-<p>That's what <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system">OFPS</a> (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/pyodide">pyodide</a>, <a href="https://simonwillison.net/tags/datasette-lite">datasette-lite</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Legibility of Effort]]></title>
-        <id>https://waxy.org/?p=50952</id>
-        <link href="http://eieio.games/blog/legibility-of-effort/"/>
-        <updated>2026-06-23T18:29:01.000Z</updated>
-        <summary type="html"><![CDATA[Nolen Royalty on how LLMs have changed the signals we use to gauge human effort
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>
