@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-24T02:27:02.578Z</updated>
+    <updated>2026-07-24T06:23:11.097Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6930,95 +6930,6 @@ Aftermath #]]></summary>
 #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Tom MacWright]]></title>
-        <id>https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything"/>
-        <updated>2026-06-24T18:13:51.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://macwright.com/2026/06/24/accidental-anonymity.html"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>
-<p>My other reaction is that <em>I don't know anything about these people</em>.</p>
-<p>They haven't put themselves out there. They haven't said anything true. [...]</p>
-<p>The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, other than that they use particular tools.</p></blockquote>
-<p class="cite">&mdash; <a href="https://macwright.com/2026/06/24/accidental-anonymity.html">Tom MacWright</a>, Accidental anonymity</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/careers">careers</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/tom-macwright">tom-macwright</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How The New York Times Changed Its Coverage of Trans...]]></title>
-        <id>https://kottke.org/26/06/0049210-how-the-new-york-times-ch</id>
-        <link href="https://kottke.org/26/06/0049210-how-the-new-york-times-ch"/>
-        <updated>2026-06-24T17:55:00.000Z</updated>
-        <summary type="html"><![CDATA[How The New York Times Changed Its Coverage of Trans People. No surprise: it became much more negative, less affirming/protective and more skeptical/restrictive.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Texturing 3D models in real-time with oil painting]]></title>
-        <id>https://waxy.org/?p=50960</id>
-        <link href="https://www.youtube.com/watch?v=fdI1ZJtAJmI"/>
-        <updated>2026-06-24T17:30:53.000Z</updated>
-        <summary type="html"><![CDATA[if you like that, he did followups on dynamic lighting and shaders for 3D objects with oil-painted textures
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lifts in Film : a collection of movie & TV scenes...]]></title>
-        <id>https://kottke.org/26/06/0049212-lifts-in-film</id>
-        <link href="https://kottke.org/26/06/0049212-lifts-in-film"/>
-        <updated>2026-06-24T16:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Lifts in Film: a collection of movie & TV scenes featuring elevators, including Speed, The Shining, Drive, Mad Men, Die Hard, Pulp Fiction, The Silence of the Lambs, and many more.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Pudding’s early history of U.S. restaurant dining]]></title>
-        <id>https://waxy.org/?p=50958</id>
-        <link href="https://pudding.cool/2026/06/menu-story/"/>
-        <updated>2026-06-24T16:55:31.000Z</updated>
-        <summary type="html"><![CDATA[don’t miss the interactive map of 5,000 historical menus pulled from the NYPL’s Buttolph collection
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Physicists Track and Trap the Elusive Neutrino]]></title>
-        <id>https://www.quantamagazine.org/?p=163304</id>
-        <link href="https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/"/>
-        <updated>2026-06-24T16:04:32.000Z</updated>
-        <summary type="html"><![CDATA[The hunt for these ghostly particles has required some of the most audacious experiment setups ever built.            
-The post How Physicists Track and Trap the Elusive Neutrino first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Simon Frantz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gerrymandle  is a daily game where you “draw electoral...]]></title>
-        <id>https://kottke.org/26/06/0049209-gerrymandle</id>
-        <link href="https://kottke.org/26/06/0049209-gerrymandle"/>
-        <updated>2026-06-24T16:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Gerrymandle is a daily game where you “draw electoral district lines to win more seats than your opponents and win the election”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kelly Hayes interviews Rebecca Solnit . &#8220;There is...]]></title>
-        <id>https://kottke.org/26/06/0049206-kelly-hayes-interviews-re</id>
-        <link href="https://kottke.org/26/06/0049206-kelly-hayes-interviews-re"/>
-        <updated>2026-06-24T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kelly Hayes interviews Rebecca Solnit. “There is no rewind button on history. Once people have power & agency, and have seen what it’s like to have rights, voting rights, reproductive rights, they’re not interested in going back. And we’re the majority.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
