@@ -251,6 +251,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049387-now-theyre-ramming-fish-s",
+          "author": null,
+          "description": "New orca behavior unlocked. They’ve been known to sink boats and wear salmon for hats; now they’re ramming fish so hard they explode. “Orcas were observed to hold sunfish in their jaws while a second whale smashed into the target at high speed…”",
+          "link": "https://kottke.org/26/07/0049387-now-theyre-ramming-fish-s",
+          "publishedOn": "2026-07-23T23:09:01.000Z",
+          "wordCount": 760,
+          "title": "New orca behavior unlocked. They’ve been known to sink...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049381-its-our-ethical-duty-to-u",
+          "author": null,
+          "description": "It’s our ethical duty to understand large numbers. “Our world is increasingly moving towards extreme values: Damages from climate change, deaths due to genocide, wealth that knows no bounds. We can’t tackle them if we can’t wrap our heads around [them].”",
+          "link": "https://kottke.org/26/07/0049381-its-our-ethical-duty-to-u",
+          "publishedOn": "2026-07-23T22:41:00.000Z",
+          "wordCount": 742,
+          "title": "It’s our ethical duty to understand large numbers ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049385-a-teen-reporter-searched-",
+          "author": null,
+          "description": "A Teen Reporter Searched for His Community in the Epstein Files. Adults Freaked Out. “Once everyone was back at school on Tuesday, the high schoolers lawyered up during their lunch hour.”",
+          "link": "https://kottke.org/26/07/0049385-a-teen-reporter-searched-",
+          "publishedOn": "2026-07-23T21:21:00.000Z",
+          "wordCount": 827,
+          "title": "A Teen Reporter Searched for His Community in the...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049386-was-crushed-between-two-f",
           "author": null,
           "description": "“A beloved, useful, free website, run carefully by a competent, honest person for nearly thirty years, was crushed between two features of the new AI economy.” (AI bots and prediction market dipshits.)",
@@ -1999,36 +2029,6 @@
           "wordCount": 763,
           "title": "Kelly Hayes interviews Rebecca Solnit . &#8220;There is...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/cow-trip-a-retired-dad-agrees-to-rescue-a-baby-cow",
-          "author": null,
-          "description": "This is one of those videos that you start watching and then can’t really stop until you’ve finished. Cow Trip tells the story of an effort to save a baby cow by driving it (and another baby cow rescue) in a not-huge SUV 600 miles from Vermont to a sanctuary in Maryland.\nA calf in Vermont hits the lottery when a farmer decides to save him. But someone has to drive the baby cow 600 miles to his new home. A freshly retired doctor and his filmmaker daughter volunteer for the job, but nothing goes as planned. What emerges is an unlikely story of a community of people who will do anything to give one calf a real home.\n\n\t\nI think maybe this needs to be a children’s book?\n\n \n\n        \n         \nTags: video",
-          "link": "https://kottke.org/26/06/cow-trip-a-retired-dad-agrees-to-rescue-a-baby-cow",
-          "publishedOn": "2026-06-24T14:00:00.000Z",
-          "wordCount": 831,
-          "title": "Cow Trip: A Retired Dad Agrees to Rescue a Baby Cow",
-          "imageUrl": "https://i.ytimg.com/vi/HFlibYYrvuQ/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/06/0049207-tesla-launches-new-model-",
-          "author": null,
-          "description": "Tesla Launches New Model Of Explosions. “What’s different about the XP is that they’ve actually borrowed some of the same technology used by SpaceX, incorporating it as well as a whole slew of other safety features that are basically non-existent.”",
-          "link": "https://kottke.org/26/06/0049207-tesla-launches-new-model-",
-          "publishedOn": "2026-06-24T13:00:00.000Z",
-          "wordCount": 496,
-          "title": "Tesla Launches New Model Of Explosions . “What&#8217;s...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049211-how-well-fight-the-platfo",
-          "author": null,
-          "description": "How We’ll Fight the Platform War Against Big AI. “Here are some of the proven tactics that have helped shift the balance of power in prior tech reckonings…”",
-          "link": "https://kottke.org/26/06/0049211-how-well-fight-the-platfo",
-          "publishedOn": "2026-06-24T12:30:00.000Z",
-          "wordCount": 485,
-          "title": "How We’ll Fight the Platform War Against Big AI ....",
-          "imageUrl": ""
         }
       ]
     },
@@ -2591,16 +2591,6 @@
           "wordCount": 1162,
           "title": "30jun26",
           "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18612",
-          "author": "Warren Ellis",
-          "description": "It is absolutely blazing out there today. Heat warnings are in effect. Friday looks like it’s going to be the hottest day. OPERATIONS: 700 words…",
-          "link": "https://warrenellis.ltd/status/24jun26/",
-          "publishedOn": "2026-06-24T12:33:14.000Z",
-          "wordCount": 1528,
-          "title": "24jun26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/06/IMG_1487.jpg"
         }
       ]
     },
@@ -3023,6 +3013,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\">The first known runaway AI agent - or a very bad marketing stunt?</a></strong></p>\nMartin Alderson's commentary on the <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI accidental cyberattack against Hugging Face</a> includes a couple of details I hadn't considered.</p>\n<p>First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:</p>\n<blockquote>\n<p>Hugging Face has an <em>enormous</em> attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.</p>\n</blockquote>\n<p>Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?</p>\n<p>Martin points out that:</p>\n<blockquote>\n<p>It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.</p>\n</blockquote>\n<p>The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/nsnb4j/first_known_runaway_ai_agent_very_bad\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/hugging-face\">hugging-face</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+          "publishedOn": "2026-07-23T22:53:08.000Z",
+          "wordCount": 1029,
+          "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
           "author": null,
