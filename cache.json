@@ -1909,36 +1909,6 @@
           "wordCount": 769,
           "title": "&#8220;Turn your site into a place people can bump into...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049217-om-malik-passed-away-yest",
-          "author": null,
-          "description": "Sad news: long-time tech journalist, blogger, and entrepreneur Om Malik passed away yesterday aged 59.",
-          "link": "https://kottke.org/26/06/0049217-om-malik-passed-away-yest",
-          "publishedOn": "2026-06-25T21:32:00.000Z",
-          "wordCount": 721,
-          "title": "Sad news: long-time tech journalist, blogger, and...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049214-sports-have-the-enduring-",
-          "author": null,
-          "description": "“Although fleeting, [sports] have the enduring power to inspire. For a few moments or a few days, divisions crumble, replaced by the beauty of kinship.”",
-          "link": "https://kottke.org/26/06/0049214-sports-have-the-enduring-",
-          "publishedOn": "2026-06-25T19:25:00.000Z",
-          "wordCount": 740,
-          "title": "“Although fleeting,  [sports] have the enduring power to...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049136-an-interactive-introducti",
-          "author": null,
-          "description": "Deep dive: An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt.",
-          "link": "https://kottke.org/26/06/0049136-an-interactive-introducti",
-          "publishedOn": "2026-06-25T18:45:00.000Z",
-          "wordCount": 765,
-          "title": "Deep dive:  An interactive introduction to the terrific...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2186,16 +2156,6 @@
           "wordCount": 57,
           "title": "Half-Life 2 in the browser",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=50970",
-          "author": "Andy Baio",
-          "description": "a blogger’s blogger, Om was always so kind and supportive of my projects\nKottke #",
-          "link": "https://om.co/2026/06/24/1966-2026/",
-          "publishedOn": "2026-06-26T00:11:20.000Z",
-          "wordCount": 15047,
-          "title": "GigaOm founder Om Malik has passed at age 59",
-          "imageUrl": "https://om.co/wp-content/uploads/2021/05/image-og-fallback-om-left-white-vb.png"
         }
       ]
     },
@@ -2204,6 +2164,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13073",
+          "author": "Cory Doctorow",
+          "description": "Today's links Apple's robo-repo: Privatizing the risk premium, socializing its costs. Hey look at this: Delights to delectate. Object permanence: Printed batteries; Monopoly credit cards; Mapping airport power outlets; EMI loves pirates; Mexican indigenous phone co-op; Sewer cover textiles; Surge pricing v antitrust; Carbon offsets v forest fires; Charter schools as money laundries. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Apple's robo-repo (permalink) It may strike you as weird, but lenders love to lend money to poor people who will have trouble paying back their loans. Obviously,…",
+          "link": "https://pluralistic.net/2026/07/25/cruel-cruelty-oh-cruelty/",
+          "publishedOn": "2026-07-25T10:41:10.000Z",
+          "wordCount": 5005,
+          "title": "Pluralistic: Apple's robo-repo (25 Jul 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13070",
           "author": "Cory Doctorow",
@@ -3725,16 +3695,6 @@
           "publishedOn": "2026-06-26T17:10:43.000Z",
           "wordCount": 825,
           "title": "Quoting OpenAI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p>\nBruce Schneier on the recent <a href=\"https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/\">German ruling</a> that Google be held liable for errors introduced in their AI overviews:</p>\n<blockquote>\n<p>AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...]</p>\n<p>To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introduce disastrous incentives for corporate misbehavior. Why hire human writers, lawyers or doctors when AIs are not only cheaper, but also absolve employers whenever they make a mistake?</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/bruce-schneier\">bruce-schneier</a>, <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/law\">law</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/hallucinations\">hallucinations</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
-          "publishedOn": "2026-06-25T22:28:46.000Z",
-          "wordCount": 849,
-          "title": "AI and Liability",
           "imageUrl": null
         }
       ]
