@@ -1959,16 +1959,6 @@
           "wordCount": 537,
           "title": "Apple Just Raised Prices. But Deals Are Still Available",
           "imageUrl": "http://kottke.org/plus/misc/images/editor-1782397266-a585c6c9.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/06/2000-year-old-roman-amphitheatre-hosts-world-cup-watch-party",
-          "author": null,
-          "description": "Fulfilling the purpose for which it was built almost 2000 years ago, football fans packed the Roman Theatre of Amman to watch the Jordan v Algeria World Cup match. I don’t know whether Roman rulers, builders, and architects envisioned their works would remain standing & useful millennia after their construction, but longevity is certainly not a priority these days.\nHere’s a video of Jordan fans watching their opener vs Austria in the amphitheater:\n\n\n \n\n        \n         \nTags: Jordan · soccer · sports · video · World Cup 2026",
-          "link": "https://kottke.org/26/06/2000-year-old-roman-amphitheatre-hosts-world-cup-watch-party",
-          "publishedOn": "2026-06-25T13:39:41.000Z",
-          "wordCount": 765,
-          "title": "2000-Year-Old Roman Amphitheatre Hosts World Cup Watch Party",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1782394061-36c2bcb1.jpg"
         }
       ]
     },
@@ -2408,16 +2398,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12966",
-          "author": "Cory Doctorow",
-          "description": "Today's links Jailbreaking isn't theft: It wasn't progress when they did it, it's not piracy when we do it back to them. Hey look at this: Delights to delectate. Object permanence: Major AI breakthrough; Disney v Pooh tombstone; Vancouver riot kiss; Farage admits Brexit lies; Protecting the web from its founders; Sanders x Hillary; Surveillance pricing v your dollars. Upcoming appearances: Philadelphia, Chicago, London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Jailbreaking isn't theft (permalink) It's not often that someone on a panel says something that makes my jaw drop, but that's what happened earli…",
-          "link": "https://pluralistic.net/2026/06/25/thieve-different/",
-          "publishedOn": "2026-06-25T09:37:35.000Z",
-          "wordCount": 3931,
-          "title": "Pluralistic: Jailbreaking isn't theft (25 Jun 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2733,22 +2713,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!1L3X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51eb888c-dfc2-43cd-a352-0da631ead2e4_1700x1666.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/fortify-your-mentals",
-          "author": "Blackbird Spyplane",
-          "description": "Mental conditioning, French sneakers nobody's checking for, handwoven kitchen textiles, other vibey home goods & more",
-          "link": "https://www.blackbirdspyplane.com/p/fortify-your-mentals",
-          "publishedOn": "2026-06-25T11:03:39.000Z",
-          "wordCount": null,
-          "title": "Fortify your mentals",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!g0Q7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F24eaff84-504f-4b58-9e85-8f3c1aec286f_2000x2634.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!g0Q7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F24eaff84-504f-4b58-9e85-8f3c1aec286f_2000x2634.png"
         }
       ]
     },
@@ -2923,6 +2887,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/bcherny/status/2080713091688583312\"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/bcherny/status/2080713091688583312\">Boris Cherny</a>, here's that <a href=\"https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73\">System Card section</a>, page 73</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/boris-cherny\">boris-cherny</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+          "publishedOn": "2026-07-25T00:42:59.000Z",
+          "wordCount": 780,
+          "title": "Quoting Boris Cherny",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.anthropic.com/news/claude-opus-5\">Introducing Claude Opus 5</a></strong></p>\nI've been offline <a href=\"https://en.wikipedia.org/wiki/Elkhorn_Slough\">kayaking with sea otters</a> for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently <a href=\"https://twitter.com/artificialanlys/status/2080777718933995967\">leading the Artificial Analysis leaderboard</a>, in front of even Fable 5.</p>\n<p>It's priced the same as Opus 4.8, and continues to offer a \"fast mode\" at twice the cost of the base model.</p>\n<p>Based on this anecdote in the release post it sounds like it might be <a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\">relentlessly proactive</a>:</p>\n<blockquote>\n<p>On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part.</p>\n</blockquote>\n<p>It's better at finding vulnerabilities but has deliberately not been trained on how to exploit them. Hopefully this means the US government won't shut it down!</p>\n<blockquote>\n<p>As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at <em>finding</em> cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the <em>exploitation</em> of those vulnerabilities—that is, in turning vulnerabilities into material cyber threats.</p>\n</blockquote>\n<p>Anthropic have published a <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5\">prompting guide for Claude Opus 5</a>. Thariq Shihipar has also written <a href=\"https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models\">The new rules of context engineering for Claude 5 generation models</a>.</p>\n<p>The <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonw%2Fllm-anthropic%2F8272dfee5bdb65d5c88eef083da3ad885539b7df%2Flog.md\">first pelican I got</a> was missing the bicycle wheels; the <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonw%2Fllm-anthropic%2Ffeaab840ea20eb15e29d8f72a9e42feceb23876a%2Flog.md\">second attempt</a> was better.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+          "publishedOn": "2026-07-24T23:48:50.000Z",
+          "wordCount": 1061,
+          "title": "Introducing Claude Opus 5",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
           "author": null,
@@ -4110,16 +4094,6 @@
           "wordCount": 3559,
           "title": "After 80 Years, Mathematicians Give Famed ‘Erdős Method’ an Upgrade",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Ramsey-Updates-cr-Robert-Neubecker-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=163520",
-          "author": "Janna Levin and Steven Strogatz",
-          "description": "Lauren Williams tells 'The Joy of Why' how studying a fundamental object in algebraic combinatorics led to a career full of surprises.            \nThe post What Is the Positive Grassmannian and Why Does It Show Up Everywhere? first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/what-is-the-positive-grassmannian-and-why-does-it-show-up-everywhere-20260625/",
-          "publishedOn": "2026-06-25T13:54:27.000Z",
-          "wordCount": 10789,
-          "title": "What Is the Positive Grassmannian and Why Does It Show Up Everywhere?",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/06/JOW-Episode-2-Lauren-Williams-cr-Chanelle-Nibbelink-Social-LOGO.jpg"
         }
       ]
     },
@@ -4172,16 +4146,6 @@
           "publishedOn": "2026-07-17T09:36:13.000Z",
           "wordCount": 2709,
           "title": "because all of these people are ducklings",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12270",
-          "author": "PGR",
-          "description": "Asterisk Magazine, which aspires to be The New Yorker of effective altruism, has a piece profiling “AI doomers” which, even after reviewing the author’s other sincere engagements with related topics, I’m struggling not to parse as a brilliant bit of parody and/or satire. … AI doom is a remarkably cozy catastrophe. If you suffered through […]",
-          "link": "https://www.velcro-city.co.uk/the-cozy-catastrophists-of-cosplay-doomerism/",
-          "publishedOn": "2026-06-25T13:07:13.000Z",
-          "wordCount": 3289,
-          "title": "the cozy catastrophists of cosplay doomerism",
           "imageUrl": null
         }
       ]
