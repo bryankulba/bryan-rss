@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-25T02:25:51.049Z</updated>
+    <updated>2026-07-25T06:15:20.375Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6709,67 +6709,6 @@ Bruce Schneier on the recent <a href="https://the-decoder.com/landmark-german-ru
         <link href="https://kottke.org/26/06/0049136-an-interactive-introducti"/>
         <updated>2026-06-25T18:45:00.000Z</updated>
         <summary type="html"><![CDATA[Deep dive: An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Criterion’s Massive Stanley Kubrick Box Set]]></title>
-        <id>https://kottke.org/26/06/criterions-massive-stanley-kubrick-box-set</id>
-        <link href="https://kottke.org/26/06/criterions-massive-stanley-kubrick-box-set"/>
-        <updated>2026-06-25T17:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Good god, The Complete Kubrick from Criterion.
-Collected here for the first time are Kubrick’s thirteen features and three shorts, all restored in 4K, with their original soundtracks alongside the 5.1 mixes, restored and remastered; over twenty-five hours of interviews, documentaries, and behind-the-scenes materials; and deluxe packaging illustrated with rare photographs, artwork, and documents annotated by Kubrick himself, all housed in a singular box inspired by the director’s legendary archive.
-
-	
-Altogether it’s 30 discs, $480 if you pre-order, and it’ll be out in mid-October.
-P.S. While it’s not a fancypants box set, the KDO tag page for Stanley Kubrick functions pretty well as “DVD extras” — and it’s free. (via df)
-
- 
-
-        
-         
-Tags: Criterion Collection · movies · Stanley Kubrick · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-export-database 0.3a2]]></title>
-        <id>https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything"/>
-        <updated>2026-06-25T17:21:09.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-export-database/releases/tag/0.3a2">datasette-export-database 0.3a2</a></p>
-        <p>An embarrassingly tiny release. The <code>pyproject.toml</code> had pinned to <code>datasette==1.0a27</code>, inadvertently making this plugin incompatible with all other Datasette versions. It's now <code>datasette&gt;=1.0a27</code> instead.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/820403593951707136</id>
-        <link href="https://brucesterling.tumblr.com/post/820403593951707136"/>
-        <updated>2026-06-25T14:30:36.000Z</updated>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Just Raised Prices. But Deals Are Still Available]]></title>
-        <id>https://kottke.org/26/06/apple-just-raised-prices-but-deals-are-still-available</id>
-        <link href="https://kottke.org/26/06/apple-just-raised-prices-but-deals-are-still-available"/>
-        <updated>2026-06-25T14:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple raised their prices on their laptops, iMacs, and iPads today due to the high cost of memory (driven by AI demand). The Macbook Neo’s price went up $100 with most other machines getting a $200-500 bump.
-But those prices have yet to take effect at Amazon, where Apple computers are still cheaper than the old prices. Macbook Neo for $590, MacBook Air M5 for $1150, and the M4 iMac for $1150. You can check other models (MacBook Pros, etc.) and their pricing here. Not sure when RAM costs are going to come down…these might be the lowest prices you see on Apple machines for quite awhile.
-
- 
-
-        
-         
-Tags: Amazon · Apple]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

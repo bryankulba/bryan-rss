@@ -1939,26 +1939,6 @@
           "wordCount": 765,
           "title": "Deep dive:  An interactive introduction to the terrific...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/criterions-massive-stanley-kubrick-box-set",
-          "author": null,
-          "description": "Good god, The Complete Kubrick from Criterion.\nCollected here for the first time are Kubrick’s thirteen features and three shorts, all restored in 4K, with their original soundtracks alongside the 5.1 mixes, restored and remastered; over twenty-five hours of interviews, documentaries, and behind-the-scenes materials; and deluxe packaging illustrated with rare photographs, artwork, and documents annotated by Kubrick himself, all housed in a singular box inspired by the director’s legendary archive.\n\n\t\nAltogether it’s 30 discs, $480 if you pre-order, and it’ll be out in mid-October.\nP.S. While it’s not a fancypants box set, the KDO tag page for Stanley Kubrick functions pretty well as “DVD extras” — and it’s free. (via df)\n\n \n\n        \n         \nTags: Criterion Collection · movies · Stanley Kubrick · video",
-          "link": "https://kottke.org/26/06/criterions-massive-stanley-kubrick-box-set",
-          "publishedOn": "2026-06-25T17:55:00.000Z",
-          "wordCount": 788,
-          "title": "Criterion’s Massive Stanley Kubrick Box Set",
-          "imageUrl": "https://i.ytimg.com/vi/JY873ak7zjc/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/06/apple-just-raised-prices-but-deals-are-still-available",
-          "author": null,
-          "description": "Apple raised their prices on their laptops, iMacs, and iPads today due to the high cost of memory (driven by AI demand). The Macbook Neo’s price went up $100 with most other machines getting a $200-500 bump.\nBut those prices have yet to take effect at Amazon, where Apple computers are still cheaper than the old prices. Macbook Neo for $590, MacBook Air M5 for $1150, and the M4 iMac for $1150. You can check other models (MacBook Pros, etc.) and their pricing here. Not sure when RAM costs are going to come down…these might be the lowest prices you see on Apple machines for quite awhile.\n\n \n\n        \n         \nTags: Amazon · Apple",
-          "link": "https://kottke.org/26/06/apple-just-raised-prices-but-deals-are-still-available",
-          "publishedOn": "2026-06-25T14:26:00.000Z",
-          "wordCount": 537,
-          "title": "Apple Just Raised Prices. But Deals Are Still Available",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1782397266-a585c6c9.jpg"
         }
       ]
     },
@@ -2568,16 +2548,6 @@
           "wordCount": 3780,
           "title": "Russian warblogger Nikita Tretyakov has some regrets",
           "imageUrl": null
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/820403593951707136",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/820403593951707136",
-          "publishedOn": "2026-06-25T14:30:36.000Z",
-          "wordCount": 2230,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/0532081ae6c6460cf47caf94c35cf4a9/bf0be2598dcee542-ae/s1280x1920/52043b2963dc2a0ef748d56a0e78e7dfc0a08ce2.webp"
         }
       ]
     },
@@ -3765,16 +3735,6 @@
           "publishedOn": "2026-06-25T22:28:46.000Z",
           "wordCount": 849,
           "title": "AI and Liability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p>\n        <p>An embarrassingly tiny release. The <code>pyproject.toml</code> had pinned to <code>datasette==1.0a27</code>, inadvertently making this plugin incompatible with all other Datasette versions. It's now <code>datasette&gt;=1.0a27</code> instead.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
-          "publishedOn": "2026-06-25T17:21:09.000Z",
-          "wordCount": 754,
-          "title": "datasette-export-database 0.3a2",
           "imageUrl": null
         }
       ]
