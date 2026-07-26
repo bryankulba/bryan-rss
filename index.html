@@ -35,6 +35,80 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/25/ruff/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-25T22:44:05.000Z">2026-07-25</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/25/ruff/#atom-everything" target="_blank" rel="noopener noreferrer">Ruff v0.16.0</a>
+          </h2>
+          <p class="feed-item__desc">Ruff v0.16.0
+"ruff" dev dependency.
+From Brent Westbrook's announcement post:
+Ruff now enables 413 rules by default, up from 59 in previous versions.
+Since Ruff's default rule set was last modified in v0.1.0, the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including syntax errors and immediate runtime errors but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration.
+Here's a one-liner for trying it on any Python project:
+uvx ruff@latest check .
+
+I ran the latest Ruff against my three biggest projects - Datasette, sqlite-utils, and LLM - and it found hundreds of minor issues that breached the new default rules.
+All three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades:
+uvx ruff@latest check . --fix --unsafe-fixes
+
+Against sqlite-utils, that command reported:
+Found 1618 errors (1538 fixed, 80 remaining).
+
+As an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one:
+DTZ005 `datetime.datetime.now()` called without a `tz` argument
+  --> tests/test_duplicate.py:17:10
+   |
+15 |     "datetime_col" TEXT)""")
+16 |     # Insert one row of mock data:
+17 |     dt = datetime.datetime.now()
+   |          ^^^^^^^^^^^^^^^^^^^^^^^
+18 |     data = {
+19 |         "text_col": "Cleo",
+   |
+help: Pass a `datetime.timezone` object to the `tz` parameter
+
+BLE001 Do not catch blind exception: `Exception`
+  --> tests/test_plugins.py:16:12
+   |
+14 |         db.execute("select * from pragma_function_list()")
+15 |         return True
+16 |     except Exception:
+   |            ^^^^^^^^^
+17 |         return False
+18 |     finally:
+   |
+
+B018 Found useless attribute access. Either assign it to a variable or remove it.
+  --> tests/test_update.py:46:5
+   |
+44 | def test_update_invalid_pk(fresh_db, pk, update_pk):
+45 |     table = fresh_db["table"]
+46 |     table.insert({"id1": 5, "id2": 3, "v": 1}, pk=pk).last_pk
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+47 |     with pytest.raises(NotFoundError):
+48 |         table.update(update_pk, {"v": 2})
+   |
+
+Unsurprisingly, given Astral's new home at OpenAI, this output provides everything a coding agent would need to fix the problems.
+I had Codex (GPT-5.6 Sol high) upgrade LLM and sqlite-utils, and Claude Code (with Opus 5) upgrade Datasette.
+
+
+    
+Tags: python, ruff, astral</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/25/ruff/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/25/ruff/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13073">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-25T10:41:10.000Z">2026-07-25</time>
@@ -10659,25 +10733,6 @@ The post After 80 Years, Mathematicians Give Famed ‘Erdős Method’ an Upgrad
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049218-a-bob-ross-painting-of-a-" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049218-a-bob-ross-painting-of-a-">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/06/0049203-cool-feature-where-people">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-06-26T14:14:53.000Z">2026-06-26</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/06/0049203-cool-feature-where-people" target="_blank" rel="noopener noreferrer">“Turn your site into a place people can bump into...</a>
-          </h2>
-          <p class="feed-item__desc">“Turn your site into a place people can bump into each other.” Cool feature where people visiting this website can chat in a virtual Town Square: “a small strip populated by stick figures…at the bottom of every page”. See you there?</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/06/0049203-cool-feature-where-people" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/06/0049203-cool-feature-where-people">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
       </div>
