@@ -2076,16 +2076,6 @@
           "wordCount": null,
           "title": "Horrorfan1’s Guide to Horror",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=50972",
-          "author": "Andy Baio",
-          "description": "a quirky WebGL port by a high school student, check it out before it disappears\nWeb Curios #",
-          "link": "https://hl2.slqnt.dev/",
-          "publishedOn": "2026-06-26T21:25:14.000Z",
-          "wordCount": 57,
-          "title": "Half-Life 2 in the browser",
-          "imageUrl": null
         }
       ]
     },
@@ -2456,6 +2446,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/nobodys-born-a-minimalist",
+          "author": "Blackbird Spyplane",
+          "description": "The joy & humor of surrealism. Plus, a new jewelry crafter, DIY sandal kits, reworked vintage tees & more",
+          "link": "https://www.blackbirdspyplane.com/p/nobodys-born-a-minimalist",
+          "publishedOn": "2026-07-26T13:01:45.000Z",
+          "wordCount": null,
+          "title": "Nobody's born a minimalist",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Tg0Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff92625a6-3b45-4b60-be5e-ede2dd1c56e8_1890x1680.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Tg0Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff92625a6-3b45-4b60-be5e-ede2dd1c56e8_1890x1680.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing",
           "author": "Blackbird Spyplane",
@@ -3586,26 +3592,6 @@
           "wordCount": 868,
           "title": "Hack Your Summer",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs. Consider, in particular, some industry dynamics:</p>\n<ol>\n<li>Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work.</li>\n<li>The ongoing AI infrastructure buildout—the one that is, according to former US AI Czar David Sacks, <a href=\"https://fortune.com/2026/05/04/trump-ai-czar-david-sacks-american-gdp-economy/\">essential to the US economy</a>, assumes a functionally global total addressable market for US AI services. No one is building $100 billion dollar data centers to serve frontier models to whatever 100 companies the US government will allow access. [...]</li>\n</ol></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.hyperdimensional.co/p/what-should-be-done\">Dean W. Ball</a>, 35 thoughts on what has happened and what America should do</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
-          "publishedOn": "2026-06-26T22:25:46.000Z",
-          "wordCount": 842,
-          "title": "Quoting Dean W. Ball",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/binarybits/status/2070527944817053862\">Timothy B. Lee</a>, on the idea that LLMs take no skill and have no learning curve</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-          "link": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
-          "publishedOn": "2026-06-26T21:15:09.000Z",
-          "wordCount": 737,
-          "title": "Quoting Timothy B. Lee",
-          "imageUrl": null
         }
       ]
     },
@@ -3928,6 +3914,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12289",
+          "author": "PGR",
+          "description": "Mid-list musicians as memento mori.",
+          "link": "https://www.velcro-city.co.uk/hardcore-will-never-die-but-you-will/",
+          "publishedOn": "2026-07-26T07:16:37.000Z",
+          "wordCount": 2587,
+          "title": "hardcore will never die (but you will)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12285",
           "author": "PGR",

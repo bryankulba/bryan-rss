@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-26T06:34:06.745Z</updated>
+    <updated>2026-07-26T13:15:02.506Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nobody's born a minimalist]]></title>
+        <id>https://www.blackbirdspyplane.com/p/nobodys-born-a-minimalist</id>
+        <link href="https://www.blackbirdspyplane.com/p/nobodys-born-a-minimalist"/>
+        <updated>2026-07-26T13:01:45.000Z</updated>
+        <summary type="html"><![CDATA[The joy & humor of surrealism. Plus, a new jewelry crafter, DIY sandal kits, reworked vintage tees & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hardcore will never die (but you will)]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12289</id>
+        <link href="https://www.velcro-city.co.uk/hardcore-will-never-die-but-you-will/"/>
+        <updated>2026-07-26T07:16:37.000Z</updated>
+        <summary type="html"><![CDATA[Mid-list musicians as memento mori.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Untitled]]></title>
         <id>https://brucesterling.tumblr.com/post/823181655005184000</id>
@@ -6534,47 +6554,6 @@ A fan moves air; electron…]]></summary>
         <summary type="html"><![CDATA[Today's links Zuckerberg's increasingly bizarre war on whistleblowers: Under no circumstances should you rush out and read the book that prompted Mark Zuckerberg to demand $111m and eternal auctorial silence. Hey look at this: Delights to delectate. Object permanence: Flame warriors; Cryptography and casinos; TSA v dying 95 year old woman's adult diaper; Neoliberalism and Brexit; Beyond solutionism; How Thiel cheated with his Roth; Inequality's stabilizer; Palm Pilot school; Gillmor on PR flacks; "How I Edited an Agricultural Paper; Conservative judge chokes liberal judge; Hollywoodnomics; Rubber fingertips v fingerprint readers; Snowden's telepresence robot; "Shrill"; Moral hazard, "Three Rocks." Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Rec…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Dean W. Ball]]></title>
-        <id>https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything"/>
-        <updated>2026-06-26T22:25:46.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.hyperdimensional.co/p/what-should-be-done"><p>This is a bad state of affairs. Consider, in particular, some industry dynamics:</p>
-<ol>
-<li>Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work.</li>
-<li>The ongoing AI infrastructure buildout—the one that is, according to former US AI Czar David Sacks, <a href="https://fortune.com/2026/05/04/trump-ai-czar-david-sacks-american-gdp-economy/">essential to the US economy</a>, assumes a functionally global total addressable market for US AI services. No one is building $100 billion dollar data centers to serve frontier models to whatever 100 companies the US government will allow access. [...]</li>
-</ol></blockquote>
-<p class="cite">&mdash; <a href="https://www.hyperdimensional.co/p/what-should-be-done">Dean W. Ball</a>, 35 thoughts on what has happened and what America should do</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Half-Life 2 in the browser]]></title>
-        <id>https://waxy.org/?p=50972</id>
-        <link href="https://hl2.slqnt.dev/"/>
-        <updated>2026-06-26T21:25:14.000Z</updated>
-        <summary type="html"><![CDATA[a quirky WebGL port by a high school student, check it out before it disappears
-Web Curios #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Timothy B. Lee]]></title>
-        <id>https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything"/>
-        <updated>2026-06-26T21:15:09.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/binarybits/status/2070527944817053862"><p>This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/binarybits/status/2070527944817053862">Timothy B. Lee</a>, on the idea that LLMs take no skill and have no learning curve</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
