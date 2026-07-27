@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-27T02:39:52.666Z</updated>
+    <updated>2026-07-27T07:27:39.904Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[That was then, this is now]]></title>
+        <id>https://brucesterling.tumblr.com/post/823275938691366912</id>
+        <link href="https://brucesterling.tumblr.com/post/823275938691366912"/>
+        <updated>2026-07-27T07:25:18.000Z</updated>
+        <summary type="html"><![CDATA[That was then, this is now]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An Inside Look at the Relay Market Powering Token Resellers and Fraud]]></title>
         <id>https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything</id>
