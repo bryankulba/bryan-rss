@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-27T17:40:15.139Z</updated>
+    <updated>2026-07-27T21:07:17.920Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A Shortlist of Potential Future Euro Banknote Designs]]></title>
+        <id>https://kottke.org/26/07/a-shortlist-of-potential-future-euro-banknote-designs</id>
+        <link href="https://kottke.org/26/07/a-shortlist-of-potential-future-euro-banknote-designs"/>
+        <updated>2026-07-27T19:58:00.000Z</updated>
+        <summary type="html"><![CDATA[The European Central Bank is providing a sneak peek at the next design of the Euro banknotes. From a shortlist of 10 designs created by artists and designers from across the EU, one will be selected as the basis of how Euro banknotes from €5 to €200 will look in the future. Here are a few I pulled out from all of the designs:
+
+
+
+
+
+
+
+
+
+
+
+
+
+It’s notable (*cough*) that some of the banknotes are designed vertically vs horizontally. The influence of portrait mode on smartphones?
+
+ 
+
+        
+         
+Tags: currency · design · European Union · money]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; Datatype is an OpenType variable font that turns...]]></title>
+        <id>https://kottke.org/26/07/0049391-datatype-is-an-opentype-v</id>
+        <link href="https://kottke.org/26/07/0049391-datatype-is-an-opentype-v"/>
+        <updated>2026-07-27T19:15:00.000Z</updated>
+        <summary type="html"><![CDATA[“Datatype is an OpenType variable font that turns simple text expressions into inline charts. No JavaScript, no images, no rendering library — just type the syntax and Datatype’s ligature substitution does the rest.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Batman Effect : people in an experiment acted more...]]></title>
+        <id>https://kottke.org/26/07/0049382-the-batman-effect</id>
+        <link href="https://kottke.org/26/07/0049382-the-batman-effect"/>
+        <updated>2026-07-27T18:25:11.000Z</updated>
+        <summary type="html"><![CDATA[The Batman Effect: people in an experiment acted more altruisticly when the caped crusader was present.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Once Upon a Time in Space]]></title>
         <id>https://kottke.org/26/07/once-upon-a-time-in-space</id>
