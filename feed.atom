@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-29T02:24:32.851Z</updated>
+    <updated>2026-07-29T06:28:44.579Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6909,84 +6909,6 @@ Go Knicks! Or something like that. What a time to be in NYC. (So everyone tells 
     <p>Tags: <a href="https://simonwillison.net/tags/safari">safari</a>, <a href="https://simonwillison.net/tags/til">til</a>, <a href="https://simonwillison.net/tags/applescript">applescript</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Electronic, Ethereal, Sublime: Paul Williams’ ‘Aquarius’]]></title>
-        <id>http://wearethemutants.com/?p=42142</id>
-        <link href="https://wearethemutants.com/2026/06/29/electronic-ethereal-sublime-paul-williams-aquarius/"/>
-        <updated>2026-06-29T17:11:01.000Z</updated>
-        <summary type="html"><![CDATA[By K.E. Roberts 
-
-Unlike most library music, Aquarius is a complete work in itself. It’s like a soundtrack to an imaginary film, and Williams uses both traditional and experimental arrangements to tell the story...]]></summary>
-        <author>
-            <name>K.E. Roberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phyllis the GOAT and the Senior League Wii Bowling Champions]]></title>
-        <id>https://kottke.org/26/06/phyllis-the-goat-and-the-senior-league-wii-bowling-champions</id>
-        <link href="https://kottke.org/26/06/phyllis-the-goat-and-the-senior-league-wii-bowling-champions"/>
-        <updated>2026-06-29T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Senior living communities generally don’t go viral or gain media attention for positive reasons, so it’s nice to see this story about the University Village Retirement Community in Tulsa, Oklahoma and their champion Wii bowling team.
-On this recent Thursday in June, their hopes are pinned on Phyllis Wimer, known as Phyllis Killer or Phyllis the GOAT for the many strikes she bowls; Charlene “the Grasshopper” Giles, whose hop gives her some extra oomph as she releases the ball; “Marvelous” Marcia Ness, who describes herself as a “tough old broad,” ready to bowl after recovering from a broken wrist and back; and “Rollin’” Ron Demaree, who grips the lower-left handlebar on his motorized wheelchair to propel himself upward and forward for more power in his roll.
-
-	
-Phyllis the GOAT is 95 years old and rolls 300s in practice sessions like it’s nothing. Here’s a local news segment on the team from a few months ago:
-
-I was very into Wii Sports 20 years ago (!!!) and still occasionally play Switch Sports with the kids (golf, bowling, and tennis mostly). They’re great party/gathering games and evidently also great for staying active and sharp in your 90s.
-
- 
-
-        
-         
-Tags: bowling · Nintendo · sports · video · video games · Wii]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Gemini is better than search because Google enshittified search (29 Jun 2026)]]></title>
-        <id>https://pluralistic.net/?p=12980</id>
-        <link href="https://pluralistic.net/2026/06/29/arsonist-firefighters/"/>
-        <updated>2026-06-29T16:34:57.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Gemini is better than search because Google enshittified search: We're All Trying To Find The Guy Who Did This. Hey look at this: Delights to delectate. Object permanence: Microsoft antitrust overturned; Scammer carves C64; RIP Jim Baen; GOP rep to constituent's child: "drop dead" (literally); CCTVs jacked for botnet; Olympic profitability lie; Human factors in health infosec; Exfiltration via computer fans; Congress's summer schedule: 9 working days; Antitrust is political antigrav; Ted Chiang's 72 Letters; Microsoft antitrust appeal; Vinge on privacy; Breaking open the web; Bernie on Brexit; "The Perdition Score"; Intuit v Child Tax Credit. Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest b…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding]]></title>
-        <id>https://simonwillison.net/2026/Jun/29/ornith/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jun/29/ornith/#atom-everything"/>
-        <updated>2026-06-29T16:17:59.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://deep-reinforce.com/ornith_1_0.html">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</a></strong></p>
-This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.</p>
-<blockquote>
-<p>[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</p>
-</blockquote>
-<p>As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional <a href="https://ai.google.dev/gemma/terms">Gemma Terms of Use</a> that afflicted the previous Gemma models) and Qwen 3.5 is Apache 2.0 licensed as well.</p>
-<p>I've been running the model using LM Studio and the <a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF">ornith-1.0-35b-Q4_K_M.gguf</a> (20GB) GGUF, hooked up to <a href="https://pi.dev/">Pi</a>. Initial impressions are very good - it seems to be able to run the agent harness over many tool calls in a proficient way.</p>
-<p>Here's <a href="https://gisthost.github.io/?35da4d9ce7f0c27124c67655a0dc9e5d">a terminal session</a> where I asked it to "find the code that decodes the actor cookie" and then "find the code that opens the insert dialog when thebutton is clicked" against a Datasette checkout, which it handled with ease.</p>
-<p>I also had it <a href="https://gist.github.com/simonw/1869e1bbcafe5bcad0f26351f6a978a6">draw this pelican</a>, which came out at 103 tokens/second:</p>
-<p><img alt="Cartoon illustration of a white pelican (albeit slightly mangled) with a large orange beak riding a red bicycle across green hills. The scene has a blue sky with a yellow sun and three white clouds, and small grass tufts dot the foreground." src="https://static.simonwillison.net/static/2024/ornith-1-pelican.png" /></p>
-<p>It's a little bit mangled but the pelican is clearly a pelican.</p>
-<p>I couldn't find much information about DeepReinforce themselves. The earliest paper I could find from the was <a href="https://arxiv.org/abs/2507.14111">CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning</a> from June 2025.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/gemma">gemma</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/lm-studio">lm-studio</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Retro 70s TV Intro for Andor . &#8220;Get ready to...]]></title>
-        <id>https://kottke.org/26/06/0049180-a-retro-70s-tv-intro-for-</id>
-        <link href="https://kottke.org/26/06/0049180-a-retro-70s-tv-intro-for-"/>
-        <updated>2026-06-29T15:50:00.000Z</updated>
-        <summary type="html"><![CDATA[A Retro 70s TV Intro for Andor. “Get ready to travel to a far away galaxy that existed a long, long time ago. It’s the science fiction spectacular…ANDOR.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
