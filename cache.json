@@ -90,6 +90,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/newsletters/keep-going/",
+          "author": null,
+          "description": "<p>San Francisco scene report; early Disney; lots of links. <a href=\"https://www.robinsloan.com/newsletters/keep-going/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/newsletters/keep-going/",
+          "publishedOn": "2026-07-29T00:00:00.000Z",
+          "wordCount": 7256,
+          "title": "Keep going",
+          "imageUrl": "https://www.robinsloan.com/img/mp1-2-enjoy-summer.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/provocation/",
           "author": null,
           "description": "<p>From Rex. <a href=\"https://www.robinsloan.com/lab/provocation/\">Read here.</a></p>",
@@ -220,6 +230,36 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/07/0049413-walmart-is-busy-building-",
+          "author": null,
+          "description": "Walmart is busy building out their fast EV charger network in the US…currently 73 locations in 17 states. Their eventual goal is install chargers at “thousands of its locations by 2030”.",
+          "link": "https://kottke.org/26/07/0049413-walmart-is-busy-building-",
+          "publishedOn": "2026-07-29T20:00:46.000Z",
+          "wordCount": 742,
+          "title": "Walmart is busy building out their fast EV charger...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t",
+          "author": null,
+          "description": "A terrarium iPhone case that houses actual growing plants and moss.",
+          "link": "https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t",
+          "publishedOn": "2026-07-29T18:45:00.000Z",
+          "wordCount": 696,
+          "title": "A terrarium iPhone case that houses actual growing...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/0049406-zugunruhe",
+          "author": null,
+          "description": "“Zugunruhe is a German term describing the restless, twitching urge migratory birds feel when caged — and the same primal restlessness humans feel when trapped.”",
+          "link": "https://kottke.org/26/07/0049406-zugunruhe",
+          "publishedOn": "2026-07-29T17:55:00.000Z",
+          "wordCount": 907,
+          "title": "&#8220; Zugunruhe  is a German term describing the...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/07/some-interesting-apples",
           "author": null,
@@ -2979,6 +3019,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/\">AI Worming through Word</a></strong></p>\nNeat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>\n<blockquote>\n<p>An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.</p>\n</blockquote>\n<p>We've seen plenty of hidden white-on-white text before - the kids <a href=\"https://x.com/ScienceYael/status/2082175224007848019\">are using it in their job applications now</a> - but this is the first one I've seen that deliberately copies instructions to self-replicate itself.</p>\n<p>It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49096188\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+          "publishedOn": "2026-07-29T18:43:03.000Z",
+          "wordCount": 929,
+          "title": "AI Worming through Word",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live in <a href=\"https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html\">Impagliazzo’s Minicrypt</a>) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\">Matthew Green</a>, on <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">Anthropic's recent cryptography work</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/cryptography\">cryptography</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+          "publishedOn": "2026-07-29T18:18:15.000Z",
+          "wordCount": 853,
+          "title": "Quoting Matthew Green",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+          "author": null,
+          "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">Adding a custom MCP server to Claude and ChatGPT</a></p>\n        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+          "publishedOn": "2026-07-29T00:13:18.000Z",
+          "wordCount": 816,
+          "title": "Adding a custom MCP server to Claude and ChatGPT",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
           "author": null,

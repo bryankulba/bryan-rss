@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-29T17:12:41.579Z</updated>
+    <updated>2026-07-29T20:53:08.907Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Walmart is busy building out their fast EV charger...]]></title>
+        <id>https://kottke.org/26/07/0049413-walmart-is-busy-building-</id>
+        <link href="https://kottke.org/26/07/0049413-walmart-is-busy-building-"/>
+        <updated>2026-07-29T20:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Walmart is busy building out their fast EV charger network in the US…currently 73 locations in 17 states. Their eventual goal is install chargers at “thousands of its locations by 2030”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A terrarium iPhone case that houses actual growing...]]></title>
+        <id>https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t</id>
+        <link href="https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t"/>
+        <updated>2026-07-29T18:45:00.000Z</updated>
+        <summary type="html"><![CDATA[A terrarium iPhone case that houses actual growing plants and moss.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Worming through Word]]></title>
+        <id>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"/>
+        <updated>2026-07-29T18:43:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/">AI Worming through Word</a></strong></p>
+Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>
+<blockquote>
+<p>An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.</p>
+</blockquote>
+<p>We've seen plenty of hidden white-on-white text before - the kids <a href="https://x.com/ScienceYael/status/2082175224007848019">are using it in their job applications now</a> - but this is the first one I've seen that deliberately copies instructions to self-replicate itself.</p>
+<p>It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49096188">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/microsoft">microsoft</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Matthew Green]]></title>
+        <id>https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything"/>
+        <updated>2026-07-29T18:18:15.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live in <a href="https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html">Impagliazzo’s Minicrypt</a>) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.</p></blockquote>
+<p class="cite">&mdash; <a href="https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/">Matthew Green</a>, on <a href="https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/">Anthropic's recent cryptography work</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/cryptography">cryptography</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; Zugunruhe  is a German term describing the...]]></title>
+        <id>https://kottke.org/26/07/0049406-zugunruhe</id>
+        <link href="https://kottke.org/26/07/0049406-zugunruhe"/>
+        <updated>2026-07-29T17:55:00.000Z</updated>
+        <summary type="html"><![CDATA[“Zugunruhe is a German term describing the restless, twitching urge migratory birds feel when caged — and the same primal restlessness humans feel when trapped.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Some Interesting Apples]]></title>
         <id>https://kottke.org/26/07/some-interesting-apples</id>
@@ -146,6 +210,30 @@ Tags: Donald Trump · OnlyFans · politics · science · video]]></summary>
         <updated>2026-07-29T07:03:04.000Z</updated>
         <author>
             <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding a custom MCP server to Claude and ChatGPT]]></title>
+        <id>https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything"/>
+        <updated>2026-07-29T00:13:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>TIL:</strong> <a href="https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt">Adding a custom MCP server to Claude and ChatGPT</a></p>
+        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keep going]]></title>
+        <id>https://www.robinsloan.com/newsletters/keep-going/</id>
+        <link href="https://www.robinsloan.com/newsletters/keep-going/"/>
+        <updated>2026-07-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>San Francisco scene report; early Disney; lots of links. <a href="https://www.robinsloan.com/newsletters/keep-going/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
