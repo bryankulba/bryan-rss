@@ -231,6 +231,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/its-cool-to-be-weird",
+          "author": null,
+          "description": "I really like what Razaak Eniola has to say here about human difference.\nBefore Prince was Prince, Prince was weird. And that goes the same for probably any of your favorite artists. Before Erykah Badu was Erykah Badu, Erykah Badu was weird. Before Marc Rebillet was Marc Rebillet, Marc Rebillet was weird.\nEverybody loves to clap at the end — and most of the time we are clapping for the wrong reasons. We live in a culture that loves final products.\nIt’s cool to be weird, as long as it’s rooted and aligned with what’s true and what’s sincere.\n\n\t\nI often tell people they’re weird and it’s always a compliment. Before it came to mean odd-looking or “disturbingly different”, weird meant “having power to control fate” — perhaps you could think of it as describing someone who can forge their own way, make their own luck.\nHere’s a short quiz to discover your weirdness: You’re Weirder Than You Think.\nFor whatever reason, this also reminds me of something I read earlier today by Robin Sloan:\nWe should never forget that the product of work isn’t only the work — it’s also the worker.\n\n\t\n(via @witoldriedel & @prisonculture.bsky.social)\n\n \n\n        \n         \nTags: language · Razaak Eniola",
+          "link": "https://kottke.org/26/07/its-cool-to-be-weird",
+          "publishedOn": "2026-07-29T21:00:00.000Z",
+          "wordCount": 1405,
+          "title": "It’s Cool to Be Weird",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049413-walmart-is-busy-building-",
           "author": null,
           "description": "Walmart is busy building out their fast EV charger network in the US…currently 73 locations in 17 states. Their eventual goal is install chargers at “thousands of its locations by 2030”.",
@@ -1989,26 +1999,6 @@
           "wordCount": 1524,
           "title": "Great piece by Andrea Pitzer on how lost Ezra Klein is...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049238-this-ai-compass-quiz",
-          "author": null,
-          "description": "I found this AI Compass quiz genuinely useful for pinpointing how I actually feel about various aspects of AI. At the same time, I don’t think my result (“The Kontextmaschine”) quite fits…",
-          "link": "https://kottke.org/26/06/0049238-this-ai-compass-quiz",
-          "publishedOn": "2026-06-30T13:58:00.000Z",
-          "wordCount": 737,
-          "title": "I found  this AI Compass quiz  genuinely useful for...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/06/0049237-we-crunched-the-data-ther",
-          "author": null,
-          "description": "There’s a Grocery Price Emergency in America. “Our research shows that even relatively well-off families are struggling with high prices… President Trump and Congress are neither investing in long-term solutions nor offering short-term relief.”",
-          "link": "https://kottke.org/26/06/0049237-we-crunched-the-data-ther",
-          "publishedOn": "2026-06-30T13:13:34.000Z",
-          "wordCount": 490,
-          "title": "There’s a Grocery Price Emergency in America....",
-          "imageUrl": ""
         }
       ]
     },
@@ -2438,16 +2428,6 @@
           "wordCount": 3552,
           "title": "Pluralistic: Technocarcinization (01 Jul 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=12985",
-          "author": "Cory Doctorow",
-          "description": "Today's links Jo Walton's \"Everybody's Perfect\": A mystical tour-de-force that makes you feel like your mundane life until this point has all been a boring dream. Hey look at this: Delights to delectate. Object permanence: Corruption; How much (little) are the AI companies making? Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Jo Walton's \"Everybody's Perfect\" (permalink) There's a new Jo Walton book, called Everybody's Perfect. Because it's a Jo Walton novel, you know in advance that three things are true about it: It is beautiful; It is profound; It is unlike every other novel,…",
-          "link": "https://pluralistic.net/2026/06/30/serenissima/",
-          "publishedOn": "2026-06-30T11:22:50.000Z",
-          "wordCount": 3177,
-          "title": "Pluralistic: Jo Walton's \"Everybody's Perfect\" (30 Jun 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2541,16 +2521,6 @@
           "wordCount": 1162,
           "title": "morning computer self",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/dean-11-960x720-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18642",
-          "author": "Warren Ellis",
-          "description": "Well, I wasn’t in the mood to post anything during the heatwave, and my poor eight-year-old ThinkPad was in such dire straits that opening more…",
-          "link": "https://warrenellis.ltd/status/30jun26/",
-          "publishedOn": "2026-06-30T10:32:28.000Z",
-          "wordCount": 1162,
-          "title": "30jun26",
-          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -3019,6 +2989,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\"><p>Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.</p>\n<p>Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.</p>\n<p>That didn’t mean programmers went away. It just meant the job changed a little bit.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\">D. Richard Hipp</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/d-richard-hipp\">d-richard-hipp</a>, <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+          "publishedOn": "2026-07-29T21:15:21.000Z",
+          "wordCount": 804,
+          "title": "Quoting D. Richard Hipp",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
           "author": null,
@@ -3915,28 +3895,7 @@
       "title": "bunnie's blog",
       "feedUrl": "https://www.bunniestudios.com/blog/?feed=rss2",
       "siteUrl": "https://www.bunniestudios.com/blog",
-      "articles": [
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7582",
-          "author": "bunnie",
-          "description": "The Ware for June 2026 is shown below: This board is from my personal collection of “favorite boards” that I’ve collected over the years. A lot of old memories associated this one – both figuratively and literally. I’ve received some feedback that gmail in particular is marking my email updates as spam. Not sure I […]",
-          "link": "https://www.bunniestudios.com/blog/2026/name-that-ware-june-2026/",
-          "publishedOn": "2026-06-30T10:20:57.000Z",
-          "wordCount": 1069,
-          "title": "Name that Ware, June 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7579",
-          "author": "bunnie",
-          "description": "The Ware for May 2026 is, in FETguy’s words: “one of many large pc boards of a Rodgers Instrument Co church organ. The core memory was used to store and recall settings of the organ’s “stops”. There were 5 core memory boards in this instrument which differ in how many words were implemented. I photographed […]",
-          "link": "https://www.bunniestudios.com/blog/2026/solution-name-that-ware-may-2026/",
-          "publishedOn": "2026-06-30T10:05:26.000Z",
-          "wordCount": 972,
-          "title": "Solution, Name that Ware May 2026",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Maggie Appleton",
