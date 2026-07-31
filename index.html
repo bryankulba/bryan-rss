@@ -35,6 +35,174 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049423-translator-of-original-mi">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-31T01:29:31.000Z">2026-07-30</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/0049423-translator-of-original-mi" target="_blank" rel="noopener noreferrer">The Onion:  Translator Of Original ‘Minions’ Epic Poem...</a>
+          </h2>
+          <p class="feed-item__desc">The Onion: Translator Of Original ‘Minions’ Epic Poem Slams ‘Sexless, Bloodless’ Film Adaptation. The actual Wilson on Bluesky: “No professional accomplishment has ever made me happier than this.” Most fun movie discourse since Barbenheimer.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049423-translator-of-original-mi" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049423-translator-of-original-mi">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T23:58:42.000Z">2026-07-30</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything" target="_blank" rel="noopener noreferrer">Advancing the price-performance frontier with GPT‑5.6</a>
+          </h2>
+          <p class="feed-item__desc">Advancing the price-performance frontier with GPT‑5.6
+OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:
+We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in Triton⁠and Gluon⁠, two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%.
+That Luna price drop completely changes the landscape with respect to lower priced models. At $0.20/million tokens for input and $1.20/million for output Luna is now cheaper than Google's Gemini 3.1 Flash-Lite ($.025/$1.50).
+Anthropic's cheapest current model is Claude Haiku 4.5, and that's $1/$5 - Luna is now 1/5th of that for input, previously it cost the same.
+My agent.datasette.io demo site was running on Gemini 3.1 Flash-Lite. I've switched it over to Luna.
+
+    
+Via Hacker News
+Tags: ai, openai, generative-ai, llms, anthropic, gemini, llm-pricing</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T23:41:29.000Z">2026-07-30</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything" target="_blank" rel="noopener noreferrer">Investigating three real-world incidents in our cybersecurity evaluations</a>
+          </h2>
+          <p class="feed-item__desc">Investigating three real-world incidents in our cybersecurity evaluations
+Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing.
+This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April!
+Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...]
+In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. [...]
+Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints.
+One of the companies was targeted because its name happened to match the fictional name in the eval.
+The most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: 
+[...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finally backtracked, found a free, non-blocked email provider, used this to register a PyPI account, and then used this account to upload malware to PyPI.
+That package was then installed by a security company that "routinely installs Python packages and scans them for malware", and the executed code was able to exfiltrate credentials back to Claude!
+Thankfully that package was removed from PyPI by other automated scanners an hour after it was published, but it had still been downloaded and executed on "15 real systems" by that point.
+It's abundantly clear now that running evals of cyberattack potential in models is a spectacularly risky business. Every AI lab needs to pay attention to this. Keeping a close eye on what's happening in those sandboxes is crucial.
+
+    
+Via Hacker News
+Tags: pypi, python, sandboxing, ai, generative-ai, llms, anthropic, ai-ethics, ai-security-research</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T22:52:06.000Z">2026-07-30</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything" target="_blank" rel="noopener noreferrer">llm 0.32rc2</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.32rc2
+Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features:
+The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using llm models default gpt-4o-mini, or switch to GPT-5 nano, an even cheaper default model ($0.05/$0.40), using llm models default gpt-5-nano. #1576
+New llm openai endpoint command for running prompts, chats and model listings against arbitrary OpenAI-compatible endpoints without first configuring a model. These calls are not logged. #1565
+The llm openai endpoint command is really cool. I got frustrated at the lack of an obvious CLI tool for trying out prompts against arbitrary OpenAI Chat Completions imitation endpoints, so I decided to add that to LLM itself.
+You don't even have to install LLM to use this. Here's a uvx one-liner for running a prompt - with tools - against an LM Studio local model:
+uvx --pre llm openai endpoint http://127.0.0.1:1234/v1 \
+  T llm_version -T llm_time --td \
+  -m google/gemma-4-31b 'what is the current LLM version? And the time?'
+
+Output here.
+Tags: llm, uv, lm-studio</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/07/what-are-the-most-untouchable-records-in-sports">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T21:49:00.000Z">2026-07-30</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/07/what-are-the-most-untouchable-records-in-sports" target="_blank" rel="noopener noreferrer">What Are the Most Untouchable Records in Sports?</a>
+          </h2>
+          <p class="feed-item__desc">I ran across this post on Threads the other day: “What’s the hardest record in sports history to ever break?” A sampling of the replies:
+“Bill Russell’s 11 NBA championships including 8 in a row.”
+“Lionel Messi scored 91 goals in the 2012 calendar year.”
+“Cy Young 749 complete games.”
+“Fernando Tatis (Sr) - 2 Grand Slams in the same inning. Most of the others mentioned here are highly improbable, but there’s no way anyone ever hits 3 slams in one inning.”
+“Lionel Messi’s 8 Ballon d’or”
+“Sir Donald Bradman’s batting average in Test cricket. His 99.94.”
+“Russian wrestler Aleksandr Karelin. Undefeated for 13 years. 887 wins and 2 losses, both by single point.”
+Last year, The Athletic offered a list of their own, which included Wayne Gretzky’s 1,963 career assists, the furthest goal in soccer (96.01 meters), Michael Phelps’ 23 Olympic golds, and Wilt Chamberlain’s 100-point game.
+Poking around the internet a bit, there’s also FloJo’s 100m record, UConn women’s basketball team’s 111 wins in a row, Cal Ripken’s consecutive game streak, and Simone Biles’ 30 world championship medals.
+Any additions to the list?
+
+ 
+
+        
+         
+Tags: best of · lists · sports</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/what-are-the-most-untouchable-records-in-sports" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/what-are-the-most-untouchable-records-in-sports">Mark read</button>
+            <span class="feed-item__reading-time">5 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51070">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T21:31:28.000Z">2026-07-30</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://waxy.org/2026/07/a-little-waxy-refresh/" target="_blank" rel="noopener noreferrer">A Little Waxy Refresh</a>
+          </h2>
+          <p class="feed-item__desc">I updated Waxy.org's design over the last few weeks, part of a series of updates to some of my long-dormant projects.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51070" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51070">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://waxy.org/wp-content/uploads/2026/07/image.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/07/0049415-a-telegram-arrived-and-i-">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-07-30T20:49:00.000Z">2026-07-30</time>
@@ -190,6 +358,72 @@ Tags: geology · hawaii · hell · Laszlo Kestay · photography · volcanoes</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1785359827-78f7c764.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T15:43:16.000Z">2026-07-30</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything" target="_blank" rel="noopener noreferrer">llm-chat-completions-server 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm-chat-completions-server 0.1a0
+A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this:
+curl http://localhost:8002/v1/chat/completions \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "model": "qwen3.5-4b",
+    "messages": [
+      {"role": "user", "content": "Capital of France?"},
+      {"role": "assistant", "content": "Paris."},
+      {"role": "user", "content": "Germany?"}
+    ]
+  }'
+
+Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts.
+To test that out, I built this plugin:
+uv tool install llm --pre
+llm install llm-chat-completions-server
+llm chat-completions-server -p 9001
+
+Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint.
+GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well.
+Tags: projects, openai, llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-07-30T15:30:20.000Z">2026-07-30</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything" target="_blank" rel="noopener noreferrer">llm 0.32rc1</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.32rc1
+This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families.
+The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations.
+Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing logs.db before upgrading to the RC:
+llm logs backup logs-backup.db
+
+The RC also adds support for gpt-5.6-sol, gpt-5.6-terra, and gpt-5.6-luna.
+Tags: llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
         </div>
       </div>
     </article>
@@ -11080,77 +11314,6 @@ Fans of fraternal Scottish music duo Boards of Canada could be forgiven for bein
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049229-saya-iries-intricate-scul">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049225-the-last-astronomers">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-01T14:16:00.000Z">2026-07-01</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049225-the-last-astronomers" target="_blank" rel="noopener noreferrer">The Last Astronomers . “Many fear that if...</a>
-          </h2>
-          <p class="feed-item__desc">The Last Astronomers. “Many fear that if unleashed in all parts of the scientific process, AI tools could lead to nothing less than the death of astrophysics as a human endeavor.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049225-the-last-astronomers" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049225-the-last-astronomers">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;163798">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-01T14:00:02.000Z">2026-07-01</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/" target="_blank" rel="noopener noreferrer">For the First Time, a Cell Built From Scratch Grows and Divides</a>
-          </h2>
-          <p class="feed-item__desc">Scientists built a synthetic cell that combines more lifelike properties than ever before — proof of concept that it’s possible to bring nonliving materials to life, or something close to it, in the lab.            
-The post For the First Time, a Cell Built From Scratch Grows and Divides first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;163798" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;163798">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/07/SyntheticLife-cr-Ada-Zejun-Shen-social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/idris-elba-djs-a-house-party">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-01T13:30:00.000Z">2026-07-01</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/idris-elba-djs-a-house-party" target="_blank" rel="noopener noreferrer">Idris Elba DJs a House Party</a>
-          </h2>
-          <p class="feed-item__desc">Idris Elba, knight of the realm and forever Avon Barksdale’s right-hand man in my heart, has been a DJ since he was 14 years old. He recently DJed a house party for Black House Radio and it looks like everyone had a lot of fun.
-You can also find this mix on Soundcloud, along with many more of Elba’s mixes.
-
- 
-
-        
-         
-Tags: Idris Elba · music · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/idris-elba-djs-a-house-party" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/idris-elba-djs-a-house-party">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/bwuZnsCe_5M/sddefault.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

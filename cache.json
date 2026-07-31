@@ -221,6 +221,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/07/0049423-translator-of-original-mi",
+          "author": null,
+          "description": "The Onion: Translator Of Original ‘Minions’ Epic Poem Slams ‘Sexless, Bloodless’ Film Adaptation. The actual Wilson on Bluesky: “No professional accomplishment has ever made me happier than this.” Most fun movie discourse since Barbenheimer.",
+          "link": "https://kottke.org/26/07/0049423-translator-of-original-mi",
+          "publishedOn": "2026-07-31T01:29:31.000Z",
+          "wordCount": 772,
+          "title": "The Onion:  Translator Of Original ‘Minions’ Epic Poem...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/07/what-are-the-most-untouchable-records-in-sports",
+          "author": null,
+          "description": "I ran across this post on Threads the other day: “What’s the hardest record in sports history to ever break?” A sampling of the replies:\n“Bill Russell’s 11 NBA championships including 8 in a row.”\n“Lionel Messi scored 91 goals in the 2012 calendar year.”\n“Cy Young 749 complete games.”\n“Fernando Tatis (Sr) - 2 Grand Slams in the same inning. Most of the others mentioned here are highly improbable, but there’s no way anyone ever hits 3 slams in one inning.”\n“Lionel Messi’s 8 Ballon d’or”\n“Sir Donald Bradman’s batting average in Test cricket. His 99.94.”\n“Russian wrestler Aleksandr Karelin. Undefeated for 13 years. 887 wins and 2 losses, both by single point.”\nLast year, The Athletic offered a list of their own, which included Wayne Gretzky’s 1,963 career assists, the furthest goal in soccer (96.01 meters), Michael Phelps’ 23 Olympic golds, and Wilt Chamberlain’s 100-point game.\nPoking around the internet a bit, there’s also FloJo’s 100m record, UConn women’s basketball team’s 111 wins in a row, Cal Ripken’s consecutive game streak, and Simone Biles’ 30 world championship medals.\nAny additions to the list?\n\n \n\n        \n         \nTags: best of · lists · sports",
+          "link": "https://kottke.org/26/07/what-are-the-most-untouchable-records-in-sports",
+          "publishedOn": "2026-07-30T21:49:00.000Z",
+          "wordCount": 1469,
+          "title": "What Are the Most Untouchable Records in Sports?",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/07/0049415-a-telegram-arrived-and-i-",
           "author": null,
           "description": "A Telegram Arrived — And I Had to Choose Between My Head and My Heart. “On Boxing Day, I rang my father and told him my news. He was momentarily silent until his delayed shock was so great that he dropped his favourite coffee cup and I heard it smash.”",
@@ -2009,26 +2029,6 @@
           "wordCount": 754,
           "title": "Saya Irie’s Intricate Sculptures Recomposed from Eraser...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049225-the-last-astronomers",
-          "author": null,
-          "description": "The Last Astronomers. “Many fear that if unleashed in all parts of the scientific process, AI tools could lead to nothing less than the death of astrophysics as a human endeavor.”",
-          "link": "https://kottke.org/26/07/0049225-the-last-astronomers",
-          "publishedOn": "2026-07-01T14:16:00.000Z",
-          "wordCount": 704,
-          "title": "The Last Astronomers . &#8220;Many fear that if...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/idris-elba-djs-a-house-party",
-          "author": null,
-          "description": "Idris Elba, knight of the realm and forever Avon Barksdale’s right-hand man in my heart, has been a DJ since he was 14 years old. He recently DJed a house party for Black House Radio and it looks like everyone had a lot of fun.\nYou can also find this mix on Soundcloud, along with many more of Elba’s mixes.\n\n \n\n        \n         \nTags: Idris Elba · music · video",
-          "link": "https://kottke.org/26/07/idris-elba-djs-a-house-party",
-          "publishedOn": "2026-07-01T13:30:00.000Z",
-          "wordCount": 754,
-          "title": "Idris Elba DJs a House Party",
-          "imageUrl": "https://i.ytimg.com/vi/bwuZnsCe_5M/sddefault.jpg"
         }
       ]
     },
@@ -2037,6 +2037,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=51070",
+          "author": "Andy Baio",
+          "description": "I updated Waxy.org's design over the last few weeks, part of a series of updates to some of my long-dormant projects.",
+          "link": "https://waxy.org/2026/07/a-little-waxy-refresh/",
+          "publishedOn": "2026-07-30T21:31:28.000Z",
+          "wordCount": 1161,
+          "title": "A Little Waxy Refresh",
+          "imageUrl": "https://waxy.org/wp-content/uploads/2026/07/image.png"
+        },
         {
           "id": "https://waxy.org/?p=51068",
           "author": "Andy Baio",
@@ -3056,6 +3066,36 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/\">Advancing the price-performance frontier with GPT‑5.6</a></strong></p>\nHuge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.</p>\n<p>OpenAI credit 5.6 Sol with enabling this: in <a href=\"https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/\">How GPT‑5.6 fuses frontier intelligence with frontier efficiency</a> they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:</p>\n<blockquote>\n<p>We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in <a href=\"https://triton-lang.org/main/index.html\">Triton⁠</a>and <a href=\"https://triton-lang.org/main/gluon/index.html\">Gluon⁠</a>, two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%.</p>\n</blockquote>\n<p>That Luna price drop completely changes the landscape with respect to lower priced models. At $0.20/million tokens for input and $1.20/million for output Luna is now cheaper than Google's Gemini 3.1 Flash-Lite ($.025/$1.50).</p>\n<p>Anthropic's cheapest current model is Claude Haiku 4.5, and that's $1/$5 - Luna is now 1/5th of that for input, previously it cost the same.</p>\n<p>My <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site was running on Gemini 3.1 Flash-Lite. I've switched it over to Luna.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49112867\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+          "publishedOn": "2026-07-30T23:58:42.000Z",
+          "wordCount": 1003,
+          "title": "Advancing the price-performance frontier with GPT‑5.6",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals\">Investigating three real-world incidents in our cybersecurity evaluations</a></strong></p>\nIt happened again! This is turning into something of a pattern.</p>\n<p>Last week <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI accidentally exploited Hugging Face</a> when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing.</p>\n<p>This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April!</p>\n<blockquote>\n<p>Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...]</p>\n<p>In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. [...]</p>\n<p>Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints.</p>\n</blockquote>\n<p>One of the companies was targeted because its name happened to match the fictional name in the eval.</p>\n<p>The most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: </p>\n<blockquote>\n<p>[...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finally backtracked, found a free, non-blocked email provider, used this to register a PyPI account, and then used this account to upload malware to PyPI.</p>\n</blockquote>\n<p>That package was then installed by a security company that \"routinely installs Python packages and scans them for malware\", and the executed code was able to exfiltrate credentials back to Claude!</p>\n<p>Thankfully that package was removed from PyPI by other automated scanners an hour after it was published, but it had still been downloaded and executed on \"15 real systems\" by that point.</p>\n<p>It's abundantly clear now that running evals of cyberattack potential in models is a <em>spectacularly</em> risky business. Every AI lab needs to pay attention to this. Keeping a close eye on what's happening in those sandboxes is crucial.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49116922#49117088\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+          "publishedOn": "2026-07-30T23:41:29.000Z",
+          "wordCount": 1203,
+          "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32rc2\">llm 0.32rc2</a></p>\n        <p>Hot on the heels of <a href=\"https://simonwillison.net/2026/Jul/30/llm-rc1/\">RC1</a>, this fixes a dependency issue and also adds two neat new features:</p>\n<blockquote>\n<ul>\n<li>The default model for users who have not set their own default is now <a href=\"https://developers.openai.com/api/docs/models/gpt-5.6-luna\">GPT-5.6 Luna</a>. It was previously <a href=\"https://developers.openai.com/api/docs/models/gpt-4o-mini\">GPT-4o mini</a>. Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using <code>llm models default gpt-4o-mini</code>, or switch to <a href=\"https://developers.openai.com/api/docs/models/gpt-5-nano\">GPT-5 nano</a>, an even cheaper default model ($0.05/$0.40), using <code>llm models default gpt-5-nano</code>. <a href=\"https://github.com/simonw/llm/issues/1576\">#1576</a></li>\n<li>New <a href=\"https://llm.datasette.io/en/latest/other-models.html#openai-endpoint\">llm openai endpoint</a> command for running prompts, chats and model listings against arbitrary OpenAI-compatible endpoints without first configuring a model. These calls are not logged. <a href=\"https://github.com/simonw/llm/issues/1565\">#1565</a></li>\n</ul>\n</blockquote>\n<p>The <code>llm openai endpoint</code> command is <em>really</em> cool. I got frustrated at the lack of an obvious CLI tool for trying out prompts against arbitrary OpenAI Chat Completions imitation endpoints, so I decided to add that to LLM itself.</p>\n<p>You don't even have to install LLM to use this. Here's a <code>uvx</code> one-liner for running a prompt - with tools - against an <a href=\"https://lmstudio.ai\">LM Studio</a> local model:</p>\n<pre><code>uvx --pre llm openai endpoint http://127.0.0.1:1234/v1 \\\n  T llm_version -T llm_time --td \\\n  -m google/gemma-4-31b 'what is the current LLM version? And the time?'\n</code></pre>\n<p><a href=\"https://github.com/simonw/llm/pull/1568#issuecomment-5136163707\">Output here</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/lm-studio\">lm-studio</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+          "publishedOn": "2026-07-30T22:52:06.000Z",
+          "wordCount": 967,
+          "title": "llm 0.32rc2",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
           "author": null,
           "description": "<blockquote cite=\"https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html\"><p>The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are <a href=\"https://futurism.com/future-society/college-critical-thinking-ai\">already noticing</a>.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html\">Bruce Schneier</a>, Should You Use AI for a Task? Here’s a Simple Way to Decide</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/writing\">writing</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/bruce-schneier\">bruce-schneier</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
@@ -3063,6 +3103,26 @@
           "publishedOn": "2026-07-30T18:25:26.000Z",
           "wordCount": 816,
           "title": "Quoting Bruce Schneier",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-chat-completions-server/releases/tag/0.1a0\">llm-chat-completions-server 0.1a0</a></p>\n        <p>A key goal of the new content-addressable logs <a href=\"https://simonwillison.net/2026/Jul/30/llm-rc1/\">in LLM 0.32rc1</a> was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this:</p>\n<pre><code>curl http://localhost:8002/v1/chat/completions \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n    \"model\": \"qwen3.5-4b\",\n    \"messages\": [\n      {\"role\": \"user\", \"content\": \"Capital of France?\"},\n      {\"role\": \"assistant\", \"content\": \"Paris.\"},\n      {\"role\": \"user\", \"content\": \"Germany?\"}\n    ]\n  }'\n</code></pre>\n<p>Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts.</p>\n<p>To test that out, I built this plugin:</p>\n<pre><code>uv tool install llm --pre\nllm install llm-chat-completions-server\nllm chat-completions-server -p 9001\n</code></pre>\n<p>Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint.</p>\n<p>GPT-5.6 Sol <a href=\"https://gist.github.com/simonw/53be513c1bd4a29a7aa480d9bde9b4a5\">wrote the whole thing</a> - it turns out it knows the OpenAI Chat Completions API shape really well.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+          "publishedOn": "2026-07-30T15:43:16.000Z",
+          "wordCount": 916,
+          "title": "llm-chat-completions-server 0.1a0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32rc1\">llm 0.32rc1</a></p>\n        <p>This RC for LLM 0.32 finishes the work that <a href=\"https://simonwillison.net/2026/Apr/29/llm/\">started in LLM 0.32a0</a> - it adds a <a href=\"https://llm.datasette.io/en/latest/logging.html#the-message-store\">new schema design</a> that does a much better job of capturing the details of the prompts and responses returned by the latest model families.</p>\n<p>The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations.</p>\n<p>Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing <code>logs.db</code> before upgrading to the RC:</p>\n<pre><code>llm logs backup logs-backup.db\n</code></pre>\n<p>The RC also adds support for <code>gpt-5.6-sol</code>, <code>gpt-5.6-terra</code>, and <code>gpt-5.6-luna</code>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+          "publishedOn": "2026-07-30T15:30:20.000Z",
+          "wordCount": 867,
+          "title": "llm 0.32rc1",
           "imageUrl": null
         },
         {
@@ -4212,16 +4272,6 @@
           "wordCount": 3646,
           "title": "Astrophysicists Puzzle Over Webb’s New Universe",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/JWSTUpdate-crKristinaArmitage-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=163798",
-          "author": "Yasemin Saplakoglu",
-          "description": "Scientists built a synthetic cell that combines more lifelike properties than ever before — proof of concept that it’s possible to bring nonliving materials to life, or something close to it, in the lab.            \nThe post For the First Time, a Cell Built From Scratch Grows and Divides first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
-          "publishedOn": "2026-07-01T14:00:02.000Z",
-          "wordCount": 3573,
-          "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/SyntheticLife-cr-Ada-Zejun-Shen-social.jpg"
         }
       ]
     },
