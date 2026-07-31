@@ -1957,6 +1957,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51131",
+          "author": "Andy Baio",
+          "description": "Continuing my series of updating old side projects, I gave Supercut.org a big refresh, plus some notes on the sad state of Vimeo.",
+          "link": "https://waxy.org/2026/07/waxy-refresh-supercut-org/",
+          "publishedOn": "2026-07-31T20:36:55.000Z",
+          "wordCount": 1567,
+          "title": "Waxy Refresh: Supercut.org",
+          "imageUrl": "https://waxy.org/wp-content/uploads/2026/07/image-4.png"
+        },
+        {
           "id": "https://waxy.org/?p=51070",
           "author": "Andy Baio",
           "description": "I updated Waxy.org's design over the last few weeks, part of a series of updates to some of my long-dormant projects.",
@@ -2386,16 +2396,6 @@
           "publishedOn": "2026-07-03T09:00:15.000Z",
           "wordCount": 4327,
           "title": "Pluralistic: CARDiac, syntax coloring, view source and vibe code (03 Jul 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13002",
-          "author": "Cory Doctorow",
-          "description": "Today's links The difference between \"today's task\" and \"accretive work\": Sometimes, \"I got it working\" is fine, but sometimes it isn't. Hey look at this: Delights to delectate. Object permanence: Series of tubes; Paralyzed teen beaten bloody by TSA; \"Ultra unreal\" Chinese lit; London property prices v Brexit; Biden v surprise billing; \"Feeding Ghosts.\" Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The difference between \"today's task\" and \"accretive work\" (permalink) One thing I've learned about paradoxes: often the answer to the riddle of \"how can this one thing have such a co…",
-          "link": "https://pluralistic.net/2026/07/02/canonization/",
-          "publishedOn": "2026-07-02T07:54:42.000Z",
-          "wordCount": 3191,
-          "title": "Pluralistic: The difference between \"today's task\" and \"accretive work\" (02 Jul 2026)",
           "imageUrl": null
         }
       ]

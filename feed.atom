@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-07-31T17:26:47.983Z</updated>
+    <updated>2026-07-31T21:01:45.505Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Waxy Refresh: Supercut.org]]></title>
+        <id>https://waxy.org/?p=51131</id>
+        <link href="https://waxy.org/2026/07/waxy-refresh-supercut-org/"/>
+        <updated>2026-07-31T20:36:55.000Z</updated>
+        <summary type="html"><![CDATA[Continuing my series of updating old side projects, I gave Supercut.org a big refresh, plus some notes on the sad state of Vimeo.]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Is AI Reasoning Right for the Wrong Reasons?]]></title>
         <id>https://www.quantamagazine.org/?p=165277</id>
@@ -6707,16 +6717,6 @@ The post Astrophysicists Puzzle Over Webb’s New Universe first appeared on Qua
         <summary type="html"><![CDATA[Too much heat, on the cool-clothes frontlines and elsewhere. Spyplane Paris Men's Fashion Week SS27 Report]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: The difference between "today's task" and "accretive work" (02 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13002</id>
-        <link href="https://pluralistic.net/2026/07/02/canonization/"/>
-        <updated>2026-07-02T07:54:42.000Z</updated>
-        <summary type="html"><![CDATA[Today's links The difference between "today's task" and "accretive work": Sometimes, "I got it working" is fine, but sometimes it isn't. Hey look at this: Delights to delectate. Object permanence: Series of tubes; Paralyzed teen beaten bloody by TSA; "Ultra unreal" Chinese lit; London property prices v Brexit; Biden v surprise billing; "Feeding Ghosts." Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The difference between "today's task" and "accretive work" (permalink) One thing I've learned about paradoxes: often the answer to the riddle of "how can this one thing have such a co…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
