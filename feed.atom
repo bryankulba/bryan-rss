@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-01T02:33:12.637Z</updated>
+    <updated>2026-08-01T06:26:33.950Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6837,129 +6837,6 @@ modifying existing files.</p>
         <link href="https://kottke.org/26/07/0049251-the-40-best-albums-from-t"/>
         <updated>2026-07-02T18:45:00.000Z</updated>
         <summary type="html"><![CDATA[Something for the digital crate-diggers: The 40 Best Albums From the Last 40 Years That You Probably Didn’t Hear (But Should’ve). I’d only heard of one or two these…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using DSPy to evaluate and improve Datasette Agent's SQL system prompts]]></title>
-        <id>https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything"/>
-        <updated>2026-07-02T18:25:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts#readme">Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts</a></p>
-        <p>One of this morning's AIE keynotes covered <a href="https://github.com/stanfordnlp/dspy">dspy</a>, which reminded me I've been meaning to see if it could help me improve the system prompt used by <a href="https://agent.datasette.io">Datasette Agent</a> - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5:</p>
-<blockquote>
-<p><code>Pip install the latest Datasette alpha and datasette-agent and dspy - then figure out how to use dspy to evaluate and improve the main system prompts used by Datasette Agent for the feature where it can execute read only SQL queries to answer user questions about data.</code></p>
-</blockquote>
-<p>Fable chose to test using GPT 4.1 mini and nano, and identified several promising looking directions for improvements. I particularly like this one:</p>
-<blockquote>
-<p>The schema listing gives only table names; the "don't call describe_table if you already have the information" advice caused column-name guessing (page_count, o.order_id, first_name) and error-retry loops in baseline traces. Either include column names in the prompt's schema listing or soften that advice.</p>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/evals">evals</a>, <a href="https://simonwillison.net/tags/dspy">dspy</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/claude-mythos">claude-mythos</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Dictionary of the Illegible  proposes...]]></title>
-        <id>https://kottke.org/26/07/0049252-dictionary-of-the-illegib</id>
-        <link href="https://kottke.org/26/07/0049252-dictionary-of-the-illegib"/>
-        <updated>2026-07-02T18:05:00.000Z</updated>
-        <summary type="html"><![CDATA[“Dictionary of the Illegible proposes illegibility as a strategy for navigating a world increasingly governed by visibility, efficiency, and total surveillance.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; The average paid newsletter costs $10 per month...]]></title>
-        <id>https://kottke.org/26/07/0049253-the-average-paid-newslett</id>
-        <link href="https://kottke.org/26/07/0049253-the-average-paid-newslett"/>
-        <updated>2026-07-02T17:25:00.000Z</updated>
-        <summary type="html"><![CDATA[“The average paid newsletter costs $10 per month or $100 per year, according to analysis of thousands of publications hosted on Beehiiv.” KDO memberships start at $3/mo. and I haven’t raised prices since 2016. You folks are getting an incredible deal!]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understand to participate]]></title>
-        <id>https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"/>
-        <updated>2026-07-02T17:07:14.000Z</updated>
-        <summary type="html"><![CDATA[<p>I saw Geoffrey Litt speak at <a href="https://www.ai.engineer/worldsfair/2026">AIE</a> yesterday, and one framing he used particularly resonated with me:</p>
-<p><strong>Understand to participate</strong></p>
-<p>Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on <a href="https://simonwillison.net/tags/cognitive-debt/">cognitive debt</a> as your understanding drifts from how the code actually works.</p>
-<p>His argument is that you need to understand the code to a depth that enables you to participate further with the model:</p>
-<blockquote>
-<p>You can learn what the agent is doing to make sure you can be an active participant in the creative process. [...]</p>
-<p>You need a rich set of concepts in your mind to think creatively and fluently about how to move something forward. If you're lacking that fluency, your ability to participate in the project is meaningfully limited.</p>
-</blockquote>
-<p>The AIE talks are all recorded - all 300+ of them! - and should be trickling out over the next three weeks. Geoffrey's is one that I recommend catching on YouTube.</p>
-<p>Geoffrey also published <a href="https://twitter.com/geoffreylitt/status/2072522251300409556">a thread version of his talk</a> on Twitter.</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/geoffrey-litt">geoffrey-litt</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/cognitive-debt">cognitive-debt</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hank Green interviews Ze Frank , who kind of invented...]]></title>
-        <id>https://kottke.org/26/07/0049250-hank-green-interviews-ze-</id>
-        <link href="https://kottke.org/26/07/0049250-hank-green-interviews-ze-"/>
-        <updated>2026-07-02T16:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Hank Green interviews Ze Frank, who kind of invented the modern YouTube format (aka vlogging). “At the episode’s end, Ze lays down some of the best advice Hank’s ever heard.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Parker Molloy on  why the panic about trans women in...]]></title>
-        <id>https://kottke.org/26/07/0049249-why-the-panic-about-trans</id>
-        <link href="https://kottke.org/26/07/0049249-why-the-panic-about-trans"/>
-        <updated>2026-07-02T16:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Parker Molloy on why the panic about trans women in sports is not actually about fairness or protecting women & girls (in the similar way Gamergate was not about “ethics in games journalism”).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Will America Ever Give White-Man Rights to Everyone...]]></title>
-        <id>https://kottke.org/26/07/0049247-will-america-ever-give-wh</id>
-        <link href="https://kottke.org/26/07/0049247-will-america-ever-give-wh"/>
-        <updated>2026-07-02T15:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Will America Ever Give White-Man Rights to Everyone Else? “These documents…were written by rich white men for the benefit of rich white men, and this country has never for a day recovered from their failure.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The US Constitution Is for Simple Folk Still Burdened by...]]></title>
-        <id>https://kottke.org/26/07/0049248-the-us-constitution-is-fo</id>
-        <link href="https://kottke.org/26/07/0049248-the-us-constitution-is-fo"/>
-        <updated>2026-07-02T15:08:00.000Z</updated>
-        <summary type="html"><![CDATA[The US Constitution Is for Simple Folk Still Burdened by the Belief That Words Have Meaning. “The true Constitution is not a document. It’s more of a gut feeling. It is a shimmering legal gas that settles wherever conservatives need it most…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Astrophysicists Puzzle Over Webb’s New Universe]]></title>
-        <id>https://www.quantamagazine.org/?p=163841</id>
-        <link href="https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/"/>
-        <updated>2026-07-02T14:57:31.000Z</updated>
-        <summary type="html"><![CDATA[Faced with observations of early black holes and galaxies that weren’t expected to exist, scientists have come up with a wealth of new theories to explain them. Now they just need to figure out which ones are true.            
-The post Astrophysicists Puzzle Over Webb’s New Universe first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Jay Bennett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rebecca Solnit:  What Is the United States of America...]]></title>
-        <id>https://kottke.org/26/07/0049246-what-is-the-united-states</id>
-        <link href="https://kottke.org/26/07/0049246-what-is-the-united-states"/>
-        <updated>2026-07-02T14:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Rebecca Solnit: What Is the United States of America Now? “The United States of America is a truck that has driven into a ditch. The United States of America is a program that has been hacked.” But also: “It is the country that gave the world jazz…”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

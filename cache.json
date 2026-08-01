@@ -1868,76 +1868,6 @@
           "wordCount": 1103,
           "title": "Something for the digital crate-diggers:  The 40 Best...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049252-dictionary-of-the-illegib",
-          "author": null,
-          "description": "“Dictionary of the Illegible proposes illegibility as a strategy for navigating a world increasingly governed by visibility, efficiency, and total surveillance.”",
-          "link": "https://kottke.org/26/07/0049252-dictionary-of-the-illegib",
-          "publishedOn": "2026-07-02T18:05:00.000Z",
-          "wordCount": 727,
-          "title": "&#8220; Dictionary of the Illegible  proposes...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049253-the-average-paid-newslett",
-          "author": null,
-          "description": "“The average paid newsletter costs $10 per month or $100 per year, according to analysis of thousands of publications hosted on Beehiiv.” KDO memberships start at $3/mo. and I haven’t raised prices since 2016. You folks are getting an incredible deal!",
-          "link": "https://kottke.org/26/07/0049253-the-average-paid-newslett",
-          "publishedOn": "2026-07-02T17:25:00.000Z",
-          "wordCount": 1005,
-          "title": "&#8220; The average paid newsletter costs $10 per month...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049250-hank-green-interviews-ze-",
-          "author": null,
-          "description": "Hank Green interviews Ze Frank, who kind of invented the modern YouTube format (aka vlogging). “At the episode’s end, Ze lays down some of the best advice Hank’s ever heard.”",
-          "link": "https://kottke.org/26/07/0049250-hank-green-interviews-ze-",
-          "publishedOn": "2026-07-02T16:45:00.000Z",
-          "wordCount": 935,
-          "title": "Hank Green interviews Ze Frank , who kind of invented...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049249-why-the-panic-about-trans",
-          "author": null,
-          "description": "Parker Molloy on why the panic about trans women in sports is not actually about fairness or protecting women & girls (in the similar way Gamergate was not about “ethics in games journalism”).",
-          "link": "https://kottke.org/26/07/0049249-why-the-panic-about-trans",
-          "publishedOn": "2026-07-02T16:04:00.000Z",
-          "wordCount": 631,
-          "title": "Parker Molloy on  why the panic about trans women in...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049247-will-america-ever-give-wh",
-          "author": null,
-          "description": "Will America Ever Give White-Man Rights to Everyone Else? “These documents…were written by rich white men for the benefit of rich white men, and this country has never for a day recovered from their failure.”",
-          "link": "https://kottke.org/26/07/0049247-will-america-ever-give-wh",
-          "publishedOn": "2026-07-02T15:38:00.000Z",
-          "wordCount": 637,
-          "title": "Will America Ever Give White-Man Rights to Everyone...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049248-the-us-constitution-is-fo",
-          "author": null,
-          "description": "The US Constitution Is for Simple Folk Still Burdened by the Belief That Words Have Meaning. “The true Constitution is not a document. It’s more of a gut feeling. It is a shimmering legal gas that settles wherever conservatives need it most…”",
-          "link": "https://kottke.org/26/07/0049248-the-us-constitution-is-fo",
-          "publishedOn": "2026-07-02T15:08:00.000Z",
-          "wordCount": 656,
-          "title": "The US Constitution Is for Simple Folk Still Burdened by...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049246-what-is-the-united-states",
-          "author": null,
-          "description": "Rebecca Solnit: What Is the United States of America Now? “The United States of America is a truck that has driven into a ditch. The United States of America is a program that has been hacked.” But also: “It is the country that gave the world jazz…”",
-          "link": "https://kottke.org/26/07/0049246-what-is-the-united-states",
-          "publishedOn": "2026-07-02T14:38:00.000Z",
-          "wordCount": 651,
-          "title": "Rebecca Solnit:  What Is the United States of America...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3877,26 +3807,6 @@
           "wordCount": 1317,
           "title": "llm-coding-agent 0.1a0",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts#readme\">Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts</a></p>\n        <p>One of this morning's AIE keynotes covered <a href=\"https://github.com/stanfordnlp/dspy\">dspy</a>, which reminded me I've been meaning to see if it could help me improve the system prompt used by <a href=\"https://agent.datasette.io\">Datasette Agent</a> - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5:</p>\n<blockquote>\n<p><code>Pip install the latest Datasette alpha and datasette-agent and dspy - then figure out how to use dspy to evaluate and improve the main system prompts used by Datasette Agent for the feature where it can execute read only SQL queries to answer user questions about data.</code></p>\n</blockquote>\n<p>Fable chose to test using GPT 4.1 mini and nano, and identified several promising looking directions for improvements. I particularly like this one:</p>\n<blockquote>\n<p>The schema listing gives only table names; the \"don't call describe_table if you already have the information\" advice caused column-name guessing (page_count, o.order_id, first_name) and error-retry loops in baseline traces. Either include column names in the prompt's schema listing or soften that advice.</p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/evals\">evals</a>, <a href=\"https://simonwillison.net/tags/dspy\">dspy</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-          "publishedOn": "2026-07-02T18:25:00.000Z",
-          "wordCount": 970,
-          "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-          "author": null,
-          "description": "<p>I saw Geoffrey Litt speak at <a href=\"https://www.ai.engineer/worldsfair/2026\">AIE</a> yesterday, and one framing he used particularly resonated with me:</p>\n<p><strong>Understand to participate</strong></p>\n<p>Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> as your understanding drifts from how the code actually works.</p>\n<p>His argument is that you need to understand the code to a depth that enables you to participate further with the model:</p>\n<blockquote>\n<p>You can learn what the agent is doing to make sure you can be an active participant in the creative process. [...]</p>\n<p>You need a rich set of concepts in your mind to think creatively and fluently about how to move something forward. If you're lacking that fluency, your ability to participate in the project is meaningfully limited.</p>\n</blockquote>\n<p>The AIE talks are all recorded - all 300+ of them! - and should be trickling out over the next three weeks. Geoffrey's is one that I recommend catching on YouTube.</p>\n<p>Geoffrey also published <a href=\"https://twitter.com/geoffreylitt/status/2072522251300409556\">a thread version of his talk</a> on Twitter.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/geoffrey-litt\">geoffrey-litt</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-          "publishedOn": "2026-07-02T17:07:14.000Z",
-          "wordCount": 910,
-          "title": "Understand to participate",
-          "imageUrl": null
         }
       ]
     },
@@ -4205,16 +4115,6 @@
           "wordCount": 3390,
           "title": "Researchers Reveal the Power of ‘Quantum Proofs’",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/QuantumProof-cr-Ada-Zejun-Shen-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=163841",
-          "author": "Jay Bennett",
-          "description": "Faced with observations of early black holes and galaxies that weren’t expected to exist, scientists have come up with a wealth of new theories to explain them. Now they just need to figure out which ones are true.            \nThe post Astrophysicists Puzzle Over Webb’s New Universe first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
-          "publishedOn": "2026-07-02T14:57:31.000Z",
-          "wordCount": 3646,
-          "title": "Astrophysicists Puzzle Over Webb’s New Universe",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/JWSTUpdate-crKristinaArmitage-Social.jpg"
         }
       ]
     },
