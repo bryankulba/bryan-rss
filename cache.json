@@ -43,6 +43,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/08/01/firmware",
+          "author": null,
+          "description": "Hey, if you have a Poem/1 then can I ask you to do a manual firmware update?\nIt’ll take just a few minutes and I built a special firmware update tool to make it easy.\n\n(That is an actual AI clock on my actual bookshelf in my actual house.)\nWhy? Three reasons…\nNo more stopped clocks. These clocks are way better at recovering from intermittent network faults like the Wi-Fi dropping or the back-end server changing – including one nasty, rare bug that would affect people for a week at a time then go away. That was not straightforward to track down.\nAutomatic updates from now on. This firmware adds automatic OTA updates, so if I have to push bug fixes again, you’ll get the new code without having to do anything.\nA third font, Shantell. As a thank you for people who update their clocks… You can …",
+          "link": "https://interconnected.org/home/2026/08/01/firmware",
+          "publishedOn": "2026-08-01T12:33:00.000Z",
+          "wordCount": 927,
+          "title": "If you have a Poem/1, pls run this firmware update",
+          "imageUrl": "https://interconnected.org/home/2026/08/01/firmware.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/07/24/podcasts",
           "author": null,
           "description": "My perfect podcast app would be a long phone call in which I listen to the show and can also talk back to remember things. (Someone build this for me.)\nIt would immeasurably improve my running. Long story short, I added slow runs into the training mix, and had to switch from high tempo music to podcasts because I kept going too fast.\nBUT genuinely interesting podcasts are a problem because I keep wanting to stop running to take notes.\nSo I end up listening to shows that only scrape past the threshold of keeping my interest, nothing more mind-fizzy. My Goldilocks zone podcast genre is premium mediocre.\nSad.\nDesigner Kate Pincott suggested (when we were out at a designers dinner last week) that I need a minimal Granola-like interface. A way to take notes simply by marking a moment.\nLike: per…",
@@ -1848,26 +1858,6 @@
           "wordCount": 1297,
           "title": "Openish Thread (Testing a New Feature&#8230;)",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049254--weather-forecasts-are-le",
-          "author": null,
-          "description": "As it was foretold: the Trump regime gutted the NOAA and now weather forecasts are less accurate. An atmospheric scientist: “The forecasts I’m able to offer you are less accurate than they would otherwise be.”",
-          "link": "https://kottke.org/26/07/0049254--weather-forecasts-are-le",
-          "publishedOn": "2026-07-02T19:25:00.000Z",
-          "wordCount": 737,
-          "title": "As it was foretold: the Trump regime gutted the NOAA and...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049251-the-40-best-albums-from-t",
-          "author": null,
-          "description": "Something for the digital crate-diggers: The 40 Best Albums From the Last 40 Years That You Probably Didn’t Hear (But Should’ve). I’d only heard of one or two these…",
-          "link": "https://kottke.org/26/07/0049251-the-40-best-albums-from-t",
-          "publishedOn": "2026-07-02T18:45:00.000Z",
-          "wordCount": 1103,
-          "title": "Something for the digital crate-diggers:  The 40 Best...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2133,6 +2123,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13114",
+          "author": "Cory Doctorow",
+          "description": "Today's links Why businesses lie about AI: Humoring the boss all the way into bankruptcy. Hey look at this: Delights to delectate. Object permanence: Vinge x NYT; Syklarov x publishers; Human hair castles; Gingrich's bot army; Accessibility v Web DRM; David Byrne x WinXP; Furries don't fuck in fursuits; AI's pogo-stick grift. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Why businesses lie about AI (permalink) Neoclassical economics assumes rationality. The corollary of, \"If you're so smart, why aren't you rich?\" is \"you're rich, so you must be very smart!\" Thus it is that many people a…",
+          "link": "https://pluralistic.net/2026/08/01/dare-snot/",
+          "publishedOn": "2026-08-01T12:29:28.000Z",
+          "wordCount": 5117,
+          "title": "Pluralistic: Why businesses lie about AI (01 Aug 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13106",
           "author": "Cory Doctorow",
@@ -3797,16 +3797,6 @@
           "wordCount": 829,
           "title": "June 2026 newsletter",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-coding-agent/releases/tag/0.1a0\">llm-coding-agent 0.1a0</a></p>\n        <p>Another Fable 5 experiment. Now that my <a href=\"https://llm.datasette.io/\">LLM library</a> has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.</p>\n<p>I started a <a href=\"https://github.com/simonw/llm-coding-agent/tree/2466fa03ba8e5122c3bfa93d52167d33bce40ac6\">new Python library</a> using my <a href=\"https://github.com/simonw/python-lib-template-repository\">python-lib-template-repository</a> GitHub template repository, then ran these two prompts (here's the <a href=\"https://claude.ai/code/session_01TEUBvBbMipbFSoqjMiJ7ha\">Claude Code for web transcript</a>):</p>\n<blockquote>\n<p><code>Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands</code></p>\n</blockquote>\n<p>Then:</p>\n<blockquote>\n<p><code>Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment</code></p>\n</blockquote>\n<p>Here's <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/spec.md\">the spec</a>, the <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md\">resulting README file</a>, and the <a href=\"https://github.com/simonw/llm-coding-agent/commits/0.1a0\">sequence of commits</a>.</p>\n<p>I've shipped a slop-alpha to PyPI, so you can run the new agent like this:</p>\n<pre><code>uvx --prerelease=allow --with llm-coding-agent llm code\n</code></pre>\n<p>It's pretty good for a first attempt! Here's the (Fable-authored) <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md\">README</a>, which lists recipes like <code>llm code --yolo</code> and <code>llm code --allow \"pytest*\" --allow \"git diff*\"</code>.</p>\n<p>It also presents <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md#codingagent\">a Python API</a> based around a <code>CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\")</code> class which I didn't ask for but I'm delighted to see implemented.</p>\n<p>Here's the suite of tools <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/llm_coding_agent/tools.py#L22\">it implemented</a>, listed using <code>uvx ... llm tools</code>:</p>\n<blockquote>\n<p><code>CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -&gt; str</code></p>\n<p>Replace an exact string in a file.</p>\n<p>old_string must match the file contents exactly (including\nwhitespace) and must identify a unique location unless replace_all\nis true. Returns a diff of the change so it can be verified.</p>\n<p><code>CodingTools_execute_command(command: str, timeout: int = 120) -&gt; str</code></p>\n<p>Run a shell command in the session root directory.</p>\n<p>Returns combined stdout and stderr followed by an Exit code line.\ntimeout is in seconds (maximum 600); on timeout the whole process\ntree is killed.</p>\n<p><code>CodingTools_list_files(pattern: str = '**/*', path: str = '.') -&gt; str</code></p>\n<p>List files matching a glob pattern, newest first.</p>\n<p>Skips hidden directories, node_modules, __pycache__ and (in a git\nrepository) anything covered by .gitignore. Returns at most 200\npaths relative to the searched directory.</p>\n<p><code>CodingTools_read_file(path: str, offset: int = 0, limit: int = 2000) -&gt; str</code></p>\n<p>Read a text file, returning numbered lines like cat -n.</p>\n<p>Paths are relative to the session root. Use offset (0-based first\nline) and limit (max lines) to page through files too large to read\nin one call.</p>\n<p><code>CodingTools_search_files(pattern: str, path: str = '.', glob: str = None, max_results: int = 100) -&gt; str</code></p>\n<p>Search file contents for a regular expression.</p>\n<p>Returns matches as path:line_number:line, capped at max_results.\nUse glob (e.g. \"*.py\") to restrict which files are searched.</p>\n<p><code>CodingTools_write_file(path: str, content: str) -&gt; str</code></p>\n<p>Create or overwrite a file with the given content.</p>\n<p>Parent directories are created as needed. Prefer edit_file for\nmodifying existing files.</p>\n</blockquote>\n<p>I tried it out by running <code>llm code --yolo</code> and then prompting:</p>\n<blockquote>\n<p><code>mkdir /tmp/demo and then in that folder create a simple swiftui CLI app for telling the time in ascii art</code></p>\n</blockquote>\n<p>Here's <a href=\"https://gist.github.com/simonw/750009007050124cd1b390cfe8488e41\">the transcript</a>, in which GPT-5.5 reasoning notes that \"SwiftUI isn't suitable for a true CLI\" and then builds an app that outputs this on <code>swift run AsciiTime</code>:</p>\n<pre style=\"font-size: 9px\">\n      █    █████         ████     █             █     ███   \n     ██    █        █        █   ██      █     ██    █   █  \n      █    ████           ███     █             █       █   \n      █        █    █        █    █      █      █      █    \n     ███   ████          ████    ███           ███   █████\n</pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-          "publishedOn": "2026-07-02T19:33:12.000Z",
-          "wordCount": 1317,
-          "title": "llm-coding-agent 0.1a0",
-          "imageUrl": null
         }
       ]
     },
@@ -4185,7 +4175,18 @@
       "title": "Charlie's Diary",
       "feedUrl": "http://www.antipope.org/charlie/blog-static/atom.xml",
       "siteUrl": "http://www.antipope.org/charlie/blog-static/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+          "author": null,
+          "description": "This isn't a blog entry I wanted to write, but it's a necessary one: a statement about the use of generative large language models (colloquially \"AI\") in my work. I do not use LLMs in my work. I don't use...",
+          "link": "http://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+          "publishedOn": "2026-08-01T12:10:16.000Z",
+          "wordCount": 2019,
+          "title": "On the non-use of AI in my writing process",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Disjunctions Magazine",
