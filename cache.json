@@ -205,16 +205,6 @@
           "wordCount": 12950,
           "title": "Webcurios 10/07/26",
           "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1574",
-          "author": "admin",
-          "description": "Reading Time:  44 minutes   Does it feel like a good idea to encourage a country with a not-insignificantly-problematic relationship to booze, a general vibe that might best be described as ‘a bit febrile’, and where the link between ‘poor national team performance’ and ‘really horrible spikes in all sorts of violence, not least domestic’, is PRETTY FCUKING CLEAR,…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-03-07-26/",
-          "publishedOn": "2026-07-03T06:23:23.000Z",
-          "wordCount": 13212,
-          "title": "Webcurios 03/07/26",
-          "imageUrl": null
         }
       ]
     },
@@ -2517,16 +2507,6 @@
           "wordCount": 3667,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/c4599012096aa3b16136ff8510af3936/8de580a4fdc90727-93/s1280x1920/c54fb71fef8ce1f21bdc5ce0db8b598148191c11.webp"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/821096012140658688",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/821096012140658688",
-          "publishedOn": "2026-07-03T05:56:18.000Z",
-          "wordCount": 3715,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/bc3b3a871dac9f64653e6e718a2263c4/83d561ab8baf9f89-c1/s1280x1920/7f9405ce8750d49eedeb1d36ab557dd1747de318.webp"
         }
       ]
     },
@@ -2869,6 +2849,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://openai.com/index/ten-advances-in-mathematics/\">Ten advances in mathematics and theoretical computer science</a></strong></p>\nA few days ago it was Anthropic <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">discovering cryptographic weaknesses with Claude</a> using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\"</p>\n<p>Now it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress on the main result for at least a decade\". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.</p>\n<p>(No news on how many problems they spent $2,000 on <em>without</em> reaching a solution though.)</p>\n<p>The <a href=\"https://github.com/openai/ten-proofs\">openai/ten-proofs</a> repository has Lean 4 formalizations of their results, and there's also <a href=\"https://cdn.openai.com/pdf/ten-proofs-oai.pdf\">a paper</a> describing the solutions and an additional <a href=\"https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf\">LLM-generated PDF</a> where the model \"reconstructs how the proof came together\" based on the unpublished reasoning traces.</p>\n<p>That's a decent level of transparency, but I want to see the prompts they used!</p>\n<p>A lot of mathematicians online are experiencing a collective burst of <a href=\"https://simonwillison.net/2026/Feb/15/deep-blue/\">Deep Blue</a>.</p>\n<p>OpenAI's results reminds me of what Terence Tao described as \"big mathematics\" in <a href=\"https://spectrum.ieee.org/ai-in-mathematics\">IEEE Spectrum in June</a>:</p>\n<blockquote>\n<p>Unlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49132058\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/deep-blue\">deep-blue</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+          "publishedOn": "2026-08-01T20:34:49.000Z",
+          "wordCount": 1030,
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
           "author": null,
           "description": "<p><strong><a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\">deepseek-ai/DeepSeek-V4-Flash-0731</a></strong></p>\nThe latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch <em>well</em> above its weight.</p>\n<p>Artificial Analysis <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash\">rank it</a> ahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash#intelligence-comparison-tabs\">Intelligence Index vs. Cost per Intelligence Index Task</a> chart:</p>\n<p><img alt=\"Scatter plot from Artificial Analysis titled with axes &quot;Artificial Analysis Intelligence Index&quot; (20 to 65) and &quot;Cost per Task (USD, Log Scale)&quot; ($0.02 to $3), with a green &quot;Most attractive quadrant&quot; box in the upper left and a dotted &quot;Pareto line&quot;. DeepSeek V4 Flash 0731 (max) is highlighted in dark blue at roughly $0.028 and an intelligence score of 50, sitting alone at the far left edge of the green quadrant where the Pareto line jumps sharply upward. Models of similar or lower intelligence like MiniMax-M3, Kimi K3 (low), GLM-5.1 and Kimi K2.6 cost ten times more, and the models that beat it (Grok 4.5, Gemini 3.6 Flash, GLM-5.2, Kimi K3, Claude Opus 5, Claude Fable 5, GPT-5.6 Sol) all sit far to the right at $0.4 to $3 per task.\" src=\"https://static.simonwillison.net/static/2026/deepseek-flash-chart.webp\" /></p>\n<p>I got <a href=\"https://gist.github.com/simonw/83bfb1171792f1e7a4d8935b5e82317e#prompt\">a disappointing pelican</a> from it using the default reasoning level via OpenRouter:</p>\n<p><img alt=\"Flat vector illustration of a white pelican with a long neck and large orange beak pouch, hovering above a mangled blue and orange bicycle on a dark grey road with white dashed lane markings. The bike is drawn incorrectly: the wheels are just orange arcs with no rims or spokes, the frame tubes float apart and the handlebars connect to nothing. The background is pale blue with a yellow sun in the upper left, white clouds, and grey speed lines on the left suggesting motion.\" src=\"https://static.simonwillison.net/static/2026/deepseek-flash-v4-default.png\" /></p>\n<p>But when I bumped reasoning level up to high I got <a href=\"https://gist.github.com/simonw/83bfb1171792f1e7a4d8935b5e82317e#options\">something much better</a>:</p>\n<p><code>llm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high</code></p>\n<p><img alt=\"Flat vector illustration of a white pelican riding a bicycle to the right against a pink background with a lighter pink circle behind it. The pelican grips the handlebars with its wings and one orange foot rests on the pedal, and a small blue fish is visible tucked in the corner of its large orange beak pouch. The bike has a red, blue and orange frame with dark tires, and grey speed lines trail behind to suggest motion.\" src=\"https://static.simonwillison.net/static/2026/deepseek-flash-v4-high.png\" />\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49120299\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/deepseek\">deepseek</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
@@ -2917,6 +2907,16 @@
           "wordCount": 1241,
           "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
           "imageUrl": "https://static.simonwillison.net/static/2026/smevals-report.webp"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/slack-emoji-maker\">Slack Emoji Maker</a></p>\n        <p>I wanted to create a new Slack emoji, and their tool recommends a square that's 128x128 and has a transparent background... so I <a href=\"https://github.com/simonw/tools/pull/305\">had Fable build me</a> this simple image editor against those requirements.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/slack\">slack</a></p>",
+          "link": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+          "publishedOn": "2026-07-31T20:18:05.000Z",
+          "wordCount": 777,
+          "title": "Slack Emoji Maker",
+          "imageUrl": null
         },
         {
           "id": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",

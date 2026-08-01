@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-01T16:56:30.348Z</updated>
+    <updated>2026-08-01T20:48:11.918Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ten advances in mathematics and theoretical computer science]]></title>
+        <id>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything"/>
+        <updated>2026-08-01T20:34:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://openai.com/index/ten-advances-in-mathematics/">Ten advances in mathematics and theoretical computer science</a></strong></p>
+A few days ago it was Anthropic <a href="https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/">discovering cryptographic weaknesses with Claude</a> using Mythos Preview, spending $100,000 on tokens and with prompts that included "again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings."</p>
+<p>Now it's OpenAI's turn to flex. They set "an internal version of Astra, our next major model" on finding solutions to ten mathematical problems that "have seen no progress on the main result for at least a decade". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.</p>
+<p>(No news on how many problems they spent $2,000 on <em>without</em> reaching a solution though.)</p>
+<p>The <a href="https://github.com/openai/ten-proofs">openai/ten-proofs</a> repository has Lean 4 formalizations of their results, and there's also <a href="https://cdn.openai.com/pdf/ten-proofs-oai.pdf">a paper</a> describing the solutions and an additional <a href="https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf">LLM-generated PDF</a> where the model "reconstructs how the proof came together" based on the unpublished reasoning traces.</p>
+<p>That's a decent level of transparency, but I want to see the prompts they used!</p>
+<p>A lot of mathematicians online are experiencing a collective burst of <a href="https://simonwillison.net/2026/Feb/15/deep-blue/">Deep Blue</a>.</p>
+<p>OpenAI's results reminds me of what Terence Tao described as "big mathematics" in <a href="https://spectrum.ieee.org/ai-in-mathematics">IEEE Spectrum in June</a>:</p>
+<blockquote>
+<p>Unlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49132058">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[If you have a Poem/1, pls run this firmware update]]></title>
         <id>https://interconnected.org/home/2026/08/01/firmware</id>
@@ -297,6 +322,20 @@ I've been working with Jesse Vincent's <a href="https://primeradiant.com">Prime 
         <summary type="html"><![CDATA[Continuing my series of updating old side projects, I gave Supercut.org a big refresh, plus some notes on the sad state of Vimeo.]]></summary>
         <author>
             <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slack Emoji Maker]]></title>
+        <id>https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything"/>
+        <updated>2026-07-31T20:18:05.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/slack-emoji-maker">Slack Emoji Maker</a></p>
+        <p>I wanted to create a new Slack emoji, and their tool recommends a square that's 128x128 and has a transparent background... so I <a href="https://github.com/simonw/tools/pull/305">had Fable build me</a> this simple image editor against those requirements.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/slack">slack</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6765,26 +6804,6 @@ It’s interesting to see how a pla…]]></summary>
         <summary type="html"><![CDATA[Today's links CARDiac, syntax coloring, view source and vibe code: With great abstraction comes great power comes great responsibility comes great loss of fidelity. Hey look at this: Delights to delectate. Object permanence: Real elections v reality TV; Copyright troll loses license; Who gets fed housing subsidies? Trump x forced labor. Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. CARDiac, syntax coloring, view source and vibe code (permalink) In the mid-1970s, my dad – then a budding computer scientist, subsequently a math teacher – brought home my first computer: the CARDiac,…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webcurios 03/07/26]]></title>
-        <id>https://webcurios.co.uk/?p=1574</id>
-        <link href="https://webcurios.co.uk/webcurios-03-07-26/"/>
-        <updated>2026-07-03T06:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Reading Time:  44 minutes   Does it feel like a good idea to encourage a country with a not-insignificantly-problematic relationship to booze, a general vibe that might best be described as ‘a bit febrile’, and where the link between ‘poor national team performance’ and ‘really horrible spikes in all sorts of violence, not least domestic’, is PRETTY FCUKING CLEAR,…
-Continue reading →]]></summary>
-        <author>
-            <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/821096012140658688</id>
-        <link href="https://brucesterling.tumblr.com/post/821096012140658688"/>
-        <updated>2026-07-03T05:56:18.000Z</updated>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
