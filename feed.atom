@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-01T20:48:11.918Z</updated>
+    <updated>2026-08-02T02:32:28.511Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Greg Brockman]]></title>
+        <id>https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything"/>
+        <updated>2026-08-01T22:29:44.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/gdb/status/2083435180392673714"><p>at openai, many people hook their chatgpt up to slack.</p>
+<p>people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.</p>
+<p>reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people.</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/gdb/status/2083435180392673714">Greg Brockman</a>, President and Co-Founder, OpenAI</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-apps 0.2a0]]></title>
+        <id>https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"/>
+        <updated>2026-08-01T21:23:56.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-apps/releases/tag/0.2a0">datasette-apps 0.2a0</a></p>
+        <blockquote>
+<p>Changes that improve Datasette Apps when created and edited using <a href="https://agent.datasette.io/">Datasette Agent</a>:</p>
+<ul>
+<li>New <code>app_debug()</code> tool allowing agent to open an app (invisibly) and test it using JavaScript. <a href="https://github.com/datasette/datasette-apps/pull/33">#33</a></li>
+<li>New <code>app_list()</code> tool for listing apps the user has permission to edit, so the agent can edit them. <a href="https://github.com/datasette/datasette-apps/issues/36">#36</a></li>
+</ul>
+</blockquote>
+<p>The <code>app_debug()</code> tool is pretty neat: it works by displaying the app in a <code>opacity: 0</code> iframe with <code>pointer-events: none</code> (so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements.</p>
+<p>This uses the new <code>context.browser_task()</code> mechanism added in <a href="https://simonwillison.net/2026/Jul/31/datasette-agent/">datasette-agent 0.4a0</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/iframes">iframes</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/datasette-apps">datasette-apps</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ten advances in mathematics and theoretical computer science]]></title>
         <id>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything</id>
@@ -6794,16 +6831,6 @@ It’s interesting to see how a pla…]]></summary>
     <p>Tags: <a href="https://simonwillison.net/tags/newsletter">newsletter</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: CARDiac, syntax coloring, view source and vibe code (03 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13007</id>
-        <link href="https://pluralistic.net/2026/07/03/rod-logic/"/>
-        <updated>2026-07-03T09:00:15.000Z</updated>
-        <summary type="html"><![CDATA[Today's links CARDiac, syntax coloring, view source and vibe code: With great abstraction comes great power comes great responsibility comes great loss of fidelity. Hey look at this: Delights to delectate. Object permanence: Real elections v reality TV; Copyright troll loses license; Who gets fed housing subsidies? Trump x forced labor. Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. CARDiac, syntax coloring, view source and vibe code (permalink) In the mid-1970s, my dad – then a budding computer scientist, subsequently a math teacher – brought home my first computer: the CARDiac,…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
