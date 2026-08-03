@@ -220,6 +220,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049425-boxsquad",
+          "author": null,
+          "description": "This is fun: BoxSquad. Limbs & borders are all draggable.",
+          "link": "https://kottke.org/26/08/0049425-boxsquad",
+          "publishedOn": "2026-08-03T17:07:00.000Z",
+          "wordCount": 670,
+          "title": "This is fun:  BoxSquad . Limbs & borders are all draggable.",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049428-the-end-being-closer-than",
+          "author": null,
+          "description": "“A Los Angeles Costco parking lot [has] become a hotspot for skaters over 40. Its long, low curb lets us keep doing tricks on safer, lower-risk terrain […] Curbs represent the twilight of skateboarding, the end being closer than the beginning.” Lovely.",
+          "link": "https://kottke.org/26/08/0049428-the-end-being-closer-than",
+          "publishedOn": "2026-08-03T16:15:32.000Z",
+          "wordCount": 756,
+          "title": "&#8220;A Los Angeles Costco parking lot [has] become a...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/does-christopher-nolan-consider-himself-a-bard-for-a-civilization-at-dusk",
+          "author": null,
+          "description": "This 17-minute interview about the Odyssey with Christopher Nolan conducted by philosophy doctoral student Zhong Shu is one of the better ones I’ve seen. \n\nThe first two questions are:\nDo you consider yourself a bard for a civilization at dusk?\nHave you Christianized The Odyssey?\nAnd nary a comment or question about filming in IMAX.\n\n \n\n        \n         \nTags: Christopher Nolan · film school · interviews · movies · The Odyssey · video · Zhong Shu",
+          "link": "https://kottke.org/26/08/does-christopher-nolan-consider-himself-a-bard-for-a-civilization-at-dusk",
+          "publishedOn": "2026-08-03T14:39:00.000Z",
+          "wordCount": 778,
+          "title": "Does Christopher Nolan Consider Himself a Bard for a Civilization at Dusk?",
+          "imageUrl": "https://i.ytimg.com/vi/wa4I8Ch2TRo/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/08/0049427-google-earth-stupidly-lau",
           "author": null,
           "description": "Google Earth stupidly launched an AI image-gen feature with no guardrails then put it on pause after a huge outcry. “Tonight I typed just one sentence into Google Earth and put refugees near the Mexican border. Then I planted a nuclear plant in Iran.”",
@@ -1877,6 +1907,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51166",
+          "author": "Andy Baio",
+          "description": "I wonder how many people know they’ve committed to a 10 hour build when buying a $700 kitchenette\nb3ta #",
+          "link": "https://ikea.greg.technology/",
+          "publishedOn": "2026-08-03T17:42:18.000Z",
+          "wordCount": 75,
+          "title": "Ikea Complexity Index",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=51131",
           "author": "Andy Baio",
           "description": "Continuing my series of updating old side projects, I gave Supercut.org a big refresh, plus some notes on the sad state of Vimeo.",
@@ -2868,6 +2908,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+          "publishedOn": "2026-08-03T16:15:27.000Z",
+          "wordCount": 768,
+          "title": "Quoting David Crawshaw's prompt",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+          "author": null,
+          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p>\n<p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p>\n<p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.\nSeveral times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\".</p>\n<p>Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.</p>\n<p>I'm not habitually modifying the software I use yet, but I can see a path to that which didn't exist a year or so ago.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+          "publishedOn": "2026-08-03T15:30:38.000Z",
+          "wordCount": 952,
+          "title": "Devtools must be open source (exe.dev)",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
           "author": null,
@@ -3916,6 +3976,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=165323",
+          "author": "Konstantin Kakaes",
+          "description": "AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might change the rest of math.            \nThe post Why the Legendary Erdős Problems Are Falling to AI first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+          "publishedOn": "2026-08-03T15:05:20.000Z",
+          "wordCount": 5022,
+          "title": "Why the Legendary Erdős Problems Are Falling to AI",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Erdos-cr.DVDP-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=165277",
           "author": "John Pavlus",
