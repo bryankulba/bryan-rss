@@ -35,6 +35,142 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049444-heres-the-trailer-for-a-n">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-04T20:50:00.000Z">2026-08-04</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/0049444-heres-the-trailer-for-a-n" target="_blank" rel="noopener noreferrer">Huh,  here’s the trailer for a new director’s cut (of...</a>
+          </h2>
+          <p class="feed-item__desc">Huh, here’s the trailer for a new director’s cut (of sorts) of the second X-Files movie (called I Want to Believe, orig. released in 2008) that, per Wikipedia, “will restore horror elements that were previously removed”.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049444-heres-the-trailer-for-a-n" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049444-heres-the-trailer-for-a-n">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/are-you-good-at-mowing-lawns">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-04T19:50:00.000Z">2026-08-04</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/are-you-good-at-mowing-lawns" target="_blank" rel="noopener noreferrer">Are You Good at Mowing Lawns?</a>
+          </h2>
+          <p class="feed-item__desc">I don’t know what sort of neurodiverse bucket this puts me in, but I think a lot about mowing the lawn1 relative to how much time I actually spend mowing lawns (~6-7 hours per year). And so I was completely fascinated by The Pudding’s latest post on optimal lawn mowing paths and “why some people mow a lawn better than others”.
+They built several digital lawns for people to mow and recorded all of their moves, how often they paused at certain times, and who mowed an optimal path.
+Solving the lawn mowing problem is formally called Coverage Path Planning, and is related to one of the most famous path planning problems in computer science: The Traveling Salesman Problem.
+
+	
+Humans turn out to be pretty good mowers, especially those who take their time and have played some video games (includin…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/are-you-good-at-mowing-lawns" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/are-you-good-at-mowing-lawns">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1785871090-9465c5d4.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-04T19:10:09.000Z">2026-08-04</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything" target="_blank" rel="noopener noreferrer">PipeNetwork/minimax-h3-mlx</a>
+          </h2>
+          <p class="feed-item__desc">PipeNetwork/minimax-h3-mlx
+MiniMax-H3 two days ago - they describe it as a "a general-purpose, omni-modal generative system", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.
+This Python package ports it to MLX for running on Apple Silicon.
+I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this:
+# First download the models
+uvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \
+  --include 'FL2VA/*' --exclude 'FL2VA/transformer/*'
+uvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit
+
+# Now run the prompt
+uv run --with mlx-vlm \
+  --with-requirements requirements.txt python scripts/generate.py \
+  "a rainbow colored skunk leaps over a mossy log in a supermarket" \
+  -o skunk.mp4 \
+  -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \
+  -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361
+
+Here's the video I got for the prompt:
+a rainbow colored skunk leaps over a mossy log in a supermarket
+
+    
+    Your browser does not support HTML5 video.
+  
+
+
+It downloaded ~115 GB of model files, and the video generation took just under 45 minutes.
+The video is impressive, but the audio is weird speech-like garbage, because I didn't provide any prompt guidance as to what the audio should be. The prompting guide (which I didn't read prior to this experiment) has a whole bunch of information on how to get this to work.
+
+
+    
+Tags: ai, generative-ai, mlx, text-to-video, minimax</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/skunk.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049152-poetry-camera">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-04T19:03:00.000Z">2026-08-04</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/0049152-poetry-camera" target="_blank" rel="noopener noreferrer">“ poetry camera  is a new way to see your world....</a>
+          </h2>
+          <p class="feed-item__desc">“poetry camera is a new way to see your world. take a photo with the camera… poetry camera thinks… and prints out a poem about the scene.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049152-poetry-camera" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049152-poetry-camera">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049426-the-phone-in-your-hand">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-04T18:08:00.000Z">2026-08-04</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/0049426-the-phone-in-your-hand" target="_blank" rel="noopener noreferrer">The Phone in Your Hand . “A layer-by-layer teardown of...</a>
+          </h2>
+          <p class="feed-item__desc">The Phone in Your Hand. “A layer-by-layer teardown of the most intricate object you’ve ever held.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049426-the-phone-in-your-hand" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049426-the-phone-in-your-hand">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51193">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-04T17:31:57.000Z">2026-08-04</time>
