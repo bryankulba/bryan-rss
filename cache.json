@@ -24,16 +24,6 @@
           "wordCount": 3016,
           "title": "Ordinary engineers, not heroic inventors ⊗ Umyazu",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/07/190307_mia334_5440_full-w.jpg"
-        },
-        {
-          "id": "6a49aad700a2fd0001b04874",
-          "author": "Patrick Tanguay",
-          "description": "No.410 — Solar abundance ⊗ Matter Battle ⊗ A Glossary for Other Worlds ⊗ Scarcity is driving AI innovation ⊗ Chock full of incredible animals ⊗ Big Think’s 5 favorite nonfiction books",
-          "link": "https://sentiers.media/becoming-our-unconscious-energy-and-the-matter-problem-no-410/",
-          "publishedOn": "2026-07-05T10:00:58.000Z",
-          "wordCount": 3015,
-          "title": "Becoming our unconscious ⊗ Energy and the matter problem",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/07/tomas-martinez-4jsKY-AuVqc-unsplash-w.jpg"
         }
       ]
     },
@@ -1947,6 +1937,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51163",
+          "author": "Andy Baio",
+          "description": "After 14 years, I decided to retire Playfic, an online community for writing and sharing interactive fiction made with Inform 7. All the games will stay online indefinitely.",
+          "link": "https://waxy.org/2026/08/waxy-refresh-the-end-of-playfic/",
+          "publishedOn": "2026-08-04T00:38:43.000Z",
+          "wordCount": 1706,
+          "title": "Waxy Refresh: The End of Playfic",
+          "imageUrl": "https://waxy.org/wp-content/uploads/2026/08/image.png"
+        },
+        {
           "id": "https://waxy.org/?p=51166",
           "author": "Andy Baio",
           "description": "I wonder how many people know they’ve committed to a 10 hour build when buying a $700 kitchenette\nb3ta #",
@@ -2948,6 +2948,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://yegge.ai/essays/the-shape-of-things-to-come/\"><p><a href=\"https://yegge.ai/gastown.html\">Gas Town</a> was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">Steve Yegge</a>, The Shape of Things to Come</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/steve-yegge\">steve-yegge</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+          "publishedOn": "2026-08-04T00:42:45.000Z",
+          "wordCount": 820,
+          "title": "Quoting Steve Yegge",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p>\nNiklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p>\n<blockquote>\n<p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/definitions\">definitions</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+          "publishedOn": "2026-08-03T23:45:04.000Z",
+          "wordCount": 825,
+          "title": "Don't be a meat proxy",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
           "author": null,
