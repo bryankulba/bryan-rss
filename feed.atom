@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-04T02:12:34.387Z</updated>
+    <updated>2026-08-04T06:25:03.786Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[*The guy is a real-deal philosopher]]></title>
+        <id>https://brucesterling.tumblr.com/post/823994418599198720</id>
+        <link href="https://brucesterling.tumblr.com/post/823994418599198720"/>
+        <updated>2026-08-04T05:45:13.000Z</updated>
+        <summary type="html"><![CDATA[crashlandia:
+
+“Slavoj Žižek once said that people need three basic things to be happy. First, to have most but not all of our material needs met—for example, the store should run out of coffee once a month so we know what a privilege it is the other 29 days. Second, to have a government on which we can blame all our problems, since most of us can’t handle the horror of admitting we’re incapable of self-rule. And third, to have a vision of paradise that’s close but not too close: it must be close enough not to lose hope, but not so close that we recognize the same banal existence we already have.”
+
+*The guy is a real-deal philosopher]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Steve Yegge]]></title>
         <id>https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything</id>
@@ -6789,28 +6803,6 @@ You can try it out by sharing something worthwhile you’ve seen, heard, or lear
 Tags: kottke.org]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[People and Blogs interviewed me]]></title>
-        <id>https://waxy.org/?p=51003</id>
-        <link href="https://manuelmoreale.com/interview/andy-baio"/>
-        <updated>2026-07-05T16:57:05.000Z</updated>
-        <summary type="html"><![CDATA[thanks to Manu for asking me to be the second-to-last blogger in his interview series
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Verge on 25 years of BitTorrent]]></title>
-        <id>https://waxy.org/?p=51000</id>
-        <link href="https://www.theverge.com/tech/959848/bittorrent-story-25-years-piracy"/>
-        <updated>2026-07-05T16:48:45.000Z</updated>
-        <summary type="html"><![CDATA[seems like the company failed precisely because the protocol was so successful in achieving its goals
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>
