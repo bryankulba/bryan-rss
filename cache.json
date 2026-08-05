@@ -138,26 +138,6 @@
           "wordCount": 5521,
           "title": "Mr. Penumbra is up all night",
           "imageUrl": "https://www.robinsloan.com/img/summer-workshop-neon.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/worm-blossom/",
-          "author": null,
-          "description": "<p>Fresh and productive. <a href=\"https://www.robinsloan.com/lab/worm-blossom/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/worm-blossom/",
-          "publishedOn": "2026-07-06T21:00:00.000Z",
-          "wordCount": 5442,
-          "title": "Dragoncatcher: Behold, Worm Blossom",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/fable-is-good/",
-          "author": null,
-          "description": "<p>Astonishment. <a href=\"https://www.robinsloan.com/lab/fable-is-good/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/fable-is-good/",
-          "publishedOn": "2026-07-06T20:00:00.000Z",
-          "wordCount": 5746,
-          "title": "Dragoncatcher: Fable is very good",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -209,6 +189,16 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/08/0049449-surfing-alaskas-turnagain",
+          "author": null,
+          "description": "Surfing Alaska’s Turnagain Arm (home to a twice-daily tidal bore wave) can be fun (10-foot waves you can ride for miles) but also dangerous: “You need a Plan B, a Plan C and a Plan D because no one is coming to rescue you.”",
+          "link": "https://kottke.org/26/08/0049449-surfing-alaskas-turnagain",
+          "publishedOn": "2026-08-05T13:34:00.000Z",
+          "wordCount": 790,
+          "title": "Surfing Alaska’s Turnagain Arm  (home to a twice-daily...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/08/0049424-how-central-the-role-of-i",
           "author": null,
@@ -1918,26 +1908,6 @@
           "wordCount": 735,
           "title": "New Patricia Lockwood for the London Review of Books:  A...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049271-lane-8s-summer-2026-mixta",
-          "author": null,
-          "description": "Just dropped a couple of days ago: Lane 8’s Summer 2026 Mixtape (4 hours long). Also available on Soundcloud.",
-          "link": "https://kottke.org/26/07/0049271-lane-8s-summer-2026-mixta",
-          "publishedOn": "2026-07-06T20:40:00.000Z",
-          "wordCount": 716,
-          "title": "Just dropped a couple of days ago:  Lane 8’s Summer 2026...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/our-lives-are-an-orchestrated-shuffle-of-technology",
-          "author": null,
-          "description": "If you are anything like me, your soul let out a big “oooooof” while reading this: The Year Is 2063 and You Were Never Interesting.\nBut wait. You are 70 years old. You’re sitting in your home. Your grandchildren ask you what your 20s were like, and you honestly can’t tell them. You have no heirlooms; Temu doesn’t last. You never moved to Paris or quit the toxic job or booked the Spanish lesson. You were too nervous to get that tattoo, never went back to school. You were too awkward to go to the nude drawing class, you never did learn how to make dumplings. Your feed was so full of people living lives so full you never stopped to consider yours.\nThe great love affair of your life is… this. Sitting in the dark, your nose 6 inches from the screen. You have never separated, never taken a break. It started slowly, rockily. But by 25, it had its claws in you. By 30, it fills the dead spaces in your life. And you’ve never relented. It has consumed you wholly and the math has compounded. By this age, at 7 hours a day, 15 years of your life has been a screen.\n\n \n\n        \n         \nTags: Liz Lee",
-          "link": "https://kottke.org/26/07/our-lives-are-an-orchestrated-shuffle-of-technology",
-          "publishedOn": "2026-07-06T18:45:00.000Z",
-          "wordCount": 888,
-          "title": "Our Lives Are “an Orchestrated Shuffle of Technology&#8221;",
-          "imageUrl": ""
         }
       ]
     },
@@ -2233,6 +2203,21 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13133",
+          "author": "Cory Doctorow",
+          "description": "Today's links Google is a scammer's paradise: The internet's absentee landlord. Hey look at this: Delights to delectate. Object permanence: DEVELOPERS DEVELOPERS DEVELOPERS; EZ realistic corpse; $300m login button; Short Uber; Who goes AI? Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Google is a scammer's paradise (permalink) Forget \"Don't be evil\"; Google's true motto is a form of vulgar spidermanism: \"With great power comes no responsibility.\" The internet's de facto boss is an absentee landlord. Google – a thrice-convicted monopolist – is the gateway to the internet, with more than …",
+          "link": "https://pluralistic.net/2026/08/05/absentee-landlord/",
+          "publishedOn": "2026-08-05T10:50:43.000Z",
+          "wordCount": 4362,
+          "title": "Pluralistic: Google is a scammer's paradise (05 Aug 2026)",
+          "enclosure": {
+            "url": "http://www.ntk.net/ballmer/dancemonkeyboy.mpg",
+            "length": "162",
+            "type": "video/mpeg"
+          },
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13125",
           "author": "Cory Doctorow",
@@ -3972,16 +3957,6 @@
           "publishedOn": "2026-07-07T05:36:15.000Z",
           "wordCount": 774,
           "title": "sqlite-utils 4.0rc4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://huggingface.co/tencent/Hy3\">tencent/Hy3</a></strong></p>\nNew Apache 2.0 licensed model from Tencent in China:</p>\n<blockquote>\n<p>Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.</p>\n</blockquote>\n<p>The full-sized model is 598GB on Hugging Face, and the FP8 quantized one <a href=\"https://huggingface.co/tencent/Hy3-FP8/tree/main\">is 300GB</a>. The context length is 256K.</p>\n<p>It's available for free <a href=\"https://openrouter.ai/tencent/hy3:free\">on OpenRouter until July 21st</a>. I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this:</p>\n<p><img alt=\"Flat-style cartoon illustration  of a white pelican with a large orange beak riding a red bicycle across a pale blue background, its long orange legs stretched down to the pedals, with gray horizontal motion lines behind it suggesting speed.\" src=\"https://static.simonwillison.net/static/2026/hy3-pelican.png\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-          "publishedOn": "2026-07-06T23:57:35.000Z",
-          "wordCount": 882,
-          "title": "tencent/Hy3",
           "imageUrl": null
         }
       ]
