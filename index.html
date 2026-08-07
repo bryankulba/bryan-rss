@@ -35,6 +35,57 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-07T19:18:09.000Z">2026-08-07</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything" target="_blank" rel="noopener noreferrer">Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</a>
+          </h2>
+          <p class="feed-item__desc">Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)
+One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago.
+I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-agents - to see how it would do.
+It produced a much better game! Here's Moonlight & Mayhem - GitHub repository here, including the textures and prompts it generated using gpt-image-2.
+
+    
+    Your browser does not support HTML5 video.
+  
+
+
+The original GPT-3 generated game description included:
+In “Raccoon Heist”, you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew.
+Fable's version had you as a single raccoon running around a back yard collecting coins and fish. GPT-5.6 Sol has you in a museum, rescuing your two other raccoon crewmates in order to stack on top of each other and bust the golden sardine out of its case.
+Much more heisty!
+There was one catch though: the version produced from the one-shot prompt had a bug where each raccoon had an eyeball that was enlarged to the size of a giant sphere floating over their head!
+
+You can play that version here.
+Despite reviewing screenshots during development Codex failed to spot and correct this bug.
+I fixed it by prompting:
+Why do the raccoons have huge black spheres on them?
+And then:
+Fix it
+Which resulted in this fix.
+I shared the full Codex transcript in the repository - I wish Claude Code had the same "copy as Markdown" feature.
+Codex spent 52 minutes on the project. Here's the AgentsView cost estimate for that session if I had been paying full API prices as opposed to using my monthly Codex subscription:
+
+
+
+    
+Tags: game-design, ai, openai, generative-ai, llms, coding-agents, codex, gpt</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/raccoon-heist-codex-poster.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-07T16:18:51.000Z">2026-08-07</time>
@@ -122,6 +173,28 @@ The post Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle fi
             <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/824286167217455104" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/824286167217455104">Mark read</button>
           </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/black-hat-agents/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-07T11:00:00.000Z">2026-08-07</time>
+        <span class="feed-item__source">Robin Sloan</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.robinsloan.com/lab/black-hat-agents/" target="_blank" rel="noopener noreferrer">Dragoncatcher: Mandatory viewing, summer 2026</a>
+          </h2>
+          <p class="feed-item__desc">Agents amok. Read here.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/black-hat-agents/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/black-hat-agents/">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
@@ -11167,25 +11240,6 @@ The post Will We Ever Find Alien Civilizations? first appeared on Quanta Magazin
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!1JWk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5a12af5-412b-4c83-8e8d-874fff1820df_1990x5293.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13015">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-09T06:37:55.000Z">2026-07-08</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/07/08/wilhoitian/" target="_blank" rel="noopener noreferrer">Pluralistic: Post-political (09 Jul 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Post-political: What a "leftist" is. Hey look at this: Delights to delectate. Object permanence: MSFT x OSCON; Parental spyware; "Resurrection Man"; Brexit do-over petition; Workplace email spying; Record label internet death penalty; News should be cheap, free and chaotic; "Jughead". Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Post-political (permalink) There's plenty of reasons to be skeptical of centrists who bemoan "political polarization" and call for a politics that abandons the "tribalism of left and right." Obviously there's the false equivalence: on the …</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13015" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13015">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
         </div>
       </div>
     </article>
