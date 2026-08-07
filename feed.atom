@@ -2,10 +2,175 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-06T14:00:47.011Z</updated>
+    <updated>2026-08-07T00:52:07.391Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The video rental store as “third place” . &#8220;Decades...]]></title>
+        <id>https://kottke.org/26/08/0049459-the-video-rental-store-as</id>
+        <link href="https://kottke.org/26/08/0049459-the-video-rental-store-as"/>
+        <updated>2026-08-06T21:58:00.000Z</updated>
+        <summary type="html"><![CDATA[The video rental store as “third place”. “Decades before recommendation algorithms, video stores served as social hubs where conversation and camaraderie became a form of taste-making.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The End of Google Search . The internet giant is...]]></title>
+        <id>https://kottke.org/26/08/0049462-the-end-of-google-search</id>
+        <link href="https://kottke.org/26/08/0049462-the-end-of-google-search"/>
+        <updated>2026-08-06T20:29:00.000Z</updated>
+        <summary type="html"><![CDATA[The End of Google Search. The internet giant is “changing the formula” of its products and media folks are beginning to assume that there will be no search traffic in the future…and fretting about their survival.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Media Matters : &#8220;ABC, CBS, and NBC aired a...]]></title>
+        <id>https://kottke.org/26/08/0049464-media-matters</id>
+        <link href="https://kottke.org/26/08/0049464-media-matters"/>
+        <updated>2026-08-06T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Media Matters: “ABC, CBS, and NBC aired a combined 194 segments about the three major heat events” that hit the US this summer and not a single one of them mentioned climate change. Not one!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fun little review by Marcin Wichary of a 1984 flying...]]></title>
+        <id>https://kottke.org/26/08/0049463-fun-little-review-by-marc</id>
+        <link href="https://kottke.org/26/08/0049463-fun-little-review-by-marc"/>
+        <updated>2026-08-06T18:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Fun little review by Marcin Wichary of a 1984 flying video game called Sopwith, which was never supposed to be released to the public (an event that the game’s creator didn’t learn about until years later).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a38]]></title>
+        <id>https://simonwillison.net/2026/Aug/6/datasette/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/6/datasette/#atom-everything"/>
+        <updated>2026-08-06T18:24:34.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a38">datasette 1.0a38</a></p>
+        <blockquote>
+<p>This release fixes a <strong>SQL injection</strong> security issue that affects Datasette instances that serve a <strong>mixture of public and private tables</strong> in the same database, with access configured using the <a href="https://docs.datasette.io/en/latest/authentication.html">Datasette permissions system</a>.</p>
+<p>Site administrators who serve private tables in this way are advised to disable the <a href="https://docs.datasette.io/en/latest/authentication.html#execute-sql">execute-sql permission</a> <actions_execute_sql>` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database.</p>
+<p>This fix is also available in <a href="https://simonwillison.net/2026/Aug/6/datasette-2/">Datasette 0.65.3</a>.</p>
+</blockquote>
+<p>Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/sql-injection">sql-injection</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 0.65.3]]></title>
+        <id>https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything"/>
+        <updated>2026-08-06T18:22:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/0.65.3">datasette 0.65.3</a></p>
+        <p>Back-ported the SQL Injection security fix from <a href="https://simonwillison.net/2026/Aug/6/datasette/">1.0a38</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison on Technical Blogging]]></title>
+        <id>https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything"/>
+        <updated>2026-08-06T18:04:39.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://writethatblog.substack.com/p/simon-willison-on-technical-blogging">Simon Willison on Technical Blogging</a></strong></p>
+I was interviewed by Cynthia Dunlop for her "Write that blog!" series back in January, but I just realized I never linked to the interview from my own blog!</p>
+<p>It includes my answers to the following questions:</p>
+<ul>
+<li>Why did you start blogging – and why do you continue?</li>
+<li>What has been the most surprising impact of blogging for you?</li>
+<li>What blog post are you most proud of and why?</li>
+<li>What post was the most difficult to write and how did you tackle it?</li>
+<li>Any lessons learned that you want to share with the community?</li>
+<li>Your advice for people just getting started with blogging?</li>
+<li>A few blogs that you particularly enjoy?</li>
+</ul>
+<p>I'll repeat my most important piece of advice here:</p>
+<blockquote>
+<p>My number one tip for blogging is to lower your standards! Aim to hit publish while you are still actively unhappy with what you have written, because the only alternative is a huge folder full of drafts and never publishing anything at all.</p>
+<p>Nobody will ever know how perfect the thing you <em>intended</em> to write would have been. The flaws you see in your writing are invisible to everyone else.</p>
+</blockquote>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/blogging">blogging</a>, <a href="https://simonwillison.net/tags/interviews">interviews</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I love  this little video of burbling pasta sauces...]]></title>
+        <id>https://kottke.org/26/08/0049451-this-little-video-of-burb</id>
+        <link href="https://kottke.org/26/08/0049451-this-little-video-of-burb"/>
+        <updated>2026-08-06T17:45:00.000Z</updated>
+        <summary type="html"><![CDATA[I love this little video of burbling pasta sauces (sound on). Wish there was a 10-hour YT version for work background noise…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I’d Be Lead Harpooner on the Pequod If It Wasn’t for...]]></title>
+        <id>https://kottke.org/26/08/0049461-id-be-lead-harpooner-on-t</id>
+        <link href="https://kottke.org/26/08/0049461-id-be-lead-harpooner-on-t"/>
+        <updated>2026-08-06T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA[I’d Be Lead Harpooner on the Pequod If It Wasn’t for These DEI Hires. “I’m just telling you that it’s getting hard out there for us blue-collar Nantucket lads when all the ships’ owners are catching the Abolitionist Mind Virus.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[25 things that explain America , including personal...]]></title>
+        <id>https://kottke.org/26/08/0049460-25-things-that-explain-am</id>
+        <link href="https://kottke.org/26/08/0049460-25-things-that-explain-am"/>
+        <updated>2026-08-06T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[25 things that explain America, including personal injury lawyer advertisements, Crest Whitestrips, Costco rotisserie chicken, and the Pizza Hut lamp. “The T-shirt cannon merges three American obsessions: guns, sports and freebie giveaways.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Does an Enigma Machine Work?]]></title>
+        <id>https://kottke.org/26/08/how-does-an-enigma-machine-work</id>
+        <link href="https://kottke.org/26/08/how-does-an-enigma-machine-work"/>
+        <updated>2026-08-06T14:45:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a completely fantastic look at how the Enigma Machine works. Jared Owen constructed a 3D model of the German cipher device and clearly walks the viewer through how the electricity flows through the machine to scramble and unscramble secret messages.
+When electricity travels through one rotor it changes the letter once. But remember, we have three of these rotors and they each have different wirings on the inside. When electricity travels through all three of them it changes the letter three times.
+Then at the end, we have the reflector. This also has 26 metal contacts. Inside is more wiring that connects the letters in pairs. So it goes in as one letter and then comes out as another letter.
+To the right of here is the input wheel. It has 26 wires that go in and connects to the 26 metal contacts.
+Let’s put this all together. Electricity flows through one of the 26 wires, let’s say the wire for the letter Y. Then it gets changed to a different letter at all three rotors. Then it hits the reflector, which again, changes the letter. And then it goes back through the rotors again which changes the letter three more times. And it comes back out on a wire that represents a completely different letter. And if you were counting, this means the letter was changed seven times.
+
+	
+Seriously, this is one of the best explanations I’ve ever seen of anything on YouTube — by the end of it, I was pretty sure I could now build an Enigma Machine if I needed to. (via benn jordan)
+
+ 
+
+        
+         
+Tags: Enigma machine · Jared Owen · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Wildfire Smoke Is Reshaping Childhood ....]]></title>
+        <id>https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res</id>
+        <link href="https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res"/>
+        <updated>2026-08-06T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How Wildfire Smoke Is Reshaping Childhood. “Repeated smoke events are changing children’s daily routines, limiting opportunities for outdoor play and social interaction and reshaping how many families experience summer.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Does Touch Lead To Pain Or Pleasure?]]></title>
         <id>https://www.quantamagazine.org/?p=165510</id>
