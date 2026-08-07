@@ -2499,6 +2499,16 @@
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
         {
+          "id": "https://brucesterling.tumblr.com/post/824300283722186752",
+          "author": null,
+          "description": "*Poor little Mistral",
+          "link": "https://brucesterling.tumblr.com/post/824300283722186752",
+          "publishedOn": "2026-08-07T14:46:49.000Z",
+          "wordCount": 1665,
+          "title": "*Poor little Mistral",
+          "imageUrl": "https://64.media.tumblr.com/5fb74d7291922307230b20120d79c15b/6b7ee0331d3c7d52-61/s1280x1920/9d564dfc8f0cc20017b81f3099286449698ff8cf.jpg"
+        },
+        {
           "id": "https://brucesterling.tumblr.com/post/824286167217455104",
           "author": null,
           "description": "“Witching Hour Test Pressing UK Addresses Only Sold Out,” there must be some music-collector somewhere who is extremely bothered by the existence of this artifact",
@@ -2994,6 +3004,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/\">The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</a></strong></p>\nThere's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:</p>\n<blockquote>\n<p>“We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, said [...]</p>\n<p>Stuart Henderson, Accenture’s client group lead, interrupts. He jokes he hopes Kwak didn’t just convert a PDF into images and then into markdown files. “I’m learning that’s one of the big token chewers,” Henderson says. “Turning PDFs into markdown: is that right?”</p>\n<p>That’s when Kwak says that’s what Accenture’s own data shows.</p>\n</blockquote>\n<p>Maybe if Accenture figure out that PDFs are a <em>terrible medium for communicating information</em> they'll be able to push that message out to the rest of the business world too!\n\n    <p><small></small>Via <a href=\"https://www.tiktok.com/@404.media/video/7654962124053171470\">@404.media on TikTok</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/pdf\">pdf</a>, <a href=\"https://simonwillison.net/tags/markdown\">markdown</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+          "publishedOn": "2026-08-07T16:18:51.000Z",
+          "wordCount": 900,
+          "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
           "author": null,
@@ -4081,6 +4101,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=165569",
+          "author": "James Dinneen",
+          "description": "A global constellation of neutrino detectors is creating a never-before-seen view of the radioactive elements that power Earth’s tectonic heat engine.            \nThe post Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+          "publishedOn": "2026-08-07T13:55:32.000Z",
+          "wordCount": 2879,
+          "title": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Central-acrylic-sphere-and-PMTs-cr-JUNO-Collaboration-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=165510",
           "author": "Janna Levin and Steven Strogatz",
