@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-08T16:29:39.323Z</updated>
+    <updated>2026-08-08T20:26:10.749Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Type]]></title>
+        <id>https://waxy.org/?p=51205</id>
+        <link href="https://type.joohyunpark.com/"/>
+        <updated>2026-08-08T17:26:51.000Z</updated>
+        <summary type="html"><![CDATA[one of several playful web experiments by Joohyun Park
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thing that I am now invested in:  this woman has spent 30...]]></title>
         <id>https://kottke.org/26/08/0049465-this-woman-has-spent-30-w</id>
@@ -63,6 +74,16 @@ So alignment work seems existentially useful, correct? Even though it is har…]
         <summary type="html"><![CDATA[Yer man Ganzeer, setting out his advice to young artists about the realities of the job: Just know that it’ll involve something like 70% admin, 20% actual creative work, and 10% putting out fires and/or wanting to die. G A N Z E E R . T O D A Y https://ganzeer.today/one-of-the-surest-ways-to-infuse-my-existence-with-misery-is-to-sit-me-in-front Yesterday was the […]]]></summary>
         <author>
             <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: WSJPT]]></title>
+        <id>https://www.robinsloan.com/lab/wsjpt/</id>
+        <link href="https://www.robinsloan.com/lab/wsjpt/"/>
+        <updated>2026-08-08T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>In-house tools. <a href="https://www.robinsloan.com/lab/wsjpt/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -6782,26 +6803,6 @@ The post We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture. first app
         <summary type="html"><![CDATA[Today's links "Rights for robots" and the AI slavery fantasy: When we were robots in Egypt… Hey look at this: Delights to delectate. Object permanence: Awkward questions for the entertainment industry; ISP v record label death penalty; Coming out on Splash Mountain; Negative Swiss bond yields; Are We Having Fun Yet? Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. "Rights for robots" and the AI slavery fantasy (permalink) While the AI bubble is primarily a material phenomenon (driven by the calculation that bosses are easy marks for a sales pitch that sees them replacing workers wi…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/821733959118520320</id>
-        <link href="https://brucesterling.tumblr.com/post/821733959118520320"/>
-        <updated>2026-07-10T06:56:11.000Z</updated>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webcurios 10/07/26]]></title>
-        <id>https://webcurios.co.uk/?p=1580</id>
-        <link href="https://webcurios.co.uk/webcurios-10-07-26/"/>
-        <updated>2026-07-10T06:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Reading Time:  43 minutes   Can we not, please, have a month or so off? I know that the political and media classes in the UK are addicted to CAMPAIGNING – governing, not so much! – but, Jesus, can it not just STOP for a bit? Anyway, you can get all your news about the HILARIOUS contest between a…
-Continue reading →]]></summary>
-        <author>
-            <name>admin</name>
         </author>
     </entry>
 </feed>

@@ -90,6 +90,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/wsjpt/",
+          "author": null,
+          "description": "<p>In-house tools. <a href=\"https://www.robinsloan.com/lab/wsjpt/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/wsjpt/",
+          "publishedOn": "2026-08-08T12:00:00.000Z",
+          "wordCount": 4854,
+          "title": "Dragoncatcher: WSJPT",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/black-hat-agents/",
           "author": null,
           "description": "<p>Agents amok. <a href=\"https://www.robinsloan.com/lab/black-hat-agents/\">Read here.</a></p>",
@@ -184,16 +194,6 @@
           "publishedOn": "2026-07-17T06:23:23.000Z",
           "wordCount": 12251,
           "title": "Webcurios 17/07/26",
-          "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1580",
-          "author": "admin",
-          "description": "Reading Time:  43 minutes   Can we not, please, have a month or so off? I know that the political and media classes in the UK are addicted to CAMPAIGNING – governing, not so much! – but, Jesus, can it not just STOP for a bit? Anyway, you can get all your news about the HILARIOUS contest between a…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-10-07-26/",
-          "publishedOn": "2026-07-10T06:23:23.000Z",
-          "wordCount": 12950,
-          "title": "Webcurios 10/07/26",
           "imageUrl": null
         }
       ]
@@ -1817,6 +1817,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51205",
+          "author": "Andy Baio",
+          "description": "one of several playful web experiments by Joohyun Park\n#",
+          "link": "https://type.joohyunpark.com/",
+          "publishedOn": "2026-08-08T17:26:51.000Z",
+          "wordCount": 3,
+          "title": "Type",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=51197",
           "author": "Andy Baio",
           "description": "the latest submission to Supercut.org, inspired by Of Oz The Wizard\nsupercut.org #",
@@ -2557,16 +2567,6 @@
           "wordCount": 2883,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/9af32cba7b4c82f3eb3212772f8de4dc/9ffd1fd48a060dc0-e7/s1280x1920/fdc103d03f229c875e51f26fe4d5023fcb8ee03e.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/821733959118520320",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/821733959118520320",
-          "publishedOn": "2026-07-10T06:56:11.000Z",
-          "wordCount": 3667,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/c4599012096aa3b16136ff8510af3936/8de580a4fdc90727-93/s1280x1920/c54fb71fef8ce1f21bdc5ce0db8b598148191c11.webp"
         }
       ]
     },
