@@ -35,6 +35,55 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-08T14:17:00.000Z">2026-08-08</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w" target="_blank" rel="noopener noreferrer">Thing that I am now invested in:  this woman has spent 30...</a>
+          </h2>
+          <p class="feed-item__desc">Thing that I am now invested in: this woman has spent 30 weeks secretly training to beat her brother (a former competitive player) at Dance Dance Revolution. The showdown is today…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-08T14:06:41.000Z">2026-08-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything" target="_blank" rel="noopener noreferrer">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a>
+          </h2>
+          <p class="feed-item__desc">My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News.
+I think one of the most interesting details here might be tucked away in that first bulletin point:
+May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)
+The more I think about this the more I suspect that the fact this happened while training a new model is key to understanding what went wrong.
+In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take any steps necessary to achieve that goal.
+Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.
+This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.
+AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.
+Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.
+I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?
+(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)
+Tags: ai, openai, generative-ai, llms, ai-security-research, openai-hugging-face-incident</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://interconnected.org/home/2026/08/08/alignment">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-08T13:18:00.000Z">2026-08-08</time>
@@ -10973,70 +11022,6 @@ Continue reading →</p>
             <button class="js-favourite btn btn--favourite" data-id="https://webcurios.co.uk/?p&#x3D;1580" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://webcurios.co.uk/?p&#x3D;1580">Mark read</button>
             <span class="feed-item__reading-time">43 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51009">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-10T02:20:24.000Z">2026-07-09</time>
-        <span class="feed-item__source">Waxy.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.adweek.com/media/publishers-opt-out-google-search/" target="_blank" rel="noopener noreferrer">Publishers prepare to opt-out of Google search over AI training</a>
-          </h2>
-          <p class="feed-item__desc">I missed the news that Cloudflare will start blocking Googlebot by default on September 15
-#</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51009" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51009">Mark read</button>
-            <span class="feed-item__reading-time">36 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://static-www.adweek.com/wp-content/uploads/2026/07/Gemini_Generated_Image_lblroulblroulblr.png?w&#x3D;600&amp;h&#x3D;315&amp;crop&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049289-venetian-bridge-brawls-in">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-10T01:59:41.000Z">2026-07-09</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049289-venetian-bridge-brawls-in" target="_blank" rel="noopener noreferrer">Venetian Bridge Brawls in 17th and 18th Century Art ....</a>
-          </h2>
-          <p class="feed-item__desc">Venetian Bridge Brawls in 17th and 18th Century Art. “Before crowds jostled for biennale parties and gondola rides, Venice’s waterways witnessed scenes of an even more violent kind…”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049289-venetian-bridge-brawls-in" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049289-venetian-bridge-brawls-in">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/10/openai/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-10T01:05:57.000Z">2026-07-09</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/10/openai/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting OpenAI</a>
-          </h2>
-          <p class="feed-item__desc">[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.
-
-— OpenAI, trying (unsuccessfully) to clarify ChatGPT Work
-Tags: openai, chatgpt, ai</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/10/openai/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/10/openai/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
       </div>

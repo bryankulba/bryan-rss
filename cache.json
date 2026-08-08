@@ -210,6 +210,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049465-this-woman-has-spent-30-w",
+          "author": null,
+          "description": "Thing that I am now invested in: this woman has spent 30 weeks secretly training to beat her brother (a former competitive player) at Dance Dance Revolution. The showdown is today…",
+          "link": "https://kottke.org/26/08/0049465-this-woman-has-spent-30-w",
+          "publishedOn": "2026-08-08T14:17:00.000Z",
+          "wordCount": 765,
+          "title": "Thing that I am now invested in:  this woman has spent 30...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049459-the-video-rental-store-as",
           "author": null,
           "description": "The video rental store as “third place”. “Decades before recommendation algorithms, video stores served as social hubs where conversation and camaraderie became a form of taste-making.”",
@@ -1798,16 +1808,6 @@
           "wordCount": 796,
           "title": "VoiceDot : &#8220;Every dot on this globe is a real...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049289-venetian-bridge-brawls-in",
-          "author": null,
-          "description": "Venetian Bridge Brawls in 17th and 18th Century Art. “Before crowds jostled for biennale parties and gondola rides, Venice’s waterways witnessed scenes of an even more violent kind…”",
-          "link": "https://kottke.org/26/07/0049289-venetian-bridge-brawls-in",
-          "publishedOn": "2026-07-10T01:59:41.000Z",
-          "wordCount": 732,
-          "title": "Venetian Bridge Brawls in 17th and 18th Century Art ....",
-          "imageUrl": ""
         }
       ]
     },
@@ -2095,16 +2095,6 @@
           "wordCount": 800,
           "title": "Jim’s QR Code Font",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=51009",
-          "author": "Andy Baio",
-          "description": "I missed the news that Cloudflare will start blocking Googlebot by default on September 15\n#",
-          "link": "https://www.adweek.com/media/publishers-opt-out-google-search/",
-          "publishedOn": "2026-07-10T02:20:24.000Z",
-          "wordCount": 10737,
-          "title": "Publishers prepare to opt-out of Google search over AI training",
-          "imageUrl": "https://static-www.adweek.com/wp-content/uploads/2026/07/Gemini_Generated_Image_lblroulblroulblr.png?w=600&h=315&crop=1"
         }
       ]
     },
@@ -2908,6 +2898,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+          "author": null,
+          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49220609#49221745\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49220609\">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a> &mdash; Hacker News.</p><p>I think one of the most interesting details here might be tucked away in that first bulletin point:</p>\n<blockquote>\n<p>May 7: OpenAI starts a new training run for an experimental, unreleased model. <em>(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)</em></p>\n</blockquote>\n<p>The more I think about this the more I suspect that the fact this happened while <em>training</em> a new model is key to understanding what went wrong.</p>\n<p>In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take <em>any steps necessary</em> to achieve that goal.</p>\n<p>Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.</p>\n<p>This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.</p>\n<p>AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.</p>\n<p>Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.</p>\n<p>I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?</p>\n<p>(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/openai-hugging-face-incident\">openai-hugging-face-incident</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+          "publishedOn": "2026-08-08T14:06:41.000Z",
+          "wordCount": 1134,
+          "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything",
           "author": null,
@@ -3886,16 +3886,6 @@
           "publishedOn": "2026-07-10T17:05:26.000Z",
           "wordCount": 896,
           "title": "Quoting Nilay Patel",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\">OpenAI</a>, trying (unsuccessfully) to clarify ChatGPT Work</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-          "publishedOn": "2026-07-10T01:05:57.000Z",
-          "wordCount": 768,
-          "title": "Quoting OpenAI",
           "imageUrl": null
         }
       ]

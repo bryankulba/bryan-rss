@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-08T12:41:44.920Z</updated>
+    <updated>2026-08-08T16:29:39.323Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Thing that I am now invested in:  this woman has spent 30...]]></title>
+        <id>https://kottke.org/26/08/0049465-this-woman-has-spent-30-w</id>
+        <link href="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w"/>
+        <updated>2026-08-08T14:17:00.000Z</updated>
+        <summary type="html"><![CDATA[Thing that I am now invested in: this woman has spent 30 weeks secretly training to beat her brother (a former competitive player) at Dance Dance Revolution. The showdown is today…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now we have a timeline of the OpenAI accidental attack against Hugging Face]]></title>
+        <id>https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"/>
+        <updated>2026-08-08T14:06:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49220609#49221745">My comment</a> on <a href="https://news.ycombinator.com/item?id=49220609">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a> &mdash; Hacker News.</p><p>I think one of the most interesting details here might be tucked away in that first bulletin point:</p>
+<blockquote>
+<p>May 7: OpenAI starts a new training run for an experimental, unreleased model. <em>(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)</em></p>
+</blockquote>
+<p>The more I think about this the more I suspect that the fact this happened while <em>training</em> a new model is key to understanding what went wrong.</p>
+<p>In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take <em>any steps necessary</em> to achieve that goal.</p>
+<p>Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.</p>
+<p>This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.</p>
+<p>AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.</p>
+<p>Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.</p>
+<p>I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?</p>
+<p>(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/openai-hugging-face-incident">openai-hugging-face-incident</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI alignment is a red herring]]></title>
         <id>https://interconnected.org/home/2026/08/08/alignment</id>
@@ -6768,40 +6802,6 @@ The post We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture. first app
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Publishers prepare to opt-out of Google search over AI training]]></title>
-        <id>https://waxy.org/?p=51009</id>
-        <link href="https://www.adweek.com/media/publishers-opt-out-google-search/"/>
-        <updated>2026-07-10T02:20:24.000Z</updated>
-        <summary type="html"><![CDATA[I missed the news that Cloudflare will start blocking Googlebot by default on September 15
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Venetian Bridge Brawls in 17th and 18th Century Art ....]]></title>
-        <id>https://kottke.org/26/07/0049289-venetian-bridge-brawls-in</id>
-        <link href="https://kottke.org/26/07/0049289-venetian-bridge-brawls-in"/>
-        <updated>2026-07-10T01:59:41.000Z</updated>
-        <summary type="html"><![CDATA[Venetian Bridge Brawls in 17th and 18th Century Art. “Before crowds jostled for biennale parties and gondola rides, Venice’s waterways witnessed scenes of an even more violent kind…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting OpenAI]]></title>
-        <id>https://simonwillison.net/2026/Jul/10/openai/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/10/openai/#atom-everything"/>
-        <updated>2026-07-10T01:05:57.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote>
-<p class="cite">&mdash; <a href="https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex">OpenAI</a>, trying (unsuccessfully) to clarify ChatGPT Work</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
