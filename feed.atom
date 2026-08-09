@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-09T12:43:09.139Z</updated>
+    <updated>2026-08-09T16:30:52.670Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[9aug26]]></title>
+        <id>https://warrenellis.ltd/?p=18792</id>
+        <link href="https://warrenellis.ltd/status/9aug26/"/>
+        <updated>2026-08-09T12:59:31.000Z</updated>
+        <summary type="html"><![CDATA[I am resting my brain and conducting a managed retreat to the outside world. Except, of course, I’m not actually resting my brain, I’m trying…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ugly genius sneakers]]></title>
         <id>https://www.blackbirdspyplane.com/p/ugly-genius-sneakers</id>
