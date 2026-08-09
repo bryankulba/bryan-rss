@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-09T05:01:31.773Z</updated>
+    <updated>2026-08-09T12:43:09.139Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ugly genius sneakers]]></title>
+        <id>https://www.blackbirdspyplane.com/p/ugly-genius-sneakers</id>
+        <link href="https://www.blackbirdspyplane.com/p/ugly-genius-sneakers"/>
+        <updated>2026-08-09T12:31:06.000Z</updated>
+        <summary type="html"><![CDATA[Plus new sunglasses, an under-the-radar comfort sneaker line, a forgotten mid-century design legend whose lamps were bangers & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Auto mode is now the default in Claude Code for Pro, Max, and Team plans]]></title>
         <id>https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything</id>
@@ -6792,33 +6802,6 @@ He headed for the ATM in the back… he knew it was watching him as he walked up
         <summary type="html"><![CDATA[Today's links Workplace "flexibility" isn't: What the gig economy calls flexibility is just risk-shifting. Hey look at this: Delights to delectate. Object permanence: "Alanya to Alanya"; ToS are the internet's biggest lie; Soviet jokes; Fox rapists v gag orders; GBAO is the future; "Fun Family"; Sacklers get to keep the loot. Upcoming appearances: London, Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Workplace "flexibility" isn't (permalink) Here's an irony: the "gig economy" is a statistical black hole. Workers, customers and regulators know very little about the most basic aspects of it: how much workers g…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This ancient Egyptian painter’s palette from 3000 years...]]></title>
-        <id>https://kottke.org/26/07/0049298-this-ancient-egyptian-pai</id>
-        <link href="https://kottke.org/26/07/0049298-this-ancient-egyptian-pai"/>
-        <updated>2026-07-10T18:20:00.000Z</updated>
-        <summary type="html"><![CDATA[This ancient Egyptian painter’s palette from 3000 years ago still contains traces on the original colors. (Wtf, I have old watercolor paints that look older than this…)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Nilay Patel]]></title>
-        <id>https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"/>
-        <updated>2026-07-10T17:05:26.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://youtu.be/v4vkwUf4AMw?t=2427"><p>The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it.</p>
-<p>There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time.</p>
-<p>You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world.</p>
-<p>And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy.</p>
-<p>And maybe you shouldn't. Like, there's an incredible argument for, nope, you shouldn't do that. Nope, the trade-offs required to make this product are so high at a societal level that we should stop it.</p></blockquote>
-<p class="cite">&mdash; <a href="https://youtu.be/v4vkwUf4AMw?t=2427">Nilay Patel</a>, The Vergecast</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/augmented-reality">augmented-reality</a>, <a href="https://simonwillison.net/tags/nilay-patel">nilay-patel</a>, <a href="https://simonwillison.net/tags/privacy">privacy</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
