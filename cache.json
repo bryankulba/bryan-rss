@@ -222,13 +222,74 @@
       "title": "We Are the Mutants",
       "feedUrl": "https://wearethemutants.com/feed/",
       "siteUrl": "https://wearethemutants.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://wearethemutants.com/?p=42257",
+          "author": "Richard McKenna",
+          "description": "By Richard McKenna\r\n\r\nGrimy, esoteric capital of the ‘80s North of England, post-Thatcherism Leeds was a peculiarly dual-natured place. An increasingly moribund industrial economy still haunted by the atrocities...",
+          "link": "https://wearethemutants.com/2026/08/10/chaos-and-magick-the-sorcerers-apprentice-occult-bookshop/",
+          "publishedOn": "2026-08-10T16:42:33.000Z",
+          "wordCount": 5675,
+          "title": "Chaos and Magick: The Sorcerers Apprentice Occult Bookshop",
+          "imageUrl": "https://wearethemutants.com/wp-content/uploads/2026/08/watm-sa-1.jpg"
+        }
+      ]
     },
     {
       "title": "kottke.org",
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/08/0049446-releasing-a-swarm-of-tiny",
+          "author": null,
+          "description": "NASA has provided some early-stage funding to explore the idea of releasing a swarm of tiny probes (weighing only a few grams each) into Saturn’s rings to study them up close.",
+          "link": "https://kottke.org/26/08/0049446-releasing-a-swarm-of-tiny",
+          "publishedOn": "2026-08-10T16:45:00.000Z",
+          "wordCount": 778,
+          "title": "NASA has provided some early-stage funding to explore the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/tron-legacy-recording-sessions-by-daft-punk",
+          "author": null,
+          "description": "So, I’m not exactly sure what this is, but what it appears to be is a fan-assembled album of the recording sessions for Tron: Legacy by Daft Punk & Joseph Trapanese. 67 tracks in this YouTube playlist and 61 tracks from the Internet Archive (not sure of the overlap here…) Some of it sounds just like the 31 tracks from the “Complete Edition” of the soundtrack, some of it is alternate studio takes, and some of it is probably just random bits and bobs from the movie that didn’t make it onto the soundtrack.\nAnyway, if you love this album as much as I do, I’ll leave you to explore.\n\n \n\n        \n         \nTags: Daft Punk · Joseph Trapanese · music · Tron Legacy · video",
+          "link": "https://kottke.org/26/08/tron-legacy-recording-sessions-by-daft-punk",
+          "publishedOn": "2026-08-10T15:38:40.000Z",
+          "wordCount": 796,
+          "title": "Tron: Legacy (Recording Sessions) by Daft Punk",
+          "imageUrl": "https://i.ytimg.com/vi/KMH_fzn_Di0/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/08/0049440-subaru-socialists-and-the",
+          "author": null,
+          "description": "Subaru Socialists and the Great Disappointed. “A whole lot of people under the age of 45 no longer believe that indicators such as wages, unemployment, or the number of college degrees that are handed out…have much to do with a healthy economy.”",
+          "link": "https://kottke.org/26/08/0049440-subaru-socialists-and-the",
+          "publishedOn": "2026-08-10T14:45:00.000Z",
+          "wordCount": 734,
+          "title": "Subaru Socialists and the Great Disappointed . “A whole...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049467-if-you-havent-recently-us",
+          "author": null,
+          "description": "If You Haven’t Recently Used Claude Code, You Might Not Understand Where AI Is At. “There’s a huge gulf between a chatbot that’s just putting text into your brain and an agent that uses code to interact with an external environment.”",
+          "link": "https://kottke.org/26/08/0049467-if-you-havent-recently-us",
+          "publishedOn": "2026-08-10T13:55:00.000Z",
+          "wordCount": 666,
+          "title": "If You Haven’t Recently Used Claude Code, You Might Not...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049466-socialists-are-winning-be",
+          "author": null,
+          "description": "Socialists Are Winning Because They Listen to People (and don’t just treat them like ATMs). “The best of them are running campaigns that acknowledge that to win, Democrats are going to have to organize voters — not just fund-raise off them.”",
+          "link": "https://kottke.org/26/08/0049466-socialists-are-winning-be",
+          "publishedOn": "2026-08-10T13:09:00.000Z",
+          "wordCount": 649,
+          "title": "Socialists Are Winning Because They Listen to People...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/08/0049465-this-woman-has-spent-30-w",
           "author": null,
@@ -2332,6 +2393,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18795",
+          "author": "Warren Ellis",
+          "description": "Very quickly filling up a notebook with bad ideas. Which is the only way I know of to get at the better ideas. Blew through…",
+          "link": "https://warrenellis.ltd/status/10aug26/",
+          "publishedOn": "2026-08-10T13:51:57.000Z",
+          "wordCount": 1127,
+          "title": "10aug26",
+          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18787",
           "author": "Warren Ellis",
           "description": "Kazuhiro Ishikawa. Marc Weidenbaum. Wallace Chan. morning computer: some useful things first thing in the day. Press the floating Subscribe button to have these notes…",
@@ -3992,6 +4063,16 @@
       "siteUrl": "https://we-make-money-not-art.com",
       "articles": [
         {
+          "id": "https://we-make-money-not-art.com/?p=39473",
+          "author": "Regine",
+          "description": "A toolkit of experiments aimed at breaking away from AI, by challenging its extractivist geopolitics, its algorithmic logic, its reductionist forms of learning and its technolanguage",
+          "link": "https://we-make-money-not-art.com/human-computers-a-history-of-labour-intensive-computing-followed-by-6-self-defence-protocols/",
+          "publishedOn": "2026-08-10T13:50:47.000Z",
+          "wordCount": 2636,
+          "title": "Human Computers : A history of labour-intensive computing. Followed by 6 self-defence protocols",
+          "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/07/0angelomosso.jpg"
+        },
+        {
           "id": "https://we-make-money-not-art.com/?p=39193",
           "author": "Regine",
           "description": "Fortunately for anyone who abhors artwashing, the curating of the art biennial has made it impossible to ignore the crimes committed by Israel in Palestine and beyond",
@@ -4031,6 +4112,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=165611",
+          "author": "Natalie Wolchover",
+          "description": "A simple scaling law brings order to the chaos of flowing water, rock, and sediment. New findings have extended the law even further.             \nThe post Why Are Rivers So Mathematical? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+          "publishedOn": "2026-08-10T14:56:34.000Z",
+          "wordCount": 3487,
+          "title": "Why Are Rivers So Mathematical?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Qualia-River-Fractals-cr-Ada-Zejun-Shen-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=165569",
           "author": "James Dinneen",
