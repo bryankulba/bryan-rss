@@ -35,6 +35,86 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-10T23:56:03.000Z">2026-08-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything" target="_blank" rel="noopener noreferrer">Introducing Muse Glimmer</a>
+          </h2>
+          <p class="feed-item__desc">Introducing Muse Glimmer
+They claim to have optimized it for exactly the kind of things I'm looking for in a local model:
+End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish.
+Reliable Tool Use. The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows.
+Multi-Step Reasoning. Muse Glimmer chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows. [...]
+Here's a pelican which I generated using LM Studio's 18.16 GB version of the model:
+
+I also tried it out with my llm-coding-agent plugin, running against a fresh checkout of Datasette with the prompt:
+how does auth work?
+Here's the response, at the end of a long transcript showing all of the tool calls it made to explore the codebase. I ran this using llm-lmstudio with this patch applied to upgrade it for compatibility with LLM 0.32.
+I really like this size of model, because if a machine has 32 GB of RAM or more (mine has 128GB) it leaves plenty of space for running other applications at the same time.
+Glimmer is a vision model, so I asked it to describe this image:
+llm -m lmstudio/meta/muse-glimmer -a https://static.inaturalist.org/photos/714731804/large.jpg 'describe image'
+
+Here's what I got back:
+The photograph shows a rocky, breakwater-style shoreline on an overcast day with a smooth, gray body of water and a faint dock/pier line in the soft-focused background.
+In the foreground two large brown pelicans, Pelecanus occidentalis, are perched on the jumbled gray-white stones. They have the species’ characteristic long, down-curved yellow-orange bills with a large throat pouch, long slender necks and mottled brown-gray plumage on the back and wings. The pelican on the left is turned slightly toward the camera and appears to be preening or resting its bill against its chest; a pale, whitish patch is visible on the crown and nape and a small crest of feathers is raised. The pelican on the right faces mostly forward/right, its head up, bill pointing down and to the right, with the same pale head markings and the barred, darker wing feathers clearly visible.
+Scattered among the rocks around the two pelicans are several much smaller dark birds — gulls/tern-like birds in muted brown-gray plumage. One dark bird sits on the far left on a rock, another brownish bird stands to the right of the right-hand pelican, a grayish bird with a reddish bill is in the lower right foreground, and a further small dark bird is at the extreme right edge of the frame. 
+The overall light is flat and diffused, giving the water and sky a muted, almost monochromatic palette that contrasts with the textured rock and the detailed feathering of the pelicans. The composition places the two big birds as the dominant subjects, framed against the calm water and the low, rocky perch.
+Via Hacker News
+Tags: ai, generative-ai, llama, local-llms, llms, llm, vision-llms, meta, pelican-riding-a-bicycle, llm-release</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/glimmer-pelican.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049473-taxi-and-ambulance-driver">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-10T21:28:00.000Z">2026-08-10</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/0049473-taxi-and-ambulance-driver" target="_blank" rel="noopener noreferrer">“Taxi and ambulance drivers are less likely than...</a>
+          </h2>
+          <p class="feed-item__desc">“Taxi and ambulance drivers are less likely than workers in almost any other job to die of Alzheimer’s disease.” The key difference: “the constant work of locating yourself in space, tracking a destination and updating a mental map as conditions change.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049473-taxi-and-ambulance-driver" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049473-taxi-and-ambulance-driver">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049472-stories-of-people-finding">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-10T20:38:00.000Z">2026-08-10</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/0049472-stories-of-people-finding" target="_blank" rel="noopener noreferrer">Stories of “people finding weird, wild and defiant...</a>
+          </h2>
+          <p class="feed-item__desc">Stories of “people finding weird, wild and defiant ways to avoid using AI in their professional lives”. Like: “I keep a to-do list in a paper notebook, but my boss believes I have an AI task-keeping assistant via Claude.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049472-stories-of-people-finding" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049472-stories-of-people-finding">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/08/0049471-crocs-has-a-trick-for-dod">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-10T19:51:00.000Z">2026-08-10</time>
@@ -11295,71 +11375,6 @@ AUX #</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51014">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/party-clothes">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-12T13:00:51.000Z">2026-07-12</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/party-clothes" target="_blank" rel="noopener noreferrer">Party clothes</a>
-          </h2>
-          <p class="feed-item__desc">Wedding fit sorted. Plus intel on petite unisex watches, consistently excellent small lines, shoes and accessories spotted on Paris streets & a visit to a rare jewelry atelier</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/party-clothes" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/party-clothes">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!ml-U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d765353-4d71-4940-9466-f42cd8b0256f_2000x2449.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="6a52a5333858240001b9cd30">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-12T10:00:25.000Z">2026-07-12</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/ordinary-engineers-not-heroic-inventors-umyazu-no-411/" target="_blank" rel="noopener noreferrer">Ordinary engineers, not heroic inventors ⊗ Umyazu</a>
-          </h2>
-          <p class="feed-item__desc">No.411 — Stacking spaces ⊗ Why Leonardo was a saboteur ⊗ Futuring through discomfort ⊗ Imagining a new digital commons for creative AI ⊗ Project Circle ⊗ Umberto Eco library opens in Bologna</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="6a52a5333858240001b9cd30" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="6a52a5333858240001b9cd30">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/07/190307_mia334_5440_full-w.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/stop-ai-march/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-12T10:00:00.000Z">2026-07-12</time>
-        <span class="feed-item__source">Robin Sloan</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.robinsloan.com/lab/stop-ai-march/" target="_blank" rel="noopener noreferrer">Dragoncatcher: Report from the march to Stop the AI Race</a>
-          </h2>
-          <p class="feed-item__desc">Great to be out in the street. Read here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/stop-ai-march/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/stop-ai-march/">Mark read</button>
-            <span class="feed-item__reading-time">20 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
