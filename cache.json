@@ -214,6 +214,16 @@
       "siteUrl": "https://wearethemutants.com",
       "articles": [
         {
+          "id": "http://wearethemutants.com/?p=42210",
+          "author": "K.E. Roberts",
+          "description": "By K.E. Roberts\r\n\r\nThe comic foregrounds Chick’s particularly virulent and extremist brand of Christianity—many of his tracts have been rightly classified as hate speech—and marks a very early foreshadowing of the Satanic Panic of the 1980s and early ‘90s...",
+          "link": "https://wearethemutants.com/2026/08/12/god-hates-hippies-jack-chicks-the-broken-cross/",
+          "publishedOn": "2026-08-12T15:41:33.000Z",
+          "wordCount": 5840,
+          "title": "God Hates Hippies: Jack Chick’s ‘The Broken Cross’",
+          "imageUrl": "https://i0.wp.com/wearethemutants.com/wp-content/uploads/2026/07/broken-cross-featured.jpg?fit=1200%2C641&ssl=1"
+        },
+        {
           "id": "http://wearethemutants.com/?p=42251",
           "author": "Michael Grasso",
           "description": "By Michael Grasso \r\n\r\nTo interested observers in the 1970s, Ira Einhorn was the paragon of the bleeding-edge, Age of Aquarius thinker. He founded free classes on psychedelics, conducted one of the first \"Be-ins\" on the East Coast...",
@@ -240,6 +250,36 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/08/0049481-temperature-zero-for-cult",
+          "author": null,
+          "description": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same. “A recommender that’s a mediocre predictor of what you’d love in a rich, diverse world becomes an excellent predictor of what you’ll click in the impoverished one it creates.”",
+          "link": "https://kottke.org/26/08/0049481-temperature-zero-for-cult",
+          "publishedOn": "2026-08-12T15:19:00.000Z",
+          "wordCount": 774,
+          "title": "Temperature Zero for Culture: Why Everything Is Starting...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/a-collection-of-eclipse-glasses-1793-2019",
+          "author": null,
+          "description": "Oh wow, Williams College’s Hopkins Observatory has a huge collection of eclipse glasses & viewers (and other eclipse ephemera), some of them dating back to 1793. Here are a few of my favorites:\n\n\n\n\n\n\n\n\n\n(via present & correct)\n\n \n\n        \n         \nTags: design · eclipses",
+          "link": "https://kottke.org/26/08/a-collection-of-eclipse-glasses-1793-2019",
+          "publishedOn": "2026-08-12T14:09:00.000Z",
+          "wordCount": 709,
+          "title": "A Collection of Eclipse Glasses (1793-2019)",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1786542494-9816e8af.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/08/0049479-stories-that-the-authors-",
+          "author": null,
+          "description": "Stories that the authors of the Bible borrowed from other cultures and religions, including the flood myth, the Garden of Eden, etc. I learned about these in a religion & mythology class in college, which cemented my atheism.",
+          "link": "https://kottke.org/26/08/0049479-stories-that-the-authors-",
+          "publishedOn": "2026-08-12T13:29:00.000Z",
+          "wordCount": 628,
+          "title": "Stories that the authors of the Bible borrowed from...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/08/0049478-the-most-complicated-boar",
           "author": null,
@@ -2809,6 +2849,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/audio/btr/below-the-radar-51",
+          "author": null,
+          "description": "The Wire's subscriber only download compilation includes tracks by Willow Swan & Ellis Berwick, Jemima, ST AGNIS, DJ GAWAD & Pierre Pepe, Trigger Object, Ureuk & The Gypsies, and more\n\nTake out a print or digital subscription to The Wire to stream and download every edition of Below The Radar",
+          "link": "https://www.thewire.co.uk/audio/btr/below-the-radar-51",
+          "publishedOn": "2026-08-10T00:00:00.000Z",
+          "wordCount": 561,
+          "title": "Below The Radar  51",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/08/06/BTR_51.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-collective-listening-events",
           "author": null,
           "description": "The Wire 511\n\n\n    The occasion is John Coltrane’s centenary, and his Impulse! albums A Love Supreme and John Coltrane And Johnny Hartman are being played for an audience of around 50 people lounging on soft seats and sofas with blindfolds to block out distractions. A ticket costs £25.\n\n\n    Even if you’ve heard A Love Supreme dozens of times, you pick up something new here. The Polygon set-up takes the original recording and diffuses it across an array of speakers, keeping the stereo separation but allocating frequencies to various cones, tweeters and subwoofers. This particular event does not use surround sound, which might distribute the four instruments of Coltrane’s classic quartet to discrete audio sources around the venue. But the distinction between the players is still impressive,…",
@@ -2905,6 +2955,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+          "author": null,
+          "description": "<blockquote cite=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p>\n<p>You go talk to the person who worked on this feature.</p>\n<p>\"So where does the data come from?\"</p>\n<p>\"Hmm... actually I don't know. Let me ask Claude.\"</p>\n<p>You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]</p>\n<p>This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\">Florian Herrengt</a>, AI is removing the middle class of software engineering</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+          "publishedOn": "2026-08-12T15:08:47.000Z",
+          "wordCount": 864,
+          "title": "Quoting Florian Herrengt",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
           "author": null,
@@ -4012,6 +4072,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=165661",
+          "author": "Shalma Wegsman",
+          "description": "The math, which combines chaos, quantum theory, and infinitely complex fractal structures, has been called a “foundational result.”             \nThe post Graduate Student Proves a Quantum Uncertainty Principle for Fractals first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/",
+          "publishedOn": "2026-08-12T14:14:42.000Z",
+          "wordCount": 3800,
+          "title": "Graduate Student Proves a Quantum Uncertainty Principle for Fractals",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Fractal-Uncertainty-cr-Ada-Zejun-Shen-social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=165611",
           "author": "Natalie Wolchover",

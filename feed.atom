@@ -2,10 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-12T13:02:14.883Z</updated>
+    <updated>2026-08-12T16:54:48.098Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[God Hates Hippies: Jack Chick’s ‘The Broken Cross’]]></title>
+        <id>http://wearethemutants.com/?p=42210</id>
+        <link href="https://wearethemutants.com/2026/08/12/god-hates-hippies-jack-chicks-the-broken-cross/"/>
+        <updated>2026-08-12T15:41:33.000Z</updated>
+        <summary type="html"><![CDATA[By K.E. Roberts
+
+The comic foregrounds Chick’s particularly virulent and extremist brand of Christianity—many of his tracts have been rightly classified as hate speech—and marks a very early foreshadowing of the Satanic Panic of the 1980s and early ‘90s...]]></summary>
+        <author>
+            <name>K.E. Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Temperature Zero for Culture: Why Everything Is Starting...]]></title>
+        <id>https://kottke.org/26/08/0049481-temperature-zero-for-cult</id>
+        <link href="https://kottke.org/26/08/0049481-temperature-zero-for-cult"/>
+        <updated>2026-08-12T15:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Temperature Zero for Culture: Why Everything Is Starting to Look the Same. “A recommender that’s a mediocre predictor of what you’d love in a rich, diverse world becomes an excellent predictor of what you’ll click in the impoverished one it creates.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Florian Herrengt]]></title>
+        <id>https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything"/>
+        <updated>2026-08-12T15:08:47.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p>
+<p>You go talk to the person who worked on this feature.</p>
+<p>"So where does the data come from?"</p>
+<p>"Hmm... actually I don't know. Let me ask Claude."</p>
+<p>You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]</p>
+<p>This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.</p></blockquote>
+<p class="cite">&mdash; <a href="https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html">Florian Herrengt</a>, AI is removing the middle class of software engineering</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/cognitive-debt">cognitive-debt</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Graduate Student Proves a Quantum Uncertainty Principle for Fractals]]></title>
+        <id>https://www.quantamagazine.org/?p=165661</id>
+        <link href="https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/"/>
+        <updated>2026-08-12T14:14:42.000Z</updated>
+        <summary type="html"><![CDATA[The math, which combines chaos, quantum theory, and infinitely complex fractal structures, has been called a “foundational result.”             
+The post Graduate Student Proves a Quantum Uncertainty Principle for Fractals first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Shalma Wegsman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Collection of Eclipse Glasses (1793-2019)]]></title>
+        <id>https://kottke.org/26/08/a-collection-of-eclipse-glasses-1793-2019</id>
+        <link href="https://kottke.org/26/08/a-collection-of-eclipse-glasses-1793-2019"/>
+        <updated>2026-08-12T14:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Oh wow, Williams College’s Hopkins Observatory has a huge collection of eclipse glasses & viewers (and other eclipse ephemera), some of them dating back to 1793. Here are a few of my favorites:
+
+
+
+
+
+
+
+
+
+(via present & correct)
+
+ 
+
+        
+         
+Tags: design · eclipses]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stories that the authors of the Bible borrowed from...]]></title>
+        <id>https://kottke.org/26/08/0049479-stories-that-the-authors-</id>
+        <link href="https://kottke.org/26/08/0049479-stories-that-the-authors-"/>
+        <updated>2026-08-12T13:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Stories that the authors of the Bible borrowed from other cultures and religions, including the flood myth, the Garden of Eden, etc. I learned about these in a religion & mythology class in college, which cemented my atheism.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[12aug26]]></title>
         <id>https://warrenellis.ltd/?p=18823</id>
@@ -467,6 +554,18 @@ The post Why Are Rivers So Mathematical? first appeared on Quanta Magazine]]></s
     <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openclaw">openclaw</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Below The Radar  51]]></title>
+        <id>https://www.thewire.co.uk/audio/btr/below-the-radar-51</id>
+        <link href="https://www.thewire.co.uk/audio/btr/below-the-radar-51"/>
+        <updated>2026-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire's subscriber only download compilation includes tracks by Willow Swan & Ellis Berwick, Jemima, ST AGNIS, DJ GAWAD & Pierre Pepe, Trigger Object, Ureuk & The Gypsies, and more
+
+Take out a print or digital subscription to The Wire to stream and download every edition of Below The Radar]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
