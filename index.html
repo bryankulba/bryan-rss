@@ -174,6 +174,37 @@ Tags: jailbreaking, ai, openai, prompt-injection, generative-ai, llms, anthropic
         </div>
       </div>
     </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-11T20:35:13.000Z">2026-08-11</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-upload-dbs 0.5a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-upload-dbs 0.5a0
+This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.
+It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so /name starts serving the new one.
+The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:
+curl -X POST \
+  -H "Authorization: Bearer $API_TOKEN" \
+  -H "Accept: application/json" \
+  -F "db=@content.db" \
+  -F "db_name=content" \
+  https://your-instance.example.com/-/upload-dbs
+
+This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.
+Tags: datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/08/0049445-your-brain-is-a-gambling-">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-11T16:21:00.000Z">2026-08-11</time>
@@ -11309,165 +11340,6 @@ Tags: geology · infoviz · Randall Munroe · xkcd</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049319-ocean-vuong-has-a-photogr">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-13T17:11:00.000Z">2026-07-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th" target="_blank" rel="noopener noreferrer">When A.I. Is a Member of the Family . How a family of...</a>
-          </h2>
-          <p class="feed-item__desc">When A.I. Is a Member of the Family. How a family of three in a Cleveland suburb uses AI chatbots. This is wild.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/the-best-shots-from-the-2026-aerial-photographer-of-the-year-contest">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-13T16:11:00.000Z">2026-07-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/the-best-shots-from-the-2026-aerial-photographer-of-the-year-contest" target="_blank" rel="noopener noreferrer">The Best Shots From the 2026 Aerial Photographer of the Year Contest</a>
-          </h2>
-          <p class="feed-item__desc">The best aerial photography reminds us that we don’t have to go all the way to space to experience a small helping of the overview effect. The 2026 Aerial Photographer of the Year contest celebrates the best photos taken from the air; here are a few of my favorites:
-
-
-
-
-
-
-
-
-Photo credits: 
-Paweł Jagiełło, Ak-Say Canyon, Kyrgyzstan.
-Azim Khan Ronnie, a rowing team in Switzerland.
-Chin Leong Teo, the Park Royal Hotel, Singapore.
-Azim Khan Ronnie, workers harvesting/drying red chili peppers, Bangladesh.
-Savadmon Avalachamveettil, the Kumbh Mela pilgrimage crowd, India.
-Marcin Zając, Golden Gate Bridge, San Francisco.
-Chin Leong Teo, crosswalk in Tokyo.
-Daniel Viñé Garcia, Cono de Arita, Argentina.
-You can see more photos from the winning photographers at the contest’s website, Colossal, PetaPixel, and DIY Photography. (via colossal)
-
- 
-
-        
-         
-Tags: best of · best of 2026 · drones · photography</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/the-best-shots-from-the-2026-aerial-photographer-of-the-year-contest" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/the-best-shots-from-the-2026-aerial-photographer-of-the-year-contest">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1783950611-521bf972.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049316-a-list-of-the-new-foods-o">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-13T15:12:00.000Z">2026-07-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049316-a-list-of-the-new-foods-o" target="_blank" rel="noopener noreferrer">A list of the new foods on offer at the Minnesota State...</a>
-          </h2>
-          <p class="feed-item__desc">A list of the new foods on offer at the Minnesota State Fair this year. They’re all some variation of “jerked pork rolled in butter & sugar, deep fried in dill pickle batter, and served with a side of cheese curd mayo”; I’d happily try any of them.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049316-a-list-of-the-new-foods-o" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049316-a-list-of-the-new-foods-o">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049312-once-unimaginable-publish">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-13T14:27:00.000Z">2026-07-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049312-once-unimaginable-publish" target="_blank" rel="noopener noreferrer">Once Unimaginable, Publishers Are Preparing to Opt Out...</a>
-          </h2>
-          <p class="feed-item__desc">Once Unimaginable, Publishers Are Preparing to Opt Out of Google Search. “We’ve been clear about what we want. We want a technical solution that allows you to be discoverable without having to give your content away for free.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049312-once-unimaginable-publish" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049312-once-unimaginable-publish">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;164112">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-13T14:22:22.000Z">2026-07-13</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/why-am-i-left-handed-20260713/" target="_blank" rel="noopener noreferrer">Why Am I Left-Handed?</a>
-          </h2>
-          <p class="feed-item__desc">An invisible difference in 10% of humans poses deep mysteries in several fields at once.            
-The post Why Am I Left-Handed? first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;164112" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;164112">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/07/QualiaLeftHand-crKristinaArmitage-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-13T13:48:00.000Z">2026-07-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters" target="_blank" rel="noopener noreferrer">Exploring NYC With Next Generation Skaters</a>
-          </h2>
-          <p class="feed-item__desc">This might be my new favorite skate video? It follows a pair of young skaters around the city as they chat about their friendship, share tips about living life, and try skating everything that is even remotely skateable.
-Best friends, Ari and Luca are two of the most promising NYC talents right now. They are consistently street skating, crushing events, and are keeping skateboarding exciting for a generation we seemingly missed.
-If these two stick with it, we have no problem betting that they’ll be the next big names out of the city, and we were lucky enough to catch them right before they arrive.
-
-	
-(via craid mod)
-
- 
-
-        
-         
-Tags: cities · NYC · skateboarding · sports · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/eBtGXMiIj58/sddefault.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

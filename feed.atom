@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-12T01:42:34.256Z</updated>
+    <updated>2026-08-12T05:28:53.198Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -112,6 +112,30 @@ A vanity domain name (<code>stolen-thoughts.com</code>) for <a href="https://www
         <summary type="html"><![CDATA[Good sentence: “The market’s most lavish rewards do not go to its most productive participants, but rather, to those participants who have the good fortune to emerge from the luckiest of orifices.”]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-upload-dbs 0.5a0]]></title>
+        <id>https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything</id>
+        <link href="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything"/>
+        <updated>2026-08-11T20:35:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0">datasette-upload-dbs 0.5a0</a></p>
+        <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p>
+<p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>/name</code> starts serving the new one.</p>
+<p>The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:</p>
+<pre><code>curl -X POST \
+  -H "Authorization: Bearer $API_TOKEN" \
+  -H "Accept: application/json" \
+  -F "db=@content.db" \
+  -F "db_name=content" \
+  https://your-instance.example.com/-/upload-dbs
+</code></pre>
+<p>This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6959,102 +6983,6 @@ Tags: geology · infoviz · Randall Munroe · xkcd]]></summary>
         <link href="https://kottke.org/26/07/0049319-ocean-vuong-has-a-photogr"/>
         <updated>2026-07-13T17:59:00.000Z</updated>
         <summary type="html"><![CDATA[Ocean Vuong has a photograpy show opening at The Wadsworth Museum in Hartford, CT in August. Vuong used “portraiture, landscape, and snapshots to document queer and immigrant life in the Connecticut River Valley over two decades”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When A.I. Is a Member of the Family . How a family of...]]></title>
-        <id>https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th</id>
-        <link href="https://kottke.org/26/07/0049321-when-ai-is-a-member-of-th"/>
-        <updated>2026-07-13T17:11:00.000Z</updated>
-        <summary type="html"><![CDATA[When A.I. Is a Member of the Family. How a family of three in a Cleveland suburb uses AI chatbots. This is wild.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Best Shots From the 2026 Aerial Photographer of the Year Contest]]></title>
-        <id>https://kottke.org/26/07/the-best-shots-from-the-2026-aerial-photographer-of-the-year-contest</id>
-        <link href="https://kottke.org/26/07/the-best-shots-from-the-2026-aerial-photographer-of-the-year-contest"/>
-        <updated>2026-07-13T16:11:00.000Z</updated>
-        <summary type="html"><![CDATA[The best aerial photography reminds us that we don’t have to go all the way to space to experience a small helping of the overview effect. The 2026 Aerial Photographer of the Year contest celebrates the best photos taken from the air; here are a few of my favorites:
-
-
-
-
-
-
-
-
-Photo credits: 
-Paweł Jagiełło, Ak-Say Canyon, Kyrgyzstan.
-Azim Khan Ronnie, a rowing team in Switzerland.
-Chin Leong Teo, the Park Royal Hotel, Singapore.
-Azim Khan Ronnie, workers harvesting/drying red chili peppers, Bangladesh.
-Savadmon Avalachamveettil, the Kumbh Mela pilgrimage crowd, India.
-Marcin Zając, Golden Gate Bridge, San Francisco.
-Chin Leong Teo, crosswalk in Tokyo.
-Daniel Viñé Garcia, Cono de Arita, Argentina.
-You can see more photos from the winning photographers at the contest’s website, Colossal, PetaPixel, and DIY Photography. (via colossal)
-
- 
-
-        
-         
-Tags: best of · best of 2026 · drones · photography]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A list of the new foods on offer at the Minnesota State...]]></title>
-        <id>https://kottke.org/26/07/0049316-a-list-of-the-new-foods-o</id>
-        <link href="https://kottke.org/26/07/0049316-a-list-of-the-new-foods-o"/>
-        <updated>2026-07-13T15:12:00.000Z</updated>
-        <summary type="html"><![CDATA[A list of the new foods on offer at the Minnesota State Fair this year. They’re all some variation of “jerked pork rolled in butter & sugar, deep fried in dill pickle batter, and served with a side of cheese curd mayo”; I’d happily try any of them.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Once Unimaginable, Publishers Are Preparing to Opt Out...]]></title>
-        <id>https://kottke.org/26/07/0049312-once-unimaginable-publish</id>
-        <link href="https://kottke.org/26/07/0049312-once-unimaginable-publish"/>
-        <updated>2026-07-13T14:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Once Unimaginable, Publishers Are Preparing to Opt Out of Google Search. “We’ve been clear about what we want. We want a technical solution that allows you to be discoverable without having to give your content away for free.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Am I Left-Handed?]]></title>
-        <id>https://www.quantamagazine.org/?p=164112</id>
-        <link href="https://www.quantamagazine.org/why-am-i-left-handed-20260713/"/>
-        <updated>2026-07-13T14:22:22.000Z</updated>
-        <summary type="html"><![CDATA[An invisible difference in 10% of humans poses deep mysteries in several fields at once.            
-The post Why Am I Left-Handed? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Natalie Wolchover</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring NYC With Next Generation Skaters]]></title>
-        <id>https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters</id>
-        <link href="https://kottke.org/26/07/exploring-nyc-with-next-generation-skaters"/>
-        <updated>2026-07-13T13:48:00.000Z</updated>
-        <summary type="html"><![CDATA[This might be my new favorite skate video? It follows a pair of young skaters around the city as they chat about their friendship, share tips about living life, and try skating everything that is even remotely skateable.
-Best friends, Ari and Luca are two of the most promising NYC talents right now. They are consistently street skating, crushing events, and are keeping skateboarding exciting for a generation we seemingly missed.
-If these two stick with it, we have no problem betting that they’ll be the next big names out of the city, and we were lucky enough to catch them right before they arrive.
-
-	
-(via craid mod)
-
- 
-
-        
-         
-Tags: cities · NYC · skateboarding · sports · video]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
