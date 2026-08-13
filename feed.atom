@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-13T01:44:24.893Z</updated>
+    <updated>2026-08-13T05:38:30.058Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -69,6 +69,49 @@ Tags: art · Jas Knight · Met Museum · museums · video]]></summary>
         <summary type="html"><![CDATA[Here’s how Rocky’s musical language from the Project Hail Mary movie was created. The filmmakers didn’t “want it to feel like a human language because he’s supposed to be really more musically communicating”.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[alchemy-utils 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Aug/12/alchemy-utils/</id>
+        <link href="https://simonwillison.net/2026/Aug/12/alchemy-utils/"/>
+        <updated>2026-08-12T19:51:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/alchemy-utils/releases/tag/0.1a0">alchemy-utils 0.1a0</a></p>
+        <p>I've long pondered what a database agnostic version of my <a href="https://sqlite-utils.datasette.io/">sqlite-utils</a> Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:</p>
+<blockquote>
+<p><code>Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines</code></p>
+<p><code>Test against PostgreSQL and SQLite and duckdb</code></p>
+<p><code>Use ~/dev/sqlite-utils for reference</code></p>
+<p><code>Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work</code></p>
+</blockquote>
+<p>It took <a href="https://gist.github.com/simonw/bd10e4886688e0fd1b833e4afaabf19e">very few follow-up prompts</a> to produce this project in a state good enough to release as an alpha.</p>
+<p>Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database:</p>
+<p><code>uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog'  redirects_redirect</code></p>
+<p>The output from that starts like this:</p>
+<pre><code>[
+  {
+    "id": 2328,
+    "domain": "simonwillison.net",
+    "path": "2020/May/21/apple-photos-sqlite/",
+    "target": "/2020/May/21/dogsheep-photos/",
+    "created": "2020-05-21T13:03:46.591692-07:00"
+  },
+  {
+    "id": 3,
+    "domain": "feeds.simonwillison.net",
+    "path": "swn-links",
+    "target": "https://simonwillison.net/atom/links/",
+    "created": "2017-10-01T14:12:54.820729-07:00"
+  }
+</code></pre>
+<p>Or if you'd like a DuckDB database with <a href="https://github.com/simonw/sf-tree-history/blob/main/Street_Tree_List.csv">every tree in San Francisco</a>, schema created automatically to match the file:</p>
+<p><code>curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv</code></p>
+<p>(That one took nearly an hour the first time I ran it, so I <a href="https://github.com/simonw/alchemy-utils/commit/e3b8d03e040867b256aeff7db322a0b0eb1f8b06">had Codex optimize it</a> and got it down to around 35 seconds.)</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/databases">databases</a>, <a href="https://simonwillison.net/tags/postgresql">postgresql</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/sqlalchemy">sqlalchemy</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a>, <a href="https://simonwillison.net/tags/duckdb">duckdb</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/codex">codex</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -246,6 +289,16 @@ Tags: design · eclipses]]></summary>
         <summary type="html"><![CDATA[“Widely regarded as the most complicated board game ever made, The Campaign for North Africa tries to simulate WW2’s North African theater in as granular fashion as possible…” 1500 hours to finish the game — that’s 1h20m every day for 3 years.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[ESSAYS] A Swarm of Blood Robots]]></title>
+        <id>https://craigmod.com/essays/robot_blood/</id>
+        <link href="https://craigmod.com/essays/robot_blood/"/>
+        <updated>2026-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The strangest thing I’ve done with an LLM lately is genealogical. I’m adopted. A couple years ago I connected with my birth family. Using details they’ve provided and genetic testing, aided by a swarm of blood robots, I’ve unearthed huge swaths of my history. Ancestry.com hosts extensive databases of: draft cards, Ellis Island arrival documents, marriage and death and birth records, newspaper archives. The monthly fee is hefty, and I’ve never paid for access before because the thought of digging through databases makes me wilt. But Claude could dig, couldn’t it?]]></summary>
+        <author>
+            <name>Craig Mod</name>
         </author>
     </entry>
     <entry>
@@ -7852,67 +7905,6 @@ Community site <a href="https://lobste.rs">Lobsters</a> has been planning a migr
         <link href="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by"/>
         <updated>2026-07-14T18:00:00.000Z</updated>
         <summary type="html"><![CDATA[A short, hypnotic video by Matthew Wilcock of the music generated by a tennis rally at Wimbledon. “Duplicating the players and then using the rhythm of the multiple tennis balls as they cross the pink line to drive the rhythm of the piece.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Swiss project proves the viability of solar panels...]]></title>
-        <id>https://kottke.org/26/07/0049310-placed-in-the-otherwise-u</id>
-        <link href="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u"/>
-        <updated>2026-07-14T17:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Swiss project proves the viability of solar panels placed in the otherwise unused space between railroad tracks.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette 1.0a37]]></title>
-        <id>https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything"/>
-        <updated>2026-07-14T16:31:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a37">datasette 1.0a37</a></p>
-        <p>A minor release. Performance and <a href="https://docs.datasette.io/en/latest/authentication.html#authentication-permissions-explained">documentation</a> improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beautiful Hand-Drawn Guide to The Legend of Zelda]]></title>
-        <id>https://kottke.org/26/07/beautiful-hand-drawn-guide-to-the-legend-of-zelda</id>
-        <link href="https://kottke.org/26/07/beautiful-hand-drawn-guide-to-the-legend-of-zelda"/>
-        <updated>2026-07-14T15:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Philip Summers hand-draws game guides for old school video games. He’s done guides for games like Mega Man, Castlevania, Teenage Mutant Ninja Turtles (NES), and Metroid.
-But my favorite one is The Legend of Zelda game guide because Zelda was (and still is, tbh) my absolute favorite NES game — and you can get it for free at the Internet Archive. Somewhere in my personal archive is the map I drew for the second quest of Zelda; I also still have my original game cartridge.
-
- 
-
-        
-         
-Tags: art · Philip Summers · The Legend of Zelda · video games]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The LGBTQ+ Legislation Tracking Project , tracing &...]]></title>
-        <id>https://kottke.org/26/07/0049328-the-lgbtq-legislation-tra</id>
-        <link href="https://kottke.org/26/07/0049328-the-lgbtq-legislation-tra"/>
-        <updated>2026-07-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The LGBTQ+ Legislation Tracking Project, tracing & visualizing 10,350 LGBTQ+ bills introduced in the US since 2003. Anti-trans bills have dominated since ~2014.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On the Britishisms & grammar imported into American...]]></title>
-        <id>https://kottke.org/26/07/0049324-on-the-britishisms-gramma</id>
-        <link href="https://kottke.org/26/07/0049324-on-the-britishisms-gramma"/>
-        <updated>2026-07-14T14:19:00.000Z</updated>
-        <summary type="html"><![CDATA[On the Britishisms & grammar imported into American English during the World Cup. “That’s not a foul, just a coming together.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

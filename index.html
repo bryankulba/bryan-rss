@@ -130,6 +130,54 @@ Tags: art · Jas Knight · Met Museum · museums · video</p>
         </div>
       </div>
     </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/12/alchemy-utils/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-12T19:51:30.000Z">2026-08-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/12/alchemy-utils/" target="_blank" rel="noopener noreferrer">alchemy-utils 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: alchemy-utils 0.1a0
+I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:
+Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines
+Test against PostgreSQL and SQLite and duckdb
+Use ~/dev/sqlite-utils for reference
+Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work
+It took very few follow-up prompts to produce this project in a state good enough to release as an alpha.
+Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database:
+uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog'  redirects_redirect
+The output from that starts like this:
+[
+  {
+    "id": 2328,
+    "domain": "simonwillison.net",
+    "path": "2020/May/21/apple-photos-sqlite/",
+    "target": "/2020/May/21/dogsheep-photos/",
+    "created": "2020-05-21T13:03:46.591692-07:00"
+  },
+  {
+    "id": 3,
+    "domain": "feeds.simonwillison.net",
+    "path": "swn-links",
+    "target": "https://simonwillison.net/atom/links/",
+    "created": "2017-10-01T14:12:54.820729-07:00"
+  }
+
+Or if you'd like a DuckDB database with every tree in San Francisco, schema created automatically to match the file:
+curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv
+(That one took nearly an hour the first time I ran it, so I had Codex optimize it and got it down to around 35 seconds.)
+Tags: databases, postgresql, projects, python, sql, sqlalchemy, sqlite, sqlite-utils, duckdb, coding-agents, codex</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/12/alchemy-utils/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/12/alchemy-utils/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/08/0049486-im-done-using-ai">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-12T19:29:00.000Z">2026-08-12</time>
@@ -435,6 +483,25 @@ Tags: design · eclipses</p>
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049478-the-most-complicated-boar" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049478-the-most-complicated-boar">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://craigmod.com/essays/robot_blood/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-12T00:00:00.000Z">2026-08-11</time>
+        <span class="feed-item__source">Craig Mod — Writer + Photographer</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://craigmod.com/essays/robot_blood/" target="_blank" rel="noopener noreferrer">[ESSAYS] A Swarm of Blood Robots</a>
+          </h2>
+          <p class="feed-item__desc">The strangest thing I’ve done with an LLM lately is genealogical. I’m adopted. A couple years ago I connected with my birth family. Using details they’ve provided and genetic testing, aided by a swarm of blood robots, I’ve unearthed huge swaths of my history. Ancestry.com hosts extensive databases of: draft cards, Ellis Island arrival documents, marriage and death and birth records, newspaper archives. The monthly fee is hefty, and I’ve never paid for access before because the thought of digging through databases makes me wilt. But Claude could dig, couldn’t it?</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://craigmod.com/essays/robot_blood/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://craigmod.com/essays/robot_blood/">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
           </div>
         </div>
       </div>
@@ -12460,113 +12527,6 @@ Tags: ai, software-engineering, llms, coding-agents, ai-assisted-programming, ge
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049338-a-short-hypnotic-video-by">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-14T17:02:00.000Z">2026-07-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u" target="_blank" rel="noopener noreferrer">Swiss project proves the viability of solar panels...</a>
-          </h2>
-          <p class="feed-item__desc">Swiss project proves the viability of solar panels placed in the otherwise unused space between railroad tracks.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049310-placed-in-the-otherwise-u">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-14T16:31:41.000Z">2026-07-14</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything" target="_blank" rel="noopener noreferrer">datasette 1.0a37</a>
-          </h2>
-          <p class="feed-item__desc">Release: datasette 1.0a37
-A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break.
-Tags: datasette</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/beautiful-hand-drawn-guide-to-the-legend-of-zelda">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-14T15:50:00.000Z">2026-07-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/beautiful-hand-drawn-guide-to-the-legend-of-zelda" target="_blank" rel="noopener noreferrer">Beautiful Hand-Drawn Guide to The Legend of Zelda</a>
-          </h2>
-          <p class="feed-item__desc">Philip Summers hand-draws game guides for old school video games. He’s done guides for games like Mega Man, Castlevania, Teenage Mutant Ninja Turtles (NES), and Metroid.
-But my favorite one is The Legend of Zelda game guide because Zelda was (and still is, tbh) my absolute favorite NES game — and you can get it for free at the Internet Archive. Somewhere in my personal archive is the map I drew for the second quest of Zelda; I also still have my original game cartridge.
-
- 
-
-        
-         
-Tags: art · Philip Summers · The Legend of Zelda · video games</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/beautiful-hand-drawn-guide-to-the-legend-of-zelda" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/beautiful-hand-drawn-guide-to-the-legend-of-zelda">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1783954965-0fcec29d.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049328-the-lgbtq-legislation-tra">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-14T15:00:00.000Z">2026-07-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049328-the-lgbtq-legislation-tra" target="_blank" rel="noopener noreferrer">The LGBTQ+ Legislation Tracking Project , tracing &amp;...</a>
-          </h2>
-          <p class="feed-item__desc">The LGBTQ+ Legislation Tracking Project, tracing & visualizing 10,350 LGBTQ+ bills introduced in the US since 2003. Anti-trans bills have dominated since ~2014.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049328-the-lgbtq-legislation-tra" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049328-the-lgbtq-legislation-tra">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049324-on-the-britishisms-gramma">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-14T14:19:00.000Z">2026-07-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049324-on-the-britishisms-gramma" target="_blank" rel="noopener noreferrer">On the Britishisms &amp; grammar imported into American...</a>
-          </h2>
-          <p class="feed-item__desc">On the Britishisms & grammar imported into American English during the World Cup. “That’s not a foul, just a coming together.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049324-on-the-britishisms-gramma" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049324-on-the-britishisms-gramma">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
           </div>
         </div>
       </div>
