@@ -251,6 +251,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/supersonic-trebuchet",
+          "author": null,
+          "description": "Ok so when you woke up this morning, you probably didn’t expect to watch a 20-minute video about a trebuchet — but to be fair, I didn’t either. But Tom Stanton’s build of a fully mechanical trebuchet that propels a tiny plastic pellet faster than the speed of sound (complete with tiny sonic boom) is genuinely fascinating to watch.\nHe starts with a basic plan, but as he builds & tests, there are all sorts of problems (weight, strength) that he needs to overcome. The final product is impressive, but it’s the process that’s most interesting to me. What a gift these sorts of videos are…you could sometimes find process-heavy shows on PBS (like How to Create a Junk Food) when I was a kid, but if I’d had access to stuff like the supersonic trebuchet video (and all those Lego engineering videos), I’d have probably wanted to grow up to be an engineer.\n\n \n\n        \n         \nTags: engineering · how to · Tom Stanton · video",
+          "link": "https://kottke.org/26/08/supersonic-trebuchet",
+          "publishedOn": "2026-08-13T16:47:00.000Z",
+          "wordCount": 818,
+          "title": "Supersonic Trebuchet",
+          "imageUrl": "https://i.ytimg.com/vi/Co57SfcT-h0/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/08/0049492-a-swarm-of-blood-robots",
+          "author": null,
+          "description": "Craig Mod wrote about his recent adventures using LLMs: A Swarm of Blood Robots. “I now have a comprehensive family tree, naming the very boats my Italian and Polish ancestors came over on in the late 1800s, the villages a few came from…”",
+          "link": "https://kottke.org/26/08/0049492-a-swarm-of-blood-robots",
+          "publishedOn": "2026-08-13T16:12:00.000Z",
+          "wordCount": 757,
+          "title": "Craig Mod wrote about his recent adventures using LLMs:...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049489-eigendrum",
+          "author": null,
+          "description": "“Draw any shape and hear it as a drum.” Eigendrum: a drum simulator where you can change the shape of the drum to see how it affects the sound it makes.",
+          "link": "https://kottke.org/26/08/0049489-eigendrum",
+          "publishedOn": "2026-08-13T15:47:00.000Z",
+          "wordCount": 770,
+          "title": "&#8220;Draw any shape and hear it as a drum.&#8221;...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g",
+          "author": null,
+          "description": "G.P.S. and the Lost Art of Getting Lost. “G.P.S. has also led us to outsource existential skills: locating yourself in space, parsing out your surroundings, staying calm when you don’t know where you are. Do we lose something when we no longer get lost?”",
+          "link": "https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g",
+          "publishedOn": "2026-08-13T14:59:00.000Z",
+          "wordCount": 1745,
+          "title": "G.P.S. and the Lost Art of Getting Lost . &#8220;G.P.S....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049485-are-being-solved-by-llms",
+          "author": null,
+          "description": "Some of the most storied problems in mathematics, those posed by Paul Erdős, are being solved by LLMs.",
+          "link": "https://kottke.org/26/08/0049485-are-being-solved-by-llms",
+          "publishedOn": "2026-08-13T13:55:00.000Z",
+          "wordCount": 633,
+          "title": "Some of the most storied problems in mathematics, those...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/the-art-of-the-copyist",
           "author": null,
           "description": "Lovely short video about artist Jas Knight, who is a participant in the Met Museum’s Copyist Program:\nThe Copyist Program offers time and space for artists to develop their own interpretation of an artwork through intimate study in the Museum’s galleries. Copyists have created reinterpretations of original artworks in The Met collection since 1872.\n\n\t\nHere’s Knight from the video, in which he is copying Diego Velázquez’s Juan de Pareja:\nAlmost every artist was a copyist up until the 20th century because as a painter you would go through certain exercises to learn how to paint. You haven’t begun to see a painting until you’ve copied it.\n\n\t\nAnd I especially liked this bit:\nVelázquez’s brain is on that canvas. So we’re encountering a person’s brain that doesn’t exist anymore when we’re looking at a painting by them. I’m literally interacting with Velázquez.\n\n\t\nIn a piece about Harold Fisk’s Mississippi meander maps, I wrote about art as a time machine:\nIt takes some imagination, but standing before a painting by Hilma af Klint, a sculpture by Bernini, or a cave painting in Chauvet, France draws you back in time in a powerful way: you know you’re standing precisely where those artists stood hundreds or even thousands of years ago, laying paint to surface or chisel to stone. Even experiencing art through prints or photographs leads the mind to consider all the cultural, political, technological, and economic things that were happening when the work was produced. Art is a doorway to past worlds.\n\n\t\nYou can see Knight’s copy of Velázquez’s Juan de Pareja and compare it with the original. (via the kid should see this)\n\n \n\n        \n         \nTags: art · Jas Knight · Met Museum · museums · video",
@@ -2302,6 +2352,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18825",
+          "author": "Warren Ellis",
+          "description": "We stood outside on the street and watched the eclipse. We were the only ones out there. It was glorious. That moment when there’s a…",
+          "link": "https://warrenellis.ltd/status/13aug26/",
+          "publishedOn": "2026-08-13T13:56:20.000Z",
+          "wordCount": 1527,
+          "title": "13aug26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1785-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18823",
           "author": "Warren Ellis",
@@ -4599,6 +4659,16 @@
       "feedUrl": "https://disjunctionsmag.com/rss",
       "siteUrl": "https://disjunctionsmag.com",
       "articles": [
+        {
+          "id": "https://disjunctionsmag.com/articles/raytheon-university",
+          "author": null,
+          "description": "University funding agreement for Raytheon sponsored research: IP-011 (10/22)",
+          "link": "https://disjunctionsmag.com/articles/raytheon-university",
+          "publishedOn": "2026-08-13T00:00:00.000Z",
+          "wordCount": 11609,
+          "title": "Raytheon University",
+          "imageUrl": "https://disjunctionsmag.com/_astro/hughes-tucson.BPXMQNHR.jpg"
+        },
         {
           "id": "https://disjunctionsmag.com/articles/logic-and-labour",
           "author": null,

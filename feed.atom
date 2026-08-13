@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-13T13:03:21.443Z</updated>
+    <updated>2026-08-13T16:54:17.126Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Supersonic Trebuchet]]></title>
+        <id>https://kottke.org/26/08/supersonic-trebuchet</id>
+        <link href="https://kottke.org/26/08/supersonic-trebuchet"/>
+        <updated>2026-08-13T16:47:00.000Z</updated>
+        <summary type="html"><![CDATA[Ok so when you woke up this morning, you probably didn’t expect to watch a 20-minute video about a trebuchet — but to be fair, I didn’t either. But Tom Stanton’s build of a fully mechanical trebuchet that propels a tiny plastic pellet faster than the speed of sound (complete with tiny sonic boom) is genuinely fascinating to watch.
+He starts with a basic plan, but as he builds & tests, there are all sorts of problems (weight, strength) that he needs to overcome. The final product is impressive, but it’s the process that’s most interesting to me. What a gift these sorts of videos are…you could sometimes find process-heavy shows on PBS (like How to Create a Junk Food) when I was a kid, but if I’d had access to stuff like the supersonic trebuchet video (and all those Lego engineering videos), I’d have probably wanted to grow up to be an engineer.
+
+ 
+
+        
+         
+Tags: engineering · how to · Tom Stanton · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Craig Mod wrote about his recent adventures using LLMs:...]]></title>
+        <id>https://kottke.org/26/08/0049492-a-swarm-of-blood-robots</id>
+        <link href="https://kottke.org/26/08/0049492-a-swarm-of-blood-robots"/>
+        <updated>2026-08-13T16:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Craig Mod wrote about his recent adventures using LLMs: A Swarm of Blood Robots. “I now have a comprehensive family tree, naming the very boats my Italian and Polish ancestors came over on in the late 1800s, the villages a few came from…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;Draw any shape and hear it as a drum.&#8221;...]]></title>
+        <id>https://kottke.org/26/08/0049489-eigendrum</id>
+        <link href="https://kottke.org/26/08/0049489-eigendrum"/>
+        <updated>2026-08-13T15:47:00.000Z</updated>
+        <summary type="html"><![CDATA[“Draw any shape and hear it as a drum.” Eigendrum: a drum simulator where you can change the shape of the drum to see how it affects the sound it makes.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[G.P.S. and the Lost Art of Getting Lost . &#8220;G.P.S....]]></title>
+        <id>https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g</id>
+        <link href="https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g"/>
+        <updated>2026-08-13T14:59:00.000Z</updated>
+        <summary type="html"><![CDATA[G.P.S. and the Lost Art of Getting Lost. “G.P.S. has also led us to outsource existential skills: locating yourself in space, parsing out your surroundings, staying calm when you don’t know where you are. Do we lose something when we no longer get lost?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[13aug26]]></title>
+        <id>https://warrenellis.ltd/?p=18825</id>
+        <link href="https://warrenellis.ltd/status/13aug26/"/>
+        <updated>2026-08-13T13:56:20.000Z</updated>
+        <summary type="html"><![CDATA[We stood outside on the street and watched the eclipse. We were the only ones out there. It was glorious. That moment when there’s a…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some of the most storied problems in mathematics, those...]]></title>
+        <id>https://kottke.org/26/08/0049485-are-being-solved-by-llms</id>
+        <link href="https://kottke.org/26/08/0049485-are-being-solved-by-llms"/>
+        <updated>2026-08-13T13:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Some of the most storied problems in mathematics, those posed by Paul Erdős, are being solved by LLMs.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Untitled]]></title>
         <id>https://brucesterling.tumblr.com/post/824831391994871808</id>
@@ -35,6 +102,16 @@
 OK, so I need to retract something from the previous Roden sent just a couple weeks back. The weather in Japan, in AUGUST, has been … SOMEWHAT SANE? A series of typhoons — some glancing off Japan, others smacking it — has dropped the humidity, made temperatures livable, and cooled the evenings. Well, at least for a few days. We’ll see what torment next week brings. But: just making note of this miraculous Summer Weather Development. (Meanwhile, Europe broils.)]]></summary>
         <author>
             <name>Craig Mod</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raytheon University]]></title>
+        <id>https://disjunctionsmag.com/articles/raytheon-university</id>
+        <link href="https://disjunctionsmag.com/articles/raytheon-university"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[University funding agreement for Raytheon sponsored research: IP-011 (10/22)]]></summary>
+        <author>
+            <name>Disjunctions Magazine</name>
         </author>
     </entry>
     <entry>
