@@ -70,6 +70,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/dream-machines/",
+          "author": null,
+          "description": "<p>AT LAST, HE PODCASTS! <a href=\"https://www.robinsloan.com/lab/dream-machines/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/dream-machines/",
+          "publishedOn": "2026-08-14T10:00:00.000Z",
+          "wordCount": 4861,
+          "title": "Dragoncatcher: Dream Machines revs up",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/cove-feeds/",
           "author": null,
           "description": "<p>Oh hello there! <a href=\"https://www.robinsloan.com/lab/cove-feeds/\">Read here.</a></p>",
@@ -270,6 +280,16 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/08/0049496-tressie-mcmillan-cottom-o",
+          "author": null,
+          "description": "Tressie McMillan Cottom on AOC’s presumed presidential run. “But these are different times. Ocasio-Cortez is a different woman, and Americans love to turn to women when the house is burning down.”",
+          "link": "https://kottke.org/26/08/0049496-tressie-mcmillan-cottom-o",
+          "publishedOn": "2026-08-14T13:57:43.000Z",
+          "wordCount": 632,
+          "title": "Tressie McMillan Cottom on AOC’s presumed presidential...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/08/open-thread-for-august-2026",
           "author": null,
@@ -2333,6 +2353,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18832",
+          "author": "Warren Ellis",
+          "description": "It is fiercely hot. I won’t be heading out for a while. I also have a mead delivery on the way from Horns Of Odin.…",
+          "link": "https://warrenellis.ltd/status/14aug26/",
+          "publishedOn": "2026-08-14T13:59:22.000Z",
+          "wordCount": 1246,
+          "title": "14aug26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1826-scaled.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18825",
           "author": "Warren Ellis",
           "description": "We stood outside on the street and watched the eclipse. We were the only ones out there. It was glorious. That moment when there’s a…",
@@ -4362,6 +4392,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=165293",
+          "author": "Ingrid Wickelgren",
+          "description": "By deciphering the molecular signatures of millions of mouse cells, Junyue Cao has found that aging is not haphazard wear and tear but rather a “remodeling of the cell society.”            \nThe post Why Aging May Be a Program, Not a Breakdown first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+          "publishedOn": "2026-08-14T13:10:26.000Z",
+          "wordCount": 3283,
+          "title": "Why Aging May Be a Program, Not a Breakdown",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/cropped-Junyue-Cao-cr-Karan-Dias-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=165661",
           "author": "Shalma Wegsman",
