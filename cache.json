@@ -251,6 +251,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/open-thread-for-august-2026",
+          "author": null,
+          "description": "We haven’t done an open thread for awhile, so… What have you been working on? How are you feeling? What’s on your mind these days? What’s the best thing you’ve seen this week? Have you called a plumber to your home lately? \nAre you new here? Introduce yourself if you feel like it. Heck, if you’re a regular commenter, reintroduce yourself if you’d like.\n\n \n\n        \n         \nTags: kottke.org · open threads",
+          "link": "https://kottke.org/26/08/open-thread-for-august-2026",
+          "publishedOn": "2026-08-13T20:41:00.000Z",
+          "wordCount": 4525,
+          "title": "Open Thread for August 2026",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049493-contiguous-us-breaks-its-",
           "author": null,
           "description": "NOAA: Contiguous US Breaks Its Record for Hottest Month Ever. “It’s not good when you’re breaking records from the Dust Bowl…” (This record will be broken several more times in the decades to come.)",
@@ -3015,6 +3025,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p>\n        <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p>\n<pre><code>from typing_extensions import Self\n</code></pre>\n<p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils</code> - it was installed by one of the other dependencies in the <a href=\"https://github.com/simonw/sqlite-utils/blob/56dd09702fdb9e899f577ffd51693c1f2176cb08/pyproject.toml#L34-L55\">dev dependency group</a>, but when you <code>uvx sqlite-utils</code> directly you don't get those dependencies.</p>\n<p>As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:</p>\n<pre><code>uv run --isolated --no-default-groups sqlite-utils --help\n</code></pre>\n<p>The <code>--no-default-groups</code> argument prevents it from installing that default <code>dev</code> group, and <code>--isolated</code> means that even if there is a <code>.venv/</code> folder containing extra dependencies they will be ignored for the duration of that <code>uv run</code> command.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+          "publishedOn": "2026-08-13T23:53:47.000Z",
+          "wordCount": 895,
+          "title": "sqlite-utils 4.2.1",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2\">sqlite-utils 4.2</a></p>\n        <p>Lots of improvements in this one relating to the <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table\">table.transform() feature</a>, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.</p>\n<p><code>transform()</code> now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns.</p>\n<p>There are also <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#checks\">new introspection properties</a> for check constraints, and a whole lot of other smaller changes.</p>\n<p>Includes contributions from <a href=\"https://github.com/bunlongheng\">Bunlong Heng</a>, <a href=\"https://github.com/ethanhawkes-gif\">ethanhawkes-gif</a>, <a href=\"https://github.com/RamiNoodle733\">Rami Abdelrazzaq</a>, <a href=\"https://github.com/nyxst4ck\">nyxst4ck</a>, and <a href=\"https://github.com/ikatyal2110\">ikatyal2110</a>.</p>\n<p>(It later turned out 4.2 had <a href=\"https://github.com/simonw/sqlite-utils/issues/842\">a crashing bug</a>, fixed in <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-2-1\">4.2.1</a>.)</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/releases\">releases</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+          "publishedOn": "2026-08-13T20:11:29.000Z",
+          "wordCount": 856,
+          "title": "sqlite-utils 4.2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a1\">alchemy-utils 0.1a1</a></p>\n        <p>Performance boost for DuckDB exports and CSV imports, <a href=\"https://simonwillison.net/2026/Aug/12/alchemy-utils/\">see here</a>.</p>",
+          "link": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+          "publishedOn": "2026-08-13T03:03:17.000Z",
+          "wordCount": 758,
+          "title": "alchemy-utils 0.1a1",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
           "author": null,

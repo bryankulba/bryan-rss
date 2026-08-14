@@ -35,6 +35,85 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-13T23:53:47.000Z">2026-08-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/" target="_blank" rel="noopener noreferrer">sqlite-utils 4.2.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: sqlite-utils 4.2.1
+Fixes a crashing bug in sqlite-utils 4.2. I'd introduced code that looks like this:
+from typing_extensions import Self
+
+It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group, but when you uvx sqlite-utils directly you don't get those dependencies.
+As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:
+uv run --isolated --no-default-groups sqlite-utils --help
+
+The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependencies they will be ignored for the duration of that uv run command.
+Tags: packaging, python, sqlite-utils, uv</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/08/open-thread-for-august-2026">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-13T20:41:00.000Z">2026-08-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/08/open-thread-for-august-2026" target="_blank" rel="noopener noreferrer">Open Thread for August 2026</a>
+          </h2>
+          <p class="feed-item__desc">We haven’t done an open thread for awhile, so… What have you been working on? How are you feeling? What’s on your mind these days? What’s the best thing you’ve seen this week? Have you called a plumber to your home lately? 
+Are you new here? Introduce yourself if you feel like it. Heck, if you’re a regular commenter, reintroduce yourself if you’d like.
+
+ 
+
+        
+         
+Tags: kottke.org · open threads</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/open-thread-for-august-2026" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/open-thread-for-august-2026">Mark read</button>
+            <span class="feed-item__reading-time">15 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/13/sqlite-utils/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-13T20:11:29.000Z">2026-08-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/13/sqlite-utils/" target="_blank" rel="noopener noreferrer">sqlite-utils 4.2</a>
+          </h2>
+          <p class="feed-item__desc">Release: sqlite-utils 4.2
+Lots of improvements in this one relating to the table.transform() feature, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.
+transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns.
+There are also new introspection properties for check constraints, and a whole lot of other smaller changes.
+Includes contributions from Bunlong Heng, ethanhawkes-gif, Rami Abdelrazzaq, nyxst4ck, and ikatyal2110.
+(It later turned out 4.2 had a crashing bug, fixed in 4.2.1.)
+Tags: releases, sqlite, sqlite-utils</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/13/sqlite-utils/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/13/sqlite-utils/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/08/0049493-contiguous-us-breaks-its-">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-13T20:01:00.000Z">2026-08-13</time>
@@ -263,6 +342,26 @@ Tags: engineering · how to · Tom Stanton · video</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!bQ_C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb233d997-a9c5-4df9-938d-da3972a083c2_1833x2393.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/13/alchemy-utils/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-13T03:03:17.000Z">2026-08-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/13/alchemy-utils/" target="_blank" rel="noopener noreferrer">alchemy-utils 0.1a1</a>
+          </h2>
+          <p class="feed-item__desc">Release: alchemy-utils 0.1a1
+Performance boost for DuckDB exports and CSV imports, see here.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/13/alchemy-utils/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/13/alchemy-utils/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
         </div>
       </div>
     </article>
