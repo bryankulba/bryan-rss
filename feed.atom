@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-15T12:31:49.774Z</updated>
+    <updated>2026-08-15T16:20:43.680Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[*How has it come to this, one wonders]]></title>
+        <id>https://brucesterling.tumblr.com/post/825028657292673024</id>
+        <link href="https://brucesterling.tumblr.com/post/825028657292673024"/>
+        <updated>2026-08-15T15:44:00.000Z</updated>
+        <summary type="html"><![CDATA[*How has it come to this, one wonders]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: The new funnel, part 2]]></title>
+        <id>https://www.robinsloan.com/lab/ai-funnel-2/</id>
+        <link href="https://www.robinsloan.com/lab/ai-funnel-2/"/>
+        <updated>2026-08-15T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>The LLM sent me. <a href="https://www.robinsloan.com/lab/ai-funnel-2/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Northern Gannet]]></title>
         <id>https://simonwillison.net/2026/Aug/15/sighting-391300422/</id>
@@ -7435,22 +7455,6 @@ The post Martin Picard’s Mitochondrial Theory of Mind first appeared on Quanta
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spot birds not golf]]></title>
-        <id>https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything"/>
-        <updated>2026-07-17T02:58:07.000Z</updated>
-        <summary type="html"><![CDATA[<p>Suggestion for hyperscalers feeling pressure over data center water use:</p>
-<p>Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby!</p>
-<p>Google <a href="https://sustainability.google/reports/google-2026-environmental-report/">used 10.9 billion gallons in 2025</a>, so about 30 million gallons per day.</p>
-<p>The Coachella Valley has <a href="https://www.cvwd.org/167/Water-Conservation">120 golf courses each using ~800 acre-feet per year</a>,  which is ~750,000 gallons per day.</p>
-<p>So Google buying up 40 of those courses (1/3) should do the trick.</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-energy-usage">ai-energy-usage</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
