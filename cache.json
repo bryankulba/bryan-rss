@@ -2638,16 +2638,6 @@
           "wordCount": 2713,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/c907ead4f24cba05d917fd6ae17eb83a/f5840cfa70257c61-7c/s500x750/fcf19bf549071ff214c189b935a0d6e3350ea066.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/822294453093040128",
-          "author": null,
-          "description": "Meanwhile, in the free-market USA of 1887",
-          "link": "https://brucesterling.tumblr.com/post/822294453093040128",
-          "publishedOn": "2026-07-16T11:25:00.000Z",
-          "wordCount": 2883,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/9af32cba7b4c82f3eb3212772f8de4dc/9ffd1fd48a060dc0-e7/s1280x1920/fdc103d03f229c875e51f26fe4d5023fcb8ee03e.jpg"
         }
       ]
     },
@@ -2815,22 +2805,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!Cy3v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8485fdf0-1c21-45fb-89b6-d14f4b8fc2dc_1588x1728.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/what-a-city-needs-to-be-truly-up-antwerp-cool-city-guide",
-          "author": "Blackbird Spyplane",
-          "description": "Robust civic-swag indicators, some of the world's best clothes, & more in our new favorite place: Antwerp",
-          "link": "https://www.blackbirdspyplane.com/p/what-a-city-needs-to-be-truly-up-antwerp-cool-city-guide",
-          "publishedOn": "2026-07-16T11:04:03.000Z",
-          "wordCount": null,
-          "title": "What your city needs to be truly \"up\"",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!WsxC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe788d1b0-4099-4fe4-95b3-6eeed403cc41_1588x1934.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!WsxC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe788d1b0-4099-4fe4-95b3-6eeed403cc41_1588x1934.png"
         }
       ]
     },
@@ -3005,6 +2979,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don&#x27;t classify. Hallucinate!</a></strong></p>\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p>\n<p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!</p>\n<p>His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:</p>\n<blockquote>\n<p><code>Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.</code></p>\n<p><code>Product classifications might look like:</code></p>\n<p><code>Furniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables</code><br>\n<code>Décor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows</code><br>\n<code>Furniture / Bedroom Furniture / Dressers &amp; Chests</code><br>\n<code>Kitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters</code><br>\n<code>School Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs</code><br>\n<code>Baby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds</code></p>\n<p><code>Here's the query to generate classifications for:</code></p>\n<p><code>brown coffee table</code></p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/search\">search</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/embeddings\">embeddings</a>, <a href=\"https://simonwillison.net/tags/doug-turnbull\">doug-turnbull</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+          "publishedOn": "2026-08-14T21:54:35.000Z",
+          "wordCount": 961,
+          "title": "Don't classify. Hallucinate!",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
           "author": null,
