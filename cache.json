@@ -2488,16 +2488,6 @@
           "wordCount": 2934,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/818b9297786e269586304fccbefe910f/b1833c2792d12d12-10/s500x750/f143ef1af38d4b41deb2d0f4890708bc42a5a0c7.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/822448923819081728",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/822448923819081728",
-          "publishedOn": "2026-07-18T04:20:15.000Z",
-          "wordCount": null,
-          "title": "Untitled",
-          "imageUrl": null
         }
       ]
     },
@@ -2506,6 +2496,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/the-dream-of-the-90s-vintage-store",
+          "author": "Blackbird Spyplane",
+          "description": "Is back. Plus Art Brut ceramics, chain-mail swag, and new fall pieces from independent designers",
+          "link": "https://www.blackbirdspyplane.com/p/the-dream-of-the-90s-vintage-store",
+          "publishedOn": "2026-08-16T12:31:02.000Z",
+          "wordCount": null,
+          "title": "The dream of the '90s vintage store",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!6Y_t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed04f2cf-ed45-46b8-9420-9cd241391446_2000x2135.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!6Y_t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed04f2cf-ed45-46b8-9420-9cd241391446_2000x2135.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies",
           "author": "Blackbird Spyplane",
@@ -2829,6 +2835,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/darioamodei/status/2088758819304443967\"><p>I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is <em>actually curing cancer</em>.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/darioamodei/status/2088758819304443967\">Dario Amodei</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-backlash\">ai-backlash</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+          "publishedOn": "2026-08-16T15:05:36.000Z",
+          "wordCount": 911,
+          "title": "Quoting Dario Amodei",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/15/cors-chat/",
           "author": null,
