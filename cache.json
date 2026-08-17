@@ -1965,6 +1965,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=13182",
+          "author": "Cory Doctorow",
+          "description": "Today's links Jennifer Jenkins' 'Music Copyright, Creativity, and Culture': The definitive textbook (with comics!). Hey look at this: Delights to delectate. Object permanence: Hair-gel bombers v bras; Hair-gel bombers v chemistry; AOL digs for spammer's platinum; Stross on infosec in 2061; In-game Ponzi; Snowden on Shadow Brokers hack; Life v understanding advanced math; \"Greatest of Marlys!\"; Housing and precarity; LLMs as slot-machines for coders; Hypercard's backstory; Pirate Party; Fanbois' mental health v critics; Krugman calls for alien invasion; Trump x Serbian genocidaires; The last Sandman Slim; Muphry’s Law; NSA created the Shadow Brokers; DOJ kills private prisons; Walmart externalizes crime; \"Sgt Augmento\"; Zuckermuskian solipsism. Upcoming appearances: Sydney, Melbourne, Brigh…",
+          "link": "https://pluralistic.net/2026/08/17/great-sousas-ghost/",
+          "publishedOn": "2026-08-17T07:00:08.000Z",
+          "wordCount": 3478,
+          "title": "Pluralistic: Jennifer Jenkins' 'Music Copyright, Creativity, and Culture' (17 Aug 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=13171",
           "author": "Cory Doctorow",
           "description": "Today's links Capital formation: Going legit means going mainstream. Hey look at this: Delights to delectate. Object permanence: London Copyfighters x Speaker's Corner; TSA v lipstick; Long Beach v photographers; China x David Cameron's internet censorship; McMansion Hell; Copyrighting an MTG deck; \"Privacy preserving age verification\" delenda est. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Capital formation (permalink) Funny thing about competition: there's both a pro-market and an anti-market case for a competitive system. https://pluralistic.net/2026/08/13/one-chokable-throat/#too…",
@@ -2192,6 +2202,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=18836",
+          "author": "Warren Ellis",
+          "description": "Imagine a story where the events in our lives that happen online are never depicted or mentioned. A day would seem twelve hours long and…",
+          "link": "https://warrenellis.ltd/status/17aug26/",
+          "publishedOn": "2026-08-17T12:01:34.000Z",
+          "wordCount": 1690,
+          "title": "17aug26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1725-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=18832",
           "author": "Warren Ellis",
@@ -4054,16 +4074,6 @@
           "wordCount": 907,
           "title": "Claude Code uses Bun written in Rust now",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/sqlite-query-explainer\">SQLite Query Explainer</a></p>\n        <p>Julia Evan's, in <a href=\"https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/\">Learning a few things about running SQLite</a>:</p>\n<blockquote>\n<p>Maybe one day I’ll learn to read a query plan.</p>\n</blockquote>\n<p>Big same.... which inspired me to <a href=\"https://github.com/simonw/tools/pull/299#issue-4919268017\">have Fable build</a> this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN.</p>\n<p>Approach with caution, since I don't know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/julia-evans\">julia-evans</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
-          "publishedOn": "2026-07-18T17:19:10.000Z",
-          "wordCount": 886,
-          "title": "SQLite Query Explainer",
-          "imageUrl": null
         }
       ]
     },
@@ -4410,6 +4420,16 @@
       "feedUrl": "http://www.antipope.org/charlie/blog-static/atom.xml",
       "siteUrl": "http://www.antipope.org/charlie/blog-static/",
       "articles": [
+        {
+          "id": "http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html",
+          "author": null,
+          "description": "The Regicide Report came out in January 2026. Traditionally I wait for the paperback before writing one of these spoiler-laden crib sheets, but there won't be a US paperback edition and the UK one isn't until the end of the...",
+          "link": "http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html",
+          "publishedOn": "2026-08-17T12:28:06.000Z",
+          "wordCount": 2253,
+          "title": "Crib sheet: The Regicide Report",
+          "imageUrl": null
+        },
         {
           "id": "http://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
           "author": null,

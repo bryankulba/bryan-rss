@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-17T04:38:08.504Z</updated>
+    <updated>2026-08-17T12:37:53.983Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Crib sheet: The Regicide Report]]></title>
+        <id>http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html</id>
+        <link href="http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html"/>
+        <updated>2026-08-17T12:28:06.000Z</updated>
+        <summary type="html"><![CDATA[The Regicide Report came out in January 2026. Traditionally I wait for the paperback before writing one of these spoiler-laden crib sheets, but there won't be a US paperback edition and the UK one isn't until the end of the...]]></summary>
+        <author>
+            <name>Charlie's Diary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[17aug26]]></title>
+        <id>https://warrenellis.ltd/?p=18836</id>
+        <link href="https://warrenellis.ltd/status/17aug26/"/>
+        <updated>2026-08-17T12:01:34.000Z</updated>
+        <summary type="html"><![CDATA[Imagine a story where the events in our lives that happen online are never depicted or mentioned. A day would seem twelve hours long and…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Jennifer Jenkins' 'Music Copyright, Creativity, and Culture' (17 Aug 2026)]]></title>
+        <id>https://pluralistic.net/?p=13182</id>
+        <link href="https://pluralistic.net/2026/08/17/great-sousas-ghost/"/>
+        <updated>2026-08-17T07:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Jennifer Jenkins' 'Music Copyright, Creativity, and Culture': The definitive textbook (with comics!). Hey look at this: Delights to delectate. Object permanence: Hair-gel bombers v bras; Hair-gel bombers v chemistry; AOL digs for spammer's platinum; Stross on infosec in 2061; In-game Ponzi; Snowden on Shadow Brokers hack; Life v understanding advanced math; "Greatest of Marlys!"; Housing and precarity; LLMs as slot-machines for coders; Hypercard's backstory; Pirate Party; Fanbois' mental health v critics; Krugman calls for alien invasion; Trump x Serbian genocidaires; The last Sandman Slim; Muphry’s Law; NSA created the Shadow Brokers; DOJ kills private prisons; Walmart externalizes crime; "Sgt Augmento"; Zuckermuskian solipsism. Upcoming appearances: Sydney, Melbourne, Brigh…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Markdown SVG upgrades]]></title>
         <id>https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/</id>
@@ -7558,25 +7588,6 @@ src/bundler/bundle_v2.rs
 <p>It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, "Boring is good".</p>
 
     <p>Tags: <a href="https://simonwillison.net/tags/bun">bun</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/jarred-sumner">jarred-sumner</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQLite Query Explainer]]></title>
-        <id>https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything"/>
-        <updated>2026-07-18T17:19:10.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/sqlite-query-explainer">SQLite Query Explainer</a></p>
-        <p>Julia Evan's, in <a href="https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/">Learning a few things about running SQLite</a>:</p>
-<blockquote>
-<p>Maybe one day I’ll learn to read a query plan.</p>
-</blockquote>
-<p>Big same.... which inspired me to <a href="https://github.com/simonw/tools/pull/299#issue-4919268017">have Fable build</a> this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN.</p>
-<p>Approach with caution, since I don't know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/julia-evans">julia-evans</a>, <a href="https://simonwillison.net/tags/pyodide">pyodide</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
