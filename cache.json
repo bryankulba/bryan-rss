@@ -281,6 +281,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049501-sand-temperatures-above-2",
+          "author": null,
+          "description": "“Sand temperatures above 29°C now produce 95–99% female sea turtles instead of the historical 50–50 ratio, creating a reproductive bottleneck that could collapse populations within two generations.”",
+          "link": "https://kottke.org/26/08/0049501-sand-temperatures-above-2",
+          "publishedOn": "2026-08-17T19:33:00.000Z",
+          "wordCount": 748,
+          "title": "&#8220; Sand temperatures above 29°C now produce 95–99%...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049430-came-away-with-seven-less",
+          "author": null,
+          "description": "A.J. Jacobs recently interviewed “the Papa Bear of Puzzling”, Will Shortz and came away with seven lessons he learned from him. “Creativity is usually more about evolution than revolution.”",
+          "link": "https://kottke.org/26/08/0049430-came-away-with-seven-less",
+          "publishedOn": "2026-08-17T18:43:00.000Z",
+          "wordCount": 742,
+          "title": "A.J. Jacobs recently interviewed &#8220;the Papa Bear of...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049491-unwinding-the-great-tech-",
+          "author": null,
+          "description": "Unwinding the Great Tech Power Grab. “If tech seeks to replace democratic governance itself, then the response has to be more democracy, not less.” Lots of related links in this piece too.",
+          "link": "https://kottke.org/26/08/0049491-unwinding-the-great-tech-",
+          "publishedOn": "2026-08-17T17:33:00.000Z",
+          "wordCount": 804,
+          "title": "Unwinding the Great Tech Power Grab . “If tech seeks to...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049499-ordinary-abundance",
           "author": null,
           "description": "We live in a world of ordinary abundance & luxuries only dreamed of in centuries past: music on demand, photographs, books, eyeglasses, refrigeration, vaccination, bicycles, and the washing machine.",
@@ -4113,16 +4143,6 @@
           "publishedOn": "2026-07-20T03:47:59.000Z",
           "wordCount": 820,
           "title": "Quoting Sam Altman",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p>\nHere's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources.</p>\n<blockquote>\n<p>In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI.</p>\n</blockquote>\n<p>Here's a report from an engineer at a company with a token leaderboard:</p>\n<blockquote>\n<p>Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job.</p>\n</blockquote>\n<p>I particularly enjoyed this report of a conversation with a skeptical executive at an over-enthusiastic company:</p>\n<blockquote>\n<p>I asked <em>why</em> this was being repeated without opposition. Was it just sales fluff?</p>\n<p>The answer was a lot more interesting. It was <em>partially</em> ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their <em>customers</em> were saying absurd things about achieving 100x productivity, and this meant that if any executive at the <em>vendor</em> said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48964185\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-          "publishedOn": "2026-07-19T05:06:21.000Z",
-          "wordCount": 1009,
-          "title": "AI Mania Is Eviscerating Global Decision-Making",
           "imageUrl": null
         }
       ]
