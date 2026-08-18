@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-17T20:22:38.554Z</updated>
+    <updated>2026-08-18T01:03:32.612Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index]]></title>
+        <id>https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</id>
+        <link href="https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"/>
+        <updated>2026-08-17T23:58:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://artificialanalysis.ai/models/qwen3-8-27b">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>
+That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.</p>
+<p>Qwen 3.8 27B is <a href="https://simonwillison.net/2026/Aug/16/qwen-38-27b/">a truly astonishing model</a>.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49334544">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/artificial-analysis">artificial-analysis</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ticking over]]></title>
+        <id>https://www.thingsmagazine.net/?p=21201</id>
+        <link href="https://www.thingsmagazine.net/ticking-over/"/>
+        <updated>2026-08-17T20:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Two great stories from The Londonder: Falling Standards: How Evgeny Lebedev saved – then sank – London’s newspaper and an exploration of the Heygate, London’s lost Brutalist estate / a huge repository of live music at Moshpit (via Paste Magazine) … Continue reading →]]></summary>
+        <author>
+            <name>things magazine</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220; Sand temperatures above 29°C now produce 95–99%...]]></title>
         <id>https://kottke.org/26/08/0049501-sand-temperatures-above-2</id>
@@ -7648,26 +7675,6 @@ Then, Odysseus returns with the r…]]></summary>
     <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/sam-altman">sam-altman</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19jul26]]></title>
-        <id>https://warrenellis.ltd/?p=18699</id>
-        <link href="https://warrenellis.ltd/status/19jul26/"/>
-        <updated>2026-07-19T11:15:52.000Z</updated>
-        <summary type="html"><![CDATA[I grew lilies. I have a whole new, and hopefully long-term, plan for the garden, and am looking at an autumn/winter of being outside with…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The looting of science fiction ⊗ We’ve been here before]]></title>
-        <id>6a5a8a562666d70001a40174</id>
-        <link href="https://sentiers.media/the-looting-of-science-fiction-weve-been-here-before-no-412/"/>
-        <updated>2026-07-19T10:00:42.000Z</updated>
-        <summary type="html"><![CDATA[No.412 — Techno-negativity ⊗ Billionaire derangement ⊗ The march to Stop the AI Race ⊗ Losing the ability to discover ⊗ How to talk about “AI” ⊗ Underwater kites]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
 </feed>

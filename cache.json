@@ -4,18 +4,7 @@
       "title": "Sentiers",
       "feedUrl": "https://sentiers.media/rss/",
       "siteUrl": "https://sentiers.media/",
-      "articles": [
-        {
-          "id": "6a5a8a562666d70001a40174",
-          "author": "Patrick Tanguay",
-          "description": "No.412 — Techno-negativity ⊗ Billionaire derangement ⊗ The march to Stop the AI Race ⊗ Losing the ability to discover ⊗ How to talk about “AI” ⊗ Underwater kites",
-          "link": "https://sentiers.media/the-looting-of-science-fiction-weve-been-here-before-no-412/",
-          "publishedOn": "2026-07-19T10:00:42.000Z",
-          "wordCount": 2942,
-          "title": "The looting of science fiction ⊗ We’ve been here before",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/size/w1200/2026/07/buckminster_fuller-institute-w.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Interconnected",
@@ -2391,16 +2380,6 @@
           "wordCount": 1451,
           "title": "morning computer summer",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/aerialphotog-14.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18699",
-          "author": "Warren Ellis",
-          "description": "I grew lilies. I have a whole new, and hopefully long-term, plan for the garden, and am looking at an autumn/winter of being outside with…",
-          "link": "https://warrenellis.ltd/status/19jul26/",
-          "publishedOn": "2026-07-19T11:15:52.000Z",
-          "wordCount": 1437,
-          "title": "19jul26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/IMG_1643.jpg"
         }
       ]
     },
@@ -2935,6 +2914,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.</p>\n<p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishing model</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49334544\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+          "publishedOn": "2026-08-17T23:58:14.000Z",
+          "wordCount": 809,
+          "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
           "author": null,
@@ -4217,7 +4206,18 @@
       "title": "things magazine",
       "feedUrl": "http://www.thingsmagazine.net/feed/",
       "siteUrl": "https://www.thingsmagazine.net",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.thingsmagazine.net/?p=21201",
+          "author": "things magazine",
+          "description": "Two great stories from The Londonder: Falling Standards: How Evgeny Lebedev saved – then sank – London’s newspaper and an exploration of the Heygate, London’s lost Brutalist estate / a huge repository of live music at Moshpit (via Paste Magazine) … Continue reading →",
+          "link": "https://www.thingsmagazine.net/ticking-over/",
+          "publishedOn": "2026-08-17T20:26:00.000Z",
+          "wordCount": 3352,
+          "title": "Ticking over",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "fo.am weblog feed",
