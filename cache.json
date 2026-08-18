@@ -59,6 +59,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/jarvising/",
+          "author": null,
+          "description": "<p>You do have to actually make something. <a href=\"https://www.robinsloan.com/lab/jarvising/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/jarvising/",
+          "publishedOn": "2026-08-18T10:00:00.000Z",
+          "wordCount": 4881,
+          "title": "Dragoncatcher: Jarvising",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/ai-funnel-2/",
           "author": null,
           "description": "<p>The LLM sent me. <a href=\"https://www.robinsloan.com/lab/ai-funnel-2/\">Read here.</a></p>",
@@ -269,6 +279,56 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/08/ring-of-fire-in-the-sky",
+          "author": null,
+          "description": "Portuguese photographer Rui Santos captured this shot of the recent solar eclipse.\n\nStunning. Here’s what makes this shot look a little different from other eclipse photos; from APOD:\nUsually the solar corona appears white, and to some observers the corona of last week’s total solar eclipse did appear this pearly color. But this time, totality observers in Spain saw a corona that appeared unusually golden. For one reason, from Spain, the totality occurred when the setting Sun was near the horizon. That low, sunlight travels through a large amount of air which scatters out blue light. An unusual amount of smoke in the air from nearby forest fires acted as a second filter, further scattering the remaining blue tones and deepening the already gold-dominated light.\n\n \n\n        \n         \nTags: 2026 solar eclipse · astronomy · eclipses · photography · Rui Santos · Sun",
+          "link": "https://kottke.org/26/08/ring-of-fire-in-the-sky",
+          "publishedOn": "2026-08-18T19:48:00.000Z",
+          "wordCount": 798,
+          "title": "Ring of Fire in the Sky",
+          "imageUrl": "http://kottke.org/plus/misc/images/editor-1787075314-53a10d96.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/08/0049508-how-to-make-a-good-star-w",
+          "author": null,
+          "description": "How to make a good Star Wars movie for once. “Stop making stuff that’s so self referential and start focusing on projects that once again are bringing things from the outside and putting them in a Star Wars container.” Fan service is bad storytelling.",
+          "link": "https://kottke.org/26/08/0049508-how-to-make-a-good-star-w",
+          "publishedOn": "2026-08-18T19:00:00.000Z",
+          "wordCount": 774,
+          "title": "How to make a good Star Wars movie for once ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049507-a-trailer-for-season-2-of",
+          "author": null,
+          "description": "And also a trailer for season 2 of Star Wars: Ahsoka. Huh. Lots of Anakin, but where are the space whales?",
+          "link": "https://kottke.org/26/08/0049507-a-trailer-for-season-2-of",
+          "publishedOn": "2026-08-18T18:15:00.000Z",
+          "wordCount": 628,
+          "title": "And also  a trailer for season 2 of Star Wars: Ahsoka ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049506-trailer-for-visionquest",
+          "author": null,
+          "description": "Trailer for VisionQuest, the third leg of the Wanda/Vision/Agatha trilogy. Huh. “Ultron! Human avatars only!”",
+          "link": "https://kottke.org/26/08/0049506-trailer-for-visionquest",
+          "publishedOn": "2026-08-18T17:25:00.000Z",
+          "wordCount": 591,
+          "title": "Trailer for VisionQuest , the third leg of the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049505-this-years-harvest-set-a-",
+          "author": null,
+          "description": "In Bourgogne, they’ve been recording grape date harvests since 1354. This year’s harvest set a record for earliest start: Aug 8. “From 1354 to 1987 the average start was 28 September. Since 1988 it runs 13 days earlier.”",
+          "link": "https://kottke.org/26/08/0049505-this-years-harvest-set-a-",
+          "publishedOn": "2026-08-18T16:35:00.000Z",
+          "wordCount": 755,
+          "title": "In Bourgogne, they’ve been recording grape date harvests...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/08/0049504-post-pandemic-vaccination",
           "author": null,
@@ -2420,16 +2480,6 @@
           "wordCount": 1365,
           "title": "20jul26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/IMG_1651.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18696",
-          "author": "Warren Ellis",
-          "description": "Good morning sinners. My problem, apparently, is that I’m interested in too many things. In fact, someone made a point of writing to my office…",
-          "link": "https://warrenellis.ltd/mc/morning-computer-summer/",
-          "publishedOn": "2026-07-20T08:00:00.000Z",
-          "wordCount": 1451,
-          "title": "morning computer summer",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/aerialphotog-14.jpg"
         }
       ]
     },
