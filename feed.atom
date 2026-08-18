@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-18T12:38:55.071Z</updated>
+    <updated>2026-08-18T16:27:46.855Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Post-pandemic vaccination rates of US kindergarteners...]]></title>
+        <id>https://kottke.org/26/08/0049504-post-pandemic-vaccination</id>
+        <link href="https://kottke.org/26/08/0049504-post-pandemic-vaccination"/>
+        <updated>2026-08-18T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Post-pandemic vaccination rates of US kindergarteners continue to fall and “nonmedical exemptions” based on “personal or religious beliefs” jumped 0.8% in just 1 year.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Whoa, Columbia House (12 cassettes for 1¢) is  finally...]]></title>
+        <id>https://kottke.org/26/08/0049503-finally-going-out-of-busi</id>
+        <link href="https://kottke.org/26/08/0049503-finally-going-out-of-busi"/>
+        <updated>2026-08-18T14:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Whoa, Columbia House (12 cassettes for 1¢) is finally going out of business after 71 years and several pivots (records to reel-to-reel to 8-tracks to cassettes to CDs to VHS to DVDs to Blu-ray).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: IP can't save you from AI (18 Aug 2026)]]></title>
+        <id>https://pluralistic.net/?p=13191</id>
+        <link href="https://pluralistic.net/2026/08/18/enron-corpus/"/>
+        <updated>2026-08-18T14:48:19.000Z</updated>
+        <summary type="html"><![CDATA[Today's links IP can't save you from AI: Property rights cannot substitute for labor rights and privacy rights. Hey look at this: Delights to delectate. Object permanence: Flying Brits v brown people; Probability neglect; Law v "enhanced patdowns"; Onion says Brits love paywalls; "Hench"; "Lessons in Magic and Disaster." Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. IP can't save you from AI (permalink) You don't have to believe that AI "art" is any good (I don't), nor do you have to believe that AI "art" can be any good (I don't) to understand that the reason that the capital markets are putting …]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The area known as Tornado Alley continues to shift...]]></title>
+        <id>https://kottke.org/26/08/0049502-the-area-known-as-tornado</id>
+        <link href="https://kottke.org/26/08/0049502-the-area-known-as-tornado"/>
+        <updated>2026-08-18T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The area known as Tornado Alley continues to shift eastward (from Texas, Oklahoma, and Kansas to Illinois, Indiana, and Wisconsin) due to “a warming climate that helps transport warmer and more-humid air farther north and east than in the past”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[18aug26]]></title>
         <id>https://warrenellis.ltd/?p=18843</id>
@@ -64,6 +104,16 @@
 *Still alive to this very day, by all appearances]]></summary>
         <author>
             <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[August 2026]]></title>
+        <id>https://maggieappleton.com/now-2026-08/</id>
+        <link href="https://maggieappleton.com/now-2026-08/"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Maggie's digital garden filled with visual essays on programming, design, and anthropology]]></summary>
+        <author>
+            <name>Maggie Appleton</name>
         </author>
     </entry>
     <entry>
@@ -7722,19 +7772,6 @@ Then, Odysseus returns with the r…]]></summary>
         <summary type="html"><![CDATA[Good morning sinners. My problem, apparently, is that I’m interested in too many things. In fact, someone made a point of writing to my office…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Sam Altman]]></title>
-        <id>https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"/>
-        <updated>2026-07-20T03:47:59.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/techemails/status/2078854346683678927"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/techemails/status/2078854346683678927">Sam Altman</a>, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/sam-altman">sam-altman</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>

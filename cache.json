@@ -270,6 +270,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049504-post-pandemic-vaccination",
+          "author": null,
+          "description": "Post-pandemic vaccination rates of US kindergarteners continue to fall and “nonmedical exemptions” based on “personal or religious beliefs” jumped 0.8% in just 1 year.",
+          "link": "https://kottke.org/26/08/0049504-post-pandemic-vaccination",
+          "publishedOn": "2026-08-18T15:45:00.000Z",
+          "wordCount": 616,
+          "title": "Post-pandemic vaccination rates of US kindergarteners...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049503-finally-going-out-of-busi",
+          "author": null,
+          "description": "Whoa, Columbia House (12 cassettes for 1¢) is finally going out of business after 71 years and several pivots (records to reel-to-reel to 8-tracks to cassettes to CDs to VHS to DVDs to Blu-ray).",
+          "link": "https://kottke.org/26/08/0049503-finally-going-out-of-busi",
+          "publishedOn": "2026-08-18T14:50:00.000Z",
+          "wordCount": 1012,
+          "title": "Whoa, Columbia House (12 cassettes for 1¢) is  finally...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049502-the-area-known-as-tornado",
+          "author": null,
+          "description": "The area known as Tornado Alley continues to shift eastward (from Texas, Oklahoma, and Kansas to Illinois, Indiana, and Wisconsin) due to “a warming climate that helps transport warmer and more-humid air farther north and east than in the past”.",
+          "link": "https://kottke.org/26/08/0049502-the-area-known-as-tornado",
+          "publishedOn": "2026-08-18T14:00:00.000Z",
+          "wordCount": 768,
+          "title": "The area known as Tornado Alley continues to shift...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049501-sand-temperatures-above-2",
           "author": null,
           "description": "“Sand temperatures above 29°C now produce 95–99% female sea turtles instead of the historical 50–50 ratio, creating a reproductive bottleneck that could collapse populations within two generations.”",
@@ -2023,6 +2053,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13191",
+          "author": "Cory Doctorow",
+          "description": "Today's links IP can't save you from AI: Property rights cannot substitute for labor rights and privacy rights. Hey look at this: Delights to delectate. Object permanence: Flying Brits v brown people; Probability neglect; Law v \"enhanced patdowns\"; Onion says Brits love paywalls; \"Hench\"; \"Lessons in Magic and Disaster.\" Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. IP can't save you from AI (permalink) You don't have to believe that AI \"art\" is any good (I don't), nor do you have to believe that AI \"art\" can be any good (I don't) to understand that the reason that the capital markets are putting …",
+          "link": "https://pluralistic.net/2026/08/18/enron-corpus/",
+          "publishedOn": "2026-08-18T14:48:19.000Z",
+          "wordCount": 4904,
+          "title": "Pluralistic: IP can't save you from AI (18 Aug 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13182",
           "author": "Cory Doctorow",
@@ -4179,16 +4219,6 @@
           "wordCount": 930,
           "title": "Who’s Afraid of Chinese Models?",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/techemails/status/2078854346683678927\">Sam Altman</a>, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/sam-altman\">sam-altman</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
-          "publishedOn": "2026-07-20T03:47:59.000Z",
-          "wordCount": 820,
-          "title": "Quoting Sam Altman",
-          "imageUrl": null
         }
       ]
     },
@@ -4223,7 +4253,18 @@
       "title": "Maggie Appleton",
       "feedUrl": "https://maggieappleton.com/rss.xml",
       "siteUrl": "https://maggieappleton.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://maggieappleton.com/now-2026-08/",
+          "author": null,
+          "description": "Maggie's digital garden filled with visual essays on programming, design, and anthropology",
+          "link": "https://maggieappleton.com/now-2026-08/",
+          "publishedOn": "2026-08-18T00:00:00.000Z",
+          "wordCount": 1410,
+          "title": "August 2026",
+          "imageUrl": "https://maggieappleton.com/og/now-2026-08.png"
+        }
+      ]
     },
     {
       "title": "Stories by Dan Hill on Medium",
