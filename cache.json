@@ -280,6 +280,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049511-the-scientist-who-lived-w",
+          "author": null,
+          "description": "This is a wild story: The Scientist Who Lived with Dozens of Children from the Pacific Islands. “I realized I’m in the middle of a pedophile operation that has been run out of the N.I.H. by a Nobel laureate for thirty years.”",
+          "link": "https://kottke.org/26/08/0049511-the-scientist-who-lived-w",
+          "publishedOn": "2026-08-18T21:25:00.000Z",
+          "wordCount": 676,
+          "title": "This is a wild story:  The Scientist Who Lived with...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049510-wildfire-smoke-may-affect",
+          "author": null,
+          "description": "“Scientists have found that people are being exposed to more toxins than previously known, and beyond damaging lungs, wildfire smoke may affect hearts, brains and other organs.” (Research is preliminary & ongoing but sheesh…)",
+          "link": "https://kottke.org/26/08/0049510-wildfire-smoke-may-affect",
+          "publishedOn": "2026-08-18T20:34:00.000Z",
+          "wordCount": 631,
+          "title": "&#8220;Scientists have found that people are being...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/ring-of-fire-in-the-sky",
           "author": null,
           "description": "Portuguese photographer Rui Santos captured this shot of the recent solar eclipse.\n\nStunning. Here’s what makes this shot look a little different from other eclipse photos; from APOD:\nUsually the solar corona appears white, and to some observers the corona of last week’s total solar eclipse did appear this pearly color. But this time, totality observers in Spain saw a corona that appeared unusually golden. For one reason, from Spain, the totality occurred when the setting Sun was near the horizon. That low, sunlight travels through a large amount of air which scatters out blue light. An unusual amount of smoke in the air from nearby forest fires acted as a second filter, further scattering the remaining blue tones and deepening the already gold-dominated light.\n\n \n\n        \n         \nTags: 2026 solar eclipse · astronomy · eclipses · photography · Rui Santos · Sun",
@@ -2470,16 +2490,6 @@
           "wordCount": 1231,
           "title": "morning computer, Remedios Varo",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/the-souls-of-the-mountain.jpgLarge.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18704",
-          "author": "Warren Ellis",
-          "description": "Wearing a Victor Victoria shirt from the Nineties and a Swatch Metropolis from the Eighties and accepting that all this is “vintage,” not “last year.”…",
-          "link": "https://warrenellis.ltd/status/20jul26/",
-          "publishedOn": "2026-07-20T12:20:56.000Z",
-          "wordCount": 1365,
-          "title": "20jul26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/IMG_1651.jpg"
         }
       ]
     },
@@ -3060,6 +3070,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p>\nMojo🔥 is now open source</p>\n<p>The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p>\n<p>When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed <a href=\"https://forum.modular.com/t/mojo-vision-document-and-roadmap/2187\">around August 2025</a>:</p>\n<blockquote>\n<p>Mojo may or may not evolve into a full superset of Python, and it’s okay if it doesn’t.</p>\n<p>We’re encouraged by how well AI-assisted coding tools already help migrate Python to Mojo today, and we’re confident that future tooling and ecosystem maturity will make this evolution even smoother.</p>\n</blockquote>\n<p>Today Mojo is its own language, optimized to make GPU programming as painless as possible using syntax inspired by Python, if not 100% compatible with existing code.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/01lxuf/mojo_is_now_open_source\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/mojo\">mojo</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+          "publishedOn": "2026-08-18T21:39:20.000Z",
+          "wordCount": 890,
+          "title": "Mojo🔥 is now open source",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
           "author": null,
