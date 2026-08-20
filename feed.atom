@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-20T16:31:42.437Z</updated>
+    <updated>2026-08-20T20:24:40.222Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Analysts Warn U.S. Economy Becoming Overly Dependent On...]]></title>
+        <id>https://kottke.org/26/08/0049515-analysts-warn-us-economy-</id>
+        <link href="https://kottke.org/26/08/0049515-analysts-warn-us-economy-"/>
+        <updated>2026-08-20T19:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Analysts Warn U.S. Economy Becoming Overly Dependent On Anne Hathaway. “We estimate that Anne Hathaway films currently account for a staggering 63% of all U.S. exports.” Zendaya is the other 37%.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When you take screenshots of posts in iOS social apps...]]></title>
+        <id>https://kottke.org/26/08/0049514-they-use-this-little-tric</id>
+        <link href="https://kottke.org/26/08/0049514-they-use-this-little-tric"/>
+        <updated>2026-08-20T16:59:00.000Z</updated>
+        <summary type="html"><![CDATA[When you take screenshots of posts in iOS social apps like Bluesky or Threads, they use this little trick to replace the “Follow” button with the app’s logo.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220;All our neighbors worked for those firms —...]]></title>
         <id>https://kottke.org/26/08/0049513-none-of-them-would-let-th</id>
@@ -7437,16 +7457,6 @@ Tags: Brian Eno]]></summary>
         <summary type="html"><![CDATA[Today's links Trump's America can't even win a rigged game: America has created a post-American world. Hey look at this: Delights to delectate. Object permanence: "Fagin"; Scott McCloud on comics' future; Laurie Penny on Milo Yiannopoulos; Singaporean regulator rap; Conservatives as bitter rubes. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trump's America can't even win a rigged game (permalink) Here's a sentence that stopped me in my tracks last week: "The statement that 'the cemeteries are full of indispensable people' is just as true of nations, and in particular the US": https://c…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[morning computer, Remedios Varo]]></title>
-        <id>https://warrenellis.ltd/?p=18710</id>
-        <link href="https://warrenellis.ltd/status/morning-computer-remedios-varo/"/>
-        <updated>2026-07-22T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Remedios Varo. Remedios Varo Uranga was one of the few acknowledged female surrealist painters of the first half of the 20th century. She defied the…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
