@@ -1838,46 +1838,6 @@
           "wordCount": 776,
           "title": "The trailer for Behemoth! , a forthcoming film written...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049356-on-the-use-of-ai-for-crea",
-          "author": null,
-          "description": "On the use of AI for creative work (type design in this case). “A tool that shields us from the friction of the work is compelling, but if we don’t experience the friction, we will never change the work.”",
-          "link": "https://kottke.org/26/07/0049356-on-the-use-of-ai-for-crea",
-          "publishedOn": "2026-07-21T16:22:00.000Z",
-          "wordCount": 678,
-          "title": "On the use of AI for creative work  (type design in this...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/no-cgi-is-really-just-invisible-cgi",
-          "author": null,
-          "description": "Mission Impossible. Oppenheimer. F1. The Odyssey. Top Gun: Maverick. Mad Max: Fury Road. Inception. Dune. Filmmakers and studios who make movies like these love to emphasize their heavy use of practical effects, i.e. real cars jumping real bridges or real people hanging off of real airplanes. “No CGI”, they say, despite the hundreds of names in the visual effects section of the films’ credits.\nIn his six-part series, Jonas Ussing, who co-owns a visual effects studio in Denmark, takes a look at these “No CGI” films and shows us just how much digital graphical effects goes into them. For instance, did you know that every single flying jet in Top Gun: Maverick, a movie we were assured was all practical effects, was built with CGI? Take a look:\n\nHis latest video is all about Christopher Nolan:\n\nI’ve only watched bits and pieces of these videos so far (the Nolan one is 71 minutes long), but when ILM’s Todd Vaziri says something film-related is good, it’s good.\n\n \n\n        \n         \nTags: cgi · film school · Jonas Ussing · movies · video",
-          "link": "https://kottke.org/26/07/no-cgi-is-really-just-invisible-cgi",
-          "publishedOn": "2026-07-21T15:10:00.000Z",
-          "wordCount": 1470,
-          "title": "“No CGI” Is Really Just Invisible CGI",
-          "imageUrl": "https://i.ytimg.com/vi/7ttG90raCNo/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/07/0049357-the-official-trailer-for-",
-          "author": null,
-          "description": "The official trailer for Avengers: Doomsday. They’ve gotten (some of) the band back together — perhaps this will be a return to form for Marvel?",
-          "link": "https://kottke.org/26/07/0049357-the-official-trailer-for-",
-          "publishedOn": "2026-07-21T14:20:00.000Z",
-          "wordCount": 631,
-          "title": "The official trailer for Avengers: Doomsday . They’ve...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049352-hitler-and-stalin-today",
-          "author": null,
-          "description": "New lecture series from authoritarianism scholar Timothy Snyder: Hitler and Stalin Today. “The course begins with the colonial background that made totalitarianism possible, and which remains an essential element of our politics now.”",
-          "link": "https://kottke.org/26/07/0049352-hitler-and-stalin-today",
-          "publishedOn": "2026-07-21T13:40:00.000Z",
-          "wordCount": 625,
-          "title": "New lecture series from authoritarianism scholar Timothy...",
-          "imageUrl": ""
         }
       ]
     },
@@ -4182,16 +4142,6 @@
           "publishedOn": "2026-07-21T19:51:03.000Z",
           "wordCount": 696,
           "title": "California Sea Lion",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://blaizzy.github.io/nativ/\">Nativ: Run AI models locally on your Mac</a></strong></p>\nPrince Canuma is the developer behind the excellent <a href=\"https://github.com/Blaizzy/mlx-vlm\">MLX-VLM</a> Python library for running vision-LLMs using MLX on a Mac.</p>\n<p>I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models.</p>\n<p>The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48982681\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/macos\">macos</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/mlx\">mlx</a>, <a href=\"https://simonwillison.net/tags/prince-canuma\">prince-canuma</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-          "publishedOn": "2026-07-21T14:22:27.000Z",
-          "wordCount": 850,
-          "title": "Nativ: Run AI models locally on your Mac",
           "imageUrl": null
         }
       ]
