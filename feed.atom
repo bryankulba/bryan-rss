@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-20T04:33:57.541Z</updated>
+    <updated>2026-08-20T12:41:50.846Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Your private shame becomes public]]></title>
+        <id>https://www.blackbirdspyplane.com/p/your-private-shame-is-public</id>
+        <link href="https://www.blackbirdspyplane.com/p/your-private-shame-is-public"/>
+        <updated>2026-08-20T11:03:21.000Z</updated>
+        <summary type="html"><![CDATA[Plus spicy footwear, new natty-dye shirts, a studio visit with a very sick sculptor, chill floating Chinese rappers and more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[smolmachines / smolvm as a sandbox for untrusted Python & JavaScript]]></title>
         <id>https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/</id>
@@ -7386,74 +7396,6 @@ Tags: Brian Eno]]></summary>
         <summary type="html"><![CDATA[Remedios Varo. Remedios Varo Uranga was one of the few acknowledged female surrealist painters of the first half of the 20th century. She defied the…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elephants May Hear Ground Vibrations Through Their...]]></title>
-        <id>https://kottke.org/26/07/0049353-elephants-may-hear-ground</id>
-        <link href="https://kottke.org/26/07/0049353-elephants-may-hear-ground"/>
-        <updated>2026-07-21T21:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Elephants May Hear Ground Vibrations Through Their Bones, Helping Them to Communicate Over 6 Miles. “Studying elephant hearing isn’t as simple as asking an elephant to wear headphones…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[California Sea Lion]]></title>
-        <id>https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything"/>
-        <updated>2026-07-21T19:51:03.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/702321069/large.jpg" alt="California Sea Lion"></p><p><img src="https://static.inaturalist.org/photos/702321114/large.jpg" alt="California Sea Lion"></p><p>California Sea Lion, in San Francisco County, US, CA</p><p>We took some visiting family to Pier 39 to see the sea lions. They're somehow always even fun than I remember them being last time.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/san-francisco">san-francisco</a>, <a href="https://simonwillison.net/tags/wildlife">wildlife</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’m a Scholar of Genocide. We’re Entering a Terrifying...]]></title>
-        <id>https://kottke.org/26/07/0049361-im-a-scholar-of-genocide-</id>
-        <link href="https://kottke.org/26/07/0049361-im-a-scholar-of-genocide-"/>
-        <updated>2026-07-21T19:23:00.000Z</updated>
-        <summary type="html"><![CDATA[I’m a Scholar of Genocide. We’re Entering a Terrifying New Era. “It is a future in which other nations or leaders may have an incentive to pursue genocidal policies knowing they will not only get away with murder but may even benefit from it.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What to Read & Listen to After Seeing The Odyssey]]></title>
-        <id>https://kottke.org/26/07/what-to-read-listen-to-after-seeing-the-odyssey</id>
-        <link href="https://kottke.org/26/07/what-to-read-listen-to-after-seeing-the-odyssey"/>
-        <updated>2026-07-21T17:57:00.000Z</updated>
-        <summary type="html"><![CDATA[I’m currently doing the thing I do after seeing a movie (The Odyssey) I really enjoyed or found interesting: digging into related media. Yesterday I had an hour in the car, so I listened to this episode of The Daily podcast with Madeline Miller and Emily Wilson.
-I think it’s quite odd to think that one book or one translation erases the others. I mean, if people prefer some other translation or if people want to read the Greek, I would love for them to do that. I think it’s great. I have no desire to legislate about which versions of “The Odyssey,” or of any ancient text, people want to engage with. So I think there’s something quite strange about the idea that the canon doesn’t have room for many, many different interpretations, translations, engagements, reinventions.
-
-	
-I’ve also flagge…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYT on how Google’s AI search is hurting the open web]]></title>
-        <id>https://waxy.org/?p=51052</id>
-        <link href="https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html?unlocked_article_code=1.zVA.A1LZ.AwMkNDLrNcPc&amp;smid=url-share"/>
-        <updated>2026-07-21T17:24:04.000Z</updated>
-        <summary type="html"><![CDATA[starving websites big and small of search traffic while regurgitating their information for profit
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The trailer for Behemoth! , a forthcoming film written...]]></title>
-        <id>https://kottke.org/26/07/0049359-the-trailer-for-behemoth</id>
-        <link href="https://kottke.org/26/07/0049359-the-trailer-for-behemoth"/>
-        <updated>2026-07-21T17:03:00.000Z</updated>
-        <summary type="html"><![CDATA[The trailer for Behemoth!, a forthcoming film written and directed by Tony Gilroy (Michael Clayton, Andor) and starring Pedro Pascal & Olivia Wilde. Great trailer: it pulls you in without revealing anything about the plot.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
