@@ -280,6 +280,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049519-cookbooking-a-fans-guide",
+          "author": null,
+          "description": "What a great idea for a book: Cookbooking: A Fan’s Guide. “An eclectic, visually stunning pop-history, Cookbooking explores the most influential and beloved cookbooks through photographs, listicles, graphics, and snappy writing.”",
+          "link": "https://kottke.org/26/08/0049519-cookbooking-a-fans-guide",
+          "publishedOn": "2026-08-21T15:56:00.000Z",
+          "wordCount": 926,
+          "title": "What a great idea for a book:  Cookbooking: A Fan&#8217;s...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049518-the-principal-aim-of-pres",
           "author": null,
           "description": "“The principal aim of President Trump’s second term is revenge,” says Jamelle Bouie.  “Revenge shapes the president’s priorities, drives his actions and structures the decisions of his government.”",
@@ -2891,6 +2901,26 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p>\nThomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p>\n<p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>, and I'm still using both of those on a daily basis.</p>\n<p>I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!</p>\n<p>Thomas:</p>\n<blockquote>\n<p>If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+          "publishedOn": "2026-08-21T16:07:32.000Z",
+          "wordCount": 867,
+          "title": "Stop Making TUIs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+          "author": null,
+          "description": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p>\n<p>So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://interconnected.org/home/2026/08/21/galactic\">Matt Webb</a>, Galactic Compass 2: now with new augmented reality mode</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/matt-webb\">matt-webb</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/education\">education</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+          "publishedOn": "2026-08-21T15:06:26.000Z",
+          "wordCount": 815,
+          "title": "Quoting Matt Webb",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
           "author": null,
           "description": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p>\nPromptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p>\n<p>The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products.</p>\n<p>Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month:</p>\n<blockquote>\n<p>The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8.</p>\n</blockquote>\n<p>It's important to note that these figures only reflect the prompts for which they have automated tracking enabled.</p>\n<p>This corresponds to OpenAI's somewhat vague <a href=\"https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/\">August 6th announcement</a>:</p>\n<blockquote>\n<p>For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers.</p>\n</blockquote>\n<p>Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like <code>search(query, recency, domains)</code> rather than encouraging a <code>site:</code> operator directly.</p>\n<p>In <a href=\"https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt\">a follow-up</a> on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the <a href=\"https://github.com/asgeirtj/system_prompts_leaks/commits/main/OpenAI\">most thorough leaked system prompt</a> collection I know of doesn't yet show any relevant changes.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reddit\">reddit</a>, <a href=\"https://simonwillison.net/tags/seo\">seo</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-search\">ai-assisted-search</a>, <a href=\"https://simonwillison.net/tags/system-prompts\">system-prompts</a></p>",
@@ -4177,6 +4207,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=166010",
+          "author": "Max G. Levy",
+          "description": "For the first time in 30 years, computer scientists have found a better way to allocate objects evenly between two groups.            \nThe post ‘Huge Breakthrough’ in the Math of Imbalance first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/",
+          "publishedOn": "2026-08-21T14:53:32.000Z",
+          "wordCount": 3312,
+          "title": "‘Huge Breakthrough’ in the Math of Imbalance",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Vector-tugofwar-cr-Ada-Zejun-Shen-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=165961",
           "author": "Steven Strogatz and Janna Levin",
