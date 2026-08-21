@@ -280,6 +280,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049521-walking-the-length-of-man",
+          "author": null,
+          "description": "Walking the Length of Manhattan. I did this, solo, right before I moved out of NYC. Loved it. Will do it again someday.",
+          "link": "https://kottke.org/26/08/0049521-walking-the-length-of-man",
+          "publishedOn": "2026-08-21T17:48:00.000Z",
+          "wordCount": 1011,
+          "title": "Walking the Length of Manhattan . I did this, solo,...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049520-how-97-copies-of-an-unrel",
+          "author": null,
+          "description": "“When Jason Ganos was asked to help sell an old box full of NES cartridges…” How 97 Copies of an Unreleased Version of Super Mario Bros. Duck Hunt Were Discovered in a Wisconsin Warehouse.",
+          "link": "https://kottke.org/26/08/0049520-how-97-copies-of-an-unrel",
+          "publishedOn": "2026-08-21T16:57:00.000Z",
+          "wordCount": 864,
+          "title": "“When Jason Ganos was asked to help sell an old box full...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049519-cookbooking-a-fans-guide",
           "author": null,
           "description": "What a great idea for a book: Cookbooking: A Fan’s Guide. “An eclectic, visually stunning pop-history, Cookbooking explores the most influential and beloved cookbooks through photographs, listicles, graphics, and snappy writing.”",
@@ -4089,16 +4109,6 @@
           "wordCount": 1029,
           "title": "The first known runaway AI agent - or a very bad marketing stunt?",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"><p>The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was <a href=\"https://github.com/pypi/warehouse/pull/19727\">put in place</a> to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\">Seth Larson</a>, PyPI blog</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/supply-chain\">supply-chain</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/seth-michael-larson\">seth-michael-larson</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
-          "publishedOn": "2026-07-23T04:50:36.000Z",
-          "wordCount": 802,
-          "title": "Quoting Seth Larson",
-          "imageUrl": null
         }
       ]
     },
@@ -4488,16 +4498,6 @@
           "publishedOn": "2026-07-24T11:25:10.000Z",
           "wordCount": 2871,
           "title": "gonzo Borges",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12281",
-          "author": "PGR",
-          "description": "Harrison, Leckie, Swift.",
-          "link": "https://www.velcro-city.co.uk/23jul2026-accessions/",
-          "publishedOn": "2026-07-23T07:34:19.000Z",
-          "wordCount": 2785,
-          "title": "23JUL2026 / accessions",
           "imageUrl": null
         }
       ]
