@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-20T20:24:40.222Z</updated>
+    <updated>2026-08-21T01:06:53.056Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT search now uses the site:operator at scale]]></title>
+        <id>https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/</id>
+        <link href="https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"/>
+        <updated>2026-08-20T23:57:32.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://promptwatch.com/data/chatgpt-site-operator-fanouts">ChatGPT search now uses the site:operator at scale</a></strong></p>
+Promptwatch is part of the emerging "GEO" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p>
+<p>The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products.</p>
+<p>Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month:</p>
+<blockquote>
+<p>The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8.</p>
+</blockquote>
+<p>It's important to note that these figures only reflect the prompts for which they have automated tracking enabled.</p>
+<p>This corresponds to OpenAI's somewhat vague <a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/">August 6th announcement</a>:</p>
+<blockquote>
+<p>For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers.</p>
+</blockquote>
+<p>Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like <code>search(query, recency, domains)</code> rather than encouraging a <code>site:</code> operator directly.</p>
+<p>In <a href="https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt">a follow-up</a> on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the <a href="https://github.com/asgeirtj/system_prompts_leaks/commits/main/OpenAI">most thorough leaked system prompt</a> collection I know of doesn't yet show any relevant changes.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/reddit">reddit</a>, <a href="https://simonwillison.net/tags/seo">seo</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/ai-assisted-search">ai-assisted-search</a>, <a href="https://simonwillison.net/tags/system-prompts">system-prompts</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: The actual epistemic crisis (20 Aug 2026)]]></title>
+        <id>https://pluralistic.net/?p=13200</id>
+        <link href="https://pluralistic.net/2026/08/20/epistemic-void/"/>
+        <updated>2026-08-20T23:41:21.000Z</updated>
+        <summary type="html"><![CDATA[Today's links The actual epistemic crisis: AI's assault on reality is an opportunistic infection. Hey look at this: Delights to delectate. Object permanence: Disney goths; Running a con room party; Equation Group's fuggly sourcecode; "Bubble"; "The Weight." Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The actual epistemic crisis (permalink) AI is alarming for many reasons: it's a dangerous financial bubble, an environmental catastrophe, and a tool for eroding wages and labor power. But in addition to all that, AI is an epistemic disaster. We've had photoshopped images, voice impersonators and vis…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; The principal aim of President Trump’s second...]]></title>
+        <id>https://kottke.org/26/08/0049518-the-principal-aim-of-pres</id>
+        <link href="https://kottke.org/26/08/0049518-the-principal-aim-of-pres"/>
+        <updated>2026-08-20T22:12:00.000Z</updated>
+        <summary type="html"><![CDATA[“The principal aim of President Trump’s second term is revenge,” says Jamelle Bouie.  “Revenge shapes the president’s priorities, drives his actions and structures the decisions of his government.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weird Al Yankovic’s Tiny Desk Concert]]></title>
+        <id>https://kottke.org/26/08/weird-al-yankovics-tiny-desk-concert</id>
+        <link href="https://kottke.org/26/08/weird-al-yankovics-tiny-desk-concert"/>
+        <updated>2026-08-20T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Holy moly, NPR’s Tiny Desk has been going for a long time. Weird Al Yankovic first stopped by the desk in 2010, so early that they didn’t even have it on YouTube until more recently. And the other day, they had him back for a second session!
+Yankovic focused on originals the first time around, but for this show he brought parodies of Don McLean’s “American Pie” (“The Saga Begins,” from 1999’s Running with Scissors) and Backstreet Boys’ “I Want It That Way” (“eBay,” from 2003’s Poodle Hat), as well as the Weezer pastiche “Skipper Dan,” from 2011’s Alpocalypse. And, for fans of the breathtakingly factual 2022 biopic Weird: The Al Yankovic Story, he performs the film’s Emmy-losing closing-credits blues-rock jam “Now You Know.”
+We only get so many gifts in this life, so let’s set an intention here and now to return “Weird Al” Yankovic to the Tiny Desk in the summer of 2042. But if he’s gonna come back and see us (or whoever’s buried us and moved on) at a sprightly 82, we’ll have to ask him to bring a string section, just to keep things fresh.
+
+ 
+
+        
+         
+Tags: music · Tiny Desk Concerts · video · Weird Al Yankovic]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anil Dash built a standalone Touch ID sensor  to use...]]></title>
+        <id>https://kottke.org/26/08/0049516-anil-dash-built-a-standal</id>
+        <link href="https://kottke.org/26/08/0049516-anil-dash-built-a-standal"/>
+        <updated>2026-08-20T20:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Anil Dash built a standalone Touch ID sensor to use with your Mac if you don’t have a newer Apple keyboard. It’s open-source…the code and instructions are on Github.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Analysts Warn U.S. Economy Becoming Overly Dependent On...]]></title>
         <id>https://kottke.org/26/08/0049515-analysts-warn-us-economy-</id>
@@ -24,6 +98,27 @@
         <summary type="html"><![CDATA[When you take screenshots of posts in iOS social apps like Bluesky or Threads, they use this little trick to replace the “Follow” button with the app’s logo.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView]]></title>
+        <id>https://simonwillison.net/2026/Aug/20/bun-webview-json-api/</id>
+        <link href="https://simonwillison.net/2026/Aug/20/bun-webview-json-api/"/>
+        <updated>2026-08-20T15:37:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/bun-webview-json-api#readme">A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView</a></p>
+        <p>Today saw the long awaited <a href="https://bun.com/blog/bun-v1.4">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href="https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/">a few months ago</a>.</p>
+<p>Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes:</p>
+<blockquote>
+<p>Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds <a href="https://bun.com/blog/bun-v1.4#bun-image"><code>Bun.Image</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-webview"><code>Bun.WebView</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-markdown"><code>Bun.markdown</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-cron"><code>Bun.cron()</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-terminal"><code>Bun.Terminal</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-run-parallel"><code>bun run --parallel</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-test-parallel"><code>bun test --parallel</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-audit-fix"><code>bun audit fix</code></a>, <a href="https://bun.com/blog/bun-v1.4#bun-dedupe"><code>bun dedupe</code></a>, and <a href="https://bun.com/blog/bun-v1.4#bun-prune"><code>bun prune</code></a>. And it rewrites Bun from Zig to Rust.</p>
+</blockquote>
+<p>Of these the one that most caught my eye was <code>Bun.WebView</code>, which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP).</p>
+<p>I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my <a href="https://shot-scraper.datasette.io/en/stable/javascript.html">shot-scraper javascript</a> CLI tool - partly to see how much RAM would be needed by such a service.</p>
+<p>Here's <a href="https://github.com/simonw/research/blob/main/bun-webview-json-api/server.ts">that TypeScript server implementation</a>, which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/typescript">typescript</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/bun">bun</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7427,36 +7522,6 @@ Nailed it.
 Tags: Brian Eno]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Is Building an A.I. Fence Around the Internet It...]]></title>
-        <id>https://kottke.org/26/07/0049362-google-is-building-an-ai-</id>
-        <link href="https://kottke.org/26/07/0049362-google-is-building-an-ai-"/>
-        <updated>2026-07-22T12:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Google Is Building an A.I. Fence Around the Internet It Once Championed. “Google has often said it was ‘sending out more traffic & the web is bigger than ever. And then right next to that is a bunch of publishers whose businesses are getting destroyed.’”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[red, october]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12278</id>
-        <link href="https://www.velcro-city.co.uk/red-october/"/>
-        <updated>2026-07-22T12:08:48.000Z</updated>
-        <summary type="html"><![CDATA[Sweden's submarine silly-season.]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Trump's America can't even win a rigged game (22 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13062</id>
-        <link href="https://pluralistic.net/2026/07/22/table-flipper/"/>
-        <updated>2026-07-22T08:58:31.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Trump's America can't even win a rigged game: America has created a post-American world. Hey look at this: Delights to delectate. Object permanence: "Fagin"; Scott McCloud on comics' future; Laurie Penny on Milo Yiannopoulos; Singaporean regulator rap; Conservatives as bitter rubes. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Trump's America can't even win a rigged game (permalink) Here's a sentence that stopped me in my tracks last week: "The statement that 'the cemeteries are full of indispensable people' is just as true of nations, and in particular the US": https://c…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
