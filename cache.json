@@ -280,6 +280,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049522-jodi-ettenberg-on-living-",
+          "author": null,
+          "description": "Jodi Ettenberg on living grief and a serendipitous discovery. “Living grief lacks the tapestry of rituals, language, and social permissions around grieving that a person is offered with death.”",
+          "link": "https://kottke.org/26/08/0049522-jodi-ettenberg-on-living-",
+          "publishedOn": "2026-08-22T14:30:00.000Z",
+          "wordCount": 887,
+          "title": "Jodi Ettenberg on living grief and a serendipitous...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049521-walking-the-length-of-man",
           "author": null,
           "description": "Walking the Length of Manhattan. I did this, solo, right before I moved out of NYC. Loved it. Will do it again someday.",
@@ -2764,6 +2774,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+          "author": null,
+          "description": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p>\n<p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/code-review\">code-review</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+          "publishedOn": "2026-08-22T15:56:54.000Z",
+          "wordCount": 825,
+          "title": "More than just code review",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/21/llm/",
           "author": null,
