@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-21T20:22:08.831Z</updated>
+    <updated>2026-08-22T01:03:33.223Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -14,6 +14,42 @@
         <summary type="html"><![CDATA[Walking the Length of Manhattan. I did this, solo, right before I moved out of NYC. Loved it. Will do it again someday.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.32.1]]></title>
+        <id>https://simonwillison.net/2026/Aug/21/llm/</id>
+        <link href="https://simonwillison.net/2026/Aug/21/llm/"/>
+        <updated>2026-08-21T17:16:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32.1">llm 0.32.1</a></p>
+        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>
+<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href="https://github.com/pydantic/httpx2">httpx2</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/httpx">httpx</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openrouter 0.7]]></title>
+        <id>https://simonwillison.net/2026/Aug/21/llm-openrouter/</id>
+        <link href="https://simonwillison.net/2026/Aug/21/llm-openrouter/"/>
+        <updated>2026-08-21T16:58:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7">llm-openrouter 0.7</a></p>
+        <p>Now that this plugin is compatible with <a href="https://simonwillison.net/2026/Aug/4/new-release-of-llm/">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p>
+<blockquote>
+<ul>
+<li>Updated for compatibility with <a href="https://llm.datasette.io/en/stable/changelog.html#v0-32">LLM 0.32</a>.</li>
+<li>Models now use OpenRouter's implementation of the <a href="https://openrouter.ai/docs/api_reference/responses/overview">Responses API</a>.</li>
+<li>Three new server-side tools: <a href="https://github.com/simonw/llm-openrouter#shell">Shell</a>, <a href="https://github.com/simonw/llm-openrouter#web-fetch">WebFetch</a>, and <a href="https://github.com/simonw/llm-openrouter#web-search">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7347,26 +7383,6 @@ The post The Quietest Mathematician Has Always Been Worth Listening To first app
 The post Amid Life’s Chaos, a Meticulous Mathematician Finds Stability first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Jordana Cepelewicz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your exoskeleton is showing]]></title>
-        <id>https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing</id>
-        <link href="https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing"/>
-        <updated>2026-07-23T11:01:12.000Z</updated>
-        <summary type="html"><![CDATA[New journeys into sauce, plus intel on small-run bags, caps & sandals]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: California's privacy obstacle course (23 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13065</id>
-        <link href="https://pluralistic.net/2026/07/23/drop-a-dime/"/>
-        <updated>2026-07-23T10:27:55.000Z</updated>
-        <summary type="html"><![CDATA[Today's links California's privacy obstacle course: Malice or incompetence (why not both?). Hey look at this: Delights to delectate. Object permanence: Continuous partial attention, TSA is the worst; Trump's FCC v the future. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. California's privacy obstacle course (permalink) Data brokers are a cancer. There's a direct line from the unrestricted collection, retention and processing of our data to a host of evils, from deepfake porn to phishing scams; from racial discrimination in hiring to ICE roundups of migrants; from targeted election inter…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

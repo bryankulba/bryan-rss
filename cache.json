@@ -2157,16 +2157,6 @@
           "wordCount": 3687,
           "title": "Pluralistic: AI solipsists and AI cynics (24 Jul 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13065",
-          "author": "Cory Doctorow",
-          "description": "Today's links California's privacy obstacle course: Malice or incompetence (why not both?). Hey look at this: Delights to delectate. Object permanence: Continuous partial attention, TSA is the worst; Trump's FCC v the future. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. California's privacy obstacle course (permalink) Data brokers are a cancer. There's a direct line from the unrestricted collection, retention and processing of our data to a host of evils, from deepfake porn to phishing scams; from racial discrimination in hiring to ICE roundups of migrants; from targeted election inter…",
-          "link": "https://pluralistic.net/2026/07/23/drop-a-dime/",
-          "publishedOn": "2026-07-23T10:27:55.000Z",
-          "wordCount": 4150,
-          "title": "Pluralistic: California's privacy obstacle course (23 Jul 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2700,22 +2690,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!Tg0Q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff92625a6-3b45-4b60-be5e-ede2dd1c56e8_1890x1680.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing",
-          "author": "Blackbird Spyplane",
-          "description": "New journeys into sauce, plus intel on small-run bags, caps & sandals",
-          "link": "https://www.blackbirdspyplane.com/p/your-exoskeleton-is-showing",
-          "publishedOn": "2026-07-23T11:01:12.000Z",
-          "wordCount": null,
-          "title": "Your exoskeleton is showing",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!kCZQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96cdca33-001d-474b-aeb5-43c3bb0c4123_1933x2549.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!kCZQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96cdca33-001d-474b-aeb5-43c3bb0c4123_1933x2549.png"
         }
       ]
     },
@@ -2920,6 +2894,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/21/llm/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p>\n        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>\n<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/httpx\">httpx</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/21/llm/",
+          "publishedOn": "2026-08-21T17:16:13.000Z",
+          "wordCount": 809,
+          "title": "llm 0.32.1",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p>\n        <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p>\n<blockquote>\n<ul>\n<li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li>\n<li>Models now use OpenRouter's implementation of the <a href=\"https://openrouter.ai/docs/api_reference/responses/overview\">Responses API</a>.</li>\n<li>Three new server-side tools: <a href=\"https://github.com/simonw/llm-openrouter#shell\">Shell</a>, <a href=\"https://github.com/simonw/llm-openrouter#web-fetch\">WebFetch</a>, and <a href=\"https://github.com/simonw/llm-openrouter#web-search\">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+          "publishedOn": "2026-08-21T16:58:19.000Z",
+          "wordCount": 797,
+          "title": "llm-openrouter 0.7",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
           "author": null,
