@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-23T12:34:11.783Z</updated>
+    <updated>2026-08-23T16:21:12.291Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -7117,19 +7117,6 @@ B018 Found useless attribute access. Either assign it to a variable or remove it
         <summary type="html"><![CDATA[Today's links Apple's robo-repo: Privatizing the risk premium, socializing its costs. Hey look at this: Delights to delectate. Object permanence: Printed batteries; Monopoly credit cards; Mapping airport power outlets; EMI loves pirates; Mexican indigenous phone co-op; Sewer cover textiles; Surge pricing v antitrust; Carbon offsets v forest fires; Charter schools as money laundries. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Apple's robo-repo (permalink) It may strike you as weird, but lenders love to lend money to poor people who will have trouble paying back their loans. Obviously,…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Boris Cherny]]></title>
-        <id>https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"/>
-        <updated>2026-07-25T00:42:59.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/bcherny/status/2080713091688583312"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/bcherny/status/2080713091688583312">Boris Cherny</a>, here's that <a href="https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73">System Card section</a>, page 73</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/boris-cherny">boris-cherny</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
