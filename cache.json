@@ -2756,6 +2756,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p>\n<p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we needed.</p>\n<p><em>So we started to think about what work went where.</em></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\">Drew Breunig</a>, Fable &amp; The End of the Free Lunch</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/drew-breunig\">drew-breunig</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+          "publishedOn": "2026-08-23T19:55:30.000Z",
+          "wordCount": 816,
+          "title": "Quoting Drew Breunig",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
           "author": null,
           "description": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p>\n<p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p>\n<p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p>\n<p>But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\">Linus Torvalds</a>, drm/xe: Don't hand out the flat CCS storage as usable VRAM</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/linus-torvalds\">linus-torvalds</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
