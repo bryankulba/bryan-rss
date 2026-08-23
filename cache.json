@@ -2027,16 +2027,6 @@
           "wordCount": 5005,
           "title": "Pluralistic: Apple's robo-repo (25 Jul 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13070",
-          "author": "Cory Doctorow",
-          "description": "Today's links AI solipsists and AI cynics: You don't have to believe that AI \"works\" to believe that it's a good investment. Hey look at this: Delights to delectate. Object permanence: Malware v stolen computer; Industrial material made from old coffee and melted cups; Austro-Germany's weird tunnels; Health data v Silicon Valley; Amusement parks v load-balancing. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. AI solipsists and AI cynics (permalink) As a technology, AI isn't exceptional. It's not exceptionally wicked. It's not exceptionally good. Take away the accompanying, galactic-scale…",
-          "link": "https://pluralistic.net/2026/07/24/supplemental-income/",
-          "publishedOn": "2026-07-24T10:21:03.000Z",
-          "wordCount": 3687,
-          "title": "Pluralistic: AI solipsists and AI cynics (24 Jul 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2397,16 +2387,6 @@
           "wordCount": 2822,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/b1dbd5d04cefcf011f21bdaa530ed384/a5ff7736b64b1506-58/s1280x1920/c5f7ae667a6537954c4b68c90fa6a8a5f7f676e9.webp"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/823017813979643904",
-          "author": null,
-          "description": "softrobotcritics:\n\n\nMeanwhile, in China",
-          "link": "https://brucesterling.tumblr.com/post/823017813979643904",
-          "publishedOn": "2026-07-24T11:02:31.000Z",
-          "wordCount": 2934,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/818b9297786e269586304fccbefe910f/b1833c2792d12d12-10/s500x750/f143ef1af38d4b41deb2d0f4890708bc42a5a0c7.jpg"
         }
       ]
     },
@@ -2774,6 +2754,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+          "author": null,
+          "description": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p>\n<p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p>\n<p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p>\n<p>But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\">Linus Torvalds</a>, drm/xe: Don't hand out the flat CCS storage as usable VRAM</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/linus-torvalds\">linus-torvalds</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+          "publishedOn": "2026-08-22T21:04:26.000Z",
+          "wordCount": 843,
+          "title": "Quoting Linus Torvalds",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/22/llm/",
           "author": null,
@@ -4060,16 +4050,6 @@
           "wordCount": 2636,
           "title": "Human Computers : A history of labour-intensive computing. Followed by 6 self-defence protocols",
           "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/07/0angelomosso.jpg"
-        },
-        {
-          "id": "https://we-make-money-not-art.com/?p=39193",
-          "author": "Regine",
-          "description": "Fortunately for anyone who abhors artwashing, the curating of the art biennial has made it impossible to ignore the crimes committed by Israel in Palestine and beyond",
-          "link": "https://we-make-money-not-art.com/the-venice-art-biennale-quietly-criticising-israel/",
-          "publishedOn": "2026-07-24T13:00:22.000Z",
-          "wordCount": 3378,
-          "title": "The Venice Art Biennale: Quietly criticising Israel",
-          "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/06/55299030996_7ef6e62227_c.jpg"
         }
       ]
     },
@@ -4302,16 +4282,6 @@
           "publishedOn": "2026-07-26T07:16:37.000Z",
           "wordCount": 2587,
           "title": "hardcore will never die (but you will)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12285",
-          "author": "PGR",
-          "description": "A quick stab at defining Sam Kriss as a literary genre unto himself.",
-          "link": "https://www.velcro-city.co.uk/gonzo-borges/",
-          "publishedOn": "2026-07-24T11:25:10.000Z",
-          "wordCount": 2871,
-          "title": "gonzo Borges",
           "imageUrl": null
         }
       ]
