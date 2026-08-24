@@ -281,6 +281,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049528-this-post",
+          "author": null,
+          "description": "Just quickly reupping this post to remind you things might be slower than usual around here for the next few weeks…moving crunch time is here. (I’ll still be posting though…it’s nice to sit down and flow state through some links occasionally.)",
+          "link": "https://kottke.org/26/08/0049528-this-post",
+          "publishedOn": "2026-08-24T15:55:00.000Z",
+          "wordCount": 883,
+          "title": "Just quickly reupping  this post  to remind you things...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049527-meat-proxy",
+          "author": null,
+          "description": "Meat proxy (noun): “A person who forwards AI-generated text, code, or other output without reading, understanding, or validating it. The person acts only as a relay between the AI system and the intended recipient.”",
+          "link": "https://kottke.org/26/08/0049527-meat-proxy",
+          "publishedOn": "2026-08-24T15:00:00.000Z",
+          "wordCount": 644,
+          "title": "Meat proxy   (noun) : &#8220;A person who forwards...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049523-why-are-rivers-so-mathema",
+          "author": null,
+          "description": "Why Are Rivers So Mathematical? “Any stream, from the littlest brook to the mightiest river, has a length that’s proportional to its drainage area raised to the power of 0.6.”",
+          "link": "https://kottke.org/26/08/0049523-why-are-rivers-so-mathema",
+          "publishedOn": "2026-08-24T14:00:00.000Z",
+          "wordCount": 1144,
+          "title": "Why Are Rivers So Mathematical?  “Any stream, from the...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049526-opinion-columnist-karen-a",
           "author": null,
           "description": "Opinion columnist Karen Attiah won her arbitration against the Washington Post. They are ordered to reinstate her and pay full back pay. The Post fired her almost a year ago for her remarks in the wake of Charlie Kirk’s murder.",
@@ -4102,6 +4132,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=166076",
+          "author": "Conor Feehly",
+          "description": "An updated view of categorization reflects the modern understanding that the nervous system is more of a prediction engine than a filing cabinet.            \nThe post A New Framework for How the Brain Compresses Our Noisy World first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
+          "publishedOn": "2026-08-24T14:00:55.000Z",
+          "wordCount": 3689,
+          "title": "A New Framework for How the Brain Compresses Our Noisy World",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Predictive-Categorization-cr-Zara-Picken-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=166010",
           "author": "Max G. Levy",

@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-24T12:42:58.359Z</updated>
+    <updated>2026-08-24T16:33:23.191Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Just quickly reupping  this post  to remind you things...]]></title>
+        <id>https://kottke.org/26/08/0049528-this-post</id>
+        <link href="https://kottke.org/26/08/0049528-this-post"/>
+        <updated>2026-08-24T15:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Just quickly reupping this post to remind you things might be slower than usual around here for the next few weeks…moving crunch time is here. (I’ll still be posting though…it’s nice to sit down and flow state through some links occasionally.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meat proxy   (noun) : &#8220;A person who forwards...]]></title>
+        <id>https://kottke.org/26/08/0049527-meat-proxy</id>
+        <link href="https://kottke.org/26/08/0049527-meat-proxy"/>
+        <updated>2026-08-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meat proxy (noun): “A person who forwards AI-generated text, code, or other output without reading, understanding, or validating it. The person acts only as a relay between the AI system and the intended recipient.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A New Framework for How the Brain Compresses Our Noisy World]]></title>
+        <id>https://www.quantamagazine.org/?p=166076</id>
+        <link href="https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/"/>
+        <updated>2026-08-24T14:00:55.000Z</updated>
+        <summary type="html"><![CDATA[An updated view of categorization reflects the modern understanding that the nervous system is more of a prediction engine than a filing cabinet.            
+The post A New Framework for How the Brain Compresses Our Noisy World first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Conor Feehly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Are Rivers So Mathematical?  “Any stream, from the...]]></title>
+        <id>https://kottke.org/26/08/0049523-why-are-rivers-so-mathema</id>
+        <link href="https://kottke.org/26/08/0049523-why-are-rivers-so-mathema"/>
+        <updated>2026-08-24T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why Are Rivers So Mathematical? “Any stream, from the littlest brook to the mightiest river, has a length that’s proportional to its drainage area raised to the power of 0.6.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mutually deluded dancing]]></title>
         <id>https://www.thingsmagazine.net/?p=21213</id>
