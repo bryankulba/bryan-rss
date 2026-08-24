@@ -281,6 +281,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049526-opinion-columnist-karen-a",
+          "author": null,
+          "description": "Opinion columnist Karen Attiah won her arbitration against the Washington Post. They are ordered to reinstate her and pay full back pay. The Post fired her almost a year ago for her remarks in the wake of Charlie Kirk’s murder.",
+          "link": "https://kottke.org/26/08/0049526-opinion-columnist-karen-a",
+          "publishedOn": "2026-08-24T12:19:00.000Z",
+          "wordCount": 661,
+          "title": "Opinion columnist Karen Attiah won her arbitration...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049522-jodi-ettenberg-on-living-",
           "author": null,
           "description": "Jodi Ettenberg on living grief and a serendipitous discovery. “Living grief lacks the tapestry of rituals, language, and social permissions around grieving that a person is offered with death.”",
@@ -2033,6 +2043,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18874",
+          "author": "Warren Ellis",
+          "description": "Mancub came in when my alarm went off to tell me that the sunlight has gone away and I needed to bring it back. While…",
+          "link": "https://warrenellis.ltd/status/24aug26/",
+          "publishedOn": "2026-08-24T11:05:45.000Z",
+          "wordCount": 1337,
+          "title": "24aug26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1958-rotated-1.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18872",
           "author": "Warren Ellis",
           "description": "Offline day: finishing up in the office and then out for lunch, shopping and then a gig. We’ve learned to crave feeds that impose a…",
@@ -2745,6 +2765,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p>\nFarid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p>\n<p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format.  The various components of the ELF executable format are then arranged into a number of different SQLite tables, using <a href=\"https://github.com/fzakaria/selfdb/blob/main/schema/self.sql\">this schema</a>.</p>\n<p>Their <code>self-exec</code> interpreter (<a href=\"https://github.com/fzakaria/selfdb/blob/main/loader/self-exec.c\">C code here</a>) can then extract and execute the necessary pieces.</p>\n<p>You can additionally use a Linux mechanism called <a href=\"https://docs.kernel.org/admin-guide/binfmt-misc.html\">binfmt_misc</a> to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this:</p>\n<pre><code>printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\\n  &gt; /proc/sys/fs/binfmt_misc/register\n</code></pre>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49415271\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/c\">c</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+          "publishedOn": "2026-08-24T11:38:15.000Z",
+          "wordCount": 880,
+          "title": "Your executable is a SQLite database",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
           "author": null,
@@ -3964,16 +3994,6 @@
           "wordCount": 757,
           "title": "sqlite-utils 3.39.1",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://astral.sh/blog/ruff-v0.16.0\">Ruff v0.16.0</a></strong></p>\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned <code>\"ruff\"</code> dev dependency.</p>\n<p>From Brent Westbrook's announcement post:</p>\n<blockquote>\n<p>Ruff now enables 413 rules by default, up from 59 in previous versions.</p>\n<p>Since Ruff's default rule set was last modified in <a href=\"https://github.com/astral-sh/ruff/blob/main/changelogs/0.1.x.md#breaking-changes\">v0.1.0</a>, the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including <a href=\"https://docs.astral.sh/ruff/rules/load-before-global-declaration\">syntax errors</a> and <a href=\"https://docs.astral.sh/ruff/rules/yield-in-init/\">immediate runtime errors</a> but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration.</p>\n</blockquote>\n<p>Here's a one-liner for trying it on any Python project:</p>\n<pre><code>uvx ruff@latest check .\n</code></pre>\n<p>I ran the latest Ruff against my three biggest projects - <a href=\"https://datasette.io/\">Datasette</a>, <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a>, and <a href=\"https://llm.datasette.io/\">LLM</a> - and it found <em>hundreds</em> of minor issues that breached the new default rules.</p>\n<p>All three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades:</p>\n<pre><code>uvx ruff@latest check . --fix --unsafe-fixes\n</code></pre>\n<p>Against <code>sqlite-utils</code>, that command reported:</p>\n<pre><code>Found 1618 errors (1538 fixed, 80 remaining).\n</code></pre>\n<p>As an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one:</p>\n<pre><code>DTZ005 `datetime.datetime.now()` called without a `tz` argument\n  --&gt; tests/test_duplicate.py:17:10\n   |\n15 |     \"datetime_col\" TEXT)\"\"\")\n16 |     # Insert one row of mock data:\n17 |     dt = datetime.datetime.now()\n   |          ^^^^^^^^^^^^^^^^^^^^^^^\n18 |     data = {\n19 |         \"text_col\": \"Cleo\",\n   |\nhelp: Pass a `datetime.timezone` object to the `tz` parameter\n\nBLE001 Do not catch blind exception: `Exception`\n  --&gt; tests/test_plugins.py:16:12\n   |\n14 |         db.execute(\"select * from pragma_function_list()\")\n15 |         return True\n16 |     except Exception:\n   |            ^^^^^^^^^\n17 |         return False\n18 |     finally:\n   |\n\nB018 Found useless attribute access. Either assign it to a variable or remove it.\n  --&gt; tests/test_update.py:46:5\n   |\n44 | def test_update_invalid_pk(fresh_db, pk, update_pk):\n45 |     table = fresh_db[\"table\"]\n46 |     table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk\n   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n47 |     with pytest.raises(NotFoundError):\n48 |         table.update(update_pk, {\"v\": 2})\n   |\n</code></pre>\n<p>Unsurprisingly, given Astral's <a href=\"https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/\">new home at OpenAI</a>, this output provides everything a coding agent would need to fix the problems.</p>\n<p>I had Codex (GPT-5.6 Sol high) <a href=\"https://github.com/simonw/llm/pull/1557\">upgrade LLM</a> and <a href=\"https://github.com/simonw/sqlite-utils/pull/814\">sqlite-utils</a>, and Claude Code (with Opus 5) <a href=\"https://github.com/simonw/datasette/pull/2857\">upgrade Datasette</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ruff\">ruff</a>, <a href=\"https://simonwillison.net/tags/astral\">astral</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-          "publishedOn": "2026-07-25T22:44:05.000Z",
-          "wordCount": 1149,
-          "title": "Ruff v0.16.0",
-          "imageUrl": null
         }
       ]
     },
@@ -4049,6 +4069,16 @@
       "feedUrl": "http://www.thingsmagazine.net/feed/",
       "siteUrl": "https://www.thingsmagazine.net",
       "articles": [
+        {
+          "id": "https://www.thingsmagazine.net/?p=21213",
+          "author": "things magazine",
+          "description": "The ‘dance of mutual delusion’: ‘How Saudi Arabia’s Neom Megacity Dream Collapsed‘. In a case of schadenfreude you can see from space, NEOM [https://www.neom.com/en-us] is disappearing back into the Saudi sands. The runaway renderings of The Line – originally intended … Continue reading →",
+          "link": "https://www.thingsmagazine.net/mutually-deluded-dancing/",
+          "publishedOn": "2026-08-24T12:34:03.000Z",
+          "wordCount": 3294,
+          "title": "Mutually deluded dancing",
+          "imageUrl": null
+        },
         {
           "id": "https://www.thingsmagazine.net/?p=21201",
           "author": "things magazine",
@@ -4225,6 +4255,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12308",
+          "author": "PGR",
+          "description": "This is not my first experience of weird coincidence with Perfect Sentences, whose editor I do kind of know, but would not presume to go so far as to claim as a friend.",
+          "link": "https://www.velcro-city.co.uk/the-only-animal-most-philosophers-have-killed-with-their-own-two-hands/",
+          "publishedOn": "2026-08-24T11:15:13.000Z",
+          "wordCount": 2718,
+          "title": "the only animal most philosophers have killed with their own two hands",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12306",
           "author": "PGR",
