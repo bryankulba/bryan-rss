@@ -281,6 +281,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/0049524-using-superparamagnetic-m",
+          "author": null,
+          "description": "Homing pigeons may sense the Earth’s magnetic field using superparamagnetic macrophages in their livers. So metal! 🤘",
+          "link": "https://kottke.org/26/08/0049524-using-superparamagnetic-m",
+          "publishedOn": "2026-08-24T17:47:00.000Z",
+          "wordCount": 735,
+          "title": "Homing pigeons may sense the Earth’s magnetic field...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049528-this-post",
           "author": null,
           "description": "Just quickly reupping this post to remind you things might be slower than usual around here for the next few weeks…moving crunch time is here. (I’ll still be posting though…it’s nice to sit down and flow state through some links occasionally.)",
@@ -2418,16 +2428,6 @@
           "wordCount": 2827,
           "title": "That was then, this is now",
           "imageUrl": "https://64.media.tumblr.com/856bbd16d4228a4cdb665719378b10e9/009d89a508f2f025-2b/s1280x1920/855e591b64858a250e569b175eee293705a09f54.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/823181655005184000",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/823181655005184000",
-          "publishedOn": "2026-07-26T06:26:42.000Z",
-          "wordCount": 2822,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/b1dbd5d04cefcf011f21bdaa530ed384/a5ff7736b64b1506-58/s1280x1920/c5f7ae667a6537954c4b68c90fa6a8a5f7f676e9.webp"
         }
       ]
     },
@@ -2795,6 +2795,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p>\n        <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made the same change in their <a href=\"https://github.com/openai/openai-python/releases/tag/v3.0.0\">v3.0.0 release</a> two weeks ago.</p>\n<p>Anthropic provide this <a href=\"https://github.com/anthropics/anthropic-sdk-python/blob/v1.0.0/MIGRATION.md\">migration guide</a> for upgrading to 1.0, so I prompted Fable 5 in Claude Code with:</p>\n<blockquote>\n<p><code>Upgrade to anthropic&gt;=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing</code></p>\n</blockquote>\n<p>Here's <a href=\"https://github.com/simonw/llm-anthropic/pull/84\">the resulting PR</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/httpx\">httpx</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+          "publishedOn": "2026-08-24T16:27:04.000Z",
+          "wordCount": 827,
+          "title": "llm-anthropic 0.27",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
           "author": null,
@@ -4014,16 +4024,6 @@
           "wordCount": 995,
           "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/3.39.1\">sqlite-utils 3.39.1</a></p>\n        <p>I back-ported <a href=\"https://github.com/simonw/sqlite-utils/issues/815\">a fix</a> for <code>table.delete_where()</code> that shipped in version 4.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
-          "publishedOn": "2026-07-26T04:38:46.000Z",
-          "wordCount": 757,
-          "title": "sqlite-utils 3.39.1",
-          "imageUrl": null
         }
       ]
     },
@@ -4343,16 +4343,6 @@
           "publishedOn": "2026-08-03T09:33:34.000Z",
           "wordCount": 2975,
           "title": "play the hand you’re dealt",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12289",
-          "author": "PGR",
-          "description": "Mid-list musicians as memento mori.",
-          "link": "https://www.velcro-city.co.uk/hardcore-will-never-die-but-you-will/",
-          "publishedOn": "2026-07-26T07:16:37.000Z",
-          "wordCount": 2587,
-          "title": "hardcore will never die (but you will)",
           "imageUrl": null
         }
       ]
