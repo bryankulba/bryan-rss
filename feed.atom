@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-24T20:26:45.122Z</updated>
+    <updated>2026-08-25T01:05:11.443Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: How Canada can help Americans and defeat America (23 Aug 2026)]]></title>
+        <id>https://pluralistic.net/?p=13215</id>
+        <link href="https://pluralistic.net/2026/08/24/elbows-really-up/"/>
+        <updated>2026-08-24T21:29:38.000Z</updated>
+        <summary type="html"><![CDATA[Today's links How Canada can save Americans and defeat America: True Carneyism has never been tried. Hey look at this: Delights to delectate. Object permanence: Brazil v AIDS drug patents; TSA v gel-bras; After the Siege (Russian); Names are hard; Layton's last message; Hospital bill secrets; "The Unraveling"; Friction cannot be reduced, only redistributed; Free Kevin; EFF v Barney; MP3tunes; "Ghosts With Shit jobs"; Ikea as dystopian design-fiction; Torturing "young conservatives"; Roald Dahl body yeast ale; Prisoners die of heat; Privacy v antitrust; The internet is boring (2001); TSA v explosive water; Internet Archive x 9/11; Peter Thiel x litigation financing startup; Universities v unions. Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Wher…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Homing pigeons may sense the Earth’s magnetic field...]]></title>
         <id>https://kottke.org/26/08/0049524-using-superparamagnetic-m</id>
@@ -7180,16 +7190,6 @@ Fascinating investigation by Matt Lenhard into the market that has grown up arou
 Caitlin Dewey #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nobody's born a minimalist]]></title>
-        <id>https://www.blackbirdspyplane.com/p/nobodys-born-a-minimalist</id>
-        <link href="https://www.blackbirdspyplane.com/p/nobodys-born-a-minimalist"/>
-        <updated>2026-07-26T13:01:45.000Z</updated>
-        <summary type="html"><![CDATA[The joy & humor of surrealism. Plus, a new jewelry crafter, DIY sandal kits, reworked vintage tees & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
