@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-25T04:35:40.813Z</updated>
+    <updated>2026-08-25T12:41:08.381Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Target’s now-pulled children’s Halloween costume  is  so...]]></title>
+        <id>https://kottke.org/26/08/0049529-targets-now-pulled-childr</id>
+        <link href="https://kottke.org/26/08/0049529-targets-now-pulled-childr"/>
+        <updated>2026-08-25T11:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Target’s now-pulled children’s Halloween costume is so unbelievably racist that it had to, on some level, be purposely done by someone in the decision chain and everyone else was like, “seems ok to me”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How do you get a cool job making a cool thing with cool people?]]></title>
+        <id>https://www.blackbirdspyplane.com/p/how-do-you-get-a-cool-job-making-cool-things-with-cool-people</id>
+        <link href="https://www.blackbirdspyplane.com/p/how-do-you-get-a-cool-job-making-cool-things-with-cool-people"/>
+        <updated>2026-08-25T11:03:32.000Z</updated>
+        <summary type="html"><![CDATA[And more Personal Spyplane life guidance]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ours is the tragedy of the silent stars]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12314</id>
+        <link href="https://www.velcro-city.co.uk/ours-is-the-tragedy-of-the-silent-stars/"/>
+        <updated>2026-08-25T07:54:57.000Z</updated>
+        <summary type="html"><![CDATA[Humans are arguably distinguished from other species by the extent to which we have transcended the temporal limits of natural selection through our capacity to adapt our environment to our needs, rather than the reverse.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: How Canada can help Americans and defeat America (23 Aug 2026)]]></title>
         <id>https://pluralistic.net/?p=13215</id>
@@ -7113,83 +7143,6 @@ Tags: Derek Lowe · Donald Trump · politics · science]]></summary>
         <summary type="html"><![CDATA[That was then, this is now]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wire  mix: Speaker Music]]></title>
-        <id>https://www.thewire.co.uk/audio/tracks/wire-mix-deforrest-brown-jr</id>
-        <link href="https://www.thewire.co.uk/audio/tracks/wire-mix-deforrest-brown-jr"/>
-        <updated>2026-07-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 510, writer, composer and theorist DeForrest Brown, Jr. aka Speaker Music creates an exclusive Wire mix
-
-Synoptic Audio” – a compilation of unreleased music that gives rise to, but is not included on, his latest, final Speaker Music album.
-
-Tracklist:
-
-Angel Bat Dawid & DeForrest Brown, Jr. “Alkebulan: Beyond Drexciya – Live At Western Front, Vancouver 2025 (Portal Opening)”
-    
-Dopplereffekt “Ascension Of Epigenetic Intelligence / Multiverse Wavefunction (Rhythmanalytic Revision Edit)”
-    
-The Otolith Group “Remnant Of A Hydrogen Element From Hydra Decapita / A Sphere of Water Orbiting A Star”
-    
-DeForrest Brown, Jr. “Live At Assembly By Somerset House Studios, London 2026”
-    
-Speaker Music “Moral Injury”
-    
-Miles Davis “Rated X (Rhythmanalytic Redesign Edit)”
-    
-DeForrest Brown, Jr. “Neumann KU 100’s Sanity Check From Studio — Goodman 1, EMPAC At Rensselaer Polytechnic Institute, Troy 2025”
-    
-Speaker Music “Live At Integrated Motion Studio By Notebook Platform And Libby Leshgold Gallery At Emily Carr University Of Art + Design, Vancouver 2025”
-    
-HxH // Speaker Music “Live At Studio 34 By Fire Museum Presents, Philadelphia 2024”
-    
-Ornette Coleman & London Symphony Orchestra “Skies Of America (Ex-American Pragmatic Medley Dub)”
-    
-Speaker Music “Live At The Foundry By Nonevent, Boston 2025”
-    
-Kodwo Eshun “Narratives Of A Near-Future From International Symposium At HEAD – Haute École d'Art Et De Design, Genève 2017”
-    
-Angel Bat Dawid “Joy ’N’ Suff’rin / Lawd Hav’ Merci (Adventures In Sonic Fiction Dub)”
-    
-Angel Bat Dawid & DeForrest Brown, Jr. “Alkebulan: Beyond Drexciya – Live At Western Front, Vancouver 2025 (Portal Closing)”
-
-Read Emily Pothast’s full interview with DeForrest Brown, Jr. in The Wire 510. Pick up a copy in the online shop. Subscribers can read the full article in the digital archive here.]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Inside Look at the Relay Market Powering Token Resellers and Fraud]]></title>
-        <id>https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"/>
-        <updated>2026-07-26T19:30:54.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://vectoral.com/blog/token-relay-market">An Inside Look at the Relay Market Powering Token Resellers and Fraud</a></strong></p>
-Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources.</p>
-<p>This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks.</p>
-<p>The software they are using for these proxies is open source - mostly <a href="https://github.com/songquanpeng/one-api">one-api</a> and its more actively developed fork <a href="https://github.com/QuantumNous/new-api">new-api</a>, both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials.</p>
-<p>The buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation.</p>
-<p>I've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new unprotected endpoint to exploit.</p>
-<p>LLM vendors <em>really</em> need to get better at offering strict caps for their API keys. I want my LLM apps to stop working the moment they hit a dollar threshold I've set for a period of time.</p>
-<p>Here's <a href="https://www.v2ex.com/t/1196011">the (Chinese language) forum thread</a> that served as the principal source for Matt's article.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49058993">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Restaurants are leaning into handmade/DIY aesthetics as AI slop grows]]></title>
-        <id>https://waxy.org/?p=51064</id>
-        <link href="https://www.eater.com/trends/975087/restaurants-lean-into-bespoke-handmade-elements-during-ai-flyer-backlash"/>
-        <updated>2026-07-26T18:08:38.000Z</updated>
-        <summary type="html"><![CDATA[we’re going to see this backlash everywhere to the polished blandness of generated imagery
-Caitlin Dewey #]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
 </feed>
