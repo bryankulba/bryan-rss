@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-25T16:33:28.719Z</updated>
+    <updated>2026-08-25T20:25:03.856Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[RIP Dolly Parton, a gem and a hero.  She died today at...]]></title>
+        <id>https://kottke.org/26/08/0049533-she-died-today-at-the-age</id>
+        <link href="https://kottke.org/26/08/0049533-she-died-today-at-the-age"/>
+        <updated>2026-08-25T18:18:00.000Z</updated>
+        <summary type="html"><![CDATA[RIP Dolly Parton, a gem and a hero. She died today at the age of 80.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;Ultimately there are people who want to live, not...]]></title>
+        <id>https://kottke.org/26/08/0049531-in-a-world-without-reperc</id>
+        <link href="https://kottke.org/26/08/0049531-in-a-world-without-reperc"/>
+        <updated>2026-08-25T17:21:00.000Z</updated>
+        <summary type="html"><![CDATA[“Ultimately there are people who want to live, not in a world of reconciliation, but in a world without repercussions.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220; At least 1-in-4 of all the people who have played...]]></title>
         <id>https://kottke.org/26/08/0049532-at-least-1-in-4-of-all-th</id>
@@ -7143,36 +7163,6 @@ Tags: Derek Lowe · Donald Trump · politics · science]]></summary>
         <summary type="html"><![CDATA[Today's links How the EU can punish Google (despite Trump): Grant me the courage to change the things I can. Hey look at this: Delights to delectate. Object permanence: Chilling Effects; Billy Bragg v Myspace; Glenn Beck calls murdered Norwegian children "Hitler Youth"; Photog sues Getty for $1b copyfraud; Best paid CEOs perform worst; Olympics v "Olympics"; Alberta tar sands v "hot lesbians"; IoT security apocalypse; 3 Little Pigs in pidgin; The nasty party; Copyright extortionist infringed fellow extortionist; Grandpa mobbed for photographing grandson in park; Ice Bucket Challenge didn't cure ALS; Twiddling enshittifies your brain. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[morning computer dem bones again]]></title>
-        <id>https://warrenellis.ltd/?p=18729</id>
-        <link href="https://warrenellis.ltd/mc/morning-computer-dem-bones-again/"/>
-        <updated>2026-07-27T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Jason Limon. An Early Bronze Age metalworker and shaman discovered over 200 years ago in a lavish burial near Stonehenge and long assumed to be…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/823277996410585088</id>
-        <link href="https://brucesterling.tumblr.com/post/823277996410585088"/>
-        <updated>2026-07-27T07:58:00.000Z</updated>
-        <summary type="html"><![CDATA[*The oligarchy has brought this ill-will and deep suspicion on itself.  If they sold jars of mustard it would be “Pervert Mustard”]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[That was then, this is now]]></title>
-        <id>https://brucesterling.tumblr.com/post/823275938691366912</id>
-        <link href="https://brucesterling.tumblr.com/post/823275938691366912"/>
-        <updated>2026-07-27T07:25:18.000Z</updated>
-        <summary type="html"><![CDATA[That was then, this is now]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
