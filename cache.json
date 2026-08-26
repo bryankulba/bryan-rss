@@ -1709,56 +1709,6 @@
           "wordCount": 797,
           "title": "Don’t use AI until you’re 40 . &#8220;We have been so...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049397-we-used-to-be-able-to-buy",
-          "author": null,
-          "description": "We Used to Be Able to Buy Things in This Country. “Locking up toothpaste was a warning sign that our executive class was crazy.”",
-          "link": "https://kottke.org/26/07/0049397-we-used-to-be-able-to-buy",
-          "publishedOn": "2026-07-27T21:18:00.000Z",
-          "wordCount": 739,
-          "title": "We Used to Be Able to Buy Things in This Country ....",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/a-shortlist-of-potential-future-euro-banknote-designs",
-          "author": null,
-          "description": "The European Central Bank is providing a sneak peek at the next design of the Euro banknotes. From a shortlist of 10 designs created by artists and designers from across the EU, one will be selected as the basis of how Euro banknotes from €5 to €200 will look in the future. Here are a few I pulled out from all of the designs:\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt’s notable (*cough*) that some of the banknotes are designed vertically vs horizontally. The influence of portrait mode on smartphones?\n\n \n\n        \n         \nTags: currency · design · European Union · money",
-          "link": "https://kottke.org/26/07/a-shortlist-of-potential-future-euro-banknote-designs",
-          "publishedOn": "2026-07-27T19:58:00.000Z",
-          "wordCount": 887,
-          "title": "A Shortlist of Potential Future Euro Banknote Designs",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1785176015-95d9b986.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/07/0049391-datatype-is-an-opentype-v",
-          "author": null,
-          "description": "“Datatype is an OpenType variable font that turns simple text expressions into inline charts. No JavaScript, no images, no rendering library — just type the syntax and Datatype’s ligature substitution does the rest.”",
-          "link": "https://kottke.org/26/07/0049391-datatype-is-an-opentype-v",
-          "publishedOn": "2026-07-27T19:15:00.000Z",
-          "wordCount": 743,
-          "title": "&#8220; Datatype is an OpenType variable font that turns...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/0049382-the-batman-effect",
-          "author": null,
-          "description": "The Batman Effect: people in an experiment acted more altruisticly when the caped crusader was present.",
-          "link": "https://kottke.org/26/07/0049382-the-batman-effect",
-          "publishedOn": "2026-07-27T18:25:11.000Z",
-          "wordCount": 716,
-          "title": "The Batman Effect : people in an experiment acted more...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/07/once-upon-a-time-in-space",
-          "author": null,
-          "description": "From the filmmakers who made the excellent Once Upon a Time in Northern Ireland comes a four-part series on space exploration, Once Upon a Time in Space. A short trailer is above; here’s a synopsis:\nDrawing on intimate, unseen archive and powerful first-hand testimony, this landmark 4-part series tells the human stories behind our quest to explore space, offering a unique perspective on our changing world and where we are headed.\n\n\t\nThe series first aired on the BBC and the first two episodes are now available on PBS. (thx, mitch)\n\n \n\n        \n         \nTags: Once Upon a Time in Space · space · trailers · TV · video",
-          "link": "https://kottke.org/26/07/once-upon-a-time-in-space",
-          "publishedOn": "2026-07-27T17:08:22.000Z",
-          "wordCount": 772,
-          "title": "Once Upon a Time in Space",
-          "imageUrl": "https://i.ytimg.com/vi/2D-ew87MiS4/sddefault.jpg"
         }
       ]
     },
@@ -2254,6 +2204,16 @@
       "feedUrl": "https://brucesterling.tumblr.com/rss",
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
+        {
+          "id": "https://brucesterling.tumblr.com/post/826012229872877568",
+          "author": null,
+          "description": "*He scolded the clankers",
+          "link": "https://brucesterling.tumblr.com/post/826012229872877568",
+          "publishedOn": "2026-08-26T12:17:28.000Z",
+          "wordCount": null,
+          "title": "*He scolded the clankers",
+          "imageUrl": null
+        },
         {
           "id": "https://brucesterling.tumblr.com/post/825973511511212032",
           "author": null,
@@ -2790,6 +2750,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+          "author": null,
+          "description": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://pauldix.com/the-end-of-programming\">Paul Dix</a>, The end of programming</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/bun\">bun</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+          "publishedOn": "2026-08-26T08:07:55.000Z",
+          "wordCount": 837,
+          "title": "Quoting Paul Dix",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
           "author": null,
@@ -3999,26 +3969,6 @@
           "wordCount": 1262,
           "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://huggingface.co/moonshotai/Kimi-K3\">moonshotai/Kimi-K3</a></strong></p>\nAs promised <a href=\"https://simonwillison.net/2026/Jul/16/kimi-k3/\">earlier this month</a>, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face.</p>\n<p>Kimi introduced their own janky <a href=\"https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/LICENSE\">modified version of the MIT license</a> with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity:</p>\n<blockquote>\n<p>Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service.</p>\n</blockquote>\n<p>The <a href=\"https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE\">K3 license</a> no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses:</p>\n<blockquote>\n<p>If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose.</p>\n</blockquote>\n<p>To Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place.</p>\n<p>OpenRouter is already offering K3 <a href=\"https://openrouter.ai/moonshotai/kimi-k3\">from 7 providers</a>, most of which are at the same $3/million input and $15/million output as Moonshot AI themselves.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/moonshot\">moonshot</a>, <a href=\"https://simonwillison.net/tags/kimi\">kimi</a>, <a href=\"https://simonwillison.net/tags/janky-licenses\">janky-licenses</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-          "publishedOn": "2026-07-27T23:39:04.000Z",
-          "wordCount": 1015,
-          "title": "moonshotai/Kimi-K3",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22\">An opinionated guide to which AI to use to do stuff</a></strong></p>\nIt's interesting watching the evolution of Ethan Mollick's guide over time. </p>\n<p><a href=\"https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide\">A year ago</a> it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode.</p>\n<p>Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\".</p>\n<p>Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. <a href=\"https://gemini.google/overview/agent/spark/\">Gemini Spark</a> has yet to prove itself!</p>\n<p>Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use:</p>\n<blockquote>\n<p>To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...]</p>\n<p>The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer.</p>\n</blockquote>\n<p>I think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive.</p>\n<p>Short version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet!\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ethan-mollick\">ethan-mollick</a>, <a href=\"https://simonwillison.net/tags/code-interpreter\">code-interpreter</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a></p>",
-          "link": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-          "publishedOn": "2026-07-27T21:55:53.000Z",
-          "wordCount": 1071,
-          "title": "An opinionated guide to which AI to use to do stuff",
-          "imageUrl": null
         }
       ]
     },
@@ -4280,6 +4230,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12322",
+          "author": "PGR",
+          "description": "A characteristically perspicacious observation on utopias from G K Chesterton.",
+          "link": "https://www.velcro-city.co.uk/an-elaborate-account-of-the-overcoming-of-the-smaller-difficulties/",
+          "publishedOn": "2026-08-26T08:30:00.000Z",
+          "wordCount": 2470,
+          "title": "an elaborate account of the overcoming of the smaller difficulties",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12314",
           "author": "PGR",

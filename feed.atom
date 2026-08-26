@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-26T04:36:27.830Z</updated>
+    <updated>2026-08-26T12:44:33.635Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[*He scolded the clankers]]></title>
+        <id>https://brucesterling.tumblr.com/post/826012229872877568</id>
+        <link href="https://brucesterling.tumblr.com/post/826012229872877568"/>
+        <updated>2026-08-26T12:17:28.000Z</updated>
+        <summary type="html"><![CDATA[*He scolded the clankers]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[an elaborate account of the overcoming of the smaller difficulties]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12322</id>
+        <link href="https://www.velcro-city.co.uk/an-elaborate-account-of-the-overcoming-of-the-smaller-difficulties/"/>
+        <updated>2026-08-26T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[A characteristically perspicacious observation on utopias from G K Chesterton.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Paul Dix]]></title>
+        <id>https://simonwillison.net/2026/Aug/26/paul-dix/</id>
+        <link href="https://simonwillison.net/2026/Aug/26/paul-dix/"/>
+        <updated>2026-08-26T08:07:55.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://pauldix.com/the-end-of-programming"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.</p></blockquote>
+<p class="cite">&mdash; <a href="https://pauldix.com/the-end-of-programming">Paul Dix</a>, The end of programming</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/bun">bun</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: The age of disinvention (25 Aug 2026)]]></title>
         <id>https://pluralistic.net/?p=13222</id>
@@ -7020,134 +7053,6 @@ Tags: demographics · maps · population · usa]]></summary>
         <summary type="html"><![CDATA[Today's links Discernment: How can you fact-check AI when you're asking it to teach you something you don't understand? Hey look at this: Delights to delectate. Object permanence: How to help with computers; Batman equation; Fuck and the law; NC's racist voting law; Pregancy app is full of spyware; Stiglitz v Apple's "tax fraud"; Accelerometer fingerprinting; Sacklers v bankruptcy; Boss-politics antitrust. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Discernment (permalink) As far as I can tell, this dialog between MacArthur prize-winning mathematician Terrence Tao and Chatgpt about "t…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[moonshotai/Kimi-K3]]></title>
-        <id>https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"/>
-        <updated>2026-07-27T23:39:04.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3</a></strong></p>
-As promised <a href="https://simonwillison.net/2026/Jul/16/kimi-k3/">earlier this month</a>, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face.</p>
-<p>Kimi introduced their own janky <a href="https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/LICENSE">modified version of the MIT license</a> with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity:</p>
-<blockquote>
-<p>Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display "Kimi K2" on the user interface of such product or service.</p>
-</blockquote>
-<p>The <a href="https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE">K3 license</a> no longer calls itself "modified MIT" and goes further, requiring a separate agreement with Moonshot for large "Model as a Service" businesses:</p>
-<blockquote>
-<p>If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose.</p>
-</blockquote>
-<p>To Kimi's credit, they make no attempt to describe this as an "open source" license in their own materials, consistently using the term "open weight" in its place.</p>
-<p>OpenRouter is already offering K3 <a href="https://openrouter.ai/moonshotai/kimi-k3">from 7 providers</a>, most of which are at the same $3/million input and $15/million output as Moonshot AI themselves.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/moonshot">moonshot</a>, <a href="https://simonwillison.net/tags/kimi">kimi</a>, <a href="https://simonwillison.net/tags/janky-licenses">janky-licenses</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An opinionated guide to which AI to use to do stuff]]></title>
-        <id>https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything"/>
-        <updated>2026-07-27T21:55:53.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22">An opinionated guide to which AI to use to do stuff</a></strong></p>
-It's interesting watching the evolution of Ethan Mollick's guide over time. </p>
-<p><a href="https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide">A year ago</a> it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode.</p>
-<p>Today it's much more about agentic systems - "where the AI is capable of doing the equivalent of many hours of real human work in one go".</p>
-<p>Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. <a href="https://gemini.google/overview/agent/spark/">Gemini Spark</a> has yet to prove itself!</p>
-<p>Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use:</p>
-<blockquote>
-<p>To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...]</p>
-<p>The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer.</p>
-</blockquote>
-<p>I think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive.</p>
-<p>Short version: if you flip ChatGPT mobile from "Chat" to "Work" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet!
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ethan-mollick">ethan-mollick</a>, <a href="https://simonwillison.net/tags/code-interpreter">code-interpreter</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Used to Be Able to Buy Things in This Country ....]]></title>
-        <id>https://kottke.org/26/07/0049397-we-used-to-be-able-to-buy</id>
-        <link href="https://kottke.org/26/07/0049397-we-used-to-be-able-to-buy"/>
-        <updated>2026-07-27T21:18:00.000Z</updated>
-        <summary type="html"><![CDATA[We Used to Be Able to Buy Things in This Country. “Locking up toothpaste was a warning sign that our executive class was crazy.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Shortlist of Potential Future Euro Banknote Designs]]></title>
-        <id>https://kottke.org/26/07/a-shortlist-of-potential-future-euro-banknote-designs</id>
-        <link href="https://kottke.org/26/07/a-shortlist-of-potential-future-euro-banknote-designs"/>
-        <updated>2026-07-27T19:58:00.000Z</updated>
-        <summary type="html"><![CDATA[The European Central Bank is providing a sneak peek at the next design of the Euro banknotes. From a shortlist of 10 designs created by artists and designers from across the EU, one will be selected as the basis of how Euro banknotes from €5 to €200 will look in the future. Here are a few I pulled out from all of the designs:
-
-
-
-
-
-
-
-
-
-
-
-
-
-It’s notable (*cough*) that some of the banknotes are designed vertically vs horizontally. The influence of portrait mode on smartphones?
-
- 
-
-        
-         
-Tags: currency · design · European Union · money]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Datatype is an OpenType variable font that turns...]]></title>
-        <id>https://kottke.org/26/07/0049391-datatype-is-an-opentype-v</id>
-        <link href="https://kottke.org/26/07/0049391-datatype-is-an-opentype-v"/>
-        <updated>2026-07-27T19:15:00.000Z</updated>
-        <summary type="html"><![CDATA[“Datatype is an OpenType variable font that turns simple text expressions into inline charts. No JavaScript, no images, no rendering library — just type the syntax and Datatype’s ligature substitution does the rest.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Batman Effect : people in an experiment acted more...]]></title>
-        <id>https://kottke.org/26/07/0049382-the-batman-effect</id>
-        <link href="https://kottke.org/26/07/0049382-the-batman-effect"/>
-        <updated>2026-07-27T18:25:11.000Z</updated>
-        <summary type="html"><![CDATA[The Batman Effect: people in an experiment acted more altruisticly when the caped crusader was present.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Once Upon a Time in Space]]></title>
-        <id>https://kottke.org/26/07/once-upon-a-time-in-space</id>
-        <link href="https://kottke.org/26/07/once-upon-a-time-in-space"/>
-        <updated>2026-07-27T17:08:22.000Z</updated>
-        <summary type="html"><![CDATA[From the filmmakers who made the excellent Once Upon a Time in Northern Ireland comes a four-part series on space exploration, Once Upon a Time in Space. A short trailer is above; here’s a synopsis:
-Drawing on intimate, unseen archive and powerful first-hand testimony, this landmark 4-part series tells the human stories behind our quest to explore space, offering a unique perspective on our changing world and where we are headed.
-
-	
-The series first aired on the BBC and the first two episodes are now available on PBS. (thx, mitch)
-
- 
-
-        
-         
-Tags: Once Upon a Time in Space · space · trailers · TV · video]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
