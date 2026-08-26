@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-25T20:25:03.856Z</updated>
+    <updated>2026-08-26T01:07:38.825Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[EVE Online: The Move to Python 3 Begins!]]></title>
+        <id>https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/</id>
+        <link href="https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"/>
+        <updated>2026-08-25T22:59:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.eveonline.com/news/view/the-move-to-python-3-begins">EVE Online: The Move to Python 3 Begins!</a></strong></p>
+EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p>
+<p>They've been running on <a href="https://github.com/stackless-dev/stackless/wiki/">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href="https://www.eveonline.com/news/view/stackless-python-2.7">in 2010</a>.</p>
+<p>Their upgrade to Python 3 will start using the <a href="https://python-future.org/futurize.html">futurize</a> script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example <code>1 / 2</code> is <code>0</code> in Python 2 but is <code>0.5</code> in Python 3.</p>
+<p>There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented <a href="https://youtu.be/-x299qHLQs0">Scheduling in Carbon: Leaving Stackless Python Behind</a> describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) <a href="https://github.com/carbonengine/scheduler">carbonengine/scheduler</a> library.
+
+    <p><small></small>Via <a href="https://lobste.rs/s/e1oalq/move_python_3_begins">Lobster.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/eve-online">eve-online</a>, <a href="https://simonwillison.net/tags/migrations">migrations</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/python3">python3</a>, <a href="https://simonwillison.net/tags/stackless">stackless</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dolly Parton and Kermit the Frog Sing Everyday People (1987)]]></title>
+        <id>https://kottke.org/26/08/dolly-parton-and-kermit-the-frog-sing-everyday-people-1987</id>
+        <link href="https://kottke.org/26/08/dolly-parton-and-kermit-the-frog-sing-everyday-people-1987"/>
+        <updated>2026-08-25T22:31:00.000Z</updated>
+        <summary type="html"><![CDATA[On the fifth episode of her late 80s variety show Dolly, Dolly Parton was joined by Kermit the Frog for a lovely rendition of Sly and the Family Stone’s 1968 hit Everyday People.
+You can also watch the clip on Instagram and Reddit. The full episode, which features special guest stars Delta Burke, Terence Trent D’Arby, and the Oak Ridge Boys (in addition to Jim Henson as Kermit), can be seen on YouTube (not very good quality unfortunately).
+
+
+ 
+
+        
+         
+Tags: Dolly Parton · music · The Muppets · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In lieu of flowers, Dolly Parton’s family is asking for...]]></title>
+        <id>https://kottke.org/26/08/0049534-donations-to-her-imaginat</id>
+        <link href="https://kottke.org/26/08/0049534-donations-to-her-imaginat"/>
+        <updated>2026-08-25T20:42:00.000Z</updated>
+        <summary type="html"><![CDATA[In lieu of flowers, Dolly Parton’s family is asking for donations to her Imagination Library, which has distributed over 330 million books to kids.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RIP Dolly Parton, a gem and a hero.  She died today at...]]></title>
         <id>https://kottke.org/26/08/0049533-she-died-today-at-the-age</id>
@@ -7143,26 +7190,6 @@ Tags: Derek Lowe · Donald Trump · politics · science]]></summary>
         <summary type="html"><![CDATA[Welp, right at the top of the CDC page on autism and vaccines: “The claim ‘vaccines do not cause autism’ is not an evidence-based claim because studies have not ruled out the possibility that infant vaccines cause autism.” 🫨]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[27jul26]]></title>
-        <id>https://warrenellis.ltd/?p=18733</id>
-        <link href="https://warrenellis.ltd/status/27jul26/"/>
-        <updated>2026-07-27T12:41:22.000Z</updated>
-        <summary type="html"><![CDATA[Note finger partially over lens because I had already drunk all these, and also a Cornish whisky called Pocketful Of Stones. Out in November: a…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: How the EU can punish Google (despite Trump) (27 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13080</id>
-        <link href="https://pluralistic.net/2026/07/27/eucd-6/"/>
-        <updated>2026-07-27T10:52:03.000Z</updated>
-        <summary type="html"><![CDATA[Today's links How the EU can punish Google (despite Trump): Grant me the courage to change the things I can. Hey look at this: Delights to delectate. Object permanence: Chilling Effects; Billy Bragg v Myspace; Glenn Beck calls murdered Norwegian children "Hitler Youth"; Photog sues Getty for $1b copyfraud; Best paid CEOs perform worst; Olympics v "Olympics"; Alberta tar sands v "hot lesbians"; IoT security apocalypse; 3 Little Pigs in pidgin; The nasty party; Copyright extortionist infringed fellow extortionist; Grandpa mobbed for photographing grandson in park; Ice Bucket Challenge didn't cure ALS; Twiddling enshittifies your brain. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

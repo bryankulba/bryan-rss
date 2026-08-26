@@ -281,6 +281,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/08/dolly-parton-and-kermit-the-frog-sing-everyday-people-1987",
+          "author": null,
+          "description": "On the fifth episode of her late 80s variety show Dolly, Dolly Parton was joined by Kermit the Frog for a lovely rendition of Sly and the Family Stone’s 1968 hit Everyday People.\nYou can also watch the clip on Instagram and Reddit. The full episode, which features special guest stars Delta Burke, Terence Trent D’Arby, and the Oak Ridge Boys (in addition to Jim Henson as Kermit), can be seen on YouTube (not very good quality unfortunately).\n\n\n \n\n        \n         \nTags: Dolly Parton · music · The Muppets · video",
+          "link": "https://kottke.org/26/08/dolly-parton-and-kermit-the-frog-sing-everyday-people-1987",
+          "publishedOn": "2026-08-25T22:31:00.000Z",
+          "wordCount": 773,
+          "title": "Dolly Parton and Kermit the Frog Sing Everyday People (1987)",
+          "imageUrl": "https://i.ytimg.com/vi/eojJTLf-mIo/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/08/0049534-donations-to-her-imaginat",
+          "author": null,
+          "description": "In lieu of flowers, Dolly Parton’s family is asking for donations to her Imagination Library, which has distributed over 330 million books to kids.",
+          "link": "https://kottke.org/26/08/0049534-donations-to-her-imaginat",
+          "publishedOn": "2026-08-25T20:42:00.000Z",
+          "wordCount": 728,
+          "title": "In lieu of flowers, Dolly Parton’s family is asking for...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049533-she-died-today-at-the-age",
           "author": null,
           "description": "RIP Dolly Parton, a gem and a hero. She died today at the age of 80.",
@@ -2113,21 +2133,6 @@
           "wordCount": 4569,
           "title": "Pluralistic: Discernment (28 Jul 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13080",
-          "author": "Cory Doctorow",
-          "description": "Today's links How the EU can punish Google (despite Trump): Grant me the courage to change the things I can. Hey look at this: Delights to delectate. Object permanence: Chilling Effects; Billy Bragg v Myspace; Glenn Beck calls murdered Norwegian children \"Hitler Youth\"; Photog sues Getty for $1b copyfraud; Best paid CEOs perform worst; Olympics v \"Olympics\"; Alberta tar sands v \"hot lesbians\"; IoT security apocalypse; 3 Little Pigs in pidgin; The nasty party; Copyright extortionist infringed fellow extortionist; Grandpa mobbed for photographing grandson in park; Ice Bucket Challenge didn't cure ALS; Twiddling enshittifies your brain. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll…",
-          "link": "https://pluralistic.net/2026/07/27/eucd-6/",
-          "publishedOn": "2026-07-27T10:52:03.000Z",
-          "wordCount": 3840,
-          "title": "Pluralistic: How the EU can punish Google (despite Trump) (27 Jul 2026)",
-          "enclosure": {
-            "url": "https://www.abc.net.au/reslib/200709/r184705_686227.mp3",
-            "length": "3493303",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
         }
       ]
     },
@@ -2271,16 +2276,6 @@
           "wordCount": 1384,
           "title": "9aug26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1753.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18733",
-          "author": "Warren Ellis",
-          "description": "Note finger partially over lens because I had already drunk all these, and also a Cornish whisky called Pocketful Of Stones. Out in November: a…",
-          "link": "https://warrenellis.ltd/status/27jul26/",
-          "publishedOn": "2026-07-27T12:41:22.000Z",
-          "wordCount": 1458,
-          "title": "27jul26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/07/a3090375765_10.jpg"
         }
       ]
     },
@@ -2815,6 +2810,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.eveonline.com/news/view/the-move-to-python-3-begins\">EVE Online: The Move to Python 3 Begins!</a></strong></p>\nEVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p>\n<p>They've been running on <a href=\"https://github.com/stackless-dev/stackless/wiki/\">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href=\"https://www.eveonline.com/news/view/stackless-python-2.7\">in 2010</a>.</p>\n<p>Their upgrade to Python 3 will start using the <a href=\"https://python-future.org/futurize.html\">futurize</a> script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example <code>1 / 2</code> is <code>0</code> in Python 2 but is <code>0.5</code> in Python 3.</p>\n<p>There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented <a href=\"https://youtu.be/-x299qHLQs0\">Scheduling in Carbon: Leaving Stackless Python Behind</a> describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) <a href=\"https://github.com/carbonengine/scheduler\">carbonengine/scheduler</a> library.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/e1oalq/move_python_3_begins\">Lobster.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/eve-online\">eve-online</a>, <a href=\"https://simonwillison.net/tags/migrations\">migrations</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/python3\">python3</a>, <a href=\"https://simonwillison.net/tags/stackless\">stackless</a></p>",
+          "link": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+          "publishedOn": "2026-08-25T22:59:30.000Z",
+          "wordCount": 907,
+          "title": "EVE Online: The Move to Python 3 Begins!",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
           "author": null,
