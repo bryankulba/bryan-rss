@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-26T16:46:29.676Z</updated>
+    <updated>2026-08-26T22:42:18.242Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mimic your own voice with Pink Trombone]]></title>
+        <id>https://waxy.org/?p=51213</id>
+        <link href="https://samuel.vvolhejn.com/"/>
+        <updated>2026-08-26T17:49:48.000Z</updated>
+        <summary type="html"><![CDATA[an open-source model to control the classic human vocal tract simulator
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nitter, XCancel shut down after X sends cease-and-desist]]></title>
+        <id>https://waxy.org/?p=51211</id>
+        <link href="https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/"/>
+        <updated>2026-08-26T17:42:03.000Z</updated>
+        <summary type="html"><![CDATA[the privacy-friendly X/Twitter frontends were a helpful way to view a post without an account
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon shuttering Mechanical Turk after 21 years]]></title>
+        <id>https://waxy.org/?p=51209</id>
+        <link href="https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html"/>
+        <updated>2026-08-26T17:32:30.000Z</updated>
+        <summary type="html"><![CDATA[three years after it launched, I asked Turkers to send me selfies for cash
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[In Hilbert Space, All Things Are Quantumly Possible]]></title>
         <id>https://www.quantamagazine.org/?p=166153</id>

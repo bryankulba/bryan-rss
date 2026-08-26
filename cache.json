@@ -1718,6 +1718,36 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51213",
+          "author": "Andy Baio",
+          "description": "an open-source model to control the classic human vocal tract simulator\n#",
+          "link": "https://samuel.vvolhejn.com/",
+          "publishedOn": "2026-08-26T17:49:48.000Z",
+          "wordCount": 167,
+          "title": "Mimic your own voice with Pink Trombone",
+          "imageUrl": "https://samuel.vvolhejn.com/og.png"
+        },
+        {
+          "id": "https://waxy.org/?p=51211",
+          "author": "Andy Baio",
+          "description": "the privacy-friendly X/Twitter frontends were a helpful way to view a post without an account\n#",
+          "link": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/",
+          "publishedOn": "2026-08-26T17:42:03.000Z",
+          "wordCount": 3484,
+          "title": "Nitter, XCancel shut down after X sends cease-and-desist",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/08/twitter-x-logo-musk-2.jpg?resize=1200,675"
+        },
+        {
+          "id": "https://waxy.org/?p=51209",
+          "author": "Andy Baio",
+          "description": "three years after it launched, I asked Turkers to send me selfies for cash\n#",
+          "link": "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html",
+          "publishedOn": "2026-08-26T17:32:30.000Z",
+          "wordCount": 14216,
+          "title": "Amazon shuttering Mechanical Turk after 21 years",
+          "imageUrl": "https://image.cnbcfm.com/api/v1/image/108354426-1787745711052-gettyimages-111223979-73v05k1p.jpeg?v=1787745741&w=1920&h=1080"
+        },
+        {
           "id": "https://waxy.org/?p=51205",
           "author": "Andy Baio",
           "description": "one of several playful web experiments by Joohyun Park\n#",
