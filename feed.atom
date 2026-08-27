@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-26T22:42:18.242Z</updated>
+    <updated>2026-08-27T07:12:50.266Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Qwen3.8-Flash-Next]]></title>
+        <id>https://simonwillison.net/2026/Aug/26/qwen38-flash-next/</id>
+        <link href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next/"/>
+        <updated>2026-08-26T23:52:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://qwen.ai/blog?id=qwen3.8-flash-next">Qwen3.8-Flash-Next</a></strong></p>
+Another open weights model from Qwen. This one is "a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4".</p>
+<p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p>
+<p>I've been trying it out on a DGX Spark using <a href="https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF">these Unsloth quantized models</a>. I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff9c69ebdab90d8a45b8de4742cc7b840">these pelicans</a>) and the 78.9GB UD-Q2_K_XL (producing <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6ba7cbfc1a9336986703b41f7fccd73a">these</a>).</p>
+<p>My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL:</p>
+<p><img alt="Flat vector illustration: a white pelican with an orange beak and orange legs rides a red bicycle along a sandy path, a wicker basket on the handlebars holding a blue fish, with green rolling hills, a small tree and bushes, white clouds and a bright yellow sun in a blue sky behind it" src="https://static.simonwillison.net/static/2026-08-27/IMG_7667.png" />
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49448210">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/nvidia-spark">nvidia-spark</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mimic your own voice with Pink Trombone]]></title>
         <id>https://waxy.org/?p=51213</id>
@@ -7019,84 +7039,6 @@ Which country is the “land of the rabbits”? Why does Germany have so many di
 Tags: Europe · language · Rob Watts · video]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[30 notable sales of rare books by AbeBooks over the past...]]></title>
-        <id>https://kottke.org/26/07/0049398-30-notable-sales-of-rare-</id>
-        <link href="https://kottke.org/26/07/0049398-30-notable-sales-of-rare-"/>
-        <updated>2026-07-28T16:59:00.000Z</updated>
-        <summary type="html"><![CDATA[30 notable sales of rare books by AbeBooks over the past 30 years, including first editions of Moby-Dick, Winnie-The-Pooh, and Leaves of Grass.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19th Century Japanese Woodblock Prints Creatively...]]></title>
-        <id>https://kottke.org/26/07/0049389-19th-century-japanese-woo</id>
-        <link href="https://kottke.org/26/07/0049389-19th-century-japanese-woo"/>
-        <updated>2026-07-28T16:15:00.000Z</updated>
-        <summary type="html"><![CDATA[19th Century Japanese Woodblock Prints Creatively Illustrate the Inner Workings of the Human Body. Love these.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All US Cities Which Used to Have More Than 100,000 People But Don&#8217;t Anymore]]></title>
-        <id>https://kottke.org/26/07/all-us-cities-which-used-to-have-more-than-100000-people-but-dont-anymore</id>
-        <link href="https://kottke.org/26/07/all-us-cities-which-used-to-have-more-than-100000-people-but-dont-anymore"/>
-        <updated>2026-07-28T15:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Here’s a map of the 21 US cities that used to have a population of 100,000 people but don’t anymore. Many of these are Rust Belt cities, in which manufacturing employment fell steeply during the latter part of the 20th century.
-The thread at Reddit mentions Detroit and St. Louis as two other cities whose population has dropped during that same time period. Detroit went from 1.85 million in 1950 to 639,000 in 2020 and St. Louis dropped from 857,000 to 300,000 over the same time period:
-St. Louis was once the country’s 4th largest city. Worlds Fair and Olympics in 1904. Two Major League Baseball teams. It didn’t boom as much as the Great Lakes cities in between the wars and it declined just as much after.
-
- 
-
-        
-         
-Tags: demographics · maps · population · usa]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the Words We Teach English Language Learners...]]></title>
-        <id>https://kottke.org/26/07/0049395-how-the-words-we-teach-en</id>
-        <link href="https://kottke.org/26/07/0049395-how-the-words-we-teach-en"/>
-        <updated>2026-07-28T14:33:00.000Z</updated>
-        <summary type="html"><![CDATA[How the Words We Teach English Language Learners Changed, and What That Says About Us. “The shifts reflect a life that moved further from its own making: less tied to tools, animals, food…; more tied to global institutions, categories, systems…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t use AI until you’re 40 . &#8220;We have been so...]]></title>
-        <id>https://kottke.org/26/07/0049401-dont-use-ai-until-youre-4</id>
-        <link href="https://kottke.org/26/07/0049401-dont-use-ai-until-youre-4"/>
-        <updated>2026-07-28T13:37:47.000Z</updated>
-        <summary type="html"><![CDATA[Don’t use AI until you’re 40. “We have been so quick to treat access to new technology as an inevitability that we have failed to question whether every powerful tool should be placed in the hands of every developing mind the moment it becomes available.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Summer Songs Supermix 2026]]></title>
-        <id>https://www.blackbirdspyplane.com/p/summer-songs-supermix-2026</id>
-        <link href="https://www.blackbirdspyplane.com/p/summer-songs-supermix-2026"/>
-        <updated>2026-07-28T11:03:41.000Z</updated>
-        <summary type="html"><![CDATA[Two and a half hours of eternal joy]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Discernment (28 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13084</id>
-        <link href="https://pluralistic.net/2026/07/28/hitl-ers/"/>
-        <updated>2026-07-28T10:44:03.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Discernment: How can you fact-check AI when you're asking it to teach you something you don't understand? Hey look at this: Delights to delectate. Object permanence: How to help with computers; Batman equation; Fuck and the law; NC's racist voting law; Pregancy app is full of spyware; Stiglitz v Apple's "tax fraud"; Accelerometer fingerprinting; Sacklers v bankruptcy; Boss-politics antitrust. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Discernment (permalink) As far as I can tell, this dialog between MacArthur prize-winning mathematician Terrence Tao and Chatgpt about "t…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>
