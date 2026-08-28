@@ -23,6 +23,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/08/26/yesterday",
+          "author": null,
+          "description": "I published my perfect iPhone weather app, and my guess is that you won’t want it.\nPremise:\nWhy doesn’t my weather app tell me the weather yesterday?\nI can never plan based on numerical temperature, etc. Am I going to be walking outdoors today? Should I take a jacket? Numbers are so abstract. Too much thought required.\nHOWEVER: I can mostly remember what I wore yesterday.\nSo all I want to see, from my app, is: oh yeah today is like yesterday but a little warmer.\nThen I can adjust easily.\nI built an app around that core idea.\n\nYesterday features:\nToday’s weather is the solid line. Yesterday’s weather is the dashed line. The diff is arrows.\nGlanceable AI-generated text description using Apple’s built-in LLM.\nDark mode! Tap the Sun to toggle dark mode (the Moon shows its current phase with la…",
+          "link": "https://interconnected.org/home/2026/08/26/yesterday",
+          "publishedOn": "2026-08-28T21:20:00.000Z",
+          "wordCount": 834,
+          "title": "New app: Yesterday, an iPhone app for yesterday’s weather",
+          "imageUrl": "https://interconnected.org/home/2026/08/26/yesterday.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/08/21/galactic",
           "author": null,
           "description": "I updated my Galactic Compass app for iPhone with augmented reality mode.\nBackground:\nGalactic Compass is a floating green arrow that always points the way to the middle of the Milky Way, 26,000 light years away.\nHere’s the announcement blog post from 2024.\nIt went kinda viral at the time. It was in the “top free apps” charts at the App Store briefly. In the Travel category. (I keep a list of press mentions over on Acts Not Facts.)\nWhy so popular? Probably because it was early “vibe coding” – I copy-and-pasted between ChatGPT and Xcode to code it, and that was new at the time.\nBut ALSO because knowing where the galactic centre is surprisingly grounding? I wake up every few months to an email in my inbox from someone who is having a tough time in life, or is losing a loved one, or similar, …",
@@ -186,6 +196,16 @@
       "feedUrl": "https://webcurios.co.uk/feed/",
       "siteUrl": "https://webcurios.co.uk",
       "articles": [
+        {
+          "id": "https://webcurios.co.uk/?p=1744",
+          "author": "admin",
+          "description": "Reading Time:  38 minutes   Hm, it does rather feel that Summer is now OVER – not, to be clear, that I am complaining about the fact that it is no longer threemillion degrees, but there’s been a feeling this week of the world rather rolling its sleeves up again and preparing to Get On With Sh1t, for better…\nContinue reading →",
+          "link": "https://webcurios.co.uk/webcurios-28-08-26/",
+          "publishedOn": "2026-08-28T06:23:23.000Z",
+          "wordCount": 11559,
+          "title": "Webcurios 28/08/26",
+          "imageUrl": null
+        },
         {
           "id": "https://webcurios.co.uk/?p=1736",
           "author": "admin",
@@ -1528,6 +1548,46 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51228",
+          "author": "Andy Baio",
+          "description": "Worms, Alter Ego, MacJesus ProGold, Portal (1986), and many more\nWeb Curios #",
+          "link": "https://archive.org/details/vintageai",
+          "publishedOn": "2026-08-28T16:53:46.000Z",
+          "wordCount": 31,
+          "title": "The Internet Archive’s Vintage AI collection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://waxy.org/?p=51225",
+          "author": "Andy Baio",
+          "description": "this year’s 11 nominees are all great\nWeb Curios #",
+          "link": "https://tinyawards.net/vote/",
+          "publishedOn": "2026-08-28T16:51:03.000Z",
+          "wordCount": 1344,
+          "title": "Vote for the 2026 Tiny Awards winner",
+          "imageUrl": "https://tinyawards.net/preview.png"
+        },
+        {
+          "id": "https://waxy.org/?p=51223",
+          "author": "Andy Baio",
+          "description": "sort by triangle count to see the simplest and most complex models in the game\n@lifewinning.com #",
+          "link": "https://katamari.andrew-boylan.com/",
+          "publishedOn": "2026-08-28T16:49:22.000Z",
+          "wordCount": 121,
+          "title": "Katamari Object Library",
+          "imageUrl": "https://katamari-object-library.vercel.app/og.png"
+        },
+        {
+          "id": "https://waxy.org/?p=51220",
+          "author": "Andy Baio",
+          "description": "play Tetris using 1,465 relays on 248 simulated Minivac 601s\n#",
+          "link": "https://minivac.greg.technology/tetris/",
+          "publishedOn": "2026-08-28T16:45:38.000Z",
+          "wordCount": 5,
+          "title": "Relay Tetris",
+          "imageUrl": "https://minivac.greg.technology/og-wall.png"
+        },
+        {
           "id": "https://waxy.org/?p=51218",
           "author": "Andy Baio",
           "description": "the dev made a fun postmortem on how the game was made and later went viral in Japan\n#",
@@ -2454,6 +2514,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/about/contributors/peter-margasak/intimately-rustic-motvind-festival-reviewed",
+          "author": null,
+          "description": "The Wire 511\n\nMotvind\n    \n Various venues, Rollag, Norway\n\n\n    Held in a remote valley a few hours north west of Oslo, the intimately rustic event has morphed from a political protest against the sponsorship of the nearby Kongsberg Jazz Festival by a weapons manufacturer back in 2016 into a celebration of hand-crafted music instilled with a strong improvisational aesthetic, regardless of genre. The organisers don’t need to reach far to find musicians embodying this practice, and most of the performers are part of several overlapping communities.\n\n\n    Many sets are concerned with sound qua sound, whether the austerity of The Sheriffs or the just intonation chamber jazz of Krise, a quartet led by guitarist Kristian Enkerud Lien, where harmonies generated with keyboardist Anna Ueland and t…",
+          "link": "https://www.thewire.co.uk/about/contributors/peter-margasak/intimately-rustic-motvind-festival-reviewed",
+          "publishedOn": "2026-08-28T00:00:00.000Z",
+          "wordCount": 1022,
+          "title": "“Intimately rustic”: Motvind festival reviewed",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/tracks/wire-mix-lucy-liyou",
           "author": null,
           "description": "The Wire 511, Korean American composer Lucy Liyou creates an exclusive Wire mix\n\nMr Cobra. Mr Cobra allowed Liyou to explore these influences, alongside her many others, including updated Korean folk opera, horror, vocality, narrative, maximalism, and families.\n\nThe Wire.\n\nSharon Udoh “Great Is Thy Faithfulness”\n    \nCheryl E Leonard “moffen”\n    \nPhew & Danielle de Picciotto “The Cat”\n    \nmore eaze “the producer”\n    \nBlue Gene Tyranny “She Wore Red Shoes”\n    \nMarran Gosov “Eifersucht”\n    \nBorana Ramizi “Dying Is The Color Yellow”\n    \nIris Our “Splits and Wants”\n    \nLucy Liyou with Nick Zanca “Live in Paris February 2024”\n    \nSamuel Beckett (performed by Billie Whitelaw) “Not I (1973)”\n\nRead Hugh Morris’s full interview with Lucy Liyou in The Wire 511. Pick up a copy in the online shop. Subscribers can read the full article in the digital archive here.",
@@ -2542,16 +2612,6 @@
           "wordCount": 1997,
           "title": "Jonny Greenwood: Ensemble Scoring and Skinned Themes",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.thewire.co.uk/in-writing/essays/join-the-wire-s-joseph-stannard-in-hastings-for-the-invisible-college",
-          "author": null,
-          "description": "Electric Palace Cinema, Hastings.\n    \n\n     \n\nThe Wire’s Joseph Stannard, The Invisible College – the “legacy sequel” to Stannard’s previous project The Outer Church – will host screenings of weird/occult/supernatural cinema along with live sets from experimental musicians.\n    \nWire columnist and contributor Philip Brophy’s 1993 body horror classic Body Melt (with a newly recorded intro from the director) and live performances from US electronic artists Trigger Object and Dream Skills.\n    \nhere.",
-          "link": "https://www.thewire.co.uk/in-writing/essays/join-the-wire-s-joseph-stannard-in-hastings-for-the-invisible-college",
-          "publishedOn": "2026-07-30T00:00:00.000Z",
-          "wordCount": 498,
-          "title": "Join  The Wire' s Joseph Stannard in Hastings for The Invisible College",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/07/30/IC_LOGO_4_copy_2_for_web-01.jpg"
         }
       ]
     },
@@ -3828,6 +3888,16 @@
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
         {
+          "id": "https://www.quantamagazine.org/?p=166297",
+          "author": "Ben Brubaker",
+          "description": "The theoretical side of the field doesn’t require computing machines. But many questions would never have been posed without them.             \nThe post Does Computer Science Need Computers? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
+          "publishedOn": "2026-08-28T13:30:34.000Z",
+          "wordCount": 3451,
+          "title": "Does Computer Science Need Computers?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Qualia_TheoreticalCS-crKristinaArmitage-Social.jpg"
+        },
+        {
           "id": "https://www.quantamagazine.org/?p=166153",
           "author": "Charlie Wood",
           "description": "To explore quantum phenomena, we must leave the familiar world and enter the abstract realm of Hilbert space.            \nThe post In Hilbert Space, All Things Are Quantumly Possible first appeared on Quanta Magazine",
@@ -3981,6 +4051,16 @@
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
         {
+          "id": "https://www.velcro-city.co.uk/?p=12331",
+          "author": "PGR",
+          "description": "Wise words from Olaf Stapledon.",
+          "link": "https://www.velcro-city.co.uk/this-age-of-muddles-and-passions/",
+          "publishedOn": "2026-08-28T12:52:51.000Z",
+          "wordCount": 2469,
+          "title": "this age of muddles and passions",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.velcro-city.co.uk/?p=12326",
           "author": "PGR",
           "description": "A hymn to spontaneous days off, and second-hand bookstores.",
@@ -4113,16 +4193,6 @@
           "wordCount": 11609,
           "title": "Raytheon University",
           "imageUrl": "https://disjunctionsmag.com/_astro/hughes-tucson.BPXMQNHR.jpg"
-        },
-        {
-          "id": "https://disjunctionsmag.com/articles/logic-and-labour",
-          "author": null,
-          "description": "Against the flattening of analytical categories",
-          "link": "https://disjunctionsmag.com/articles/logic-and-labour",
-          "publishedOn": "2026-07-30T00:00:00.000Z",
-          "wordCount": 3142,
-          "title": "On Logic and Labour",
-          "imageUrl": "https://disjunctionsmag.com/_astro/blast-furnace.DDAfCHwV.jpg"
         }
       ]
     }

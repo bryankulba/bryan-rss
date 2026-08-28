@@ -2,10 +2,128 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-28T09:24:19.396Z</updated>
+    <updated>2026-08-28T21:42:49.522Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New app: Yesterday, an iPhone app for yesterday’s weather]]></title>
+        <id>https://interconnected.org/home/2026/08/26/yesterday</id>
+        <link href="https://interconnected.org/home/2026/08/26/yesterday"/>
+        <updated>2026-08-28T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[I published my perfect iPhone weather app, and my guess is that you won’t want it.
+Premise:
+Why doesn’t my weather app tell me the weather yesterday?
+I can never plan based on numerical temperature, etc. Am I going to be walking outdoors today? Should I take a jacket? Numbers are so abstract. Too much thought required.
+HOWEVER: I can mostly remember what I wore yesterday.
+So all I want to see, from my app, is: oh yeah today is like yesterday but a little warmer.
+Then I can adjust easily.
+I built an app around that core idea.
+
+Yesterday features:
+Today’s weather is the solid line. Yesterday’s weather is the dashed line. The diff is arrows.
+Glanceable AI-generated text description using Apple’s built-in LLM.
+Dark mode! Tap the Sun to toggle dark mode (the Moon shows its current phase with la…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Internet Archive’s Vintage AI collection]]></title>
+        <id>https://waxy.org/?p=51228</id>
+        <link href="https://archive.org/details/vintageai"/>
+        <updated>2026-08-28T16:53:46.000Z</updated>
+        <summary type="html"><![CDATA[Worms, Alter Ego, MacJesus ProGold, Portal (1986), and many more
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vote for the 2026 Tiny Awards winner]]></title>
+        <id>https://waxy.org/?p=51225</id>
+        <link href="https://tinyawards.net/vote/"/>
+        <updated>2026-08-28T16:51:03.000Z</updated>
+        <summary type="html"><![CDATA[this year’s 11 nominees are all great
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Katamari Object Library]]></title>
+        <id>https://waxy.org/?p=51223</id>
+        <link href="https://katamari.andrew-boylan.com/"/>
+        <updated>2026-08-28T16:49:22.000Z</updated>
+        <summary type="html"><![CDATA[sort by triangle count to see the simplest and most complex models in the game
+@lifewinning.com #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Relay Tetris]]></title>
+        <id>https://waxy.org/?p=51220</id>
+        <link href="https://minivac.greg.technology/tetris/"/>
+        <updated>2026-08-28T16:45:38.000Z</updated>
+        <summary type="html"><![CDATA[play Tetris using 1,465 relays on 248 simulated Minivac 601s
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does Computer Science Need Computers?]]></title>
+        <id>https://www.quantamagazine.org/?p=166297</id>
+        <link href="https://www.quantamagazine.org/does-computer-science-need-computers-20260828/"/>
+        <updated>2026-08-28T13:30:34.000Z</updated>
+        <summary type="html"><![CDATA[The theoretical side of the field doesn’t require computing machines. But many questions would never have been posed without them.             
+The post Does Computer Science Need Computers? first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Ben Brubaker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[this age of muddles and passions]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12331</id>
+        <link href="https://www.velcro-city.co.uk/this-age-of-muddles-and-passions/"/>
+        <updated>2026-08-28T12:52:51.000Z</updated>
+        <summary type="html"><![CDATA[Wise words from Olaf Stapledon.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 28/08/26]]></title>
+        <id>https://webcurios.co.uk/?p=1744</id>
+        <link href="https://webcurios.co.uk/webcurios-28-08-26/"/>
+        <updated>2026-08-28T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  38 minutes   Hm, it does rather feel that Summer is now OVER – not, to be clear, that I am complaining about the fact that it is no longer threemillion degrees, but there’s been a feeling this week of the world rather rolling its sleeves up again and preparing to Get On With Sh1t, for better…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Intimately rustic”: Motvind festival reviewed]]></title>
+        <id>https://www.thewire.co.uk/about/contributors/peter-margasak/intimately-rustic-motvind-festival-reviewed</id>
+        <link href="https://www.thewire.co.uk/about/contributors/peter-margasak/intimately-rustic-motvind-festival-reviewed"/>
+        <updated>2026-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 511
+
+Motvind
+    
+ Various venues, Rollag, Norway
+
+
+    Held in a remote valley a few hours north west of Oslo, the intimately rustic event has morphed from a political protest against the sponsorship of the nearby Kongsberg Jazz Festival by a weapons manufacturer back in 2016 into a celebration of hand-crafted music instilled with a strong improvisational aesthetic, regardless of genre. The organisers don’t need to reach far to find musicians embodying this practice, and most of the performers are part of several overlapping communities.
+
+
+    Many sets are concerned with sound qua sound, whether the austerity of The Sheriffs or the just intonation chamber jazz of Krise, a quartet led by guitarist Kristian Enkerud Lien, where harmonies generated with keyboardist Anna Ueland and t…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Breaking Claude Code Opus 5 Auto Mode]]></title>
         <id>https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/</id>
@@ -6658,35 +6776,6 @@ llm chat-completions-server -p 9001
         <summary type="html"><![CDATA[Graceful style transitions, summerweight knits, great new shoes, and more]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Join  The Wire' s Joseph Stannard in Hastings for The Invisible College]]></title>
-        <id>https://www.thewire.co.uk/in-writing/essays/join-the-wire-s-joseph-stannard-in-hastings-for-the-invisible-college</id>
-        <link href="https://www.thewire.co.uk/in-writing/essays/join-the-wire-s-joseph-stannard-in-hastings-for-the-invisible-college"/>
-        <updated>2026-07-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Electric Palace Cinema, Hastings.
-    
-
-     
-
-The Wire’s Joseph Stannard, The Invisible College – the “legacy sequel” to Stannard’s previous project The Outer Church – will host screenings of weird/occult/supernatural cinema along with live sets from experimental musicians.
-    
-Wire columnist and contributor Philip Brophy’s 1993 body horror classic Body Melt (with a newly recorded intro from the director) and live performances from US electronic artists Trigger Object and Dream Skills.
-    
-here.]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Logic and Labour]]></title>
-        <id>https://disjunctionsmag.com/articles/logic-and-labour</id>
-        <link href="https://disjunctionsmag.com/articles/logic-and-labour"/>
-        <updated>2026-07-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Against the flattening of analytical categories]]></summary>
-        <author>
-            <name>Disjunctions Magazine</name>
         </author>
     </entry>
 </feed>
