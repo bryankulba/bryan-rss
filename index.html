@@ -35,6 +35,37 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-27T22:50:25.000Z">2026-08-27</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/" target="_blank" rel="noopener noreferrer">Breaking Claude Code Opus 5 Auto Mode</a>
+          </h2>
+          <p class="feed-item__desc">Breaking Claude Code Opus 5 Auto Mode
+made that the default and have made bold claims about its effectiveness.
+Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive.
+In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute!
+In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command.
+Claude detects the compromise, but Auto Mode blocks its cleanup command
+The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it!
+I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox:
+Run unattended coding agents in a container, VM or OS sandbox.
+Restrict network egress.
+Monitor your agents.
+Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...]
+Tags: sandboxing, security, ai, prompt-injection, generative-ai, llms, anthropic, claude, johann-rehberger, claude-code</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51218">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-27T17:11:25.000Z">2026-08-27</time>
@@ -10568,357 +10599,6 @@ here.</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://disjunctionsmag.com/_astro/blast-furnace.DDAfCHwV.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T21:15:21.000Z">2026-07-29</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting D. Richard Hipp</a>
-          </h2>
-          <p class="feed-item__desc">Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.
-Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.
-That didn’t mean programmers went away. It just meant the job changed a little bit.
-
-— D. Richard Hipp
-Tags: d-richard-hipp, sql, careers</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/its-cool-to-be-weird">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T21:00:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/its-cool-to-be-weird" target="_blank" rel="noopener noreferrer">It’s Cool to Be Weird</a>
-          </h2>
-          <p class="feed-item__desc">I really like what Razaak Eniola has to say here about human difference.
-Before Prince was Prince, Prince was weird. And that goes the same for probably any of your favorite artists. Before Erykah Badu was Erykah Badu, Erykah Badu was weird. Before Marc Rebillet was Marc Rebillet, Marc Rebillet was weird.
-Everybody loves to clap at the end — and most of the time we are clapping for the wrong reasons. We live in a culture that loves final products.
-It’s cool to be weird, as long as it’s rooted and aligned with what’s true and what’s sincere.
-
-	
-I often tell people they’re weird and it’s always a compliment. Before it came to mean odd-looking or “disturbingly different”, weird meant “having power to control fate” — perhaps you could think of it as describing someone who can forge their own way, make their own luck.
-Here’s a short quiz to discover your weirdness: You’re Weirder Than You Think.
-For whatever reason, this also reminds me of something I read earlier today by Robin Sloan:
-We should never forget that the product of work isn’t only the work — it’s also the worker.
-
-	
-(via @witoldriedel & @prisonculture.bsky.social)
-
- 
-
-        
-         
-Tags: language · Razaak Eniola</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/its-cool-to-be-weird" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/its-cool-to-be-weird">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049413-walmart-is-busy-building-">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T20:00:46.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049413-walmart-is-busy-building-" target="_blank" rel="noopener noreferrer">Walmart is busy building out their fast EV charger...</a>
-          </h2>
-          <p class="feed-item__desc">Walmart is busy building out their fast EV charger network in the US…currently 73 locations in 17 states. Their eventual goal is install chargers at “thousands of its locations by 2030”.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049413-walmart-is-busy-building-" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049413-walmart-is-busy-building-">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T18:45:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t" target="_blank" rel="noopener noreferrer">A terrarium iPhone case that houses actual growing...</a>
-          </h2>
-          <p class="feed-item__desc">A terrarium iPhone case that houses actual growing plants and moss.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T18:43:03.000Z">2026-07-29</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything" target="_blank" rel="noopener noreferrer">AI Worming through Word</a>
-          </h2>
-          <p class="feed-item__desc">AI Worming through Word
-An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.
-We've seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I've seen that deliberately copies instructions to self-replicate itself.
-It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.
-
-    
-Via Hacker News
-Tags: microsoft, security, ai, prompt-injection, generative-ai, llms</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T18:18:15.000Z">2026-07-29</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Matthew Green</a>
-          </h2>
-          <p class="feed-item__desc">Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, we’re in it. So unless AIs succeed in undermining all of our hard problems altogether (or we live in Impagliazzo’s Minicrypt) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.
-
-— Matthew Green, on Anthropic's recent cryptography work
-Tags: anthropic, claude, generative-ai, cryptography, ai, llms, ai-security-research, claude-mythos-fable</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049406-zugunruhe">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T17:55:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049406-zugunruhe" target="_blank" rel="noopener noreferrer">“ Zugunruhe  is a German term describing the...</a>
-          </h2>
-          <p class="feed-item__desc">“Zugunruhe is a German term describing the restless, twitching urge migratory birds feel when caged — and the same primal restlessness humans feel when trapped.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049406-zugunruhe" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049406-zugunruhe">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/some-interesting-apples">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T16:39:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/some-interesting-apples" target="_blank" rel="noopener noreferrer">Some Interesting Apples</a>
-          </h2>
-          <p class="feed-item__desc">Something that still blows my mind is that every apple seed produces a new variety. Every single one.
-
-	
-This is a lovely short documentary about a project called Some Interesting Apples, which aims to find apples growing in unusual places (i.e. not commercial orchards but in places where people tend to discard apple cores):
-The last three years I have been involved with a project called ‘Some Interesting Apples’, the primary aim of which is to record and, where characteristics make desirable (and sometimes where they don’t), preserve wilding apples, i.e., domestic apples growing on their own roots as the result of a discarded core.
-
-	
-Some of the best apples are then cultivated in an orchard dedicated to wild apples:
-The ‘Some Interesting Apples’ project collects apples from wild trees that have been grown using cores thrown away — many from car windows or dropped from walkers and animals.
-The wild trees or ‘wildlings’ are trees that grow from those apple cores discarded in hedges and along train tracks, footpaths and roadsides.
-Their fruit often goes uneaten or rots — but have now instead be used to create a unique orchard.
-The orchard has been developed from dropped fruit from more than 600 apple wildings in Cornwall.
-It has now created Wilding Mother Orchard - the first ever orchard in the UK solely dedicated to cultivating wild-grown, chance-seedling apples.
-
-	
-The discovered apple varieties are named for their what3words locations; they have names like Horse Wish Gossip, Panes House Taxi, and Autumn Mushroom Spoke.
-Apples are super interesting. I read it years ago now, but I still often think of Michael Pollan’s chapter on apples in The Botany of Desire.
-
- 
-
-        
-         
-Tags: apples · botany · food · science</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/some-interesting-apples" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/some-interesting-apples">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/TCdRuMDTmV0/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049405-participants-in-a-recentl">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T15:59:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049405-participants-in-a-recentl" target="_blank" rel="noopener noreferrer">Participants in a recently published study spoke 28%...</a>
-          </h2>
-          <p class="feed-item__desc">Participants in a recently published study spoke 28% fewer words per day in 2019 than they did in 2005. (People are spending more time alone and more time digitally communicating.)</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049405-participants-in-a-recentl" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049405-participants-in-a-recentl">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049408-directed-by-and-starring-">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T15:19:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049408-directed-by-and-starring-" target="_blank" rel="noopener noreferrer">The Thomas Crown Affair?  Directed by and starring...</a>
-          </h2>
-          <p class="feed-item__desc">The Thomas Crown Affair? Directed by and starring Michael B. Jordan? Ok, I’m in.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049408-directed-by-and-starring-" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049408-directed-by-and-starring-">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;165202">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T14:53:08.000Z">2026-07-29</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/" target="_blank" rel="noopener noreferrer">Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.</a>
-          </h2>
-          <p class="feed-item__desc">New calculations seem to have put a 25-year-old particle physics puzzle to rest. But they’ve also created a clash with other experimental results.            
-The post Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up. first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;165202" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;165202">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/07/E989-storage-ring-magnet-at-Fermilab-cr-Reidar-Hahn-Fermilab-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/onlymarms-funding-science-research-on-onlyfans">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T14:19:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/onlymarms-funding-science-research-on-onlyfans" target="_blank" rel="noopener noreferrer">OnlyMarms: Funding Science Research on OnlyFans</a>
-          </h2>
-          <p class="feed-item__desc">This is an extremely 2026 story (derogatory): because of the Trump regime’s assualt on scientific funding, a group of scientists who has been studying marmot populations in Colorado since 1962 turned to OnlyFans to fund their research this year.
-
-From The NY Times:
-In June, Daniel Blumstein, a biologist, sat in a field in Gothic, Colo., waiting to see a marmot. The rodent was elusive, leaving his thoughts to wander.
-He lamented a lack of funding for his work amid federal cuts to scientific research. Then he alighted on the television show “Margo’s Got Money Troubles” and that’s when the epiphany came.
-Perhaps the show’s plot, about a single mother who, unable to find conventional work, turns to the adult-content site OnlyFans to support herself, could be applied to marmots and research funding.
-Back at his lab, Dr. Blumstein pitched the idea (with a wholesome spin) to his colleagues, who offered mixed feedback. But then one of his graduate students suggested naming the profile OnlyMarms.
-
-	
-Here’s the G-rated OnlyMarms account on OnlyFans; you can also donate to the project directly. More from Live Science:
-OnlyFans is a subscription platform that allows users to pay creators to see exclusive photos and videos. The platform has become popular with adult-only content creators, but it hosts others too, including musicians, athletes and celebrities — and now marmots.
-“We’re trying this out of frustration with an extremely challenging funding environment,” Blumstein said. “If we’re lucky, it can help raise money for supplies and some expenses. But unless we are very lucky, it won’t replace the federal funding that has driven discovery in the US since the 1950s.”
-
-	
-We’ve got GoFundMe for healthcare and now OnlyFans for science funding. The privatization of the United States is coming along nicely and the future looks bright!
-
- 
-
-        
-         
-Tags: Donald Trump · OnlyFans · politics · science · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/onlymarms-funding-science-research-on-onlyfans" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/onlymarms-funding-science-research-on-onlyfans">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/jTGc3MHtvAw/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049404-study-dinosaurs-were-char">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T13:49:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049404-study-dinosaurs-were-char" target="_blank" rel="noopener noreferrer">Study: Dinosaurs Were Charbroiled After Chicxulub Impact...</a>
-          </h2>
-          <p class="feed-item__desc">Study: Dinosaurs Were Charbroiled After Chicxulub Impact. “The impact would have produced an immense cloud of dust that superheated the upper atmosphere, charbroiling living organisms unable to take shelter and igniting widespread wildfires.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049404-study-dinosaurs-were-char" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049404-study-dinosaurs-were-char">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049403-why-do-we-tolerate-elon-m">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-29T13:00:00.000Z">2026-07-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049403-why-do-we-tolerate-elon-m" target="_blank" rel="noopener noreferrer">Why Do We Tolerate Elon Musk’s Racist Commentary?...</a>
-          </h2>
-          <p class="feed-item__desc">Why Do We Tolerate Elon Musk’s Racist Commentary? “Musk’s virulent racism and vicious, disturbing views are no secret. He does not hide them. They sit in plain view, easily accessible on the social media website he owns…”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049403-why-do-we-tolerate-elon-m" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049403-why-do-we-tolerate-elon-m">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
         </div>
       </div>
     </article>

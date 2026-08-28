@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-27T21:43:11.273Z</updated>
+    <updated>2026-08-28T09:24:19.396Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Breaking Claude Code Opus 5 Auto Mode]]></title>
+        <id>https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/</id>
+        <link href="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"/>
+        <updated>2026-08-27T22:50:25.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/">Breaking Claude Code Opus 5 Auto Mode</a></strong></p>
+Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href="https://simonwillison.net/2026/Aug/8/auto-mode/">made that the default</a> and have made bold claims about its effectiveness.</p>
+<p>Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports <code>base64</code> without noticing that this will import and execute a local <code>struct.py</code> file extracted from the archive.</p>
+<p>In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute!</p>
+<blockquote>
+<p>In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command.</p>
+<p>Claude detects the compromise, but <strong>Auto Mode blocks its cleanup command</strong></p>
+<p>The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it!</p>
+</blockquote>
+<p>I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox:</p>
+<blockquote>
+<ul>
+<li>Run unattended coding agents in a container, VM or OS sandbox.</li>
+<li>Restrict network egress.</li>
+<li>Monitor your agents.</li>
+<li>Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...]</li>
+</ul>
+</blockquote>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/johann-rehberger">johann-rehberger</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Walkable Cities]]></title>
         <id>https://waxy.org/?p=51218</id>
@@ -6657,226 +6687,6 @@ here.]]></summary>
         <summary type="html"><![CDATA[Against the flattening of analytical categories]]></summary>
         <author>
             <name>Disjunctions Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting D. Richard Hipp]]></title>
-        <id>https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"/>
-        <updated>2026-07-29T21:15:21.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s"><p>Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.</p>
-<p>Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.</p>
-<p>That didn’t mean programmers went away. It just meant the job changed a little bit.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s">D. Richard Hipp</a></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/d-richard-hipp">d-richard-hipp</a>, <a href="https://simonwillison.net/tags/sql">sql</a>, <a href="https://simonwillison.net/tags/careers">careers</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It’s Cool to Be Weird]]></title>
-        <id>https://kottke.org/26/07/its-cool-to-be-weird</id>
-        <link href="https://kottke.org/26/07/its-cool-to-be-weird"/>
-        <updated>2026-07-29T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I really like what Razaak Eniola has to say here about human difference.
-Before Prince was Prince, Prince was weird. And that goes the same for probably any of your favorite artists. Before Erykah Badu was Erykah Badu, Erykah Badu was weird. Before Marc Rebillet was Marc Rebillet, Marc Rebillet was weird.
-Everybody loves to clap at the end — and most of the time we are clapping for the wrong reasons. We live in a culture that loves final products.
-It’s cool to be weird, as long as it’s rooted and aligned with what’s true and what’s sincere.
-
-	
-I often tell people they’re weird and it’s always a compliment. Before it came to mean odd-looking or “disturbingly different”, weird meant “having power to control fate” — perhaps you could think of it as describing someone who can forge their own way, make their own luck.
-Here’s a short quiz to discover your weirdness: You’re Weirder Than You Think.
-For whatever reason, this also reminds me of something I read earlier today by Robin Sloan:
-We should never forget that the product of work isn’t only the work — it’s also the worker.
-
-	
-(via @witoldriedel & @prisonculture.bsky.social)
-
- 
-
-        
-         
-Tags: language · Razaak Eniola]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Walmart is busy building out their fast EV charger...]]></title>
-        <id>https://kottke.org/26/07/0049413-walmart-is-busy-building-</id>
-        <link href="https://kottke.org/26/07/0049413-walmart-is-busy-building-"/>
-        <updated>2026-07-29T20:00:46.000Z</updated>
-        <summary type="html"><![CDATA[Walmart is busy building out their fast EV charger network in the US…currently 73 locations in 17 states. Their eventual goal is install chargers at “thousands of its locations by 2030”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A terrarium iPhone case that houses actual growing...]]></title>
-        <id>https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t</id>
-        <link href="https://kottke.org/26/07/0049411-a-terrarium-iphone-case-t"/>
-        <updated>2026-07-29T18:45:00.000Z</updated>
-        <summary type="html"><![CDATA[A terrarium iPhone case that houses actual growing plants and moss.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Worming through Word]]></title>
-        <id>https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything"/>
-        <updated>2026-07-29T18:43:03.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/">AI Worming through Word</a></strong></p>
-Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>
-<blockquote>
-<p>An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.</p>
-</blockquote>
-<p>We've seen plenty of hidden white-on-white text before - the kids <a href="https://x.com/ScienceYael/status/2082175224007848019">are using it in their job applications now</a> - but this is the first one I've seen that deliberately copies instructions to self-replicate itself.</p>
-<p>It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49096188">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/microsoft">microsoft</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Matthew Green]]></title>
-        <id>https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything"/>
-        <updated>2026-07-29T18:18:15.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live in <a href="https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html">Impagliazzo’s Minicrypt</a>) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.</p></blockquote>
-<p class="cite">&mdash; <a href="https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/">Matthew Green</a>, on <a href="https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/">Anthropic's recent cryptography work</a></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/cryptography">cryptography</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Zugunruhe  is a German term describing the...]]></title>
-        <id>https://kottke.org/26/07/0049406-zugunruhe</id>
-        <link href="https://kottke.org/26/07/0049406-zugunruhe"/>
-        <updated>2026-07-29T17:55:00.000Z</updated>
-        <summary type="html"><![CDATA[“Zugunruhe is a German term describing the restless, twitching urge migratory birds feel when caged — and the same primal restlessness humans feel when trapped.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some Interesting Apples]]></title>
-        <id>https://kottke.org/26/07/some-interesting-apples</id>
-        <link href="https://kottke.org/26/07/some-interesting-apples"/>
-        <updated>2026-07-29T16:39:00.000Z</updated>
-        <summary type="html"><![CDATA[Something that still blows my mind is that every apple seed produces a new variety. Every single one.
-
-	
-This is a lovely short documentary about a project called Some Interesting Apples, which aims to find apples growing in unusual places (i.e. not commercial orchards but in places where people tend to discard apple cores):
-The last three years I have been involved with a project called ‘Some Interesting Apples’, the primary aim of which is to record and, where characteristics make desirable (and sometimes where they don’t), preserve wilding apples, i.e., domestic apples growing on their own roots as the result of a discarded core.
-
-	
-Some of the best apples are then cultivated in an orchard dedicated to wild apples:
-The ‘Some Interesting Apples’ project collects apples from wild trees that have been grown using cores thrown away — many from car windows or dropped from walkers and animals.
-The wild trees or ‘wildlings’ are trees that grow from those apple cores discarded in hedges and along train tracks, footpaths and roadsides.
-Their fruit often goes uneaten or rots — but have now instead be used to create a unique orchard.
-The orchard has been developed from dropped fruit from more than 600 apple wildings in Cornwall.
-It has now created Wilding Mother Orchard - the first ever orchard in the UK solely dedicated to cultivating wild-grown, chance-seedling apples.
-
-	
-The discovered apple varieties are named for their what3words locations; they have names like Horse Wish Gossip, Panes House Taxi, and Autumn Mushroom Spoke.
-Apples are super interesting. I read it years ago now, but I still often think of Michael Pollan’s chapter on apples in The Botany of Desire.
-
- 
-
-        
-         
-Tags: apples · botany · food · science]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Participants in a recently published study spoke 28%...]]></title>
-        <id>https://kottke.org/26/07/0049405-participants-in-a-recentl</id>
-        <link href="https://kottke.org/26/07/0049405-participants-in-a-recentl"/>
-        <updated>2026-07-29T15:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Participants in a recently published study spoke 28% fewer words per day in 2019 than they did in 2005. (People are spending more time alone and more time digitally communicating.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Thomas Crown Affair?  Directed by and starring...]]></title>
-        <id>https://kottke.org/26/07/0049408-directed-by-and-starring-</id>
-        <link href="https://kottke.org/26/07/0049408-directed-by-and-starring-"/>
-        <updated>2026-07-29T15:19:00.000Z</updated>
-        <summary type="html"><![CDATA[The Thomas Crown Affair? Directed by and starring Michael B. Jordan? Ok, I’m in.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.]]></title>
-        <id>https://www.quantamagazine.org/?p=165202</id>
-        <link href="https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/"/>
-        <updated>2026-07-29T14:53:08.000Z</updated>
-        <summary type="html"><![CDATA[New calculations seem to have put a 25-year-old particle physics puzzle to rest. But they’ve also created a clash with other experimental results.            
-The post Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up. first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Matt von Hippel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OnlyMarms: Funding Science Research on OnlyFans]]></title>
-        <id>https://kottke.org/26/07/onlymarms-funding-science-research-on-onlyfans</id>
-        <link href="https://kottke.org/26/07/onlymarms-funding-science-research-on-onlyfans"/>
-        <updated>2026-07-29T14:19:00.000Z</updated>
-        <summary type="html"><![CDATA[This is an extremely 2026 story (derogatory): because of the Trump regime’s assualt on scientific funding, a group of scientists who has been studying marmot populations in Colorado since 1962 turned to OnlyFans to fund their research this year.
-
-From The NY Times:
-In June, Daniel Blumstein, a biologist, sat in a field in Gothic, Colo., waiting to see a marmot. The rodent was elusive, leaving his thoughts to wander.
-He lamented a lack of funding for his work amid federal cuts to scientific research. Then he alighted on the television show “Margo’s Got Money Troubles” and that’s when the epiphany came.
-Perhaps the show’s plot, about a single mother who, unable to find conventional work, turns to the adult-content site OnlyFans to support herself, could be applied to marmots and research funding.
-Back at his lab, Dr. Blumstein pitched the idea (with a wholesome spin) to his colleagues, who offered mixed feedback. But then one of his graduate students suggested naming the profile OnlyMarms.
-
-	
-Here’s the G-rated OnlyMarms account on OnlyFans; you can also donate to the project directly. More from Live Science:
-OnlyFans is a subscription platform that allows users to pay creators to see exclusive photos and videos. The platform has become popular with adult-only content creators, but it hosts others too, including musicians, athletes and celebrities — and now marmots.
-“We’re trying this out of frustration with an extremely challenging funding environment,” Blumstein said. “If we’re lucky, it can help raise money for supplies and some expenses. But unless we are very lucky, it won’t replace the federal funding that has driven discovery in the US since the 1950s.”
-
-	
-We’ve got GoFundMe for healthcare and now OnlyFans for science funding. The privatization of the United States is coming along nicely and the future looks bright!
-
- 
-
-        
-         
-Tags: Donald Trump · OnlyFans · politics · science · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Study: Dinosaurs Were Charbroiled After Chicxulub Impact...]]></title>
-        <id>https://kottke.org/26/07/0049404-study-dinosaurs-were-char</id>
-        <link href="https://kottke.org/26/07/0049404-study-dinosaurs-were-char"/>
-        <updated>2026-07-29T13:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Study: Dinosaurs Were Charbroiled After Chicxulub Impact. “The impact would have produced an immense cloud of dust that superheated the upper atmosphere, charbroiling living organisms unable to take shelter and igniting widespread wildfires.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Do We Tolerate Elon Musk’s Racist Commentary?...]]></title>
-        <id>https://kottke.org/26/07/0049403-why-do-we-tolerate-elon-m</id>
-        <link href="https://kottke.org/26/07/0049403-why-do-we-tolerate-elon-m"/>
-        <updated>2026-07-29T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why Do We Tolerate Elon Musk’s Racist Commentary? “Musk’s virulent racism and vicious, disturbing views are no secret. He does not hide them. They sit in plain view, easily accessible on the social media website he owns…”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
