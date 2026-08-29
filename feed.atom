@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-28T21:42:49.522Z</updated>
+    <updated>2026-08-29T05:34:00.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Just a rumour of a bug is enough to find a security exploit these days]]></title>
+        <id>https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/</id>
+        <link href="https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"/>
+        <updated>2026-08-28T22:12:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://anil.recoil.org/notes/rumour-is-the-exploit">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p>
+Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p>
+<blockquote>
+<p>This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.</p>
+</blockquote>
+<p>Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.</p>
+<p>Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.</p>
+<p>rclone maintainer Nick Craig-Wood <a href="https://news.ycombinator.com/item?id=49480466#49480777">confirms in the Hacker News comments</a> that his project is seeing this problem:</p>
+<blockquote>
+<p>In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.</p>
+<p>The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]</p>
+<p>GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49480466">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ocaml">ocaml</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New app: Yesterday, an iPhone app for yesterday’s weather]]></title>
         <id>https://interconnected.org/home/2026/08/26/yesterday</id>
@@ -6638,144 +6665,6 @@ Tags: art · Brett Goldstein · interviews · Mo Welch · PBS · TV · video]]><
         <summary type="html"><![CDATA[The Beauty of Doing Nothing Together. “What you’re doing hardly matters. What matters is inviting someone into the ordinary parts of your life instead of waiting for an occasion that feels worthy of an invitation.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Hell Mouth]]></title>
-        <id>https://kottke.org/26/07/the-hell-mouth</id>
-        <link href="https://kottke.org/26/07/the-hell-mouth"/>
-        <updated>2026-07-30T16:52:00.000Z</updated>
-        <summary type="html"><![CDATA[Volcanologist Laszlo Kestay took this photo of a lava skylight in 1996 while conducting field work at Kīlauea on Hawaiʻi. The hardened lava flows strongly resemble doomed souls being sucked into hell or the damned escaping the underworld.
-
- 
-
-        
-         
-Tags: geology · hawaii · hell · Laszlo Kestay · photography · volcanoes]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-chat-completions-server 0.1a0]]></title>
-        <id>https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything"/>
-        <updated>2026-07-30T15:43:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-chat-completions-server/releases/tag/0.1a0">llm-chat-completions-server 0.1a0</a></p>
-        <p>A key goal of the new content-addressable logs <a href="https://simonwillison.net/2026/Jul/30/llm-rc1/">in LLM 0.32rc1</a> was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this:</p>
-<pre><code>curl http://localhost:8002/v1/chat/completions \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "model": "qwen3.5-4b",
-    "messages": [
-      {"role": "user", "content": "Capital of France?"},
-      {"role": "assistant", "content": "Paris."},
-      {"role": "user", "content": "Germany?"}
-    ]
-  }'
-</code></pre>
-<p>Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts.</p>
-<p>To test that out, I built this plugin:</p>
-<pre><code>uv tool install llm --pre
-llm install llm-chat-completions-server
-llm chat-completions-server -p 9001
-</code></pre>
-<p>Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint.</p>
-<p>GPT-5.6 Sol <a href="https://gist.github.com/simonw/53be513c1bd4a29a7aa480d9bde9b4a5">wrote the whole thing</a> - it turns out it knows the OpenAI Chat Completions API shape really well.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.32rc1]]></title>
-        <id>https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything"/>
-        <updated>2026-07-30T15:30:20.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32rc1">llm 0.32rc1</a></p>
-        <p>This RC for LLM 0.32 finishes the work that <a href="https://simonwillison.net/2026/Apr/29/llm/">started in LLM 0.32a0</a> - it adds a <a href="https://llm.datasette.io/en/latest/logging.html#the-message-store">new schema design</a> that does a much better job of capturing the details of the prompts and responses returned by the latest model families.</p>
-<p>The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations.</p>
-<p>Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing <code>logs.db</code> before upgrading to the RC:</p>
-<pre><code>llm logs backup logs-backup.db
-</code></pre>
-<p>The RC also adds support for <code>gpt-5.6-sol</code>, <code>gpt-5.6-terra</code>, and <code>gpt-5.6-luna</code>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The legacy of the Luddite movement changes when you zoom...]]></title>
-        <id>https://kottke.org/26/07/0049420-the-legacy-of-the-luddite</id>
-        <link href="https://kottke.org/26/07/0049420-the-legacy-of-the-luddite"/>
-        <updated>2026-07-30T15:19:00.000Z</updated>
-        <summary type="html"><![CDATA[The legacy of the Luddite movement changes when you zoom out a bit. “The development of cooperatives around the world is another story that should not end too abruptly. We could still be weaving it today.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Name that Ware, July 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7589</id>
-        <link href="https://www.bunniestudios.com/blog/2026/name-that-ware-july-2026/"/>
-        <updated>2026-07-30T14:52:35.000Z</updated>
-        <summary type="html"><![CDATA[The Ware for July 2026 is shown below. I’ve got silicon on the brain, so I’m going to give a die shot another go at name that ware. Hopefully this one is a bit easier than the last one. This excerpt is a design pattern I look for and find on almost every SoC. It’s […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winner, Name that Ware June 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7586</id>
-        <link href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-june-2026/"/>
-        <updated>2026-07-30T14:51:53.000Z</updated>
-        <summary type="html"><![CDATA[The Ware for June 2026 is an SGI RM6-64 raster manager, from a KONA/InfiniteReality graphics system. Congrats to Christian for naming it! email me for your prize. This gem of a board was gifted to me by someone at SGI back when I worked there in…I want to say 1998? I even still have the […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The trailer for Wicker  (starring Olivia Colman,...]]></title>
-        <id>https://kottke.org/26/07/0049419-the-trailer-for-wicker</id>
-        <link href="https://kottke.org/26/07/0049419-the-trailer-for-wicker"/>
-        <updated>2026-07-30T14:15:01.000Z</updated>
-        <summary type="html"><![CDATA[The trailer for Wicker (starring Olivia Colman, Alexander Skarsgård, Peter Dinklage, Elizabeth Debicki). “An outcast in a fishing village commissions a husband for herself made out of wicker.” Looks unhinged (complimentary).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The coffee shop where 162 regulars have their own mug...]]></title>
-        <id>https://kottke.org/26/07/0049414-the-coffee-shop-where-162</id>
-        <link href="https://kottke.org/26/07/0049414-the-coffee-shop-where-162"/>
-        <updated>2026-07-30T13:39:00.000Z</updated>
-        <summary type="html"><![CDATA[The coffee shop where 162 regulars have their own mug (1977). “The cups may not be such a small thing after all. They are a town register and a history and a confirmation that life goes on in a small American town.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: The stupidest imaginable excuses for surveillance pricing (30 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13100</id>
-        <link href="https://pluralistic.net/2026/07/30/pay-for-privacy/"/>
-        <updated>2026-07-30T12:51:03.000Z</updated>
-        <summary type="html"><![CDATA[Today's links The stupidest imaginable excuses for surveillance pricing: Since 1850, San Francisco's Chamber of Commerce has been pissing in our mouths and calling it rain. Hey look at this: Delights to delectate. Object permanence: RIP Wau Holland; Diebold voting machines suck; How to steal an RFID-locked car; Pirates are big spenders; You can't fight enshittification. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The stupidest imaginable excuses for surveillance pricing (permalink) With "surveillance pricing," businesses have finally found something AI can do way, way, way better than…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Devour your world]]></title>
-        <id>https://www.blackbirdspyplane.com/p/devour-your-world</id>
-        <link href="https://www.blackbirdspyplane.com/p/devour-your-world"/>
-        <updated>2026-07-30T11:03:24.000Z</updated>
-        <summary type="html"><![CDATA[Graceful style transitions, summerweight knits, great new shoes, and more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>

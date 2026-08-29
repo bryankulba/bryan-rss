@@ -35,6 +35,34 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-28T22:12:02.000Z">2026-08-28</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/" target="_blank" rel="noopener noreferrer">Just a rumour of a bug is enough to find a security exploit these days</a>
+          </h2>
+          <p class="feed-item__desc">Just a rumour of a bug is enough to find a security exploit these days
+This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.
+Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.
+Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.
+rclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem:
+In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.
+The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]
+GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.
+Via Hacker News
+Tags: open-source, security, ai, generative-ai, llms, coding-agents, ocaml, ai-security-research</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://interconnected.org/home/2026/08/26/yesterday">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-28T21:20:00.000Z">2026-08-28</time>
@@ -10528,235 +10556,6 @@ Tags: ai-ethics, writing, ai-misuse, generative-ai, bruce-schneier, ai, llms</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049417-the-beauty-of-doing-nothi">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/the-hell-mouth">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T16:52:00.000Z">2026-07-30</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/the-hell-mouth" target="_blank" rel="noopener noreferrer">The Hell Mouth</a>
-          </h2>
-          <p class="feed-item__desc">Volcanologist Laszlo Kestay took this photo of a lava skylight in 1996 while conducting field work at Kīlauea on Hawaiʻi. The hardened lava flows strongly resemble doomed souls being sucked into hell or the damned escaping the underworld.
-
- 
-
-        
-         
-Tags: geology · hawaii · hell · Laszlo Kestay · photography · volcanoes</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/the-hell-mouth" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/the-hell-mouth">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/plus/misc/images/editor-1785359827-78f7c764.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T15:43:16.000Z">2026-07-30</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything" target="_blank" rel="noopener noreferrer">llm-chat-completions-server 0.1a0</a>
-          </h2>
-          <p class="feed-item__desc">Release: llm-chat-completions-server 0.1a0
-A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this:
-curl http://localhost:8002/v1/chat/completions \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "model": "qwen3.5-4b",
-    "messages": [
-      {"role": "user", "content": "Capital of France?"},
-      {"role": "assistant", "content": "Paris."},
-      {"role": "user", "content": "Germany?"}
-    ]
-  }'
-
-Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts.
-To test that out, I built this plugin:
-uv tool install llm --pre
-llm install llm-chat-completions-server
-llm chat-completions-server -p 9001
-
-Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint.
-GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well.
-Tags: projects, openai, llm</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T15:30:20.000Z">2026-07-30</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything" target="_blank" rel="noopener noreferrer">llm 0.32rc1</a>
-          </h2>
-          <p class="feed-item__desc">Release: llm 0.32rc1
-This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families.
-The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations.
-Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing logs.db before upgrading to the RC:
-llm logs backup logs-backup.db
-
-The RC also adds support for gpt-5.6-sol, gpt-5.6-terra, and gpt-5.6-luna.
-Tags: llm</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049420-the-legacy-of-the-luddite">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T15:19:00.000Z">2026-07-30</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049420-the-legacy-of-the-luddite" target="_blank" rel="noopener noreferrer">The legacy of the Luddite movement changes when you zoom...</a>
-          </h2>
-          <p class="feed-item__desc">The legacy of the Luddite movement changes when you zoom out a bit. “The development of cooperatives around the world is another story that should not end too abruptly. We could still be weaving it today.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049420-the-legacy-of-the-luddite" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049420-the-legacy-of-the-luddite">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.bunniestudios.com/blog/?p&#x3D;7589">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T14:52:35.000Z">2026-07-30</time>
-        <span class="feed-item__source">bunnie&#x27;s blog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.bunniestudios.com/blog/2026/name-that-ware-july-2026/" target="_blank" rel="noopener noreferrer">Name that Ware, July 2026</a>
-          </h2>
-          <p class="feed-item__desc">The Ware for July 2026 is shown below. I’ve got silicon on the brain, so I’m going to give a die shot another go at name that ware. Hopefully this one is a bit easier than the last one. This excerpt is a design pattern I look for and find on almost every SoC. It’s […]</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7589" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7589">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.bunniestudios.com/blog/?p&#x3D;7586">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T14:51:53.000Z">2026-07-30</time>
-        <span class="feed-item__source">bunnie&#x27;s blog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-june-2026/" target="_blank" rel="noopener noreferrer">Winner, Name that Ware June 2026</a>
-          </h2>
-          <p class="feed-item__desc">The Ware for June 2026 is an SGI RM6-64 raster manager, from a KONA/InfiniteReality graphics system. Congrats to Christian for naming it! email me for your prize. This gem of a board was gifted to me by someone at SGI back when I worked there in…I want to say 1998? I even still have the […]</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7586" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7586">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049419-the-trailer-for-wicker">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T14:15:01.000Z">2026-07-30</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049419-the-trailer-for-wicker" target="_blank" rel="noopener noreferrer">The trailer for Wicker  (starring Olivia Colman,...</a>
-          </h2>
-          <p class="feed-item__desc">The trailer for Wicker (starring Olivia Colman, Alexander Skarsgård, Peter Dinklage, Elizabeth Debicki). “An outcast in a fishing village commissions a husband for herself made out of wicker.” Looks unhinged (complimentary).</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049419-the-trailer-for-wicker" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049419-the-trailer-for-wicker">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/07/0049414-the-coffee-shop-where-162">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T13:39:00.000Z">2026-07-30</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/07/0049414-the-coffee-shop-where-162" target="_blank" rel="noopener noreferrer">The coffee shop where 162 regulars have their own mug...</a>
-          </h2>
-          <p class="feed-item__desc">The coffee shop where 162 regulars have their own mug (1977). “The cups may not be such a small thing after all. They are a town register and a history and a confirmation that life goes on in a small American town.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/07/0049414-the-coffee-shop-where-162" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/07/0049414-the-coffee-shop-where-162">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13100">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T12:51:03.000Z">2026-07-30</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/07/30/pay-for-privacy/" target="_blank" rel="noopener noreferrer">Pluralistic: The stupidest imaginable excuses for surveillance pricing (30 Jul 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links The stupidest imaginable excuses for surveillance pricing: Since 1850, San Francisco's Chamber of Commerce has been pissing in our mouths and calling it rain. Hey look at this: Delights to delectate. Object permanence: RIP Wau Holland; Diebold voting machines suck; How to steal an RFID-locked car; Pirates are big spenders; You can't fight enshittification. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. The stupidest imaginable excuses for surveillance pricing (permalink) With "surveillance pricing," businesses have finally found something AI can do way, way, way better than…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13100" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13100">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/devour-your-world">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-30T11:03:24.000Z">2026-07-30</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/devour-your-world" target="_blank" rel="noopener noreferrer">Devour your world</a>
-          </h2>
-          <p class="feed-item__desc">Graceful style transitions, summerweight knits, great new shoes, and more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/devour-your-world" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/devour-your-world">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!lQTS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71a6d125-540b-4d0f-97ac-0f097fe24ce1_1980x1313.png" alt="" loading="lazy">
         </div>
       </div>
     </article>
