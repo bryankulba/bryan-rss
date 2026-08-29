@@ -80,6 +80,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/digital-pantograph/",
+          "author": null,
+          "description": "<p>Gobs and gobs of text. <a href=\"https://www.robinsloan.com/lab/digital-pantograph/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/digital-pantograph/",
+          "publishedOn": "2026-08-26T10:00:00.000Z",
+          "wordCount": 5551,
+          "title": "Dragoncatcher: Slop-vestigation and the digital pantograph",
+          "imageUrl": "https://www.robinsloan.com/img/pantograph.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/jarvising/",
           "author": null,
           "description": "<p>You do have to actually make something. <a href=\"https://www.robinsloan.com/lab/jarvising/\">Read here.</a></p>",
@@ -235,16 +245,6 @@
           "wordCount": 12368,
           "title": "Webcurios 07/08/26",
           "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1714",
-          "author": "admin",
-          "description": "Reading Time:  36 minutes   You know what I learned during my recent trip to Rome? That 40 degrees is TOO HOT. Also, that the city’s state apparatus is so fcuked for money that when you go to the council offices they literally have signs up saying “WE DO NOT HAVE ANY PENS”, which struck me as quietly tragic…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-31-07-26/",
-          "publishedOn": "2026-07-31T06:23:23.000Z",
-          "wordCount": 10850,
-          "title": "Webcurios 31/07/26",
-          "imageUrl": null
         }
       ]
     },
@@ -290,6 +290,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/08/0049538-the-windows-98-disk-defra",
+          "author": null,
+          "description": "Ahhh, relax with the sights and sounds of the Windows 98 Disk Defrag Simulator.",
+          "link": "https://kottke.org/26/08/0049538-the-windows-98-disk-defra",
+          "publishedOn": "2026-08-29T21:02:00.000Z",
+          "wordCount": 713,
+          "title": "Ahhh, relax with the sights and sounds of  the Windows 98...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/08/0049539-voting-is-now-open-for-th",
+          "author": null,
+          "description": "Voting is now open for the 2026 Tiny Awards, featuring 10 sites that celebrate “the best of the small, poetic, creative, handmade web”. You have until Sept 25 to vote.",
+          "link": "https://kottke.org/26/08/0049539-voting-is-now-open-for-th",
+          "publishedOn": "2026-08-29T18:30:00.000Z",
+          "wordCount": 743,
+          "title": "Voting is now open for the 2026 Tiny Awards , featuring...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/08/0049537-heat-waves-are-disproport",
           "author": null,
