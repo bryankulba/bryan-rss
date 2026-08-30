@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-29T22:19:14.848Z</updated>
+    <updated>2026-08-30T03:32:16.571Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing Hy4 Preview]]></title>
+        <id>https://simonwillison.net/2026/Aug/29/hy4/</id>
+        <link href="https://simonwillison.net/2026/Aug/29/hy4/"/>
+        <updated>2026-08-29T23:53:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://hy.tencent.ai/research/hy4-preview">Introducing Hy4 Preview</a></strong></p>
+New open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href="https://huggingface.co/tencent/Hy4-preview">1.56TB on Hugging Face</a>.</p>
+<p>This is a big size increase from their previous <a href="https://huggingface.co/tencent/Hy3">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 598GB.</p>
+<p>I recently started using model chat templates to better understand their capabilities. Here's Hy4's  <a href="https://huggingface.co/tencent/Hy4-preview/blob/main/chat_template.jinja">chat_template.jinja</a> on Hugging Face, which includes this section:</p>
+<div class="highlight highlight-text-html-django"><pre><span class="pl-e">{%</span>- <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-s">reasoning_effort</span> <span class="pl-s">is</span> <span class="pl-s">defined</span> <span class="pl-e">%}</span>
+    <span class="pl-e">{%</span>- <span class="pl-s">set</span> <span class="pl-s">reasoning_effort</span> = <span class="pl-s">'high'</span> <span class="pl-e">%}</span>
+<span class="pl-e">{%</span>- <span class="pl-s">elif</span> <span class="pl-s">reasoning_effort</span> <span class="pl-k">not</span> <span class="pl-k">in</span> [<span class="pl-s">'high'</span>, <span class="pl-s">'no_think'</span>] <span class="pl-e">%}</span>
+    <span class="pl-e">{%</span>- <span class="pl-k">if</span> <span class="pl-s">reasoning_effort</span> <span class="pl-s">is</span> <span class="pl-s">none</span> <span class="pl-e">%}</span>
+        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}
+    <span class="pl-e">{%</span>- <span class="pl-k">else</span> <span class="pl-e">%}</span>
+        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}
+    <span class="pl-e">{%</span>- <span class="pl-k">endif</span> <span class="pl-e">%}</span>
+<span class="pl-e">{%</span>- <span class="pl-k">endif</span> <span class="pl-e">%}</span></pre></div>
+<p>So it looks like there are just two reasoning effort levels: "high" (the default) and "no_think" (reason by disabled).</p>
+<p>I tried my "Generate an SVG of a pelican riding a bicycle" prompt with the default high reasoning <a href="https://openrouter.ai/tencent/hy4-preview#apps">via OpenRouter</a> and <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fcb69816b3fb940f2782569a82a523af1">got this</a>:</p>
+<p><img alt="Flat vector cartoon illustration of a white pelican with a large orange bill riding a red bicycle to the right along a grey road with a dashed white centre line, its orange webbed feet on the pedals and grey tail feathers fanned out behind, against a pale blue sky with a yellow sun, white clouds and horizontal white motion lines suggesting speed" src="https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg" /></p>
+<p>Quoting the reasoning trace:</p>
+<blockquote>
+<p>[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.</p>
+<p>Maybe add sunglasses? no.</p>
+<p>Maybe add water? no.</p>
+</blockquote>
+<p>It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-reasoning">llm-reasoning</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ahhh, relax with the sights and sounds of  the Windows 98...]]></title>
         <id>https://kottke.org/26/08/0049538-the-windows-98-disk-defra</id>
@@ -6449,46 +6484,6 @@ I've been working with Jesse Vincent's <a href="https://primeradiant.com">Prime 
         <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/slack">slack</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is AI Reasoning Right for the Wrong Reasons?]]></title>
-        <id>https://www.quantamagazine.org/?p=165277</id>
-        <link href="https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/"/>
-        <updated>2026-07-31T14:50:11.000Z</updated>
-        <summary type="html"><![CDATA[The idea that artificial intelligence can “reason” is more intuitive than ever. But intuitions can be wrong, and the science is far from settled.             
-The post Is AI Reasoning Right for the Wrong Reasons? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>John Pavlus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-agent 0.4a0]]></title>
-        <id>https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything"/>
-        <updated>2026-07-31T14:14:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent/releases/tag/0.4a0">datasette-agent 0.4a0</a></p>
-        <blockquote>
-<ul>
-<li>New <code>await context.browser_task()</code> mechanism allowing agent tools to run code directly in the user's browser. <a href="https://github.com/datasette/datasette-agent/pull/33">#33</a></li>
-</ul>
-</blockquote>
-<p>This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript <em>in the user's browser</em>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/llm-tool-use">llm-tool-use</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Better to beg forgiveness (31 Jul 2026)]]></title>
-        <id>https://pluralistic.net/?p=13106</id>
-        <link href="https://pluralistic.net/2026/07/31/just-do-it/"/>
-        <updated>2026-07-31T11:56:12.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Better to beg forgiveness: Don't ring the doorbell at the house of no unless you absolutely must. Hey look at this: Delights to delectate. Object permanence: RIP Poul Anderson; P2P at PC Forum; Waitress handed her own stolen ID by carded diner; PDX bans fixies; Digital Economy Bill was a stitch up; NZ copyright disconnection flowchart; Fry v Widdicombe on Catholic Church; Moxie Marlinspike profile; V&A bans sketching; Gernsback's intro to the first Amazing Stories; "Simplicity." Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Better to beg forgiveness (permalink) From its in…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

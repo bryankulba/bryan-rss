@@ -35,6 +35,53 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/29/hy4/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-08-29T23:53:13.000Z">2026-08-29</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Aug/29/hy4/" target="_blank" rel="noopener noreferrer">Introducing Hy4 Preview</a>
+          </h2>
+          <p class="feed-item__desc">Introducing Hy4 Preview
+1.56TB on Hugging Face.
+This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB.
+I recently started using model chat templates to better understand their capabilities. Here's Hy4's  chat_template.jinja on Hugging Face, which includes this section:
+{%- if not reasoning_effort is defined %}
+    {%- set reasoning_effort = 'high' %}
+{%- elif reasoning_effort not in ['high', 'no_think'] %}
+    {%- if reasoning_effort is none %}
+        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}
+    {%- else %}
+        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}
+    {%- endif %}
+{%- endif %}
+
+So it looks like there are just two reasoning effort levels: "high" (the default) and "no_think" (reason by disabled).
+I tried my "Generate an SVG of a pelican riding a bicycle" prompt with the default high reasoning via OpenRouter and got this:
+
+Quoting the reasoning trace:
+[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.
+Maybe add sunglasses? no.
+Maybe add water? no.
+It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.
+
+
+    
+Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, llm-reasoning, llm-release, ai-in-china</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/29/hy4/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/29/hy4/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/08/0049538-the-windows-98-disk-defra">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-29T21:02:00.000Z">2026-08-29</time>
@@ -10251,70 +10298,6 @@ Tags: tools, slack</p>
             <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;165277">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-31T14:50:11.000Z">2026-07-31</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/" target="_blank" rel="noopener noreferrer">Is AI Reasoning Right for the Wrong Reasons?</a>
-          </h2>
-          <p class="feed-item__desc">The idea that artificial intelligence can “reason” is more intuitive than ever. But intuitions can be wrong, and the science is far from settled.             
-The post Is AI Reasoning Right for the Wrong Reasons? first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;165277" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;165277">Mark read</button>
-            <span class="feed-item__reading-time">15 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/07/AI-Reasoning-cr.Celsius-Pictor-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-31T14:14:23.000Z">2026-07-31</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything" target="_blank" rel="noopener noreferrer">datasette-agent 0.4a0</a>
-          </h2>
-          <p class="feed-item__desc">Release: datasette-agent 0.4a0
-New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33
-This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript in the user's browser.
-Tags: datasette, llm-tool-use, datasette-agent</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13106">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-07-31T11:56:12.000Z">2026-07-31</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/07/31/just-do-it/" target="_blank" rel="noopener noreferrer">Pluralistic: Better to beg forgiveness (31 Jul 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Better to beg forgiveness: Don't ring the doorbell at the house of no unless you absolutely must. Hey look at this: Delights to delectate. Object permanence: RIP Poul Anderson; P2P at PC Forum; Waitress handed her own stolen ID by carded diner; PDX bans fixies; Digital Economy Bill was a stitch up; NZ copyright disconnection flowchart; Fry v Widdicombe on Catholic Church; Moxie Marlinspike profile; V&A bans sketching; Gernsback's intro to the first Amazing Stories; "Simplicity." Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Better to beg forgiveness (permalink) From its in…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13106" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13106">Mark read</button>
-            <span class="feed-item__reading-time">16 min read</span>
           </div>
         </div>
       </div>
