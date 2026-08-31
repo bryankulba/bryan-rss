@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-08-31T03:31:03.067Z</updated>
+    <updated>2026-08-31T10:29:30.575Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[64 Ladylike Accomplishments of 300 AD]]></title>
+        <id>https://brucesterling.tumblr.com/post/826438229273329664</id>
+        <link href="https://brucesterling.tumblr.com/post/826438229273329664"/>
+        <updated>2026-08-31T05:08:33.000Z</updated>
+        <summary type="html"><![CDATA[*In the famous or infamous “Kama Sutra,” the sage Vatsyayana describes the accomplishments or fields of study that Indian ladies of 300 AD should attempt to master in order to be civilized.
+
+
+Question :—What else should a woman learn along with the Aphorisms of Love?
+Answer :—According to Vatsyayana, she should earn 64 more arts. He says —
+“At the same time that she studies the Aphorisms of Love, she should also study :
+
+Singing.
+Playing upon musical instruments.
+Dancing.
+The harmonized arrangement of dancing, singing and musical instruments.
+Writing and drawing.
+Tattooing.
+Clothing and decorating an idol with rice and flowers.
+The disposition and arrangement of beds or couches of flowers, or of flowers upon the earth.
+The colouration of teeth, clothes, hair, nails and the body; that is, t…]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding ChatGPT Work]]></title>
         <id>https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/</id>
@@ -6300,53 +6325,6 @@ Tags: Christopher Nolan · film school · interviews · movies · The Odyssey ·
 <p class="cite">&mdash; <a href="https://twitter.com/gdb/status/2083435180392673714">Greg Brockman</a>, President and Co-Founder, OpenAI</p>
 
     <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-apps 0.2a0]]></title>
-        <id>https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything"/>
-        <updated>2026-08-01T21:23:56.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-apps/releases/tag/0.2a0">datasette-apps 0.2a0</a></p>
-        <blockquote>
-<p>Changes that improve Datasette Apps when created and edited using <a href="https://agent.datasette.io/">Datasette Agent</a>:</p>
-<ul>
-<li>New <code>app_debug()</code> tool allowing agent to open an app (invisibly) and test it using JavaScript. <a href="https://github.com/datasette/datasette-apps/pull/33">#33</a></li>
-<li>New <code>app_list()</code> tool for listing apps the user has permission to edit, so the agent can edit them. <a href="https://github.com/datasette/datasette-apps/issues/36">#36</a></li>
-</ul>
-</blockquote>
-<p>The <code>app_debug()</code> tool is pretty neat: it works by displaying the app in a <code>opacity: 0</code> iframe with <code>pointer-events: none</code> (so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements.</p>
-<p>This uses the new <code>context.browser_task()</code> mechanism added in <a href="https://simonwillison.net/2026/Jul/31/datasette-agent/">datasette-agent 0.4a0</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/iframes">iframes</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/datasette-apps">datasette-apps</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ten advances in mathematics and theoretical computer science]]></title>
-        <id>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything"/>
-        <updated>2026-08-01T20:34:49.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://openai.com/index/ten-advances-in-mathematics/">Ten advances in mathematics and theoretical computer science</a></strong></p>
-A few days ago it was Anthropic <a href="https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/">discovering cryptographic weaknesses with Claude</a> using Mythos Preview, spending $100,000 on tokens and with prompts that included "again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings."</p>
-<p>Now it's OpenAI's turn to flex. They set "an internal version of Astra, our next major model" on finding solutions to ten mathematical problems that "have seen no progress on the main result for at least a decade". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.</p>
-<p>(No news on how many problems they spent $2,000 on <em>without</em> reaching a solution though.)</p>
-<p>The <a href="https://github.com/openai/ten-proofs">openai/ten-proofs</a> repository has Lean 4 formalizations of their results, and there's also <a href="https://cdn.openai.com/pdf/ten-proofs-oai.pdf">a paper</a> describing the solutions and an additional <a href="https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf">LLM-generated PDF</a> where the model "reconstructs how the proof came together" based on the unpublished reasoning traces.</p>
-<p>That's a decent level of transparency, but I want to see the prompts they used!</p>
-<p>A lot of mathematicians online are experiencing a collective burst of <a href="https://simonwillison.net/2026/Feb/15/deep-blue/">Deep Blue</a>.</p>
-<p>OpenAI's results reminds me of what Terence Tao described as "big mathematics" in <a href="https://spectrum.ieee.org/ai-in-mathematics">IEEE Spectrum in June</a>:</p>
-<blockquote>
-<p>Unlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work.</p>
-</blockquote>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49132058">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
