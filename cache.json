@@ -301,6 +301,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/0049542-nationally-unsubsidized-a",
+          "author": null,
+          "description": "Nationally, unsubsidized ACA premiums to jump *another* ~15% next year. We can’t continue like this (but I feel like this has been the case for the last ~10 years and will in fact likely continue…)",
+          "link": "https://kottke.org/26/09/0049542-nationally-unsubsidized-a",
+          "publishedOn": "2026-09-01T14:54:00.000Z",
+          "wordCount": 657,
+          "title": "Nationally, unsubsidized ACA premiums to jump *another*...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049541-heres-how-noise-cancellin",
+          "author": null,
+          "description": "Here’s how noise-cancelling headphones work (and when they don’t). “This is why ANC is better suited for reducing low, sustained sounds like those of motors and airplane engines, and it’s why such headphones can’t filter out screaming kids.”",
+          "link": "https://kottke.org/26/09/0049541-heres-how-noise-cancellin",
+          "publishedOn": "2026-09-01T14:04:50.000Z",
+          "wordCount": 914,
+          "title": "Here’s how noise-cancelling headphones work  (and when...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/08/0049540-google-maps-changes-lake-",
           "author": null,
           "description": "Google Maps Changes Lake Ontario to Lake America. Totally pathetic and stupid. Maps are wayfinding tools and this toadying political change will help no one find their way.",
@@ -1985,6 +2005,16 @@
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
         {
+          "id": "https://brucesterling.tumblr.com/post/826569692213903360",
+          "author": null,
+          "description": "",
+          "link": "https://brucesterling.tumblr.com/post/826569692213903360",
+          "publishedOn": "2026-09-01T15:58:05.000Z",
+          "wordCount": null,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
           "id": "https://brucesterling.tumblr.com/post/826438229273329664",
           "author": null,
           "description": "*In the famous or infamous “Kama Sutra,” the sage Vatsyayana describes the accomplishments or fields of study that Indian ladies of 300 AD should attempt to master in order to be civilized.\n\n\nQuestion :—What else should a woman learn along with the Aphorisms of Love?\nAnswer :—According to Vatsyayana, she should earn 64 more arts. He says —\n“At the same time that she studies the Aphorisms of Love, she should also study :\n\nSinging.\nPlaying upon musical instruments.\nDancing.\nThe harmonized arrangement of dancing, singing and musical instruments.\nWriting and drawing.\nTattooing.\nClothing and decorating an idol with rice and flowers.\nThe disposition and arrangement of beds or couches of flowers, or of flowers upon the earth.\nThe colouration of teeth, clothes, hair, nails and the body; that is, t…",
@@ -2191,6 +2221,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/sweetu-patel-chcm-interview",
+          "author": "Blackbird Spyplane",
+          "description": "Deep wisdom from the cool-clothes-universe legend Sweetu Patel, owner of C’H’C’M’, New York’s best shop, in a very rare interview",
+          "link": "https://www.blackbirdspyplane.com/p/sweetu-patel-chcm-interview",
+          "publishedOn": "2026-09-01T11:03:32.000Z",
+          "wordCount": null,
+          "title": "Get dressed without a mirror",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e64b4c98-f057-4502-a2d9-a41e0c57d759_1190x810.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/e64b4c98-f057-4502-a2d9-a41e0c57d759_1190x810.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/what-if-i-could-show-you-how-to-do-magic",
           "author": "Blackbird Spyplane",
@@ -2514,6 +2560,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p>\nHugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p>\n<blockquote>\n<p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p>\n<p>We <strong>strongly encourage</strong> maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates <strong>will work</strong> with future versions of Python 3.15.</p>\n</blockquote>\n<p>Back in 2021 I <a href=\"https://simonwillison.net/2021/Oct/9/finding-and-reporting-a-bug/\">found a bug in Python 3.10</a> by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs.</p>\n<p>The new RC isn't available for GitHub Actions just yet - keep an eye on <a href=\"https://github.com/actions/python-versions/releases\">actions/python-versions</a> for that. For the moment though you can add this to a testing matrix:</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">strategy</span>:\n  <span class=\"pl-ent\">matrix</span>:\n    <span class=\"pl-ent\">python-version</span>: <span class=\"pl-s\">[\"3.14\", \"3.15\"]</span>\n\n<span class=\"pl-ent\">steps</span>:\n  - <span class=\"pl-ent\">uses</span>: <span class=\"pl-s\">actions/setup-python@v7</span>\n    <span class=\"pl-ent\">with</span>:\n      <span class=\"pl-ent\">python-version</span>: <span class=\"pl-s\">${{ matrix.python-version }}</span>\n      <span class=\"pl-ent\">allow-prereleases</span>: <span class=\"pl-c1\">true</span>\n      <span class=\"pl-ent\">check-latest</span>: <span class=\"pl-c1\">true</span></pre></div>\n\n<p>The <a href=\"https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#allow-pre-releases\">allow-prereleases</a> and <a href=\"https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#check-latest-version\">check-latest</a> flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.)\n\n    <p><small></small>Via <a href=\"https://bsky.app/profile/hugovk.dev/post/3muhjndhw322i\">@hugovk.dev</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+          "publishedOn": "2026-09-01T14:59:18.000Z",
+          "wordCount": 968,
+          "title": "Python 3.15.0 candidate 2 is here!",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
           "author": null,
@@ -3533,16 +3589,6 @@
           "wordCount": 845,
           "title": "condense-json 1.1",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.0\">condense-json 1.0</a></p>\n        <p>I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.</p>\n<p>Here's an example of what it can do, lifted from the README:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string with foxes in it<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another with foxes in it too<span class=\"pl-pds\">\"</span></span>]\n      }\n    }\n  }\n}</pre></div>\n<p>Combine that with a replacements object:</p>\n<div class=\"highlight highlight-source-json\"><pre>{<span class=\"pl-ent\">\"1\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>with foxes in it<span class=\"pl-pds\">\"</span></span>}</pre></div>\n<p>And <code>condense_json(input_json, replacements)</code> produces the following:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}]},\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span> too<span class=\"pl-pds\">\"</span></span>]}]\n      }\n    }\n  }\n}</pre></div>\n<p>It scans for strings or substrings that are present in that replacements object and replaces those with a special <code>{\"$r\": ...}</code> syntax in the output.</p>\n<p>You can reverse the effect with <code>uncondense_json(condensed, replacements)</code>.</p>\n\n<p>The idea is to make it easier to store JSON that includes duplicated data from other related structures. I use it to save space in the SQLite logs generated by <a href=\"https://llm.datasette.io/\">LLM</a> - see <a href=\"https://github.com/simonw/llm/pull/1586\">PR #1586</a> for the latest iteration of that.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/json\">json</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
-          "publishedOn": "2026-08-02T22:19:59.000Z",
-          "wordCount": 955,
-          "title": "condense-json 1.0",
-          "imageUrl": null
         }
       ]
     },
@@ -3824,6 +3870,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12337",
+          "author": "PGR",
+          "description": "Foucault, Gould, Crowley (not that one).",
+          "link": "https://www.velcro-city.co.uk/01sep26-accessions/",
+          "publishedOn": "2026-09-01T13:12:28.000Z",
+          "wordCount": 2714,
+          "title": "01SEP26 / accessions",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12334",
           "author": "PGR",

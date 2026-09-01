@@ -35,6 +35,142 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://brucesterling.tumblr.com/post/826569692213903360">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T15:58:05.000Z">2026-09-01</time>
+        <span class="feed-item__source">BruceS</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://brucesterling.tumblr.com/post/826569692213903360" target="_blank" rel="noopener noreferrer">Untitled</a>
+          </h2>
+          <p class="feed-item__desc">No content preview</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/826569692213903360" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/826569692213903360">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/1/python-315-rc-2/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T14:59:18.000Z">2026-09-01</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/1/python-315-rc-2/" target="_blank" rel="noopener noreferrer">Python 3.15.0 candidate 2 is here!</a>
+          </h2>
+          <p class="feed-item__desc">Python 3.15.0 candidate 2 is here!
+Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]
+We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15.
+Back in 2021 I found a bug in Python 3.10 by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs.
+The new RC isn't available for GitHub Actions just yet - keep an eye on actions/python-versions for that. For the moment though you can add this to a testing matrix:
+strategy:
+  matrix:
+    python-version: ["3.14", "3.15"]
+
+steps:
+  - uses: actions/setup-python@v7
+    with:
+      python-version: ${{ matrix.python-version }}
+      allow-prereleases: true
+      check-latest: true
+
+
+The allow-prereleases and check-latest flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.)
+
+    
+Via @hugovk.dev
+Tags: open-source, python, github-actions</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/1/python-315-rc-2/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/1/python-315-rc-2/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049542-nationally-unsubsidized-a">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T14:54:00.000Z">2026-09-01</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/09/0049542-nationally-unsubsidized-a" target="_blank" rel="noopener noreferrer">Nationally, unsubsidized ACA premiums to jump *another*...</a>
+          </h2>
+          <p class="feed-item__desc">Nationally, unsubsidized ACA premiums to jump *another* ~15% next year. We can’t continue like this (but I feel like this has been the case for the last ~10 years and will in fact likely continue…)</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049542-nationally-unsubsidized-a" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049542-nationally-unsubsidized-a">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049541-heres-how-noise-cancellin">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T14:04:50.000Z">2026-09-01</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/09/0049541-heres-how-noise-cancellin" target="_blank" rel="noopener noreferrer">Here’s how noise-cancelling headphones work  (and when...</a>
+          </h2>
+          <p class="feed-item__desc">Here’s how noise-cancelling headphones work (and when they don’t). “This is why ANC is better suited for reducing low, sustained sounds like those of motors and airplane engines, and it’s why such headphones can’t filter out screaming kids.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049541-heres-how-noise-cancellin" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049541-heres-how-noise-cancellin">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.velcro-city.co.uk/?p&#x3D;12337">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T13:12:28.000Z">2026-09-01</time>
+        <span class="feed-item__source">Velcro City Tourist Board</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.velcro-city.co.uk/01sep26-accessions/" target="_blank" rel="noopener noreferrer">01SEP26 / accessions</a>
+          </h2>
+          <p class="feed-item__desc">Foucault, Gould, Crowley (not that one).</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12337" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12337">Mark read</button>
+            <span class="feed-item__reading-time">9 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/sweetu-patel-chcm-interview">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T11:03:32.000Z">2026-09-01</time>
+        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.blackbirdspyplane.com/p/sweetu-patel-chcm-interview" target="_blank" rel="noopener noreferrer">Get dressed without a mirror</a>
+          </h2>
+          <p class="feed-item__desc">Deep wisdom from the cool-clothes-universe legend Sweetu Patel, owner of C’H’C’M’, New York’s best shop, in a very rare interview</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/sweetu-patel-chcm-interview" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/sweetu-patel-chcm-interview">Mark read</button>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://substack-post-media.s3.amazonaws.com/public/images/e64b4c98-f057-4502-a2d9-a41e0c57d759_1190x810.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/31/introducing-wrapture/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-08-31T23:59:36.000Z">2026-08-31</time>
@@ -10187,57 +10323,6 @@ Tags: json</p>
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-02T22:19:59.000Z">2026-08-02</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything" target="_blank" rel="noopener noreferrer">condense-json 1.0</a>
-          </h2>
-          <p class="feed-item__desc">Release: condense-json 1.0
-I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.
-Here's an example of what it can do, lifted from the README:
-{
-  "foo": {
-    "bar": {
-      "string": "This is a string with foxes in it",
-      "nested": {
-        "more": ["Here is a string", "another with foxes in it too"]
-      }
-    }
-  }
-}
-
-Combine that with a replacements object:
-{"1": "with foxes in it"}
-
-And condense_json(input_json, replacements) produces the following:
-{
-  "foo": {
-    "bar": {
-      "string": {"$r": ["This is a string ", {"$": "1"}]},
-      "nested": {
-        "more": ["Here is a string", {"$r": ["another ", {"$": "1"}, " too"]}]
-      }
-    }
-  }
-}
-
-It scans for strings or substrings that are present in that replacements object and replaces those with a special {"$r": ...} syntax in the output.
-You can reverse the effect with uncondense_json(condensed, replacements).
-The idea is to make it easier to store JSON that includes duplicated data from other related structures. I use it to save space in the SQLite logs generated by LLM - see PR #1586 for the latest iteration of that.
-Tags: json, projects, python, llm</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
