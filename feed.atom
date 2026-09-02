@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-02T15:56:24.370Z</updated>
+    <updated>2026-09-02T19:13:41.766Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[llm-gemini 0.34]]></title>
+        <id>https://simonwillison.net/2026/Sep/2/llm-gemini/</id>
+        <link href="https://simonwillison.net/2026/Sep/2/llm-gemini/"/>
+        <updated>2026-09-02T16:39:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-gemini/releases/tag/0.34">llm-gemini 0.34</a></p>
+        <blockquote>
+<ul>
+<li>New model <code>gemini-3.8-flash</code> for <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href="https://github.com/simonw/llm-gemini/issues/146">#146</a></li>
+<li>Fixed async responses failing to record the resolved model version. Thanks, <a href="https://github.com/c-tonneslan">Charlie Tonneslan</a>. <a href="https://github.com/simonw/llm-gemini/pull/137">#137</a></li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unusual Suspects]]></title>
         <id>https://waxy.org/?p=51236</id>
@@ -6569,20 +6588,6 @@ There are people who insist that an AI must always be busy — generating, optim
         <summary type="html"><![CDATA[Banned words]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*The guy is a real-deal philosopher]]></title>
-        <id>https://brucesterling.tumblr.com/post/823994418599198720</id>
-        <link href="https://brucesterling.tumblr.com/post/823994418599198720"/>
-        <updated>2026-08-04T05:45:13.000Z</updated>
-        <summary type="html"><![CDATA[crashlandia:
-
-“Slavoj Žižek once said that people need three basic things to be happy. First, to have most but not all of our material needs met—for example, the store should run out of coffee once a month so we know what a privilege it is the other 29 days. Second, to have a government on which we can blame all our problems, since most of us can’t handle the horror of admitting we’re incapable of self-rule. And third, to have a vision of paradise that’s close but not too close: it must be close enough not to lose hope, but not so close that we recognize the same banal existence we already have.”
-
-*The guy is a real-deal philosopher]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
