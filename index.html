@@ -35,6 +35,132 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T23:57:28.000Z">2026-09-01</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/" target="_blank" rel="noopener noreferrer">Claude Fable 5.1 made me a really nice animated pelican</a>
+          </h2>
+          <p class="feed-item__desc">Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 "sets a new standard for coding, knowledge work, and long-running problem-solving tasks". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one.
+
+But how well can it pelican?
+
+Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025. The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels.
+
+Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely.
+
+I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts.
+
+Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here:
+
+Low and medium, both without reasoning?
+
+Next, a bit of a mystery. This is what I got for effort low:
+
+
+
+The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents.
+
+I bumped that up to medium and got this:
+
+
+
+Weirdly, that one also shows no reasoning text  and used 1,977 output tokens - 21 tokens less than low. It took 23 seconds and cost 9.912 cents.
+
+So for this particular prompt ("Generate an SVG of a pelican riding a bicycle") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings.
+
+High
+
+Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents:
+
+
+
+This one did do a bit of reasoning, summary here:
+
+
+I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top.
+
+
+Really not much difference from low and medium, though.
+
+Extra High
+
+At xhigh things got radically different.  36,767 output tokens, 7 minutes 51 seconds, $1.83!
+
+
+
+The reasoning trace is pretty lengthy, and includes details like this:
+
+
+Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...]
+
+I'll accept the slight thickness as charming rather than overengineering it.
+
+
+Max
+
+Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30:
+
+
+
+There's a lot to like about this. The  background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish.
+
+It's still not showing nearly the same level of flair as Gemini 3.7 Flash, but I didn't ask for flair - I asked for an SVG, and that's what I got.
+
+Some highlights from that reasoning trace:
+
+
+Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter.
+
+Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as "pelican," so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space.
+
+I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...]
+
+I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...]
+
+Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...]
+
+I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean.
+
+
+OK, let's animate it
+
+On Hacker News, swalsh commented on that Max pelican:
+
+
+Now that it's a solved benchmark, can we get the animated version?
+
+
+I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High:
+
+
+llm logs -cx | llm -m claude-fable-5.1 -s 'animate this'
+
+6,121 input, 26,201 output = $1.37. The result looked like this, exported here as video since some people have trouble viewing animated SVGs:
+
+
+    
+    Your browser does not support HTML5 video.
+  
+
+
+The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG.
+Tags: ai, generative-ai, llms, anthropic, claude, pelican-riding-a-bicycle, llm-reasoning, llm-release</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/fable-5.1-max.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/09/trump-is-in-open-revolt-against-the-constitution">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-01T22:10:00.000Z">2026-09-01</time>
@@ -141,6 +267,37 @@ Tags: codex, generative-ai, openai, ai, llms, openoffice, open-source</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/1/codex-libreoffice/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/1/geojson/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-01T18:05:45.000Z">2026-09-01</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/1/geojson/" target="_blank" rel="noopener noreferrer">GeoJSON Map Viewer</a>
+          </h2>
+          <p class="feed-item__desc">Tool: GeoJSON Map Viewer
+I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool.
+As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need.
+I got this polygon from:
+I want a polygon that represents the exact boundary of the El Granada GCSD
+And this one from:
+Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA
+Here's a link that displays both of them at the same time on the new GeoJSON map viewing tool.
+
+Tags: geospatial, tools, geojson, chatgpt</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/1/geojson/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/1/geojson/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/geojson-tool.webp" alt="" loading="lazy">
         </div>
       </div>
     </article>
@@ -10395,77 +10552,6 @@ The post Why the Legendary Erdős Problems Are Falling to AI first appeared on Q
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/08/Erdos-cr.DVDP-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/does-christopher-nolan-consider-himself-a-bard-for-a-civilization-at-dusk">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-03T14:39:00.000Z">2026-08-03</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/does-christopher-nolan-consider-himself-a-bard-for-a-civilization-at-dusk" target="_blank" rel="noopener noreferrer">Does Christopher Nolan Consider Himself a Bard for a Civilization at Dusk?</a>
-          </h2>
-          <p class="feed-item__desc">This 17-minute interview about the Odyssey with Christopher Nolan conducted by philosophy doctoral student Zhong Shu is one of the better ones I’ve seen. 
-
-The first two questions are:
-Do you consider yourself a bard for a civilization at dusk?
-Have you Christianized The Odyssey?
-And nary a comment or question about filming in IMAX.
-
- 
-
-        
-         
-Tags: Christopher Nolan · film school · interviews · movies · The Odyssey · video · Zhong Shu</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/does-christopher-nolan-consider-himself-a-bard-for-a-civilization-at-dusk" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/does-christopher-nolan-consider-himself-a-bard-for-a-civilization-at-dusk">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/wa4I8Ch2TRo/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049427-google-earth-stupidly-lau">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-03T13:45:00.000Z">2026-08-03</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049427-google-earth-stupidly-lau" target="_blank" rel="noopener noreferrer">Google Earth stupidly launched an AI image-gen feature...</a>
-          </h2>
-          <p class="feed-item__desc">Google Earth stupidly launched an AI image-gen feature with no guardrails then put it on pause after a huge outcry. “Tonight I typed just one sentence into Google Earth and put refugees near the Mexican border. Then I planted a nuclear plant in Iran.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049427-google-earth-stupidly-lau" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049427-google-earth-stupidly-lau">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049412-the-listening-museum">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-03T12:55:58.000Z">2026-08-03</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049412-the-listening-museum" target="_blank" rel="noopener noreferrer">The Listening Museum : “36 mechanical keyboards...</a>
-          </h2>
-          <p class="feed-item__desc">The Listening Museum: “36 mechanical keyboards and switches, curated and sound-mapped. From IBM Model M (1985) to Topre to thocky modern customs. Click any card, type on your real keyboard, hear it as if it were on your desk.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049412-the-listening-museum" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049412-the-listening-museum">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
         </div>
       </div>
     </article>
