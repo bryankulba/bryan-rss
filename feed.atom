@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-02T02:47:35.264Z</updated>
+    <updated>2026-09-02T08:22:24.148Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Rick Brewster]]></title>
+        <id>https://simonwillison.net/2026/Sep/2/rick-brewster/</id>
+        <link href="https://simonwillison.net/2026/Sep/2/rick-brewster/"/>
+        <updated>2026-09-02T05:50:57.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just "disable" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</strong>). It lives in <strong>PaintDotNet.Windows.Direct2D1.Managed.dll</strong>. This was written by our good friend <a href="https://claude.ai/">Claude</a>, without whom this would NOT have been possible and would NEVER have happened. [...]</p>
+<p>Most of this code is, as they say, "vibe coded." By that I mean that it has not been thoroughly reviewed, it's more "trust me bro" style. I cannot possibly review 180,000 lines of code, it's just way way <em>way</em> too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...]</p>
+<p>At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.</p></blockquote>
+<p class="cite">&mdash; <a href="https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/">Rick Brewster</a>, author of Paint.NET</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/reverse-engineering">reverse-engineering</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/dotnet">dotnet</a>, <a href="https://simonwillison.net/tags/linux">linux</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Fable 5.1 made me a really nice animated pelican]]></title>
         <id>https://simonwillison.net/2026/Sep/1/claude-fable-5-1/</id>
@@ -239,6 +254,26 @@ Tags: Blackwing · how to · pencils · video]]></summary>
         <updated>2026-09-01T15:58:05.000Z</updated>
         <author>
             <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-mcp 0.2]]></title>
+        <id>https://simonwillison.net/2026/Sep/1/datasette-mcp/</id>
+        <link href="https://simonwillison.net/2026/Sep/1/datasette-mcp/"/>
+        <updated>2026-09-01T15:30:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-mcp/releases/tag/0.2">datasette-mcp 0.2</a></p>
+        <blockquote>
+<ul>
+<li><code>"rows"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href="https://github.com/datasette/datasette-mcp/issues/1">#1</a></li>
+<li>Now depends on <code>mcp&gt;=2.1.1</code>.</li>
+</ul>
+</blockquote>
+<p>This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6446,120 +6481,6 @@ Niklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for peo
         <summary type="html"><![CDATA[“Long live Hyrule jazz!” The Z Suites is “a modern jazz reinterpretation of the music from The Legend of Zelda”.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Podcasts Ruined America . This is an odd claim and...]]></title>
-        <id>https://kottke.org/26/08/0049431-how-podcasts-ruined-ameri</id>
-        <link href="https://kottke.org/26/08/0049431-how-podcasts-ruined-ameri"/>
-        <updated>2026-08-03T19:48:00.000Z</updated>
-        <summary type="html"><![CDATA[How Podcasts Ruined America. This is an odd claim and article. No mention of the clear precursors to right-wing podcasts (talk radio, blogs, Twitter) and the general shift towards less accountability for public speech, esp. by conservatives. 🤔]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pilcrow, Dagger, and Octothorp, Oh My!]]></title>
-        <id>https://kottke.org/26/08/pilcrow-dagger-and-octothorp-oh-my</id>
-        <link href="https://kottke.org/26/08/pilcrow-dagger-and-octothorp-oh-my"/>
-        <updated>2026-08-03T18:38:00.000Z</updated>
-        <summary type="html"><![CDATA[So, I don’t know what kind of nerd you are, but my brand of nerdiness dovetails neatly with this video about the origins of some of the most common symbols on your keyboard: #, @, &, §, *, ¶, †, and ‡, as well as ☞.
-
-The “and” symbol or ampersand does not look like a word, but it is one. In fact, it is a full one. It is the Latin word for “and”: “et”. The Romans themselves used this. How do we know? Because we have this: the earliest known example of it, graffitied onto a wall in the doomed Roman city of Pompeii.
-
-	
-See also Where the $&%@# Did Grawlixes Come From?
-
- 
-
-        
-         
-Tags: language · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Climate Science Can Tell Us About the Lost World...]]></title>
-        <id>https://kottke.org/26/08/0049432-what-climate-science-can-</id>
-        <link href="https://kottke.org/26/08/0049432-what-climate-science-can-"/>
-        <updated>2026-08-03T17:48:00.000Z</updated>
-        <summary type="html"><![CDATA[What Climate Science Can Tell Us About the Lost World That Inspired The Odyssey. “A new climate study suggests that centuries of repeated severe drought added to the pressures on that collapsing world.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ikea Complexity Index]]></title>
-        <id>https://waxy.org/?p=51166</id>
-        <link href="https://ikea.greg.technology/"/>
-        <updated>2026-08-03T17:42:18.000Z</updated>
-        <summary type="html"><![CDATA[I wonder how many people know they’ve committed to a 10 hour build when buying a $700 kitchenette
-b3ta #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is fun:  BoxSquad . Limbs & borders are all draggable.]]></title>
-        <id>https://kottke.org/26/08/0049425-boxsquad</id>
-        <link href="https://kottke.org/26/08/0049425-boxsquad"/>
-        <updated>2026-08-03T17:07:00.000Z</updated>
-        <summary type="html"><![CDATA[This is fun: BoxSquad. Limbs & borders are all draggable.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;A Los Angeles Costco parking lot [has] become a...]]></title>
-        <id>https://kottke.org/26/08/0049428-the-end-being-closer-than</id>
-        <link href="https://kottke.org/26/08/0049428-the-end-being-closer-than"/>
-        <updated>2026-08-03T16:15:32.000Z</updated>
-        <summary type="html"><![CDATA[“A Los Angeles Costco parking lot [has] become a hotspot for skaters over 40. Its long, low curb lets us keep doing tricks on safer, lower-risk terrain […] Curbs represent the twilight of skateboarding, the end being closer than the beginning.” Lovely.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting David Crawshaw's prompt]]></title>
-        <id>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything"/>
-        <updated>2026-08-03T16:15:27.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://blog.exe.dev/devtools-must-be-open-source"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>
-<p class="cite">&mdash; <a href="https://blog.exe.dev/devtools-must-be-open-source">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/prompt-engineering">prompt-engineering</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Devtools must be open source (exe.dev)]]></title>
-        <id>https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything"/>
-        <updated>2026-08-03T15:30:38.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49156111#49156719">My comment</a> on <a href="https://news.ycombinator.com/item?id=49156111">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p>
-<p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p>
-<p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.
-Several times a day I'll prompt regular Claude chat to "Clone x/y from GitHub and tell me how Z works".</p>
-<p>Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.</p>
-<p>I'm not habitually modifying the software I use yet, but I can see a path to that which didn't exist a year or so ago.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/hacker-news">hacker-news</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why the Legendary Erdős Problems Are Falling to AI]]></title>
-        <id>https://www.quantamagazine.org/?p=165323</id>
-        <link href="https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/"/>
-        <updated>2026-08-03T15:05:20.000Z</updated>
-        <summary type="html"><![CDATA[AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might change the rest of math.            
-The post Why the Legendary Erdős Problems Are Falling to AI first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Konstantin Kakaes</name>
         </author>
     </entry>
 </feed>

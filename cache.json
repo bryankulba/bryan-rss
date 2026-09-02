@@ -1489,56 +1489,6 @@
           "wordCount": 713,
           "title": "“Long live Hyrule jazz!&#8221;  The Z Suites  is “a...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049431-how-podcasts-ruined-ameri",
-          "author": null,
-          "description": "How Podcasts Ruined America. This is an odd claim and article. No mention of the clear precursors to right-wing podcasts (talk radio, blogs, Twitter) and the general shift towards less accountability for public speech, esp. by conservatives. 🤔",
-          "link": "https://kottke.org/26/08/0049431-how-podcasts-ruined-ameri",
-          "publishedOn": "2026-08-03T19:48:00.000Z",
-          "wordCount": 667,
-          "title": "How Podcasts Ruined America . This is an odd claim and...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/pilcrow-dagger-and-octothorp-oh-my",
-          "author": null,
-          "description": "So, I don’t know what kind of nerd you are, but my brand of nerdiness dovetails neatly with this video about the origins of some of the most common symbols on your keyboard: #, @, &, §, *, ¶, †, and ‡, as well as ☞.\n\nThe “and” symbol or ampersand does not look like a word, but it is one. In fact, it is a full one. It is the Latin word for “and”: “et”. The Romans themselves used this. How do we know? Because we have this: the earliest known example of it, graffitied onto a wall in the doomed Roman city of Pompeii.\n\n\t\nSee also Where the $&%@# Did Grawlixes Come From?\n\n \n\n        \n         \nTags: language · video",
-          "link": "https://kottke.org/26/08/pilcrow-dagger-and-octothorp-oh-my",
-          "publishedOn": "2026-08-03T18:38:00.000Z",
-          "wordCount": 1361,
-          "title": "Pilcrow, Dagger, and Octothorp, Oh My!",
-          "imageUrl": "https://i.ytimg.com/vi/cSsyG2pE-GY/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049432-what-climate-science-can-",
-          "author": null,
-          "description": "What Climate Science Can Tell Us About the Lost World That Inspired The Odyssey. “A new climate study suggests that centuries of repeated severe drought added to the pressures on that collapsing world.”",
-          "link": "https://kottke.org/26/08/0049432-what-climate-science-can-",
-          "publishedOn": "2026-08-03T17:48:00.000Z",
-          "wordCount": 777,
-          "title": "What Climate Science Can Tell Us About the Lost World...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049425-boxsquad",
-          "author": null,
-          "description": "This is fun: BoxSquad. Limbs & borders are all draggable.",
-          "link": "https://kottke.org/26/08/0049425-boxsquad",
-          "publishedOn": "2026-08-03T17:07:00.000Z",
-          "wordCount": 670,
-          "title": "This is fun:  BoxSquad . Limbs & borders are all draggable.",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049428-the-end-being-closer-than",
-          "author": null,
-          "description": "“A Los Angeles Costco parking lot [has] become a hotspot for skaters over 40. Its long, low curb lets us keep doing tricks on safer, lower-risk terrain […] Curbs represent the twilight of skateboarding, the end being closer than the beginning.” Lovely.",
-          "link": "https://kottke.org/26/08/0049428-the-end-being-closer-than",
-          "publishedOn": "2026-08-03T16:15:32.000Z",
-          "wordCount": 756,
-          "title": "&#8220;A Los Angeles Costco parking lot [has] become a...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1706,16 +1656,6 @@
           "wordCount": 1706,
           "title": "Waxy Refresh: The End of Playfic",
           "imageUrl": "https://waxy.org/wp-content/uploads/2026/08/image.png"
-        },
-        {
-          "id": "https://waxy.org/?p=51166",
-          "author": "Andy Baio",
-          "description": "I wonder how many people know they’ve committed to a 10 hour build when buying a $700 kitchenette\nb3ta #",
-          "link": "https://ikea.greg.technology/",
-          "publishedOn": "2026-08-03T17:42:18.000Z",
-          "wordCount": 75,
-          "title": "Ikea Complexity Index",
-          "imageUrl": null
         }
       ]
     },
@@ -2591,6 +2531,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+          "author": null,
+          "description": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</strong>). It lives in <strong>PaintDotNet.Windows.Direct2D1.Managed.dll</strong>. This was written by our good friend <a href=\"https://claude.ai/\">Claude</a>, without whom this would NOT have been possible and would NEVER have happened. [...]</p>\n<p>Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way <em>way</em> too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...]</p>\n<p>At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\">Rick Brewster</a>, author of Paint.NET</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reverse-engineering\">reverse-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/dotnet\">dotnet</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+          "publishedOn": "2026-09-02T05:50:57.000Z",
+          "wordCount": 963,
+          "title": "Quoting Rick Brewster",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
           "author": null,
           "description": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new <a href=\"https://www.terminal-bench-science.ai\">Terminal-Bench-Science 0.1</a> benchmark (first announced <a href=\"https://www.tbench.ai/news/terminal-bench-science-0-1\">on August 27th</a>), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one.</p>\r\n<p>But how well can it pelican?</p>\r\n<p>Back in July <a href=\"https://simonwillison.net/2026/Jul/16/kimi-k3/\">I wrote about</a> how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did <a href=\"https://simonwillison.net/2025/Jun/6/six-months-in-llms/\">back in 2025</a>. The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels.</p>\r\n<p>Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely.</p>\r\n<p>I fixed <a href=\"https://github.com/simonw/llm-anthropic/issues/88\">an issue</a> in <a href=\"https://github.com/simonw/llm-anthropic\">llm-anthropic</a> which caused reasoning traces not to be correctly recorded, then ran some prompts.</p>\r\n<p>Here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7\">the full set of pelicans</a> for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here:</p>\r\n<h4 id=\"low-and-medium-both-without-reasoning-\">Low and medium, both without reasoning?</h4>\r\n<p>Next, a bit of a mystery. This is what I got for effort <code>low</code>:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-low.png\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle to the left, its orange legs pedaling and wings gripping the handlebars, with motion lines behind on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>The <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#options\">transcript</a> doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost <a href=\"https://www.llm-prices.com/#it=27&amp;ot=1998&amp;sel=claude-fable-5-1\">10.017 cents</a>.</p>\r\n<p>I bumped that up to <code>medium</code> and got this:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-medium.png\" alt=\"Minimalist flat-style illustration of a white pelican with an orange beak riding a black bicycle to the right, with motion lines behind it, on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>Weirdly, that one also shows <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#options-1\">no reasoning text</a>  and used 1,977 output tokens - 21 tokens <em>less</em> than <code>low</code>. It took 23 seconds and cost <a href=\"https://www.llm-prices.com/#it=27&amp;ot=1977&amp;sel=claude-fable-5-1\">9.912 cents</a>.</p>\r\n<p>So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both <code>low</code> and <code>medium</code> settings.</p>\r\n<h4 id=\"high\">High</h4>\r\n<p>Here's <code>high</code> - 29.6 seconds, 2,612 output tokens, <a href=\"https://www.llm-prices.com/#it=27&amp;ot=2612&amp;sel=claude-fable-5-1\">13.087 cents</a>:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-high.png\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle, its orange legs pedaling, with motion lines behind it on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>This one did do a <em>bit</em> of reasoning, <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#reasoning\">summary here</a>:</p>\r\n<blockquote>\r\n<p>I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top.</p>\r\n</blockquote>\r\n<p>Really not much difference from <code>low</code> and <code>medium</code>, though.</p>\r\n<h4 id=\"extra-high\">Extra High</h4>\r\n<p>At <code>xhigh</code> things got <em>radically</em> different.  36,767 output tokens, 7 minutes 51 seconds, <a href=\"https://www.llm-prices.com/#it=27&amp;ot=36767&amp;sel=claude-fable-5-1\">$1.83</a>!</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-xhigh.png\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle to the left, its orange legs pedaling, with motion lines behind it on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>The reasoning trace <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#reasoning-1\">is pretty lengthy</a>, and includes details like this:</p>\r\n<blockquote>\r\n<p>Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...]</p>\r\n<p>I'll accept the slight thickness as charming rather than overengineering it.</p>\r\n</blockquote>\r\n<h4 id=\"max\">Max</h4>\r\n<p>Setting effort to <code>max</code> gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, <a href=\"https://www.llm-prices.com/#it=27&amp;ot=65927&amp;sel=claude-fable-5-1\">$3.30</a>:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-max.webp\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle, its orange legs pedaling, with motion lines behind to indicate speed, on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>There's a lot to like about this. The  background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish.</p>\r\n<p>It's still not showing nearly the same level of flair <a href=\"https://simonwillison.net/2026/Aug/13/llm-gemini/\">as Gemini 3.7 Flash</a>, but I didn't <em>ask</em> for flair - I asked for an SVG, and that's what I got.</p>\r\n<p>Some highlights from <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#reasoning-2\">that reasoning trace</a>:</p>\r\n<blockquote>\r\n<p>Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter.</p>\r\n<p>Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space.</p>\r\n<p>I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...]</p>\r\n<p>I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...]</p>\r\n<p>Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...]</p>\r\n<p>I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean.</p>\r\n</blockquote>\r\n<h4 id=\"ok-let-s-animate-it\">OK, let's animate it</h4>\r\n<p>On Hacker News, <a href=\"https://news.ycombinator.com/item?id=49525378#49526455\">swalsh commented</a> on that Max pelican:</p>\r\n<blockquote>\r\n<p>Now that it's a solved benchmark, can we get the animated version?</p>\r\n</blockquote>\r\n<p>I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>llm logs -cx <span class=\"pl-k\">|</span> llm -m claude-fable-5.1 -s <span class=\"pl-s\"><span class=\"pl-pds\">'</span>animate this<span class=\"pl-pds\">'</span></span></pre></div>\r\n<p>6,121 input, 26,201 output = <a href=\"https://www.llm-prices.com/#it=6121&amp;ot=26201&amp;sel=claude-fable-5-1\">$1.37</a>. The result <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F87282467acb3652e0f99c85155554a32#response\">looked like this</a>, exported here as video since some people have trouble viewing animated SVGs:</p>\r\n<p><video controls=\"controls\" loop=\"loop\" preload=\"none\" poster=\"https://static.simonwillison.net/static/2026/fable-5.1-max.webp\" width=\"720\" height=\"540\" style=\"display: block; width: 100%; height: auto;\">\r\n    <source src=\"https://static.simonwillison.net/static/2026/fable-5.1-animated-720-crf30-15fps.mp4\" type=\"video/mp4\" />\r\n    Your browser does not support HTML5 video.\r\n  </video>\r\n</p>\r\n\r\n<p>The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
@@ -2628,6 +2578,16 @@
           "publishedOn": "2026-09-01T17:01:11.000Z",
           "wordCount": 734,
           "title": "Quoting Tarn Adams",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p>\n        <blockquote>\n<ul>\n<li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li>\n<li>Now depends on <code>mcp&gt;=2.1.1</code>.</li>\n</ul>\n</blockquote>\n<p>This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+          "publishedOn": "2026-09-01T15:30:12.000Z",
+          "wordCount": 792,
+          "title": "datasette-mcp 0.2",
           "imageUrl": null
         },
         {
@@ -3629,26 +3589,6 @@
           "wordCount": 825,
           "title": "Don't be a meat proxy",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-          "publishedOn": "2026-08-03T16:15:27.000Z",
-          "wordCount": 768,
-          "title": "Quoting David Crawshaw's prompt",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-          "author": null,
-          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p>\n<p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p>\n<p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.\nSeveral times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\".</p>\n<p>Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.</p>\n<p>I'm not habitually modifying the software I use yet, but I can see a path to that which didn't exist a year or so ago.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-          "publishedOn": "2026-08-03T15:30:38.000Z",
-          "wordCount": 952,
-          "title": "Devtools must be open source (exe.dev)",
-          "imageUrl": null
         }
       ]
     },
@@ -3906,16 +3846,6 @@
           "wordCount": 3241,
           "title": "Corals Spin Tiny Vortices to Get Oxygen, but Not if It’s Too Hot",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/CoralCilia-crCesarPacharres-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=165323",
-          "author": "Konstantin Kakaes",
-          "description": "AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might change the rest of math.            \nThe post Why the Legendary Erdős Problems Are Falling to AI first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-          "publishedOn": "2026-08-03T15:05:20.000Z",
-          "wordCount": 5022,
-          "title": "Why the Legendary Erdős Problems Are Falling to AI",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Erdos-cr.DVDP-Social.jpg"
         }
       ]
     },
