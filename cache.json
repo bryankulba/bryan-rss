@@ -1409,56 +1409,6 @@
           "wordCount": 798,
           "title": "Huh,  here’s the trailer for a new director’s cut (of...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/are-you-good-at-mowing-lawns",
-          "author": null,
-          "description": "I don’t know what sort of neurodiverse bucket this puts me in, but I think a lot about mowing the lawn1 relative to how much time I actually spend mowing lawns (~6-7 hours per year). And so I was completely fascinated by The Pudding’s latest post on optimal lawn mowing paths and “why some people mow a lawn better than others”.\nThey built several digital lawns for people to mow and recorded all of their moves, how often they paused at certain times, and who mowed an optimal path.\nSolving the lawn mowing problem is formally called Coverage Path Planning, and is related to one of the most famous path planning problems in computer science: The Traveling Salesman Problem.\n\n\t\nHumans turn out to be pretty good mowers, especially those who take their time and have played some video games (includin…",
-          "link": "https://kottke.org/26/08/are-you-good-at-mowing-lawns",
-          "publishedOn": "2026-08-04T19:50:00.000Z",
-          "wordCount": 1223,
-          "title": "Are You Good at Mowing Lawns?",
-          "imageUrl": "http://kottke.org/plus/misc/images/editor-1785871090-9465c5d4.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049152-poetry-camera",
-          "author": null,
-          "description": "“poetry camera is a new way to see your world. take a photo with the camera… poetry camera thinks… and prints out a poem about the scene.”",
-          "link": "https://kottke.org/26/08/0049152-poetry-camera",
-          "publishedOn": "2026-08-04T19:03:00.000Z",
-          "wordCount": 706,
-          "title": "&#8220; poetry camera  is a new way to see your world....",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049426-the-phone-in-your-hand",
-          "author": null,
-          "description": "The Phone in Your Hand. “A layer-by-layer teardown of the most intricate object you’ve ever held.”",
-          "link": "https://kottke.org/26/08/0049426-the-phone-in-your-hand",
-          "publishedOn": "2026-08-04T18:08:00.000Z",
-          "wordCount": 706,
-          "title": "The Phone in Your Hand . “A layer-by-layer teardown of...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/an-8k-cinematic-tribute-to-the-artemis-ii-mission",
-          "author": null,
-          "description": "Using high-definition open source videos and photos from NASA and his own music, John Boswell (aka Melodysheep) created this mesmerizing eight-minute video recap of the Artemis II mission that enchanted us all back in the spring. Like all of his videos I’ve featured on KDO, this one is really well done.\nSee also Animated Artemis II Photos Reveal Satellites Buzzing Around Earth and Stunning Artemis II Phone Wallpapers. (via colossal)\n\n \n\n        \n         \nTags: artemis · astronomy · Earth · John Boswell · mesmerizing · Moon · NASA · photography · space · video",
-          "link": "https://kottke.org/26/08/an-8k-cinematic-tribute-to-the-artemis-ii-mission",
-          "publishedOn": "2026-08-04T16:42:20.000Z",
-          "wordCount": 760,
-          "title": "An 8K Cinematic Tribute to the Artemis II Mission",
-          "imageUrl": "https://i.ytimg.com/vi/SGxz4LQfRpo/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049437-the-past-catalog-archive",
-          "author": null,
-          "description": "The Past Catalog Archive is a throwback to fun & modest personal projects on the web. “There is no reason to keep these old catalogs to myself, or only allow them to be viewed. Share them and let everyone take a trip down memory lane.”",
-          "link": "https://kottke.org/26/08/0049437-the-past-catalog-archive",
-          "publishedOn": "2026-08-04T15:49:00.000Z",
-          "wordCount": 834,
-          "title": "The Past Catalog Archive  is a throwback to fun & modest...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1586,46 +1536,6 @@
           "wordCount": 243,
           "title": "Monty Python and the Holy Grail, in alphabetical order",
           "imageUrl": "https://i.vimeocdn.com/video/2186923194-1dda065ad92fe01134cb62ac69e674dba183c3e91b79cf21d8a8fef04648fa0e-d?f=webp&amp;region=us"
-        },
-        {
-          "id": "https://waxy.org/?p=51193",
-          "author": "Andy Baio",
-          "description": "“‘Today is August 4, 2026,’ said a second voice from the kitchen ceiling, ‘in the city of Allendale, California.'”\n@aaronmeyers #",
-          "link": "https://www.libraryofshortstories.com/storiespdf/there-will-come-soft-rains.pdf",
-          "publishedOn": "2026-08-04T17:31:57.000Z",
-          "wordCount": 1713,
-          "title": "Ray Bradbury’s “There Will Come Soft Rains” is set today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=51190",
-          "author": "Andy Baio",
-          "description": "some of the many ways designers encourage you to drag an icon into the Applications folder\n#",
-          "link": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/",
-          "publishedOn": "2026-08-04T17:29:56.000Z",
-          "wordCount": 1049,
-          "title": "Marcin Wichary on the Mac’s quirky drag-install app windows",
-          "imageUrl": "https://unsung.aresluna.org/_media/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/ogimage.png"
-        },
-        {
-          "id": "https://waxy.org/?p=51188",
-          "author": "Andy Baio",
-          "description": "30,954 mowed a virtual lawn, but the best mowers thought about it first\n#",
-          "link": "https://pudding.cool/2026/06/mow/",
-          "publishedOn": "2026-08-04T17:18:17.000Z",
-          "wordCount": 2111,
-          "title": "The Pudding’s lawn mowing experiment",
-          "imageUrl": "https://pudding.cool/2026/06/mow/assets/og.png"
-        },
-        {
-          "id": "https://waxy.org/?p=51184",
-          "author": "Andy Baio",
-          "description": "I played the first hour of the game with three friends at Panic HQ last month and it’s brilliant\n#",
-          "link": "https://www.eurogamer.net/big-walk-review",
-          "publishedOn": "2026-08-04T15:18:56.000Z",
-          "wordCount": 9667,
-          "title": "House House’s Big Walk out now",
-          "imageUrl": "https://assetsio.gnwcdn.com/Big-Walk-review-header-sunset.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
         }
       ]
     },
@@ -3472,46 +3382,6 @@
           "publishedOn": "2026-08-04T22:00:58.000Z",
           "wordCount": 890,
           "title": "llm-anthropic 0.26",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://github.com/PipeNetwork/minimax-h3-mlx\">PipeNetwork/minimax-h3-mlx</a></strong></p>\nMiniMax released <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-H3\">MiniMax-H3</a> two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.</p>\n<p>This Python package ports it to MLX for running on Apple Silicon.</p>\n<p>I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this:</p>\n<pre><code># First download the models\nuvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \\\n  --include 'FL2VA/*' --exclude 'FL2VA/transformer/*'\nuvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit\n\n# Now run the prompt\nuv run --with mlx-vlm \\\n  --with-requirements requirements.txt python scripts/generate.py \\\n  \"a rainbow colored skunk leaps over a mossy log in a supermarket\" \\\n  -o skunk.mp4 \\\n  -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \\\n  -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361\n</code></pre>\n<p>Here's the video I got for the prompt:</p>\n<blockquote>\n<p><code>a rainbow colored skunk leaps over a mossy log in a supermarket</code></p>\n</blockquote>\n<p><video\n    controls loop\n    preload=\"none\"\n    poster=\"https://static.simonwillison.net/static/2026/skunk.jpg\"\n    width=\"1344\"\n    height=\"768\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n    <source src=\"https://static.simonwillison.net/static/2026/skunk.web.mp4\" type=\"video/mp4\">\n    Your browser does not support HTML5 video.\n  </video>\n</p>\n\n<p>It downloaded ~115 GB of model files, and the video generation took just under 45 minutes.</p>\n<p>The video is impressive, but the audio is weird speech-like garbage, because I didn't provide any prompt guidance as to what the audio should be. The <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md\">prompting guide</a> (which I didn't read prior to this experiment) has a whole bunch of information on how to get this to work.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/mlx\">mlx</a>, <a href=\"https://simonwillison.net/tags/text-to-video\">text-to-video</a>, <a href=\"https://simonwillison.net/tags/minimax\">minimax</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/",
-          "publishedOn": "2026-08-04T19:10:09.000Z",
-          "wordCount": 977,
-          "title": "PipeNetwork/minimax-h3-mlx",
-          "imageUrl": "https://static.simonwillison.net/static/2026/skunk.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-          "author": null,
-          "description": "<p><strong><a href=\"https://github.com/PipeNetwork/minimax-h3-mlx\">PipeNetwork/minimax-h3-mlx</a></strong></p>\nMiniMax released <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-H3\">MiniMax-H3</a> two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.</p>\n<p>This Python package ports it to MLX for running on Apple Silicon.</p>\n<p>I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this:</p>\n<pre><code># First download the models\nuvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \\\n  --include 'FL2VA/*' --exclude 'FL2VA/transformer/*'\nuvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit\n\n# Now run the prompt\nuv run --with mlx-vlm \\\n  --with-requirements requirements.txt python scripts/generate.py \\\n  \"a rainbow colored skunk leaps over a mossy log in a supermarket\" \\\n  -o skunk.mp4 \\\n  -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \\\n  -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361\n</code></pre>\n<p>Here's the video I got for the prompt:</p>\n<blockquote>\n<p><code>a rainbow colored skunk leaps over a mossy log in a supermarket</code></p>\n</blockquote>\n<p><video\n    controls loop\n    preload=\"none\"\n    poster=\"https://static.simonwillison.net/static/2026/skunk.jpg\"\n    width=\"1344\"\n    height=\"768\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n    <source src=\"https://static.simonwillison.net/static/2026/skunk.web.mp4\" type=\"video/mp4\">\n    Your browser does not support HTML5 video.\n  </video>\n</p>\n\n<p>It downloaded ~115 GB of model files, and the video generation took just under 45 minutes.</p>\n<p>The video is impressive, but the audio is weird speech-like garbage, because I didn't provide any prompt guidance as to what the audio should be. The <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md\">prompting guide</a> (which I didn't read prior to this experiment) has a whole bunch of information on how to get this to work.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/mlx\">mlx</a>, <a href=\"https://simonwillison.net/tags/text-to-video\">text-to-video</a>, <a href=\"https://simonwillison.net/tags/minimax\">minimax</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-          "publishedOn": "2026-08-04T19:10:09.000Z",
-          "wordCount": 972,
-          "title": "PipeNetwork/minimax-h3-mlx",
-          "imageUrl": "https://static.simonwillison.net/static/2026/skunk.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/4/llm/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32\">llm 0.32</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">my detailed blog post about this release</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/4/llm/",
-          "publishedOn": "2026-08-04T17:15:33.000Z",
-          "wordCount": 760,
-          "title": "llm 0.32",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32\">llm 0.32</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">my detailed blog post about this release</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
-          "publishedOn": "2026-08-04T17:15:33.000Z",
-          "wordCount": 759,
-          "title": "llm 0.32",
           "imageUrl": null
         }
       ]
