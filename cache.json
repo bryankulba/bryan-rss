@@ -90,6 +90,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/fiction-future/",
+          "author": null,
+          "description": "<p>Fiction and the future. <a href=\"https://www.robinsloan.com/lab/fiction-future/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/fiction-future/",
+          "publishedOn": "2026-09-04T20:00:00.000Z",
+          "wordCount": 4808,
+          "title": "Dragoncatcher: Jack Clark and me, live in SF",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/early-wrong/",
           "author": null,
           "description": "<p>Oof! <a href=\"https://www.robinsloan.com/lab/early-wrong/\">Read here.</a></p>",
@@ -1299,36 +1309,6 @@
           "wordCount": 740,
           "title": "25 things that explain America , including personal...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/how-does-an-enigma-machine-work",
-          "author": null,
-          "description": "This is a completely fantastic look at how the Enigma Machine works. Jared Owen constructed a 3D model of the German cipher device and clearly walks the viewer through how the electricity flows through the machine to scramble and unscramble secret messages.\nWhen electricity travels through one rotor it changes the letter once. But remember, we have three of these rotors and they each have different wirings on the inside. When electricity travels through all three of them it changes the letter three times.\nThen at the end, we have the reflector. This also has 26 metal contacts. Inside is more wiring that connects the letters in pairs. So it goes in as one letter and then comes out as another letter.\nTo the right of here is the input wheel. It has 26 wires that go in and connects to the 26 metal contacts.\nLet’s put this all together. Electricity flows through one of the 26 wires, let’s say the wire for the letter Y. Then it gets changed to a different letter at all three rotors. Then it hits the reflector, which again, changes the letter. And then it goes back through the rotors again which changes the letter three more times. And it comes back out on a wire that represents a completely different letter. And if you were counting, this means the letter was changed seven times.\n\n\t\nSeriously, this is one of the best explanations I’ve ever seen of anything on YouTube — by the end of it, I was pretty sure I could now build an Enigma Machine if I needed to. (via benn jordan)\n\n \n\n        \n         \nTags: Enigma machine · Jared Owen · video",
-          "link": "https://kottke.org/26/08/how-does-an-enigma-machine-work",
-          "publishedOn": "2026-08-06T14:45:00.000Z",
-          "wordCount": 1231,
-          "title": "How Does an Enigma Machine Work?",
-          "imageUrl": "https://i.ytimg.com/vi/ybkkiGtJmkM/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res",
-          "author": null,
-          "description": "How Wildfire Smoke Is Reshaping Childhood. “Repeated smoke events are changing children’s daily routines, limiting opportunities for outdoor play and social interaction and reshaping how many families experience summer.”",
-          "link": "https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res",
-          "publishedOn": "2026-08-06T14:00:00.000Z",
-          "wordCount": 737,
-          "title": "How Wildfire Smoke Is Reshaping Childhood ....",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst",
-          "author": null,
-          "description": "This guy hooked his hamster’s wheel up to Strava — Mollie is logging 5-6 miles per day.",
-          "link": "https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst",
-          "publishedOn": "2026-08-06T13:04:00.000Z",
-          "wordCount": 717,
-          "title": "This guy hooked his hamster’s wheel up to Strava  —...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1612,21 +1592,6 @@
           "publishedOn": "2026-08-08T09:04:00.000Z",
           "wordCount": 4378,
           "title": "Pluralistic: Digital sewer socialism (08 Aug 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13136",
-          "author": "Cory Doctorow",
-          "description": "Today's links Eternal Sloptember: Mark Zuckerberg and the fantasy of social media without socializing. Hey look at this: Delights to delectate. Object permanence: Delany x The Onion; Duran Duran x Second Life; Spammers x blog pings; Privacywashing v Doordash; Good ideas are popular. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Eternal Sloptember (permalink) I'm sure that working in social media – dealing with people as mass statistical abstractions – is a cognitohazard, the sort of thing that could make anyone a little solipsistic, convinced that everyone else is a kind of stimulus-res…",
-          "link": "https://pluralistic.net/2026/08/06/sin-is-when/",
-          "publishedOn": "2026-08-06T10:07:06.000Z",
-          "wordCount": 3973,
-          "title": "Pluralistic: Eternal Sloptember (06 Aug 2026)",
-          "enclosure": {
-            "url": "https://web.archive.org/web/20060818220142/http://movies.crooksandliars.com/HYHEMix.mp3",
-            "length": "3961456",
-            "type": "audio/mpeg"
-          },
           "imageUrl": null
         }
       ]
@@ -2125,22 +2090,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!O3EF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d3e2dee-2cb7-4f77-b422-1e2429cdd912_2000x2135.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/quacky-honking-sublime",
-          "author": "Blackbird Spyplane",
-          "description": "A Top 5 Spyplane Jacket drops tomorrow, actually cool golf wear a non-golfer could rock, did ~11 people in Brooklyn just witness the concert of the year & more",
-          "link": "https://www.blackbirdspyplane.com/p/quacky-honking-sublime",
-          "publishedOn": "2026-08-06T11:01:31.000Z",
-          "wordCount": null,
-          "title": "Quacky, honking, sublime",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!g5hp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F940f8c39-5a43-42d0-aa67-c308b23b23d9_1873x2130.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!g5hp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F940f8c39-5a43-42d0-aa67-c308b23b23d9_1873x2130.png"
         }
       ]
     },
@@ -2295,6 +2244,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+          "author": null,
+          "description": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in <a href=\"https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html\">a comparison grid</a> with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful.</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/astra-grid-3.webp\" alt=\"Comparison grid showing gpt-6-astra, gpt-5.6-sol, gpt-5.6-terra, gpt-5.6-luna at 6 different reasoning levels with pelicans and token counts and prices for each one.\" style=\"max-width: 100%;\" />\r\nSee <a href=\"https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html\">the grid</a> for full quality images. Here's <a href=\"\">the transcript</a> that created the GPT-6 Nova pelicans.</p>\r\n<p>There are a few interesting things that stand out from this grid.</p>\r\n<ul>\r\n<li>The Astra pelicans are <em>much better</em>. The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good.</li>\r\n<li>Astra below max still doesn't reliably get the pelican legs on both sides of the frame.</li>\r\n<li>In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be.</li>\r\n<li>Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result.</li>\r\n<li>Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting.</li>\r\n</ul>\r\n<p>I wonder if Astra and Luna are more related to each other than OpenAI let on?</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+          "publishedOn": "2026-09-04T23:59:05.000Z",
+          "wordCount": 1039,
+          "title": "The Pelican comparison grid for Astra is pretty interesting",
+          "imageUrl": "https://static.simonwillison.net/static/2026/astra-grid-card.jpg"
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
           "author": null,
@@ -3461,16 +3420,6 @@
           "wordCount": 2879,
           "title": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Central-acrylic-sphere-and-PMTs-cr-JUNO-Collaboration-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=165510",
-          "author": "Janna Levin and Steven Strogatz",
-          "description": "Neuroscientist Ishmail Abdus-Saboor discusses efforts to understand how skin contact can be painful or pleasurable, and what touch-obsessed naked mole rats might teach us about human social behavior.            \nThe post How Does Touch Lead To Pain Or Pleasure? first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806/",
-          "publishedOn": "2026-08-06T13:37:48.000Z",
-          "wordCount": 11649,
-          "title": "How Does Touch Lead To Pain Or Pleasure?",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/JOW-S5-E5-Social-LOGO.jpg"
         }
       ]
     },

@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-04T22:04:55.870Z</updated>
+    <updated>2026-09-05T02:52:53.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Pelican comparison grid for Astra is pretty interesting]]></title>
+        <id>https://simonwillison.net/2026/Sep/4/astra-pelicans/</id>
+        <link href="https://simonwillison.net/2026/Sep/4/astra-pelicans/"/>
+        <updated>2026-09-04T23:59:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in <a href="https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html">a comparison grid</a> with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful.</p>
+<p><img src="https://static.simonwillison.net/static/2026/astra-grid-3.webp" alt="Comparison grid showing gpt-6-astra, gpt-5.6-sol, gpt-5.6-terra, gpt-5.6-luna at 6 different reasoning levels with pelicans and token counts and prices for each one." style="max-width: 100%;" />
+See <a href="https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html">the grid</a> for full quality images. Here's <a href="">the transcript</a> that created the GPT-6 Nova pelicans.</p>
+<p>There are a few interesting things that stand out from this grid.</p>
+<ul>
+<li>The Astra pelicans are <em>much better</em>. The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good.</li>
+<li>Astra below max still doesn't reliably get the pelican legs on both sides of the frame.</li>
+<li>In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be.</li>
+<li>Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result.</li>
+<li>Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting.</li>
+</ul>
+<p>I wonder if Astra and Luna are more related to each other than OpenAI let on?</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Jack Clark and me, live in SF]]></title>
+        <id>https://www.robinsloan.com/lab/fiction-future/</id>
+        <link href="https://www.robinsloan.com/lab/fiction-future/"/>
+        <updated>2026-09-04T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Fiction and the future. <a href="https://www.robinsloan.com/lab/fiction-future/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rogue OpenAI agents using public wikis as message boards]]></title>
         <id>https://waxy.org/?p=51238</id>
@@ -5544,80 +5577,6 @@ I was interviewed by Cynthia Dunlop for her "Write that blog!" series back in Ja
         <summary type="html"><![CDATA[25 things that explain America, including personal injury lawyer advertisements, Crest Whitestrips, Costco rotisserie chicken, and the Pizza Hut lamp. “The T-shirt cannon merges three American obsessions: guns, sports and freebie giveaways.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Does an Enigma Machine Work?]]></title>
-        <id>https://kottke.org/26/08/how-does-an-enigma-machine-work</id>
-        <link href="https://kottke.org/26/08/how-does-an-enigma-machine-work"/>
-        <updated>2026-08-06T14:45:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a completely fantastic look at how the Enigma Machine works. Jared Owen constructed a 3D model of the German cipher device and clearly walks the viewer through how the electricity flows through the machine to scramble and unscramble secret messages.
-When electricity travels through one rotor it changes the letter once. But remember, we have three of these rotors and they each have different wirings on the inside. When electricity travels through all three of them it changes the letter three times.
-Then at the end, we have the reflector. This also has 26 metal contacts. Inside is more wiring that connects the letters in pairs. So it goes in as one letter and then comes out as another letter.
-To the right of here is the input wheel. It has 26 wires that go in and connects to the 26 metal contacts.
-Let’s put this all together. Electricity flows through one of the 26 wires, let’s say the wire for the letter Y. Then it gets changed to a different letter at all three rotors. Then it hits the reflector, which again, changes the letter. And then it goes back through the rotors again which changes the letter three more times. And it comes back out on a wire that represents a completely different letter. And if you were counting, this means the letter was changed seven times.
-
-	
-Seriously, this is one of the best explanations I’ve ever seen of anything on YouTube — by the end of it, I was pretty sure I could now build an Enigma Machine if I needed to. (via benn jordan)
-
- 
-
-        
-         
-Tags: Enigma machine · Jared Owen · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Wildfire Smoke Is Reshaping Childhood ....]]></title>
-        <id>https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res</id>
-        <link href="https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res"/>
-        <updated>2026-08-06T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How Wildfire Smoke Is Reshaping Childhood. “Repeated smoke events are changing children’s daily routines, limiting opportunities for outdoor play and social interaction and reshaping how many families experience summer.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Does Touch Lead To Pain Or Pleasure?]]></title>
-        <id>https://www.quantamagazine.org/?p=165510</id>
-        <link href="https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806/"/>
-        <updated>2026-08-06T13:37:48.000Z</updated>
-        <summary type="html"><![CDATA[Neuroscientist Ishmail Abdus-Saboor discusses efforts to understand how skin contact can be painful or pleasurable, and what touch-obsessed naked mole rats might teach us about human social behavior.            
-The post How Does Touch Lead To Pain Or Pleasure? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Janna Levin and Steven Strogatz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This guy hooked his hamster’s wheel up to Strava  —...]]></title>
-        <id>https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst</id>
-        <link href="https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst"/>
-        <updated>2026-08-06T13:04:00.000Z</updated>
-        <summary type="html"><![CDATA[This guy hooked his hamster’s wheel up to Strava — Mollie is logging 5-6 miles per day.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quacky, honking, sublime]]></title>
-        <id>https://www.blackbirdspyplane.com/p/quacky-honking-sublime</id>
-        <link href="https://www.blackbirdspyplane.com/p/quacky-honking-sublime"/>
-        <updated>2026-08-06T11:01:31.000Z</updated>
-        <summary type="html"><![CDATA[A Top 5 Spyplane Jacket drops tomorrow, actually cool golf wear a non-golfer could rock, did ~11 people in Brooklyn just witness the concert of the year & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Eternal Sloptember (06 Aug 2026)]]></title>
-        <id>https://pluralistic.net/?p=13136</id>
-        <link href="https://pluralistic.net/2026/08/06/sin-is-when/"/>
-        <updated>2026-08-06T10:07:06.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Eternal Sloptember: Mark Zuckerberg and the fantasy of social media without socializing. Hey look at this: Delights to delectate. Object permanence: Delany x The Onion; Duran Duran x Second Life; Spammers x blog pings; Privacywashing v Doordash; Good ideas are popular. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Eternal Sloptember (permalink) I'm sure that working in social media – dealing with people as mass statistical abstractions – is a cognitohazard, the sort of thing that could make anyone a little solipsistic, convinced that everyone else is a kind of stimulus-res…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
 </feed>

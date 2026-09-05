@@ -35,6 +35,70 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/4/astra-pelicans/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-04T23:59:05.000Z">2026-09-04</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/4/astra-pelicans/" target="_blank" rel="noopener noreferrer">The Pelican comparison grid for Astra is pretty interesting</a>
+          </h2>
+          <p class="feed-item__desc">I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful.
+
+
+See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans.
+
+There are a few interesting things that stand out from this grid.
+
+
+The Astra pelicans are much better. The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good.
+
+Astra below max still doesn't reliably get the pelican legs on both sides of the frame.
+
+In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be.
+
+Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result.
+
+Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting.
+
+
+I wonder if Astra and Luna are more related to each other than OpenAI let on?
+Tags: ai, openai, generative-ai, llms, pelican-riding-a-bicycle, gpt-6-astra</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/4/astra-pelicans/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/4/astra-pelicans/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/astra-grid-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/fiction-future/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-04T20:00:00.000Z">2026-09-04</time>
+        <span class="feed-item__source">Robin Sloan</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.robinsloan.com/lab/fiction-future/" target="_blank" rel="noopener noreferrer">Dragoncatcher: Jack Clark and me, live in SF</a>
+          </h2>
+          <p class="feed-item__desc">Fiction and the future. Read here.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/fiction-future/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/fiction-future/">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51238">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-04T18:16:37.000Z">2026-09-04</time>
@@ -9010,142 +9074,6 @@ Tags: blogging, interviews</p>
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049460-25-things-that-explain-am" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049460-25-things-that-explain-am">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/how-does-an-enigma-machine-work">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-06T14:45:00.000Z">2026-08-06</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/how-does-an-enigma-machine-work" target="_blank" rel="noopener noreferrer">How Does an Enigma Machine Work?</a>
-          </h2>
-          <p class="feed-item__desc">This is a completely fantastic look at how the Enigma Machine works. Jared Owen constructed a 3D model of the German cipher device and clearly walks the viewer through how the electricity flows through the machine to scramble and unscramble secret messages.
-When electricity travels through one rotor it changes the letter once. But remember, we have three of these rotors and they each have different wirings on the inside. When electricity travels through all three of them it changes the letter three times.
-Then at the end, we have the reflector. This also has 26 metal contacts. Inside is more wiring that connects the letters in pairs. So it goes in as one letter and then comes out as another letter.
-To the right of here is the input wheel. It has 26 wires that go in and connects to the 26 metal contacts.
-Let’s put this all together. Electricity flows through one of the 26 wires, let’s say the wire for the letter Y. Then it gets changed to a different letter at all three rotors. Then it hits the reflector, which again, changes the letter. And then it goes back through the rotors again which changes the letter three more times. And it comes back out on a wire that represents a completely different letter. And if you were counting, this means the letter was changed seven times.
-
-	
-Seriously, this is one of the best explanations I’ve ever seen of anything on YouTube — by the end of it, I was pretty sure I could now build an Enigma Machine if I needed to. (via benn jordan)
-
- 
-
-        
-         
-Tags: Enigma machine · Jared Owen · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/how-does-an-enigma-machine-work" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/how-does-an-enigma-machine-work">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/ybkkiGtJmkM/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-06T14:00:00.000Z">2026-08-06</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res" target="_blank" rel="noopener noreferrer">How Wildfire Smoke Is Reshaping Childhood ....</a>
-          </h2>
-          <p class="feed-item__desc">How Wildfire Smoke Is Reshaping Childhood. “Repeated smoke events are changing children’s daily routines, limiting opportunities for outdoor play and social interaction and reshaping how many families experience summer.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049442-how-wildfire-smoke-is-res">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;165510">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-06T13:37:48.000Z">2026-08-06</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806/" target="_blank" rel="noopener noreferrer">How Does Touch Lead To Pain Or Pleasure?</a>
-          </h2>
-          <p class="feed-item__desc">Neuroscientist Ishmail Abdus-Saboor discusses efforts to understand how skin contact can be painful or pleasurable, and what touch-obsessed naked mole rats might teach us about human social behavior.            
-The post How Does Touch Lead To Pain Or Pleasure? first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;165510" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;165510">Mark read</button>
-            <span class="feed-item__reading-time">39 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/08/JOW-S5-E5-Social-LOGO.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-06T13:04:00.000Z">2026-08-06</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst" target="_blank" rel="noopener noreferrer">This guy hooked his hamster’s wheel up to Strava  —...</a>
-          </h2>
-          <p class="feed-item__desc">This guy hooked his hamster’s wheel up to Strava — Mollie is logging 5-6 miles per day.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049456-this-guy-hooked-his-hamst">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/quacky-honking-sublime">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-06T11:01:31.000Z">2026-08-06</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/quacky-honking-sublime" target="_blank" rel="noopener noreferrer">Quacky, honking, sublime</a>
-          </h2>
-          <p class="feed-item__desc">A Top 5 Spyplane Jacket drops tomorrow, actually cool golf wear a non-golfer could rock, did ~11 people in Brooklyn just witness the concert of the year & more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/quacky-honking-sublime" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/quacky-honking-sublime">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!g5hp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F940f8c39-5a43-42d0-aa67-c308b23b23d9_1873x2130.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13136">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-06T10:07:06.000Z">2026-08-06</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/08/06/sin-is-when/" target="_blank" rel="noopener noreferrer">Pluralistic: Eternal Sloptember (06 Aug 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Eternal Sloptember: Mark Zuckerberg and the fantasy of social media without socializing. Hey look at this: Delights to delectate. Object permanence: Delany x The Onion; Duran Duran x Second Life; Spammers x blog pings; Privacywashing v Doordash; Good ideas are popular. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Eternal Sloptember (permalink) I'm sure that working in social media – dealing with people as mass statistical abstractions – is a cognitohazard, the sort of thing that could make anyone a little solipsistic, convinced that everyone else is a kind of stimulus-res…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13136" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13136">Mark read</button>
-            <span class="feed-item__reading-time">13 min read</span>
           </div>
         </div>
       </div>
