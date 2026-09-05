@@ -1239,26 +1239,6 @@
           "wordCount": 765,
           "title": "Thing that I am now invested in:  this woman has spent 30...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049459-the-video-rental-store-as",
-          "author": null,
-          "description": "The video rental store as “third place”. “Decades before recommendation algorithms, video stores served as social hubs where conversation and camaraderie became a form of taste-making.”",
-          "link": "https://kottke.org/26/08/0049459-the-video-rental-store-as",
-          "publishedOn": "2026-08-06T21:58:00.000Z",
-          "wordCount": 1013,
-          "title": "The video rental store as “third place” . &#8220;Decades...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049462-the-end-of-google-search",
-          "author": null,
-          "description": "The End of Google Search. The internet giant is “changing the formula” of its products and media folks are beginning to assume that there will be no search traffic in the future…and fretting about their survival.",
-          "link": "https://kottke.org/26/08/0049462-the-end-of-google-search",
-          "publishedOn": "2026-08-06T20:29:00.000Z",
-          "wordCount": 935,
-          "title": "The End of Google Search . The internet giant is...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1394,6 +1374,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13250",
+          "author": "Cory Doctorow",
+          "description": "Today's links Google skates: Another federal judge loses a game of peek-a-boo. Hey look at this: Delights to delectate. Object permanence: Memory-hacking ads; \"Dzur\"; NZ Ministry of DRM; Canadians v looking at the internet; Advice for self-publishers; Advice for writers; Why Wikipedia works. Upcoming appearances: Dąbrowa Górnicza, Warsaw, Brighton, London, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Google skates (permalink) Rome wasn't overthrown in a day. Oligarchies are stubborn, and by the time they've established and entrenched themselves, they have resources, power blocs a…",
+          "link": "https://pluralistic.net/2026/09/05/divorce-court/",
+          "publishedOn": "2026-09-05T08:04:11.000Z",
+          "wordCount": 4380,
+          "title": "Pluralistic: Google skates (05 Sep 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13247",
           "author": "Cory Doctorow",
@@ -3022,26 +3012,6 @@
           "publishedOn": "2026-08-07T16:18:51.000Z",
           "wordCount": 900,
           "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13\">datasette-auth-tokens 0.4a13</a></p>\n        <p>Upgraded for compatibility with `sqlite-utils 4.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/",
-          "publishedOn": "2026-08-06T23:07:47.000Z",
-          "wordCount": 759,
-          "title": "datasette-auth-tokens 0.4a13",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13\">datasette-auth-tokens 0.4a13</a></p>\n        <p>Upgraded for compatibility with `sqlite-utils 4.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything",
-          "publishedOn": "2026-08-06T23:07:47.000Z",
-          "wordCount": 759,
-          "title": "datasette-auth-tokens 0.4a13",
           "imageUrl": null
         }
       ]

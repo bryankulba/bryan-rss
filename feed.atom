@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-05T08:02:12.449Z</updated>
+    <updated>2026-09-05T14:33:33.352Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Google skates (05 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13250</id>
+        <link href="https://pluralistic.net/2026/09/05/divorce-court/"/>
+        <updated>2026-09-05T08:04:11.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Google skates: Another federal judge loses a game of peek-a-boo. Hey look at this: Delights to delectate. Object permanence: Memory-hacking ads; "Dzur"; NZ Ministry of DRM; Canadians v looking at the internet; Advice for self-publishers; Advice for writers; Why Wikipedia works. Upcoming appearances: Dąbrowa Górnicza, Warsaw, Brighton, London, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Google skates (permalink) Rome wasn't overthrown in a day. Oligarchies are stubborn, and by the time they've established and entrenched themselves, they have resources, power blocs a…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Pelican comparison grid for Astra is pretty interesting]]></title>
         <id>https://simonwillison.net/2026/Sep/4/astra-pelicans/</id>
@@ -5355,54 +5365,6 @@ The post Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle fi
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-auth-tokens 0.4a13]]></title>
-        <id>https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/</id>
-        <link href="https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/"/>
-        <updated>2026-08-06T23:07:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13">datasette-auth-tokens 0.4a13</a></p>
-        <p>Upgraded for compatibility with `sqlite-utils 4.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-auth-tokens 0.4a13]]></title>
-        <id>https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything"/>
-        <updated>2026-08-06T23:07:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-auth-tokens/releases/tag/0.4a13">datasette-auth-tokens 0.4a13</a></p>
-        <p>Upgraded for compatibility with `sqlite-utils 4.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The video rental store as “third place” . &#8220;Decades...]]></title>
-        <id>https://kottke.org/26/08/0049459-the-video-rental-store-as</id>
-        <link href="https://kottke.org/26/08/0049459-the-video-rental-store-as"/>
-        <updated>2026-08-06T21:58:00.000Z</updated>
-        <summary type="html"><![CDATA[The video rental store as “third place”. “Decades before recommendation algorithms, video stores served as social hubs where conversation and camaraderie became a form of taste-making.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The End of Google Search . The internet giant is...]]></title>
-        <id>https://kottke.org/26/08/0049462-the-end-of-google-search</id>
-        <link href="https://kottke.org/26/08/0049462-the-end-of-google-search"/>
-        <updated>2026-08-06T20:29:00.000Z</updated>
-        <summary type="html"><![CDATA[The End of Google Search. The internet giant is “changing the formula” of its products and media folks are beginning to assume that there will be no search traffic in the future…and fretting about their survival.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
