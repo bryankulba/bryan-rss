@@ -208,16 +208,6 @@
           "wordCount": 4854,
           "title": "Dragoncatcher: WSJPT",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/black-hat-agents/",
-          "author": null,
-          "description": "<p>Agents amok. <a href=\"https://www.robinsloan.com/lab/black-hat-agents/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/black-hat-agents/",
-          "publishedOn": "2026-08-07T11:00:00.000Z",
-          "wordCount": 4917,
-          "title": "Dragoncatcher: Mandatory viewing, summer 2026",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -1833,26 +1823,6 @@
           "wordCount": 1677,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/851da4aef7312dae54a885a820e871a7/aa062856402334de-9d/s1280x1920/5d00d460616e2f6cb678340a025983f1283dd05d.png"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/824300283722186752",
-          "author": null,
-          "description": "*Poor little Mistral",
-          "link": "https://brucesterling.tumblr.com/post/824300283722186752",
-          "publishedOn": "2026-08-07T14:46:49.000Z",
-          "wordCount": 1665,
-          "title": "*Poor little Mistral",
-          "imageUrl": "https://64.media.tumblr.com/5fb74d7291922307230b20120d79c15b/6b7ee0331d3c7d52-61/s1280x1920/9d564dfc8f0cc20017b81f3099286449698ff8cf.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/824286167217455104",
-          "author": null,
-          "description": "“Witching Hour Test Pressing UK Addresses Only Sold Out,” there must be some music-collector somewhere who is extremely bothered by the existence of this artifact",
-          "link": "https://brucesterling.tumblr.com/post/824286167217455104",
-          "publishedOn": "2026-08-07T11:02:27.000Z",
-          "wordCount": null,
-          "title": "Untitled",
-          "imageUrl": null
         }
       ]
     },
@@ -2174,6 +2144,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p>\nBlink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119\">1m59s</a>:</p>\n<blockquote>\n<p>Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, <strong>animals</strong>, cityscapes, even Dyson spheres.</p>\n</blockquote>\n<p><img alt=\"astra-video-pelican.webp\" src=\"https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp\" /></p>\n<p>Astra <a href=\"https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/\">really</a> does <a href=\"https://simonwillison.net/2026/Sep/4/astra-pelicans/\">believe</a> in putting a red neckerchief on a pelican riding a bicycle.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49554643#49575117\">Hacker News comment</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+          "publishedOn": "2026-09-05T23:27:48.000Z",
+          "wordCount": 827,
+          "title": "Introducing GPT-6 Astra for developers",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
           "author": null,
@@ -3270,16 +3250,6 @@
           "wordCount": 3487,
           "title": "Why Are Rivers So Mathematical?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Qualia-River-Fractals-cr-Ada-Zejun-Shen-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=165569",
-          "author": "James Dinneen",
-          "description": "A global constellation of neutrino detectors is creating a never-before-seen view of the radioactive elements that power Earth’s tectonic heat engine.            \nThe post Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
-          "publishedOn": "2026-08-07T13:55:32.000Z",
-          "wordCount": 2879,
-          "title": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Central-acrylic-sphere-and-PMTs-cr-JUNO-Collaboration-Social.jpg"
         }
       ]
     },

@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-05T21:55:15.260Z</updated>
+    <updated>2026-09-06T02:51:24.314Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing GPT-6 Astra for developers]]></title>
+        <id>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</id>
+        <link href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/"/>
+        <updated>2026-09-05T23:27:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.youtube.com/watch?v=bOC3DisEOfg">Introducing GPT-6 Astra for developers</a></strong></p>
+Blink and you'll miss it, but there's a familiar creature at <a href="https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119">1m59s</a>:</p>
+<blockquote>
+<p>Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, <strong>animals</strong>, cityscapes, even Dyson spheres.</p>
+</blockquote>
+<p><img alt="astra-video-pelican.webp" src="https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp" /></p>
+<p>Astra <a href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/">really</a> does <a href="https://simonwillison.net/2026/Sep/4/astra-pelicans/">believe</a> in putting a red neckerchief on a pelican riding a bicycle.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49554643#49575117">Hacker News comment</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Using Blender with coding agents on macOS]]></title>
         <id>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</id>
@@ -5340,47 +5361,6 @@ There's a fun anecdote from Accenture (apparently via leaked meeting audio recor
     <p>Tags: <a href="https://simonwillison.net/tags/pdf">pdf</a>, <a href="https://simonwillison.net/tags/markdown">markdown</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*Poor little Mistral]]></title>
-        <id>https://brucesterling.tumblr.com/post/824300283722186752</id>
-        <link href="https://brucesterling.tumblr.com/post/824300283722186752"/>
-        <updated>2026-08-07T14:46:49.000Z</updated>
-        <summary type="html"><![CDATA[*Poor little Mistral]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle]]></title>
-        <id>https://www.quantamagazine.org/?p=165569</id>
-        <link href="https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/"/>
-        <updated>2026-08-07T13:55:32.000Z</updated>
-        <summary type="html"><![CDATA[A global constellation of neutrino detectors is creating a never-before-seen view of the radioactive elements that power Earth’s tectonic heat engine.            
-The post Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>James Dinneen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/824286167217455104</id>
-        <link href="https://brucesterling.tumblr.com/post/824286167217455104"/>
-        <updated>2026-08-07T11:02:27.000Z</updated>
-        <summary type="html"><![CDATA[“Witching Hour Test Pressing UK Addresses Only Sold Out,” there must be some music-collector somewhere who is extremely bothered by the existence of this artifact]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Mandatory viewing, summer 2026]]></title>
-        <id>https://www.robinsloan.com/lab/black-hat-agents/</id>
-        <link href="https://www.robinsloan.com/lab/black-hat-agents/"/>
-        <updated>2026-08-07T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Agents amok. <a href="https://www.robinsloan.com/lab/black-hat-agents/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>
