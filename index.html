@@ -126,6 +126,36 @@ Tags: dns, scams, terence-eden</p>
         </div>
       </div>
     </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-06T09:08:06.000Z">2026-09-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/" target="_blank" rel="noopener noreferrer">There&#x27;s No Limit to How Bad Code Can Get</a>
+          </h2>
+          <p class="feed-item__desc">My comment on There's No Limit to How Bad Code Can Get — Lobste.rs.
+[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]
+In my experience it's so rare for that to work.
+You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins.
+Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount.
+Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all...
+After months (or even years) without delivering value, the pressure is on to "ship it", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system.
+... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually.
+If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that "priorities have changed" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one.
+The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson.
+If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement.
+Tags: migrations, technical-debt</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/6/zach-kehs/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-06T08:42:49.000Z">2026-09-06</time>
@@ -8440,25 +8470,6 @@ So alignment work seems existentially useful, correct? Even though it is har…<
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13140">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T09:04:00.000Z">2026-08-08</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/08/08/find-yourself-a-city/" target="_blank" rel="noopener noreferrer">Pluralistic: Digital sewer socialism (08 Aug 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Digital sewer socialism: Mamdani's Public Interest Technologists are what DOGE should have been. Hey look at this: Delights to delectate. Object permanence: Robot garage takes hostages; Thermostat ransomware; Correlate audience exhalations; Judges x TOR; Expectations management. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Digital sewer socialism (permalink) Hardly a day goes by without my getting an email from someone looking for a way to do good with technology. From computer science students thinking about post-grad careers to seasoned coders with decades of experience…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13140" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13140">Mark read</button>
-            <span class="feed-item__reading-time">15 min read</span>
-          </div>
         </div>
       </div>
     </article>
