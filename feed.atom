@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-06T14:54:47.555Z</updated>
+    <updated>2026-09-06T17:59:49.506Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -43,6 +43,16 @@ Terence Eden shares some daunting statistics in support of his take that "the Do
         <summary type="html"><![CDATA[No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars]]></summary>
         <author>
             <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Pacing consensus]]></title>
+        <id>https://www.robinsloan.com/lab/pacing-consensus/</id>
+        <link href="https://www.robinsloan.com/lab/pacing-consensus/"/>
+        <updated>2026-09-06T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Good development, huge challenge. <a href="https://www.robinsloan.com/lab/pacing-consensus/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
