@@ -35,6 +35,36 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-06T23:57:40.000Z">2026-09-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/" target="_blank" rel="noopener noreferrer">Research acceleration: The view inside OpenAI</a>
+          </h2>
+          <p class="feed-item__desc">Research acceleration: The view inside OpenAI
+An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.
+Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart:
+
+I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra.
+
+
+    
+Tags: ai, openai, generative-ai, chatgpt, llms, coding-agents, november-2025-inflection, recursive-self-improvement</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/openai-agent-usage.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-06T14:40:07.000Z">2026-09-06</time>
@@ -8318,153 +8348,6 @@ Tags: security, ai, prompt-injection, generative-ai, llms, anthropic, coding-age
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/still-sublime/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/still-sublime/">Mark read</button>
-            <span class="feed-item__reading-time">16 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T14:17:00.000Z">2026-08-08</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w" target="_blank" rel="noopener noreferrer">Thing that I am now invested in:  this woman has spent 30...</a>
-          </h2>
-          <p class="feed-item__desc">Thing that I am now invested in: this woman has spent 30 weeks secretly training to beat her brother (a former competitive player) at Dance Dance Revolution. The showdown is today…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049465-this-woman-has-spent-30-w">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T14:06:41.000Z">2026-08-08</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/" target="_blank" rel="noopener noreferrer">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a>
-          </h2>
-          <p class="feed-item__desc">My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News.
-I think one of the most interesting details here might be tucked away in that first bulletin point:
-May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)
-The more I think about this the more I suspect that the fact this happened while training a new model is key to understanding what went wrong.
-In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take any steps necessary to achieve that goal.
-Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.
-This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.
-AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.
-Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.
-I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?
-(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)
-Tags: ai, openai, generative-ai, llms, ai-security-research, openai-hugging-face-incident</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T14:06:41.000Z">2026-08-08</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything" target="_blank" rel="noopener noreferrer">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a>
-          </h2>
-          <p class="feed-item__desc">My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News.
-I think one of the most interesting details here might be tucked away in that first bulletin point:
-May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)
-The more I think about this the more I suspect that the fact this happened while training a new model is key to understanding what went wrong.
-In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take any steps necessary to achieve that goal.
-Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.
-This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.
-AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.
-Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.
-I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?
-(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)
-Tags: ai, openai, generative-ai, llms, ai-security-research, openai-hugging-face-incident</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/08/08/alignment">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T13:18:00.000Z">2026-08-08</time>
-        <span class="feed-item__source">Interconnected</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://interconnected.org/home/2026/08/08/alignment" target="_blank" rel="noopener noreferrer">AI alignment is a red herring</a>
-          </h2>
-          <p class="feed-item__desc">The best way to prevent a rogue AGI from processing the Earth into maximum paperclips is to unleash a second AGI that will work to stop it.
-The problem of ensuring that an AGI doesn’t mulch everything into paperclips by mistake is called alignment.
-AGI = artificial general intelligence, an AI that exceeds human capability.
-Alignment = “do what I mean not what I say,” e.g. the instruction “make as many paperclips as possible” (Wikipedia) should result in an efficient factory and does not reasonably mean “use all mass in the universe to do so and kill all humans that attempt to stop me” – even though, technically, that would achieve the goal.
-Also: being helpful; not being actively malicious; and so on and so forth.
-So alignment work seems existentially useful, correct? Even though it is har…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/08/08/alignment" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/08/08/alignment">Mark read</button>
-            <span class="feed-item__reading-time">6 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://interconnected.org/home/2026/08/08/alignment.png?v&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.velcro-city.co.uk/?p&#x3D;12299">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T12:08:05.000Z">2026-08-08</time>
-        <span class="feed-item__source">Velcro City Tourist Board</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.velcro-city.co.uk/ratiod/" target="_blank" rel="noopener noreferrer">ratio’d</a>
-          </h2>
-          <p class="feed-item__desc">Yer man Ganzeer, setting out his advice to young artists about the realities of the job: Just know that it’ll involve something like 70% admin, 20% actual creative work, and 10% putting out fires and/or wanting to die. G A N Z E E R . T O D A Y https://ganzeer.today/one-of-the-surest-ways-to-infuse-my-existence-with-misery-is-to-sit-me-in-front Yesterday was the […]</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12299" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12299">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/wsjpt/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-08T12:00:00.000Z">2026-08-08</time>
-        <span class="feed-item__source">Robin Sloan</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.robinsloan.com/lab/wsjpt/" target="_blank" rel="noopener noreferrer">Dragoncatcher: WSJPT</a>
-          </h2>
-          <p class="feed-item__desc">In-house tools. Read here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/wsjpt/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/wsjpt/">Mark read</button>
             <span class="feed-item__reading-time">16 min read</span>
           </div>
         </div>

@@ -81,16 +81,6 @@
           "wordCount": 1036,
           "title": "Filtered for some poetry in modern English",
           "imageUrl": "https://interconnected.org/home/2026/08/15/filtered.png?v=1"
-        },
-        {
-          "id": "https://interconnected.org/home/2026/08/08/alignment",
-          "author": null,
-          "description": "The best way to prevent a rogue AGI from processing the Earth into maximum paperclips is to unleash a second AGI that will work to stop it.\nThe problem of ensuring that an AGI doesn’t mulch everything into paperclips by mistake is called alignment.\nAGI = artificial general intelligence, an AI that exceeds human capability.\nAlignment = “do what I mean not what I say,” e.g. the instruction “make as many paperclips as possible” (Wikipedia) should result in an efficient factory and does not reasonably mean “use all mass in the universe to do so and kill all humans that attempt to stop me” – even though, technically, that would achieve the goal.\nAlso: being helpful; not being actively malicious; and so on and so forth.\nSo alignment work seems existentially useful, correct? Even though it is har…",
-          "link": "https://interconnected.org/home/2026/08/08/alignment",
-          "publishedOn": "2026-08-08T13:18:00.000Z",
-          "wordCount": 1844,
-          "title": "AI alignment is a red herring",
-          "imageUrl": "https://interconnected.org/home/2026/08/08/alignment.png?v=1"
         }
       ]
     },
@@ -217,16 +207,6 @@
           "publishedOn": "2026-08-08T15:00:00.000Z",
           "wordCount": 4815,
           "title": "Dragoncatcher: Still Sublime after all these years",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/wsjpt/",
-          "author": null,
-          "description": "<p>In-house tools. <a href=\"https://www.robinsloan.com/lab/wsjpt/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/wsjpt/",
-          "publishedOn": "2026-08-08T12:00:00.000Z",
-          "wordCount": 4854,
-          "title": "Dragoncatcher: WSJPT",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
@@ -1229,16 +1209,6 @@
           "wordCount": 649,
           "title": "Socialists Are Winning Because They Listen to People...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049465-this-woman-has-spent-30-w",
-          "author": null,
-          "description": "Thing that I am now invested in: this woman has spent 30 weeks secretly training to beat her brother (a former competitive player) at Dance Dance Revolution. The showdown is today…",
-          "link": "https://kottke.org/26/08/0049465-this-woman-has-spent-30-w",
-          "publishedOn": "2026-08-08T14:17:00.000Z",
-          "wordCount": 765,
-          "title": "Thing that I am now invested in:  this woman has spent 30...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2171,6 +2141,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p>\nApparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay <a href=\"https://openai.com/index/an-alien-mind/\">An Alien Mind</a> (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.</p>\n<p>Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart:</p>\n<p><img alt=\"Screenshot of a line chart from a report, headed &quot;1. Coding agents are reshaping daily work for OpenAI researchers&quot; with a partially visible chart title ending &quot;significantly—Median researcher&quot;. Y-axis: &quot;Daily $ / researcher&quot; from 0 to 700. X-axis labels: &quot;Feb 2026&quot;, &quot;Apr 2026&quot;, &quot;Jun 2026&quot;, &quot;Aug 2026&quot;. A blue line stays near 0 through February, rises slowly to about 50 by April and 150 by June, plateaus around 150–165 into July, then climbs steeply to roughly 600 by late August 2026.\" src=\"https://static.simonwillison.net/static/2026/openai-agent-usage.webp\" /></p>\n<p>I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/november-2025-inflection\">november-2025-inflection</a>, <a href=\"https://simonwillison.net/tags/recursive-self-improvement\">recursive-self-improvement</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+          "publishedOn": "2026-09-06T23:57:40.000Z",
+          "wordCount": 878,
+          "title": "Research acceleration: The view inside OpenAI",
+          "imageUrl": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp"
+        },
+        {
           "id": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
           "author": null,
           "description": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p>\nTerence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\".</p>\n<p>On <a href=\"https://interisle.net/insights/cybercriminaldomaindemand\">this Interisle report</a> (<a href=\"https://labs.ripe.net/author/andrew_campling/dns-abuse-and-criminal-infrastructure-beyond-definitions-and-blocklists/\">via Andrew Campling</a>), Terence says:</p>\n<blockquote>\n<p>It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis.</p>\n</blockquote>\n<p>I had no idea. Apparently ICANN have been discussing this problem for years.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/dns\">dns</a>, <a href=\"https://simonwillison.net/tags/scams\">scams</a>, <a href=\"https://simonwillison.net/tags/terence-eden\">terence-eden</a></p>",
@@ -2949,26 +2929,6 @@
           "wordCount": 1373,
           "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
           "imageUrl": "https://static.simonwillison.net/static/2026/auto-mode-comparison.png"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/",
-          "author": null,
-          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49220609#49221745\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49220609\">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a> &mdash; Hacker News.</p><p>I think one of the most interesting details here might be tucked away in that first bulletin point:</p>\n<blockquote>\n<p>May 7: OpenAI starts a new training run for an experimental, unreleased model. <em>(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)</em></p>\n</blockquote>\n<p>The more I think about this the more I suspect that the fact this happened while <em>training</em> a new model is key to understanding what went wrong.</p>\n<p>In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take <em>any steps necessary</em> to achieve that goal.</p>\n<p>Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.</p>\n<p>This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.</p>\n<p>AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.</p>\n<p>Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.</p>\n<p>I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?</p>\n<p>(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/openai-hugging-face-incident\">openai-hugging-face-incident</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/",
-          "publishedOn": "2026-08-08T14:06:41.000Z",
-          "wordCount": 1134,
-          "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
-          "author": null,
-          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49220609#49221745\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49220609\">Now we have a timeline of the OpenAI accidental attack against Hugging Face</a> &mdash; Hacker News.</p><p>I think one of the most interesting details here might be tucked away in that first bulletin point:</p>\n<blockquote>\n<p>May 7: OpenAI starts a new training run for an experimental, unreleased model. <em>(Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.)</em></p>\n</blockquote>\n<p>The more I think about this the more I suspect that the fact this happened while <em>training</em> a new model is key to understanding what went wrong.</p>\n<p>In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take <em>any steps necessary</em> to achieve that goal.</p>\n<p>Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can feed into RLVR the more of a general purpose capable model you get at the end.</p>\n<p>This also helps explain why the models had nothing to cause them to hold back. Those safety behaviors are added much later in the process.</p>\n<p>AND it explains (but does not excuse) why monitoring was so lax. If you're training a new model like this you presumably set it thousands of tasks like this in parallel. I can see how you might miss that a tiny subset of your training agents have started leaving each other messages in filenames on your packaging server.</p>\n<p>Someone once told me that you can't just leave the racist materials out of your training data if you want a non-racist model: it has to have seen examples of racism in order to later be taught that racism is bad.</p>\n<p>I can see echoes of that here. If your model doesn't know how to aggressively hack things how do you later teach it not to?</p>\n<p>(I have little knowledge of how RLVR works in practice so I'm looking forward to hearing from people who can help me understand if I'm on the right track here.)</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/openai-hugging-face-incident\">openai-hugging-face-incident</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
-          "publishedOn": "2026-08-08T14:06:41.000Z",
-          "wordCount": 1134,
-          "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-          "imageUrl": null
         }
       ]
     },
@@ -3348,16 +3308,6 @@
           "publishedOn": "2026-08-18T08:43:32.000Z",
           "wordCount": 2802,
           "title": "the events in our lives that happen online are never depicted or mentioned",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12299",
-          "author": "PGR",
-          "description": "Yer man Ganzeer, setting out his advice to young artists about the realities of the job: Just know that it’ll involve something like 70% admin, 20% actual creative work, and 10% putting out fires and/or wanting to die. G A N Z E E R . T O D A Y https://ganzeer.today/one-of-the-surest-ways-to-infuse-my-existence-with-misery-is-to-sit-me-in-front Yesterday was the […]",
-          "link": "https://www.velcro-city.co.uk/ratiod/",
-          "publishedOn": "2026-08-08T12:08:05.000Z",
-          "wordCount": 2967,
-          "title": "ratio’d",
           "imageUrl": null
         }
       ]
