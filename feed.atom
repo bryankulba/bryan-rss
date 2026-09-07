@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-07T02:48:52.142Z</updated>
+    <updated>2026-09-07T08:54:05.294Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: How corporate America built a better Roach Motel (07 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13258</id>
+        <link href="https://pluralistic.net/2026/09/06/hotels-california/"/>
+        <updated>2026-09-07T05:29:25.000Z</updated>
+        <summary type="html"><![CDATA[Today's links How corporate America built a better Roach Motel: Hostages beat customers every day. Hey look at this: Delights to delectate. Object permanence: 3-hole punches; Warner Bros v Warner Bros; Privacy wars get worse; "Weapons of Math Destruction"; HK elections go to pro-democracy reformers; Stock buybacks are swindles; NZ v Open source; MSFT patches DRM faster than other bugs; Wikipedia's worst arguments; Pirates x Iceland. Upcoming appearances: Brighton, London, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How corporate America built a better Roach Motel (permalink) "If…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Research acceleration: The view inside OpenAI]]></title>
         <id>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</id>
@@ -5056,27 +5066,6 @@ Anthropic are <em>really</em> confident in Claude Code's <a href="https://code.c
     <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/prompt-injection">prompt-injection</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/lethal-trifecta">lethal-trifecta</a>, <a href="https://simonwillison.net/tags/thariq-shihipar">thariq-shihipar</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Type]]></title>
-        <id>https://waxy.org/?p=51205</id>
-        <link href="https://type.joohyunpark.com/"/>
-        <updated>2026-08-08T17:26:51.000Z</updated>
-        <summary type="html"><![CDATA[one of several playful web experiments by Joohyun Park
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Still Sublime after all these years]]></title>
-        <id>https://www.robinsloan.com/lab/still-sublime/</id>
-        <link href="https://www.robinsloan.com/lab/still-sublime/"/>
-        <updated>2026-08-08T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Solid software. <a href="https://www.robinsloan.com/lab/still-sublime/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>
