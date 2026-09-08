@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-08T02:59:06.683Z</updated>
+    <updated>2026-09-08T08:35:33.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -5130,16 +5130,6 @@ I missed this news until today, when the GitHub Actions run for my <a href="http
         <p>Tags: <a href="https://simonwillison.net/tags/compression">compression</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/speech-to-text">speech-to-text</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The idea of magic]]></title>
-        <id>https://www.robinsloan.com/lab/cale/</id>
-        <link href="https://www.robinsloan.com/lab/cale/"/>
-        <updated>2026-08-09T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Computing with Cale. <a href="https://www.robinsloan.com/lab/cale/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>
