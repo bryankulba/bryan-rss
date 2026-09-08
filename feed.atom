@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-08T19:18:46.034Z</updated>
+    <updated>2026-09-08T22:21:17.971Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -34,6 +34,17 @@
         <summary type="html"><![CDATA[WTF AFK LOL]]></summary>
         <author>
             <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Has Solved One of Math’s $1 Million Millennium Prize Problems]]></title>
+        <id>https://www.quantamagazine.org/?p=166677</id>
+        <link href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"/>
+        <updated>2026-09-08T08:43:52.000Z</updated>
+        <summary type="html"><![CDATA[Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy.            
+The post AI Has Solved One of Math’s $1 Million Millennium Prize Problems first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Konstantin Kakaes</name>
         </author>
     </entry>
     <entry>
@@ -4981,16 +4992,6 @@ The post Why Are Rivers So Mathematical? first appeared on Quanta Magazine]]></s
         <summary type="html"><![CDATA[Socialists Are Winning Because They Listen to People (and don’t just treat them like ATMs). “The best of them are running campaigns that acknowledge that to win, Democrats are going to have to organize voters — not just fund-raise off them.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[morning computer dropping into monday]]></title>
-        <id>https://warrenellis.ltd/?p=18787</id>
-        <link href="https://warrenellis.ltd/mc/morning-computer-dropping-into-monday/"/>
-        <updated>2026-08-10T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kazuhiro Ishikawa. Marc Weidenbaum. Wallace Chan. morning computer: some useful things first thing in the day. Press the floating Subscribe button to have these notes…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>

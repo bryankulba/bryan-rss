@@ -1616,16 +1616,6 @@
           "wordCount": 1127,
           "title": "10aug26",
           "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18787",
-          "author": "Warren Ellis",
-          "description": "Kazuhiro Ishikawa. Marc Weidenbaum. Wallace Chan. morning computer: some useful things first thing in the day. Press the floating Subscribe button to have these notes…",
-          "link": "https://warrenellis.ltd/mc/morning-computer-dropping-into-monday/",
-          "publishedOn": "2026-08-10T08:00:00.000Z",
-          "wordCount": 1181,
-          "title": "morning computer dropping into monday",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/pure-street-5.jpeg"
         }
       ]
     },
@@ -3007,6 +2997,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=166677",
+          "author": "Konstantin Kakaes",
+          "description": "Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy.            \nThe post AI Has Solved One of Math’s $1 Million Millennium Prize Problems first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+          "publishedOn": "2026-09-08T08:43:52.000Z",
+          "wordCount": 3113,
+          "title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/AI-Navier-Stokes-Lede-cr-iStock-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=166452",
           "author": "Janna Levin and Steven Strogatz",
