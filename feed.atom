@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-07T22:29:20.078Z</updated>
+    <updated>2026-09-08T02:59:06.683Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Teaser trailer  for  You Can See Everything  from Nathan...]]></title>
+        <id>https://kottke.org/26/09/0049553-teaser-trailer</id>
+        <link href="https://kottke.org/26/09/0049553-teaser-trailer"/>
+        <updated>2026-09-08T00:04:22.000Z</updated>
+        <summary type="html"><![CDATA[Teaser trailer for You Can See Everything from Nathan Fielder & Lance Oppenheim. “Thirty-four days before she’s sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move.” WHAT WAS THAT?]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.35]]></title>
+        <id>https://simonwillison.net/2026/Sep/7/llm/</id>
+        <link href="https://simonwillison.net/2026/Sep/7/llm/"/>
+        <updated>2026-09-07T23:54:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.35">llm 0.35</a></p>
+        <blockquote>
+<ul>
+<li>New OpenAI model: <code>gpt-6-astra</code> for <a href="https://openai.com/index/gpt-6-astra/">GPT-6 Astra</a>.</li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creepy crawlies]]></title>
+        <id>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</id>
+        <link href="https://simonwillison.net/2026/Sep/7/creepy-crawlies/"/>
+        <updated>2026-09-07T23:08:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://people.kernel.org/monsieuricon/creepy-crawlies">Creepy crawlies</a></strong></p>
+Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of <a href="https://git.kernel.org/">git.kernel.org</a>, the official Git repository for the Linux kernel:</p>
+<blockquote>
+<p>TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html.</p>
+</blockquote>
+<p>I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49491791">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/crawling">crawling</a>, <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/linux">linux</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Jakub Pachocki]]></title>
         <id>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</id>
@@ -654,6 +702,58 @@ Subcontinental)]]></summary>
         <summary type="html"><![CDATA[Lineages of the bad internet]]></summary>
         <author>
             <name>Disjunctions Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openrouter 0.7.1]]></title>
+        <id>https://simonwillison.net/2026/Sep/2/llm-openrouter/</id>
+        <link href="https://simonwillison.net/2026/Sep/2/llm-openrouter/"/>
+        <updated>2026-09-02T20:23:26.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7.1">llm-openrouter 0.7.1</a></p>
+        <blockquote>
+<ul>
+<li>Performance fix for loading OpenRouter models. Thanks, <a href="https://github.com/waveplate">waveplate</a>. <a href="https://github.com/simonw/llm-openrouter/issues/59">#59</a></li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.34]]></title>
+        <id>https://simonwillison.net/2026/Sep/2/llm/</id>
+        <link href="https://simonwillison.net/2026/Sep/2/llm/"/>
+        <updated>2026-09-02T19:23:52.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.34">llm 0.34</a></p>
+        <p>One new feature:</p>
+<blockquote>
+<ul>
+<li><code>llm logs --usage</code> Markdown output now includes the response duration in milliseconds and as a human-readable duration. <code>llm logs --short</code> includes a new <code>duration_ms</code> field. <a href="https://github.com/simonw/llm/issues/1653">#1653</a></li>
+</ul>
+</blockquote>
+<p>Plus several contributed bug fixes, and a significant performance improvement to <code>llm logs</code> thanks to <a href="https://github.com/waveplate">waveplate</a> on GitHub, see also <a href="https://simonwillison.net/2026/Sep/2/llm-openrouter/">llm-openrouter 0.7.1</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.28]]></title>
+        <id>https://simonwillison.net/2026/Sep/2/llm-anthropic/</id>
+        <link href="https://simonwillison.net/2026/Sep/2/llm-anthropic/"/>
+        <updated>2026-09-02T17:59:32.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.28">llm-anthropic 0.28</a></p>
+        <p><a href="https://www.anthropic.com/claude/fable">Claude Fable 5.1</a>, reasoning traces are now displayed by default for models that support them, plus a new <code>llm_anthropic.ClaudeRefusal</code> exception for when Claude throws a refusal.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -5038,36 +5138,6 @@ I missed this news until today, when the GitHub Actions run for my <a href="http
         <link href="https://www.robinsloan.com/lab/cale/"/>
         <updated>2026-08-09T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Computing with Cale. <a href="https://www.robinsloan.com/lab/cale/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[9aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18792</id>
-        <link href="https://warrenellis.ltd/status/9aug26/"/>
-        <updated>2026-08-09T12:59:31.000Z</updated>
-        <summary type="html"><![CDATA[I am resting my brain and conducting a managed retreat to the outside world. Except, of course, I’m not actually resting my brain, I’m trying…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ugly genius sneakers]]></title>
-        <id>https://www.blackbirdspyplane.com/p/ugly-genius-sneakers</id>
-        <link href="https://www.blackbirdspyplane.com/p/ugly-genius-sneakers"/>
-        <updated>2026-08-09T12:31:06.000Z</updated>
-        <summary type="html"><![CDATA[Plus new sunglasses, an under-the-radar comfort sneaker line, a forgotten mid-century design legend whose lamps were bangers & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Rifling the drawers]]></title>
-        <id>https://www.robinsloan.com/lab/rifling-the-drawers/</id>
-        <link href="https://www.robinsloan.com/lab/rifling-the-drawers/"/>
-        <updated>2026-08-09T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>This is computing in 2026! <a href="https://www.robinsloan.com/lab/rifling-the-drawers/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
         </author>
