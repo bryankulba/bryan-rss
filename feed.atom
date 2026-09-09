@@ -2,10 +2,116 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-08T22:21:17.971Z</updated>
+    <updated>2026-09-09T02:59:46.744Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Terence Tao]]></title>
+        <id>https://simonwillison.net/2026/Sep/9/terence-tao/</id>
+        <link href="https://simonwillison.net/2026/Sep/9/terence-tao/"/>
+        <updated>2026-09-09T00:20:17.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://mathstodon.xyz/@tao/117237320796901560"><p>I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]</p>
+<p>We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.</p></blockquote>
+<p class="cite">&mdash; <a href="https://mathstodon.xyz/@tao/117237320796901560">Terence Tao</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Navier–Stokes Millennium Prize Problem]]></title>
+        <id>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</id>
+        <link href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/"/>
+        <updated>2026-09-08T23:55:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://openai.com/index/navier-stokes-solution/">On the Navier–Stokes Millennium Prize Problem</a></strong></p>
+Impressive result from OpenAI, who used an unreleased model to produce a resolution to <a href="https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness">the Navier–Stokes existence and smoothness problem</a>, one of the seven <a href="https://en.wikipedia.org/wiki/Millennium_Prize_Problems">Millennium Prize Problems</a> that have been subject to a $1,000,000 prize since May 24th, 2000.</p>
+<p>The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic.</p>
+<p>Tristan's complaint accompanied <a href="https://mastodon.social/@tristanbuckmaster/117233413705701198">a hastily published version</a> of their own results. <a href="https://cims.nyu.edu/~tristanb/statement.pdf">Here's the PDF describing what happened</a>. The <em>very</em> short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved "a major open problem", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan:</p>
+<blockquote>
+<p>I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI.</p>
+<p>I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer.</p>
+</blockquote>
+<p>It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would <em>not</em> be invited as a co-author due to OpenAI's competitive relationship with his employer.</p>
+<p>Here's how OpenAI described their work:</p>
+<blockquote>
+<p>On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...]</p>
+<p>The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.</p>
+<p>Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.</p>
+</blockquote>
+<p>(We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost <a href="https://www.llm-prices.com/#ot=300000000000&amp;sel=gpt-6-astra">$15,000,000</a>.)</p>
+<p>Here's where they provide their perspective on Tristan and Levent's work (emphasis mine):</p>
+<blockquote>
+<p>Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...]</p>
+<p>We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. <strong>While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped <a href="https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/">improve our models</a></strong>. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).</p>
+</blockquote>
+<p>My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year.</p>
+<p>This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that <a href="https://anil.recoil.org/notes/rumour-is-the-exploit">Just a rumour of a bug is enough to find a security exploit these days</a>, because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first.</p>
+<p>This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is "used to improve model performance", <em>what does that actually mean</em>?</p>
+<p>My two favourite hypothetical questions regarding this used to be:</p>
+<ul>
+<li>If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the "regurgitation" problem and assured me that they take great pains to prevent that... but wouldn't describe how.)</li>
+<li>If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks "what might company X plan to do next"?</li>
+</ul>
+<p>My new preferred hypothetical for this is:</p>
+<ul>
+<li>If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone <em>else</em> solve it first?</li>
+</ul>
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49613262">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing ChatGPT Images 2.5]]></title>
+        <id>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</id>
+        <link href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/"/>
+        <updated>2026-09-08T22:46:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://openai.com/index/introducing-chatgpt-images-2-5/">Introducing ChatGPT Images 2.5</a></strong></p>
+OpenAI's image generation models are apparently used "more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API". This latest release improves their instruction-following ability across multiple turns, responds faster, and "is better at preserving the subjects in your reference photos".</p>
+<p>There are two new model IDs in the API: <code>gpt-image-2.5-sunburst</code> and <code>gpt-image-2.5-flare</code>. Based <a href="https://developers.openai.com/api/docs/guides/image-generation#overview">on this</a> I think Sunburst is the stronger option:</p>
+<blockquote>
+<p>Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation.</p>
+</blockquote>
+<p>I <a href="https://github.com/simonw/tools/pull/333">upgraded</a> my <a href="https://tools.simonwillison.net/python/#openai_imagepy">openai_image.py</a> CLI tool to support passing in one or more reference images, so now this works:</p>
+<div class="highlight highlight-source-shell"><pre>uv run https://tools.simonwillison.net/python/openai_image.py \
+  <span class="pl-s"><span class="pl-pds">'</span>add a raccoon scientist studying the chart thoughtfully<span class="pl-pds">'</span></span> \
+  -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \
+  -m gpt-image-2.5-sunburst</pre></div>
+
+<p>This is the <a href="https://static.simonwillison.net/static/2026/openai-agent-usage.webp">original image</a>, and here's what I got back from that prompt to "add a raccoon scientist studying the chart thoughtfully":</p>
+<p><img alt="Line chart with cartoon illustration. Title: &quot;Usage of internal coding agents is increasing significantly—Median researcher&quot;. Y-axis labeled &quot;Daily $ / researcher&quot; from 0 to 700; x-axis shows Feb 2026, Apr 2026, Jun 2026, Aug 2026. A blue line stays near zero through April, rises gradually to around 150 by June and July, then climbs steeply to about 600 by late August. In the foreground a cartoon raccoon in glasses and a white lab coat, chin in hand, holds a clipboard at a desk with a mug bearing the OpenAI logo, some printed charts, and a stack of three books titled &quot;AI AGENTS&quot;, &quot;SOFTWARE ENGINEERING&quot;, and &quot;PRODUCTIVITY&quot;. An OpenAI logo appears in the top right corner." src="https://static.simonwillison.net/static/2026/racoon-chart.webp" />
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/uv">uv</a>, <a href="https://simonwillison.net/tags/text-to-image">text-to-image</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/827228084942110720</id>
+        <link href="https://brucesterling.tumblr.com/post/827228084942110720"/>
+        <updated>2026-09-08T22:22:58.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: One-way doors]]></title>
+        <id>https://www.robinsloan.com/lab/one-way/</id>
+        <link href="https://www.robinsloan.com/lab/one-way/"/>
+        <updated>2026-09-08T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Oh no. <a href="https://www.robinsloan.com/lab/one-way/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Private jets are sad]]></title>
         <id>https://www.blackbirdspyplane.com/p/emma-cline-interview-switzy-private-jets-are-sad</id>
@@ -4929,67 +5035,6 @@ Anyway, if you love this album as much as I do, I’ll leave you to explore.
         
          
 Tags: Daft Punk · Joseph Trapanese · music · Tron Legacy · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Are Rivers So Mathematical?]]></title>
-        <id>https://www.quantamagazine.org/?p=165611</id>
-        <link href="https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/"/>
-        <updated>2026-08-10T14:56:34.000Z</updated>
-        <summary type="html"><![CDATA[A simple scaling law brings order to the chaos of flowing water, rock, and sediment. New findings have extended the law even further.             
-The post Why Are Rivers So Mathematical? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Natalie Wolchover</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Subaru Socialists and the Great Disappointed . “A whole...]]></title>
-        <id>https://kottke.org/26/08/0049440-subaru-socialists-and-the</id>
-        <link href="https://kottke.org/26/08/0049440-subaru-socialists-and-the"/>
-        <updated>2026-08-10T14:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Subaru Socialists and the Great Disappointed. “A whole lot of people under the age of 45 no longer believe that indicators such as wages, unemployment, or the number of college degrees that are handed out…have much to do with a healthy economy.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[If You Haven’t Recently Used Claude Code, You Might Not...]]></title>
-        <id>https://kottke.org/26/08/0049467-if-you-havent-recently-us</id>
-        <link href="https://kottke.org/26/08/0049467-if-you-havent-recently-us"/>
-        <updated>2026-08-10T13:55:00.000Z</updated>
-        <summary type="html"><![CDATA[If You Haven’t Recently Used Claude Code, You Might Not Understand Where AI Is At. “There’s a huge gulf between a chatbot that’s just putting text into your brain and an agent that uses code to interact with an external environment.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18795</id>
-        <link href="https://warrenellis.ltd/status/10aug26/"/>
-        <updated>2026-08-10T13:51:57.000Z</updated>
-        <summary type="html"><![CDATA[Very quickly filling up a notebook with bad ideas. Which is the only way I know of to get at the better ideas. Blew through…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Human Computers : A history of labour-intensive computing. Followed by 6 self-defence protocols]]></title>
-        <id>https://we-make-money-not-art.com/?p=39473</id>
-        <link href="https://we-make-money-not-art.com/human-computers-a-history-of-labour-intensive-computing-followed-by-6-self-defence-protocols/"/>
-        <updated>2026-08-10T13:50:47.000Z</updated>
-        <summary type="html"><![CDATA[A toolkit of experiments aimed at breaking away from AI, by challenging its extractivist geopolitics, its algorithmic logic, its reductionist forms of learning and its technolanguage]]></summary>
-        <author>
-            <name>Regine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Socialists Are Winning Because They Listen to People...]]></title>
-        <id>https://kottke.org/26/08/0049466-socialists-are-winning-be</id>
-        <link href="https://kottke.org/26/08/0049466-socialists-are-winning-be"/>
-        <updated>2026-08-10T13:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Socialists Are Winning Because They Listen to People (and don’t just treat them like ATMs). “The best of them are running campaigns that acknowledge that to win, Democrats are going to have to organize voters — not just fund-raise off them.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

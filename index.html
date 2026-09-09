@@ -35,6 +35,150 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/9/terence-tao/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-09T00:20:17.000Z">2026-09-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/9/terence-tao/" target="_blank" rel="noopener noreferrer">Quoting Terence Tao</a>
+          </h2>
+          <p class="feed-item__desc">I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]
+We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.
+
+— Terence Tao
+Tags: ai-ethics, mathematics, ai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/9/terence-tao/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/9/terence-tao/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-08T23:55:12.000Z">2026-09-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/" target="_blank" rel="noopener noreferrer">On the Navier–Stokes Millennium Prize Problem</a>
+          </h2>
+          <p class="feed-item__desc">On the Navier–Stokes Millennium Prize Problem
+the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000.
+The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic.
+Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened. The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved "a major open problem", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan:
+I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI.
+I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer.
+It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would not be invited as a co-author due to OpenAI's competitive relationship with his employer.
+Here's how OpenAI described their work:
+On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...]
+The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.
+Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.
+(We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost $15,000,000.)
+Here's where they provide their perspective on Tristan and Levent's work (emphasis mine):
+Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...]
+We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).
+My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year.
+This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that Just a rumour of a bug is enough to find a security exploit these days, because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first.
+This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is "used to improve model performance", what does that actually mean?
+My two favourite hypothetical questions regarding this used to be:
+If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the "regurgitation" problem and assured me that they take great pains to prevent that... but wouldn't describe how.)
+If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks "what might company X plan to do next"?
+My new preferred hypothetical for this is:
+If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone else solve it first?
+Via Hacker News
+Tags: mathematics, ai, openai, generative-ai, llms, training-data, ai-ethics</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/8/on-navier-stokes/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-08T22:46:33.000Z">2026-09-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/" target="_blank" rel="noopener noreferrer">Introducing ChatGPT Images 2.5</a>
+          </h2>
+          <p class="feed-item__desc">Introducing ChatGPT Images 2.5
+There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare. Based on this I think Sunburst is the stronger option:
+Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation.
+I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works:
+uv run https://tools.simonwillison.net/python/openai_image.py \
+  'add a raccoon scientist studying the chart thoughtfully' \
+  -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \
+  -m gpt-image-2.5-sunburst
+
+
+This is the original image, and here's what I got back from that prompt to "add a raccoon scientist studying the chart thoughtfully":
+
+
+
+    
+Tags: tools, ai, openai, generative-ai, uv, text-to-image</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://brucesterling.tumblr.com/post/827228084942110720">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-08T22:22:58.000Z">2026-09-08</time>
+        <span class="feed-item__source">BruceS</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://brucesterling.tumblr.com/post/827228084942110720" target="_blank" rel="noopener noreferrer">Untitled</a>
+          </h2>
+          <p class="feed-item__desc">No content preview</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/827228084942110720" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/827228084942110720">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://64.media.tumblr.com/ae1bdf39008b6d9dd17dbd8065a21fdd/7424876e6d939755-90/s1280x1920/45ddfe7494a56f16ea287cd2872845ffc27829b9.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/one-way/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-08T18:00:00.000Z">2026-09-08</time>
+        <span class="feed-item__source">Robin Sloan</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.robinsloan.com/lab/one-way/" target="_blank" rel="noopener noreferrer">Dragoncatcher: One-way doors</a>
+          </h2>
+          <p class="feed-item__desc">Oh no. Read here.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/one-way/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/one-way/">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/emma-cline-interview-switzy-private-jets-are-sad">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-08T11:02:06.000Z">2026-09-08</time>
@@ -8142,130 +8286,6 @@ Tags: Daft Punk · Joseph Trapanese · music · Tron Legacy · video</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://i.ytimg.com/vi/KMH_fzn_Di0/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;165611">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-10T14:56:34.000Z">2026-08-10</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/" target="_blank" rel="noopener noreferrer">Why Are Rivers So Mathematical?</a>
-          </h2>
-          <p class="feed-item__desc">A simple scaling law brings order to the chaos of flowing water, rock, and sediment. New findings have extended the law even further.             
-The post Why Are Rivers So Mathematical? first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;165611" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;165611">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/08/Qualia-River-Fractals-cr-Ada-Zejun-Shen-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049440-subaru-socialists-and-the">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-10T14:45:00.000Z">2026-08-10</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049440-subaru-socialists-and-the" target="_blank" rel="noopener noreferrer">Subaru Socialists and the Great Disappointed . “A whole...</a>
-          </h2>
-          <p class="feed-item__desc">Subaru Socialists and the Great Disappointed. “A whole lot of people under the age of 45 no longer believe that indicators such as wages, unemployment, or the number of college degrees that are handed out…have much to do with a healthy economy.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049440-subaru-socialists-and-the" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049440-subaru-socialists-and-the">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049467-if-you-havent-recently-us">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-10T13:55:00.000Z">2026-08-10</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049467-if-you-havent-recently-us" target="_blank" rel="noopener noreferrer">If You Haven’t Recently Used Claude Code, You Might Not...</a>
-          </h2>
-          <p class="feed-item__desc">If You Haven’t Recently Used Claude Code, You Might Not Understand Where AI Is At. “There’s a huge gulf between a chatbot that’s just putting text into your brain and an agent that uses code to interact with an external environment.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049467-if-you-havent-recently-us" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049467-if-you-havent-recently-us">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18795">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-10T13:51:57.000Z">2026-08-10</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/10aug26/" target="_blank" rel="noopener noreferrer">10aug26</a>
-          </h2>
-          <p class="feed-item__desc">Very quickly filling up a notebook with bad ideas. Which is the only way I know of to get at the better ideas. Blew through…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18795" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18795">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit&#x3D;512%2C512&amp;ssl&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://we-make-money-not-art.com/?p&#x3D;39473">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-10T13:50:47.000Z">2026-08-10</time>
-        <span class="feed-item__source">We Make Money Not Art</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://we-make-money-not-art.com/human-computers-a-history-of-labour-intensive-computing-followed-by-6-self-defence-protocols/" target="_blank" rel="noopener noreferrer">Human Computers : A history of labour-intensive computing. Followed by 6 self-defence protocols</a>
-          </h2>
-          <p class="feed-item__desc">A toolkit of experiments aimed at breaking away from AI, by challenging its extractivist geopolitics, its algorithmic logic, its reductionist forms of learning and its technolanguage</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://we-make-money-not-art.com/?p&#x3D;39473" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://we-make-money-not-art.com/?p&#x3D;39473">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://we-make-money-not-art.com/wp-content/uploads/2026/07/0angelomosso.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049466-socialists-are-winning-be">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-10T13:09:00.000Z">2026-08-10</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049466-socialists-are-winning-be" target="_blank" rel="noopener noreferrer">Socialists Are Winning Because They Listen to People...</a>
-          </h2>
-          <p class="feed-item__desc">Socialists Are Winning Because They Listen to People (and don’t just treat them like ATMs). “The best of them are running campaigns that acknowledge that to win, Democrats are going to have to organize voters — not just fund-raise off them.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049466-socialists-are-winning-be" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049466-socialists-are-winning-be">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
         </div>
       </div>
     </article>
