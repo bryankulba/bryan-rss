@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-09T22:15:13.842Z</updated>
+    <updated>2026-09-10T03:00:20.457Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[&#8220;We found ~18,000 posts from autonomous AI agents...]]></title>
+        <id>https://kottke.org/26/09/0049570-these-ais-colluded-to-sha</id>
+        <link href="https://kottke.org/26/09/0049570-these-ais-colluded-to-sha"/>
+        <updated>2026-09-10T02:24:00.000Z</updated>
+        <summary type="html"><![CDATA[“We found ~18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web research task. These AIs colluded to share answers, research their environment, and bypass sandbox restrictions.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modern Day Typographer]]></title>
+        <id>https://waxy.org/?p=51248</id>
+        <link href="https://www.youtube.com/watch?v=0Ck-NPqf2c8"/>
+        <updated>2026-09-10T02:14:07.000Z</updated>
+        <summary type="html"><![CDATA[“Papyrus is a virus and restraint is the inoculum”
+actsofvolition.com #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Chicago Public Library informs patrons of  how much...]]></title>
+        <id>https://kottke.org/26/09/0049560-how-much-money-theyve-sav</id>
+        <link href="https://kottke.org/26/09/0049560-how-much-money-theyve-sav"/>
+        <updated>2026-09-10T01:24:00.000Z</updated>
+        <summary type="html"><![CDATA[The Chicago Public Library informs patrons of how much money they’ve saved borrowing from the library instead of buying. “You just saved $58.94 by using your library. You have saved $231.79 this past year and $1,107.24 since you began using the library!”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Calif Research]]></title>
+        <id>https://simonwillison.net/2026/Sep/10/calif-research/</id>
+        <link href="https://simonwillison.net/2026/Sep/10/calif-research/"/>
+        <updated>2026-09-10T00:56:41.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://calif.io/research/weworm"><p>Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]</p>
+<p>The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]</p>
+<p>Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week.</p>
+<p>A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.</p></blockquote>
+<p class="cite">&mdash; <a href="https://calif.io/research/weworm">Calif Research</a>, WeWorm</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Over the past 12 years, Super Bowl-winning coach Mike...]]></title>
+        <id>https://kottke.org/26/09/0049559-has-built-a-minecraft-cit</id>
+        <link href="https://kottke.org/26/09/0049559-has-built-a-minecraft-cit"/>
+        <updated>2026-09-10T00:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Over the past 12 years, Super Bowl-winning coach Mike Tomlin has built a Minecraft city. He started playing the game for the same reason I started playing Fortnite: his kids. “How do I meet them where they are and spend time with them?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[.blend URL Viewer]]></title>
+        <id>https://simonwillison.net/2026/Sep/9/blender-viewer/</id>
+        <link href="https://simonwillison.net/2026/Sep/9/blender-viewer/"/>
+        <updated>2026-09-09T23:58:32.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/blender-viewer">.blend URL Viewer</a></p>
+        <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href="https://til.simonwillison.net/llms/blender-coding-agents-macos">my TIL</a>).</p>
+<p>As a big fan of the <a href="https://en.wikipedia.org/wiki/Faberg%C3%A9_egg">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p>
+<p>Yesterday I decided to try out the new <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">ChatGPT Images 2.5</a> by <a href="https://chatgpt.com/share/6aa1f6d2-a7d8-83ea-92ec-0daeb8422617">running this prompt</a>:</p>
+<blockquote>
+<p><code>Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first</code></p>
+</blockquote>
+<p>It gave me this - honestly not bad for a first attempt!</p>
+<p><img alt="It's a yellow Fabergé egg, half open. Inside you can clearly see Carol in her black outfit facing off against a choir of creepy white-faced joined humans. There are cacti and it has an Albuquerque New Mexico feel to it. The egg stand has a Pluribus plaque." src="https://static.simonwillison.net/static/2026/pluribus-egg.jpg" /></p>
+<p>Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted:</p>
+<blockquote>
+<p><code>Use your blender local skill to create a blender model of this faverge egg</code></p>
+</blockquote>
+<p>(Here's <a href="https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md">the skill file</a>, which I created <a href="https://til.simonwillison.net/llms/blender-coding-agents-macos#creating-a-skill">like this</a>.)</p>
+<p>It churned away for 17m51s and built me <a href="https://github.com/simonw/vibe-coded-blender-projects/tree/main/pluribus-faberge-egg/deliverables">several <code>.blend</code> files</a>. I already had this vibe-coded Blender viewing experiment lying around, so I added that to my <a href="https://tools.simonwillison.net/">tools collection</a> and now you can use it to <a href="https://tools.simonwillison.net/blender-viewer?url=https%3A%2F%2Fgithub.com%2Fsimonw%2Fvibe-coded-blender-projects%2Fblob%2Fmain%2Fpluribus-faberge-egg%2Fdeliverables%2FPluribus_Jeweled_Egg_v1.blend">see my Pluribus blender model in your browser</a>:</p>
+<p><img alt="Screenshot of a web-based 3D Blender file viewer showing a rendered gold Fabergé-style jeweled egg. The top of the egg is lifted open, revealing a miniature desert diorama inside with green cacti, brown rocks, and a small black-suited figure standing in the center. The egg's shell is decorated with green gems, pearls, ornate scrollwork, a ring of smiling white egg-shaped faces, and oval medallions painted with a cactus and desert scene. The egg stands on four gold legs over a black marbled base with a gold plaque reading PLURIBUS. The URL bar reads https://github.com/simonw/vibe-coded-blender-projects/blob/main/pluribus-faberge-egg/deliverables/Pluribus_Jeweled_Egg_v1.blend with a View button; top-right buttons read Fit, Wireframe, Clear. A bottom-left info panel reads: Loaded Blender 05.01 · 7.2 MB / 387 meshes · 1099 curves · 1 text · 783,764 vertices · 1,446,560 triangles · 17 materials / Preview: approximate materials and text; unapplied modifiers are omitted. / GitHub URL resolved through jsDelivr" src="https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/3d">3d</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/blender">blender</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/codex">codex</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From the Internet Archive:  Vanishing Culture: A Report...]]></title>
+        <id>https://kottke.org/26/09/0049558-vanishing-culture-a-repor</id>
+        <link href="https://kottke.org/26/09/0049558-vanishing-culture-a-repor"/>
+        <updated>2026-09-09T23:34:00.000Z</updated>
+        <summary type="html"><![CDATA[From the Internet Archive: Vanishing Culture: A Report on Our Fragile Cultural Record. “When digital materials are vulnerable to sudden removal…our collective memory is compromised, and the public’s ability to access its own history is at risk.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vintage Eastern European Matchbox Labels (1950-1980s)]]></title>
+        <id>https://kottke.org/26/09/vintage-eastern-european-matchbox-labels-1950-1980s</id>
+        <link href="https://kottke.org/26/09/vintage-eastern-european-matchbox-labels-1950-1980s"/>
+        <updated>2026-09-09T22:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Over on Flickr, Jane McDevitt maintains a huge collection of 20th century matchbox label art from Eastern Europe, over 4000 photos in all. Some of the labels are available as prints. They did a book too, but it’s sold out. It was really difficult to narrow these down to some of my favorites, but I managed.
+
+
+
+
+
+
+
+P.S. I wrote this whole post and then discovered that I’d written about this collection before. But I picked different labels so it’s all good.
+
+ 
+
+        
+         
+Tags: art · illustration · Jane McDevitt]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A catalogue of 645 acts of hate from the week after 9/11...]]></title>
         <id>https://kottke.org/26/09/0049556-a-catalogue-of-645-acts-o</id>
@@ -45,6 +164,16 @@
         <summary type="html"><![CDATA[Spaceships: A version of Asteroids where “you are not the ship” — you control the rocks instead.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: My question is simply...]]></title>
+        <id>https://www.robinsloan.com/lab/iphone-solo/</id>
+        <link href="https://www.robinsloan.com/lab/iphone-solo/"/>
+        <updated>2026-09-09T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Really very simply... <a href="https://www.robinsloan.com/lab/iphone-solo/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -4999,60 +5128,6 @@ To interested observers in the 1970s, Ira Einhorn was the paragon of the bleedin
         <summary type="html"><![CDATA[I’ve felt this for years (blogs have global context): “The uni-context is a scenario in which the ways you should act become the same across all different contexts. There’s just one set of norms you should follow all times, irrespective of context.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;An Absolute Climate Catastrophe&#8221;]]></title>
-        <id>https://kottke.org/26/08/an-absolute-climate-catastrophe</id>
-        <link href="https://kottke.org/26/08/an-absolute-climate-catastrophe"/>
-        <updated>2026-08-11T14:11:00.000Z</updated>
-        <summary type="html"><![CDATA[British climate scientist Kevin Anderson (from a 2024 video):
-So there is lots that you will hear — lots of rhetoric, lots of good words, lots of optimism about the future. But given we’ve known about this subject and apparently been working on it for 30 years, the trend line tells us that we are heading towards three to four degrees centigrade of warming across this century: an absolute climate catastrophe, a catastrophe for all species including our own. And so that’s the direction of travel. Now, that direction of travel does not have to continue, but the current trend line tells us that all we are doing so far is giving rhetoric and optimism and greenwash, and not driving the levels of change that are necessary to stay within the 1.5-to-2-degree framing of the Paris Agreement.
-
-	
-And:
-And I have to be honest and say that my judgment, my best guess as someone who’s worked on this for years, is that we are going to fail. We’re going to go to three or four degrees centigrade of warming, and we’re going to put up with — well, we won’t put up with — we’ll have to live through, or die from, all of the repercussions that that will have. That is a terrible prospect, and one that I think we have to try everything we can to avoid.
-But the message of hope, if there’s any thread of hope in this, is that it is a choice to fail. We have so far repeatedly — I’m going to say “we”; what I mean is effectively our leaders, politically, academically, in the journalistic community, across the board, those people that are framing this debate — have chosen actively to fail for three decades. And when they have breakfast with their own children, I hope they are thinking about what they have deliberately, what we have deliberately, imposed upon their future.
-
-	
-
- 
-
-        
-         
-Tags: climate crisis · Kevin Anderson · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Since 1974, vaccination has averted 154 million...]]></title>
-        <id>https://kottke.org/26/08/0049475-since-1974-vaccination-ha</id>
-        <link href="https://kottke.org/26/08/0049475-since-1974-vaccination-ha"/>
-        <updated>2026-08-11T13:31:00.000Z</updated>
-        <summary type="html"><![CDATA[“Since 1974, vaccination has averted 154 million deaths, including 146 million among children younger than 5 years… For every death averted, 66 years of full health were gained on average, translating to 10.2 billion years of full health gained.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Surveillance vs guillotines (11 Aug 2026)]]></title>
-        <id>https://pluralistic.net/?p=13147</id>
-        <link href="https://pluralistic.net/2026/08/11/tragedy-of-the-commoners/"/>
-        <updated>2026-08-11T11:19:13.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Surveillance vs guillotines: Someone's gonna fleece these rubes, why not me? Hey look at this: Delights to delectate. Object permanence: DeCSS; Warhol Worm; Camgirls x Amazon wishlists; 2021 State of Tech (in 2001); RIAA v grieving family; Stasi disguises. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Surveillance vs guillotines (permalink) In the summer of 2013, two esoteric, technical, incredibly important texts were published within weeks of one another: the first is the Snowden leaks, which revealed a system of global, pervasive digital surveillance; the second was Tho…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["The center is a mystery"]]></title>
-        <id>https://www.blackbirdspyplane.com/p/the-center-is-a-mystery</id>
-        <link href="https://www.blackbirdspyplane.com/p/the-center-is-a-mystery"/>
-        <updated>2026-08-11T11:01:16.000Z</updated>
-        <summary type="html"><![CDATA[Cult pottery that disappears fast, and enigmas that linger. A studio visit with a young legend]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
