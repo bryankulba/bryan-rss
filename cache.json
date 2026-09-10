@@ -252,16 +252,6 @@
           "wordCount": 5840,
           "title": "God Hates Hippies: Jack Chick’s ‘The Broken Cross’",
           "imageUrl": "https://i0.wp.com/wearethemutants.com/wp-content/uploads/2026/07/broken-cross-featured.jpg?fit=1200%2C641&ssl=1"
-        },
-        {
-          "id": "http://wearethemutants.com/?p=42251",
-          "author": "Michael Grasso",
-          "description": "By Michael Grasso \r\n\r\nTo interested observers in the 1970s, Ira Einhorn was the paragon of the bleeding-edge, Age of Aquarius thinker. He founded free classes on psychedelics, conducted one of the first \"Be-ins\" on the East Coast...",
-          "link": "https://wearethemutants.com/2026/08/11/blank-generation-steven-levys-the-unicorns-secret-murder-in-the-age-of-aquarius/",
-          "publishedOn": "2026-08-11T15:31:23.000Z",
-          "wordCount": 6516,
-          "title": "Blank Generation: Steven Levy’s ‘The Unicorn’s Secret: Murder in the Age of Aquarius’",
-          "imageUrl": "https://wearethemutants.com/wp-content/uploads/2026/08/watm-sa-featured.jpg"
         }
       ]
     },
@@ -1148,26 +1138,6 @@
           "publishedOn": "2026-08-11T22:35:04.000Z",
           "wordCount": 669,
           "title": "Good sentence : &#8220;The market&#8217;s most lavish...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049445-your-brain-is-a-gambling-",
-          "author": null,
-          "description": "“Your brain is a gambling addict that bets on reality. It doesn’t wait for information. It guesses what should happen and adjusts when surprised. Most bets win. But when they don’t, you run into walls.”",
-          "link": "https://kottke.org/26/08/0049445-your-brain-is-a-gambling-",
-          "publishedOn": "2026-08-11T16:21:00.000Z",
-          "wordCount": 757,
-          "title": "&#8220; Your brain is a gambling addict that bets on...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049474-the-uni-context-is-a-scen",
-          "author": null,
-          "description": "I’ve felt this for years (blogs have global context): “The uni-context is a scenario in which the ways you should act become the same across all different contexts. There’s just one set of norms you should follow all times, irrespective of context.”",
-          "link": "https://kottke.org/26/08/0049474-the-uni-context-is-a-scen",
-          "publishedOn": "2026-08-11T15:21:00.000Z",
-          "wordCount": 1294,
-          "title": "I’ve felt this for years (blogs have global context):...",
           "imageUrl": ""
         }
       ]
@@ -2928,26 +2898,6 @@
           "publishedOn": "2026-08-11T22:40:45.000Z",
           "wordCount": 1188,
           "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0\">datasette-upload-dbs 0.5a0</a></p>\n        <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p>\n<p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>/name</code> starts serving the new one.</p>\n<p>The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:</p>\n<pre><code>curl -X POST \\\n  -H \"Authorization: Bearer $API_TOKEN\" \\\n  -H \"Accept: application/json\" \\\n  -F \"db=@content.db\" \\\n  -F \"db_name=content\" \\\n  https://your-instance.example.com/-/upload-dbs\n</code></pre>\n<p>This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/",
-          "publishedOn": "2026-08-11T20:35:13.000Z",
-          "wordCount": 887,
-          "title": "datasette-upload-dbs 0.5a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0\">datasette-upload-dbs 0.5a0</a></p>\n        <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p>\n<p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>/name</code> starts serving the new one.</p>\n<p>The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:</p>\n<pre><code>curl -X POST \\\n  -H \"Authorization: Bearer $API_TOKEN\" \\\n  -H \"Accept: application/json\" \\\n  -F \"db=@content.db\" \\\n  -F \"db_name=content\" \\\n  https://your-instance.example.com/-/upload-dbs\n</code></pre>\n<p>This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
-          "publishedOn": "2026-08-11T20:35:13.000Z",
-          "wordCount": 887,
-          "title": "datasette-upload-dbs 0.5a0",
           "imageUrl": null
         }
       ]

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-10T03:00:20.457Z</updated>
+    <updated>2026-09-10T08:38:12.863Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -5046,86 +5046,6 @@ A vanity domain name (<code>stolen-thoughts.com</code>) for <a href="https://www
         <link href="https://kottke.org/26/08/0049476-good-sentence"/>
         <updated>2026-08-11T22:35:04.000Z</updated>
         <summary type="html"><![CDATA[Good sentence: “The market’s most lavish rewards do not go to its most productive participants, but rather, to those participants who have the good fortune to emerge from the luckiest of orifices.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-upload-dbs 0.5a0]]></title>
-        <id>https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/</id>
-        <link href="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/"/>
-        <updated>2026-08-11T20:35:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0">datasette-upload-dbs 0.5a0</a></p>
-        <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p>
-<p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>/name</code> starts serving the new one.</p>
-<p>The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:</p>
-<pre><code>curl -X POST \
-  -H "Authorization: Bearer $API_TOKEN" \
-  -H "Accept: application/json" \
-  -F "db=@content.db" \
-  -F "db_name=content" \
-  https://your-instance.example.com/-/upload-dbs
-</code></pre>
-<p>This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-upload-dbs 0.5a0]]></title>
-        <id>https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything</id>
-        <link href="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything"/>
-        <updated>2026-08-11T20:35:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0">datasette-upload-dbs 0.5a0</a></p>
-        <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p>
-<p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>/name</code> starts serving the new one.</p>
-<p>The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:</p>
-<pre><code>curl -X POST \
-  -H "Authorization: Bearer $API_TOKEN" \
-  -H "Accept: application/json" \
-  -F "db=@content.db" \
-  -F "db_name=content" \
-  https://your-instance.example.com/-/upload-dbs
-</code></pre>
-<p>This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Your brain is a gambling addict that bets on...]]></title>
-        <id>https://kottke.org/26/08/0049445-your-brain-is-a-gambling-</id>
-        <link href="https://kottke.org/26/08/0049445-your-brain-is-a-gambling-"/>
-        <updated>2026-08-11T16:21:00.000Z</updated>
-        <summary type="html"><![CDATA[“Your brain is a gambling addict that bets on reality. It doesn’t wait for information. It guesses what should happen and adjusts when surprised. Most bets win. But when they don’t, you run into walls.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blank Generation: Steven Levy’s ‘The Unicorn’s Secret: Murder in the Age of Aquarius’]]></title>
-        <id>http://wearethemutants.com/?p=42251</id>
-        <link href="https://wearethemutants.com/2026/08/11/blank-generation-steven-levys-the-unicorns-secret-murder-in-the-age-of-aquarius/"/>
-        <updated>2026-08-11T15:31:23.000Z</updated>
-        <summary type="html"><![CDATA[By Michael Grasso 
-
-To interested observers in the 1970s, Ira Einhorn was the paragon of the bleeding-edge, Age of Aquarius thinker. He founded free classes on psychedelics, conducted one of the first "Be-ins" on the East Coast...]]></summary>
-        <author>
-            <name>Michael Grasso</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’ve felt this for years (blogs have global context):...]]></title>
-        <id>https://kottke.org/26/08/0049474-the-uni-context-is-a-scen</id>
-        <link href="https://kottke.org/26/08/0049474-the-uni-context-is-a-scen"/>
-        <updated>2026-08-11T15:21:00.000Z</updated>
-        <summary type="html"><![CDATA[I’ve felt this for years (blogs have global context): “The uni-context is a scenario in which the ways you should act become the same across all different contexts. There’s just one set of norms you should follow all times, irrespective of context.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
