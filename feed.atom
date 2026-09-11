@@ -2,10 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-11T08:32:23.124Z</updated>
+    <updated>2026-09-11T15:50:30.281Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Inefficiency is bad, actually (11 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13277</id>
+        <link href="https://pluralistic.net/2026/09/11/mazzucato-thought/"/>
+        <updated>2026-09-11T14:55:56.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Inefficiency is bad, actually: Now, "resiliency" on the other hand… Hey look at this: Delights to delectate. Object permanence: Canada's DMCA; Socialism x Pledge of Allegiance; Hate the player and the game; Making Light's 9/11; 9/11 survivor registry; Secure email caused 9/11; German Pirates; Hollywood's Canadian MP; Reverse Centaurs resolve the AI paradox. Upcoming appearances: Manchester, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Inefficiency is bad, actually (permalink) The most reliable way to lose a political battle is to let your adversary define the terms.…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Soft-deprecating re.match()]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/"/>
+        <updated>2026-09-11T14:47:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://hugovk.dev/blog/2026/soft-deprecating-re.match/">Soft-deprecating re.match()</a></strong></p>
+Python has a concept of <a href="https://peps.python.org/pep-0387/#soft-deprecation">soft deprecation</a>, where APIs are marked as "should no longer be used to write new code" without any promise/threat to remove them in the future.</p>
+<p>Python 3.15 release manager Hugo van Kemenade describes how in the upcoming 3.15 release soft deprecation has come for the venerable but deeply confusing <code>re.match()</code> function. It's now available with the much clearer alternative <code>re.prefixmatch()</code> name - reflecting how it anchors at the beginning of the string but not the end.</p>
+<p>Most of the time you probably want <code>re.search()</code> (match this pattern anywhere in the string) or <code>re.fullmatch()</code> (match the entire string) instead.
+
+    <p><small></small>Via <a href="https://lobste.rs/s/u7dr96/soft_deprecating_re_match">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/regular-expressions">regular-expressions</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?]]></title>
+        <id>https://www.quantamagazine.org/?p=166829</id>
+        <link href="https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/"/>
+        <updated>2026-09-11T14:14:40.000Z</updated>
+        <summary type="html"><![CDATA[The mystery of the flipping foraminifera may conceal a rarely observed evolutionary process playing out across the planet.            
+The post Why Do These Fossil Shells Flip Their Spirals Every Few Millennia? first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Fanni Daniella Szakál</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rethinking space opera]]></title>
+        <id>http://www.antipope.org/charlie/blog-static/2026/09/rethinking-space-opera.html</id>
+        <link href="http://www.antipope.org/charlie/blog-static/2026/09/rethinking-space-opera.html"/>
+        <updated>2026-09-11T13:54:44.000Z</updated>
+        <summary type="html"><![CDATA[A whole decade ago I blogged about a taxonomy of cliches in space opera, with a considerable checklists of things to watch out for in the space opera I was just then starting to work on. This was almost entirely...]]></summary>
+        <author>
+            <name>Charlie's Diary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't sleep on wrapture]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
+        <updated>2026-09-11T13:51:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>Graham Dumpleton's new monkey patching package <a href="https://wrapture.readthedocs.io/">wrapture</a> is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it!</p>
+<p>Graham has been posting new tutorials for it almost daily since <a href="https://simonwillison.net/2026/Aug/31/introducing-wrapture/">the initial release</a> on August 31st. Here's everything he's published so far:</p>
+<ul>
+<li><a href="https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/">Introducing wrapture</a> - a new monkey patching library that serves both testing and observability (think New Relic style tracing) at the same time.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/">Unit testing with wrapture</a> - how to use it for the same kinds of thing as <code>unittest.mock</code>.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/recording-calls-with-wrapture/">Recording calls with wrapture</a>  - recording method calls as timelines and processing and displaying them as trees.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/">Phased behaviour in wrapture</a>  - arranging patched methods to change behavior across multiple calls.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/">Beyond callables in wrapture</a> - monkey patching attributes, dictionaries, generators.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/">Live tracing with wrapture</a>  - tracing a live application to see exactly how it works.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/">Zero-code tracing with wrapture</a>  - configuring tracing in a separate TOML file without modifying Python code at all.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/">Tracing Flask with wrapture</a>  - using the separate <a href="https://github.com/GrahamDumpleton/wrapture-instrumentation">wrapture-instrumenation</a> package to instrument a Flask application. That package also provides instrumentation for <code>aiohttp.client</code>, <code>aiohttp.web</code>, <code>django</code>, <code>fastapi</code>, <code>flask</code>, <code>grpc</code>, <code>http.client</code>, <code>httpx</code>, <code>jinja2</code>, <code>requests</code>, <code>sqlalchemy</code>, <code>sqlite3</code>, <code>starlette</code>, <code>urllib.request</code>, <code>urllib3</code>, <code>uvicorn</code>, <code>werkzeug.serving</code>, <code>wsgiref.simple_server</code>, <code>xmlrpc.client</code>, <code>xmlrpc.server</code>.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/">Finding slow code with wrapture</a> - wrapture's tools for recording timing information, both individually and aggregated across multiple calls.</li>
+<li><a href="https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/">OpenTelemetry export in wrapture</a> - exporting traces to OpenTelemetry.</li>
+</ul>
+<p>Graham also has a <a href="https://github.com/GrahamDumpleton/wrapture-workshops">set of interactive workshops</a> for wrapture, implemented as JupyterLab notebooks.</p>
+<p>Wrapture is still alpha software but it's already very usable - especially given you can configure and try it out with a TOML file without modifying any Python code at all.</p>
+<p>This feels like one of those Swiss Army Knife packages that, once mastered, will provide value against all sorts of problems for years to come.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/graham-dumpleton">graham-dumpleton</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/testing">testing</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/observability">observability</a>, <a href="https://simonwillison.net/tags/monkey-patching">monkey-patching</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biiiiig Stretch]]></title>
+        <id>https://kottke.org/26/09/biiiiig-stretch</id>
+        <link href="https://kottke.org/26/09/biiiiig-stretch"/>
+        <updated>2026-09-11T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Back when I went on sabbatical in 2022, I told the story of the fiddle leaf fig tree I bought shortly after my ex-wife and I separated and I’d moved into my own apartment.
+I’d recently moved into my own apartment after separating from my wife and figured a large plant in my new place would add some liveliness to a new beginning that was feeling overwhelming, lonely, and sad. For the first couple of months, I didn’t know if my tree and I were going to make it. I’d never really had a plant before and struggled getting a handle on the watering schedule and other plant care routines. It started losing leaves. Like, an alarming number of leaves.
+I’d brought this glorious living thing into my house only to kill it! Not cool. With the stress of the separation, my new living situation, and not see…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;In almost every [US] county, extreme heat is at...]]></title>
+        <id>https://kottke.org/26/09/0049561-its-not-just-you-america-</id>
+        <link href="https://kottke.org/26/09/0049561-its-not-just-you-america-"/>
+        <updated>2026-09-11T12:10:00.000Z</updated>
+        <summary type="html"><![CDATA[“In almost every [US] county, extreme heat is at least as bad as it was 30 years ago. In most counties, it’s much worse.” It’s Not Just You. America Has Gotten Much Hotter. (Not a fan of articles like this being in the “opinion” section…)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11sep26]]></title>
+        <id>https://warrenellis.ltd/?p=18952</id>
+        <link href="https://warrenellis.ltd/status/11sep26/"/>
+        <updated>2026-09-11T11:42:35.000Z</updated>
+        <summary type="html"><![CDATA[That brain-tapping thing when you spend all night meditating on a story space, and get the penultimate solution to it about twenty minutes before bedtime.…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[what can you give the man who literally already has everything]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12361</id>
+        <link href="https://www.velcro-city.co.uk/what-can-you-give-the-man-who-literally-already-has-everything/"/>
+        <updated>2026-09-11T10:07:46.000Z</updated>
+        <summary type="html"><![CDATA[The enantiodromia of rationality is peaking real hard right now.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 11/09/26]]></title>
+        <id>https://webcurios.co.uk/?p=1750</id>
+        <link href="https://webcurios.co.uk/webcurios-11-09-26/"/>
+        <updated>2026-09-11T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  41 minutes   It is frankly terrifying to me that we are 14 years from Danny Dyer’s seminal 11-year anniversary commemoration of 11/9 (look, it’s been 25 years, let’s reclaim the fcuking date structure shall we?) – SO LIKE SANDS THROUGH THE HOURGLASS ARE THE DAYS OF OUR LIVES, EH??? Anyway, I went to Helsinki (my main…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Datasette 1.0a39 and 0.65.4 security releases]]></title>
         <id>https://simonwillison.net/2026/Sep/11/datasette-security/</id>
@@ -66,6 +196,156 @@ Tags: Conan O'Brien · Matt Groening · podcasts · The Simpsons · TV · video]
         <summary type="html"><![CDATA[“Gimme is a dazzling ever-growing type family of multi-chromatic and variable display typefaces…” This is bonkers…letters made from Battleship pieces, Connect Four boards, playing cards, wooden railroad tracks, etc.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joseph Stannard presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/audio/on-air/joseph-stannard-presents-adventures-in-sound-and-music-79475</id>
+        <link href="https://www.thewire.co.uk/audio/on-air/joseph-stannard-presents-adventures-in-sound-and-music-79475"/>
+        <updated>2026-09-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire’s weekly radio show on Resonance FM and Resonance Extra featured music by Julian Cope, Albert Bouchard, Black Mountain Transmitter, Zodiac Youth and more
+
+Tracklist
+
+A Tomb Full Of Stars
+    
+ “The Battered Angels Of Our Nature”
+    
+1: When The Reflection Passes
+    
+Varia)
+
+Albert Bouchard featuring Blue Coupe
+    
+ “Four Winds Bar”
+    
+Imaginos IV: The Rhyme Of The Starclock
+    
+Deko)
+
+Acid Casuals
+    
+ “Long Time No See”
+    
+Omni
+    
+Circuitry Electronic)
+
+Black Mountain Transmitter
+    
+ “The Meal At The Fern Diner”
+    
+The Cadabra Tapes
+    
+Bandcamp)
+
+Reigns
+    
+ “Population 206”
+    
+The Antigeist
+    
+Wrong Speed)
+
+Odd Nosdam
+    
+ “Skateloops”
+    
+On Patrol
+    
+Alien Transistor)
+
+Budgie
+    
+ “I Ain't No Mountain”
+    
+Running From My Soul: The MCA Years 1973-1975
+    
+ (Cherry Red)
+
+Night Hag
+    
+ “Staring Into The Ancient Chasm”
+    
+Great Dismal Darkness
+    
+ (Rotted Life)
+
+Julian Cope
+    
+ “Psychedelic Revolution”
+    
+Trip Advizer
+    
+Weird Walk Record Cult)
+
+Jesse Draxler featuring Black Asteroid & Ian Astbury
+    
+“Falling”
+    
+Tongue Of Angels
+    
+RIP ID/Federal Prisoner)
+
+Paul Rooney
+    
+ “Pool The Other One”
+    
+Axing For It & Other Stories
+    
+Owd Scrat)
+
+Fatback
+    
+ “Love Spell”
+    
+Hot Box
+    
+ (Ace)
+
+Psychic Ills
+    
+ “Mixed Up Mind”
+    
+Inner Journey Out
+    
+Sacred Bones)
+
+Arthur Brown
+    
+ “Seven”
+    
+Nature
+    
+Prophecy)
+
+Zodiac Youth
+    
+ “Bummed Out In Memphis”
+    
+Carnival Of Souls
+    
+Creation Youth)
+
+Alexander Ortolan
+    
+ “Tidewater”
+    
+Alexander Ortolan
+    
+Bandcamp)
+
+Poppy H
+    
+ “How You Like It/Pheas Phies”
+    
+Digitalis
+    
+Bandcamp)
+
+Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -4762,93 +5042,6 @@ Tags: engineering · how to · Tom Stanton · video]]></summary>
         <summary type="html"><![CDATA[Big swag totes with a DIY option, audacious handmade homes, hiking-sandal excellence, beautiful Philly melodies & more]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[alchemy-utils 0.1a1]]></title>
-        <id>https://simonwillison.net/2026/Aug/13/alchemy-utils/</id>
-        <link href="https://simonwillison.net/2026/Aug/13/alchemy-utils/"/>
-        <updated>2026-08-13T03:03:17.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/alchemy-utils/releases/tag/0.1a1">alchemy-utils 0.1a1</a></p>
-        <p>Performance boost for DuckDB exports and CSV imports, <a href="https://simonwillison.net/2026/Aug/12/alchemy-utils/">see here</a>.</p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[RODEN] Blood Robots For You and You and You]]></title>
-        <id>https://craigmod.com/roden/117/</id>
-        <link href="https://craigmod.com/roden/117/"/>
-        <updated>2026-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Roden Readers —
-OK, so I need to retract something from the previous Roden sent just a couple weeks back. The weather in Japan, in AUGUST, has been … SOMEWHAT SANE? A series of typhoons — some glancing off Japan, others smacking it — has dropped the humidity, made temperatures livable, and cooled the evenings. Well, at least for a few days. We’ll see what torment next week brings. But: just making note of this miraculous Summer Weather Development. (Meanwhile, Europe broils.)]]></summary>
-        <author>
-            <name>Craig Mod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raytheon University]]></title>
-        <id>https://disjunctionsmag.com/articles/raytheon-university</id>
-        <link href="https://disjunctionsmag.com/articles/raytheon-university"/>
-        <updated>2026-08-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[University funding agreement for Raytheon sponsored research: IP-011 (10/22)]]></summary>
-        <author>
-            <name>Disjunctions Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek V4 Pro 0813 (on OpenRouter)]]></title>
-        <id>https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/</id>
-        <link href="https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"/>
-        <updated>2026-08-12T23:59:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek V4 Pro 0813 (on OpenRouter)</a></strong></p>
-The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.</p>
-<p>I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro</a> and July's <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/DeepSeek-V4-Flash-0731</a> it seems likely.</p>
-<p>Interestingly I got <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fc1108a380593547c2def5863bca63160"><em>very</em> different looking pelicans</a> for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model:</p>
-<p>Low:</p>
-<p><img alt="Flat vector illustration of a white pelican with a large orange beak, wearing a straw hat with an orange band, riding a teal road bicycle in profile, set against a pale cream circle with a dashed outline and small motion marks trailing behind." src="https://static.simonwillison.net/static/2026/deepseek-pro-low.png" /></p>
-<p>Medium:</p>
-<p><img alt="A similar cartoon pelican cycling, drawn in a looser outlined style: the bird's body is mostly white line art, its orange beak pouch hangs open under a yellow cap, a long red tongue streams backwards towards a yellow sun, and a small blue fish sits on a tray by the handlebars of a green bicycle whose wheels are drawn as broken yellow arcs." src="https://static.simonwillison.net/static/2026/deepseek-pro-medium.png" /></p>
-<p>High:</p>
-<p><img alt="The pelican again, this time on a red bicycle against a pale blue background, with a bright yellow beak and pouch, a purple pennant flag on the back, a wicker front basket holding a small fish, and black musical notes floating in the top right corner." src="https://static.simonwillison.net/static/2026/deepseek-pro-high.png" /></p>
-<p>In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vmi0fg/removed_by_moderator/">a post on Reddit</a> which was deleted by the moderators for being "low-effort", then copied into <a href="https://news.ycombinator.com/item?id=49274600#49275180">this ASCII-art table on Hacker News</a>.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/deepseek">deepseek</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Art of the Copyist]]></title>
-        <id>https://kottke.org/26/08/the-art-of-the-copyist</id>
-        <link href="https://kottke.org/26/08/the-art-of-the-copyist"/>
-        <updated>2026-08-12T20:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Lovely short video about artist Jas Knight, who is a participant in the Met Museum’s Copyist Program:
-The Copyist Program offers time and space for artists to develop their own interpretation of an artwork through intimate study in the Museum’s galleries. Copyists have created reinterpretations of original artworks in The Met collection since 1872.
-
-	
-Here’s Knight from the video, in which he is copying Diego Velázquez’s Juan de Pareja:
-Almost every artist was a copyist up until the 20th century because as a painter you would go through certain exercises to learn how to paint. You haven’t begun to see a painting until you’ve copied it.
-
-	
-And I especially liked this bit:
-Velázquez’s brain is on that canvas. So we’re encountering a person’s brain that doesn’t exist anymore when we’re looking at a painting by them. I’m literally interacting with Velázquez.
-
-	
-In a piece about Harold Fisk’s Mississippi meander maps, I wrote about art as a time machine:
-It takes some imagination, but standing before a painting by Hilma af Klint, a sculpture by Bernini, or a cave painting in Chauvet, France draws you back in time in a powerful way: you know you’re standing precisely where those artists stood hundreds or even thousands of years ago, laying paint to surface or chisel to stone. Even experiencing art through prints or photographs leads the mind to consider all the cultural, political, technological, and economic things that were happening when the work was produced. Art is a doorway to past worlds.
-
-	
-You can see Knight’s copy of Velázquez’s Juan de Pareja and compare it with the original. (via the kid should see this)
-
- 
-
-        
-         
-Tags: art · Jas Knight · Met Museum · museums · video]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
