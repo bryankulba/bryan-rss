@@ -242,16 +242,6 @@
           "wordCount": 6857,
           "title": "We Are the Mutants Turns 10",
           "imageUrl": "https://wearethemutants.com/wp-content/uploads/2026/08/watm-fantastic-planet.jpg"
-        },
-        {
-          "id": "http://wearethemutants.com/?p=42210",
-          "author": "K.E. Roberts",
-          "description": "By K.E. Roberts\r\n\r\nThe comic foregrounds Chick’s particularly virulent and extremist brand of Christianity—many of his tracts have been rightly classified as hate speech—and marks a very early foreshadowing of the Satanic Panic of the 1980s and early ‘90s...",
-          "link": "https://wearethemutants.com/2026/08/12/god-hates-hippies-jack-chicks-the-broken-cross/",
-          "publishedOn": "2026-08-12T15:41:33.000Z",
-          "wordCount": 5840,
-          "title": "God Hates Hippies: Jack Chick’s ‘The Broken Cross’",
-          "imageUrl": "https://i0.wp.com/wearethemutants.com/wp-content/uploads/2026/07/broken-cross-featured.jpg?fit=1200%2C641&ssl=1"
         }
       ]
     },
@@ -1109,56 +1099,6 @@
           "wordCount": 1169,
           "title": "The Art of the Copyist",
           "imageUrl": "https://i.ytimg.com/vi/NRjwG1Ru7N8/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049484-heres-how-rockys-musical-",
-          "author": null,
-          "description": "Here’s how Rocky’s musical language from the Project Hail Mary movie was created. The filmmakers didn’t “want it to feel like a human language because he’s supposed to be really more musically communicating”.",
-          "link": "https://kottke.org/26/08/0049484-heres-how-rockys-musical-",
-          "publishedOn": "2026-08-12T20:15:00.000Z",
-          "wordCount": 749,
-          "title": "Here’s how Rocky’s musical language from the Project...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049486-im-done-using-ai",
-          "author": null,
-          "description": "I’m Done Using AI. “It made me lazy. It made me stop caring. It made me a worse programmer. It made me depressed. Because I stopped doing the hard work, I stopped learning, I stopped growing, I stopped being the one making the software.”",
-          "link": "https://kottke.org/26/08/0049486-im-done-using-ai",
-          "publishedOn": "2026-08-12T19:29:00.000Z",
-          "wordCount": 1161,
-          "title": "I&#8217;m Done Using AI . “It made me lazy. It made me...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049470-why-werent-bicycles-inven",
-          "author": null,
-          "description": "Why weren’t bicycles invented sooner? “Why was no one…even considering the question of human-powered vehicles until the 1400s? Why weren’t there bicycle mechanics in the 1300s, when there were clockmakers, or at least by the 1500s, when we had watches?”",
-          "link": "https://kottke.org/26/08/0049470-why-werent-bicycles-inven",
-          "publishedOn": "2026-08-12T18:39:00.000Z",
-          "wordCount": 750,
-          "title": "Why weren&#8217;t bicycles invented sooner?  &#8220;Why...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/death-cab-for-cuties-tiny-desk-concert",
-          "author": null,
-          "description": "Death Cab for Cutie rolled into the NPR offices for a Tiny Desk Concert, which featured two new songs from their current album and some oldies: Title and Registration and Soul Meets Body. Gibbard noted:\nI’m starting to realize that some of our earlier records came out a similar distance away from, like, the Beatles records when I was a kid.\n\n\t\nThis is Death Cab’s second Tiny Desk…here’s the first one from 2015:\n\nI took this as an opportunity to listen to my favorite Death Cab song, Transatlanticism. And when are we getting a Postal Sevice Tiny Desk? Come on, we’ve been good! We need this!\n\n \n\n        \n         \nTags: Death Cab For Cutie · music · Tiny Desk Concerts · video",
-          "link": "https://kottke.org/26/08/death-cab-for-cuties-tiny-desk-concert",
-          "publishedOn": "2026-08-12T17:49:00.000Z",
-          "wordCount": 836,
-          "title": "Death Cab for Cutie&#8217;s Tiny Desk Concert",
-          "imageUrl": "https://i.ytimg.com/vi/swh0_M0rRPQ/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049481-temperature-zero-for-cult",
-          "author": null,
-          "description": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same. “A recommender that’s a mediocre predictor of what you’d love in a rich, diverse world becomes an excellent predictor of what you’ll click in the impoverished one it creates.”",
-          "link": "https://kottke.org/26/08/0049481-temperature-zero-for-cult",
-          "publishedOn": "2026-08-12T15:19:00.000Z",
-          "wordCount": 774,
-          "title": "Temperature Zero for Culture: Why Everything Is Starting...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2167,6 +2107,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette 1.0a39 and 0.65.4 security releases</a></strong></p>\nToday we're releasing two new security patch versions of Datasette: <a href=\"https://docs.datasette.io/en/latest/changelog.html#v1-0-a39\">1.0a39</a> and <a href=\"https://docs.datasette.io/en/stable/changelog.html#v0-65-4\">0.65.4</a> - one for the current alpha series and one for the stable 0.65.x family.</p>\n<p>These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables.</p>\n<p>Following issues reported by <a href=\"https://github.com/jankesec\">Sevban Dönmez</a>, <a href=\"https://alexgarcia.xyz\">Alex Garcia</a> and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes.</p>\n<p>They helped find some <em>very</em> subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward.</p>\n<p>Alex came up with a way of splitting the work which I found extremely productive:</p>\n<blockquote>\n<p>Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/releases\">releases</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+          "publishedOn": "2026-09-11T03:27:16.000Z",
+          "wordCount": 959,
+          "title": "Datasette 1.0a39 and 0.65.4 security releases",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Sep/10/trynix/",
           "author": null,
           "description": "<p><strong><a href=\"https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser\">Any Nix package, live in your browser</a></strong></p>\nFarid Zakaria calls this his \"<em>magnum opus</em> of Nix work\", and I can see why.</p>\n<p><a href=\"https://trynix.dev\">trynix.dev</a> provides a <a href=\"https://github.com/ktock/qemu-wasm\">qemu-wasm</a> powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with <em>any Nix package</em> from the past 13 years. They are URL addressable, so you can navigate to this page:</p>\n<p><a href=\"https://trynix.dev/?pkg=python3%403.6.2\">https://trynix.dev/?pkg=python3%403.6.2</a></p>\n<p>Then click \"Load\" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017.</p>\n<p>Farid is building all sorts of neat things on top of this. One recent example: <a href=\"https://fzakaria.com/2026/09/09/review-a-pull-request-by-booting-it\">Review a pull request by booting it</a> introduces <a href=\"https://github.com/marketplace/actions/trynix-preview\">trynix-preview</a>, described like this:</p>\n<blockquote>\n<p>GitHub action that comments a link on a pull request which lets you boot the PR’s build in the browser using <a href=\"https://trynix.dev/\">https://trynix.dev</a>. No servers, just browsers.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/7lii0g/review_pull_request_by_booting_it\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/code-review\">code-review</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a></p>",
@@ -2894,36 +2844,6 @@
           "publishedOn": "2026-08-12T23:59:23.000Z",
           "wordCount": 903,
           "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a0\">alchemy-utils 0.1a0</a></p>\n        <p>I've long pondered what a database agnostic version of my <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a> Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:</p>\n<blockquote>\n<p><code>Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines</code></p>\n<p><code>Test against PostgreSQL and SQLite and duckdb</code></p>\n<p><code>Use ~/dev/sqlite-utils for reference</code></p>\n<p><code>Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work</code></p>\n</blockquote>\n<p>It took <a href=\"https://gist.github.com/simonw/bd10e4886688e0fd1b833e4afaabf19e\">very few follow-up prompts</a> to produce this project in a state good enough to release as an alpha.</p>\n<p>Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database:</p>\n<p><code>uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog'  redirects_redirect</code></p>\n<p>The output from that starts like this:</p>\n<pre><code>[\n  {\n    \"id\": 2328,\n    \"domain\": \"simonwillison.net\",\n    \"path\": \"2020/May/21/apple-photos-sqlite/\",\n    \"target\": \"/2020/May/21/dogsheep-photos/\",\n    \"created\": \"2020-05-21T13:03:46.591692-07:00\"\n  },\n  {\n    \"id\": 3,\n    \"domain\": \"feeds.simonwillison.net\",\n    \"path\": \"swn-links\",\n    \"target\": \"https://simonwillison.net/atom/links/\",\n    \"created\": \"2017-10-01T14:12:54.820729-07:00\"\n  }\n</code></pre>\n<p>Or if you'd like a DuckDB database with <a href=\"https://github.com/simonw/sf-tree-history/blob/main/Street_Tree_List.csv\">every tree in San Francisco</a>, schema created automatically to match the file:</p>\n<p><code>curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv</code></p>\n<p>(That one took nearly an hour the first time I ran it, so I <a href=\"https://github.com/simonw/alchemy-utils/commit/e3b8d03e040867b256aeff7db322a0b0eb1f8b06\">had Codex optimize it</a> and got it down to around 35 seconds.)</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/databases\">databases</a>, <a href=\"https://simonwillison.net/tags/postgresql\">postgresql</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/sqlalchemy\">sqlalchemy</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/duckdb\">duckdb</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-          "publishedOn": "2026-08-12T19:51:30.000Z",
-          "wordCount": 1049,
-          "title": "alchemy-utils 0.1a0",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
-          "author": null,
-          "description": "<blockquote cite=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p>\n<p>You go talk to the person who worked on this feature.</p>\n<p>\"So where does the data come from?\"</p>\n<p>\"Hmm... actually I don't know. Let me ask Claude.\"</p>\n<p>You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]</p>\n<p>This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\">Florian Herrengt</a>, AI is removing the middle class of software engineering</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
-          "publishedOn": "2026-08-12T15:08:47.000Z",
-          "wordCount": 864,
-          "title": "Quoting Florian Herrengt",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
-          "author": null,
-          "description": "<blockquote cite=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p>\n<p>You go talk to the person who worked on this feature.</p>\n<p>\"So where does the data come from?\"</p>\n<p>\"Hmm... actually I don't know. Let me ask Claude.\"</p>\n<p>You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]</p>\n<p>This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\">Florian Herrengt</a>, AI is removing the middle class of software engineering</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
-          "publishedOn": "2026-08-12T15:08:47.000Z",
-          "wordCount": 864,
-          "title": "Quoting Florian Herrengt",
           "imageUrl": null
         }
       ]

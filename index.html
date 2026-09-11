@@ -35,6 +35,32 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/datasette-security/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T03:27:16.000Z">2026-09-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/datasette-security/" target="_blank" rel="noopener noreferrer">Datasette 1.0a39 and 0.65.4 security releases</a>
+          </h2>
+          <p class="feed-item__desc">Datasette 1.0a39 and 0.65.4 security releases
+1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family.
+These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables.
+Following issues reported by Sevban Dönmez, Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes.
+They helped find some very subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward.
+Alex came up with a way of splitting the work which I found extremely productive:
+Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models.
+Tags: releases, security, ai, datasette, generative-ai, llms, agentic-engineering, ai-security-research</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/datasette-security/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/datasette-security/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/09/0049572-vc-isnt-vc-anymore-unders">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-11T01:58:00.000Z">2026-09-10</time>
@@ -8066,242 +8092,6 @@ Tags: art · Jas Knight · Met Museum · museums · video</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://i.ytimg.com/vi/NRjwG1Ru7N8/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049484-heres-how-rockys-musical-">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T20:15:00.000Z">2026-08-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049484-heres-how-rockys-musical-" target="_blank" rel="noopener noreferrer">Here’s how Rocky’s musical language from the Project...</a>
-          </h2>
-          <p class="feed-item__desc">Here’s how Rocky’s musical language from the Project Hail Mary movie was created. The filmmakers didn’t “want it to feel like a human language because he’s supposed to be really more musically communicating”.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049484-heres-how-rockys-musical-" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049484-heres-how-rockys-musical-">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/12/alchemy-utils/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T19:51:30.000Z">2026-08-12</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/12/alchemy-utils/" target="_blank" rel="noopener noreferrer">alchemy-utils 0.1a0</a>
-          </h2>
-          <p class="feed-item__desc">Release: alchemy-utils 0.1a0
-I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:
-Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines
-Test against PostgreSQL and SQLite and duckdb
-Use ~/dev/sqlite-utils for reference
-Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work
-It took very few follow-up prompts to produce this project in a state good enough to release as an alpha.
-Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database:
-uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog'  redirects_redirect
-The output from that starts like this:
-[
-  {
-    "id": 2328,
-    "domain": "simonwillison.net",
-    "path": "2020/May/21/apple-photos-sqlite/",
-    "target": "/2020/May/21/dogsheep-photos/",
-    "created": "2020-05-21T13:03:46.591692-07:00"
-  },
-  {
-    "id": 3,
-    "domain": "feeds.simonwillison.net",
-    "path": "swn-links",
-    "target": "https://simonwillison.net/atom/links/",
-    "created": "2017-10-01T14:12:54.820729-07:00"
-  }
-
-Or if you'd like a DuckDB database with every tree in San Francisco, schema created automatically to match the file:
-curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv
-(That one took nearly an hour the first time I ran it, so I had Codex optimize it and got it down to around 35 seconds.)
-Tags: databases, postgresql, projects, python, sql, sqlalchemy, sqlite, sqlite-utils, duckdb, coding-agents, codex</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/12/alchemy-utils/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/12/alchemy-utils/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049486-im-done-using-ai">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T19:29:00.000Z">2026-08-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049486-im-done-using-ai" target="_blank" rel="noopener noreferrer">I’m Done Using AI . “It made me lazy. It made me...</a>
-          </h2>
-          <p class="feed-item__desc">I’m Done Using AI. “It made me lazy. It made me stop caring. It made me a worse programmer. It made me depressed. Because I stopped doing the hard work, I stopped learning, I stopped growing, I stopped being the one making the software.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049486-im-done-using-ai" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049486-im-done-using-ai">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049470-why-werent-bicycles-inven">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T18:39:00.000Z">2026-08-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049470-why-werent-bicycles-inven" target="_blank" rel="noopener noreferrer">Why weren’t bicycles invented sooner?  “Why...</a>
-          </h2>
-          <p class="feed-item__desc">Why weren’t bicycles invented sooner? “Why was no one…even considering the question of human-powered vehicles until the 1400s? Why weren’t there bicycle mechanics in the 1300s, when there were clockmakers, or at least by the 1500s, when we had watches?”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049470-why-werent-bicycles-inven" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049470-why-werent-bicycles-inven">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/death-cab-for-cuties-tiny-desk-concert">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T17:49:00.000Z">2026-08-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/death-cab-for-cuties-tiny-desk-concert" target="_blank" rel="noopener noreferrer">Death Cab for Cutie’s Tiny Desk Concert</a>
-          </h2>
-          <p class="feed-item__desc">Death Cab for Cutie rolled into the NPR offices for a Tiny Desk Concert, which featured two new songs from their current album and some oldies: Title and Registration and Soul Meets Body. Gibbard noted:
-I’m starting to realize that some of our earlier records came out a similar distance away from, like, the Beatles records when I was a kid.
-
-	
-This is Death Cab’s second Tiny Desk…here’s the first one from 2015:
-
-I took this as an opportunity to listen to my favorite Death Cab song, Transatlanticism. And when are we getting a Postal Sevice Tiny Desk? Come on, we’ve been good! We need this!
-
- 
-
-        
-         
-Tags: Death Cab For Cutie · music · Tiny Desk Concerts · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/death-cab-for-cuties-tiny-desk-concert" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/death-cab-for-cuties-tiny-desk-concert">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/swh0_M0rRPQ/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="http://wearethemutants.com/?p&#x3D;42210">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T15:41:33.000Z">2026-08-12</time>
-        <span class="feed-item__source">We Are the Mutants</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://wearethemutants.com/2026/08/12/god-hates-hippies-jack-chicks-the-broken-cross/" target="_blank" rel="noopener noreferrer">God Hates Hippies: Jack Chick’s ‘The Broken Cross’</a>
-          </h2>
-          <p class="feed-item__desc">By K.E. Roberts
-
-The comic foregrounds Chick’s particularly virulent and extremist brand of Christianity—many of his tracts have been rightly classified as hate speech—and marks a very early foreshadowing of the Satanic Panic of the 1980s and early ‘90s...</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="http://wearethemutants.com/?p&#x3D;42210" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="http://wearethemutants.com/?p&#x3D;42210">Mark read</button>
-            <span class="feed-item__reading-time">19 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i0.wp.com/wearethemutants.com/wp-content/uploads/2026/07/broken-cross-featured.jpg?fit&#x3D;1200%2C641&amp;ssl&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049481-temperature-zero-for-cult">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T15:19:00.000Z">2026-08-12</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049481-temperature-zero-for-cult" target="_blank" rel="noopener noreferrer">Temperature Zero for Culture: Why Everything Is Starting...</a>
-          </h2>
-          <p class="feed-item__desc">Temperature Zero for Culture: Why Everything Is Starting to Look the Same. “A recommender that’s a mediocre predictor of what you’d love in a rich, diverse world becomes an excellent predictor of what you’ll click in the impoverished one it creates.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049481-temperature-zero-for-cult" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049481-temperature-zero-for-cult">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/12/florian-herrengt/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T15:08:47.000Z">2026-08-12</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/12/florian-herrengt/" target="_blank" rel="noopener noreferrer">Quoting Florian Herrengt</a>
-          </h2>
-          <p class="feed-item__desc">But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.
-You go talk to the person who worked on this feature.
-"So where does the data come from?"
-"Hmm... actually I don't know. Let me ask Claude."
-You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]
-This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.
-
-— Florian Herrengt, AI is removing the middle class of software engineering
-Tags: ai-misuse, cognitive-debt, generative-ai, ai, llms, ai-assisted-programming</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/12/florian-herrengt/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/12/florian-herrengt/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-12T15:08:47.000Z">2026-08-12</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything" target="_blank" rel="noopener noreferrer">Quoting Florian Herrengt</a>
-          </h2>
-          <p class="feed-item__desc">But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.
-You go talk to the person who worked on this feature.
-"So where does the data come from?"
-"Hmm... actually I don't know. Let me ask Claude."
-You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...]
-This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on.
-
-— Florian Herrengt, AI is removing the middle class of software engineering
-Tags: ai-misuse, cognitive-debt, generative-ai, ai, llms, ai-assisted-programming</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
         </div>
       </div>
     </article>
