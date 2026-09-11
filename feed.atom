@@ -2,10 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-10T22:14:44.806Z</updated>
+    <updated>2026-09-11T02:56:17.169Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VC Isn’t VC Anymore — Understanding the Rise of Cancer...]]></title>
+        <id>https://kottke.org/26/09/0049572-vc-isnt-vc-anymore-unders</id>
+        <link href="https://kottke.org/26/09/0049572-vc-isnt-vc-anymore-unders"/>
+        <updated>2026-09-11T01:58:00.000Z</updated>
+        <summary type="html"><![CDATA[VC Isn’t VC Anymore — Understanding the Rise of Cancer Capital. “We must understand that it is no longer a financial machine that is used to fund startups, but a political and social machine focused on dismantling democracy and civil society.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Simpsons Switcheroo]]></title>
+        <id>https://kottke.org/26/09/the-simpsons-switcheroo</id>
+        <link href="https://kottke.org/26/09/the-simpsons-switcheroo"/>
+        <updated>2026-09-11T01:15:00.000Z</updated>
+        <summary type="html"><![CDATA[At the beginning of a clip from this podcast episode of Conan O’Brien Needs a Friend with Matt Groening, Conan talks about one of his favorite things they did on The Simpsons:
+It’s a phenomenon that the Simpsons did so beautifully, which is — and we did this with Homer a lot — but Homer is not the smartest guy in the world, but if it’s funny for him to have a certain knowledge of something or turn a phrase, suddenly he has it.
+And one of my favorites of that is he’s sitting around the table and Lisa’s despondent. Something didn’t go well for her and she doesn’t think she’s going to get to go to a good school now. And she’s sitting at the table and she said, “Oh no, now I’ll never get to go to an Ivy League school. I’ll have to go to Vasser.” Which is just this like — by the way, my wife went to Vasser, it’s a very good school. But it was just this thing where in Lisa’s little world, oh my god, I’ve been I’ve been ruined. I’ll have to go to Vasser. And Homer like slams a table and says, “There’ll be no Vasser bashing in this house.”
+
+	
+I loved this about the show too. And it was part of a general thing the writers did where sometimes characters would play against type. So Marge became reckless, Homer was smart/sensitive, Bart was organized, and Lisa was a giggly little girl. Those moments helped make the show and when, after the epic run in the early-to-mid 90s, the show became almost exclusively about how dumb & crass Homer was, it was much less rich and entertaining. (thx, mark)
+
+ 
+
+        
+         
+Tags: Conan O'Brien · Matt Groening · podcasts · The Simpsons · TV · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; Gimme  is a dazzling ever-growing type family of...]]></title>
+        <id>https://kottke.org/26/09/0049571-gimme</id>
+        <link href="https://kottke.org/26/09/0049571-gimme"/>
+        <updated>2026-09-11T00:35:00.000Z</updated>
+        <summary type="html"><![CDATA[“Gimme is a dazzling ever-growing type family of multi-chromatic and variable display typefaces…” This is bonkers…letters made from Battleship pieces, Connect Four boards, playing cards, wooden railroad tracks, etc.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bring Blockbuster Video back to your town/city by...]]></title>
+        <id>https://kottke.org/26/09/0049567-setting-up-a-little-free-</id>
+        <link href="https://kottke.org/26/09/0049567-setting-up-a-little-free-"/>
+        <updated>2026-09-10T23:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Bring Blockbuster Video back to your town/city by setting up a little free library of VHS tapes & DVDs. “Take a movie, leave a movie.” Love this.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Any Nix package, live in your browser]]></title>
+        <id>https://simonwillison.net/2026/Sep/10/trynix/</id>
+        <link href="https://simonwillison.net/2026/Sep/10/trynix/"/>
+        <updated>2026-09-10T23:44:15.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser">Any Nix package, live in your browser</a></strong></p>
+Farid Zakaria calls this his "<em>magnum opus</em> of Nix work", and I can see why.</p>
+<p><a href="https://trynix.dev">trynix.dev</a> provides a <a href="https://github.com/ktock/qemu-wasm">qemu-wasm</a> powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with <em>any Nix package</em> from the past 13 years. They are URL addressable, so you can navigate to this page:</p>
+<p><a href="https://trynix.dev/?pkg=python3%403.6.2">https://trynix.dev/?pkg=python3%403.6.2</a></p>
+<p>Then click "Load" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017.</p>
+<p>Farid is building all sorts of neat things on top of this. One recent example: <a href="https://fzakaria.com/2026/09/09/review-a-pull-request-by-booting-it">Review a pull request by booting it</a> introduces <a href="https://github.com/marketplace/actions/trynix-preview">trynix-preview</a>, described like this:</p>
+<blockquote>
+<p>GitHub action that comments a link on a pull request which lets you boot the PR’s build in the browser using <a href="https://trynix.dev/">https://trynix.dev</a>. No servers, just browsers.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://lobste.rs/s/7lii0g/review_pull_request_by_booting_it">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/code-review">code-review</a>, <a href="https://simonwillison.net/tags/linux">linux</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/github-actions">github-actions</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gloria Steinem’s final essay , posthumously published by...]]></title>
+        <id>https://kottke.org/26/09/0049566-gloria-steinems-final-ess</id>
+        <link href="https://kottke.org/26/09/0049566-gloria-steinems-final-ess"/>
+        <updated>2026-09-10T22:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Gloria Steinem’s final essay, posthumously published by the New Yorker. “When you’re lucky enough to have lived a long life, as I have done, your role as an older person is to remind us how far we have come.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL that  my iPhone has a tiny bit of water in i t (for...]]></title>
+        <id>https://kottke.org/26/09/0049563-my-iphone-has-a-tiny-bit-</id>
+        <link href="https://kottke.org/26/09/0049563-my-iphone-has-a-tiny-bit-"/>
+        <updated>2026-09-10T22:15:00.000Z</updated>
+        <summary type="html"><![CDATA[TIL that my iPhone has a tiny bit of water in it (for cooling).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Teaser trailer for Musk , a 3h45m-long documentary film...]]></title>
         <id>https://kottke.org/26/09/0049564-teaser-trailer-for-musk</id>
@@ -4887,63 +4981,6 @@ The comic foregrounds Chick’s particularly virulent and extremist brand of Chr
     <p>Tags: <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/cognitive-debt">cognitive-debt</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Graduate Student Proves a Quantum Uncertainty Principle for Fractals]]></title>
-        <id>https://www.quantamagazine.org/?p=165661</id>
-        <link href="https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/"/>
-        <updated>2026-08-12T14:14:42.000Z</updated>
-        <summary type="html"><![CDATA[The math, which combines chaos, quantum theory, and infinitely complex fractal structures, has been called a “foundational result.”             
-The post Graduate Student Proves a Quantum Uncertainty Principle for Fractals first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Shalma Wegsman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Collection of Eclipse Glasses (1793-2019)]]></title>
-        <id>https://kottke.org/26/08/a-collection-of-eclipse-glasses-1793-2019</id>
-        <link href="https://kottke.org/26/08/a-collection-of-eclipse-glasses-1793-2019"/>
-        <updated>2026-08-12T14:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Oh wow, Williams College’s Hopkins Observatory has a huge collection of eclipse glasses & viewers (and other eclipse ephemera), some of them dating back to 1793. Here are a few of my favorites:
-
-
-
-
-
-
-
-
-
-(via present & correct)
-
- 
-
-        
-         
-Tags: design · eclipses]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stories that the authors of the Bible borrowed from...]]></title>
-        <id>https://kottke.org/26/08/0049479-stories-that-the-authors-</id>
-        <link href="https://kottke.org/26/08/0049479-stories-that-the-authors-"/>
-        <updated>2026-08-12T13:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Stories that the authors of the Bible borrowed from other cultures and religions, including the flood myth, the Garden of Eden, etc. I learned about these in a religion & mythology class in college, which cemented my atheism.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[12aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18823</id>
-        <link href="https://warrenellis.ltd/status/12aug26/"/>
-        <updated>2026-08-12T10:43:45.000Z</updated>
-        <summary type="html"><![CDATA[Spent last night reading a stack of issues of the TIMES LITERARY SUPPLEMENT that had piled up over the last few months. As I said…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
