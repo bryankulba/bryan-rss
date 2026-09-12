@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-12T14:57:38.983Z</updated>
+    <updated>2026-09-12T18:04:25.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Paul Ford]]></title>
+        <id>https://simonwillison.net/2026/Sep/12/paul-ford/</id>
+        <link href="https://simonwillison.net/2026/Sep/12/paul-ford/"/>
+        <updated>2026-09-12T18:00:21.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html"><p>For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html">Paul Ford</a>, A.I. Was Supposed to Give Us New Killer Apps. What Happened?</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/paul-ford">paul-ford</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: LLMs are real, AI is fake (12 Sep 2026)]]></title>
         <id>https://pluralistic.net/?p=13281</id>
