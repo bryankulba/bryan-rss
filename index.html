@@ -35,6 +35,90 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-12T00:42:25.000Z">2026-09-11</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/" target="_blank" rel="noopener noreferrer">OpenAI agents attacked RubyGems back in May</a>
+          </h2>
+          <p class="feed-item__desc">OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis (previously) last week.
+
+This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th by Maciej Mensfeld of the RubyGems security team:
+
+
+We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being.
+
+Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it.
+
+
+Those packages turned out to carry some very suspicious patterns:
+
+
+Many of them included "oai" in their name, or the author field, or the fake email address they provided.
+
+The files they were accessing were similar in character to the files retrieved by the wiki agents, using similar tricks (r.jina.ai) - and OpenAI have confirmed the wiki agents were theirs.
+
+The code in the packages appeared to be LLM-authored.
+
+
+I find point 2 the most convincing, given what we learned from the wiki attack when it was analyzed in September.
+
+Many of the packages were exploiting the RubyDoc.info documentation build process to exfiltrate (public) data from UK government websites, presumably as part of an information gathering task similar to the research tasks processed by the wiki-exploiting agents. We know this because one agent helpfully left a comment:
+
+# malicious crawler/exfil for Southwark Jan 2026 docs via rubydoc.info worker
+
+They also attempted to steal API keys via an exploit that was patched over two months later - it's not clear if those attempts were successful.
+
+The thing that bothers me most about this incident is that the authors report that OpenAI had not disclosed to RubyGems that they were responsible for the attack prior to now. If that's true there are two options:
+
+
+After the Hugging Face and Wiki attacks OpenAI were still unable to review their previous logs and determine that they had previously attacked RubyGems.
+
+They knew about the attack on RubyGems and made the decision not to reach out to the RubyGems team about it.
+
+
+Both of these are bad!
+
+Given this incident, the Hugging Face situation, and the Wiki attack, the obvious question right now is how many more incidents like this are out there waiting to be discovered?
+Tags: ruby, security, ai, openai, generative-ai, llms, supply-chain, ai-ethics, accidental-cyberattacks</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T22:49:18.000Z">2026-09-11</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/" target="_blank" rel="noopener noreferrer">So you want to use OpenRouter?</a>
+          </h2>
+          <p class="feed-item__desc">So you want to use OpenRouter?
+Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different serving software with different optimizations and settings, which means that the same OpenRouter endpoint can serve model requests that behave in different ways.
+Some providers even lack vision capability for vision models, and the way the reasoning effort option is processed can differ as well.
+Thankfully you can control which provider is routed to using the provider.only option. The /endpoints method returns the list of available providers for a specific model ID.
+
+    
+Via Hacker News
+Tags: ai, generative-ai, llms, openrouter</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/09/0049562-neat-little-prototype-dem">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-11T17:50:00.000Z">2026-09-11</time>
@@ -71,6 +155,31 @@ Tags: claude, ai, claude-code, llms, coding-agents, ai-assisted-programming, gen
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/boris-cherny/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/boris-cherny/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T17:28:37.000Z">2026-09-11</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/" target="_blank" rel="noopener noreferrer">Feeling sad about AI</a>
+          </h2>
+          <p class="feed-item__desc">My comment on Feeling sad about AI — Hacker News.
+I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side.
+The initial reaction, when some coding agent does a piece of work that would have taken you a week in an hour and does it well, is to be very disheartened by it.
+Once you come to terms with the idea that translating an exact specification into decent code isn't a unique skill any more, you can start looking at the larger set of problems that you face as a software engineer and realize that there is so much left, and your existing skill and experience mean you can master these new tools, provide value, and execute at a level far greater than anyone who is just getting started building software using agents without any of your depth.
+If you don't want your profession to change at all then you're going to have a tough time with this - but that's surely been true for the history of software engineering? Has there ever been any stability to the tools and language we use beyond about a five year time horizon?
+These changes are happening a bit faster, but if you chose software development as a passion you've opted into pretty frequent radical change from the start.
+Tags: ai, generative-ai, llms, deep-blue</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
@@ -371,6 +480,29 @@ Tags: releases, security, ai, datasette, generative-ai, llms, agentic-engineerin
         </div>
       </div>
     </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/datasette-publish-fly/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T02:58:52.000Z">2026-09-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/datasette-publish-fly/" target="_blank" rel="noopener noreferrer">datasette-publish-fly 1.4</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-publish-fly 1.4
+Sets force_https=true in fly.toml. #31
+Fix for Volume could not be found bug. #32
+Compatible with app-scoped deploy tokens. #34
+Tags: datasette, fly</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/datasette-publish-fly/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/datasette-publish-fly/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/09/0049572-vc-isnt-vc-anymore-unders">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-11T01:58:00.000Z">2026-09-10</time>
@@ -438,6 +570,69 @@ Tags: Conan O'Brien · Matt Groening · podcasts · The Simpsons · TV · video<
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049571-gimme" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049571-gimme">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/github-to-sqlite/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T00:28:39.000Z">2026-09-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/github-to-sqlite/" target="_blank" rel="noopener noreferrer">github-to-sqlite 2.9.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: github-to-sqlite 2.9.1
+Fix for compatibility with sqlite-utils 4.x. #85
+Tags: github, sqlite</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/github-to-sqlite/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/github-to-sqlite/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/datasette/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T00:06:55.000Z">2026-09-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/datasette/" target="_blank" rel="noopener noreferrer">datasette 0.65.4</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 0.65.4
+See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog.
+Tags: security, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/datasette/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/datasette/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/11/datasette-2/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-11T00:05:54.000Z">2026-09-10</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/11/datasette-2/" target="_blank" rel="noopener noreferrer">datasette 1.0a39</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 1.0a39
+See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog.
+Tags: security, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/11/datasette-2/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/11/datasette-2/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
           </div>
         </div>
       </div>
@@ -8323,109 +8518,6 @@ Tags: engineering · how to · Tom Stanton · video</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049489-eigendrum">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T14:59:00.000Z">2026-08-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g" target="_blank" rel="noopener noreferrer">G.P.S. and the Lost Art of Getting Lost . “G.P.S....</a>
-          </h2>
-          <p class="feed-item__desc">G.P.S. and the Lost Art of Getting Lost. “G.P.S. has also led us to outsource existential skills: locating yourself in space, parsing out your surroundings, staying calm when you don’t know where you are. Do we lose something when we no longer get lost?”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g">Mark read</button>
-            <span class="feed-item__reading-time">6 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18825">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T13:56:20.000Z">2026-08-13</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/13aug26/" target="_blank" rel="noopener noreferrer">13aug26</a>
-          </h2>
-          <p class="feed-item__desc">We stood outside on the street and watched the eclipse. We were the only ones out there. It was glorious. That moment when there’s a…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18825" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18825">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1785-scaled.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049485-are-being-solved-by-llms">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T13:55:00.000Z">2026-08-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049485-are-being-solved-by-llms" target="_blank" rel="noopener noreferrer">Some of the most storied problems in mathematics, those...</a>
-          </h2>
-          <p class="feed-item__desc">Some of the most storied problems in mathematics, those posed by Paul Erdős, are being solved by LLMs.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049485-are-being-solved-by-llms" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049485-are-being-solved-by-llms">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://brucesterling.tumblr.com/post/824831391994871808">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T11:28:33.000Z">2026-08-13</time>
-        <span class="feed-item__source">BruceS</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://brucesterling.tumblr.com/post/824831391994871808" target="_blank" rel="noopener noreferrer">Untitled</a>
-          </h2>
-          <p class="feed-item__desc">*The IBM PC is 45 years old.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/824831391994871808" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/824831391994871808">Mark read</button>
-            <span class="feed-item__reading-time">6 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://64.media.tumblr.com/851da4aef7312dae54a885a820e871a7/aa062856402334de-9d/s1280x1920/5d00d460616e2f6cb678340a025983f1283dd05d.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T11:03:28.000Z">2026-08-13</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies" target="_blank" rel="noopener noreferrer">Drop out, chune in</a>
-          </h2>
-          <p class="feed-item__desc">Big swag totes with a DIY option, audacious handmade homes, hiking-sandal excellence, beautiful Philly melodies & more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!bQ_C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb233d997-a9c5-4df9-938d-da3972a083c2_1833x2393.png" alt="" loading="lazy">
         </div>
       </div>
     </article>

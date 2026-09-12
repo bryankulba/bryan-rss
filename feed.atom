@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-11T22:14:11.332Z</updated>
+    <updated>2026-09-12T03:02:55.319Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenAI agents attacked RubyGems back in May]]></title>
+        <id>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</id>
+        <link href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"/>
+        <updated>2026-09-12T00:42:25.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://www.rubyhack.ai/">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the <a href="https://collusion.wiki/">report on the agent attack on disused wikis</a> (<a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/">previously</a>) last week.</p>
+<p>This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th <a href="https://twitter.com/maciejmensfeld/status/2054164602577940619">by Maciej Mensfeld of the RubyGems security team</a>:</p>
+<blockquote>
+<p>We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being.</p>
+<p>Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it.</p>
+</blockquote>
+<p>Those packages turned out to carry some very suspicious patterns:</p>
+<ol>
+<li>Many of them included "oai" in their name, or the author field, or the fake email address they provided.</li>
+<li>The files they were accessing were similar in character to the files retrieved by the wiki agents, using similar tricks (r.jina.ai) - and OpenAI have confirmed the wiki agents were theirs.</li>
+<li>The code in the packages appeared to be LLM-authored.</li>
+</ol>
+<p>I find point 2 the most convincing, given what we learned from the wiki attack when it was analyzed in September.</p>
+<p>Many of the packages were exploiting the <a href="https://rubydoc.info/">RubyDoc.info</a> documentation build process to exfiltrate (public) data from UK government websites, presumably as part of an information gathering task similar to the research tasks processed by the wiki-exploiting agents. We know this because one agent helpfully left a comment:</p>
+<p><code># malicious crawler/exfil for Southwark Jan 2026 docs via rubydoc.info worker</code></p>
+<p>They also attempted to steal API keys via an exploit that <a href="https://blog.rubygems.org/2026/07/22/security-advisory-legacy-api-key-leak.html">was patched over two months later</a> - it's not clear if those attempts were successful.</p>
+<p>The thing that bothers me most about this incident is that the authors report that OpenAI had not disclosed to RubyGems that they were responsible for the attack prior to now. If that's true there are two options:</p>
+<ol>
+<li>After the Hugging Face and Wiki attacks OpenAI were still unable to review their previous logs and determine that they had previously attacked RubyGems.</li>
+<li>They knew about the attack on RubyGems and made the decision <em>not</em> to reach out to the RubyGems team about it.</li>
+</ol>
+<p>Both of these are bad!</p>
+<p>Given this incident, the <a href="https://simonwillison.net/2026/Jul/22/openai-cyberattack/">Hugging Face situation</a>, and the Wiki attack, the obvious question right now is <em>how many more incidents</em> like this are out there waiting to be discovered?</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ruby">ruby</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/supply-chain">supply-chain</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So you want to use OpenRouter?]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/"/>
+        <updated>2026-09-11T22:49:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://mmoustafa.com/blog/so-you-want-to-use-openrouter/">So you want to use OpenRouter?</a></strong></p>
+One of OpenRouter's selling points is that it "handles fallbacks automatically and picks the most cost-effective option for each request", so you can call a single API endpoint for a model and get routed to the best available backend provider.</p>
+<p>Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different serving software with different optimizations and settings, which means that the same OpenRouter endpoint can serve model requests that behave in different ways.</p>
+<p>Some providers even lack vision capability for vision models, and the way the reasoning effort option is processed can differ as well.</p>
+<p>Thankfully you can control which provider is routed to using <a href="https://openrouter.ai/docs/guides/routing/provider-selection#allowing-only-specific-providers">the provider.only option</a>. The <a href="https://openrouter.ai/docs/api/api-reference/endpoints/list-all-endpoints-for-a-model">/endpoints method</a> returns the list of available providers for a specific model ID.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49621546">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Neat little prototype demo  of a Bluesky reader that...]]></title>
         <id>https://kottke.org/26/09/0049562-neat-little-prototype-dem</id>
@@ -25,6 +78,23 @@
 <p class="cite">&mdash; <a href="https://twitter.com/bcherny/status/2098217573276131577">Boris Cherny</a></p>
 
     <p>Tags: <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/boris-cherny">boris-cherny</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feeling sad about AI]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/"/>
+        <updated>2026-09-11T17:28:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49661506#49662090">My comment</a> on <a href="https://news.ycombinator.com/item?id=49661506">Feeling sad about AI</a> &mdash; Hacker News.</p><p>I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and come out the other side.</p>
+<p>The initial reaction, when some coding agent does a piece of work that would have taken you a week in an hour and does it <em>well</em>, is to be very disheartened by it.</p>
+<p>Once you come to terms with the idea that translating an exact specification into decent code isn't a unique skill any more, you can start looking at the larger set of problems that you face as a software engineer and realize that there is <em>so much left</em>, and your existing skill and experience mean you can master these new tools, provide value, and execute at a level far greater than anyone who is just getting started building software using agents without any of your depth.</p>
+<p>If you don't want your profession to change at all then you're going to have a tough time with this - but that's surely been true for the history of software engineering? Has there ever been any stability to the tools and language we use beyond about a five year time horizon?</p>
+<p>These changes are happening a bit faster, but if you chose software development as a passion you've opted into pretty frequent radical change from the start.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -207,6 +277,26 @@ Today we're releasing two new security patch versions of Datasette: <a href="htt
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[datasette-publish-fly 1.4]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/datasette-publish-fly/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/datasette-publish-fly/"/>
+        <updated>2026-09-11T02:58:52.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-publish-fly/releases/tag/1.4">datasette-publish-fly 1.4</a></p>
+        <blockquote>
+<ul>
+<li>Sets <code>force_https=true</code> in <code>fly.toml</code>. <a href="https://github.com/simonw/datasette-publish-fly/issues/31">#31</a></li>
+<li>Fix for Volume could not be found bug. <a href="https://github.com/simonw/datasette-publish-fly/issues/32">#32</a></li>
+<li>Compatible with app-scoped deploy tokens. <a href="https://github.com/simonw/datasette-publish-fly/issues/34">#34</a></li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/fly">fly</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[VC Isn’t VC Anymore — Understanding the Rise of Cancer...]]></title>
         <id>https://kottke.org/26/09/0049572-vc-isnt-vc-anymore-unders</id>
         <link href="https://kottke.org/26/09/0049572-vc-isnt-vc-anymore-unders"/>
@@ -245,6 +335,52 @@ Tags: Conan O'Brien · Matt Groening · podcasts · The Simpsons · TV · video]
         <summary type="html"><![CDATA[“Gimme is a dazzling ever-growing type family of multi-chromatic and variable display typefaces…” This is bonkers…letters made from Battleship pieces, Connect Four boards, playing cards, wooden railroad tracks, etc.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[github-to-sqlite 2.9.1]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/github-to-sqlite/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/github-to-sqlite/"/>
+        <updated>2026-09-11T00:28:39.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/dogsheep/github-to-sqlite/releases/tag/2.9.1">github-to-sqlite 2.9.1</a></p>
+        <blockquote>
+<ul>
+<li>Fix for compatibility with <a href="https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-2">sqlite-utils 4.x</a>. <a href="https://github.com/dogsheep/github-to-sqlite/issues/85">#85</a></li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 0.65.4]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/datasette/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/datasette/"/>
+        <updated>2026-09-11T00:06:55.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/0.65.4">datasette 0.65.4</a></p>
+        <p>See <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette 1.0a39 and 0.65.4 security releases</a> on the Datasette blog.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a39]]></title>
+        <id>https://simonwillison.net/2026/Sep/11/datasette-2/</id>
+        <link href="https://simonwillison.net/2026/Sep/11/datasette-2/"/>
+        <updated>2026-09-11T00:05:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a39">datasette 1.0a39</a></p>
+        <p>See <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette 1.0a39 and 0.65.4 security releases</a> on the Datasette blog.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -5041,56 +5177,6 @@ Tags: engineering · how to · Tom Stanton · video]]></summary>
         <summary type="html"><![CDATA[“Draw any shape and hear it as a drum.” Eigendrum: a drum simulator where you can change the shape of the drum to see how it affects the sound it makes.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[G.P.S. and the Lost Art of Getting Lost . &#8220;G.P.S....]]></title>
-        <id>https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g</id>
-        <link href="https://kottke.org/26/08/0049488-gps-and-the-lost-art-of-g"/>
-        <updated>2026-08-13T14:59:00.000Z</updated>
-        <summary type="html"><![CDATA[G.P.S. and the Lost Art of Getting Lost. “G.P.S. has also led us to outsource existential skills: locating yourself in space, parsing out your surroundings, staying calm when you don’t know where you are. Do we lose something when we no longer get lost?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[13aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18825</id>
-        <link href="https://warrenellis.ltd/status/13aug26/"/>
-        <updated>2026-08-13T13:56:20.000Z</updated>
-        <summary type="html"><![CDATA[We stood outside on the street and watched the eclipse. We were the only ones out there. It was glorious. That moment when there’s a…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some of the most storied problems in mathematics, those...]]></title>
-        <id>https://kottke.org/26/08/0049485-are-being-solved-by-llms</id>
-        <link href="https://kottke.org/26/08/0049485-are-being-solved-by-llms"/>
-        <updated>2026-08-13T13:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Some of the most storied problems in mathematics, those posed by Paul Erdős, are being solved by LLMs.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/824831391994871808</id>
-        <link href="https://brucesterling.tumblr.com/post/824831391994871808"/>
-        <updated>2026-08-13T11:28:33.000Z</updated>
-        <summary type="html"><![CDATA[*The IBM PC is 45 years old.]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drop out, chune in]]></title>
-        <id>https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies</id>
-        <link href="https://www.blackbirdspyplane.com/p/drop-out-chune-in-big-tote-bags-handmade-homes-hiking-sandal-excellence-beautiful-philly-melodies"/>
-        <updated>2026-08-13T11:03:28.000Z</updated>
-        <summary type="html"><![CDATA[Big swag totes with a DIY option, audacious handmade homes, hiking-sandal excellence, beautiful Philly melodies & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
