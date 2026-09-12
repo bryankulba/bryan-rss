@@ -35,6 +35,63 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13281">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-12T11:14:10.000Z">2026-09-12</time>
+        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://pluralistic.net/2026/09/12/god-in-the-box/" target="_blank" rel="noopener noreferrer">Pluralistic: LLMs are real, AI is fake (12 Sep 2026)</a>
+          </h2>
+          <p class="feed-item__desc">Today's links LLMs are real, AI is fake: No, it didn't "go rogue." Hey look at this: Delights to delectate. Object permanence: Why 9/11 Means We Must Support My Politics; Blogs x 9/11; Jimmy Wales v Britannica's EiC; Hollywood astroturfs Australia; Agents v queer YA; Soft landings for dirty cops; Leaked Stingray manual. Upcoming appearances: Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. LLMs are real, AI is fake (permalink) Once you understand the corporate culture of AI "hyperscalers" consists primarily of everyone cooking their brains by locking themselves in the bathroom, holdi…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13281" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13281">Mark read</button>
+            <span class="feed-item__reading-time">14 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/09/12/bald">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-12T09:00:00.000Z">2026-09-12</time>
+        <span class="feed-item__source">Interconnected</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://interconnected.org/home/2026/09/12/bald" target="_blank" rel="noopener noreferrer">The Hollywood ecosystem can support one maybe two bald men at a time</a>
+          </h2>
+          <p class="feed-item__desc">How many Hollywood actors are there?
+I means ones with the combination of
+talent
+can carry a movie for the public
+can be accepted by producers.
+Certainly more than a dozen at any given time. But I’m sure fewer than a thousand, to put an upper bound on it.
+So, to guess, a population around that Dunbar-scale of 150 or a small multiple thereof.
+Of those, I feel like the Hollywood ecosystem can support just one, perhaps two concurrent bald male actors.
+(This statement from observation. But think about it: when a producer goes “we need a bald look for this” you can’t have too many people in the mental Rolodex.)
+Regarding these apex predators: I mean specifically cue-ball bald, not male pattern baldness (which I feel is its own category).
+There was Yul Brynner back in the day.
+Ben Kingsley, Bruce Willis, Vin Diesel.
+Recently: Jason Statham and Patrick Stewart. Dwayne Johnson most recently in the mix. Though they are all aging. 
+BUT:
+I can tell there is currently an open niche because both the Dune 2 bald guy and the Superman bald guy appear to be gunning for it - and neither are actually bald.
+The finch evolves its beak to crack those uneaten seeds.
+Anyway.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/09/12/bald" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/09/12/bald">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://interconnected.org/home/2026/09/12/bald.png?v&#x3D;1" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-12T00:42:25.000Z">2026-09-11</time>
@@ -8255,82 +8312,6 @@ Continue reading →</p>
             <button class="js-favourite btn btn--favourite" data-id="https://webcurios.co.uk/?p&#x3D;1727" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://webcurios.co.uk/?p&#x3D;1727">Mark read</button>
             <span class="feed-item__reading-time">37 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T23:53:47.000Z">2026-08-13</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/" target="_blank" rel="noopener noreferrer">sqlite-utils 4.2.1</a>
-          </h2>
-          <p class="feed-item__desc">Release: sqlite-utils 4.2.1
-Fixes a crashing bug in sqlite-utils 4.2. I'd introduced code that looks like this:
-from typing_extensions import Self
-
-It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group, but when you uvx sqlite-utils directly you don't get those dependencies.
-As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:
-uv run --isolated --no-default-groups sqlite-utils --help
-
-The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependencies they will be ignored for the duration of that uv run command.
-Tags: packaging, python, sqlite-utils, uv</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/cove-feeds/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T23:00:00.000Z">2026-08-13</time>
-        <span class="feed-item__source">Robin Sloan</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.robinsloan.com/lab/cove-feeds/" target="_blank" rel="noopener noreferrer">Dragoncatcher: Look who&#x27;s in the Cove</a>
-          </h2>
-          <p class="feed-item__desc">Oh hello there! Read here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/cove-feeds/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/cove-feeds/">Mark read</button>
-            <span class="feed-item__reading-time">16 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/open-thread-for-august-2026">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-13T20:41:00.000Z">2026-08-13</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/open-thread-for-august-2026" target="_blank" rel="noopener noreferrer">Open Thread for August 2026</a>
-          </h2>
-          <p class="feed-item__desc">We haven’t done an open thread for awhile, so… What have you been working on? How are you feeling? What’s on your mind these days? What’s the best thing you’ve seen this week? Have you called a plumber to your home lately? 
-Are you new here? Introduce yourself if you feel like it. Heck, if you’re a regular commenter, reintroduce yourself if you’d like.
-
- 
-
-        
-         
-Tags: kottke.org · open threads</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/open-thread-for-august-2026" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/open-thread-for-august-2026">Mark read</button>
-            <span class="feed-item__reading-time">15 min read</span>
           </div>
         </div>
       </div>

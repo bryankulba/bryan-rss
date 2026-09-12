@@ -43,6 +43,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/09/12/bald",
+          "author": null,
+          "description": "How many Hollywood actors are there?\nI means ones with the combination of\ntalent\ncan carry a movie for the public\ncan be accepted by producers.\nCertainly more than a dozen at any given time. But I’m sure fewer than a thousand, to put an upper bound on it.\nSo, to guess, a population around that Dunbar-scale of 150 or a small multiple thereof.\nOf those, I feel like the Hollywood ecosystem can support just one, perhaps two concurrent bald male actors.\n(This statement from observation. But think about it: when a producer goes “we need a bald look for this” you can’t have too many people in the mental Rolodex.)\nRegarding these apex predators: I mean specifically cue-ball bald, not male pattern baldness (which I feel is its own category).\nThere was Yul Brynner back in the day.\nBen Kingsley, Bruce Willis, Vin Diesel.\nRecently: Jason Statham and Patrick Stewart. Dwayne Johnson most recently in the mix. Though they are all aging. \nBUT:\nI can tell there is currently an open niche because both the Dune 2 bald guy and the Superman bald guy appear to be gunning for it - and neither are actually bald.\nThe finch evolves its beak to crack those uneaten seeds.\nAnyway.",
+          "link": "https://interconnected.org/home/2026/09/12/bald",
+          "publishedOn": "2026-09-12T09:00:00.000Z",
+          "wordCount": 550,
+          "title": "The Hollywood ecosystem can support one maybe two bald men at a time",
+          "imageUrl": "https://interconnected.org/home/2026/09/12/bald.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/09/04/again",
           "author": null,
           "description": "I watched the trailer for the new Harry Potter TV series on HBO.\nMy overwhelming feeling is that it is so absurdly redundant to make this. Not even reimagined but to cosplay the movies so slavishly… the sets look the same, that same teacher with the same hat and the same Scottish accent…\nTo make the series is a bonfire of human creative effort, think of what could have been done instead.\nI love it, I’m in awe at the endeavour.\nDid you ever watch Teletubbies? There was always a video interlude. Then the Teletubbies would yell \"again again!\" and we’d watch the whole thing again.\nIf he were still alive, Jorge Luis Borges would write about HBO.\nBorges’ short story Pierre Menard, Author of the Quixote (Wikipedia):\nMenard (a French 20th century novelist), after his death, leaves fragments of his…",
@@ -177,16 +187,6 @@
           "publishedOn": "2026-08-14T10:00:00.000Z",
           "wordCount": 4861,
           "title": "Dragoncatcher: Dream Machines revs up",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/cove-feeds/",
-          "author": null,
-          "description": "<p>Oh hello there! <a href=\"https://www.robinsloan.com/lab/cove-feeds/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/cove-feeds/",
-          "publishedOn": "2026-08-13T23:00:00.000Z",
-          "wordCount": 4760,
-          "title": "Dragoncatcher: Look who's in the Cove",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
@@ -1049,16 +1049,6 @@
           "wordCount": 632,
           "title": "Tressie McMillan Cottom on AOC’s presumed presidential...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/open-thread-for-august-2026",
-          "author": null,
-          "description": "We haven’t done an open thread for awhile, so… What have you been working on? How are you feeling? What’s on your mind these days? What’s the best thing you’ve seen this week? Have you called a plumber to your home lately? \nAre you new here? Introduce yourself if you feel like it. Heck, if you’re a regular commenter, reintroduce yourself if you’d like.\n\n \n\n        \n         \nTags: kottke.org · open threads",
-          "link": "https://kottke.org/26/08/open-thread-for-august-2026",
-          "publishedOn": "2026-08-13T20:41:00.000Z",
-          "wordCount": 4525,
-          "title": "Open Thread for August 2026",
-          "imageUrl": ""
         }
       ]
     },
@@ -1234,6 +1224,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13281",
+          "author": "Cory Doctorow",
+          "description": "Today's links LLMs are real, AI is fake: No, it didn't \"go rogue.\" Hey look at this: Delights to delectate. Object permanence: Why 9/11 Means We Must Support My Politics; Blogs x 9/11; Jimmy Wales v Britannica's EiC; Hollywood astroturfs Australia; Agents v queer YA; Soft landings for dirty cops; Leaked Stingray manual. Upcoming appearances: Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. LLMs are real, AI is fake (permalink) Once you understand the corporate culture of AI \"hyperscalers\" consists primarily of everyone cooking their brains by locking themselves in the bathroom, holdi…",
+          "link": "https://pluralistic.net/2026/09/12/god-in-the-box/",
+          "publishedOn": "2026-09-12T11:14:10.000Z",
+          "wordCount": 4316,
+          "title": "Pluralistic: LLMs are real, AI is fake (12 Sep 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13277",
           "author": "Cory Doctorow",
@@ -2848,16 +2848,6 @@
           "publishedOn": "2026-08-14T21:54:35.000Z",
           "wordCount": 961,
           "title": "Don't classify. Hallucinate!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p>\n        <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p>\n<pre><code>from typing_extensions import Self\n</code></pre>\n<p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils</code> - it was installed by one of the other dependencies in the <a href=\"https://github.com/simonw/sqlite-utils/blob/56dd09702fdb9e899f577ffd51693c1f2176cb08/pyproject.toml#L34-L55\">dev dependency group</a>, but when you <code>uvx sqlite-utils</code> directly you don't get those dependencies.</p>\n<p>As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:</p>\n<pre><code>uv run --isolated --no-default-groups sqlite-utils --help\n</code></pre>\n<p>The <code>--no-default-groups</code> argument prevents it from installing that default <code>dev</code> group, and <code>--isolated</code> means that even if there is a <code>.venv/</code> folder containing extra dependencies they will be ignored for the duration of that <code>uv run</code> command.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-          "publishedOn": "2026-08-13T23:53:47.000Z",
-          "wordCount": 895,
-          "title": "sqlite-utils 4.2.1",
           "imageUrl": null
         }
       ]

@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-12T08:21:02.707Z</updated>
+    <updated>2026-09-12T14:57:38.983Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: LLMs are real, AI is fake (12 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13281</id>
+        <link href="https://pluralistic.net/2026/09/12/god-in-the-box/"/>
+        <updated>2026-09-12T11:14:10.000Z</updated>
+        <summary type="html"><![CDATA[Today's links LLMs are real, AI is fake: No, it didn't "go rogue." Hey look at this: Delights to delectate. Object permanence: Why 9/11 Means We Must Support My Politics; Blogs x 9/11; Jimmy Wales v Britannica's EiC; Hollywood astroturfs Australia; Agents v queer YA; Soft landings for dirty cops; Leaked Stingray manual. Upcoming appearances: Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. LLMs are real, AI is fake (permalink) Once you understand the corporate culture of AI "hyperscalers" consists primarily of everyone cooking their brains by locking themselves in the bathroom, holdi…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hollywood ecosystem can support one maybe two bald men at a time]]></title>
+        <id>https://interconnected.org/home/2026/09/12/bald</id>
+        <link href="https://interconnected.org/home/2026/09/12/bald"/>
+        <updated>2026-09-12T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How many Hollywood actors are there?
+I means ones with the combination of
+talent
+can carry a movie for the public
+can be accepted by producers.
+Certainly more than a dozen at any given time. But I’m sure fewer than a thousand, to put an upper bound on it.
+So, to guess, a population around that Dunbar-scale of 150 or a small multiple thereof.
+Of those, I feel like the Hollywood ecosystem can support just one, perhaps two concurrent bald male actors.
+(This statement from observation. But think about it: when a producer goes “we need a bald look for this” you can’t have too many people in the mental Rolodex.)
+Regarding these apex predators: I mean specifically cue-ball bald, not male pattern baldness (which I feel is its own category).
+There was Yul Brynner back in the day.
+Ben Kingsley, Bruce Willis, Vin Diesel.
+Recently: Jason Statham and Patrick Stewart. Dwayne Johnson most recently in the mix. Though they are all aging. 
+BUT:
+I can tell there is currently an open niche because both the Dune 2 bald guy and the Superman bald guy appear to be gunning for it - and neither are actually bald.
+The finch evolves its beak to crack those uneaten seeds.
+Anyway.]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI agents attacked RubyGems back in May]]></title>
         <id>https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/</id>
@@ -5020,54 +5056,6 @@ The post Why Aging May Be a Program, Not a Breakdown first appeared on Quanta Ma
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sqlite-utils 4.2.1]]></title>
-        <id>https://simonwillison.net/2026/Aug/13/sqlite-utils-2/</id>
-        <link href="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"/>
-        <updated>2026-08-13T23:53:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-utils/releases/tag/4.2.1">sqlite-utils 4.2.1</a></p>
-        <p>Fixes a crashing bug in <a href="https://simonwillison.net/2026/Aug/13/sqlite-utils/">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p>
-<pre><code>from typing_extensions import Self
-</code></pre>
-<p>It turned out the <a href="https://pypi.org/project/typing-extensions/">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils</code> - it was installed by one of the other dependencies in the <a href="https://github.com/simonw/sqlite-utils/blob/56dd09702fdb9e899f577ffd51693c1f2176cb08/pyproject.toml#L34-L55">dev dependency group</a>, but when you <code>uvx sqlite-utils</code> directly you don't get those dependencies.</p>
-<p>As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:</p>
-<pre><code>uv run --isolated --no-default-groups sqlite-utils --help
-</code></pre>
-<p>The <code>--no-default-groups</code> argument prevents it from installing that default <code>dev</code> group, and <code>--isolated</code> means that even if there is a <code>.venv/</code> folder containing extra dependencies they will be ignored for the duration of that <code>uv run</code> command.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/packaging">packaging</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a>, <a href="https://simonwillison.net/tags/uv">uv</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Look who's in the Cove]]></title>
-        <id>https://www.robinsloan.com/lab/cove-feeds/</id>
-        <link href="https://www.robinsloan.com/lab/cove-feeds/"/>
-        <updated>2026-08-13T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Oh hello there! <a href="https://www.robinsloan.com/lab/cove-feeds/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Thread for August 2026]]></title>
-        <id>https://kottke.org/26/08/open-thread-for-august-2026</id>
-        <link href="https://kottke.org/26/08/open-thread-for-august-2026"/>
-        <updated>2026-08-13T20:41:00.000Z</updated>
-        <summary type="html"><![CDATA[We haven’t done an open thread for awhile, so… What have you been working on? How are you feeling? What’s on your mind these days? What’s the best thing you’ve seen this week? Have you called a plumber to your home lately? 
-Are you new here? Introduce yourself if you feel like it. Heck, if you’re a regular commenter, reintroduce yourself if you’d like.
-
- 
-
-        
-         
-Tags: kottke.org · open threads]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
 </feed>
