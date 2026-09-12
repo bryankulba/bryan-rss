@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-12T03:02:55.319Z</updated>
+    <updated>2026-09-12T08:21:02.707Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -5066,115 +5066,6 @@ Are you new here? Introduce yourself if you feel like it. Heck, if you’re a re
         
          
 Tags: kottke.org · open threads]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sqlite-utils 4.2]]></title>
-        <id>https://simonwillison.net/2026/Aug/13/sqlite-utils/</id>
-        <link href="https://simonwillison.net/2026/Aug/13/sqlite-utils/"/>
-        <updated>2026-08-13T20:11:29.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/sqlite-utils/releases/tag/4.2">sqlite-utils 4.2</a></p>
-        <p>Lots of improvements in this one relating to the <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table">table.transform() feature</a>, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.</p>
-<p><code>transform()</code> now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns.</p>
-<p>There are also <a href="https://sqlite-utils.datasette.io/en/stable/python-api.html#checks">new introspection properties</a> for check constraints, and a whole lot of other smaller changes.</p>
-<p>Includes contributions from <a href="https://github.com/bunlongheng">Bunlong Heng</a>, <a href="https://github.com/ethanhawkes-gif">ethanhawkes-gif</a>, <a href="https://github.com/RamiNoodle733">Rami Abdelrazzaq</a>, <a href="https://github.com/nyxst4ck">nyxst4ck</a>, and <a href="https://github.com/ikatyal2110">ikatyal2110</a>.</p>
-<p>(It later turned out 4.2 had <a href="https://github.com/simonw/sqlite-utils/issues/842">a crashing bug</a>, fixed in <a href="https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-2-1">4.2.1</a>.)</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/releases">releases</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a>, <a href="https://simonwillison.net/tags/sqlite-utils">sqlite-utils</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NOAA:  Contiguous US Breaks Its Record for Hottest Month...]]></title>
-        <id>https://kottke.org/26/08/0049493-contiguous-us-breaks-its-</id>
-        <link href="https://kottke.org/26/08/0049493-contiguous-us-breaks-its-"/>
-        <updated>2026-08-13T20:01:00.000Z</updated>
-        <summary type="html"><![CDATA[NOAA: Contiguous US Breaks Its Record for Hottest Month Ever. “It’s not good when you’re breaking records from the Dust Bowl…” (This record will be broken several more times in the decades to come.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-gemini 0.33]]></title>
-        <id>https://simonwillison.net/2026/Aug/13/llm-gemini/</id>
-        <link href="https://simonwillison.net/2026/Aug/13/llm-gemini/"/>
-        <updated>2026-08-13T19:37:34.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-gemini/releases/tag/0.33">llm-gemini 0.33</a></p>
-        <p>It's been a while since the last <code>llm-gemini</code> release. This version of the plugin adds support for today's <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Gemini 3.7 Flash</a> release, plus <code>gemini-3.6-flash</code>, <code>gemini-3.5-flash-lite</code> and two embedding models <code>gemini-embedding-2</code> and <code>gemini-embedding-001</code>.</p>
-<p>The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern:</p>
-<pre><code>llm -m gemini-3.7-flash -T CodeExecution \
-  'use python to calculate (factorial of 13) * 3'
-</code></pre>
-<p>I had Gemini 3.7 Flash <a href="https://tools.simonwillison.net/markdown-svg-renderer.html#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6779a22d5e7bb6bdf29936f1600a5259">draw me some pelicans riding bicycles</a> at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great:</p>
-<p><img alt="This pelican has  a very cool curved green bicycle, a fish in its basket, a lovely red and white spotted scarf and a captain's hat" src="https://static.simonwillison.net/static/2026/gemini-3.7-flash-high-pelican.jpg" /></p>
-<p>One catch though: the pelican I showed here was rendered with Safari. Both Firefox and Chrome render it differently, due to Safari being more tolerant of empty SVG <code>&lt;filter&gt;</code> elements than those other two browsers.</p>
-<p>They still display the bicycle, but the pelican is missing entirely!</p>
-<p><img alt="The same image except the pelican is entirely missing - it's just the bicycle." src="https://static.simonwillison.net/static/2026/broken-pelican-safari.jpg" /></p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Moral Unseriousness of Centrist & Conservative Pundits]]></title>
-        <id>https://kottke.org/26/08/the-moral-unseriousness-of-centrist-conservative-pundits</id>
-        <link href="https://kottke.org/26/08/the-moral-unseriousness-of-centrist-conservative-pundits"/>
-        <updated>2026-08-13T19:10:13.000Z</updated>
-        <summary type="html"><![CDATA[Jamelle Bouie almost never misses. In this video that’s just shy of 10 minutes long, he chastises American political & cultural pundits for their lack of moral seriousness w/r/t their focus on “wokeness” instead of the real harms being done by the authoritarian Trump regime. (And he worked in a reference to Jonathan Frakes saying no.)
-I bring this up because this is just a great example of a phenomenon I’ve been struck by over the past year. Which is that, in the midst of a government that is systematically dismantling Americans’ rights, that is systematically dismantling the post-World War II world order, that is systematically tearing apart the social safety net, that is trying to exert nearly totalitarian control over large parts of American life, which is constructing concentration cam…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A recently unearthed conversation with Anthony Bourdain...]]></title>
-        <id>https://kottke.org/26/08/0049490-a-recently-unearthed-conv</id>
-        <link href="https://kottke.org/26/08/0049490-a-recently-unearthed-conv"/>
-        <updated>2026-08-13T17:47:00.000Z</updated>
-        <summary type="html"><![CDATA[A recently unearthed conversation with Anthony Bourdain from 2005. “We discuss Tony’s preferred sucker-punch etiquette, his loyalty to cigarettes & the Chateau Marmont, ayahuasca in Peru, and the talk show he dreamed up with Christopher Walken in mind.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supersonic Trebuchet]]></title>
-        <id>https://kottke.org/26/08/supersonic-trebuchet</id>
-        <link href="https://kottke.org/26/08/supersonic-trebuchet"/>
-        <updated>2026-08-13T16:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Ok so when you woke up this morning, you probably didn’t expect to watch a 20-minute video about a trebuchet — but to be fair, I didn’t either. But Tom Stanton’s build of a fully mechanical trebuchet that propels a tiny plastic pellet faster than the speed of sound (complete with tiny sonic boom) is genuinely fascinating to watch.
-He starts with a basic plan, but as he builds & tests, there are all sorts of problems (weight, strength) that he needs to overcome. The final product is impressive, but it’s the process that’s most interesting to me. What a gift these sorts of videos are…you could sometimes find process-heavy shows on PBS (like How to Create a Junk Food) when I was a kid, but if I’d had access to stuff like the supersonic trebuchet video (and all those Lego engineering videos), I’d have probably wanted to grow up to be an engineer.
-
- 
-
-        
-         
-Tags: engineering · how to · Tom Stanton · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Craig Mod wrote about his recent adventures using LLMs:...]]></title>
-        <id>https://kottke.org/26/08/0049492-a-swarm-of-blood-robots</id>
-        <link href="https://kottke.org/26/08/0049492-a-swarm-of-blood-robots"/>
-        <updated>2026-08-13T16:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Craig Mod wrote about his recent adventures using LLMs: A Swarm of Blood Robots. “I now have a comprehensive family tree, naming the very boats my Italian and Polish ancestors came over on in the late 1800s, the villages a few came from…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;Draw any shape and hear it as a drum.&#8221;...]]></title>
-        <id>https://kottke.org/26/08/0049489-eigendrum</id>
-        <link href="https://kottke.org/26/08/0049489-eigendrum"/>
-        <updated>2026-08-13T15:47:00.000Z</updated>
-        <summary type="html"><![CDATA[“Draw any shape and hear it as a drum.” Eigendrum: a drum simulator where you can change the shape of the drum to see how it affects the sound it makes.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
