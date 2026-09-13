@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-13T18:31:15.812Z</updated>
+    <updated>2026-09-13T22:05:31.741Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -5017,16 +5017,6 @@ I am a sucker for old poems in modern English. I don’t think it adds anything 
         <p>Tags: <a href="https://simonwillison.net/tags/svg">svg</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/cors">cors</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a>, <a href="https://simonwillison.net/tags/lm-studio">lm-studio</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: The new funnel, part 2]]></title>
-        <id>https://www.robinsloan.com/lab/ai-funnel-2/</id>
-        <link href="https://www.robinsloan.com/lab/ai-funnel-2/"/>
-        <updated>2026-08-15T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>The LLM sent me. <a href="https://www.robinsloan.com/lab/ai-funnel-2/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
 </feed>
