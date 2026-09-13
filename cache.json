@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6aa46f437ff933000123fd22",
+          "author": "Patrick Tanguay",
+          "description": "No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?",
+          "link": "https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks/",
+          "publishedOn": "2026-09-13T10:00:36.000Z",
+          "wordCount": 2477,
+          "title": "Lifted AF ⊗ Cyborgs, centaurs and cyberpunks",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/ernst_chladni-klange16.jpg"
+        },
+        {
           "id": "6a9b2d877d32cc00018c5498",
           "author": "Patrick Tanguay",
           "description": "No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars",
@@ -2799,26 +2809,6 @@
           "wordCount": 872,
           "title": "CORS Chat",
           "imageUrl": "https://static.simonwillison.net/static/2026/cors-chat.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-          "author": null,
-          "description": "<p><img src=\"https://static.inaturalist.org/photos/716984157/large.jpg\" alt=\"Northern Gannet\"></p><p>Northern Gannet, in Pillar Point Harbor, CA, US</p><p>This is Morris.</p>\n<p>Morris is a local celebrity: the only known Northern Gannet (<em>Morus bassanus</em>) in the entire Pacific Ocean.</p>\n<p>He showed up in the Farallon Islands off the coast of San Francisco <a href=\"https://baynature.org/magazine/spring2017/atlantic-bird-makes-home-california-maybe-melting-arctic-ice/\">14 years ago</a>. He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a>, <a href=\"https://simonwillison.net/tags/half-moon-bay\">half-moon-bay</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-          "publishedOn": "2026-08-15T03:22:00.000Z",
-          "wordCount": 726,
-          "title": "Northern Gannet",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don&#x27;t classify. Hallucinate!</a></strong></p>\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p>\n<p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!</p>\n<p>His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:</p>\n<blockquote>\n<p><code>Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.</code></p>\n<p><code>Product classifications might look like:</code></p>\n<p><code>Furniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables</code><br>\n<code>Décor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows</code><br>\n<code>Furniture / Bedroom Furniture / Dressers &amp; Chests</code><br>\n<code>Kitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters</code><br>\n<code>School Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs</code><br>\n<code>Baby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds</code></p>\n<p><code>Here's the query to generate classifications for:</code></p>\n<p><code>brown coffee table</code></p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/search\">search</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/embeddings\">embeddings</a>, <a href=\"https://simonwillison.net/tags/doug-turnbull\">doug-turnbull</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-          "publishedOn": "2026-08-14T21:54:35.000Z",
-          "wordCount": 961,
-          "title": "Don't classify. Hallucinate!",
-          "imageUrl": null
         }
       ]
     },

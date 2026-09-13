@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-13T08:49:31.458Z</updated>
+    <updated>2026-09-13T15:35:12.638Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lifted AF ⊗ Cyborgs, centaurs and cyberpunks]]></title>
+        <id>6aa46f437ff933000123fd22</id>
+        <link href="https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks/"/>
+        <updated>2026-09-13T10:00:36.000Z</updated>
+        <summary type="html"><![CDATA[No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Generating running routes with GPT-6 Astra and ChatGPT Work]]></title>
         <id>https://simonwillison.net/2026/Sep/12/astra-running-routes/</id>
@@ -5017,49 +5027,6 @@ I am a sucker for old poems in modern English. I don’t think it adds anything 
         <summary type="html"><![CDATA[<p>The LLM sent me. <a href="https://www.robinsloan.com/lab/ai-funnel-2/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Northern Gannet]]></title>
-        <id>https://simonwillison.net/2026/Aug/15/sighting-391300422/</id>
-        <link href="https://simonwillison.net/2026/Aug/15/sighting-391300422/"/>
-        <updated>2026-08-15T03:22:00.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/716984157/large.jpg" alt="Northern Gannet"></p><p>Northern Gannet, in Pillar Point Harbor, CA, US</p><p>This is Morris.</p>
-<p>Morris is a local celebrity: the only known Northern Gannet (<em>Morus bassanus</em>) in the entire Pacific Ocean.</p>
-<p>He showed up in the Farallon Islands off the coast of San Francisco <a href="https://baynature.org/magazine/spring2017/atlantic-bird-makes-home-california-maybe-melting-arctic-ice/">14 years ago</a>. He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/photography">photography</a>, <a href="https://simonwillison.net/tags/wildlife">wildlife</a>, <a href="https://simonwillison.net/tags/half-moon-bay">half-moon-bay</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't classify. Hallucinate!]]></title>
-        <id>https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/</id>
-        <link href="https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"/>
-        <updated>2026-08-14T21:54:35.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications">Don&#x27;t classify. Hallucinate!</a></strong></p>
-I still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href="https://simonwillison.net/">1,856 tags</a> - likely too many to feed to an LLM in one go and say "which of these tags match the following content".</p>
-<p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!</p>
-<p>His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:</p>
-<blockquote>
-<p><code>Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.</code></p>
-<p><code>Product classifications might look like:</code></p>
-<p><code>Furniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables</code><br>
-<code>Décor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows</code><br>
-<code>Furniture / Bedroom Furniture / Dressers &amp; Chests</code><br>
-<code>Kitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters</code><br>
-<code>School Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs</code><br>
-<code>Baby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds</code></p>
-<p><code>Here's the query to generate classifications for:</code></p>
-<p><code>brown coffee table</code></p>
-</blockquote>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/search">search</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/embeddings">embeddings</a>, <a href="https://simonwillison.net/tags/doug-turnbull">doug-turnbull</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
