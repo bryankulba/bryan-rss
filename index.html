@@ -35,6 +35,105 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/12/astra-running-routes/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-12T23:56:42.000Z">2026-09-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/12/astra-running-routes/" target="_blank" rel="noopener noreferrer">Generating running routes with GPT-6 Astra and ChatGPT Work</a>
+          </h2>
+          <p class="feed-item__desc">Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning:
+
+
+I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.
+
+
+It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:
+
+
+
+When I asked it how it had created the route, it replied:
+
+
+I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails, then calculated the loops locally.
+
+
+Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature.
+
+By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem.
+
+As for displaying the map to me, that used the visualize skill. It created a file called /workspace/el-granada-5k-share.html to embed directly into the ChatGPT UI.
+
+Here's a copy of that HTML, which starts like this:
+
+
+<div id="eg-share-loop">
+  <div class="viz-row"><h3>El Granada harbor loop</h3><span class="text-small">5.1 km</span></div>
+  <div id="eg-share-stage"></div>
+  <div class="text-small text-muted">Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></div>
+  <style>
+    #eg-share-loop { width:100%; }
+    #eg-share-loop #eg-share-stage { width:100%; margin:8px 0; }
+    #eg-share-loop .eg-share-map { display:block; width:100%; touch-action:none; }
+    #eg-share-loop .eg-share-map text { fill:var(--foreground); font-size:12px; font-weight:400; }
+    #eg-share-loop .eg-share-label { paint-order:stroke; stroke:var(--background); stroke-width:3px; stroke-linejoin:round; }
+  </style>
+  <script type="application/json" id="eg-share-data">{"route":{"type":"LineString","coordinates":[[-122.467425,37.4997753] ...</script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+  (() => {
+    const root=document.getElementById('eg-share-loop');
+
+
+The <script type="application/json"> element contains the full geometry needed to render both the running route and the map itself, using D3, which is loaded from an allow-listed CDN location described in this section of the visualize skill:
+
+
+External resources
+
+
+The CSP allows only cdnjs.cloudflare.com, esm.sh, cdn.jsdelivr.net, unpkg.com, fonts.googleapis.com, fonts.gstatic.com, and fonts.bunny.net. Other origins are blocked and fail silently.
+
+
+
+    
+        
+Tags: geospatial, ai, d3, openai, generative-ai, chatgpt, llms, skills, gpt-6-astra</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/12/astra-running-routes/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/12/astra-running-routes/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/5k-route.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/12/sighting-399708714/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-12T21:16:09.000Z">2026-09-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/12/sighting-399708714/" target="_blank" rel="noopener noreferrer">California Brown Pelican</a>
+          </h2>
+          <p class="feed-item__desc">California Brown Pelican, in San Mateo County, CA, US
+The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe.
+It has since been entirely taken over by pelicans!
+Tags: wildlife</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/12/sighting-399708714/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/12/sighting-399708714/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/12/paul-ford/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-12T18:00:21.000Z">2026-09-12</time>
@@ -8192,111 +8291,6 @@ Tags: search, ai, generative-ai, llms, embeddings, doug-turnbull</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18832">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-14T13:59:22.000Z">2026-08-14</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/14aug26/" target="_blank" rel="noopener noreferrer">14aug26</a>
-          </h2>
-          <p class="feed-item__desc">It is fiercely hot. I won’t be heading out for a while. I also have a mead delivery on the way from Horns Of Odin.…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18832" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18832">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1826-scaled.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049496-tressie-mcmillan-cottom-o">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-14T13:57:43.000Z">2026-08-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049496-tressie-mcmillan-cottom-o" target="_blank" rel="noopener noreferrer">Tressie McMillan Cottom on AOC’s presumed presidential...</a>
-          </h2>
-          <p class="feed-item__desc">Tressie McMillan Cottom on AOC’s presumed presidential run. “But these are different times. Ocasio-Cortez is a different woman, and Americans love to turn to women when the house is burning down.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049496-tressie-mcmillan-cottom-o" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049496-tressie-mcmillan-cottom-o">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;165293">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-14T13:10:26.000Z">2026-08-14</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/" target="_blank" rel="noopener noreferrer">Why Aging May Be a Program, Not a Breakdown</a>
-          </h2>
-          <p class="feed-item__desc">By deciphering the molecular signatures of millions of mouse cells, Junyue Cao has found that aging is not haphazard wear and tear but rather a “remodeling of the cell society.”            
-The post Why Aging May Be a Program, Not a Breakdown first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;165293" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;165293">Mark read</button>
-            <span class="feed-item__reading-time">11 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/08/cropped-Junyue-Cao-cr-Karan-Dias-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13171">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-14T11:10:41.000Z">2026-08-14</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/08/14/one-chokable-throat/" target="_blank" rel="noopener noreferrer">Pluralistic: Capital formation (14 Aug 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Capital formation: Going legit means going mainstream. Hey look at this: Delights to delectate. Object permanence: London Copyfighters x Speaker's Corner; TSA v lipstick; Long Beach v photographers; China x David Cameron's internet censorship; McMansion Hell; Copyrighting an MTG deck; "Privacy preserving age verification" delenda est. Upcoming appearances: Edinburgh, Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Capital formation (permalink) Funny thing about competition: there's both a pro-market and an anti-market case for a competitive system. https://pluralistic.net/2026/08/13/one-chokable-throat/#too…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13171" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13171">Mark read</button>
-            <span class="feed-item__reading-time">20 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.robinsloan.com/lab/dream-machines/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-14T10:00:00.000Z">2026-08-14</time>
-        <span class="feed-item__source">Robin Sloan</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.robinsloan.com/lab/dream-machines/" target="_blank" rel="noopener noreferrer">Dragoncatcher: Dream Machines revs up</a>
-          </h2>
-          <p class="feed-item__desc">AT LAST, HE PODCASTS! Read here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.robinsloan.com/lab/dream-machines/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.robinsloan.com/lab/dream-machines/">Mark read</button>
-            <span class="feed-item__reading-time">16 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
