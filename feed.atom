@@ -2,10 +2,160 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-14T09:32:45.594Z</updated>
+    <updated>2026-09-14T17:39:12.574Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ok wait, the  NES Tetris world record is now  40.26...]]></title>
+        <id>https://kottke.org/26/09/0049585-previous-record</id>
+        <link href="https://kottke.org/26/09/0049585-previous-record"/>
+        <updated>2026-09-14T16:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Ok wait, the NES Tetris world record is now 40.26 million??! It took 2 hours and 20 minutes and the previous record was 29 million. At level 255, you hit “rebirth” and the pieces slow down to level 0 speeds again. Totally bonkers.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Deep Dive Into the Full Bayeux Tapestry Story]]></title>
+        <id>https://kottke.org/26/09/a-deep-dive-into-the-full-bayeux-tapestry-story</id>
+        <link href="https://kottke.org/26/09/a-deep-dive-into-the-full-bayeux-tapestry-story"/>
+        <updated>2026-09-14T15:41:00.000Z</updated>
+        <summary type="html"><![CDATA[From Deep Down History, an entertaining hour-long explainer video on the Bayeux Tapestry.
+This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…
+
+	
+Completed within a decade or two of the events which it depicts, the tapestry is back in the news & public consciousness because it’s back in England for the first time since it was made and on display at the British Museum.
+
+ 
+
+        
+         
+Tags: Bayeux Tapestry · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’]]></title>
+        <id>https://www.quantamagazine.org/?p=166935</id>
+        <link href="https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/"/>
+        <updated>2026-09-14T15:20:48.000Z</updated>
+        <summary type="html"><![CDATA[The James Webb Space Telescope spots mysterious “little red dots” everywhere. A bold new theory suggests they’re suns dozens of times larger than our entire solar system.             
+The post Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’ first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Charlie Wood</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I’ve linked to Summoning Salt’s videos before (they make...]]></title>
+        <id>https://kottke.org/26/09/0049584-the-tournament-that-chang</id>
+        <link href="https://kottke.org/26/09/0049584-the-tournament-that-chang"/>
+        <updated>2026-09-14T14:57:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve linked to Summoning Salt’s videos before (they make some of the best video game explainer videos out there — hell, some of the best YT videos period) and here’s their newest one: The Tournament That Changed Tetris Forever.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All About U.S. 250 Years of the United States of America]]></title>
+        <id>https://we-make-money-not-art.com/?p=39550</id>
+        <link href="https://we-make-money-not-art.com/all-about-u-s-250-years-of-the-united-states-of-america/"/>
+        <updated>2026-09-14T14:50:52.000Z</updated>
+        <summary type="html"><![CDATA[“All About U.S.” challenges standard assumptions and myths, such as the founding of the U.S. on seemingly uninhabited land, populated by a selection of extraordinary people who committed themselves to the world’s first liberal constitution]]></summary>
+        <author>
+            <name>Regine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Laurie Voss]]></title>
+        <id>https://simonwillison.net/2026/Sep/14/laurie-voss/</id>
+        <link href="https://simonwillison.net/2026/Sep/14/laurie-voss/"/>
+        <updated>2026-09-14T14:34:29.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://seldo.com/posts/we-are-all-product-engineers-now/"><p>The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job.</p></blockquote>
+<p class="cite">&mdash; <a href="https://seldo.com/posts/we-are-all-product-engineers-now/">Laurie Voss</a>, We are all Product Engineers now</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/laurie-voss">laurie-voss</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a>, <a href="https://simonwillison.net/tags/careers">careers</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In 1992, Canada declared a moratorium on Northern cod...]]></title>
+        <id>https://kottke.org/26/09/0049579-the-govt-has-upgraded-the</id>
+        <link href="https://kottke.org/26/09/0049579-the-govt-has-upgraded-the"/>
+        <updated>2026-09-14T14:19:00.000Z</updated>
+        <summary type="html"><![CDATA[In 1992, Canada declared a moratorium on Northern cod fishing due to overfishing. It was devastating for Newfoundlanders. This year, for the first time since then, the govt has “upgraded the cod stock’s status from ‘critical’ to ‘healthy’”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two-Hour Mix of the Jazz in Haruki Murakami Novels]]></title>
+        <id>https://kottke.org/26/09/two-hour-mix-of-the-jazz-in-haruki-murakami-novels</id>
+        <link href="https://kottke.org/26/09/two-hour-mix-of-the-jazz-in-haruki-murakami-novels"/>
+        <updated>2026-09-14T13:32:00.000Z</updated>
+        <summary type="html"><![CDATA[From NTS, this is a two-hour mix of jazz music featured in the books of Haruki Murakami.
+‘Somewhere along the line Coltrane’s soprano sax runs out of steam. Now it’s McCoy Tyner’s piano solo I hear, the left hand carving out a repetitious rhythm and the right layering on thick, forbidding chords. Like some mythic scene, the music portrays somebody’s — a nameless, faceless somebody’s — dim past, all the details laid out as clearly as entrails being dragged out of the darkness. Or at least that’s how it sounds to me. The patient, repeating music ever so slowly breaks apart the real, rearranging the pieces. It has a hypnotic, menacing smell, just like the forest’ —Kafka On The Shore
+
+	
+The playlist features tracks by Ornette Coleman, Coltrane, Dizzy, the Bill Evans Trio, Monk, Mingus, and Miles Davis. Some of the video’s comments:
+I had just prepared a light meal and hit play on this playlist when the telephone began to ring.
+
+	
+about to make my morning matcha, a spring breeze is flowing through the open windows, the air smells of optimism
+
+	
+Early morning, sun shining to balcony, having espresso and writing.
+
+	
+Studying the day before the exam with a bittersweet optimism while playing this and holding on to my hopes
+
+	
+Canned cold beer, windows open on a warm summer night, just after finishing a simple dinner of rice and salmon and sitting next to my cat
+
+	
+See also Classical Music from Murakami Novels. Both of these are going straight into my Underscore collection.
+
+ 
+
+        
+         
+Tags: books · Haruki Murakami · jazz · music · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Are Living in the Fantasy World of 13-Year-Old Boys ....]]></title>
+        <id>https://kottke.org/26/09/0049565-we-are-living-in-the-fant</id>
+        <link href="https://kottke.org/26/09/0049565-we-are-living-in-the-fant"/>
+        <updated>2026-09-14T13:02:00.000Z</updated>
+        <summary type="html"><![CDATA[We Are Living in the Fantasy World of 13-Year-Old Boys. Today’s tech titans took all the wrong lessons from the science fiction of their youths and now they’re each building their version of the Torment Nexus.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[14sep26]]></title>
+        <id>https://warrenellis.ltd/?p=18956</id>
+        <link href="https://warrenellis.ltd/status/14sep26/"/>
+        <updated>2026-09-14T12:24:49.000Z</updated>
+        <summary type="html"><![CDATA[From Friday night – dinner at our favourite restaurant, which comes with treats from the chef when the bill arrives. Arrived today, new issue of…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: But do you use keyboard shortcuts? (14 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13285</id>
+        <link href="https://pluralistic.net/2026/09/14/cult-taylorism/"/>
+        <updated>2026-09-14T11:02:27.000Z</updated>
+        <summary type="html"><![CDATA[Today's links But do you use keyboard shortcuts?: AI people are WEIRD. Hey look at this: Delights to delectate. Object permanence: "Changeling"; Sony Rootkit vs CD drives; Google's scumbag lobbyists; NJ's e-voting coverup; Spying sex toys; Scott Walker dark money leak; "REAMDE"; Snowden's pardon. Upcoming appearances: Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. But do you use keyboard shortcuts? (permalink) Of all the weird recurring motifs of the stories people tell me about the AI labor wars, the weirdest is when bosses demand to be reassured that their contractors and workers…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[party’s over]]></title>
         <id>https://www.velcro-city.co.uk/?p=12363</id>
