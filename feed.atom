@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-13T22:05:31.741Z</updated>
+    <updated>2026-09-14T03:17:35.542Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Way We Live Now: 11-11-01; Lost and Found , a piece...]]></title>
+        <id>https://kottke.org/26/09/0049575-the-way-we-live-now-11-11</id>
+        <link href="https://kottke.org/26/09/0049575-the-way-we-live-now-11-11"/>
+        <updated>2026-09-14T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[The Way We Live Now: 11-11-01; Lost and Found, a piece written by Colson Whitehead just a month after 9/11. “The New York City you live in is not my New York City; how could it be? This place multiplies when you’re not looking.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[commit-rewriter 0.1]]></title>
+        <id>https://simonwillison.net/2026/Sep/14/commit-rewriter/</id>
+        <link href="https://simonwillison.net/2026/Sep/14/commit-rewriter/"/>
+        <updated>2026-09-14T00:28:10.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/commit-rewriter/releases/tag/0.1">commit-rewriter 0.1</a></p>
+        <p>I built this little web app the other day to help edit the commit messages for the <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p>
+<p>If you want to edit the commit messages for a repository you can run it like this:</p>
+<pre><code>uvx commit-rewriter path/to/repo
+</code></pre>
+<p>Omit the path if you are already in the directory for that repo.</p>
+<p><img alt="Screenshot of the commit-rewriter web interface. A heading reads commit-rewriter above the repository path and current branch and commit hash, with a short description of the tool. A toolbar shows a pending edits count with Discard drafts and Rewrite commit messages buttons, followed by a search box for message, author, or hash and an Edited only checkbox. A left sidebar titled Navigate commits lists recent commit messages with their short hashes. The main panel shows a card for each commit with its hash, author and timestamp, an editable text area containing the commit message, and a View full formatted diff toggle." src="https://static.simonwillison.net/static/2026/commit-rewriter.webp" /></p>
+<p>When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[shot-scraper 1.12]]></title>
+        <id>https://simonwillison.net/2026/Sep/13/shot-scraper/</id>
+        <link href="https://simonwillison.net/2026/Sep/13/shot-scraper/"/>
+        <updated>2026-09-13T23:58:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/shot-scraper/releases/tag/1.12">shot-scraper 1.12</a></p>
+        <p>I've added WebP support to my <a href="https://shot-scraper.datasette.io/">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p>
+<pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80
+</code></pre>
+<p>The <code>--quality</code> option sets the quality - without that option the WebP file will be lossless.</p>
+<p>In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See <a href="https://github.com/simonw/shot-scraper/pull/210">the PR</a> for some examples.</p>
+<p>I shipped this feature so I could use it to generate the screenshot <a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/">for my new commit-rewriter tool</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/playwright">playwright</a>, <a href="https://simonwillison.net/tags/shot-scraper">shot-scraper</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lifted AF ⊗ Cyborgs, centaurs and cyberpunks]]></title>
         <id>6aa46f437ff933000123fd22</id>
@@ -5000,23 +5049,6 @@ I am a sucker for old poems in modern English. I don’t think it adds anything 
         <summary type="html"><![CDATA[*How has it come to this, one wonders]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CORS Chat]]></title>
-        <id>https://simonwillison.net/2026/Aug/15/cors-chat/</id>
-        <link href="https://simonwillison.net/2026/Aug/15/cors-chat/"/>
-        <updated>2026-08-15T14:49:54.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/cors-chat">CORS Chat</a></p>
-        <p>I built this today (<a href="https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36">with GPT-5.6-Sol xhigh</a>) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.</p>
-<p>It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the <code>--cors</code> option and OpenRouter, and both work fine.</p>
-<p>Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in.</p>
-<p><img alt="Alt text generated by Qwen-3.8 27B: Screenshot of the CORS Chat web interface. The left sidebar lists three saved conversations, with &quot;render an svg of five intersecting squares&quot; selected. The main panel shows a chat with the qwen3.8‑27b model: the user asked &quot;render an svg of five intersecting squares. don't overthink this,&quot; followed by the model's reasoning trace describing the design (five semi‑transparent squares rotated around a common center on a dark background). Below is an SVG preview pane displaying five overlapping, semi‑transparent colored squares—pink, blue, green, yellow, and purple—with white outlines, rotated at different angles to form a starburst pattern on a dark navy background. Top controls include endpoint/model selectors and a &quot;New chat&quot; button; the bottom has a message input and a &quot;Send&quot; button." src="https://static.simonwillison.net/static/2026/cors-chat.webp" /></p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/svg">svg</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/cors">cors</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a>, <a href="https://simonwillison.net/tags/lm-studio">lm-studio</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>

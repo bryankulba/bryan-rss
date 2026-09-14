@@ -35,6 +35,81 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049575-the-way-we-live-now-11-11">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-14T00:45:00.000Z">2026-09-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/09/0049575-the-way-we-live-now-11-11" target="_blank" rel="noopener noreferrer">The Way We Live Now: 11-11-01; Lost and Found , a piece...</a>
+          </h2>
+          <p class="feed-item__desc">The Way We Live Now: 11-11-01; Lost and Found, a piece written by Colson Whitehead just a month after 9/11. “The New York City you live in is not my New York City; how could it be? This place multiplies when you’re not looking.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049575-the-way-we-live-now-11-11" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049575-the-way-we-live-now-11-11">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/14/commit-rewriter/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-14T00:28:10.000Z">2026-09-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/" target="_blank" rel="noopener noreferrer">commit-rewriter 0.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: commit-rewriter 0.1
+I built this little web app the other day to help edit the commit messages for the Datasette security releases. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.
+If you want to edit the commit messages for a repository you can run it like this:
+uvx commit-rewriter path/to/repo
+
+Omit the path if you are already in the directory for that repo.
+
+When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.
+Tags: git, projects, python, ai-assisted-programming</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/14/commit-rewriter/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/14/commit-rewriter/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison/static/2026/commit-rewriter.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/13/shot-scraper/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-13T23:58:14.000Z">2026-09-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/13/shot-scraper/" target="_blank" rel="noopener noreferrer">shot-scraper 1.12</a>
+          </h2>
+          <p class="feed-item__desc">Release: shot-scraper 1.12
+I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this:
+shot-scraper https://simonwillison.net -o screenshot.webp --quality 80
+
+The --quality option sets the quality - without that option the WebP file will be lossless.
+In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples.
+I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool.
+Tags: playwright, shot-scraper</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/13/shot-scraper/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/13/shot-scraper/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="6aa46f437ff933000123fd22">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-13T10:00:36.000Z">2026-09-13</time>
@@ -8208,33 +8283,6 @@ I am a sucker for old poems in modern English. I don’t think it adds anything 
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://64.media.tumblr.com/a9ac54ab0e42c526f5a35ea5df6babd6/0c3e0a4acda2cbdd-b7/s1280x1920/0493ba5fa34d961232279a7e5eec8e188eafd96d.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Aug/15/cors-chat/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-15T14:49:54.000Z">2026-08-15</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Aug/15/cors-chat/" target="_blank" rel="noopener noreferrer">CORS Chat</a>
-          </h2>
-          <p class="feed-item__desc">Tool: CORS Chat
-I built this today (with GPT-5.6-Sol xhigh) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.
-It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine.
-Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in.
-
-Tags: svg, ai, generative-ai, llms, cors, openrouter, lm-studio</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Aug/15/cors-chat/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/15/cors-chat/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/cors-chat.webp" alt="" loading="lazy">
         </div>
       </div>
     </article>
