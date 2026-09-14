@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-14T17:39:12.574Z</updated>
+    <updated>2026-09-14T22:56:12.834Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The contagion of fear]]></title>
+        <id>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/</id>
+        <link href="https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/"/>
+        <updated>2026-09-14T21:18:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/">The contagion of fear</a></strong></p>
+Bryan Cantrill responds to the <a href="https://x.com/hilbertspaess/status/2097476203863224394">tweet by former Anthropic employee Jacob Coxon</a> confirming that many Anthropic researchers believe AI "could kill us all by the end of the decade".</p>
+<p>Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same:</p>
+<blockquote>
+<p>These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: <a href="https://www.youtube.com/watch?v=kwPxjBJamVs">how would that happen?</a> The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites "hacking critical infrastructure" and "extinction-level bioweapons" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...]</p>
+<p>That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm.</p>
+</blockquote>
+<p>Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that <a href="https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=51m44s">starting at 51m44s</a> in that episode. Here's <a href="https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=57m4s">57m04s</a>:</p>
+<blockquote>
+<p>I really think we need to be careful because it's <em>so easy</em> to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://lobste.rs/s/1ifr5f/contagion_fear">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/bryan-cantrill">bryan-cantrill</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What blog posts influenced your thinking the most?]]></title>
+        <id>https://simonwillison.net/2026/Sep/14/influences/</id>
+        <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
+        <updated>2026-09-14T20:21:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking#c_4fxnwn">My comment</a> on <a href="https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking">What blog posts influenced your thinking the most?</a> &mdash; Lobste.rs.</p><p>An early Joel Spolsky one for me was <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a>. I read that near the start of my career and it's encouraged me to <em>always</em> be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks.</p>
+<p>A more recent one, from 2018, is <a href="https://lethain.com/migrations/">Migrations: the sole scalable fix to tech debt</a> by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of software engineering and are a skill that you should invest in and get good at, not avoid or treat as special one-offs.</p>
+<p><a href="https://charity.wtf/p/the-engineer-manager-pendulum">The Engineer/Manager Pendulum</a> by Charity Majors was hugely influential for me. I was stuck in engineering management and worried that if I switched back to being an "Individual Contributor" (ugh I hate that term) I'd damage my career. Charity gave me permission to make the switch by pointing out that many of the most successful software developers pendulum from one track to the other multiple times over their career, and doing so makes you better at both sides.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/joel-spolsky">joel-spolsky</a>, <a href="https://simonwillison.net/tags/software-engineering">software-engineering</a>, <a href="https://simonwillison.net/tags/will-larson">will-larson</a>, <a href="https://simonwillison.net/tags/charity-majors">charity-majors</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From a curator at the Getty,  ratings of every...]]></title>
+        <id>https://kottke.org/26/09/0049568-ratings-of-every-framed-p</id>
+        <link href="https://kottke.org/26/09/0049568-ratings-of-every-framed-p"/>
+        <updated>2026-09-14T20:20:00.000Z</updated>
+        <summary type="html"><![CDATA[From a curator at the Getty, ratings of every “framed picture” emoji. “A total rejection of nature and reality. Why is the horizon rounded? Has this artist seen planet earth before?”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2026 winners of the Ig Nobel Prize  include papers...]]></title>
+        <id>https://kottke.org/26/09/0049577-the-2026-winners-of-the-i</id>
+        <link href="https://kottke.org/26/09/0049577-the-2026-winners-of-the-i"/>
+        <updated>2026-09-14T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The 2026 winners of the Ig Nobel Prize include papers on “a more precise definition of kissing”, “An Aerodynamic Study of the Nose Blowing”, and the discovery “that milk proteins from cockroaches pack 3X as much energy as milk proteins from cows”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rocky Sleep, You Watch, Question?]]></title>
+        <id>https://kottke.org/26/09/rocky-sleep-you-watch-question</id>
+        <link href="https://kottke.org/26/09/rocky-sleep-you-watch-question"/>
+        <updated>2026-09-14T18:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Project Hail Mary is already on my list of movies that I can just throw on in the backround while I do a bit of work or puttering around. (Not sure whether that’s an endorsement or not…I like the movie!) Anyhoo, if you get tired of the movie, you can watch Rocky sleep for 2+ hours with the PHM soundtrack playing in the background.
+
+ 
+
+        
+         
+Tags: movies · music · Project Hail Mary · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now open for business in Nyack, NY:  Busman’s Holiday , a...]]></title>
+        <id>https://kottke.org/26/09/0049589-busmans-holiday</id>
+        <link href="https://kottke.org/26/09/0049589-busmans-holiday"/>
+        <updated>2026-09-14T17:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Now open for business in Nyack, NY: Busman’s Holiday, a stationary store run by (former?) graphic designer Sam Potts, who announced the shop back in March in a KDO open thread. Lots of nice touches here, including a used pencil exchanger.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ok wait, the  NES Tetris world record is now  40.26...]]></title>
         <id>https://kottke.org/26/09/0049585-previous-record</id>
@@ -194,6 +280,16 @@ Tags: books · Haruki Murakami · jazz · music · video]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces]]></title>
+        <id>https://maggieappleton.com/planning-agents/</id>
+        <link href="https://maggieappleton.com/planning-agents/"/>
+        <updated>2026-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents]]></summary>
+        <author>
+            <name>Maggie Appleton</name>
         </author>
     </entry>
     <entry>
@@ -5152,35 +5248,6 @@ My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even n
         <summary type="html"><![CDATA[Is back. Plus Art Brut ceramics, chain-mail swag, and new fall pieces from independent designers]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rihovski-ru:
-
-Flood (2007) Georgy...]]></title>
-        <id>https://brucesterling.tumblr.com/post/825082702802927616</id>
-        <link href="https://brucesterling.tumblr.com/post/825082702802927616"/>
-        <updated>2026-08-16T06:03:02.000Z</updated>
-        <summary type="html"><![CDATA[rihovski-ru:
-Flood (2007) 
-Georgy Kichigin
-https://vk.ru/rihovski
-
-
-
-*They look like the eternal-peasantry, but they used to be Soyuz spacecraft technicians]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*As a long-time fan of Italian design, I have to admire these Milanese runway-models who are so&hellip;]]></title>
-        <id>https://brucesterling.tumblr.com/post/825082299737669632</id>
-        <link href="https://brucesterling.tumblr.com/post/825082299737669632"/>
-        <updated>2026-08-16T05:56:38.000Z</updated>
-        <summary type="html"><![CDATA[*As a long-time fan of Italian design, I have to admire these Milanese runway-models who are so aggressively chic that they really look like they would assassinate men, eat the flesh of men, and  then chew on the dry bones of men]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
 </feed>
