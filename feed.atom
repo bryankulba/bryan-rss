@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-14T22:56:12.834Z</updated>
+    <updated>2026-09-15T03:19:24.997Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I Found Evidence Of My House Spinning]]></title>
+        <id>https://waxy.org/?p=51256</id>
+        <link href="https://suricrasia.online/unfiction/spinning/"/>
+        <updated>2026-09-15T01:07:59.000Z</updated>
+        <summary type="html"><![CDATA[creepypasta in the form of a forum thread, don’t miss the “what’s new!” at the very end
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The contagion of fear]]></title>
         <id>https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/</id>
@@ -5225,29 +5236,6 @@ My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even n
         <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-reasoning">llm-reasoning</a>, <a href="https://simonwillison.net/tags/llama-cpp">llama-cpp</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/lm-studio">lm-studio</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/nvidia-spark">nvidia-spark</a>, <a href="https://simonwillison.net/tags/pi">pi</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Dario Amodei]]></title>
-        <id>https://simonwillison.net/2026/Aug/16/dario-amodei/</id>
-        <link href="https://simonwillison.net/2026/Aug/16/dario-amodei/"/>
-        <updated>2026-08-16T15:05:36.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/darioamodei/status/2088758819304443967"><p>I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is <em>actually curing cancer</em>.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/darioamodei/status/2088758819304443967">Dario Amodei</a></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-backlash">ai-backlash</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The dream of the '90s vintage store]]></title>
-        <id>https://www.blackbirdspyplane.com/p/the-dream-of-the-90s-vintage-store</id>
-        <link href="https://www.blackbirdspyplane.com/p/the-dream-of-the-90s-vintage-store"/>
-        <updated>2026-08-16T12:31:02.000Z</updated>
-        <summary type="html"><![CDATA[Is back. Plus Art Brut ceramics, chain-mail swag, and new fall pieces from independent designers]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
 </feed>
