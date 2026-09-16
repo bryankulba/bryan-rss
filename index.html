@@ -35,6 +35,34 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/15/gemini-live/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-15T22:47:07.000Z">2026-09-15</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/15/gemini-live/" target="_blank" rel="noopener noreferrer">Gemini Live audio</a>
+          </h2>
+          <p class="feed-item__desc">Tool: Gemini Live audio
+Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family.
+I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.
+
+The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback.
+Here's the Gemini Live tutorial for getting started with that WebSockets API.
+Tags: google, tools, websockets, generative-ai, llms, gemini, llm-release, speech-to-text</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/15/gemini-live/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/15/gemini-live/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/gemini-live-tool.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/09/0049578-a-bouncy-castle-infested-">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-15T21:12:00.000Z">2026-09-15</time>
@@ -8431,140 +8459,6 @@ Tags: amazon, journalism, ai, training-data, ai-ethics, 404-media</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;165854">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-17T15:11:17.000Z">2026-08-17</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/" target="_blank" rel="noopener noreferrer">Theory of Fluids Enters the 21st Century</a>
-          </h2>
-          <p class="feed-item__desc">From the 1800s to the early 2000s, physicists used the same theory to understand the behavior of fluids. Now, using a modern insight, they have redefined fluids from the bottom up.            
-The post Theory of Fluids Enters the 21st Century first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;165854" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;165854">Mark read</button>
-            <span class="feed-item__reading-time">14 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/08/Slow-mo-paint-cr-DepositPhotos_Alamy-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/ozu-in-color-every-frame-a-painting">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-17T14:58:00.000Z">2026-08-17</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/ozu-in-color-every-frame-a-painting" target="_blank" rel="noopener noreferrer">Ozu in Color (Every Frame a Painting)</a>
-          </h2>
-          <p class="feed-item__desc">For TCM, Every Frame a Painting’s Taylor Ramos & Tony Zhou tell us how legendary Japanese filmmaker Yasujiro Ozu made the transition to color filmmaking. His first color film was Equinox Flower in 1958 and it took a couple of films for Ozu to work out how to best employ color.
-When you watch later Ozu films, you’re struck by how similar two people can be. How often one place resembles another, how life itself is cyclical and Ozu used color as another way to build these patterns.
-
-	
-In the recent post about the supersonic trebuchet, I wrote that if I’d had access to engineering process videos like that when I was a kid, I would have grown up to be an engineer. Well, same thing for Every Frame a Painting: 12-year-old Jason had zero idea how filmmaking worked and videos like theirs would have fired me up to try my hand at it (no idea where I would have gotten a camera though…) Maybe it’s best that I grew up to do what I’m doing, where I can learn a little bit about all of these different fascinating things. 🤷‍♂️
-
- 
-
-        
-         
-Tags: color · film school · movies · Taylor Ramos · Tony Zhou · video · Yasujiro Ozu</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/ozu-in-color-every-frame-a-painting" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/ozu-in-color-every-frame-a-painting">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/s5P22nEmF3k/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-17T13:57:00.000Z">2026-08-17</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b" target="_blank" rel="noopener noreferrer">Two new episodes of Ric Burns’ 1999 documentary...</a>
-          </h2>
-          <p class="feed-item__desc">Two new episodes of Ric Burns’ 1999 documentary series New York will soon air on PBS. “Produced by the same team that created the original NEW YORK series, The Future of Cities presents a sweeping and dramatic portrait of New York since Sept 11th.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/08/0049497-yale-study">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-17T13:27:00.000Z">2026-08-17</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/08/0049497-yale-study" target="_blank" rel="noopener noreferrer">Yale study : “A single-payer universal health care...</a>
-          </h2>
-          <p class="feed-item__desc">Yale study: “A single-payer universal health care system could cover every American, save more than 100,000 lives a year, and still cost $1 trillion less than the system it would replace.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/08/0049497-yale-study" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/08/0049497-yale-study">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-17T12:28:06.000Z">2026-08-17</time>
-        <span class="feed-item__source">Charlie&#x27;s Diary</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html" target="_blank" rel="noopener noreferrer">Crib sheet: The Regicide Report</a>
-          </h2>
-          <p class="feed-item__desc">The Regicide Report came out in January 2026. Traditionally I wait for the paperback before writing one of these spoiler-laden crib sheets, but there won't be a US paperback edition and the UK one isn't until the end of the...</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html">Mark read</button>
-            <span class="feed-item__reading-time">8 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18836">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-08-17T12:01:34.000Z">2026-08-17</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/17aug26/" target="_blank" rel="noopener noreferrer">17aug26</a>
-          </h2>
-          <p class="feed-item__desc">Imagine a story where the events in our lives that happen online are never depicted or mentioned. A day would seem twelve hours long and…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18836" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18836">Mark read</button>
-            <span class="feed-item__reading-time">6 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1725-scaled.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

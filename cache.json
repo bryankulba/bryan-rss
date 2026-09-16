@@ -1179,36 +1179,6 @@
           "wordCount": 738,
           "title": "We live in a world of  ordinary abundance  & luxuries...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/ozu-in-color-every-frame-a-painting",
-          "author": null,
-          "description": "For TCM, Every Frame a Painting’s Taylor Ramos & Tony Zhou tell us how legendary Japanese filmmaker Yasujiro Ozu made the transition to color filmmaking. His first color film was Equinox Flower in 1958 and it took a couple of films for Ozu to work out how to best employ color.\nWhen you watch later Ozu films, you’re struck by how similar two people can be. How often one place resembles another, how life itself is cyclical and Ozu used color as another way to build these patterns.\n\n\t\nIn the recent post about the supersonic trebuchet, I wrote that if I’d had access to engineering process videos like that when I was a kid, I would have grown up to be an engineer. Well, same thing for Every Frame a Painting: 12-year-old Jason had zero idea how filmmaking worked and videos like theirs would have fired me up to try my hand at it (no idea where I would have gotten a camera though…) Maybe it’s best that I grew up to do what I’m doing, where I can learn a little bit about all of these different fascinating things. 🤷‍♂️\n\n \n\n        \n         \nTags: color · film school · movies · Taylor Ramos · Tony Zhou · video · Yasujiro Ozu",
-          "link": "https://kottke.org/26/08/ozu-in-color-every-frame-a-painting",
-          "publishedOn": "2026-08-17T14:58:00.000Z",
-          "wordCount": 876,
-          "title": "Ozu in Color (Every Frame a Painting)",
-          "imageUrl": "https://i.ytimg.com/vi/s5P22nEmF3k/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b",
-          "author": null,
-          "description": "Two new episodes of Ric Burns’ 1999 documentary series New York will soon air on PBS. “Produced by the same team that created the original NEW YORK series, The Future of Cities presents a sweeping and dramatic portrait of New York since Sept 11th.”",
-          "link": "https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b",
-          "publishedOn": "2026-08-17T13:57:00.000Z",
-          "wordCount": 858,
-          "title": "Two new episodes of Ric Burns&#8217; 1999 documentary...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049497-yale-study",
-          "author": null,
-          "description": "Yale study: “A single-payer universal health care system could cover every American, save more than 100,000 lives a year, and still cost $1 trillion less than the system it would replace.”",
-          "link": "https://kottke.org/26/08/0049497-yale-study",
-          "publishedOn": "2026-08-17T13:27:00.000Z",
-          "wordCount": 659,
-          "title": "Yale study : &#8220;A single-payer universal health care...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1716,16 +1686,6 @@
           "wordCount": 1423,
           "title": "18aug26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1902-scaled.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18836",
-          "author": "Warren Ellis",
-          "description": "Imagine a story where the events in our lives that happen online are never depicted or mentioned. A day would seem twelve hours long and…",
-          "link": "https://warrenellis.ltd/status/17aug26/",
-          "publishedOn": "2026-08-17T12:01:34.000Z",
-          "wordCount": 1690,
-          "title": "17aug26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1725-scaled.jpg"
         }
       ]
     },
@@ -2200,6 +2160,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p>\n        <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href=\"https://openai.com/index/introducing-gpt-live/\">GPT-Live</a> family.</p>\n<p>I pointed GPT-6 Astra Extra High at the documentation and <a href=\"https://gist.github.com/simonw/067b7430c5b1f743af9419b0184c38ef\">had it build me this web UI</a> for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.</p>\n<p><img alt=\"Screenshot of a voice chat web interface with a transcript. Top buttons: Start session, End session, Mute mic, plus a Mic level meter and a timer showing 0:33. Status: Listening. Use headphones to reduce echo. Starting a session asks for microphone access. Transcript (with Download transcript and Clear buttons). Gemini: Yes, it's working perfectly. I can hear you clearly. How can I help you today? You: Okay, this is pretty good. Tell me some interesting facts about the California brown pelican. Gemini: They're famous for their spectacular plunge-dives to catch fish and have huge throat pouches that can hold up to three gallons of water and fish. They also made a great recovery after being endangered — marked as Interrupted. You: No, tell me different facts actually. Gemini: They nest in colonies on offshore islands and can hold up to three gallons of water in their throat pouches. At the bottom is a text input reading Or type a message… with a Send button, and the note: Sending a message interrupts the current response. Transcripts may include speech interrupted before playback.\" src=\"https://static.simonwillison.net/static/2026/gemini-live-tool.webp\" /></p>\n<p>The <a href=\"https://github.com/simonw/tools/blob/main/gemini-live.html\">implementation</a> uses no libraries. It connects to the <code>wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=...</code> WebSocket endpoint and uses a Web Audio API <code>AudioContext</code> for both capture and playback.</p>\n<p>Here's <a href=\"https://ai.google.dev/gemini-api/docs/live-api/get-started-websocket\">the Gemini Live tutorial</a> for getting started with that WebSockets API.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/websockets\">websockets</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/speech-to-text\">speech-to-text</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+          "publishedOn": "2026-09-15T22:47:07.000Z",
+          "wordCount": 848,
+          "title": "Gemini Live audio",
+          "imageUrl": "https://static.simonwillison.net/static/2026/gemini-live-tool.webp"
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
           "author": null,
@@ -3296,16 +3266,6 @@
           "wordCount": 2798,
           "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2056/08/IBMs-quantum-computer-cr-Graham-Carlow-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=165854",
-          "author": "Charlie Wood",
-          "description": "From the 1800s to the early 2000s, physicists used the same theory to understand the behavior of fluids. Now, using a modern insight, they have redefined fluids from the bottom up.            \nThe post Theory of Fluids Enters the 21st Century first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/",
-          "publishedOn": "2026-08-17T15:11:17.000Z",
-          "wordCount": 4170,
-          "title": "Theory of Fluids Enters the 21st Century",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Slow-mo-paint-cr-DepositPhotos_Alamy-Social.jpg"
         }
       ]
     },
@@ -3495,16 +3455,6 @@
           "publishedOn": "2026-09-11T13:54:44.000Z",
           "wordCount": 3490,
           "title": "Rethinking space opera",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html",
-          "author": null,
-          "description": "The Regicide Report came out in January 2026. Traditionally I wait for the paperback before writing one of these spoiler-laden crib sheets, but there won't be a US paperback edition and the UK one isn't until the end of the...",
-          "link": "http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html",
-          "publishedOn": "2026-08-17T12:28:06.000Z",
-          "wordCount": 2253,
-          "title": "Crib sheet: The Regicide Report",
           "imageUrl": null
         }
       ]

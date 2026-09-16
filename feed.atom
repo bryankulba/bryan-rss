@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-15T22:42:29.598Z</updated>
+    <updated>2026-09-16T03:15:32.559Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gemini Live audio]]></title>
+        <id>https://simonwillison.net/2026/Sep/15/gemini-live/</id>
+        <link href="https://simonwillison.net/2026/Sep/15/gemini-live/"/>
+        <updated>2026-09-15T22:47:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/gemini-live">Gemini Live audio</a></p>
+        <p>Google released <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href="https://openai.com/index/introducing-gpt-live/">GPT-Live</a> family.</p>
+<p>I pointed GPT-6 Astra Extra High at the documentation and <a href="https://gist.github.com/simonw/067b7430c5b1f743af9419b0184c38ef">had it build me this web UI</a> for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.</p>
+<p><img alt="Screenshot of a voice chat web interface with a transcript. Top buttons: Start session, End session, Mute mic, plus a Mic level meter and a timer showing 0:33. Status: Listening. Use headphones to reduce echo. Starting a session asks for microphone access. Transcript (with Download transcript and Clear buttons). Gemini: Yes, it's working perfectly. I can hear you clearly. How can I help you today? You: Okay, this is pretty good. Tell me some interesting facts about the California brown pelican. Gemini: They're famous for their spectacular plunge-dives to catch fish and have huge throat pouches that can hold up to three gallons of water and fish. They also made a great recovery after being endangered — marked as Interrupted. You: No, tell me different facts actually. Gemini: They nest in colonies on offshore islands and can hold up to three gallons of water in their throat pouches. At the bottom is a text input reading Or type a message… with a Send button, and the note: Sending a message interrupts the current response. Transcripts may include speech interrupted before playback." src="https://static.simonwillison.net/static/2026/gemini-live-tool.webp" /></p>
+<p>The <a href="https://github.com/simonw/tools/blob/main/gemini-live.html">implementation</a> uses no libraries. It connects to the <code>wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=...</code> WebSocket endpoint and uses a Web Audio API <code>AudioContext</code> for both capture and playback.</p>
+<p>Here's <a href="https://ai.google.dev/gemini-api/docs/live-api/get-started-websocket">the Gemini Live tutorial</a> for getting started with that WebSockets API.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/websockets">websockets</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/speech-to-text">speech-to-text</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Last year in Ireland,  a bouncy castle infested with a...]]></title>
         <id>https://kottke.org/26/09/0049578-a-bouncy-castle-infested-</id>
@@ -5117,77 +5135,6 @@ Excellent piece of reporting from 404 Media. For a while now there have been sto
     <p>Tags: <a href="https://simonwillison.net/tags/amazon">amazon</a>, <a href="https://simonwillison.net/tags/journalism">journalism</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/404-media">404-media</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Theory of Fluids Enters the 21st Century]]></title>
-        <id>https://www.quantamagazine.org/?p=165854</id>
-        <link href="https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/"/>
-        <updated>2026-08-17T15:11:17.000Z</updated>
-        <summary type="html"><![CDATA[From the 1800s to the early 2000s, physicists used the same theory to understand the behavior of fluids. Now, using a modern insight, they have redefined fluids from the bottom up.            
-The post Theory of Fluids Enters the 21st Century first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Charlie Wood</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ozu in Color (Every Frame a Painting)]]></title>
-        <id>https://kottke.org/26/08/ozu-in-color-every-frame-a-painting</id>
-        <link href="https://kottke.org/26/08/ozu-in-color-every-frame-a-painting"/>
-        <updated>2026-08-17T14:58:00.000Z</updated>
-        <summary type="html"><![CDATA[For TCM, Every Frame a Painting’s Taylor Ramos & Tony Zhou tell us how legendary Japanese filmmaker Yasujiro Ozu made the transition to color filmmaking. His first color film was Equinox Flower in 1958 and it took a couple of films for Ozu to work out how to best employ color.
-When you watch later Ozu films, you’re struck by how similar two people can be. How often one place resembles another, how life itself is cyclical and Ozu used color as another way to build these patterns.
-
-	
-In the recent post about the supersonic trebuchet, I wrote that if I’d had access to engineering process videos like that when I was a kid, I would have grown up to be an engineer. Well, same thing for Every Frame a Painting: 12-year-old Jason had zero idea how filmmaking worked and videos like theirs would have fired me up to try my hand at it (no idea where I would have gotten a camera though…) Maybe it’s best that I grew up to do what I’m doing, where I can learn a little bit about all of these different fascinating things. 🤷‍♂️
-
- 
-
-        
-         
-Tags: color · film school · movies · Taylor Ramos · Tony Zhou · video · Yasujiro Ozu]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two new episodes of Ric Burns&#8217; 1999 documentary...]]></title>
-        <id>https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b</id>
-        <link href="https://kottke.org/26/08/0049498-two-new-episodes-of-ric-b"/>
-        <updated>2026-08-17T13:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Two new episodes of Ric Burns’ 1999 documentary series New York will soon air on PBS. “Produced by the same team that created the original NEW YORK series, The Future of Cities presents a sweeping and dramatic portrait of New York since Sept 11th.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yale study : &#8220;A single-payer universal health care...]]></title>
-        <id>https://kottke.org/26/08/0049497-yale-study</id>
-        <link href="https://kottke.org/26/08/0049497-yale-study"/>
-        <updated>2026-08-17T13:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Yale study: “A single-payer universal health care system could cover every American, save more than 100,000 lives a year, and still cost $1 trillion less than the system it would replace.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crib sheet: The Regicide Report]]></title>
-        <id>http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html</id>
-        <link href="http://www.antipope.org/charlie/blog-static/2026/08/crib-sheet-the-regicide-report.html"/>
-        <updated>2026-08-17T12:28:06.000Z</updated>
-        <summary type="html"><![CDATA[The Regicide Report came out in January 2026. Traditionally I wait for the paperback before writing one of these spoiler-laden crib sheets, but there won't be a US paperback edition and the UK one isn't until the end of the...]]></summary>
-        <author>
-            <name>Charlie's Diary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[17aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18836</id>
-        <link href="https://warrenellis.ltd/status/17aug26/"/>
-        <updated>2026-08-17T12:01:34.000Z</updated>
-        <summary type="html"><![CDATA[Imagine a story where the events in our lives that happen online are never depicted or mentioned. A day would seem twelve hours long and…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
 </feed>
