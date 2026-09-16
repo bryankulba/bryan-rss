@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-16T16:05:37.505Z</updated>
+    <updated>2026-09-16T22:37:54.843Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Genius Design Details: Pips and Nubs]]></title>
+        <id>https://kottke.org/26/09/genius-design-details-pips-and-nubs</id>
+        <link href="https://kottke.org/26/09/genius-design-details-pips-and-nubs"/>
+        <updated>2026-09-16T21:02:00.000Z</updated>
+        <summary type="html"><![CDATA[The gang from Craighill explains the origins and uses of three seemingly small design details that show up everywhere: pips, nubs, and the very useful union of pips and nubs. You’ve seen pips on dice and dominos, nubs are used for Braille text, and the pips/nubs combo is used for locks or stops that can be released under pressure. Craighill even has a pips + nubs category in their online store. (thx, rion)
+
+ 
+
+        
+         
+Tags: Craighill · design · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Usenet-Rewind : search over 1 billion Usenet text posts...]]></title>
+        <id>https://kottke.org/26/09/0049596-usenet-rewind</id>
+        <link href="https://kottke.org/26/09/0049596-usenet-rewind"/>
+        <updated>2026-09-16T19:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Usenet-Rewind: search over 1 billion Usenet text posts from 1981 to the present.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220; Figures show Japan is now home to 107,677...]]></title>
+        <id>https://kottke.org/26/09/0049607-figures-show-japan-is-now</id>
+        <link href="https://kottke.org/26/09/0049607-figures-show-japan-is-now"/>
+        <updated>2026-09-16T18:59:00.000Z</updated>
+        <summary type="html"><![CDATA[“Figures show Japan is now home to 107,677 centenarians, the highest number in the world, of whom 88% are women. The oldest woman is Kishimoto Fuyo, a 114-year-old from Kyoto City and the oldest man is Kato Hikaru, a 112-year-old from Kumamoto.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Cowork and chat are now one Claude]]></title>
+        <id>https://simonwillison.net/2026/Sep/16/one-claude/</id>
+        <link href="https://simonwillison.net/2026/Sep/16/one-claude/"/>
+        <updated>2026-09-16T18:09:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://claude.com/blog/cowork-is-now-claude">Claude Cowork and chat are now one Claude</a></strong></p>
+In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:</p>
+<blockquote>
+<p>Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]</p>
+<p>This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans.</p>
+</blockquote>
+<p>I guess this means Claude is becoming a <strong>general agent</strong> in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago.</p>
+<p>On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on <a href="https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/">Understanding ChatGPT Work</a>.</p>
+<p>I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49729412">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Danny MacAskill Plays in the Endless Light of Norway]]></title>
+        <id>https://kottke.org/26/09/danny-macaskill-plays-in-the-endless-light-of-norway</id>
+        <link href="https://kottke.org/26/09/danny-macaskill-plays-in-the-endless-light-of-norway"/>
+        <updated>2026-09-16T17:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Scottish trials rider and mountain biker Danny MacAskill, who I first featured on the site more than 17 years ago, recently took his Santa Cruz eMTB north of the Arctic Circle to Narvik, Norway. He rode three different mountains and the result is this incredibly beautiful video, backed by a Max Cooper soundtrack. As one of the commenters notes, MacAskill makes a relatively heavy eMTB seem extraordinarily playful.
+As a mountain biker myself, some of that looks insanely fun but the narrow steep stuff looks insanely insane. Makes me want an eMTB, which I suppose is the whole point of the video.
+
+ 
+
+        
+         
+Tags: biking · Danny MacAskill · Max Cooper · music · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hidden in Pieces: Live at the Royal Albert Hall . A live...]]></title>
+        <id>https://kottke.org/26/09/0049606-hidden-in-pieces-live-at-</id>
+        <link href="https://kottke.org/26/09/0049606-hidden-in-pieces-live-at-"/>
+        <updated>2026-09-16T16:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Hidden in Pieces: Live at the Royal Albert Hall. A live album from the Yeah Yeah Yeahs? Hell yes yes yes! 13 songs are available now plus 9 more tracks when the full album drops in October.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Mustafa Suleyman]]></title>
         <id>https://simonwillison.net/2026/Sep/16/mustafa-suleyman/</id>
@@ -5080,46 +5166,6 @@ Tags: 2026 solar eclipse · astronomy · eclipses · photography · Rui Santos �
         <summary type="html"><![CDATA[Pants epiphanies]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/825281080679694336</id>
-        <link href="https://brucesterling.tumblr.com/post/825281080679694336"/>
-        <updated>2026-08-18T10:36:10.000Z</updated>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Jarvising]]></title>
-        <id>https://www.robinsloan.com/lab/jarvising/</id>
-        <link href="https://www.robinsloan.com/lab/jarvising/"/>
-        <updated>2026-08-18T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>You do have to actually make something. <a href="https://www.robinsloan.com/lab/jarvising/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the events in our lives that happen online are never depicted or mentioned]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12303</id>
-        <link href="https://www.velcro-city.co.uk/the-events-in-our-lives-that-happen-online-are-never-depicted-or-mentioned/"/>
-        <updated>2026-08-18T08:43:32.000Z</updated>
-        <summary type="html"><![CDATA[Some thoughts on the unnarratability of the extremely online life.]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/825271958152282112</id>
-        <link href="https://brucesterling.tumblr.com/post/825271958152282112"/>
-        <updated>2026-08-18T08:11:10.000Z</updated>
-        <summary type="html"><![CDATA[*Great work there, Slickerman
-*Still alive to this very day, by all appearances]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
     <entry>
