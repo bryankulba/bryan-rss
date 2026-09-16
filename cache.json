@@ -231,6 +231,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/0049598-but-where-are-the-ai-code",
+          "author": null,
+          "description": "Paul Ford: Aided by LLMs, people & companies are producing lots of software. But where are the AI-coded killer apps? “[AI is] very good at reproducing things that look and feel like what came before.”",
+          "link": "https://kottke.org/26/09/0049598-but-where-are-the-ai-code",
+          "publishedOn": "2026-09-16T15:59:00.000Z",
+          "wordCount": 578,
+          "title": "Paul Ford: Aided by LLMs, people & companies are...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049591-deconstructing-the-very-d",
+          "author": null,
+          "description": "The All of the Above Trail Fest is “deconstructing the very definition of a trail race, refiguring it into something more expansive and inclusive”. There are no gender divisions and winners are decided by who gets closest to their predicted finish time.",
+          "link": "https://kottke.org/26/09/0049591-deconstructing-the-very-d",
+          "publishedOn": "2026-09-16T15:17:00.000Z",
+          "wordCount": 709,
+          "title": "The All of the Above Trail Fest is  &#8220;deconstructing...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/the-powerful-connection-between-smell-memory",
+          "author": null,
+          "description": "One thing I didn’t get a chance to work into my post about the unexpected memory bomb triggered by my spice drawer was the tight, deep connection between smell and memory. I first learned about this relationship in college when I read A Natural History of the Senses by Diane Ackerman for a class. It’s still one of my favorite books. Here’s some of what she has to say about smell:\nSmell is the most direct of all our senses. When I hold a violet to my nose and inhale, odor molecules float back into the nasal cavity behind the bridge of the nose, where they are absorbed by the mucosa containing receptor cells bearing microscopic hairs called cilia. Five million of these cells fire impulses to the brain’s olfactory bulb or smell center. Such cells are unique to the nose. If you destroy a neuro…",
+          "link": "https://kottke.org/26/09/the-powerful-connection-between-smell-memory",
+          "publishedOn": "2026-09-16T13:50:18.000Z",
+          "wordCount": 1407,
+          "title": "The Powerful Connection Between Smell & Memory",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049608-we-must-create-the-shit-m",
+          "author": null,
+          "description": "We Must Create the Shit Machine. “I asked everyone I know at the BIG TECH HUMAN CENTIPEDE ROUNDTABLE, and we all agreed that UNCONTROLLABLE SHIT-RAIN IS USEFUL AND GREAT, and that EVERYONE WANTS IT.”",
+          "link": "https://kottke.org/26/09/0049608-we-must-create-the-shit-m",
+          "publishedOn": "2026-09-16T12:16:00.000Z",
+          "wordCount": 591,
+          "title": "We Must Create the Shit Machine . &#8220;I asked...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/0049605-the-frontier-anthropic-op",
           "author": null,
           "description": "The frontier Anthropic & OpenAI models are only ~4 months ahead of open models — at 5x the price. “Most organizations should ideally be using open models as the default for the majority of their work, according to [a report] from Mozilla…”",
@@ -2141,6 +2181,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+          "author": null,
+          "description": "<blockquote cite=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\"><p>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\">Mustafa Suleyman</a>, A warning about ‘model welfare’</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+          "publishedOn": "2026-09-16T16:00:54.000Z",
+          "wordCount": 759,
+          "title": "Quoting Mustafa Suleyman",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Sep/15/gemini-live/",
           "author": null,
           "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p>\n        <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href=\"https://openai.com/index/introducing-gpt-live/\">GPT-Live</a> family.</p>\n<p>I pointed GPT-6 Astra Extra High at the documentation and <a href=\"https://gist.github.com/simonw/067b7430c5b1f743af9419b0184c38ef\">had it build me this web UI</a> for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.</p>\n<p><img alt=\"Screenshot of a voice chat web interface with a transcript. Top buttons: Start session, End session, Mute mic, plus a Mic level meter and a timer showing 0:33. Status: Listening. Use headphones to reduce echo. Starting a session asks for microphone access. Transcript (with Download transcript and Clear buttons). Gemini: Yes, it's working perfectly. I can hear you clearly. How can I help you today? You: Okay, this is pretty good. Tell me some interesting facts about the California brown pelican. Gemini: They're famous for their spectacular plunge-dives to catch fish and have huge throat pouches that can hold up to three gallons of water and fish. They also made a great recovery after being endangered — marked as Interrupted. You: No, tell me different facts actually. Gemini: They nest in colonies on offshore islands and can hold up to three gallons of water in their throat pouches. At the bottom is a text input reading Or type a message… with a Send button, and the note: Sending a message interrupts the current response. Transcripts may include speech interrupted before playback.\" src=\"https://static.simonwillison.net/static/2026/gemini-live-tool.webp\" /></p>\n<p>The <a href=\"https://github.com/simonw/tools/blob/main/gemini-live.html\">implementation</a> uses no libraries. It connects to the <code>wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=...</code> WebSocket endpoint and uses a Web Audio API <code>AudioContext</code> for both capture and playback.</p>\n<p>Here's <a href=\"https://ai.google.dev/gemini-api/docs/live-api/get-started-websocket\">the Gemini Live tutorial</a> for getting started with that WebSockets API.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/websockets\">websockets</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/speech-to-text\">speech-to-text</a></p>",
@@ -2949,16 +2999,6 @@
           "wordCount": 890,
           "title": "Mojo🔥 is now open source",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.</p>\n<p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishing model</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49334544\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-          "publishedOn": "2026-08-17T23:58:14.000Z",
-          "wordCount": 809,
-          "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-          "imageUrl": null
         }
       ]
     },
@@ -3003,16 +3043,6 @@
           "wordCount": 4682,
           "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
           "imageUrl": "https://maggieappleton.com/og/planning-agents.png"
-        },
-        {
-          "id": "https://maggieappleton.com/now-2026-08/",
-          "author": null,
-          "description": "Maggie's digital garden filled with visual essays on programming, design, and anthropology",
-          "link": "https://maggieappleton.com/now-2026-08/",
-          "publishedOn": "2026-08-18T00:00:00.000Z",
-          "wordCount": 1410,
-          "title": "August 2026",
-          "imageUrl": "https://maggieappleton.com/og/now-2026-08.png"
         }
       ]
     },
@@ -3077,6 +3107,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=166816",
+          "author": "Marlowe Starling",
+          "description": "Comb jellies are helping answer fundamental questions in biology, from how the earliest nervous systems evolved to how bioluminescence works.             \nThe post Ctenophores Aren’t Just Beautiful. They’re Biological Wonders. first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/",
+          "publishedOn": "2026-09-16T15:56:27.000Z",
+          "wordCount": 2937,
+          "title": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders.",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2042/09/ImageGallery_CombJellies-crAlexanderSemenov_AquatilisExpedition-Social.webp"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=166935",
           "author": "Charlie Wood",
