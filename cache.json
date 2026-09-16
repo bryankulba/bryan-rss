@@ -231,6 +231,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/0049605-the-frontier-anthropic-op",
+          "author": null,
+          "description": "The frontier Anthropic & OpenAI models are only ~4 months ahead of open models — at 5x the price. “Most organizations should ideally be using open models as the default for the majority of their work, according to [a report] from Mozilla…”",
+          "link": "https://kottke.org/26/09/0049605-the-frontier-anthropic-op",
+          "publishedOn": "2026-09-16T04:08:00.000Z",
+          "wordCount": 745,
+          "title": "The frontier Anthropic & OpenAI models are only ~4...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/0049578-a-bouncy-castle-infested-",
           "author": null,
           "description": "Last year in Ireland, a bouncy castle infested with a “hypervirulent, multidrug-resistant pathogen” infected almost 50 children. Reality: always weirder than the weirdest sci-fi.",
@@ -1139,46 +1149,6 @@
           "wordCount": 768,
           "title": "The area known as Tornado Alley continues to shift...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049501-sand-temperatures-above-2",
-          "author": null,
-          "description": "“Sand temperatures above 29°C now produce 95–99% female sea turtles instead of the historical 50–50 ratio, creating a reproductive bottleneck that could collapse populations within two generations.”",
-          "link": "https://kottke.org/26/08/0049501-sand-temperatures-above-2",
-          "publishedOn": "2026-08-17T19:33:00.000Z",
-          "wordCount": 748,
-          "title": "&#8220; Sand temperatures above 29°C now produce 95–99%...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049430-came-away-with-seven-less",
-          "author": null,
-          "description": "A.J. Jacobs recently interviewed “the Papa Bear of Puzzling”, Will Shortz and came away with seven lessons he learned from him. “Creativity is usually more about evolution than revolution.”",
-          "link": "https://kottke.org/26/08/0049430-came-away-with-seven-less",
-          "publishedOn": "2026-08-17T18:43:00.000Z",
-          "wordCount": 742,
-          "title": "A.J. Jacobs recently interviewed &#8220;the Papa Bear of...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049491-unwinding-the-great-tech-",
-          "author": null,
-          "description": "Unwinding the Great Tech Power Grab. “If tech seeks to replace democratic governance itself, then the response has to be more democracy, not less.” Lots of related links in this piece too.",
-          "link": "https://kottke.org/26/08/0049491-unwinding-the-great-tech-",
-          "publishedOn": "2026-08-17T17:33:00.000Z",
-          "wordCount": 804,
-          "title": "Unwinding the Great Tech Power Grab . “If tech seeks to...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049499-ordinary-abundance",
-          "author": null,
-          "description": "We live in a world of ordinary abundance & luxuries only dreamed of in centuries past: music on demand, photographs, books, eyeglasses, refrigeration, vaccination, bicycles, and the washing machine.",
-          "link": "https://kottke.org/26/08/0049499-ordinary-abundance",
-          "publishedOn": "2026-08-17T16:18:00.000Z",
-          "wordCount": 738,
-          "title": "We live in a world of  ordinary abundance  & luxuries...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1374,6 +1344,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13303",
+          "author": "Cory Doctorow",
+          "description": "Today's links How an AI moratorium can save AI bosses: If you can't impose switching costs, just eliminate the competition. Hey look at this: Delights to delectate. Object permanence: Flash Worms; This Film is Not Yet Rated; Libdem copyright sabotage; Religion worth more than Big Tech; Geographic tubemap; Selective censorship resistance. Upcoming appearances: Budapest, Edmonton, Boston, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How an AI moratorium can save AI bosses (permalink) There's lots of reasons to believe the \"hyperscaler\" model of AI can never be profitable, and not just because of its g…",
+          "link": "https://pluralistic.net/2026/09/16/beggar-thy-neighbor/",
+          "publishedOn": "2026-09-16T07:52:58.000Z",
+          "wordCount": 3527,
+          "title": "Pluralistic: How an AI moratorium can save AI bosses (16 Sep 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13289",
           "author": "Cory Doctorow",
@@ -2978,16 +2958,6 @@
           "publishedOn": "2026-08-17T23:58:14.000Z",
           "wordCount": 809,
           "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p>\nExcellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a href=\"https://simonwillison.net/2025/Jun/24/anthropic-training/\">my previous coverage</a> of Anthropic's book scanning from June 2025.)</p>\n<p>404 Media investigated with an AirTag!</p>\n<blockquote>\n<p>In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.</p>\n</blockquote>\n<p>The book ended up delivered to the VGT3 corner of the <a href=\"https://maps.app.goo.gl/2hMqbHrovTSZxh1U9\">LAS8 Amazon facility</a> in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!</p>\n<p><img alt=\"Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading.\" src=\"https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg\" /></p>\n<p style=\"margin-top: -1em\"><small>Photo credit: 404 Media</small></p>\n\n<p>Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/404-media\">404-media</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-          "publishedOn": "2026-08-17T15:21:29.000Z",
-          "wordCount": 940,
-          "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
           "imageUrl": null
         }
       ]

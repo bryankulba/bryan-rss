@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-16T03:15:32.559Z</updated>
+    <updated>2026-09-16T09:03:29.455Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: How an AI moratorium can save AI bosses (16 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13303</id>
+        <link href="https://pluralistic.net/2026/09/16/beggar-thy-neighbor/"/>
+        <updated>2026-09-16T07:52:58.000Z</updated>
+        <summary type="html"><![CDATA[Today's links How an AI moratorium can save AI bosses: If you can't impose switching costs, just eliminate the competition. Hey look at this: Delights to delectate. Object permanence: Flash Worms; This Film is Not Yet Rated; Libdem copyright sabotage; Religion worth more than Big Tech; Geographic tubemap; Selective censorship resistance. Upcoming appearances: Budapest, Edmonton, Boston, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How an AI moratorium can save AI bosses (permalink) There's lots of reasons to believe the "hyperscaler" model of AI can never be profitable, and not just because of its g…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The frontier Anthropic & OpenAI models are only ~4...]]></title>
+        <id>https://kottke.org/26/09/0049605-the-frontier-anthropic-op</id>
+        <link href="https://kottke.org/26/09/0049605-the-frontier-anthropic-op"/>
+        <updated>2026-09-16T04:08:00.000Z</updated>
+        <summary type="html"><![CDATA[The frontier Anthropic & OpenAI models are only ~4 months ahead of open models — at 5x the price. “Most organizations should ideally be using open models as the default for the majority of their work, according to [a report] from Mozilla…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemini Live audio]]></title>
         <id>https://simonwillison.net/2026/Sep/15/gemini-live/</id>
@@ -5072,69 +5092,6 @@ That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (
         <summary type="html"><![CDATA[Two great stories from The Londonder: Falling Standards: How Evgeny Lebedev saved – then sank – London’s newspaper and an exploration of the Heygate, London’s lost Brutalist estate / a huge repository of live music at Moshpit (via Paste Magazine) … Continue reading →]]></summary>
         <author>
             <name>things magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Sand temperatures above 29°C now produce 95–99%...]]></title>
-        <id>https://kottke.org/26/08/0049501-sand-temperatures-above-2</id>
-        <link href="https://kottke.org/26/08/0049501-sand-temperatures-above-2"/>
-        <updated>2026-08-17T19:33:00.000Z</updated>
-        <summary type="html"><![CDATA[“Sand temperatures above 29°C now produce 95–99% female sea turtles instead of the historical 50–50 ratio, creating a reproductive bottleneck that could collapse populations within two generations.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A.J. Jacobs recently interviewed &#8220;the Papa Bear of...]]></title>
-        <id>https://kottke.org/26/08/0049430-came-away-with-seven-less</id>
-        <link href="https://kottke.org/26/08/0049430-came-away-with-seven-less"/>
-        <updated>2026-08-17T18:43:00.000Z</updated>
-        <summary type="html"><![CDATA[A.J. Jacobs recently interviewed “the Papa Bear of Puzzling”, Will Shortz and came away with seven lessons he learned from him. “Creativity is usually more about evolution than revolution.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unwinding the Great Tech Power Grab . “If tech seeks to...]]></title>
-        <id>https://kottke.org/26/08/0049491-unwinding-the-great-tech-</id>
-        <link href="https://kottke.org/26/08/0049491-unwinding-the-great-tech-"/>
-        <updated>2026-08-17T17:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Unwinding the Great Tech Power Grab. “If tech seeks to replace democratic governance itself, then the response has to be more democracy, not less.” Lots of related links in this piece too.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We live in a world of  ordinary abundance  & luxuries...]]></title>
-        <id>https://kottke.org/26/08/0049499-ordinary-abundance</id>
-        <link href="https://kottke.org/26/08/0049499-ordinary-abundance"/>
-        <updated>2026-08-17T16:18:00.000Z</updated>
-        <summary type="html"><![CDATA[We live in a world of ordinary abundance & luxuries only dreamed of in centuries past: music on demand, photographs, books, eyeglasses, refrigeration, vaccination, bicycles, and the washing machine.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility]]></title>
-        <id>https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/</id>
-        <link href="https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"/>
-        <updated>2026-08-17T15:21:29.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p>
-Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a href="https://simonwillison.net/2025/Jun/24/anthropic-training/">my previous coverage</a> of Anthropic's book scanning from June 2025.)</p>
-<p>404 Media investigated with an AirTag!</p>
-<blockquote>
-<p>In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.</p>
-</blockquote>
-<p>The book ended up delivered to the VGT3 corner of the <a href="https://maps.app.goo.gl/2hMqbHrovTSZxh1U9">LAS8 Amazon facility</a> in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!</p>
-<p><img alt="Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading." src="https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg" /></p>
-<p style="margin-top: -1em"><small>Photo credit: 404 Media</small></p>
-
-<p>Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/amazon">amazon</a>, <a href="https://simonwillison.net/tags/journalism">journalism</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/404-media">404-media</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
 </feed>
