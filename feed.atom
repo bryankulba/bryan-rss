@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-16T22:37:54.843Z</updated>
+    <updated>2026-09-17T03:21:15.967Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a40]]></title>
+        <id>https://simonwillison.net/2026/Sep/16/datasette/</id>
+        <link href="https://simonwillison.net/2026/Sep/16/datasette/"/>
+        <updated>2026-09-16T23:51:43.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a40">datasette 1.0a40</a></p>
+        <p>Same security fix as <a href="https://simonwillison.net/2026/Sep/16/datasette-2/">0.65.5</a>, plus some neat new features and bug fixes:</p>
+<ul>
+<li>Plugins can now launch and manage <strong>background tasks</strong> using the new <a href="https://docs.datasette.io/en/latest/internals.html#datasette-add-background-task">datasette.add_background_task()</a> method. Thanks, <a href="https://alexgarcia.xyz/">Alex Garcia</a>.</li>
+<li>I've migrated Datasette to <a href="https://github.com/pydantic/httpx2">httpx2</a> for features like the internal <code>datasette.client.get()</code> method.</li>
+<li>A whole lot of <a href="https://docs.datasette.io/en/latest/changelog.html#a40-2026-09-16">bug fixes</a>, many of them stemming from a recent effort to triage issues for a 1.0 stable release.</li>
+</ul>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 0.65.5]]></title>
+        <id>https://simonwillison.net/2026/Sep/16/datasette-2/</id>
+        <link href="https://simonwillison.net/2026/Sep/16/datasette-2/"/>
+        <updated>2026-09-16T23:51:08.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/0.65.5">datasette 0.65.5</a></p>
+        <p>Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by <a href="https://github.com/dpfkdlemtp">dpfkdlemtp</a> in <a href="https://github.com/simonw/datasette/security/advisories/GHSA-h547-rmjf-5m2m">GHSA-h547-rmjf-5m2m</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Genius Design Details: Pips and Nubs]]></title>
         <id>https://kottke.org/26/09/genius-design-details-pips-and-nubs</id>
@@ -5106,66 +5139,6 @@ Tags: 2026 solar eclipse · astronomy · eclipses · photography · Rui Santos �
         <summary type="html"><![CDATA[Post-pandemic vaccination rates of US kindergarteners continue to fall and “nonmedical exemptions” based on “personal or religious beliefs” jumped 0.8% in just 1 year.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Whoa, Columbia House (12 cassettes for 1¢) is  finally...]]></title>
-        <id>https://kottke.org/26/08/0049503-finally-going-out-of-busi</id>
-        <link href="https://kottke.org/26/08/0049503-finally-going-out-of-busi"/>
-        <updated>2026-08-18T14:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Whoa, Columbia House (12 cassettes for 1¢) is finally going out of business after 71 years and several pivots (records to reel-to-reel to 8-tracks to cassettes to CDs to VHS to DVDs to Blu-ray).]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: IP can't save you from AI (18 Aug 2026)]]></title>
-        <id>https://pluralistic.net/?p=13191</id>
-        <link href="https://pluralistic.net/2026/08/18/enron-corpus/"/>
-        <updated>2026-08-18T14:48:19.000Z</updated>
-        <summary type="html"><![CDATA[Today's links IP can't save you from AI: Property rights cannot substitute for labor rights and privacy rights. Hey look at this: Delights to delectate. Object permanence: Flying Brits v brown people; Probability neglect; Law v "enhanced patdowns"; Onion says Brits love paywalls; "Hench"; "Lessons in Magic and Disaster." Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. IP can't save you from AI (permalink) You don't have to believe that AI "art" is any good (I don't), nor do you have to believe that AI "art" can be any good (I don't) to understand that the reason that the capital markets are putting …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The area known as Tornado Alley continues to shift...]]></title>
-        <id>https://kottke.org/26/08/0049502-the-area-known-as-tornado</id>
-        <link href="https://kottke.org/26/08/0049502-the-area-known-as-tornado"/>
-        <updated>2026-08-18T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The area known as Tornado Alley continues to shift eastward (from Texas, Oklahoma, and Kansas to Illinois, Indiana, and Wisconsin) due to “a warming climate that helps transport warmer and more-humid air farther north and east than in the past”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[18aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18843</id>
-        <link href="https://warrenellis.ltd/status/18aug26/"/>
-        <updated>2026-08-18T12:12:30.000Z</updated>
-        <summary type="html"><![CDATA[Me too, mancub, me too. Herself incubated what may possibly be plague at Bloodstock and is therefore in the Plague Cell (our daughter’s old room)…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*Why not both at once]]></title>
-        <id>https://brucesterling.tumblr.com/post/825283039741575168</id>
-        <link href="https://brucesterling.tumblr.com/post/825283039741575168"/>
-        <updated>2026-08-18T11:07:18.000Z</updated>
-        <summary type="html"><![CDATA[*Why not both at once]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why hemmed jeans look horrible]]></title>
-        <id>https://www.blackbirdspyplane.com/p/why-hemmed-jeans-look-horrible</id>
-        <link href="https://www.blackbirdspyplane.com/p/why-hemmed-jeans-look-horrible"/>
-        <updated>2026-08-18T11:02:32.000Z</updated>
-        <summary type="html"><![CDATA[Pants epiphanies]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
     <entry>
