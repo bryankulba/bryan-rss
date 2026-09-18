@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-18T18:51:24.117Z</updated>
+    <updated>2026-09-18T22:15:44.403Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New novel from Emily St. John Mandel (Station Eleven):...]]></title>
+        <id>https://kottke.org/26/09/0049601-exit-party</id>
+        <link href="https://kottke.org/26/09/0049601-exit-party"/>
+        <updated>2026-09-18T20:44:00.000Z</updated>
+        <summary type="html"><![CDATA[New novel from Emily St. John Mandel (Station Eleven): Exit Party. “Los Angeles, 2031: The first spring after the collapse of the United States, peacekeeping troops withdraw from the city, the Jacaranda trees blossom, and the curfew is finally lifted.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wes Anderson’s Criterion Closet Picks]]></title>
+        <id>https://kottke.org/26/09/wes-andersons-criterion-closet-picks</id>
+        <link href="https://kottke.org/26/09/wes-andersons-criterion-closet-picks"/>
+        <updated>2026-09-18T19:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Wes Anderson steps into the mobile Criterion Closet to select some films that he enjoys.
+One unsurprising thing about this video: Anderson says he has his own Criterion closet at home with all of the Criterion films. That’s maybe a $40-50K investment? (He probably gets them free from Criterion tho.) I wonder how many films he watches a day? Two? Three? If Soderbergh’s yearly watch/read lists are any indication, it’s probably in that ballpark.
+One surprising thing about this video: I was expecting Anderson to go for Kurosawa, Tati, Truffaut, Welles, and some other of his big influences but instead selected family friendly fare suitable for a trip. The man has a wide array of influences. Here’s the full list:
+The 39 Steps (Alfred Hitchcock, 1935)
+I love seeing Flow on there. What a great little film.
+See also Wes Anderson Talks Up Some of His Favorite Movies in a Parisian Video Store and this delightful video from 20 years ago or so featuring Anderson and Jason Schwartzman picking out music & movies in a Borders:
+
+
+ 
+
+        
+         
+Tags: Criterion Collection · lists · movies · video · Wes Anderson]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Note on 18th September 2026]]></title>
+        <id>https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/</id>
+        <link href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"/>
+        <updated>2026-09-18T19:21:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&#8220;The clan of predators currently in charge of the...]]></title>
+        <id>https://kottke.org/26/09/0049624-striving-to-make-the-worl</id>
+        <link href="https://kottke.org/26/09/0049624-striving-to-make-the-worl"/>
+        <updated>2026-09-18T19:10:00.000Z</updated>
+        <summary type="html"><![CDATA[“The clan of predators currently in charge of the U.S. federal government” are striving to make the world safe for grift, corruption, and theft, with their mob boss president leading the way.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Thariq Shihipar]]></title>
+        <id>https://simonwillison.net/2026/Sep/18/thariq-shihipar/</id>
+        <link href="https://simonwillison.net/2026/Sep/18/thariq-shihipar/"/>
+        <updated>2026-09-18T19:09:27.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/trq212/status/2101009392611278961"><p>We're adding support for AGENTS.md to Claude Code. </p>
+<p>Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.</p>
+<p>AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.</p>
+<p>This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.</p>
+<p>You can see <a href="https://github.com/anthropics/claude-code/tree/main/mods/agents-md">the source for the mod here</a>!</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/trq212/status/2101009392611278961">Thariq Shihipar</a>, there are <a href="https://github.com/anthropics/claude-code/tree/main/mods">more mods here</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/thariq-shihipar">thariq-shihipar</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Walking Men Worldwide]]></title>
         <id>https://kottke.org/26/09/walking-men-worldwide</id>
@@ -1261,6 +1332,16 @@ Tags: books · Haruki Murakami · jazz · music · video]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/playwright">playwright</a>, <a href="https://simonwillison.net/tags/shot-scraper">shot-scraper</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lifted AF ⊗ Cyborgs, centaurs and cyberpunks]]></title>
+        <id>6aa46f437ff933000123fd22</id>
+        <link href="https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks-no-416/"/>
+        <updated>2026-09-13T10:00:36.000Z</updated>
+        <summary type="html"><![CDATA[No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
         </author>
     </entry>
     <entry>
@@ -2761,6 +2842,16 @@ Terence Eden shares some daunting statistics in support of his take that "the Do
     <entry>
         <title type="html"><![CDATA[The future is not tech-forward ⊗ Models don’t go rogue]]></title>
         <id>6a9b2d877d32cc00018c5498</id>
+        <link href="https://sentiers.media/the-future-is-not-tech-forward-models-dont-go-rogue-no-415/"/>
+        <updated>2026-09-06T10:00:44.000Z</updated>
+        <summary type="html"><![CDATA[No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The future is not tech-forward ⊗ Models don’t go rogue]]></title>
+        <id>6a9b2d877d32cc00018c5498</id>
         <link href="https://sentiers.media/the-future-is-not-tech-forward-models-dont-go-rogue/"/>
         <updated>2026-09-06T10:00:44.000Z</updated>
         <summary type="html"><![CDATA[No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars]]></summary>
@@ -4185,6 +4276,16 @@ Yea, stranger e…]]></summary>
     <entry>
         <title type="html"><![CDATA[Latent space as a new medium ⊗ The technology killing oil demand]]></title>
         <id>6a9380330799510001da3de9</id>
+        <link href="https://sentiers.media/latent-space-as-a-new-medium-the-technology-killing-oil-demand-no-414/"/>
+        <updated>2026-08-30T10:00:54.000Z</updated>
+        <summary type="html"><![CDATA[No.414 — Permacrisis readiness ⊗ Marketplace to rent human faces ⊗ “Horrendous” cracks in homes after heat waves ⊗ The naturalist’s library]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latent space as a new medium ⊗ The technology killing oil demand]]></title>
+        <id>6a9380330799510001da3de9</id>
         <link href="https://sentiers.media/latent-space-as-a-new-medium-the-technology-killing-oil-demand/"/>
         <updated>2026-08-30T10:00:54.000Z</updated>
         <summary type="html"><![CDATA[No.414 — Permacrisis readiness ⊗ Marketplace to rent human faces ⊗ “Horrendous” cracks in homes after heat waves ⊗ The naturalist’s library]]></summary>
@@ -4958,6 +5059,16 @@ A few interesting numbers in this FT story gathered from "people with knowledge 
     <p>Tags: <a href="https://simonwillison.net/tags/drew-breunig">drew-breunig</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neuroplasticity as a praxis ⊗ The Ambiguist]]></title>
+        <id>6a88b9dc80d33000016eb3d2</id>
+        <link href="https://sentiers.media/neuroplasticity-as-a-praxis-the-ambiguist-no-413/"/>
+        <updated>2026-08-23T10:00:04.000Z</updated>
+        <summary type="html"><![CDATA[No.413 — The science of foresight ⊗ Librarians are hosting viral “Avoiding AI” workshops ⊗ What if we never built another new building? ⊗ Seoul’s outdoor library]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
         </author>
     </entry>
     <entry>
