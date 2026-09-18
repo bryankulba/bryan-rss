@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-17T22:38:32.824Z</updated>
+    <updated>2026-09-18T03:07:12.242Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Be alert: targeted attacks on prominent Rustaceans]]></title>
+        <id>https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/</id>
+        <link href="https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/"/>
+        <updated>2026-09-17T23:59:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://blog.rust-lang.org/2026/09/17/targeted-attacks/">Be alert: targeted attacks on prominent Rustaceans</a></strong></p>
+Important warning from Adam Harvey and the crates security team:</p>
+<blockquote>
+<p>We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware.</p>
+<p>A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard).</p>
+</blockquote>
+<p>Last month this trick was used in a successful <a href="https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/">supply chain attack against the array ref crate</a>, among others.</p>
+<p>Any piece of software that depends on open source (which is almost <em>every</em> piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency network for that software.</p>
+<p>I guess our best defense right now is <a href="https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns">dependency cooldowns</a> - giving new package releases a few days before upgrading to them, in the hope that supply chain attacks like this will be spotted by someone else.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/supply-chain">supply-chain</a>, <a href="https://simonwillison.net/tags/dependency-cooldowns">dependency-cooldowns</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Write With An LLM]]></title>
+        <id>https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/</id>
+        <link href="https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/"/>
+        <updated>2026-09-17T23:37:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/">How To Write With An LLM</a></strong></p>
+Thomas Ptacek on using LLMs as copyeditors, not as writing assistants:</p>
+<blockquote>
+<p><strong>Rule Number One: You may not use a single word an LLM suggests to you.</strong></p>
+<p>[...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule!</p>
+</blockquote>
+<p>I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see <a href="https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader">my proofreading prompt</a>).</p>
+<p>The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined.</p>
+<p>Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also <a href="https://x.com/tqbf/status/2100414465187475821">this Twitter thread</a>), and provides a prompt to help kickstart building your own.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/thomas-ptacek">thomas-ptacek</a>, <a href="https://simonwillison.net/tags/writing">writing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[&#8220; Szilveszter Makó’s surreal portraits have become...]]></title>
         <id>https://kottke.org/26/09/0049616-szilveszter-maks-surreal-</id>
@@ -5187,37 +5229,6 @@ That’s exactly the problem with coding agents and software: it’s very easy t
         <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/podcast-appearances">podcast-appearances</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Quantum Computer, One Fragile Qubit at a Time]]></title>
-        <id>https://www.quantamagazine.org/?p=165698</id>
-        <link href="https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/"/>
-        <updated>2026-08-19T14:16:03.000Z</updated>
-        <summary type="html"><![CDATA[No one yet knows which technology will power the quantum computers of the future, but the race to create them has already produced some of science’s most intricate machinery.            
-The post Building a Quantum Computer, One Fragile Qubit at a Time first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Ben Brubaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sturgeon’s law (slight return)]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12306</id>
-        <link href="https://www.velcro-city.co.uk/sturgeons-law-slight-return/"/>
-        <updated>2026-08-19T11:42:40.000Z</updated>
-        <summary type="html"><![CDATA[I think we're probably past Peak Poptimism already, myself, and driving hard into enantiodromia territory; the headlines are full of it, if you've eyes to see with.]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18848</id>
-        <link href="https://warrenellis.ltd/status/19aug26/"/>
-        <updated>2026-08-19T11:16:11.000Z</updated>
-        <summary type="html"><![CDATA[AirPods with cameras in is a good thing because for a year they’re all anyone will want and proper earbuds will get cheaper. And then…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>

@@ -1726,16 +1726,6 @@
           "wordCount": 1432,
           "title": "20aug26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1943-scaled-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18848",
-          "author": "Warren Ellis",
-          "description": "AirPods with cameras in is a good thing because for a year they’re all anyone will want and proper earbuds will get cheaper. And then…",
-          "link": "https://warrenellis.ltd/status/19aug26/",
-          "publishedOn": "2026-08-19T11:16:11.000Z",
-          "wordCount": 1256,
-          "title": "19aug26",
-          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -2170,6 +2160,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://blog.rust-lang.org/2026/09/17/targeted-attacks/\">Be alert: targeted attacks on prominent Rustaceans</a></strong></p>\nImportant warning from Adam Harvey and the crates security team:</p>\n<blockquote>\n<p>We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware.</p>\n<p>A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard).</p>\n</blockquote>\n<p>Last month this trick was used in a successful <a href=\"https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/\">supply chain attack against the array ref crate</a>, among others.</p>\n<p>Any piece of software that depends on open source (which is almost <em>every</em> piece of software) has a network of human beings who are potential attack vectors - everyone with publishing rights to any of the packages in the dependency network for that software.</p>\n<p>I guess our best defense right now is <a href=\"https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns\">dependency cooldowns</a> - giving new package releases a few days before upgrading to them, in the hope that supply chain attacks like this will be spotted by someone else.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/supply-chain\">supply-chain</a>, <a href=\"https://simonwillison.net/tags/dependency-cooldowns\">dependency-cooldowns</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+          "publishedOn": "2026-09-17T23:59:19.000Z",
+          "wordCount": 939,
+          "title": "Be alert: targeted attacks on prominent Rustaceans",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\">How To Write With An LLM</a></strong></p>\nThomas Ptacek on using LLMs as copyeditors, not as writing assistants:</p>\n<blockquote>\n<p><strong>Rule Number One: You may not use a single word an LLM suggests to you.</strong></p>\n<p>[...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule!</p>\n</blockquote>\n<p>I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see <a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader\">my proofreading prompt</a>).</p>\n<p>The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined.</p>\n<p>Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also <a href=\"https://x.com/tqbf/status/2100414465187475821\">this Twitter thread</a>), and provides a prompt to help kickstart building your own.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/writing\">writing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+          "publishedOn": "2026-09-17T23:37:27.000Z",
+          "wordCount": 884,
+          "title": "How To Write With An LLM",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
           "author": null,
@@ -3296,16 +3306,6 @@
           "wordCount": 10234,
           "title": "Are We Thinking Correctly About AI Intelligence?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/JOW-S5-E6-cr-Chanelle-Nibbelink-Social-LOGO.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=165698",
-          "author": "Ben Brubaker",
-          "description": "No one yet knows which technology will power the quantum computers of the future, but the race to create them has already produced some of science’s most intricate machinery.            \nThe post Building a Quantum Computer, One Fragile Qubit at a Time first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/",
-          "publishedOn": "2026-08-19T14:16:03.000Z",
-          "wordCount": 2798,
-          "title": "Building a Quantum Computer, One Fragile Qubit at a Time",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2056/08/IBMs-quantum-computer-cr-Graham-Carlow-Social.jpg"
         }
       ]
     },
@@ -3468,16 +3468,6 @@
           "publishedOn": "2026-08-24T11:15:13.000Z",
           "wordCount": 2718,
           "title": "the only animal most philosophers have killed with their own two hands",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12306",
-          "author": "PGR",
-          "description": "I think we're probably past Peak Poptimism already, myself, and driving hard into enantiodromia territory; the headlines are full of it, if you've eyes to see with.",
-          "link": "https://www.velcro-city.co.uk/sturgeons-law-slight-return/",
-          "publishedOn": "2026-08-19T11:42:40.000Z",
-          "wordCount": 2833,
-          "title": "sturgeon’s law (slight return)",
           "imageUrl": null
         }
       ]
