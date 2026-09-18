@@ -120,6 +120,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
+          "author": null,
+          "description": "<p>Takes practice, and a bit of audacity. <a href=\"https://www.robinsloan.com/lab/ask-for-what-you-want/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
+          "publishedOn": "2026-09-18T00:00:00.000Z",
+          "wordCount": 8285,
+          "title": "Dragoncatcher: 'Ask for what you want' is a key skill for the 21st century",
+          "imageUrl": "https://www.robinsloan.com/img/magic-mirror-collage.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/iphone-solo/",
           "author": null,
           "description": "<p>Really very simply... <a href=\"https://www.robinsloan.com/lab/iphone-solo/\">Read here.</a></p>",
@@ -250,6 +260,36 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/09/walking-men-worldwide",
+          "author": null,
+          "description": "Artist Maya Barkai assembled a collection of pedestrian traffic signals from around the world: Walking Men Worldwide.\n\n\n\n\nI love all of these little people. The Warsaw one reminds me somewhat of Rocky from Project Hail Mary. Some of the ones from smaller places have more personality, but I feel like the New York and Boston ones are my favorites aesthetically. Weirdly, the iconic German Ampelmännchen isn’t among the crowd here.\nA screenprint of the collected pedestrian people is available on the Walking Men Worldwide website. (via @jessicabrillhart)\n\n \n\n        \n         \nTags: art · cities · design · Maya Barkai · walking",
+          "link": "https://kottke.org/26/09/walking-men-worldwide",
+          "publishedOn": "2026-09-18T18:10:00.000Z",
+          "wordCount": 684,
+          "title": "Walking Men Worldwide",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1789690151-1ddc1a7a.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/09/0049620-how-nyc-street-signs-are-",
+          "author": null,
+          "description": "Instant click for me: how NYC street signs are made. “The sign shop…has a staff of 46 workers, including seven letterers who lay out signs by hand and a blacksmith who makes custom brackets to securely attach signs to traffic poles.”",
+          "link": "https://kottke.org/26/09/0049620-how-nyc-street-signs-are-",
+          "publishedOn": "2026-09-18T17:09:00.000Z",
+          "wordCount": 709,
+          "title": "Instant click for me:  how NYC street signs are made ....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049619-the-history-of-concrete",
+          "author": null,
+          "description": "The History of Concrete, a new documentary film by John Wilson, who one review called “the Werner Herzog of the mundane”. This looks great!",
+          "link": "https://kottke.org/26/09/0049619-the-history-of-concrete",
+          "publishedOn": "2026-09-18T15:59:00.000Z",
+          "wordCount": 709,
+          "title": "The History of Concrete , a new documentary film by John...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/09/0049613-review-of-a-new-book-on-s",
           "author": null,
