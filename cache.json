@@ -265,16 +265,6 @@
           "wordCount": 11559,
           "title": "Webcurios 28/08/26",
           "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1736",
-          "author": "admin",
-          "description": "Reading Time:  36 minutes Got to be honest, it has been a genuinely HORRIBLE week in Discourse Land, specifically the UK bit of it, and I have had quite enough of the web for the moment. I am off to do Good Works (and eat jerk chicken) in Catford – you amuse yourself with this week’s links, which are…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-21-08-26/",
-          "publishedOn": "2026-08-21T06:23:23.000Z",
-          "wordCount": 11077,
-          "title": "Webcurios 21/08/26",
-          "imageUrl": null
         }
       ]
     },
@@ -2234,6 +2224,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+          "author": null,
+          "description": "<p><img src=\"https://static.inaturalist.org/photos/737061413/large.jpg\" alt=\"California Sea Lion\"></p><p><img src=\"https://static.inaturalist.org/photos/737061040/large.jpg\" alt=\"Brandt&#x27;s Cormorant\"></p><p>California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US</p><p>I only noticed this after I had taken the photo: Morris <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">the Northern Gannet</a> is peeking out from behind the base of the sign.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+          "publishedOn": "2026-09-19T17:10:08.000Z",
+          "wordCount": 693,
+          "title": "California Sea Lion, Brandt's Cormorant",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
           "author": null,
