@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-18T22:15:44.403Z</updated>
+    <updated>2026-09-19T03:03:35.209Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Gemini Hacked Three Companies in First Known Breakout by Google’s AI]]></title>
+        <id>https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/</id>
+        <link href="https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"/>
+        <updated>2026-09-18T23:57:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2">Gemini Hacked Three Companies in First Known Breakout by Google’s AI</a></strong></p>
+Gemini finally caught up on <a href="https://www.felonybench.com/">Felony Bench</a>!</p>
+<blockquote>
+<p>The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.</p>
+<p>In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said.</p>
+</blockquote>
+<p>Gemini is apparently less determined than other models, and decided <em>not</em> to keep going.</p>
+<p>Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip.</p>
+<blockquote>
+<p>Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one.</p>
+</blockquote>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New novel from Emily St. John Mandel (Station Eleven):...]]></title>
         <id>https://kottke.org/26/09/0049601-exit-party</id>
@@ -5504,57 +5527,6 @@ Tags: music · Tiny Desk Concerts · video · Weird Al Yankovic]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/typescript">typescript</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/bun">bun</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;All our neighbors worked for those firms —...]]></title>
-        <id>https://kottke.org/26/08/0049513-none-of-them-would-let-th</id>
-        <link href="https://kottke.org/26/08/0049513-none-of-them-would-let-th"/>
-        <updated>2026-08-20T14:29:00.000Z</updated>
-        <summary type="html"><![CDATA[“All our neighbors worked for those firms — Facebook, Google and Apple. None of them would let their children interact with any screens. They all knew how addicting they were and how to protect their own children.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are We Thinking Correctly About AI Intelligence?]]></title>
-        <id>https://www.quantamagazine.org/?p=165961</id>
-        <link href="https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/"/>
-        <updated>2026-08-20T14:04:40.000Z</updated>
-        <summary type="html"><![CDATA[Computer scientist Melanie Mitchell discusses why artificial intelligence doesn’t “think” or “reason” like humans, and how we can create better methods for measuring machine cognition.            
-The post Are We Thinking Correctly About AI Intelligence? first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Steven Strogatz and Janna Levin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long past time to quit X . &#8220;Those who continue to...]]></title>
-        <id>https://kottke.org/26/08/0049512-long-past-time-to-quit-x</id>
-        <link href="https://kottke.org/26/08/0049512-long-past-time-to-quit-x"/>
-        <updated>2026-08-20T13:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Long past time to quit X. “Those who continue to post on X — in particular those X users who are not racist psychopaths — are enhancing the site’s usefulness to [Musk] as a propaganda tool by drawing more eyes to the platform… “]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18851</id>
-        <link href="https://warrenellis.ltd/status/20aug26/"/>
-        <updated>2026-08-20T13:16:03.000Z</updated>
-        <summary type="html"><![CDATA[Did you ever think about the number of films you don’t get to see because you’re self-harming your own brain cells with aggressively mid streaming…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your private shame becomes public]]></title>
-        <id>https://www.blackbirdspyplane.com/p/your-private-shame-is-public</id>
-        <link href="https://www.blackbirdspyplane.com/p/your-private-shame-is-public"/>
-        <updated>2026-08-20T11:03:21.000Z</updated>
-        <summary type="html"><![CDATA[Plus spicy footwear, new natty-dye shirts, a studio visit with a very sick sculptor, chill floating Chinese rappers and more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
     <entry>
