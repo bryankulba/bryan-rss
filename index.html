@@ -35,6 +35,28 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/19/datasette-auth-github/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-09-19T19:52:02.000Z">2026-09-19</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Sep/19/datasette-auth-github/" target="_blank" rel="noopener noreferrer">datasette-auth-github 1.0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-auth-github 1.0
+I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.)
+I fixed that in #80 and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I'm trying to get better at promoting stable plugins to 1.0.
+Tags: github, plugins, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/19/datasette-auth-github/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/19/datasette-auth-github/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/19/sighting-401567341/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-19T17:10:08.000Z">2026-09-19</time>
