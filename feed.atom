@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-20T03:19:30.769Z</updated>
+    <updated>2026-09-20T09:03:15.156Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -5253,92 +5253,6 @@ llm -t lhigh -t pelican
         <summary type="html"><![CDATA[Today's links Born on technology's third base: Material forces shape life-chances. Hey look at this: Delights to delectate. Object permanence: Glue; iPods v unions; RIP Jack Layton; Gibson on cities; Britain's sweatshop for terminally ill help-hcalls; NYPL's open CDN; Radical juries. Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Born on technology's third base (permalink) Any frank assessment of your own achievements starts with an equally frank assessment of the world-historic forces that attended those achievements. For example, I often tell young people who want to get into tech, "Well, if you …]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Walking the Length of Manhattan . I did this, solo,...]]></title>
-        <id>https://kottke.org/26/08/0049521-walking-the-length-of-man</id>
-        <link href="https://kottke.org/26/08/0049521-walking-the-length-of-man"/>
-        <updated>2026-08-21T17:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Walking the Length of Manhattan. I did this, solo, right before I moved out of NYC. Loved it. Will do it again someday.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.32.1]]></title>
-        <id>https://simonwillison.net/2026/Aug/21/llm/</id>
-        <link href="https://simonwillison.net/2026/Aug/21/llm/"/>
-        <updated>2026-08-21T17:16:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.32.1">llm 0.32.1</a></p>
-        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>
-<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href="https://github.com/pydantic/httpx2">httpx2</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/httpx">httpx</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-openrouter 0.7]]></title>
-        <id>https://simonwillison.net/2026/Aug/21/llm-openrouter/</id>
-        <link href="https://simonwillison.net/2026/Aug/21/llm-openrouter/"/>
-        <updated>2026-08-21T16:58:19.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7">llm-openrouter 0.7</a></p>
-        <p>Now that this plugin is compatible with <a href="https://simonwillison.net/2026/Aug/4/new-release-of-llm/">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p>
-<blockquote>
-<ul>
-<li>Updated for compatibility with <a href="https://llm.datasette.io/en/stable/changelog.html#v0-32">LLM 0.32</a>.</li>
-<li>Models now use OpenRouter's implementation of the <a href="https://openrouter.ai/docs/api_reference/responses/overview">Responses API</a>.</li>
-<li>Three new server-side tools: <a href="https://github.com/simonw/llm-openrouter#shell">Shell</a>, <a href="https://github.com/simonw/llm-openrouter#web-fetch">WebFetch</a>, and <a href="https://github.com/simonw/llm-openrouter#web-search">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>
-</ul>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“When Jason Ganos was asked to help sell an old box full...]]></title>
-        <id>https://kottke.org/26/08/0049520-how-97-copies-of-an-unrel</id>
-        <link href="https://kottke.org/26/08/0049520-how-97-copies-of-an-unrel"/>
-        <updated>2026-08-21T16:57:00.000Z</updated>
-        <summary type="html"><![CDATA[“When Jason Ganos was asked to help sell an old box full of NES cartridges…” How 97 Copies of an Unreleased Version of Super Mario Bros. Duck Hunt Were Discovered in a Wisconsin Warehouse.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Making TUIs]]></title>
-        <id>https://simonwillison.net/2026/Aug/21/stop-making-tuis/</id>
-        <link href="https://simonwillison.net/2026/Aug/21/stop-making-tuis/"/>
-        <updated>2026-08-21T16:07:32.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/">Stop Making TUIs</a></strong></p>
-Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p>
-<p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href="https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/">back in March</a>, and I'm still using both of those on a daily basis.</p>
-<p>I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!</p>
-<p>Thomas:</p>
-<blockquote>
-<p>If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think.</p>
-</blockquote>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/thomas-ptacek">thomas-ptacek</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What a great idea for a book:  Cookbooking: A Fan&#8217;s...]]></title>
-        <id>https://kottke.org/26/08/0049519-cookbooking-a-fans-guide</id>
-        <link href="https://kottke.org/26/08/0049519-cookbooking-a-fans-guide"/>
-        <updated>2026-08-21T15:56:00.000Z</updated>
-        <summary type="html"><![CDATA[What a great idea for a book: Cookbooking: A Fan’s Guide. “An eclectic, visually stunning pop-history, Cookbooking explores the most influential and beloved cookbooks through photographs, listicles, graphics, and snappy writing.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
