@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-20T09:03:15.156Z</updated>
+    <updated>2026-09-20T15:24:36.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Fall Flung Fits]]></title>
+        <id>https://www.blackbirdspyplane.com/p/fall-flung-fits</id>
+        <link href="https://www.blackbirdspyplane.com/p/fall-flung-fits"/>
+        <updated>2026-09-20T13:03:47.000Z</updated>
+        <summary type="html"><![CDATA[What to wear now, starring the best things I’ve bought this year, beloved secondhand scores, and styling formulas to bring them all together]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Towards kindred futures ⊗ What more-than-human really means]]></title>
+        <id>6aada44e7030da0001a97232</id>
+        <link href="https://sentiers.media/towards-kindred-futures-what-more-than-human-really-means-no-417/"/>
+        <updated>2026-09-20T10:00:07.000Z</updated>
+        <summary type="html"><![CDATA[No.417 — The map fiction missed ⊗ Cognitive integrity ⊗ The massive layer of life just beneath our feet ⊗ NASA’s Nancy Grace Roman Space Telescope]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette-auth-github 1.0]]></title>
         <id>https://simonwillison.net/2026/Sep/19/datasette-auth-github/</id>
@@ -1366,6 +1386,16 @@ Tags: books · Haruki Murakami · jazz · music · video]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces]]></title>
+        <id>https://maggieappleton.com/planning-agents</id>
+        <link href="https://maggieappleton.com/planning-agents"/>
+        <updated>2026-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents]]></summary>
+        <author>
+            <name>Maggie Appleton</name>
         </author>
     </entry>
     <entry>
@@ -5243,16 +5273,6 @@ llm -t lhigh -t pelican
         <updated>2026-08-22T06:50:36.000Z</updated>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Born on technology's third base (21 Aug 2026)]]></title>
-        <id>https://pluralistic.net/?p=13212</id>
-        <link href="https://pluralistic.net/2026/08/21/world-historic-forces/"/>
-        <updated>2026-08-22T01:19:10.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Born on technology's third base: Material forces shape life-chances. Hey look at this: Delights to delectate. Object permanence: Glue; iPods v unions; RIP Jack Layton; Gibson on cities; Britain's sweatshop for terminally ill help-hcalls; NYPL's open CDN; Radical juries. Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Born on technology's third base (permalink) Any frank assessment of your own achievements starts with an equally frank assessment of the world-historic forces that attended those achievements. For example, I often tell young people who want to get into tech, "Well, if you …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
     <entry>

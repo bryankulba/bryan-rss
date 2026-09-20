@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6aada44e7030da0001a97232",
+          "author": "Patrick Tanguay",
+          "description": "No.417 — The map fiction missed ⊗ Cognitive integrity ⊗ The massive layer of life just beneath our feet ⊗ NASA’s Nancy Grace Roman Space Telescope",
+          "link": "https://sentiers.media/towards-kindred-futures-what-more-than-human-really-means-no-417/",
+          "publishedOn": "2026-09-20T10:00:07.000Z",
+          "wordCount": 2752,
+          "title": "Towards kindred futures ⊗ What more-than-human really means",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/fungal-network.jpg"
+        },
+        {
           "id": "6aac0a027030da0001a971a5",
           "author": "Patrick Tanguay",
           "description": "Canada and the European Union are discussing an associate membership for Canada, a scenario I can’t recall seeing in science fiction or alternate history. Speculative maps of North America have usually split Canada into successor states or handed its pieces to rival blocs.",
@@ -1613,16 +1623,6 @@
           "wordCount": 5369,
           "title": "Pluralistic: How Canada can help Americans and defeat America (23 Aug 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13212",
-          "author": "Cory Doctorow",
-          "description": "Today's links Born on technology's third base: Material forces shape life-chances. Hey look at this: Delights to delectate. Object permanence: Glue; iPods v unions; RIP Jack Layton; Gibson on cities; Britain's sweatshop for terminally ill help-hcalls; NYPL's open CDN; Radical juries. Upcoming appearances: Sydney, Melbourne, Brighton, London, South Bend. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Born on technology's third base (permalink) Any frank assessment of your own achievements starts with an equally frank assessment of the world-historic forces that attended those achievements. For example, I often tell young people who want to get into tech, \"Well, if you …",
-          "link": "https://pluralistic.net/2026/08/21/world-historic-forces/",
-          "publishedOn": "2026-08-22T01:19:10.000Z",
-          "wordCount": 4431,
-          "title": "Pluralistic: Born on technology's third base (21 Aug 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -1861,6 +1861,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/fall-flung-fits",
+          "author": "Blackbird Spyplane",
+          "description": "What to wear now, starring the best things I’ve bought this year, beloved secondhand scores, and styling formulas to bring them all together",
+          "link": "https://www.blackbirdspyplane.com/p/fall-flung-fits",
+          "publishedOn": "2026-09-20T13:03:47.000Z",
+          "wordCount": null,
+          "title": "Fall Flung Fits",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/451a4586-1b4a-40ff-9f99-6f293f890675_1770x1515.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/451a4586-1b4a-40ff-9f99-6f293f890675_1770x1515.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/more-trend-proof-than-levis-501s",
           "author": "Blackbird Spyplane",
@@ -3046,8 +3062,18 @@
     {
       "title": "Maggie Appleton",
       "feedUrl": "https://maggieappleton.com/rss.xml",
-      "siteUrl": "https://maggieappleton.com/",
+      "siteUrl": "https://maggieappleton.com",
       "articles": [
+        {
+          "id": "https://maggieappleton.com/planning-agents",
+          "author": null,
+          "description": "Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents",
+          "link": "https://maggieappleton.com/planning-agents",
+          "publishedOn": "2026-09-14T00:00:00.000Z",
+          "wordCount": 4996,
+          "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
+          "imageUrl": "https://maggieappleton.com/og/planning-agents.png"
+        },
         {
           "id": "https://maggieappleton.com/planning-agents/",
           "author": null,
