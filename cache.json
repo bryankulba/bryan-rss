@@ -1843,16 +1843,6 @@
           "wordCount": 1171,
           "title": "I wonder why this &ldquo;fine art memes&rdquo; have so much strange unanimity.  it feels like they were all&hellip;",
           "imageUrl": "https://64.media.tumblr.com/88721a1f6a31563805142f26a4f83457/022662ddee34c065-a8/s540x810/87b96b7aa3a6e50e1652689dd962559891db80db.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/825629276815704064",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/825629276815704064",
-          "publishedOn": "2026-08-22T06:50:36.000Z",
-          "wordCount": 1154,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/7c50f95bc5959bec4080c9651139068e/0ca1fa0f77215be8-c7/s1280x1920/867db15a404d912f09c887c1aa61f51233ce5b2d.webp"
         }
       ]
     },
@@ -2190,6 +2180,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/20/voxium/",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/v0xium/status/2101526107128529120\">voxium</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+          "publishedOn": "2026-09-20T21:06:43.000Z",
+          "wordCount": 817,
+          "title": "Quoting voxium",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
           "author": null,
