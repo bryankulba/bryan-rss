@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-19T22:05:57.351Z</updated>
+    <updated>2026-09-20T03:19:30.769Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -5339,57 +5339,6 @@ Thomas Ptacek advocates for building real native user interfaces for even the sm
         <summary type="html"><![CDATA[What a great idea for a book: Cookbooking: A Fan’s Guide. “An eclectic, visually stunning pop-history, Cookbooking explores the most influential and beloved cookbooks through photographs, listicles, graphics, and snappy writing.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Matt Webb]]></title>
-        <id>https://simonwillison.net/2026/Aug/21/matt-webb/</id>
-        <link href="https://simonwillison.net/2026/Aug/21/matt-webb/"/>
-        <updated>2026-08-21T15:06:26.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://interconnected.org/home/2026/08/21/galactic"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p>
-<p>So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.</p></blockquote>
-<p class="cite">&mdash; <a href="https://interconnected.org/home/2026/08/21/galactic">Matt Webb</a>, Galactic Compass 2: now with new augmented reality mode</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/matt-webb">matt-webb</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/education">education</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[‘Huge Breakthrough’ in the Math of Imbalance]]></title>
-        <id>https://www.quantamagazine.org/?p=166010</id>
-        <link href="https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/"/>
-        <updated>2026-08-21T14:53:32.000Z</updated>
-        <summary type="html"><![CDATA[For the first time in 30 years, computer scientists have found a better way to allocate objects evenly between two groups.            
-The post ‘Huge Breakthrough’ in the Math of Imbalance first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Max G. Levy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Galactic Compass 2: now with new augmented reality mode]]></title>
-        <id>https://interconnected.org/home/2026/08/21/galactic</id>
-        <link href="https://interconnected.org/home/2026/08/21/galactic"/>
-        <updated>2026-08-21T11:44:00.000Z</updated>
-        <summary type="html"><![CDATA[I updated my Galactic Compass app for iPhone with augmented reality mode.
-Background:
-Galactic Compass is a floating green arrow that always points the way to the middle of the Milky Way, 26,000 light years away.
-Here’s the announcement blog post from 2024.
-It went kinda viral at the time. It was in the “top free apps” charts at the App Store briefly. In the Travel category. (I keep a list of press mentions over on Acts Not Facts.)
-Why so popular? Probably because it was early “vibe coding” – I copy-and-pasted between ChatGPT and Xcode to code it, and that was new at the time.
-But ALSO because knowing where the galactic centre is surprisingly grounding? I wake up every few months to an email in my inbox from someone who is having a tough time in life, or is losing a loved one, or similar, …]]></summary>
-        <author>
-            <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18855</id>
-        <link href="https://warrenellis.ltd/status/21aug26/"/>
-        <updated>2026-08-21T10:23:16.000Z</updated>
-        <summary type="html"><![CDATA[Millions of people finish short video after short video every day; a new brain-scan study shows that the very act of finishing a clip they…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>
