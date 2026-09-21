@@ -2,10 +2,94 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-21T17:50:53.582Z</updated>
+    <updated>2026-09-21T22:59:12.376Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Monopoly as a metaphor for racial inequity. “During the...]]></title>
+        <id>https://kottke.org/26/09/0049634-monopoly-as-a-metaphor-fo</id>
+        <link href="https://kottke.org/26/09/0049634-monopoly-as-a-metaphor-fo"/>
+        <updated>2026-09-21T22:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Monopoly as a metaphor for racial inequity. “During the first half of the game, we said that Cas and I could buy property, but you could not, then halfway through the game, we say, ‘Now the rules are even. Now the rules are the same for everybody.’”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare Python Workers are now generally available]]></title>
+        <id>https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/</id>
+        <link href="https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/"/>
+        <updated>2026-09-21T22:25:44.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://blog.cloudflare.com/python-workers-ga/">Cloudflare Python Workers are now generally available</a></strong></p>
+After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: "Python is now a first-class, fully supported language on the Cloudflare Developer Platform".</p>
+<p>A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based <a href="https://github.com/cloudflare/workerd">workerd</a> runtime.</p>
+<p>This comes with some limitations, <a href="https://developers.cloudflare.com/workers/languages/python/stdlib/">documented here</a> - most notably both <code>multiprocessing</code> and <code>threading</code> are non-functional in the WebAssembly VM.</p>
+<p>One particularly interesting detail of this is the local development environment story - their <a href="https://developers.cloudflare.com/workers/languages/python/#the-pywrangler-cli-tool">pywrangler</a> development tool (confusingly packaged as <a href="https://pypi.org/project/workers-py/">workers-py</a> on PyPI) runs a full local simulation of their stack, including executing code with Pyodide in WebAssembly in V8 in a 123MB <code>workerd</code> binary, which for me ended up in <code>node_modules/@cloudflare/workerd-darwin-arm64/bin/workerd</code>.</p>
+<p>Python Workers represent a significant investment in the wider Python ecosystem by Cloudflare. The release announcement is credited to Gyeongjae Choi, Dominik Picheta, and Hood Chatham - Gyeongjae and Hood are both Pyodide core maintainers.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49787142">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/cloudflare">cloudflare</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/pyodide">pyodide</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Relationships are key to human happiness. “The top five...]]></title>
+        <id>https://kottke.org/26/09/0049628-relationships-are-key-to-</id>
+        <link href="https://kottke.org/26/09/0049628-relationships-are-key-to-"/>
+        <updated>2026-09-21T21:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Relationships are key to human happiness. “The top five [determinants of subjective well-being], ranked in order of impact, were romantic and familial relationships, financial situation, work, community and friends, and health.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cars, New York City (1974-1976)]]></title>
+        <id>https://kottke.org/26/09/cars-new-york-city-1974-1976</id>
+        <link href="https://kottke.org/26/09/cars-new-york-city-1974-1976"/>
+        <updated>2026-09-21T20:37:00.000Z</updated>
+        <summary type="html"><![CDATA[In the 70s, photographer Langdon Clay took photos of cars parked on NYC streets at night and compiled them into a project: Cars, New York City | 1974-1976.
+Using his Leica CL, Kodachrome 25, and a 40 millimeter lens, Clay traversed the streets of 1970’s Manhattan finding automobiles that paralleled their environment. The cinematic images are a result of time exposure, sodium vapor street lights, and the tenacity of youth.
+
+	
+Luc Sante wrote about Clay’s car photographs for the New Yorker:
+One of the things that used to make America so distinctive was its cars. If you lived there, you would really have to go abroad for a while and then come back to appreciate the difference. In most countries of the world, cars were modest things, little bean-shaped units designed to take two or three people from here to there. In America, cars were real estate. They were enormous boats in which you could eat, sleep, make love, change clothes, throw parties, maintain an office, practice unlicensed dentistry—or take your six best friends out for a spin. They were a testament to America’s unlimited natural resources: oil, steel, rubber, naugahyde, and, above all, space. American cars could be so huge because the nation’s highways were endless, its city streets were wide, and there was abundant free parking everywhere you went. And that included New York City then, since most of its population took the subway.
+
+	
+A 2016 book featuring these images is out of print, but you can find copies for several hundred dollars. (via atlas obscura)
+
+ 
+
+        
+         
+Tags: cars · Langdon Clay · NYC · photography]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Film Experience is a free online course from MIT...]]></title>
+        <id>https://kottke.org/26/09/0049618-the-film-experience</id>
+        <link href="https://kottke.org/26/09/0049618-the-film-experience"/>
+        <updated>2026-09-21T19:37:00.000Z</updated>
+        <summary type="html"><![CDATA[The Film Experience is a free online course from MIT about movies & cinema. “This course concentrates on close analysis and criticism of a wide range of films, from the early silent period, classic Hollywood genres including musicals, thrillers…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I didn’t know Beehiiv had a program to support...]]></title>
+        <id>https://kottke.org/26/09/0049644-beehiiv-had-a-program-to-</id>
+        <link href="https://kottke.org/26/09/0049644-beehiiv-had-a-program-to-"/>
+        <updated>2026-09-21T18:49:00.000Z</updated>
+        <summary type="html"><![CDATA[I didn’t know Beehiiv had a program to support independent journalists. Members get access to tools, a health insurance stipend, legal protection, and waived hosting fees. Oh, and they don’t proudly host Nazis like Substack. ✌️]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Imagine playing chess against a seven-year-old who’s...]]></title>
         <id>https://kottke.org/26/09/0049640-she-just-casually-checkma</id>
@@ -162,6 +246,29 @@ Tags: fashion · music · video]]></summary>
 <p class="cite">&mdash; <a href="https://twitter.com/v0xium/status/2101526107128529120">voxium</a></p>
 
     <p>Tags: <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MCP was always a bad idea?]]></title>
+        <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
+        <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
+        <updated>2026-09-20T20:24:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49779329#49779718">My comment</a> on <a href="https://news.ycombinator.com/item?id=49779329">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p>
+<p>Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.</p>
+<p>If you want to operate something that's less YOLO than that, you'll find yourself wanting:</p>
+<ol>
+<li>Control over exactly which external services it can access</li>
+<li>A way to handle authentication that doesn't allow the agent to directly access API keys</li>
+<li>A sensible UI to allow users to connect and authenticate further services</li>
+<li>Strong audit logging for what's going on</li>
+</ol>
+<p>MCP makes all of that so much easier to provide.</p>
+<p>Thinking MCP is obsolete because full coding agents don't need it misses out on all of the other things we might want to build.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/hacker-news">hacker-news</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
@@ -5391,26 +5498,6 @@ A few interesting numbers in this FT story gathered from "people with knowledge 
     <p>Tags: <a href="https://simonwillison.net/tags/drew-breunig">drew-breunig</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neuroplasticity as a praxis ⊗ The Ambiguist]]></title>
-        <id>6a88b9dc80d33000016eb3d2</id>
-        <link href="https://sentiers.media/neuroplasticity-as-a-praxis-the-ambiguist-no-413/"/>
-        <updated>2026-08-23T10:00:04.000Z</updated>
-        <summary type="html"><![CDATA[No.413 — The science of foresight ⊗ Librarians are hosting viral “Avoiding AI” workshops ⊗ What if we never built another new building? ⊗ Seoul’s outdoor library]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neuroplasticity as a praxis ⊗ The Ambiguist]]></title>
-        <id>6a88b9dc80d33000016eb3d2</id>
-        <link href="https://sentiers.media/neuroplasticity-as-a-praxis-the-ambiguist/"/>
-        <updated>2026-08-23T10:00:04.000Z</updated>
-        <summary type="html"><![CDATA[No.413 — The science of foresight ⊗ Librarians are hosting viral “Avoiding AI” workshops ⊗ What if we never built another new building? ⊗ Seoul’s outdoor library]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
     <entry>
