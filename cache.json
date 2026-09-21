@@ -160,6 +160,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/vision-at-last/",
+          "author": null,
+          "description": "<p>I mean, maybe?? <a href=\"https://www.robinsloan.com/lab/vision-at-last/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/vision-at-last/",
+          "publishedOn": "2026-09-20T17:00:00.000Z",
+          "wordCount": 4955,
+          "title": "Dragoncatcher: Vision, at last",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
           "author": null,
           "description": "<p>Takes practice, and a bit of audacity. <a href=\"https://www.robinsloan.com/lab/ask-for-what-you-want/\">Read here.</a></p>",
@@ -290,6 +300,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/09/0049635-is-coming-to-hbo-in-2027",
+          "author": null,
+          "description": "Cole Escola’s Broadway smash Oh, Mary! is coming to HBO in 2027. Excited for this…I’ve never seen the play.",
+          "link": "https://kottke.org/26/09/0049635-is-coming-to-hbo-in-2027",
+          "publishedOn": "2026-09-21T02:12:00.000Z",
+          "wordCount": 664,
+          "title": "Cole Escola’s Broadway smash Oh, Mary! is coming to HBO...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049633-amazing-piece-by-nikole-h",
+          "author": null,
+          "description": "Amazing piece by Nikole Hannah-Jones about the betrayal her child felt at her school choice. “So you had money to send me to one of the best schools, and you chose not to? Because other kids are disadvantaged, you didn’t want to put me in a great school?”",
+          "link": "https://kottke.org/26/09/0049633-amazing-piece-by-nikole-h",
+          "publishedOn": "2026-09-21T01:14:00.000Z",
+          "wordCount": 822,
+          "title": "Amazing piece by Nikole Hannah-Jones about the betrayal...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/09/0049601-exit-party",
           "author": null,
@@ -1269,16 +1299,6 @@
           "wordCount": 661,
           "title": "Opinion columnist Karen Attiah won her arbitration...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049522-jodi-ettenberg-on-living-",
-          "author": null,
-          "description": "Jodi Ettenberg on living grief and a serendipitous discovery. “Living grief lacks the tapestry of rituals, language, and social permissions around grieving that a person is offered with death.”",
-          "link": "https://kottke.org/26/08/0049522-jodi-ettenberg-on-living-",
-          "publishedOn": "2026-08-22T14:30:00.000Z",
-          "wordCount": 887,
-          "title": "Jodi Ettenberg on living grief and a serendipitous...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1736,16 +1756,6 @@
           "wordCount": 1337,
           "title": "24aug26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/08/IMG_1958-rotated-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18872",
-          "author": "Warren Ellis",
-          "description": "Offline day: finishing up in the office and then out for lunch, shopping and then a gig. We’ve learned to crave feeds that impose a…",
-          "link": "https://warrenellis.ltd/status/22aug26/",
-          "publishedOn": "2026-08-22T10:25:16.000Z",
-          "wordCount": 1267,
-          "title": "22aug26",
-          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -2188,6 +2198,26 @@
           "publishedOn": "2026-09-20T21:06:43.000Z",
           "wordCount": 817,
           "title": "Quoting voxium",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p>\n        <p>This plugin solves a very specific problem.</p>\n<p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>\n<p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p>\n<p>I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly.</p>\n<p>With this plugin, I can tell Codex to run:</p>\n<pre><code>uvx --with llm-keys-ui llm keys-ui --all\n</code></pre>\n<p>Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys.</p>\n<p>Then later it can use a command like <code>llm keys get anthropic</code> as part of a shell command when it needs to use a key.</p>\n<div style=\"display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-items: start; width: 100%;\">\n  <img\n    src=\"https://static.simonwillison.net/static/2026-09-20/IMG_8166.jpeg\"\n    alt=\"Chat conversation requesting uvx --with llm-keys-ui llm keys-ui --all, with a response listing four server URLs on port 8010 and confirming the server is still running.\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n  <img\n    src=\"https://static.simonwillison.net/static/2026-09-20/IMG_8167.jpeg\"\n    alt=\"LLM keys web interface listing anthropic, openai, openrouter, and qwen-dummy as stored keys, with a form containing Key name and New value fields and a Save key button. Existing key values are never displayed.\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n</div>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+          "publishedOn": "2026-09-20T19:22:19.000Z",
+          "wordCount": 877,
+          "title": "llm-keys-ui 0.1",
+          "imageUrl": "https://static.simonwillison.net/static/2026-09-20/IMG_8168.jpeg"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-explain/releases/tag/0.2.2\">datasette-explain 0.2.2</a></p>\n        <blockquote>\n<ul>\n<li>Explain plans now work on read-only stored-query pages.</li>\n</ul>\n</blockquote>\n<p>I upgraded <a href=\"https://datasette.simonwillison.net\">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+          "publishedOn": "2026-09-20T00:22:04.000Z",
+          "wordCount": 767,
+          "title": "datasette-explain 0.2.2",
           "imageUrl": null
         },
         {
