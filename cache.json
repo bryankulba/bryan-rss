@@ -281,6 +281,46 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/dimensional-drawings-of-apple-products",
+          "author": null,
+          "description": "So that companies can use them to make accessories like cases and bands, Apple maintains a collection of downloadable dimensional drawings and tech specifications for many of their products, including the iPhone, AirPods, Watch, and iPad. They are beautiful.\n\n\n\n\nI love their corner & edge measurements…you can see how fiddly Apple is with their curves. Curiously, the only Mac listed is the Macbook Neo. I guess that’s the only one that needs accessorizing?\nAlso, I presume if you’ve got a 3D printer, you could use these to make your own very precise accessories?\n\n \n\n        \n         \nTags: Apple · design",
+          "link": "https://kottke.org/26/09/dimensional-drawings-of-apple-products",
+          "publishedOn": "2026-09-22T15:44:00.000Z",
+          "wordCount": 702,
+          "title": "Dimensional Drawings of Apple Products",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1790066927-10abca28.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/09/0049647-whats-your-origin-video-g",
+          "author": null,
+          "description": "What’s your “origin” video game? “I’m talking about the game that flipped that little switch in your brain and made into a life-long gamer.” Mine is Lode Runner. Reflexes + puzzles + constraints + make-your-own levels = hooked for life. You?",
+          "link": "https://kottke.org/26/09/0049647-whats-your-origin-video-g",
+          "publishedOn": "2026-09-22T15:03:00.000Z",
+          "wordCount": 1597,
+          "title": "What’s your “origin” video game? “I’m talking about the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049621-was-written-in-part-to-he",
+          "author": null,
+          "description": "TIL Victor Hugo’s Notre-Dame de Paris (aka The Hunchback of Notre-Dame) was written in part to help save the cathedral from demolition.",
+          "link": "https://kottke.org/26/09/0049621-was-written-in-part-to-he",
+          "publishedOn": "2026-09-22T14:20:00.000Z",
+          "wordCount": 677,
+          "title": "TIL Victor Hugo’s Notre-Dame de Paris (aka The Hunchback...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049658-the-best-next-steps-are-t",
+          "author": null,
+          "description": "“The best next steps are the concrete ones: Big AI needs to follow all current laws—just like everyone else. So far—they haven’t. When Big AI breaks those laws, they must face pros­e­cu­tion and penal­ties—just like everyone else. So far—they haven’t.”",
+          "link": "https://kottke.org/26/09/0049658-the-best-next-steps-are-t",
+          "publishedOn": "2026-09-22T13:30:00.000Z",
+          "wordCount": 598,
+          "title": "“The best next steps are the concrete ones: Big AI needs...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/0049657-ed-sheeran-tried-to-stay-",
           "author": null,
           "description": "Ed Sheeran tried to stay neutral on a moving train. “If [celebrities] remain neutral (silent), they won’t offend anyone and they will, hopefully, appeal to everyone. They use the facade of neutrality as shelter, as a place to take refuge.”",
@@ -1798,6 +1838,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=18988",
+          "author": "Warren Ellis",
+          "description": "I imported a new supply of beard oil from my current favourite source, Fires Of Freyja in North Carolina USA. HEKS, I didn’t order –…",
+          "link": "https://warrenellis.ltd/status/22sep26/",
+          "publishedOn": "2026-09-22T12:02:14.000Z",
+          "wordCount": 1242,
+          "title": "22sep26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2203-scaled-1.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=18981",
           "author": "Warren Ellis",
           "description": "Printing off development material to paste it into notebooks. This is a piece of COLLIDE, the comic with Jerome Eyquem that is being serialised in…",
@@ -2011,6 +2061,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/i-used-to-get-paid-to-hang-out-with-famous-people",
+          "author": "Blackbird Spyplane",
+          "description": "Notes on a (dying?) dream job",
+          "link": "https://www.blackbirdspyplane.com/p/i-used-to-get-paid-to-hang-out-with-famous-people",
+          "publishedOn": "2026-09-22T11:03:49.000Z",
+          "wordCount": null,
+          "title": "I used to get paid to hang out with famous people",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!QcDP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbf21175-5f50-47d3-bfd7-020530712216_1904x1345.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!QcDP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdbf21175-5f50-47d3-bfd7-020530712216_1904x1345.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/fall-flung-fits",
           "author": "Blackbird Spyplane",
