@@ -281,6 +281,66 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/some-newsletter-tidying",
+          "author": null,
+          "description": "Just a short note to say that because of some internet scammer shithousery, I had to bulk-unsubscribe a bunch of email addresses from the KDO Newsletter subscriber rolls. If you subscribed to the newsletter back in Dec 2025 and don’t get the next issue (which I’m sending out a few hours after posting this), you might need to sign up again. Sorry for the inconvenience — my email account got flagged and I needed to rectify this pronto. 🙏\nFor the rest of yous: you’re doing great, stay the course. If you’re not subscribed to the newsletter and you like reading things in your inbox for some reason, you can subscribe as well. The newsletter goes out twice a week and includes links to everything I post here. Thanks.\n\n \n\n        \n         \nTags: kottke.org",
+          "link": "https://kottke.org/26/09/some-newsletter-tidying",
+          "publishedOn": "2026-09-22T21:33:00.000Z",
+          "wordCount": 733,
+          "title": "Some Newsletter Tidying",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049649-a-thoughtful-review-of-no",
+          "author": null,
+          "description": "A thoughtful review of Nolan’s The Odyssey, comparing it to the original Planet of the Apes movies. “I was very influenced by seeing The Planet of the Apes when I was a kid. We had the Statue of Liberty half destroyed. That idea of a fallen monument.”",
+          "link": "https://kottke.org/26/09/0049649-a-thoughtful-review-of-no",
+          "publishedOn": "2026-09-22T20:39:00.000Z",
+          "wordCount": 699,
+          "title": "A thoughtful review of Nolan’s The Odyssey, comparing it...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/mary-cassatt-the-impressionist-who-painted-the-mind",
+          "author": null,
+          "description": "I always learn so much from Evan Puschak’s videos about art. In this one, he takes a look at the work of Mary Cassatt, who, unlike many of her male peers, used the flattened perspective of Impressionism to reveal the thoughts and feelings of her subjects.\nLike Manet, she’s dispensing with traditional modeling and perspective. In fact, her choice of a mirror as background is a brilliant way to literally and figuratively foreground the deceptive nature of perspective. Like Degas, she’s exploring the changing effects of artificial light on flesh and fabric. And she’s experimenting with off-kilter viewing angles.\nBut Cassat isn’t just adopting these techniques for the sake of it. She’s putting them to work in service of her deeper interest in psychology. She realizes that by not allowing the viewer to get drawn into the narrative space opened up by perspective, this new style of painting actually makes it possible to depict the subtle psychology of everyday life, a psychology uncontaminated by allegory or sentimentality. The trick was to combine the immediacy of Manet’s methods with a meticulous observation of posture, gesture, expression, and activity.\n\n \n\n        \n         \nTags: art · art school · Evan Puschak · Mary Cassatt · video",
+          "link": "https://kottke.org/26/09/mary-cassatt-the-impressionist-who-painted-the-mind",
+          "publishedOn": "2026-09-22T19:49:00.000Z",
+          "wordCount": 820,
+          "title": "Mary Cassatt: The Impressionist Who Painted The Mind",
+          "imageUrl": "https://i.ytimg.com/vi/41UQ1JIvXtI/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/09/0049638-3d-models-for-every-singl",
+          "author": null,
+          "description": "3D models for every single object in Katamari Damacy, all 1680 of them. You can download models and animated gifs of each one.",
+          "link": "https://kottke.org/26/09/0049638-3d-models-for-every-singl",
+          "publishedOn": "2026-09-22T18:42:00.000Z",
+          "wordCount": 664,
+          "title": "3D models for every single object in Katamari Damacy, all...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049652-ross-anderson-on-nasas-re",
+          "author": null,
+          "description": "Ross Anderson on NASA’s recently launched Nancy Grace Roman Space Telescope, which may “be able to deliver the first direct images of distant planets in visible light” as well as measure the effects of dark energy.",
+          "link": "https://kottke.org/26/09/0049652-ross-anderson-on-nasas-re",
+          "publishedOn": "2026-09-22T17:52:00.000Z",
+          "wordCount": 687,
+          "title": "Ross Anderson on NASA’s recently launched Nancy Grace...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049639-canyon-groove",
+          "author": null,
+          "description": "Canyon Groove. What if the grooves on a record were shaped like actual canyons? What would that sound like? “The floor sets the key. The shape of the walls sets the mood. The width sets how long one pass takes, and the depth sets the echo.”",
+          "link": "https://kottke.org/26/09/0049639-canyon-groove",
+          "publishedOn": "2026-09-22T16:59:00.000Z",
+          "wordCount": 726,
+          "title": "Canyon Groove. What if the grooves on a record were...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/dimensional-drawings-of-apple-products",
           "author": null,
           "description": "So that companies can use them to make accessories like cases and bands, Apple maintains a collection of downloadable dimensional drawings and tech specifications for many of their products, including the iPhone, AirPods, Watch, and iPad. They are beautiful.\n\n\n\n\nI love their corner & edge measurements…you can see how fiddly Apple is with their curves. Curiously, the only Mac listed is the Macbook Neo. I guess that’s the only one that needs accessorizing?\nAlso, I presume if you’ve got a 3D printer, you could use these to make your own very precise accessories?\n\n \n\n        \n         \nTags: Apple · design",
@@ -2416,6 +2476,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p>\n<p>It's the lack of <em>anything</em>. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\">@therealcornpop</a>, on TikTok</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/tiktok\">tiktok</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+          "publishedOn": "2026-09-22T18:03:21.000Z",
+          "wordCount": 813,
+          "title": "Quoting @therealcornpop",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p>\n        <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p>\n<pre><code>llm install llm-typesafe\n</code></pre>\n<p>Then set an API key (<a href=\"https://console.typesafe.ai/\">get one here</a>, the waitlist seems to move pretty fast):</p>\n<pre><code>llm keys set typesafe\n# Paste key\n</code></pre>\n<p>And now you can ask yes/no \"noul\" questions like this:</p>\n<pre><code>llm -m jev 'Please refund my last payment.' \\\n  -s 'Does this message explicitly request a refund?'\n</code></pre>\n<p>Output:</p>\n<pre><code>{\"type\": \"noul\", \"noul\": 0.99}\n</code></pre>\n<p>Or choice questions like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>cat message.txt <span class=\"pl-k\">|</span> llm -m jev \\\n  -s <span class=\"pl-s\"><span class=\"pl-pds\">'</span>Which team should handle this message? If billing and technical issues both occur, choose billing.<span class=\"pl-pds\">'</span></span> \\\n  -o answer_type choice \\\n  -o criteria <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{</span>\n<span class=\"pl-s\">    \"billing\":\"Charges, invoices, payments, or refunds\",</span>\n<span class=\"pl-s\">    \"technical\":\"Problems installing or using the product\",</span>\n<span class=\"pl-s\">    \"other\":\"Neither category fits\"</span>\n<span class=\"pl-s\">  }<span class=\"pl-pds\">'</span></span></pre></div>\n<p>Or scoring questions like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>cat report.txt <span class=\"pl-k\">|</span> llm -m jev \\\n  -s <span class=\"pl-s\"><span class=\"pl-pds\">'</span>How reproducible is the problem described in this report?<span class=\"pl-pds\">'</span></span> \\\n  -o answer_type score \\\n  -o criteria <span class=\"pl-s\"><span class=\"pl-pds\">'</span>[</span>\n<span class=\"pl-s\">    \"No reproduction instructions\",</span>\n<span class=\"pl-s\">    \"Some instructions, but important steps are missing\",</span>\n<span class=\"pl-s\">    \"Complete steps with expected and actual results\"</span>\n<span class=\"pl-s\">  ]<span class=\"pl-pds\">'</span></span></pre></div>\n<p>See <a href=\"https://github.com/simonw/llm-typesafe/blob/main/README.md\">the README</a> for more details.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/jev\">jev</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+          "publishedOn": "2026-09-22T15:54:16.000Z",
+          "wordCount": 929,
+          "title": "llm-typesafe 0.1a0",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/21/jev/",
           "author": null,
