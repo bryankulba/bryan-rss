@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-22T03:14:16.821Z</updated>
+    <updated>2026-09-22T09:00:07.901Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Bonta sold us out to Trump's oligarchs (22 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13322</id>
+        <link href="https://pluralistic.net/2026/09/22/happy-chudmas/"/>
+        <updated>2026-09-22T08:19:01.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Bonta sold us out to Trump's oligarchs: A "settlement" that promises less than nothing. Hey look at this: Delights to delectate. Object permanence: Warren on taxing the rich and class warfare; Psychology v reproducibility; Copyright troll sentenced for beating Uber driver; "Halloween Moon"; Enshittification of solar. Upcoming appearances: Berkeley, Edmonton, Boston, Brighton, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Bonta sold us out to Trump's oligarchs (permalink) Well, fuck. California Attorney General Rob Bonta just surrendered to the Trump-aligned E…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ed Sheeran tried to stay neutral on a moving train. “If...]]></title>
+        <id>https://kottke.org/26/09/0049657-ed-sheeran-tried-to-stay-</id>
+        <link href="https://kottke.org/26/09/0049657-ed-sheeran-tried-to-stay-"/>
+        <updated>2026-09-22T07:42:00.000Z</updated>
+        <summary type="html"><![CDATA[Ed Sheeran tried to stay neutral on a moving train. “If [celebrities] remain neutral (silent), they won’t offend anyone and they will, hopefully, appeal to everyone. They use the facade of neutrality as shelter, as a place to take refuge.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solitaire Alone Together]]></title>
+        <id>https://waxy.org/?p=51264</id>
+        <link href="https://solitairealonetogether.com/"/>
+        <updated>2026-09-22T05:17:13.000Z</updated>
+        <summary type="html"><![CDATA[Nolen Royalty’s latest lets you play Windows 98 solitaire with the internet
+eieio.games #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jev introduces a new shape of LLM - System One, aka Decision Models]]></title>
         <id>https://simonwillison.net/2026/Sep/21/jev/</id>
@@ -5495,56 +5526,6 @@ Farid Zakaria describes a neat Linux pattern for creating a SQLite database file
         <summary type="html"><![CDATA[Mancub came in when my alarm went off to tell me that the sunlight has gone away and I needed to bring it back. While…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic’s best AI model struggles to attract users as cheaper tools thrive]]></title>
-        <id>https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/</id>
-        <link href="https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"/>
-        <updated>2026-08-23T20:24:52.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p>
-A few interesting numbers in this FT story gathered from "people with knowledge of the matter":</p>
-<ul>
-<li>Anthropic's "annualized revenue" for July is up to $65bn - it was $47bn in May, and I collected <a href="https://simonwillison.net/2026/May/29/anthropic/">more historic numbers here</a>.</li>
-<li>Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. "It also told investors that it had 6,000 customers that spend $100,000 annually or more."</li>
-<li>As for OpenAI, "annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year".</li>
-</ul>
-<p>This article also introduced me to the <a href="https://ramp.com/data/ai-index">Ramp AI index</a>, which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption.</p>
-<p>Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model:</p>
-<ol>
-<li>Opus 4.8: 28.0%</li>
-<li>Sonnet 4.6: 8.3%</li>
-<li>Fable 5: 8.0%</li>
-<li>Opus 4.6: 6.9%</li>
-<li>Sonnet 5: 3.6%</li>
-<li>Opus 5: 3.5%</li>
-<li>Opus 4.7: 1.7%</li>
-<li>Sonnet 4.5: 1.3%</li>
-<li>Haiku 4.5: 1.0%</li>
-<li>Opus 4.5: 0.7%</li>
-</ol>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49411102">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Drew Breunig]]></title>
-        <id>https://simonwillison.net/2026/Aug/23/drew-breunig/</id>
-        <link href="https://simonwillison.net/2026/Aug/23/drew-breunig/"/>
-        <updated>2026-08-23T19:55:30.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p>
-<p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we needed.</p>
-<p><em>So we started to think about what work went where.</em></p></blockquote>
-<p class="cite">&mdash; <a href="https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html">Drew Breunig</a>, Fable &amp; The End of the Free Lunch</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/drew-breunig">drew-breunig</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
