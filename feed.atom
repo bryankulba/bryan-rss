@@ -2,10 +2,146 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-22T22:43:25.021Z</updated>
+    <updated>2026-09-23T03:14:15.707Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SF October 14th: A Birds of a Feather Session on Agentic Engineering]]></title>
+        <id>https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/</id>
+        <link href="https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"/>
+        <updated>2026-09-23T02:53:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://luma.com/vxuiuyvg">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p>
+I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p>
+<p>Think of it as an agentic show-and-tell:</p>
+<blockquote>
+<p>​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market.</p>
+<p>​Expect one flowing conversation with an informal show-and-tell. Sharing something you’re working on is encouraged but no presentation is required.</p>
+</blockquote>
+<p>This isn't about product pitches, it's about much earlier explorations than that. This agentic AI stuff is weird! Let's celebrate and lean into that weirdness.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/events">events</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/jesse-vincent">jesse-vincent</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war]]></title>
+        <id>https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/</id>
+        <link href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"/>
+        <updated>2026-09-22T23:46:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>Yesterday was <a href="https://x.ai/news/grok-4-7">Grok 4.7</a> (<a href="https://news.ycombinator.com/item?id=49788838#49790209">pelicans</a>) and <a href="https://mimo.xiaomi.com/mimo-v2-6">MiMo v2.6 Flash/Pro</a> (<a href="https://news.ycombinator.com/item?id=49792730#49793480">more pelicans</a>). Today Anthropic <a href="https://www.anthropic.com/claude-opus-5-5">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/">released GPT-6 Sol and GPT-6 Luna</a>. It's going to take a while to get a good read on all of these new models, but here are my impressions so far.</p>
+<h4 id="gpt-6-sol-and-luna-are-half-the-price-of-their-gpt-5-6-equivalents">GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents</h4>
+<p>GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being <em>really cheap</em>. Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduction compared to GPT-5.6 Sol.</p>
+<p>Here's what the pricing landscape looks like today:</p>
+<center><table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Input</th>
+      <th>Cached input</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GPT-6 Luna</td>
+      <td>$0.10/M</td>
+      <td>$0.01/M</td>
+      <td>$0.50/M</td>
+    </tr>
+    <tr>
+      <td>GPT-5.6 Luna</td>
+      <td>$0.20/M</td>
+      <td>$0.02/M</td>
+      <td>$1.20/M</td>
+    </tr>
+    <tr>
+      <td>Grok 4.7</td>
+      <td>$2/M</td>
+      <td>$0.50/M</td>
+      <td>$6/M</td>
+    </tr>
+    <tr>
+      <td>GPT-6 Sol</td>
+      <td>$2/M</td>
+      <td>$0.20/M</td>
+      <td>$10/M</td>
+    </tr>
+    <tr>
+      <td>GPT-5.6 Terra</td>
+      <td>$2/M</td>
+      <td>$0.20/M</td>
+      <td>$12/M</td>
+    </tr>
+    <tr>
+      <td>Claude Opus 5.5</td>
+      <td>$4/M</td>
+      <td>$0.20/M</td>
+      <td>$20/M</td>
+    </tr>
+    <tr>
+      <td>GPT-5.6 Sol</td>
+      <td>$4/M</td>
+      <td>$0.40/M</td>
+      <td>$20/M</td>
+    </tr>
+    <tr>
+      <td>Claude Fable 5.1</td>
+      <td>$10/M</td>
+      <td>$0.25/M</td>
+      <td>$50/M</td>
+    </tr>
+    <tr>
+      <td>GPT-6 Astra</td>
+      <td>$10/M</td>
+      <td>$1/M</td>
+      <td>$50/M</td>
+    </tr>
+  </tbody>
+</table></center>
+<p>Note that GPT-5.6 has a scheduled 25% price increase for November, so GPT-6 is half the price of the <em>promotional</em> pricing for those models.</p>
+<p>(With GPT-5.6 Terra priced the same as GPT-6 Sol, any remaining reasons to use Terra just evaporated.)</p>
+<p>It's hard to overstate how competitive this pricing is. Grok 4.7 priced itself at $2/$6, less than half the price of GPT-5.6 Sol, but is now equally priced to GPT-6 Sol on input and closer on output.</p><p>At $0.10/$0.50 GPT-6 Luna is one of the cheapest models OpenAI have ever released, beaten only by the far weaker GPT-4.1 Nano ($0.10/$0.40, April 2025) and GPT-5 Nano ($0.05/$0.40, August 2025).</p>
+<p>I rendered <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F40d129fc140faca378b9c9f4f16c6ec2">pelicans for GPT-6 Luna</a> and <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fbe7ae25af2634b68bc34b7b7aaf02cb2">for GPT-6 Sol</a>, then I combined them all together in <a href="https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html">this comparison grid</a> along with the GPT-5.6 pelicans. I like how you can instantly see that the 5.6 family chose bolder, brighter colors, while the 6 family is a lot more muted. I still think GPT-6 Astra on max produced the best pelican.</p>
+<p><img src="https://static.simonwillison.net/static/2026/gpt-pelicans-grid.webp" alt="A grid of pelicans for six GPT models at different thinking efforts." style="max-width: 100%;" /></p>
+<h4 id="claude-opus-5-5-got-a-price-cut-too">Claude Opus 5.5 got a price cut too</h4>
+<p>Opus 5.5 looks like it addresses the biggest complaints people had about Opus in terms of its communication style. <a href="https://twitter.com/trq212/status/2102437686967738431">Thariq Shihipar</a>:</p>
+<blockquote>
+<p>Opus 5.5 is the result of your feedback.</p>
+<p>It communicates clearly, it's cheaper per token than Opus 5.0 with the intelligence of Fable 5.1 it's very token efficient and works across every effort level.</p>
+</blockquote>
+<p>It's also meant to be <a href="https://twitter.com/alexalbert__/status/2102466523164274839">better at Blender</a>. I'm looking forward to putting it through its paces there.</p>
+<p>Opus 4.5, 4.6, 4.7, 4.8, and 5 all shared the same price: $5/million tokens for input and $25/million for output. 5.5 is a 20% reduction - $4/million and $20/million.</p>
+<p>The price for cache reads fell 60%. That's significant for longer agentic conversations, where 90%+ of input tokens are processed at cached token prices.</p>
+<p>The new price for Opus 5.5 is the same as the price for GPT-5.6 Sol, but that was <em>before</em> OpenAI dropped their Sol prices by half.</p>
+<p>GPT-6 Astra and Claude Fable 5.1 are both priced at $10/million input and $50/million output. The price war currently affects the next tier of models below that.</p>
+<p>Anthropic say that Sonnet 5.5 and Haiku 5.5 are coming soon. It's going to be interesting to see if Haiku can regain its price competitiveness at the lower end, given current Haiku 4.5 is $1/$5 while the latest GPT-6 Luna is <em>one tenth</em> of that price at $0.10/$0.50.</p>
+<h4 id="claude-opus-5-5-max-over-thinks-to-the-point-of-breaking">Claude Opus 5.5 max over-thinks to the point of breaking</h4>
+<p>In a first for my "<a href="https://simonwillison.net/tags/pelican-riding-a-bicycle/">Generate an SVG of a pelican riding a bicycle</a>" test, Claude Opus 5.5 at "max" thinking level failed to return a response!</p>
+<p>It started by calling this "a classic test request", and then thought really, <em>really</em> hard about what it was doing:</p>
+<blockquote>
+<p>This is a classic test request, so I want to plan out a well-composed pelican with its distinctive beak and pouch riding a bicycle with proper wheels, frame, and pedals, set against a simple sky and ground backdrop. [...]</p>
+<p>Verifying the shin length checks out at roughly 95.2, close enough. Now I'm working out the near leg path from hip to knee to ankle, then sketching the foot shape resting on the pedal — outlining the heel, toe tips, and sole contour with a path using lines and curves to sit naturally on the pedal surface around y=478-494. [...]</p>
+<p>I like the fish sticking prominently out of the basket with the pelican eyeing it as a fun detail worth keeping. I'm also confirming the eye placement near the bill base matches typical pelican anatomy, and considering giving it a slightly happier expression. [...]</p>
+<p>The far leg reads correctly as passing behind the frame, so I'm moving on to check the chainring teeth and confirm layer ordering—the far crank arm should be mostly hidden by the seat tube and chainring. I'm settling on the final SVG's width and height attributes alongside the viewBox to ensure proper scaling, noting there's no text so no font-family is needed. [...]</p>
+</blockquote>
+<p>I was so excited to see this pelican... but then it <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F61fd7c3683fffce9a3ab7c43d1180024#response-4">stopped</a>. Opus 5.5 has a 128,000 maximum output token limit (as do the other Claude models), and it hit that while it was still reasoning about the SVG!</p>
+<p>I tried a second time and got the same result. This makes me suspect that "max" is effectively useless - if it over-thinks to breaking point on a stupid SVG prompt I don't trust it not to do the same for more interesting work.</p>
+<p>(Those two failures each cost me <a href="https://www.llm-prices.com/#it=27&amp;ot=128000&amp;sel=claude-opus-5-5">$2.56</a> and took nearly 20 minutes.)</p>
+<p>Fable 5.1 on "max" didn't over-think and did give me <a href="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/#max">the best pelican I've seen</a> from any Anthropic model.</p>
+<p>Here are <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F61fd7c3683fffce9a3ab7c43d1180024">the Opus 5.5 pelicans</a>, excluding 5.5 max.</p>
+<p>I also built <a href="https://static.simonwillison.net/static/2026/claude-pelicans-grid.html">this comparison grid</a> comparing them with pelicans by Opus 5, Fable 5.1, and Sonnet 5:</p>
+<p><img src="https://static.simonwillison.net/static/2026/claude-pelicans-grid.webp" alt="A grid of pelicans for four Claude models at different thinking efforts." style="max-width: 100%;" /></p>
+<p>Comparing different model vendors by how well they draw a pelican riding a bicycle may not make much sense now (if it ever did), but I'm still finding value in using them for comparisons of the same model families at different reasoning levels.</p>
+<p>I'm now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code. I've upgraded the Datasette Agent demo at <a href="https://agent.datasette.io/">agent.datasette.io</a> to use GPT-6 Luna, and it seems to be fast and competent at both SQL queries and building HTML and JavaScript for <a href="https://simonwillison.net/2026/Jun/18/datasette-apps/">Datasette Apps</a>.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Some Newsletter Tidying]]></title>
         <id>https://kottke.org/26/09/some-newsletter-tidying</id>
@@ -52,6 +188,27 @@ Tags: art · art school · Evan Puschak · Mary Cassatt · video]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[llm 0.36]]></title>
+        <id>https://simonwillison.net/2026/Sep/22/llm/</id>
+        <link href="https://simonwillison.net/2026/Sep/22/llm/"/>
+        <updated>2026-09-22T18:48:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.36">llm 0.36</a></p>
+        <blockquote>
+<ul>
+<li>New OpenAI models: <code>gpt-6-sol</code> for <a href="https://developers.openai.com/api/docs/models/gpt-6-sol">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href="https://developers.openai.com/api/docs/models/gpt-6-luna">GPT-6 Luna</a>. <a href="https://github.com/simonw/llm/issues/1702">#1702</a></li>
+<li>Model plugins can now declare <code>supports_conversation = False</code> for models that only accept single-turn prompts. LLM raises <code>llm.ConversationNotSupported</code> when these models receive assistant or tool history, and <code>llm chat</code> rejects them before starting a session. See <a href="https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#advanced-model-plugins-conversations">Models that do not support conversations</a>. The first plugin to use this is <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a>. <a href="https://github.com/simonw/llm/issues/1692">#1692</a></li>
+<li>Reasoning traces in the Markdown output of <code>llm logs</code> are now wrapped in <code>&lt;details&gt;&lt;summary&gt;</code> tags. <a href="https://github.com/simonw/llm/issues/1701">#1701</a></li>
+</ul>
+</blockquote>
+<p>Plus <a href="https://llm.datasette.io/en/stable/changelog.html#v0-36">bug fixes from five new contributors</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[3D models for every single object in Katamari Damacy, all...]]></title>
         <id>https://kottke.org/26/09/0049638-3d-models-for-every-singl</id>
         <link href="https://kottke.org/26/09/0049638-3d-models-for-every-singl"/>
@@ -83,6 +240,22 @@ Tags: art · art school · Evan Puschak · Mary Cassatt · video]]></summary>
         <summary type="html"><![CDATA[Ross Anderson on NASA’s recently launched Nancy Grace Roman Space Telescope, which may “be able to deliver the first direct images of distant planets in visible light” as well as measure the effects of dark energy.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.29]]></title>
+        <id>https://simonwillison.net/2026/Sep/22/llm-anthropic/</id>
+        <link href="https://simonwillison.net/2026/Sep/22/llm-anthropic/"/>
+        <updated>2026-09-22T17:14:55.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.29">llm-anthropic 0.29</a></p>
+        <p>Adds support for <a href="https://www.anthropic.com/claude-opus-5-5">Claude Opus 5.5</a>:</p>
+<pre><code>llm -m claude-opus-5.5 "prompt goes here"
+</code></pre>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -5643,37 +5816,6 @@ Tags: Dolly Parton · music · The Muppets · video]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Meat proxy   (noun) : &#8220;A person who forwards...]]></title>
-        <id>https://kottke.org/26/08/0049527-meat-proxy</id>
-        <link href="https://kottke.org/26/08/0049527-meat-proxy"/>
-        <updated>2026-08-24T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Meat proxy (noun): “A person who forwards AI-generated text, code, or other output without reading, understanding, or validating it. The person acts only as a relay between the AI system and the intended recipient.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A New Framework for How the Brain Compresses Our Noisy World]]></title>
-        <id>https://www.quantamagazine.org/?p=166076</id>
-        <link href="https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/"/>
-        <updated>2026-08-24T14:00:55.000Z</updated>
-        <summary type="html"><![CDATA[An updated view of categorization reflects the modern understanding that the nervous system is more of a prediction engine than a filing cabinet.            
-The post A New Framework for How the Brain Compresses Our Noisy World first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Conor Feehly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Are Rivers So Mathematical?  “Any stream, from the...]]></title>
-        <id>https://kottke.org/26/08/0049523-why-are-rivers-so-mathema</id>
-        <link href="https://kottke.org/26/08/0049523-why-are-rivers-so-mathema"/>
-        <updated>2026-08-24T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why Are Rivers So Mathematical? “Any stream, from the littlest brook to the mightiest river, has a length that’s proportional to its drainage area raised to the power of 0.6.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Mutually deluded dancing]]></title>
         <id>https://www.thingsmagazine.net/?p=21213</id>
         <link href="https://www.thingsmagazine.net/mutually-deluded-dancing/"/>
@@ -5681,58 +5823,6 @@ The post A New Framework for How the Brain Compresses Our Noisy World first appe
         <summary type="html"><![CDATA[The ‘dance of mutual delusion’: ‘How Saudi Arabia’s Neom Megacity Dream Collapsed‘. In a case of schadenfreude you can see from space, NEOM [https://www.neom.com/en-us] is disappearing back into the Saudi sands. The runaway renderings of The Line – originally intended … Continue reading →]]></summary>
         <author>
             <name>things magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Opinion columnist Karen Attiah won her arbitration...]]></title>
-        <id>https://kottke.org/26/08/0049526-opinion-columnist-karen-a</id>
-        <link href="https://kottke.org/26/08/0049526-opinion-columnist-karen-a"/>
-        <updated>2026-08-24T12:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Opinion columnist Karen Attiah won her arbitration against the Washington Post. They are ordered to reinstate her and pay full back pay. The Post fired her almost a year ago for her remarks in the wake of Charlie Kirk’s murder.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your executable is a SQLite database]]></title>
-        <id>https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/</id>
-        <link href="https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/"/>
-        <updated>2026-08-24T11:38:15.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database">Your executable is a SQLite database</a></strong></p>
-Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p>
-<p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format.  The various components of the ELF executable format are then arranged into a number of different SQLite tables, using <a href="https://github.com/fzakaria/selfdb/blob/main/schema/self.sql">this schema</a>.</p>
-<p>Their <code>self-exec</code> interpreter (<a href="https://github.com/fzakaria/selfdb/blob/main/loader/self-exec.c">C code here</a>) can then extract and execute the necessary pieces.</p>
-<p>You can additionally use a Linux mechanism called <a href="https://docs.kernel.org/admin-guide/binfmt-misc.html">binfmt_misc</a> to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this:</p>
-<pre><code>printf '%s\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \
-  &gt; /proc/sys/fs/binfmt_misc/register
-</code></pre>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49415271">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/c">c</a>, <a href="https://simonwillison.net/tags/linux">linux</a>, <a href="https://simonwillison.net/tags/sqlite">sqlite</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the only animal most philosophers have killed with their own two hands]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12308</id>
-        <link href="https://www.velcro-city.co.uk/the-only-animal-most-philosophers-have-killed-with-their-own-two-hands/"/>
-        <updated>2026-08-24T11:15:13.000Z</updated>
-        <summary type="html"><![CDATA[This is not my first experience of weird coincidence with Perfect Sentences, whose editor I do kind of know, but would not presume to go so far as to claim as a friend.]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[24aug26]]></title>
-        <id>https://warrenellis.ltd/?p=18874</id>
-        <link href="https://warrenellis.ltd/status/24aug26/"/>
-        <updated>2026-08-24T11:05:45.000Z</updated>
-        <summary type="html"><![CDATA[Mancub came in when my alarm went off to tell me that the sunlight has gone away and I needed to bring it back. While…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>
