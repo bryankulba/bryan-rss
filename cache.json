@@ -218,16 +218,6 @@
           "wordCount": 4737,
           "title": "Dragoncatcher: Reliably early",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/digital-pantograph/",
-          "author": null,
-          "description": "<p>Gobs and gobs of text. <a href=\"https://www.robinsloan.com/lab/digital-pantograph/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/digital-pantograph/",
-          "publishedOn": "2026-08-26T10:00:00.000Z",
-          "wordCount": 5551,
-          "title": "Dragoncatcher: Slop-vestigation and the digital pantograph",
-          "imageUrl": "https://www.robinsloan.com/img/pantograph.jpg"
         }
       ]
     },
@@ -290,6 +280,86 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/09/0049679-link",
+          "author": null,
+          "description": "What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”",
+          "link": "https://kottke.org/26/09/0049679-link",
+          "publishedOn": "2026-09-24T22:41:00.000Z",
+          "wordCount": 683,
+          "title": "What If We Just Stopped? “We’re in the Looney Tunes stage...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/scans-of-city-textures",
+          "author": null,
+          "description": "Using a handheld scanner, designer/illustrator Noah Nolet captures textures from surfaces in cities around the world, including Tokyo, LA, Paris, Kyoto, NYC, and Berlin. On his website, he offers city packs of hundreds of scans for sale and free sample packs as well. You can also check out how he captures the textures on Instagram and YouTube. This is a modern take on stone rubbing.\n\n \n\n        \n         \nTags: cities · design · Noah Nolet · photography",
+          "link": "https://kottke.org/26/09/scans-of-city-textures",
+          "publishedOn": "2026-09-24T21:44:00.000Z",
+          "wordCount": 673,
+          "title": "Scans of City Textures",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1790236741-10849241.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/09/0049646-catalogue-of-ships",
+          "author": null,
+          "description": "Homer’s Catalogue of Ships from the Iliad. Where the Greek ships that set out for Troy were from and what they may have looked like. “No Homeric ship survives. What we have are pictures: a handful of painted sherds of the twelfth century BC…”",
+          "link": "https://kottke.org/26/09/0049646-catalogue-of-ships",
+          "publishedOn": "2026-09-24T20:49:00.000Z",
+          "wordCount": 702,
+          "title": "Homer’s Catalogue of Ships from the Iliad. Where the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049651-are-beavers-actually-good",
+          "author": null,
+          "description": "Practical Engineering: Are beavers actually good at building dams? (A: Yes, duh.)",
+          "link": "https://kottke.org/26/09/0049651-are-beavers-actually-good",
+          "publishedOn": "2026-09-24T19:49:00.000Z",
+          "wordCount": 653,
+          "title": "Practical Engineering: Are beavers actually good at...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049678-the-further-mis-adventure",
+          "author": null,
+          "description": "The Further Mis-Adventures of Cliff Booth. Brad Pitt returns as Booth, the character he played in Once Upon a Time in Hollywood, but 8 years later. Screenplay by Quentin Tarantino, directed by David Fincher.",
+          "link": "https://kottke.org/26/09/0049678-the-further-mis-adventure",
+          "publishedOn": "2026-09-24T18:59:00.000Z",
+          "wordCount": 714,
+          "title": "The Further Mis-Adventures of Cliff Booth. Brad Pitt...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049653-trace",
+          "author": null,
+          "description": "Trace is a daily puzzle game where you build a “recipe” of up to 4 steps to turn a starting set of numbers into another set of numbers.",
+          "link": "https://kottke.org/26/09/0049653-trace",
+          "publishedOn": "2026-09-24T18:13:00.000Z",
+          "wordCount": 868,
+          "title": "Trace is a daily puzzle game where you build a “recipe”...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049643-the-lessons-four-islamic-",
+          "author": null,
+          "description": "The lessons four Islamic polymaths — al-Biruni, Alhazen, Avicenna and al-Khwarizmi — hold for students today: “breadth over specialisation, and never let constraints get in the way”.",
+          "link": "https://kottke.org/26/09/0049643-the-lessons-four-islamic-",
+          "publishedOn": "2026-09-24T17:29:00.000Z",
+          "wordCount": 746,
+          "title": "The lessons four Islamic polymaths — al-Biruni, Alhazen,...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049664-50-songs-that-explain-ame",
+          "author": null,
+          "description": "50 Songs That Explain America. “The songs were chosen on the basis that they told me something, sonically or lyrically or emotionally or vibrationally, about America and the idea of America.”",
+          "link": "https://kottke.org/26/09/0049664-50-songs-that-explain-ame",
+          "publishedOn": "2026-09-24T16:39:00.000Z",
+          "wordCount": 690,
+          "title": "50 Songs That Explain America. “The songs were chosen on...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/09/the-new-social-app-npr-podcasts-comments-section-on-spotify",
           "author": null,
@@ -2497,6 +2567,26 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.2\">commit-rewriter 0.2</a></p>\n        <blockquote>\n<p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href=\"https://github.com/simonw/commit-rewriter/issues/3\">#3</a></p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+          "publishedOn": "2026-09-24T20:06:53.000Z",
+          "wordCount": 766,
+          "title": "commit-rewriter 0.2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/24/datasette/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p>\n        <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p>\n<p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other plugins to use</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a>, <a href=\"https://simonwillison.net/tags/alex-garcia\">alex-garcia</a>, <a href=\"https://simonwillison.net/tags/opentelemetry\">opentelemetry</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/24/datasette/",
+          "publishedOn": "2026-09-24T19:15:23.000Z",
+          "wordCount": 788,
+          "title": "datasette 1.0a41",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
           "author": null,
           "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p>\n        <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p>\n<p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\".</p>\n<p>I <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fa82f3aef2677c623d1776092d6b21224\">vibe coded</a> this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API.</p>\n<p><img alt=\"Screenshot of a web app for composing multi-speaker text-to-speech conversations, with a Compose panel on the left and Connection and Under the hood panels on the right. Left panel: &quot;01 Compose&quot; with a &quot;Load example&quot; button. &quot;Compose settings are saved in the URL for bookmarking or sharing. Your API key is excluded.&quot; Toggle with &quot;Single voice&quot; and &quot;Conversation&quot; (Conversation selected). &quot;Cast&quot; section with &quot;+ Add speaker&quot; button. Speaker &quot;Gus&quot;, Voice &quot;Puck&quot;, with a remove × button. Speaker &quot;Pearl&quot;, Voice &quot;Kore&quot;, with a remove × button. &quot;Give each speaker a unique name and a voice. Type to search the loaded catalog by voice ID, name, or language.&quot; &quot;Dialogue&quot; section with &quot;+ Add line&quot; button. &quot;LINE 01&quot; with up, down and × buttons; Speaker dropdown &quot;Gus&quot;; Delivery style &quot;excited and gossipy&quot;; text &quot;Pearl, have you heard? Half the flock just packed up and moved to the Pacifica pier!&quot; &quot;LINE 02&quot; with up, down and × buttons; Speaker dropdown &quot;Pearl&quot;; Delivery style &quot;calm and unimpressed&quot;; text &quot;I heard. Honestly, Gus, I don't see the appeal. We've got everything we need right here at Pillar Point Harbor.&quot; Right panel: &quot;Connection&quot; with a &quot;DIRECT API&quot; badge. &quot;Gemini API key&quot; field showing masked dots with a &quot;Show&quot; button. &quot;2,089 voices loaded. Type in any Voice field to search.&quot; &quot;Your key stays in this page's memory and is sent directly to Google. It is never saved to browser storage.&quot; &quot;Model&quot; dropdown &quot;gemini-3.8-flash-tts&quot;. &quot;Uses your Gemini API account and quota.&quot; &quot;Under the hood&quot; panel with an expanded &quot;▼ Request JSON&quot; section showing a JSON code excerpt, a &quot;Copy JSON&quot; button, and an expanded &quot;▼ Response details&quot; section showing a JSON code excerpt.\" src=\"https://static.simonwillison.net/static/2026/tts-playground.webp\" /></p>\n<p>A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with different voices and voice style instructions.</p>\n<p>Here's a short demo clip of a conversation between two pelicans debating if they should move to <a href=\"https://simonwillison.net/2026/Sep/12/sighting-399708714/\">the Pacifica Pier</a>. I had Claude 4.5 Opus <a href=\"https://claude.ai/share/3597fc77-9323-4583-aeb9-b0e4c3f654a3\">write the script</a> and generate <a href=\"https://simonwillison.net/u/vj\">a URL to render it using the tool</a>.</p>\n<p><audio controls style=\"width: 100%\">\n  <source src=\"https://static.simonwillison.net/static/2026/pelicans-pacifica-pier.wav\" type=\"audio/wav\">\n  Your browser does not support the audio element.\n</audio></p>\n<p>It took ~20 seconds to generate 1m 18s of audio using Gemini 3.8 Flash TTS (not the cheaper Flash-Lite), at a cost of 2.74 cents.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/text-to-speech\">text-to-speech</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a></p>",
@@ -3385,16 +3475,6 @@
           "wordCount": 843,
           "title": "Qwen3.8-Flash-Next",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-          "author": null,
-          "description": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://pauldix.com/the-end-of-programming\">Paul Dix</a>, The end of programming</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/bun\">bun</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-          "publishedOn": "2026-08-26T08:07:55.000Z",
-          "wordCount": 837,
-          "title": "Quoting Paul Dix",
-          "imageUrl": null
         }
       ]
     },
@@ -3834,16 +3914,6 @@
           "publishedOn": "2026-08-27T13:18:07.000Z",
           "wordCount": 2885,
           "title": "det goda livet",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12322",
-          "author": "PGR",
-          "description": "A characteristically perspicacious observation on utopias from G K Chesterton.",
-          "link": "https://www.velcro-city.co.uk/an-elaborate-account-of-the-overcoming-of-the-smaller-difficulties/",
-          "publishedOn": "2026-08-26T08:30:00.000Z",
-          "wordCount": 2470,
-          "title": "an elaborate account of the overcoming of the smaller difficulties",
           "imageUrl": null
         }
       ]

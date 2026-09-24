@@ -2,10 +2,127 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-24T16:28:29.945Z</updated>
+    <updated>2026-09-24T22:59:51.815Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage...]]></title>
+        <id>https://kottke.org/26/09/0049679-link</id>
+        <link href="https://kottke.org/26/09/0049679-link"/>
+        <updated>2026-09-24T22:41:00.000Z</updated>
+        <summary type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scans of City Textures]]></title>
+        <id>https://kottke.org/26/09/scans-of-city-textures</id>
+        <link href="https://kottke.org/26/09/scans-of-city-textures"/>
+        <updated>2026-09-24T21:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Using a handheld scanner, designer/illustrator Noah Nolet captures textures from surfaces in cities around the world, including Tokyo, LA, Paris, Kyoto, NYC, and Berlin. On his website, he offers city packs of hundreds of scans for sale and free sample packs as well. You can also check out how he captures the textures on Instagram and YouTube. This is a modern take on stone rubbing.
+
+ 
+
+        
+         
+Tags: cities · design · Noah Nolet · photography]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Homer’s Catalogue of Ships from the Iliad. Where the...]]></title>
+        <id>https://kottke.org/26/09/0049646-catalogue-of-ships</id>
+        <link href="https://kottke.org/26/09/0049646-catalogue-of-ships"/>
+        <updated>2026-09-24T20:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Homer’s Catalogue of Ships from the Iliad. Where the Greek ships that set out for Troy were from and what they may have looked like. “No Homeric ship survives. What we have are pictures: a handful of painted sherds of the twelfth century BC…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[commit-rewriter 0.2]]></title>
+        <id>https://simonwillison.net/2026/Sep/24/commit-rewriter/</id>
+        <link href="https://simonwillison.net/2026/Sep/24/commit-rewriter/"/>
+        <updated>2026-09-24T20:06:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/commit-rewriter/releases/tag/0.2">commit-rewriter 0.2</a></p>
+        <blockquote>
+<p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href="https://github.com/simonw/commit-rewriter/issues/3">#3</a></p>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/git">git</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical Engineering: Are beavers actually good at...]]></title>
+        <id>https://kottke.org/26/09/0049651-are-beavers-actually-good</id>
+        <link href="https://kottke.org/26/09/0049651-are-beavers-actually-good"/>
+        <updated>2026-09-24T19:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Practical Engineering: Are beavers actually good at building dams? (A: Yes, duh.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a41]]></title>
+        <id>https://simonwillison.net/2026/Sep/24/datasette/</id>
+        <link href="https://simonwillison.net/2026/Sep/24/datasette/"/>
+        <updated>2026-09-24T19:15:23.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a41">datasette 1.0a41</a></p>
+        <p>Alec Garcia added <a href="https://docs.datasette.io/en/latest/internals.html#internals-telemetry">support for OpenTelemetry</a> to Datasette in this release.</p>
+<p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href="https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals">documented for other plugins to use</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/web-components">web-components</a>, <a href="https://simonwillison.net/tags/alex-garcia">alex-garcia</a>, <a href="https://simonwillison.net/tags/opentelemetry">opentelemetry</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Further Mis-Adventures of Cliff Booth. Brad Pitt...]]></title>
+        <id>https://kottke.org/26/09/0049678-the-further-mis-adventure</id>
+        <link href="https://kottke.org/26/09/0049678-the-further-mis-adventure"/>
+        <updated>2026-09-24T18:59:00.000Z</updated>
+        <summary type="html"><![CDATA[The Further Mis-Adventures of Cliff Booth. Brad Pitt returns as Booth, the character he played in Once Upon a Time in Hollywood, but 8 years later. Screenplay by Quentin Tarantino, directed by David Fincher.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trace is a daily puzzle game where you build a “recipe”...]]></title>
+        <id>https://kottke.org/26/09/0049653-trace</id>
+        <link href="https://kottke.org/26/09/0049653-trace"/>
+        <updated>2026-09-24T18:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Trace is a daily puzzle game where you build a “recipe” of up to 4 steps to turn a starting set of numbers into another set of numbers.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The lessons four Islamic polymaths — al-Biruni, Alhazen,...]]></title>
+        <id>https://kottke.org/26/09/0049643-the-lessons-four-islamic-</id>
+        <link href="https://kottke.org/26/09/0049643-the-lessons-four-islamic-"/>
+        <updated>2026-09-24T17:29:00.000Z</updated>
+        <summary type="html"><![CDATA[The lessons four Islamic polymaths — al-Biruni, Alhazen, Avicenna and al-Khwarizmi — hold for students today: “breadth over specialisation, and never let constraints get in the way”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[50 Songs That Explain America. “The songs were chosen on...]]></title>
+        <id>https://kottke.org/26/09/0049664-50-songs-that-explain-ame</id>
+        <link href="https://kottke.org/26/09/0049664-50-songs-that-explain-ame"/>
+        <updated>2026-09-24T16:39:00.000Z</updated>
+        <summary type="html"><![CDATA[50 Songs That Explain America. “The songs were chosen on the basis that they told me something, sonically or lyrically or emotionally or vibrationally, about America and the idea of America.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The 🔥🔥🔥 New Social App: NPR Podcasts Comments Section on Spotify]]></title>
         <id>https://kottke.org/26/09/the-new-social-app-npr-podcasts-comments-section-on-spotify</id>
@@ -5932,39 +6049,6 @@ The post In Hilbert Space, All Things Are Quantumly Possible first appeared on Q
         <summary type="html"><![CDATA[*He scolded the clankers]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Slop-vestigation and the digital pantograph]]></title>
-        <id>https://www.robinsloan.com/lab/digital-pantograph/</id>
-        <link href="https://www.robinsloan.com/lab/digital-pantograph/"/>
-        <updated>2026-08-26T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Gobs and gobs of text. <a href="https://www.robinsloan.com/lab/digital-pantograph/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[an elaborate account of the overcoming of the smaller difficulties]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12322</id>
-        <link href="https://www.velcro-city.co.uk/an-elaborate-account-of-the-overcoming-of-the-smaller-difficulties/"/>
-        <updated>2026-08-26T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A characteristically perspicacious observation on utopias from G K Chesterton.]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Paul Dix]]></title>
-        <id>https://simonwillison.net/2026/Aug/26/paul-dix/</id>
-        <link href="https://simonwillison.net/2026/Aug/26/paul-dix/"/>
-        <updated>2026-08-26T08:07:55.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://pauldix.com/the-end-of-programming"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.</p></blockquote>
-<p class="cite">&mdash; <a href="https://pauldix.com/the-end-of-programming">Paul Dix</a>, The end of programming</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/bun">bun</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
