@@ -281,6 +281,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/0049680-what-if-we-just-stopped",
+          "author": null,
+          "description": "What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”",
+          "link": "https://kottke.org/26/09/0049680-what-if-we-just-stopped",
+          "publishedOn": "2026-09-25T00:10:00.000Z",
+          "wordCount": 1187,
+          "title": "What If We Just Stopped? “We’re in the Looney Tunes stage...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/0049679-link",
           "author": null,
           "description": "What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”",
@@ -2183,16 +2193,6 @@
           "wordCount": 1270,
           "title": "Untitled",
           "imageUrl": "https://64.media.tumblr.com/e26b2c317508ff4b177e1869510135ee/2d9fd9865dd2525a-45/s1280x1920/c8d02b29b95e1c39cb340eaa1793c053f3ff4b93.webp"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/826012229872877568",
-          "author": null,
-          "description": "*He scolded the clankers",
-          "link": "https://brucesterling.tumblr.com/post/826012229872877568",
-          "publishedOn": "2026-08-26T12:17:28.000Z",
-          "wordCount": null,
-          "title": "*He scolded the clankers",
-          "imageUrl": null
         }
       ]
     },
@@ -3752,16 +3752,6 @@
           "wordCount": 3451,
           "title": "Does Computer Science Need Computers?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Qualia_TheoreticalCS-crKristinaArmitage-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=166153",
-          "author": "Charlie Wood",
-          "description": "To explore quantum phenomena, we must leave the familiar world and enter the abstract realm of Hilbert space.            \nThe post In Hilbert Space, All Things Are Quantumly Possible first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
-          "publishedOn": "2026-08-26T14:30:35.000Z",
-          "wordCount": 4140,
-          "title": "In Hilbert Space, All Things Are Quantumly Possible",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/HilbertSpace-cr-Tommy-Parket-Social.jpg"
         }
       ]
     },

@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-24T22:59:51.815Z</updated>
+    <updated>2026-09-25T03:21:44.558Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage...]]></title>
+        <id>https://kottke.org/26/09/0049680-what-if-we-just-stopped</id>
+        <link href="https://kottke.org/26/09/0049680-what-if-we-just-stopped"/>
+        <updated>2026-09-25T00:10:00.000Z</updated>
+        <summary type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage...]]></title>
         <id>https://kottke.org/26/09/0049679-link</id>
@@ -6028,27 +6038,6 @@ Another open weights model from Qwen. This one is "a multimodal MoE model that a
 #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Hilbert Space, All Things Are Quantumly Possible]]></title>
-        <id>https://www.quantamagazine.org/?p=166153</id>
-        <link href="https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/"/>
-        <updated>2026-08-26T14:30:35.000Z</updated>
-        <summary type="html"><![CDATA[To explore quantum phenomena, we must leave the familiar world and enter the abstract realm of Hilbert space.            
-The post In Hilbert Space, All Things Are Quantumly Possible first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Charlie Wood</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*He scolded the clankers]]></title>
-        <id>https://brucesterling.tumblr.com/post/826012229872877568</id>
-        <link href="https://brucesterling.tumblr.com/post/826012229872877568"/>
-        <updated>2026-08-26T12:17:28.000Z</updated>
-        <summary type="html"><![CDATA[*He scolded the clankers]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
     <entry>
