@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-25T03:21:44.558Z</updated>
+    <updated>2026-09-25T09:21:42.210Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 25/09/26]]></title>
+        <id>https://webcurios.co.uk/?p=1767</id>
+        <link href="https://webcurios.co.uk/webcurios-25-09-26/"/>
+        <updated>2026-09-25T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  34 minutes   While I imagine that most of you delete this email unthinkingly every time it crops up in your inbox – no, really, I don’t mind, I know you’re busy and this is only the textual expression of my very soul you’re ignoring, don’t worry about it! – I like to imagine that there are…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage...]]></title>
         <id>https://kottke.org/26/09/0049680-what-if-we-just-stopped</id>
@@ -201,6 +212,117 @@ Kitazawa B…]]></summary>
         <summary type="html"><![CDATA[Plus: New day planners we swear by just dropped; unisex autumnwear; insight from the Spyfriend behind one of fall’s most hotly anticipated films & more]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shane Woolman presents  Adventures In Sound And Music]]></title>
+        <id>https://www.thewire.co.uk/audio/on-air/shane-woolman-presents-adventures-in-sound-and-music-79564</id>
+        <link href="https://www.thewire.co.uk/audio/on-air/shane-woolman-presents-adventures-in-sound-and-music-79564"/>
+        <updated>2026-09-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire's weekly show on Resonance FM and Resonance Extra featured a guest mix by Ak'chamel, The Giver of Illness, plus music by Harju, Joni Mitchell, Bill Orcutt and more
+
+Tracklist
+    
+ Baile Entero with Xavi Lozano
+    
+Baile Entero
+    
+Lovemonk)
+
+Harju
+    
+Verikyyhky (Original Graphic Novel Soundtrack)
+    
+Svart)
+
+Dur-Dur Band
+    
+Dur-Dur Band – Volume 3 (1988) & Volume 4 (1989)
+    
+Analog Africa)
+
+Upsetters
+    
+Upsetters 14 Dub Black Board Jungle
+    
+Week-End)
+
+Joni Mitchell
+    
+The Hissing Of Summer Lawns
+    
+Asylum)
+
+La Tène
+    
+Wire Tapper edit)”
+    
+Melnetta/Tardive
+    
+Les Disques Bongo Joe)
+
+Wire Tapper 72 CD
+
+Bill Orcutt
+    
+Music In Continuous Motion
+    
+Palilalia)
+
+Ervin Omsk
+    
+Der Saal tobt
+    
+Orange Milk)
+
+yeongrak
+    
+unsafe permannantizing paste
+    
+Bandcamp)
+
+Lothar Ohlmeier/Rudi Fischerlehner/Isambard Khroustaliov
+    
+Landscapes
+    
+Not Applicable)
+
+Sangomas & Maga Bo featuring Teba Shumba
+    
+VIBRATIONS FROM THE MOTHERLAND
+    
+Buried Treasure)
+
+Point Line Plane
+    
+Point Line Plane
+    
+Skin Graft)
+
+Budgie
+    
+Running From My Soul: The MCA Years 1973-1975
+    
+Cherry Red)
+
+
+    •
+    
+Ak’chamel, The Giver of Illness Guest Mix
+    
+
+     
+
+Carl Stone
+    
+Arthur Fischl Conducts The Music Of Carl Stone
+    
+Unseen Worlds)
+
+
+    Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6005,39 +6127,6 @@ Another open weights model from Qwen. This one is "a multimodal MoE model that a
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/nvidia-spark">nvidia-spark</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mimic your own voice with Pink Trombone]]></title>
-        <id>https://waxy.org/?p=51213</id>
-        <link href="https://samuel.vvolhejn.com/"/>
-        <updated>2026-08-26T17:49:48.000Z</updated>
-        <summary type="html"><![CDATA[an open-source model to control the classic human vocal tract simulator
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nitter, XCancel shut down after X sends cease-and-desist]]></title>
-        <id>https://waxy.org/?p=51211</id>
-        <link href="https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/"/>
-        <updated>2026-08-26T17:42:03.000Z</updated>
-        <summary type="html"><![CDATA[the privacy-friendly X/Twitter frontends were a helpful way to view a post without an account
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon shuttering Mechanical Turk after 21 years]]></title>
-        <id>https://waxy.org/?p=51209</id>
-        <link href="https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html"/>
-        <updated>2026-08-26T17:32:30.000Z</updated>
-        <summary type="html"><![CDATA[three years after it launched, I asked Turkers to send me selfies for cash
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
     <entry>
