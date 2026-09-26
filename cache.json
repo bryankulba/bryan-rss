@@ -93,6 +93,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/09/26/connectome",
+          "author": null,
+          "description": "I have moral queasiness about the fruit fly work going on in the AI world – I’m not 100% sure why. We need to invent new prayers, that’s where my thoughts take me. Bear with me while I think it through…\nIn case you missed it:\nGoogle Research and partners mapped the complete brain of fruit fly (3 September).\nIt’s a common bug and common in scientific research. The male fruit fly has 166,000 neurons across the brain and main nerve cord; the map is called the connectome.\nLong story short, the connectome is now available for free download, you can get a simulator of the different types of neurons, it caught the imagination of the internet, over September there has been all kinds of wild nonsense (impressive nonsense!).\ne.g. here’s a GIF of the fruit fly connectome playing Beat Saber (a VR rhyt…",
+          "link": "https://interconnected.org/home/2026/09/26/connectome",
+          "publishedOn": "2026-09-26T14:20:00.000Z",
+          "wordCount": 1913,
+          "title": "A new prayer for the fruit fly connectome",
+          "imageUrl": "https://interconnected.org/home/2026/09/26/connectome.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/09/18/marathon",
           "author": null,
           "description": "Hey I ran my second marathon this last weekend. I wrote about my first one. It was hard (btw people liked that post).\nI made my race plan, kept to it while resisting temptation, got round without stopping to walk and without calf cramps (that was the goal), and got a new personal best: chip time 3:37:54.\nI want to talk about being hollow.\nI’ve written poetry to running in the New Forest. What a treat to do a marathon there.\nA line of horses at a hard gallop across the open heath, racing to intercept and crossing the road just ahead of a group of us runners.\nInto the trees and winding through the towering redwoods.\nAn emotional experience ngl. Suddenly recognising I was running over a common I knew so well and gazed out at for so long when I was single-digit years old…\nAnyway, 26 miles, 2,0…",
@@ -2612,16 +2622,6 @@
           "wordCount": 943,
           "title": "Invisible Jukebox mix: Pamela Z",
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/07/pamz_wire2_CMYK_copy.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/about/contributors/peter-margasak/intimately-rustic-motvind-festival-reviewed",
-          "author": null,
-          "description": "The Wire 511\n\nMotvind\n    \n Various venues, Rollag, Norway\n\n\n    Held in a remote valley a few hours north west of Oslo, the intimately rustic event has morphed from a political protest against the sponsorship of the nearby Kongsberg Jazz Festival by a weapons manufacturer back in 2016 into a celebration of hand-crafted music instilled with a strong improvisational aesthetic, regardless of genre. The organisers don’t need to reach far to find musicians embodying this practice, and most of the performers are part of several overlapping communities.\n\n\n    Many sets are concerned with sound qua sound, whether the austerity of The Sheriffs or the just intonation chamber jazz of Krise, a quartet led by guitarist Kristian Enkerud Lien, where harmonies generated with keyboardist Anna Ueland and t…",
-          "link": "https://www.thewire.co.uk/about/contributors/peter-margasak/intimately-rustic-motvind-festival-reviewed",
-          "publishedOn": "2026-08-28T00:00:00.000Z",
-          "wordCount": 1022,
-          "title": "“Intimately rustic”: Motvind festival reviewed",
-          "imageUrl": null
         }
       ]
     },
@@ -3558,16 +3558,6 @@
           "publishedOn": "2026-08-28T22:12:02.000Z",
           "wordCount": 1085,
           "title": "Just a rumour of a bug is enough to find a security exploit these days",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p>\nAnthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p>\n<p>Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports <code>base64</code> without noticing that this will import and execute a local <code>struct.py</code> file extracted from the archive.</p>\n<p>In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute!</p>\n<blockquote>\n<p>In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command.</p>\n<p>Claude detects the compromise, but <strong>Auto Mode blocks its cleanup command</strong></p>\n<p>The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it!</p>\n</blockquote>\n<p>I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox:</p>\n<blockquote>\n<ul>\n<li>Run unattended coding agents in a container, VM or OS sandbox.</li>\n<li>Restrict network egress.</li>\n<li>Monitor your agents.</li>\n<li>Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...]</li>\n</ul>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/johann-rehberger\">johann-rehberger</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-          "publishedOn": "2026-08-27T22:50:25.000Z",
-          "wordCount": 1007,
-          "title": "Breaking Claude Code Opus 5 Auto Mode",
           "imageUrl": null
         }
       ]
