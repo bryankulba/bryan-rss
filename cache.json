@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6ab83b3707d4d40001071c2b",
+          "author": "Patrick Tanguay",
+          "description": "No.418 — Beyond the Gaia-Borg dichotomy ⊗ Anthropic has set up a bio research lab ⊗ Germany is building an ark for US climate data ⊗ Human brain is two separate organs",
+          "link": "https://sentiers.media/in-defence-of-the-unfinished-future-penchants-of-the-polymaths-no-418/",
+          "publishedOn": "2026-09-27T10:00:59.000Z",
+          "wordCount": 2814,
+          "title": "In defence of the unfinished future ⊗ Penchants of the polymaths",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/1987.50_web-square.jpg"
+        },
+        {
           "id": "6aada44e7030da0001a97232",
           "author": "Patrick Tanguay",
           "description": "No.417 — The map fiction missed ⊗ Cognitive integrity ⊗ The massive layer of life just beneath our feet ⊗ NASA’s Nancy Grace Roman Space Telescope",
@@ -1998,6 +2008,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=19011",
+          "author": "Warren Ellis",
+          "description": "Terrible day yesterday: ill and brain-fogged and too much to do. Missed the gig at the Jazz Centre I had tickets for. But I did…",
+          "link": "https://warrenellis.ltd/status/27sep26/",
+          "publishedOn": "2026-09-27T11:39:28.000Z",
+          "wordCount": 1328,
+          "title": "27sep26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2261-scaled-1.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/photos/19010/",
           "author": "Warren Ellis",
           "description": "Visit the post for more.",
@@ -2241,6 +2261,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/upper-class-semaphore",
+          "author": "Blackbird Spyplane",
+          "description": "Plus a cult jewelry maker, stripes go askew, the anxiety of getting dressed “up” & more",
+          "link": "https://www.blackbirdspyplane.com/p/upper-class-semaphore",
+          "publishedOn": "2026-09-27T13:01:45.000Z",
+          "wordCount": null,
+          "title": "Upper-class semaphore",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!kIWN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff48a53dc-c963-42b3-b7f5-12b00e32ab4e_1770x1970.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!kIWN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff48a53dc-c963-42b3-b7f5-12b00e32ab4e_1770x1970.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/its-undignified-to-carry-an-iced-coffee-cup",
           "author": "Blackbird Spyplane",
@@ -3519,16 +3555,6 @@
           "wordCount": 997,
           "title": "Introducing Hy4 Preview",
           "imageUrl": "https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p>\nAnil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p>\n<blockquote>\n<p>This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.</p>\n</blockquote>\n<p>Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.</p>\n<p>Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.</p>\n<p>rclone maintainer Nick Craig-Wood <a href=\"https://news.ycombinator.com/item?id=49480466#49480777\">confirms in the Hacker News comments</a> that his project is seeing this problem:</p>\n<blockquote>\n<p>In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.</p>\n<p>The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]</p>\n<p>GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49480466\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ocaml\">ocaml</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-          "publishedOn": "2026-08-28T22:12:02.000Z",
-          "wordCount": 1085,
-          "title": "Just a rumour of a bug is enough to find a security exploit these days",
-          "imageUrl": null
         }
       ]
     },
