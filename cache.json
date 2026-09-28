@@ -284,6 +284,16 @@
       "siteUrl": "https://wearethemutants.com",
       "articles": [
         {
+          "id": "http://wearethemutants.com/?p=42351",
+          "author": "Michael Grasso",
+          "description": "By Michael Grasso\r\n\r\nThe Sears catalog was, by the outset of the 1980s, an American institution nearly a century in the making, providing an A-to-Z inventory of mail-order household goods for even the most far-flung consumers in the United States...",
+          "link": "https://wearethemutants.com/2026/09/28/game-room-challenges-and-computer-labyrinths-the-sears-wish-book-1981/",
+          "publishedOn": "2026-09-28T15:41:57.000Z",
+          "wordCount": 4078,
+          "title": "Game Room Challenges and Computer Labyrinths: The Sears Wish Book, 1981",
+          "imageUrl": "https://wearethemutants.com/wp-content/uploads/2026/09/untitled.jpg"
+        },
+        {
           "id": "http://wearethemutants.com/?p=42310",
           "author": "K.E. Roberts",
           "description": "By The Mutants\r\n\r\nJesus, 10 years. Launch date: August 29, 2016. Since then we’ve published almost 600 articles: many of them, in my opinion, are important contributions to cultural history and culture at large...",
@@ -1805,6 +1815,21 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=13334",
+          "author": "Cory Doctorow",
+          "description": "Today's links Priceful: So worthless we can tell you what it's worth. Hey look at this: Delights to delectate. Object permanence: Nasdaq allows post-9/11 penny stocks; USAF can shoot down civilian aircraft; TSA bans calling Kip Hawley an idiot; Wells Fargo sued for firing fraud-refusing tellers; The real AI apocalypse; Encryption didn't cause 9/11; Bat-person costume; British Library on DRM and CC; NYT v OWS; \"The Brave Little Toaster\"; Bounty for Trump's tax return; Chinese real-estate bubble; Corbyn's Labour conference speech; HP blinks; \"Are you calling me a racist?\"; \"Yuge\"; Debts that can't be paid won't be paid. Upcoming appearances: Edmonton, Boston, Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances:…",
+          "link": "https://pluralistic.net/2026/09/28/cost-of-everything/",
+          "publishedOn": "2026-09-28T17:48:26.000Z",
+          "wordCount": 5497,
+          "title": "Pluralistic: Priceful (28 Sep 2026)",
+          "enclosure": {
+            "url": "https://dn710605.ca.archive.org/0/items/Cory_Doctorow_Podcast_212/Cory_Doctorow_Podcast_212_Brave_Little_Toaster.mp3",
+            "length": "21594432",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=13327",
           "author": "Cory Doctorow",
           "description": "Today's links Itch scratching: Love, care and self-actualization. Hey look at this: Delights to delectate. Object permanence: 9/11 x Viridians; Announcing Wikipedia; Infinite Copyright Mickey; Floppy shoulder bag; Wells Fargo's long sleaze; Corbyn wins Labour leadership; Interop v internet monopolies; The billionaires aren't all right; RIP Mike Ford; PGP didn't cause 9/11; Flying Solaris boxen; \"Unelectable\" Corbyn; Algorithmic management; \"That's Disgusting!\"; Tax breaks for repair expenses; Climate denial driven by economic doctrine; \"100% pumpkin\" has no pumpkin; Copyright reversion; \"Scholars of the Night\"; Apple threatens EU. Upcoming appearances: Edmonton, Boston, Brighton, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearan…",
@@ -1977,6 +2002,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19016",
+          "author": "Warren Ellis",
+          "description": "First day of reset. Index cards, paper, pens. The deli was randomly closed – fuck you, Dan – so I stopped in at the Pipe…",
+          "link": "https://warrenellis.ltd/status/28sep26/",
+          "publishedOn": "2026-09-28T13:27:19.000Z",
+          "wordCount": 1397,
+          "title": "28sep26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2271-scaled-1.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19011",
           "author": "Warren Ellis",
@@ -3555,16 +3590,6 @@
           "wordCount": 2258,
           "title": "Understanding ChatGPT Work",
           "imageUrl": "https://static.simonwillison.net/static/2026/chatgpt-work-card.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/29/hy4/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p>\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p>\n<p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 598GB.</p>\n<p>I recently started using model chat templates to better understand their capabilities. Here's Hy4's  <a href=\"https://huggingface.co/tencent/Hy4-preview/blob/main/chat_template.jinja\">chat_template.jinja</a> on Hugging Face, which includes this section:</p>\n<div class=\"highlight highlight-text-html-django\"><pre><span class=\"pl-e\">{%</span>- <span class=\"pl-k\">if</span> <span class=\"pl-k\">not</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-s\">is</span> <span class=\"pl-s\">defined</span> <span class=\"pl-e\">%}</span>\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-s\">set</span> <span class=\"pl-s\">reasoning_effort</span> = <span class=\"pl-s\">'high'</span> <span class=\"pl-e\">%}</span>\n<span class=\"pl-e\">{%</span>- <span class=\"pl-s\">elif</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-k\">not</span> <span class=\"pl-k\">in</span> [<span class=\"pl-s\">'high'</span>, <span class=\"pl-s\">'no_think'</span>] <span class=\"pl-e\">%}</span>\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">if</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-s\">is</span> <span class=\"pl-s\">none</span> <span class=\"pl-e\">%}</span>\n        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">else</span> <span class=\"pl-e\">%}</span>\n        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">endif</span> <span class=\"pl-e\">%}</span>\n<span class=\"pl-e\">{%</span>- <span class=\"pl-k\">endif</span> <span class=\"pl-e\">%}</span></pre></div>\n<p>So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled).</p>\n<p>I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning <a href=\"https://openrouter.ai/tencent/hy4-preview#apps\">via OpenRouter</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fcb69816b3fb940f2782569a82a523af1\">got this</a>:</p>\n<p><img alt=\"Flat vector cartoon illustration of a white pelican with a large orange bill riding a red bicycle to the right along a grey road with a dashed white centre line, its orange webbed feet on the pedals and grey tail feathers fanned out behind, against a pale blue sky with a yellow sun, white clouds and horizontal white motion lines suggesting speed\" src=\"https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg\" /></p>\n<p>Quoting the reasoning trace:</p>\n<blockquote>\n<p>[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.</p>\n<p>Maybe add sunglasses? no.</p>\n<p>Maybe add water? no.</p>\n</blockquote>\n<p>It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/29/hy4/",
-          "publishedOn": "2026-08-29T23:53:13.000Z",
-          "wordCount": 997,
-          "title": "Introducing Hy4 Preview",
-          "imageUrl": "https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg"
         }
       ]
     },
@@ -3572,28 +3597,7 @@
       "title": "bunnie's blog",
       "feedUrl": "https://www.bunniestudios.com/blog/?feed=rss2",
       "siteUrl": "https://www.bunniestudios.com/blog",
-      "articles": [
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7612",
-          "author": "bunnie",
-          "description": "The Ware for August 2026 is shown below. Technically, this is an integrated circuit – just from a very different era than last month’s ware!",
-          "link": "https://www.bunniestudios.com/blog/2026/name-that-ware-august-2026/",
-          "publishedOn": "2026-08-30T06:29:56.000Z",
-          "wordCount": 1139,
-          "title": "Name that Ware, August 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.bunniestudios.com/blog/?p=7603",
-          "author": "bunnie",
-          "description": "The structure in question for last month’s ware are a pair of NPN transistors that form the core of a bandgap voltage reference circuit. As its name implies, a bandgap voltage reference generates a near-constant voltage for use inside chips. The voltage is intended to be fairly constant over process variations, temperature variations, and power […]",
-          "link": "https://www.bunniestudios.com/blog/2026/winner-name-that-ware-july-2026/",
-          "publishedOn": "2026-08-30T06:27:57.000Z",
-          "wordCount": 1623,
-          "title": "Winner, Name that Ware July 2026",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Maggie Appleton",
@@ -3683,6 +3687,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=167446",
+          "author": "Shalma Wegsman",
+          "description": "After a long hiatus, the problem, which was likely inspired by juggling, has finally been resolved by a group of young mathematicians.            \nThe post Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/",
+          "publishedOn": "2026-09-28T14:35:21.000Z",
+          "wordCount": 3300,
+          "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/GrahamConjecture-crIrenePerez-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=167403",
           "author": "Charlie Wood",

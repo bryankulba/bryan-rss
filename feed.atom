@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-28T10:31:53.298Z</updated>
+    <updated>2026-09-28T19:13:39.858Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Priceful (28 Sep 2026)]]></title>
+        <id>https://pluralistic.net/?p=13334</id>
+        <link href="https://pluralistic.net/2026/09/28/cost-of-everything/"/>
+        <updated>2026-09-28T17:48:26.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Priceful: So worthless we can tell you what it's worth. Hey look at this: Delights to delectate. Object permanence: Nasdaq allows post-9/11 penny stocks; USAF can shoot down civilian aircraft; TSA bans calling Kip Hawley an idiot; Wells Fargo sued for firing fraud-refusing tellers; The real AI apocalypse; Encryption didn't cause 9/11; Bat-person costume; British Library on DRM and CC; NYT v OWS; "The Brave Little Toaster"; Bounty for Trump's tax return; Chinese real-estate bubble; Corbyn's Labour conference speech; HP blinks; "Are you calling me a racist?"; "Yuge"; Debts that can't be paid won't be paid. Upcoming appearances: Edmonton, Boston, Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances:…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Room Challenges and Computer Labyrinths: The Sears Wish Book, 1981]]></title>
+        <id>http://wearethemutants.com/?p=42351</id>
+        <link href="https://wearethemutants.com/2026/09/28/game-room-challenges-and-computer-labyrinths-the-sears-wish-book-1981/"/>
+        <updated>2026-09-28T15:41:57.000Z</updated>
+        <summary type="html"><![CDATA[By Michael Grasso
+
+The Sears catalog was, by the outset of the 1980s, an American institution nearly a century in the making, providing an A-to-Z inventory of mail-order household goods for even the most far-flung consumers in the United States...]]></summary>
+        <author>
+            <name>Michael Grasso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture]]></title>
+        <id>https://www.quantamagazine.org/?p=167446</id>
+        <link href="https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/"/>
+        <updated>2026-09-28T14:35:21.000Z</updated>
+        <summary type="html"><![CDATA[After a long hiatus, the problem, which was likely inspired by juggling, has finally been resolved by a group of young mathematicians.            
+The post Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Shalma Wegsman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[28sep26]]></title>
+        <id>https://warrenellis.ltd/?p=19016</id>
+        <link href="https://warrenellis.ltd/status/28sep26/"/>
+        <updated>2026-09-28T13:27:19.000Z</updated>
+        <summary type="html"><![CDATA[First day of reset. Index cards, paper, pens. The deli was randomly closed – fuck you, Dan – so I stopped in at the Pipe…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[28SEP26 / accessions]]></title>
         <id>https://www.velcro-city.co.uk/?p=12394</id>
@@ -7073,61 +7116,6 @@ Yea, stranger e…]]></summary>
         <summary type="html"><![CDATA[No.414 — Permacrisis readiness ⊗ Marketplace to rent human faces ⊗ “Horrendous” cracks in homes after heat waves ⊗ The naturalist’s library]]></summary>
         <author>
             <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Name that Ware, August 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7612</id>
-        <link href="https://www.bunniestudios.com/blog/2026/name-that-ware-august-2026/"/>
-        <updated>2026-08-30T06:29:56.000Z</updated>
-        <summary type="html"><![CDATA[The Ware for August 2026 is shown below. Technically, this is an integrated circuit – just from a very different era than last month’s ware!]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winner, Name that Ware July 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7603</id>
-        <link href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-july-2026/"/>
-        <updated>2026-08-30T06:27:57.000Z</updated>
-        <summary type="html"><![CDATA[The structure in question for last month’s ware are a pair of NPN transistors that form the core of a bandgap voltage reference circuit. As its name implies, a bandgap voltage reference generates a near-constant voltage for use inside chips. The voltage is intended to be fairly constant over process variations, temperature variations, and power […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Hy4 Preview]]></title>
-        <id>https://simonwillison.net/2026/Aug/29/hy4/</id>
-        <link href="https://simonwillison.net/2026/Aug/29/hy4/"/>
-        <updated>2026-08-29T23:53:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://hy.tencent.ai/research/hy4-preview">Introducing Hy4 Preview</a></strong></p>
-New open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href="https://huggingface.co/tencent/Hy4-preview">1.56TB on Hugging Face</a>.</p>
-<p>This is a big size increase from their previous <a href="https://huggingface.co/tencent/Hy3">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 598GB.</p>
-<p>I recently started using model chat templates to better understand their capabilities. Here's Hy4's  <a href="https://huggingface.co/tencent/Hy4-preview/blob/main/chat_template.jinja">chat_template.jinja</a> on Hugging Face, which includes this section:</p>
-<div class="highlight highlight-text-html-django"><pre><span class="pl-e">{%</span>- <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-s">reasoning_effort</span> <span class="pl-s">is</span> <span class="pl-s">defined</span> <span class="pl-e">%}</span>
-    <span class="pl-e">{%</span>- <span class="pl-s">set</span> <span class="pl-s">reasoning_effort</span> = <span class="pl-s">'high'</span> <span class="pl-e">%}</span>
-<span class="pl-e">{%</span>- <span class="pl-s">elif</span> <span class="pl-s">reasoning_effort</span> <span class="pl-k">not</span> <span class="pl-k">in</span> [<span class="pl-s">'high'</span>, <span class="pl-s">'no_think'</span>] <span class="pl-e">%}</span>
-    <span class="pl-e">{%</span>- <span class="pl-k">if</span> <span class="pl-s">reasoning_effort</span> <span class="pl-s">is</span> <span class="pl-s">none</span> <span class="pl-e">%}</span>
-        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}
-    <span class="pl-e">{%</span>- <span class="pl-k">else</span> <span class="pl-e">%}</span>
-        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}
-    <span class="pl-e">{%</span>- <span class="pl-k">endif</span> <span class="pl-e">%}</span>
-<span class="pl-e">{%</span>- <span class="pl-k">endif</span> <span class="pl-e">%}</span></pre></div>
-<p>So it looks like there are just two reasoning effort levels: "high" (the default) and "no_think" (reason by disabled).</p>
-<p>I tried my "Generate an SVG of a pelican riding a bicycle" prompt with the default high reasoning <a href="https://openrouter.ai/tencent/hy4-preview#apps">via OpenRouter</a> and <a href="https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fcb69816b3fb940f2782569a82a523af1">got this</a>:</p>
-<p><img alt="Flat vector cartoon illustration of a white pelican with a large orange bill riding a red bicycle to the right along a grey road with a dashed white centre line, its orange webbed feet on the pedals and grey tail feathers fanned out behind, against a pale blue sky with a yellow sun, white clouds and horizontal white motion lines suggesting speed" src="https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg" /></p>
-<p>Quoting the reasoning trace:</p>
-<blockquote>
-<p>[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.</p>
-<p>Maybe add sunglasses? no.</p>
-<p>Maybe add water? no.</p>
-</blockquote>
-<p>It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-reasoning">llm-reasoning</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
