@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-28T03:33:16.849Z</updated>
+    <updated>2026-09-28T10:31:53.298Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[28SEP26 / accessions]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12394</id>
+        <link href="https://www.velcro-city.co.uk/28sep26-accessions/"/>
+        <updated>2026-09-28T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Matt Hill, Mary Shelley, end-of-history vibes.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Muse AI Agent]]></title>
+        <id>https://simonwillison.net/2026/Sep/28/muse-ai-agent/</id>
+        <link href="https://simonwillison.net/2026/Sep/28/muse-ai-agent/"/>
+        <updated>2026-09-28T04:01:30.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.threads.com/share/_oWfPufYJ/"><p>Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating.</p>
+<p>Worse, my auto-reply told him "Yep I'm here!" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse.
+I've sent him an apology from your account owning it and offering to try again another day.</p>
+<p>But the negative rating is real, and I should probably stop the auto-replies from claiming you're home when I can't verify that. Want me to change the pickup replies so they don't promise you're there?</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.threads.com/share/_oWfPufYJ/">Muse AI Agent</a>, working on behalf of @matt.j.robb</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/meta">meta</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/muse-agent">muse-agent</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2026 in LLMs (so far)]]></title>
         <id>https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/</id>
@@ -7102,26 +7128,6 @@ New open weight text input (no vision)  LLM from Chinese company Tencent today: 
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-reasoning">llm-reasoning</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ahhh, relax with the sights and sounds of  the Windows 98...]]></title>
-        <id>https://kottke.org/26/08/0049538-the-windows-98-disk-defra</id>
-        <link href="https://kottke.org/26/08/0049538-the-windows-98-disk-defra"/>
-        <updated>2026-08-29T21:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Ahhh, relax with the sights and sounds of the Windows 98 Disk Defrag Simulator.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Voting is now open for the 2026 Tiny Awards , featuring...]]></title>
-        <id>https://kottke.org/26/08/0049539-voting-is-now-open-for-th</id>
-        <link href="https://kottke.org/26/08/0049539-voting-is-now-open-for-th"/>
-        <updated>2026-08-29T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Voting is now open for the 2026 Tiny Awards, featuring 10 sites that celebrate “the best of the small, poetic, creative, handmade web”. You have until Sept 25 to vote.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>

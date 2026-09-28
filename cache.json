@@ -1679,26 +1679,6 @@
           "wordCount": 633,
           "title": "Google Maps Changes Lake Ontario to Lake America ....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049538-the-windows-98-disk-defra",
-          "author": null,
-          "description": "Ahhh, relax with the sights and sounds of the Windows 98 Disk Defrag Simulator.",
-          "link": "https://kottke.org/26/08/0049538-the-windows-98-disk-defra",
-          "publishedOn": "2026-08-29T21:02:00.000Z",
-          "wordCount": 713,
-          "title": "Ahhh, relax with the sights and sounds of  the Windows 98...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049539-voting-is-now-open-for-th",
-          "author": null,
-          "description": "Voting is now open for the 2026 Tiny Awards, featuring 10 sites that celebrate “the best of the small, poetic, creative, handmade web”. You have until Sept 25 to vote.",
-          "link": "https://kottke.org/26/08/0049539-voting-is-now-open-for-th",
-          "publishedOn": "2026-08-29T18:30:00.000Z",
-          "wordCount": 743,
-          "title": "Voting is now open for the 2026 Tiny Awards , featuring...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2606,6 +2586,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.threads.com/share/_oWfPufYJ/\"><p>Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating.</p>\n<p>Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse.\nI've sent him an apology from your account owning it and offering to try again another day.</p>\n<p>But the negative rating is real, and I should probably stop the auto-replies from claiming you're home when I can't verify that. Want me to change the pickup replies so they don't promise you're there?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.threads.com/share/_oWfPufYJ/\">Muse AI Agent</a>, working on behalf of @matt.j.robb</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/meta\">meta</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/muse-agent\">muse-agent</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+          "publishedOn": "2026-09-28T04:01:30.000Z",
+          "wordCount": 839,
+          "title": "Quoting Muse AI Agent",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
           "author": null,
@@ -3856,6 +3846,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12394",
+          "author": "PGR",
+          "description": "Matt Hill, Mary Shelley, end-of-history vibes.",
+          "link": "https://www.velcro-city.co.uk/28sep26-accessions/",
+          "publishedOn": "2026-09-28T09:30:00.000Z",
+          "wordCount": 2658,
+          "title": "28SEP26 / accessions",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12384",
           "author": "PGR",
