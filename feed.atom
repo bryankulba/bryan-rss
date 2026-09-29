@@ -2,10 +2,113 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-29T17:35:54.767Z</updated>
+    <updated>2026-09-29T23:25:22.579Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Name that Ware, September 2026]]></title>
+        <id>https://www.bunniestudios.com/blog/?p=7620</id>
+        <link href="https://www.bunniestudios.com/blog/2026/name-that-ware-september-2026/"/>
+        <updated>2026-09-29T22:57:23.000Z</updated>
+        <summary type="html"><![CDATA[The Ware for September 2026 is shown below. We seem to be on a theme of hybrid circuits! This aesthetically pleasing ware was submitted anonymously. Thank you, you know who you are! While I realize that color palettes are not actually a deciding factor in most circuit board designs, I still appreciate it when things […]]]></summary>
+        <author>
+            <name>bunnie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Winner, Name that Ware August 2026]]></title>
+        <id>https://www.bunniestudios.com/blog/?p=7618</id>
+        <link href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-august-2026/"/>
+        <updated>2026-09-29T22:50:36.000Z</updated>
+        <summary type="html"><![CDATA[The Ware for August 2026 is the “IC unit” from a Lafayette 150-in-1 “IC Electronic Project Kit”, part number 99-35107. Above is a contextual photo of how the unit looked mounted in the kit. And above are a couple examples of projects you can build with the “IC” as part of the kit. Answering Hales’ […]]]></summary>
+        <author>
+            <name>bunnie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Anthropic Frontier Red Team]]></title>
+        <id>https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/</id>
+        <link href="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"/>
+        <updated>2026-09-29T22:20:28.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities">Anthropic Frontier Red Team</a>, GLM-5.3 and the spread of advanced cyber capabilities</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/glm">glm</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kim Tschang-Yeul, Water Drops]]></title>
+        <id>https://kottke.org/26/09/kim-tschang-yeul-water-drops</id>
+        <link href="https://kottke.org/26/09/kim-tschang-yeul-water-drops"/>
+        <updated>2026-09-29T21:10:00.000Z</updated>
+        <summary type="html"><![CDATA[From the early 1970s until his death in 2021, Korean artist Kim Tschang-Yeul painted water droplets. From one of the galleries representing his work:
+The waterdrop was the starting point for a singular and iconic body of work, which stands at the confluence of lyrical abstraction, Pop art and Chinese calligraphy. This simple and limpid œuvre subtly fuses Taoist wisdom, modern conceptual irony and the tragedy of war.
+
+	
+You can view more of Kim’s work at Colossal and InspirationGrid.
+
+ 
+
+        
+         
+Tags: art · Kim Tschang-Yeul · water]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The death of web development education. “The income from...]]></title>
+        <id>https://kottke.org/26/09/0049694-the-death-of-web-developm</id>
+        <link href="https://kottke.org/26/09/0049694-the-death-of-web-developm"/>
+        <updated>2026-09-29T20:17:00.000Z</updated>
+        <summary type="html"><![CDATA[The death of web development education. “The income from my book sales went from being enough for me to live off (2024) to zero (2026).”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brett Simmons on how using the stock Mac UI isn’t the...]]></title>
+        <id>https://kottke.org/26/09/0049693-brett-simmons-on-how-usin</id>
+        <link href="https://kottke.org/26/09/0049693-brett-simmons-on-how-usin"/>
+        <updated>2026-09-29T19:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Brett Simmons on how using the stock Mac UI isn’t the easy choice it used to be. “Many of the apps people think look good are not using stock UI.” Simmons’ own quickie redesign of NetNewsWire looks much better to me than the Liquid Glassified version.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s On Your To-Do List?]]></title>
+        <id>https://kottke.org/26/09/whats-on-your-to-do-list</id>
+        <link href="https://kottke.org/26/09/whats-on-your-to-do-list"/>
+        <updated>2026-09-29T17:49:00.000Z</updated>
+        <summary type="html"><![CDATA[I keep a list of things I want to do for KDO in Apple Notes, organized into four sections: small, medium, large, and longshots/obsolete. This note contains tweaks, bug fixes, code refactoring, new site features, roadmap items,1 infrastructure migrations, potential project ideas, vague prompts, and even things I don’t want to do but should maybe consider doing anyway at some point. I keep already-completed items on the list so progress can be gauged, noticed, and appreciated.
+I was looking at the list today, and thought I’d share some of the items with you:
+Reposting social posts (in comment threads) for members
+Do a podcast
+Publish posts to Instagram. (How?)
+Implement site-wide search
+Make newsletter daily?
+Write a book based on kottke.org
+Sell Blue Line Air Express t-shirts
+Build a Substack competitor
+Make a gift link search engine
+Some of these are partly finished or would take very little to implement if I wanted. Some will never happen. Weirdly, some of the projects and site tweaks I most want to make aren’t even on my list. They live only in my head and I mull them over in the shower or while walking until they’re “done” enough to start working on. I guess maybe ideas don’t go on the list unless they’re not that urgent or interesting.
+Do you have to-do lists for your creative projects? Care to share an item or two with the group?
+Insofar as KDO has a roadmap, which is somewhere between “not at all” and “a general direction into the murky haze of a possible future”. I play things by ear a lot. ↩
+
+
+ 
+
+        
+         
+Tags: kottke.org · lists]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Bizarre, Murky History of Soviet-Born Tetris....]]></title>
         <id>https://kottke.org/26/09/0049689-the-bizarre-murky-history</id>
@@ -94,6 +197,16 @@ Tags: crime · Donald Trump · kidnapping · minnesota · quilts]]></summary>
         <summary type="html"><![CDATA[In the wake of her divorce, Curtis Sittenfeld revisits her 2015 piece on marriage. “Toward the end, I felt as if the best versions of ourselves had married and the worst versions of ourselves were getting divorced.”]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Beyond helpful]]></title>
+        <id>https://www.robinsloan.com/lab/character-design/</id>
+        <link href="https://www.robinsloan.com/lab/character-design/"/>
+        <updated>2026-09-29T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Fun event. <a href="https://www.robinsloan.com/lab/character-design/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -7099,16 +7212,6 @@ The post ‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase 
         <summary type="html"><![CDATA[Unexpected advice from Bogna Konior on rhetorical combat.]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spyplane Swaggy Parents Intel Zone]]></title>
-        <id>https://www.blackbirdspyplane.com/p/spyplane-swaggy-parents-intel-zone</id>
-        <link href="https://www.blackbirdspyplane.com/p/spyplane-swaggy-parents-intel-zone"/>
-        <updated>2026-08-31T10:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Mach 3+ Mom & Dad Chat Room]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
     <entry>
