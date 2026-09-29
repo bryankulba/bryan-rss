@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-29T00:10:14.913Z</updated>
+    <updated>2026-09-29T10:23:41.475Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenAI isn’t going to release its newest model because...]]></title>
+        <id>https://kottke.org/26/09/0049688-openai-isnt-going-to-rele</id>
+        <link href="https://kottke.org/26/09/0049688-openai-isnt-going-to-rele"/>
+        <updated>2026-09-29T01:55:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI isn’t going to release its newest model because “it showed high levels of what the company saw as deception, or a willingness to mislead users about its actions [and] was also willing to go beyond the original scope of what it was asked to do”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This American Life has a whole episode with Nikole...]]></title>
+        <id>https://kottke.org/26/09/0049687-this-american-life-has-a-</id>
+        <link href="https://kottke.org/26/09/0049687-this-american-life-has-a-"/>
+        <updated>2026-09-29T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[This American Life has a whole episode with Nikole Hannah-Jones and her daughter Najya, following up on her NYT article about Nikole’s school choice for Najya.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Whoa, for the 50th anniversary of Songs in the Key of...]]></title>
+        <id>https://kottke.org/26/09/0049686-stevie-wonder-has-release</id>
+        <link href="https://kottke.org/26/09/0049686-stevie-wonder-has-release"/>
+        <updated>2026-09-29T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Whoa, for the 50th anniversary of Songs in the Key of Life, Stevie Wonder has released four additional songs from that recording session. “We didn’t add these songs to the album, but they were part of what I was feeling and discovering as we made it.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Sonnet 5.5]]></title>
         <id>https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/</id>
@@ -7118,34 +7148,6 @@ The colouration of teeth, clothes, hair, nails and the body; that is, t…]]></s
         <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/code-interpreter">code-interpreter</a>, <a href="https://simonwillison.net/tags/lethal-trifecta">lethal-trifecta</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The ambitions of Faust]]></title>
-        <id>https://brucesterling.tumblr.com/post/826387843518726144</id>
-        <link href="https://brucesterling.tumblr.com/post/826387843518726144"/>
-        <updated>2026-08-30T15:47:41.000Z</updated>
-        <summary type="html"><![CDATA[Doctor Faustus (play) - Wikipedia
-FAUSTUS. How am I glutted with conceit of this! 
-Shall I make spirits fetch me what I please, 
-Resolve me of all ambiguities, 
-Perform what desperate enterprise I will? 
-I’ll have them fly to India for gold, 
-Ransack the ocean for orient pearl, 
-And search all corners of the new-found world 
-For pleasant fruits and princely delicates; 
-I’ll have them read me strange philosophy, 
-And tell the secrets of all foreign kings; 
-I’ll have them wall all Germany with brass, 
-And make swift Rhine circle fair Wertenberg; 
-I’ll have them fill the public schools with silk,  
-Wherewith the students shall be bravely clad; 
-I’ll levy soldiers with the coin they bring, 
-And chase the Prince of Parma from our land, 
-And reign sole king of all the provinces; 
-Yea, stranger e…]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
     <entry>
