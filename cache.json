@@ -274,6 +274,16 @@
       "siteUrl": "https://wearethemutants.com",
       "articles": [
         {
+          "id": "http://wearethemutants.com/?p=42409",
+          "author": "Richard McKenna",
+          "description": "By Richard McKenna\r\n\r\nThis 1977 TV commercial for Granada TV Rental opens a window onto an almost forgotten aspect of the relationship the British viewing public once enjoyed with their television sets...",
+          "link": "https://wearethemutants.com/2026/09/30/renting-screen-time-granada-tv-commercial-1977/",
+          "publishedOn": "2026-09-30T15:39:41.000Z",
+          "wordCount": 4346,
+          "title": "Renting Screen Time: Granada TV Commercial, 1977",
+          "imageUrl": "https://wearethemutants.com/wp-content/uploads/2026/09/watm-granada.jpg"
+        },
+        {
           "id": "http://wearethemutants.com/?p=42381",
           "author": "K.E. Roberts",
           "description": "By K.E. Roberts\n\nAnyone who was watching TV in the late 1980s remembers the commercial: probing personal questions appear in white text on a black screen as a Tangerine Dream-esque synth riff pulsates in the background. ”How can you increase your mind’s potential?”...",
@@ -300,6 +310,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/09/0049690-sky-burial",
+          "author": null,
+          "description": "“Sky burial is a funeral practice in which a corpse is placed on a mountaintop to decompose while exposed to the elements, or to be eaten by scavenging animals.” (CW: there are some potentially upsetting photos on that page.)",
+          "link": "https://kottke.org/26/09/0049690-sky-burial",
+          "publishedOn": "2026-09-30T16:28:00.000Z",
+          "wordCount": 952,
+          "title": "“Sky burial is a funeral practice in which a corpse is...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/0049700-a-cool-mini-site-catalogi",
+          "author": null,
+          "description": "Craig Mod made a cool mini-site cataloging all of the long walks he’s taken since 2009, with maps and GPS tracks and links to essays/books/media that resulted from them.",
+          "link": "https://kottke.org/26/09/0049700-a-cool-mini-site-catalogi",
+          "publishedOn": "2026-09-30T15:08:00.000Z",
+          "wordCount": 676,
+          "title": "Craig Mod made a cool mini-site cataloging all of the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/on-the-joy-of-ownership",
+          "author": null,
+          "description": "A lovely contemplative short video featuring Toshiyuki Ueno of the Japanese fashion brand Visvim talking about craftsmanship. \nWe want to make things that people will get attached to and will use for a long time. And that’s at the core of our creating process. It’s simple and not that complicated.\n\n\t\nHe continues:\nI think about how people grow attached to things over time as they use them, and how those things add to its allure over time.\n\n\t\n“Those things” is a little ambiguous without the context of the video…he means the wear that develops from use and how people grow attached to those “imperfections”. See also wabi-sabi.\n\n \n\n        \n         \nTags: cars · design · fashion · Japan · Porsche · Toshiyuki Ueno · video · Visvim",
+          "link": "https://kottke.org/26/09/on-the-joy-of-ownership",
+          "publishedOn": "2026-09-30T13:58:00.000Z",
+          "wordCount": 726,
+          "title": "On The Joy Of Ownership",
+          "imageUrl": "https://i.ytimg.com/vi/MWGEnnvnGmM/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/09/0049703-manchester-city-guilty-ov",
+          "author": null,
+          "description": "Manchester City guilty over Premier League charges after £900m of ‘sham’ contracts. The “financial doping” scheme allowed the club’s owners to pump large sums of money into the team without appearing to exceed the league’s spending limits.",
+          "link": "https://kottke.org/26/09/0049703-manchester-city-guilty-ov",
+          "publishedOn": "2026-09-30T13:03:00.000Z",
+          "wordCount": 1091,
+          "title": "Manchester City guilty over Premier League charges after...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/09/0049699-treat-your-to-read-pile-l",
           "author": null,
@@ -2113,6 +2163,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=19024",
+          "author": "Warren Ellis",
+          "description": "Big sky on Monday night. I have fresh herbs, so I’m making herb salts this week. I also have a bulb of black garlic so…",
+          "link": "https://warrenellis.ltd/status/30sep26/",
+          "publishedOn": "2026-09-30T11:36:39.000Z",
+          "wordCount": 1467,
+          "title": "30sep26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2289-scaled.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=19016",
           "author": "Warren Ellis",
           "description": "First day of reset. Index cards, paper, pens. The deli was randomly closed – fuck you, Dan – so I stopped in at the Pipe…",
@@ -2739,6 +2799,16 @@
           "publishedOn": "2026-09-29T18:27:48.000Z",
           "wordCount": 785,
           "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/photo-scrubber\">Photo Scrubber — local face blur &amp; metadata removal</a></p>\n        <p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href=\"https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294\">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p>\n<p>It uses Google's <a href=\"https://developers.google.com/edge/mediapipe/solutions/guide\">MediaPipe</a> C++ library, compiled to WebAssembly via <a href=\"https://www.npmjs.com/package/@mediapipe/tasks-vision\">@mediapipe/tasks-vision</a>, plus the <a href=\"https://sites.google.com/view/perception-cv4arvr/blazeface\">BlazeFace</a> face detection model.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+          "publishedOn": "2026-09-29T16:45:27.000Z",
+          "wordCount": 792,
+          "title": "Photo Scrubber — local face blur & metadata removal",
           "imageUrl": null
         },
         {
@@ -3710,26 +3780,6 @@
           "wordCount": 968,
           "title": "Python 3.15.0 candidate 2 is here!",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p>\nNew from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p>\n<p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value.</p>\n<p>It acts as both an alternative to <code>unittest.mock</code> and a way to implement tracing against an existing project:</p>\n<blockquote>\n<p>Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about.</p>\n</blockquote>\n<p>Wrapture includes <a href=\"https://wrapture.readthedocs.io/en/latest/otel-export.html\">OpenTelemetry support</a> and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this:</p>\n<div class=\"highlight highlight-source-toml\"><pre><span class=\"pl-smi\">capture</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>summary<span class=\"pl-pds\">\"</span></span>\n\n[[<span class=\"pl-en\">observe</span>]]\n<span class=\"pl-smi\">target</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>domain:Calculator<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">name</span> = [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>outer<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>inner<span class=\"pl-pds\">\"</span></span>]\n\n[[<span class=\"pl-en\">sink</span>]]\n<span class=\"pl-smi\">type</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>jsonlines<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">path</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>trace.jsonl<span class=\"pl-pds\">\"</span></span></pre></div>\n<p>This is still a very young project - just a few weeks old - but it's off to a very promising start.</p>\n<p>Interestingly, this is also Graham's first attempt at  large entirely agent-driven project:</p>\n<blockquote>\n<p>Every line of code and documentation in wrapture was written by an AI assistant working under my direction. I want to be upfront about that, and equally upfront about what it was not. This was not vibe coding, where a one-shot prompt produces a pile of generated code and the person driving hopes for the best because they lack the knowledge to judge what came back. Vibe coding has earned its bad reputation. I engineered wrapture carefully from the start. I have spent a long time in this particular corner of Python and knew exactly what the result needed to be, and the AI was the means of producing it rather than the source of the design.</p>\n</blockquote>\n<p>In a follow-up post, <a href=\"https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/\">Unit testing with wrapture</a>, Graham shows the testing patterns supported by the new library:</p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">test_stub_with_wrapture</span>():\n    <span class=\"pl-k\">with</span> <span class=\"pl-s1\">wrapture</span>.<span class=\"pl-c1\">binding</span>(\n        <span class=\"pl-v\">Gateway</span>, <span class=\"pl-s\">\"charge\"</span>\n    ).<span class=\"pl-c1\">on_call</span>.<span class=\"pl-c1\">returns</span>({\n        <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"stub\"</span>, <span class=\"pl-s\">\"amount\"</span>: <span class=\"pl-c1\">0</span>}\n    ):\n        <span class=\"pl-k\">assert</span> <span class=\"pl-en\">OrderService</span>().<span class=\"pl-c1\">place</span>(\n            <span class=\"pl-c1\">500</span>\n        )[<span class=\"pl-s\">\"id\"</span>] <span class=\"pl-c1\">==</span> <span class=\"pl-s\">\"stub\"</span></pre>\n<p>And this neat example of a test that calls and then modifies the return value from the original method:</p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">test_pinned_result_with_wrapture</span>():\n    <span class=\"pl-s1\">charge</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">wrapture</span>.<span class=\"pl-c1\">binding</span>(\n        <span class=\"pl-v\">Gateway</span>, <span class=\"pl-s\">\"charge\"</span>\n    )\n    <span class=\"pl-s1\">charge</span>.<span class=\"pl-c1\">on_call</span>.<span class=\"pl-c1\">transforms_result</span>(\n        <span class=\"pl-k\">lambda</span> <span class=\"pl-s1\">r</span>: {<span class=\"pl-c1\">**</span><span class=\"pl-s1\">r</span>, <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"ch_TEST\"</span>}\n    )\n    <span class=\"pl-k\">with</span> <span class=\"pl-s1\">charge</span>:\n        <span class=\"pl-k\">assert</span> <span class=\"pl-en\">OrderService</span>().<span class=\"pl-c1\">place</span>(\n           <span class=\"pl-c1\">500</span>\n        ) <span class=\"pl-c1\">==</span> {\n            <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"ch_TEST\"</span>, <span class=\"pl-s\">\"amount\"</span>: <span class=\"pl-c1\">500</span>\n        }</pre>\n\n<p>(In both of these examples the <code>OrderService().place(...)</code> method calls <code>Gateway().charge(...)</code>.)\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/graham-dumpleton\">graham-dumpleton</a>, <a href=\"https://simonwillison.net/tags/monkey-patching\">monkey-patching</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/testing\">testing</a>, <a href=\"https://simonwillison.net/tags/pytest\">pytest</a>, <a href=\"https://simonwillison.net/tags/observability\">observability</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/opentelemetry\">opentelemetry</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-          "publishedOn": "2026-08-31T23:59:36.000Z",
-          "wordCount": 1140,
-          "title": "Introducing wrapture",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-          "author": null,
-          "description": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kakapo\">kakapo</a></p>",
-          "link": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-          "publishedOn": "2026-08-31T22:25:02.000Z",
-          "wordCount": 743,
-          "title": "Quoting Andrew Digby",
-          "imageUrl": null
         }
       ]
     },
@@ -3848,6 +3898,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=167494",
+          "author": "Conor Feehly",
+          "description": "Unexpected patterns traveling across the human brain may be reorganizing its activity in real time.            \nThe post Surprisingly Complex Waves Reveal the Brain’s Inner Workings first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+          "publishedOn": "2026-09-30T14:52:12.000Z",
+          "wordCount": 3226,
+          "title": "Surprisingly Complex Waves Reveal the Brain’s Inner Workings",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/Thought-Geometry-cr.Mark-Belan-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=167446",
           "author": "Shalma Wegsman",
