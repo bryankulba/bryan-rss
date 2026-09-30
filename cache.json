@@ -311,6 +311,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/0049699-treat-your-to-read-pile-l",
+          "author": null,
+          "description": "Treat your to-read pile like a river, not a bucket. “There’s no point beating yourself up for failing to clear a backlog (of unread books, undone tasks, unrealized dreams) that was always inherently unfeasible to clear in the first place.”",
+          "link": "https://kottke.org/26/09/0049699-treat-your-to-read-pile-l",
+          "publishedOn": "2026-09-29T23:40:00.000Z",
+          "wordCount": 738,
+          "title": "Treat your to-read pile like a river, not a bucket....",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/kim-tschang-yeul-water-drops",
           "author": null,
           "description": "From the early 1970s until his death in 2021, Korean artist Kim Tschang-Yeul painted water droplets. From one of the galleries representing his work:\nThe waterdrop was the starting point for a singular and iconic body of work, which stands at the confluence of lyrical abstraction, Pop art and Chinese calligraphy. This simple and limpid œuvre subtly fuses Taoist wisdom, modern conceptual irony and the tragedy of war.\n\n\t\nYou can view more of Kim’s work at Colossal and InspirationGrid.\n\n \n\n        \n         \nTags: art · Kim Tschang-Yeul · water",
@@ -1789,16 +1799,6 @@
           "wordCount": 914,
           "title": "Here’s how noise-cancelling headphones work  (and when...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/08/0049540-google-maps-changes-lake-",
-          "author": null,
-          "description": "Google Maps Changes Lake Ontario to Lake America. Totally pathetic and stupid. Maps are wayfinding tools and this toadying political change will help no one find their way.",
-          "link": "https://kottke.org/26/08/0049540-google-maps-changes-lake-",
-          "publishedOn": "2026-08-31T13:22:00.000Z",
-          "wordCount": 633,
-          "title": "Google Maps Changes Lake Ontario to Lake America ....",
-          "imageUrl": ""
         }
       ]
     },
@@ -2739,6 +2739,16 @@
           "publishedOn": "2026-09-29T22:20:28.000Z",
           "wordCount": 787,
           "title": "Quoting Anthropic Frontier Red Team",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+          "author": null,
+          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p>\n<p>Here they are for GPT-6.1-Sol: <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F4aa871683dae5c566129a6028fbc7f21\">https://tools.simonwillison.net/markdown-svg-renderer?url=ht...</a></p>\n<p>They're not notably different from the GPT-6 family pelicans: <a href=\"https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html\">https://static.simonwillison.net/static/2026/gpt-pelicans-gr...</a></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+          "publishedOn": "2026-09-29T18:27:48.000Z",
+          "wordCount": 785,
+          "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
           "imageUrl": null
         },
         {
@@ -3997,16 +4007,6 @@
           "wordCount": 4215,
           "title": "Genome Duplication Is a Radical Evolutionary Gamble",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/2XGenome-cr-Ada-Zejun-Shen-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=166338",
-          "author": "Leila Sloman",
-          "description": "Mathematicians found that a broad class of networks will abruptly shift behavior past a critical point.            \nThe post ‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/",
-          "publishedOn": "2026-08-31T14:24:27.000Z",
-          "wordCount": 3565,
-          "title": "‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Percolation-cr-DVDP-Social.jpg"
         }
       ]
     },
@@ -4149,16 +4149,6 @@
           "publishedOn": "2026-09-01T13:12:28.000Z",
           "wordCount": 2714,
           "title": "01SEP26 / accessions",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12334",
-          "author": "PGR",
-          "description": "Unexpected advice from Bogna Konior on rhetorical combat.",
-          "link": "https://www.velcro-city.co.uk/a-form-of-unfreedom-in-which-ones-enemies-dictate-the-rhythm-of-ones-thinking/",
-          "publishedOn": "2026-08-31T12:32:14.000Z",
-          "wordCount": 2748,
-          "title": "a form of unfreedom in which one’s enemies dictate the rhythm of one’s thinking",
           "imageUrl": null
         }
       ]
