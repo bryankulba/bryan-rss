@@ -311,6 +311,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/10/map-of-the-lighthouses-of-the-world",
+          "author": null,
+          "description": "From mapped.earth, a map of every lighthouse on the planet, along with other charted lights like lighted buoys and such. The screenshots above are static but the lights on the real map move: each lighthouse sweeps out its actual arc and the reach of the beams is true to scale. I recorded a short video of how it looks on the site:\n\nEach lighthouse has a unique light characteristic so that ships can tell them apart:\nIn any of these designs an observer, rather than seeing a continuous weak light, sees a brighter light during short time intervals. These instants of bright light are arranged to create a light characteristic or pattern specific to a lighthouse. For example, the Scheveningen Lighthouse flashes are alternately 2.5 and 7.5 seconds. Some lights have sectors of a particular color (usually formed by colored panes in the lantern) to distinguish safe water areas from dangerous shoals. Modern lighthouses often have unique reflectors or racon transponders so the radar signature of the light is also unique.\n\n\t\nSee also A Blinking Map of the World’s Lighthouses. And mapped.earth has more cool visualizations of the Earth (rianfall, wind, lightning, pollution, etc.)\n\n \n\n        \n         \nTags: infoviz · maps",
+          "link": "https://kottke.org/26/10/map-of-the-lighthouses-of-the-world",
+          "publishedOn": "2026-10-01T17:20:00.000Z",
+          "wordCount": 816,
+          "title": "Map of the Lighthouses of the World",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1790840383-a20407d8.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049711-looks-like-every-frame-a-",
+          "author": null,
+          "description": "Looks like Every Frame a Painting is ramping up again! “Over the last 10 years, Taylor and I have amassed a series of ideas — some of them originally designed to be on Youtube, some designed to be other things. All of this is currently in progress”",
+          "link": "https://kottke.org/26/10/0049711-looks-like-every-frame-a-",
+          "publishedOn": "2026-10-01T16:00:00.000Z",
+          "wordCount": 727,
+          "title": "Looks like Every Frame a Painting is ramping up again!...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049719-including-a-thinner-paper",
+          "author": null,
+          "description": "Amazon is releasing some new Kindle models, including a thinner Paperwhite (my fave) with an aluminum back, more storage, and faster interactions. If I didn’t just get a new last-gen Paperwhite to replace one I lost, I’d be tempted to pre-order.",
+          "link": "https://kottke.org/26/10/0049719-including-a-thinner-paper",
+          "publishedOn": "2026-10-01T14:00:00.000Z",
+          "wordCount": 587,
+          "title": "Amazon is releasing some new Kindle models, including a...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049714-a-raw-revealing-interview",
+          "author": null,
+          "description": "A raw, revealing interview with an 80-year-old Sylvester Stallone on the occasion of his new memoir, The Steps. I listened to about half of this and had to stop…it’s incredibly candid but what he went through as a kid & young adult, oof.",
+          "link": "https://kottke.org/26/10/0049714-a-raw-revealing-interview",
+          "publishedOn": "2026-10-01T13:00:00.000Z",
+          "wordCount": 1183,
+          "title": "A raw, revealing interview with an 80-year-old Sylvester...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049718-a-15-minute-tour-of-forme",
+          "author": null,
+          "description": "A 15-minute tour of former NFL coach Mike Tomlin’s Minecraft city. As previously mentioned, he started playing the game to connect with his kids and never stopped. (This is only part 1 of ???)",
+          "link": "https://kottke.org/26/10/0049718-a-15-minute-tour-of-forme",
+          "publishedOn": "2026-10-01T12:08:00.000Z",
+          "wordCount": 1025,
+          "title": "A 15-minute tour of former NFL coach Mike Tomlin’s...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/09/0049710-destroy-kottkeorg",
           "author": null,
           "description": "You can destroy kottke.org if you want. Or any other site!",
@@ -1819,66 +1869,6 @@
           "wordCount": 922,
           "title": "Writer, journalist, and feminist activist Gloria Steinem...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/trump-is-in-open-revolt-against-the-constitution",
-          "author": null,
-          "description": "Jamelle Bouie:\nThe details of what is happening here are important — that’s why I laid them out — but it’s also important to step back and make a more fundamental point: the president of the United States is engaged in a conspiracy against the voting rights of the American people, which is to say that the president is engaged in a conspiracy against the Constitution itself. And this is part of a larger effort, spearheaded by the most fanatical of his allies, like Stephen Miller, to end the American republic and supplant it with an authoritarian regime in which President Trump holds sovereign authority over the whole nation.\nIt is important to say, as well, that this is all out in the open, as plain as day.\n\n\t\n*repeated hair tearing-out noise*\n\n \n\n        \n         \nTags: Donald Trump · Jamelle Bouie · politics · usa",
-          "link": "https://kottke.org/26/09/trump-is-in-open-revolt-against-the-constitution",
-          "publishedOn": "2026-09-01T22:10:00.000Z",
-          "wordCount": 713,
-          "title": "Trump Is in Open Revolt Against the Constitution",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049548-the-joy-of-making-stuff-w",
-          "author": null,
-          "description": "Gina Trapani: The joy of making stuff with a 3D printer. I’ve always been a little 3D printer-curious and this looks like a good resource to start with.",
-          "link": "https://kottke.org/26/09/0049548-the-joy-of-making-stuff-w",
-          "publishedOn": "2026-09-01T21:17:00.000Z",
-          "wordCount": 850,
-          "title": "Gina Trapani:  The joy of making stuff with a 3D printer...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049547-emily-wilson-is-completel",
-          "author": null,
-          "description": "2 Odysseus 2 Ithaca: Emily Wilson is completely retranslating The Odyssey. “It’s a complete retranslation. It’s not a revision of the old version.” This is the exact opposite of resting on one’s laurels.",
-          "link": "https://kottke.org/26/09/0049547-emily-wilson-is-completel",
-          "publishedOn": "2026-09-01T20:21:00.000Z",
-          "wordCount": 746,
-          "title": "2 Odysseus 2 Ithaca:  Emily Wilson is completely...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049546-whistle-blower-says-trump",
-          "author": null,
-          "description": "Whistle-Blower Says Trump Officials Are Defying Court Orders on Voting by Mail. “The Postal Service has designed a system to disenfranchise millions of Americans.”",
-          "link": "https://kottke.org/26/09/0049546-whistle-blower-says-trump",
-          "publishedOn": "2026-09-01T19:21:00.000Z",
-          "wordCount": 738,
-          "title": "Whistle-Blower Says Trump Officials Are Defying Court...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/how-blackwing-pencils-are-made",
-          "author": null,
-          "description": "The thing about me is if I see a making-of video for pencils, I’m gonna stop and watch it and then post it to my website, especially if said pencils are Blackwings, made in Japan.\nTake a first-ever, in-depth look at the Blackwing pencil manufacturing process. This short film gives a glimpse into its manufacturing facilities in Japan and California. Beginning in Kofu, Japan, the film details the intricate graphite formulation and cutting process, then transitions to the woodworking facility in Tokyo where the pencils are pressed and lacquered.\nFinally, it ends in Stockton, California at Blackwing’s headquarters where the pencils are imprinted, assembled with its signature ferrule, quality-checked, and hand-packed. Each and every Blackwing pencil is thoughtfully made to help you slow down and have the best tools for your creative journey.\n\n\t\nI’m always so curious about what’s being blurred out in making-of videos like this!\nSee also See How Pencils Are Made in a Japanese Factory, How Pencils Are Made, A Visit to an American Factory That’s Been Producing Pencils Since 1889, and A History of Pencil Lead and How Pencils Are Made. (via NaOH)\n\n \n\n        \n         \nTags: Blackwing · how to · pencils · video",
-          "link": "https://kottke.org/26/09/how-blackwing-pencils-are-made",
-          "publishedOn": "2026-09-01T18:00:00.000Z",
-          "wordCount": 975,
-          "title": "How Blackwing Pencils Are Made",
-          "imageUrl": "https://i.ytimg.com/vi/fow-LsdaH2E/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049544-industry-standard-tools",
-          "author": null,
-          "description": "Industry Standard Tools. “Every trade has a small number of items so entrenched that they’ve become the de facto tool that nearly everyone in that trade uses.”",
-          "link": "https://kottke.org/26/09/0049544-industry-standard-tools",
-          "publishedOn": "2026-09-01T17:20:00.000Z",
-          "wordCount": 1279,
-          "title": "Industry Standard Tools . &#8220;Every trade has a small...",
-          "imageUrl": ""
         }
       ]
     },
@@ -1887,6 +1877,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=51271",
+          "author": "Andy Baio",
+          "description": "click “next site” to view a random personal retroweb-inspired website\n#",
+          "link": "https://straw.page/explore",
+          "publishedOn": "2026-10-01T06:04:14.000Z",
+          "wordCount": null,
+          "title": "StrawPage Explore",
+          "imageUrl": null
+        },
         {
           "id": "https://waxy.org/?p=51268",
           "author": "Andy Baio",
@@ -1996,16 +1996,6 @@
           "wordCount": null,
           "title": "Unusual Suspects",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=51233",
-          "author": "Andy Baio",
-          "description": "like Airplane Mode, but multiplayer and in the browser\n#",
-          "link": "https://inflightsimulator.com/",
-          "publishedOn": "2026-09-01T17:20:12.000Z",
-          "wordCount": 143,
-          "title": "Inflight Simulator",
-          "imageUrl": "https://inflightsimulator.com/og.png"
         }
       ]
     },
@@ -2014,6 +2004,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13352",
+          "author": "Cory Doctorow",
+          "description": "Today's links Voting is to politics as shopping is to boycotts: The big P only matters if the small p is in play. Hey look at this: Delights to delectate. Object permanence: Gilberto Gil v WIPO; Censored Apple wifi hacker talk; Wells Fargo crime-spree started in 1998; Stencils \"may not be reproduced\"; DVD Jon v Apple DRM; Unpaid diplomatic parking tickets as index of corruption; Tortured Canadian was not a terrorist; Decarbonization at a distance. Upcoming appearances: Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, Vancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Voting is to politics as shopping is to b…",
+          "link": "https://pluralistic.net/2026/10/01/data-centers/",
+          "publishedOn": "2026-10-01T17:22:48.000Z",
+          "wordCount": 4128,
+          "title": "Pluralistic: Voting is to politics as shopping is to boycotts (01 Oct 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13338",
           "author": "Cory Doctorow",
@@ -2212,6 +2212,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19068",
+          "author": "Warren Ellis",
+          "description": "Tennessee death row inmate Christa Pike has been taken to hospital after an attempt to execute her by two lethal injections failed, her lawyer says.…",
+          "link": "https://warrenellis.ltd/status/1oct26/",
+          "publishedOn": "2026-10-01T13:55:12.000Z",
+          "wordCount": 1471,
+          "title": "1oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/weathershot-7A1C1506-3FED-46CE-BC62-2C3D9DCDAE47-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19024",
           "author": "Warren Ellis",
@@ -2446,6 +2456,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/this-is-your-brain-on-pure-driven-snow",
+          "author": "Blackbird Spyplane",
+          "description": "A rare footwear event, the thrill of total blankness, a swaggy beret-rocking musical king, and more unbeatable recon",
+          "link": "https://www.blackbirdspyplane.com/p/this-is-your-brain-on-pure-driven-snow",
+          "publishedOn": "2026-10-01T11:03:49.000Z",
+          "wordCount": null,
+          "title": "This is your brain on pure driven snow",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!43Kn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F423c1587-af09-4033-9f47-67fd4b382e34_2001x2668.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!43Kn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F423c1587-af09-4033-9f47-67fd4b382e34_2001x2668.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/enough-with-all-these-fashion-weeks",
           "author": "Blackbird Spyplane",
@@ -2689,6 +2715,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/in-writing/essays/a-trip-through-the-other-side-of-enlightenment-funkadelic-reviewed",
+          "author": null,
+          "description": "The Wire 512\n\nFunkadelic\n        \nFree Your Mind And Your Ass Will Follow\n        \nMaggot Brain\n        \nFree Your Mind And Your Ass Will Follow was not only the follow-up to Funkadelic’s promising self-titled debut of the same year; it signalled the arrival of George Clinton’s ensemble as the next great voice in Black rock and psychedelia. In his 2014 memoir Brothas Be, Yo Like George, Ain’t That Funkin’ Kinda Hard On You?, Clinton acknowledges this by contrasting the album’s release with Hendrix’s death, an event that he notes as “the end of an era”. During his brief but electrifying career, Hendrix moulded multiple aspects of the Black musical tradition – blues, rock, funk, R&B, jazz – into an electrifying corpus that opened up a new world of possibilities. With Hendrix dead and the psy…",
+          "link": "https://www.thewire.co.uk/in-writing/essays/a-trip-through-the-other-side-of-enlightenment-funkadelic-reviewed",
+          "publishedOn": "2026-10-01T00:00:00.000Z",
+          "wordCount": 1352,
+          "title": "“A trip through the other side of enlightenment”: Funkadelic reviewed",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/01/funkadelic.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/on-air/shane-woolman-presents-adventures-in-sound-and-music-79564",
           "author": null,
           "description": "The Wire's weekly show on Resonance FM and Resonance Extra featured a guest mix by Ak'chamel, The Giver of Illness, plus music by Harju, Joni Mitchell, Bill Orcutt and more\n\nTracklist\n    \n Baile Entero with Xavi Lozano\n    \nBaile Entero\n    \nLovemonk)\n\nHarju\n    \nVerikyyhky (Original Graphic Novel Soundtrack)\n    \nSvart)\n\nDur-Dur Band\n    \nDur-Dur Band – Volume 3 (1988) & Volume 4 (1989)\n    \nAnalog Africa)\n\nUpsetters\n    \nUpsetters 14 Dub Black Board Jungle\n    \nWeek-End)\n\nJoni Mitchell\n    \nThe Hissing Of Summer Lawns\n    \nAsylum)\n\nLa Tène\n    \nWire Tapper edit)”\n    \nMelnetta/Tardive\n    \nLes Disques Bongo Joe)\n\nWire Tapper 72 CD\n\nBill Orcutt\n    \nMusic In Continuous Motion\n    \nPalilalia)\n\nErvin Omsk\n    \nDer Saal tobt\n    \nOrange Milk)\n\nyeongrak\n    \nunsafe permannantizing paste\n    \nBandcamp)\n\nLothar Ohlmeier/Rudi Fischerlehner/Isambard Khroustaliov\n    \nLandscapes\n    \nNot Applicable)\n\nSangomas & Maga Bo featuring Teba Shumba\n    \nVIBRATIONS FROM THE MOTHERLAND\n    \nBuried Treasure)\n\nPoint Line Plane\n    \nPoint Line Plane\n    \nSkin Graft)\n\nBudgie\n    \nRunning From My Soul: The MCA Years 1973-1975\n    \nCherry Red)\n\n\n    •\n    \nAk’chamel, The Giver of Illness Guest Mix\n    \n\n     \n\nCarl Stone\n    \nArthur Fischl Conducts The Music Of Carl Stone\n    \nUnseen Worlds)\n\n\n    Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
@@ -2787,16 +2823,6 @@
           "wordCount": 553,
           "title": "Office Ambience 512",
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/03/mike_watt-51_for_web.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-pamelaz",
-          "author": null,
-          "description": "The Wire 512\n\n\n    In The Wire 512 it is the turn of composer and vocalist Pamela Z.\n\nThe Wire 512. To find out what she said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.\n\n\n    San Francisco is the sort of melting pot where people who move to the city can be so essential to the cultural scene that they become not merely locals but more akin to natives after the fact. Born in Upstate New York, Pamela Z, who turned 70 this year, was raised in the suburbs of Denver and educated in music at the University of Colorado in Boulder.\n\n\n    San Francisco also had a major impact on Z. Arriving as a singer-songwriter with a penchant for folk rock covers and a burgeoning interest in mediating her voice with…",
-          "link": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-pamelaz",
-          "publishedOn": "2026-09-02T00:00:00.000Z",
-          "wordCount": 943,
-          "title": "Invisible Jukebox mix: Pamela Z",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/07/pamz_wire2_CMYK_copy.jpg"
         }
       ]
     },
@@ -2805,6 +2831,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+          "author": null,
+          "description": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\">Matthew Green</a>, Is sandboxing sufficient to contain rogue agents?</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/accidental-cyberattacks\">accidental-cyberattacks</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+          "publishedOn": "2026-10-01T06:29:01.000Z",
+          "wordCount": 806,
+          "title": "Quoting Matthew Green",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
           "author": null,
@@ -3744,56 +3780,6 @@
           "wordCount": 2858,
           "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
           "imageUrl": "https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-          "author": null,
-          "description": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</strong>). It lives in <strong>PaintDotNet.Windows.Direct2D1.Managed.dll</strong>. This was written by our good friend <a href=\"https://claude.ai/\">Claude</a>, without whom this would NOT have been possible and would NEVER have happened. [...]</p>\n<p>Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way <em>way</em> too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...]</p>\n<p>At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\">Rick Brewster</a>, author of Paint.NET</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reverse-engineering\">reverse-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/dotnet\">dotnet</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-          "publishedOn": "2026-09-02T05:50:57.000Z",
-          "wordCount": 963,
-          "title": "Quoting Rick Brewster",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-          "author": null,
-          "description": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new <a href=\"https://www.terminal-bench-science.ai\">Terminal-Bench-Science 0.1</a> benchmark (first announced <a href=\"https://www.tbench.ai/news/terminal-bench-science-0-1\">on August 27th</a>), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one.</p>\r\n<p>But how well can it pelican?</p>\r\n<p>Back in July <a href=\"https://simonwillison.net/2026/Jul/16/kimi-k3/\">I wrote about</a> how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did <a href=\"https://simonwillison.net/2025/Jun/6/six-months-in-llms/\">back in 2025</a>. The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels.</p>\r\n<p>Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely.</p>\r\n<p>I fixed <a href=\"https://github.com/simonw/llm-anthropic/issues/88\">an issue</a> in <a href=\"https://github.com/simonw/llm-anthropic\">llm-anthropic</a> which caused reasoning traces not to be correctly recorded, then ran some prompts.</p>\r\n<p>Here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7\">the full set of pelicans</a> for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here:</p>\r\n<h4 id=\"low-and-medium-both-without-reasoning-\">Low and medium, both without reasoning?</h4>\r\n<p>Next, a bit of a mystery. This is what I got for effort <code>low</code>:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-low.png\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle to the left, its orange legs pedaling and wings gripping the handlebars, with motion lines behind on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>The <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#options\">transcript</a> doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost <a href=\"https://www.llm-prices.com/#it=27&amp;ot=1998&amp;sel=claude-fable-5-1\">10.017 cents</a>.</p>\r\n<p>I bumped that up to <code>medium</code> and got this:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-medium.png\" alt=\"Minimalist flat-style illustration of a white pelican with an orange beak riding a black bicycle to the right, with motion lines behind it, on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>Weirdly, that one also shows <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#options-1\">no reasoning text</a>  and used 1,977 output tokens - 21 tokens <em>less</em> than <code>low</code>. It took 23 seconds and cost <a href=\"https://www.llm-prices.com/#it=27&amp;ot=1977&amp;sel=claude-fable-5-1\">9.912 cents</a>.</p>\r\n<p>So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both <code>low</code> and <code>medium</code> settings.</p>\r\n<h4 id=\"high\">High</h4>\r\n<p>Here's <code>high</code> - 29.6 seconds, 2,612 output tokens, <a href=\"https://www.llm-prices.com/#it=27&amp;ot=2612&amp;sel=claude-fable-5-1\">13.087 cents</a>:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-high.png\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle, its orange legs pedaling, with motion lines behind it on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>This one did do a <em>bit</em> of reasoning, <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#reasoning\">summary here</a>:</p>\r\n<blockquote>\r\n<p>I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top.</p>\r\n</blockquote>\r\n<p>Really not much difference from <code>low</code> and <code>medium</code>, though.</p>\r\n<h4 id=\"extra-high\">Extra High</h4>\r\n<p>At <code>xhigh</code> things got <em>radically</em> different.  36,767 output tokens, 7 minutes 51 seconds, <a href=\"https://www.llm-prices.com/#it=27&amp;ot=36767&amp;sel=claude-fable-5-1\">$1.83</a>!</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-xhigh.png\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle to the left, its orange legs pedaling, with motion lines behind it on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>The reasoning trace <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#reasoning-1\">is pretty lengthy</a>, and includes details like this:</p>\r\n<blockquote>\r\n<p>Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...]</p>\r\n<p>I'll accept the slight thickness as charming rather than overengineering it.</p>\r\n</blockquote>\r\n<h4 id=\"max\">Max</h4>\r\n<p>Setting effort to <code>max</code> gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, <a href=\"https://www.llm-prices.com/#it=27&amp;ot=65927&amp;sel=claude-fable-5-1\">$3.30</a>:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/fable-5.1-max.webp\" alt=\"Minimalist flat illustration of a white pelican with an orange beak riding a black bicycle, its orange legs pedaling, with motion lines behind to indicate speed, on a light blue background.\" style=\"max-width: 100%;\" /></p>\r\n<p>There's a lot to like about this. The  background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish.</p>\r\n<p>It's still not showing nearly the same level of flair <a href=\"https://simonwillison.net/2026/Aug/13/llm-gemini/\">as Gemini 3.7 Flash</a>, but I didn't <em>ask</em> for flair - I asked for an SVG, and that's what I got.</p>\r\n<p>Some highlights from <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F17318f748f8c2b476051ddc2ebeb94a7#reasoning-2\">that reasoning trace</a>:</p>\r\n<blockquote>\r\n<p>Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter.</p>\r\n<p>Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space.</p>\r\n<p>I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...]</p>\r\n<p>I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...]</p>\r\n<p>Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...]</p>\r\n<p>I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean.</p>\r\n</blockquote>\r\n<h4 id=\"ok-let-s-animate-it\">OK, let's animate it</h4>\r\n<p>On Hacker News, <a href=\"https://news.ycombinator.com/item?id=49525378#49526455\">swalsh commented</a> on that Max pelican:</p>\r\n<blockquote>\r\n<p>Now that it's a solved benchmark, can we get the animated version?</p>\r\n</blockquote>\r\n<p>I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>llm logs -cx <span class=\"pl-k\">|</span> llm -m claude-fable-5.1 -s <span class=\"pl-s\"><span class=\"pl-pds\">'</span>animate this<span class=\"pl-pds\">'</span></span></pre></div>\r\n<p>6,121 input, 26,201 output = <a href=\"https://www.llm-prices.com/#it=6121&amp;ot=26201&amp;sel=claude-fable-5-1\">$1.37</a>. The result <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F87282467acb3652e0f99c85155554a32#response\">looked like this</a>, exported here as video since some people have trouble viewing animated SVGs:</p>\r\n<p><video controls=\"controls\" loop=\"loop\" preload=\"none\" poster=\"https://static.simonwillison.net/static/2026/fable-5.1-max.webp\" width=\"720\" height=\"540\" style=\"display: block; width: 100%; height: auto;\">\r\n    <source src=\"https://static.simonwillison.net/static/2026/fable-5.1-animated-720-crf30-15fps.mp4\" type=\"video/mp4\" />\r\n    Your browser does not support HTML5 video.\r\n  </video>\r\n</p>\r\n\r\n<p>The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-          "publishedOn": "2026-09-01T23:57:28.000Z",
-          "wordCount": 1709,
-          "title": "Claude Fable 5.1 made me a really nice animated pelican",
-          "imageUrl": "https://static.simonwillison.net/static/2026/fable-5.1-max.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-          "author": null,
-          "description": "<p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app\">rebranded</a> to just ChatGPT) has 1.7GB of stuff in there in a folder called <code>codex-primary-runtime</code>, including a full Python installation, a full Node.js installation, and native binaries for <a href=\"https://poppler.freedesktop.org\">Poppler</a>, git, and the <a href=\"https://en.wikipedia.org/wiki/LibreOffice\">LibreOffice</a> open source office suite (which forked from OpenOffice.org in 2010):</p>\n<p><img alt=\"Screenshot of a macOS disk usage app window in column view, titled &quot;/Users/simon/.cache - 442.1 GB&quot;. First column: 356.8 GB huggingface, 82.5 GB uv, 1.7 GB codex-runtimes (selected), 609.0 MB datasette-sqlite, 298.8 MB rod. Second column: 1.7 GB codex-primary-runtime (selected). Third column: 1.7 GB dependencies (selected), 6.3 MB plugins, 4.1 kB runtime.json. Fourth column: 771.0 MB native (selected), 446.4 MB node, 440.6 MB python, 28.7 kB bin. Fifth column: 429.7 MB libreoffice-headless (selected), 187.9 MB poppler, 148.1 MB git, 4.7 MB libheif, 679.9 kB jxrlib.\" src=\"https://static.simonwillison.net/static/2026/codex-primay-runtime.webp\" /></p>\n<p>The <code>~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents</code> folder includes skills which tell Codex how to find and use those binaries.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/openoffice\">openoffice</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-          "publishedOn": "2026-09-01T19:03:01.000Z",
-          "wordCount": 810,
-          "title": "Codex bundles LibreOffice",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/1/geojson/",
-          "author": null,
-          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p>\n        <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a> and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After <a href=\"https://tools.simonwillison.net/colophon#geojson.html\">some iterations</a> using Claude Code for web and Fable 5.1 we got to this finished tool.</p>\n<p>As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need.</p>\n<p>I got <a href=\"https://gist.github.com/simonw/27d243c9d1cb5d9047fff7360dd49d3c\">this polygon</a> from:</p>\n<blockquote>\n<p><code>I want a polygon that represents the exact boundary of the El Granada GCSD</code></p>\n</blockquote>\n<p>And <a href=\"https://gist.github.com/simonw/b51f9e0190a13932ac64a0cb407a709d\">this one</a> from:</p>\n<blockquote>\n<p><code>Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA</code></p>\n</blockquote>\n<p><a href=\"https://tools.simonwillison.net/geojson#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb51f9e0190a13932ac64a0cb407a709d&amp;color=%23028FC3&amp;opacity=50&amp;url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F27d243c9d1cb5d9047fff7360dd49d3c&amp;color=%23E4572E&amp;opacity=50&amp;preset=map&amp;resolution=2&amp;lat=37.52640&amp;lng=-122.48297&amp;zoom=13\">Here's a link</a> that displays both of them at the same time on the new GeoJSON map viewing tool.</p>\n<p><img alt=\"Screenshot of a web app with a left sidebar of controls and a large map on the right. Top left: OPENSTREETMAP OVERLAY GeoJSON Map Viewer. Top right: Your GeoJSON stays in this browser. Sidebar Shape 1 panel with blue accent: Shape 1, Remove button, URL https://gist.github.com/simonw/b51f9 with Load button, textarea containing { &quot;type&quot;: &quot;FeatureCollection&quot;, &quot;bbox&quot;: -122.51951044732655, 37.47967619478576, -122.44141365271285, 37.55146379902639, Fill colour #028FC3 with blue swatch, Opacity slider at 50%. Shape 2 panel with red accent: Shape 2, Remove button, URL https://gist.github.com/simonw/27d24 with Load button, textarea containing { &quot;type&quot;: &quot;FeatureCollection&quot;, &quot;name&quot;: &quot;Granada Community Services District boundary&quot;, &quot;bbox&quot;: -122.500791193774, 37.4803905345399, Fill colour #E4572E with red swatch, Opacity slider at 50%. Buttons: Render map, Add shape, Load example, Clear. The map shows the coast around Montara, Moss Beach, El Granada and Half Moon Bay with a large semi-transparent blue polygon covering Montara, Moss Beach and Rancho Corral de Tierra extending into the ocean, and an overlapping red polygon covering El Granada and Quarry Park. Map labels include Cabrillo Highway, San Pedro Mountain 325 m, Peak Mountain 545 m, South Peak, CA 1, Montara, Rancho Corral de Tierra, Golden Gate National Recreation Area, 489 m, Scarper Ridge, 552 m, Moss Beach, Montara State Marine Reserve, Ox Hill 542 m, 512 m, Fitzgerald Marine Reserve, Airport Street, Pillar Point Bluff, Quarry Park, El Granada, Pillar Point State Marine Conservation Area, Ox Mountain Landfill, Half Moon Bay State Beach, plus and minus zoom buttons, and attribution Leaflet | © OpenStreetMap contributors.\" src=\"https://static.simonwillison.net/static/2026/geojson-tool.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/geojson\">geojson</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/1/geojson/",
-          "publishedOn": "2026-09-01T18:05:45.000Z",
-          "wordCount": 942,
-          "title": "GeoJSON Map Viewer",
-          "imageUrl": "https://static.simonwillison.net/static/2026/geojson-tool.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-          "author": null,
-          "description": "<blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\">Tarn Adams</a>, co-creator of Dwarf Fortress</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/game-design\">game-design</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-          "publishedOn": "2026-09-01T17:01:11.000Z",
-          "wordCount": 734,
-          "title": "Quoting Tarn Adams",
-          "imageUrl": null
         }
       ]
     },
@@ -3912,6 +3898,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=167492",
+          "author": "Janna Levin and Steven Strogatz",
+          "description": "Maggie Miller explains why our intuition about three dimensions breaks down in four, and how she visualizes 4D spaces as a reel of three-dimensional snapshots.            \nThe post What Does the Fourth Dimension Actually Look Like? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/",
+          "publishedOn": "2026-10-01T13:20:29.000Z",
+          "wordCount": 11248,
+          "title": "What Does the Fourth Dimension Actually Look Like?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E9-cr-Chanelle-Nibbelink-Social-LOGO.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=167494",
           "author": "Conor Feehly",
