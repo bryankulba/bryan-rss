@@ -311,6 +311,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/09/0049710-destroy-kottkeorg",
+          "author": null,
+          "description": "You can destroy kottke.org if you want. Or any other site!",
+          "link": "https://kottke.org/26/09/0049710-destroy-kottkeorg",
+          "publishedOn": "2026-10-01T01:01:00.000Z",
+          "wordCount": 770,
+          "title": "You can destroy kottke.org if you want. Or any other site!",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/09/ominous-thunderstorm-rolling-across-the-fields",
+          "author": null,
+          "description": "This is a three-hour, high-quality recording of thunderstorms in the distance in the Slovakian countryside. The rest of the channel is loaded of similar (and similarly long) atmospheric videos: thunderstorms, blizzards, rain, wind & fog, winter storms, etc.\nThe most recent videos are prominently labeled “No AI” because there are so many AI-generated videos like these on YT that are just kinda lifeless and juiced with keywords to show up as related videos.\n\n \n\n        \n         \nTags: video",
+          "link": "https://kottke.org/26/09/ominous-thunderstorm-rolling-across-the-fields",
+          "publishedOn": "2026-09-30T23:37:00.000Z",
+          "wordCount": 964,
+          "title": "Ominous Thunderstorm Rolling Across the Fields",
+          "imageUrl": "https://i.ytimg.com/vi/Vh-VnIpeW3A/sddefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/09/0049709-eternal-family",
           "author": null,
           "description": "Eternal Family is a media service that shows “a hand-picked collection of unique & rare films across Vintage Animation, Sci-Fi, Fantasy, Horror, Action, Documentaries, Found Tapes & Much More”. KDO readers might like the Early Technology section.",
@@ -1859,36 +1879,6 @@
           "wordCount": 1279,
           "title": "Industry Standard Tools . &#8220;Every trade has a small...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049543-if-you-build-it-will-they",
-          "author": null,
-          "description": "This is a fun read: If You Build It, Will They Come? On the Sperm Racing World Cup. “The cells then race through courses less than a half-centimeter long that are etched into microfluidic silicon chips.”",
-          "link": "https://kottke.org/26/09/0049543-if-you-build-it-will-they",
-          "publishedOn": "2026-09-01T16:00:00.000Z",
-          "wordCount": 793,
-          "title": "This is a fun read:  If You Build It, Will They Come? On...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049542-nationally-unsubsidized-a",
-          "author": null,
-          "description": "Nationally, unsubsidized ACA premiums to jump *another* ~15% next year. We can’t continue like this (but I feel like this has been the case for the last ~10 years and will in fact likely continue…)",
-          "link": "https://kottke.org/26/09/0049542-nationally-unsubsidized-a",
-          "publishedOn": "2026-09-01T14:54:00.000Z",
-          "wordCount": 657,
-          "title": "Nationally, unsubsidized ACA premiums to jump *another*...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049541-heres-how-noise-cancellin",
-          "author": null,
-          "description": "Here’s how noise-cancelling headphones work (and when they don’t). “This is why ANC is better suited for reducing low, sustained sounds like those of motors and airplane engines, and it’s why such headphones can’t filter out screaming kids.”",
-          "link": "https://kottke.org/26/09/0049541-heres-how-noise-cancellin",
-          "publishedOn": "2026-09-01T14:04:50.000Z",
-          "wordCount": 914,
-          "title": "Here’s how noise-cancelling headphones work  (and when...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2448,16 +2438,6 @@
           "wordCount": 2199,
           "title": "Pushing the android/gynoid angle",
           "imageUrl": "https://64.media.tumblr.com/51bfa0afb51efc4820ca73c870248b1b/78f53810e45fe546-70/s500x750/fe0696a6c978f92f93afcb5b72a06d7b2cae5ade.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/826569692213903360",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/826569692213903360",
-          "publishedOn": "2026-09-01T15:58:05.000Z",
-          "wordCount": null,
-          "title": "Untitled",
-          "imageUrl": null
         }
       ]
     },
@@ -3814,26 +3794,6 @@
           "wordCount": 734,
           "title": "Quoting Tarn Adams",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p>\n        <blockquote>\n<ul>\n<li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li>\n<li>Now depends on <code>mcp&gt;=2.1.1</code>.</li>\n</ul>\n</blockquote>\n<p>This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-          "publishedOn": "2026-09-01T15:30:12.000Z",
-          "wordCount": 792,
-          "title": "datasette-mcp 0.2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p>\nHugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p>\n<blockquote>\n<p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p>\n<p>We <strong>strongly encourage</strong> maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates <strong>will work</strong> with future versions of Python 3.15.</p>\n</blockquote>\n<p>Back in 2021 I <a href=\"https://simonwillison.net/2021/Oct/9/finding-and-reporting-a-bug/\">found a bug in Python 3.10</a> by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs.</p>\n<p>The new RC isn't available for GitHub Actions just yet - keep an eye on <a href=\"https://github.com/actions/python-versions/releases\">actions/python-versions</a> for that. For the moment though you can add this to a testing matrix:</p>\n<div class=\"highlight highlight-source-yaml\"><pre><span class=\"pl-ent\">strategy</span>:\n  <span class=\"pl-ent\">matrix</span>:\n    <span class=\"pl-ent\">python-version</span>: <span class=\"pl-s\">[\"3.14\", \"3.15\"]</span>\n\n<span class=\"pl-ent\">steps</span>:\n  - <span class=\"pl-ent\">uses</span>: <span class=\"pl-s\">actions/setup-python@v7</span>\n    <span class=\"pl-ent\">with</span>:\n      <span class=\"pl-ent\">python-version</span>: <span class=\"pl-s\">${{ matrix.python-version }}</span>\n      <span class=\"pl-ent\">allow-prereleases</span>: <span class=\"pl-c1\">true</span>\n      <span class=\"pl-ent\">check-latest</span>: <span class=\"pl-c1\">true</span></pre></div>\n\n<p>The <a href=\"https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#allow-pre-releases\">allow-prereleases</a> and <a href=\"https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#check-latest-version\">check-latest</a> flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.)\n\n    <p><small></small>Via <a href=\"https://bsky.app/profile/hugovk.dev/post/3muhjndhw322i\">@hugovk.dev</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-          "publishedOn": "2026-09-01T14:59:18.000Z",
-          "wordCount": 968,
-          "title": "Python 3.15.0 candidate 2 is here!",
-          "imageUrl": null
         }
       ]
     },
@@ -4243,16 +4203,6 @@
           "publishedOn": "2026-09-02T09:00:00.000Z",
           "wordCount": 2514,
           "title": "normal for Malmö",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12337",
-          "author": "PGR",
-          "description": "Foucault, Gould, Crowley (not that one).",
-          "link": "https://www.velcro-city.co.uk/01sep26-accessions/",
-          "publishedOn": "2026-09-01T13:12:28.000Z",
-          "wordCount": 2714,
-          "title": "01SEP26 / accessions",
           "imageUrl": null
         }
       ]

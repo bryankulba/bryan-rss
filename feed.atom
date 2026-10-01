@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-09-30T23:26:39.753Z</updated>
+    <updated>2026-10-01T04:03:53.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[You can destroy kottke.org if you want. Or any other site!]]></title>
+        <id>https://kottke.org/26/09/0049710-destroy-kottkeorg</id>
+        <link href="https://kottke.org/26/09/0049710-destroy-kottkeorg"/>
+        <updated>2026-10-01T01:01:00.000Z</updated>
+        <summary type="html"><![CDATA[You can destroy kottke.org if you want. Or any other site!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ominous Thunderstorm Rolling Across the Fields]]></title>
+        <id>https://kottke.org/26/09/ominous-thunderstorm-rolling-across-the-fields</id>
+        <link href="https://kottke.org/26/09/ominous-thunderstorm-rolling-across-the-fields"/>
+        <updated>2026-09-30T23:37:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a three-hour, high-quality recording of thunderstorms in the distance in the Slovakian countryside. The rest of the channel is loaded of similar (and similarly long) atmospheric videos: thunderstorms, blizzards, rain, wind & fog, winter storms, etc.
+The most recent videos are prominently labeled “No AI” because there are so many AI-generated videos like these on YT that are just kinda lifeless and juiced with keywords to show up as related videos.
+
+ 
+
+        
+         
+Tags: video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Destroy Any Website]]></title>
         <id>https://waxy.org/?p=51268</id>
@@ -7192,109 +7219,6 @@ Tags: Blackwing · how to · pencils · video]]></summary>
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/game-design">game-design</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is a fun read:  If You Build It, Will They Come? On...]]></title>
-        <id>https://kottke.org/26/09/0049543-if-you-build-it-will-they</id>
-        <link href="https://kottke.org/26/09/0049543-if-you-build-it-will-they"/>
-        <updated>2026-09-01T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a fun read: If You Build It, Will They Come? On the Sperm Racing World Cup. “The cells then race through courses less than a half-centimeter long that are etched into microfluidic silicon chips.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/826569692213903360</id>
-        <link href="https://brucesterling.tumblr.com/post/826569692213903360"/>
-        <updated>2026-09-01T15:58:05.000Z</updated>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette-mcp 0.2]]></title>
-        <id>https://simonwillison.net/2026/Sep/1/datasette-mcp/</id>
-        <link href="https://simonwillison.net/2026/Sep/1/datasette-mcp/"/>
-        <updated>2026-09-01T15:30:12.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-mcp/releases/tag/0.2">datasette-mcp 0.2</a></p>
-        <blockquote>
-<ul>
-<li><code>"rows"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href="https://github.com/datasette/datasette-mcp/issues/1">#1</a></li>
-<li>Now depends on <code>mcp&gt;=2.1.1</code>.</li>
-</ul>
-</blockquote>
-<p>This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python 3.15.0 candidate 2 is here!]]></title>
-        <id>https://simonwillison.net/2026/Sep/1/python-315-rc-2/</id>
-        <link href="https://simonwillison.net/2026/Sep/1/python-315-rc-2/"/>
-        <updated>2026-09-01T14:59:18.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841">Python 3.15.0 candidate 2 is here!</a></strong></p>
-Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p>
-<blockquote>
-<p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p>
-<p>We <strong>strongly encourage</strong> maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates <strong>will work</strong> with future versions of Python 3.15.</p>
-</blockquote>
-<p>Back in 2021 I <a href="https://simonwillison.net/2021/Oct/9/finding-and-reporting-a-bug/">found a bug in Python 3.10</a> by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs.</p>
-<p>The new RC isn't available for GitHub Actions just yet - keep an eye on <a href="https://github.com/actions/python-versions/releases">actions/python-versions</a> for that. For the moment though you can add this to a testing matrix:</p>
-<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">strategy</span>:
-  <span class="pl-ent">matrix</span>:
-    <span class="pl-ent">python-version</span>: <span class="pl-s">["3.14", "3.15"]</span>
-
-<span class="pl-ent">steps</span>:
-  - <span class="pl-ent">uses</span>: <span class="pl-s">actions/setup-python@v7</span>
-    <span class="pl-ent">with</span>:
-      <span class="pl-ent">python-version</span>: <span class="pl-s">${{ matrix.python-version }}</span>
-      <span class="pl-ent">allow-prereleases</span>: <span class="pl-c1">true</span>
-      <span class="pl-ent">check-latest</span>: <span class="pl-c1">true</span></pre></div>
-
-<p>The <a href="https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#allow-pre-releases">allow-prereleases</a> and <a href="https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#check-latest-version">check-latest</a> flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.)
-
-    <p><small></small>Via <a href="https://bsky.app/profile/hugovk.dev/post/3muhjndhw322i">@hugovk.dev</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/github-actions">github-actions</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nationally, unsubsidized ACA premiums to jump *another*...]]></title>
-        <id>https://kottke.org/26/09/0049542-nationally-unsubsidized-a</id>
-        <link href="https://kottke.org/26/09/0049542-nationally-unsubsidized-a"/>
-        <updated>2026-09-01T14:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Nationally, unsubsidized ACA premiums to jump *another* ~15% next year. We can’t continue like this (but I feel like this has been the case for the last ~10 years and will in fact likely continue…)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Here’s how noise-cancelling headphones work  (and when...]]></title>
-        <id>https://kottke.org/26/09/0049541-heres-how-noise-cancellin</id>
-        <link href="https://kottke.org/26/09/0049541-heres-how-noise-cancellin"/>
-        <updated>2026-09-01T14:04:50.000Z</updated>
-        <summary type="html"><![CDATA[Here’s how noise-cancelling headphones work (and when they don’t). “This is why ANC is better suited for reducing low, sustained sounds like those of motors and airplane engines, and it’s why such headphones can’t filter out screaming kids.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[01SEP26 / accessions]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12337</id>
-        <link href="https://www.velcro-city.co.uk/01sep26-accessions/"/>
-        <updated>2026-09-01T13:12:28.000Z</updated>
-        <summary type="html"><![CDATA[Foucault, Gould, Crowley (not that one).]]></summary>
-        <author>
-            <name>PGR</name>
         </author>
     </entry>
     <entry>
