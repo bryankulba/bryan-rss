@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-02T03:59:18.085Z</updated>
+    <updated>2026-10-02T10:25:50.839Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -6893,77 +6893,6 @@ Subcontinental)]]></summary>
         <summary type="html"><![CDATA[Lineages of the bad internet]]></summary>
         <author>
             <name>Disjunctions Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-openrouter 0.7.1]]></title>
-        <id>https://simonwillison.net/2026/Sep/2/llm-openrouter/</id>
-        <link href="https://simonwillison.net/2026/Sep/2/llm-openrouter/"/>
-        <updated>2026-09-02T20:23:26.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openrouter/releases/tag/0.7.1">llm-openrouter 0.7.1</a></p>
-        <blockquote>
-<ul>
-<li>Performance fix for loading OpenRouter models. Thanks, <a href="https://github.com/waveplate">waveplate</a>. <a href="https://github.com/simonw/llm-openrouter/issues/59">#59</a></li>
-</ul>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/openrouter">openrouter</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.34]]></title>
-        <id>https://simonwillison.net/2026/Sep/2/llm/</id>
-        <link href="https://simonwillison.net/2026/Sep/2/llm/"/>
-        <updated>2026-09-02T19:23:52.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.34">llm 0.34</a></p>
-        <p>One new feature:</p>
-<blockquote>
-<ul>
-<li><code>llm logs --usage</code> Markdown output now includes the response duration in milliseconds and as a human-readable duration. <code>llm logs --short</code> includes a new <code>duration_ms</code> field. <a href="https://github.com/simonw/llm/issues/1653">#1653</a></li>
-</ul>
-</blockquote>
-<p>Plus several contributed bug fixes, and a significant performance improvement to <code>llm logs</code> thanks to <a href="https://github.com/waveplate">waveplate</a> on GitHub, see also <a href="https://simonwillison.net/2026/Sep/2/llm-openrouter/">llm-openrouter 0.7.1</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-anthropic 0.28]]></title>
-        <id>https://simonwillison.net/2026/Sep/2/llm-anthropic/</id>
-        <link href="https://simonwillison.net/2026/Sep/2/llm-anthropic/"/>
-        <updated>2026-09-02T17:59:32.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.28">llm-anthropic 0.28</a></p>
-        <p><a href="https://www.anthropic.com/claude/fable">Claude Fable 5.1</a>, reasoning traces are now displayed by default for models that support them, plus a new <code>llm_anthropic.ClaudeRefusal</code> exception for when Claude throws a refusal.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-gemini 0.34]]></title>
-        <id>https://simonwillison.net/2026/Sep/2/llm-gemini/</id>
-        <link href="https://simonwillison.net/2026/Sep/2/llm-gemini/"/>
-        <updated>2026-09-02T16:39:38.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-gemini/releases/tag/0.34">llm-gemini 0.34</a></p>
-        <blockquote>
-<ul>
-<li>New model <code>gemini-3.8-flash</code> for <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href="https://github.com/simonw/llm-gemini/issues/146">#146</a></li>
-<li>Fixed async responses failing to record the resolved model version. Thanks, <a href="https://github.com/c-tonneslan">Charlie Tonneslan</a>. <a href="https://github.com/simonw/llm-gemini/pull/137">#137</a></li>
-</ul>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>

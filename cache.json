@@ -3730,46 +3730,6 @@
           "wordCount": 1123,
           "title": "GPT‑6 Astra",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7.1\">llm-openrouter 0.7.1</a></p>\n        <blockquote>\n<ul>\n<li>Performance fix for loading OpenRouter models. Thanks, <a href=\"https://github.com/waveplate\">waveplate</a>. <a href=\"https://github.com/simonw/llm-openrouter/issues/59\">#59</a></li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
-          "publishedOn": "2026-09-02T20:23:26.000Z",
-          "wordCount": 757,
-          "title": "llm-openrouter 0.7.1",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/2/llm/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.34\">llm 0.34</a></p>\n        <p>One new feature:</p>\n<blockquote>\n<ul>\n<li><code>llm logs --usage</code> Markdown output now includes the response duration in milliseconds and as a human-readable duration. <code>llm logs --short</code> includes a new <code>duration_ms</code> field. <a href=\"https://github.com/simonw/llm/issues/1653\">#1653</a></li>\n</ul>\n</blockquote>\n<p>Plus several contributed bug fixes, and a significant performance improvement to <code>llm logs</code> thanks to <a href=\"https://github.com/waveplate\">waveplate</a> on GitHub, see also <a href=\"https://simonwillison.net/2026/Sep/2/llm-openrouter/\">llm-openrouter 0.7.1</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/2/llm/",
-          "publishedOn": "2026-09-02T19:23:52.000Z",
-          "wordCount": 797,
-          "title": "llm 0.34",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.28\">llm-anthropic 0.28</a></p>\n        <p><a href=\"https://www.anthropic.com/claude/fable\">Claude Fable 5.1</a>, reasoning traces are now displayed by default for models that support them, plus a new <code>llm_anthropic.ClaudeRefusal</code> exception for when Claude throws a refusal.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
-          "publishedOn": "2026-09-02T17:59:32.000Z",
-          "wordCount": 781,
-          "title": "llm-anthropic 0.28",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p>\n        <blockquote>\n<ul>\n<li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li>\n<li>Fixed async responses failing to record the resolved model version. Thanks, <a href=\"https://github.com/c-tonneslan\">Charlie Tonneslan</a>. <a href=\"https://github.com/simonw/llm-gemini/pull/137\">#137</a></li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-          "publishedOn": "2026-09-02T16:39:38.000Z",
-          "wordCount": 765,
-          "title": "llm-gemini 0.34",
-          "imageUrl": null
         }
       ]
     },
