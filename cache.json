@@ -2936,6 +2936,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+          "author": null,
+          "description": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex&#x27;s Dino Store</a></p>\n        <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p>\n<p>The density of dinosaur puns is <em>exceptional</em>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+          "publishedOn": "2026-10-02T22:57:38.000Z",
+          "wordCount": 768,
+          "title": "Rex's Dino Store",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/1/matthew-green/",
           "author": null,
           "description": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\">Matthew Green</a>, Is sandboxing sufficient to contain rogue agents?</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/accidental-cyberattacks\">accidental-cyberattacks</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
@@ -3813,16 +3823,6 @@
           "publishedOn": "2026-09-04T17:38:48.000Z",
           "wordCount": 2010,
           "title": "OpenAI's rogue agents were caught communicating via public wikis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-          "author": null,
-          "description": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-08-august.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>We got more details on OpenAl's accidental cyberattacks</li>\n<li>One-shotting Raccoon Heist games with Fable 5 and Sol 5.6</li>\n<li>Claude auto mode</li>\n<li>Understanding ChatGPT Work</li>\n<li>Model releases</li>\n<li>Miscellaneous bits and bobs</li>\n<li>My projects</li>\n<li>What I'm using at the moment</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-07-july.md\">a copy of the July newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-          "publishedOn": "2026-09-04T05:54:40.000Z",
-          "wordCount": 814,
-          "title": "August newsletter is out",
           "imageUrl": null
         }
       ]

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-03T15:41:50.453Z</updated>
+    <updated>2026-10-03T18:59:38.616Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -80,6 +80,21 @@ In a sense, converting Ozymandias into ASD-STE100 turns it from a Romantic poem 
         <summary type="html"><![CDATA[Today's links Economic probabilities for our grandchildren: If only data centers would stop hogging all the copper. Hey look at this: Delights to delectate. Object permanence: RIAA v P2P; Infoseek's anti-terror brain-scanner; Copyrighting every phone number; Carving pumpkins with cookie-cutters; Polish women go on strike; Latent labor in material world; Hitler's meth; "Flying Saucers Are Real!"; Hope, not optimism; Broadcast Flag talk; David Suzuki's free research; "Inquisitor's Apprentice"; California's tax ban made the rich MUCH richer; Union organizers caught Wells Fargo; Power poses aren't real; "Ghosts"; Criticizing tech; "Savage Love A-Z." Upcoming appearances: Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent ap…]]></summary>
         <author>
             <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rex's Dino Store]]></title>
+        <id>https://simonwillison.net/2026/Oct/2/rex-s-dino-store/</id>
+        <link href="https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"/>
+        <updated>2026-10-02T22:57:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Museum:</strong> <a href="https://www.niche-museums.com/119">Rex&#x27;s Dino Store</a></p>
+        <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p>
+<p>The density of dinosaur puns is <em>exceptional</em>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/art">art</a>, <a href="https://simonwillison.net/tags/new-york">new-york</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7027,30 +7042,6 @@ Menard (a French 20th century novelist), after his death, leaves fragments of hi
         <summary type="html"><![CDATA[Today's links Amazon achieves enshittification inception: Cheating on your fraud is a hell of a thing. Hey look at this: Delights to delectate. Object permanence: Electrolite is back; Mafia rules; Aaronsw on Wikipedia; Proctorio's memory hole. Upcoming appearances: Dąbrowa Górnicza, Warsaw, Brighton, London, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Amazon achieves enshittification inception (permalink) Amazon's own balance sheet presents the most compelling evidence that we are stuck in the Enshittocene, the era in which everything is turning into a pile of shit, because the …]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[August newsletter is out]]></title>
-        <id>https://simonwillison.net/2026/Sep/4/august-newsletter/</id>
-        <link href="https://simonwillison.net/2026/Sep/4/august-newsletter/"/>
-        <updated>2026-09-04T05:54:40.000Z</updated>
-        <summary type="html"><![CDATA[<p>The August edition of my <a href="https://github.com/sponsors/simonw/">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href="https://github.com/simonw-private/monthly/blob/main/2026-08-august.md">access it here</a>.</p>
-<p>This month:</p>
-<ul>
-<li>We got more details on OpenAl's accidental cyberattacks</li>
-<li>One-shotting Raccoon Heist games with Fable 5 and Sol 5.6</li>
-<li>Claude auto mode</li>
-<li>Understanding ChatGPT Work</li>
-<li>Model releases</li>
-<li>Miscellaneous bits and bobs</li>
-<li>My projects</li>
-<li>What I'm using at the moment</li>
-</ul>
-<p>Here's <a href="https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-07-july.md">a copy of the July newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/newsletter">newsletter</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
