@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-03T18:59:38.616Z</updated>
+    <updated>2026-10-03T22:39:25.740Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[September sponsors-only newsletter]]></title>
+        <id>https://simonwillison.net/2026/Oct/3/newsletter/</id>
+        <link href="https://simonwillison.net/2026/Oct/3/newsletter/"/>
+        <updated>2026-10-03T22:00:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>I just sent the September edition of my <a href="https://github.com/sponsors/simonw/">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href="https://github.com/simonw-private/monthly/blob/main/2026-09-september.md">access it here</a>.</p>
+<p>This month:</p>
+<ul>
+<li>More Fable class models</li>
+<li>A pricing war</li>
+<li>3D graphics, Blender, and pixel art</li>
+<li>LLMs come for mathematics</li>
+<li>So many more accidental cyberattacks</li>
+<li>The vulnapocalypse comes for Datasette</li>
+<li>What I'm using right now</li>
+<li>My software releases this month</li>
+<li>2026 in LLMs (so far)</li>
+</ul>
+<p>Here's <a href="https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-08-august.md">a copy of the August newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/newsletter">newsletter</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Is American Culture Simply Bad Now? I’ve been hanging...]]></title>
         <id>https://kottke.org/26/10/0049721-is-american-culture-simpl</id>
@@ -7032,16 +7057,6 @@ Borges’ short story Pierre Menard, Author of the Quixote (Wikipedia):
 Menard (a French 20th century novelist), after his death, leaves fragments of his…]]></summary>
         <author>
             <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Amazon achieves enshittification inception (04 Sep 2026)]]></title>
-        <id>https://pluralistic.net/?p=13247</id>
-        <link href="https://pluralistic.net/2026/09/04/cheating-at-fraud/"/>
-        <updated>2026-09-04T09:41:25.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Amazon achieves enshittification inception: Cheating on your fraud is a hell of a thing. Hey look at this: Delights to delectate. Object permanence: Electrolite is back; Mafia rules; Aaronsw on Wikipedia; Proctorio's memory hole. Upcoming appearances: Dąbrowa Górnicza, Warsaw, Brighton, London, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Amazon achieves enshittification inception (permalink) Amazon's own balance sheet presents the most compelling evidence that we are stuck in the Enshittocene, the era in which everything is turning into a pile of shit, because the …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
     <entry>

@@ -2288,16 +2288,6 @@
           "wordCount": 4380,
           "title": "Pluralistic: Google skates (05 Sep 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13247",
-          "author": "Cory Doctorow",
-          "description": "Today's links Amazon achieves enshittification inception: Cheating on your fraud is a hell of a thing. Hey look at this: Delights to delectate. Object permanence: Electrolite is back; Mafia rules; Aaronsw on Wikipedia; Proctorio's memory hole. Upcoming appearances: Dąbrowa Górnicza, Warsaw, Brighton, London, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Amazon achieves enshittification inception (permalink) Amazon's own balance sheet presents the most compelling evidence that we are stuck in the Enshittocene, the era in which everything is turning into a pile of shit, because the …",
-          "link": "https://pluralistic.net/2026/09/04/cheating-at-fraud/",
-          "publishedOn": "2026-09-04T09:41:25.000Z",
-          "wordCount": 4901,
-          "title": "Pluralistic: Amazon achieves enshittification inception (04 Sep 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2935,6 +2925,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/3/newsletter/",
+          "author": null,
+          "description": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>More Fable class models</li>\n<li>A pricing war</li>\n<li>3D graphics, Blender, and pixel art</li>\n<li>LLMs come for mathematics</li>\n<li>So many more accidental cyberattacks</li>\n<li>The vulnapocalypse comes for Datasette</li>\n<li>What I'm using right now</li>\n<li>My software releases this month</li>\n<li>2026 in LLMs (so far)</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-08-august.md\">a copy of the August newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/3/newsletter/",
+          "publishedOn": "2026-10-03T22:00:31.000Z",
+          "wordCount": 810,
+          "title": "September sponsors-only newsletter",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
           "author": null,
