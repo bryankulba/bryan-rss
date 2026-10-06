@@ -35,6 +35,273 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/llm-mistral/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T21:32:34.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/llm-mistral/" target="_blank" rel="noopener noreferrer">llm-mistral 0.16</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm-mistral 0.16
+Adds support for reasoning models, such as the newly released Mistral Large 4.
+Tags: llm, mistral, llm-reasoning</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/llm-mistral/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/llm-mistral/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049746-a-conveyor-belt-keyboard">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T21:20:00.000Z">2026-10-06</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049746-a-conveyor-belt-keyboard" target="_blank" rel="noopener noreferrer">From a tongue-in-cheek Google Japan, a conveyor belt...</a>
+          </h2>
+          <p class="feed-item__desc">From a tongue-in-cheek Google Japan, a conveyor belt keyboard, where the keys move and your hand stays still while typing. One of several unusual keyboards released by the company. You can even build your own.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049746-a-conveyor-belt-keyboard" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049746-a-conveyor-belt-keyboard">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/hn-49983751/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T20:37:53.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/hn-49983751/" target="_blank" rel="noopener noreferrer">EmbeddingGemma 2</a>
+          </h2>
+          <p class="feed-item__desc">My comment on EmbeddingGemma 2 — Hacker News.
+I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license.
+For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.
+Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison.
+If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored existing vectors.
+(In April 2024 OpenAI offered to "cover the financial cost of users re-embedding content with these new models" - https://openai.com/index/gpt-4-api-general-availability/ - but I don't think that's something we can rely on from every provider.)
+Notably, I don't want to host the model myself. I'd much rather pay a provider for a hosted model while knowing that if they ever stop hosting it I can run the open weights version myself - or find another vendor who can do that for me.
+Tags: google, ai, generative-ai, embeddings, gemma</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/hn-49983751/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/hn-49983751/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/le-chonk/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T20:18:19.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/le-chonk/" target="_blank" rel="noopener noreferrer">Introducing Mistral Large 4: Le chonk</a>
+          </h2>
+          <p class="feed-item__desc">Introducing Mistral Large 4: Le chonk
+The preview is available via their API. They promise to release the open weights model at the "end of this month".
+The model only supports two reasoning levels - "none" and "high" - via the Mistral API. Here are both pelicans - the "high" one looks better, though surprisingly it only used 2,717 output tokens compared to "none" which used 3,275:
+
+On Artificial Analysis it scores 38, just behind DeepSeek 4.1 Flash, which is a 552B model. It's a huge improvement on last December's Mistral Large 3, which drew this terrible pelican and scored 9 on AA.
+It's certainly not a Fable-class model, but it's great to see Mistral put out a model that's back to being maybe about 6 months behind the frontier.
+
+    
+Via Hacker News
+Tags: ai, generative-ai, llms, mistral, pelican-riding-a-bicycle, llm-release</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/le-chonk/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/le-chonk/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026-10-06/mistral-large-4-pelican.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/silent-friend">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T20:17:00.000Z">2026-10-06</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/silent-friend" target="_blank" rel="noopener noreferrer">Silent Friend</a>
+          </h2>
+          <p class="feed-item__desc">Silent Friend is a historical drama written and directed by Hungarian filmmaker Ildikó Enyedi. Here’s the description:
+In the botanical garden of a medieval German university, a ginkgo tree hundreds of years old watches its human neighbors through the slip-stream of time. Among them, a young woman in 1908 attempts to break through the botany department’s masculine academic culture; an idealistic couple in 1972 performs experiments on plant communication under its branches; and a neurologist on lockdown in 2020 turns to it as he tries to push the boundaries of perception.
+
+	
+It’s got a 94% rating on Rotten Tomatoes and some good reviews on Letterboxd, including this one from film reviewer David Ehrlich:
+me before seeing this movie: that is a big tree.
+me after seeing this movie: that is a giant, hormonal, unbearably horned up 900-year-old virgin that understands loneliness on a level that most humans could never even begin to imagine.
+
+	
+The trailer and description put me in mind of Peter Wohlleben’s The Hidden Life of Trees, The Overstory by Richard Powers, and Finding the Mother Tree by Suzanne Simard.
+
+ 
+
+        
+         
+Tags: Ildikó Enyedi · movies · Silent Friend · trailers · trees · video</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/silent-friend" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/silent-friend">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://i.ytimg.com/vi/63MiKVGOlr8/sddefault.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T19:07:31.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/" target="_blank" rel="noopener noreferrer">Using Parseable with Datasette for OpenTelemetry traces</a>
+          </h2>
+          <p class="feed-item__desc">TIL: Using Parseable with Datasette for OpenTelemetry traces
+I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an "Enterprise" version with extra features and a cloud hosted option.
+Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure out how to run Parseable and feed it traces from Datasette.
+Here's my (human-written) TIL showing the patterns that worked, and here's a screenshot of a Datasette trace displayed within the Parseable localhost web application:
+
+Tags: datasette, observability, alex-garcia, opentelemetry</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://raw.githubusercontent.com/simonw/til/refs/heads/main/datasette/datasette-parsable.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049748-things-that-are-good-to-d">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T19:01:00.000Z">2026-10-06</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049748-things-that-are-good-to-d" target="_blank" rel="noopener noreferrer">Things That Are Good to Do. Including “admit what you...</a>
+          </h2>
+          <p class="feed-item__desc">Things That Are Good to Do. Including “admit what you don’t know”, “put the cart away”, “rest before you’re exhausted” (I often get this one wrong), and “walk home if you can”.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049748-things-that-are-good-to-d" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049748-things-that-are-good-to-d">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049747-rebranding-itself-as-the-">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T18:31:00.000Z">2026-10-06</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049747-rebranding-itself-as-the-" target="_blank" rel="noopener noreferrer">The Ku Klux Klan is rebranding itself as The Knights...</a>
+          </h2>
+          <p class="feed-item__desc">The Ku Klux Klan is rebranding itself as The Knights Party, centered on “family and faith” along with proud & open white supremacy. 💩🖕</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049747-rebranding-itself-as-the-" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049747-rebranding-itself-as-the-">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/hn-49982139/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T18:20:58.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/hn-49982139/" target="_blank" rel="noopener noreferrer">Mistral Large 4</a>
+          </h2>
+          <p class="feed-item__desc">My comment on Mistral Large 4 — Hacker News.
+
+wren6991: The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars.
+OK well I couldn't resist this one:
+llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars'
+
+Default reasoning levels for each: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/hn-49982139/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/hn-49982139/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51277">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T18:12:27.000Z">2026-10-06</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.youtube.com/watch?v&#x3D;9ranfp_vz30" target="_blank" rel="noopener noreferrer">VECOS, a vector desktop OS for the Vectrex</a>
+          </h2>
+          <p class="feed-item__desc">from modder Jason Kopp, who also ported DOOM to his UVMC2 multicart
+The Verge #</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51277" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51277">Mark read</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/datasette-atom/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T17:35:39.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/datasette-atom/" target="_blank" rel="noopener noreferrer">datasette-atom 0.11a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-atom 0.11a0
+A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41.
+Tags: atom, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/datasette-atom/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/datasette-atom/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/10/watch-one-of-radioheads-best-live-shows-bonnaroo-2006">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-10-06T17:11:00.000Z">2026-10-06</time>
@@ -11745,25 +12012,6 @@ Tags: geospatial, d3, vibe-coding, gpt-6-astra</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2089-rotated-1.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.velcro-city.co.uk/?p&#x3D;12348">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-07T09:00:00.000Z">2026-09-07</time>
-        <span class="feed-item__source">Velcro City Tourist Board</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.velcro-city.co.uk/banging-their-gavel/" target="_blank" rel="noopener noreferrer">banging their gavel</a>
-          </h2>
-          <p class="feed-item__desc">Cory Doctorow, master of metaphor</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12348" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12348">Mark read</button>
-            <span class="feed-item__reading-time">8 min read</span>
-          </div>
         </div>
       </div>
     </article>
