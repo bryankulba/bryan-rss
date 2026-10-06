@@ -9,6 +9,16 @@
           "id": "6ac157a7c06aa600011730e8",
           "author": "Patrick Tanguay",
           "description": "No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations",
+          "link": "https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary-no-419/",
+          "publishedOn": "2026-10-04T10:00:51.000Z",
+          "wordCount": 2688,
+          "title": "Artificial symbiotic intelligence ⊗ The politics of the planetary",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Hugo-Weaving-As-Agent-Smith-In-The-Matrix-bw.jpg"
+        },
+        {
+          "id": "6ac157a7c06aa600011730e8",
+          "author": "Patrick Tanguay",
+          "description": "No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations",
           "link": "https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary/",
           "publishedOn": "2026-10-04T10:00:51.000Z",
           "wordCount": 2612,
@@ -64,26 +74,6 @@
           "wordCount": 2477,
           "title": "Lifted AF ⊗ Cyborgs, centaurs and cyberpunks",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/ernst_chladni-klange16.jpg"
-        },
-        {
-          "id": "6a9b2d877d32cc00018c5498",
-          "author": "Patrick Tanguay",
-          "description": "No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars",
-          "link": "https://sentiers.media/the-future-is-not-tech-forward-models-dont-go-rogue-no-415/",
-          "publishedOn": "2026-09-06T10:00:44.000Z",
-          "wordCount": 2788,
-          "title": "The future is not tech-forward ⊗ Models don’t go rogue",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/John_Martin_Le_Pandemonium_Louvre-crop.jpg"
-        },
-        {
-          "id": "6a9b2d877d32cc00018c5498",
-          "author": "Patrick Tanguay",
-          "description": "No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars",
-          "link": "https://sentiers.media/the-future-is-not-tech-forward-models-dont-go-rogue/",
-          "publishedOn": "2026-09-06T10:00:44.000Z",
-          "wordCount": 2785,
-          "title": "The future is not tech-forward ⊗ Models don’t go rogue",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/John_Martin_Le_Pandemonium_Louvre-crop.jpg"
         }
       ]
     },
@@ -139,6 +129,16 @@
       "feedUrl": "https://www.robinsloan.com/feed.xml",
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
+        {
+          "id": "https://www.robinsloan.com/lab/cyberpunk-is-now/",
+          "author": null,
+          "description": "<p>Finally! <a href=\"https://www.robinsloan.com/lab/cyberpunk-is-now/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/cyberpunk-is-now/",
+          "publishedOn": "2026-10-05T20:00:00.000Z",
+          "wordCount": 4974,
+          "title": "Dragoncatcher: Cyberpunk is now",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
         {
           "id": "https://www.robinsloan.com/lab/ask-variable-font-test/",
           "author": null,
@@ -217,16 +217,6 @@
           "publishedOn": "2026-09-08T18:00:00.000Z",
           "wordCount": 4732,
           "title": "Dragoncatcher: One-way doors",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/pacing-consensus/",
-          "author": null,
-          "description": "<p>Good development, huge challenge. <a href=\"https://www.robinsloan.com/lab/pacing-consensus/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/pacing-consensus/",
-          "publishedOn": "2026-09-06T10:00:00.000Z",
-          "wordCount": 4873,
-          "title": "Dragoncatcher: Pacing consensus",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
@@ -310,6 +300,86 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/10/0049737-random-tv-time",
+          "author": null,
+          "description": "Random TV Time: watch old TV pulled from the Internet Archive. 17 channels to surf, including cartoons, 1960s TV, and one that’s only old commercials.",
+          "link": "https://kottke.org/26/10/0049737-random-tv-time",
+          "publishedOn": "2026-10-05T21:20:00.000Z",
+          "wordCount": 789,
+          "title": "Random TV Time: watch old TV pulled from the Internet...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049722-in-defense-of-the-detour",
+          "author": null,
+          "description": "Designer Giorgia Lupi: In Defense of the Detour. “I fear that A.I. is undermining what makes us most human — the ability to translate lived experience and nuanced thoughts into a unique point of view…”",
+          "link": "https://kottke.org/26/10/0049722-in-defense-of-the-detour",
+          "publishedOn": "2026-10-05T20:19:00.000Z",
+          "wordCount": 1535,
+          "title": "Designer Giorgia Lupi: In Defense of the Detour. “I fear...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049740-stalin-boys",
+          "author": null,
+          "description": "Stalin Boys is a short documentary about a Joseph Stalin-obsessed middle-schooler from a tiny Texas town who writes a play about the Soviet dictator and enlists his three friends to stage it for the Texas State History Fair. Free to watch online.",
+          "link": "https://kottke.org/26/10/0049740-stalin-boys",
+          "publishedOn": "2026-10-05T18:27:00.000Z",
+          "wordCount": 730,
+          "title": "Stalin Boys is a short documentary about a Joseph...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049739-nappy",
+          "author": null,
+          "description": "Nappy is a site offering free stock photos of Black and brown people. (The site says they’re going offline in a few months due to a falloff in demand bc of AI. Maybe Internet Archive can do their thing here?)",
+          "link": "https://kottke.org/26/10/0049739-nappy",
+          "publishedOn": "2026-10-05T17:37:00.000Z",
+          "wordCount": 733,
+          "title": "Nappy is a site offering free stock photos of Black and...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/o-superman-laurie-anderson",
+          "author": null,
+          "description": "O Superman by artist Laurie Anderson from 1981. Some of the lyrics:\n‘Cause when love is gone\nThere’s always justice\nAnd when justice is gone\nThere’s always force\nAnd when force is gone\nThere’s always Mom\nHi, Mom\nSo hold me, Mom\nIn your long arms\nSo hold me, Mom\nIn your long arms\nIn your automatic arms\nYour electronic arms\nIn your arms\nSo hold me, Mom\nIn your long arms\nYour petrochemical arms\nYour military arms\nIn your electronic arms\nAh, ah, ah, ah\n\n\t\n60 Minutes did a profile of Anderson a few years ago and she explained the meaning of the song (to her):\nThis is a song about how basically technology cannot save you. It’s about a lot of things: justice, safety, power.\n\n\t\n\nAs a kid growing up in rural Wisconsin, this kind of music wasn’t available to me, so I only actually heard this for the first time fairly recently. So I thought I’d post it in case you hadn’t really heard it either — that and the message & meaning it carries is relevant these days.\nI also liked this rendition of it, slowed down and reverbed. There are also several O Superman remixes on Soundcloud of varying quality.\n\n \n\n        \n         \nTags: interviews · Laurie Anderson · music · video",
+          "link": "https://kottke.org/26/10/o-superman-laurie-anderson",
+          "publishedOn": "2026-10-05T16:17:00.000Z",
+          "wordCount": 1747,
+          "title": "O Superman, Laurie Anderson",
+          "imageUrl": "https://i.ytimg.com/vi/Vkfpi2H8tOE/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049734-mapping-tariffs",
+          "author": null,
+          "description": "Mapping Tariffs explores “the potential impacts of tariffs on jobs and businesses across Canadian cities and communities at the neighbourhood and city level”.",
+          "link": "https://kottke.org/26/10/0049734-mapping-tariffs",
+          "publishedOn": "2026-10-05T15:32:00.000Z",
+          "wordCount": 703,
+          "title": "Mapping Tariffs explores “the potential impacts of...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049729-neighbors-are-protesting-",
+          "author": null,
+          "description": "After working hard taking away the civil rights of people and granting more powers to our Mob Boss President, Chief Justice John Roberts retreats to a Maine island for the summer. But lately, neighbors are protesting his presence there. Good! No peace!",
+          "link": "https://kottke.org/26/10/0049729-neighbors-are-protesting-",
+          "publishedOn": "2026-10-05T14:40:00.000Z",
+          "wordCount": 607,
+          "title": "After working hard taking away the civil rights of people...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/the-2026-comedy-wildlife-awards-finalists",
+          "author": null,
+          "description": "The Comedy Wildlife Awards have announced the finalists for the 2026 competition and, well, these awards never miss. You can almost hear the background music for some of these…\n\n \n\n        \n         \nTags: best of · best of 2026 · photography",
+          "link": "https://kottke.org/26/10/the-2026-comedy-wildlife-awards-finalists",
+          "publishedOn": "2026-10-05T13:30:00.000Z",
+          "wordCount": 645,
+          "title": "The 2026 Comedy Wildlife Awards Finalists",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1791163802-1a71e73e.jpg"
+        },
         {
           "id": "https://kottke.org/26/10/0049721-is-american-culture-simpl",
           "author": null,
@@ -1998,6 +2068,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51274",
+          "author": "Andy Baio",
+          "description": "make a generative poem on any subject from short TV clips\n#",
+          "link": "https://tvsimulator.com/poems/intro/",
+          "publishedOn": "2026-10-05T18:04:05.000Z",
+          "wordCount": 14013,
+          "title": "TV Simulator’s TV Poetry",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=51271",
           "author": "Andy Baio",
           "description": "click “next site” to view a random personal retroweb-inspired website\n#",
@@ -2104,6 +2184,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13366",
+          "author": "Cory Doctorow",
+          "description": "Today's links Scrutinized: Pervert glasses vs the authentic self. Hey look at this: Delights to delectate. Object permanence: DRM-free in the UK; Maple-leaf roses; Italian Wikipedia shuts down; Vancouver's property speculator tax works; Ex-Soviet leftists launch \"September\"; \"The Every\"; Nielsen x Chinese internet; Get-a-cluevog; Cat EULA; Heart carafe; Millennials screwed; Apple's unlawful evil. Upcoming appearances: Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Scrutinized (permalink) We're repeatedly told that the killer app for pervert glasses – Meta's…",
+          "link": "https://pluralistic.net/2026/10/05/pervert-glasses/",
+          "publishedOn": "2026-10-05T18:58:11.000Z",
+          "wordCount": 4087,
+          "title": "Pluralistic: Scrutinized (05 Oct 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13360",
           "author": "Cory Doctorow",
@@ -2282,6 +2372,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19076",
+          "author": "Warren Ellis",
+          "description": "Overslept by a full hour. One of the best takes on DIGGER that I’ve seen, CONTAINS ALL THE SPOILERS On the newsletter: the complete first…",
+          "link": "https://warrenellis.ltd/status/5oct26/",
+          "publishedOn": "2026-10-05T12:06:37.000Z",
+          "wordCount": 1016,
+          "title": "5oct26",
+          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19074",
           "author": "Warren Ellis",
@@ -2705,22 +2805,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/79e6aa35-4247-49e7-8a12-3d5ca6e0d848_1190x810.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/that-bogo-feeling",
-          "author": "Blackbird Spyplane",
-          "description": "A trove of sick reversible tees. Plus slim-soled sporty Mary Janes, chatting with a visionary weaver & more",
-          "link": "https://www.blackbirdspyplane.com/p/that-bogo-feeling",
-          "publishedOn": "2026-09-06T13:02:41.000Z",
-          "wordCount": null,
-          "title": "That BOGO feeling",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!-uLu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fec5749-e30c-47bc-bc62-60e3b3b122c9_1770x2135.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!-uLu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fec5749-e30c-47bc-bc62-60e3b3b122c9_1770x2135.png"
         }
       ]
     },
@@ -2788,6 +2872,16 @@
       "feedUrl": "https://www.thewire.co.uk/rss",
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
+        {
+          "id": "https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river",
+          "author": null,
+          "description": "The River, first performed as part of the 2025 Semibreve festival.\n\nThe River by Iranian-born Berlin-based composer Ava Rasti was commissioned by Portuguese festival Semibreve and first presented on 25 October 2025 at the Capela Imaculada do Seminário Menor in Braga. The performance brought together Rasti and a string quartet composed of Filipa Abreu (violin), Vânia Oliveira (viola), Tiago Mendes (cello) and Catarina Coelho (cello).\n\n\n    Wire subscribers can read Claire Sawer's review of Semibreve 2025 here.",
+          "link": "https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river",
+          "publishedOn": "2026-10-05T00:00:00.000Z",
+          "wordCount": 1600,
+          "title": "Premiere: Ava Rasti’s  The River",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/05/the_river_crop.jpg"
+        },
         {
           "id": "https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-79678",
           "author": null,
@@ -2906,6 +3000,26 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.</p>\n<p>The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]</p>\n<p>We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/felixrieseberg/status/2107206431376334975\">Felix Rieseberg</a>, Anthropic, see also <a href=\"https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48\">this help page</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/claude-cowork\">claude-cowork</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+          "publishedOn": "2026-10-05T23:56:47.000Z",
+          "wordCount": 874,
+          "title": "Quoting Felix Rieseberg",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+          "author": null,
+          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme\">Qwen3.8 27B addition in words</a></p>\n        <p>Colin Frasier <a href=\"https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k\">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results:</p>\n<p><img alt=\"Heatmap chart of accuracy on an addition prompt, colored from dark green (high) through yellow to dark red (low). Title: &quot;What is {a} + {b}? Please write your answer in words. Do not include any other text or information, just the answer in words.&quot; Subtitle: 30 randomly selected pairs for each digit combination (n = 30 * 13 * 13 = 5070). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Values by row, listed for a = 1 to 13. b = 13: 100%, 77%, 27%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 97%, 80%, 80%, 40%, 23%, 20%, 7%, 13%, 20%, 27%, 67%, 63%, 3%. b = 11: 97%, 97%, 53%, 17%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 37%, 0%. b = 10: 100%, 90%, 47%, 20%, 7%, 0%, 0%, 0%, 3%, 0%, 0%, 7%, 0%. b = 9: 97%, 93%, 80%, 77%, 53%, 67%, 47%, 87%, 97%, 3%, 0%, 13%, 0%. b = 8: 93%, 87%, 53%, 43%, 7%, 0%, 0%, 13%, 87%, 0%, 0%, 0%, 0%. b = 7: 93%, 93%, 47%, 10%, 13%, 20%, 23%, 0%, 70%, 0%, 0%, 0%, 0%. b = 6: 100%, 100%, 100%, 83%, 97%, 97%, 23%, 0%, 53%, 3%, 0%, 10%, 0%. b = 5: 100%, 100%, 80%, 70%, 73%, 100%, 13%, 13%, 70%, 0%, 20%, 30%, 0%. b = 4: 100%, 100%, 93%, 100%, 60%, 97%, 20%, 50%, 67%, 53%, 40%, 40%, 40%. b = 3: 100%, 100%, 97%, 90%, 83%, 100%, 63%, 50%, 63%, 53%, 60%, 60%, 30%. b = 2: 100%, 100%, 90%, 97%, 93%, 100%, 93%, 83%, 90%, 83%, 87%, 87%, 83%. b = 1: 100%, 100%, 100%, 97%, 100%, 97%, 97%, 97%, 100%, 100%, 100%, 97%, 100%.\" src=\"https://static.simonwillison.net/static/2026/colin-frasier-grid.webp\" /></p>\n<p>I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment.</p>\n<p>I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using <code>Qwen3.8-27B-Q4_K_M.gguf</code>. Here's the result for a run of 30 attempts per combination with reasoning disabled:</p>\n<p><img alt=\"Heatmap in the same layout as the previous chart, using an orange (low) to white to blue (high) color scale, showing much lower accuracy overall. Title: Addition in words — Qwen3.8 27B Q4_K_M. Subtitle: Reasoning disabled · 30 fixed pairs per ordered digit-length cell (n = 5,070). Overall numeric accuracy: 1,195 / 5,070 (23.57%). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 100%, 75%, 50%, 25%, 0%. Values by row, listed for a = 1 to 13. b = 13: 17%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 53%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 11: 47%, 10%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 10: 70%, 27%, 3%, 0%, 0%, 0%, 0%, 0%, 0%, 13%, 0%, 0%, 0%. b = 9: 77%, 47%, 3%, 0%, 0%, 0%, 0%, 3%, 7%, 0%, 0%, 0%, 0%. b = 8: 53%, 20%, 0%, 0%, 0%, 0%, 7%, 13%, 0%, 0%, 0%, 0%, 0%. b = 7: 53%, 23%, 17%, 10%, 3%, 3%, 13%, 3%, 0%, 0%, 0%, 0%, 0%. b = 6: 60%, 60%, 33%, 10%, 53%, 47%, 7%, 3%, 0%, 0%, 0%, 0%, 0%. b = 5: 73%, 67%, 87%, 80%, 53%, 40%, 0%, 0%, 3%, 0%, 0%, 0%, 0%. b = 4: 83%, 93%, 90%, 93%, 53%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 3: 100%, 93%, 90%, 80%, 67%, 37%, 17%, 0%, 0%, 3%, 0%, 0%, 0%. b = 2: 100%, 100%, 93%, 90%, 77%, 77%, 43%, 50%, 63%, 43%, 40%, 13%, 23%. b = 1: 97%, 100%, 100%, 100%, 80%, 67%, 77%, 80%, 80%, 60%, 43%, 30%, 37%. Footnote: Colorblind-safe orange–blue scale; percentages provide a redundant non-color encoding.\" src=\"https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp\" /></p>\n<p>Then I ran it again with reasoning enabled. This took a <em>lot longer</em> per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%:</p>\n<p><img alt=\"Heatmap in the same layout as the previous charts, almost entirely blue. Title: Addition in words — Qwen3.8 27B — medium reasoning pilot. Subtitle: 1 fixed pair per ordered digit-length cell · easiest first (n = 169). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Every cell shows 100% except two orange cells showing 0%: a = 2 with b = 8, and a = 12 with b = 9.\" src=\"https://static.simonwillison.net/static/2026/qwen-words-reasoning.png\" /></p>\n<p>It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here.</p>\n<p>Here's a <a href=\"https://gist.github.com/simonw/8ef79c777ad34c53e9c09094800576a5#full-reasoning-transcript-2\">version of the report</a> that includes the reasoning traces from some of those larger calculations, which include text like this:</p>\n<pre><code>Wait, let me redo this more carefully.\n\n4,299,366,105,622\n6,088,794,067,970\n\nLet me align them:\n4 2 9 9 3 6 6 1 0 5 6 2 2\n6 0 8 8 7 9 4 0 6 7 9 7 0\n\nAdding from right to left:\nPosition 1 (units): 2 + 0 = 2\nPosition 2 (tens): 2 + 7 = 9\nPosition 3 (hundreds): 6 + 9 = 15, write 5, carry 1\n</code></pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/dgx-spark\">dgx-spark</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+          "publishedOn": "2026-10-04T23:34:00.000Z",
+          "wordCount": 1084,
+          "title": "Qwen3.8 27B addition in words",
+          "imageUrl": "https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp"
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
           "author": null,
           "description": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p>\r\n<p>Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute.</p>\r\n<p>Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage.</p>\r\n<p>An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill.</p>\r\n<p>I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent:</p>\r\n<blockquote>\r\n<p><input type=\"checkbox\" disabled=\"disabled\" /> Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges.</p>\r\n</blockquote>\r\n<p>The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who <em>didn't</em> anticipate this and ended up seriously burned.</p>\r\n<p>... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement <a href=\"https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/\">New AWS experience helps builders get started and ship faster</a> on 16th September:</p>\r\n<blockquote>\r\n<p>When you're ready to upgrade to a paid plan, you can set a monthly spend limit for your project based on your usage patterns so that you stay within your budget. If a project's usage reaches its spend limit, your project is paused for that month.</p>\r\n</blockquote>\r\n<p>See also <a href=\"https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html\">Create a spend limit in AWS Settings</a>, though that page warns that \"We're currently releasing our new experience to a limited number of customers.\" Here's hoping that hits general availability for existing accounts soon.</p>\r\n<p>Google Cloud <a href=\"https://cloud.google.com/blog/topics/cost-management/new-early-anomalies-and-spend-caps-on-google-cloud-budgets\">launched a similar feature</a> in July, called Spend Caps, which lets you \"set a monthly financial cap on specific services within a project\". Looks like this is becoming a trend!</p>\r\n<p>In an ideal world, our agents could help with this. It would be great if agents started biasing towards recommending providers with hard budget caps, and warning new and inexperienced builders against deploying applications using uncapped services that might get them into trouble.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/amazon-web-services\">amazon-web-services</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
@@ -2933,6 +3047,16 @@
           "publishedOn": "2026-10-02T22:57:38.000Z",
           "wordCount": 768,
           "title": "Rex's Dino Store",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/1/pwasm/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/pwasm/releases/tag/0.2a0\">pwasm 0.2a0</a></p>\n        <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp\">AI mania</a>.</p>\n<p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements:</p>\n<blockquote>\n<p><code>Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the <a href=\"https://github.com/simonw/research\">research repo</a> working under it - and what it would take to speed it up</code></p>\n</blockquote>\n<p><a href=\"https://github.com/simonw/pwasm/pull/12\">42 commits later</a> (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of  <a href=\"https://micropython.org/\">MicroPython</a>, <a href=\"https://github.com/quickjs-ng/quickjs\">QuickJS</a> and <a href=\"https://github.com/bellard/mquickjs\">Micro QuickJS</a>.</p>\n<p>I wouldn't trust this thing at all - hence the alpha version tag - but it's interesting seeing how today's models can improve on the work of models from 10 months ago.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/1/pwasm/",
+          "publishedOn": "2026-10-01T17:10:31.000Z",
+          "wordCount": 882,
+          "title": "pwasm 0.2a0",
           "imageUrl": null
         },
         {
@@ -2994,6 +3118,16 @@
           "wordCount": 860,
           "title": "OpenAI DevDay 2026 live blog",
           "imageUrl": "https://static.simonwillison.net/static/2026/live-20260929-092441.webp"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.30\">llm-anthropic 0.30</a></p>\n        <p>In addition to Claude Sonnet 5.5, this release adds the ability to run <code>llm anthropic refresh</code> to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model.</p>\n<p>I also added an <code>llm anthropic count</code> command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
+          "link": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+          "publishedOn": "2026-09-28T23:06:21.000Z",
+          "wordCount": 812,
+          "title": "llm-anthropic 0.30",
+          "imageUrl": null
         },
         {
           "id": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
@@ -3744,46 +3878,6 @@
           "wordCount": 878,
           "title": "Research acceleration: The view inside OpenAI",
           "imageUrl": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p>\nTerence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\".</p>\n<p>On <a href=\"https://interisle.net/insights/cybercriminaldomaindemand\">this Interisle report</a> (<a href=\"https://labs.ripe.net/author/andrew_campling/dns-abuse-and-criminal-infrastructure-beyond-definitions-and-blocklists/\">via Andrew Campling</a>), Terence says:</p>\n<blockquote>\n<p>It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis.</p>\n</blockquote>\n<p>I had no idea. Apparently ICANN have been discussing this problem for years.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/dns\">dns</a>, <a href=\"https://simonwillison.net/tags/scams\">scams</a>, <a href=\"https://simonwillison.net/tags/terence-eden\">terence-eden</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-          "publishedOn": "2026-09-06T14:40:07.000Z",
-          "wordCount": 870,
-          "title": "The purpose of DNS is to spread scams",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-          "author": null,
-          "description": "<p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There&#x27;s No Limit to How Bad Code Can Get</a> &mdash; Lobste.rs.</p><p><em>[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]</em></p>\n<p>In my experience it's <em>so rare</em> for that to work.</p>\n<p>You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins.</p>\n<p>Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount.</p>\n<p>Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't <em>need</em> to be replaced, after all...</p>\n<p>After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system.</p>\n<p>... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually.</p>\n<p>If you're <em>really lucky</em> the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one.</p>\n<p>The best article I've read about completing this process responsibly is <a href=\"https://lethain.com/migrations/\">Migrations: the sole scalable fix to tech debt</a> by Will Larson.</p>\n<p>If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/migrations\">migrations</a>, <a href=\"https://simonwillison.net/tags/technical-debt\">technical-debt</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-          "publishedOn": "2026-09-06T09:08:06.000Z",
-          "wordCount": 1184,
-          "title": "There's No Limit to How Bad Code Can Get",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
-          "author": null,
-          "description": "<blockquote cite=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can <em>always</em> get worse. There can <em>always</em> be a new layer of indirection or a reduction in performance.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\">Zach Kehs</a>, There's No Limit to How Bad Code Can Get</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/technical-debt\">technical-debt</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
-          "publishedOn": "2026-09-06T08:42:49.000Z",
-          "wordCount": 762,
-          "title": "Quoting Zach Kehs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p>\nBlink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119\">1m59s</a>:</p>\n<blockquote>\n<p>Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, <strong>animals</strong>, cityscapes, even Dyson spheres.</p>\n</blockquote>\n<p><img alt=\"astra-video-pelican.webp\" src=\"https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp\" /></p>\n<p>Astra <a href=\"https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/\">really</a> does <a href=\"https://simonwillison.net/2026/Sep/4/astra-pelicans/\">believe</a> in putting a red neckerchief on a pelican riding a bicycle.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49554643#49575117\">Hacker News comment</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
-          "publishedOn": "2026-09-05T23:27:48.000Z",
-          "wordCount": 827,
-          "title": "Introducing GPT-6 Astra for developers",
-          "imageUrl": null
         }
       ]
     },
@@ -3902,6 +3996,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=167602",
+          "author": "Jordana Cepelewicz",
+          "description": "Mathematicians are facing the sudden shift with grief, anger, and a desperate search for fresh ideas: “If we don’t adapt, there’s just no more math in 50 years.”            \nThe post Is AI the End of Math As We Know It? first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/",
+          "publishedOn": "2026-10-05T13:40:07.000Z",
+          "wordCount": 4173,
+          "title": "Is AI the End of Math As We Know It?",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Qualia-MathWoes-cr.Eduardo-Ramon-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=167558",
           "author": "Stephen Ornes",

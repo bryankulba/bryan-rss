@@ -2,10 +2,249 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-05T11:18:37.281Z</updated>
+    <updated>2026-10-06T04:47:27.459Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Felix Rieseberg]]></title>
+        <id>https://simonwillison.net/2026/Oct/5/felix-rieseberg/</id>
+        <link href="https://simonwillison.net/2026/Oct/5/felix-rieseberg/"/>
+        <updated>2026-10-05T23:56:47.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/felixrieseberg/status/2107206431376334975"><p>The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.</p>
+<p>The "new" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]</p>
+<p>We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)</p></blockquote>
+<p class="cite">&mdash; <a href="https://twitter.com/felixrieseberg/status/2107206431376334975">Felix Rieseberg</a>, Anthropic, see also <a href="https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48">this help page</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/claude-cowork">claude-cowork</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Random TV Time: watch old TV pulled from the Internet...]]></title>
+        <id>https://kottke.org/26/10/0049737-random-tv-time</id>
+        <link href="https://kottke.org/26/10/0049737-random-tv-time"/>
+        <updated>2026-10-05T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Random TV Time: watch old TV pulled from the Internet Archive. 17 channels to surf, including cartoons, 1960s TV, and one that’s only old commercials.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designer Giorgia Lupi: In Defense of the Detour. “I fear...]]></title>
+        <id>https://kottke.org/26/10/0049722-in-defense-of-the-detour</id>
+        <link href="https://kottke.org/26/10/0049722-in-defense-of-the-detour"/>
+        <updated>2026-10-05T20:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Designer Giorgia Lupi: In Defense of the Detour. “I fear that A.I. is undermining what makes us most human — the ability to translate lived experience and nuanced thoughts into a unique point of view…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Cyberpunk is now]]></title>
+        <id>https://www.robinsloan.com/lab/cyberpunk-is-now/</id>
+        <link href="https://www.robinsloan.com/lab/cyberpunk-is-now/"/>
+        <updated>2026-10-05T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Finally! <a href="https://www.robinsloan.com/lab/cyberpunk-is-now/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Scrutinized (05 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13366</id>
+        <link href="https://pluralistic.net/2026/10/05/pervert-glasses/"/>
+        <updated>2026-10-05T18:58:11.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Scrutinized: Pervert glasses vs the authentic self. Hey look at this: Delights to delectate. Object permanence: DRM-free in the UK; Maple-leaf roses; Italian Wikipedia shuts down; Vancouver's property speculator tax works; Ex-Soviet leftists launch "September"; "The Every"; Nielsen x Chinese internet; Get-a-cluevog; Cat EULA; Heart carafe; Millennials screwed; Apple's unlawful evil. Upcoming appearances: Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Scrutinized (permalink) We're repeatedly told that the killer app for pervert glasses – Meta's…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stalin Boys is a short documentary about a Joseph...]]></title>
+        <id>https://kottke.org/26/10/0049740-stalin-boys</id>
+        <link href="https://kottke.org/26/10/0049740-stalin-boys"/>
+        <updated>2026-10-05T18:27:00.000Z</updated>
+        <summary type="html"><![CDATA[Stalin Boys is a short documentary about a Joseph Stalin-obsessed middle-schooler from a tiny Texas town who writes a play about the Soviet dictator and enlists his three friends to stage it for the Texas State History Fair. Free to watch online.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TV Simulator’s TV Poetry]]></title>
+        <id>https://waxy.org/?p=51274</id>
+        <link href="https://tvsimulator.com/poems/intro/"/>
+        <updated>2026-10-05T18:04:05.000Z</updated>
+        <summary type="html"><![CDATA[make a generative poem on any subject from short TV clips
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nappy is a site offering free stock photos of Black and...]]></title>
+        <id>https://kottke.org/26/10/0049739-nappy</id>
+        <link href="https://kottke.org/26/10/0049739-nappy"/>
+        <updated>2026-10-05T17:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Nappy is a site offering free stock photos of Black and brown people. (The site says they’re going offline in a few months due to a falloff in demand bc of AI. Maybe Internet Archive can do their thing here?)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[O Superman, Laurie Anderson]]></title>
+        <id>https://kottke.org/26/10/o-superman-laurie-anderson</id>
+        <link href="https://kottke.org/26/10/o-superman-laurie-anderson"/>
+        <updated>2026-10-05T16:17:00.000Z</updated>
+        <summary type="html"><![CDATA[O Superman by artist Laurie Anderson from 1981. Some of the lyrics:
+‘Cause when love is gone
+There’s always justice
+And when justice is gone
+There’s always force
+And when force is gone
+There’s always Mom
+Hi, Mom
+So hold me, Mom
+In your long arms
+So hold me, Mom
+In your long arms
+In your automatic arms
+Your electronic arms
+In your arms
+So hold me, Mom
+In your long arms
+Your petrochemical arms
+Your military arms
+In your electronic arms
+Ah, ah, ah, ah
+
+	
+60 Minutes did a profile of Anderson a few years ago and she explained the meaning of the song (to her):
+This is a song about how basically technology cannot save you. It’s about a lot of things: justice, safety, power.
+
+	
+
+As a kid growing up in rural Wisconsin, this kind of music wasn’t available to me, so I only actually heard this for the first time fairly recently. So I thought I’d post it in case you hadn’t really heard it either — that and the message & meaning it carries is relevant these days.
+I also liked this rendition of it, slowed down and reverbed. There are also several O Superman remixes on Soundcloud of varying quality.
+
+ 
+
+        
+         
+Tags: interviews · Laurie Anderson · music · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mapping Tariffs explores “the potential impacts of...]]></title>
+        <id>https://kottke.org/26/10/0049734-mapping-tariffs</id>
+        <link href="https://kottke.org/26/10/0049734-mapping-tariffs"/>
+        <updated>2026-10-05T15:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Mapping Tariffs explores “the potential impacts of tariffs on jobs and businesses across Canadian cities and communities at the neighbourhood and city level”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[After working hard taking away the civil rights of people...]]></title>
+        <id>https://kottke.org/26/10/0049729-neighbors-are-protesting-</id>
+        <link href="https://kottke.org/26/10/0049729-neighbors-are-protesting-"/>
+        <updated>2026-10-05T14:40:00.000Z</updated>
+        <summary type="html"><![CDATA[After working hard taking away the civil rights of people and granting more powers to our Mob Boss President, Chief Justice John Roberts retreats to a Maine island for the summer. But lately, neighbors are protesting his presence there. Good! No peace!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is AI the End of Math As We Know It?]]></title>
+        <id>https://www.quantamagazine.org/?p=167602</id>
+        <link href="https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/"/>
+        <updated>2026-10-05T13:40:07.000Z</updated>
+        <summary type="html"><![CDATA[Mathematicians are facing the sudden shift with grief, anger, and a desperate search for fresh ideas: “If we don’t adapt, there’s just no more math in 50 years.”            
+The post Is AI the End of Math As We Know It? first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Jordana Cepelewicz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 2026 Comedy Wildlife Awards Finalists]]></title>
+        <id>https://kottke.org/26/10/the-2026-comedy-wildlife-awards-finalists</id>
+        <link href="https://kottke.org/26/10/the-2026-comedy-wildlife-awards-finalists"/>
+        <updated>2026-10-05T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The Comedy Wildlife Awards have announced the finalists for the 2026 competition and, well, these awards never miss. You can almost hear the background music for some of these…
+
+ 
+
+        
+         
+Tags: best of · best of 2026 · photography]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5oct26]]></title>
+        <id>https://warrenellis.ltd/?p=19076</id>
+        <link href="https://warrenellis.ltd/status/5oct26/"/>
+        <updated>2026-10-05T12:06:37.000Z</updated>
+        <summary type="html"><![CDATA[Overslept by a full hour. One of the best takes on DIGGER that I’ve seen, CONTAINS ALL THE SPOILERS On the newsletter: the complete first…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Premiere: Ava Rasti’s  The River]]></title>
+        <id>https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river</id>
+        <link href="https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river"/>
+        <updated>2026-10-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The River, first performed as part of the 2025 Semibreve festival.
+
+The River by Iranian-born Berlin-based composer Ava Rasti was commissioned by Portuguese festival Semibreve and first presented on 25 October 2025 at the Capela Imaculada do Seminário Menor in Braga. The performance brought together Rasti and a string quartet composed of Filipa Abreu (violin), Vânia Oliveira (viola), Tiago Mendes (cello) and Catarina Coelho (cello).
+
+
+    Wire subscribers can read Claire Sawer's review of Semibreve 2025 here.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qwen3.8 27B addition in words]]></title>
+        <id>https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/</id>
+        <link href="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"/>
+        <updated>2026-10-04T23:34:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme">Qwen3.8 27B addition in words</a></p>
+        <p>Colin Frasier <a href="https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could "compute the sum but return the answer in words" across increasingly large numbers. Here's the chart he shared of those results:</p>
+<p><img alt="Heatmap chart of accuracy on an addition prompt, colored from dark green (high) through yellow to dark red (low). Title: &quot;What is {a} + {b}? Please write your answer in words. Do not include any other text or information, just the answer in words.&quot; Subtitle: 30 randomly selected pairs for each digit combination (n = 30 * 13 * 13 = 5070). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Values by row, listed for a = 1 to 13. b = 13: 100%, 77%, 27%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 97%, 80%, 80%, 40%, 23%, 20%, 7%, 13%, 20%, 27%, 67%, 63%, 3%. b = 11: 97%, 97%, 53%, 17%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 37%, 0%. b = 10: 100%, 90%, 47%, 20%, 7%, 0%, 0%, 0%, 3%, 0%, 0%, 7%, 0%. b = 9: 97%, 93%, 80%, 77%, 53%, 67%, 47%, 87%, 97%, 3%, 0%, 13%, 0%. b = 8: 93%, 87%, 53%, 43%, 7%, 0%, 0%, 13%, 87%, 0%, 0%, 0%, 0%. b = 7: 93%, 93%, 47%, 10%, 13%, 20%, 23%, 0%, 70%, 0%, 0%, 0%, 0%. b = 6: 100%, 100%, 100%, 83%, 97%, 97%, 23%, 0%, 53%, 3%, 0%, 10%, 0%. b = 5: 100%, 100%, 80%, 70%, 73%, 100%, 13%, 13%, 70%, 0%, 20%, 30%, 0%. b = 4: 100%, 100%, 93%, 100%, 60%, 97%, 20%, 50%, 67%, 53%, 40%, 40%, 40%. b = 3: 100%, 100%, 97%, 90%, 83%, 100%, 63%, 50%, 63%, 53%, 60%, 60%, 30%. b = 2: 100%, 100%, 90%, 97%, 93%, 100%, 93%, 83%, 90%, 83%, 87%, 87%, 83%. b = 1: 100%, 100%, 100%, 97%, 100%, 97%, 97%, 97%, 100%, 100%, 100%, 97%, 100%." src="https://static.simonwillison.net/static/2026/colin-frasier-grid.webp" /></p>
+<p>I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment.</p>
+<p>I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using <code>Qwen3.8-27B-Q4_K_M.gguf</code>. Here's the result for a run of 30 attempts per combination with reasoning disabled:</p>
+<p><img alt="Heatmap in the same layout as the previous chart, using an orange (low) to white to blue (high) color scale, showing much lower accuracy overall. Title: Addition in words — Qwen3.8 27B Q4_K_M. Subtitle: Reasoning disabled · 30 fixed pairs per ordered digit-length cell (n = 5,070). Overall numeric accuracy: 1,195 / 5,070 (23.57%). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 100%, 75%, 50%, 25%, 0%. Values by row, listed for a = 1 to 13. b = 13: 17%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 12: 53%, 20%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 11: 47%, 10%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 10: 70%, 27%, 3%, 0%, 0%, 0%, 0%, 0%, 0%, 13%, 0%, 0%, 0%. b = 9: 77%, 47%, 3%, 0%, 0%, 0%, 0%, 3%, 7%, 0%, 0%, 0%, 0%. b = 8: 53%, 20%, 0%, 0%, 0%, 0%, 7%, 13%, 0%, 0%, 0%, 0%, 0%. b = 7: 53%, 23%, 17%, 10%, 3%, 3%, 13%, 3%, 0%, 0%, 0%, 0%, 0%. b = 6: 60%, 60%, 33%, 10%, 53%, 47%, 7%, 3%, 0%, 0%, 0%, 0%, 0%. b = 5: 73%, 67%, 87%, 80%, 53%, 40%, 0%, 0%, 3%, 0%, 0%, 0%, 0%. b = 4: 83%, 93%, 90%, 93%, 53%, 13%, 0%, 0%, 0%, 0%, 0%, 0%, 0%. b = 3: 100%, 93%, 90%, 80%, 67%, 37%, 17%, 0%, 0%, 3%, 0%, 0%, 0%. b = 2: 100%, 100%, 93%, 90%, 77%, 77%, 43%, 50%, 63%, 43%, 40%, 13%, 23%. b = 1: 97%, 100%, 100%, 100%, 80%, 67%, 77%, 80%, 80%, 60%, 43%, 30%, 37%. Footnote: Colorblind-safe orange–blue scale; percentages provide a redundant non-color encoding." src="https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp" /></p>
+<p>Then I ran it again with reasoning enabled. This took a <em>lot longer</em> per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%:</p>
+<p><img alt="Heatmap in the same layout as the previous charts, almost entirely blue. Title: Addition in words — Qwen3.8 27B — medium reasoning pilot. Subtitle: 1 fixed pair per ordered digit-length cell · easiest first (n = 169). X axis: Number of digits in a, 1 to 13. Y axis: Number of digits in b, 1 to 13. Legend: Accuracy, 1.00, 0.75, 0.50, 0.25, 0.00. Every cell shows 100% except two orange cells showing 0%: a = 2 with b = 8, and a = 12 with b = 9." src="https://static.simonwillison.net/static/2026/qwen-words-reasoning.png" /></p>
+<p>It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here.</p>
+<p>Here's a <a href="https://gist.github.com/simonw/8ef79c777ad34c53e9c09094800576a5#full-reasoning-transcript-2">version of the report</a> that includes the reasoning traces from some of those larger calculations, which include text like this:</p>
+<pre><code>Wait, let me redo this more carefully.
+
+4,299,366,105,622
+6,088,794,067,970
+
+Let me align them:
+4 2 9 9 3 6 6 1 0 5 6 2 2
+6 0 8 8 7 9 4 0 6 7 9 7 0
+
+Adding from right to left:
+Position 1 (units): 2 + 0 = 2
+Position 2 (tens): 2 + 7 = 9
+Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
+</code></pre>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/local-llms">local-llms</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/llm-reasoning">llm-reasoning</a>, <a href="https://simonwillison.net/tags/dgx-spark">dgx-spark</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Upcoming Public Appearances, 2026/27]]></title>
         <id>http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html</id>
@@ -14,6 +253,16 @@
         <summary type="html"><![CDATA[Upcoming fixtures My public visibility took a nose-dive in 2020 (can't think why!) and didn't really begin to pick up again until 2024, due to multiple reasons, principally COVID19 and some chronic health issues. The health issues are now under...]]></summary>
         <author>
             <name>Charlie's Diary</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Artificial symbiotic intelligence ⊗ The politics of the planetary]]></title>
+        <id>6ac157a7c06aa600011730e8</id>
+        <link href="https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary-no-419/"/>
+        <updated>2026-10-04T10:00:51.000Z</updated>
+        <summary type="html"><![CDATA[No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
         </author>
     </entry>
     <entry>
@@ -553,6 +802,26 @@ See also A Blinking Map of the World’s Lighthouses. And mapped.earth has more 
 Tags: infoviz · maps]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pwasm 0.2a0]]></title>
+        <id>https://simonwillison.net/2026/Oct/1/pwasm/</id>
+        <link href="https://simonwillison.net/2026/Oct/1/pwasm/"/>
+        <updated>2026-10-01T17:10:31.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/pwasm/releases/tag/0.2a0">pwasm 0.2a0</a></p>
+        <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href="https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp">AI mania</a>.</p>
+<p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements:</p>
+<blockquote>
+<p><code>Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the <a href="https://github.com/simonw/research">research repo</a> working under it - and what it would take to speed it up</code></p>
+</blockquote>
+<p><a href="https://github.com/simonw/pwasm/pull/12">42 commits later</a> (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of  <a href="https://micropython.org/">MicroPython</a>, <a href="https://github.com/quickjs-ng/quickjs">QuickJS</a> and <a href="https://github.com/bellard/mquickjs">Micro QuickJS</a>.</p>
+<p>I wouldn't trust this thing at all - hence the alpha version tag - but it's interesting seeing how today's models can improve on the work of models from 10 months ago.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -1145,6 +1414,21 @@ Tags: crime · Donald Trump · kidnapping · minnesota · quilts]]></summary>
         <summary type="html"><![CDATA[Whoa, for the 50th anniversary of Songs in the Key of Life, Stevie Wonder has released four additional songs from that recording session. “We didn’t add these songs to the album, but they were part of what I was feeling and discovering as we made it.”]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-anthropic 0.30]]></title>
+        <id>https://simonwillison.net/2026/Sep/28/llm-anthropic/</id>
+        <link href="https://simonwillison.net/2026/Sep/28/llm-anthropic/"/>
+        <updated>2026-09-28T23:06:21.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.30">llm-anthropic 0.30</a></p>
+        <p>In addition to Claude Sonnet 5.5, this release adds the ability to run <code>llm anthropic refresh</code> to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model.</p>
+<p>I also added an <code>llm anthropic count</code> command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6822,121 +7106,6 @@ Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think 
 
 
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/november-2025-inflection">november-2025-inflection</a>, <a href="https://simonwillison.net/tags/recursive-self-improvement">recursive-self-improvement</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The purpose of DNS is to spread scams]]></title>
-        <id>https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/</id>
-        <link href="https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/"/>
-        <updated>2026-09-06T14:40:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/">The purpose of DNS is to spread scams</a></strong></p>
-Terence Eden shares some daunting statistics in support of his take that "the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate".</p>
-<p>On <a href="https://interisle.net/insights/cybercriminaldomaindemand">this Interisle report</a> (<a href="https://labs.ripe.net/author/andrew_campling/dns-abuse-and-criminal-infrastructure-beyond-definitions-and-blocklists/">via Andrew Campling</a>), Terence says:</p>
-<blockquote>
-<p>It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis.</p>
-</blockquote>
-<p>I had no idea. Apparently ICANN have been discussing this problem for years.
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/dns">dns</a>, <a href="https://simonwillison.net/tags/scams">scams</a>, <a href="https://simonwillison.net/tags/terence-eden">terence-eden</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[That BOGO feeling]]></title>
-        <id>https://www.blackbirdspyplane.com/p/that-bogo-feeling</id>
-        <link href="https://www.blackbirdspyplane.com/p/that-bogo-feeling"/>
-        <updated>2026-09-06T13:02:41.000Z</updated>
-        <summary type="html"><![CDATA[A trove of sick reversible tees. Plus slim-soled sporty Mary Janes, chatting with a visionary weaver & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The future is not tech-forward ⊗ Models don’t go rogue]]></title>
-        <id>6a9b2d877d32cc00018c5498</id>
-        <link href="https://sentiers.media/the-future-is-not-tech-forward-models-dont-go-rogue-no-415/"/>
-        <updated>2026-09-06T10:00:44.000Z</updated>
-        <summary type="html"><![CDATA[No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The future is not tech-forward ⊗ Models don’t go rogue]]></title>
-        <id>6a9b2d877d32cc00018c5498</id>
-        <link href="https://sentiers.media/the-future-is-not-tech-forward-models-dont-go-rogue/"/>
-        <updated>2026-09-06T10:00:44.000Z</updated>
-        <summary type="html"><![CDATA[No.415 — Integrated Strategic Forecasting ⊗ Fable solves the Cyphral Distich ⊗ Is the Arctic China’s new highway to Europe? ⊗ Black Hole Stars]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Pacing consensus]]></title>
-        <id>https://www.robinsloan.com/lab/pacing-consensus/</id>
-        <link href="https://www.robinsloan.com/lab/pacing-consensus/"/>
-        <updated>2026-09-06T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Good development, huge challenge. <a href="https://www.robinsloan.com/lab/pacing-consensus/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There's No Limit to How Bad Code Can Get]]></title>
-        <id>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</id>
-        <link href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"/>
-        <updated>2026-09-06T09:08:06.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw">My comment</a> on <a href="https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get">There&#x27;s No Limit to How Bad Code Can Get</a> &mdash; Lobste.rs.</p><p><em>[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]</em></p>
-<p>In my experience it's <em>so rare</em> for that to work.</p>
-<p>You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins.</p>
-<p>Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount.</p>
-<p>Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't <em>need</em> to be replaced, after all...</p>
-<p>After months (or even years) without delivering value, the pressure is on to "ship it", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system.</p>
-<p>... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually.</p>
-<p>If you're <em>really lucky</em> the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that "priorities have changed" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one.</p>
-<p>The best article I've read about completing this process responsibly is <a href="https://lethain.com/migrations/">Migrations: the sole scalable fix to tech debt</a> by Will Larson.</p>
-<p>If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/migrations">migrations</a>, <a href="https://simonwillison.net/tags/technical-debt">technical-debt</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Zach Kehs]]></title>
-        <id>https://simonwillison.net/2026/Sep/6/zach-kehs/</id>
-        <link href="https://simonwillison.net/2026/Sep/6/zach-kehs/"/>
-        <updated>2026-09-06T08:42:49.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can <em>always</em> get worse. There can <em>always</em> be a new layer of indirection or a reduction in performance.</p></blockquote>
-<p class="cite">&mdash; <a href="https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref">Zach Kehs</a>, There's No Limit to How Bad Code Can Get</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/technical-debt">technical-debt</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing GPT-6 Astra for developers]]></title>
-        <id>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</id>
-        <link href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/"/>
-        <updated>2026-09-05T23:27:48.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.youtube.com/watch?v=bOC3DisEOfg">Introducing GPT-6 Astra for developers</a></strong></p>
-Blink and you'll miss it, but there's a familiar creature at <a href="https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119">1m59s</a>:</p>
-<blockquote>
-<p>Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, <strong>animals</strong>, cityscapes, even Dyson spheres.</p>
-</blockquote>
-<p><img alt="astra-video-pelican.webp" src="https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp" /></p>
-<p>Astra <a href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/">really</a> does <a href="https://simonwillison.net/2026/Sep/4/astra-pelicans/">believe</a> in putting a red neckerchief on a pelican riding a bicycle.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49554643#49575117">Hacker News comment</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>
