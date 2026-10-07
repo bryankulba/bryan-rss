@@ -2,10 +2,192 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-07T04:13:28.199Z</updated>
+    <updated>2026-10-07T18:24:38.499Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[In 2005, NASA’s Jet Propulsion Laboratory calculated that...]]></title>
+        <id>https://kottke.org/26/10/0049749-calculated</id>
+        <link href="https://kottke.org/26/10/0049749-calculated"/>
+        <updated>2026-10-07T18:03:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2005, NASA’s Jet Propulsion Laboratory calculated that the water stored by China’s huge Three Gorges Dam is enough to increase the length of a day by 0.06 microseconds and move the North pole by 0.8 inches. (A 9.1 earthquake had a bigger impact.)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lots and Lots and Lots of Control Panels]]></title>
+        <id>https://kottke.org/26/10/lots-and-lots-and-lots-of-control-panels</id>
+        <link href="https://kottke.org/26/10/lots-and-lots-and-lots-of-control-panels"/>
+        <updated>2026-10-07T16:32:00.000Z</updated>
+        <summary type="html"><![CDATA[To go along with my recent post about control rooms, here’s the Control Panels group on Flickr, containing almost 3000 photos of control interfaces for all kinds of things.
+You’ll see some of the same photos as in the Control Rooms group, but when you get past the first couple of pages, there’s more variety: fiddly knobs, entire walls of nearly identical switches, dials, inscrutable gauges, soda machine interfaces, bump it and you might die buttons, computers with switches, Swinging Fingers (!!), and many more…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How much Gorton did you spot?
+
+ 
+
+        
+         
+Tags: design · photography]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Job Trail, a web game about making it through 52...]]></title>
+        <id>https://kottke.org/26/10/0049744-the-job-trail</id>
+        <link href="https://kottke.org/26/10/0049744-the-job-trail"/>
+        <updated>2026-10-07T15:22:00.000Z</updated>
+        <summary type="html"><![CDATA[The Job Trail, a web game about making it through 52 weeks as a laid-off creative worker. Based on The Oregon Trail. My first try: “You have died of burnout. Week 13. 51 applications, 1 ghosting.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines]]></title>
+        <id>https://www.quantamagazine.org/?p=167663</id>
+        <link href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/"/>
+        <updated>2026-10-07T15:08:46.000Z</updated>
+        <summary type="html"><![CDATA[In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.            
+The post As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Ben Brubaker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anti-Patterns in Software Blogging]]></title>
+        <id>https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/</id>
+        <link href="https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"/>
+        <updated>2026-10-07T14:53:51.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://refactoringenglish.com/blog/anti-patterns-software-blogging/#summary">Anti-Patterns in Software Blogging</a></strong></p>
+Some excellent writing advice from Michael Lynch. Michael warns against "meandering intros", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality.</p>
+<p>He also warns against <a href="https://refactoringenglish.com/blog/anti-patterns-software-blogging/#overreliance-on-links">overreliance on links</a> as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them.</p>
+<p>(In <a href="https://lobste.rs/s/rwdufq/anti_patterns_software_blogging#c_qdhhsd">a Lobste.rs comment</a> Michael clarifies that "My rule of thumb is that my article should still make sense to the reader even if they don't click any links". That works for me.)</p>
+<p>This point about using your own voice is crucial:</p>
+<blockquote>
+<p>Beginner software bloggers suffer from a mass delusion that you have to write in a stiff, overly formal way for people to take you seriously [...]</p>
+<p>Just write the way you talk.</p>
+<p>With so many developers delegating their writing to AI, software blogging is becoming bland and homogenous. Readers are hungry for writing with personality.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://lobste.rs/s/rwdufq/anti_patterns_software_blogging">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/blogging">blogging</a>, <a href="https://simonwillison.net/tags/writing">writing</a>, <a href="https://simonwillison.net/tags/michael-lynch">michael-lynch</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Disloyalty (07 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13376</id>
+        <link href="https://pluralistic.net/2026/10/07/gouged/"/>
+        <updated>2026-10-07T13:58:46.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Disloyalty: Air Canada's frequent flier fuckery. Hey look at this: Delights to delectate. Object permanence: Indie booksellers v internet; Coke pays dieticians to astroturf soda taxes; Voting in a voter-suppression state; Facebook v your use of Facebook. Upcoming appearances: Hudson, Calgary, Winnipeg, Paris, Vancouver, Victoria, Ottawa, Kilkenny, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Disloyalty (permalink) Up until very recently indeed, airlines were the only businesses that I dealt with regularly that practiced "price discrimination," charging different customers different prices for the same seats. Economists broa…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blue Planet III]]></title>
+        <id>https://kottke.org/26/10/blue-planet-iii</id>
+        <link href="https://kottke.org/26/10/blue-planet-iii"/>
+        <updated>2026-10-07T13:58:00.000Z</updated>
+        <summary type="html"><![CDATA[BBC Earth is returning to the ocean. 25 years after the first installment, the legendary naturalist, presenter, and centenarian David Attenborough narrates Blue Planet III. This first look video, backed by a song Hans Zimmer & Jade Thirwall, is teeming with stunning footage of sea life of all sorts.
+Ed Yong called BPIII’s predecessor the best nature series ever:
+Blue Planet II is the greatest nature series that the BBC has ever produced.
+It is almost transcendentally good—the product of a team that, after six decades of experience, is now at the height of its powers. The Blue Planet II crew traveled to 39 countries to capture over 6,000 hours of footage. They stuck their cameras into coral crevices. They hung off speedboats to film dolphins rocketing behind them. They literally stared into the abyss—and then repeatedly entered it. The resulting episodes, each narrated by David Attenborough in his trademark velvety tones, are hour-long distillations of wonder, featuring sequences that would be breathtaking had earlier shots left you with any breath to take away.
+
+	
+Blue Planet III will air sometime later in the year in the UK; not so sure about timelines in other locations at this point.
+
+ 
+
+        
+         
+Tags: Blue Planet · David Attenborough · trailers · TV · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[118 Things to Do Instead of Doomscrolling. Including “put...]]></title>
+        <id>https://kottke.org/26/10/0049707-118-things-to-do-instead-</id>
+        <link href="https://kottke.org/26/10/0049707-118-things-to-do-instead-"/>
+        <updated>2026-10-07T13:14:00.000Z</updated>
+        <summary type="html"><![CDATA[118 Things to Do Instead of Doomscrolling. Including “put together a puzzle”, “go for a bike ride”, “hold a plank for as long as you can — even if it’s only a second”, and “make your own limoncello”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7oct26]]></title>
+        <id>https://warrenellis.ltd/?p=19110</id>
+        <link href="https://warrenellis.ltd/status/7oct26/"/>
+        <updated>2026-10-07T11:15:19.000Z</updated>
+        <summary type="html"><![CDATA[This is the face of a mancub who blames me specifically for the drop in temperature and the loss of the sun. I have sympathy:…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[womanthology]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12399</id>
+        <link href="https://www.velcro-city.co.uk/womanthology/"/>
+        <updated>2026-10-07T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[On gender representation and generational enantiodromia in genre fiction anthologies.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Jake Boggan]]></title>
+        <id>https://simonwillison.net/2026/Oct/7/jake-boggan/</id>
+        <link href="https://simonwillison.net/2026/Oct/7/jake-boggan/"/>
+        <updated>2026-10-07T04:47:55.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://news.ycombinator.com/item?id=49984923#49987367"><p>I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it.</p>
+<p>But it's supposedly proven here - <a href="https://github.com/openai/math/blob/main/lean/docs/180.md">problem 180</a>. I don't know what to think exactly. I spent thousands of hours on that problem. I really enjoyed it. Hearing that it is solved somehow makes me sad in a far-off way, like hearing an ex-girlfriend died suddenly in a car crash. I don't know, there's probably a lot of people feeling odd emotions tonight.</p></blockquote>
+<p class="cite">&mdash; <a href="https://news.ycombinator.com/item?id=49984923#49987367">Jake Boggan</a>, Hacker News comment on <a href="https://github.com/openai/math">openai/math</a></p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI “rogue” agent activities found on Wikimedia projects]]></title>
         <id>https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/</id>
@@ -7338,127 +7520,6 @@ OpenAI's image generation models are apparently used "more than 3 billion images
 The post AI Has Solved One of Math’s $1 Million Millennium Prize Problems first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Konstantin Kakaes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Teaser trailer  for  You Can See Everything  from Nathan...]]></title>
-        <id>https://kottke.org/26/09/0049553-teaser-trailer</id>
-        <link href="https://kottke.org/26/09/0049553-teaser-trailer"/>
-        <updated>2026-09-08T00:04:22.000Z</updated>
-        <summary type="html"><![CDATA[Teaser trailer for You Can See Everything from Nathan Fielder & Lance Oppenheim. “Thirty-four days before she’s sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move.” WHAT WAS THAT?]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[RIDGELINE] A Few London Strolls]]></title>
-        <id>https://craigmod.com/ridgeline/233/</id>
-        <link href="https://craigmod.com/ridgeline/233/"/>
-        <updated>2026-09-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ridgeline subscribers —
-For the last ten days I’ve been walking around London. Mostly in a little corner of it in the northeast part of the city. But can you even call a part a “corner” when the city extends in every direction without stopping? Whatever you call it, I’ve been in my little northeast section (if not corner) spending mornings reading and writing until I’m cross-eyed and then afternoons walking the streets over and over again.]]></summary>
-        <author>
-            <name>Craig Mod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Against The Grain: Listening after Palantir]]></title>
-        <id>https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-listening-after-palantir</id>
-        <link href="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-listening-after-palantir"/>
-        <updated>2026-09-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 512
-
-
-    Maven can combine large volumes of data from radar, satellite, communications and even audio sources before applying machine learning techniques to identify possible military targets. We now live in a world where our homes, schools and workplaces can become clusters of data points.
-
-The Wire 499), machine listening integrates audio and machine learning systems to monitor, analyse, govern and modulate human and nonhuman systems through computational renderings of the soundscape. As these systems proliferate globally, they represent an imperial mode of decision making and environmental governance that is in conflict with the basic tenets of democratic accountability. Who owns and governs these systems? Who or what do they hear, and what remains unheard? Who acts upon the c…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm 0.35]]></title>
-        <id>https://simonwillison.net/2026/Sep/7/llm/</id>
-        <link href="https://simonwillison.net/2026/Sep/7/llm/"/>
-        <updated>2026-09-07T23:54:54.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.35">llm 0.35</a></p>
-        <blockquote>
-<ul>
-<li>New OpenAI model: <code>gpt-6-astra</code> for <a href="https://openai.com/index/gpt-6-astra/">GPT-6 Astra</a>.</li>
-</ul>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creepy crawlies]]></title>
-        <id>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</id>
-        <link href="https://simonwillison.net/2026/Sep/7/creepy-crawlies/"/>
-        <updated>2026-09-07T23:08:58.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://people.kernel.org/monsieuricon/creepy-crawlies">Creepy crawlies</a></strong></p>
-Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of <a href="https://git.kernel.org/">git.kernel.org</a>, the official Git repository for the Linux kernel:</p>
-<blockquote>
-<p>TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html.</p>
-</blockquote>
-<p>I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49491791">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/crawling">crawling</a>, <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/linux">linux</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Jakub Pachocki]]></title>
-        <id>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</id>
-        <link href="https://simonwillison.net/2026/Sep/7/jakub-pachocki/"/>
-        <updated>2026-09-07T22:26:25.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://openai.com/index/an-alien-mind/#scalable-defense"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]</p>
-<p>We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.</p>
-<p>At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes.</p></blockquote>
-<p class="cite">&mdash; <a href="https://openai.com/index/an-alien-mind/#scalable-defense">Jakub Pachocki</a>, Chief Scientist at OpenAI</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Video compressor]]></title>
-        <id>https://simonwillison.net/2026/Sep/7/video-compressor/</id>
-        <link href="https://simonwillison.net/2026/Sep/7/video-compressor/"/>
-        <updated>2026-09-07T18:29:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/video-compressor">Video compressor</a></p>
-        <p>I recorded a short demo video of <a href="https://simonwillison.net/2026/Sep/7/equal-earth/">my Equal Earth</a> animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web <a href="https://claude.ai/code/session_01QHTdJZ4xg6TZfDXCmuvAE9">build me this tool</a> using the WebAssembly build of FFMPEG.</p>
-<p><img alt="Screenshot of a video compression web tool. Under &quot;Versions to generate&quot; is a table of five presets (Largest, Large, Medium, Small, Smallest) with output sizes of 854×370 or 640×276, CRF quality settings from 22 to 28, and audio bitrates from 128 to 64 kbps, plus options for encoder speed, H.264 profile, 30 fps limit, stripping metadata, dropping audio, and encoding only the first 10 seconds. A green &quot;Generate versions&quot; button reads &quot;Done: 5 versions in 11.8s.&quot; Below, &quot;Results, smallest first&quot; shows three video players: Smallest at 145 KB (48% of original), Medium at 241 KB (79%), and Small at 264 KB (87%), each with a Download .mp4 button and a collapsible ffmpeg command." src="https://static.simonwillison.net/static/2026-09-07/video-compressor.webp" /></p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/ffmpeg">ffmpeg</a>, <a href="https://simonwillison.net/tags/video">video</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mercator ↔ Equal Earth]]></title>
-        <id>https://simonwillison.net/2026/Sep/7/equal-earth/</id>
-        <link href="https://simonwillison.net/2026/Sep/7/equal-earth/"/>
-        <updated>2026-09-07T16:24:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/equal-earth">Mercator ↔ Equal Earth</a></p>
-        <p>I got curious about the Equal Earth map projection that was recently <a href="https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa">voted on at the UN</a> so I had GPT-6 Astra (medium) in ChatGPT Work <a href="https://chatgpt.com/share/6a9ee520-c82c-83ea-8111-2f7050c08638">build me</a> this animated transition between Mercator and Equal Earth using D3.</p>
-<center><video controls playsinline preload="none" width="360" height="476" poster="https://static.simonwillison.net/static/2026-09-07/equal-earth.jpg">
-  <source src="https://static.simonwillison.net/static/2026-09-07/equal-earth-medium.mp4" type="video/mp4">
-</video></center>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/geospatial">geospatial</a>, <a href="https://simonwillison.net/tags/d3">d3</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
