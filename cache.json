@@ -2671,26 +2671,6 @@
           "wordCount": 1507,
           "title": "8sep26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2090-rotated-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18910",
-          "author": "Warren Ellis",
-          "description": "TOO TIRED TO SAY ANYTHING: Everything Is Remembered – 15-min ambient music podcast Monument Podcast (MNMT 534 : Alex Tirelli) – 1hr techno music podcast, on the quiet pulsing end of the…",
-          "link": "https://warrenellis.ltd/marks/telemetry-7sep26/",
-          "publishedOn": "2026-09-07T15:59:01.000Z",
-          "wordCount": 1028,
-          "title": "telemetry 7sep26",
-          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18904",
-          "author": "Warren Ellis",
-          "description": "Right, then. Autumn’s here, and I’m shifting gears. Massively simplifying, going analogue wherever possible, going back to handwritten daybook lists in the office, and going…",
-          "link": "https://warrenellis.ltd/status/7sep26/",
-          "publishedOn": "2026-09-07T12:06:24.000Z",
-          "wordCount": 1444,
-          "title": "7sep26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2089-rotated-1.jpg"
         }
       ]
     },
@@ -3145,6 +3125,36 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\">OpenAI “rogue” agent activities found on Wikimedia projects</a></strong></p>\nGiven how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking:</p>\n<blockquote>\n<p>The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below.</p>\n</blockquote>\n<p>They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and \"hundreds of thousands of data queries\" to their Wikidata Query Service.</p>\n<p>My best guess is that most of this was a similar (or the same) swarm of agents as those that <a href=\"https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/\">defaced that German wiki</a> while training for research tasks.</p>\n<p>The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/wikimedia\">wikimedia</a>, <a href=\"https://simonwillison.net/tags/wikipedia\">wikipedia</a>, <a href=\"https://simonwillison.net/tags/wikis\">wikis</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/accidental-cyberattacks\">accidental-cyberattacks</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+          "publishedOn": "2026-10-07T00:16:45.000Z",
+          "wordCount": 941,
+          "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\">Victoria Kim</a>, Reporting from the Australian parliament</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/accidental-cyberattacks\">accidental-cyberattacks</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+          "publishedOn": "2026-10-06T23:58:56.000Z",
+          "wordCount": 749,
+          "title": "Quoting Victoria Kim",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0\">llm-openai-decisions 0.1a0</a></p>\n        <p>OpenAI released their new Jev-style <a href=\"https://developers.openai.com/api/docs/guides/decisions\">Decisions API</a>, as previously announced at last week's DevDay.</p>\n<p>Since I already have an <a href=\"https://github.com/simonw/llm-typesafe\">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an <code>llm-openai-decisions</code> plugin inspired by <code>llm-typesafe</code>.</p>\n<p>Unlike Jev, the new <code>gpt-6-luna</code> decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million.</p>\n<p>Otherwise the API shape is <em>very</em> similar to Jev, at least conceptually. Jev <a href=\"https://simonwillison.net/2026/Sep/21/jev/#three-types\">supports three question types</a> for yes/no, choices, or scores. OpenAI Decisions supports the same three types.</p>\n<p>Install the plugin like this:</p>\n<pre><code>llm install llm-openai-decisions\n</code></pre>\n<p>Here's an example query against an image attachment:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm -m openai-decisions/gpt-6-luna \\\n  -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \\\n  -s <span class=\"pl-s\"><span class=\"pl-pds\">'</span>Does this image contain any mammals?<span class=\"pl-pds\">'</span></span></pre></div>\n<p>And example output:</p>\n<div class=\"highlight highlight-source-json\"><pre>{<span class=\"pl-ent\">\"type\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>predicate<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"name\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>evaluation<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"probability\"</span>: <span class=\"pl-c1\">0.0</span>}</pre></div>\n\n<p>Consult <a href=\"https://github.com/simonw/llm-openai-decisions/blob/main/README.md\">the README</a> for full details of how to run the other types of questions.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/jev\">jev</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+          "publishedOn": "2026-10-06T23:04:13.000Z",
+          "wordCount": 896,
+          "title": "llm-openai-decisions 0.1a0",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
           "author": null,

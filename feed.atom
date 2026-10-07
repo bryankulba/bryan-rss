@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-06T23:32:59.421Z</updated>
+    <updated>2026-10-07T04:13:28.199Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenAI “rogue” agent activities found on Wikimedia projects]]></title>
+        <id>https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/</id>
+        <link href="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"/>
+        <updated>2026-10-07T00:16:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/">OpenAI “rogue” agent activities found on Wikimedia projects</a></strong></p>
+Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking:</p>
+<blockquote>
+<p>The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below.</p>
+</blockquote>
+<p>They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and "hundreds of thousands of data queries" to their Wikidata Query Service.</p>
+<p>My best guess is that most of this was a similar (or the same) swarm of agents as those that <a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/">defaced that German wiki</a> while training for research tasks.</p>
+<p>The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/wikimedia">wikimedia</a>, <a href="https://simonwillison.net/tags/wikipedia">wikipedia</a>, <a href="https://simonwillison.net/tags/wikis">wikis</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Victoria Kim]]></title>
+        <id>https://simonwillison.net/2026/Oct/6/victoria-kim/</id>
+        <link href="https://simonwillison.net/2026/Oct/6/victoria-kim/"/>
+        <updated>2026-10-06T23:58:56.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a">Victoria Kim</a>, Reporting from the Australian parliament</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-openai-decisions 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Oct/6/llm-openai-decisions/</id>
+        <link href="https://simonwillison.net/2026/Oct/6/llm-openai-decisions/"/>
+        <updated>2026-10-06T23:04:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0">llm-openai-decisions 0.1a0</a></p>
+        <p>OpenAI released their new Jev-style <a href="https://developers.openai.com/api/docs/guides/decisions">Decisions API</a>, as previously announced at last week's DevDay.</p>
+<p>Since I already have an <a href="https://github.com/simonw/llm-typesafe">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an <code>llm-openai-decisions</code> plugin inspired by <code>llm-typesafe</code>.</p>
+<p>Unlike Jev, the new <code>gpt-6-luna</code> decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million.</p>
+<p>Otherwise the API shape is <em>very</em> similar to Jev, at least conceptually. Jev <a href="https://simonwillison.net/2026/Sep/21/jev/#three-types">supports three question types</a> for yes/no, choices, or scores. OpenAI Decisions supports the same three types.</p>
+<p>Install the plugin like this:</p>
+<pre><code>llm install llm-openai-decisions
+</code></pre>
+<p>Here's an example query against an image attachment:</p>
+<div class="highlight highlight-source-shell"><pre>llm -m openai-decisions/gpt-6-luna \
+  -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \
+  -s <span class="pl-s"><span class="pl-pds">'</span>Does this image contain any mammals?<span class="pl-pds">'</span></span></pre></div>
+<p>And example output:</p>
+<div class="highlight highlight-source-json"><pre>{<span class="pl-ent">"type"</span>: <span class="pl-s"><span class="pl-pds">"</span>predicate<span class="pl-pds">"</span></span>, <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>evaluation<span class="pl-pds">"</span></span>, <span class="pl-ent">"probability"</span>: <span class="pl-c1">0.0</span>}</pre></div>
+
+<p>Consult <a href="https://github.com/simonw/llm-openai-decisions/blob/main/README.md">the README</a> for full details of how to run the other types of questions.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/jev">jev</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[llm-mistral 0.16]]></title>
         <id>https://simonwillison.net/2026/Oct/6/llm-mistral/</id>
@@ -7398,26 +7459,6 @@ Konstantin Ryabitsev discusses how bad the "background radiation" of abusive cra
         <p>Tags: <a href="https://simonwillison.net/tags/geospatial">geospatial</a>, <a href="https://simonwillison.net/tags/d3">d3</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[telemetry 7sep26]]></title>
-        <id>https://warrenellis.ltd/?p=18910</id>
-        <link href="https://warrenellis.ltd/marks/telemetry-7sep26/"/>
-        <updated>2026-09-07T15:59:01.000Z</updated>
-        <summary type="html"><![CDATA[TOO TIRED TO SAY ANYTHING: Everything Is Remembered – 15-min ambient music podcast Monument Podcast (MNMT 534 : Alex Tirelli) – 1hr techno music podcast, on the quiet pulsing end of the…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7sep26]]></title>
-        <id>https://warrenellis.ltd/?p=18904</id>
-        <link href="https://warrenellis.ltd/status/7sep26/"/>
-        <updated>2026-09-07T12:06:24.000Z</updated>
-        <summary type="html"><![CDATA[Right, then. Autumn’s here, and I’m shifting gears. Massively simplifying, going analogue wherever possible, going back to handwritten daybook lists in the office, and going…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>

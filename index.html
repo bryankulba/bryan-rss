@@ -35,6 +35,92 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-07T00:16:45.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/" target="_blank" rel="noopener noreferrer">OpenAI “rogue” agent activities found on Wikimedia projects</a>
+          </h2>
+          <p class="feed-item__desc">OpenAI “rogue” agent activities found on Wikimedia projects
+The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below.
+They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and "hundreds of thousands of data queries" to their Wikidata Query Service.
+My best guess is that most of this was a similar (or the same) swarm of agents as those that defaced that German wiki while training for research tasks.
+The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th.
+
+
+    
+Tags: wikimedia, wikipedia, wikis, ai, generative-ai, llms, ai-ethics, accidental-cyberattacks</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/victoria-kim/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T23:58:56.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/victoria-kim/" target="_blank" rel="noopener noreferrer">Quoting Victoria Kim</a>
+          </h2>
+          <p class="feed-item__desc">Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.
+
+— Victoria Kim, Reporting from the Australian parliament
+Tags: accidental-cyberattacks, generative-ai, ai-security-research, openai, ai, llms</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/victoria-kim/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/victoria-kim/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/llm-openai-decisions/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-06T23:04:13.000Z">2026-10-06</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/6/llm-openai-decisions/" target="_blank" rel="noopener noreferrer">llm-openai-decisions 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm-openai-decisions 0.1a0
+OpenAI released their new Jev-style Decisions API, as previously announced at last week's DevDay.
+Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-decisions plugin inspired by llm-typesafe.
+Unlike Jev, the new gpt-6-luna decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million.
+Otherwise the API shape is very similar to Jev, at least conceptually. Jev supports three question types for yes/no, choices, or scores. OpenAI Decisions supports the same three types.
+Install the plugin like this:
+llm install llm-openai-decisions
+
+Here's an example query against an image attachment:
+llm -m openai-decisions/gpt-6-luna \
+  -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \
+  -s 'Does this image contain any mammals?'
+
+And example output:
+{"type": "predicate", "name": "evaluation", "probability": 0.0}
+
+
+Consult the README for full details of how to run the other types of questions.
+Tags: openai, llm, coding-agents, jev</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/6/llm-openai-decisions/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/6/llm-openai-decisions/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/6/llm-mistral/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-10-06T21:32:34.000Z">2026-10-06</time>
@@ -11968,50 +12054,6 @@ Tags: geospatial, d3, vibe-coding, gpt-6-astra</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/7/equal-earth/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18910">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-07T15:59:01.000Z">2026-09-07</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/marks/telemetry-7sep26/" target="_blank" rel="noopener noreferrer">telemetry 7sep26</a>
-          </h2>
-          <p class="feed-item__desc">TOO TIRED TO SAY ANYTHING: Everything Is Remembered – 15-min ambient music podcast Monument Podcast (MNMT 534 : Alex Tirelli) – 1hr techno music podcast, on the quiet pulsing end of the…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18910" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18910">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit&#x3D;512%2C512&amp;ssl&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;18904">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-07T12:06:24.000Z">2026-09-07</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/7sep26/" target="_blank" rel="noopener noreferrer">7sep26</a>
-          </h2>
-          <p class="feed-item__desc">Right, then. Autumn’s here, and I’m shifting gears. Massively simplifying, going analogue wherever possible, going back to handwritten daybook lists in the office, and going…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;18904" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;18904">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2089-rotated-1.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
