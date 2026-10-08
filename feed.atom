@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-08T00:01:07.519Z</updated>
+    <updated>2026-10-08T05:50:42.559Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Great Deals on Apple Stuff Today]]></title>
+        <id>https://kottke.org/26/10/great-deals-on-apple-stuff-today</id>
+        <link href="https://kottke.org/26/10/great-deals-on-apple-stuff-today"/>
+        <updated>2026-10-08T03:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Just wanted to dip in here to say that Amazon is running another one of their sales for Prime members, which can be a great opportunity to upgrade some tech items at lower prices, especially with the price increases we’ve seen recently. Just a couple of quick things:
+The AirPods Pro 3 are my daily headphones; I really do love them. They’re $179 right now ($249 regular price), which I think is the lowest price they’ve been.
+The 15-inch M5 MacBook Air starts at $1299 (normally $1499). I am typing this on my M4 Air, which is the best computer I’ve ever owned, and the temptation to upgrade is strong.
+If you like your laptops smaller, the 13-inch M5 MacBook Air is also on sale, starting at $1099 (regularly $1299).
+You can find more sale items here. I think these deals expire in a few hours, so hop to it.
+And also, other stores like Best Buy often do their own deals around this time and Bookshop.org is offering free shipping. I’m reading Marlon James’ The Disappearers right now and, oof, it’s great but harrowing.
+
+ 
+
+        
+         
+Tags: Amazon]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Margaret Hamilton, who led the 100-person team that...]]></title>
+        <id>https://kottke.org/26/10/0049756-she-was-90</id>
+        <link href="https://kottke.org/26/10/0049756-she-was-90"/>
+        <updated>2026-10-08T00:10:00.000Z</updated>
+        <summary type="html"><![CDATA[“Margaret Hamilton, who led the 100-person team that wrote the onboard software for the Apollo missions, guiding Neil Armstrong and Buzz Aldrin to a safe landing on the moon, died Sept. 30 in Cambridge, Mass. She was 90.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Triple-A Minesweeper]]></title>
         <id>https://waxy.org/?p=51280</id>
