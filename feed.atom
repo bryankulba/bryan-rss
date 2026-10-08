@@ -2,10 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-07T18:24:38.499Z</updated>
+    <updated>2026-10-08T00:01:07.519Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Triple-A Minesweeper]]></title>
+        <id>https://waxy.org/?p=51280</id>
+        <link href="https://minesweeper.mikelacher.com/"/>
+        <updated>2026-10-07T23:26:01.000Z</updated>
+        <summary type="html"><![CDATA[Mike Lacher’s action-packed AAA reboot of the Windows 3.11 classic
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Ben Affleck]]></title>
+        <id>https://simonwillison.net/2026/Oct/7/ben-affleck/</id>
+        <link href="https://simonwillison.net/2026/Oct/7/ben-affleck/"/>
+        <updated>2026-10-07T23:14:58.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s"><p>I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning.</p>
+<p>So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in numbers — like the batch number, the frame number, the red, green, and blue values of each pixel in each frame. </p>
+<p>And a tensor, you use a convolutional neural network to identify patterns in that that would reveal what's called edge detection or feature extraction, which is just identifying patterns enough to know like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s">Ben Affleck</a>, Pythonista</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/machine-learning">machine-learning</a>, <a href="https://simonwillison.net/tags/python">python</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where in the world are typefaces being designed? The US,...]]></title>
+        <id>https://kottke.org/26/10/0049716-where-in-the-world-are-ty</id>
+        <link href="https://kottke.org/26/10/0049716-where-in-the-world-are-ty"/>
+        <updated>2026-10-07T21:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Where in the world are typefaces being designed? The US, Germany, and France…but also the UK, Netherlands, and Indonesia.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Haiku 5.5]]></title>
+        <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</id>
+        <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"/>
+        <updated>2026-10-07T20:56:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>As previously <a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/">promised</a>, here's Anthropic's new fast, low cost model: <a href="https://www.anthropic.com/claude-haiku-5-5">Introducing Claude Haiku 5.5</a>.</p>
+<p>The previous Haiku, 4.5, was very much showing its age. It came out <a href="https://simonwillison.net/2025/Oct/15/claude-haiku-45/">almost a year ago</a>, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's <a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/#gpt-6-sol-and-luna-are-half-the-price-of-their-gpt-5-6-equivalents">GPT-6 Luna</a>, released last month.</p>
+
+<p>The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75.</p>
+<p>Haiku 5.5 also uses a new, less generous tokenizer. My <a href="https://tools.simonwillison.net/claude-token-counter">Claude Token Counter</a> tool shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku 4.5, so there's a hidden price increase there.</p>
+<p>If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks like a much better deal.</p>
+<p>The <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.30">most recent release of llm-anthropic</a> finally fixed it so I don't need to ship a new version of that plugin for every new model. I tested the new model like this:</p>
+<pre><code>llm install -U llm-anthropic
+llm anthropic refresh
+llm -m claude-haiku-5.5 "Generate an SVG of a pelican riding a bicycle" -o thinking_effort low
+</code></pre>
+<h4 id="pelicans">Pelicans</h4>
+<p>Here are <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F485dfa24b4efa1267ee2d0911594fb81">pelicans for low, medium, high, xhigh, and max</a>. The new Haiku doesn't let you disable reasoning, and defaults to <code>medium</code>. I got a good bicycle frame for everything beyond <code>low</code>. The <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F485dfa24b4efa1267ee2d0911594fb81#response">low effort pelican</a> cost 0.0936 cents and took 7 seconds.</p><p>This <code>max</code> effort pelican took 5 minutes 9 seconds to generate, but still only cost me <a href="https://www.llm-prices.com/#it=27&amp;ot=67647&amp;sel=claude-haiku-5.5">3.3826 cents</a>:</p>
+<p><img alt="Flat vector illustration: a white pelican wearing a red cap rides a dark grey bicycle from left to right across a green grassy strip, its long orange legs reaching down to the orange pedals, a grey wing stretched forward to grip the curved handlebars, and its large yellow-orange beak with a bulging orange throat pouch pointing ahead; behind it, white speed lines show motion, and above, a yellow sun with a pale halo and two white clouds sit in a gradient blue sky." src="https://static.simonwillison.net/static/2026-10-07/haiku-5.5-max.webp" /></p>
+
+<p>For comparison, here's the pelican I got <a href="https://simonwillison.net/2025/Oct/15/claude-haiku-45/">a year ago</a> from Haiku 4.5 (for <a href="https://www.llm-prices.com/#it=18&amp;ot=1513&amp;ic=1&amp;oc=5">0.7583 cents</a> - Haiku 4.5 did not support reasoning levels). It <em>sucked</em> at drawing pelicans:</p>
+
+<img src="https://static.simonwillison.net/static/2025/claude-haiku-4.5-pelican.jpg" alt="Described by Haiku 4.5: A whimsical illustration of a bird with a round tan body, pink beak, and orange legs riding a bicycle against a blue sky and green grass background." style="width: 60%; margin: 1em auto; display: block;" />
+
+<h4 id="api-credits">And a generous API credit scheme for subscribers</h4>
+
+<p>In addition to Haiku 5.5, Anthropic announced today that they are halving the price of cache reads for Sonnet 5.5. They've also added API credits to subscription plans:</p>
+<blockquote>
+<p>Second, this week, we’ll roll out <strong>a new monthly API credit to all Max and Team subscribers for use on the Claude Platform</strong>. Max 5x users will get $100 in credits per month, Max 20x users will get $200, and Team subscribers will receive up to $500, pooled across their users.</p>
+</blockquote>
+<p>Claiming this is pleasantly easy: navigate to <a href="https://claude.ai/new#settings/billing">Settings -&gt; Billing</a> and select the API organization that should benefit from the credits every month:</p>
+<p><img alt="Screenshot of a Settings dialog with a close X button at top right and a row of tabs reading &quot;General&quot;, &quot;Account&quot;, &quot;Privacy&quot;, &quot;Billing&quot; (selected), &quot;Usage&quot;, &quot;Capabilities&quot;, &quot;Memory&quot; and &quot;Design sys&quot; (cut off at the edge). Beside a line-drawn icon of a branching plant with circular buds, the panel reads &quot;Max plan&quot;, &quot;20x more usage than Pro&quot; and &quot;Your subscription will auto renew on Nov 2, 2026.&quot; with an &quot;Adjust plan&quot; button on the right. Below is a section headed &quot;API credits&quot; with a blue &quot;New&quot; badge, reading &quot;Your Max 20x plan includes $200 USD in API credits each month.&quot; followed by grey text &quot;Link an API organization to start receiving credits.&quot; with a &quot;Link organization&quot; button on the right." src="https://static.simonwillison.net/static/2026-10-07/claude-credits.webp" /></p>
+
+<p>The API credits exactly match the cost of the subscription itself. This is really generous - it makes it much easier for subscribers to use the API. Anthropic also let you disable auto-reload for the API, with the consequence that "API requests will stop when your balance runs out" - exactly what you want if you're planning to burn through those API credits without <a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/">risk of a nasty billing surprise</a>.</p>
+
+<p>Note that the monthly credits <a href="https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans#h_dfc1659cee">do not roll over</a> - use them or lose them.</p>
+
+<p>OpenAI still allow you to use your Codex subscription for personal API use, which works out as a better deal for heavy API users. This new credit scheme goes at least some way to overcoming that difference.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wildwood]]></title>
+        <id>https://kottke.org/26/10/wildwood</id>
+        <link href="https://kottke.org/26/10/wildwood"/>
+        <updated>2026-10-07T20:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Laika is the stop-motion animation studio that made Coraline & Kubo and the Two Strings. Their newest film, Wildwood, looks pretty incredible; have a look at the trailer.
+
+Creative Boom recently highlighted some of the process behind the film, which is heavily dependent on physical sets and puppets.
+The man tasked with putting the show together was art director Matthew Maldonado, having spent five years designing and building Wildwood’s sets. So I asked him the million dollar question: how much of Wildwood is physical and how much is digital?
+Matthew’s response is simple. “Every single thing was made by hand, truly,” he stresses. “And every single thing that we built was either shot in camera or referenced by our effects department. We’ve got some really wide, expansive locations and there’s some digital aspect to all of that. But if it wasn’t on camera, on stage, it’s a scanned asset or a reference asset, specifically made by the artisans in the art department.”
+
+	
+“The show” referenced in the quote above is Wildwood: The Exhibition, due to open soon at the Design Museum in London.
+
+
+(via justin lind)
+
+ 
+
+        
+         
+Tags: Laika Studios · movies · stop motion · trailers · video · Wildwood]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-generated images don’t have to look like AI-generated...]]></title>
+        <id>https://kottke.org/26/10/0049733-they-can-be-any-style-you</id>
+        <link href="https://kottke.org/26/10/0049733-they-can-be-any-style-you"/>
+        <updated>2026-10-07T19:03:00.000Z</updated>
+        <summary type="html"><![CDATA[AI-generated images don’t have to look like AI-generated images…they can be any style you want. (It’s just going to get more and more difficult to tell…)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[In 2005, NASA’s Jet Propulsion Laboratory calculated that...]]></title>
         <id>https://kottke.org/26/10/0049749-calculated</id>
@@ -7479,47 +7595,6 @@ OpenAI's image generation models are apparently used "more than 3 billion images
         <summary type="html"><![CDATA[<p>Oh no. <a href="https://www.robinsloan.com/lab/one-way/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Private jets are sad]]></title>
-        <id>https://www.blackbirdspyplane.com/p/emma-cline-interview-switzy-private-jets-are-sad</id>
-        <link href="https://www.blackbirdspyplane.com/p/emma-cline-interview-switzy-private-jets-are-sad"/>
-        <updated>2026-09-08T11:02:06.000Z</updated>
-        <summary type="html"><![CDATA[Emma Cline on bleak liminal spaces of the ultrarich, going back to flip phones, her fantastic new novel, Switzy, and more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8sep26]]></title>
-        <id>https://warrenellis.ltd/?p=18913</id>
-        <link href="https://warrenellis.ltd/status/8sep26/"/>
-        <updated>2026-09-08T10:50:52.000Z</updated>
-        <summary type="html"><![CDATA[Didn’t get enough nailed down yesterday. I have the full shape of two stories, but I really wanted to get into scripting and to firm…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[archipelagoing, archipelagone]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12354</id>
-        <link href="https://www.velcro-city.co.uk/archipelagoing-archipelagone/"/>
-        <updated>2026-09-08T10:21:34.000Z</updated>
-        <summary type="html"><![CDATA[WTF AFK LOL]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Has Solved One of Math’s $1 Million Millennium Prize Problems]]></title>
-        <id>https://www.quantamagazine.org/?p=166677</id>
-        <link href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"/>
-        <updated>2026-09-08T08:43:52.000Z</updated>
-        <summary type="html"><![CDATA[Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy.            
-The post AI Has Solved One of Math’s $1 Million Millennium Prize Problems first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Konstantin Kakaes</name>
         </author>
     </entry>
     <entry>
