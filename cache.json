@@ -208,16 +208,6 @@
           "wordCount": 4734,
           "title": "Dragoncatcher: My question is simply...",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/one-way/",
-          "author": null,
-          "description": "<p>Oh no. <a href=\"https://www.robinsloan.com/lab/one-way/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/one-way/",
-          "publishedOn": "2026-09-08T18:00:00.000Z",
-          "wordCount": 4732,
-          "title": "Dragoncatcher: One-way doors",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -300,6 +290,56 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/10/0049750-any-human-ever",
+          "author": null,
+          "description": "Any Human Ever randomly picks an average person from some point in human history and tells you about what their life was like. Mine was a woman born in 1547: “Of all the sounds of her life, the loudest were thunder and the church bells.”",
+          "link": "https://kottke.org/26/10/0049750-any-human-ever",
+          "publishedOn": "2026-10-08T17:58:00.000Z",
+          "wordCount": 702,
+          "title": "Any Human Ever randomly picks an average person from some...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049765-mamdanis-richard-scarry-s",
+          "author": null,
+          "description": "Mamdani’s “Richard Scarry Socialism” Can Make City Life Simple Again. “It is an astonishing indictment of our times that the cities of our picture books can seem like a radical utopia.”",
+          "link": "https://kottke.org/26/10/0049765-mamdanis-richard-scarry-s",
+          "publishedOn": "2026-10-08T15:50:00.000Z",
+          "wordCount": 592,
+          "title": "Mamdani’s “Richard Scarry Socialism” Can Make City Life...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/bertrand-russell-shows-how-to-respond-to-fascists-who-want-to-debate",
+          "author": null,
+          "description": "Late in his life, the prominent English mathematician and philosopher Bertrand Russell was subject to an attempt in the early 1960s by Oswald Mosley to provoke him into a debate about the merits of fascism. Before WWII, Mosley had founded the British Union of Fascists. BUF had a corps of paramilitary personnel, nicknamed “Blackshirts” for their uniform color, at its disposal and Mosley “publicly espoused antisemitism and sought alliances with Benito Mussolini and Adolf Hitler”.1 After the war and having left Britain in disgrace, he was an early Holocaust denier. From Wikipedia:\nMosley was a pioneer in the emergence of Holocaust-denial. While not denying the existence of Nazi concentration camps, he claimed that they were a necessity to hold “a considerable disaffected population”, where pr…",
+          "link": "https://kottke.org/26/10/bertrand-russell-shows-how-to-respond-to-fascists-who-want-to-debate",
+          "publishedOn": "2026-10-08T14:30:00.000Z",
+          "wordCount": 1459,
+          "title": "Bertrand Russell Shows How to Respond to Fascists Who Want to Debate",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049763-the-global-rise-of-electo",
+          "author": null,
+          "description": "The Global Rise of Electoral Dictatorships. Is the U.S. Next? “Electoral dictators — who identify as presidents and prime ministers — hold uncompetitive and unfair elections after aggressively suppressing political opponents.”",
+          "link": "https://kottke.org/26/10/0049763-the-global-rise-of-electo",
+          "publishedOn": "2026-10-08T13:10:00.000Z",
+          "wordCount": 613,
+          "title": "The Global Rise of Electoral Dictatorships. Is the U.S....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049762-a-short-too-short-video-f",
+          "author": null,
+          "description": "A short (too short?) video from Little White Lies on designer Saul Bass and his influence on the art of movie title design. They also did videos on Pablo Ferro and Kyle Cooper.",
+          "link": "https://kottke.org/26/10/0049762-a-short-too-short-video-f",
+          "publishedOn": "2026-10-08T11:30:00.000Z",
+          "wordCount": 704,
+          "title": "A short (too short?) video from Little White Lies on...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/10/great-deals-on-apple-stuff-today",
           "author": null,
@@ -2593,6 +2633,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=19113",
+          "author": "Warren Ellis",
+          "description": "Went out to dinner last night. The first autumn menu at our restaurant. Venison three ways, a potato and black pudding terrine, squash puree. Just…",
+          "link": "https://warrenellis.ltd/status/8oct26/",
+          "publishedOn": "2026-10-08T12:10:00.000Z",
+          "wordCount": 1238,
+          "title": "8oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2360-scaled-1.jpg"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=19110",
           "author": "Warren Ellis",
           "description": "This is the face of a mancub who blames me specifically for the drop in temperature and the loss of the sun. I have sympathy:…",
@@ -2790,6 +2840,36 @@
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
         {
+          "id": "https://brucesterling.tumblr.com/post/829892705683423232",
+          "author": null,
+          "description": "Slop",
+          "link": "https://brucesterling.tumblr.com/post/829892705683423232",
+          "publishedOn": "2026-10-08T08:15:58.000Z",
+          "wordCount": 1100,
+          "title": "Untitled",
+          "imageUrl": "https://44.media.tumblr.com/4ffa85271762f0a6a748c9715cbec968/804cb529f65f982c-05/s1080x1500_f1/28af8f18f8fbadb7e4fbdfb032760d976f4f395b.jpg"
+        },
+        {
+          "id": "https://brucesterling.tumblr.com/post/829892457766502400",
+          "author": null,
+          "description": "Ideas · Generative Art Timeline · Le Random\n*A massive website struggling to deal with the history of generative art",
+          "link": "https://brucesterling.tumblr.com/post/829892457766502400",
+          "publishedOn": "2026-10-08T08:12:02.000Z",
+          "wordCount": 1185,
+          "title": "*A massive website struggling to deal with the history of generative art",
+          "imageUrl": null
+        },
+        {
+          "id": "https://brucesterling.tumblr.com/post/829892338864291840",
+          "author": null,
+          "description": "*It’s the old-school Y2K collapse, only much much more so",
+          "link": "https://brucesterling.tumblr.com/post/829892338864291840",
+          "publishedOn": "2026-10-08T08:10:08.000Z",
+          "wordCount": 1161,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/13111af5a3fe259699deca9d9619942c/ce8ef5bdf4b8fcbe-d5/s500x750/7937a2b558fc6a964f13ad1bc1a27b2598f6317c.jpg"
+        },
+        {
           "id": "https://brucesterling.tumblr.com/post/829458534268829696",
           "author": null,
           "description": "Can you please translate the Shelley poem “Ozymandias” into ASD-STE100 Simplified Technical English?\nCopilot said:\nCertainly. Since “Ozymandias” is in the public domain, it can be adapted freely. \nASD-STE100 Simplified Technical English aims for short sentences, one meaning per sentence, controlled vocabulary, and minimal figurative language. The result loses much of the poem’s beauty, but preserves its information and message.\nOzymandias in ASD-STE100 Simplified Technical English\nI met a traveller from an old country.\nThe traveller gave a report.\nHe said:\n“In a desert, there are two large stone legs.\nThe legs stand upright.\nThe rest of the statue is not present.\nNear the legs, there is a stone head on the ground.\nThe face has a frown.\nThe mouth shows contempt.\nThe expression shows authority.\nThe sculptor understood the character of the ruler.\nThe sculptor made these features in the stone.\nThe ruler is dead.\nThe sculptor and the ruler are dead.\nThe stone still shows these features.\nOn the base of the statue, there is an inscription.\nThe inscription says:\n‘I am Ozymandias.\nI am king of kings.\nPowerful rulers must look at my works.\nThey must feel despair because they cannot equal them.’\nNo works remain.\nThe statue is damaged.\nThe area around it is empty.\nThere is only flat desert.\nThe sand extends a long distance in all directions.”\nNotes on the conversion\nMetaphors and poetic imagery are replaced with direct statements.\nEmotional language is reduced to observable facts.\nAmbiguity is removed where possible.\nThe central message remains: a powerful ruler tried to create a permanent monument, but time destroyed almost everything, and his power is gone.\nIn a sense, converting Ozymandias into ASD-STE100 turns it from a Romantic poem into something that reads like a field inspection report on the failure of long-term brand preservation.",
@@ -2838,16 +2918,6 @@
           "wordCount": 1866,
           "title": "SCIENCE FICTION FILMS + SET IN THE FUTURE",
           "imageUrl": "https://64.media.tumblr.com/6daeffca063277c31ab847ff12564842/63dc8b7e73743a7f-cf/s540x810/19d5df4228d68a5e43be184cd8028d03aedfd529.gif"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/827228084942110720",
-          "author": null,
-          "description": "",
-          "link": "https://brucesterling.tumblr.com/post/827228084942110720",
-          "publishedOn": "2026-09-08T22:22:58.000Z",
-          "wordCount": 1681,
-          "title": "Untitled",
-          "imageUrl": "https://64.media.tumblr.com/ae1bdf39008b6d9dd17dbd8065a21fdd/7424876e6d939755-90/s1280x1920/45ddfe7494a56f16ea287cd2872845ffc27829b9.jpg"
         }
       ]
     },
@@ -2856,6 +2926,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/get-your-infrastructure-right",
+          "author": "Blackbird Spyplane",
+          "description": "Caps, bags, belts and more, plus cool clocks and more unbeatable recon",
+          "link": "https://www.blackbirdspyplane.com/p/get-your-infrastructure-right",
+          "publishedOn": "2026-10-08T11:00:59.000Z",
+          "wordCount": null,
+          "title": "Get your infrastructure right",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!pmCQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feca8cbc9-287e-4001-bdbc-dd89d3a42285_1980x2609.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!pmCQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feca8cbc9-287e-4001-bdbc-dd89d3a42285_1980x2609.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/big-money-broke-behavior",
           "author": "Blackbird Spyplane",
@@ -3073,6 +3159,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/in-writing/essays/introducing-the-wire-new-voices",
+          "author": null,
+          "description": "New Voices is a new competition for aspiring music critics being launched by The Wire\n\nThe Wire has been publishing writing by a host of original and influential music critics, including Richard Cook, Val Wilmer, Biba Kopf, Ian Penman, Simon Reynolds, Kodwo Eshun, David Keenan, Mark Fisher, Greg Tate, Frances Morgan, Chal Ravens, and many others. The magazine would not exist without a dynamic set of curious, perceptive thinkers and writers.\n\n\n    Are you an unpublished* writer with ideas about why music, and music criticism, matter – in particular the kind of underground and experimental, uncompromising and provocative music and writing featured in the pages of The Wire? If so, our New Voices competition is a unique opportunity to see your byline in the pages of one of the most renowned and respected music magazines in the world.\n\nTo enter, submit two original pieces of writing:\n    \nThe Wire (500 words)\n    \n\n    Submit your entries as two separate text-only files, and send them as attachments*, along with your name, email address and a very brief bio, to newvoices@thewire.co.uk.\n\nThe Wire’s editorial staff.\n\nThe Wire. The winner will also receive a £250 cash prize and a free annual digital subscription to the magazine. Three runners up will receive a free annual digital subscription to the magazine.\n\n* Terms & conditions:\n    \nThe Wire has no obligation to publish the work of any entrants, including the winner, beyond the winning essay.\n    \nThe Wire would typically cover – adventurous, experimental, DIY, independent, etc.\n    \n    • NB we will not accept entries that have been written, part-written, or polished by AI.",
+          "link": "https://www.thewire.co.uk/in-writing/essays/introducing-the-wire-new-voices",
+          "publishedOn": "2026-10-07T00:00:00.000Z",
+          "wordCount": 879,
+          "title": "Introducing  The Wire  New Voices",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2025/05/28/wire_issues_tiles.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river",
           "author": null,
           "description": "The River, first performed as part of the 2025 Semibreve festival.\n\nThe River by Iranian-born Berlin-based composer Ava Rasti was commissioned by Portuguese festival Semibreve and first presented on 25 October 2025 at the Capela Imaculada do Seminário Menor in Braga. The performance brought together Rasti and a string quartet composed of Filipa Abreu (violin), Vânia Oliveira (viola), Tiago Mendes (cello) and Catarina Coelho (cello).\n\n\n    Wire subscribers can read Claire Sawer's review of Semibreve 2025 here.",
@@ -3181,16 +3277,6 @@
           "wordCount": 635,
           "title": "Joseph Stannard presents  Adventures In Sound And Music",
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/11/wire_aism_10_sept.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-aspen-edities",
-          "author": null,
-          "description": "The Wire 512, Peter Margasak compiles an annotated playlist of tracks from the Belgium label\n\n\n    Christian Wallumrød Ensemble\n    \n “New hum old hum”\n    \n From Non Sonett (2026)\n\n\n    Machtelinckx/Badenhorst/Cools/Gouband\n“Structure 6”\n    \n From Porous Structures (2019)\n\n\n    Graden/Agnas/Landin/Bromander\n    \n “Chimär”\n    \n From Words Were Coming Out Of Our Ears (2025)\n\n\n    Dans Les Arbres\n    \n From L’Album Vert (2024)\n\nL’Album Vert, which maintains a meticulous rigour and attention to detail while embracing the fresh presence of electronic gestures and irregular rhythmic disruptions. Percussionist Ingar Zach, pedal steel guitarist Ivar Grydeland, clarinetist Xavier Charles and keyboardist Christian Wallumrød all possess extended timbral vocabularies, but they function as a single organism.\n\nLinus & BPB\n    \n “Little Jesus, Mighty God”\n    \n From The Outside, The Music Of Jules De Corte (2026)\n\n\n    Poor Isa\n    \n From Poor Isa + Evan Parker/Ingar Zach (2025)\n\n\n    Oker\n    \n From Aerial (2026)\n\nStrands Of Lunar Light, a collection of serene experiments in just intonation. Oker got its start composing delicate, folk inspired compositions heavily informed by the improvisational backgrounds of percussionist Jan-Martin Gismervik, bassist Adrian Fiskum Myhr and trumpeter Torstein Lavik Larsen, but over time an attraction to spontaneity has led them to construct their pieces in real time, which Aerial captures. Still, the ensemble builds these delicate, detail-rich extended excursions with structure in mind.\n\nVeder\n“Sedum”\n    \n From Evergreen (2017)\n\n\n    \nRead Peter Margasak’s full Unlimited Editions column on Aspen Edities in The Wire 512. Wire subscribers can also read the article online via the digital magazine library.",
-          "link": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-aspen-edities",
-          "publishedOn": "2026-09-09T00:00:00.000Z",
-          "wordCount": 1357,
-          "title": "Unlimited Editions: Aspen Edities",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/09/UE_for_online_for_web_.jpg"
         }
       ]
     },
@@ -4128,36 +4214,6 @@
           "wordCount": 979,
           "title": ".blend URL Viewer",
           "imageUrl": "https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-          "author": null,
-          "description": "<blockquote cite=\"https://mathstodon.xyz/@tao/117237320796901560\"><p>I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]</p>\n<p>We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential.  The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mathstodon.xyz/@tao/117237320796901560\">Terence Tao</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-          "publishedOn": "2026-09-09T00:20:17.000Z",
-          "wordCount": 826,
-          "title": "Quoting Terence Tao",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://openai.com/index/navier-stokes-solution/\">On the Navier–Stokes Millennium Prize Problem</a></strong></p>\nImpressive result from OpenAI, who used an unreleased model to produce a resolution to <a href=\"https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness\">the Navier–Stokes existence and smoothness problem</a>, one of the seven <a href=\"https://en.wikipedia.org/wiki/Millennium_Prize_Problems\">Millennium Prize Problems</a> that have been subject to a $1,000,000 prize since May 24th, 2000.</p>\n<p>The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic.</p>\n<p>Tristan's complaint accompanied <a href=\"https://mastodon.social/@tristanbuckmaster/117233413705701198\">a hastily published version</a> of their own results. <a href=\"https://cims.nyu.edu/~tristanb/statement.pdf\">Here's the PDF describing what happened</a>. The <em>very</em> short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan:</p>\n<blockquote>\n<p>I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI.</p>\n<p>I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer.</p>\n</blockquote>\n<p>It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would <em>not</em> be invited as a co-author due to OpenAI's competitive relationship with his employer.</p>\n<p>Here's how OpenAI described their work:</p>\n<blockquote>\n<p>On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...]</p>\n<p>The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra.</p>\n<p>Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens.</p>\n</blockquote>\n<p>(We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost <a href=\"https://www.llm-prices.com/#ot=300000000000&amp;sel=gpt-6-astra\">$15,000,000</a>.)</p>\n<p>Here's where they provide their perspective on Tristan and Levent's work (emphasis mine):</p>\n<blockquote>\n<p>Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...]</p>\n<p>We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. <strong>While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped <a href=\"https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/\">improve our models</a></strong>. However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced).</p>\n</blockquote>\n<p>My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year.</p>\n<p>This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that <a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a>, because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first.</p>\n<p>This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is \"used to improve model performance\", <em>what does that actually mean</em>?</p>\n<p>My two favourite hypothetical questions regarding this used to be:</p>\n<ul>\n<li>If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the \"regurgitation\" problem and assured me that they take great pains to prevent that... but wouldn't describe how.)</li>\n<li>If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks \"what might company X plan to do next\"?</li>\n</ul>\n<p>My new preferred hypothetical for this is:</p>\n<ul>\n<li>If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone <em>else</em> solve it first?</li>\n</ul>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49613262\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-          "publishedOn": "2026-09-08T23:55:12.000Z",
-          "wordCount": 1729,
-          "title": "On the Navier–Stokes Millennium Prize Problem",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://openai.com/index/introducing-chatgpt-images-2-5/\">Introducing ChatGPT Images 2.5</a></strong></p>\nOpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\".</p>\n<p>There are two new model IDs in the API: <code>gpt-image-2.5-sunburst</code> and <code>gpt-image-2.5-flare</code>. Based <a href=\"https://developers.openai.com/api/docs/guides/image-generation#overview\">on this</a> I think Sunburst is the stronger option:</p>\n<blockquote>\n<p>Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation.</p>\n</blockquote>\n<p>I <a href=\"https://github.com/simonw/tools/pull/333\">upgraded</a> my <a href=\"https://tools.simonwillison.net/python/#openai_imagepy\">openai_image.py</a> CLI tool to support passing in one or more reference images, so now this works:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uv run https://tools.simonwillison.net/python/openai_image.py \\\n  <span class=\"pl-s\"><span class=\"pl-pds\">'</span>add a raccoon scientist studying the chart thoughtfully<span class=\"pl-pds\">'</span></span> \\\n  -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\\n  -m gpt-image-2.5-sunburst</pre></div>\n\n<p>This is the <a href=\"https://static.simonwillison.net/static/2026/openai-agent-usage.webp\">original image</a>, and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\":</p>\n<p><img alt=\"Line chart with cartoon illustration. Title: &quot;Usage of internal coding agents is increasing significantly—Median researcher&quot;. Y-axis labeled &quot;Daily $ / researcher&quot; from 0 to 700; x-axis shows Feb 2026, Apr 2026, Jun 2026, Aug 2026. A blue line stays near zero through April, rises gradually to around 150 by June and July, then climbs steeply to about 600 by late August. In the foreground a cartoon raccoon in glasses and a white lab coat, chin in hand, holds a clipboard at a desk with a mug bearing the OpenAI logo, some printed charts, and a stack of three books titled &quot;AI AGENTS&quot;, &quot;SOFTWARE ENGINEERING&quot;, and &quot;PRODUCTIVITY&quot;. An OpenAI logo appears in the top right corner.\" src=\"https://static.simonwillison.net/static/2026/racoon-chart.webp\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/text-to-image\">text-to-image</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-          "publishedOn": "2026-09-08T22:46:33.000Z",
-          "wordCount": 898,
-          "title": "Introducing ChatGPT Images 2.5",
-          "imageUrl": null
         }
       ]
     },
