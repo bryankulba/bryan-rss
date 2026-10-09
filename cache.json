@@ -207,6 +207,16 @@
       "siteUrl": "https://webcurios.co.uk",
       "articles": [
         {
+          "id": "https://webcurios.co.uk/?p=1778",
+          "author": "admin",
+          "description": "Reading Time:  38 minutes   WHY HELLO AGAIN HELLO! I *missed* you! No, really, I did; I even woke up at 6am last Friday in a sweaty panic that I had a Curios to write and no links to fill it with – this is my internal life, you see, SO RICH!! – and, well, what more proof do…\nContinue reading →",
+          "link": "https://webcurios.co.uk/webcurios-09-10-26/",
+          "publishedOn": "2026-10-09T06:23:23.000Z",
+          "wordCount": 11608,
+          "title": "Webcurios 09/10/26",
+          "imageUrl": null
+        },
+        {
           "id": "https://webcurios.co.uk/?p=1767",
           "author": "admin",
           "description": "Reading Time:  34 minutes   While I imagine that most of you delete this email unthinkingly every time it crops up in your inbox – no, really, I don’t mind, I know you’re busy and this is only the textual expression of my very soul you’re ignoring, don’t worry about it! – I like to imagine that there are…\nContinue reading →",
@@ -280,6 +290,46 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/10/0049767-weball",
+          "author": null,
+          "description": "Weball allows you to roll up websites into a Katamari ball. You can even roll up KDO. This is too much fun. See also Destroy Any Website.",
+          "link": "https://kottke.org/26/10/0049767-weball",
+          "publishedOn": "2026-10-09T17:38:00.000Z",
+          "wordCount": 666,
+          "title": "Weball allows you to roll up websites into a Katamari...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/is-this-weird-quiz-game-the-toughest-f1-video-game-ever",
+          "author": null,
+          "description": "It might be that this text-only quiz game from 1993 is the most challenging F1 video game of all time. Here are a couple of the 23 questions from Gerhard Berger’s Formula 1 Quiz:\n3. Which team was the best in the 80’s?\nStatistically, it’s McLaren, but that’s not a correct answer. The correct answer is “Mc Laren.” \n4. Who is the youngest champion of ever?\nThe correct answer in 1993 was Emerson Fittipaldi, but his full name cannot be accepted because it contains too many characters for the computer. The game will not take “Fittipaldi,” “Emerson,” or “E Fittipaldi.” The answer must be “Fit.”\nThe real quiz, it soon becomes clear, is not a test of one’s F1 knowledge, but figuring out what the game expects to hear.\n\n\t\nBerger is a former F1 driver, and the game is so weird and forgotten that it’s not even listed on his Wikipedia page — and it might not have been an official game at all. What is listed on his Wikipedia page is the epic prank war he waged against teammate Ayrton Senna:\nIn an Australian hotel room, Berger filled Senna’s bed with frogs. An infuriated Senna confronted Berger, who replied, “Did you find the snake?” Senna retaliated by putting strong-smelling French cheese in the air conditioning unit of Berger’s room.\n\n\t\nIt seems likely it was in this spirit that Gerhard Berger’s Formula 1 Quiz game was created: as a prank Berger himself would have enjoyed. You can play a cracked version of the C64 game for yourself on the Internet Archive (answer “N” and “N” if you want to play it in hard mode as intended) and watch this gameplay video:\n\n\n \n\n        \n         \nTags: Formula One · Gerhard Berger · racing · sports · video · video games",
+          "link": "https://kottke.org/26/10/is-this-weird-quiz-game-the-toughest-f1-video-game-ever",
+          "publishedOn": "2026-10-09T16:38:00.000Z",
+          "wordCount": 927,
+          "title": "Is This Weird Quiz Game the Toughest F1 Video Game Ever?",
+          "imageUrl": "https://i.ytimg.com/vi/2wGWaSAfYuo/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049768-went",
+          "author": null,
+          "description": "I just went down a rabbit hole of incense seals. So cool.",
+          "link": "https://kottke.org/26/10/0049768-went",
+          "publishedOn": "2026-10-09T15:48:00.000Z",
+          "wordCount": 627,
+          "title": "I just went down a rabbit hole of incense seals. So cool.",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049764-im-exhausted-youre-demora",
+          "author": null,
+          "description": "Bill McKibben: I’m Exhausted. You’re Demoralized. We Weren’t Built for a World Like This. The human nervous system wasn’t designed for the polycrisis. “Among all the other dangers these developments represent, they’re simply wearing us out.”",
+          "link": "https://kottke.org/26/10/0049764-im-exhausted-youre-demora",
+          "publishedOn": "2026-10-09T14:28:21.000Z",
+          "wordCount": 588,
+          "title": "Bill McKibben: I’m Exhausted. You’re Demoralized. We...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/10/0049772-the-blondin-family-drove-",
           "author": null,
@@ -2219,46 +2269,6 @@
           "wordCount": 868,
           "title": "Teaser trailer for Musk , a 3h45m-long documentary film...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049570-these-ais-colluded-to-sha",
-          "author": null,
-          "description": "“We found ~18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web research task. These AIs colluded to share answers, research their environment, and bypass sandbox restrictions.”",
-          "link": "https://kottke.org/26/09/0049570-these-ais-colluded-to-sha",
-          "publishedOn": "2026-09-10T02:24:00.000Z",
-          "wordCount": 653,
-          "title": "&#8220;We found ~18,000 posts from autonomous AI agents...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049560-how-much-money-theyve-sav",
-          "author": null,
-          "description": "The Chicago Public Library informs patrons of how much money they’ve saved borrowing from the library instead of buying. “You just saved $58.94 by using your library. You have saved $231.79 this past year and $1,107.24 since you began using the library!”",
-          "link": "https://kottke.org/26/09/0049560-how-much-money-theyve-sav",
-          "publishedOn": "2026-09-10T01:24:00.000Z",
-          "wordCount": 854,
-          "title": "The Chicago Public Library informs patrons of  how much...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049559-has-built-a-minecraft-cit",
-          "author": null,
-          "description": "Over the past 12 years, Super Bowl-winning coach Mike Tomlin has built a Minecraft city. He started playing the game for the same reason I started playing Fortnite: his kids. “How do I meet them where they are and spend time with them?”",
-          "link": "https://kottke.org/26/09/0049559-has-built-a-minecraft-cit",
-          "publishedOn": "2026-09-10T00:24:00.000Z",
-          "wordCount": 802,
-          "title": "Over the past 12 years, Super Bowl-winning coach Mike...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049558-vanishing-culture-a-repor",
-          "author": null,
-          "description": "From the Internet Archive: Vanishing Culture: A Report on Our Fragile Cultural Record. “When digital materials are vulnerable to sudden removal…our collective memory is compromised, and the public’s ability to access its own history is at risk.”",
-          "link": "https://kottke.org/26/09/0049558-vanishing-culture-a-repor",
-          "publishedOn": "2026-09-09T23:34:00.000Z",
-          "wordCount": 726,
-          "title": "From the Internet Archive:  Vanishing Culture: A Report...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2355,16 +2365,6 @@
           "publishedOn": "2026-09-10T16:43:38.000Z",
           "wordCount": 11,
           "title": "9/11 in Realtime",
-          "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=51248",
-          "author": "Andy Baio",
-          "description": "“Papyrus is a virus and restraint is the inoculum”\nactsofvolition.com #",
-          "link": "https://www.youtube.com/watch?v=0Ck-NPqf2c8",
-          "publishedOn": "2026-09-10T02:14:07.000Z",
-          "wordCount": null,
-          "title": "Modern Day Typographer",
           "imageUrl": null
         }
       ]
@@ -2562,6 +2562,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19123",
+          "author": "Warren Ellis",
+          "description": "Autumn is creeping in step by step. Colder starts to the day, now. The managed retreat begins. Played yesterday with Dirty Little Zine for making…",
+          "link": "https://warrenellis.ltd/status/9oct26/",
+          "publishedOn": "2026-10-09T11:56:10.000Z",
+          "wordCount": 1465,
+          "title": "9oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2372.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19116",
           "author": "Warren Ellis",
@@ -3060,16 +3070,6 @@
           "wordCount": 2571,
           "title": "[RIDGELINE] Walking with Annie",
           "imageUrl": "https://craigmod.com/ridgeline/images/234/234.jpg"
-        },
-        {
-          "id": "https://craigmod.com/roden/118/",
-          "author": "Craig Mod",
-          "description": "Roden Readers —\nHello from Europe. My body hasn’t been this happy in September in years. The coolness. The chill. The clouds. The 0 UV index. What is this crazy way of summer living? Where you’re not being blasted by a death ray from above while wrapped in a wet blanket and shoved in a stove while tiny demons spray gasoline everywhere? This is not the September of Tokyo (although this year, from afar, looks freakishly wet and temperate(ish)?).",
-          "link": "https://craigmod.com/roden/118/",
-          "publishedOn": "2026-09-10T00:00:00.000Z",
-          "wordCount": 2186,
-          "title": "[RODEN] Writing in 2026, Walking Europe",
-          "imageUrl": null
         }
       ]
     },
@@ -3078,6 +3078,26 @@
       "feedUrl": "https://www.thewire.co.uk/rss",
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
+        {
+          "id": "https://www.thewire.co.uk/in-writing/book-extracts/read-an-extract-from-do-what-you-fear-most-the-history-of-the-velvet-underground",
+          "author": null,
+          "description": "The Velvet Underground & Nico on its release in 1967\n\nThe Velvet Underground & Nico continued to be plagued by Verve Records’s ineffective promotion. Its infamous “So far underground, you get the bends!” tagline exemplified how little understanding it had of how to market such an unusual yet groundbreaking record.\n    \nWhat happens when the daddy of Pop Art goes Pop Music?” the same ad asked. “The most underground album of all! It’s Andy Warhol’s hip new trip to the current subterranean scene. Sorry, no home movies. But the album does feature Andy’s Velvet Underground (they play funny instruments). Plus his this year’s Pop Girl, Nico (she sings, groovy). Plus an actual Warhol banana on the front cover (don’t smoke it… peel it)! The Velvet Underground, produced by Andy Warhol, is now availa…",
+          "link": "https://www.thewire.co.uk/in-writing/book-extracts/read-an-extract-from-do-what-you-fear-most-the-history-of-the-velvet-underground",
+          "publishedOn": "2026-10-09T00:00:00.000Z",
+          "wordCount": 1796,
+          "title": "Read an extract from  Do What You Fear Most: The History Of The Velvet Underground",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/09/81vEbgkFRkL_SL1500__crop.jpg"
+        },
+        {
+          "id": "https://www.thewire.co.uk/audio/on-air/lucy-thraves-presents-adventures-in-sound-and-music-79725",
+          "author": null,
+          "description": "The Wire's weekly radio show featured music by Cujo, Uche Yara, Leafcutter John, Li Song, A Tomb Full Of Stars and more\n\nTracklist\n\nCujo\n    \n“Lunar Silver”\n    \nParanova\n    \n (Nomark Records)\n\nHenry Strongbox\n    \n“pop star”\n    \nDreaming Of Static\n    \n (Metonic Records)\n\nLi Song\n    \n“1 Si”\n    \nfour is four\n    \n (Infant Tree)\n\nLeafcutter John\n    \n“Peregrine”\n    \nWarm Grit\n    \n (Self-released)\n\nCarl Stone\n    \n“Mikawa”\n    \nArthur Fischl Conducts The Music Of Carl Stone\n    \n (Unseen Worlds)\n\nMountain Hovel Circles\n    \n“I Love My Friends And I'm No Longer Afraid”\n    \nMudgut\n    \n(Infant Tree)\n\nUche Yara\n    \n“be something”\n    \nBodyscanner\n    \n (Goldendays FM)\n\nHelen\n    \n“Canyon”\n    \nLinda’s Head\n    \nkranky)\n\nBrandon Seabrook\n    \n“Membrane Soundtable”\n    \nUtility Modern\n    \n (Out Of Your Head)\n\nAndrew Tuttle & Darren Cross\n    \n“Is This Too?”\n    \nAT/DC\n    \n (Someone Good/Room 40)\n\nCentury Long Journey*\n    \n“Quantum Tunnel”\n    \n22nd Century\n    \nCortizona)\n\nThe Wire Tapper 72 CD, free with copies of The Wire 513.\n\nLinus & Bonnie “Prince” Billie\n    \n“Little Anita”\n    \nThe Outsider, The Music Of Jules De Corte\n    \nAspen Edities)\n\nJeremy Young\n    \n“Schubert Tides II”\n    \nSchubert Tides\n    \n (Kohlhaas)\n\nTangerine Dream\n    \n“If It’s All Over”\n    \nMiracle Mile (Original Soundtrack From The Hemdale Motion Picture)\n    \n (Private Music)\n\nA Tomb Full Of Stars\n    \n“Repose”\n    \nWhen The Reflection Passes\n    \n (Varia)\n\nNuno Canavarro\n    \n“09 Untitled”\n    \nPlux Quba\n    \n (Drag City)\n\nAdventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
+          "link": "https://www.thewire.co.uk/audio/on-air/lucy-thraves-presents-adventures-in-sound-and-music-79725",
+          "publishedOn": "2026-10-09T00:00:00.000Z",
+          "wordCount": 637,
+          "title": "Lucy Thraves presents  Adventures In Sound And Music",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/09/Lucy_AISM_8_Oct.jpg"
+        },
         {
           "id": "https://www.thewire.co.uk/in-writing/essays/introducing-the-wire-new-voices",
           "author": null,
@@ -3205,6 +3225,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/matthew_d_green/status/2108552414978564418\"><p>Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...]</p>\n<p>The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/matthew_d_green/status/2108552414978564418\">Matthew Green</a>, on Twitter. I looked it up and Minicrypt is Russell Impagliazzo’s <a href=\"https://www.quantamagazine.org/which-computational-universe-do-we-live-in-20220418/\">hypothetical world</a> in which public-key encryption is impossible.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/matthew-green\">matthew-green</a>, <a href=\"https://simonwillison.net/tags/cryptography\">cryptography</a>, <a href=\"https://simonwillison.net/tags/standards\">standards</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+          "publishedOn": "2026-10-09T15:02:29.000Z",
+          "wordCount": 827,
+          "title": "Quoting Matthew Green",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+          "author": null,
+          "description": "<p>I shipped a new feature for my blog today: the <a href=\"https://simonwillison.net/newsletters/\">Newsletters</a> page, which offers an index of all of the newsletters I've sent out, both my free <a href=\"https://simonw.substack.com/\">weekly Substack</a> and my <a href=\"https://github.com/sponsors/simonw/\">monthly sponsors-only</a> updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner.</p>\r\n<h4 id=\"codex-voice-mode\">Codex voice mode</h4>\r\n<p>I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/codex-voice.webp\" alt=\"Three columns of the ChatGPT app. The left hand column shows my recent conversations. The middle column is a transcript of the conversation, with a throbbing black blob representing voice mode. The right hand column shows a local dev server version of my blog, with the Newsletters page visible.\" style=\"max-width: 100%;\" /></p>\r\n<p>I started the session against my local <a href=\"https://github.com/simonw/simonwillisonblog\">simonwillisonblog</a> checkout by typing:</p>\r\n<blockquote>\r\n<p><code>Start dev server and open in browser</code></p>\r\n</blockquote>\r\n<p>This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress.</p>\r\n<p>Then I clicked the \"Start new voice chat\" button - that's <em>not</em> the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked.</p>\r\n<h4 id=\"talking-to-my-computer\">Talking to my computer</h4>\r\n<p>I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources.</p>\r\n<p>Here's an extract of my voice transcript that was captured by Codex:</p>\r\n<blockquote>\r\n<p>Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results.</p>\r\n</blockquote>\r\n<p>Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, <a href=\"https://en.wikipedia.org/wiki/Speech_disfluency\">disfluencies</a> and all, <a href=\"https://gist.github.com/simonw/a65a22204f6f7228cc59b4bc34d7c7c8\">in this Gist</a>.</p>\r\n<p>We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code.</p>\r\n<h4 id=\"what-we-built\">What we built</h4>\r\n<p>We got a surprisingly long way entirely by voice:</p>\r\n<ul>\r\n<li>A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that</li>\r\n<li>Four working imports:\r\n<ul>\r\n<li>The most recent Substack items via RSS</li>\r\n<li>Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried <code>/api/v1/archive</code> directly) and then ran a search to figure out how to paginate it and found <a href=\"https://wonderingaboutai.substack.com/p/i-connected-my-newsletter-archive\">this article</a> by Karen Spinner</li>\r\n<li>All of my published monthly newsletters from my <a href=\"https://github.com/simonw/monthly-newsletter-archive\">simonw/monthly-newsletter-archive</a> GitHub repository</li>\r\n<li>My most recent private sponsors-only newsletter from a private repository</li>\r\n</ul>\r\n</li>\r\n<li>The <a href=\"https://simonwillison.net/newsletters/\">/newsletters/</a> and <a href=\"https://simonwillison.net/newsletters/2026/\">/newsletters/2026/</a> public archive pages</li>\r\n<li>Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage</li>\r\n<li>Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages</li>\r\n<li>Integration with my site search engine</li>\r\n</ul>\r\n<p>It was <em>almost</em> ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while.</p>\r\n<h4 id=\"finishing-it-with-a-review\">Finishing it with a review</h4>\r\n<p>Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request.</p>\r\n<p>I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead.</p>\r\n<p>You can see the changes I made during the review <a href=\"https://github.com/simonw/simonwillisonblog/pull/719\">in the extra commits on the PR</a>. I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR.</p>\r\n<h4 id=\"the-end-result\">The end result</h4>\r\n<p>You can see the end result at the new <a href=\"https://simonwillison.net/newsletters/\">newsletters index page</a>, or view the <a href=\"https://simonwillison.net/newsletters/monthly-2026-08-august/\">page for a previous monthly newsletter</a>.</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/newsletters-page.webp\" alt=\"Newsletters page. It shows two Substack posts (with thumbnails) and one LLM digest Sponsors-only newsletter with a list of headings. On the right is a CTA to subscribe to my Substack and another one for my $10/month monthly briefing newsletter.\" style=\"max-width: 100%;\" /></p>\r\n<p>The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages.</p>\r\n<p>GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen.</p>\r\n<h4 id=\"better-for-multi-tasking-than-as-a-daily-driver\">Better for multi-tasking than as a daily driver</h4>\r\n<p>OpenAI <em>love</em> using voice-driven demos like this one for <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/#live-update-504\">things like DevDay</a> - and they do work well in that environment. I don't think this is going to be a daily driver for me though.</p>\r\n<p>I've <a href=\"https://simonwillison.net/search/?q=walking+dog\">written before</a> about how much \"work\" I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code.</p>\r\n<p>This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent.</p>\r\n<p>I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words.</p>\r\n<p>I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace!</p>\r\n<p>The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/text-to-speech\">text-to-speech</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/speech-to-text\">speech-to-text</a>, <a href=\"https://simonwillison.net/tags/site-upgrades\">site-upgrades</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+          "publishedOn": "2026-10-09T12:54:06.000Z",
+          "wordCount": 2013,
+          "title": "A new feature for my blog, built using my voice",
+          "imageUrl": "https://static.simonwillison.net/static/2026/newsletters-card.webp"
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/9/ttok/",
           "author": null,
@@ -4144,26 +4184,6 @@
           "wordCount": 945,
           "title": "Native is now the future of mobile at Shopify",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/10/calif-research/",
-          "author": null,
-          "description": "<blockquote cite=\"https://calif.io/research/weworm\"><p>Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]</p>\n<p>The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]</p>\n<p>Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week.</p>\n<p>A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://calif.io/research/weworm\">Calif Research</a>, WeWorm</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/10/calif-research/",
-          "publishedOn": "2026-09-10T00:56:41.000Z",
-          "wordCount": 843,
-          "title": "Quoting Calif Research",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
-          "author": null,
-          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/blender-viewer\">.blend URL Viewer</a></p>\n        <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">my TIL</a>).</p>\n<p>As a big fan of the <a href=\"https://en.wikipedia.org/wiki/Faberg%C3%A9_egg\">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p>\n<p>Yesterday I decided to try out the new <a href=\"https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/\">ChatGPT Images 2.5</a> by <a href=\"https://chatgpt.com/share/6aa1f6d2-a7d8-83ea-92ec-0daeb8422617\">running this prompt</a>:</p>\n<blockquote>\n<p><code>Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first</code></p>\n</blockquote>\n<p>It gave me this - honestly not bad for a first attempt!</p>\n<p><img alt=\"It's a yellow Fabergé egg, half open. Inside you can clearly see Carol in her black outfit facing off against a choir of creepy white-faced joined humans. There are cacti and it has an Albuquerque New Mexico feel to it. The egg stand has a Pluribus plaque.\" src=\"https://static.simonwillison.net/static/2026/pluribus-egg.jpg\" /></p>\n<p>Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted:</p>\n<blockquote>\n<p><code>Use your blender local skill to create a blender model of this faverge egg</code></p>\n</blockquote>\n<p>(Here's <a href=\"https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md\">the skill file</a>, which I created <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos#creating-a-skill\">like this</a>.)</p>\n<p>It churned away for 17m51s and built me <a href=\"https://github.com/simonw/vibe-coded-blender-projects/tree/main/pluribus-faberge-egg/deliverables\">several <code>.blend</code> files</a>. I already had this vibe-coded Blender viewing experiment lying around, so I added that to my <a href=\"https://tools.simonwillison.net/\">tools collection</a> and now you can use it to <a href=\"https://tools.simonwillison.net/blender-viewer?url=https%3A%2F%2Fgithub.com%2Fsimonw%2Fvibe-coded-blender-projects%2Fblob%2Fmain%2Fpluribus-faberge-egg%2Fdeliverables%2FPluribus_Jeweled_Egg_v1.blend\">see my Pluribus blender model in your browser</a>:</p>\n<p><img alt=\"Screenshot of a web-based 3D Blender file viewer showing a rendered gold Fabergé-style jeweled egg. The top of the egg is lifted open, revealing a miniature desert diorama inside with green cacti, brown rocks, and a small black-suited figure standing in the center. The egg's shell is decorated with green gems, pearls, ornate scrollwork, a ring of smiling white egg-shaped faces, and oval medallions painted with a cactus and desert scene. The egg stands on four gold legs over a black marbled base with a gold plaque reading PLURIBUS. The URL bar reads https://github.com/simonw/vibe-coded-blender-projects/blob/main/pluribus-faberge-egg/deliverables/Pluribus_Jeweled_Egg_v1.blend with a View button; top-right buttons read Fit, Wireframe, Clear. A bottom-left info panel reads: Loaded Blender 05.01 · 7.2 MB / 387 meshes · 1099 curves · 1 text · 783,764 vertices · 1,446,560 triangles · 17 materials / Preview: approximate materials and text; unapplied modifiers are omitted. / GitHub URL resolved through jsDelivr\" src=\"https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/3d\">3d</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/blender\">blender</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
-          "publishedOn": "2026-09-09T23:58:32.000Z",
-          "wordCount": 979,
-          "title": ".blend URL Viewer",
-          "imageUrl": "https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp"
         }
       ]
     },
@@ -4282,6 +4302,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=167729",
+          "author": "Philip Ball",
+          "description": "C.H. Waddington’s powerful image of embryonic stem cells specializing on a rolling landscape has captivated biologists since the 1950s. Experimental data is finally confirming, and complicating, his visionary ideas.            \nThe post How Does Life Unfold? A Landscape Metaphor Comes Into Its Own. first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/",
+          "publishedOn": "2026-10-09T14:03:07.000Z",
+          "wordCount": 4750,
+          "title": "How Does Life Unfold? A Landscape Metaphor Comes Into Its Own.",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Waddington-cr.MarkBelan-Social-1.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=167663",
           "author": "Ben Brubaker",
