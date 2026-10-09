@@ -291,6 +291,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/10/0049772-the-blondin-family-drove-",
+          "author": null,
+          "description": "In 1996, the Blondin family drove all around the US, blogging about it all before “blog” was even a word. “We were doing something that had no name and no manual, and we were doing it over a dial-up modem while living in a motorhome.”",
+          "link": "https://kottke.org/26/10/0049772-the-blondin-family-drove-",
+          "publishedOn": "2026-10-08T21:31:00.000Z",
+          "wordCount": 1246,
+          "title": "In 1996, the Blondin family drove all around the US,...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/chasing-a-plane-across-the-moon",
+          "author": null,
+          "description": "Agustín Ferrando Trenchi became a little obsessed with the moon as a kid. As an adult, he’s taken tons of photos and hundreds of hours of footage of the moon. After seeing an airplane fly close to the moon while he filmed, Trenchi began a quest to capture a plane flying across the face of the moon.\n\nOver the course of 10 years, he took photos and videos of birds and statues silhouetted by the moon, but planes eluded him.\nI realized if I wanted to film this, I was going to have to try a different approach. It wasn’t just going to happen by accident. So in February of this year, taking advantage of being in London, I decided to go near one of the busiest airports in the world to maximize my odds as much as possible.\nBut while we were on our way, I had second thoughts. I felt like it took the fun out of it. It didn’t make sense to force it that much either. So we got off. \n\n\t\nI’m not going to spoil the video, but the whole thing is just so lovely — a meditation on obsessions, journeys, and finding meaning in your life. (via virginia)\n\n \n\n        \n         \nTags: Agustín Ferrando Trenchi · Moon · photography · video",
+          "link": "https://kottke.org/26/10/chasing-a-plane-across-the-moon",
+          "publishedOn": "2026-10-08T20:01:00.000Z",
+          "wordCount": 827,
+          "title": "Chasing a Plane Across the Moon",
+          "imageUrl": "https://i.ytimg.com/vi/3FnH7fJ1ntI/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049770-abolish-frat-culture",
+          "author": null,
+          "description": "Abolish Frat Culture. “This is going to be uncomfortable for anyone with a kid in a fraternity to hear: If your son finds himself in a group that would send a ‘free pussy’ text, it’s too late. The group is the disease, the text is the symptom.”",
+          "link": "https://kottke.org/26/10/0049770-abolish-frat-culture",
+          "publishedOn": "2026-10-08T18:48:00.000Z",
+          "wordCount": 592,
+          "title": "Abolish Frat Culture. “This is going to be uncomfortable...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/10/0049750-any-human-ever",
           "author": null,
           "description": "Any Human Ever randomly picks an average person from some point in human history and tells you about what their life was like. Mine was a woman born in 1547: “Of all the sounds of her life, the loudest were thunder and the church bells.”",
@@ -2608,16 +2638,6 @@
           "wordCount": 3643,
           "title": "Pluralistic: Inefficiency is bad, actually (11 Sep 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13266",
-          "author": "Cory Doctorow",
-          "description": "Today's links Anti-vax/anti-trust: Remembering saves lives. Hey look at this: Delights to delectate. Object permanence: Disneyland prisoner; HOAs v xeriscaping; Copyright Office x regulatory capture; The women held a vote; Open licenses v uncopyrightable subjects; Largest prison strike in history; Largest strike in history; Fingerspitzengefühl; CDT v DRM; BNL v DRM; Sugar v logos; Knit a Princess Leia wig; RIP Gutenberg founder Michael Hart; Best bitters; HK refugees x Snowden; Wells Fargo's massive fraud; EU v links; Trump x noncompetes. Upcoming appearances: London, Manchester, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I…",
-          "link": "https://pluralistic.net/2026/09/09/when-it-dont-rain/",
-          "publishedOn": "2026-09-09T10:28:57.000Z",
-          "wordCount": 3888,
-          "title": "Pluralistic: Anti-vax/anti-trust (09 Sep 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2908,16 +2928,6 @@
           "wordCount": null,
           "title": "Untitled",
           "imageUrl": null
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/827271559949451264",
-          "author": null,
-          "description": "junkfoodcinemas:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSCIENCE FICTION FILMS + SET IN THE FUTURE  \n\nKeep reading",
-          "link": "https://brucesterling.tumblr.com/post/827271559949451264",
-          "publishedOn": "2026-09-09T09:53:59.000Z",
-          "wordCount": 1866,
-          "title": "SCIENCE FICTION FILMS + SET IN THE FUTURE",
-          "imageUrl": "https://64.media.tumblr.com/6daeffca063277c31ab847ff12564842/63dc8b7e73743a7f-cf/s540x810/19d5df4228d68a5e43be184cd8028d03aedfd529.gif"
         }
       ]
     },
@@ -3285,6 +3295,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+          "author": null,
+          "description": "<blockquote cite=\"https://htmx.org/essays/yes-and/\"><p>Computer programming is, fundamentally, about two things:</p>\n<ul>\n<li>Problem-solving using computers</li>\n<li>Learning to control complexity while solving these problems</li>\n</ul>\n<p>I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is <em>less</em> valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://htmx.org/essays/yes-and/\">Carson Gross</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/computer-science\">computer-science</a>, <a href=\"https://simonwillison.net/tags/carson-gross\">carson-gross</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+          "publishedOn": "2026-10-08T21:05:44.000Z",
+          "wordCount": 765,
+          "title": "Quoting Carson Gross",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
           "author": null,
@@ -4583,16 +4603,6 @@
           "publishedOn": "2026-09-11T10:07:46.000Z",
           "wordCount": 2460,
           "title": "what can you give the man who literally already has everything",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12357",
-          "author": "PGR",
-          "description": "Go read a webcomic.",
-          "link": "https://www.velcro-city.co.uk/discredited-descriptions-of-reality/",
-          "publishedOn": "2026-09-09T09:25:00.000Z",
-          "wordCount": 2525,
-          "title": "discredited descriptions of reality",
           "imageUrl": null
         }
       ]
