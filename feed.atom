@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-09T17:56:49.889Z</updated>
+    <updated>2026-10-09T23:47:51.052Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Deno is joining Cloudflare]]></title>
+        <id>https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/</id>
+        <link href="https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"/>
+        <updated>2026-10-09T22:48:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://deno.com/blog/cloudflare">Deno is joining Cloudflare</a></strong></p>
+The Deno team released the first version of <a href="https://github.com/denoland/celld">celld</a> back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers.</p>
+<p>Today, Cloudflare are acquiring Deno outright, with the goal of building on <code>celld</code> to "make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model" (see <a href="https://blog.cloudflare.com/deno-joins-cloudflare/">the Cloudflare blog</a>.)</p>
+<p>The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year:</p>
+<blockquote>
+<p>We will support the <a href="https://github.com/denoland/deno">Deno runtime</a> for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development.</p>
+</blockquote>
+<p>Deno (and Node.js) creator Ryan Dahl explained that decision in <a href="https://news.ycombinator.com/item?id=50019911#50023277">a comment</a> on Hacker News:</p>
+<blockquote>
+<p>It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough.</p>
+<p>I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development.</p>
+</blockquote>
+<p>My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access.</p>
+<p>Node.js <a href="https://nodejs.org/api/permissions.html">has a similar permissions model</a> these days, added <a href="https://nodejs.org/en/blog/release/v20.0.0">in Node v20.0.0</a> in April 2023 and declared stable <a href="https://nodejs.org/en/blog/release/v22.13.0">in Node v22.13.0</a> in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50019911">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/cloudfront">cloudfront</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/nodejs">nodejs</a>, <a href="https://simonwillison.net/tags/ryan-dahl">ryan-dahl</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/deno">deno</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unseen Places: Rediscovering the Art of Observation by...]]></title>
+        <id>https://kottke.org/26/10/0049761-unseen-places-rediscoveri</id>
+        <link href="https://kottke.org/26/10/0049761-unseen-places-rediscoveri"/>
+        <updated>2026-10-09T20:38:00.000Z</updated>
+        <summary type="html"><![CDATA[Unseen Places: Rediscovering the Art of Observation by Anna Kodé. Looking forward to this one…Kodé is one of my favorite journalists covering urban culture. “Observation…is not a passive act, but a powerful and radical way of connecting…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Every US Electrical Outlet Explained]]></title>
+        <id>https://kottke.org/26/10/every-us-electrical-outlet-explained</id>
+        <link href="https://kottke.org/26/10/every-us-electrical-outlet-explained"/>
+        <updated>2026-10-09T19:58:00.000Z</updated>
+        <summary type="html"><![CDATA[This video from Practical Engineering was very illuminating to me, a naive person who thought there were only three types of electrical outlets used in the US — the two-prong, the three-prong, and the 240V — and not the real number, which is more than 35 types of electrical outlets! Oh and “two-prong”? Not that plug’s actual name! (via unsung)
+
+ 
+
+        
+         
+Tags: electricity · engineering · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Thwarted (09 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13382</id>
+        <link href="https://pluralistic.net/2026/10/09/impunitism/"/>
+        <updated>2026-10-09T19:48:39.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Thwarted: Behold the awesome destructive power of a fully operational billionaire. Hey look at this: Delights to delectate. Object permanence: Anthrax v National Inquirer; Grey goo v Second Life; Predictive policing v actual crime; Spooky cookies; California v algorithmic price-fixing; Tivo self-destructs; Disney exec endorses piracy; TSA v geologists; Handheld printer; Mandatory DRM for all Canadian music sales; Iceweasel; "Snuff"; "Shade the Changing Girl"; Latam surveillance; Scotland Yard brands encryption terrorism; RBS slaughtered 10k small businesses to seize and sell their assets; Dead Letters. Upcoming appearances: Calgary, Winnipeg, Paris, Vancouver, Victoria, Ottawa, Kilkenny, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep …]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Japanese book rave. A club in Tokyo spread carpets on the...]]></title>
+        <id>https://kottke.org/26/10/0049771-japanese-book-rave</id>
+        <link href="https://kottke.org/26/10/0049771-japanese-book-rave"/>
+        <updated>2026-10-09T18:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Japanese book rave. A club in Tokyo spread carpets on the dance floor, played ambient music, and invited daytime clubgoers to chill out and read. Would 100% frequent a bookstore/cafe that did this regularly.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Weball allows you to roll up websites into a Katamari...]]></title>
         <id>https://kottke.org/26/10/0049767-weball</id>
@@ -7721,16 +7795,6 @@ The post The Four-Color Theorem Gets a Rare New Proof first appeared on Quanta M
         <summary type="html"><![CDATA[I read somewhere this week that offline is (once again) the new flex. Fashion people have apparently discovered The Offline, which seems weird to me…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Handsome, chill, rumple amenable]]></title>
-        <id>https://www.blackbirdspyplane.com/p/handsome-chill-and-rumple-amenable</id>
-        <link href="https://www.blackbirdspyplane.com/p/handsome-chill-and-rumple-amenable"/>
-        <updated>2026-09-10T11:03:15.000Z</updated>
-        <summary type="html"><![CDATA[Our new Parents Intel Zone, great undyed unisex knits, swag footwear predictions and more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
     <entry>
