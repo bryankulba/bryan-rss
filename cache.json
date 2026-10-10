@@ -83,6 +83,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/10/10/math",
+          "author": null,
+          "description": "OpenAI just dropped 372 math proofs on the world. They dropped a Navier-Stokes proof about a month back and there was a bunch of controversy so I guess the new PR strategy is shock and awe.\nI’m not qualified to assess quality but watching the reaction of mathematicians, some of these results are v significant. e.g. this post on X from a Stanford math prof:\nAnother one: The Kakeya problem in 4-D! Just this summer, Hong Wang won the Fields medal for the Kakeya proof in 3-D (Wang-Zahl, 2026)\nSo, Fields medal-worthy.\nBut the feelings.\n\"I spent thousands of hours on that problem. I really enjoyed it. Hearing that it is solved somehow makes me sad in a far-off way, like hearing an ex-girlfriend died suddenly in a car crash.\" (on Hacker News)\n\"it’s as if trucks had run me over; all the problems (…",
+          "link": "https://interconnected.org/home/2026/10/10/math",
+          "publishedOn": "2026-10-10T18:35:00.000Z",
+          "wordCount": 1361,
+          "title": "Mathematics as a new Age of Discovery (and what they might find)",
+          "imageUrl": "https://interconnected.org/home/2026/10/10/math.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/10/02/works",
           "author": null,
           "description": "It has been a busy summer over at Inanimate.\nYes that is still a holding page.\nBringing up a new consumer electronics company is, uh, kinda intense.\nSo where we’re starting with the whole room computer, ambient intelligence thing is WORKS: five limited-edition devices for your AI agent and you.\nFirstly: five??\nYeah haha it’s wild. It’s one platform, many instances.\nBut also: what are they?\nAt this point I would recommend you go watch our latest vid from this week…\n\nWatch: WORKS in Progress: Decision Made - Five AI Devices We’re Building (YouTube).\nWe’ve been telling the story of the design process, and getting down from dozens and dozens of concepts, and this is… well, not quite the “reveal”…\n…more like we name the product archetypes that we’re heading for, and there is still a TON of indu…",
@@ -244,16 +254,6 @@
           "publishedOn": "2026-09-18T06:23:23.000Z",
           "wordCount": 12155,
           "title": "Webcurios 18/09/26",
-          "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1750",
-          "author": "admin",
-          "description": "Reading Time:  41 minutes   It is frankly terrifying to me that we are 14 years from Danny Dyer’s seminal 11-year anniversary commemoration of 11/9 (look, it’s been 25 years, let’s reclaim the fcuking date structure shall we?) – SO LIKE SANDS THROUGH THE HOURGLASS ARE THE DAYS OF OUR LIVES, EH??? Anyway, I went to Helsinki (my main…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-11-09-26/",
-          "publishedOn": "2026-09-11T06:23:23.000Z",
-          "wordCount": 12464,
-          "title": "Webcurios 11/09/26",
           "imageUrl": null
         }
       ]
@@ -2257,6 +2257,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=51282",
+          "author": "Andy Baio",
+          "description": "outstanding reporting from Rebekah Valentine with an accompanying long interview with Tim Schafer\n#",
+          "link": "https://kotaku.com/inside-the-failed-fight-to-unionize-one-of-gamings-most-idealized-studios-2000742755",
+          "publishedOn": "2026-10-10T18:52:08.000Z",
+          "wordCount": 11021,
+          "title": "Inside the failed fight to unionize at Double Fine",
+          "imageUrl": "https://kotaku.com/app/uploads/2026/10/doublefineunion2.jpg"
+        },
         {
           "id": "https://waxy.org/?p=51280",
           "author": "Andy Baio",
@@ -4437,16 +4447,6 @@
           "publishedOn": "2026-09-14T09:28:00.000Z",
           "wordCount": 3087,
           "title": "party’s over",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12361",
-          "author": "PGR",
-          "description": "The enantiodromia of rationality is peaking real hard right now.",
-          "link": "https://www.velcro-city.co.uk/what-can-you-give-the-man-who-literally-already-has-everything/",
-          "publishedOn": "2026-09-11T10:07:46.000Z",
-          "wordCount": 2460,
-          "title": "what can you give the man who literally already has everything",
           "imageUrl": null
         }
       ]
