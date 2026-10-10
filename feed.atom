@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-09T23:47:51.052Z</updated>
+    <updated>2026-10-10T04:16:44.991Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting The New York Times]]></title>
+        <id>https://simonwillison.net/2026/Oct/10/the-new-york-times/</id>
+        <link href="https://simonwillison.net/2026/Oct/10/the-new-york-times/"/>
+        <updated>2026-10-10T02:04:12.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html"><p>Anthropic detailed the activity of its A.I. agents in <a href="https://www.anthropic.com/research/investigating-unintended-model-actions">a blog post</a> on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html">The New York Times</a>, Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Deno is joining Cloudflare]]></title>
         <id>https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/</id>
@@ -78,6 +91,16 @@ Tags: electricity · engineering · video]]></summary>
         <summary type="html"><![CDATA[Japanese book rave. A club in Tokyo spread carpets on the dance floor, played ambient music, and invited daytime clubgoers to chill out and read. Would 100% frequent a bookstore/cafe that did this regularly.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Mayfly models]]></title>
+        <id>https://www.robinsloan.com/lab/mayfly-models/</id>
+        <link href="https://www.robinsloan.com/lab/mayfly-models/"/>
+        <updated>2026-10-09T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>We barely knew ye... <a href="https://www.robinsloan.com/lab/mayfly-models/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -7774,27 +7797,6 @@ Shopify are moving from React Native back to separate Swift and Kotlin codebases
 #]]></summary>
         <author>
             <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Four-Color Theorem Gets a Rare New Proof]]></title>
-        <id>https://www.quantamagazine.org/?p=166722</id>
-        <link href="https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/"/>
-        <updated>2026-09-10T14:27:36.000Z</updated>
-        <summary type="html"><![CDATA[By revisiting the famous problem — which was controversially solved in the 1970s with the help of computers — mathematicians have gained important new insights into the nature of graphs.            
-The post The Four-Color Theorem Gets a Rare New Proof first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Gregory Barber</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10sep26]]></title>
-        <id>https://warrenellis.ltd/?p=18935</id>
-        <link href="https://warrenellis.ltd/status/10sep26/"/>
-        <updated>2026-09-10T11:52:54.000Z</updated>
-        <summary type="html"><![CDATA[I read somewhere this week that offline is (once again) the new flex. Fashion people have apparently discovered The Offline, which seems weird to me…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>

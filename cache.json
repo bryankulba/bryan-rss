@@ -130,6 +130,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/mayfly-models/",
+          "author": null,
+          "description": "<p>We barely knew ye... <a href=\"https://www.robinsloan.com/lab/mayfly-models/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/mayfly-models/",
+          "publishedOn": "2026-10-09T18:00:00.000Z",
+          "wordCount": 4972,
+          "title": "Dragoncatcher: Mayfly models",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/cyberpunk-is-now/",
           "author": null,
           "description": "<p>Finally! <a href=\"https://www.robinsloan.com/lab/cyberpunk-is-now/\">Read here.</a></p>",
@@ -2801,16 +2811,6 @@
           "wordCount": 1463,
           "title": "11sep26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2011-scaled-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18935",
-          "author": "Warren Ellis",
-          "description": "I read somewhere this week that offline is (once again) the new flex. Fashion people have apparently discovered The Offline, which seems weird to me…",
-          "link": "https://warrenellis.ltd/status/10sep26/",
-          "publishedOn": "2026-09-10T11:52:54.000Z",
-          "wordCount": 1396,
-          "title": "10sep26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2118-scaled.jpg"
         }
       ]
     },
@@ -3249,6 +3249,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\"><p>Anthropic detailed the activity of its A.I. agents in <a href=\"https://www.anthropic.com/research/investigating-unintended-model-actions\">a blog post</a> on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\">The New York Times</a>, Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/accidental-cyberattacks\">accidental-cyberattacks</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+          "publishedOn": "2026-10-10T02:04:12.000Z",
+          "wordCount": 788,
+          "title": "Quoting The New York Times",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
           "author": null,
@@ -4485,16 +4495,6 @@
           "wordCount": 2916,
           "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/FlippingForams-cr-Ada-Zejun-Shen-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=166722",
-          "author": "Gregory Barber",
-          "description": "By revisiting the famous problem — which was controversially solved in the 1970s with the help of computers — mathematicians have gained important new insights into the nature of graphs.            \nThe post The Four-Color Theorem Gets a Rare New Proof first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
-          "publishedOn": "2026-09-10T14:27:36.000Z",
-          "wordCount": 4031,
-          "title": "The Four-Color Theorem Gets a Rare New Proof",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/4C-Theorem-cr-Vico-Santos-Social.jpg"
         }
       ]
     },
