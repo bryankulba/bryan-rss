@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-10T23:12:15.465Z</updated>
+    <updated>2026-10-11T03:54:26.498Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Dwarf Fortress uses version control now]]></title>
+        <id>https://simonwillison.net/2026/Oct/11/dwarf-fortress/</id>
+        <link href="https://simonwillison.net/2026/Oct/11/dwarf-fortress/"/>
+        <updated>2026-10-11T00:52:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control <em>more</em>. That's art.</p>
+<p>I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time:</p>
+<ul>
+<li>March 2013: <a href="https://www.reddit.com/r/IAmA/comments/1avszc/comment/c919fo8/?solution=43270267461a564b43270267461a564b&amp;js_challenge=1&amp;jsc_token=2824be10929bdc604753c70a67a1c3310860c2cae0f946ff767fab3727807a35&amp;jsc_orig_r=">"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside"</a></li>
+<li>March 2016: <a href="https://www.pcgamer.com/dwarf-fortress-creator-on-how-hes-42-towards-simulating-existence/3/">"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it."</a> </li>
+<li>March 2023: <a href="https://www.gamedeveloper.com/programming/how-tarn-adams-upgraded-and-optimized-dwarf-fortress-for-its-official-steam-release">"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved"</a></li>
+</ul>
+<p>That March 2023 quote comes from an interview about the release on Steam which <a href="https://www.pcgamer.com/after-spending-20-years-simulating-reality-the-dwarf-fortress-devs-have-to-get-used-to-a-new-one-being-millionaires/">made them millionaires</a>. I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/version-control">version-control</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 3.15.0 added to actions/python-versions]]></title>
+        <id>https://simonwillison.net/2026/Oct/10/python-actions/</id>
+        <link href="https://simonwillison.net/2026/Oct/10/python-actions/"/>
+        <updated>2026-10-10T23:58:04.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24">Python 3.15.0 added to actions/python-versions</a></strong></p>
+Bit of a niche link, but I've been waiting for this for a couple of days - I even <a href="https://chatgpt.com/share/6acad42a-2868-83e8-9a16-736f9def2b45">told ChatGPT</a> to check for it:</p>
+<blockquote>
+<p><code>Clone https://github.com/actions/python-versions  and git pull once an hour until they add the stable  3.15 - then tell me about it</code></p>
+</blockquote>
+<p>Now that this has landed, you can add <code>"3.15"</code> to a GitHub Actions testing matrix to run tests against the <a href="https://www.python.org/downloads/release/python-3150/">new Python 3.15.0 release</a>.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/github-actions">github-actions</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Inside the failed fight to unionize at Double Fine]]></title>
         <id>https://waxy.org/?p=51282</id>
@@ -7337,34 +7374,6 @@ One of OpenRouter's selling points is that it "handles fallbacks automatically a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Pluralistic: Inefficiency is bad, actually (11 Sep 2026)]]></title>
-        <id>https://pluralistic.net/?p=13277</id>
-        <link href="https://pluralistic.net/2026/09/11/mazzucato-thought/"/>
-        <updated>2026-09-11T14:55:56.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Inefficiency is bad, actually: Now, "resiliency" on the other hand… Hey look at this: Delights to delectate. Object permanence: Canada's DMCA; Socialism x Pledge of Allegiance; Hate the player and the game; Making Light's 9/11; 9/11 survivor registry; Secure email caused 9/11; German Pirates; Hollywood's Canadian MP; Reverse Centaurs resolve the AI paradox. Upcoming appearances: Manchester, Budapest, Edmonton, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Inefficiency is bad, actually (permalink) The most reliable way to lose a political battle is to let your adversary define the terms.…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Soft-deprecating re.match()]]></title>
-        <id>https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/</id>
-        <link href="https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/"/>
-        <updated>2026-09-11T14:47:57.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://hugovk.dev/blog/2026/soft-deprecating-re.match/">Soft-deprecating re.match()</a></strong></p>
-Python has a concept of <a href="https://peps.python.org/pep-0387/#soft-deprecation">soft deprecation</a>, where APIs are marked as "should no longer be used to write new code" without any promise/threat to remove them in the future.</p>
-<p>Python 3.15 release manager Hugo van Kemenade describes how in the upcoming 3.15 release soft deprecation has come for the venerable but deeply confusing <code>re.match()</code> function. It's now available with the much clearer alternative <code>re.prefixmatch()</code> name - reflecting how it anchors at the beginning of the string but not the end.</p>
-<p>Most of the time you probably want <code>re.search()</code> (match this pattern anywhere in the string) or <code>re.fullmatch()</code> (match the entire string) instead.
-
-    <p><small></small>Via <a href="https://lobste.rs/s/u7dr96/soft_deprecating_re_match">Lobste.rs</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/regular-expressions">regular-expressions</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?]]></title>
         <id>https://www.quantamagazine.org/?p=166829</id>
         <link href="https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/"/>
@@ -7383,56 +7392,6 @@ The post Why Do These Fossil Shells Flip Their Spirals Every Few Millennia? firs
         <summary type="html"><![CDATA[A whole decade ago I blogged about a taxonomy of cliches in space opera, with a considerable checklists of things to watch out for in the space opera I was just then starting to work on. This was almost entirely...]]></summary>
         <author>
             <name>Charlie's Diary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't sleep on wrapture]]></title>
-        <id>https://simonwillison.net/2026/Sep/11/wrapture/</id>
-        <link href="https://simonwillison.net/2026/Sep/11/wrapture/"/>
-        <updated>2026-09-11T13:51:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>Graham Dumpleton's new monkey patching package <a href="https://wrapture.readthedocs.io/">wrapture</a> is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it!</p>
-<p>Graham has been posting new tutorials for it almost daily since <a href="https://simonwillison.net/2026/Aug/31/introducing-wrapture/">the initial release</a> on August 31st. Here's everything he's published so far:</p>
-<ul>
-<li><a href="https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/">Introducing wrapture</a> - a new monkey patching library that serves both testing and observability (think New Relic style tracing) at the same time.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/">Unit testing with wrapture</a> - how to use it for the same kinds of thing as <code>unittest.mock</code>.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/recording-calls-with-wrapture/">Recording calls with wrapture</a>  - recording method calls as timelines and processing and displaying them as trees.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/">Phased behaviour in wrapture</a>  - arranging patched methods to change behavior across multiple calls.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/">Beyond callables in wrapture</a> - monkey patching attributes, dictionaries, generators.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/">Live tracing with wrapture</a>  - tracing a live application to see exactly how it works.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/">Zero-code tracing with wrapture</a>  - configuring tracing in a separate TOML file without modifying Python code at all.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/">Tracing Flask with wrapture</a>  - using the separate <a href="https://github.com/GrahamDumpleton/wrapture-instrumentation">wrapture-instrumenation</a> package to instrument a Flask application. That package also provides instrumentation for <code>aiohttp.client</code>, <code>aiohttp.web</code>, <code>django</code>, <code>fastapi</code>, <code>flask</code>, <code>grpc</code>, <code>http.client</code>, <code>httpx</code>, <code>jinja2</code>, <code>requests</code>, <code>sqlalchemy</code>, <code>sqlite3</code>, <code>starlette</code>, <code>urllib.request</code>, <code>urllib3</code>, <code>uvicorn</code>, <code>werkzeug.serving</code>, <code>wsgiref.simple_server</code>, <code>xmlrpc.client</code>, <code>xmlrpc.server</code>.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/">Finding slow code with wrapture</a> - wrapture's tools for recording timing information, both individually and aggregated across multiple calls.</li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/">OpenTelemetry export in wrapture</a> - exporting traces to OpenTelemetry.</li>
-</ul>
-<p>Graham also has a <a href="https://github.com/GrahamDumpleton/wrapture-workshops">set of interactive workshops</a> for wrapture, implemented as JupyterLab notebooks.</p>
-<p>Wrapture is still alpha software but it's already very usable - especially given you can configure and try it out with a TOML file without modifying any Python code at all.</p>
-<p>This feels like one of those Swiss Army Knife packages that, once mastered, will provide value against all sorts of problems for years to come.</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/graham-dumpleton">graham-dumpleton</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/testing">testing</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/observability">observability</a>, <a href="https://simonwillison.net/tags/monkey-patching">monkey-patching</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Biiiiig Stretch]]></title>
-        <id>https://kottke.org/26/09/biiiiig-stretch</id>
-        <link href="https://kottke.org/26/09/biiiiig-stretch"/>
-        <updated>2026-09-11T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Back when I went on sabbatical in 2022, I told the story of the fiddle leaf fig tree I bought shortly after my ex-wife and I separated and I’d moved into my own apartment.
-I’d recently moved into my own apartment after separating from my wife and figured a large plant in my new place would add some liveliness to a new beginning that was feeling overwhelming, lonely, and sad. For the first couple of months, I didn’t know if my tree and I were going to make it. I’d never really had a plant before and struggled getting a handle on the watering schedule and other plant care routines. It started losing leaves. Like, an alarming number of leaves.
-I’d brought this glorious living thing into my house only to kill it! Not cool. With the stress of the separation, my new living situation, and not see…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220;In almost every [US] county, extreme heat is at...]]></title>
-        <id>https://kottke.org/26/09/0049561-its-not-just-you-america-</id>
-        <link href="https://kottke.org/26/09/0049561-its-not-just-you-america-"/>
-        <updated>2026-09-11T12:10:00.000Z</updated>
-        <summary type="html"><![CDATA[“In almost every [US] county, extreme heat is at least as bad as it was 30 years ago. In most counties, it’s much worse.” It’s Not Just You. America Has Gotten Much Hotter. (Not a fan of articles like this being in the “opinion” section…)]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
