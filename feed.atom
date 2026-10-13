@@ -2,10 +2,267 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-12T20:53:03.817Z</updated>
+    <updated>2026-10-13T18:50:56.921Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How many shots are in the average movie today?]]></title>
+        <id>https://waxy.org/?p=51285</id>
+        <link href="https://stephenfollows.com/p/how-many-shots-are-in-the-average"/>
+        <updated>2026-10-13T18:37:09.000Z</updated>
+        <summary type="html"><![CDATA[interesting analysis using shot boundary detection mapped against hand counts from the Cinemetrics project
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reelizer: A Trove of Movie Art]]></title>
+        <id>https://kottke.org/26/10/reelizer-a-trove-of-movie-art</id>
+        <link href="https://kottke.org/26/10/reelizer-a-trove-of-movie-art"/>
+        <updated>2026-10-13T17:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Reelizer is a personal project by Roger Erik Tinch that is a collection of movie art: prints, posters, illustrations, albums, books, covers, etc. Careful, you can lose hours here…Tinch has a great eye. A few of my favorites:
+
+
+
+
+
+
+
+ 
+
+        
+         
+Tags: art · movie posters · movies · posters · Roger Erik Tinch]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thing I am going to make time for in the next few days:...]]></title>
+        <id>https://kottke.org/26/10/0049782-harry-styles-and-thom-yor</id>
+        <link href="https://kottke.org/26/10/0049782-harry-styles-and-thom-yor"/>
+        <updated>2026-10-13T16:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Thing I am going to make time for in the next few days: Harry Styles and Thom Yorke in conversation. “My laptop has been dead for about 6 years. I don’t know where my charger is.” There’s an accompanying Rolling Stone cover story.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The People Holding Up the Internet. Amazing to see how...]]></title>
+        <id>https://kottke.org/26/10/0049781-the-people-holding-up-the</id>
+        <link href="https://kottke.org/26/10/0049781-the-people-holding-up-the"/>
+        <updated>2026-10-13T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[The People Holding Up the Internet. Amazing to see how much of the modern internet still depends on the volunteer work of individual people. 4 billion phones rely on the time zone database, a text file edited by just two people in their spare time.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overdose Offsets: Why Every Bag of Fentanyl I Sell Is Net...]]></title>
+        <id>https://kottke.org/26/10/0049780-overdose-offsets-why-ever</id>
+        <link href="https://kottke.org/26/10/0049780-overdose-offsets-why-ever"/>
+        <updated>2026-10-13T15:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Overdose Offsets: Why Every Bag of Fentanyl I Sell Is Net Life-Positive. “Every death on my corner is offset, with a third of a toddler left over, and I’d like that number in the conversation the next time somebody calls me a murderer…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“I’m forced to admit that these AI-decompiled web browser...]]></title>
+        <id>https://kottke.org/26/10/0049778-actually-seem-to-run-very</id>
+        <link href="https://kottke.org/26/10/0049778-actually-seem-to-run-very"/>
+        <updated>2026-10-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[“I’m forced to admit that these AI-decompiled web browser ports of Call of Duty: Black Ops, Halo: CE, Grand Theft Auto: Vice City, Skate 3, and The Simpsons: Hit and Run actually seem to run very well.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Geoffrey Huntley]]></title>
+        <id>https://simonwillison.net/2026/Oct/13/geoffrey-huntley/</id>
+        <link href="https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"/>
+        <updated>2026-10-13T13:32:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://ghuntley.com/agency/"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote>
+<p class="cite">&mdash; <a href="https://ghuntley.com/agency/">Geoffrey Huntley</a>, nobody should type code by hand anymore. here's what's left.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/geoffrey-huntley">geoffrey-huntley</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Bundestrojaner (13 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13393</id>
+        <link href="https://pluralistic.net/2026/10/13/petards-r-us/"/>
+        <updated>2026-10-13T11:50:19.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Bundestrojaner: You can't make people more secure by making them less secure. Hey look at this: Delights to delectate. Object permanence: 9/11 sitcom; Jon Norman v Philcon; Bruce Sterling's post-9/11 geopolitics; Polaroid bankrupt; David Mamet x Shel Silverstein; "Great Big Beautiful Tomorrow"; Canadian government calls abortion doctors "terrorists"; Shanghai Ikea kicks out lonely, loitering seniors; Black Panther self-care. Upcoming appearances: Paris, Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Bundestrojaner (permalink) Every morning, I revisit my blog headlines fro…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slurp Mode]]></title>
+        <id>https://www.blackbirdspyplane.com/p/slurp-mode</id>
+        <link href="https://www.blackbirdspyplane.com/p/slurp-mode"/>
+        <updated>2026-10-13T11:04:57.000Z</updated>
+        <summary type="html"><![CDATA[The undeniable pleasure of the Spyplane Soup of the Fall]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[13oct26]]></title>
+        <id>https://warrenellis.ltd/?p=19131</id>
+        <link href="https://warrenellis.ltd/status/13oct26/"/>
+        <updated>2026-10-13T11:04:17.000Z</updated>
+        <summary type="html"><![CDATA[Been off for a few days. Went to a birthday party at the weekend, at a pub I haven’t set foot in for almost forty…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/830349376625999872</id>
+        <link href="https://brucesterling.tumblr.com/post/830349376625999872"/>
+        <updated>2026-10-13T09:14:34.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[morally right and theoretically superior]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12405</id>
+        <link href="https://www.velcro-city.co.uk/morally-right-and-theoretically-superior/"/>
+        <updated>2026-10-13T09:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Heather Parry on Chinese rail.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Conversation on KDO]]></title>
+        <id>https://kottke.org/26/10/improving-conversation-on-kdo</id>
+        <link href="https://kottke.org/26/10/improving-conversation-on-kdo"/>
+        <updated>2026-10-13T04:08:06.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been really pleased with how KDO comments are working lately — you folks have been lively, informative, fun, and pushing conversations beyond what I can individually manage. And the vibe of the threads are more closely matching the vibe of the community guidelines. All good! The one-size-fits-all-ness of social media has its advantages, but some are looking for quieter spaces and more orientation around community and shared sensibilities. Through the comments, KDO has been growing into one of those places.
+Note: comment threads on the site are free for everyone to read, but in order to participate, you need to be a KDO member. Join us if you fancy a group chat.
+In order to give us a few more tools to facilitate conversations, I’ve been working on some new stuff over the past few days …]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Ask for: a rich visual research report]]></title>
+        <id>https://www.robinsloan.com/lab/ask-visual-research/</id>
+        <link href="https://www.robinsloan.com/lab/ask-visual-research/"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>From the annals of asking for what you want. <a href="https://www.robinsloan.com/lab/ask-visual-research/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Office Ambience 513]]></title>
+        <id>https://www.thewire.co.uk/audio/tracks/office-ambience-513</id>
+        <link href="https://www.thewire.co.uk/audio/tracks/office-ambience-513"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The full chart:
+
+Alya Al-Sultani/Pat Thomas/Khabat Abas
+    
+Manara
+    
+Discus)
+
+Bad Waitress
+    
+In The Hollow
+    
+Stomp)
+
+BETHLEHEM
+    
+BETHLEHEM
+    
+Constellation)
+
+Arthur Brown
+    
+Nature
+    
+Prophecy)
+
+Nneka Cummins
+    
+Finding Gills
+    
+nonclassical)
+
+Glass Triangle
+    
+3 x 1
+    
+Relative Pitch)
+
+Kasatriyan Javanese Art Community & Warsaw Gamelan Group
+    
+Caraka Handayapati: Wayang From Central Java
+    
+Sacral Grooves/1000Herz)
+
+Kepla
+    
+Outside Time
+    
+SINK)
+
+Limpe Fuchs
+    
+Pianostops
+    
+Futura Resistenza)
+
+Ans M
+    
+Likewing Drift
+    
+Scorpio Red)
+
+Andrew Nolan
+    
+Black Dogs
+    
+Avalanche/Give/Take)
+
+Mali Obomsawin
+    
+Automatic
+    
+Out Of Your Head)
+
+ONJQ
+    
+Otomo Yoshihide’s New Jazz Quintet China Tour 2025
+    
+Little Stone)
+
+Andy Stott
+    
+Late Loop
+    
+Modern Love)
+
+Ziúr
+    
+De Brujas Y Fantasmas (Original Soundtrack For Kianí Del Valle Solo Dance Performance)
+    
+Kuboraum Editions)]]></summary>
+        <author>
+            <name>The Wire: Home</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Prompting as Self-Portrait. “We need the blank page and...]]></title>
         <id>https://kottke.org/26/10/0049753-prompting-as-self-portrai</id>
@@ -124,6 +381,24 @@
         <summary type="html"><![CDATA[The Worst Way To Get To Space. I’d never heard the story of the manhole cover possibly propelled into orbit by a nuclear blast — it was estimated to be moving at ~42 miles/sec. “Some speculated it became the first manmade object to enter Earth’s orbit.”]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[web-edit 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Oct/12/web-edit/</id>
+        <link href="https://simonwillison.net/2026/Oct/12/web-edit/"/>
+        <updated>2026-10-12T15:54:36.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/web-edit/releases/tag/0.1a0">web-edit 0.1a0</a></p>
+        <p>I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.</p>
+<p>So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.</p>
+<p>Here's the interface for browsing files in a folder:</p>
+<p><img alt="Screenshot of a web file manager interface. Header reads &quot;WORKSPACE&quot; above the title &quot;Files&quot;, with buttons &quot;Refresh&quot;, &quot;Upload files&quot; and &quot;New file&quot; (dark green). A breadcrumb shows &quot;web-edit / web_edit / static&quot;. A table with columns &quot;Name&quot;, &quot;Size&quot;, &quot;Modified&quot; lists four files, each with &quot;Download ↓&quot; and &quot;Delete&quot; links: &quot;app.css&quot; 8.4 KB Oct 12, 2026; &quot;app.js&quot; 671.5 KB Oct 12, 2026; &quot;index.html&quot; 4.3 KB Oct 12, 2026 (underlined, as if hovered); &quot;THIRD_PARTY_LICENSES.txt&quot; 32.3 KB Oct 12, 2026. Below the table: &quot;Images under 2 MB appear inline. Select a text file to edit it.&quot; A panel below is labelled &quot;UPLOAD QUEUE&quot; with heading &quot;Add files&quot; and a &quot;Close&quot; button. It has a &quot;Destination folder&quot; text field containing &quot;web_edit&quot;, then a dashed drop zone reading &quot;Choose files or drop them here&quot; and &quot;Set a path and filename for each file before uploading.&quot; with a &quot;Choose Files&quot; button and the text &quot;no files selected&quot;. A greyed-out &quot;Upload files&quot; button sits at the bottom right." src="https://static.simonwillison.net/static/2026/web-edit.webp" /></p>
+<p>Editing uses <a href="https://codemirror.net">CodeMirror 6</a> - I was going to use <a href="https://microsoft.github.io/monaco-editor/">Monaco</a> but that still doesn't have a great mobile experience yet.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/tailscale">tailscale</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/codex">codex</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7303,95 +7578,6 @@ Tags: books · Haruki Murakami · jazz · music · video]]></summary>
         <summary type="html"><![CDATA[Parsing big signal in the divinatory noise.]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Way We Live Now: 11-11-01; Lost and Found , a piece...]]></title>
-        <id>https://kottke.org/26/09/0049575-the-way-we-live-now-11-11</id>
-        <link href="https://kottke.org/26/09/0049575-the-way-we-live-now-11-11"/>
-        <updated>2026-09-14T00:45:00.000Z</updated>
-        <summary type="html"><![CDATA[The Way We Live Now: 11-11-01; Lost and Found, a piece written by Colson Whitehead just a month after 9/11. “The New York City you live in is not my New York City; how could it be? This place multiplies when you’re not looking.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[commit-rewriter 0.1]]></title>
-        <id>https://simonwillison.net/2026/Sep/14/commit-rewriter/</id>
-        <link href="https://simonwillison.net/2026/Sep/14/commit-rewriter/"/>
-        <updated>2026-09-14T00:28:10.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/commit-rewriter/releases/tag/0.1">commit-rewriter 0.1</a></p>
-        <p>I built this little web app the other day to help edit the commit messages for the <a href="https://datasette.io/blog/2026/september-security-releases/">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p>
-<p>If you want to edit the commit messages for a repository you can run it like this:</p>
-<pre><code>uvx commit-rewriter path/to/repo
-</code></pre>
-<p>Omit the path if you are already in the directory for that repo.</p>
-<p><img alt="Screenshot of the commit-rewriter web interface. A heading reads commit-rewriter above the repository path and current branch and commit hash, with a short description of the tool. A toolbar shows a pending edits count with Discard drafts and Rewrite commit messages buttons, followed by a search box for message, author, or hash and an Edited only checkbox. A left sidebar titled Navigate commits lists recent commit messages with their short hashes. The main panel shows a card for each commit with its hash, author and timestamp, an editable text area containing the commit message, and a View full formatted diff toggle." src="https://static.simonwillison.net/static/2026/commit-rewriter.webp" /></p>
-<p>When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/git">git</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/ai-assisted-programming">ai-assisted-programming</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces]]></title>
-        <id>https://maggieappleton.com/planning-agents</id>
-        <link href="https://maggieappleton.com/planning-agents"/>
-        <updated>2026-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents]]></summary>
-        <author>
-            <name>Maggie Appleton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces]]></title>
-        <id>https://maggieappleton.com/planning-agents/</id>
-        <link href="https://maggieappleton.com/planning-agents/"/>
-        <updated>2026-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents]]></summary>
-        <author>
-            <name>Maggie Appleton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[shot-scraper 1.12]]></title>
-        <id>https://simonwillison.net/2026/Sep/13/shot-scraper/</id>
-        <link href="https://simonwillison.net/2026/Sep/13/shot-scraper/"/>
-        <updated>2026-09-13T23:58:14.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/shot-scraper/releases/tag/1.12">shot-scraper 1.12</a></p>
-        <p>I've added WebP support to my <a href="https://shot-scraper.datasette.io/">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p>
-<pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80
-</code></pre>
-<p>The <code>--quality</code> option sets the quality - without that option the WebP file will be lossless.</p>
-<p>In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See <a href="https://github.com/simonw/shot-scraper/pull/210">the PR</a> for some examples.</p>
-<p>I shipped this feature so I could use it to generate the screenshot <a href="https://simonwillison.net/2026/Sep/14/commit-rewriter/">for my new commit-rewriter tool</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/playwright">playwright</a>, <a href="https://simonwillison.net/tags/shot-scraper">shot-scraper</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lifted AF ⊗ Cyborgs, centaurs and cyberpunks]]></title>
-        <id>6aa46f437ff933000123fd22</id>
-        <link href="https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks-no-416/"/>
-        <updated>2026-09-13T10:00:36.000Z</updated>
-        <summary type="html"><![CDATA[No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lifted AF ⊗ Cyborgs, centaurs and cyberpunks]]></title>
-        <id>6aa46f437ff933000123fd22</id>
-        <link href="https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks/"/>
-        <updated>2026-09-13T10:00:36.000Z</updated>
-        <summary type="html"><![CDATA[No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
     <entry>

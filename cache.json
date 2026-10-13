@@ -64,26 +64,6 @@
           "wordCount": 1371,
           "title": "The map fiction missed",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/dymaxion_projection-angle-crop.jpg"
-        },
-        {
-          "id": "6aa46f437ff933000123fd22",
-          "author": "Patrick Tanguay",
-          "description": "No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?",
-          "link": "https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks-no-416/",
-          "publishedOn": "2026-09-13T10:00:36.000Z",
-          "wordCount": 2480,
-          "title": "Lifted AF ⊗ Cyborgs, centaurs and cyberpunks",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/ernst_chladni-klange16.jpg"
-        },
-        {
-          "id": "6aa46f437ff933000123fd22",
-          "author": "Patrick Tanguay",
-          "description": "No.416 — The importance of reading (and teaching) cyberpunk ⊗ Anticipatory literacy coaching ⊗ AI’s next ethical dilemma ⊗ Solar desert power ⊗ Are crows really our friends?",
-          "link": "https://sentiers.media/lifted-af-cyborgs-centaurs-and-cyberpunks/",
-          "publishedOn": "2026-09-13T10:00:36.000Z",
-          "wordCount": 2477,
-          "title": "Lifted AF ⊗ Cyborgs, centaurs and cyberpunks",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/09/ernst_chladni-klange16.jpg"
         }
       ]
     },
@@ -139,6 +119,16 @@
       "feedUrl": "https://www.robinsloan.com/feed.xml",
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
+        {
+          "id": "https://www.robinsloan.com/lab/ask-visual-research/",
+          "author": null,
+          "description": "<p>From the annals of asking for what you want. <a href=\"https://www.robinsloan.com/lab/ask-visual-research/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/ask-visual-research/",
+          "publishedOn": "2026-10-13T00:00:00.000Z",
+          "wordCount": 5776,
+          "title": "Dragoncatcher: Ask for: a rich visual research report",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
         {
           "id": "https://www.robinsloan.com/newsletters/peeking-over-the-wall/",
           "author": null,
@@ -310,6 +300,66 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/10/reelizer-a-trove-of-movie-art",
+          "author": null,
+          "description": "Reelizer is a personal project by Roger Erik Tinch that is a collection of movie art: prints, posters, illustrations, albums, books, covers, etc. Careful, you can lose hours here…Tinch has a great eye. A few of my favorites:\n\n\n\n\n\n\n\n \n\n        \n         \nTags: art · movie posters · movies · posters · Roger Erik Tinch",
+          "link": "https://kottke.org/26/10/reelizer-a-trove-of-movie-art",
+          "publishedOn": "2026-10-13T17:58:00.000Z",
+          "wordCount": 660,
+          "title": "Reelizer: A Trove of Movie Art",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1791884440-d855eb05.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049782-harry-styles-and-thom-yor",
+          "author": null,
+          "description": "Thing I am going to make time for in the next few days: Harry Styles and Thom Yorke in conversation. “My laptop has been dead for about 6 years. I don’t know where my charger is.” There’s an accompanying Rolling Stone cover story.",
+          "link": "https://kottke.org/26/10/0049782-harry-styles-and-thom-yor",
+          "publishedOn": "2026-10-13T16:58:00.000Z",
+          "wordCount": 747,
+          "title": "Thing I am going to make time for in the next few days:...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049781-the-people-holding-up-the",
+          "author": null,
+          "description": "The People Holding Up the Internet. Amazing to see how much of the modern internet still depends on the volunteer work of individual people. 4 billion phones rely on the time zone database, a text file edited by just two people in their spare time.",
+          "link": "https://kottke.org/26/10/0049781-the-people-holding-up-the",
+          "publishedOn": "2026-10-13T16:10:00.000Z",
+          "wordCount": 1001,
+          "title": "The People Holding Up the Internet. Amazing to see how...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049780-overdose-offsets-why-ever",
+          "author": null,
+          "description": "Overdose Offsets: Why Every Bag of Fentanyl I Sell Is Net Life-Positive. “Every death on my corner is offset, with a third of a toddler left over, and I’d like that number in the conversation the next time somebody calls me a murderer…”",
+          "link": "https://kottke.org/26/10/0049780-overdose-offsets-why-ever",
+          "publishedOn": "2026-10-13T15:10:00.000Z",
+          "wordCount": 644,
+          "title": "Overdose Offsets: Why Every Bag of Fentanyl I Sell Is Net...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049778-actually-seem-to-run-very",
+          "author": null,
+          "description": "“I’m forced to admit that these AI-decompiled web browser ports of Call of Duty: Black Ops, Halo: CE, Grand Theft Auto: Vice City, Skate 3, and The Simpsons: Hit and Run actually seem to run very well.”",
+          "link": "https://kottke.org/26/10/0049778-actually-seem-to-run-very",
+          "publishedOn": "2026-10-13T14:00:00.000Z",
+          "wordCount": 778,
+          "title": "“I’m forced to admit that these AI-decompiled web browser...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/improving-conversation-on-kdo",
+          "author": null,
+          "description": "I’ve been really pleased with how KDO comments are working lately — you folks have been lively, informative, fun, and pushing conversations beyond what I can individually manage. And the vibe of the threads are more closely matching the vibe of the community guidelines. All good! The one-size-fits-all-ness of social media has its advantages, but some are looking for quieter spaces and more orientation around community and shared sensibilities. Through the comments, KDO has been growing into one of those places.\nNote: comment threads on the site are free for everyone to read, but in order to participate, you need to be a KDO member. Join us if you fancy a group chat.\nIn order to give us a few more tools to facilitate conversations, I’ve been working on some new stuff over the past few days …",
+          "link": "https://kottke.org/26/10/improving-conversation-on-kdo",
+          "publishedOn": "2026-10-13T04:08:06.000Z",
+          "wordCount": 2801,
+          "title": "Improving Conversation on KDO",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/10/0049753-prompting-as-self-portrai",
           "author": null,
@@ -2269,16 +2319,6 @@
           "wordCount": 652,
           "title": "We Are Living in the Fantasy World of 13-Year-Old Boys ....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049575-the-way-we-live-now-11-11",
-          "author": null,
-          "description": "The Way We Live Now: 11-11-01; Lost and Found, a piece written by Colson Whitehead just a month after 9/11. “The New York City you live in is not my New York City; how could it be? This place multiplies when you’re not looking.”",
-          "link": "https://kottke.org/26/09/0049575-the-way-we-live-now-11-11",
-          "publishedOn": "2026-09-14T00:45:00.000Z",
-          "wordCount": 1162,
-          "title": "The Way We Live Now: 11-11-01; Lost and Found , a piece...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2287,6 +2327,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=51285",
+          "author": "Andy Baio",
+          "description": "interesting analysis using shot boundary detection mapped against hand counts from the Cinemetrics project\n#",
+          "link": "https://stephenfollows.com/p/how-many-shots-are-in-the-average",
+          "publishedOn": "2026-10-13T18:37:09.000Z",
+          "wordCount": 8586,
+          "title": "How many shots are in the average movie today?",
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!001Z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a68ee26-7147-41e9-8827-53dbb9b1eb00_1200x720.png"
+        },
         {
           "id": "https://waxy.org/?p=51282",
           "author": "Andy Baio",
@@ -2384,6 +2434,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13393",
+          "author": "Cory Doctorow",
+          "description": "Today's links Bundestrojaner: You can't make people more secure by making them less secure. Hey look at this: Delights to delectate. Object permanence: 9/11 sitcom; Jon Norman v Philcon; Bruce Sterling's post-9/11 geopolitics; Polaroid bankrupt; David Mamet x Shel Silverstein; \"Great Big Beautiful Tomorrow\"; Canadian government calls abortion doctors \"terrorists\"; Shanghai Ikea kicks out lonely, loitering seniors; Black Panther self-care. Upcoming appearances: Paris, Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Bundestrojaner (permalink) Every morning, I revisit my blog headlines fro…",
+          "link": "https://pluralistic.net/2026/10/13/petards-r-us/",
+          "publishedOn": "2026-10-13T11:50:19.000Z",
+          "wordCount": 5042,
+          "title": "Pluralistic: Bundestrojaner (13 Oct 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13386",
           "author": "Cory Doctorow",
@@ -2572,6 +2632,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19131",
+          "author": "Warren Ellis",
+          "description": "Been off for a few days. Went to a birthday party at the weekend, at a pub I haven’t set foot in for almost forty…",
+          "link": "https://warrenellis.ltd/status/13oct26/",
+          "publishedOn": "2026-10-13T11:04:17.000Z",
+          "wordCount": 1428,
+          "title": "13oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2395.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19129",
           "author": "Warren Ellis",
@@ -2780,6 +2850,16 @@
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
         {
+          "id": "https://brucesterling.tumblr.com/post/830349376625999872",
+          "author": null,
+          "description": "",
+          "link": "https://brucesterling.tumblr.com/post/830349376625999872",
+          "publishedOn": "2026-10-13T09:14:34.000Z",
+          "wordCount": 1058,
+          "title": "Untitled",
+          "imageUrl": "https://44.media.tumblr.com/03739ba88b95d83bcfee5a2039f42e4e/fda811db99f682ef-bb/s1080x1362_f1/850b9169e95a94bdd30821631978f6be705ad5f9.jpg"
+        },
+        {
           "id": "https://brucesterling.tumblr.com/post/830265851069579264",
           "author": null,
           "description": "*Drone-bombed in the 2020s",
@@ -2866,6 +2946,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/slurp-mode",
+          "author": "Blackbird Spyplane",
+          "description": "The undeniable pleasure of the Spyplane Soup of the Fall",
+          "link": "https://www.blackbirdspyplane.com/p/slurp-mode",
+          "publishedOn": "2026-10-13T11:04:57.000Z",
+          "wordCount": null,
+          "title": "Slurp Mode",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!nATc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fb9905e-400c-4c76-b218-8d7fab452861_1933x4660.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!nATc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fb9905e-400c-4c76-b218-8d7fab452861_1933x4660.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/take-a-picture-of-everything-you",
           "author": "Blackbird Spyplane",
@@ -3099,6 +3195,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/audio/tracks/office-ambience-513",
+          "author": null,
+          "description": "The full chart:\n\nAlya Al-Sultani/Pat Thomas/Khabat Abas\n    \nManara\n    \nDiscus)\n\nBad Waitress\n    \nIn The Hollow\n    \nStomp)\n\nBETHLEHEM\n    \nBETHLEHEM\n    \nConstellation)\n\nArthur Brown\n    \nNature\n    \nProphecy)\n\nNneka Cummins\n    \nFinding Gills\n    \nnonclassical)\n\nGlass Triangle\n    \n3 x 1\n    \nRelative Pitch)\n\nKasatriyan Javanese Art Community & Warsaw Gamelan Group\n    \nCaraka Handayapati: Wayang From Central Java\n    \nSacral Grooves/1000Herz)\n\nKepla\n    \nOutside Time\n    \nSINK)\n\nLimpe Fuchs\n    \nPianostops\n    \nFutura Resistenza)\n\nAns M\n    \nLikewing Drift\n    \nScorpio Red)\n\nAndrew Nolan\n    \nBlack Dogs\n    \nAvalanche/Give/Take)\n\nMali Obomsawin\n    \nAutomatic\n    \nOut Of Your Head)\n\nONJQ\n    \nOtomo Yoshihide’s New Jazz Quintet China Tour 2025\n    \nLittle Stone)\n\nAndy Stott\n    \nLate Loop\n    \nModern Love)\n\nZiúr\n    \nDe Brujas Y Fantasmas (Original Soundtrack For Kianí Del Valle Solo Dance Performance)\n    \nKuboraum Editions)",
+          "link": "https://www.thewire.co.uk/audio/tracks/office-ambience-513",
+          "publishedOn": "2026-10-13T00:00:00.000Z",
+          "wordCount": 597,
+          "title": "Office Ambience 513",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/13/charts_crop.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-liz-harris",
           "author": null,
           "description": "The Wire 513\n\n\n    In The Wire 513 it is the turn of Liz Harris aka Grouper.\n\nThe Wire 513. To find out what she said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.\n\n\n    Liz Harris is a musician and visual artist who has recorded as Grouper since 2005. Her music is often made with very little: voice, guitar or piano, one room, one simple recorder, yet it carries enough quiet magnitude to fill New York’s Town Hall and Brussels’ Bozar.\n\nDragging A Dead Deer Up A Hill (2008), the paired A I A: Dream Loss and A I A: Alien Observer (2011), The Man Who Died In His Boat (2013), Ruins (2014), Grid Of Points (2018) and Shade (2021), still her most recent Grouper album. She also records solo as Nivhek, an…",
@@ -3246,6 +3352,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+          "author": null,
+          "description": "<blockquote cite=\"https://ghuntley.com/agency/\"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://ghuntley.com/agency/\">Geoffrey Huntley</a>, nobody should type code by hand anymore. here's what's left.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/git\">git</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/geoffrey-huntley\">geoffrey-huntley</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+          "publishedOn": "2026-10-13T13:32:00.000Z",
+          "wordCount": 804,
+          "title": "Quoting Geoffrey Huntley",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/12/python-3-15/",
           "author": null,
           "description": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.</p>\r\n<p>First, some highlights from Python 3.15.</p>\r\n<h4 id=\"explicit-lazy-imports\">Explicit lazy imports</h4>\r\n<p>I'm most excited about <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html#pep-810-explicit-lazy-imports\">Explicit lazy imports</a> from <a href=\"https://peps.python.org/pep-0810/\">PEP 810</a>. These let you import modules like so:</p>\r\n<pre><span class=\"pl-s1\">lazy</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">json</span>\r\n<span class=\"pl-s1\">lazy</span> <span class=\"pl-k\">from</span> <span class=\"pl-s1\">pathlib</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">Path</span></pre>\r\n<p>The module will then be imported the first time those symbols are used in the code that follows.</p>\r\n<p>My <a href=\"https://llm.datasette.io/\">LLM</a> CLI tool implements plugins. I had to <a href=\"https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#tip-lazily-load-expensive-dependencies\">recommend manual lazy imports</a> in the plugin author documentation, because simply installing plugins that used heavy dependencies such as <code>sentence_transformers</code> could add multiple seconds to every invocation of the <code>llm</code> command. Lazy imports directly address this startup cost.</p>\r\n<h4 id=\"unpacking-in-comprehensions\">Unpacking in comprehensions</h4>\r\n<p>The new <code>[*sublist for sublist in lists]</code> unpacking syntax is neat. Here's an illustration <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html#pep-798-unpacking-in-comprehensions\">lifted from the documentation</a>:</p>\r\n<pre><span class=\"pl-s1\">lists</span> <span class=\"pl-c1\">=</span> [[<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">2</span>], [<span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">4</span>], [<span class=\"pl-c1\">5</span>]]\r\n[<span class=\"pl-c1\">*</span><span class=\"pl-c1\">L</span> <span class=\"pl-k\">for</span> <span class=\"pl-c1\">L</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">lists</span>]\r\n<span class=\"pl-c\"># [1, 2, 3, 4, 5]</span>\r\n<span class=\"pl-c\"># equivalent to [x for L in lists for x in L]</span>\r\n\r\n<span class=\"pl-s1\">sets</span> <span class=\"pl-c1\">=</span> [{<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">2</span>}, {<span class=\"pl-c1\">2</span>, <span class=\"pl-c1\">3</span>}, {<span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">4</span>}]\r\n{<span class=\"pl-c1\">*</span><span class=\"pl-s1\">s</span> <span class=\"pl-k\">for</span> <span class=\"pl-s1\">s</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">sets</span>}\r\n<span class=\"pl-c\"># {1, 2, 3, 4}</span>\r\n<span class=\"pl-c\"># equivalent to {x for s in sets for x in s}</span>\r\n\r\n<span class=\"pl-s1\">dicts</span> <span class=\"pl-c1\">=</span> [{<span class=\"pl-s\">'a'</span>: <span class=\"pl-c1\">1</span>}, {<span class=\"pl-s\">'b'</span>: <span class=\"pl-c1\">2</span>}, {<span class=\"pl-s\">'a'</span>: <span class=\"pl-c1\">3</span>}]\r\n{<span class=\"pl-c1\">**</span><span class=\"pl-s1\">d</span> <span class=\"pl-s1\">for</span> <span class=\"pl-s1\">d</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">dicts</span>}\r\n<span class=\"pl-c\"># {'a': 3, 'b': 2}</span>\r\n<span class=\"pl-c\"># equivalent to {k: v for d in dicts for k,v in d.items()}</span></pre>\r\n<p><a href=\"https://peps.python.org/pep-0798/\">PEP 798: Unpacking in Comprehensions</a> by Adam Hartz and Erik Demaine proposed this as an extension of the unpacking syntax <a href=\"https://peps.python.org/pep-0448/\">from PEP 448</a>, which landed <a href=\"https://docs.python.org/3/whatsnew/3.5.html#pep-448-additional-unpacking-generalizations\">in Python 3.5</a> back in 2015.</p>\r\n<h4 id=\"a-sampling-profiler\">A sampling profiler</h4>\r\n<p>Python's existing tracing profiler has been renamed from <code>cProfile</code> to <a href=\"https://docs.python.org/3.15/library/profiling.tracing.html#module-profiling.tracing\">profiling.tracing</a>, and has been joined by an exciting new sampling profiler called Tachyon, aka <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html#tachyon-high-frequency-statistical-sampling-profiler\">profiling.sampling</a>.</p>\r\n<p>Sampling profilers work by periodically capturing stack traces from running processes, then using those to calculate which functions have the most time spent inside of them. They're very low overhead and can provide a deep insight into running systems, without needing to instrument those systems first.</p>\r\n<p>I've <a href=\"https://simonwillison.net/tags/profiling/\">previously used tools</a> like <a href=\"https://github.com/benfred/py-spy\">py-spy</a> for this. Now this capability is baked into the standard library.</p>\r\n<p>If you have the PID of an existing Python 3.15 process you can start gathering samples by running this (I had to use <code>sudo</code> on macOS):</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>sudo uv run --python 3.15 python -m profiling.sampling attach 1234</pre></div>\r\n<p>Interact with the main program a bit, then hit Ctrl+C to stop gathering and see a report, which looks something like this:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/profiler-output.webp\" alt=\"Screenshot of terminal output from a Python sampling profiler with colored text on a black background. Header lines report 2,651 samples captured in 2.65 seconds at a sample rate of 999.98 samples/sec with an error rate of 0.19. A Profile Stats table with columns for nsamples, sample%, tottime, cumul%, cumtime and filename:lineno(function) shows that 99.9% of samples (2.644 seconds) were spent directly in selectors.py KqueueSelector.select, meaning the process was almost entirely idle waiting on the asyncio event loop. The rest of the table lists the call stack beneath it with zero direct time but 100% cumulative presence: asyncio base_events.py run_once, run_forever and run_until_complete, runners.py Runner.run and run, cli.py serve and sqlite_extensions wrapped, and several click core.py invoke, main and call frames. A legend explains each column, followed by a Summary of Interesting Functions section listing hot spots (KqueueSelector.select at 99.9% direct samples), the most frequently present functions on the stack (run_forever, run_until_complete and Runner.run at 100%), and the highest call magnification (2645.0x for BaseEventLoop._run_once).\" style=\"max-width: 100%;\" /></p>\r\n<p>It can also produce <a href=\"https://simonw.github.io/research/python-3-15-web-edit-profiling/artifacts/flamegraph.html\">flame graphs like this</a> and <a href=\"https://simonw.github.io/research/python-3-15-web-edit-profiling/artifacts/heatmap/index.html\">heat maps like this</a>, and can even output a format that can be viewed in the Firefox profiler UI.</p>\r\n<h4 id=\"3-15-isn-t-much-faster-than-3-14\">3.15 isn't much faster than 3.14</h4>\r\n<p>Miguel Grinberg investigated <a href=\"https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15\">How fast is Python 3.15?</a> the other day against the 3.15.0rc3 release and found performance to be mostly the same as 3.14, with the exception of the experimental JIT. The JIT gave a 1.2x boost over the standard 3.15 interpreter (on a Fibonacci test), the first time Miguel observed a meaningful JIT performance increase.</p>\r\n<p>Miguel's <a href=\"https://blog.miguelgrinberg.com/post/python-3-14-is-here-how-fast-is-it\">explorations of 3.14</a> last year found significant boosts against Python 3.13 across many more categories.</p>\r\n<h4 id=\"upgrading-to-python-3-15-with-uv\">Upgrading to Python 3.15 with uv</h4>\r\n<p>I used the following sequence of commands to get <code>uv</code> to use Python 3.15 on my Mac. First I had to upgrade <code>uv</code> itself to ensure it knew about the new release:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>uv self update</pre></div>\r\n<p>Then I installed the stable 3.15 release:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>uv python install 3.15</pre></div>\r\n<p>And told <code>uv</code> that I wanted that to be the default for every <code>uv run</code> command, unless the project itself pinned a different version:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>uv python pin --global 3.15</pre></div>\r\n<p>Now the following reports 3.15 as the version:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>uv run python --version</pre></div>\r\n<p>I already have a bunch of tools installed using <code>uv tool install</code>. I reinstalled them to use Python 3.15 like this:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>uv tool upgrade datasette --python 3.15</pre></div>\r\n<p>Then I can confirm the version like this:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>datasette --get /-/versions.json <span class=\"pl-k\">|</span> jq</pre></div>\r\n<h4 id=\"highlights-from-python-3-11\">Highlights from Python 3.11</h4>\r\n<p>The release of 3.15 means that Python 3.10 (released in 2021) is officially <a href=\"https://devguide.python.org/versions/\">no longer supported</a>.</p>\r\n<p>My policy for my main open source projects is to keep them working in every supported Python version. I can now drop 3.10 and start using features that were introduced in 3.11.</p>\r\n<p>Here's the <a href=\"https://docs.python.org/3/whatsnew/3.11.html\">What's new in Python 3.11</a> document. I finally get to rely on <a href=\"https://docs.python.org/3/library/tomllib.html#module-tomllib\">tomllib</a> being available!</p>\r\n<p>Datasette makes extensive use of <code>asyncio</code>. 3.11 adds <a href=\"https://docs.python.org/3/library/asyncio-task.html#asyncio.TaskGroup\">TaskGroup</a> and <a href=\"https://docs.python.org/3/library/asyncio-task.html#asyncio.timeout\">timeout()</a>, and <a href=\"https://docs.python.org/3/whatsnew/3.11.html#asyncio\">several more</a> new features.</p>\r\n<p><code>datetime.UTC</code> is a new in 3.11 alias for <code>datetime.timezone.utc</code>.</p>\r\n<p>Python's SQLite support got some significant upgrades in 3.11, including:</p>\r\n<ul>\r\n<li>\r\n<a href=\"https://docs.python.org/3/library/sqlite3.html#sqlite3.Connection.setlimit\">setlimit()</a> and <a href=\"https://docs.python.org/3/library/sqlite3.html#sqlite3.Connection.getlimit\">getlimit()</a> expose a mechanism for setting <a href=\"https://www.sqlite.org/c3ref/c_limit_attached.html\">SQLite runtime limits</a> from Python.</li>\r\n<li>\r\n<a href=\"https://docs.python.org/3/library/sqlite3.html#sqlite3.Connection.create_window_function\">create_window_function()</a> lets us create custom window functions in Python, as a class with <code>step()</code>, <code>value()</code>, <code>inverse()</code>, and <code>finalize()</code> methods.</li>\r\n<li>\r\n<a href=\"https://docs.python.org/3/library/sqlite3.html#sqlite3.Connection.blobopen\">blobopen()</a> provides an efficient mechanism for partial reads and writes of large <code>BLOB</code> binary values stored in a SQLite row.</li>\r\n<li>You can now call <code>set_authorizer(None)</code> to remove a SQLite authorizer. Datasette had a workaround for this!</li>\r\n</ul>\r\n<p>Plus a whole bunch of <a href=\"https://docs.python.org/3/whatsnew/3.11.html#new-feat-related-type-hints-311\">improvements to Python's typing system</a>.</p>\r\n<p>I plan to land Python 3.11 improvements to a bunch of my projects over the next few weeks. Here's <a href=\"https://github.com/simonw/datasette/pull/2998\">my first Datasette PR</a> removing that <code>set_authorizer(None)</code> workaround.</p>\r\n<p>I've also updated my <a href=\"https://github.com/simonw/click-app\">click-app</a>, <a href=\"https://github.com/simonw/datasette-plugin\">datasette-plugin</a>, <a href=\"https://github.com/simonw/python-lib\">python-lib</a>, and <a href=\"https://github.com/simonw/llm-plugin\">llm-plugin</a> cookiecutter templates to test against Python 3.11 through Python 3.15.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/profiling\">profiling</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
@@ -3254,6 +3370,16 @@
           "wordCount": 1703,
           "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
           "imageUrl": "https://static.simonwillison.net/static/2026/profiler-output.webp"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/12/web-edit/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a0\">web-edit 0.1a0</a></p>\n        <p>I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.</p>\n<p>So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.</p>\n<p>Here's the interface for browsing files in a folder:</p>\n<p><img alt=\"Screenshot of a web file manager interface. Header reads &quot;WORKSPACE&quot; above the title &quot;Files&quot;, with buttons &quot;Refresh&quot;, &quot;Upload files&quot; and &quot;New file&quot; (dark green). A breadcrumb shows &quot;web-edit / web_edit / static&quot;. A table with columns &quot;Name&quot;, &quot;Size&quot;, &quot;Modified&quot; lists four files, each with &quot;Download ↓&quot; and &quot;Delete&quot; links: &quot;app.css&quot; 8.4 KB Oct 12, 2026; &quot;app.js&quot; 671.5 KB Oct 12, 2026; &quot;index.html&quot; 4.3 KB Oct 12, 2026 (underlined, as if hovered); &quot;THIRD_PARTY_LICENSES.txt&quot; 32.3 KB Oct 12, 2026. Below the table: &quot;Images under 2 MB appear inline. Select a text file to edit it.&quot; A panel below is labelled &quot;UPLOAD QUEUE&quot; with heading &quot;Add files&quot; and a &quot;Close&quot; button. It has a &quot;Destination folder&quot; text field containing &quot;web_edit&quot;, then a dashed drop zone reading &quot;Choose files or drop them here&quot; and &quot;Set a path and filename for each file before uploading.&quot; with a &quot;Choose Files&quot; button and the text &quot;no files selected&quot;. A greyed-out &quot;Upload files&quot; button sits at the bottom right.\" src=\"https://static.simonwillison.net/static/2026/web-edit.webp\" /></p>\n<p>Editing uses <a href=\"https://codemirror.net\">CodeMirror 6</a> - I was going to use <a href=\"https://microsoft.github.io/monaco-editor/\">Monaco</a> but that still doesn't have a great mobile experience yet.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/tailscale\">tailscale</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
+          "publishedOn": "2026-10-12T15:54:36.000Z",
+          "wordCount": 875,
+          "title": "web-edit 0.1a0",
+          "imageUrl": "https://static.simonwillison.net/static/2026/web-edit-card.jpg"
         },
         {
           "id": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
@@ -4074,26 +4200,6 @@
           "wordCount": 786,
           "title": "Quoting Laurie Voss",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.1\">commit-rewriter 0.1</a></p>\n        <p>I built this little web app the other day to help edit the commit messages for the <a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p>\n<p>If you want to edit the commit messages for a repository you can run it like this:</p>\n<pre><code>uvx commit-rewriter path/to/repo\n</code></pre>\n<p>Omit the path if you are already in the directory for that repo.</p>\n<p><img alt=\"Screenshot of the commit-rewriter web interface. A heading reads commit-rewriter above the repository path and current branch and commit hash, with a short description of the tool. A toolbar shows a pending edits count with Discard drafts and Rewrite commit messages buttons, followed by a search box for message, author, or hash and an Edited only checkbox. A left sidebar titled Navigate commits lists recent commit messages with their short hashes. The main panel shows a card for each commit with its hash, author and timestamp, an editable text area containing the commit message, and a View full formatted diff toggle.\" src=\"https://static.simonwillison.net/static/2026/commit-rewriter.webp\" /></p>\n<p>When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-          "publishedOn": "2026-09-14T00:28:10.000Z",
-          "wordCount": 850,
-          "title": "commit-rewriter 0.1",
-          "imageUrl": "https://static.simonwillison/static/2026/commit-rewriter.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p>\n        <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p>\n<pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80\n</code></pre>\n<p>The <code>--quality</code> option sets the quality - without that option the WebP file will be lossless.</p>\n<p>In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See <a href=\"https://github.com/simonw/shot-scraper/pull/210\">the PR</a> for some examples.</p>\n<p>I shipped this feature so I could use it to generate the screenshot <a href=\"https://simonwillison.net/2026/Sep/14/commit-rewriter/\">for my new commit-rewriter tool</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/playwright\">playwright</a>, <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-          "publishedOn": "2026-09-13T23:58:14.000Z",
-          "wordCount": 822,
-          "title": "shot-scraper 1.12",
-          "imageUrl": null
         }
       ]
     },
@@ -4128,28 +4234,7 @@
       "title": "Maggie Appleton",
       "feedUrl": "https://maggieappleton.com/rss.xml",
       "siteUrl": "https://maggieappleton.com",
-      "articles": [
-        {
-          "id": "https://maggieappleton.com/planning-agents",
-          "author": null,
-          "description": "Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents",
-          "link": "https://maggieappleton.com/planning-agents",
-          "publishedOn": "2026-09-14T00:00:00.000Z",
-          "wordCount": 4996,
-          "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
-          "imageUrl": "https://maggieappleton.com/og/planning-agents.png"
-        },
-        {
-          "id": "https://maggieappleton.com/planning-agents/",
-          "author": null,
-          "description": "Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents",
-          "link": "https://maggieappleton.com/planning-agents/",
-          "publishedOn": "2026-09-14T00:00:00.000Z",
-          "wordCount": 4682,
-          "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
-          "imageUrl": "https://maggieappleton.com/og/planning-agents.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Stories by Dan Hill on Medium",
@@ -4375,6 +4460,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12405",
+          "author": "PGR",
+          "description": "Heather Parry on Chinese rail.",
+          "link": "https://www.velcro-city.co.uk/morally-right-and-theoretically-superior/",
+          "publishedOn": "2026-10-13T09:01:00.000Z",
+          "wordCount": 2501,
+          "title": "morally right and theoretically superior",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12399",
           "author": "PGR",
