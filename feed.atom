@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-13T23:35:46.044Z</updated>
+    <updated>2026-10-14T03:28:19.966Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“If a human did this, it would be an instant Fields...]]></title>
+        <id>https://kottke.org/26/10/0049791-openai-recently-released-</id>
+        <link href="https://kottke.org/26/10/0049791-openai-recently-released-"/>
+        <updated>2026-10-14T02:36:00.000Z</updated>
+        <summary type="html"><![CDATA[“If a human did this, it would be an instant Fields Medal, no questions asked.” OpenAI recently released 350+ proofs of mathematical theorems, all in one go. “I imagine many mathematicians, like me, felt like they got punched in the stomach yesterday,”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The first trailer for Greta Gerwig’s Narnia: The...]]></title>
+        <id>https://kottke.org/26/10/0049787-narnia-the-magicians-neph</id>
+        <link href="https://kottke.org/26/10/0049787-narnia-the-magicians-neph"/>
+        <updated>2026-10-14T01:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The first trailer for Greta Gerwig’s Narnia: The Magician’s Nephew. I love Gerwig and I know this will be good, but I’m cautiously optimistic that it will be great. (I still forever have “Chronicwhatcles of Narnia” stuck in my head tho…)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Girls is coming back to HBO for a 5-episode run. Lena...]]></title>
+        <id>https://kottke.org/26/10/0049786-link</id>
+        <link href="https://kottke.org/26/10/0049786-link"/>
+        <updated>2026-10-14T00:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Girls is coming back to HBO for a 5-episode run. Lena Dunham, Allison Williams, Jemima Kirke, Zosia Mamet, and Andrew Rannells are all returning. I loved this show and will tune in for sure.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Redesigning source control at Anthropic]]></title>
         <id>https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/</id>
@@ -7582,116 +7612,6 @@ Completed within a decade or two of the events which it depicts, the tapestry is
 Tags: Bayeux Tapestry · video]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’]]></title>
-        <id>https://www.quantamagazine.org/?p=166935</id>
-        <link href="https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/"/>
-        <updated>2026-09-14T15:20:48.000Z</updated>
-        <summary type="html"><![CDATA[The James Webb Space Telescope spots mysterious “little red dots” everywhere. A bold new theory suggests they’re suns dozens of times larger than our entire solar system.             
-The post Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’ first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Charlie Wood</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I’ve linked to Summoning Salt’s videos before (they make...]]></title>
-        <id>https://kottke.org/26/09/0049584-the-tournament-that-chang</id>
-        <link href="https://kottke.org/26/09/0049584-the-tournament-that-chang"/>
-        <updated>2026-09-14T14:57:00.000Z</updated>
-        <summary type="html"><![CDATA[I’ve linked to Summoning Salt’s videos before (they make some of the best video game explainer videos out there — hell, some of the best YT videos period) and here’s their newest one: The Tournament That Changed Tetris Forever.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All About U.S. 250 Years of the United States of America]]></title>
-        <id>https://we-make-money-not-art.com/?p=39550</id>
-        <link href="https://we-make-money-not-art.com/all-about-u-s-250-years-of-the-united-states-of-america/"/>
-        <updated>2026-09-14T14:50:52.000Z</updated>
-        <summary type="html"><![CDATA[“All About U.S.” challenges standard assumptions and myths, such as the founding of the U.S. on seemingly uninhabited land, populated by a selection of extraordinary people who committed themselves to the world’s first liberal constitution]]></summary>
-        <author>
-            <name>Regine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Laurie Voss]]></title>
-        <id>https://simonwillison.net/2026/Sep/14/laurie-voss/</id>
-        <link href="https://simonwillison.net/2026/Sep/14/laurie-voss/"/>
-        <updated>2026-09-14T14:34:29.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://seldo.com/posts/we-are-all-product-engineers-now/"><p>The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job.</p></blockquote>
-<p class="cite">&mdash; <a href="https://seldo.com/posts/we-are-all-product-engineers-now/">Laurie Voss</a>, We are all Product Engineers now</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/laurie-voss">laurie-voss</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a>, <a href="https://simonwillison.net/tags/careers">careers</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In 1992, Canada declared a moratorium on Northern cod...]]></title>
-        <id>https://kottke.org/26/09/0049579-the-govt-has-upgraded-the</id>
-        <link href="https://kottke.org/26/09/0049579-the-govt-has-upgraded-the"/>
-        <updated>2026-09-14T14:19:00.000Z</updated>
-        <summary type="html"><![CDATA[In 1992, Canada declared a moratorium on Northern cod fishing due to overfishing. It was devastating for Newfoundlanders. This year, for the first time since then, the govt has “upgraded the cod stock’s status from ‘critical’ to ‘healthy’”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two-Hour Mix of the Jazz in Haruki Murakami Novels]]></title>
-        <id>https://kottke.org/26/09/two-hour-mix-of-the-jazz-in-haruki-murakami-novels</id>
-        <link href="https://kottke.org/26/09/two-hour-mix-of-the-jazz-in-haruki-murakami-novels"/>
-        <updated>2026-09-14T13:32:00.000Z</updated>
-        <summary type="html"><![CDATA[From NTS, this is a two-hour mix of jazz music featured in the books of Haruki Murakami.
-‘Somewhere along the line Coltrane’s soprano sax runs out of steam. Now it’s McCoy Tyner’s piano solo I hear, the left hand carving out a repetitious rhythm and the right layering on thick, forbidding chords. Like some mythic scene, the music portrays somebody’s — a nameless, faceless somebody’s — dim past, all the details laid out as clearly as entrails being dragged out of the darkness. Or at least that’s how it sounds to me. The patient, repeating music ever so slowly breaks apart the real, rearranging the pieces. It has a hypnotic, menacing smell, just like the forest’ —Kafka On The Shore
-
-	
-The playlist features tracks by Ornette Coleman, Coltrane, Dizzy, the Bill Evans Trio, Monk, Mingus, and Miles Davis. Some of the video’s comments:
-I had just prepared a light meal and hit play on this playlist when the telephone began to ring.
-
-	
-about to make my morning matcha, a spring breeze is flowing through the open windows, the air smells of optimism
-
-	
-Early morning, sun shining to balcony, having espresso and writing.
-
-	
-Studying the day before the exam with a bittersweet optimism while playing this and holding on to my hopes
-
-	
-Canned cold beer, windows open on a warm summer night, just after finishing a simple dinner of rice and salmon and sitting next to my cat
-
-	
-See also Classical Music from Murakami Novels. Both of these are going straight into my Underscore collection.
-
- 
-
-        
-         
-Tags: books · Haruki Murakami · jazz · music · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We Are Living in the Fantasy World of 13-Year-Old Boys ....]]></title>
-        <id>https://kottke.org/26/09/0049565-we-are-living-in-the-fant</id>
-        <link href="https://kottke.org/26/09/0049565-we-are-living-in-the-fant"/>
-        <updated>2026-09-14T13:02:00.000Z</updated>
-        <summary type="html"><![CDATA[We Are Living in the Fantasy World of 13-Year-Old Boys. Today’s tech titans took all the wrong lessons from the science fiction of their youths and now they’re each building their version of the Torment Nexus.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[14sep26]]></title>
-        <id>https://warrenellis.ltd/?p=18956</id>
-        <link href="https://warrenellis.ltd/status/14sep26/"/>
-        <updated>2026-09-14T12:24:49.000Z</updated>
-        <summary type="html"><![CDATA[From Friday night – dinner at our favourite restaurant, which comes with treats from the chef when the bill arrives. Arrived today, new issue of…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>
