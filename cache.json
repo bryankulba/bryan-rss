@@ -301,6 +301,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/10/0049789-wrote-their-own-git-alter",
+          "author": null,
+          "description": "Anthropic says that, as of Sept ‘26, they were merging 30,000 code changes per day, a 12-fold increase from just four months earlier. The volume increased so much that they wrote their own Git alternative.",
+          "link": "https://kottke.org/26/10/0049789-wrote-their-own-git-alter",
+          "publishedOn": "2026-10-14T16:08:00.000Z",
+          "wordCount": 602,
+          "title": "Anthropic says that, as of Sept ‘26, they were merging...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/whoa-the-lion-nebula",
+          "author": null,
+          "description": "NASA’s JWST recently snapped this image of the Lion Nebula (NGC 2392).\nMassive stars undergo supernova explosions at the end of their lives, but these kinds of events are few and far in between. Most of the universe’s stars have lower masses, like the one belonging to NGC 2392. When a lower-mass star can no longer sustain itself with nuclear reactions in its core, the star becomes unstable and pulsates, losing its mass by shedding its outer layers, which then turn into shells of gas and dust called a planetary nebula. (Stars at this life stage are responsible for producing much of the universe’s observable dust.) The star’s radiation drives the ejected material away, leaving behind the very hot stellar core, also known as a white dwarf.\nIn the Lion Nebula’s case, the death of the oxygen-ri…",
+          "link": "https://kottke.org/26/10/whoa-the-lion-nebula",
+          "publishedOn": "2026-10-14T14:55:00.000Z",
+          "wordCount": 999,
+          "title": "Whoa, the Lion Nebula!",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1791942025-e398546e.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049793-the-case-for-quitting-the",
+          "author": null,
+          "description": "The Case for Quitting: The Surprising Benefits of Opting Out by Lindsay Crouse. “When perseverance turns against us, quitting isn’t just a way out. Often, it’s the first step to something better. A pivot. A break. A chance to go further — or be free.”",
+          "link": "https://kottke.org/26/10/0049793-the-case-for-quitting-the",
+          "publishedOn": "2026-10-14T14:10:00.000Z",
+          "wordCount": 814,
+          "title": "The Case for Quitting: The Surprising Benefits of Opting...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/10/0049791-openai-recently-released-",
           "author": null,
           "description": "“If a human did this, it would be an instant Fields Medal, no questions asked.” OpenAI recently released 350+ proofs of mathematical theorems, all in one go. “I imagine many mathematicians, like me, felt like they got punched in the stomach yesterday,”",
@@ -2366,16 +2396,6 @@
           "wordCount": null,
           "title": "Thinky Dailies",
           "imageUrl": null
-        },
-        {
-          "id": "https://waxy.org/?p=51256",
-          "author": "Andy Baio",
-          "description": "creepypasta in the form of a forum thread, don’t miss the “what’s new!” at the very end\n#",
-          "link": "https://suricrasia.online/unfiction/spinning/",
-          "publishedOn": "2026-09-15T01:07:59.000Z",
-          "wordCount": 16599,
-          "title": "I Found Evidence Of My House Spinning",
-          "imageUrl": "https://suricrasia.online/unfiction/spinning/imgs/og.jpeg"
         }
       ]
     },
@@ -2572,6 +2592,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19151",
+          "author": "Warren Ellis",
+          "description": "I ordered some bulbs for the garden some months ago. They arrived today. It is possible that I may have overdone it. TODAY: OPERATIONS: big…",
+          "link": "https://warrenellis.ltd/status/14oct26/",
+          "publishedOn": "2026-10-14T12:01:36.000Z",
+          "wordCount": 1293,
+          "title": "14oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/weathershot-C4CF4132-3CFD-4206-92B8-2137C6456191-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19131",
           "author": "Warren Ellis",
@@ -3125,6 +3155,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/in-writing/columns/ludwigg-ransson-mythic-music-and-entropic-production",
+          "author": null,
+          "description": "The Odyssey (2026) and Tenet (2020) trade on diegetic and instrumental ambiguities that intentionally disorient audiences in time and space, writes Philip Brophy in his latest Secret History of Film Music column\n\nJason And The Argonauts (1963) is an archly theatrical extravaganza that musically routes transatlantic pop culture to the Italian peplum genre explosion from the late 1950s. Though this wave of grand gladiatorial epics, produced in Italy and often featuring American beefcake performers as titular heroes, was waning by 1963, Herrmann’s triumphant entrance horns, cymbal clashing, galley kettle-drum pounding and multiple cascading harps sound more pompous and less foreboding than his more well known orchestrations. Yet this score captures the plastic veneer across peplum’s exaltatio…",
+          "link": "https://www.thewire.co.uk/in-writing/columns/ludwigg-ransson-mythic-music-and-entropic-production",
+          "publishedOn": "2026-10-14T00:00:00.000Z",
+          "wordCount": 1694,
+          "title": "Ludwig Göransson: Mythic Music and Entropic Production",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/14/tenet_for_web.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/tracks/office-ambience-513",
           "author": null,
           "description": "The full chart:\n\nAlya Al-Sultani/Pat Thomas/Khabat Abas\n    \nManara\n    \nDiscus)\n\nBad Waitress\n    \nIn The Hollow\n    \nStomp)\n\nBETHLEHEM\n    \nBETHLEHEM\n    \nConstellation)\n\nArthur Brown\n    \nNature\n    \nProphecy)\n\nNneka Cummins\n    \nFinding Gills\n    \nnonclassical)\n\nGlass Triangle\n    \n3 x 1\n    \nRelative Pitch)\n\nKasatriyan Javanese Art Community & Warsaw Gamelan Group\n    \nCaraka Handayapati: Wayang From Central Java\n    \nSacral Grooves/1000Herz)\n\nKepla\n    \nOutside Time\n    \nSINK)\n\nLimpe Fuchs\n    \nPianostops\n    \nFutura Resistenza)\n\nAns M\n    \nLikewing Drift\n    \nScorpio Red)\n\nAndrew Nolan\n    \nBlack Dogs\n    \nAvalanche/Give/Take)\n\nMali Obomsawin\n    \nAutomatic\n    \nOut Of Your Head)\n\nONJQ\n    \nOtomo Yoshihide’s New Jazz Quintet China Tour 2025\n    \nLittle Stone)\n\nAndy Stott\n    \nLate Loop\n    \nModern Love)\n\nZiúr\n    \nDe Brujas Y Fantasmas (Original Soundtrack For Kianí Del Valle Solo Dance Performance)\n    \nKuboraum Editions)",
@@ -3263,16 +3303,6 @@
           "wordCount": 1332,
           "title": "\"Omnivorous exuberance\": Francisco Mela reviewed",
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/17/3_Francisco_Mela_photo_credit_Luke_Marantz_copy.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/in-writing/columns/jon-brion-sad-waltzes-empathic-embrace-and-anxious-fits",
-          "author": null,
-          "description": "One Battle After Another (2025) and Punch-Drunk Love (2002), and Greta Gerwig’s Lady Bird (2017).\n\nthe previous essay in this series, Jonny Greenwood provides an amazing score for Paul Thomas Anderson’s One Battle After Another (2025). But two pieces by an earlier composer of Anderson’s films bookend the movie: Jon Brion’s “Bunker Bumper” and “Global Bully”.\n\nOne Battle After Another, they function as quietly majestic statements of the drive and exhaustion which propel the intergenerational tale of social reparation and familial separation. “Bunker Bumper” uncoils as a disjointed bossa nova: a gently struck bass drum marks time for the snare, hi-hats and cymbals, skipping with a detached, dainty air. Horns and strings entwine like a billowing flag in slow motion. Sometimes the horns are si…",
-          "link": "https://www.thewire.co.uk/in-writing/columns/jon-brion-sad-waltzes-empathic-embrace-and-anxious-fits",
-          "publishedOn": "2026-09-15T00:00:00.000Z",
-          "wordCount": 1796,
-          "title": "Jon Brion: Sad Waltzes, Empathic Embrace and Anxious Fits",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/09/15/ladybird_for_web.jpg"
         }
       ]
     },
@@ -4150,16 +4180,6 @@
           "wordCount": 848,
           "title": "Gemini Live audio",
           "imageUrl": "https://static.simonwillison.net/static/2026/gemini-live-tool.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/\">The contagion of fear</a></strong></p>\nBryan Cantrill responds to the <a href=\"https://x.com/hilbertspaess/status/2097476203863224394\">tweet by former Anthropic employee Jacob Coxon</a> confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\".</p>\n<p>Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same:</p>\n<blockquote>\n<p>These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: <a href=\"https://www.youtube.com/watch?v=kwPxjBJamVs\">how would that happen?</a> The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...]</p>\n<p>That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm.</p>\n</blockquote>\n<p>Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that <a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=51m44s\">starting at 51m44s</a> in that episode. Here's <a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=57m4s\">57m04s</a>:</p>\n<blockquote>\n<p>I really think we need to be careful because it's <em>so easy</em> to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/1ifr5f/contagion_fear\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/bryan-cantrill\">bryan-cantrill</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-          "publishedOn": "2026-09-14T21:18:13.000Z",
-          "wordCount": 1047,
-          "title": "The contagion of fear",
-          "imageUrl": null
         }
       ]
     },
@@ -4246,6 +4266,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=167839",
+          "author": "Robin George Andrews",
+          "description": "A collision may have left these galaxies without dark matter. That spells trouble for alternative gravity theories.            \nThe post Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014/",
+          "publishedOn": "2026-10-14T14:04:05.000Z",
+          "wordCount": 2980,
+          "title": "Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Dark-Matter-Galaxies-cr.several-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=167776",
           "author": "Natalie Wolchover",
@@ -4503,6 +4533,16 @@
       "feedUrl": "https://disjunctionsmag.com/rss",
       "siteUrl": "https://disjunctionsmag.com",
       "articles": [
+        {
+          "id": "https://disjunctionsmag.com/articles/hype-and-horror",
+          "author": null,
+          "description": "AI infrastructures, gothic imaginaries, and the politics of dissent",
+          "link": "https://disjunctionsmag.com/articles/hype-and-horror",
+          "publishedOn": "2026-10-14T00:00:00.000Z",
+          "wordCount": 3307,
+          "title": "The Hype and the Horror",
+          "imageUrl": "https://disjunctionsmag.com/_astro/persian-demon.BqGTBjm5.jpg"
+        },
         {
           "id": "https://disjunctionsmag.com/articles/ai-energy-fascism",
           "author": null,
