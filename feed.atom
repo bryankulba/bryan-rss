@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-14T03:28:19.966Z</updated>
+    <updated>2026-10-14T09:16:01.641Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[his fixed nature as an organism may not prove adequate to stand the strain]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12407</id>
+        <link href="https://www.velcro-city.co.uk/his-fixed-nature-as-an-organism-may-not-prove-adequate-to-stand-the-strain/"/>
+        <updated>2026-10-14T09:00:34.000Z</updated>
+        <summary type="html"><![CDATA[I didn't have "William James as comfort reading for the mid-2020s" on my bingo card, but maybe I should have?]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“If a human did this, it would be an instant Fields...]]></title>
         <id>https://kottke.org/26/10/0049791-openai-recently-released-</id>
@@ -7521,97 +7531,6 @@ Bryan Cantrill responds to the <a href="https://x.com/hilbertspaess/status/20974
     <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/bryan-cantrill">bryan-cantrill</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What blog posts influenced your thinking the most?]]></title>
-        <id>https://simonwillison.net/2026/Sep/14/influences/</id>
-        <link href="https://simonwillison.net/2026/Sep/14/influences/"/>
-        <updated>2026-09-14T20:21:48.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking#c_4fxnwn">My comment</a> on <a href="https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking">What blog posts influenced your thinking the most?</a> &mdash; Lobste.rs.</p><p>An early Joel Spolsky one for me was <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a>. I read that near the start of my career and it's encouraged me to <em>always</em> be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks.</p>
-<p>A more recent one, from 2018, is <a href="https://lethain.com/migrations/">Migrations: the sole scalable fix to tech debt</a> by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of software engineering and are a skill that you should invest in and get good at, not avoid or treat as special one-offs.</p>
-<p><a href="https://charity.wtf/p/the-engineer-manager-pendulum">The Engineer/Manager Pendulum</a> by Charity Majors was hugely influential for me. I was stuck in engineering management and worried that if I switched back to being an "Individual Contributor" (ugh I hate that term) I'd damage my career. Charity gave me permission to make the switch by pointing out that many of the most successful software developers pendulum from one track to the other multiple times over their career, and doing so makes you better at both sides.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/joel-spolsky">joel-spolsky</a>, <a href="https://simonwillison.net/tags/software-engineering">software-engineering</a>, <a href="https://simonwillison.net/tags/will-larson">will-larson</a>, <a href="https://simonwillison.net/tags/charity-majors">charity-majors</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From a curator at the Getty,  ratings of every...]]></title>
-        <id>https://kottke.org/26/09/0049568-ratings-of-every-framed-p</id>
-        <link href="https://kottke.org/26/09/0049568-ratings-of-every-framed-p"/>
-        <updated>2026-09-14T20:20:00.000Z</updated>
-        <summary type="html"><![CDATA[From a curator at the Getty, ratings of every “framed picture” emoji. “A total rejection of nature and reality. Why is the horizon rounded? Has this artist seen planet earth before?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2026 winners of the Ig Nobel Prize  include papers...]]></title>
-        <id>https://kottke.org/26/09/0049577-the-2026-winners-of-the-i</id>
-        <link href="https://kottke.org/26/09/0049577-the-2026-winners-of-the-i"/>
-        <updated>2026-09-14T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The 2026 winners of the Ig Nobel Prize include papers on “a more precise definition of kissing”, “An Aerodynamic Study of the Nose Blowing”, and the discovery “that milk proteins from cockroaches pack 3X as much energy as milk proteins from cows”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rocky Sleep, You Watch, Question?]]></title>
-        <id>https://kottke.org/26/09/rocky-sleep-you-watch-question</id>
-        <link href="https://kottke.org/26/09/rocky-sleep-you-watch-question"/>
-        <updated>2026-09-14T18:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Project Hail Mary is already on my list of movies that I can just throw on in the backround while I do a bit of work or puttering around. (Not sure whether that’s an endorsement or not…I like the movie!) Anyhoo, if you get tired of the movie, you can watch Rocky sleep for 2+ hours with the PHM soundtrack playing in the background.
-
- 
-
-        
-         
-Tags: movies · music · Project Hail Mary · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Now open for business in Nyack, NY:  Busman’s Holiday , a...]]></title>
-        <id>https://kottke.org/26/09/0049589-busmans-holiday</id>
-        <link href="https://kottke.org/26/09/0049589-busmans-holiday"/>
-        <updated>2026-09-14T17:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Now open for business in Nyack, NY: Busman’s Holiday, a stationary store run by (former?) graphic designer Sam Potts, who announced the shop back in March in a KDO open thread. Lots of nice touches here, including a used pencil exchanger.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ok wait, the  NES Tetris world record is now  40.26...]]></title>
-        <id>https://kottke.org/26/09/0049585-previous-record</id>
-        <link href="https://kottke.org/26/09/0049585-previous-record"/>
-        <updated>2026-09-14T16:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Ok wait, the NES Tetris world record is now 40.26 million??! It took 2 hours and 20 minutes and the previous record was 29 million. At level 255, you hit “rebirth” and the pieces slow down to level 0 speeds again. Totally bonkers.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Deep Dive Into the Full Bayeux Tapestry Story]]></title>
-        <id>https://kottke.org/26/09/a-deep-dive-into-the-full-bayeux-tapestry-story</id>
-        <link href="https://kottke.org/26/09/a-deep-dive-into-the-full-bayeux-tapestry-story"/>
-        <updated>2026-09-14T15:41:00.000Z</updated>
-        <summary type="html"><![CDATA[From Deep Down History, an entertaining hour-long explainer video on the Bayeux Tapestry.
-This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…
-
-	
-Completed within a decade or two of the events which it depicts, the tapestry is back in the news & public consciousness because it’s back in England for the first time since it was made and on display at the British Museum.
-
- 
-
-        
-         
-Tags: Bayeux Tapestry · video]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>

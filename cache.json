@@ -2269,66 +2269,6 @@
           "wordCount": 639,
           "title": "A declaration signed by 25 Fields medalists : &#8220;The...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049568-ratings-of-every-framed-p",
-          "author": null,
-          "description": "From a curator at the Getty, ratings of every “framed picture” emoji. “A total rejection of nature and reality. Why is the horizon rounded? Has this artist seen planet earth before?”",
-          "link": "https://kottke.org/26/09/0049568-ratings-of-every-framed-p",
-          "publishedOn": "2026-09-14T20:20:00.000Z",
-          "wordCount": 723,
-          "title": "From a curator at the Getty,  ratings of every...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049577-the-2026-winners-of-the-i",
-          "author": null,
-          "description": "The 2026 winners of the Ig Nobel Prize include papers on “a more precise definition of kissing”, “An Aerodynamic Study of the Nose Blowing”, and the discovery “that milk proteins from cockroaches pack 3X as much energy as milk proteins from cows”.",
-          "link": "https://kottke.org/26/09/0049577-the-2026-winners-of-the-i",
-          "publishedOn": "2026-09-14T19:30:00.000Z",
-          "wordCount": 837,
-          "title": "The 2026 winners of the Ig Nobel Prize  include papers...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/rocky-sleep-you-watch-question",
-          "author": null,
-          "description": "Project Hail Mary is already on my list of movies that I can just throw on in the backround while I do a bit of work or puttering around. (Not sure whether that’s an endorsement or not…I like the movie!) Anyhoo, if you get tired of the movie, you can watch Rocky sleep for 2+ hours with the PHM soundtrack playing in the background.\n\n \n\n        \n         \nTags: movies · music · Project Hail Mary · video",
-          "link": "https://kottke.org/26/09/rocky-sleep-you-watch-question",
-          "publishedOn": "2026-09-14T18:34:00.000Z",
-          "wordCount": 743,
-          "title": "Rocky Sleep, You Watch, Question?",
-          "imageUrl": "https://i.ytimg.com/vi/afEsGG1O2m8/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049589-busmans-holiday",
-          "author": null,
-          "description": "Now open for business in Nyack, NY: Busman’s Holiday, a stationary store run by (former?) graphic designer Sam Potts, who announced the shop back in March in a KDO open thread. Lots of nice touches here, including a used pencil exchanger.",
-          "link": "https://kottke.org/26/09/0049589-busmans-holiday",
-          "publishedOn": "2026-09-14T17:36:00.000Z",
-          "wordCount": 1239,
-          "title": "Now open for business in Nyack, NY:  Busman’s Holiday , a...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049585-previous-record",
-          "author": null,
-          "description": "Ok wait, the NES Tetris world record is now 40.26 million??! It took 2 hours and 20 minutes and the previous record was 29 million. At level 255, you hit “rebirth” and the pieces slow down to level 0 speeds again. Totally bonkers.",
-          "link": "https://kottke.org/26/09/0049585-previous-record",
-          "publishedOn": "2026-09-14T16:46:00.000Z",
-          "wordCount": 770,
-          "title": "Ok wait, the  NES Tetris world record is now  40.26...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/a-deep-dive-into-the-full-bayeux-tapestry-story",
-          "author": null,
-          "description": "From Deep Down History, an entertaining hour-long explainer video on the Bayeux Tapestry.\nThis video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…\n\n\t\nCompleted within a decade or two of the events which it depicts, the tapestry is back in the news & public consciousness because it’s back in England for the first time since it was made and on display at the British Museum.\n\n \n\n        \n         \nTags: Bayeux Tapestry · video",
-          "link": "https://kottke.org/26/09/a-deep-dive-into-the-full-bayeux-tapestry-story",
-          "publishedOn": "2026-09-14T15:41:00.000Z",
-          "wordCount": 808,
-          "title": "A Deep Dive Into the Full Bayeux Tapestry Story",
-          "imageUrl": "https://i.ytimg.com/vi/WnJgym1oIJU/sddefault.jpg"
         }
       ]
     },
@@ -4220,16 +4160,6 @@
           "wordCount": 1047,
           "title": "The contagion of fear",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/14/influences/",
-          "author": null,
-          "description": "<p><a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking#c_4fxnwn\">My comment</a> on <a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking\">What blog posts influenced your thinking the most?</a> &mdash; Lobste.rs.</p><p>An early Joel Spolsky one for me was <a href=\"https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/\">The Law of Leaky Abstractions</a>. I read that near the start of my career and it's encouraged me to <em>always</em> be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks.</p>\n<p>A more recent one, from 2018, is <a href=\"https://lethain.com/migrations/\">Migrations: the sole scalable fix to tech debt</a> by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of software engineering and are a skill that you should invest in and get good at, not avoid or treat as special one-offs.</p>\n<p><a href=\"https://charity.wtf/p/the-engineer-manager-pendulum\">The Engineer/Manager Pendulum</a> by Charity Majors was hugely influential for me. I was stuck in engineering management and worried that if I switched back to being an \"Individual Contributor\" (ugh I hate that term) I'd damage my career. Charity gave me permission to make the switch by pointing out that many of the most successful software developers pendulum from one track to the other multiple times over their career, and doing so makes you better at both sides.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/joel-spolsky\">joel-spolsky</a>, <a href=\"https://simonwillison.net/tags/software-engineering\">software-engineering</a>, <a href=\"https://simonwillison.net/tags/will-larson\">will-larson</a>, <a href=\"https://simonwillison.net/tags/charity-majors\">charity-majors</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/14/influences/",
-          "publishedOn": "2026-09-14T20:21:48.000Z",
-          "wordCount": 930,
-          "title": "What blog posts influenced your thinking the most?",
-          "imageUrl": null
         }
       ]
     },
@@ -4469,6 +4399,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12407",
+          "author": "PGR",
+          "description": "I didn't have \"William James as comfort reading for the mid-2020s\" on my bingo card, but maybe I should have?",
+          "link": "https://www.velcro-city.co.uk/his-fixed-nature-as-an-organism-may-not-prove-adequate-to-stand-the-strain/",
+          "publishedOn": "2026-10-14T09:00:34.000Z",
+          "wordCount": 3194,
+          "title": "his fixed nature as an organism may not prove adequate to stand the strain",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12405",
           "author": "PGR",
