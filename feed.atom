@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-14T22:57:51.542Z</updated>
+    <updated>2026-10-15T03:07:33.992Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -21,6 +21,25 @@ One warm spring night in 2011, a young man named Travis Hughes stood on the back
 Tags: Caitlin Flanagan · fireworks]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tree Appreciator]]></title>
+        <id>https://simonwillison.net/2026/Oct/14/tree-appreciator/</id>
+        <link href="https://simonwillison.net/2026/Oct/14/tree-appreciator/"/>
+        <updated>2026-10-14T21:23:01.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/tree-appreciator">Tree Appreciator</a></p>
+        <p>Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with:</p>
+<blockquote>
+<p><code>Build a three js game called "Tree appreciator" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful.</code></p>
+</blockquote>
+<p>Somewhat embarrassingly given <a href="https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.059.webp">my recent talk</a>, I've found that telling Opus 5.5 "make sure it is fun" works uncomfortably well. In this case Claude <a href="https://claude.ai/share/ee7de555-f85c-4ff0-96cb-d51ed5e479e9">crunched for 3 hours and 7 minutes</a> before retuning a cosy little spot-the-difference game with music and animation and achievements that's quite compelling to play.</p>
+<p><img alt="Screenshot of a mobile spot-the-difference puzzle game with a dark interface. Header reads &quot;No. 003 Acer autumnalis ‘Hid…&quot; with subtitle &quot;Autumn maple · A country lane in late a…&quot; and icons for sound, a book, and help. Two nearly identical 3D-rendered scenes are stacked vertically, labeled &quot;Fig. i&quot; and &quot;Fig. ii&quot;, each showing a dark-trunked maple tree with red, orange and pale peach leaves, leaves falling through the air, a golden grassy field with a few small rocks, and hazy hills with pine silhouettes under a pale sky. Two differences are circled in blue in both images: circle &quot;a&quot; at the base of the trunk, where Fig. i has a small red mushroom that is missing in Fig. ii, and circle &quot;b&quot; in the right side of the canopy, where Fig. i has a patch of green leaves that are red in Fig. ii. The bottom bar shows &quot;2 of 4&quot;, a reset button, a &quot;Hint&quot; button with three filled and two empty dots, and a score of &quot;1,803&quot;." src="https://static.simonwillison.net/static/2026-10-14/image_crop_1320x2195_w1320_q0.7.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/game-design">game-design</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/three-js">three-js</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7609,51 +7628,6 @@ Tags: music · tycho]]></summary>
         <link href="https://kottke.org/26/09/0049576-alex-gibneys-documentary-"/>
         <updated>2026-09-15T15:29:00.000Z</updated>
         <summary type="html"><![CDATA[Alex Gibney’s documentary reveals that Elon Musk has always been a racist, sexist fraud. “Musk’s ex-wife Justine, whom he married in 2000 and divorced in 2008, says the man the world began to see in 2020 was the one she’d always known.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[With a new installment every seven years since 1964, the...]]></title>
-        <id>https://kottke.org/26/09/0049599-the-final-installment-70-</id>
-        <link href="https://kottke.org/26/09/0049599-the-final-installment-70-"/>
-        <updated>2026-09-15T14:39:00.000Z</updated>
-        <summary type="html"><![CDATA[With a new installment every seven years since 1964, the Seven Up series has followed a group of 14 British schoolchildren from adolescence to adulthood. The final installment, 70 Up, directed by Asif Kapadia (Senna, Amy), is out this week.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Spice Drawer]]></title>
-        <id>https://kottke.org/26/09/the-spice-drawer</id>
-        <link href="https://kottke.org/26/09/the-spice-drawer"/>
-        <updated>2026-09-15T13:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Over the past six months (leisurely) and in the past three weeks (intensely), I’ve cleaned out and packed up my entire house where I’ve been living for the past 10 years. I went through every bit and bob of what I owned and either:
-gave it away (fiddle leaf fig, grill, chairs, stuffed animals,1 blender, rugs)
-sold it (car, coffee table, lamp, iPad)
-put it into storage (art, mementos, chairs)
-took it with me (very little, mostly clothes & computing things)
-Parting with my possessions was surprisingly easy. I’d been planning this move for a while now and had time to get used to the idea and say my farewells. And the concept of having a bunch of stuff, 95% of which I never used or thought about or even remembered owning, was really starting to make me itch. So out it went; I felt lighter with…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[15sep26]]></title>
-        <id>https://warrenellis.ltd/?p=18960</id>
-        <link href="https://warrenellis.ltd/status/15sep26/"/>
-        <updated>2026-09-15T12:42:43.000Z</updated>
-        <summary type="html"><![CDATA[New pens have arrived. Pigma Microns, Pentel Energels, a Uni-ball Signo 207, WRITECH Space-Up, and a new Drehgriffel gel pen. OPERATIONS: sprint week continues READING:…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A declaration signed by 25 Fields medalists : &#8220;The...]]></title>
-        <id>https://kottke.org/26/09/0049592-a-declaration-signed-by-2</id>
-        <link href="https://kottke.org/26/09/0049592-a-declaration-signed-by-2"/>
-        <updated>2026-09-15T12:24:00.000Z</updated>
-        <summary type="html"><![CDATA[A declaration signed by 25 Fields medalists: “The goals of the AI companies and the goals of the mathematical community are severely misaligned.”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
