@@ -2,10 +2,115 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-15T08:49:29.652Z</updated>
+    <updated>2026-10-15T16:16:43.440Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Big Math: The Hidden Codes That Run Our World. “The epic...]]></title>
+        <id>https://kottke.org/26/10/0049794-big-math-the-hidden-codes</id>
+        <link href="https://kottke.org/26/10/0049794-big-math-the-hidden-codes"/>
+        <updated>2026-10-15T15:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Big Math: The Hidden Codes That Run Our World. “The epic story of how a handful of surprisingly simple mathematical ideas have sparked today’s technological breakthroughs — from Netflix’s recommendation algorithm to medical imaging to AI…” Interesting!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where You Should Live: Five Factors to Keep in Mind]]></title>
+        <id>https://kottke.org/26/10/where-you-should-live-five-factors-to-keep-in-mind</id>
+        <link href="https://kottke.org/26/10/where-you-should-live-five-factors-to-keep-in-mind"/>
+        <updated>2026-10-15T14:32:00.000Z</updated>
+        <summary type="html"><![CDATA[I ran across this post on Instagram by Bobby in Space (who posts about design and the psychology of place) and wanted to pull it onto the actual internet. Here are some snippets of his “5 hills I will die on as someone who studies the psychology of place”. I don’t think these are universal (e.g. people who live in rural areas likely prioritize other needs) or even necessarily the most important considerations (climate, sunlight, crime, schools), but they resonated with me.
+1. Your 10-minute radius matters more than almost anything else about where you live: Think about what you can get to in ten minutes without making it a whole thing. I can get coffee, get groceries, go to a park, and go to a friend’s place.
+
+	
+This is the biggest thing that was missing for me living in rural VT for the p…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Do Fungi Keep the Planet Healthy?]]></title>
+        <id>https://www.quantamagazine.org/?p=167865</id>
+        <link href="https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/"/>
+        <updated>2026-10-15T13:40:13.000Z</updated>
+        <summary type="html"><![CDATA[Evolutionary biologist Toby Kiers explains how fungal networks in soil trade nutrients with plants, help keep carbon underground, and strike bargains without having a brain.            
+The post How Do Fungi Keep the Planet Healthy? first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Steven Strogatz and Janna Levin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teaser trailer for season three of The Lord of The Rings:...]]></title>
+        <id>https://kottke.org/26/10/0049803-teaser-trailer-for-season</id>
+        <link href="https://kottke.org/26/10/0049803-teaser-trailer-for-season"/>
+        <updated>2026-10-15T13:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Teaser trailer for season three of The Lord of The Rings: The Rings of Power. Maybe this isn’t the best show in the world, but I have been enjoying it. I thought s02 was better than s01 so at least the trajectory is promising.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO]]></title>
+        <id>https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/</id>
+        <link href="https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"/>
+        <updated>2026-10-15T13:04:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a></strong></p>
+The phrase "told investors" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from "<a href="https://simonwillison.net/2023/Nov/22/deciphering-clues/#hints-to-look-out-for">people with knowledge of the matter</a>".</p>
+<p>Key things I learned from the article:</p>
+<ul>
+<li>Q1 revenue (Jan/Feb/Mar) was "about $4.8bn"</li>
+<li>Q2 (Apr/May/Jun) was $11.5bn</li>
+<li>Q3 (Jul/Aug/Sep) was $16.8bn</li>
+<li>In Q3: $1.70 in revenue for every $1 spent on "computing power"</li>
+<li>Adjusted operating margins (excluding stock-based compensation) were 11%</li>
+</ul>
+<p>This point about distillation is worth quoting in full (highlight mine):</p>
+<blockquote>
+<p>The start-up has also clamped down on “distillation” — a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones.</p>
+<p>When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending.</p>
+<p>Anthropic told investors on Wednesday <strong>distillation accounted for 5 per cent to 7 per cent of revenue</strong> and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter.</p>
+</blockquote>
+<p>Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed "other labs" spent over half a billion dollars distilling Anthropic's models in that quarter!</p>
+<p>Also notable: Anthropic appear to no longer be leaning on "annualized run-rate revenue" (<a href="https://simonwillison.net/2026/May/29/anthropic/">previously</a>) in these communications to their investors.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tiny Little Office is “an office suite with no accounts...]]></title>
+        <id>https://kottke.org/26/10/0049811-tiny-little-office</id>
+        <link href="https://kottke.org/26/10/0049811-tiny-little-office"/>
+        <updated>2026-10-15T12:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Tiny Little Office is “an office suite with no accounts and no server that holds your work. Every document lives in the address of its page… Copy the link and you have copied the document.” Includes a word processor, spreadsheet, calculator, etc.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Expedia amazoned hotel rooms (15 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13400</id>
+        <link href="https://pluralistic.net/2026/10/15/enshittipedia/"/>
+        <updated>2026-10-15T11:03:29.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Expedia amazoned hotel rooms: Everything more expensive for everyone, monopolies everywhere, and we're all screwed. Hey look at this: Delights to delectate. Object permanence: Delta v dovening; "Play Money"; Alabama's ethnic cleansing; We trust neuroscience over psychology; Billionaires' anti-homeless pogrom; Game devs v DRM; What security means; Microsoft, tear down that wall! Publisher won't revert rights; SNL's Trump/Clinton debate; Chicago Tribune's murder; AI after AI. Upcoming appearances: Paris, Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Expedia amazoned hotel …]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Be outside for the sunrise]]></title>
+        <id>https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise</id>
+        <link href="https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise"/>
+        <updated>2026-10-15T11:03:25.000Z</updated>
+        <summary type="html"><![CDATA[Like a winner. Plus shoes, rugs, one of the coolest incense burners we’ve ever seen & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Muffled Thud of Fire in the Hole]]></title>
         <id>https://kottke.org/26/10/the-muffled-thud-of-fire-in-the-hole</id>
@@ -7511,44 +7616,6 @@ Smell is the most direct of all our senses. When I hold a violet to my nose and 
         <summary type="html"><![CDATA[Today's links How an AI moratorium can save AI bosses: If you can't impose switching costs, just eliminate the competition. Hey look at this: Delights to delectate. Object permanence: Flash Worms; This Film is Not Yet Rated; Libdem copyright sabotage; Religion worth more than Big Tech; Geographic tubemap; Selective censorship resistance. Upcoming appearances: Budapest, Edmonton, Boston, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How an AI moratorium can save AI bosses (permalink) There's lots of reasons to believe the "hyperscaler" model of AI can never be profitable, and not just because of its g…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The frontier Anthropic & OpenAI models are only ~4...]]></title>
-        <id>https://kottke.org/26/09/0049605-the-frontier-anthropic-op</id>
-        <link href="https://kottke.org/26/09/0049605-the-frontier-anthropic-op"/>
-        <updated>2026-09-16T04:08:00.000Z</updated>
-        <summary type="html"><![CDATA[The frontier Anthropic & OpenAI models are only ~4 months ahead of open models — at 5x the price. “Most organizations should ideally be using open models as the default for the majority of their work, according to [a report] from Mozilla…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini Live audio]]></title>
-        <id>https://simonwillison.net/2026/Sep/15/gemini-live/</id>
-        <link href="https://simonwillison.net/2026/Sep/15/gemini-live/"/>
-        <updated>2026-09-15T22:47:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/gemini-live">Gemini Live audio</a></p>
-        <p>Google released <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href="https://openai.com/index/introducing-gpt-live/">GPT-Live</a> family.</p>
-<p>I pointed GPT-6 Astra Extra High at the documentation and <a href="https://gist.github.com/simonw/067b7430c5b1f743af9419b0184c38ef">had it build me this web UI</a> for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.</p>
-<p><img alt="Screenshot of a voice chat web interface with a transcript. Top buttons: Start session, End session, Mute mic, plus a Mic level meter and a timer showing 0:33. Status: Listening. Use headphones to reduce echo. Starting a session asks for microphone access. Transcript (with Download transcript and Clear buttons). Gemini: Yes, it's working perfectly. I can hear you clearly. How can I help you today? You: Okay, this is pretty good. Tell me some interesting facts about the California brown pelican. Gemini: They're famous for their spectacular plunge-dives to catch fish and have huge throat pouches that can hold up to three gallons of water and fish. They also made a great recovery after being endangered — marked as Interrupted. You: No, tell me different facts actually. Gemini: They nest in colonies on offshore islands and can hold up to three gallons of water in their throat pouches. At the bottom is a text input reading Or type a message… with a Send button, and the note: Sending a message interrupts the current response. Transcripts may include speech interrupted before playback." src="https://static.simonwillison.net/static/2026/gemini-live-tool.webp" /></p>
-<p>The <a href="https://github.com/simonw/tools/blob/main/gemini-live.html">implementation</a> uses no libraries. It connects to the <code>wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=...</code> WebSocket endpoint and uses a Web Audio API <code>AudioContext</code> for both capture and playback.</p>
-<p>Here's <a href="https://ai.google.dev/gemini-api/docs/live-api/get-started-websocket">the Gemini Live tutorial</a> for getting started with that WebSockets API.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/websockets">websockets</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/speech-to-text">speech-to-text</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Last year in Ireland,  a bouncy castle infested with a...]]></title>
-        <id>https://kottke.org/26/09/0049578-a-bouncy-castle-infested-</id>
-        <link href="https://kottke.org/26/09/0049578-a-bouncy-castle-infested-"/>
-        <updated>2026-09-15T21:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Last year in Ireland, a bouncy castle infested with a “hypervirulent, multidrug-resistant pathogen” infected almost 50 children. Reality: always weirder than the weirdest sci-fi.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
