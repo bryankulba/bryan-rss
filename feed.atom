@@ -2,10 +2,107 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-15T16:16:43.440Z</updated>
+    <updated>2026-10-15T22:52:52.732Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beautiful Seamless Ride]]></title>
+        <id>https://kottke.org/26/10/beautiful-seamless-ride</id>
+        <link href="https://kottke.org/26/10/beautiful-seamless-ride"/>
+        <updated>2026-10-15T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A lovely little mountain biking video with some incredible locations and cinematography. The drone piloting is A+. Also available on Vimeo. (via alastair humphreys)
+
+ 
+
+        
+         
+Tags: cycling · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chirp Pong]]></title>
+        <id>https://simonwillison.net/2026/Oct/15/chirp-pong/</id>
+        <link href="https://simonwillison.net/2026/Oct/15/chirp-pong/"/>
+        <updated>2026-10-15T19:47:52.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/chirp-pong">Chirp Pong</a></p>
+        <p>Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!</p>
+<blockquote>
+<p><code>Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong</code></p>
+</blockquote>
+<p>Claude Opus 5.5 Extra <a href="https://claude.ai/code/session_019awUnNB7NoYd7noBNAsNdd">in Claude Code</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/game-design">game-design</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is the camera shutter noise the last skeuomorphic element...]]></title>
+        <id>https://kottke.org/26/10/0049804-the-last-skeuomorphic-ele</id>
+        <link href="https://kottke.org/26/10/0049804-the-last-skeuomorphic-ele"/>
+        <updated>2026-10-15T19:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Is the camera shutter noise the last skeuomorphic element left in iOS?]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fishdraw is a single JavaScript file that generates...]]></title>
+        <id>https://kottke.org/26/10/0049801-fishdraw</id>
+        <link href="https://kottke.org/26/10/0049801-fishdraw"/>
+        <updated>2026-10-15T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Fishdraw is a single JavaScript file that generates drawings of fish. There’s an option to slow the animation down so you can watch it draw the fish line-by-line.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Hunting Owls Use Sound to “See” Under the Snow]]></title>
+        <id>https://kottke.org/26/10/how-hunting-owls-use-sound-to-see-under-the-snow</id>
+        <link href="https://kottke.org/26/10/how-hunting-owls-use-sound-to-see-under-the-snow"/>
+        <updated>2026-10-15T16:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The great grey owl basically has a sound cone for a face, which helps it hunt down voles burrowing through snow in the winter.
+The owl’s large facial ruff, formed of dense feathers, helps amplify sound and funnel it towards his ears. Through half a meter of snow, the sound of scampering feet is inaudible to us. But not to him. With the help of a special acoustic camera equipped with 60 highly sensitive microphones, we can see what the owl is hearing.
+
+	
+The footage in this video is amazing — and so is the owl’s sense of hearing. A YouTube commenter says “Cat software in Bird hardware. Bad news for the Rodents.” You can watch a short video on the science behind owl hunting techniques and watch the whole episode this is from about how animals use sound (but only in Canada, it seems…VPN works fine tho).
+The only problem with this video is that now I want two hours of just closeup footage of the owl’s face and it flying directly towards the camera. Those eyes! And its mid-flight loaf-of-white-bread-shaped body! I would also like the owl to be my friend.
+BTW, this clip is from a show called The Nature of Things, which is a CBC nature series that’s been going since 1960. A good thing to have on your radar if you’re looking for well-produced science & nature programs.
+
+ 
+
+        
+         
+Tags: birds · nature · science · sound · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/830558519004725248</id>
+        <link href="https://brucesterling.tumblr.com/post/830558519004725248"/>
+        <updated>2026-10-15T16:38:47.000Z</updated>
+        <summary type="html"><![CDATA[“Fourteen ways to be a better girlfriend.”
+*People are right.  Pinterest is infested with the cheapest, most rubbishy AI slop that’s around.  Slop that’s so crude it can’t spell or count]]></summary>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How many shots are in the average movie? How does it...]]></title>
+        <id>https://kottke.org/26/10/0049805-how-many-shots-are-in-the</id>
+        <link href="https://kottke.org/26/10/0049805-how-many-shots-are-in-the"/>
+        <updated>2026-10-15T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[How many shots are in the average movie? How does it compare to the past? “You might expect the editor to be the most important factor in the number of shots, but in fact, knowing who directed a film accounts for 70% of the variation in its cutting pace.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Big Math: The Hidden Codes That Run Our World. “The epic...]]></title>
         <id>https://kottke.org/26/10/0049794-big-math-the-hidden-codes</id>
@@ -7606,16 +7703,6 @@ Smell is the most direct of all our senses. When I hold a violet to my nose and 
         <summary type="html"><![CDATA[We Must Create the Shit Machine. “I asked everyone I know at the BIG TECH HUMAN CENTIPEDE ROUNDTABLE, and we all agreed that UNCONTROLLABLE SHIT-RAIN IS USEFUL AND GREAT, and that EVERYONE WANTS IT.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: How an AI moratorium can save AI bosses (16 Sep 2026)]]></title>
-        <id>https://pluralistic.net/?p=13303</id>
-        <link href="https://pluralistic.net/2026/09/16/beggar-thy-neighbor/"/>
-        <updated>2026-09-16T07:52:58.000Z</updated>
-        <summary type="html"><![CDATA[Today's links How an AI moratorium can save AI bosses: If you can't impose switching costs, just eliminate the competition. Hey look at this: Delights to delectate. Object permanence: Flash Worms; This Film is Not Yet Rated; Libdem copyright sabotage; Religion worth more than Big Tech; Geographic tubemap; Selective censorship resistance. Upcoming appearances: Budapest, Edmonton, Boston, South Bend, Hudson, Calgary, Winnipeg, Vancouver, Victoria, Ottawa. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How an AI moratorium can save AI bosses (permalink) There's lots of reasons to believe the "hyperscaler" model of AI can never be profitable, and not just because of its g…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
     <entry>
