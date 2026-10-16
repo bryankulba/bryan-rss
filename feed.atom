@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-16T03:03:18.978Z</updated>
+    <updated>2026-10-16T08:44:02.524Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Load-bearing (16 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13404</id>
+        <link href="https://pluralistic.net/2026/10/15/sovereign-it/"/>
+        <updated>2026-10-16T06:40:02.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Load-bearing: Digital sovereignty vs AI. Hey look at this: Delights to delectate. Object permanence: Anthrax penmanship; Stolen WEBGEEK license plate; Arizona Republic endorses Clinton, gets death threats; Against the great forces of history. Upcoming appearances: Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Load-bearing (permalink) You find the weirdest stuff inside your walls. Our house was built in 1949 and we're its third owner, and I have no idea what those other people were doing, but at one point someone installed a junction box full of live, bare wires …]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beautiful Seamless Ride]]></title>
         <id>https://kottke.org/26/10/beautiful-seamless-ride</id>
@@ -7566,120 +7576,6 @@ Matthew Putman/Hill Greene/Francisco Mela
         
          
 Tags: Craighill · design · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Usenet-Rewind : search over 1 billion Usenet text posts...]]></title>
-        <id>https://kottke.org/26/09/0049596-usenet-rewind</id>
-        <link href="https://kottke.org/26/09/0049596-usenet-rewind"/>
-        <updated>2026-09-16T19:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Usenet-Rewind: search over 1 billion Usenet text posts from 1981 to the present.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[&#8220; Figures show Japan is now home to 107,677...]]></title>
-        <id>https://kottke.org/26/09/0049607-figures-show-japan-is-now</id>
-        <link href="https://kottke.org/26/09/0049607-figures-show-japan-is-now"/>
-        <updated>2026-09-16T18:59:00.000Z</updated>
-        <summary type="html"><![CDATA[“Figures show Japan is now home to 107,677 centenarians, the highest number in the world, of whom 88% are women. The oldest woman is Kishimoto Fuyo, a 114-year-old from Kyoto City and the oldest man is Kato Hikaru, a 112-year-old from Kumamoto.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Cowork and chat are now one Claude]]></title>
-        <id>https://simonwillison.net/2026/Sep/16/one-claude/</id>
-        <link href="https://simonwillison.net/2026/Sep/16/one-claude/"/>
-        <updated>2026-09-16T18:09:49.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://claude.com/blog/cowork-is-now-claude">Claude Cowork and chat are now one Claude</a></strong></p>
-In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:</p>
-<blockquote>
-<p>Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]</p>
-<p>This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans.</p>
-</blockquote>
-<p>I guess this means Claude is becoming a <strong>general agent</strong> in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago.</p>
-<p>On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on <a href="https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/">Understanding ChatGPT Work</a>.</p>
-<p>I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=49729412">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Danny MacAskill Plays in the Endless Light of Norway]]></title>
-        <id>https://kottke.org/26/09/danny-macaskill-plays-in-the-endless-light-of-norway</id>
-        <link href="https://kottke.org/26/09/danny-macaskill-plays-in-the-endless-light-of-norway"/>
-        <updated>2026-09-16T17:39:00.000Z</updated>
-        <summary type="html"><![CDATA[Scottish trials rider and mountain biker Danny MacAskill, who I first featured on the site more than 17 years ago, recently took his Santa Cruz eMTB north of the Arctic Circle to Narvik, Norway. He rode three different mountains and the result is this incredibly beautiful video, backed by a Max Cooper soundtrack. As one of the commenters notes, MacAskill makes a relatively heavy eMTB seem extraordinarily playful.
-As a mountain biker myself, some of that looks insanely fun but the narrow steep stuff looks insanely insane. Makes me want an eMTB, which I suppose is the whole point of the video.
-
- 
-
-        
-         
-Tags: biking · Danny MacAskill · Max Cooper · music · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hidden in Pieces: Live at the Royal Albert Hall . A live...]]></title>
-        <id>https://kottke.org/26/09/0049606-hidden-in-pieces-live-at-</id>
-        <link href="https://kottke.org/26/09/0049606-hidden-in-pieces-live-at-"/>
-        <updated>2026-09-16T16:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Hidden in Pieces: Live at the Royal Albert Hall. A live album from the Yeah Yeah Yeahs? Hell yes yes yes! 13 songs are available now plus 9 more tracks when the full album drops in October.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Mustafa Suleyman]]></title>
-        <id>https://simonwillison.net/2026/Sep/16/mustafa-suleyman/</id>
-        <link href="https://simonwillison.net/2026/Sep/16/mustafa-suleyman/"/>
-        <updated>2026-09-16T16:00:54.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://mustafa-suleyman.ai/a-warning-about-model-welfare"><p>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.</p></blockquote>
-<p class="cite">&mdash; <a href="https://mustafa-suleyman.ai/a-warning-about-model-welfare">Mustafa Suleyman</a>, A warning about ‘model welfare’</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/microsoft">microsoft</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paul Ford: Aided by LLMs, people & companies are...]]></title>
-        <id>https://kottke.org/26/09/0049598-but-where-are-the-ai-code</id>
-        <link href="https://kottke.org/26/09/0049598-but-where-are-the-ai-code"/>
-        <updated>2026-09-16T15:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Paul Ford: Aided by LLMs, people & companies are producing lots of software. But where are the AI-coded killer apps? “[AI is] very good at reproducing things that look and feel like what came before.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ctenophores Aren’t Just Beautiful. They’re Biological Wonders.]]></title>
-        <id>https://www.quantamagazine.org/?p=166816</id>
-        <link href="https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/"/>
-        <updated>2026-09-16T15:56:27.000Z</updated>
-        <summary type="html"><![CDATA[Comb jellies are helping answer fundamental questions in biology, from how the earliest nervous systems evolved to how bioluminescence works.             
-The post Ctenophores Aren’t Just Beautiful. They’re Biological Wonders. first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Marlowe Starling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The All of the Above Trail Fest is  &#8220;deconstructing...]]></title>
-        <id>https://kottke.org/26/09/0049591-deconstructing-the-very-d</id>
-        <link href="https://kottke.org/26/09/0049591-deconstructing-the-very-d"/>
-        <updated>2026-09-16T15:17:00.000Z</updated>
-        <summary type="html"><![CDATA[The All of the Above Trail Fest is “deconstructing the very definition of a trail race, refiguring it into something more expansive and inclusive”. There are no gender divisions and winners are decided by who gets closest to their predicted finish time.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

@@ -2259,66 +2259,6 @@
           "wordCount": 680,
           "title": "Genius Design Details: Pips and Nubs",
           "imageUrl": "https://i.ytimg.com/vi/HqoGH8-MeNg/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049596-usenet-rewind",
-          "author": null,
-          "description": "Usenet-Rewind: search over 1 billion Usenet text posts from 1981 to the present.",
-          "link": "https://kottke.org/26/09/0049596-usenet-rewind",
-          "publishedOn": "2026-09-16T19:49:00.000Z",
-          "wordCount": 627,
-          "title": "Usenet-Rewind : search over 1 billion Usenet text posts...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049607-figures-show-japan-is-now",
-          "author": null,
-          "description": "“Figures show Japan is now home to 107,677 centenarians, the highest number in the world, of whom 88% are women. The oldest woman is Kishimoto Fuyo, a 114-year-old from Kyoto City and the oldest man is Kato Hikaru, a 112-year-old from Kumamoto.”",
-          "link": "https://kottke.org/26/09/0049607-figures-show-japan-is-now",
-          "publishedOn": "2026-09-16T18:59:00.000Z",
-          "wordCount": 776,
-          "title": "&#8220; Figures show Japan is now home to 107,677...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/danny-macaskill-plays-in-the-endless-light-of-norway",
-          "author": null,
-          "description": "Scottish trials rider and mountain biker Danny MacAskill, who I first featured on the site more than 17 years ago, recently took his Santa Cruz eMTB north of the Arctic Circle to Narvik, Norway. He rode three different mountains and the result is this incredibly beautiful video, backed by a Max Cooper soundtrack. As one of the commenters notes, MacAskill makes a relatively heavy eMTB seem extraordinarily playful.\nAs a mountain biker myself, some of that looks insanely fun but the narrow steep stuff looks insanely insane. Makes me want an eMTB, which I suppose is the whole point of the video.\n\n \n\n        \n         \nTags: biking · Danny MacAskill · Max Cooper · music · video",
-          "link": "https://kottke.org/26/09/danny-macaskill-plays-in-the-endless-light-of-norway",
-          "publishedOn": "2026-09-16T17:39:00.000Z",
-          "wordCount": 891,
-          "title": "Danny MacAskill Plays in the Endless Light of Norway",
-          "imageUrl": "https://i.ytimg.com/vi/YdlxXM_AEGQ/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049606-hidden-in-pieces-live-at-",
-          "author": null,
-          "description": "Hidden in Pieces: Live at the Royal Albert Hall. A live album from the Yeah Yeah Yeahs? Hell yes yes yes! 13 songs are available now plus 9 more tracks when the full album drops in October.",
-          "link": "https://kottke.org/26/09/0049606-hidden-in-pieces-live-at-",
-          "publishedOn": "2026-09-16T16:44:00.000Z",
-          "wordCount": 746,
-          "title": "Hidden in Pieces: Live at the Royal Albert Hall . A live...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049598-but-where-are-the-ai-code",
-          "author": null,
-          "description": "Paul Ford: Aided by LLMs, people & companies are producing lots of software. But where are the AI-coded killer apps? “[AI is] very good at reproducing things that look and feel like what came before.”",
-          "link": "https://kottke.org/26/09/0049598-but-where-are-the-ai-code",
-          "publishedOn": "2026-09-16T15:59:00.000Z",
-          "wordCount": 578,
-          "title": "Paul Ford: Aided by LLMs, people & companies are...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049591-deconstructing-the-very-d",
-          "author": null,
-          "description": "The All of the Above Trail Fest is “deconstructing the very definition of a trail race, refiguring it into something more expansive and inclusive”. There are no gender divisions and winners are decided by who gets closest to their predicted finish time.",
-          "link": "https://kottke.org/26/09/0049591-deconstructing-the-very-d",
-          "publishedOn": "2026-09-16T15:17:00.000Z",
-          "wordCount": 709,
-          "title": "The All of the Above Trail Fest is  &#8220;deconstructing...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2424,6 +2364,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13404",
+          "author": "Cory Doctorow",
+          "description": "Today's links Load-bearing: Digital sovereignty vs AI. Hey look at this: Delights to delectate. Object permanence: Anthrax penmanship; Stolen WEBGEEK license plate; Arizona Republic endorses Clinton, gets death threats; Against the great forces of history. Upcoming appearances: Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Load-bearing (permalink) You find the weirdest stuff inside your walls. Our house was built in 1949 and we're its third owner, and I have no idea what those other people were doing, but at one point someone installed a junction box full of live, bare wires …",
+          "link": "https://pluralistic.net/2026/10/15/sovereign-it/",
+          "publishedOn": "2026-10-16T06:40:02.000Z",
+          "wordCount": 2971,
+          "title": "Pluralistic: Load-bearing (16 Oct 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13400",
           "author": "Cory Doctorow",
@@ -4210,26 +4160,6 @@
           "wordCount": 754,
           "title": "datasette 0.65.5",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/16/one-claude/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://claude.com/blog/cowork-is-now-claude\">Claude Cowork and chat are now one Claude</a></strong></p>\nIn hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:</p>\n<blockquote>\n<p>Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]</p>\n<p>This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans.</p>\n</blockquote>\n<p>I guess this means Claude is becoming a <strong>general agent</strong> in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago.</p>\n<p>On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">Understanding ChatGPT Work</a>.</p>\n<p>I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49729412\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
-          "publishedOn": "2026-09-16T18:09:49.000Z",
-          "wordCount": 917,
-          "title": "Claude Cowork and chat are now one Claude",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-          "author": null,
-          "description": "<blockquote cite=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\"><p>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\">Mustafa Suleyman</a>, A warning about ‘model welfare’</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-          "publishedOn": "2026-09-16T16:00:54.000Z",
-          "wordCount": 759,
-          "title": "Quoting Mustafa Suleyman",
-          "imageUrl": null
         }
       ]
     },
@@ -4465,16 +4395,6 @@
           "wordCount": 9964,
           "title": "Where Does the Quantum World End and Ours Begin?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/JOW-S5-E8-cr-Chanelle-Nibbelink-Social-LOGO.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=166816",
-          "author": "Marlowe Starling",
-          "description": "Comb jellies are helping answer fundamental questions in biology, from how the earliest nervous systems evolved to how bioluminescence works.             \nThe post Ctenophores Aren’t Just Beautiful. They’re Biological Wonders. first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/",
-          "publishedOn": "2026-09-16T15:56:27.000Z",
-          "wordCount": 2937,
-          "title": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders.",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2042/09/ImageGallery_CombJellies-crAlexanderSemenov_AquatilisExpedition-Social.webp"
         }
       ]
     },
