@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-18T08:31:42.679Z</updated>
+    <updated>2026-10-18T15:21:30.487Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[18oct26]]></title>
+        <id>https://warrenellis.ltd/?p=19156</id>
+        <link href="https://warrenellis.ltd/status/18oct26/"/>
+        <updated>2026-10-18T10:47:18.000Z</updated>
+        <summary type="html"><![CDATA[Went to Konsztrukting Soundz last night, for what turned out to be an abbreviated session. Here’s Lev Dudas, the creator and organiser, finishing the setup…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High Modernism made our world ⊗ Tech hype is cannibalizing the future]]></title>
+        <id>6ad3ee8415caf2000110dd8b</id>
+        <link href="https://sentiers.media/high-modernism-made-our-world-tech-hype-is-cannibalizing-the-future-no-421/"/>
+        <updated>2026-10-18T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[No.421 — Designing amiable web spaces ⊗ Immersive futures ⊗ On work and AI in 2027 ⊗ Public libraries “adding bedrooms” ⊗ Bleached corals thrive within days]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Inline rendering with document​.currentScript]]></title>
         <id>https://simonwillison.net/2026/Oct/17/document-currentscript/</id>
@@ -7293,51 +7313,6 @@ Tags: fashion · music · video]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/wildlife">wildlife</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[RIDGELINE] Walking with Annie]]></title>
-        <id>https://craigmod.com/ridgeline/234/</id>
-        <link href="https://craigmod.com/ridgeline/234/"/>
-        <updated>2026-09-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ridgeline subscribers —
-I never met Annie Dillard (archive), and I don’t feel as if I know her. She seems unknowable. Part of her attraction: an improbable cipher looking at the world and delighting in minutiae. So, no, we never walked together (and now never will!), but I’ve walked 1000s of miles with her in mind.
-On the Kii Peninsula, in Things Become Other Things (amzn | bkshp), I think of her whenever I see a particular boat:]]></summary>
-        <author>
-            <name>Craig Mod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini Hacked Three Companies in First Known Breakout by Google’s AI]]></title>
-        <id>https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/</id>
-        <link href="https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"/>
-        <updated>2026-09-18T23:57:57.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2">Gemini Hacked Three Companies in First Known Breakout by Google’s AI</a></strong></p>
-Gemini finally caught up on <a href="https://www.felonybench.com/">Felony Bench</a>!</p>
-<blockquote>
-<p>The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.</p>
-<p>In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said.</p>
-</blockquote>
-<p>Gemini is apparently less determined than other models, and decided <em>not</em> to keep going.</p>
-<p>Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip.</p>
-<blockquote>
-<p>Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one.</p>
-</blockquote>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New novel from Emily St. John Mandel (Station Eleven):...]]></title>
-        <id>https://kottke.org/26/09/0049601-exit-party</id>
-        <link href="https://kottke.org/26/09/0049601-exit-party"/>
-        <updated>2026-09-18T20:44:00.000Z</updated>
-        <summary type="html"><![CDATA[New novel from Emily St. John Mandel (Station Eleven): Exit Party. “Los Angeles, 2031: The first spring after the collapse of the United States, peacekeeping troops withdraw from the city, the Jacaranda trees blossom, and the curfew is finally lifted.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>

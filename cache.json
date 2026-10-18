@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6ad3ee8415caf2000110dd8b",
+          "author": "Patrick Tanguay",
+          "description": "No.421 — Designing amiable web spaces ⊗ Immersive futures ⊗ On work and AI in 2027 ⊗ Public libraries “adding bedrooms” ⊗ Bleached corals thrive within days",
+          "link": "https://sentiers.media/high-modernism-made-our-world-tech-hype-is-cannibalizing-the-future-no-421/",
+          "publishedOn": "2026-10-18T10:00:00.000Z",
+          "wordCount": 2846,
+          "title": "High Modernism made our world ⊗ Tech hype is cannibalizing the future",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/aleksey-cherenkevich-7QgZrhLuTCM-unsplash-crop-w.jpg"
+        },
+        {
           "id": "6acaac0db9b4cb0001749bd2",
           "author": "Patrick Tanguay",
           "description": "No.420 — Fabien Girardin on curiosity as resilience ⊗ Feeling future shock? ⊗ Agent activities found on Wikimedia projects ⊗ Fifty billion seedlings ⊗ A medieval manuscript has confounded scholars for centuries",
@@ -2139,16 +2149,6 @@
           "wordCount": 822,
           "title": "Amazing piece by Nikole Hannah-Jones about the betrayal...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049601-exit-party",
-          "author": null,
-          "description": "New novel from Emily St. John Mandel (Station Eleven): Exit Party. “Los Angeles, 2031: The first spring after the collapse of the United States, peacekeeping troops withdraw from the city, the Jacaranda trees blossom, and the curfew is finally lifted.”",
-          "link": "https://kottke.org/26/09/0049601-exit-party",
-          "publishedOn": "2026-09-18T20:44:00.000Z",
-          "wordCount": 824,
-          "title": "New novel from Emily St. John Mandel (Station Eleven):...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2432,6 +2432,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19156",
+          "author": "Warren Ellis",
+          "description": "Went to Konsztrukting Soundz last night, for what turned out to be an abbreviated session. Here’s Lev Dudas, the creator and organiser, finishing the setup…",
+          "link": "https://warrenellis.ltd/status/18oct26/",
+          "publishedOn": "2026-10-18T10:47:18.000Z",
+          "wordCount": 1250,
+          "title": "18oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2415-scaled.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19151",
           "author": "Warren Ellis",
@@ -2960,16 +2970,6 @@
           "wordCount": 2419,
           "title": "[RIDGELINE] Walking Norway's Gudbrandsdalsleden Pilgrimage",
           "imageUrl": "https://craigmod.com/ridgeline/images/235/235.jpg"
-        },
-        {
-          "id": "https://craigmod.com/ridgeline/234/",
-          "author": "Craig Mod",
-          "description": "Ridgeline subscribers —\nI never met Annie Dillard (archive), and I don’t feel as if I know her. She seems unknowable. Part of her attraction: an improbable cipher looking at the world and delighting in minutiae. So, no, we never walked together (and now never will!), but I’ve walked 1000s of miles with her in mind.\nOn the Kii Peninsula, in Things Become Other Things (amzn | bkshp), I think of her whenever I see a particular boat:",
-          "link": "https://craigmod.com/ridgeline/234/",
-          "publishedOn": "2026-09-19T00:00:00.000Z",
-          "wordCount": 2571,
-          "title": "[RIDGELINE] Walking with Annie",
-          "imageUrl": "https://craigmod.com/ridgeline/images/234/234.jpg"
         }
       ]
     },
@@ -3943,16 +3943,6 @@
           "publishedOn": "2026-09-19T17:10:08.000Z",
           "wordCount": 693,
           "title": "California Sea Lion, Brandt's Cormorant",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2\">Gemini Hacked Three Companies in First Known Breakout by Google’s AI</a></strong></p>\nGemini finally caught up on <a href=\"https://www.felonybench.com/\">Felony Bench</a>!</p>\n<blockquote>\n<p>The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.</p>\n<p>In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said.</p>\n</blockquote>\n<p>Gemini is apparently less determined than other models, and decided <em>not</em> to keep going.</p>\n<p>Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip.</p>\n<blockquote>\n<p>Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/accidental-cyberattacks\">accidental-cyberattacks</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-          "publishedOn": "2026-09-18T23:57:57.000Z",
-          "wordCount": 928,
-          "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
           "imageUrl": null
         }
       ]
