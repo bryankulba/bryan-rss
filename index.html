@@ -35,6 +35,37 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/17/document-currentscript/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-17T21:11:12.000Z">2026-10-17</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/17/document-currentscript/" target="_blank" rel="noopener noreferrer">Inline rendering with document​.currentScript</a>
+          </h2>
+          <p class="feed-item__desc">Inline rendering with document​.currentScript
+document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads:
+The year is <script>
+document.currentScript.replaceWith(
+  new Date().getFullYear())</script>
+
+If you define a shortcut function like this:
+$=(...n)=>document.currentScript.replaceWith(...n)
+
+You get a tiny template language:
+The year is <script>$(new Date().getFullYear())</script>
+
+Tags: javascript</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/17/document-currentscript/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/17/document-currentscript/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://interconnected.org/home/2026/10/17/filtered">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-10-17T16:15:00.000Z">2026-10-17</time>
@@ -83,6 +114,27 @@ The ASMR version of Bee Movie, and other neuro-divergent media (2021).
             <button class="js-favourite btn btn--favourite" data-id="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html">Mark read</button>
             <span class="feed-item__reading-time">9 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/17/web-edit/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-17T13:16:49.000Z">2026-10-17</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/17/web-edit/" target="_blank" rel="noopener noreferrer">web-edit 0.1a2</a>
+          </h2>
+          <p class="feed-item__desc">Release: web-edit 0.1a2
+I added a "copy to clipboard" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017) and I wanted an easy way to copy the resulting logs into a Gist.
+Tags: projects, pelican-riding-a-bicycle, deepseek</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/17/web-edit/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/17/web-edit/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
       </div>
@@ -12060,135 +12112,6 @@ Anyway, 26 miles, 2,0…</p>
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049613-review-of-a-new-book-on-s" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049613-review-of-a-new-book-on-s">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-18T14:36:41.000Z">2026-09-18</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/" target="_blank" rel="noopener noreferrer">The Creative Spirit of Who Framed Roger Rabbit</a>
-          </h2>
-          <p class="feed-item__desc">The Creative Spirit of Who Framed Roger Rabbit
-Who Framed Roger Rabbit, the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from early in the movie:
-
-
-It's a pelican riding a bicycle!
-Look closely and you'll note that the pelican is animated while the bicycle is a real bicycle. Apparently they filled the wheels with water to add stability, then set it running and guided it with a cable.
-Cypress gathered more details on the scene. What a delight.
-
-    
-Via @cypressf.bsky.social
-Tags: animation, movies, pelican-riding-a-bicycle</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026-09-18/IMG_8118.jpeg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/the-blind-birdwatcher">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-18T14:12:00.000Z">2026-09-18</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/the-blind-birdwatcher" target="_blank" rel="noopener noreferrer">The Blind Birdwatcher</a>
-          </h2>
-          <p class="feed-item__desc">Uruguayan birder Juan Pablo Culasso, who was born blind, has been recording and collecting bird songs for more than two decades.
-I think that because I’m blind, I enjoy birds differently. Bird songs are my way of appreciating and understanding this world.
-
-	
-Culasso is aided in his quest by his incredible sense of of hearing:
-Culasso is blind, but his hearing is so acute (he has absolute pitch) he can identify over 3,000 components of birdsong and differentiate among more than 700 species in his native South America (he’s Uruguayan). Ten years ago, he won a $45,000 prize in a National Geographic competition by accurately identifying 15 random bird calls.
-
-	
-You can find dozens and dozens of his recordings on Spotify. Filmmaker Johnny Holder made a 22-minute documentary film that features Culasso called Sonora; you can watch it on Vimeo. (via the kid should see this)
-
- 
-
-        
-         
-Tags: birds · Juan Pablo Culasso · sound · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/the-blind-birdwatcher" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/the-blind-birdwatcher">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/z85DjJary9U/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;167212">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-18T13:55:50.000Z">2026-09-18</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/" target="_blank" rel="noopener noreferrer">Mathematicians Build Long-Awaited Graph Sandwich</a>
-          </h2>
-          <p class="feed-item__desc">The proof of a decades-old conjecture has given researchers a new way to understand complex networks.            
-The post Mathematicians Build Long-Awaited Graph Sandwich first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;167212" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;167212">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/09/GraphSandwiches-crKristinaArmitage-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049625-updated-jane-austen-title">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-18T13:22:00.000Z">2026-09-18</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/0049625-updated-jane-austen-title" target="_blank" rel="noopener noreferrer">From our own Edith Zimmerman for the New Yorker, some...</a>
-          </h2>
-          <p class="feed-item__desc">From our own Edith Zimmerman for the New Yorker, some Updated Jane Austen Titles like Dead-Ass Karen and Red-Flag Baddie and Brain-Rot Third Space.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049625-updated-jane-austen-title" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049625-updated-jane-austen-title">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.velcro-city.co.uk/?p&#x3D;12374">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-18T10:25:20.000Z">2026-09-18</time>
-        <span class="feed-item__source">Velcro City Tourist Board</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.velcro-city.co.uk/get-a-really-good-bullshit-detector/" target="_blank" rel="noopener noreferrer">get a really good bullshit detector</a>
-          </h2>
-          <p class="feed-item__desc">Turns out that the people who enthuse about Laurie Anderson are very right to do so.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12374" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12374">Mark read</button>
-            <span class="feed-item__reading-time">8 min read</span>
           </div>
         </div>
       </div>

@@ -2219,26 +2219,6 @@
           "wordCount": 574,
           "title": "Review of a new book on Stephen Hawking . &#8220;The...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/the-blind-birdwatcher",
-          "author": null,
-          "description": "Uruguayan birder Juan Pablo Culasso, who was born blind, has been recording and collecting bird songs for more than two decades.\nI think that because I’m blind, I enjoy birds differently. Bird songs are my way of appreciating and understanding this world.\n\n\t\nCulasso is aided in his quest by his incredible sense of of hearing:\nCulasso is blind, but his hearing is so acute (he has absolute pitch) he can identify over 3,000 components of birdsong and differentiate among more than 700 species in his native South America (he’s Uruguayan). Ten years ago, he won a $45,000 prize in a National Geographic competition by accurately identifying 15 random bird calls.\n\n\t\nYou can find dozens and dozens of his recordings on Spotify. Filmmaker Johnny Holder made a 22-minute documentary film that features Culasso called Sonora; you can watch it on Vimeo. (via the kid should see this)\n\n \n\n        \n         \nTags: birds · Juan Pablo Culasso · sound · video",
-          "link": "https://kottke.org/26/09/the-blind-birdwatcher",
-          "publishedOn": "2026-09-18T14:12:00.000Z",
-          "wordCount": 741,
-          "title": "The Blind Birdwatcher",
-          "imageUrl": "https://i.ytimg.com/vi/z85DjJary9U/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049625-updated-jane-austen-title",
-          "author": null,
-          "description": "From our own Edith Zimmerman for the New Yorker, some Updated Jane Austen Titles like Dead-Ass Karen and Red-Flag Baddie and Brain-Rot Third Space.",
-          "link": "https://kottke.org/26/09/0049625-updated-jane-austen-title",
-          "publishedOn": "2026-09-18T13:22:00.000Z",
-          "wordCount": 648,
-          "title": "From our own Edith Zimmerman for the New Yorker, some...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3216,6 +3196,26 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://leanrada.com/notes/inline-rendering-currentscript/\">Inline rendering with document​.currentScript</a></strong></p>\nLean Rada describes a neat trick that takes advantage of the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript\">document.currentScript</a> property. You can use that to drop in a tiny inline <code>&lt;script&gt;</code> element that replaces itself when the page loads:</p>\n<pre><code>The year is &lt;script&gt;\ndocument.currentScript.replaceWith(\n  new Date().getFullYear())&lt;/script&gt;\n</code></pre>\n<p>If you define a shortcut function like this:</p>\n<pre><code>$=(...n)=&gt;document.currentScript.replaceWith(...n)\n</code></pre>\n<p>You get a tiny template language:</p>\n<pre><code>The year is &lt;script&gt;$(new Date().getFullYear())&lt;/script&gt;\n</code></pre>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+          "publishedOn": "2026-10-17T21:11:12.000Z",
+          "wordCount": 815,
+          "title": "Inline rendering with document​.currentScript",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/17/web-edit/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a2\">web-edit 0.1a2</a></p>\n        <p>I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb1cec9726b6aa62d4de47100f90f0c1a\">DeepSeek 4.1 Flash 1017</a>) and I wanted an easy way to copy the resulting logs into a Gist.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/deepseek\">deepseek</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/17/web-edit/",
+          "publishedOn": "2026-10-17T13:16:49.000Z",
+          "wordCount": 810,
+          "title": "web-edit 0.1a2",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/16/code-review/",
           "author": null,
           "description": "<blockquote cite=\"https://claude.dev/blog/solving-code-review-at-anthropic/\"><p>We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"</p>\n<p>Asking that question also changed <em>when</em> review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.</p>\n<p>Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">Addy Osmani, Morgan Westlee Lunt, and Qing Wang</a>, How the Claude Code team does code review</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/addy-osmani\">addy-osmani</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/code-review\">code-review</a></p>",
@@ -4044,16 +4044,6 @@
           "wordCount": 795,
           "title": "Quoting Thariq Shihipar",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit\">The Creative Spirit of Who Framed Roger Rabbit</a></strong></p>\nI love <a href=\"https://en.wikipedia.org/wiki/Who_Framed_Roger_Rabbit\">Who Framed Roger Rabbit</a>, the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from early in the movie:</p>\n<p><video\n  src=\"https://static.simonwillison.net/static/2026-09-18/776f726b73706163652f796f75725f66696c65732f70656c6963616e2d62696379636c652d33732e6d7034.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026-09-18/IMG_8118.jpeg\"\n  preload=\"none\"\n  loop controls\n  playsinline\n  width=\"886\"\n  height=\"480\"\n  style=\"display: block; width: 100%; height: auto;\"\n></video>\n</p>\n<p>It's a pelican riding a bicycle!</p>\n<p>Look closely and you'll note that the pelican is animated while the bicycle is a real bicycle. Apparently they filled the wheels with water to add stability, then set it running and guided it with a cable.</p>\n<p>Cypress <a href=\"https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit\">gathered more details</a> on the scene. What a delight.\n\n    <p><small></small>Via <a href=\"https://bsky.app/profile/cypressf.bsky.social/post/3mvrf45utrs2z\">@cypressf.bsky.social</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/animation\">animation</a>, <a href=\"https://simonwillison.net/tags/movies\">movies</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
-          "publishedOn": "2026-09-18T14:36:41.000Z",
-          "wordCount": 821,
-          "title": "The Creative Spirit of Who Framed Roger Rabbit",
-          "imageUrl": "https://static.simonwillison.net/static/2026-09-18/IMG_8118.jpeg"
         }
       ]
     },
@@ -4279,16 +4269,6 @@
           "wordCount": 3024,
           "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/OurViralGenome-crSamuelVelasco-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=167212",
-          "author": "Paulina Rowińska",
-          "description": "The proof of a decades-old conjecture has given researchers a new way to understand complex networks.            \nThe post Mathematicians Build Long-Awaited Graph Sandwich first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
-          "publishedOn": "2026-09-18T13:55:50.000Z",
-          "wordCount": 2831,
-          "title": "Mathematicians Build Long-Awaited Graph Sandwich",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/GraphSandwiches-crKristinaArmitage-Social.jpg"
         }
       ]
     },
@@ -4371,16 +4351,6 @@
           "publishedOn": "2026-09-23T09:19:17.000Z",
           "wordCount": 3160,
           "title": "the art in your party",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12374",
-          "author": "PGR",
-          "description": "Turns out that the people who enthuse about Laurie Anderson are very right to do so.",
-          "link": "https://www.velcro-city.co.uk/get-a-really-good-bullshit-detector/",
-          "publishedOn": "2026-09-18T10:25:20.000Z",
-          "wordCount": 2412,
-          "title": "get a really good bullshit detector",
           "imageUrl": null
         }
       ]
