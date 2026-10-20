@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-20T03:19:45.973Z</updated>
+    <updated>2026-10-20T09:06:15.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pillowfort closing in December]]></title>
+        <id>https://waxy.org/?p=51291</id>
+        <link href="https://www.pillowfort.social/posts/8413273"/>
+        <updated>2026-10-20T03:25:21.000Z</updated>
+        <summary type="html"><![CDATA[the user-funded Tumblresque platform never fully recovered after suffering three months of downtime in 2021
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My obituary for programming]]></title>
         <id>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</id>
@@ -7403,73 +7414,6 @@ Tags: fashion · music · video]]></summary>
     <p>Tags: <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MCP was always a bad idea?]]></title>
-        <id>https://simonwillison.net/2026/Sep/20/hn-49779718/</id>
-        <link href="https://simonwillison.net/2026/Sep/20/hn-49779718/"/>
-        <updated>2026-09-20T20:24:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49779329#49779718">My comment</a> on <a href="https://news.ycombinator.com/item?id=49779329">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p>
-<p>Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.</p>
-<p>If you want to operate something that's less YOLO than that, you'll find yourself wanting:</p>
-<ol>
-<li>Control over exactly which external services it can access</li>
-<li>A way to handle authentication that doesn't allow the agent to directly access API keys</li>
-<li>A sensible UI to allow users to connect and authenticate further services</li>
-<li>Strong audit logging for what's going on</li>
-</ol>
-<p>MCP makes all of that so much easier to provide.</p>
-<p>Thinking MCP is obsolete because full coding agents don't need it misses out on all of the other things we might want to build.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/hacker-news">hacker-news</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[llm-keys-ui 0.1]]></title>
-        <id>https://simonwillison.net/2026/Sep/20/llm-keys-ui/</id>
-        <link href="https://simonwillison.net/2026/Sep/20/llm-keys-ui/"/>
-        <updated>2026-09-20T19:22:19.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-keys-ui/releases/tag/0.1">llm-keys-ui 0.1</a></p>
-        <p>This plugin solves a very specific problem.</p>
-<p>I've started using <a href="https://learn.chatgpt.com/docs/remote">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>
-<p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p>
-<p>I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly.</p>
-<p>With this plugin, I can tell Codex to run:</p>
-<pre><code>uvx --with llm-keys-ui llm keys-ui --all
-</code></pre>
-<p>Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys.</p>
-<p>Then later it can use a command like <code>llm keys get anthropic</code> as part of a shell command when it needs to use a key.</p>
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-items: start; width: 100%;">
-  <img
-    src="https://static.simonwillison.net/static/2026-09-20/IMG_8166.jpeg"
-    alt="Chat conversation requesting uvx --with llm-keys-ui llm keys-ui --all, with a response listing four server URLs on port 8010 and confirming the server is still running."
-    style="display: block; width: 100%; height: auto;"
-  >
-  <img
-    src="https://static.simonwillison.net/static/2026-09-20/IMG_8167.jpeg"
-    alt="LLM keys web interface listing anthropic, openai, openrouter, and qwen-dummy as stored keys, with a form containing Key name and New value fields and a Save key button. Existing key values are never displayed."
-    style="display: block; width: 100%; height: auto;"
-  >
-</div>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/codex">codex</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Vision, at last]]></title>
-        <id>https://www.robinsloan.com/lab/vision-at-last/</id>
-        <link href="https://www.robinsloan.com/lab/vision-at-last/"/>
-        <updated>2026-09-20T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I mean, maybe?? <a href="https://www.robinsloan.com/lab/vision-at-last/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>

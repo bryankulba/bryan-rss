@@ -188,16 +188,6 @@
           "wordCount": 5043,
           "title": "Dragoncatcher: Another accidental advantage",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/vision-at-last/",
-          "author": null,
-          "description": "<p>I mean, maybe?? <a href=\"https://www.robinsloan.com/lab/vision-at-last/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/vision-at-last/",
-          "publishedOn": "2026-09-20T17:00:00.000Z",
-          "wordCount": 4955,
-          "title": "Dragoncatcher: Vision, at last",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -2238,6 +2228,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51291",
+          "author": "Andy Baio",
+          "description": "the user-funded Tumblresque platform never fully recovered after suffering three months of downtime in 2021\n#",
+          "link": "https://www.pillowfort.social/posts/8413273",
+          "publishedOn": "2026-10-20T03:25:21.000Z",
+          "wordCount": 1088,
+          "title": "Pillowfort closing in December",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=51288",
           "author": "Andy Baio",
           "description": "Puzzmo made a “massively passively multiplayer solitaire,” coincidental to Nolen Royalty’s similar project\n#",
@@ -4018,26 +4018,6 @@
           "wordCount": 817,
           "title": "Quoting voxium",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-          "author": null,
-          "description": "<p><a href=\"https://news.ycombinator.com/item?id=49779329#49779718\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49779329\">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p>\n<p>Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.</p>\n<p>If you want to operate something that's less YOLO than that, you'll find yourself wanting:</p>\n<ol>\n<li>Control over exactly which external services it can access</li>\n<li>A way to handle authentication that doesn't allow the agent to directly access API keys</li>\n<li>A sensible UI to allow users to connect and authenticate further services</li>\n<li>Strong audit logging for what's going on</li>\n</ol>\n<p>MCP makes all of that so much easier to provide.</p>\n<p>Thinking MCP is obsolete because full coding agents don't need it misses out on all of the other things we might want to build.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-          "publishedOn": "2026-09-20T20:24:41.000Z",
-          "wordCount": 879,
-          "title": "MCP was always a bad idea?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-          "author": null,
-          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p>\n        <p>This plugin solves a very specific problem.</p>\n<p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>\n<p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p>\n<p>I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly.</p>\n<p>With this plugin, I can tell Codex to run:</p>\n<pre><code>uvx --with llm-keys-ui llm keys-ui --all\n</code></pre>\n<p>Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys.</p>\n<p>Then later it can use a command like <code>llm keys get anthropic</code> as part of a shell command when it needs to use a key.</p>\n<div style=\"display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-items: start; width: 100%;\">\n  <img\n    src=\"https://static.simonwillison.net/static/2026-09-20/IMG_8166.jpeg\"\n    alt=\"Chat conversation requesting uvx --with llm-keys-ui llm keys-ui --all, with a response listing four server URLs on port 8010 and confirming the server is still running.\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n  <img\n    src=\"https://static.simonwillison.net/static/2026-09-20/IMG_8167.jpeg\"\n    alt=\"LLM keys web interface listing anthropic, openai, openrouter, and qwen-dummy as stored keys, with a form containing Key name and New value fields and a Save key button. Existing key values are never displayed.\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n</div>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-          "publishedOn": "2026-09-20T19:22:19.000Z",
-          "wordCount": 877,
-          "title": "llm-keys-ui 0.1",
-          "imageUrl": "https://static.simonwillison.net/static/2026-09-20/IMG_8168.jpeg"
         }
       ]
     },
