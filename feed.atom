@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-19T23:17:04.594Z</updated>
+    <updated>2026-10-20T03:19:45.973Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My obituary for programming]]></title>
+        <id>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</id>
+        <link href="https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"/>
+        <updated>2026-10-19T23:58:25.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://dumbmatter.com/2026/10/programming-obituary/">My obituary for programming</a></strong></p>
+Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the <em>puzzle</em> of developing code:</p>
+<blockquote>
+<p>Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible.</p>
+</blockquote>
+<p>If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.</p>
+<p>If directly solving those problems was a big part of your enjoyment, the loss is very real.
+
+    <p><small></small>Via <a href="https://lobste.rs/s/wtobpt/my_obituary_for_programming">lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/programming">programming</a>, <a href="https://simonwillison.net/tags/careers">careers</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NPR’s Planet Money recently did a show on tariff refunds...]]></title>
         <id>https://kottke.org/26/10/0049820-nprs-planet-money-recentl</id>
@@ -7449,16 +7470,6 @@ Tags: fashion · music · video]]></summary>
         <summary type="html"><![CDATA[<p>I mean, maybe?? <a href="https://www.robinsloan.com/lab/vision-at-last/">Read here.</a></p>]]></summary>
         <author>
             <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fall Flung Fits]]></title>
-        <id>https://www.blackbirdspyplane.com/p/fall-flung-fits</id>
-        <link href="https://www.blackbirdspyplane.com/p/fall-flung-fits"/>
-        <updated>2026-09-20T13:03:47.000Z</updated>
-        <summary type="html"><![CDATA[What to wear now, starring the best things I’ve bought this year, beloved secondhand scores, and styling formulas to bring them all together]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
     <entry>
