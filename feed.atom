@@ -2,10 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-21T16:34:58.016Z</updated>
+    <updated>2026-10-21T23:01:07.294Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“A SpudCell can grow, copy its DNA, divide in two, and...]]></title>
+        <id>https://kottke.org/26/10/0049851-but-this-cell-is-made-by-</id>
+        <link href="https://kottke.org/26/10/0049851-but-this-cell-is-made-by-"/>
+        <updated>2026-10-21T21:57:00.000Z</updated>
+        <summary type="html"><![CDATA[“A SpudCell can grow, copy its DNA, divide in two, and start its cell cycle all over again. But this cell is made by people, created from lifeless ingredients.” Um, what?]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bastardica is “a foundry for bastard web fonts. Mix,...]]></title>
+        <id>https://kottke.org/26/10/0049802-bastardica</id>
+        <link href="https://kottke.org/26/10/0049802-bastardica"/>
+        <updated>2026-10-21T21:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Bastardica is “a foundry for bastard web fonts. Mix, stretch and/or squish them.” E.g. Nervous Sans: “Arial is stacked five times, pseudo-randomly twitching out of line.” I quite like Impacter.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How did life on Earth arise? Three of the biggest...]]></title>
+        <id>https://kottke.org/26/10/0049846-how-did-life-on-earth-ari</id>
+        <link href="https://kottke.org/26/10/0049846-how-did-life-on-earth-ari"/>
+        <updated>2026-10-21T20:07:00.000Z</updated>
+        <summary type="html"><![CDATA[How did life on Earth arise? Three of the biggest inflection points were ~4 billion years ago when life first emerged, ~2 billion years ago when eukaryotic cells appeared, and ~580 million years ago when life got big.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13429</id>
+        <link href="https://pluralistic.net/2026/10/21/brittle-individualism/"/>
+        <updated>2026-10-21T20:05:21.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: "The warrant is coming out of my balls"; WIPO's secret trademark meeting; Linking isn't libel (in Canada); Make: singing busts; Tory minister kills Turing's Law; Trump hotels rebrand as "Scion". Upcoming appearances: Vancouver, Ottawa, Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Adversarial interoperability is a tea…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NYC’s Fastest Bike Messenger (1985)]]></title>
+        <id>https://kottke.org/26/10/nycs-fastest-bike-messenger-1985</id>
+        <link href="https://kottke.org/26/10/nycs-fastest-bike-messenger-1985"/>
+        <updated>2026-10-21T18:54:00.000Z</updated>
+        <summary type="html"><![CDATA[For CBS News in 1985, Charles Kuralt profiled bike messenger David Leopold.
+
+I don’t go slow. I don’t stop for red lights. I go against traffic. I disobey every traffic law there is.
+
+	
+Great street footage of NYC from 40 years ago. You might think that Leopold ended up as a stain on the pavement. In 2010, CBS News did a follow-up on him:
+
+See also Leopold on David Letterman from 1985.
+
+ 
+
+        
+         
+Tags: Charles Kuralt · cycling · NYC · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Today's PHP Security Release, and How We're Strengthening PHP Security]]></title>
+        <id>https://simonwillison.net/2026/Oct/21/php-security-release/</id>
+        <link href="https://simonwillison.net/2026/Oct/21/php-security-release/"/>
+        <updated>2026-10-21T18:41:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security</a></strong></p>
+If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p>
+<p>This post from the PHP Foundation explain what went so wrong:</p>
+<blockquote>
+<p>On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and <a href="https://www.php.net/archive/2026.php#2026-10-20-1">published it at 19:30 UTC</a>. It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...]</p>
+<p>As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st.</p>
+</blockquote>
+<p><a href="https://www.wiz.io/blog/php2shell-php-rce">This article</a> from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure:</p>
+<blockquote>
+<ul>
+<li><strong>August 19, 2026:</strong> Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol.</li>
+<li><strong>August 20, 2026:</strong> Unauthenticated RCE is confirmed against Drupal.</li>
+<li><strong>August 21, 2026:</strong> Unauthenticated RCE is confirmed against WordPress.</li>
+<li><strong>August 24, 2026:</strong> Wiz Research reports the vulnerabilities to the PHP security team.</li>
+<li><strong>September 21, 2026:</strong> PHP acknowledges the reports and begins developing a coordinated fix.</li>
+<li><strong>October 21, 2026:</strong> Patched PHP releases become available.</li>
+<li><strong>October 21, 2026:</strong> Public disclosure.</li>
+</ul>
+</blockquote>
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50182987">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/php">php</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Library Is Closed. Feel Free to Come In. “In...]]></title>
+        <id>https://kottke.org/26/10/0049849-the-library-is-closed-fee</id>
+        <link href="https://kottke.org/26/10/0049849-the-library-is-closed-fee"/>
+        <updated>2026-10-21T18:07:00.000Z</updated>
+        <summary type="html"><![CDATA[The Library Is Closed. Feel Free to Come In. “In communities where workspaces are scarce, libraries are welcoming visitors outside of staffed hours. All they need is a library card.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tiny People in a Big World is like a birdwatching guide,...]]></title>
+        <id>https://kottke.org/26/10/0049845-tiny-people-in-a-big-worl</id>
+        <link href="https://kottke.org/26/10/0049845-tiny-people-in-a-big-worl"/>
+        <updated>2026-10-21T16:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Tiny People in a Big World is like a birdwatching guide, but for people-watching. “I made this campaign to produce a book that will help you notice and appreciate the tiny people who pass through your big world.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Panache — RTS Belle Époque pour mobile]]></title>
         <id>https://simonwillison.net/2026/Oct/21/panache/</id>
@@ -7760,37 +7876,6 @@ Tags: Apple · design]]></summary>
         <summary type="html"><![CDATA[Notes on a (dying?) dream job]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Bonta sold us out to Trump's oligarchs (22 Sep 2026)]]></title>
-        <id>https://pluralistic.net/?p=13322</id>
-        <link href="https://pluralistic.net/2026/09/22/happy-chudmas/"/>
-        <updated>2026-09-22T08:19:01.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Bonta sold us out to Trump's oligarchs: A "settlement" that promises less than nothing. Hey look at this: Delights to delectate. Object permanence: Warren on taxing the rich and class warfare; Psychology v reproducibility; Copyright troll sentenced for beating Uber driver; "Halloween Moon"; Enshittification of solar. Upcoming appearances: Berkeley, Edmonton, Boston, Brighton, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Bonta sold us out to Trump's oligarchs (permalink) Well, fuck. California Attorney General Rob Bonta just surrendered to the Trump-aligned E…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ed Sheeran tried to stay neutral on a moving train. “If...]]></title>
-        <id>https://kottke.org/26/09/0049657-ed-sheeran-tried-to-stay-</id>
-        <link href="https://kottke.org/26/09/0049657-ed-sheeran-tried-to-stay-"/>
-        <updated>2026-09-22T07:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Ed Sheeran tried to stay neutral on a moving train. “If [celebrities] remain neutral (silent), they won’t offend anyone and they will, hopefully, appeal to everyone. They use the facade of neutrality as shelter, as a place to take refuge.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solitaire Alone Together]]></title>
-        <id>https://waxy.org/?p=51264</id>
-        <link href="https://solitairealonetogether.com/"/>
-        <updated>2026-09-22T05:17:13.000Z</updated>
-        <summary type="html"><![CDATA[Nolen Royalty’s latest lets you play Windows 98 solitaire with the internet
-eieio.games #]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
     <entry>
