@@ -2249,46 +2249,6 @@
           "wordCount": 702,
           "title": "In Prison, White Supremacist Literature Is Required...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049631-tenzing",
-          "author": null,
-          "description": "“Starring Genden Phuntsok, Tom Hiddleston, and Willem Dafoe, Tenzing follows the true story of Tenzing Norgay and Edmund Hillary’s historic first summit of Mount Everest. History remembers the summit, but not always the man who made it possible.”",
-          "link": "https://kottke.org/26/09/0049631-tenzing",
-          "publishedOn": "2026-09-21T14:48:00.000Z",
-          "wordCount": 1168,
-          "title": "“Starring Genden Phuntsok, Tom Hiddleston, and Willem...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/music-for-the-dyeing",
-          "author": null,
-          "description": "I believe I have featured login.jp_ here before — they pair electronic music with different locations around Japan to highlight the Japanese experience. For their latest video, they had English DJ & producer Bonobo play some downtempo ambient electronica in a Shinjuku dyeing workshop.\nStanding on a street corner in the middle of Shinjuku, Fujiya Senkobo has preserved one of these techniques, known as hikizome or brush dyeing, for over 70 years. Dyeing is a traditional local industry in Shinjuku dating back to the Taisho period, and about 40 dyeing workshops still exist in Shinjuku Ward today. Composing patterns in his mind and dyeing extended fabrics with a brush, Takatoshi Nakamura, the third generation owner, states that staying sharp and maintaining perfect physical health are essential in hikizome, where mistakes are simply not permitted.\n\n \n\n        \n         \nTags: fashion · music · video",
-          "link": "https://kottke.org/26/09/music-for-the-dyeing",
-          "publishedOn": "2026-09-21T13:48:00.000Z",
-          "wordCount": 804,
-          "title": "Music for the Dyeing",
-          "imageUrl": "https://i.ytimg.com/vi/QqUBoYmFyKI/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049632-this-story",
-          "author": null,
-          "description": "This story, about a dressage trainer who shot his female student and got away with it, is completely bonkers. “Largely through the medium of Facebook, Kanarek had driven Barisone mad.”",
-          "link": "https://kottke.org/26/09/0049632-this-story",
-          "publishedOn": "2026-09-21T13:00:00.000Z",
-          "wordCount": 576,
-          "title": "This story, about a dressage trainer who shot his female...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049655-we-are-still-finding-new-",
-          "author": null,
-          "description": "I am stunned that we are still finding new species of cat in 2026. “The analysis revealed that the sanctuary cat belonged to a previously unrecognized species whose lineage split from its relatives about 1.4 million years ago.”",
-          "link": "https://kottke.org/26/09/0049655-we-are-still-finding-new-",
-          "publishedOn": "2026-09-21T12:02:00.000Z",
-          "wordCount": 730,
-          "title": "I am stunned that we are still finding new species of cat...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2623,16 +2583,6 @@
           "wordCount": 3408,
           "title": "Pluralistic: Bonta sold us out to Trump's oligarchs (22 Sep 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13316",
-          "author": "Cory Doctorow",
-          "description": "Today's links The Claude Delusion: What if we're the ones having hallucinations? Hey look at this: Delights to delectate. Object permanence: 9/11 v sex; 9/11 v flags; US customs v diplomatic Vegemite; CIA torture survivors speak; HP's inky timebomb; \"The Raven\" pop-up; Forex v Zimbabwe's internet; Shirky v \"expert Wikipedia\": McSweeney's v RIAA; Italy's internet disconnection law; Facehugger mask; \"Goliath\"; Netzpolitik v German surveillance; Ted Cruz v internet founders; Epipencil; Framework laptops; \"The Actual Star;\" Pilots tell passengers to tackle suspected terrorists; $2000 rotary phone; French DRM activists demand arrest; US child rearing costs up 40%; Calyx beats telcos; Wells Fargo whistleblower retaliation; David Graeber's \"Mutual Aid\"; Still censorship (even if it's not a First …",
-          "link": "https://pluralistic.net/2026/09/21/sunsetting/",
-          "publishedOn": "2026-09-21T11:24:31.000Z",
-          "wordCount": 4863,
-          "title": "Pluralistic: The Claude Delusion (21 Sep 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2846,16 +2796,6 @@
           "wordCount": 1242,
           "title": "22sep26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2203-scaled-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=18981",
-          "author": "Warren Ellis",
-          "description": "Printing off development material to paste it into notebooks. This is a piece of COLLIDE, the comic with Jerome Eyquem that is being serialised in…",
-          "link": "https://warrenellis.ltd/status/21sep26/",
-          "publishedOn": "2026-09-21T13:11:16.000Z",
-          "wordCount": 1339,
-          "title": "21sep26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/weathershot-076E0815-CB7B-48D4-AFB1-4F96B1E8CEA5-scaled.jpg"
         }
       ]
     },
@@ -3370,6 +3310,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://emudhra.we-have-a-problem.com\">eMudhra Intermediate CA Compromise</a></strong></p>\nThis is very, very bad news:</p>\n<blockquote>\n<p>The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores.</p>\n</blockquote>\n<p>Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates <a href=\"https://github.com/galadran/we-have-a-problem.com\">via this GitHub repository</a> - Linux distros need to update their <code>ca-certificates</code> packages.</p>\n<p>In Python world <a href=\"https://github.com/astral-sh/uv/releases/tag/0.13.4\">uv 0.13.4</a> and <a href=\"https://github.com/pypa/pip/releases/tag/26.2.2\">pip 26.2.2</a> and <a href=\"https://github.com/certifi/python-certifi/releases/tag/2026.10.19\">certifi 2026.10.19</a> have been released with upgraded certificate lists.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/encryption\">encryption</a>, <a href=\"https://simonwillison.net/tags/https\">https</a>, <a href=\"https://simonwillison.net/tags/pip\">pip</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+          "publishedOn": "2026-10-20T23:50:25.000Z",
+          "wordCount": 852,
+          "title": "eMudhra Intermediate CA Compromise",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/20/battledrones/",
           "author": null,
@@ -4394,16 +4344,6 @@
           "wordCount": 3884,
           "title": "Biology Might Not Be Quantum, but Its Math Is Quantumlike",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/Quantum-like-complex-systems-cr.Xavi-Bou-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=167300",
-          "author": "Jake Buehler",
-          "description": "Half of our genome is made of transposons — snips of DNA that can move and copy themselves. But they’re more than parasites or genetic junk.            \nThe post How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
-          "publishedOn": "2026-09-21T14:12:36.000Z",
-          "wordCount": 3024,
-          "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/OurViralGenome-crSamuelVelasco-Social.jpg"
         }
       ]
     },
