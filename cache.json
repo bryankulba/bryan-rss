@@ -271,6 +271,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/10/0049848-demonstrating-that-human-",
+          "author": null,
+          "description": "“Scientists have made a breakthrough toward the mind-bending goal of creating computers made of brains by demonstrating that human neural tissue can classify letters of the Braille alphabet.”",
+          "link": "https://kottke.org/26/10/0049848-demonstrating-that-human-",
+          "publishedOn": "2026-10-22T15:40:00.000Z",
+          "wordCount": 1039,
+          "title": "“Scientists have made a breakthrough toward the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049825-the-fastest-downhill-run-",
+          "author": null,
+          "description": "The title of this video is The Fastest Downhill Run Ever. I don’t know if that is true, but oh my god does it look dangerous to go this fast on a mountain bike through the streets of Genoa. (It looks slightly less nuts in the non-POV, but not by much.)",
+          "link": "https://kottke.org/26/10/0049825-the-fastest-downhill-run-",
+          "publishedOn": "2026-10-22T14:52:00.000Z",
+          "wordCount": 762,
+          "title": "The title of this video is The Fastest Downhill Run Ever....",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/10/meet-prometheus-a-gift-link-search-engine",
           "author": null,
           "description": "Sometime in the past few years, media sites like Bloomberg, The Economist, The Atlantic, Defector, Talking Points Memo, and the NY Times started offering a way for subscribers to share paywalled articles with friends and followers. These are commonly referred to as gift links.\nThousands of gift links are shared on websites and social media daily. Some helpful aggregated feeds and hashtags are available, but finding specific information can be difficult. Whenever possible here on KDO, I link to paywalled articles with gift links. To help in that endeavor, I’ve built a gift link discovery tool called Prometheus.\nPrometheus collects gift links to paywalled news articles shared by subscribers — from the New York Times, the Washington Post, the Atlantic, and more. Links are gathered from Bluesky, Mastodon, and the web throughout the day, and you can search by keyword & URL and filter by publication.\n\n\t\nRight now, Prometheus is only available to active kottke.org members while I’m testing and refining it — it’s definitely a beta tool rn. If you’re a member, check it out and let me know if you’ve got any feedback or notice any rough edges.\nAn informed public is the foundation of a healthy society — and while paywalls aren’t the only challenge here, they also aren’t helping. Big thanks to everyone sharing their gift links online and to these media companies for enabling their subscribers to share their journalism with others.\n\n \n\n        \n         \nTags: journalism · kottke.org · Prometheus (search)",
@@ -2169,16 +2189,6 @@
           "wordCount": 862,
           "title": "The 25 Photos That Changed Fashion Forever. “It didn’t...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/some-newsletter-tidying",
-          "author": null,
-          "description": "Just a short note to say that because of some internet scammer shithousery, I had to bulk-unsubscribe a bunch of email addresses from the KDO Newsletter subscriber rolls. If you subscribed to the newsletter back in Dec 2025 and don’t get the next issue (which I’m sending out a few hours after posting this), you might need to sign up again. Sorry for the inconvenience — my email account got flagged and I needed to rectify this pronto. 🙏\nFor the rest of yous: you’re doing great, stay the course. If you’re not subscribed to the newsletter and you like reading things in your inbox for some reason, you can subscribe as well. The newsletter goes out twice a week and includes links to everything I post here. Thanks.\n\n \n\n        \n         \nTags: kottke.org",
-          "link": "https://kottke.org/26/09/some-newsletter-tidying",
-          "publishedOn": "2026-09-22T21:33:00.000Z",
-          "wordCount": 733,
-          "title": "Some Newsletter Tidying",
-          "imageUrl": ""
         }
       ]
     },
@@ -2735,6 +2745,16 @@
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
         {
+          "id": "https://brucesterling.tumblr.com/post/831183845484380160",
+          "author": null,
+          "description": "",
+          "link": "https://brucesterling.tumblr.com/post/831183845484380160",
+          "publishedOn": "2026-10-22T14:18:05.000Z",
+          "wordCount": 1636,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/b4d7678e51368eda06c771ab055fcb8f/7e1a2e7b81564b7c-a3/s1280x1920/4af324e73ace0362c636efd8c813669f3c9def49.jpg"
+        },
+        {
           "id": "https://brucesterling.tumblr.com/post/830558519004725248",
           "author": null,
           "description": "“Fourteen ways to be a better girlfriend.”\n*People are right.  Pinterest is infested with the cheapest, most rubbishy AI slop that’s around.  Slop that’s so crude it can’t spell or count",
@@ -2851,6 +2871,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/fall-clothes-frontlines",
+          "author": "Blackbird Spyplane",
+          "description": "On-the-ground intel into yanking new sweaters, jackets, shoes & more",
+          "link": "https://www.blackbirdspyplane.com/p/fall-clothes-frontlines",
+          "publishedOn": "2026-10-22T11:03:36.000Z",
+          "wordCount": null,
+          "title": "Fall clothes frontlines",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!lRZh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e8a8255-acf1-43d5-a274-7759b7d0850a_1985x2627.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!lRZh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e8a8255-acf1-43d5-a274-7759b7d0850a_1985x2627.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/on-having-zero-motion",
           "author": "Blackbird Spyplane",
@@ -3108,6 +3144,16 @@
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/16/IC_LOGO_4_copy.jpeg"
         },
         {
+          "id": "https://www.thewire.co.uk/audio/tracks/global-ear-tilburg-breda",
+          "author": null,
+          "description": "The Wire 513, Christiaan de Wit compiles an annotated playlist of tracks from the neighbouring Dutch cities\n\n\n    Psychick Warriors Ov Gaia\n    \n From Ov Biospheres And Sacred Grooves: A Document Ov New Edge Folk Classics\n    \n(Forever Records) 1992\n\nOv Biospheres And Sacred Grooves: A Document Ov New Edge Folk Classics is split between esoteric Balearic-esque dance tunes on the one hand and more experimental sonic explorations on the other. “The Challenge (Part Two)” seems to depict a synthetic underwater universe with lots going on: a constant presence of bubbles finding their way to the surface, metallic rhythmic pulses and something that resembles someone whistling a tune. It’s quite a static affair until someone hits a keyboard in a jazzy, moody way. The entire album is a great introd…",
+          "link": "https://www.thewire.co.uk/audio/tracks/global-ear-tilburg-breda",
+          "publishedOn": "2026-10-14T00:00:00.000Z",
+          "wordCount": 1084,
+          "title": "Global Ear: Tilburg & Breda",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/22/StekBredaPhotoforGlobalEar_1_for_online.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/on-air/misha-farrant-presents-adventures-in-sound-and-music-79784",
           "author": null,
           "description": "The 15 October edition of The Wire's weekly radio show featured music by Otomo Yoshihide & Quentin Rollet, BETHLEHEM بيت لحم, Coil, Ans M and more\n\nTracklist\n\nOtomo Yoshihide & Quentin Rollet\n    \n“Flying Kaiju”\n    \nFlying Kaiju\n    \n (Bisou)\n\nBETHLEHEM بيت لحم\n    \nBETHLEHEM بيت لحم\n    \nConstellation)\n\nWillow Swan & Ellis Berwick\n    \n“The Beginning Is Near (Live Performance)”\n    \nBelow The Radar 51\n    \n (BTR 51)\n\nKill Alters\n    \n“OCCAMS RAZOR”\n    \nWe Can Rot Together\n    \n (Hausu Mountain)\n\nCoil\n    \n“Either His, Or Yours”\n    \nGold Is The Metal (With The Broadest Shoulders)\n    \n (Mute)\n\nAns M\n    \n“Peregrine w/ Tzekin”\n    \nLikewing Drift\n    \n (Scorpio Red)\n\nXt1ana\n    \n“I LIKE”\n    \nBandcamp)\n\nSquid Pisser\n    \n“Rats”\n    \nThroat Slave\n    \n (SKiN GRAFT)\n\nLiquid DnB-like Ambient Grime 2\n    \n“Falling The Same Way OFF Lancashire Hill”\n    \nHaunted House, Garage & Grime\n    \n (Sneaker Social Club)\n\nMatilda Tjäder featuring Niklas Tjäder\n    \n“Eight Limbs, Eight Paths”\n    \nSHELF LIFE\n    \n (Doyenne)\n\nangelito featuring Contacto\n    \n“Expensive”\n    \nExpensive music\n    \n (glint)\n\nLinus Hillborg\n    \n“4K Hell”\n    \nRemanens\n    \n (B.A.A.D.M)\n\nKlein featuring Sasha Scott\n    \n“siren reloaded”\n    \nmy own fairytale\n    \n (Parkwuud Entertainment)\n\nBRRRDS+Y\n    \n“Glashaus 03”\n    \nGlashaus\n    \n (Mamka)\n\nEdley Odowd\n    \n“Heat”\n    \nKowai-Yet\n    \n (Bandcamp)\n\nSarah Belle Reid\n    \n“Forecasting”\n    \nTimes Undoing & Progress\n    \n (Infrequent Seams)\n\nFiesta Soundsystem\n    \n“Sleazy Steve – Death By A Thousand Rave Stabs”\n    \nIf On A Winter's Night... A Junglist\n    \n (Bandcamp)\n\nGodflesh\n    \n“Consume Me”\n    \nDecay\n    \n (Relapse)\n\nAdventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.",
@@ -3244,6 +3290,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+          "author": null,
+          "description": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/armin-ronacher\">armin-ronacher</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+          "publishedOn": "2026-10-22T15:34:13.000Z",
+          "wordCount": 759,
+          "title": "Quoting Armin Ronacher",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/21/php-security-release/",
           "author": null,
@@ -4003,26 +4059,6 @@
           "wordCount": 803,
           "title": "Shadow roots, explained with live examples",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://luma.com/vxuiuyvg\">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p>\nI'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p>\n<p>Think of it as an agentic show-and-tell:</p>\n<blockquote>\n<p>​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market.</p>\n<p>​Expect one flowing conversation with an informal show-and-tell. Sharing something you’re working on is encouraged but no presentation is required.</p>\n</blockquote>\n<p>This isn't about product pitches, it's about much earlier explorations than that. This agentic AI stuff is weird! Let's celebrate and lean into that weirdness.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/events\">events</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/jesse-vincent\">jesse-vincent</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-          "publishedOn": "2026-09-23T02:53:19.000Z",
-          "wordCount": 895,
-          "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-          "author": null,
-          "description": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropic.com/claude-opus-5-5\">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href=\"https://openai.com/index/introducing-gpt-6-sol-and-luna/\">released GPT-6 Sol and GPT-6 Luna</a>. It's going to take a while to get a good read on all of these new models, but here are my impressions so far.</p>\r\n<h4 id=\"gpt-6-sol-and-luna-are-half-the-price-of-their-gpt-5-6-equivalents\">GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents</h4>\r\n<p>GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being <em>really cheap</em>. Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduction compared to GPT-5.6 Sol.</p>\r\n<p>Here's what the pricing landscape looks like today:</p>\r\n<center><table>\r\n  <thead>\r\n    <tr>\r\n      <th>Model</th>\r\n      <th>Input</th>\r\n      <th>Cached input</th>\r\n      <th>Output</th>\r\n    </tr>\r\n  </thead>\r\n  <tbody>\r\n    <tr>\r\n      <td>GPT-6 Luna</td>\r\n      <td>$0.10/M</td>\r\n      <td>$0.01/M</td>\r\n      <td>$0.50/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>GPT-5.6 Luna</td>\r\n      <td>$0.20/M</td>\r\n      <td>$0.02/M</td>\r\n      <td>$1.20/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Grok 4.7</td>\r\n      <td>$2/M</td>\r\n      <td>$0.50/M</td>\r\n      <td>$6/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>GPT-6 Sol</td>\r\n      <td>$2/M</td>\r\n      <td>$0.20/M</td>\r\n      <td>$10/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>GPT-5.6 Terra</td>\r\n      <td>$2/M</td>\r\n      <td>$0.20/M</td>\r\n      <td>$12/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Claude Opus 5.5</td>\r\n      <td>$4/M</td>\r\n      <td>$0.20/M</td>\r\n      <td>$20/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>GPT-5.6 Sol</td>\r\n      <td>$4/M</td>\r\n      <td>$0.40/M</td>\r\n      <td>$20/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>Claude Fable 5.1</td>\r\n      <td>$10/M</td>\r\n      <td>$0.25/M</td>\r\n      <td>$50/M</td>\r\n    </tr>\r\n    <tr>\r\n      <td>GPT-6 Astra</td>\r\n      <td>$10/M</td>\r\n      <td>$1/M</td>\r\n      <td>$50/M</td>\r\n    </tr>\r\n  </tbody>\r\n</table></center>\r\n<p>Note that GPT-5.6 has a scheduled 25% price increase for November, so GPT-6 is half the price of the <em>promotional</em> pricing for those models.</p>\r\n<p>(With GPT-5.6 Terra priced the same as GPT-6 Sol, any remaining reasons to use Terra just evaporated.)</p>\r\n<p>It's hard to overstate how competitive this pricing is. Grok 4.7 priced itself at $2/$6, less than half the price of GPT-5.6 Sol, but is now equally priced to GPT-6 Sol on input and closer on output.</p><p>At $0.10/$0.50 GPT-6 Luna is one of the cheapest models OpenAI have ever released, beaten only by the far weaker GPT-4.1 Nano ($0.10/$0.40, April 2025) and GPT-5 Nano ($0.05/$0.40, August 2025).</p>\r\n<p>I rendered <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F40d129fc140faca378b9c9f4f16c6ec2\">pelicans for GPT-6 Luna</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fbe7ae25af2634b68bc34b7b7aaf02cb2\">for GPT-6 Sol</a>, then I combined them all together in <a href=\"https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html\">this comparison grid</a> along with the GPT-5.6 pelicans. I like how you can instantly see that the 5.6 family chose bolder, brighter colors, while the 6 family is a lot more muted. I still think GPT-6 Astra on max produced the best pelican.</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/gpt-pelicans-grid.webp\" alt=\"A grid of pelicans for six GPT models at different thinking efforts.\" style=\"max-width: 100%;\" /></p>\r\n<h4 id=\"claude-opus-5-5-got-a-price-cut-too\">Claude Opus 5.5 got a price cut too</h4>\r\n<p>Opus 5.5 looks like it addresses the biggest complaints people had about Opus in terms of its communication style. <a href=\"https://twitter.com/trq212/status/2102437686967738431\">Thariq Shihipar</a>:</p>\r\n<blockquote>\r\n<p>Opus 5.5 is the result of your feedback.</p>\r\n<p>It communicates clearly, it's cheaper per token than Opus 5.0 with the intelligence of Fable 5.1 it's very token efficient and works across every effort level.</p>\r\n</blockquote>\r\n<p>It's also meant to be <a href=\"https://twitter.com/alexalbert__/status/2102466523164274839\">better at Blender</a>. I'm looking forward to putting it through its paces there.</p>\r\n<p>Opus 4.5, 4.6, 4.7, 4.8, and 5 all shared the same price: $5/million tokens for input and $25/million for output. 5.5 is a 20% reduction - $4/million and $20/million.</p>\r\n<p>The price for cache reads fell 60%. That's significant for longer agentic conversations, where 90%+ of input tokens are processed at cached token prices.</p>\r\n<p>The new price for Opus 5.5 is the same as the price for GPT-5.6 Sol, but that was <em>before</em> OpenAI dropped their Sol prices by half.</p>\r\n<p>GPT-6 Astra and Claude Fable 5.1 are both priced at $10/million input and $50/million output. The price war currently affects the next tier of models below that.</p>\r\n<p>Anthropic say that Sonnet 5.5 and Haiku 5.5 are coming soon. It's going to be interesting to see if Haiku can regain its price competitiveness at the lower end, given current Haiku 4.5 is $1/$5 while the latest GPT-6 Luna is <em>one tenth</em> of that price at $0.10/$0.50.</p>\r\n<h4 id=\"claude-opus-5-5-max-over-thinks-to-the-point-of-breaking\">Claude Opus 5.5 max over-thinks to the point of breaking</h4>\r\n<p>In a first for my \"<a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">Generate an SVG of a pelican riding a bicycle</a>\" test, Claude Opus 5.5 at \"max\" thinking level failed to return a response!</p>\r\n<p>It started by calling this \"a classic test request\", and then thought really, <em>really</em> hard about what it was doing:</p>\r\n<blockquote>\r\n<p>This is a classic test request, so I want to plan out a well-composed pelican with its distinctive beak and pouch riding a bicycle with proper wheels, frame, and pedals, set against a simple sky and ground backdrop. [...]</p>\r\n<p>Verifying the shin length checks out at roughly 95.2, close enough. Now I'm working out the near leg path from hip to knee to ankle, then sketching the foot shape resting on the pedal — outlining the heel, toe tips, and sole contour with a path using lines and curves to sit naturally on the pedal surface around y=478-494. [...]</p>\r\n<p>I like the fish sticking prominently out of the basket with the pelican eyeing it as a fun detail worth keeping. I'm also confirming the eye placement near the bill base matches typical pelican anatomy, and considering giving it a slightly happier expression. [...]</p>\r\n<p>The far leg reads correctly as passing behind the frame, so I'm moving on to check the chainring teeth and confirm layer ordering—the far crank arm should be mostly hidden by the seat tube and chainring. I'm settling on the final SVG's width and height attributes alongside the viewBox to ensure proper scaling, noting there's no text so no font-family is needed. [...]</p>\r\n</blockquote>\r\n<p>I was so excited to see this pelican... but then it <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F61fd7c3683fffce9a3ab7c43d1180024#response-4\">stopped</a>. Opus 5.5 has a 128,000 maximum output token limit (as do the other Claude models), and it hit that while it was still reasoning about the SVG!</p>\r\n<p>I tried a second time and got the same result. This makes me suspect that \"max\" is effectively useless - if it over-thinks to breaking point on a stupid SVG prompt I don't trust it not to do the same for more interesting work.</p>\r\n<p>(Those two failures each cost me <a href=\"https://www.llm-prices.com/#it=27&amp;ot=128000&amp;sel=claude-opus-5-5\">$2.56</a> and took nearly 20 minutes.)</p>\r\n<p>Fable 5.1 on \"max\" didn't over-think and did give me <a href=\"https://simonwillison.net/2026/Sep/1/claude-fable-5-1/#max\">the best pelican I've seen</a> from any Anthropic model.</p>\r\n<p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F61fd7c3683fffce9a3ab7c43d1180024\">the Opus 5.5 pelicans</a>, excluding 5.5 max.</p>\r\n<p>I also built <a href=\"https://static.simonwillison.net/static/2026/claude-pelicans-grid.html\">this comparison grid</a> comparing them with pelicans by Opus 5, Fable 5.1, and Sonnet 5:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026/claude-pelicans-grid.webp\" alt=\"A grid of pelicans for four Claude models at different thinking efforts.\" style=\"max-width: 100%;\" /></p>\r\n<p>Comparing different model vendors by how well they draw a pelican riding a bicycle may not make much sense now (if it ever did), but I'm still finding value in using them for comparisons of the same model families at different reasoning levels.</p>\r\n<p>I'm now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code. I've upgraded the Datasette Agent demo at <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> to use GPT-6 Luna, and it seems to be fast and competent at both SQL queries and building HTML and JavaScript for <a href=\"https://simonwillison.net/2026/Jun/18/datasette-apps/\">Datasette Apps</a>.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-          "publishedOn": "2026-09-22T23:46:41.000Z",
-          "wordCount": 1853,
-          "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-          "imageUrl": "https://static.simonwillison.net/static/2026/gpt-grid-card.jpg"
         }
       ]
     },
@@ -4272,6 +4308,16 @@
       "feedUrl": "https://www.velcro-city.co.uk/feed/",
       "siteUrl": "https://www.velcro-city.co.uk",
       "articles": [
+        {
+          "id": "https://www.velcro-city.co.uk/?p=12425",
+          "author": "PGR",
+          "description": "Ada Palmer on framing sociotechnical change as \"revolutionary\", and on sf as a sandbox for red-teaming possible futures.",
+          "link": "https://www.velcro-city.co.uk/all-iterations-of-the-same-one-fundamental-technological-change/",
+          "publishedOn": "2026-10-22T10:15:33.000Z",
+          "wordCount": 3221,
+          "title": "all iterations of the same one fundamental technological change",
+          "imageUrl": null
+        },
         {
           "id": "https://www.velcro-city.co.uk/?p=12421",
           "author": "PGR",
