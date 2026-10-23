@@ -35,6 +35,182 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/23/quick-study-painter/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T21:35:13.000Z">2026-10-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/23/quick-study-painter/" target="_blank" rel="noopener noreferrer">Quick Study</a>
+          </h2>
+          <p class="feed-item__desc">Tool: Quick Study
+Prompt to Claude Opus 5.5 High:
+Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush
+See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js.
+
+Quick Study uses Sobel edge detection, with no external libraries beyond Google Fonts.
+Tags: tools</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/23/quick-study-painter/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/23/quick-study-painter/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/heron-oil.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13433">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T20:44:02.000Z">2026-10-23</time>
+        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://pluralistic.net/2026/10/23/better-to-give/" target="_blank" rel="noopener noreferrer">Pluralistic: Critique and writing (23 Oct 2026)</a>
+          </h2>
+          <p class="feed-item__desc">Today's links Critique and writing: The most important part of a writing workshop is trying to fix other people's stories. Hey look at this: Delights to delectate. Object permanence: USPS nukes the mail; Enron Explorer; "Scored"; UAE's international hacker legion; NZ provides hacking tools to torturers; Truecrypt insecure; The Traitorous Eight. Upcoming appearances: Vancouver, Ottawa, Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Critique and writing (permalink) Through my own writing life, nothing has done more to improve my writing than diligent participation in peer-based worksho…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13433" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13433">Mark read</button>
+            <span class="feed-item__reading-time">14 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T19:40:54.000Z">2026-10-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/" target="_blank" rel="noopener noreferrer">Introducing Kimi K3.1 Pro</a>
+          </h2>
+          <p class="feed-item__desc">Introducing Kimi K3.1 Pro
+They're also offering a "Highspeed" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).
+The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.
+Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.
+Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).
+This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.
+I tried it out via the Moonshot API using the llm openai endpoint command I added to LLM 0.32 back in August:
+llm openai endpoint \
+  https://api.moonshot.ai/v1 \
+  --key kimi \
+  -m kimi-k3.1-pro \
+  "Generate an SVG of a pelican riding a bicycle" \
+  --responses \
+  -o reasoning_effort low \
+  > kimi-k3.1-pro-pelican-low.stdout.txt \
+  2> kimi-k3.1-pro-pelican-low.stderr.txt
+
+llm openai endpoint can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace).
+Here are the pelicans I got for Kimi K3.1 Pro on the three reasoning levels it supports -  low, medium, and max. This is max:
+
+For comparison, I ran fresh pelicans against Kimi K3 on those three reasoning levels.
+
+    
+Via Hacker News
+Tags: ai, generative-ai, llms, llm, llm-pricing, pelican-riding-a-bicycle, llm-release, ai-in-china, moonshot, kimi</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/kimi-k3.1-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049855-the-one-question-i-cant-s">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T17:44:00.000Z">2026-10-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049855-the-one-question-i-cant-s" target="_blank" rel="noopener noreferrer">The One Question I Can’t Stand at Restaurants. “The idea...</a>
+          </h2>
+          <p class="feed-item__desc">The One Question I Can’t Stand at Restaurants. “The idea of a restaurant I’d never been to using a dossier on me to decide, say, where I should sit, what I was likely to order, even whether I should be given a reservation at all, gave me chills.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049855-the-one-question-i-cant-s" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049855-the-one-question-i-cant-s">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51313">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T17:08:24.000Z">2026-10-23</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://unsung.aresluna.org/apples-ipod-recreation/" target="_blank" rel="noopener noreferrer">Apple Music’s iPod easter egg</a>
+          </h2>
+          <p class="feed-item__desc">it’s on their 404 page and really well done
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51313" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51313">Mark read</button>
+            <span class="feed-item__reading-time">1 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://unsung.aresluna.org/_media/apples-ipod-recreation/ogimage.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51309">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T17:05:13.000Z">2026-10-23</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://edjefferson.com/localwiki/" target="_blank" rel="noopener noreferrer">Local Wikipedia</a>
+          </h2>
+          <p class="feed-item__desc">“Wikipedia, but only for things a half hour walk from you”
+Web Curios #</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51309" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51309">Mark read</button>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://edjefferson.com/localwiki/share.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049850-us-households-are-paying-">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-23T16:30:00.000Z">2026-10-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049850-us-households-are-paying-" target="_blank" rel="noopener noreferrer">“US households are paying 62% more for drinking water...</a>
+          </h2>
+          <p class="feed-item__desc">“US households are paying 62% more for drinking water than they did a decade ago — outpacing inflation, grocery prices and household incomes.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049850-us-households-are-paying-" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049850-us-households-are-paying-">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;168189">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-10-23T14:54:10.000Z">2026-10-23</time>

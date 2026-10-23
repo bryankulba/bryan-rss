@@ -2,10 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-23T16:26:05.985Z</updated>
+    <updated>2026-10-23T22:52:35.336Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quick Study]]></title>
+        <id>https://simonwillison.net/2026/Oct/23/quick-study-painter/</id>
+        <link href="https://simonwillison.net/2026/Oct/23/quick-study-painter/"/>
+        <updated>2026-10-23T21:35:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/quick-study-painter">Quick Study</a></p>
+        <p>Prompt <a href="https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb">to Claude Opus 5.5 High</a>:</p>
+<blockquote>
+<p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p>
+</blockquote>
+<p>See also <a href="https://simonwillison.net/2026/Aug/25/pelican-watercolor/">my previous experiment</a> getting Claude Fable to simulate a watercolor illustration with P5.js.</p>
+<p><img alt="A simulated oil painting of a photograph of a heron" src="https://static.simonwillison.net/static/2026/heron-oil.webp" /></p>
+<p>Quick Study uses <a href="https://en.wikipedia.org/wiki/Sobel_operator">Sobel edge detection</a>, with no external libraries beyond Google Fonts.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Critique and writing (23 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13433</id>
+        <link href="https://pluralistic.net/2026/10/23/better-to-give/"/>
+        <updated>2026-10-23T20:44:02.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Critique and writing: The most important part of a writing workshop is trying to fix other people's stories. Hey look at this: Delights to delectate. Object permanence: USPS nukes the mail; Enron Explorer; "Scored"; UAE's international hacker legion; NZ provides hacking tools to torturers; Truecrypt insecure; The Traitorous Eight. Upcoming appearances: Vancouver, Ottawa, Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Critique and writing (permalink) Through my own writing life, nothing has done more to improve my writing than diligent participation in peer-based worksho…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Kimi K3.1 Pro]]></title>
+        <id>https://simonwillison.net/2026/Oct/23/kimi-k31-pro/</id>
+        <link href="https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"/>
+        <updated>2026-10-23T19:40:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.kimi.ai/blog/kimi-k3-1-pro">Introducing Kimi K3.1 Pro</a></strong></p>
+Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise "Full model weights will be released by Nov 4, 2026".</p>
+<p>They're also offering a "Highspeed" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).</p>
+<p>The <a href="https://platform.kimi.ai/docs/pricing/chat">US dollar pricing</a> is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.</p>
+<p>Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.</p>
+<p>Artificial Analysis <a href="https://artificialanalysis.ai/models/kimi-k3-1-pro">scored Kimi at 55</a> - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).</p>
+<p>This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.</p>
+<p>I tried it out via the <a href="https://platform.kimi.ai/docs/get-your-api-key">Moonshot API</a> using the <a href="https://llm.datasette.io/en/stable/other-models.html#openai-endpoint">llm openai endpoint</a> command I added to <a href="https://llm.datasette.io/en/stable/changelog.html#v0-32">LLM 0.32</a> back in August:</p>
+<pre><code>llm openai endpoint \
+  https://api.moonshot.ai/v1 \
+  --key kimi \
+  -m kimi-k3.1-pro \
+  "Generate an SVG of a pelican riding a bicycle" \
+  --responses \
+  -o reasoning_effort low \
+  &gt; kimi-k3.1-pro-pelican-low.stdout.txt \
+  2&gt; kimi-k3.1-pro-pelican-low.stderr.txt
+</code></pre>
+<p><code>llm openai endpoint</code> can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace).</p>
+<p>Here <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F9b7181492209387da1d4f53002f26663">are the pelicans</a> I got for Kimi K3.1 Pro on the three reasoning levels it supports -  low, medium, and max. This is max:</p>
+<p><img alt="It's pretty solid - feet are on the pedals, bicycle frame is good, nice beak. Both legs are on the same side of the Fram though." src="https://static.simonwillison.net/static/2026-10-23/image-2.png" /></p>
+<p>For comparison, I ran fresh <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Feba9a4283c9e94cbbb5325902a3921a8">pelicans against Kimi K3</a> on those three reasoning levels.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50212065">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/moonshot">moonshot</a>, <a href="https://simonwillison.net/tags/kimi">kimi</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The One Question I Can’t Stand at Restaurants. “The idea...]]></title>
+        <id>https://kottke.org/26/10/0049855-the-one-question-i-cant-s</id>
+        <link href="https://kottke.org/26/10/0049855-the-one-question-i-cant-s"/>
+        <updated>2026-10-23T17:44:00.000Z</updated>
+        <summary type="html"><![CDATA[The One Question I Can’t Stand at Restaurants. “The idea of a restaurant I’d never been to using a dossier on me to decide, say, where I should sit, what I was likely to order, even whether I should be given a reservation at all, gave me chills.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Music’s iPod easter egg]]></title>
+        <id>https://waxy.org/?p=51313</id>
+        <link href="https://unsung.aresluna.org/apples-ipod-recreation/"/>
+        <updated>2026-10-23T17:08:24.000Z</updated>
+        <summary type="html"><![CDATA[it’s on their 404 page and really well done
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Local Wikipedia]]></title>
+        <id>https://waxy.org/?p=51309</id>
+        <link href="https://edjefferson.com/localwiki/"/>
+        <updated>2026-10-23T17:05:13.000Z</updated>
+        <summary type="html"><![CDATA[“Wikipedia, but only for things a half hour walk from you”
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“US households are paying 62% more for drinking water...]]></title>
+        <id>https://kottke.org/26/10/0049850-us-households-are-paying-</id>
+        <link href="https://kottke.org/26/10/0049850-us-households-are-paying-"/>
+        <updated>2026-10-23T16:30:00.000Z</updated>
+        <summary type="html"><![CDATA[“US households are paying 62% more for drinking water than they did a decade ago — outpacing inflation, grocery prices and household incomes.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Malaria Parasite Caught in the Act of Breaking and Entering]]></title>
         <id>https://www.quantamagazine.org/?p=168189</id>
