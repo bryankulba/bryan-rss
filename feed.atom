@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-24T03:12:35.106Z</updated>
+    <updated>2026-10-24T08:37:04.740Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -7482,115 +7482,6 @@ Tags: cities · design · Noah Nolet · photography]]></summary>
         <link href="https://kottke.org/26/09/0049646-catalogue-of-ships"/>
         <updated>2026-09-24T20:49:00.000Z</updated>
         <summary type="html"><![CDATA[Homer’s Catalogue of Ships from the Iliad. Where the Greek ships that set out for Troy were from and what they may have looked like. “No Homeric ship survives. What we have are pictures: a handful of painted sherds of the twelfth century BC…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[commit-rewriter 0.2]]></title>
-        <id>https://simonwillison.net/2026/Sep/24/commit-rewriter/</id>
-        <link href="https://simonwillison.net/2026/Sep/24/commit-rewriter/"/>
-        <updated>2026-09-24T20:06:53.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/commit-rewriter/releases/tag/0.2">commit-rewriter 0.2</a></p>
-        <blockquote>
-<p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href="https://github.com/simonw/commit-rewriter/issues/3">#3</a></p>
-</blockquote>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/git">git</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical Engineering: Are beavers actually good at...]]></title>
-        <id>https://kottke.org/26/09/0049651-are-beavers-actually-good</id>
-        <link href="https://kottke.org/26/09/0049651-are-beavers-actually-good"/>
-        <updated>2026-09-24T19:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Practical Engineering: Are beavers actually good at building dams? (A: Yes, duh.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[datasette 1.0a41]]></title>
-        <id>https://simonwillison.net/2026/Sep/24/datasette/</id>
-        <link href="https://simonwillison.net/2026/Sep/24/datasette/"/>
-        <updated>2026-09-24T19:15:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a41">datasette 1.0a41</a></p>
-        <p>Alec Garcia added <a href="https://docs.datasette.io/en/latest/internals.html#internals-telemetry">support for OpenTelemetry</a> to Datasette in this release.</p>
-<p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href="https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals">documented for other plugins to use</a>.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/web-components">web-components</a>, <a href="https://simonwillison.net/tags/alex-garcia">alex-garcia</a>, <a href="https://simonwillison.net/tags/opentelemetry">opentelemetry</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Further Mis-Adventures of Cliff Booth. Brad Pitt...]]></title>
-        <id>https://kottke.org/26/09/0049678-the-further-mis-adventure</id>
-        <link href="https://kottke.org/26/09/0049678-the-further-mis-adventure"/>
-        <updated>2026-09-24T18:59:00.000Z</updated>
-        <summary type="html"><![CDATA[The Further Mis-Adventures of Cliff Booth. Brad Pitt returns as Booth, the character he played in Once Upon a Time in Hollywood, but 8 years later. Screenplay by Quentin Tarantino, directed by David Fincher.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trace is a daily puzzle game where you build a “recipe”...]]></title>
-        <id>https://kottke.org/26/09/0049653-trace</id>
-        <link href="https://kottke.org/26/09/0049653-trace"/>
-        <updated>2026-09-24T18:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Trace is a daily puzzle game where you build a “recipe” of up to 4 steps to turn a starting set of numbers into another set of numbers.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The lessons four Islamic polymaths — al-Biruni, Alhazen,...]]></title>
-        <id>https://kottke.org/26/09/0049643-the-lessons-four-islamic-</id>
-        <link href="https://kottke.org/26/09/0049643-the-lessons-four-islamic-"/>
-        <updated>2026-09-24T17:29:00.000Z</updated>
-        <summary type="html"><![CDATA[The lessons four Islamic polymaths — al-Biruni, Alhazen, Avicenna and al-Khwarizmi — hold for students today: “breadth over specialisation, and never let constraints get in the way”.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[50 Songs That Explain America. “The songs were chosen on...]]></title>
-        <id>https://kottke.org/26/09/0049664-50-songs-that-explain-ame</id>
-        <link href="https://kottke.org/26/09/0049664-50-songs-that-explain-ame"/>
-        <updated>2026-09-24T16:39:00.000Z</updated>
-        <summary type="html"><![CDATA[50 Songs That Explain America. “The songs were chosen on the basis that they told me something, sonically or lyrically or emotionally or vibrationally, about America and the idea of America.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 🔥🔥🔥 New Social App: NPR Podcasts Comments Section on Spotify]]></title>
-        <id>https://kottke.org/26/09/the-new-social-app-npr-podcasts-comments-section-on-spotify</id>
-        <link href="https://kottke.org/26/09/the-new-social-app-npr-podcasts-comments-section-on-spotify"/>
-        <updated>2026-09-24T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[{Ira Glass voice} On this week’s episode of This American Life, the story of middle schoolers too young for social media chatting in the comments section of NPR’s podcasts on Spotify. From the transcript:
-And it was just, like, gibberish. There was a bunch of new comments, but I couldn’t make heads or tail of any of them. They’re just these clipped, weird, incoherent postings that I was just like— it screamed bots, just because anytime that I see just gibberish in a comment on the internet, I assume it’s a bot. But the fact that they were all from different accounts seemed very weird. And the fact that they also maybe seemed to be interacting in some way also seemed weird and not like typical bot behavior.
-
-	
-They tracked down one of the participants and interviewed her:
-Ira Glass: And can I ask, why did you guys pick NPR shows to be the ones where you went to in the comments?
-Ella: I think we just looked for podcasts that didn’t have many comments.
-Ira Glass: I see. So you picked NPR because it didn’t seem very popular.
-Ella: Yeah, so that we wouldn’t get caught up in other people’s comments.
-Ira Glass: I tell you, buddy, I do a public radio show, and that hurts a little to hear it.
-
-	
-You can listen to the whole episode here (or wherever you get your podcasts) — it’s the very first segment — or watch a shorter version of it on Instagram or YouTube. (thx, alana)
-
- 
-
-        
-         
-Tags: Ira Glass · NPR · podcasts · spotify · This American Life]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
