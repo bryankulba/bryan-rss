@@ -63,6 +63,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/10/24/bunker",
+          "author": null,
+          "description": "I shut down my web servers on Thursday. I’ve had a home of my own on internet for 27 years. A good innings but a sad day.\nA home-owner no more! I’m renting now.\nOld websites have been archived to static HTML and moved to a shared host. I said goodbye to some old apps. You’re reading this because I moved my blog to GitHub Pages. Lost some functionality on the way, but security is now someone else’s problem.\nYou know, I’ve hosted my own blog on my own iron since 2000 except for 6 weeks in 2004 when the hard drive was glitching and I had to go to the datacenter at midnight to pull it from the rack, then sit it on ice cubes to copy data off because the cold bought me 20 mins extra before it crashed again.\nWe were writing Mind Hacks on some wiki software it was hosting, so I had to get it back.…",
+          "link": "https://interconnected.org/home/2026/10/24/bunker",
+          "publishedOn": "2026-10-24T12:28:00.000Z",
+          "wordCount": 1543,
+          "title": "Bunkering down",
+          "imageUrl": "https://interconnected.org/home/2026/10/24/bunker.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/10/17/filtered",
           "author": null,
           "description": "1.\nASMR is that full-body tingling some people get when listening to sounds like gentle tapping or whispering.\nIt is detectable in the brain using EEG spectral analysis: ASMR amplifies low frequency and reduces high frequency oscillations (2022).\n(Technically: self-reported ASMR correlates with a shared EEG biomarker, but it doesn’t demonstrate the reverse – i.e. this does not yet show how to build an ASMR detector.)\nHey, Apple has a patent on EEG sensors in AirPods (as previously discussed).\nFree product concept:\nAirPods that use their sensors to detect the ASMR response, then dial in to relentlessly trigger it 24/7. A new alternative to noise cancelling mode.\nTim Apple you can put the cheque in the post.\nSEE ALSO:\nThe ASMR version of Bee Movie, and other neuro-divergent media (2021).\n2.\n…",
@@ -2049,46 +2059,6 @@
           "wordCount": 1040,
           "title": "Lego’s biggest set ever is coming out soon: the...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049680-what-if-we-just-stopped",
-          "author": null,
-          "description": "What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”",
-          "link": "https://kottke.org/26/09/0049680-what-if-we-just-stopped",
-          "publishedOn": "2026-09-25T00:10:00.000Z",
-          "wordCount": 1187,
-          "title": "What If We Just Stopped? “We’re in the Looney Tunes stage...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049679-link",
-          "author": null,
-          "description": "What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”",
-          "link": "https://kottke.org/26/09/0049679-link",
-          "publishedOn": "2026-09-24T22:41:00.000Z",
-          "wordCount": 683,
-          "title": "What If We Just Stopped? “We’re in the Looney Tunes stage...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/scans-of-city-textures",
-          "author": null,
-          "description": "Using a handheld scanner, designer/illustrator Noah Nolet captures textures from surfaces in cities around the world, including Tokyo, LA, Paris, Kyoto, NYC, and Berlin. On his website, he offers city packs of hundreds of scans for sale and free sample packs as well. You can also check out how he captures the textures on Instagram and YouTube. This is a modern take on stone rubbing.\n\n \n\n        \n         \nTags: cities · design · Noah Nolet · photography",
-          "link": "https://kottke.org/26/09/scans-of-city-textures",
-          "publishedOn": "2026-09-24T21:44:00.000Z",
-          "wordCount": 673,
-          "title": "Scans of City Textures",
-          "imageUrl": "http://kottke.org/images/posts/01/editor-1790236741-10849241.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049646-catalogue-of-ships",
-          "author": null,
-          "description": "Homer’s Catalogue of Ships from the Iliad. Where the Greek ships that set out for Troy were from and what they may have looked like. “No Homeric ship survives. What we have are pictures: a handful of painted sherds of the twelfth century BC…”",
-          "link": "https://kottke.org/26/09/0049646-catalogue-of-ships",
-          "publishedOn": "2026-09-24T20:49:00.000Z",
-          "wordCount": 702,
-          "title": "Homer’s Catalogue of Ships from the Iliad. Where the...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3175,6 +3145,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/24/battledrones/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p>\n        <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p>\n<p>Here's the initial prompt I used: </p>\n<blockquote>\n<p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI)</code></p>\n</blockquote>\n<p>Claude Opus 4.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes.</p>\n<p><img alt=\"The new map does indeed look a bit like a rose - it uses the cold and ice biome. Also shown are purple robots battling on the map.\" src=\"https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg\" /></p>\n<p>The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in <a href=\"https://simonw.github.io/battledrones/models.html\">the updated model browser</a>.</p>\n<p>Here's <a href=\"https://simonw.github.io/battledrones/v14/?replay=https://gist.githubusercontent.com/simonw/faa550a002b25a78f1c88a64217786c1/raw/4ff9b03de71d757cd33eb5d1a0e388155b6c20e5/compass.json\">a replay link</a> to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/game-design\">game-design</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
+          "publishedOn": "2026-10-24T03:59:57.000Z",
+          "wordCount": 898,
+          "title": "battledrones v14: Compass Rose, a four player map",
+          "imageUrl": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg"
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
           "author": null,
           "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p>\n        <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p>\n<blockquote>\n<p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p>\n</blockquote>\n<p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolor/\">my previous experiment</a> getting Claude Fable to simulate a watercolor illustration with P5.js.</p>\n<p><img alt=\"A simulated oil painting of a photograph of a heron\" src=\"https://static.simonwillison.net/static/2026/heron-oil.webp\" /></p>\n<p>Quick Study uses <a href=\"https://en.wikipedia.org/wiki/Sobel_operator\">Sobel edge detection</a>, with no external libraries beyond Google Fonts.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
@@ -3912,26 +3892,6 @@
           "publishedOn": "2026-09-25T17:22:01.000Z",
           "wordCount": 856,
           "title": "Quoting John Gruber",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-          "author": null,
-          "description": "<p><img src=\"https://static.inaturalist.org/photos/740453177/large.jpg\" alt=\"Northern Gannet\"></p><p><img src=\"https://static.inaturalist.org/photos/740453341/large.jpg\" alt=\"Great Blue Heron\"></p><p><img src=\"https://static.inaturalist.org/photos/740454506/large.jpg\" alt=\"California Brown Pelican\"></p><p>Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA</p><p>New 200-800mm Canon EF lens got me my best photo of <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">Morris</a> yet. They really like hanging out under that sign in the harbor!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-          "publishedOn": "2026-09-25T02:07:04.000Z",
-          "wordCount": 704,
-          "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/24/harder/",
-          "author": null,
-          "description": "<p>The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.</p>\n<p>We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/24/harder/",
-          "publishedOn": "2026-09-24T23:31:08.000Z",
-          "wordCount": 778,
-          "title": "Note on 24th September 2026",
           "imageUrl": null
         }
       ]

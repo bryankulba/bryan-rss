@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-24T08:37:04.740Z</updated>
+    <updated>2026-10-24T15:21:38.690Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bunkering down]]></title>
+        <id>https://interconnected.org/home/2026/10/24/bunker</id>
+        <link href="https://interconnected.org/home/2026/10/24/bunker"/>
+        <updated>2026-10-24T12:28:00.000Z</updated>
+        <summary type="html"><![CDATA[I shut down my web servers on Thursday. I’ve had a home of my own on internet for 27 years. A good innings but a sad day.
+A home-owner no more! I’m renting now.
+Old websites have been archived to static HTML and moved to a shared host. I said goodbye to some old apps. You’re reading this because I moved my blog to GitHub Pages. Lost some functionality on the way, but security is now someone else’s problem.
+You know, I’ve hosted my own blog on my own iron since 2000 except for 6 weeks in 2004 when the hard drive was glitching and I had to go to the datacenter at midnight to pull it from the rack, then sit it on ice cubes to copy data off because the cold bought me 20 mins extra before it crashed again.
+We were writing Mind Hacks on some wiki software it was hosting, so I had to get it back.…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[battledrones v14: Compass Rose, a four player map]]></title>
+        <id>https://simonwillison.net/2026/Oct/24/battledrones/</id>
+        <link href="https://simonwillison.net/2026/Oct/24/battledrones/"/>
+        <updated>2026-10-24T03:59:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/battledrones/releases/tag/v14">battledrones v14: Compass Rose, a four player map</a></p>
+        <p>I added four player online mode to <a href="https://simonwillison.net/2026/Oct/20/battledrones/">Battledrones</a> - previous maps were limited to two.</p>
+<p>Here's the initial prompt I used: </p>
+<blockquote>
+<p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI)</code></p>
+</blockquote>
+<p>Claude Opus 4.5 added a new map called "Compass Rose" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes.</p>
+<p><img alt="The new map does indeed look a bit like a rose - it uses the cold and ice biome. Also shown are purple robots battling on the map." src="https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg" /></p>
+<p>The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in <a href="https://simonw.github.io/battledrones/models.html">the updated model browser</a>.</p>
+<p>Here's <a href="https://simonw.github.io/battledrones/v14/?replay=https://gist.githubusercontent.com/simonw/faa550a002b25a78f1c88a64217786c1/raw/4ff9b03de71d757cd33eb5d1a0e388155b6c20e5/compass.json">a replay link</a> to watch a four way AI battle with the "Goliath Armada" mutator turned on, where each side starts with four giant Goliath mech units.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/game-design">game-design</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/claude">claude</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quick Study]]></title>
         <id>https://simonwillison.net/2026/Oct/23/quick-study-painter/</id>
@@ -7412,78 +7448,6 @@ The post Gravity Seems Holographic. What Does That Mean for Reality? first appea
 Continue reading →]]></summary>
         <author>
             <name>admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Northern Gannet, Great Blue Heron, California Brown Pelican]]></title>
-        <id>https://simonwillison.net/2026/Sep/25/sighting-403293902/</id>
-        <link href="https://simonwillison.net/2026/Sep/25/sighting-403293902/"/>
-        <updated>2026-09-25T02:07:04.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://static.inaturalist.org/photos/740453177/large.jpg" alt="Northern Gannet"></p><p><img src="https://static.inaturalist.org/photos/740453341/large.jpg" alt="Great Blue Heron"></p><p><img src="https://static.inaturalist.org/photos/740454506/large.jpg" alt="California Brown Pelican"></p><p>Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA</p><p>New 200-800mm Canon EF lens got me my best photo of <a href="https://simonwillison.net/2026/Aug/15/sighting-391300422/">Morris</a> yet. They really like hanging out under that sign in the harbor!</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/photography">photography</a>, <a href="https://simonwillison.net/tags/wildlife">wildlife</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage...]]></title>
-        <id>https://kottke.org/26/09/0049680-what-if-we-just-stopped</id>
-        <link href="https://kottke.org/26/09/0049680-what-if-we-just-stopped"/>
-        <updated>2026-09-25T00:10:00.000Z</updated>
-        <summary type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Note on 24th September 2026]]></title>
-        <id>https://simonwillison.net/2026/Sep/24/harder/</id>
-        <link href="https://simonwillison.net/2026/Sep/24/harder/"/>
-        <updated>2026-09-24T23:31:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.</p>
-<p>We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage...]]></title>
-        <id>https://kottke.org/26/09/0049679-link</id>
-        <link href="https://kottke.org/26/09/0049679-link"/>
-        <updated>2026-09-24T22:41:00.000Z</updated>
-        <summary type="html"><![CDATA[What If We Just Stopped? “We’re in the Looney Tunes stage of the end of social, where we’ve glided well past the edge of the cliff and it’s slowing dawning on us that the only way left is down. Fast.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scans of City Textures]]></title>
-        <id>https://kottke.org/26/09/scans-of-city-textures</id>
-        <link href="https://kottke.org/26/09/scans-of-city-textures"/>
-        <updated>2026-09-24T21:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Using a handheld scanner, designer/illustrator Noah Nolet captures textures from surfaces in cities around the world, including Tokyo, LA, Paris, Kyoto, NYC, and Berlin. On his website, he offers city packs of hundreds of scans for sale and free sample packs as well. You can also check out how he captures the textures on Instagram and YouTube. This is a modern take on stone rubbing.
-
- 
-
-        
-         
-Tags: cities · design · Noah Nolet · photography]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Homer’s Catalogue of Ships from the Iliad. Where the...]]></title>
-        <id>https://kottke.org/26/09/0049646-catalogue-of-ships</id>
-        <link href="https://kottke.org/26/09/0049646-catalogue-of-ships"/>
-        <updated>2026-09-24T20:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Homer’s Catalogue of Ships from the Iliad. Where the Greek ships that set out for Troy were from and what they may have looked like. “No Homeric ship survives. What we have are pictures: a handful of painted sherds of the twelfth century BC…”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
