@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6add294f75afe100018d172d",
+          "author": "Patrick Tanguay",
+          "description": "No.422 — Bodies for AI ⊗ A surprising synthesis of well-known ideas ⊗ What We Choose Next ⊗ AI optimists in developing nations ⊗ The mangrove as a wall ⊗ How hunting owls use sound",
+          "link": "https://sentiers.media/six-gutenberg-revolutions-in-a-row-deskilling-the-body-no-422/",
+          "publishedOn": "2026-10-25T10:00:00.000Z",
+          "wordCount": 2868,
+          "title": "Six Gutenberg revolutions in a row ⊗ Deskilling the body",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Lion_Nebula_Roars_to_Life_With_NASAs_Webb-NASA_Science-w.jpg"
+        },
+        {
           "id": "6ad3ee8415caf2000110dd8b",
           "author": "Patrick Tanguay",
           "description": "No.421 — Designing amiable web spaces ⊗ Immersive futures ⊗ On work and AI in 2027 ⊗ Public libraries “adding bedrooms” ⊗ Bleached corals thrive within days",
@@ -260,6 +270,16 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/10/0049869-the-tiny-computers-app-le",
+          "author": null,
+          "description": "The Tiny Computers app lets you play with old computers on the iPhone Duo. Ten machines included: “Macintosh, Commodore 64, IBM PC, Amiga 500, Windows 95, ThinkPad, iMac G3, iBook G3, PowerBook G4 and Windows XP.” XP even crashes sometimes. Love this.",
+          "link": "https://kottke.org/26/10/0049869-the-tiny-computers-app-le",
+          "publishedOn": "2026-10-25T14:11:00.000Z",
+          "wordCount": 754,
+          "title": "The Tiny Computers app lets you play with old computers...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/10/0049855-the-one-question-i-cant-s",
           "author": null,
@@ -1949,16 +1969,6 @@
           "wordCount": 723,
           "title": "Whoa, for the 50th anniversary of Songs in the Key of...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049685-chop-that-book-up-into-re",
-          "author": null,
-          "description": "What do you you do when the book you’re reading is too large to carry around? “I would like to recommend you to a practice I call Chop That Book Up Into Reasonable Sizes.”",
-          "link": "https://kottke.org/26/09/0049685-chop-that-book-up-into-re",
-          "publishedOn": "2026-09-25T21:29:00.000Z",
-          "wordCount": 858,
-          "title": "What do you you do when the book you’re reading is too...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2338,6 +2348,16 @@
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
         {
+          "id": "https://warrenellis.ltd/?p=19180",
+          "author": "Warren Ellis",
+          "description": "Clocks went back and I didn’t notice. But mancub did. So I got beaten until I climbed out of bed to feed the little bastard.…",
+          "link": "https://warrenellis.ltd/status/25oct26/",
+          "publishedOn": "2026-10-25T12:02:54.000Z",
+          "wordCount": 1522,
+          "title": "25oct26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/Screenshot-2026-10-23-103751.png"
+        },
+        {
           "id": "https://warrenellis.ltd/?p=19161",
           "author": "Warren Ellis",
           "description": "READING: THE ROUSE, China Mieville (UK) (US+)LISTENING: DRINK: Autumn being here means I made a cherry Negroni for herself and a Godfather with orange and…",
@@ -2641,6 +2661,22 @@
       "feedUrl": "https://www.blackbirdspyplane.com/feed",
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
+        {
+          "id": "https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary",
+          "author": "Blackbird Spyplane",
+          "description": "Sauce journals, the sweatshirt that thinks it’s a cardigan, how to style scarves, a banger new collection out of NYC & more",
+          "link": "https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary",
+          "publishedOn": "2026-10-25T13:02:51.000Z",
+          "wordCount": null,
+          "title": "The secrets hiding in your diary",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!XSO_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dad55b7-260c-4ddb-a712-6b021962dd08_1470x1103.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!XSO_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dad55b7-260c-4ddb-a712-6b021962dd08_1470x1103.png"
+        },
         {
           "id": "https://www.blackbirdspyplane.com/p/fall-clothes-frontlines",
           "author": "Blackbird Spyplane",
