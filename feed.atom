@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-26T03:07:50.904Z</updated>
+    <updated>2026-10-26T09:40:10.991Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Name that Ware, October 2026]]></title>
+        <id>https://www.bunniestudios.com/blog/?p=7629</id>
+        <link href="https://www.bunniestudios.com/blog/2026/name-that-ware-october-2026/"/>
+        <updated>2026-10-26T08:02:21.000Z</updated>
+        <summary type="html"><![CDATA[The Ware for October 2026 is shown below: Another contribution from FETguy and Renew Computers! I found this board to be interesting mainly because I always wondered how these things worked. The construction reveals a trick which ended up as a surprise, at least to me! A couple of administrative notes – I am counting […]]]></summary>
+        <author>
+            <name>bunnie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Winner, Name that Ware September 2026]]></title>
+        <id>https://www.bunniestudios.com/blog/?p=7627</id>
+        <link href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-september-2026/"/>
+        <updated>2026-10-26T08:01:27.000Z</updated>
+        <summary type="html"><![CDATA[The Ware for September 2026 is a tire pressure monitor from a late 80’s to early 90’s model Porsche, made by Bosch. According to the submitter: Kind of a crazy piece of hardware for the late 80’s – this would be pretty cutting edge for the time. Nobody quite got what the part was – […]]]></summary>
+        <author>
+            <name>bunnie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seam Cutter]]></title>
+        <id>https://simonwillison.net/2026/Oct/25/seam-cutter/</id>
+        <link href="https://simonwillison.net/2026/Oct/25/seam-cutter/"/>
+        <updated>2026-10-25T15:10:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/seam-cutter">Seam Cutter</a></p>
+        <p>I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.</p>
+<p>I wanted this because I often use <a href="https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095">Tailor</a> on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Tiny Computers app lets you play with old computers...]]></title>
         <id>https://kottke.org/26/10/0049869-the-tiny-computers-app-le</id>
@@ -7308,16 +7343,6 @@ reached a recovery-era high of 325 birds.
         <p>Tags: <a href="https://simonwillison.net/tags/animation">animation</a>, <a href="https://simonwillison.net/tags/speaking">speaking</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/kakapo">kakapo</a>, <a href="https://simonwillison.net/tags/playwright">playwright</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://warrenellis.ltd/photos/19010/</id>
-        <link href="https://warrenellis.ltd/photos/19010/"/>
-        <updated>2026-09-26T18:16:04.000Z</updated>
-        <summary type="html"><![CDATA[Visit the post for more.]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>

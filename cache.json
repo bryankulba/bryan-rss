@@ -2516,16 +2516,6 @@
           "wordCount": 1328,
           "title": "27sep26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2261-scaled-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/photos/19010/",
-          "author": "Warren Ellis",
-          "description": "Visit the post for more.",
-          "link": "https://warrenellis.ltd/photos/19010/",
-          "publishedOn": "2026-09-26T18:16:04.000Z",
-          "wordCount": 1157,
-          "title": "Untitled",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/img_2260-1200x900.jpg"
         }
       ]
     },
@@ -3060,6 +3050,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+          "author": null,
+          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/seam-cutter\">Seam Cutter</a></p>\n        <p>I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.</p>\n<p>I wanted this because I often use <a href=\"https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095\">Tailor</a> on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+          "publishedOn": "2026-10-25T15:10:19.000Z",
+          "wordCount": 818,
+          "title": "Seam Cutter",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/24/battledrones/",
           "author": null,
@@ -3807,6 +3807,26 @@
       "feedUrl": "https://www.bunniestudios.com/blog/?feed=rss2",
       "siteUrl": "https://www.bunniestudios.com/blog",
       "articles": [
+        {
+          "id": "https://www.bunniestudios.com/blog/?p=7629",
+          "author": "bunnie",
+          "description": "The Ware for October 2026 is shown below: Another contribution from FETguy and Renew Computers! I found this board to be interesting mainly because I always wondered how these things worked. The construction reveals a trick which ended up as a surprise, at least to me! A couple of administrative notes – I am counting […]",
+          "link": "https://www.bunniestudios.com/blog/2026/name-that-ware-october-2026/",
+          "publishedOn": "2026-10-26T08:02:21.000Z",
+          "wordCount": 1306,
+          "title": "Name that Ware, October 2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.bunniestudios.com/blog/?p=7627",
+          "author": "bunnie",
+          "description": "The Ware for September 2026 is a tire pressure monitor from a late 80’s to early 90’s model Porsche, made by Bosch. According to the submitter: Kind of a crazy piece of hardware for the late 80’s – this would be pretty cutting edge for the time. Nobody quite got what the part was – […]",
+          "link": "https://www.bunniestudios.com/blog/2026/winner-name-that-ware-september-2026/",
+          "publishedOn": "2026-10-26T08:01:27.000Z",
+          "wordCount": 1170,
+          "title": "Winner, Name that Ware September 2026",
+          "imageUrl": null
+        },
         {
           "id": "https://www.bunniestudios.com/blog/?p=7620",
           "author": "bunnie",
