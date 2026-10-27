@@ -2265,6 +2265,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=13444",
+          "author": "Cory Doctorow",
+          "description": "Today's links History is something you do: Not something that happens to you. Hey look at this: Delights to delectate. Object permanence: Occupy Tents are speech; Piagram; SOPA; \"I'm Rob Fucking Ford\"; Blocking all porn in the UK; Pirates rule Iceland; Shake Shack v shitting to death. Upcoming appearances: Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. History is something you do (permalink) Prediction is hard. Especially about the future. That Yogi Berra gem proves that you don't have to be a science fiction writer to get irritated with people insisting that you must know what's goi…",
+          "link": "https://pluralistic.net/2026/10/27/tied-to-the-tracks/",
+          "publishedOn": "2026-10-27T09:08:25.000Z",
+          "wordCount": 3909,
+          "title": "Pluralistic: History is something you do (27 Oct 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=13437",
           "author": "Cory Doctorow",
           "description": "Today's links Sovereign citizens, but for news: By reading the LA Times, you agree… Hey look at this: Delights to delectate. Object permanence: Patenting tax dodges; 6-word sf; Newscorp shareholders v Murdoch; Ancient German ophthalmology cult; Trolley problem is stupid; Trump's influence peddling to Chinese millionaire; Al Franken v binding arbitration; Yoga pants spite parade; Dems' secret Congressional committee; RIAA v your PC; \"Going Under\"; \"Machine Man\"; Aging goths; \"Everfair\"; Kremlin will destabilize Ukraine; FCC fronts for Big Cable; Straight Outta Vagina; Remixed TED Talk about remixing; Authoritarian debt. Upcoming appearances: Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readi…",
@@ -2467,6 +2477,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19196",
+          "author": "Warren Ellis",
+          "description": "the horrisonant forest THE ROUSE, China Mieville (UK) (US+) Mieville has always had an eccentric vocabulary. I had to look this one up. Borrowed from…",
+          "link": "https://warrenellis.ltd/mc/morning-computer-horrisonant/",
+          "publishedOn": "2026-10-27T09:00:00.000Z",
+          "wordCount": 1304,
+          "title": "morning computer horrisonant",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/compendium.jpeg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19190",
           "author": "Warren Ellis",
@@ -3912,16 +3932,6 @@
           "publishedOn": "2026-09-27T23:09:19.000Z",
           "wordCount": 796,
           "title": "S3 Is the Future, S3 Is the Past",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-          "author": null,
-          "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p>\n        <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p>\n<p>They've started manifesting on Bluesky as well.</p>\n<p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating.</p>\n<p>So I had Opus 5.5 <a href=\"https://github.com/simonw/tools/pull/348\">vibe code this tool</a>, which examines any Bluesky profile for evidence of a likely reply bot.</p>\n<p>It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users.</p>\n<p>It also looks for question marks, because I'm <em>extra</em> infuriated by reply bots that I no tie me to waste my time answering a question that no human ever posed.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/twitter\">twitter</a>, <a href=\"https://simonwillison.net/tags/bluesky\">bluesky</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-          "publishedOn": "2026-09-27T18:41:44.000Z",
-          "wordCount": 902,
-          "title": "Bluesky reply bot checker",
           "imageUrl": null
         }
       ]
