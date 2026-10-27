@@ -2,10 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-27T17:26:16.966Z</updated>
+    <updated>2026-10-27T23:28:15.449Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Have We Confused Having Good Taste With Being Creative?]]></title>
+        <id>https://kottke.org/26/10/have-we-confused-having-good-taste-with-being-creative</id>
+        <link href="https://kottke.org/26/10/have-we-confused-having-good-taste-with-being-creative"/>
+        <updated>2026-10-27T22:47:00.000Z</updated>
+        <summary type="html"><![CDATA[From 713 Magazine on Instagram:
+In a world where cultural knowledge has become its own form of social currency, knowing the right designers, listening to the right music, and recognizing the right references can make someone appear just as creative as the people actually producing the work.
+We’ve reached a point where an entire identity can be built around what someone consumes, collects, wears, and shares. And while developing good taste requires curiosity, knowledge, and an understanding of culture, recognizing something exceptional isn’t necessarily the same as creating something exceptional.
+This doesn’t mean curation lacks creative value. Some of the most influential figures in fashion, art, and music have shaped culture through their ability to recognize talent, connect ideas, and introduce people to things they otherwise might never have discovered.
+But there’s a difference between being influenced by something and simply reproducing its appearance. Creativity requires more than understanding what has already been accepted. It often means taking risks, developing an independent perspective, and making something that people might not immediately understand.
+
+	
+One of the slides puts it more succinctly:
+We live in a time where curation can look like creation. A person can build an entire identity out of taste alone — what they wear, what they repost, what they collect, what they reference — and still never actually make anything that moves culture forward.
+
+ 
+
+        
+         
+Tags: art · creativity]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Local Wikipedia is Wikipedia, but only for things a half...]]></title>
+        <id>https://kottke.org/26/10/0049859-local-wikipedia</id>
+        <link href="https://kottke.org/26/10/0049859-local-wikipedia"/>
+        <updated>2026-10-27T20:41:00.000Z</updated>
+        <summary type="html"><![CDATA[“Local Wikipedia is Wikipedia, but only for things a half hour walk from you.” There is also Walkipedia.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[John Oliver on the Republican Party and the Far Right...]]></title>
+        <id>https://kottke.org/26/10/0049873-john-oliver-on-the-republ</id>
+        <link href="https://kottke.org/26/10/0049873-john-oliver-on-the-republ"/>
+        <updated>2026-10-27T19:49:00.000Z</updated>
+        <summary type="html"><![CDATA[John Oliver on the Republican Party and the Far Right (redundant).]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Boy Color on My Conference Badge]]></title>
+        <id>https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/</id>
+        <link href="https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"/>
+        <updated>2026-10-27T19:34:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://spf13.com/p/game-boy-color-on-my-conference-badge/">Game Boy Color on My Conference Badge</a></strong></p>
+I'm at GitHub Universe this week and, <a href="https://simonwillison.net/2025/Oct/28/github-universe-badge/">similar to last year</a>, the conference badge is a full-blown color screen computer.</p>
+<p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href="https://spf13.com/p/zelda-on-my-conference-badge/">full NES emulator</a> working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color.</p>
+<p>Which means, if you can obtain the ROM, you can run <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening">The Legend of Zelda: Link's Awakening</a> on your conference badge!</p>
+<p><img alt="Photo of the badge running Zelda, in full color, with visible touch buttons below the screen." src="https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg" /></p>
+<p>A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/games">games</a>, <a href="https://simonwillison.net/tags/github">github</a>, <a href="https://simonwillison.net/tags/hardware-hacking">hardware-hacking</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/steve-francia">steve-francia</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Once Upon a Time in Harlem]]></title>
+        <id>https://kottke.org/26/10/once-upon-a-time-in-harlem</id>
+        <link href="https://kottke.org/26/10/once-upon-a-time-in-harlem"/>
+        <updated>2026-10-27T18:37:00.000Z</updated>
+        <summary type="html"><![CDATA[The Harlem Renaissance was a cultural and intellectual movement of African-American artists in the 1920s and 30s. In 1972, filmmaker William Greaves threw a party in Duke Ellington’s apartment for some surviving members of the movement and recorded the whole thing. The footage sat unused for 50 years until Greaves’ son David picked up the project. The result is the documentary film, Once Upon a Time in Harlem; here’s the trailer.
+A decade after his death, genre-defying filmmaker William Greaves has one last trick up his sleeve with what he considered the most important event he captured on film: a 1972 party he engineered with the living luminaries of the Harlem Renaissance.
+For four hours, this extraordinary group – many of whom had not seen each other in fifty years – reminisced, critiqued, argued, laughed and drank while wrestling with their place in a rapidly shifting cultural landscape.
+Shot on 16mm film, newly restored and now directed by Greaves’ son David, this landmark film is at once a self-exploration and an inquiry into the heart of the critical mass of energy called the Harlem Renaissance.
+William Greaves’ intent was not only to document these artists and intellectuals as they spoke about their lives and work but also to plumb the meaning of the extraordinary creative period in which they lived to help us better understand how culture has been passed on from one generation to another and the role that the artist plays in keeping it alive.
+
+	
+It looks fantastic. Once Upon a Time in Harlem currently has a 100% rating (67 reviews) on Rotten Tomatoes.
+
+ 
+
+        
+         
+Tags: art · Harlem Renaissance · movies · Once Upon a Time in Harlem · trailers · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Music’s 404 page features a fully functional iPod...]]></title>
+        <id>https://kottke.org/26/10/0049874-apple-musics-404-page</id>
+        <link href="https://kottke.org/26/10/0049874-apple-musics-404-page"/>
+        <updated>2026-10-27T17:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple Music’s 404 page features a fully functional iPod simulator.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Short video teasing an new collab between Daft Punk and...]]></title>
         <id>https://kottke.org/26/10/0049875-short-video-teasing-an-ne</id>
@@ -6691,16 +6786,6 @@ The post Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture fir
         <summary type="html"><![CDATA[First day of reset. Index cards, paper, pens. The deli was randomly closed – fuck you, Dan – so I stopped in at the Pipe…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[28SEP26 / accessions]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12394</id>
-        <link href="https://www.velcro-city.co.uk/28sep26-accessions/"/>
-        <updated>2026-09-28T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Matt Hill, Mary Shelley, end-of-history vibes.]]></summary>
-        <author>
-            <name>PGR</name>
         </author>
     </entry>
     <entry>

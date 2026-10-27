@@ -261,6 +261,56 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/10/have-we-confused-having-good-taste-with-being-creative",
+          "author": null,
+          "description": "From 713 Magazine on Instagram:\nIn a world where cultural knowledge has become its own form of social currency, knowing the right designers, listening to the right music, and recognizing the right references can make someone appear just as creative as the people actually producing the work.\nWe’ve reached a point where an entire identity can be built around what someone consumes, collects, wears, and shares. And while developing good taste requires curiosity, knowledge, and an understanding of culture, recognizing something exceptional isn’t necessarily the same as creating something exceptional.\nThis doesn’t mean curation lacks creative value. Some of the most influential figures in fashion, art, and music have shaped culture through their ability to recognize talent, connect ideas, and introduce people to things they otherwise might never have discovered.\nBut there’s a difference between being influenced by something and simply reproducing its appearance. Creativity requires more than understanding what has already been accepted. It often means taking risks, developing an independent perspective, and making something that people might not immediately understand.\n\n\t\nOne of the slides puts it more succinctly:\nWe live in a time where curation can look like creation. A person can build an entire identity out of taste alone — what they wear, what they repost, what they collect, what they reference — and still never actually make anything that moves culture forward.\n\n \n\n        \n         \nTags: art · creativity",
+          "link": "https://kottke.org/26/10/have-we-confused-having-good-taste-with-being-creative",
+          "publishedOn": "2026-10-27T22:47:00.000Z",
+          "wordCount": 851,
+          "title": "Have We Confused Having Good Taste With Being Creative?",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1793099033-198e5c8e.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049859-local-wikipedia",
+          "author": null,
+          "description": "“Local Wikipedia is Wikipedia, but only for things a half hour walk from you.” There is also Walkipedia.",
+          "link": "https://kottke.org/26/10/0049859-local-wikipedia",
+          "publishedOn": "2026-10-27T20:41:00.000Z",
+          "wordCount": 653,
+          "title": "“Local Wikipedia is Wikipedia, but only for things a half...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049873-john-oliver-on-the-republ",
+          "author": null,
+          "description": "John Oliver on the Republican Party and the Far Right (redundant).",
+          "link": "https://kottke.org/26/10/0049873-john-oliver-on-the-republ",
+          "publishedOn": "2026-10-27T19:49:00.000Z",
+          "wordCount": 563,
+          "title": "John Oliver on the Republican Party and the Far Right...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/once-upon-a-time-in-harlem",
+          "author": null,
+          "description": "The Harlem Renaissance was a cultural and intellectual movement of African-American artists in the 1920s and 30s. In 1972, filmmaker William Greaves threw a party in Duke Ellington’s apartment for some surviving members of the movement and recorded the whole thing. The footage sat unused for 50 years until Greaves’ son David picked up the project. The result is the documentary film, Once Upon a Time in Harlem; here’s the trailer.\nA decade after his death, genre-defying filmmaker William Greaves has one last trick up his sleeve with what he considered the most important event he captured on film: a 1972 party he engineered with the living luminaries of the Harlem Renaissance.\nFor four hours, this extraordinary group – many of whom had not seen each other in fifty years – reminisced, critiqued, argued, laughed and drank while wrestling with their place in a rapidly shifting cultural landscape.\nShot on 16mm film, newly restored and now directed by Greaves’ son David, this landmark film is at once a self-exploration and an inquiry into the heart of the critical mass of energy called the Harlem Renaissance.\nWilliam Greaves’ intent was not only to document these artists and intellectuals as they spoke about their lives and work but also to plumb the meaning of the extraordinary creative period in which they lived to help us better understand how culture has been passed on from one generation to another and the role that the artist plays in keeping it alive.\n\n\t\nIt looks fantastic. Once Upon a Time in Harlem currently has a 100% rating (67 reviews) on Rotten Tomatoes.\n\n \n\n        \n         \nTags: art · Harlem Renaissance · movies · Once Upon a Time in Harlem · trailers · video",
+          "link": "https://kottke.org/26/10/once-upon-a-time-in-harlem",
+          "publishedOn": "2026-10-27T18:37:00.000Z",
+          "wordCount": 1067,
+          "title": "Once Upon a Time in Harlem",
+          "imageUrl": "https://i.ytimg.com/vi/ESnX3LQbCVI/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/10/0049874-apple-musics-404-page",
+          "author": null,
+          "description": "Apple Music’s 404 page features a fully functional iPod simulator.",
+          "link": "https://kottke.org/26/10/0049874-apple-musics-404-page",
+          "publishedOn": "2026-10-27T17:46:00.000Z",
+          "wordCount": 782,
+          "title": "Apple Music’s 404 page features a fully functional iPod...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/10/0049875-short-video-teasing-an-ne",
           "author": null,
           "description": "Short video teasing an new collab between Daft Punk and Lego, including a forthcoming Lego set based on this fan-submitted entry.",
@@ -3261,6 +3311,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">Game Boy Color on My Conference Badge</a></strong></p>\nI'm at GitHub Universe this week and, <a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">similar to last year</a>, the conference badge is a full-blown color screen computer.</p>\n<p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href=\"https://spf13.com/p/zelda-on-my-conference-badge/\">full NES emulator</a> working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color.</p>\n<p>Which means, if you can obtain the ROM, you can run <a href=\"https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening\">The Legend of Zelda: Link's Awakening</a> on your conference badge!</p>\n<p><img alt=\"Photo of the badge running Zelda, in full color, with visible touch buttons below the screen.\" src=\"https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg\" /></p>\n<p>A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/games\">games</a>, <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/hardware-hacking\">hardware-hacking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/steve-francia\">steve-francia</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+          "publishedOn": "2026-10-27T19:34:18.000Z",
+          "wordCount": 871,
+          "title": "Game Boy Color on My Conference Badge",
+          "imageUrl": "https://static.simonwillison.net/static/2026/zelda-card.jpg"
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
           "author": null,
           "description": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">GPT-6.1 Terra</a></strong></p>\nIt's always interesting to note which aspects of a new model are emphasized in the release announcement.</p>\n<p>In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:</p>\n<blockquote>\n<p>We’re introducing <strong>GPT-6.1 Terra</strong>, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.</p>\n</blockquote>\n<p>Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it.</p>\n<p>Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks.</p>\n<p>OpenAI's Ted Sanders provided some useful advice in <a href=\"https://news.ycombinator.com/item?id=50248124#50249160\">a comment</a> on Hacker News:</p>\n<blockquote>\n<p>In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things. For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication). For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.</p>\n</blockquote>\n<p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e\">the pelicans</a> for the different reasoning levels. This pelican <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e#reasoning-2\">for \"max\"</a> cost <a href=\"https://www.llm-prices.com/#it=16&amp;ot=22629&amp;sel=gpt-6.1-terra\">11.3161 cents</a> and took 4 minutes and 11 seconds:</p>\n<p><img alt=\"It's a good pelican and a good bicycle - correctly shaped frame, feet n pedals either side of the frame, has the same color scheme as the others in the GPT-6 and GPT-6.1 families.\" src=\"https://static.simonwillison.net/static/2026-10-26/terra-max.webp\" /></p>\n<p>Here's <a href=\"https://static.simonwillison.net/static/2026/openai-pelicans-october-2026.html\">a new comparison grid</a> showing pelicans for every reasoning level of OpenAI's current frontier lineup: GPT-6 Astra, GPT-6.1 Sol, GPT-6.1 Terra, and GPT-6 Luna.</p>\n<p>GPT-6.1 Terra is priced at $1/million input tokens and $5/million output - almost half the price of GPT-5.6 Terra and GPT-6.1 Sol, and around 10x the price of GPT-6 Luna.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50248124\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
@@ -4316,16 +4376,6 @@
           "publishedOn": "2026-10-07T09:30:00.000Z",
           "wordCount": 5569,
           "title": "womanthology",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12394",
-          "author": "PGR",
-          "description": "Matt Hill, Mary Shelley, end-of-history vibes.",
-          "link": "https://www.velcro-city.co.uk/28sep26-accessions/",
-          "publishedOn": "2026-09-28T09:30:00.000Z",
-          "wordCount": 2658,
-          "title": "28SEP26 / accessions",
           "imageUrl": null
         }
       ]
