@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-26T23:33:43.034Z</updated>
+    <updated>2026-10-27T03:38:37.532Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Harry Kane is this year’s men’s winner of the Ballon...]]></title>
+        <id>https://kottke.org/26/10/0049872-harry-kane-is-this-years-</id>
+        <link href="https://kottke.org/26/10/0049872-harry-kane-is-this-years-"/>
+        <updated>2026-10-27T00:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Harry Kane is this year’s men’s winner of the Ballon d’Or. 100% the right choice — he had the best season of anyone. Like, almost ever.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-6.1 Terra]]></title>
+        <id>https://simonwillison.net/2026/Oct/26/gpt-61-terra/</id>
+        <link href="https://simonwillison.net/2026/Oct/26/gpt-61-terra/"/>
+        <updated>2026-10-26T23:53:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://openai.com/index/introducing-gpt-6-1-terra/">GPT-6.1 Terra</a></strong></p>
+It's always interesting to note which aspects of a new model are emphasized in the release announcement.</p>
+<p>In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:</p>
+<blockquote>
+<p>We’re introducing <strong>GPT-6.1 Terra</strong>, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.</p>
+</blockquote>
+<p>Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it.</p>
+<p>Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks.</p>
+<p>OpenAI's Ted Sanders provided some useful advice in <a href="https://news.ycombinator.com/item?id=50248124#50249160">a comment</a> on Hacker News:</p>
+<blockquote>
+<p>In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things. For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication). For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.</p>
+</blockquote>
+<p>Here are <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e">the pelicans</a> for the different reasoning levels. This pelican <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e#reasoning-2">for "max"</a> cost <a href="https://www.llm-prices.com/#it=16&amp;ot=22629&amp;sel=gpt-6.1-terra">11.3161 cents</a> and took 4 minutes and 11 seconds:</p>
+<p><img alt="It's a good pelican and a good bicycle - correctly shaped frame, feet n pedals either side of the frame, has the same color scheme as the others in the GPT-6 and GPT-6.1 families." src="https://static.simonwillison.net/static/2026-10-26/terra-max.webp" /></p>
+<p>Here's <a href="https://static.simonwillison.net/static/2026/openai-pelicans-october-2026.html">a new comparison grid</a> showing pelicans for every reasoning level of OpenAI's current frontier lineup: GPT-6 Astra, GPT-6.1 Sol, GPT-6.1 Terra, and GPT-6 Luna.</p>
+<p>GPT-6.1 Terra is priced at $1/million input tokens and $5/million output - almost half the price of GPT-5.6 Terra and GPT-6.1 Sol, and around 10x the price of GPT-6 Luna.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50248124">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/gpt">gpt</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A poignant short documentary about a mother who only...]]></title>
         <id>https://kottke.org/26/10/0049870-a-poignant-short-document</id>
@@ -126,6 +166,26 @@ Tags: cars · Mars · NASA · perseverance · space · video]]></summary>
         <summary type="html"><![CDATA[Simon Willison: “Battle Drones is heavily vibe coded — I’ve reviewed almost none of the code, and it’s built in a language (TypeScript) that I’ve hardly used myself.” There’s a French steampunk version too.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[webframe: evaluated as a scraper and a sandbox]]></title>
+        <id>https://simonwillison.net/2026/Oct/26/webframe-evaluation/</id>
+        <link href="https://simonwillison.net/2026/Oct/26/webframe-evaluation/"/>
+        <updated>2026-10-26T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Research:</strong> <a href="https://github.com/simonw/research/tree/main/webframe-evaluation#readme">webframe: evaluated as a scraper and a sandbox</a></p>
+        <p><a href="https://github.com/tractordev/webframe">webframe</a> is a neat little project from Jeff Lindsay which lets you "run a web page like a program" - you point it at a URL or file and it executes it in a hidden headless web view and outputs <code>console.log()</code> to standard output and any exceptions to standard error.</p>
+<p>It's written in Go on top of the <a href="https://github.com/crgimenes/glaze">glaze</a> library, which provides access to a system browser ("WKWebView on macOS, WebKitGTK on Linux, WebView2 on Windows") so it doesn't need to bundle its own browser engine.</p>
+<p>It reminds me of my own <a href="https://shot-scraper.datasette.io/en/stable/javascript.html">shot-scraper javascript</a> tool, albeit in a much smaller package that doesn't depend on Playwright.</p>
+<p>I had Claude Opus 5.5 <a href="https://claude.ai/code/cshk_01MX3aJH8vDGmGSj1xH9BYhj2HviVvLDaJbiELHyDoReYT">put it through its paces</a> and prepare a research report for me. Here's the prompt I used:</p>
+<blockquote>
+<p><code>Explore https://github.com/tractordev/webframe try running it and put it though its paces, build a few exploratory prototypes, then evaluate it as a potential sandboxing tool and as a tool for scraping web pages using the same patterns encouraged by the "shot-scraper JavaScript" command (see simonw/shot-scraper on GitHub, docs directory)</code></p>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/go">go</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/jeff-lindsay">jeff-lindsay</a>, <a href="https://simonwillison.net/tags/shot-scraper">shot-scraper</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -7422,26 +7482,6 @@ reached a recovery-era high of 325 birds.
         <p>Tags: <a href="https://simonwillison.net/tags/twitter">twitter</a>, <a href="https://simonwillison.net/tags/bluesky">bluesky</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Upper-class semaphore]]></title>
-        <id>https://www.blackbirdspyplane.com/p/upper-class-semaphore</id>
-        <link href="https://www.blackbirdspyplane.com/p/upper-class-semaphore"/>
-        <updated>2026-09-27T13:01:45.000Z</updated>
-        <summary type="html"><![CDATA[Plus a cult jewelry maker, stripes go askew, the anxiety of getting dressed “up” & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[27sep26]]></title>
-        <id>https://warrenellis.ltd/?p=19011</id>
-        <link href="https://warrenellis.ltd/status/27sep26/"/>
-        <updated>2026-09-27T11:39:28.000Z</updated>
-        <summary type="html"><![CDATA[Terrible day yesterday: ill and brain-fogged and too much to do. Missed the gig at the Jazz Centre I had tickets for. But I did…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>

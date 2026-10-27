@@ -251,6 +251,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/10/0049872-harry-kane-is-this-years-",
+          "author": null,
+          "description": "Harry Kane is this year’s men’s winner of the Ballon d’Or. 100% the right choice — he had the best season of anyone. Like, almost ever.",
+          "link": "https://kottke.org/26/10/0049872-harry-kane-is-this-years-",
+          "publishedOn": "2026-10-27T00:25:00.000Z",
+          "wordCount": 696,
+          "title": "Harry Kane is this year’s men’s winner of the Ballon...",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/10/0049870-a-poignant-short-document",
           "author": null,
           "description": "A poignant short documentary about a mother who only knows her son is alive by the new graffiti tags he leaves around town. Eventually, she started tagging back…",
@@ -2636,16 +2646,6 @@
           "wordCount": 1397,
           "title": "28sep26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2271-scaled-1.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=19011",
-          "author": "Warren Ellis",
-          "description": "Terrible day yesterday: ill and brain-fogged and too much to do. Missed the gig at the Jazz Centre I had tickets for. But I did…",
-          "link": "https://warrenellis.ltd/status/27sep26/",
-          "publishedOn": "2026-09-27T11:39:28.000Z",
-          "wordCount": 1328,
-          "title": "27sep26",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/09/IMG_2261-scaled-1.jpg"
         }
       ]
     },
@@ -2920,22 +2920,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!2yHO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3102fdc-f088-4333-8ab1-d6e05c58f8dc_1940x2610.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/upper-class-semaphore",
-          "author": "Blackbird Spyplane",
-          "description": "Plus a cult jewelry maker, stripes go askew, the anxiety of getting dressed “up” & more",
-          "link": "https://www.blackbirdspyplane.com/p/upper-class-semaphore",
-          "publishedOn": "2026-09-27T13:01:45.000Z",
-          "wordCount": null,
-          "title": "Upper-class semaphore",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!kIWN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff48a53dc-c963-42b3-b7f5-12b00e32ab4e_1770x1970.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!kIWN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff48a53dc-c963-42b3-b7f5-12b00e32ab4e_1770x1970.png"
         }
       ]
     },
@@ -3171,6 +3155,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">GPT-6.1 Terra</a></strong></p>\nIt's always interesting to note which aspects of a new model are emphasized in the release announcement.</p>\n<p>In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:</p>\n<blockquote>\n<p>We’re introducing <strong>GPT-6.1 Terra</strong>, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.</p>\n</blockquote>\n<p>Terra sits in the same position as Sonnet in the Anthropic model collection - not the cheapest or the most expensive, making it harder to decide when to use it.</p>\n<p>Computer use is a good example of a task that benefits from a less expensive model, since you might put it to work on automated, repetitive tasks.</p>\n<p>OpenAI's Ted Sanders provided some useful advice in <a href=\"https://news.ycombinator.com/item?id=50248124#50249160\">a comment</a> on Hacker News:</p>\n<blockquote>\n<p>In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things. For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication). For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.</p>\n</blockquote>\n<p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e\">the pelicans</a> for the different reasoning levels. This pelican <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F855d951d12c68eccca5374cd7d4f834e#reasoning-2\">for \"max\"</a> cost <a href=\"https://www.llm-prices.com/#it=16&amp;ot=22629&amp;sel=gpt-6.1-terra\">11.3161 cents</a> and took 4 minutes and 11 seconds:</p>\n<p><img alt=\"It's a good pelican and a good bicycle - correctly shaped frame, feet n pedals either side of the frame, has the same color scheme as the others in the GPT-6 and GPT-6.1 families.\" src=\"https://static.simonwillison.net/static/2026-10-26/terra-max.webp\" /></p>\n<p>Here's <a href=\"https://static.simonwillison.net/static/2026/openai-pelicans-october-2026.html\">a new comparison grid</a> showing pelicans for every reasoning level of OpenAI's current frontier lineup: GPT-6 Astra, GPT-6.1 Sol, GPT-6.1 Terra, and GPT-6 Luna.</p>\n<p>GPT-6.1 Terra is priced at $1/million input tokens and $5/million output - almost half the price of GPT-5.6 Terra and GPT-6.1 Sol, and around 10x the price of GPT-6 Luna.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50248124\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+          "publishedOn": "2026-10-26T23:53:07.000Z",
+          "wordCount": 1083,
+          "title": "GPT-6.1 Terra",
+          "imageUrl": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp"
+        },
+        {
           "id": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
           "author": null,
           "description": "<blockquote cite=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\"><p>Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\">Jason Koebler</a>, ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jason-koebler\">jason-koebler</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/404-media\">404-media</a></p>",
@@ -3178,6 +3172,16 @@
           "publishedOn": "2026-10-26T19:00:25.000Z",
           "wordCount": 791,
           "title": "Quoting Jason Koebler",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+          "author": null,
+          "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/webframe-evaluation#readme\">webframe: evaluated as a scraper and a sandbox</a></p>\n        <p><a href=\"https://github.com/tractordev/webframe\">webframe</a> is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs <code>console.log()</code> to standard output and any exceptions to standard error.</p>\n<p>It's written in Go on top of the <a href=\"https://github.com/crgimenes/glaze\">glaze</a> library, which provides access to a system browser (\"WKWebView on macOS, WebKitGTK on Linux, WebView2 on Windows\") so it doesn't need to bundle its own browser engine.</p>\n<p>It reminds me of my own <a href=\"https://shot-scraper.datasette.io/en/stable/javascript.html\">shot-scraper javascript</a> tool, albeit in a much smaller package that doesn't depend on Playwright.</p>\n<p>I had Claude Opus 5.5 <a href=\"https://claude.ai/code/cshk_01MX3aJH8vDGmGSj1xH9BYhj2HviVvLDaJbiELHyDoReYT\">put it through its paces</a> and prepare a research report for me. Here's the prompt I used:</p>\n<blockquote>\n<p><code>Explore https://github.com/tractordev/webframe try running it and put it though its paces, build a few exploratory prototypes, then evaluate it as a potential sandboxing tool and as a tool for scraping web pages using the same patterns encouraged by the \"shot-scraper JavaScript\" command (see simonw/shot-scraper on GitHub, docs directory)</code></p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/jeff-lindsay\">jeff-lindsay</a>, <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+          "publishedOn": "2026-10-26T16:15:00.000Z",
+          "wordCount": 966,
+          "title": "webframe: evaluated as a scraper and a sandbox",
           "imageUrl": null
         },
         {
