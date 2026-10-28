@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-28T03:55:03.848Z</updated>
+    <updated>2026-10-28T10:20:07.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Terk Terkowitz]]></title>
+        <id>https://simonwillison.net/2026/Oct/28/terk-terkowitz/</id>
+        <link href="https://simonwillison.net/2026/Oct/28/terk-terkowitz/"/>
+        <updated>2026-10-28T10:09:07.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai"><p>If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai">Terk Terkowitz</a>, An update from Amazon engineering leadership on the role of the developer in the age of AI</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/amazon">amazon</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Have We Confused Having Good Taste With Being Creative?]]></title>
         <id>https://kottke.org/26/10/have-we-confused-having-good-taste-with-being-creative</id>
@@ -6704,55 +6717,6 @@ Tags: crime · Donald Trump · kidnapping · minnesota · quilts]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Sonnet 5.5]]></title>
-        <id>https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/</id>
-        <link href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"/>
-        <updated>2026-09-28T22:07:38.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://www.anthropic.com/claude-sonnet-5-5">Claude Sonnet 5.5</a></strong></p>
-New Sonnet model from Anthropic today. They say it "runs 30%+ faster, and costs up to 30% less for most work" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.</p>
-<p><a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01">Here are some pelicans riding bicycles</a>. Sonnet 5.5 suffered from <a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/#claude-opus-5-5-max-over-thinks-to-the-point-of-breaking">the same bug as Opus 5.5</a>: the "max" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG.</p>
-<p>Here's the pelican it gave me for thinking effort "xhigh", at a cost of 5.74 cents and taking 41 seconds:</p>
-<p><img alt="It's good- correct bicycle frame, legs either side of the frame, feet touching the pedals, chain in the right place, it is wearing a misshapen blue bicycle helmet though." src="https://static.simonwillison.net/static/2026/claude-sonnet-5.5-pelican-xhigh.webp" /></p>
-<p>Sonnet 5.5 appears to be almost as good as Opus 5.5 on some coding tasks, including various <a href="https://x.com/claudeai/status/2104674987164782598">viral 3D animation tricks</a>.</p>
-<p>The most interesting thing about Sonnet 5.5 is that it's now the model used for the free tier on <a href="https://claude.ai/">claude.ai</a>. OpenAI's ChatGPT free tier uses Luna 5.6, which means Anthropic currently have a much more capable free offering.</p>
-<p>I ran this prompt against that free tier:</p>
-<blockquote>
-<p><code>build me an HTML page that renders a three-dimensional pelican riding a bicycle using WebGL</code></p>
-</blockquote>
-<p>And got back <a href="https://static.simonwillison.net/static/2026/claude-sonnet-5.5-free-3d-pelican.html">this page</a>, which is a solid effort.</p>
-<p>Anthropic's announcement reiterates that Haiku 5.5 will be available "in the coming weeks". I really hope that one is price-competitive with GPT-6 Luna!
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting @joedaroo]]></title>
-        <id>https://simonwillison.net/2026/Sep/28/joedaroo/</id>
-        <link href="https://simonwillison.net/2026/Sep/28/joedaroo/"/>
-        <updated>2026-09-28T19:11:42.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/joedaroo/status/2104335929293127851"><p>To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...]</p>
-<p>So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump?</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/joedaroo/status/2104335929293127851">@joedaroo</a>, Agent Security at OpenAI, <a href="https://twitter.com/rocketalignment/status/2104646956551422036">identity confirmed</a> by The Information's Rocket Drew</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Priceful (28 Sep 2026)]]></title>
-        <id>https://pluralistic.net/?p=13334</id>
-        <link href="https://pluralistic.net/2026/09/28/cost-of-everything/"/>
-        <updated>2026-09-28T17:48:26.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Priceful: So worthless we can tell you what it's worth. Hey look at this: Delights to delectate. Object permanence: Nasdaq allows post-9/11 penny stocks; USAF can shoot down civilian aircraft; TSA bans calling Kip Hawley an idiot; Wells Fargo sued for firing fraud-refusing tellers; The real AI apocalypse; Encryption didn't cause 9/11; Bat-person costume; British Library on DRM and CC; NYT v OWS; "The Brave Little Toaster"; Bounty for Trump's tax return; Chinese real-estate bubble; Corbyn's Labour conference speech; HP blinks; "Are you calling me a racist?"; "Yuge"; Debts that can't be paid won't be paid. Upcoming appearances: Edmonton, Boston, Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances:…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
     <entry>
