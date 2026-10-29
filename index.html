@@ -35,6 +35,255 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049900-the-200-greatest-rock-son">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T17:20:00.000Z">2026-10-29</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049900-the-200-greatest-rock-son" target="_blank" rel="noopener noreferrer">Rolling Stone: The 200 Greatest Rock Songs of the 21st...</a>
+          </h2>
+          <p class="feed-item__desc">Rolling Stone: The 200 Greatest Rock Songs of the 21st Century So Far. I cannot argue with the top pick: Maps by the Yeah Yeah Yeahs. There’s a Spotify playlist with all 200 songs…a great way to spend 15 hours and 25 minutes.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049900-the-200-greatest-rock-son" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049900-the-200-greatest-rock-son">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T17:00:26.000Z">2026-10-29</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/" target="_blank" rel="noopener noreferrer">Building a multiplayer game world with autonomous Fable-class models</a>
+          </h2>
+          <p class="feed-item__desc">How I Built the Most AI-Pilled Company in the World
+Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.
+Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world.
+I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle.
+
+By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month ("we spend 30x payroll on AI tokens").
+Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request.
+Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat.
+This is continuous deployment turned up to 11:
+A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...]
+We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break things on purpose to test that those recovery paths work.
+My eyebrows raised at least a dozen times reading this. I have trouble imagining this style of development working on software with higher stakes for when something goes wrong, but for a game this appears to be working surprisingly well.
+Jacob says that Fable 5 (and then 5.1) was the model that made this level of autonomy possible. Opus 5.5 doesn't quite hack it for them, and when they tried GPT-6 Astra to apply fixes from a security review everything stopped working:
+Every feature had been disabled and marked to be turned on again once the security fixes were done. Astra had gone through our whole product and made the insecure things secure by turning them off.
+These kinds of extreme experiments are why I'm excited about game development as a substrate for exploring the edges of what today's coding agents can do.
+
+
+    
+Tags: game-design, ai, generative-ai, llms, claude, coding-agents, agentic-engineering, claude-mythos-fable</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="http://wearethemutants.com/?p&#x3D;42471">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T16:12:04.000Z">2026-10-29</time>
+        <span class="feed-item__source">We Are the Mutants</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://wearethemutants.com/2026/10/29/tubular-terrors-wes-cravens-chiller/" target="_blank" rel="noopener noreferrer">Tubular Terrors: Wes Craven’s ‘Chiller’</a>
+          </h2>
+          <p class="feed-item__desc">By K.E. Roberts
+
+An engraving with the words “They Shall See Tomorrow” hangs outside the cryonics facility at the beginning of Wes Craven’s Chiller (1985), probably the most damning treatment of the ultra-pseudoscientific practice that has ever made it to the screen...</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="http://wearethemutants.com/?p&#x3D;42471" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="http://wearethemutants.com/?p&#x3D;42471">Mark read</button>
+            <span class="feed-item__reading-time">15 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://wearethemutants.com/wp-content/uploads/2026/10/watm-chiller.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/the-remarkable-serbian-election">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T16:03:00.000Z">2026-10-29</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/the-remarkable-serbian-election" target="_blank" rel="noopener noreferrer">The Remarkable Serbian Election</a>
+          </h2>
+          <p class="feed-item__desc">I’ve been reading a bit about the recent election in Serbia and some of the details are fascinating. A student-led coalition toppled the 12-year corrupt reign of “the increasingly authoritarian leader” Aleksandar Vučić in recent elections. But in order to ensure voters and allies that this wasn’t a grab for power on the part of the students, the students ruled themselves out.
+Supporters had the votes, but they needed the losing side to stay. The strict rules were a promise: to those who had opposed running, that it would not turn the movement into a party; to voters, that the list was no party in disguise.
+No student may run: anyone enrolled in 2024/25, or with studies on hold, is excluded. The drafters wanted no suggestion that students were building political careers. Former members of t…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/the-remarkable-serbian-election" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/the-remarkable-serbian-election">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;168400">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T15:11:57.000Z">2026-10-29</time>
+        <span class="feed-item__source">Quanta Magazine</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/" target="_blank" rel="noopener noreferrer">How Do You Take a Picture of a Black Hole?</a>
+          </h2>
+          <p class="feed-item__desc">Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie.            
+The post How Do You Take a Picture of a Black Hole? first appeared on Quanta Magazine</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;168400" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;168400">Mark read</button>
+            <span class="feed-item__reading-time">40 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E11-cr.Chanelle-Nibbelink-Social-LOGO.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049897-what-they-can-no-longer-a">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T15:06:00.000Z">2026-10-29</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049897-what-they-can-no-longer-a" target="_blank" rel="noopener noreferrer">The NY Times recently asked readers “what they can no...</a>
+          </h2>
+          <p class="feed-item__desc">The NY Times recently asked readers “what they can no longer afford, or have given up on having”. Among the answers: medication, car repairs, new clothes, having more kids,  eating out, and contact lenses.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049897-what-they-can-no-longer-a" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049897-what-they-can-no-longer-a">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/29/ben-hylak/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T14:06:27.000Z">2026-10-29</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/29/ben-hylak/" target="_blank" rel="noopener noreferrer">Quoting Ben Hylak</a>
+          </h2>
+          <p class="feed-item__desc">every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.
+except for our product, of course. 
+in our product, customers love the ui and love us very much.
+we're special that way.
+
+— Ben Hylak
+Tags: model-context-protocol, ai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/29/ben-hylak/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/29/ben-hylak/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/old-newspaper-headlines-about-the-name-doppelgngers-of-current-celebrities">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T13:51:00.000Z">2026-10-29</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/old-newspaper-headlines-about-the-name-doppelgngers-of-current-celebrities" target="_blank" rel="noopener noreferrer">Old Newspaper Headlines About the Name Doppelgängers of Current Celebrities</a>
+          </h2>
+          <p class="feed-item__desc">This is great: Annie Rauwerda (of Depths of Wikipedia fame) sifted through the archive at newspapers.com to find the goings on of long-ago celebrity name doppelgängers (follow-up post). A few of my favorites:
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+        
+         
+Tags: Annie Rauwerda · celebrity · language</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/old-newspaper-headlines-about-the-name-doppelgngers-of-current-celebrities" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/old-newspaper-headlines-about-the-name-doppelgngers-of-current-celebrities">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="http://kottke.org/images/posts/01/editor-1793255714-0945dd10.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049903-prometheus">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T12:55:00.000Z">2026-10-29</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/10/0049903-prometheus" target="_blank" rel="noopener noreferrer">I made a small tweak to Prometheus (gift link discovery...</a>
+          </h2>
+          <p class="feed-item__desc">I made a small tweak to Prometheus (gift link discovery site) that kinda kicks ass: NYT Cooking is now a separate source (which you can filter by). The Rigatoni With White Bolognese recipe is a favorite of mine. 🤌</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049903-prometheus" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049903-prometheus">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/shared-acts-of-joy-and-commerce">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-29T11:02:40.000Z">2026-10-29</time>
+        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.blackbirdspyplane.com/p/shared-acts-of-joy-and-commerce" target="_blank" rel="noopener noreferrer">Shared acts of joy and commerce</a>
+          </h2>
+          <p class="feed-item__desc">Secondhand swag, unkillable merch, a cool new home-decor plug & more</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/shared-acts-of-joy-and-commerce" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/shared-acts-of-joy-and-commerce">Mark read</button>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!S0un!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bf23b2b-8a67-46cc-bce0-2dad249d8b40_1940x2621.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/10/0049895-recently-revealed-he-has-">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-10-29T03:06:00.000Z">2026-10-28</time>
@@ -11299,47 +11548,6 @@ Tags: cars · design · fashion · Japan · Porsche · Toshiyuki Ueno · video �
         </div>
       </div>
     </article>
-    <article class="feed-item" data-article-id="https://www.thewire.co.uk/audio/the-wire-tapper/the-wire-tapper-72">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-30T00:00:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">The Wire: Home</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.thewire.co.uk/audio/the-wire-tapper/the-wire-tapper-72" target="_blank" rel="noopener noreferrer">The Wire Tapper  72</a>
-          </h2>
-          <p class="feed-item__desc">Wire Tapper CD, free to all readers with The Wire 513, November 2026</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/audio/the-wire-tapper/the-wire-tapper-72" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/audio/the-wire-tapper/the-wire-tapper-72">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.thewire.co.uk/img/max/1200/1200/2026/09/30/WT72_Artwork-TH-LT-TH.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049699-treat-your-to-read-pile-l">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T23:40:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/0049699-treat-your-to-read-pile-l" target="_blank" rel="noopener noreferrer">Treat your to-read pile like a river, not a bucket....</a>
-          </h2>
-          <p class="feed-item__desc">Treat your to-read pile like a river, not a bucket. “There’s no point beating yourself up for failing to clear a backlog (of unread books, undone tasks, unrealized dreams) that was always inherently unfeasible to clear in the first place.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049699-treat-your-to-read-pile-l" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049699-treat-your-to-read-pile-l">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
     <article class="feed-item" data-article-id="https://www.bunniestudios.com/blog/?p&#x3D;7620">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-09-29T22:57:23.000Z">2026-09-29</time>
@@ -11375,225 +11583,6 @@ Tags: cars · design · fashion · Japan · Porsche · Toshiyuki Ueno · video �
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.bunniestudios.com/blog/?p&#x3D;7618">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T22:20:28.000Z">2026-09-29</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/" target="_blank" rel="noopener noreferrer">Quoting Anthropic Frontier Red Team</a>
-          </h2>
-          <p class="feed-item__desc">We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.
-
-— Anthropic Frontier Red Team, GLM-5.3 and the spread of advanced cyber capabilities
-Tags: anthropic, generative-ai, ai-security-research, glm, ai, ai-in-china, llms</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/kim-tschang-yeul-water-drops">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T21:10:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/kim-tschang-yeul-water-drops" target="_blank" rel="noopener noreferrer">Kim Tschang-Yeul, Water Drops</a>
-          </h2>
-          <p class="feed-item__desc">From the early 1970s until his death in 2021, Korean artist Kim Tschang-Yeul painted water droplets. From one of the galleries representing his work:
-The waterdrop was the starting point for a singular and iconic body of work, which stands at the confluence of lyrical abstraction, Pop art and Chinese calligraphy. This simple and limpid œuvre subtly fuses Taoist wisdom, modern conceptual irony and the tragedy of war.
-
-	
-You can view more of Kim’s work at Colossal and InspirationGrid.
-
- 
-
-        
-         
-Tags: art · Kim Tschang-Yeul · water</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/kim-tschang-yeul-water-drops" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/kim-tschang-yeul-water-drops">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/images/posts/01/editor-1790672269-eac1e18f.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049694-the-death-of-web-developm">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T20:17:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/0049694-the-death-of-web-developm" target="_blank" rel="noopener noreferrer">The death of web development education. “The income from...</a>
-          </h2>
-          <p class="feed-item__desc">The death of web development education. “The income from my book sales went from being enough for me to live off (2024) to zero (2026).”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049694-the-death-of-web-developm" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049694-the-death-of-web-developm">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049693-brett-simmons-on-how-usin">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T19:12:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/0049693-brett-simmons-on-how-usin" target="_blank" rel="noopener noreferrer">Brett Simmons on how using the stock Mac UI isn’t the...</a>
-          </h2>
-          <p class="feed-item__desc">Brett Simmons on how using the stock Mac UI isn’t the easy choice it used to be. “Many of the apps people think look good are not using stock UI.” Simmons’ own quickie redesign of NetNewsWire looks much better to me than the Liquid Glassified version.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049693-brett-simmons-on-how-usin" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049693-brett-simmons-on-how-usin">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/29/hn-49898129/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T18:27:48.000Z">2026-09-29</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Sep/29/hn-49898129/" target="_blank" rel="noopener noreferrer">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a>
-          </h2>
-          <p class="feed-item__desc">My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News.
-I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...
-Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...
-They're not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr...
-Tags: ai, openai, generative-ai, llms, pelican-riding-a-bicycle, gpt</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/29/hn-49898129/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/29/hn-49898129/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/whats-on-your-to-do-list">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T17:49:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/whats-on-your-to-do-list" target="_blank" rel="noopener noreferrer">What’s On Your To-Do List?</a>
-          </h2>
-          <p class="feed-item__desc">I keep a list of things I want to do for KDO in Apple Notes, organized into four sections: small, medium, large, and longshots/obsolete. This note contains tweaks, bug fixes, code refactoring, new site features, roadmap items,1 infrastructure migrations, potential project ideas, vague prompts, and even things I don’t want to do but should maybe consider doing anyway at some point. I keep already-completed items on the list so progress can be gauged, noticed, and appreciated.
-I was looking at the list today, and thought I’d share some of the items with you:
-Reposting social posts (in comment threads) for members
-Do a podcast
-Publish posts to Instagram. (How?)
-Implement site-wide search
-Make newsletter daily?
-Write a book based on kottke.org
-Sell Blue Line Air Express t-shirts
-Build a Substack competitor
-Make a gift link search engine
-Some of these are partly finished or would take very little to implement if I wanted. Some will never happen. Weirdly, some of the projects and site tweaks I most want to make aren’t even on my list. They live only in my head and I mull them over in the shower or while walking until they’re “done” enough to start working on. I guess maybe ideas don’t go on the list unless they’re not that urgent or interesting.
-Do you have to-do lists for your creative projects? Care to share an item or two with the group?
-Insofar as KDO has a roadmap, which is somewhere between “not at all” and “a general direction into the murky haze of a possible future”. I play things by ear a lot. ↩
-
-
- 
-
-        
-         
-Tags: kottke.org · lists</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/whats-on-your-to-do-list" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/whats-on-your-to-do-list">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/09/0049689-the-bizarre-murky-history">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T16:59:00.000Z">2026-09-29</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/09/0049689-the-bizarre-murky-history" target="_blank" rel="noopener noreferrer">The Bizarre, Murky History of Soviet-Born Tetris....</a>
-          </h2>
-          <p class="feed-item__desc">The Bizarre, Murky History of Soviet-Born Tetris. “Ironically, Tetris’s success began because the totalitarian Soviet regime did not recognize what we take for granted in the West: the freedom to publish.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/09/0049689-the-bizarre-murky-history" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/09/0049689-the-bizarre-murky-history">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Sep/29/photo-scrubber/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T16:45:27.000Z">2026-09-29</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Sep/29/photo-scrubber/" target="_blank" rel="noopener noreferrer">Photo Scrubber — local face blur &amp; metadata removal</a>
-          </h2>
-          <p class="feed-item__desc">Tool: Photo Scrubber — local face blur & metadata removal
-I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out.
-It uses Google's MediaPipe C++ library, compiled to WebAssembly via @mediapipe/tasks-vision, plus the BlazeFace face detection model.
-Tags: photography, tools</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Sep/29/photo-scrubber/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Sep/29/photo-scrubber/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="http://wearethemutants.com/?p&#x3D;42381">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-09-29T16:20:50.000Z">2026-09-29</time>
-        <span class="feed-item__source">We Are the Mutants</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://wearethemutants.com/2026/09/29/splashing-the-volcano-dianetics-in-the-age-of-reaganomics/" target="_blank" rel="noopener noreferrer">“Splashing the Volcano”: ‘Dianetics’ in the Age of Reaganomics</a>
-          </h2>
-          <p class="feed-item__desc">By K.E. Roberts
-
-Anyone who was watching TV in the late 1980s remembers the commercial: probing personal questions appear in white text on a black screen as a Tangerine Dream-esque synth riff pulsates in the background. ”How can you increase your mind’s potential?”...</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="http://wearethemutants.com/?p&#x3D;42381" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="http://wearethemutants.com/?p&#x3D;42381">Mark read</button>
-            <span class="feed-item__reading-time">15 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://wearethemutants.com/wp-content/uploads/2026/09/watm-dianetics-tv-spot.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
