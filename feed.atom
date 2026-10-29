@@ -2,10 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-29T17:59:59.234Z</updated>
+    <updated>2026-10-29T23:46:54.025Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rest In Peace, Patrick Stewart (1940-2026)]]></title>
+        <id>https://kottke.org/26/10/rest-in-peace-patrick-stewart-1940-2026</id>
+        <link href="https://kottke.org/26/10/rest-in-peace-patrick-stewart-1940-2026"/>
+        <updated>2026-10-29T23:28:00.000Z</updated>
+        <summary type="html"><![CDATA[Sir Patrick Stewart, best know for his role as Captain Jean-Luc Picard on Star Trek: The Next Generation, has died at the age of 86. He passed at home in Los Angeles from Alzheimer’s disease and Lewy body dementia.
+He was largely considered an unknown when the “Star Trek” offer came along. At the invitation of a friend, a university professor, Mr. Stewart had been in Los Angeles conducting master classes on Shakespeare when, one evening, he gave a lecture and performed some bits of the plays in a program that was open to the public. 
+A TV producer who was involved in developing a new “Star Trek” series happened to attend and soon persuaded Mr. Stewart to audition — even though, as Mr. Stewart later wrote, he knew “next to nothing” about the franchise.
+Surprised to get the part — the “Star …]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API credits benefit for eligible ChatGPT subscriptions]]></title>
+        <id>https://simonwillison.net/2026/Oct/29/api-credits/</id>
+        <link href="https://simonwillison.net/2026/Oct/29/api-credits/"/>
+        <updated>2026-10-29T22:48:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions">API credits benefit for eligible ChatGPT subscriptions</a></strong></p>
+Earlier this month Anthropic <a href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits">announced a generous new benefit</a> for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.</p>
+<p>OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.</p>
+<p>I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Italian farmer planted some decades-old seeds he found...]]></title>
+        <id>https://kottke.org/26/10/0049901-wheat-with-seven-ears-per</id>
+        <link href="https://kottke.org/26/10/0049901-wheat-with-seven-ears-per"/>
+        <updated>2026-10-29T21:24:00.000Z</updated>
+        <summary type="html"><![CDATA[An Italian farmer planted some decades-old seeds he found in his attic. Wheat with seven ears per stalk came up and the farmer found a reference to this type of nutritious, drought-resistant wheat in the Bible’s book of Genesis.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Star Wars: The Radio Drama]]></title>
+        <id>https://kottke.org/26/10/star-wars-the-radio-drama</id>
+        <link href="https://kottke.org/26/10/star-wars-the-radio-drama"/>
+        <updated>2026-10-29T20:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Somehow I’d never heard of this before: NPR produced and aired1 radio dramatizations of the films in the original Star Wars trilogy. The first program was particularly popular, garnering NPR hundreds of thousands of new listeners. The original versions are available in full on The Internet Archive:
+Star Wars: A New Hope (1981)
+Star Wars: The Empire Strikes Back (1983)
+Star Wars: The Return of the Jedi (1996)
+Or get all three parts ripped from the CD.
+All three programs contain elements of John Williams’ original soundtrack. Mark Hamill and Anthony Daniels reprised their movie roles for the first two radio programs2 and some other bold-faced names made appearances throughout: Billy Dee Williams as Lando Calrissian, John Lithgow as Yoda (??), Ed Begley Jr. as Boba Fett (???), David Alan Grie…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dumpster Archeology. “Lew Blink’s passion for dumpster...]]></title>
+        <id>https://kottke.org/26/10/0049839-dumpster-archeology</id>
+        <link href="https://kottke.org/26/10/0049839-dumpster-archeology"/>
+        <updated>2026-10-29T19:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Dumpster Archeology. “Lew Blink’s passion for dumpster diving, his tenacity in connecting the dots, and his magnetic charisma as he unearths the secrets of others were a captivating lens through which to explore themes of privacy, waste…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Archive of Our Own goes offline for 2-4 weeks for emergency maintenance]]></title>
+        <id>https://waxy.org/?p=51338</id>
+        <link href="https://bsky.app/profile/status.archiveofourown.org/post/3myzstnmohf2o"/>
+        <updated>2026-10-29T19:09:03.000Z</updated>
+        <summary type="html"><![CDATA[how stressful, hopefully there’s no permanent data loss
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sick of AI ads, a roofer hand-drew his own and was accused of being AI]]></title>
+        <id>https://waxy.org/?p=51335</id>
+        <link href="https://www.webworm.co/sicktodeath/"/>
+        <updated>2026-10-29T18:54:43.000Z</updated>
+        <summary type="html"><![CDATA[the post went viral, spawning dozens of copycats made with AI image models
+@dylanreeve.com #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s the largest tweetable number? You’ve got 280...]]></title>
+        <id>https://kottke.org/26/10/0049893-turns-out-its-complicated</id>
+        <link href="https://kottke.org/26/10/0049893-turns-out-its-complicated"/>
+        <updated>2026-10-29T18:18:00.000Z</updated>
+        <summary type="html"><![CDATA[What’s the largest tweetable number? You’ve got 280 characters. So: “9999…” or “one centillion” or “googol!!!!!!…” or an image of a number? Turns out it’s complicated!]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rolling Stone: The 200 Greatest Rock Songs of the 21st...]]></title>
         <id>https://kottke.org/26/10/0049900-the-200-greatest-rock-son</id>
@@ -154,6 +250,16 @@ Tags: Annie Rauwerda · celebrity · language]]></summary>
         <summary type="html"><![CDATA[Secondhand swag, unkillable merch, a cool new home-decor plug & more]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[the thing we are frightened of is not close to the thing we already have]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12432</id>
+        <link href="https://www.velcro-city.co.uk/the-thing-we-are-frightened-of-is-not-close-to-the-thing-we-already-have/"/>
+        <updated>2026-10-29T10:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Butler's got your quantitative counter-argument against LLMs, though I'd rather rely on the qualitative one.]]></summary>
+        <author>
+            <name>PGR</name>
         </author>
     </entry>
     <entry>
@@ -7004,36 +7110,6 @@ Tags: cars · design · fashion · Japan · Porsche · Toshiyuki Ueno · video �
         <summary type="html"><![CDATA[Manchester City guilty over Premier League charges after £900m of ‘sham’ contracts. The “financial doping” scheme allowed the club’s owners to pump large sums of money into the team without appearing to exceed the league’s spending limits.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[30sep26]]></title>
-        <id>https://warrenellis.ltd/?p=19024</id>
-        <link href="https://warrenellis.ltd/status/30sep26/"/>
-        <updated>2026-09-30T11:36:39.000Z</updated>
-        <summary type="html"><![CDATA[Big sky on Monday night. I have fresh herbs, so I’m making herb salts this week. I also have a bulb of black garlic so…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Name that Ware, September 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7620</id>
-        <link href="https://www.bunniestudios.com/blog/2026/name-that-ware-september-2026/"/>
-        <updated>2026-09-29T22:57:23.000Z</updated>
-        <summary type="html"><![CDATA[The Ware for September 2026 is shown below. We seem to be on a theme of hybrid circuits! This aesthetically pleasing ware was submitted anonymously. Thank you, you know who you are! While I realize that color palettes are not actually a deciding factor in most circuit board designs, I still appreciate it when things […]]]></summary>
-        <author>
-            <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Winner, Name that Ware August 2026]]></title>
-        <id>https://www.bunniestudios.com/blog/?p=7618</id>
-        <link href="https://www.bunniestudios.com/blog/2026/winner-name-that-ware-august-2026/"/>
-        <updated>2026-09-29T22:50:36.000Z</updated>
-        <summary type="html"><![CDATA[The Ware for August 2026 is the “IC unit” from a Lafayette 150-in-1 “IC Electronic Project Kit”, part number 99-35107. Above is a contextual photo of how the unit looked mounted in the kit. And above are a couple examples of projects you can build with the “IC” as part of the kit. Answering Hales’ […]]]></summary>
-        <author>
-            <name>bunnie</name>
         </author>
     </entry>
     <entry>
