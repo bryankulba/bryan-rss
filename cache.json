@@ -158,16 +158,6 @@
           "wordCount": 4882,
           "title": "Dragoncatcher: Ask for: a variable font explorer",
           "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
-        },
-        {
-          "id": "https://www.robinsloan.com/lab/character-design/",
-          "author": null,
-          "description": "<p>Fun event. <a href=\"https://www.robinsloan.com/lab/character-design/\">Read here.</a></p>",
-          "link": "https://www.robinsloan.com/lab/character-design/",
-          "publishedOn": "2026-09-29T12:00:00.000Z",
-          "wordCount": 4794,
-          "title": "Dragoncatcher: Beyond helpful",
-          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
         }
       ]
     },
@@ -270,6 +260,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/10/0049895-recently-revealed-he-has-",
+          "author": null,
+          "description": "Errol Morris shot ads for Theranos and recently revealed he has a two-hour interview with Elizabeth Holmes that he’s considering releasing. “Did I have any reason to believe that she was a fraud? I did not. Did that change as time went on? It did.”",
+          "link": "https://kottke.org/26/10/0049895-recently-revealed-he-has-",
+          "publishedOn": "2026-10-29T03:06:00.000Z",
+          "wordCount": 730,
+          "title": "Errol Morris shot ads for Theranos and recently revealed...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/10/0049861-turns-out",
+          "author": null,
+          "description": "Remember the Six Degrees of Kevin Bacon game? Turns out: “Kevin Bacon is not the center of Hollywood. In fact, he never has been, and almost certainly never will be.”",
+          "link": "https://kottke.org/26/10/0049861-turns-out",
+          "publishedOn": "2026-10-29T02:23:23.000Z",
+          "wordCount": 986,
+          "title": "Remember the Six Degrees of Kevin Bacon game? Turns out:...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/10/0049884-a-bunch-of-items-from-sta",
           "author": null,
@@ -2189,36 +2199,6 @@
           "wordCount": 675,
           "title": "The Bizarre, Murky History of Soviet-Born Tetris....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/0049692-on-commodified-automated-",
-          "author": null,
-          "description": "On commodified, automated intelligence. “If any of these things shake out and we make it out of the near-future, the best you can hope for is a universal basic income, pegged to a meaningful percentage of existing compute.” (God that’s bleak.)",
-          "link": "https://kottke.org/26/09/0049692-on-commodified-automated-",
-          "publishedOn": "2026-09-29T15:32:00.000Z",
-          "wordCount": 616,
-          "title": "On commodified, automated intelligence. “If any of these...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/09/the-mn-stolen-neighbors-quilt",
-          "author": null,
-          "description": "Over the past six months, dozens of people pitched in to create the MN Stolen Neighbors Quilt, which is made of 12,500 squares, each one representing an immigrant abducted in Minnesota by the Trump regime’s secret police (ICE + CBP). The quilt was recently unveiled at the MN State Capitol.\n\n\n\nThe outpouring of support from the community was such that they overshot the initial goal of 11,000 squares, meant to represent the roughly 11,000 Minnesotan immigrants that were kidnapped by ICE between the beginning of Trump’s second term and the end of Operation Metro Surge. In total, more than 150 people have contributed to the effort. The finished quilt is approximately nine feet wide by 33 feet long.\nOwen states, “We weren’t considering what happens when you ask Minnesotans for a favor, so the quilt here today actually contains 12,500 squares. Which is amazing. Unfortunately, it is reflective of what has been happening here over the past several months. Since March, ICE has abducted more than 900 Minnesotans and counting.”\n\n\t\nThis is extremely Minnesotan (complimentary).\n\n \n\n        \n         \nTags: crime · Donald Trump · kidnapping · minnesota · quilts",
-          "link": "https://kottke.org/26/09/the-mn-stolen-neighbors-quilt",
-          "publishedOn": "2026-09-29T14:12:00.000Z",
-          "wordCount": 792,
-          "title": "The MN Stolen Neighbors Quilt",
-          "imageUrl": "http://kottke.org/images/posts/01/editor-1790671440-f258a0ce.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/09/0049691-curtis-sittenfeld-revisit",
-          "author": null,
-          "description": "In the wake of her divorce, Curtis Sittenfeld revisits her 2015 piece on marriage. “Toward the end, I felt as if the best versions of ourselves had married and the worst versions of ourselves were getting divorced.”",
-          "link": "https://kottke.org/26/09/0049691-curtis-sittenfeld-revisit",
-          "publishedOn": "2026-09-29T13:22:00.000Z",
-          "wordCount": 697,
-          "title": "In the wake of her divorce, Curtis Sittenfeld revisits...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2227,6 +2207,16 @@
       "feedUrl": "https://waxy.org/feed/",
       "siteUrl": "https://waxy.org/",
       "articles": [
+        {
+          "id": "https://waxy.org/?p=51332",
+          "author": "Andy Baio",
+          "description": "even more in the second thread, including gems like “Peter Thiel Ends Life With Acid”\n#",
+          "link": "https://bsky.app/profile/annierau.bsky.social/post/3myxq3umdvc2t",
+          "publishedOn": "2026-10-29T00:01:41.000Z",
+          "wordCount": 470,
+          "title": "Annie Rauwerda collects old newspaper headlines about people with the same names of future celebs",
+          "imageUrl": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:zg75yq5hclrydiol3hp77b46/bafkreiefoy6byxrm6e7zlsqyuj6wbqubpqs464tqaojfltzftgc4cmlrfq"
+        },
         {
           "id": "https://waxy.org/?p=51329",
           "author": "Andy Baio",
@@ -2647,16 +2637,6 @@
           "publishedOn": "2026-10-01T17:22:48.000Z",
           "wordCount": 4128,
           "title": "Pluralistic: Voting is to politics as shopping is to boycotts (01 Oct 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13338",
-          "author": "Cory Doctorow",
-          "description": "Today's links Lindsay Owens's \"Gouged\": The end of a fair price and what that means for your wallet. Hey look at this: Delights to delectate. Object permanence: Doonesbury on 9/11; Suspicious Looking Device; Elephant-shit paper; The Onion x TSA liquid rules; Borders goodbye letter; Voting machines suck; EFF v DRM; Matt Furie on the hijacking of Pepe; Austerity v last steam-loom; Facebook x \"disinformation\" criticism. Upcoming appearances: Boston, Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Lindsay Owens's \"Gouged\" (permalink) Lindsay Owens is the execu…",
-          "link": "https://pluralistic.net/2026/09/29/algorithmic-wage-theft/",
-          "publishedOn": "2026-09-29T13:40:37.000Z",
-          "wordCount": 4156,
-          "title": "Pluralistic: Lindsay Owens's \"Gouged\" (29 Sep 2026)",
           "imageUrl": null
         }
       ]
@@ -4118,16 +4098,6 @@
           "wordCount": 792,
           "title": "Photo Scrubber — local face blur & metadata removal",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-          "author": null,
-          "description": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p>\r\n\r\n<p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/live-blog\">live-blog</a></p>",
-          "link": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-          "publishedOn": "2026-09-29T15:55:13.000Z",
-          "wordCount": 860,
-          "title": "OpenAI DevDay 2026 live blog",
-          "imageUrl": "https://static.simonwillison.net/static/2026/live-20260929-092441.webp"
         }
       ]
     },

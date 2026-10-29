@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-28T23:52:44.303Z</updated>
+    <updated>2026-10-29T04:17:55.444Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Errol Morris shot ads for Theranos and recently revealed...]]></title>
+        <id>https://kottke.org/26/10/0049895-recently-revealed-he-has-</id>
+        <link href="https://kottke.org/26/10/0049895-recently-revealed-he-has-"/>
+        <updated>2026-10-29T03:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Errol Morris shot ads for Theranos and recently revealed he has a two-hour interview with Elizabeth Holmes that he’s considering releasing. “Did I have any reason to believe that she was a fraud? I did not. Did that change as time went on? It did.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remember the Six Degrees of Kevin Bacon game? Turns out:...]]></title>
+        <id>https://kottke.org/26/10/0049861-turns-out</id>
+        <link href="https://kottke.org/26/10/0049861-turns-out"/>
+        <updated>2026-10-29T02:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Remember the Six Degrees of Kevin Bacon game? Turns out: “Kevin Bacon is not the center of Hollywood. In fact, he never has been, and almost certainly never will be.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Annie Rauwerda collects old newspaper headlines about people with the same names of future celebs]]></title>
+        <id>https://waxy.org/?p=51332</id>
+        <link href="https://bsky.app/profile/annierau.bsky.social/post/3myxq3umdvc2t"/>
+        <updated>2026-10-29T00:01:41.000Z</updated>
+        <summary type="html"><![CDATA[even more in the second thread, including gems like “Peter Thiel Ends Life With Acid”
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quoting Ted Sanders]]></title>
         <id>https://simonwillison.net/2026/Oct/28/ted-sanders/</id>
@@ -7008,84 +7039,6 @@ Tags: kottke.org · lists]]></summary>
 Anyone who was watching TV in the late 1980s remembers the commercial: probing personal questions appear in white text on a black screen as a Tangerine Dream-esque synth riff pulsates in the background. ”How can you increase your mind’s potential?”...]]></summary>
         <author>
             <name>K.E. Roberts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI DevDay 2026 live blog]]></title>
-        <id>https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/</id>
-        <link href="https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"/>
-        <updated>2026-09-29T15:55:13.000Z</updated>
-        <summary type="html"><![CDATA[<p>I'm at <a href="https://devday.openai.com/">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href="https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/">last year</a> I'll be live blogging the keynote and some other notes during the day.</p>
-
-<p><em>OpenAI gave me a free ticket and a seat in the "creator" area for the keynote.</em></p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/live-blog">live-blog</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On commodified, automated intelligence. “If any of these...]]></title>
-        <id>https://kottke.org/26/09/0049692-on-commodified-automated-</id>
-        <link href="https://kottke.org/26/09/0049692-on-commodified-automated-"/>
-        <updated>2026-09-29T15:32:00.000Z</updated>
-        <summary type="html"><![CDATA[On commodified, automated intelligence. “If any of these things shake out and we make it out of the near-future, the best you can hope for is a universal basic income, pegged to a meaningful percentage of existing compute.” (God that’s bleak.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The MN Stolen Neighbors Quilt]]></title>
-        <id>https://kottke.org/26/09/the-mn-stolen-neighbors-quilt</id>
-        <link href="https://kottke.org/26/09/the-mn-stolen-neighbors-quilt"/>
-        <updated>2026-09-29T14:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Over the past six months, dozens of people pitched in to create the MN Stolen Neighbors Quilt, which is made of 12,500 squares, each one representing an immigrant abducted in Minnesota by the Trump regime’s secret police (ICE + CBP). The quilt was recently unveiled at the MN State Capitol.
-
-
-
-The outpouring of support from the community was such that they overshot the initial goal of 11,000 squares, meant to represent the roughly 11,000 Minnesotan immigrants that were kidnapped by ICE between the beginning of Trump’s second term and the end of Operation Metro Surge. In total, more than 150 people have contributed to the effort. The finished quilt is approximately nine feet wide by 33 feet long.
-Owen states, “We weren’t considering what happens when you ask Minnesotans for a favor, so the quilt here today actually contains 12,500 squares. Which is amazing. Unfortunately, it is reflective of what has been happening here over the past several months. Since March, ICE has abducted more than 900 Minnesotans and counting.”
-
-	
-This is extremely Minnesotan (complimentary).
-
- 
-
-        
-         
-Tags: crime · Donald Trump · kidnapping · minnesota · quilts]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Lindsay Owens's "Gouged" (29 Sep 2026)]]></title>
-        <id>https://pluralistic.net/?p=13338</id>
-        <link href="https://pluralistic.net/2026/09/29/algorithmic-wage-theft/"/>
-        <updated>2026-09-29T13:40:37.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Lindsay Owens's "Gouged": The end of a fair price and what that means for your wallet. Hey look at this: Delights to delectate. Object permanence: Doonesbury on 9/11; Suspicious Looking Device; Elephant-shit paper; The Onion x TSA liquid rules; Borders goodbye letter; Voting machines suck; EFF v DRM; Matt Furie on the hijacking of Pepe; Austerity v last steam-loom; Facebook x "disinformation" criticism. Upcoming appearances: Boston, Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, OVancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Lindsay Owens's "Gouged" (permalink) Lindsay Owens is the execu…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In the wake of her divorce, Curtis Sittenfeld revisits...]]></title>
-        <id>https://kottke.org/26/09/0049691-curtis-sittenfeld-revisit</id>
-        <link href="https://kottke.org/26/09/0049691-curtis-sittenfeld-revisit"/>
-        <updated>2026-09-29T13:22:00.000Z</updated>
-        <summary type="html"><![CDATA[In the wake of her divorce, Curtis Sittenfeld revisits her 2015 piece on marriage. “Toward the end, I felt as if the best versions of ourselves had married and the worst versions of ourselves were getting divorced.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Beyond helpful]]></title>
-        <id>https://www.robinsloan.com/lab/character-design/</id>
-        <link href="https://www.robinsloan.com/lab/character-design/"/>
-        <updated>2026-09-29T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Fun event. <a href="https://www.robinsloan.com/lab/character-design/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
