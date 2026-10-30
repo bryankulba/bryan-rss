@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-30T17:41:18.942Z</updated>
+    <updated>2026-10-30T23:27:20.882Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[dbreunig/nesformer]]></title>
+        <id>https://simonwillison.net/2026/Oct/30/nesformer/</id>
+        <link href="https://simonwillison.net/2026/Oct/30/nesformer/"/>
+        <updated>2026-10-30T21:59:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/dbreunig/nesformer">dbreunig/nesformer</a></strong></p>
+Inspired by <a href="https://divagr.com/blog/qwenputer">qwenputer</a> by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!</p>
+<p>In <a href="https://news.ycombinator.com/item?id=50306442#50307402">a comment on Hacker News</a> Drew reveals the Opus 5.5 prompts he used to build this system:</p>
+<blockquote>
+<p><code>Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed.</code></p>
+</blockquote>
+<p>Followed by:</p>
+<blockquote>
+<p><code>I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM.</code></p>
+</blockquote>
+<p>Apparently Opus found and then used <a href="https://github.com/christopherpow/nes-test-roms/blob/master/other/nestest.txt">this collection of conformance tests</a> for the NES CPU released 15 years ago by Christopher Pow.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50306442">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/games">games</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/drew-breunig">drew-breunig</a>, <a href="https://simonwillison.net/tags/qwen">qwen</a>, <a href="https://simonwillison.net/tags/conformance-suites">conformance-suites</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Great Art Explained: Henri Matisse’s The Red Studio....]]></title>
+        <id>https://kottke.org/26/10/0049876-henri-matisses-the-red-st</id>
+        <link href="https://kottke.org/26/10/0049876-henri-matisses-the-red-st"/>
+        <updated>2026-10-30T20:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Great Art Explained: Henri Matisse’s The Red Studio. “Even Matisse wasn’t entirely sure what he had created and nobody wanted to buy it.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is There More to Cold Fusion Than Failure and Fraud?]]></title>
+        <id>https://www.quantamagazine.org/?p=168519</id>
+        <link href="https://www.quantamagazine.org/is-there-more-to-cold-fusion-than-failure-and-fraud-20261030/"/>
+        <updated>2026-10-30T19:22:57.000Z</updated>
+        <summary type="html"><![CDATA[Dig a little deeper and you’ll find a thriving research program with exotic atoms that won’t solve the energy crisis but stretches the boundaries of physics.              
+The post Is There More to Cold Fusion Than Failure and Fraud? first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>George Musser</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The top 10 paintings of Judith beheading Holofernes. “I...]]></title>
+        <id>https://kottke.org/26/10/0049883-the-top-10-paintings-of-j</id>
+        <link href="https://kottke.org/26/10/0049883-the-top-10-paintings-of-j"/>
+        <updated>2026-10-30T19:11:00.000Z</updated>
+        <summary type="html"><![CDATA[The top 10 paintings of Judith beheading Holofernes. “I feel like Artemisia has actually thought through the logistics of overpowering a grown man and hacking his head off.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three-Body Orbits]]></title>
+        <id>https://kottke.org/26/10/three-body-orbits</id>
+        <link href="https://kottke.org/26/10/three-body-orbits"/>
+        <updated>2026-10-30T17:58:00.000Z</updated>
+        <summary type="html"><![CDATA[There are no generalized solutions to the three-body problem. Say you have three planets orbiting each other: it’s impossible to calculate how they will move using Newton’s laws of motion and gravity.
+Unlike the two-body problem, the three-body problem has no general closed-form analytic solution. The differential equations that govern the motions of three gravitating bodies are not integrable and cannot be solved to give explicit formulas for the positions of the bodies as a function of time. For most initial conditions, the dynamical system for three orbiting bodies is chaotic, and the only way to predict their motions is to estimate them using numerical methods.
+
+	
+But thousands of stable three-body orbits have been found — their paths repeat after a given interval. The Three Body Orbits website is an atlas of some of those orbits: you can watch each three-body system play itself out in a wide variety of different shapes and complexities. There’s this simple figure 8, this slightly less simple one, and this one that looks like a spirograph.
+
+
+
+
+
+The site even enables you to search for new stable solutions to the problem in your browser. This is what one of my unsuccessful tests looked like — two of the planets locked in a gravity death spiral while the other one peaces out in the other direction: 
+
+
+ 
+
+        
+         
+Tags: infoviz · physics · science]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[James Bridle on making chairs with LLMs. “What we have...]]></title>
         <id>https://kottke.org/26/10/0049881-james-bridle-on-making-ch</id>
@@ -7162,40 +7245,6 @@ The post What Does the Fourth Dimension Actually Look Like? first appeared on Qu
         <summary type="html"><![CDATA[A 15-minute tour of former NFL coach Mike Tomlin’s Minecraft city. As previously mentioned, he started playing the game to connect with his kids and never stopped. (This is only part 1 of ???)]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is your brain on pure driven snow]]></title>
-        <id>https://www.blackbirdspyplane.com/p/this-is-your-brain-on-pure-driven-snow</id>
-        <link href="https://www.blackbirdspyplane.com/p/this-is-your-brain-on-pure-driven-snow"/>
-        <updated>2026-10-01T11:03:49.000Z</updated>
-        <summary type="html"><![CDATA[A rare footwear event, the thrill of total blankness, a swaggy beret-rocking musical king, and more unbeatable recon]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Matthew Green]]></title>
-        <id>https://simonwillison.net/2026/Oct/1/matthew-green/</id>
-        <link href="https://simonwillison.net/2026/Oct/1/matthew-green/"/>
-        <updated>2026-10-01T06:29:01.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs.</p></blockquote>
-<p class="cite">&mdash; <a href="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/">Matthew Green</a>, Is sandboxing sufficient to contain rogue agents?</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[StrawPage Explore]]></title>
-        <id>https://waxy.org/?p=51271</id>
-        <link href="https://straw.page/explore"/>
-        <updated>2026-10-01T06:04:14.000Z</updated>
-        <summary type="html"><![CDATA[click “next site” to view a random personal retroweb-inspired website
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
         </author>
     </entry>
     <entry>
