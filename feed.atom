@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-31T03:58:37.757Z</updated>
+    <updated>2026-10-31T10:16:09.005Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
@@ -7102,98 +7102,6 @@ Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.
         <summary type="html"><![CDATA[On the value of knowing your enemy through their alliances]]></summary>
         <author>
             <name>Disjunctions Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best multi day hikes in the world. “As an avid hiker,...]]></title>
-        <id>https://kottke.org/26/10/0049717-the-best-multi-day-hikes-</id>
-        <link href="https://kottke.org/26/10/0049717-the-best-multi-day-hikes-"/>
-        <updated>2026-10-01T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The best multi day hikes in the world. “As an avid hiker, who spends most of her time hiking, I have done more than 100 multi day hikes all over the world. This list includes 25 of my favorite ones.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lobster is Lobster: a language guessing game. “Lobster is...]]></title>
-        <id>https://kottke.org/26/10/0049702-lobster-is-lobster</id>
-        <link href="https://kottke.org/26/10/0049702-lobster-is-lobster"/>
-        <updated>2026-10-01T19:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Lobster is Lobster: a language guessing game. “Lobster is lobster in English. Langosta is lobster in ___”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ooh, Mestra is a new short story from Madeline Miller...]]></title>
-        <id>https://kottke.org/26/10/0049715-mestra</id>
-        <link href="https://kottke.org/26/10/0049715-mestra"/>
-        <updated>2026-10-01T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Ooh, Mestra is a new short story from Madeline Miller (Circe, Song of Achilles). “Mestra, daughter of the King of Thessaly, is granted a unique gift by Poseidon: The ability to transform herself into any being she can imagine.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Voting is to politics as shopping is to boycotts (01 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13352</id>
-        <link href="https://pluralistic.net/2026/10/01/data-centers/"/>
-        <updated>2026-10-01T17:22:48.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Voting is to politics as shopping is to boycotts: The big P only matters if the small p is in play. Hey look at this: Delights to delectate. Object permanence: Gilberto Gil v WIPO; Censored Apple wifi hacker talk; Wells Fargo crime-spree started in 1998; Stencils "may not be reproduced"; DVD Jon v Apple DRM; Unpaid diplomatic parking tickets as index of corruption; Tortured Canadian was not a terrorist; Decarbonization at a distance. Upcoming appearances: Brighton, Virtual, South Bend, Hudson, Calgary, Winnipeg, Paris, Vancouver, Victoria, Ottawa, Kilkenny, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Voting is to politics as shopping is to b…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Map of the Lighthouses of the World]]></title>
-        <id>https://kottke.org/26/10/map-of-the-lighthouses-of-the-world</id>
-        <link href="https://kottke.org/26/10/map-of-the-lighthouses-of-the-world"/>
-        <updated>2026-10-01T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[From mapped.earth, a map of every lighthouse on the planet, along with other charted lights like lighted buoys and such. The screenshots above are static but the lights on the real map move: each lighthouse sweeps out its actual arc and the reach of the beams is true to scale. I recorded a short video of how it looks on the site:
-
-Each lighthouse has a unique light characteristic so that ships can tell them apart:
-In any of these designs an observer, rather than seeing a continuous weak light, sees a brighter light during short time intervals. These instants of bright light are arranged to create a light characteristic or pattern specific to a lighthouse. For example, the Scheveningen Lighthouse flashes are alternately 2.5 and 7.5 seconds. Some lights have sectors of a particular color (usually formed by colored panes in the lantern) to distinguish safe water areas from dangerous shoals. Modern lighthouses often have unique reflectors or racon transponders so the radar signature of the light is also unique.
-
-	
-See also A Blinking Map of the World’s Lighthouses. And mapped.earth has more cool visualizations of the Earth (rianfall, wind, lightning, pollution, etc.)
-
- 
-
-        
-         
-Tags: infoviz · maps]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[pwasm 0.2a0]]></title>
-        <id>https://simonwillison.net/2026/Oct/1/pwasm/</id>
-        <link href="https://simonwillison.net/2026/Oct/1/pwasm/"/>
-        <updated>2026-10-01T17:10:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/pwasm/releases/tag/0.2a0">pwasm 0.2a0</a></p>
-        <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href="https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp">AI mania</a>.</p>
-<p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements:</p>
-<blockquote>
-<p><code>Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the <a href="https://github.com/simonw/research">research repo</a> working under it - and what it would take to speed it up</code></p>
-</blockquote>
-<p><a href="https://github.com/simonw/pwasm/pull/12">42 commits later</a> (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of  <a href="https://micropython.org/">MicroPython</a>, <a href="https://github.com/quickjs-ng/quickjs">QuickJS</a> and <a href="https://github.com/bellard/mquickjs">Micro QuickJS</a>.</p>
-<p>I wouldn't trust this thing at all - hence the alpha version tag - but it's interesting seeing how today's models can improve on the work of models from 10 months ago.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/vibe-coding">vibe-coding</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Looks like Every Frame a Painting is ramping up again!...]]></title>
-        <id>https://kottke.org/26/10/0049711-looks-like-every-frame-a-</id>
-        <link href="https://kottke.org/26/10/0049711-looks-like-every-frame-a-"/>
-        <updated>2026-10-01T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Looks like Every Frame a Painting is ramping up again! “Over the last 10 years, Taylor and I have amassed a series of ideas — some of them originally designed to be on Youtube, some designed to be other things. All of this is currently in progress”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
