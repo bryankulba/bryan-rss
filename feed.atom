@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-31T10:16:09.005Z</updated>
+    <updated>2026-10-31T16:47:28.681Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Online censorship is crushing indie webcomics]]></title>
+        <id>https://waxy.org/?p=51344</id>
+        <link href="https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463"/>
+        <updated>2026-10-31T16:32:11.000Z</updated>
+        <summary type="html"><![CDATA[part of the excellent Comics Against Censorship series guest-edited by Maia Kobabe
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Infinite Mac adds support for BeOS]]></title>
+        <id>https://waxy.org/?p=51342</id>
+        <link href="https://blog.persistent.info/2026/10/infinite-mac-beos.html"/>
+        <updated>2026-10-31T16:28:39.000Z</updated>
+        <summary type="html"><![CDATA[Mihai continues to improve the best browser-based vintage Mac emulator
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Fiction Comp 2026 winners announced]]></title>
+        <id>https://waxy.org/?p=51340</id>
+        <link href="https://ifcomp.org/comp/2026"/>
+        <updated>2026-10-31T16:23:22.000Z</updated>
+        <summary type="html"><![CDATA[I love The Count and the Communist’s wildly creative use of Inform 7
+Web Curios #]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Formalities (31 Oct 2026)]]></title>
+        <id>https://pluralistic.net/?p=13455</id>
+        <link href="https://pluralistic.net/2026/10/31/burn-berne/"/>
+        <updated>2026-10-31T15:15:59.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Formalities: When it comes to AI, the Copyright Office is restoring copyright to its proper status, as something you have to work to get. Hey look at this: Delights to delectate. Object permanence: GWB x martial law; Li'l Sparky; Dueling Starbuckses; Microsoft buys Skype (does fuckery); Bieber v SOPA; SOPA is the worst; Snowden x rule of law; "Laserwriter II"; Russia v DST; Class war funnies; Minnesota's miracle; Icelandic women v sexism; Image analogies; Aussie DMCA ratfucked; "Authorised Domain"; Sales tax is regressive; Prince Charles's secret veto; Wells Fargo blackballed workers for refusing to crime; Poe read by Vincent Price and Basil Rathbone; Put it back!; The internet was made for privacy. Upcoming appearances: Kilkenny, Courtenay, Vancouver, Folkestone, Oxford, She…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[dbreunig/nesformer]]></title>
         <id>https://simonwillison.net/2026/Oct/30/nesformer/</id>
@@ -6958,150 +7001,6 @@ Tags: Oregon Trail · prince · video · video games]]></summary>
         <summary type="html"><![CDATA[So hear me out: Handmade smoked cheddar, charcoal crackers, quince paste, organic Transylvanian walnuts, organic figs, and a small glass of Muscat Petits Grains Passerillés…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[James Gormley presents  Adventures In Sound And Music]]></title>
-        <id>https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-79678</id>
-        <link href="https://www.thewire.co.uk/audio/on-air/james-gormley-presents-adventures-in-sound-and-music-79678"/>
-        <updated>2026-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire's weekly show on Resonance FM and Resonance Extra featured music by Don Cherry, Glass Triangle, Agnes Haus, Ziúr and more
-
-Tracklist
-
-Don Cherry
-    
-“Doussn’Gouni Fly Pt 1”
-    
- from Sunrise: With Collin Walcott & Leon Thomas + Oregon – Live In Ypsilanti, MI, 1977
-    
-WEWANTSOUNDS)
-
-Brandon Seabrook
-    
-“The Serial Fabulist”
-    
-Utility Modern
-    
-Out Of Your Head)
-
-Glass Triangle
-    
-“Undr”
-    
-3 x 1
-    
-Relative Pitch)
-
-Kukangendai
-    
-“All Standing”
-    
-Baquet Wheel
-    
-Marionette)
-
-Agnes Haus
-    
-“act.III”
-    
-Eidolon
-    
-LINE)
-
-Jonathan Uliel Saldanha
-    
-“B”
-    
-Khörus Anima
-    
-Horror Vector)
-
-Anne Waldman / Thurston Moore / James Ilgenfritz / Anagram Ensemble
-    
-“Alien On Tracks”
-    
-The Travel Agency Is On Fire
-    
-Infrequent Seams)
-
-A LARGE SHEET OF MUSCLE
-    
-“GAS EXPANDS AND REFORMATION CHAT”
-    
-CHINESE BENEFITS
-    
-Drowned By Locals)
-
-Slaylor Moon
-    
-“River Swirl”
-    
-Crisis Make Up!
-    
-Maple Death)
-
-Kepla
-    
-“Selfplex”
-    
-Outside Time
-    
-SINK)
-
-Ghost Dubs
-    
-“Almost A Structure”
-    
-Oblique
-    
-Pressure)
-
-Ziúr
-    
- “Hechizo Metamorfo”
-    
-De Brujas y Fantasmas (Original Soundtrack For Kianí del Valle Solo Dance Performance)
-    
-Kuboraum Editions)
-
-Manas
-    
-“destitutions le monde”
-    
-The most yielding thing in the world will overcome the most rigid
-    
-American Dreams)
-
-Krallice
-    
-“Indecipherable Divinities”
-    
-Scour Order
-    
-Profound Lore)
-
-hellhound
-    
-“venus in libra”
-    
-Here In The Valley
-    
-Constellation Tatsu)
-
-Adventures In Sound And Music broadcasts at 9pm every Thursday on Resonance 104.4FM and Resonance Extra. Explore past shows in our On Air archive.]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The AI-Energy-Fascism Nexus]]></title>
-        <id>https://disjunctionsmag.com/articles/ai-energy-fascism</id>
-        <link href="https://disjunctionsmag.com/articles/ai-energy-fascism"/>
-        <updated>2026-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On the value of knowing your enemy through their alliances]]></summary>
-        <author>
-            <name>Disjunctions Magazine</name>
         </author>
     </entry>
     <entry>
