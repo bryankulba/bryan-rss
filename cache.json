@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6ae665d175500b00012ff7a8",
+          "author": "Patrick Tanguay",
+          "description": "No.423 — New alliance open to like-minded countries ⊗ Shaping glocal tomorrows ⊗ The Three-Layer Cake ⊗ Drones are reseeding Canada ⊗ A macro journey underwater",
+          "link": "https://sentiers.media/humans-are-better-than-we-think-the-bots-are-just-the-closers-no-423/",
+          "publishedOn": "2026-11-01T11:00:00.000Z",
+          "wordCount": 2855,
+          "title": "Humans are better than we think ⊗ The bots are just the closers",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/petitesmisres00balz_0353-edit-crop.jpg"
+        },
+        {
           "id": "6add294f75afe100018d172d",
           "author": "Patrick Tanguay",
           "description": "No.422 — Bodies for AI ⊗ A surprising synthesis of well-known ideas ⊗ What We Choose Next ⊗ AI optimists in developing nations ⊗ The mangrove as a wall ⊗ How hunting owls use sound",
@@ -101,16 +111,6 @@
           "wordCount": 1361,
           "title": "Mathematics as a new Age of Discovery (and what they might find)",
           "imageUrl": "https://interconnected.org/home/2026/10/10/math.png?v=1"
-        },
-        {
-          "id": "https://interconnected.org/home/2026/10/02/works",
-          "author": null,
-          "description": "It has been a busy summer over at Inanimate.\nYes that is still a holding page.\nBringing up a new consumer electronics company is, uh, kinda intense.\nSo where we’re starting with the whole room computer, ambient intelligence thing is WORKS: five limited-edition devices for your AI agent and you.\nFirstly: five??\nYeah haha it’s wild. It’s one platform, many instances.\nBut also: what are they?\nAt this point I would recommend you go watch our latest vid from this week…\n\nWatch: WORKS in Progress: Decision Made - Five AI Devices We’re Building (YouTube).\nWe’ve been telling the story of the design process, and getting down from dozens and dozens of concepts, and this is… well, not quite the “reveal”…\n…more like we name the product archetypes that we’re heading for, and there is still a TON of indu…",
-          "link": "https://interconnected.org/home/2026/10/02/works",
-          "publishedOn": "2026-10-02T16:46:00.000Z",
-          "wordCount": 700,
-          "title": "What we’re building at Inanimate and how to follow along",
-          "imageUrl": "https://interconnected.org/home/2026/10/02/works.png?v=1"
         }
       ]
     },
@@ -2039,56 +2039,6 @@
           "wordCount": 603,
           "title": "Is American Culture Simply Bad Now? I’ve been hanging...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049708-link",
-          "author": null,
-          "description": "Back in 2005, a group of restorers established a hidden workshop in Paris’s Panthéon and snuck into the building for a whole year to repair an antique clock. “The group managed to connect the hideaway to the electricity grid and install a computer…” Wild!",
-          "link": "https://kottke.org/26/10/0049708-link",
-          "publishedOn": "2026-10-02T21:18:00.000Z",
-          "wordCount": 731,
-          "title": "Back in 2005, a group of restorers established a hidden...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049728-orysnack-the-bar-where-ba",
-          "author": null,
-          "description": "OrySnack: The Bar Where Bartenders Work From Home. Small robot servers in this Japanese bar are controlled by people who can only work from home because of disability or illness.",
-          "link": "https://kottke.org/26/10/0049728-orysnack-the-bar-where-ba",
-          "publishedOn": "2026-10-02T20:18:00.000Z",
-          "wordCount": 774,
-          "title": "OrySnack: The Bar Where Bartenders Work From Home. Small...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/the-100-best-tv-shows-of-the-21st-century",
-          "author": null,
-          "description": "Last week, the NY Times dropped a list of The 100 Best TV Shows of the 21st Century, as picked by a panel of “more than 500 influential stars, showrunners and other notable names in the world of TV”. The rankings have already been dissected online six ways from Sunday, but the link got lost in my forest of browser tabs and so here it is, a bit late but still interesting.\nHere are some of my personal favorites from the list and arrowed opinions on whether some should be higher or lower on the list: Halt and Catch Fire (↑), Reservation Dogs (↑), Shogun (↑↑↑), The Great British Bake Off, Planet Earth, Downton Abbey (↓), The Good Place (↑), Normal People, Schitt’s Creek, Andor (↑↑), Severance (↓), Band of Brothers (↑), Deadwood (↑), The Crown (↓), Chernobyl (↑), The Americans (↑), Six Feet Under (↓), Girls (↓), Arrested Development, The Office (US), 30 Rock, Game of Thrones, Fleabag (↑), Succession, Mad Men, The Wire (↑), and Breaking Bad (↓).\nThere are many excellent shows that didn’t make the list — the one that immediately pops into my mind is My Brilliant Friend. As for stuff that’s on there that perhaps could be replaced with something more worthy, I’ll hold my tongue. I do think the inclusion of some of the more recent shows on the list will not age well when this is looked back on in, say, 10 years.\n\n \n\n        \n         \nTags: best of · lists · TV",
-          "link": "https://kottke.org/26/10/the-100-best-tv-shows-of-the-21st-century",
-          "publishedOn": "2026-10-02T18:50:00.000Z",
-          "wordCount": 2701,
-          "title": "The 100 Best TV Shows of the 21st Century",
-          "imageUrl": "http://kottke.org/images/posts/01/editor-1790911713-ef46275a.png"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049648-dont-cook-that",
-          "author": null,
-          "description": "Don’t Cook That: a collection of real recipes that you shouldn’t make. Cholera remedy recipe calls for “equal parts laudanum, rhubarb, double-strength capsicum, camphor and spirits of nitre”.",
-          "link": "https://kottke.org/26/10/0049648-dont-cook-that",
-          "publishedOn": "2026-10-02T18:00:00.000Z",
-          "wordCount": 706,
-          "title": "Don’t Cook That: a collection of real recipes that you...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/so-many-amazing-control-rooms",
-          "author": null,
-          "description": "From the Control Rooms group on Flickr. 🤩 So many little details in all of these photos to pore over.\nSee also Why So Many Control Rooms Were Seafoam Green, The User Experience Design of Lego Interface Panels, Inside NORAD’s Cheyenne Mountain Combat Center (c. 1966), and Lots and Lots of Control Panels.\n\n \n\n        \n         \nTags: photography",
-          "link": "https://kottke.org/26/10/so-many-amazing-control-rooms",
-          "publishedOn": "2026-10-02T16:30:00.000Z",
-          "wordCount": 713,
-          "title": "So Many Amazing Control Rooms",
-          "imageUrl": "http://kottke.org/images/posts/01/editor-1790918389-1b21fcdd.jpg"
         }
       ]
     },
@@ -2852,6 +2802,22 @@
       "siteUrl": "https://www.blackbirdspyplane.com",
       "articles": [
         {
+          "id": "https://www.blackbirdspyplane.com/p/battle-of-the-v-necks",
+          "author": "Blackbird Spyplane",
+          "description": "High-low knits. Plus how to style skirt sets, classic boot makers & vintage sweaters",
+          "link": "https://www.blackbirdspyplane.com/p/battle-of-the-v-necks",
+          "publishedOn": "2026-11-01T14:03:42.000Z",
+          "wordCount": null,
+          "title": "Battle of the V-necks",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!Yezt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bcb13a5-5b4c-450e-b0b2-d31ccefdcb10_1470x1212.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Yezt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bcb13a5-5b4c-450e-b0b2-d31ccefdcb10_1470x1212.png"
+        },
+        {
           "id": "https://www.blackbirdspyplane.com/p/shared-acts-of-joy-and-commerce",
           "author": "Blackbird Spyplane",
           "description": "Secondhand swag, unkillable merch, a cool new home-decor plug & more",
@@ -3234,6 +3200,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+          "author": null,
+          "description": "<blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]</p>\n<p>In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\">Kyle Kingsbury</a>, Jepsen results for ParticleDB 1.1.4</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kyle-kingsbury\">kyle-kingsbury</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+          "publishedOn": "2026-11-01T16:49:04.000Z",
+          "wordCount": 795,
+          "title": "Quoting Kyle Kingsbury",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
           "author": null,
@@ -3962,16 +3938,6 @@
           "publishedOn": "2026-10-03T22:00:31.000Z",
           "wordCount": 810,
           "title": "September sponsors-only newsletter",
-          "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-          "author": null,
-          "description": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex&#x27;s Dino Store</a></p>\n        <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p>\n<p>The density of dinosaur puns is <em>exceptional</em>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
-          "link": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-          "publishedOn": "2026-10-02T22:57:38.000Z",
-          "wordCount": 768,
-          "title": "Rex's Dino Store",
           "imageUrl": null
         }
       ]
