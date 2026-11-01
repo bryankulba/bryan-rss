@@ -2089,56 +2089,6 @@
           "wordCount": 713,
           "title": "So Many Amazing Control Rooms",
           "imageUrl": "http://kottke.org/images/posts/01/editor-1790918389-1b21fcdd.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa",
-          "author": null,
-          "description": "The Bayeux Tapestry of Fascism. “What’s this middle bit?” “Why, that’s the Battle of Legitimate Concerns!”",
-          "link": "https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa",
-          "publishedOn": "2026-10-02T15:40:00.000Z",
-          "wordCount": 540,
-          "title": "The Bayeux Tapestry of Fascism. “What’s this middle bit?”...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049730-influencers-are-the-priva",
-          "author": null,
-          "description": "“Influencers are the private equity of culture: draining whatever’s ‘cool’ until higher prices and worse experiences push out the original fan base. Then they move on to the next thing, leaving the original to die…” 🎯",
-          "link": "https://kottke.org/26/10/0049730-influencers-are-the-priva",
-          "publishedOn": "2026-10-02T14:40:00.000Z",
-          "wordCount": 612,
-          "title": "“Influencers are the private equity of culture: draining...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail",
-          "author": null,
-          "description": "In this video, Patrick Hicks tells the story of the development of the classic educational video game The Oregon Trail and how Prince (you know, the genius musical artist) was one of the first people in the world to play the very first version of the game.\nThe basic story is that a college history major (Don Rawitsch) teamed up with two friends (Bill Heinemann and Paul Dillenberger), both of whom were math majors and had some programming experience, to make a computer game to liven up the history class that Rawitsch was student teaching. While developing the game, Heinemann & Dillenberger tested it out with some kids at the high school at which they were student teaching…and one of those kids was Prince Rogers Nelson.\nPaul would later say that he heard about Prince before he even met him. One of the other teachers told him, “There’s this kid here who basically is running his own business. He’s this amazing musician who plays all these instruments and writes his own songs.” And then later, Paul realized that that was Prince.\n\n\t\nBut listen to Hicks tell the whole thing…it’s a good story. And if you want to hear a lot more of the story, here’s Gaming Historian’s feature-length documentary (the Prince anecdote is at ~24:00).\n\nYou can play the familar 1980s version of the The Oregon Trail online.\n\n \n\n        \n         \nTags: Oregon Trail · prince · video · video games",
-          "link": "https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail",
-          "publishedOn": "2026-10-02T13:40:00.000Z",
-          "wordCount": 871,
-          "title": "Prince Was One of the First Players of The Oregon Trail",
-          "imageUrl": "https://i.ytimg.com/vi/6CeQLolnZIc/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049725-will-soon-raise-sea-level",
-          "author": null,
-          "description": "A “Kelvin wave” powered by El Niño will soon raise sea levels in California “by half a foot or more”. “It’s ‘highly probable’ that California will soon witness its highest sea levels ever recorded.”",
-          "link": "https://kottke.org/26/10/0049725-will-soon-raise-sea-level",
-          "publishedOn": "2026-10-02T13:00:00.000Z",
-          "wordCount": 710,
-          "title": "A “Kelvin wave” powered by El Niño will soon raise sea...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049731-the-student-journalists-w",
-          "author": null,
-          "description": "The Student Journalists Who Never Let the Cornell Assault Case Go. “Why be financially independent, [editor in chief Sophia Dasser] wondered, if not to publish sharp-edged views of the biggest campus issues?”",
-          "link": "https://kottke.org/26/10/0049731-the-student-journalists-w",
-          "publishedOn": "2026-10-02T11:30:00.000Z",
-          "wordCount": 596,
-          "title": "The Student Journalists Who Never Let the Cornell Assault...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2786,16 +2736,6 @@
           "wordCount": 1177,
           "title": "3oct26",
           "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=19072",
-          "author": "Warren Ellis",
-          "description": "So hear me out: Handmade smoked cheddar, charcoal crackers, quince paste, organic Transylvanian walnuts, organic figs, and a small glass of Muscat Petits Grains Passerillés…",
-          "link": "https://warrenellis.ltd/status/2oct26/",
-          "publishedOn": "2026-10-02T11:24:36.000Z",
-          "wordCount": 1210,
-          "title": "2oct26",
-          "imageUrl": "https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -3294,6 +3234,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p>\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called <a href=\"https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt\">HTML previews</a>), where interactive custom HTML apps are displayed in a sandboxed iframe.</p>\n<p>It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.</p>\n<p>Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes <a href=\"https://mathlive.io/mathfield/virtual-keyboard/\">its own virtual keyboard</a>, which can be triggered in the parent page via <code>postMessage()</code> from the sandboxed iframe.</p>\n<p>That message receiving code uses <code>innerHTML</code>, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.</p>\n<p>This meant untrusted code in an iframe could insert HTML, and while <code>innerHTML</code> doesn't directly execute script elements it could be used to inject a new iframe <em>without</em> sandbox restrictions.</p>\n<p>OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.</p>\n<p>Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference.</p>\n<p>The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.</p>\n<p>OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/iframes\">iframes</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/xss\">xss</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/content-security-policy\">content-security-policy</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "publishedOn": "2026-10-31T23:15:22.000Z",
+          "wordCount": 1074,
+          "title": "How We Took Over ChatGPT Accounts",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p>\n        <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p>\n<p>It now picks up the default model used by <a href=\"https://llm.datasette.io/\">LLM</a>, which means you can start using Datasette Agent without needing to explicitly configure a default model:</p>\n<pre><code>uvx --with datasette-agent datasette content.db --internal internal.db\n</code></pre>\n<p>Previously you would also need to specify a model with <code>-s plugins.datasette-agent.default_model gpt-6-astra</code>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "publishedOn": "2026-10-31T22:10:01.000Z",
+          "wordCount": 845,
+          "title": "datasette-llm 0.1a9",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Oct/30/nesformer/",
           "author": null,
@@ -4248,16 +4208,6 @@
           "wordCount": 4173,
           "title": "Is AI the End of Math As We Know It?",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Qualia-MathWoes-cr.Eduardo-Ramon-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=167558",
-          "author": "Stephen Ornes",
-          "description": "Scientists assumed that energy flows in only one direction in a turbulent system. What they didn’t know, until they looked closely at brine shrimp, was that a simple factor can reverse the flow.            \nThe post Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/",
-          "publishedOn": "2026-10-02T14:45:02.000Z",
-          "wordCount": 3308,
-          "title": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/ManipulatingTurbulence-crXinyuSi_UniversityOfPittsburgh-Social.jpg"
         }
       ]
     },

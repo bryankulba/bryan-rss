@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-10-31T23:03:32.213Z</updated>
+    <updated>2026-11-01T04:17:08.103Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How We Took Over ChatGPT Accounts]]></title>
+        <id>https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/</id>
+        <link href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"/>
+        <updated>2026-10-31T23:15:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.parameter.ai/labs/we-found-a-gap-at-openai">How We Took Over ChatGPT Accounts</a></strong></p>
+Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this "Canvas" but it looks like the latest revision is called <a href="https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt">HTML previews</a>), where interactive custom HTML apps are displayed in a sandboxed iframe.</p>
+<p>It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.</p>
+<p>Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes <a href="https://mathlive.io/mathfield/virtual-keyboard/">its own virtual keyboard</a>, which can be triggered in the parent page via <code>postMessage()</code> from the sandboxed iframe.</p>
+<p>That message receiving code uses <code>innerHTML</code>, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.</p>
+<p>This meant untrusted code in an iframe could insert HTML, and while <code>innerHTML</code> doesn't directly execute script elements it could be used to inject a new iframe <em>without</em> sandbox restrictions.</p>
+<p>OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.</p>
+<p>Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference.</p>
+<p>The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.</p>
+<p>OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50314699">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/iframes">iframes</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/xss">xss</a>, <a href="https://simonwillison.net/tags/openai">openai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/content-security-policy">content-security-policy</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-llm 0.1a9]]></title>
+        <id>https://simonwillison.net/2026/Oct/31/datasette-llm/</id>
+        <link href="https://simonwillison.net/2026/Oct/31/datasette-llm/"/>
+        <updated>2026-10-31T22:10:01.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a9">datasette-llm 0.1a9</a></p>
+        <p>I have some big upgrades to <a href="https://agent.datasette.io/">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p>
+<p>It now picks up the default model used by <a href="https://llm.datasette.io/">LLM</a>, which means you can start using Datasette Agent without needing to explicitly configure a default model:</p>
+<pre><code>uvx --with datasette-agent datasette content.db --internal internal.db
+</code></pre>
+<p>Previously you would also need to specify a model with <code>-s plugins.datasette-agent.default_model gpt-6-astra</code>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Online censorship is crushing indie webcomics]]></title>
         <id>https://waxy.org/?p=51344</id>
@@ -6917,90 +6959,6 @@ See also Why So Many Control Rooms Were Seafoam Green, The User Experience Desig
 Tags: photography]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Bayeux Tapestry of Fascism. “What’s this middle bit?”...]]></title>
-        <id>https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa</id>
-        <link href="https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa"/>
-        <updated>2026-10-02T15:40:00.000Z</updated>
-        <summary type="html"><![CDATA[The Bayeux Tapestry of Fascism. “What’s this middle bit?” “Why, that’s the Battle of Legitimate Concerns!”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence]]></title>
-        <id>https://www.quantamagazine.org/?p=167558</id>
-        <link href="https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/"/>
-        <updated>2026-10-02T14:45:02.000Z</updated>
-        <summary type="html"><![CDATA[Scientists assumed that energy flows in only one direction in a turbulent system. What they didn’t know, until they looked closely at brine shrimp, was that a simple factor can reverse the flow.            
-The post Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Stephen Ornes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Influencers are the private equity of culture: draining...]]></title>
-        <id>https://kottke.org/26/10/0049730-influencers-are-the-priva</id>
-        <link href="https://kottke.org/26/10/0049730-influencers-are-the-priva"/>
-        <updated>2026-10-02T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[“Influencers are the private equity of culture: draining whatever’s ‘cool’ until higher prices and worse experiences push out the original fan base. Then they move on to the next thing, leaving the original to die…” 🎯]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prince Was One of the First Players of The Oregon Trail]]></title>
-        <id>https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail</id>
-        <link href="https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail"/>
-        <updated>2026-10-02T13:40:00.000Z</updated>
-        <summary type="html"><![CDATA[In this video, Patrick Hicks tells the story of the development of the classic educational video game The Oregon Trail and how Prince (you know, the genius musical artist) was one of the first people in the world to play the very first version of the game.
-The basic story is that a college history major (Don Rawitsch) teamed up with two friends (Bill Heinemann and Paul Dillenberger), both of whom were math majors and had some programming experience, to make a computer game to liven up the history class that Rawitsch was student teaching. While developing the game, Heinemann & Dillenberger tested it out with some kids at the high school at which they were student teaching…and one of those kids was Prince Rogers Nelson.
-Paul would later say that he heard about Prince before he even met him. One of the other teachers told him, “There’s this kid here who basically is running his own business. He’s this amazing musician who plays all these instruments and writes his own songs.” And then later, Paul realized that that was Prince.
-
-	
-But listen to Hicks tell the whole thing…it’s a good story. And if you want to hear a lot more of the story, here’s Gaming Historian’s feature-length documentary (the Prince anecdote is at ~24:00).
-
-You can play the familar 1980s version of the The Oregon Trail online.
-
- 
-
-        
-         
-Tags: Oregon Trail · prince · video · video games]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A “Kelvin wave” powered by El Niño will soon raise sea...]]></title>
-        <id>https://kottke.org/26/10/0049725-will-soon-raise-sea-level</id>
-        <link href="https://kottke.org/26/10/0049725-will-soon-raise-sea-level"/>
-        <updated>2026-10-02T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A “Kelvin wave” powered by El Niño will soon raise sea levels in California “by half a foot or more”. “It’s ‘highly probable’ that California will soon witness its highest sea levels ever recorded.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Student Journalists Who Never Let the Cornell Assault...]]></title>
-        <id>https://kottke.org/26/10/0049731-the-student-journalists-w</id>
-        <link href="https://kottke.org/26/10/0049731-the-student-journalists-w"/>
-        <updated>2026-10-02T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The Student Journalists Who Never Let the Cornell Assault Case Go. “Why be financially independent, [editor in chief Sophia Dasser] wondered, if not to publish sharp-edged views of the biggest campus issues?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2oct26]]></title>
-        <id>https://warrenellis.ltd/?p=19072</id>
-        <link href="https://warrenellis.ltd/status/2oct26/"/>
-        <updated>2026-10-02T11:24:36.000Z</updated>
-        <summary type="html"><![CDATA[So hear me out: Handmade smoked cheddar, charcoal crackers, quince paste, organic Transylvanian walnuts, organic figs, and a small glass of Muscat Petits Grains Passerillés…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>

@@ -35,6 +35,63 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-31T23:15:22.000Z">2026-10-31</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/" target="_blank" rel="noopener noreferrer">How We Took Over ChatGPT Accounts</a>
+          </h2>
+          <p class="feed-item__desc">How We Took Over ChatGPT Accounts
+HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe.
+It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.
+Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard, which can be triggered in the parent page via postMessage() from the sandboxed iframe.
+That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.
+This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions.
+OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.
+Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference.
+The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.
+OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.
+
+    
+Via Hacker News
+Tags: iframes, javascript, sandboxing, security, xss, openai, chatgpt, content-security-policy</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/31/datasette-llm/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-10-31T22:10:01.000Z">2026-10-31</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Oct/31/datasette-llm/" target="_blank" rel="noopener noreferrer">datasette-llm 0.1a9</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-llm 0.1a9
+I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. 
+It now picks up the default model used by LLM, which means you can start using Datasette Agent without needing to explicitly configure a default model:
+uvx --with datasette-agent datasette content.db --internal internal.db
+
+Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra.
+Tags: datasette, llm, datasette-agent</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/31/datasette-llm/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/31/datasette-llm/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51344">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-10-31T16:32:11.000Z">2026-10-31</time>
@@ -11309,162 +11366,6 @@ Tags: photography</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="http://kottke.org/images/posts/01/editor-1790918389-1b21fcdd.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T15:40:00.000Z">2026-10-02</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa" target="_blank" rel="noopener noreferrer">The Bayeux Tapestry of Fascism. “What’s this middle bit?”...</a>
-          </h2>
-          <p class="feed-item__desc">The Bayeux Tapestry of Fascism. “What’s this middle bit?” “Why, that’s the Battle of Legitimate Concerns!”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049713-the-bayeux-tapestry-of-fa">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;167558">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T14:45:02.000Z">2026-10-02</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/" target="_blank" rel="noopener noreferrer">Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence</a>
-          </h2>
-          <p class="feed-item__desc">Scientists assumed that energy flows in only one direction in a turbulent system. What they didn’t know, until they looked closely at brine shrimp, was that a simple factor can reverse the flow.            
-The post Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;167558" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;167558">Mark read</button>
-            <span class="feed-item__reading-time">11 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/10/ManipulatingTurbulence-crXinyuSi_UniversityOfPittsburgh-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049730-influencers-are-the-priva">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T14:40:00.000Z">2026-10-02</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049730-influencers-are-the-priva" target="_blank" rel="noopener noreferrer">“Influencers are the private equity of culture: draining...</a>
-          </h2>
-          <p class="feed-item__desc">“Influencers are the private equity of culture: draining whatever’s ‘cool’ until higher prices and worse experiences push out the original fan base. Then they move on to the next thing, leaving the original to die…” 🎯</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049730-influencers-are-the-priva" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049730-influencers-are-the-priva">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T13:40:00.000Z">2026-10-02</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail" target="_blank" rel="noopener noreferrer">Prince Was One of the First Players of The Oregon Trail</a>
-          </h2>
-          <p class="feed-item__desc">In this video, Patrick Hicks tells the story of the development of the classic educational video game The Oregon Trail and how Prince (you know, the genius musical artist) was one of the first people in the world to play the very first version of the game.
-The basic story is that a college history major (Don Rawitsch) teamed up with two friends (Bill Heinemann and Paul Dillenberger), both of whom were math majors and had some programming experience, to make a computer game to liven up the history class that Rawitsch was student teaching. While developing the game, Heinemann & Dillenberger tested it out with some kids at the high school at which they were student teaching…and one of those kids was Prince Rogers Nelson.
-Paul would later say that he heard about Prince before he even met him. One of the other teachers told him, “There’s this kid here who basically is running his own business. He’s this amazing musician who plays all these instruments and writes his own songs.” And then later, Paul realized that that was Prince.
-
-	
-But listen to Hicks tell the whole thing…it’s a good story. And if you want to hear a lot more of the story, here’s Gaming Historian’s feature-length documentary (the Prince anecdote is at ~24:00).
-
-You can play the familar 1980s version of the The Oregon Trail online.
-
- 
-
-        
-         
-Tags: Oregon Trail · prince · video · video games</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/prince-was-one-of-the-first-players-of-the-oregon-trail">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/6CeQLolnZIc/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049725-will-soon-raise-sea-level">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T13:00:00.000Z">2026-10-02</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049725-will-soon-raise-sea-level" target="_blank" rel="noopener noreferrer">A “Kelvin wave” powered by El Niño will soon raise sea...</a>
-          </h2>
-          <p class="feed-item__desc">A “Kelvin wave” powered by El Niño will soon raise sea levels in California “by half a foot or more”. “It’s ‘highly probable’ that California will soon witness its highest sea levels ever recorded.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049725-will-soon-raise-sea-level" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049725-will-soon-raise-sea-level">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049731-the-student-journalists-w">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T11:30:00.000Z">2026-10-02</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049731-the-student-journalists-w" target="_blank" rel="noopener noreferrer">The Student Journalists Who Never Let the Cornell Assault...</a>
-          </h2>
-          <p class="feed-item__desc">The Student Journalists Who Never Let the Cornell Assault Case Go. “Why be financially independent, [editor in chief Sophia Dasser] wondered, if not to publish sharp-edged views of the biggest campus issues?”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049731-the-student-journalists-w" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049731-the-student-journalists-w">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19072">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-02T11:24:36.000Z">2026-10-02</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/2oct26/" target="_blank" rel="noopener noreferrer">2oct26</a>
-          </h2>
-          <p class="feed-item__desc">So hear me out: Handmade smoked cheddar, charcoal crackers, quince paste, organic Transylvanian walnuts, organic figs, and a small glass of Muscat Petits Grains Passerillés…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;19072" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;19072">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit&#x3D;512%2C512&amp;ssl&#x3D;1" alt="" loading="lazy">
         </div>
       </div>
     </article>
