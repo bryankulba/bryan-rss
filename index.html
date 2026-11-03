@@ -35,6 +35,260 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/10-years-of-kottkeorg-membership">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T16:36:00.000Z">2026-11-03</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/10-years-of-kottkeorg-membership" target="_blank" rel="noopener noreferrer">10 Years of Kottke.org Membership</a>
+          </h2>
+          <p class="feed-item__desc">An important KDO milestone whooshed by the other day and I was so heads-down on tuning up the new search engine (more on that below) that I missed it. So: it’s been 10 years since I started the KDO membership program! (Quick recap of the value proposition from the membership page FAQ: “kottke.org is my full-time job and member support keeps the site free, open, and available to everyone on an internet that is increasingly paywalled.”)
+10 years! It is impossible for me to overstate the impact membership has had on my work. Beyond the simple fact that KDO wouldn’t exist without it, membership support allows me the freedom to choose when, where, how, and why to work, resulting, IMO, a better place for all of us to spend time.
+The last couple of years have felt especially membership-inflected …</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/10-years-of-kottkeorg-membership" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/10-years-of-kottkeorg-membership">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T16:29:48.000Z">2026-11-03</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" target="_blank" rel="noopener noreferrer">Qwen 3.8 27B on my laptop can interpret model weights, too</a>
+          </h2>
+          <p class="feed-item__desc">Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen 3.8 27B running on my laptop can do this as well!
+
+Weight-Space Programming
+
+Here's the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights:
+
+
+Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do. And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps.
+
+Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights. With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x.
+
+All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this Weight-Space Programming.
+
+
+The paper combines two topics that I think deserve to be treated separately. The first is what models can do with raw weights without running tools or executing code. The second explores how well models, once armed with code, can run operations to update and improve other models.
+
+spaCy author Matthew Honnibal called the paper misleading for conflating the two, and Sean Goedecke deconstructed the Qwen3.5-0.8B update example as taking the same steps that a human ML researcher would use.
+
+I'm going to focus on the no-tools question, which I think is the more interesting of the two.
+
+The paper presents the first question as Can LLMs understand model behaviors from weights? They trained four neural networks to play simplified 10x10 grid versions of four classic computer games - Breakout, Pong, Pac-Man, and Freeway (I had to look that one up, it's an Atari 2600 game from 1981). Then they fed those weights (as floating point numbers) to an LLM along with the following question:
+
+
+The weights below belong to one policy network that was trained with reinforcement learning to play a game on this grid. Which game was it trained on? Work from the weights. You have no tools: no code execution, no calculator, nothing to run. This is a single response.
+
+
+The GitHub repository that accompanies the paper is RikiyaT/lm_understand-logs. The exp1_which_game folder contains the prompts they used, with weights for the four games:
+
+
+breakout/prompt.txt
+
+freeway/prompt.txt
+
+pacman/prompt.txt
+
+pong/prompt.txt
+
+
+I checked and, aside from the weights, each prompt is identical to the others.
+
+Trying it out with Qwen 3.8 27B and other models
+
+The prompts on GitHub are self-contained. My LLM tool has a -f/--fragment option which can be passed the URL to a text file to use as a prompt, which means I can run any of the above like this:
+
+
+llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/breakout/prompt.txt \
+  -m openrouter/moonshotai/kimi-k3.1-pro
+
+This example requires the llm-openrouter plugin installed, and runs the Breakout prompt against Kimi K3.1 Pro via OpenRouter. Here's what I got back from Kimi K3.1 Pro, which successfully guessed Breakout after 9m 41s and 19,493 reasoning tokens.
+
+But how about Qwen 3.8 27B? That's still my favorite model to run on my own laptop - it's just 17GB (I use this version) and somehow feels close to the leading proprietary models of 2025.
+
+I fired up LM Studio, ensured Qwen 3.8 27B was loaded with a long context window (the default 8192 context failed with errors), installed the llm-lmstudio plugin and ran this command:
+
+
+LMSTUDIO_TIMEOUT=900 \
+  llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/pacman/prompt.txt \
+  -m lmstudio/qwen/qwen3.8-27b
+
+(I had to bump the timeout up using an environment variable, see this issue.)
+
+After 46m 12s and 43,506 reasoning tokens, Qwen on my laptop returned a response that ended like this (here's the reasoning trace):
+
+
+Game: A simplified Pac-Man-style gridworld: an agent moves through a fixed 8x8 maze with central and corner wall blocks, moving objects/ghosts, and reward targets/pellets.
+
+Description: The agent navigates a fixed maze-like 8x8 board, using current agent/moving-object/previous-frame cues to move through corridors, collect reward-target cells, and avoid moving objects or hazards.
+
+Confidence: 72%
+
+
+This is impressive. I tried it on two of the other games as well. It identified Pong (reasoning) in 1h 4m 54s:
+
+
+Pong — specifically a Pong-like paddle/ball game where the agent controls a vertical paddle on the right side and must move up/down to intercept or return a moving ball/reward object.
+
+Description:
+
+The agent moves a right-side paddle vertically to hit or catch a moving ball-like reward target moving across the 8×8 field, while a left-side moving object/opponent and wall borders define the play; reward is obtained by successfully intercepting/returning/scoring the ball, and missing or failing to hit it is penalized.
+
+Confidence:
+
+75%
+
+
+And Breakout (reasoning) in 52m 25s:
+
+
+Game: Breakout, or an Arkanoid-like paddle/ball/brick game.
+
+Description: The agent is a paddle on the bottom row and moves left/right to keep a ball in play; the ball moves around the upper grid, and bricks/reward targets in the top rows give reward when hit, while missing the ball/hitting the bottom wall ends the episode or gives penalty.
+
+Confidence: 88%
+
+
+Qwen failed at the Freeway prompt, which didn't surprise me considering that game is more obscure than the other three. Here's that transcript - Qwen thought it was "A simplified Pac-Man-like grid game: agent moves 4-directionally".
+
+The reasoning traces are fun to skim, and almost incomprehensible. Here's a sample:
+
+
+What about agent channel0? We see some large channel0 rows near row8 col7/8 and maybe bottom? Let's list channel0 large: line436 input435 (row8 col7 ch0) -2.107,1.169,0.513...; line441 input440 (row8 col8 ch0) -0.376,0.010,1.564,3.855...; line445 input444 (row8 col8 ch4) 0.142,0.491...; line382? input381 ch0? Wait line382 input381: 381//5=76 (row7 col6), ch1? 381%5=1? 76 * 5=380, ch1. So not. Channel0 large maybe at row8 col7/8 only. Also top row? line44 input43 ch3, line49 ch3. Channel0 large maybe not many. Agent position could be near bottom-right? If the agent is typically at bottom-right?
+
+
+That said though, I expect a sufficiently experienced human being armed with a notepad and a pencil could get there with enough effort.
+
+It's a cool paper, but some of the wider commentary I've seen around it does not feel justified. I'm not ready to declare that the age of source code is over and our future involves incomprehensible machines editing their own model weights in incomprehensible ways.
+Tags: machine-learning, ai, generative-ai, local-llms, llms, qwen, paper-review</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">Mark read</button>
+            <span class="feed-item__reading-time">7 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0049914-hyperscale-the-ambition-a">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T15:41:00.000Z">2026-11-03</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0049914-hyperscale-the-ambition-a" target="_blank" rel="noopener noreferrer">Hyperscale: The Ambition and Excess of Big Tech’s Data...</a>
+          </h2>
+          <p class="feed-item__desc">Hyperscale: The Ambition and Excess of Big Tech’s Data Empires by Paris Marx. “He exposes the deceptive, exploitative ways tech companies are siphoning energy and resources from vulnerable communities in their pursuit of digital power…”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0049914-hyperscale-the-ambition-a" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0049914-hyperscale-the-ambition-a">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13467">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T14:19:29.000Z">2026-11-03</time>
+        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://pluralistic.net/2026/11/03/nobody-is-home/" target="_blank" rel="noopener noreferrer">Pluralistic: Separable (03 Nov 2026)</a>
+          </h2>
+          <p class="feed-item__desc">Today's links Separable: AI makes us deal with paintings without painters, words without writers and mathematics without mathematicians. Hey look at this: Delights to delectate. Object permanence: Haircase; There's no copyright policy; Sole and despotic dominion; Trump x fraud; Brexit requires an act of Parliament; Official Air Travel Replacement Knives; UK hospitals v malware. Upcoming appearances: Kilkenny, Courtenay, Vancouver, Folkestone, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Separable (permalink) Long before the Turing Test, there was the touring Edison Test: from 1915 to 1925, the scoundrel Thomas Edison put…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13467" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13467">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/youthful-freak-s--t">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T12:03:51.000Z">2026-11-03</time>
+        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.blackbirdspyplane.com/p/youthful-freak-s--t" target="_blank" rel="noopener noreferrer">Youthful freak s--t</a>
+          </h2>
+          <p class="feed-item__desc">And vibrant dignified swag</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/youthful-freak-s--t" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/youthful-freak-s--t">Mark read</button>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!5eBT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4584cc6-e354-4ac1-943f-88b83e66b673_1848x1642.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T05:32:25.000Z">2026-11-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/" target="_blank" rel="noopener noreferrer">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a>
+          </h2>
+          <p class="feed-item__desc">I discovered a sound that leaks your exact location (and it's everywhere) - YouTube
+ 
+Via Lobste.rs
+Tags: privacy, youtube</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/3/october-newsletter/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T05:28:59.000Z">2026-11-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/3/october-newsletter/" target="_blank" rel="noopener noreferrer">October sponsors-only newsletter</a>
+          </h2>
+          <p class="feed-item__desc">I sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month:
+The October inflection point for vibe game development
+The vulnerability apocalypse gets hot
+LLM releases
+API credits for $100+/month subscriptions
+What I'm using right now
+My software releases
+My September newsletter can now be seen here, as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!
+Tags: newsletter</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/3/october-newsletter/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/3/october-newsletter/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/2/llm/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-02T23:49:30.000Z">2026-11-02</time>
@@ -11409,79 +11663,6 @@ Tags: best of · best of 2026 · photography</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://i0.wp.com/warrenellis.ltd/wp-content/uploads/2019/01/cropped-phantomloop_1543333556.jpg?fit&#x3D;512%2C512&amp;ssl&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-05T00:00:00.000Z">2026-10-04</time>
-        <span class="feed-item__source">The Wire: Home</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river" target="_blank" rel="noopener noreferrer">Premiere: Ava Rasti’s  The River</a>
-          </h2>
-          <p class="feed-item__desc">The River, first performed as part of the 2025 Semibreve festival.
-
-The River by Iranian-born Berlin-based composer Ava Rasti was commissioned by Portuguese festival Semibreve and first presented on 25 October 2025 at the Capela Imaculada do Seminário Menor in Braga. The performance brought together Rasti and a string quartet composed of Filipa Abreu (violin), Vânia Oliveira (viola), Tiago Mendes (cello) and Catarina Coelho (cello).
-
-
-    Wire subscribers can read Claire Sawer's review of Semibreve 2025 here.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.thewire.co.uk/video/premiere-ava-rasti-s-the-river">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.thewire.co.uk/img/max/1200/1200/2026/10/05/the_river_crop.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-04T23:34:00.000Z">2026-10-04</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/" target="_blank" rel="noopener noreferrer">Qwen3.8 27B addition in words</a>
-          </h2>
-          <p class="feed-item__desc">Research: Qwen3.8 27B addition in words
-Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could "compute the sum but return the answer in words" across increasingly large numbers. Here's the chart he shared of those results:
-
-I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment.
-I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf. Here's the result for a run of 30 attempts per combination with reasoning disabled:
-
-Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%:
-
-It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here.
-Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this:
-Wait, let me redo this more carefully.
-
-4,299,366,105,622
-6,088,794,067,970
-
-Let me align them:
-4 2 9 9 3 6 6 1 0 5 6 2 2
-6 0 8 8 7 9 4 0 6 7 9 7 0
-
-Adding from right to left:
-Position 1 (units): 2 + 0 = 2
-Position 2 (tens): 2 + 7 = 9
-Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1
-
-Tags: mathematics, ai, generative-ai, local-llms, llms, qwen, llm-reasoning, dgx-spark</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp" alt="" loading="lazy">
         </div>
       </div>
     </article>
