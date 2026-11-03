@@ -44,26 +44,6 @@
           "wordCount": 2813,
           "title": "Reason is more than a tool ⊗ The opposite of the apocalypse is a neighborhood",
           "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/eso2607a-crop-w.jpg"
-        },
-        {
-          "id": "6ac157a7c06aa600011730e8",
-          "author": "Patrick Tanguay",
-          "description": "No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations",
-          "link": "https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary-no-419/",
-          "publishedOn": "2026-10-04T10:00:51.000Z",
-          "wordCount": 2688,
-          "title": "Artificial symbiotic intelligence ⊗ The politics of the planetary",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Hugo-Weaving-As-Agent-Smith-In-The-Matrix-bw.jpg"
-        },
-        {
-          "id": "6ac157a7c06aa600011730e8",
-          "author": "Patrick Tanguay",
-          "description": "No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations",
-          "link": "https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary/",
-          "publishedOn": "2026-10-04T10:00:51.000Z",
-          "wordCount": 2612,
-          "title": "Artificial symbiotic intelligence ⊗ The politics of the planetary",
-          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Hugo-Weaving-As-Agent-Smith-In-The-Matrix-bw.jpg"
         }
       ]
     },
@@ -280,6 +260,26 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/11/0049921-the-october-inflection-po",
+          "author": null,
+          "description": "Simon Willison: The October Inflection Point for Vibe Game Development. “The thing I find both exciting and shameful about this is that I have got interesting results from so little creative input.”",
+          "link": "https://kottke.org/26/11/0049921-the-october-inflection-po",
+          "publishedOn": "2026-11-02T22:55:00.000Z",
+          "wordCount": 621,
+          "title": "Simon Willison: The October Inflection Point for Vibe...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/0049915-arkivism",
+          "author": null,
+          "description": "Arkivism is a search and visual discovery engine for millions of public domain works from the collections of the Smithsonian, The Met, NASA, Library of Congress, National Gallery of Art, Rijksmuseum, and more.",
+          "link": "https://kottke.org/26/11/0049915-arkivism",
+          "publishedOn": "2026-11-02T21:37:00.000Z",
+          "wordCount": 701,
+          "title": "Arkivism is a search and visual discovery engine for...",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/11/0049920-ted-chiang",
           "author": null,
@@ -3291,6 +3291,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Nov/2/llm/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37\">llm 0.37</a></p>\n        <p>There's a <em>lot</em> of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.</p>\n<p>I added <code>gpt-6.1-sol</code> and <code>gpt-6.1-terra</code>, plus a new <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">llm openai endpoint add</a> command to make it easier to configure additional models that use OpenAI-compatible endpoints.</p>\n<p>I switched the default model (if you have not set your own default) to <code>gpt-6-luna</code> - half the price of the previous default, <code>gpt-5.6-luna</code>.</p>\n<p>LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like <a href=\"https://deepmind.google/models/gemini/embedding/\">Gemini Embedding 2</a>, which can embed text, audio, images, and video.</p>\n<p>A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes!</p>\n<p>This release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix.</p>\n<p>So thanks to <a href=\"https://github.com/0d00ciallo0721\">0d00ciallo0721</a>, <a href=\"https://github.com/ac1982\">ac1982</a>, <a href=\"https://github.com/allenflux\">Allen Flux</a>, <a href=\"https://github.com/bianyh\">Bian Yuhan</a>, <a href=\"https://github.com/porkedchop\">Bishop Kammeraad</a>, <a href=\"https://github.com/feiiiiii5\">Chen Yufeiyang</a>, <a href=\"https://github.com/chrikrah\">Christopher Krah</a>, <a href=\"https://github.com/ethanstoner\">Ethan Stoner</a>, <a href=\"https://github.com/er-s-an\">Jiachen Xie</a>, <a href=\"https://github.com/Pajimo\">Olamide Faniyan</a>, <a href=\"https://github.com/sharatchandrasai999-sketch\">Sharat Chandra Sai Boddu</a>, <a href=\"https://github.com/nosmile99\">nosmile99</a> for helping out with (or spending tokens on) this release!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/embeddings\">embeddings</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/2/llm/",
+          "publishedOn": "2026-11-02T23:49:30.000Z",
+          "wordCount": 1021,
+          "title": "llm 0.37",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
           "author": null,
           "description": "<p>I was reminded today of <a href=\"https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/\">AI Adoption Rate Trending Down for Large Companies</a>, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart <a href=\"https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/\">to demonstrate GPT-5 data analysis</a>, and then <a href=\"https://simonwillison.net/2025/Sep/9/claude-code-interpreter/#something-much-harder-recreating-the-ai-adoption-chart\">to experiment with Claude's new Code Interpreter</a>. I decided to try running those numbers again to see what had changed over the past year, and in doing so learned that the Bureau has fallen foul of <a href=\"https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/\">Executive Order 14434</a>, aka the asinine Super Intelligence one.</p>\r\n<h4 id=\"first-the-updated-chart\">First, the updated chart</h4>\r\n<p>Every two weeks the U.S. Census Bureau runs a survey called the <a href=\"https://www.census.gov/hfp/btos/data\">Business Trends and Outlook Survey</a> (aka BTOS). Each time it goes to 200,000 businesses out of 1.2 million total - the surveyed group (a \"panel\") cycles such that an individual business only completes the survey every twelve weeks.</p>\r\n<p>The latest data is published on alternating Thursdays at 10am.</p>\r\n<p>I used the most recent numbers (published October 22, 2026) to create a new version (<a href=\"https://chatgpt.com/share/6ae89e86-8658-83e8-85fd-c4ef2d4f3b89?ogimg=plain\">GPT-6 Astra Extra High transcript</a>) of the AI adoption chart, updated to reflect both the last twelve months and a change that was made to the survey question sent out by the Bureau:</p>\r\n<p><img src=\"https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png\" alt=\"Line chart titled &quot;AI use by U.S. firm size&quot;, subtitled &quot;Six-survey trailing average • Share of employer businesses reporting use in the last two weeks&quot; and &quot;Updated with the October 22, 2026 Census release&quot;. Seven lines for firm sizes 250+, 100–249, 50–99, 20–49, 10–19, 5–9 and 1–4, on a y-axis from 0% to 45% and an x-axis from Jan 2024 to Oct 2026. Left section, &quot;AI in producing goods or services&quot;: all sizes start at 3–5% in late 2023 and climb slowly to 7–13% by September 2025, with 250+ highest. A shaded gap is labeled &quot;Question broadened Nov 2025&quot; and &quot;Series not comparable&quot;. Right section, &quot;AI in any business function&quot;: all lines restart higher in February 2026 and rise steadily to &quot;250+: 40.7%&quot;, &quot;100–249: 33.5%&quot;, &quot;50–99: 27.9%&quot;, &quot;20–49: 23.8%&quot;, &quot;1–4: 23.3%&quot;, &quot;10–19: 22.1%&quot;, &quot;5–9: 21.1%&quot;. Footnotes: &quot;Source: U.S. Census Bureau, Business Trends and Outlook Survey (BTOS). Size groups are numbers of employees.&quot; &quot;Method: arithmetic mean of six successive survey estimates, calculated separately for each question wording; no bridging of the break.&quot; &quot;Dates use reference-period end, matching the original chart. Latest: Oct 4, 2026 (collected Oct 5–18). First new six-wave average: Jan 25, 2026.&quot; &quot;The gap includes the 2025 shutdown and the wait for six observations under the broader question. Survey uncertainty is not displayed.&quot;\" style=\"max-width: 100%;\" /></p>\r\n\r\n\r\n<p>For comparison, here's that AI adoption chart from last year (my GPT-5 version):\r\n<img src=\"https://static.simonwillison.net/static/2025/apollo-ai-chart.jpg\" alt=\"AI adoption rates starting to decline for larger firms. A chart of AI adoption rate by firm size. Includes lines for 250+, 100-249, 50-99, 20-49, 10-19, 5-9 and 1-4 sized organizations. Chart starts in November 2023 with percentages ranging from 3 to 5, then all groups grow through August 2025 albeit with the 250+ group having a higher score than the others. That 250+ group peaks in July 2025 at around 14% and then appears to slope slightly downwards to 12% by August. Some of the other lines also start to tip down, though not as much.\" style=\"max-width: 100%;\" /></p>\r\n\r\n<p>In September 2025 the largest (250+ employees) companies answered \"yes\" around 12% of the time to the question about whether they used AI in \"producing goods or services\".</p>\r\n<p>Under the new \"any business function\" wording, by February 2026, those same large companies answered \"yes\" around 30% of the time, and by October 2026 that had increased to around 40%.</p>\r\n<p>The data in the above chart comes from the \"Employment size class\" XLSX file, <a href=\"https://www.census.gov/hfp/btos/data_downloads\">available from here</a>. Here's <a href=\"https://static.simonwillison.net/static/2026/Employment-Size-Class-Nov-1-2026-copy.xlsx\">a copy</a> of the file I used.</p>\r\n<p>You can view <a href=\"https://www.census.gov/hfp/btos/downloads/BTOS%20Content%20V5%20Core%20Round%203,%204.pdf\">the survey document</a> that is sent out to businesses - here's <a href=\"https://static.simonwillison.net/static/2026/BTOS-Content-V5-Core-Round-3-4.pdf\">my snapshot copy</a> of that 346KB PDF.</p>\r\n<h4 id=\"the-changing-language-of-the-questions\">The changing language of the questions</h4>\r\n<p>As the chart demonstrates, the question asked by the Bureau changed in a material way on November 17th, 2025. Prior to that date, the question they asked was this (emphasis mine):</p>\r\n<blockquote>\r\n<p>In the last two weeks, did this business use Artificial Intelligence (AI) in <strong>producing goods or services</strong>? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.)</p>\r\n</blockquote>\r\n<p>On December 3rd, 2025, <a href=\"https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf\">the Bureau announced</a> a significant change to that question. Here's the replacement:</p>\r\n<blockquote>\r\n<p>In the last two weeks, did this business use Artificial Intelligence (AI) in <strong>any of its business functions</strong>? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.)</p>\r\n</blockquote>\r\n<p>No more \"producing goods or services\" - now it's \"in any of its business functions\"! This means that the answers to the question before and after November 17th are not directly comparable.</p>\r\n<h4 id=\"from-october-19-2026-they-ask-about-super-intelligence\">From October 19, 2026, they ask about Super Intelligence</h4>\r\n<p>When I went looking for the updated question language in the latest XLSX file, I couldn't find it. I found this instead:</p>\r\n<blockquote>\r\n<p>In the last two weeks, did this business <strong>use Super Intelligence or SI</strong> (formerly referred to as Artificial Intelligence or AI) in any of its business functions? (Examples of SI use include: SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service; SI-powered forecasting or pricing; SI-driven computer vision for quality control, etc.)</p>\r\n</blockquote>\r\n<p>The <a href=\"https://www.census.gov/hfp/btos/about\">BTOS about page</a> explains what happened:</p>\r\n<blockquote>\r\n<p>Beginning with the October 19, 2026 collection, <a href=\"https://www.census.gov/hfp/btos/downloads/BTOS%20Content%20V5%20Core%20Round%203,%204.pdf\">instrument wording</a> was updated due to <a href=\"https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/\">Executive Order 14434</a>.</p>\r\n</blockquote>\r\n<p>The current numbers reflect the old Artificial Intelligence survey wording - the first survey results reflecting the Super Intelligence wording are due for publication on Thursday.</p>\r\n<h4 id=\"is-this-going-to-affect-the-survey-\">Is this going to affect the survey?</h4>\r\n<p>The obvious open question here is whether this wording change is going to affect the survey results.</p>\r\n<p>The businesses answering this survey will have last seen that question twelve weeks ago, when it was still called AI. Hopefully the new language isn't going to confuse them, especially since the survey helpfully spells out \"formerly referred to as Artificial Intelligence or AI\".</p>\r\n<p>I can't help but laugh at the absurdity of \"SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service\" though.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/census\">census</a>, <a href=\"https://simonwillison.net/tags/surveys\">surveys</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
@@ -4373,16 +4383,6 @@
           "publishedOn": "2026-10-17T13:51:40.000Z",
           "wordCount": 2842,
           "title": "Bizarre Blanets and Weird Worlds",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html",
-          "author": null,
-          "description": "Upcoming fixtures My public visibility took a nose-dive in 2020 (can't think why!) and didn't really begin to pick up again until 2024, due to multiple reasons, principally COVID19 and some chronic health issues. The health issues are now under...",
-          "link": "http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html",
-          "publishedOn": "2026-10-04T13:00:53.000Z",
-          "wordCount": 856,
-          "title": "Upcoming Public Appearances, 2026/27",
           "imageUrl": null
         }
       ]

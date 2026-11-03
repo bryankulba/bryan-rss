@@ -35,6 +35,71 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/2/llm/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-02T23:49:30.000Z">2026-11-02</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/2/llm/" target="_blank" rel="noopener noreferrer">llm 0.37</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.37
+There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.
+I added gpt-6.1-sol and gpt-6.1-terra, plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints.
+I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna.
+LLM's support for embeddings now accepts that different binary content may have different content-type - necessary for models like Gemini Embedding 2, which can embed text, audio, images, and video.
+A lot of open source maintainers complain about a flood of AI-assisted PRs. LLM is my project that has been most affected by this and, to be honest, I'm not finding it to be a problem. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes!
+This release includes fixes from 12 authors - almost all AI-assisted - and the burden of reviewing them wasn't nearly as great as I expected. I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix.
+So thanks to 0d00ciallo0721, ac1982, Allen Flux, Bian Yuhan, Bishop Kammeraad, Chen Yufeiyang, Christopher Krah, Ethan Stoner, Jiachen Xie, Olamide Faniyan, Sharat Chandra Sai Boddu, nosmile99 for helping out with (or spending tokens on) this release!
+Tags: open-source, projects, ai, annotated-release-notes, generative-ai, llms, embeddings, llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/2/llm/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/2/llm/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0049921-the-october-inflection-po">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-02T22:55:00.000Z">2026-11-02</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0049921-the-october-inflection-po" target="_blank" rel="noopener noreferrer">Simon Willison: The October Inflection Point for Vibe...</a>
+          </h2>
+          <p class="feed-item__desc">Simon Willison: The October Inflection Point for Vibe Game Development. “The thing I find both exciting and shameful about this is that I have got interesting results from so little creative input.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0049921-the-october-inflection-po" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0049921-the-october-inflection-po">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0049915-arkivism">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-02T21:37:00.000Z">2026-11-02</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0049915-arkivism" target="_blank" rel="noopener noreferrer">Arkivism is a search and visual discovery engine for...</a>
+          </h2>
+          <p class="feed-item__desc">Arkivism is a search and visual discovery engine for millions of public domain works from the collections of the Smithsonian, The Met, NASA, Library of Congress, National Gallery of Art, Rijksmuseum, and more.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0049915-arkivism" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0049915-arkivism">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/0049920-ted-chiang">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-02T20:42:00.000Z">2026-11-02</time>
@@ -11417,69 +11482,6 @@ Tags: mathematics, ai, generative-ai, local-llms, llms, qwen, llm-reasoning, dgx
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-04T13:00:53.000Z">2026-10-04</time>
-        <span class="feed-item__source">Charlie&#x27;s Diary</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html" target="_blank" rel="noopener noreferrer">Upcoming Public Appearances, 2026/27</a>
-          </h2>
-          <p class="feed-item__desc">Upcoming fixtures My public visibility took a nose-dive in 2020 (can't think why!) and didn't really begin to pick up again until 2024, due to multiple reasons, principally COVID19 and some chronic health issues. The health issues are now under...</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="http://www.antipope.org/charlie/blog-static/2026/10/upcoming-public-appearances-20.html">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="6ac157a7c06aa600011730e8">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-04T10:00:51.000Z">2026-10-04</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary-no-419/" target="_blank" rel="noopener noreferrer">Artificial symbiotic intelligence ⊗ The politics of the planetary</a>
-          </h2>
-          <p class="feed-item__desc">No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="6ac157a7c06aa600011730e8" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="6ac157a7c06aa600011730e8">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Hugo-Weaving-As-Agent-Smith-In-The-Matrix-bw.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="6ac157a7c06aa600011730e8">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-04T10:00:51.000Z">2026-10-04</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/artificial-symbiotic-intelligence-the-politics-of-the-planetary/" target="_blank" rel="noopener noreferrer">Artificial symbiotic intelligence ⊗ The politics of the planetary</a>
-          </h2>
-          <p class="feed-item__desc">No.419 — Commodified Intelligence ⊗ Design fiction mood board ⊗ 2026 in LLMs (so far) ⊗ Who shapes the territory? ⊗ Boundary-breaking installations</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="6ac157a7c06aa600011730e8" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="6ac157a7c06aa600011730e8">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Hugo-Weaving-As-Agent-Smith-In-The-Matrix-bw.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
