@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-04T11:50:44.467Z</updated>
+    <updated>2026-11-04T19:19:51.156Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[New Research Tests Whether AI Models Know Their Own Thoughts]]></title>
+        <id>https://www.quantamagazine.org/?p=168572</id>
+        <link href="https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/"/>
+        <updated>2026-11-04T15:32:52.000Z</updated>
+        <summary type="html"><![CDATA[By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.            
+The post New Research Tests Whether AI Models Know Their Own Thoughts first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Ben Brubaker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-llm 0.1a10]]></title>
+        <id>https://simonwillison.net/2026/Nov/4/datasette-llm/</id>
+        <link href="https://simonwillison.net/2026/Nov/4/datasette-llm/"/>
+        <updated>2026-11-04T15:26:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a10">datasette-llm 0.1a10</a></p>
+        <p>Fixes a <a href="https://github.com/datasette/datasette-llm/pull/11">bug</a> that affected my <a href="https://agent.datasette.io/">agent.datasette.io</a> demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[See You Thursday]]></title>
+        <id>https://kottke.org/26/11/see-you-thursday</id>
+        <link href="https://kottke.org/26/11/see-you-thursday"/>
+        <updated>2026-11-04T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m taking the day off from the site today — feeling crispy from a little too much work lately. Besides, everyone’s gonna be too busy huffing US midterm election results to pay any attention to anything else. In the meantime, you can spend some time with my poorly timed Election Day post celebrating 10 years of the KDO membership program that gets into all the stuff I’ve been busy working on around here.
+
+ 
+
+        
+         
+Tags: kottke.org]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: The AI fatfinger economy has come for my receipts app (04 Nov 2026)]]></title>
         <id>https://pluralistic.net/?p=13471</id>
@@ -27,6 +68,56 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[datasette-apps 0.3a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/4/datasette-apps/</id>
+        <link href="https://simonwillison.net/2026/Nov/4/datasette-apps/"/>
+        <updated>2026-11-04T00:29:36.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-apps/releases/tag/0.3a0">datasette-apps 0.3a0</a></p>
+        <p>Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.</p>
+<p>These can be created by hand, but it's easier to create them using LLMs via <a href="https://agent.datasette.io/">Datasette Agent</a>. This release improves that integration:</p>
+<blockquote>
+<ul>
+<li>Apps can now be tagged in Datasette Agent chat messages by typing <code>#</code>, which autocompletes from the apps the user has permission to view.</li>
+<li>New <code>app_add_stored_queries()</code> and <code>app_remove_stored_queries()</code> tools let the agent manage which stored queries an app is allowed to call. Granting a write query requires approval from the user first.</li>
+<li><code>app_create()</code> now checks that each requested stored query exists and that the user can view it, and asks the user to approve any write queries before the app is created.</li>
+<li>The "View app" buttons shown by the agent tools, and the links on <code>#</code> app references, now open the app full screen in the Datasette Agent panel.</li>
+</ul>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/datasette-apps">datasette-apps</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortune Telling and Speculative Design]]></title>
+        <id>https://maggieappleton.com/fortune-telling</id>
+        <link href="https://maggieappleton.com/fortune-telling"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Practical tools for design engineers to explore possible futures through speculative design]]></summary>
+        <author>
+            <name>Maggie Appleton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-agent 0.5a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/3/datasette-agent/</id>
+        <link href="https://simonwillison.net/2026/Nov/3/datasette-agent/"/>
+        <updated>2026-11-03T23:13:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent/releases/tag/0.5a0">datasette-agent 0.5a0</a></p>
+        <p>This is a significant release of <a href="https://agent.datasette.io/">Datasette Agent</a>. The most notable new feature is called the <strong>panel</strong> - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.</p>
+<p>When combined with <a href="https://github.com/datasette/datasette-apps">datasette-apps</a> this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app.</p>
+<p><img alt="Screenshot of a split-screen chat interface titled &quot;evaluate llm prices&quot; (model tag &quot;gpt-6-luna&quot;): the conversation runs in a narrow column on the left, and a wide side panel on the right displays the app the assistant built, with &quot;EXPORT&quot; and &quot;Close panel&quot; buttons above it. In the chat, blue user bubbles read &quot;Build an app to help explore this data&quot; and &quot;give it a more hacker aesthetic design&quot;, each followed by collapsed tool calls (app_create, app_render, app_view, app_str_replace), &quot;LLM Price Explorer v1.&quot; and &quot;v2.&quot; entries with &quot;View app&quot; and &quot;Edit&quot; buttons, and short assistant replies describing the app and its new dark terminal-inspired theme. The right panel shows the resulting &quot;LLM Price Explorer&quot; in neon green monospace on black: stat cards for 185 models from 12 providers with workload costs from $0.042 (Jev 1.13) to $300.00 (o1 Pro), filter and workload cost estimate controls, and a table of matching models with input, output and cached input prices per million tokens." src="https://static.simonwillison.net/static/2026/datasette-agent-panel.webp" /></p>
+<p>You can try it by signing in with your GitHub account to <a href="https://agent.datasette.io/">agent.datasette.io</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How Human Civilization Began]]></title>
         <id>https://kottke.org/26/11/how-human-civilization-began</id>
         <link href="https://kottke.org/26/11/how-human-civilization-began"/>
@@ -38,6 +129,20 @@ What we know about human history is only a fraction of the full story. Much of t
 One thing I really appreciate about Kurzgesagt is how each of their videos is accompanied by an extensive list of sources. For instance, I’m not sure I’d heard about the massive Lake Agassiz draining…]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.37.1]]></title>
+        <id>https://simonwillison.net/2026/Nov/3/llm/</id>
+        <link href="https://simonwillison.net/2026/Nov/3/llm/"/>
+        <updated>2026-11-03T21:41:42.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm/releases/tag/0.37.1">llm 0.37.1</a></p>
+        <p>A bugfix release for <a href="https://llm.datasette.io/">LLM</a>, with contributions from <a href="https://github.com/remote-controlled-man">Steven Huang</a>, <a href="https://github.com/tao-hpu">Tao An</a>, <a href="https://github.com/ar-jan">Arjan Mossel</a>, and <a href="https://github.com/XXXXXQ-0206">XQ</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm">llm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6979,31 +7084,6 @@ Tags: food · video]]></summary>
         <summary type="html"><![CDATA[The smallness of the Coward’s Path vs. the largesse of the Chad’s Way]]></summary>
         <author>
             <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JumpStar is the world’s strongest Chinese Checkers AI...]]></title>
-        <id>https://kottke.org/26/10/0049745-jumpstar</id>
-        <link href="https://kottke.org/26/10/0049745-jumpstar"/>
-        <updated>2026-10-06T04:32:00.000Z</updated>
-        <summary type="html"><![CDATA[JumpStar is the world’s strongest Chinese Checkers AI engine. Designed to emulate AlphaGo and Stockfish but for Chinese Checkers. The model was trained entirely on a M4 MacBook. You can play it online or on iOS.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Felix Rieseberg]]></title>
-        <id>https://simonwillison.net/2026/Oct/5/felix-rieseberg/</id>
-        <link href="https://simonwillison.net/2026/Oct/5/felix-rieseberg/"/>
-        <updated>2026-10-05T23:56:47.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://twitter.com/felixrieseberg/status/2107206431376334975"><p>The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.</p>
-<p>The "new" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]</p>
-<p>We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)</p></blockquote>
-<p class="cite">&mdash; <a href="https://twitter.com/felixrieseberg/status/2107206431376334975">Felix Rieseberg</a>, Anthropic, see also <a href="https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48">this help page</a></p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/claude-cowork">claude-cowork</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/general-agents">general-agents</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>

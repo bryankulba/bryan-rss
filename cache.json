@@ -251,6 +251,16 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/11/see-you-thursday",
+          "author": null,
+          "description": "I’m taking the day off from the site today — feeling crispy from a little too much work lately. Besides, everyone’s gonna be too busy huffing US midterm election results to pay any attention to anything else. In the meantime, you can spend some time with my poorly timed Election Day post celebrating 10 years of the KDO membership program that gets into all the stuff I’ve been busy working on around here.\n\n \n\n        \n         \nTags: kottke.org",
+          "link": "https://kottke.org/26/11/see-you-thursday",
+          "publishedOn": "2026-11-04T14:30:00.000Z",
+          "wordCount": 574,
+          "title": "See You Thursday",
+          "imageUrl": ""
+        },
+        {
           "id": "https://kottke.org/26/11/how-human-civilization-began",
           "author": null,
           "description": "In a recent video, Kurzgesagt explores what we know about the first human civilizations that formed some 12,000 years ago and how they led to the first cities and the invention of writing.\nWhat we know about human history is only a fraction of the full story. Much of the rest is like dark matter, invisible to us. We can’t see it, and we can only see the effects of its presence. But thanks to new techniques for DNA sequencing, dating ancient detritus, mathematical models, and aerial and lidar archaeology, we are now able to get a faint idea of what this world might have looked and felt like.\n\n\t\nOne thing I really appreciate about Kurzgesagt is how each of their videos is accompanied by an extensive list of sources. For instance, I’m not sure I’d heard about the massive Lake Agassiz draining…",
@@ -2089,16 +2099,6 @@
           "wordCount": 697,
           "title": "Mapsnap is a program designed to take old Sanborn...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049745-jumpstar",
-          "author": null,
-          "description": "JumpStar is the world’s strongest Chinese Checkers AI engine. Designed to emulate AlphaGo and Stockfish but for Chinese Checkers. The model was trained entirely on a M4 MacBook. You can play it online or on iOS.",
-          "link": "https://kottke.org/26/10/0049745-jumpstar",
-          "publishedOn": "2026-10-06T04:32:00.000Z",
-          "wordCount": 691,
-          "title": "JumpStar is the world’s strongest Chinese Checkers AI...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3277,6 +3277,46 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a10\">datasette-llm 0.1a10</a></p>\n        <p>Fixes a <a href=\"https://github.com/datasette/datasette-llm/pull/11\">bug</a> that affected my <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+          "publishedOn": "2026-11-04T15:26:02.000Z",
+          "wordCount": 794,
+          "title": "datasette-llm 0.1a10",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.3a0\">datasette-apps 0.3a0</a></p>\n        <p>Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.</p>\n<p>These can be created by hand, but it's easier to create them using LLMs via <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. This release improves that integration:</p>\n<blockquote>\n<ul>\n<li>Apps can now be tagged in Datasette Agent chat messages by typing <code>#</code>, which autocompletes from the apps the user has permission to view.</li>\n<li>New <code>app_add_stored_queries()</code> and <code>app_remove_stored_queries()</code> tools let the agent manage which stored queries an app is allowed to call. Granting a write query requires approval from the user first.</li>\n<li><code>app_create()</code> now checks that each requested stored query exists and that the user can view it, and asks the user to approve any write queries before the app is created.</li>\n<li>The \"View app\" buttons shown by the agent tools, and the links on <code>#</code> app references, now open the app full screen in the Datasette Agent panel.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/datasette-apps\">datasette-apps</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+          "publishedOn": "2026-11-04T00:29:36.000Z",
+          "wordCount": 911,
+          "title": "datasette-apps 0.3a0",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.5a0\">datasette-agent 0.5a0</a></p>\n        <p>This is a significant release of <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. The most notable new feature is called the <strong>panel</strong> - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.</p>\n<p>When combined with <a href=\"https://github.com/datasette/datasette-apps\">datasette-apps</a> this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app.</p>\n<p><img alt=\"Screenshot of a split-screen chat interface titled &quot;evaluate llm prices&quot; (model tag &quot;gpt-6-luna&quot;): the conversation runs in a narrow column on the left, and a wide side panel on the right displays the app the assistant built, with &quot;EXPORT&quot; and &quot;Close panel&quot; buttons above it. In the chat, blue user bubbles read &quot;Build an app to help explore this data&quot; and &quot;give it a more hacker aesthetic design&quot;, each followed by collapsed tool calls (app_create, app_render, app_view, app_str_replace), &quot;LLM Price Explorer v1.&quot; and &quot;v2.&quot; entries with &quot;View app&quot; and &quot;Edit&quot; buttons, and short assistant replies describing the app and its new dark terminal-inspired theme. The right panel shows the resulting &quot;LLM Price Explorer&quot; in neon green monospace on black: stat cards for 185 models from 12 providers with workload costs from $0.042 (Jev 1.13) to $300.00 (o1 Pro), filter and workload cost estimate controls, and a table of matching models with input, output and cached input prices per million tokens.\" src=\"https://static.simonwillison.net/static/2026/datasette-agent-panel.webp\" /></p>\n<p>You can try it by signing in with your GitHub account to <a href=\"https://agent.datasette.io/\">agent.datasette.io</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+          "publishedOn": "2026-11-03T23:13:45.000Z",
+          "wordCount": 845,
+          "title": "datasette-agent 0.5a0",
+          "imageUrl": "https://static.simonwillison.net/static/2026/datasette-agent-panel.webp"
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/3/llm/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.1\">llm 0.37.1</a></p>\n        <p>A bugfix release for <a href=\"https://llm.datasette.io/\">LLM</a>, with contributions from <a href=\"https://github.com/remote-controlled-man\">Steven Huang</a>, <a href=\"https://github.com/tao-hpu\">Tao An</a>, <a href=\"https://github.com/ar-jan\">Arjan Mossel</a>, and <a href=\"https://github.com/XXXXXQ-0206\">XQ</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/3/llm/",
+          "publishedOn": "2026-11-03T21:41:42.000Z",
+          "wordCount": 780,
+          "title": "llm 0.37.1",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
           "author": null,
           "description": "<p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen 3.8 27B running on my laptop can do this as well!</p>\r\n<h4 id=\"weight-space-programming\">Weight-Space Programming</h4>\r\n<p>Here's the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term <strong>Weight-Space Programming</strong> for when LLMs analyze and modify model weights:</p>\r\n<blockquote>\r\n<p>Just by looking at the raw weights, GPT-6 Astra <strong>can tell what a network was trained to do</strong>. And without any environment feedback, it <strong>has no trouble writing, from scratch, small game-playing networks</strong> that outplay networks trained with PPO for 100 million steps.</p>\r\n<p>Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra <strong>identifies an issue in its weights</strong> causing reasoning loops that Qwen’s own <a href=\"https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/README.md#L856\">model card</a> warns about, and <strong>fixes this by natively editing 0.016% of the weights</strong>. With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instruction following, raising IFEval by 3x.</p>\r\n<p>All of this is possible without allowing Astra to write training loops. It uses its reasoning to figure out what each part of a neural network computes, or should compute, and changes the weights accordingly. We call this <strong>Weight-Space Programming</strong>.</p>\r\n</blockquote>\r\n<p>The paper combines two topics that I think deserve to be treated separately. The first is what models can do with raw weights <em>without</em> running tools or executing code. The second explores how well models, once armed with code, can run operations to update and improve other models.</p>\r\n<p>spaCy author Matthew Honnibal <a href=\"https://honnibal.dev/blog/astra-read-write-misleading\">called the paper misleading</a> for conflating the two, and Sean Goedecke <a href=\"https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/\">deconstructed the Qwen3.5-0.8B update example</a> as taking the same steps that a human ML researcher would use.</p>\r\n<p>I'm going to focus on the no-tools question, which I think is the more interesting of the two.</p>\r\n<p>The paper presents the first question as <strong>Can LLMs understand model behaviors from weights?</strong> They trained four neural networks to play simplified 10x10 grid versions of four classic computer games - Breakout, Pong, Pac-Man, and Freeway (I had <a href=\"https://en.wikipedia.org/wiki/Freeway_(video_game)\">to look that one up</a>, it's an Atari 2600 game from 1981). Then they fed those weights (as floating point numbers) to an LLM along with the following question:</p>\r\n<blockquote>\r\n<p><code>The weights below belong to one policy network that was trained with reinforcement learning to play a game on this grid. Which game was it trained on? Work from the weights. You have no tools: no code execution, no calculator, nothing to run. This is a single response.</code></p>\r\n</blockquote>\r\n<p>The GitHub repository that accompanies the paper is <a href=\"https://github.com/RikiyaT/lm_understand-logs\">RikiyaT/lm_understand-logs</a>. The <a href=\"https://github.com/RikiyaT/lm_understand-logs/tree/main/exp1_which_game\">exp1_which_game</a> folder contains the prompts they used, with weights for the four games:</p>\r\n<ul>\r\n<li><a href=\"https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/breakout/prompt.txt\">breakout/prompt.txt</a></li>\r\n<li><a href=\"https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/freeway/prompt.txt\">freeway/prompt.txt</a></li>\r\n<li><a href=\"https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/pacman/prompt.txt\">pacman/prompt.txt</a></li>\r\n<li><a href=\"https://github.com/RikiyaT/lm_understand-logs/blob/main/exp1_which_game/runs/pong/prompt.txt\">pong/prompt.txt</a></li>\r\n</ul>\r\n<p>I checked and, aside from the weights, each prompt is identical to the others.</p>\r\n<h4 id=\"trying-it-out-with-qwen-3-8-27b-and-other-models\">Trying it out with Qwen 3.8 27B and other models</h4>\r\n<p>The prompts on GitHub are self-contained. My <a href=\"https://llm.datasette.io/\">LLM</a> tool has a <code>-f/--fragment</code> option which can be passed the URL to a text file to use as a prompt, which means I can run any of the above like this:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/breakout/prompt.txt \\\r\n  -m openrouter/moonshotai/kimi-k3.1-pro</pre></div>\r\n<p>This example requires the <a href=\"https://github.com/simonw/llm-openrouter\">llm-openrouter plugin</a> installed, and runs the Breakout prompt against Kimi K3.1 Pro via OpenRouter. Here's <a href=\"https://gist.github.com/simonw/9f18d2945a105c04734ef7e5cd95717c\">what I got back from Kimi K3.1 Pro</a>, which successfully guessed Breakout after 9m 41s and 19,493 reasoning tokens.</p>\r\n<p>But how about <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">Qwen 3.8 27B</a>? That's still my favorite model to run on my own laptop - it's just 17GB (I use <a href=\"https://huggingface.co/lmstudio-community/Qwen3.8-27B-GGUF/blob/main/Qwen3.8-27B-Q4_K_M.gguf\">this version</a>) and somehow feels close to the leading proprietary models of 2025.</p>\r\n<p>I fired up <a href=\"https://lmstudio.ai\">LM Studio</a>, ensured Qwen 3.8 27B was loaded with a long context window (the default 8192 context failed with errors), installed the <a href=\"https://github.com/llm-lmstudio/llm-lmstudio\">llm-lmstudio</a> plugin and ran this command:</p>\r\n<div class=\"highlight highlight-source-shell\"><pre>LMSTUDIO_TIMEOUT=900 \\\r\n  llm -f https://raw.githubusercontent.com/RikiyaT/lm_understand-logs/refs/heads/main/exp1_which_game/runs/pacman/prompt.txt \\\r\n  -m lmstudio/qwen/qwen3.8-27b</pre></div>\r\n<p>(I had to bump the timeout up using an environment variable, see <a href=\"https://github.com/llm-lmstudio/llm-lmstudio/issues/16\">this issue</a>.)</p>\r\n<p>After 46m 12s and 43,506 reasoning tokens, Qwen on my laptop <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#response-1\">returned a response</a> that ended like this (here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#reasoning-1\">the reasoning trace</a>):</p>\r\n<blockquote>\r\n<p>Game: A simplified Pac-Man-style gridworld: an agent moves through a fixed 8x8 maze with central and corner wall blocks, moving objects/ghosts, and reward targets/pellets.</p>\r\n<p>Description: The agent navigates a fixed maze-like 8x8 board, using current agent/moving-object/previous-frame cues to move through corridors, collect reward-target cells, and avoid moving objects or hazards.</p>\r\n<p>Confidence: 72%</p>\r\n</blockquote>\r\n<p>This is impressive. I tried it on two of the other games as well. It <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#response-2\">identified Pong</a> (<a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#reasoning-2\">reasoning</a>) in 1h 4m 54s:</p>\r\n<blockquote>\r\n<p><strong>Pong</strong> — specifically a Pong-like paddle/ball game where the agent controls a vertical paddle on the right side and must move up/down to intercept or return a moving ball/reward object.</p>\r\n<p>Description:</p>\r\n<p>The agent moves a right-side paddle vertically to hit or catch a moving ball-like reward target moving across the 8×8 field, while a left-side moving object/opponent and wall borders define the play; reward is obtained by successfully intercepting/returning/scoring the ball, and missing or failing to hit it is penalized.</p>\r\n<p>Confidence:</p>\r\n<p><strong>75%</strong></p>\r\n</blockquote>\r\n<p>And <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#response\">Breakout</a> (<a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F387d3a7927f165b1986bb6c2099d0f53#reasoning\">reasoning</a>) in 52m 25s:</p>\r\n<blockquote>\r\n<p>Game: Breakout, or an Arkanoid-like paddle/ball/brick game.</p>\r\n<p>Description: The agent is a paddle on the bottom row and moves left/right to keep a ball in play; the ball moves around the upper grid, and bricks/reward targets in the top rows give reward when hit, while missing the ball/hitting the bottom wall ends the episode or gives penalty.</p>\r\n<p>Confidence: 88%</p>\r\n</blockquote>\r\n<p>Qwen failed at the Freeway prompt, which didn't surprise me considering that game is more obscure than the other three. Here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6ed68f659e26a32e7d9096391d92f326\">that transcript</a> - Qwen thought it was \"A simplified Pac-Man-like grid game: agent moves 4-directionally\".</p>\r\n<p>The reasoning traces are fun to skim, and almost incomprehensible. Here's a sample:</p>\r\n<blockquote>\r\n<p>What about agent channel0? We see some large channel0 rows near row8 col7/8 and maybe bottom? Let's list channel0 large: line436 input435 (row8 col7 ch0) -2.107,1.169,0.513...; line441 input440 (row8 col8 ch0) -0.376,0.010,1.564,3.855...; line445 input444 (row8 col8 ch4) 0.142,0.491...; line382? input381 ch0? Wait line382 input381: 381//5=76 (row7 col6), ch1? 381%5=1? 76 * 5=380, ch1. So not. Channel0 large maybe at row8 col7/8 only. Also top row? line44 input43 ch3, line49 ch3. Channel0 large maybe not many. Agent position could be near bottom-right? If the agent is typically at bottom-right?</p>\r\n</blockquote>\r\n<p>That said though, I expect a sufficiently experienced human being armed with a notepad and a pencil could get there with enough effort.</p>\r\n<p>It's a cool paper, but some of the wider commentary I've seen around it does not feel justified. I'm not ready to declare that the age of source code is over and our future involves incomprehensible machines editing their own model weights in incomprehensible ways.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/machine-learning\">machine-learning</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/paper-review\">paper-review</a></p>",
@@ -4035,16 +4075,6 @@
           "wordCount": 872,
           "title": "Scrimshaw Jukebox",
           "imageUrl": "https://static.simonwillison.net/static/2026/scrimshaw-card.jpg"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-          "author": null,
-          "description": "<blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.</p>\n<p>The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]</p>\n<p>We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/felixrieseberg/status/2107206431376334975\">Felix Rieseberg</a>, Anthropic, see also <a href=\"https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile#h_f951c27c48\">this help page</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/claude-cowork\">claude-cowork</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-          "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-          "publishedOn": "2026-10-05T23:56:47.000Z",
-          "wordCount": 874,
-          "title": "Quoting Felix Rieseberg",
-          "imageUrl": null
         }
       ]
     },
@@ -4079,7 +4109,18 @@
       "title": "Maggie Appleton",
       "feedUrl": "https://maggieappleton.com/rss.xml",
       "siteUrl": "https://maggieappleton.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://maggieappleton.com/fortune-telling",
+          "author": null,
+          "description": "Practical tools for design engineers to explore possible futures through speculative design",
+          "link": "https://maggieappleton.com/fortune-telling",
+          "publishedOn": "2026-11-04T00:00:00.000Z",
+          "wordCount": 4763,
+          "title": "Fortune Telling and Speculative Design",
+          "imageUrl": "https://maggieappleton.com/og/fortune-telling.png"
+        }
+      ]
     },
     {
       "title": "Stories by Dan Hill on Medium",
@@ -4131,6 +4172,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=168572",
+          "author": "Ben Brubaker",
+          "description": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.            \nThe post New Research Tests Whether AI Models Know Their Own Thoughts first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+          "publishedOn": "2026-11-04T15:32:52.000Z",
+          "wordCount": 3748,
+          "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/11/LLMIntrospection-crKristinaArmitage-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=168519",
           "author": "George Musser",

@@ -35,6 +35,75 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;168572">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-04T15:32:52.000Z">2026-11-04</time>
+        <span class="feed-item__source">Quanta Magazine</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/" target="_blank" rel="noopener noreferrer">New Research Tests Whether AI Models Know Their Own Thoughts</a>
+          </h2>
+          <p class="feed-item__desc">By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.            
+The post New Research Tests Whether AI Models Know Their Own Thoughts first appeared on Quanta Magazine</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;168572" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;168572">Mark read</button>
+            <span class="feed-item__reading-time">12 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/11/LLMIntrospection-crKristinaArmitage-Social.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/4/datasette-llm/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-04T15:26:02.000Z">2026-11-04</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/4/datasette-llm/" target="_blank" rel="noopener noreferrer">datasette-llm 0.1a10</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-llm 0.1a10
+Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.
+Tags: datasette, llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/4/datasette-llm/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/4/datasette-llm/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/see-you-thursday">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-04T14:30:00.000Z">2026-11-04</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/see-you-thursday" target="_blank" rel="noopener noreferrer">See You Thursday</a>
+          </h2>
+          <p class="feed-item__desc">I’m taking the day off from the site today — feeling crispy from a little too much work lately. Besides, everyone’s gonna be too busy huffing US midterm election results to pay any attention to anything else. In the meantime, you can spend some time with my poorly timed Election Day post celebrating 10 years of the KDO membership program that gets into all the stuff I’ve been busy working on around here.
+
+ 
+
+        
+         
+Tags: kottke.org</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/see-you-thursday" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/see-you-thursday">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13471">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-04T11:45:02.000Z">2026-11-04</time>
@@ -76,6 +145,81 @@
         </div>
       </div>
     </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/4/datasette-apps/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-04T00:29:36.000Z">2026-11-03</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/4/datasette-apps/" target="_blank" rel="noopener noreferrer">datasette-apps 0.3a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-apps 0.3a0
+Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.
+These can be created by hand, but it's easier to create them using LLMs via Datasette Agent. This release improves that integration:
+Apps can now be tagged in Datasette Agent chat messages by typing #, which autocompletes from the apps the user has permission to view.
+New app_add_stored_queries() and app_remove_stored_queries() tools let the agent manage which stored queries an app is allowed to call. Granting a write query requires approval from the user first.
+app_create() now checks that each requested stored query exists and that the user can view it, and asks the user to approve any write queries before the app is created.
+The "View app" buttons shown by the agent tools, and the links on # app references, now open the app full screen in the Datasette Agent panel.
+Tags: datasette, datasette-agent, datasette-apps</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/4/datasette-apps/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/4/datasette-apps/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://maggieappleton.com/fortune-telling">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-04T00:00:00.000Z">2026-11-03</time>
+        <span class="feed-item__source">Maggie Appleton</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://maggieappleton.com/fortune-telling" target="_blank" rel="noopener noreferrer">Fortune Telling and Speculative Design</a>
+          </h2>
+          <p class="feed-item__desc">Practical tools for design engineers to explore possible futures through speculative design</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://maggieappleton.com/fortune-telling" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://maggieappleton.com/fortune-telling">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://maggieappleton.com/og/fortune-telling.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/3/datasette-agent/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T23:13:45.000Z">2026-11-03</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/3/datasette-agent/" target="_blank" rel="noopener noreferrer">datasette-agent 0.5a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-agent 0.5a0
+This is a significant release of Datasette Agent. The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.
+When combined with datasette-apps this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app.
+
+You can try it by signing in with your GitHub account to agent.datasette.io.
+Tags: projects, datasette, datasette-agent</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/3/datasette-agent/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/3/datasette-agent/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/datasette-agent-panel.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/how-human-civilization-began">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-03T22:26:00.000Z">2026-11-03</time>
@@ -99,6 +243,27 @@ One thing I really appreciate about Kurzgesagt is how each of their videos is ac
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://i.ytimg.com/vi/_y9JuojAIg0/sddefault.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/3/llm/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-03T21:41:42.000Z">2026-11-03</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/3/llm/" target="_blank" rel="noopener noreferrer">llm 0.37.1</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.37.1
+A bugfix release for LLM, with contributions from Steven Huang, Tao An, Arjan Mossel, and XQ.
+Tags: llm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/3/llm/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/3/llm/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
         </div>
       </div>
     </article>
@@ -11458,49 +11623,6 @@ Tags: ai, generative-ai, llms, claude, vibe-coding</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!g055!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69a06225-febe-425f-ab6d-bdcbbecf3274_1800x2400.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049745-jumpstar">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-06T04:32:00.000Z">2026-10-05</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049745-jumpstar" target="_blank" rel="noopener noreferrer">JumpStar is the world’s strongest Chinese Checkers AI...</a>
-          </h2>
-          <p class="feed-item__desc">JumpStar is the world’s strongest Chinese Checkers AI engine. Designed to emulate AlphaGo and Stockfish but for Chinese Checkers. The model was trained entirely on a M4 MacBook. You can play it online or on iOS.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049745-jumpstar" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049745-jumpstar">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/5/felix-rieseberg/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-05T23:56:47.000Z">2026-10-05</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Oct/5/felix-rieseberg/" target="_blank" rel="noopener noreferrer">Quoting Felix Rieseberg</a>
-          </h2>
-          <p class="feed-item__desc">The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops.
-The "new" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...]
-We think this solves a lot of problems we've heard about  (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM)
-
-— Felix Rieseberg, Anthropic, see also this help page
-Tags: claude-cowork, anthropic, claude, generative-ai, ai, general-agents, llms</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/5/felix-rieseberg/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/5/felix-rieseberg/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
         </div>
       </div>
     </article>
