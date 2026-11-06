@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-06T00:43:17.039Z</updated>
+    <updated>2026-11-06T11:47:33.840Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[6nov26]]></title>
+        <id>https://warrenellis.ltd/?p=19272</id>
+        <link href="https://warrenellis.ltd/status/6nov26/"/>
+        <updated>2026-11-06T11:37:15.000Z</updated>
+        <summary type="html"><![CDATA[New phones arrived, so doubtless I will lose a ton of today to setting them up. But our iPhone 14 Pro’s batteries are shot and…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[protect us from what we want]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12438</id>
+        <link href="https://www.velcro-city.co.uk/protect-us-from-what-we-want/"/>
+        <updated>2026-11-06T10:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Where there's a will, there's a way; where there's no will, there's... whatever this is.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic has new rules for its Opus 5.5 model to “steer...]]></title>
+        <id>https://kottke.org/26/11/0049948-steer-it-away-from-recrea</id>
+        <link href="https://kottke.org/26/11/0049948-steer-it-away-from-recrea"/>
+        <updated>2026-11-06T05:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic has new rules for its Opus 5.5 model to “steer it away from recreating someone else’s specific [video] game”. (From a few days ago but I just saw it…)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[And in other news, the NY Times is trying to buy...]]></title>
+        <id>https://kottke.org/26/11/0049943-the-ny-times-is-trying-to</id>
+        <link href="https://kottke.org/26/11/0049943-the-ny-times-is-trying-to"/>
+        <updated>2026-11-06T03:22:00.000Z</updated>
+        <summary type="html"><![CDATA[And in other news, the NY Times is trying to buy Letterboxd for a reported price of $330 million.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Salon, one of the last OG general interest web...]]></title>
+        <id>https://kottke.org/26/11/0049942-link</id>
+        <link href="https://kottke.org/26/11/0049942-link"/>
+        <updated>2026-11-06T03:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Salon, one of the last OG general interest web publications, is shutting down. “When Salon launched in November 1995, the web was a very different place.” And: “We have reached the difficult decision that our publishing model is no longer sustainable.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Maria Tomazou made a film in Excel]]></title>
         <id>https://waxy.org/?p=51353</id>
@@ -6677,270 +6727,6 @@ Tags: Amazon]]></summary>
         <link href="https://kottke.org/26/10/0049756-she-was-90"/>
         <updated>2026-10-08T00:10:00.000Z</updated>
         <summary type="html"><![CDATA[“Margaret Hamilton, who led the 100-person team that wrote the onboard software for the Apollo missions, guiding Neil Armstrong and Buzz Aldrin to a safe landing on the moon, died Sept. 30 in Cambridge, Mass. She was 90.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Triple-A Minesweeper]]></title>
-        <id>https://waxy.org/?p=51280</id>
-        <link href="https://minesweeper.mikelacher.com/"/>
-        <updated>2026-10-07T23:26:01.000Z</updated>
-        <summary type="html"><![CDATA[Mike Lacher’s action-packed AAA reboot of the Windows 3.11 classic
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Ben Affleck]]></title>
-        <id>https://simonwillison.net/2026/Oct/7/ben-affleck/</id>
-        <link href="https://simonwillison.net/2026/Oct/7/ben-affleck/"/>
-        <updated>2026-10-07T23:14:58.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s"><p>I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning.</p>
-<p>So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in numbers — like the batch number, the frame number, the red, green, and blue values of each pixel in each frame. </p>
-<p>And a tensor, you use a convolutional neural network to identify patterns in that that would reveal what's called edge detection or feature extraction, which is just identifying patterns enough to know like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s">Ben Affleck</a>, Pythonista</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/machine-learning">machine-learning</a>, <a href="https://simonwillison.net/tags/python">python</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where in the world are typefaces being designed? The US,...]]></title>
-        <id>https://kottke.org/26/10/0049716-where-in-the-world-are-ty</id>
-        <link href="https://kottke.org/26/10/0049716-where-in-the-world-are-ty"/>
-        <updated>2026-10-07T21:23:00.000Z</updated>
-        <summary type="html"><![CDATA[Where in the world are typefaces being designed? The US, Germany, and France…but also the UK, Netherlands, and Indonesia.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Haiku 5.5]]></title>
-        <id>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</id>
-        <link href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"/>
-        <updated>2026-10-07T20:56:21.000Z</updated>
-        <summary type="html"><![CDATA[<p>As previously <a href="https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/">promised</a>, here's Anthropic's new fast, low cost model: <a href="https://www.anthropic.com/claude-haiku-5-5">Introducing Claude Haiku 5.5</a>.</p>
-<p>The previous Haiku, 4.5, was very much showing its age. It came out <a href="https://simonwillison.net/2025/Oct/15/claude-haiku-45/">almost a year ago</a>, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's <a href="https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/#gpt-6-sol-and-luna-are-half-the-price-of-their-gpt-5-6-equivalents">GPT-6 Luna</a>, released last month.</p>
-
-<p>The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75.</p>
-<p>Haiku 5.5 also uses a new, less generous tokenizer. My <a href="https://tools.simonwillison.net/claude-token-counter">Claude Token Counter</a> tool shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku 4.5, so there's a hidden price increase there.</p>
-<p>If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks like a much better deal.</p>
-<p>The <a href="https://github.com/simonw/llm-anthropic/releases/tag/0.30">most recent release of llm-anthropic</a> finally fixed it so I don't need to ship a new version of that plugin for every new model. I tested the new model like this:</p>
-<pre><code>llm install -U llm-anthropic
-llm anthropic refresh
-llm -m claude-haiku-5.5 "Generate an SVG of a pelican riding a bicycle" -o thinking_effort low
-</code></pre>
-<h4 id="pelicans">Pelicans</h4>
-<p>Here are <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F485dfa24b4efa1267ee2d0911594fb81">pelicans for low, medium, high, xhigh, and max</a>. The new Haiku doesn't let you disable reasoning, and defaults to <code>medium</code>. I got a good bicycle frame for everything beyond <code>low</code>. The <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F485dfa24b4efa1267ee2d0911594fb81#response">low effort pelican</a> cost 0.0936 cents and took 7 seconds.</p><p>This <code>max</code> effort pelican took 5 minutes 9 seconds to generate, but still only cost me <a href="https://www.llm-prices.com/#it=27&amp;ot=67647&amp;sel=claude-haiku-5.5">3.3826 cents</a>:</p>
-<p><img alt="Flat vector illustration: a white pelican wearing a red cap rides a dark grey bicycle from left to right across a green grassy strip, its long orange legs reaching down to the orange pedals, a grey wing stretched forward to grip the curved handlebars, and its large yellow-orange beak with a bulging orange throat pouch pointing ahead; behind it, white speed lines show motion, and above, a yellow sun with a pale halo and two white clouds sit in a gradient blue sky." src="https://static.simonwillison.net/static/2026-10-07/haiku-5.5-max.webp" /></p>
-
-<p>For comparison, here's the pelican I got <a href="https://simonwillison.net/2025/Oct/15/claude-haiku-45/">a year ago</a> from Haiku 4.5 (for <a href="https://www.llm-prices.com/#it=18&amp;ot=1513&amp;ic=1&amp;oc=5">0.7583 cents</a> - Haiku 4.5 did not support reasoning levels). It <em>sucked</em> at drawing pelicans:</p>
-
-<img src="https://static.simonwillison.net/static/2025/claude-haiku-4.5-pelican.jpg" alt="Described by Haiku 4.5: A whimsical illustration of a bird with a round tan body, pink beak, and orange legs riding a bicycle against a blue sky and green grass background." style="width: 60%; margin: 1em auto; display: block;" />
-
-<h4 id="api-credits">And a generous API credit scheme for subscribers</h4>
-
-<p>In addition to Haiku 5.5, Anthropic announced today that they are halving the price of cache reads for Sonnet 5.5. They've also added API credits to subscription plans:</p>
-<blockquote>
-<p>Second, this week, we’ll roll out <strong>a new monthly API credit to all Max and Team subscribers for use on the Claude Platform</strong>. Max 5x users will get $100 in credits per month, Max 20x users will get $200, and Team subscribers will receive up to $500, pooled across their users.</p>
-</blockquote>
-<p>Claiming this is pleasantly easy: navigate to <a href="https://claude.ai/new#settings/billing">Settings -&gt; Billing</a> and select the API organization that should benefit from the credits every month:</p>
-<p><img alt="Screenshot of a Settings dialog with a close X button at top right and a row of tabs reading &quot;General&quot;, &quot;Account&quot;, &quot;Privacy&quot;, &quot;Billing&quot; (selected), &quot;Usage&quot;, &quot;Capabilities&quot;, &quot;Memory&quot; and &quot;Design sys&quot; (cut off at the edge). Beside a line-drawn icon of a branching plant with circular buds, the panel reads &quot;Max plan&quot;, &quot;20x more usage than Pro&quot; and &quot;Your subscription will auto renew on Nov 2, 2026.&quot; with an &quot;Adjust plan&quot; button on the right. Below is a section headed &quot;API credits&quot; with a blue &quot;New&quot; badge, reading &quot;Your Max 20x plan includes $200 USD in API credits each month.&quot; followed by grey text &quot;Link an API organization to start receiving credits.&quot; with a &quot;Link organization&quot; button on the right." src="https://static.simonwillison.net/static/2026-10-07/claude-credits.webp" /></p>
-
-<p>The API credits exactly match the cost of the subscription itself. This is really generous - it makes it much easier for subscribers to use the API. Anthropic also let you disable auto-reload for the API, with the consequence that "API requests will stop when your balance runs out" - exactly what you want if you're planning to burn through those API credits without <a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/">risk of a nasty billing surprise</a>.</p>
-
-<p>Note that the monthly credits <a href="https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans#h_dfc1659cee">do not roll over</a> - use them or lose them.</p>
-
-<p>OpenAI still allow you to use your Codex subscription for personal API use, which works out as a better deal for heavy API users. This new credit scheme goes at least some way to overcoming that difference.</p>
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wildwood]]></title>
-        <id>https://kottke.org/26/10/wildwood</id>
-        <link href="https://kottke.org/26/10/wildwood"/>
-        <updated>2026-10-07T20:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Laika is the stop-motion animation studio that made Coraline & Kubo and the Two Strings. Their newest film, Wildwood, looks pretty incredible; have a look at the trailer.
-
-Creative Boom recently highlighted some of the process behind the film, which is heavily dependent on physical sets and puppets.
-The man tasked with putting the show together was art director Matthew Maldonado, having spent five years designing and building Wildwood’s sets. So I asked him the million dollar question: how much of Wildwood is physical and how much is digital?
-Matthew’s response is simple. “Every single thing was made by hand, truly,” he stresses. “And every single thing that we built was either shot in camera or referenced by our effects department. We’ve got some really wide, expansive locations and there’s some digital aspect to all of that. But if it wasn’t on camera, on stage, it’s a scanned asset or a reference asset, specifically made by the artisans in the art department.”
-
-	
-“The show” referenced in the quote above is Wildwood: The Exhibition, due to open soon at the Design Museum in London.
-
-
-(via justin lind)
-
- 
-
-        
-         
-Tags: Laika Studios · movies · stop motion · trailers · video · Wildwood]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI-generated images don’t have to look like AI-generated...]]></title>
-        <id>https://kottke.org/26/10/0049733-they-can-be-any-style-you</id>
-        <link href="https://kottke.org/26/10/0049733-they-can-be-any-style-you"/>
-        <updated>2026-10-07T19:03:00.000Z</updated>
-        <summary type="html"><![CDATA[AI-generated images don’t have to look like AI-generated images…they can be any style you want. (It’s just going to get more and more difficult to tell…)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In 2005, NASA’s Jet Propulsion Laboratory calculated that...]]></title>
-        <id>https://kottke.org/26/10/0049749-calculated</id>
-        <link href="https://kottke.org/26/10/0049749-calculated"/>
-        <updated>2026-10-07T18:03:00.000Z</updated>
-        <summary type="html"><![CDATA[In 2005, NASA’s Jet Propulsion Laboratory calculated that the water stored by China’s huge Three Gorges Dam is enough to increase the length of a day by 0.06 microseconds and move the North pole by 0.8 inches. (A 9.1 earthquake had a bigger impact.)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lots and Lots and Lots of Control Panels]]></title>
-        <id>https://kottke.org/26/10/lots-and-lots-and-lots-of-control-panels</id>
-        <link href="https://kottke.org/26/10/lots-and-lots-and-lots-of-control-panels"/>
-        <updated>2026-10-07T16:32:00.000Z</updated>
-        <summary type="html"><![CDATA[To go along with my recent post about control rooms, here’s the Control Panels group on Flickr, containing almost 3000 photos of control interfaces for all kinds of things.
-You’ll see some of the same photos as in the Control Rooms group, but when you get past the first couple of pages, there’s more variety: fiddly knobs, entire walls of nearly identical switches, dials, inscrutable gauges, soda machine interfaces, bump it and you might die buttons, computers with switches, Swinging Fingers (!!), and many more…
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-How much Gorton did you spot?
-
- 
-
-        
-         
-Tags: design · photography]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Job Trail, a web game about making it through 52...]]></title>
-        <id>https://kottke.org/26/10/0049744-the-job-trail</id>
-        <link href="https://kottke.org/26/10/0049744-the-job-trail"/>
-        <updated>2026-10-07T15:22:00.000Z</updated>
-        <summary type="html"><![CDATA[The Job Trail, a web game about making it through 52 weeks as a laid-off creative worker. Based on The Oregon Trail. My first try: “You have died of burnout. Week 13. 51 applications, 1 ghosting.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines]]></title>
-        <id>https://www.quantamagazine.org/?p=167663</id>
-        <link href="https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/"/>
-        <updated>2026-10-07T15:08:46.000Z</updated>
-        <summary type="html"><![CDATA[In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.            
-The post As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Ben Brubaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anti-Patterns in Software Blogging]]></title>
-        <id>https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/</id>
-        <link href="https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"/>
-        <updated>2026-10-07T14:53:51.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://refactoringenglish.com/blog/anti-patterns-software-blogging/#summary">Anti-Patterns in Software Blogging</a></strong></p>
-Some excellent writing advice from Michael Lynch. Michael warns against "meandering intros", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality.</p>
-<p>He also warns against <a href="https://refactoringenglish.com/blog/anti-patterns-software-blogging/#overreliance-on-links">overreliance on links</a> as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them.</p>
-<p>(In <a href="https://lobste.rs/s/rwdufq/anti_patterns_software_blogging#c_qdhhsd">a Lobste.rs comment</a> Michael clarifies that "My rule of thumb is that my article should still make sense to the reader even if they don't click any links". That works for me.)</p>
-<p>This point about using your own voice is crucial:</p>
-<blockquote>
-<p>Beginner software bloggers suffer from a mass delusion that you have to write in a stiff, overly formal way for people to take you seriously [...]</p>
-<p>Just write the way you talk.</p>
-<p>With so many developers delegating their writing to AI, software blogging is becoming bland and homogenous. Readers are hungry for writing with personality.</p>
-</blockquote>
-
-    <p><small></small>Via <a href="https://lobste.rs/s/rwdufq/anti_patterns_software_blogging">Lobste.rs</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/blogging">blogging</a>, <a href="https://simonwillison.net/tags/writing">writing</a>, <a href="https://simonwillison.net/tags/michael-lynch">michael-lynch</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Disloyalty (07 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13376</id>
-        <link href="https://pluralistic.net/2026/10/07/gouged/"/>
-        <updated>2026-10-07T13:58:46.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Disloyalty: Air Canada's frequent flier fuckery. Hey look at this: Delights to delectate. Object permanence: Indie booksellers v internet; Coke pays dieticians to astroturf soda taxes; Voting in a voter-suppression state; Facebook v your use of Facebook. Upcoming appearances: Hudson, Calgary, Winnipeg, Paris, Vancouver, Victoria, Ottawa, Kilkenny, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Disloyalty (permalink) Up until very recently indeed, airlines were the only businesses that I dealt with regularly that practiced "price discrimination," charging different customers different prices for the same seats. Economists broa…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blue Planet III]]></title>
-        <id>https://kottke.org/26/10/blue-planet-iii</id>
-        <link href="https://kottke.org/26/10/blue-planet-iii"/>
-        <updated>2026-10-07T13:58:00.000Z</updated>
-        <summary type="html"><![CDATA[BBC Earth is returning to the ocean. 25 years after the first installment, the legendary naturalist, presenter, and centenarian David Attenborough narrates Blue Planet III. This first look video, backed by a song Hans Zimmer & Jade Thirwall, is teeming with stunning footage of sea life of all sorts.
-Ed Yong called BPIII’s predecessor the best nature series ever:
-Blue Planet II is the greatest nature series that the BBC has ever produced.
-It is almost transcendentally good—the product of a team that, after six decades of experience, is now at the height of its powers. The Blue Planet II crew traveled to 39 countries to capture over 6,000 hours of footage. They stuck their cameras into coral crevices. They hung off speedboats to film dolphins rocketing behind them. They literally stared into the abyss—and then repeatedly entered it. The resulting episodes, each narrated by David Attenborough in his trademark velvety tones, are hour-long distillations of wonder, featuring sequences that would be breathtaking had earlier shots left you with any breath to take away.
-
-	
-Blue Planet III will air sometime later in the year in the UK; not so sure about timelines in other locations at this point.
-
- 
-
-        
-         
-Tags: Blue Planet · David Attenborough · trailers · TV · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[118 Things to Do Instead of Doomscrolling. Including “put...]]></title>
-        <id>https://kottke.org/26/10/0049707-118-things-to-do-instead-</id>
-        <link href="https://kottke.org/26/10/0049707-118-things-to-do-instead-"/>
-        <updated>2026-10-07T13:14:00.000Z</updated>
-        <summary type="html"><![CDATA[118 Things to Do Instead of Doomscrolling. Including “put together a puzzle”, “go for a bike ride”, “hold a plank for as long as you can — even if it’s only a second”, and “make your own limoncello”.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
