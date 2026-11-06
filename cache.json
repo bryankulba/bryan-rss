@@ -100,6 +100,16 @@
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
         {
+          "id": "https://www.robinsloan.com/lab/no-there-there/",
+          "author": null,
+          "description": "<p>The view of nowhere. <a href=\"https://www.robinsloan.com/lab/no-there-there/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/no-there-there/",
+          "publishedOn": "2026-11-06T06:00:00.000Z",
+          "wordCount": 5066,
+          "title": "Dragoncatcher: Is there a there there?",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
+        {
           "id": "https://www.robinsloan.com/lab/ipod-heart/",
           "author": null,
           "description": "<p>Original, useful, respectful. <a href=\"https://www.robinsloan.com/lab/ipod-heart/\">Read here.</a></p>",
@@ -146,6 +156,16 @@
       "feedUrl": "https://webcurios.co.uk/feed/",
       "siteUrl": "https://webcurios.co.uk",
       "articles": [
+        {
+          "id": "https://webcurios.co.uk/?p=1809",
+          "author": "admin",
+          "description": "Reading Time:  37 minutes   Something something throw the booky wook at him something something. WHAT A WEEK TO BE ALIVE! A Republican defeat in the mid-terms (now would you all fcuk off and be quiet for a while, America? We have, frankly, had quite enough of you over the past couple of years, maybe just take a quiet…\nContinue reading →",
+          "link": "https://webcurios.co.uk/webcurios-06-11-26/",
+          "publishedOn": "2026-11-06T06:23:23.000Z",
+          "wordCount": 11201,
+          "title": "Webcurios 06/11/26",
+          "imageUrl": null
+        },
         {
           "id": "https://webcurios.co.uk/?p=1800",
           "author": "admin",
@@ -250,6 +270,56 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/11/we-have-star-wars-at-home",
+          "author": null,
+          "description": "This is cool: Evan Puschak looks at the rush of cheapo knockoff space operas that came out in the wake of Star Wars, a once-in-a-generation film that refashioned the entire movie business. Even the names are kooky: Starcrash, War of the Planets, Battle of the Stars, The Humanoid, Message From Space, Battle Beyond the Stars, The Man Who Saved the World, Star Odyssey, and The Beast in Space — although tbh, Star Wars is a goofy name as well. Some of the movies even had lightsabers and anxious robots.\nPuschak highlights Star Wars’ unique combination of realistic depictions of space with special effects (a la 2001) and an adventure story with colorful characters. He quotes Julie Turnock’s book, Plastic Reality: Special Effects, Technology, and the Emergence of 1970s Blockbuster Aesthetics, in m…",
+          "link": "https://kottke.org/26/11/we-have-star-wars-at-home",
+          "publishedOn": "2026-11-06T18:40:00.000Z",
+          "wordCount": 1229,
+          "title": "We Have Star Wars at Home",
+          "imageUrl": "https://i.ytimg.com/vi/a2jlDGZJRBI/sddefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0049930-a-story-about-seeing-plat",
+          "author": null,
+          "description": "From filmmaker Kevin B. Lee, a story about seeing Platoon as a child in 1986. What age-inappropriate movies did you see as a kid?",
+          "link": "https://kottke.org/26/11/0049930-a-story-about-seeing-plat",
+          "publishedOn": "2026-11-06T17:30:00.000Z",
+          "wordCount": 1866,
+          "title": "From filmmaker Kevin B. Lee, a story about seeing Platoon...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/0049918-a-call-for-more-mindful-u",
+          "author": null,
+          "description": "A call for more “mindful underparenting” from psychologist Darby Saxbe. “If you want to raise empathetic, imaginative children who can figure out how to entertain themselves, don’t keep their brains too occupied.” 💯",
+          "link": "https://kottke.org/26/11/0049918-a-call-for-more-mindful-u",
+          "publishedOn": "2026-11-06T16:20:00.000Z",
+          "wordCount": 950,
+          "title": "A call for more “mindful underparenting” from...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/kdo-search-now-available-to-everyone",
+          "author": null,
+          "description": "Ok, after a week of testing, I’ve opened up KDO search to everyone. You can read more about it in my post from last week:\nFor now, the search only looks at posts from 2014 to the present. You can search by keyword, describe what you remember (“the guy who walks in Japan”), or paste a link to find posts that link to it. Search is fuzzy-ish but it’s not an AI bot or anything like that so if you ramble on with a 25-word query, it’s probably not going to work that well. You can sort by best match or newest, search all posts or just Quick Links or main posts, and filter by time (past month, past 3 months, etc.)\n\n\t\nLaunching that member preview was a little deflating tbh — “no plan survives first contact with the user”. It was clear that search was not as good as I wanted it to be — even I start…",
+          "link": "https://kottke.org/26/11/kdo-search-now-available-to-everyone",
+          "publishedOn": "2026-11-06T14:51:00.000Z",
+          "wordCount": 1033,
+          "title": "KDO Search Now Available to Everyone",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/0049946-bain-capital-acquires-tib",
+          "author": null,
+          "description": "Bain Capital Acquires Tibetan Buddhism For $35 Million. “For centuries, this organization has been guided by outdated principles that are antithetical to investor and shareholder concerns, prioritizing incentives like wisdom, mental discipline…”",
+          "link": "https://kottke.org/26/11/0049946-bain-capital-acquires-tib",
+          "publishedOn": "2026-11-06T14:01:00.000Z",
+          "wordCount": 602,
+          "title": "Bain Capital Acquires Tibetan Buddhism For $35 Million....",
+          "imageUrl": ""
+        },
         {
           "id": "https://kottke.org/26/11/0049948-steer-it-away-from-recrea",
           "author": null,
@@ -2029,26 +2099,6 @@
           "wordCount": 704,
           "title": "A short (too short?) video from Little White Lies on...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/great-deals-on-apple-stuff-today",
-          "author": null,
-          "description": "Just wanted to dip in here to say that Amazon is running another one of their sales for Prime members, which can be a great opportunity to upgrade some tech items at lower prices, especially with the price increases we’ve seen recently. Just a couple of quick things:\nThe AirPods Pro 3 are my daily headphones; I really do love them. They’re $179 right now ($249 regular price), which I think is the lowest price they’ve been.\nThe 15-inch M5 MacBook Air starts at $1299 (normally $1499). I am typing this on my M4 Air, which is the best computer I’ve ever owned, and the temptation to upgrade is strong.\nIf you like your laptops smaller, the 13-inch M5 MacBook Air is also on sale, starting at $1099 (regularly $1299).\nYou can find more sale items here. I think these deals expire in a few hours, so hop to it.\nAnd also, other stores like Best Buy often do their own deals around this time and Bookshop.org is offering free shipping. I’m reading Marlon James’ The Disappearers right now and, oof, it’s great but harrowing.\n\n \n\n        \n         \nTags: Amazon",
-          "link": "https://kottke.org/26/10/great-deals-on-apple-stuff-today",
-          "publishedOn": "2026-10-08T03:06:00.000Z",
-          "wordCount": 700,
-          "title": "Great Deals on Apple Stuff Today",
-          "imageUrl": "http://kottke.org/images/posts/01/editor-1791429866-035da532.png"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049756-she-was-90",
-          "author": null,
-          "description": "“Margaret Hamilton, who led the 100-person team that wrote the onboard software for the Apollo missions, guiding Neil Armstrong and Buzz Aldrin to a safe landing on the moon, died Sept. 30 in Cambridge, Mass. She was 90.”",
-          "link": "https://kottke.org/26/10/0049756-she-was-90",
-          "publishedOn": "2026-10-08T00:10:00.000Z",
-          "wordCount": 812,
-          "title": "“Margaret Hamilton, who led the 100-person team that...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3100,6 +3150,16 @@
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/28/web_crop_Siwan_Rhys_Photo_credit_Tricia_Yourkevitch_4_copy.jpg"
         },
         {
+          "id": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-sarah-davachi",
+          "author": null,
+          "description": "The Wire 514\n\n\n    In The Wire 514 it is the turn of composer, organist and theorist Sarah Davachi.\n\nThe Wire 514. To find out what she said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.\n\n\n    Canadian composer Sarah Davachi is known for her drone based works for organ, electronics, voice and chamber ensemble that explore extended durations, the psychoacoustics of space, and the subtleties of tuning, harmonic structures and emergent overtones.\n\nPapers, contains her thoughts on the studio as a tool for world building, bringing medievalism into the present, and the development and cultural significance of several keyboard-based instruments.\n\nBarons Court was released in 2015. She has since followe…",
+          "link": "https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-sarah-davachi",
+          "publishedOn": "2026-10-26T00:00:00.000Z",
+          "wordCount": 912,
+          "title": "Invisible Jukebox mix: Sarah Davachi",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/11/06/SARAH_DAVACHI_THE_WIRE6_CMYK_copy.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/on-air/chris-bohn-presents-adventures-in-sound-and-music-79849",
           "author": null,
           "description": "The Wire's weekly radio show featured music by Joshua Burkett, Lisa Nanzaki, Wadada Leo Smith, Test Dept, Deficit & Letargy and more\n\nTracklist\n\nJoshua Burkett\n    \n “Lost Cat City (Excerpt 1)”\n    \nM/B/Too/4/T&/M\n    \n (Futura Resistenza)\n\nLisa Nanzaki\n    \n “The Origin Of Violence That Has Lost Its Source”\n    \nFrom [VA#46] – Source Unknown\n    \n (Camembert Electrique)\n\nRadical Polish Arkestra\n    \n “Union Mazurka”\n    \nSielanka\n    \n (Tańce)\n\nFelix Kubin\n    \n “Die Kulturelle Revolution”\n    \nAntiphoneys: The Single Collection\n    \n (Suezan Studio)\n\nLý Trang\n    \n “it was not dead, which is different”\n    \nMicrohabitat\n    \n (ato.archives)\n\nWadada Leo Smith\n    \n “Meditation On Love”\n    \nConstellations And Atmospheres\n    \n (Burning Ambulance Music)\n\nSatoko Fujii Orchestra Nagoya\n    \n “Korekara Part 3”\n    \nKorekara\n    \n (Libra)\n\nTest Dept\n    \n “GWR A AETH GATRAETH/PROLOGUE (Early Studio Sessions, Reworked 2026)”\n    \nBrith Gof Gododdin: 2025 Remaster\n    \n (Artoffact)\n\nKasatriyan Javanese Art Community & Warsaw Gamelan Group\n    \n “Eling-Eling Banyumasan”\n    \nCaraka Handayapat. Wayang From Central Java\n    \n (Sacral Grooves 1000HZ)\n\nDeficit & Letargy\n    \n “Alkahest”\n    \nAlchemy\n    \n (Camembert Électrique)\n\nJulia Biłat\n    \n “Dynastes Hercules”\n    \nSelva Oscura\n    \n (Relative Pitch)\n\nMona Mur Trio\n    \n “Last Good-bye”\n    \nLes Chansons Brutales\n    \n (play loud!)\n\nMalaria!\n    \n “How Do You Like My New Dog?”\n    \nWeisses Wasser: White Water\n    \n (Suezan Studio)\n\nPhillip Mallela with JB Express\n    \n “Crazy Baby”\n    \nSound City Joburg: South Africa’s Township Soul 1969–1981\n    \n (Analog Africa)\n\nLinus + Bonnie Prince Billy\n    \n “Little Jesus, Mighty God”\n    \nThe Outsider, The Music Of Jules De Corte\n    \n (Aspen Edities)\n\nONJQ/Otomo Yoshihide’s New Jazz Quintet\n    \n “ANTIGEN (B10 LIVE/Shenzhen)”\n    \nOtomo Yoshihide’s New Jazz Quintet China Tour 2025\n    \n (Little Stone)\n\nJoshua Burkett\n    \n “Lost Cat City (2) Thee Cynthia Hill”\n    \nM/B/Too/4/T&/M\n    \n (Futura Resistenza)",
@@ -3226,6 +3286,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+          "author": null,
+          "description": "<blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p>\n<p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p>\n<p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked.</p>\n<p>The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. </p>\n<p>The AI industry will not get out of it until they make <em>better products</em>. Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\">Nilay Patel</a>, The Vergecast: Big Tech lost big in the 2026 election</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/nilay-patel\">nilay-patel</a>, <a href=\"https://simonwillison.net/tags/slop\">slop</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+          "publishedOn": "2026-11-06T17:13:12.000Z",
+          "wordCount": 945,
+          "title": "Quoting Nilay Patel",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Nov/5/paul-ford/",
           "author": null,
@@ -3992,6 +4062,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=168674",
+          "author": "Charlie Wood",
+          "description": "Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument.            \nThe post A Strange Quantum Theorem Has Killed Einstein’s Reality first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+          "publishedOn": "2026-11-06T15:48:54.000Z",
+          "wordCount": 5497,
+          "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/11/Death-of-Reality-cr.Samuel-Velasco-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=168572",
           "author": "Ben Brubaker",

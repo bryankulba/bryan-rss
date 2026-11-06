@@ -2,10 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-06T11:47:33.840Z</updated>
+    <updated>2026-11-06T18:52:06.739Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We Have Star Wars at Home]]></title>
+        <id>https://kottke.org/26/11/we-have-star-wars-at-home</id>
+        <link href="https://kottke.org/26/11/we-have-star-wars-at-home"/>
+        <updated>2026-11-06T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[This is cool: Evan Puschak looks at the rush of cheapo knockoff space operas that came out in the wake of Star Wars, a once-in-a-generation film that refashioned the entire movie business. Even the names are kooky: Starcrash, War of the Planets, Battle of the Stars, The Humanoid, Message From Space, Battle Beyond the Stars, The Man Who Saved the World, Star Odyssey, and The Beast in Space — although tbh, Star Wars is a goofy name as well. Some of the movies even had lightsabers and anxious robots.
+Puschak highlights Star Wars’ unique combination of realistic depictions of space with special effects (a la 2001) and an adventure story with colorful characters. He quotes Julie Turnock’s book, Plastic Reality: Special Effects, Technology, and the Emergence of 1970s Blockbuster Aesthetics, in m…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From filmmaker Kevin B. Lee, a story about seeing Platoon...]]></title>
+        <id>https://kottke.org/26/11/0049930-a-story-about-seeing-plat</id>
+        <link href="https://kottke.org/26/11/0049930-a-story-about-seeing-plat"/>
+        <updated>2026-11-06T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[From filmmaker Kevin B. Lee, a story about seeing Platoon as a child in 1986. What age-inappropriate movies did you see as a kid?]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Nilay Patel]]></title>
+        <id>https://simonwillison.net/2026/Nov/6/nilay-patel/</id>
+        <link href="https://simonwillison.net/2026/Nov/6/nilay-patel/"/>
+        <updated>2026-11-06T17:13:12.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s"><p>The products aren't good enough to sell people on the costs.</p>
+<p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p>
+<p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked.</p>
+<p>The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. </p>
+<p>The AI industry will not get out of it until they make <em>better products</em>. Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better.</p></blockquote>
+<p class="cite">&mdash; <a href="https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s">Nilay Patel</a>, The Vergecast: Big Tech lost big in the 2026 election</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/nilay-patel">nilay-patel</a>, <a href="https://simonwillison.net/tags/slop">slop</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A call for more “mindful underparenting” from...]]></title>
+        <id>https://kottke.org/26/11/0049918-a-call-for-more-mindful-u</id>
+        <link href="https://kottke.org/26/11/0049918-a-call-for-more-mindful-u"/>
+        <updated>2026-11-06T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[A call for more “mindful underparenting” from psychologist Darby Saxbe. “If you want to raise empathetic, imaginative children who can figure out how to entertain themselves, don’t keep their brains too occupied.” 💯]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Strange Quantum Theorem Has Killed Einstein’s Reality]]></title>
+        <id>https://www.quantamagazine.org/?p=168674</id>
+        <link href="https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/"/>
+        <updated>2026-11-06T15:48:54.000Z</updated>
+        <summary type="html"><![CDATA[Albert Einstein fought to save our everyday notion of reality from the strangeness of quantum mechanics. But those who set out to aid him keep poking holes in his argument.            
+The post A Strange Quantum Theorem Has Killed Einstein’s Reality first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Charlie Wood</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDO Search Now Available to Everyone]]></title>
+        <id>https://kottke.org/26/11/kdo-search-now-available-to-everyone</id>
+        <link href="https://kottke.org/26/11/kdo-search-now-available-to-everyone"/>
+        <updated>2026-11-06T14:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Ok, after a week of testing, I’ve opened up KDO search to everyone. You can read more about it in my post from last week:
+For now, the search only looks at posts from 2014 to the present. You can search by keyword, describe what you remember (“the guy who walks in Japan”), or paste a link to find posts that link to it. Search is fuzzy-ish but it’s not an AI bot or anything like that so if you ramble on with a 25-word query, it’s probably not going to work that well. You can sort by best match or newest, search all posts or just Quick Links or main posts, and filter by time (past month, past 3 months, etc.)
+
+	
+Launching that member preview was a little deflating tbh — “no plan survives first contact with the user”. It was clear that search was not as good as I wanted it to be — even I start…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bain Capital Acquires Tibetan Buddhism For $35 Million....]]></title>
+        <id>https://kottke.org/26/11/0049946-bain-capital-acquires-tib</id>
+        <link href="https://kottke.org/26/11/0049946-bain-capital-acquires-tib"/>
+        <updated>2026-11-06T14:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Bain Capital Acquires Tibetan Buddhism For $35 Million. “For centuries, this organization has been guided by outdated principles that are antithetical to investor and shareholder concerns, prioritizing incentives like wisdom, mental discipline…”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[6nov26]]></title>
         <id>https://warrenellis.ltd/?p=19272</id>
@@ -24,6 +107,27 @@
         <summary type="html"><![CDATA[Where there's a will, there's a way; where there's no will, there's... whatever this is.]]></summary>
         <author>
             <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 06/11/26]]></title>
+        <id>https://webcurios.co.uk/?p=1809</id>
+        <link href="https://webcurios.co.uk/webcurios-06-11-26/"/>
+        <updated>2026-11-06T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  37 minutes   Something something throw the booky wook at him something something. WHAT A WEEK TO BE ALIVE! A Republican defeat in the mid-terms (now would you all fcuk off and be quiet for a while, America? We have, frankly, had quite enough of you over the past couple of years, maybe just take a quiet…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: Is there a there there?]]></title>
+        <id>https://www.robinsloan.com/lab/no-there-there/</id>
+        <link href="https://www.robinsloan.com/lab/no-there-there/"/>
+        <updated>2026-11-06T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>The view of nowhere. <a href="https://www.robinsloan.com/lab/no-there-there/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
         </author>
     </entry>
     <entry>
@@ -2675,6 +2779,28 @@ Tags: best of · best of 2026 · photography]]></summary>
         <summary type="html"><![CDATA[The Ware for September 2026 is a tire pressure monitor from a late 80’s to early 90’s model Porsche, made by Bosch. According to the submitter: Kind of a crazy piece of hardware for the late 80’s – this would be pretty cutting edge for the time. Nobody quite got what the part was – […]]]></summary>
         <author>
             <name>bunnie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Invisible Jukebox mix: Sarah Davachi]]></title>
+        <id>https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-sarah-davachi</id>
+        <link href="https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-sarah-davachi"/>
+        <updated>2026-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 514
+
+
+    In The Wire 514 it is the turn of composer, organist and theorist Sarah Davachi.
+
+The Wire 514. To find out what she said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.
+
+
+    Canadian composer Sarah Davachi is known for her drone based works for organ, electronics, voice and chamber ensemble that explore extended durations, the psychoacoustics of space, and the subtleties of tuning, harmonic structures and emergent overtones.
+
+Papers, contains her thoughts on the studio as a tool for world building, bringing medievalism into the present, and the development and cultural significance of several keyboard-based instruments.
+
+Barons Court was released in 2015. She has since followe…]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6698,37 +6824,6 @@ Mosley was a pioneer in the emergence of Holocaust-denial. While not denying the
         <summary type="html"><![CDATA[*It’s the old-school Y2K collapse, only much much more so]]></summary>
         <author>
             <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Great Deals on Apple Stuff Today]]></title>
-        <id>https://kottke.org/26/10/great-deals-on-apple-stuff-today</id>
-        <link href="https://kottke.org/26/10/great-deals-on-apple-stuff-today"/>
-        <updated>2026-10-08T03:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Just wanted to dip in here to say that Amazon is running another one of their sales for Prime members, which can be a great opportunity to upgrade some tech items at lower prices, especially with the price increases we’ve seen recently. Just a couple of quick things:
-The AirPods Pro 3 are my daily headphones; I really do love them. They’re $179 right now ($249 regular price), which I think is the lowest price they’ve been.
-The 15-inch M5 MacBook Air starts at $1299 (normally $1499). I am typing this on my M4 Air, which is the best computer I’ve ever owned, and the temptation to upgrade is strong.
-If you like your laptops smaller, the 13-inch M5 MacBook Air is also on sale, starting at $1099 (regularly $1299).
-You can find more sale items here. I think these deals expire in a few hours, so hop to it.
-And also, other stores like Best Buy often do their own deals around this time and Bookshop.org is offering free shipping. I’m reading Marlon James’ The Disappearers right now and, oof, it’s great but harrowing.
-
- 
-
-        
-         
-Tags: Amazon]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Margaret Hamilton, who led the 100-person team that...]]></title>
-        <id>https://kottke.org/26/10/0049756-she-was-90</id>
-        <link href="https://kottke.org/26/10/0049756-she-was-90"/>
-        <updated>2026-10-08T00:10:00.000Z</updated>
-        <summary type="html"><![CDATA[“Margaret Hamilton, who led the 100-person team that wrote the onboard software for the Apollo missions, guiding Neil Armstrong and Buzz Aldrin to a safe landing on the moon, died Sept. 30 in Cambridge, Mass. She was 90.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
