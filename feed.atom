@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-07T17:24:11.674Z</updated>
+    <updated>2026-11-07T23:24:09.461Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://brucesterling.tumblr.com/post/832655852170362880</id>
+        <link href="https://brucesterling.tumblr.com/post/832655852170362880"/>
+        <updated>2026-11-07T20:15:00.000Z</updated>
+        <author>
+            <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Greg Technology made a tool to learn to talk backwards]]></title>
+        <id>https://waxy.org/?p=51356</id>
+        <link href="https://backwords.greg.technology/"/>
+        <updated>2026-11-07T17:56:40.000Z</updated>
+        <summary type="html"><![CDATA[get a pronunciation guide for any phrase, then record yourself speaking in reverse
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pluralistic: JS Tan and Clarissa Redwine's "Against Tech Oligarchy" (07 Nov 2026)]]></title>
         <id>https://pluralistic.net/?p=13483</id>
@@ -6546,27 +6566,6 @@ The post How Does Life Unfold? A Landscape Metaphor Comes Into Its Own. first ap
         <summary type="html"><![CDATA[Autumn is creeping in step by step. Colder starts to the day, now. The managed retreat begins. Played yesterday with Dirty Little Zine for making…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[morning computer one by one]]></title>
-        <id>https://warrenellis.ltd/?p=19116</id>
-        <link href="https://warrenellis.ltd/mc/morning-computer-one-by-one/"/>
-        <updated>2026-10-09T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I’ve sometimes thought that that’s why I became a painter, because I have all these pictures inside me, yes, so many pictures that they’re a…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webcurios 09/10/26]]></title>
-        <id>https://webcurios.co.uk/?p=1778</id>
-        <link href="https://webcurios.co.uk/webcurios-09-10-26/"/>
-        <updated>2026-10-09T06:23:23.000Z</updated>
-        <summary type="html"><![CDATA[Reading Time:  38 minutes   WHY HELLO AGAIN HELLO! I *missed* you! No, really, I did; I even woke up at 6am last Friday in a sweaty panic that I had a Curios to write and no links to fill it with – this is my internal life, you see, SO RICH!! – and, well, what more proof do…
-Continue reading →]]></summary>
-        <author>
-            <name>admin</name>
         </author>
     </entry>
     <entry>

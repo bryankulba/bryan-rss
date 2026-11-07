@@ -205,16 +205,6 @@
           "wordCount": 11294,
           "title": "Webcurios 16/10/26",
           "imageUrl": null
-        },
-        {
-          "id": "https://webcurios.co.uk/?p=1778",
-          "author": "admin",
-          "description": "Reading Time:  38 minutes   WHY HELLO AGAIN HELLO! I *missed* you! No, really, I did; I even woke up at 6am last Friday in a sweaty panic that I had a Curios to write and no links to fill it with – this is my internal life, you see, SO RICH!! – and, well, what more proof do…\nContinue reading →",
-          "link": "https://webcurios.co.uk/webcurios-09-10-26/",
-          "publishedOn": "2026-10-09T06:23:23.000Z",
-          "wordCount": 11608,
-          "title": "Webcurios 09/10/26",
-          "imageUrl": null
         }
       ]
     },
@@ -2078,6 +2068,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51356",
+          "author": "Andy Baio",
+          "description": "get a pronunciation guide for any phrase, then record yourself speaking in reverse\n#",
+          "link": "https://backwords.greg.technology/",
+          "publishedOn": "2026-11-07T17:56:40.000Z",
+          "wordCount": 77,
+          "title": "Greg Technology made a tool to learn to talk backwards",
+          "imageUrl": "https://backwords.greg.technology/static/og.png"
+        },
+        {
           "id": "https://waxy.org/?p=51353",
           "author": "Andy Baio",
           "description": "“there is no reason for this film to exist, yet i made it”\nColossal #",
@@ -2716,16 +2716,6 @@
           "wordCount": 1465,
           "title": "9oct26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2372.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=19116",
-          "author": "Warren Ellis",
-          "description": "I’ve sometimes thought that that’s why I became a painter, because I have all these pictures inside me, yes, so many pictures that they’re a…",
-          "link": "https://warrenellis.ltd/mc/morning-computer-one-by-one/",
-          "publishedOn": "2026-10-09T08:00:00.000Z",
-          "wordCount": 1405,
-          "title": "morning computer one by one",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/history-of-the-devil-00003.webp"
         }
       ]
     },
@@ -2734,6 +2724,16 @@
       "feedUrl": "https://brucesterling.tumblr.com/rss",
       "siteUrl": "https://brucesterling.tumblr.com/",
       "articles": [
+        {
+          "id": "https://brucesterling.tumblr.com/post/832655852170362880",
+          "author": null,
+          "description": "",
+          "link": "https://brucesterling.tumblr.com/post/832655852170362880",
+          "publishedOn": "2026-11-07T20:15:00.000Z",
+          "wordCount": 1088,
+          "title": "Untitled",
+          "imageUrl": "https://64.media.tumblr.com/bd4f7c845005d9424a2904eafd4c1fd4/322bd03fd68ba8a7-42/s1280x1920/e35575710ec2d0c7f22e11aed8b99f17e65648ab.jpg"
+        },
         {
           "id": "https://brucesterling.tumblr.com/post/832609387184046080",
           "author": null,
