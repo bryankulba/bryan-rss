@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-08T04:21:33.564Z</updated>
+    <updated>2026-11-08T17:35:23.151Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[8nov26]]></title>
+        <id>https://warrenellis.ltd/?p=19293</id>
+        <link href="https://warrenellis.ltd/status/8nov26/"/>
+        <updated>2026-11-08T12:19:44.000Z</updated>
+        <summary type="html"><![CDATA[Last night was lusciously misty and just the right kind of cold. Today’s newsletter is out. Today I am thinking about connecting this notebook to…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maintenance future ⊗ A responsibly limited AI]]></title>
+        <id>6aefa7ab6e2ea600013973a9</id>
+        <link href="https://sentiers.media/maintenance-future-a-responsibly-limited-ai-no-424/"/>
+        <updated>2026-11-08T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[No.424 — The greatest mystery of futures studies ⊗ Remake and occupy ⊗ Magenta solar panels ⊗ Three-body orbits]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages]]></title>
         <id>https://simonwillison.net/2026/Nov/7/link-rel-next/</id>
@@ -6331,142 +6351,6 @@ But the feelings.
         <summary type="html"><![CDATA[118: BRENDA WEISCHER – by Christina Holevas – Habiter “this quote by Helmut Lang always stuck with me: “You cannot put a personality together with…]]></summary>
         <author>
             <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting The New York Times]]></title>
-        <id>https://simonwillison.net/2026/Oct/10/the-new-york-times/</id>
-        <link href="https://simonwillison.net/2026/Oct/10/the-new-york-times/"/>
-        <updated>2026-10-10T02:04:12.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html"><p>Anthropic detailed the activity of its A.I. agents in <a href="https://www.anthropic.com/research/investigating-unintended-model-actions">a blog post</a> on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said.</p></blockquote>
-<p class="cite">&mdash; <a href="https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html">The New York Times</a>, Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/accidental-cyberattacks">accidental-cyberattacks</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deno is joining Cloudflare]]></title>
-        <id>https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/</id>
-        <link href="https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/"/>
-        <updated>2026-10-09T22:48:37.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://deno.com/blog/cloudflare">Deno is joining Cloudflare</a></strong></p>
-The Deno team released the first version of <a href="https://github.com/denoland/celld">celld</a> back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers.</p>
-<p>Today, Cloudflare are acquiring Deno outright, with the goal of building on <code>celld</code> to "make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model" (see <a href="https://blog.cloudflare.com/deno-joins-cloudflare/">the Cloudflare blog</a>.)</p>
-<p>The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year:</p>
-<blockquote>
-<p>We will support the <a href="https://github.com/denoland/deno">Deno runtime</a> for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development.</p>
-</blockquote>
-<p>Deno (and Node.js) creator Ryan Dahl explained that decision in <a href="https://news.ycombinator.com/item?id=50019911#50023277">a comment</a> on Hacker News:</p>
-<blockquote>
-<p>It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough.</p>
-<p>I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development.</p>
-</blockquote>
-<p>My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access.</p>
-<p>Node.js <a href="https://nodejs.org/api/permissions.html">has a similar permissions model</a> these days, added <a href="https://nodejs.org/en/blog/release/v20.0.0">in Node v20.0.0</a> in April 2023 and declared stable <a href="https://nodejs.org/en/blog/release/v22.13.0">in Node v22.13.0</a> in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off.
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50019911">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/cloudfront">cloudfront</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/nodejs">nodejs</a>, <a href="https://simonwillison.net/tags/ryan-dahl">ryan-dahl</a>, <a href="https://simonwillison.net/tags/sandboxing">sandboxing</a>, <a href="https://simonwillison.net/tags/deno">deno</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unseen Places: Rediscovering the Art of Observation by...]]></title>
-        <id>https://kottke.org/26/10/0049761-unseen-places-rediscoveri</id>
-        <link href="https://kottke.org/26/10/0049761-unseen-places-rediscoveri"/>
-        <updated>2026-10-09T20:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Unseen Places: Rediscovering the Art of Observation by Anna Kodé. Looking forward to this one…Kodé is one of my favorite journalists covering urban culture. “Observation…is not a passive act, but a powerful and radical way of connecting…”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every US Electrical Outlet Explained]]></title>
-        <id>https://kottke.org/26/10/every-us-electrical-outlet-explained</id>
-        <link href="https://kottke.org/26/10/every-us-electrical-outlet-explained"/>
-        <updated>2026-10-09T19:58:00.000Z</updated>
-        <summary type="html"><![CDATA[This video from Practical Engineering was very illuminating to me, a naive person who thought there were only three types of electrical outlets used in the US — the two-prong, the three-prong, and the 240V — and not the real number, which is more than 35 types of electrical outlets! Oh and “two-prong”? Not that plug’s actual name! (via unsung)
-
- 
-
-        
-         
-Tags: electricity · engineering · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Thwarted (09 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13382</id>
-        <link href="https://pluralistic.net/2026/10/09/impunitism/"/>
-        <updated>2026-10-09T19:48:39.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Thwarted: Behold the awesome destructive power of a fully operational billionaire. Hey look at this: Delights to delectate. Object permanence: Anthrax v National Inquirer; Grey goo v Second Life; Predictive policing v actual crime; Spooky cookies; California v algorithmic price-fixing; Tivo self-destructs; Disney exec endorses piracy; TSA v geologists; Handheld printer; Mandatory DRM for all Canadian music sales; Iceweasel; "Snuff"; "Shade the Changing Girl"; Latam surveillance; Scotland Yard brands encryption terrorism; RBS slaughtered 10k small businesses to seize and sell their assets; Dead Letters. Upcoming appearances: Calgary, Winnipeg, Paris, Vancouver, Victoria, Ottawa, Kilkenny, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Japanese book rave. A club in Tokyo spread carpets on the...]]></title>
-        <id>https://kottke.org/26/10/0049771-japanese-book-rave</id>
-        <link href="https://kottke.org/26/10/0049771-japanese-book-rave"/>
-        <updated>2026-10-09T18:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Japanese book rave. A club in Tokyo spread carpets on the dance floor, played ambient music, and invited daytime clubgoers to chill out and read. Would 100% frequent a bookstore/cafe that did this regularly.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragoncatcher: Mayfly models]]></title>
-        <id>https://www.robinsloan.com/lab/mayfly-models/</id>
-        <link href="https://www.robinsloan.com/lab/mayfly-models/"/>
-        <updated>2026-10-09T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>We barely knew ye... <a href="https://www.robinsloan.com/lab/mayfly-models/">Read here.</a></p>]]></summary>
-        <author>
-            <name>Robin Sloan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weball allows you to roll up websites into a Katamari...]]></title>
-        <id>https://kottke.org/26/10/0049767-weball</id>
-        <link href="https://kottke.org/26/10/0049767-weball"/>
-        <updated>2026-10-09T17:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Weball allows you to roll up websites into a Katamari ball. You can even roll up KDO. This is too much fun. See also Destroy Any Website.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is This Weird Quiz Game the Toughest F1 Video Game Ever?]]></title>
-        <id>https://kottke.org/26/10/is-this-weird-quiz-game-the-toughest-f1-video-game-ever</id>
-        <link href="https://kottke.org/26/10/is-this-weird-quiz-game-the-toughest-f1-video-game-ever"/>
-        <updated>2026-10-09T16:38:00.000Z</updated>
-        <summary type="html"><![CDATA[It might be that this text-only quiz game from 1993 is the most challenging F1 video game of all time. Here are a couple of the 23 questions from Gerhard Berger’s Formula 1 Quiz:
-3. Which team was the best in the 80’s?
-Statistically, it’s McLaren, but that’s not a correct answer. The correct answer is “Mc Laren.” 
-4. Who is the youngest champion of ever?
-The correct answer in 1993 was Emerson Fittipaldi, but his full name cannot be accepted because it contains too many characters for the computer. The game will not take “Fittipaldi,” “Emerson,” or “E Fittipaldi.” The answer must be “Fit.”
-The real quiz, it soon becomes clear, is not a test of one’s F1 knowledge, but figuring out what the game expects to hear.
-
-	
-Berger is a former F1 driver, and the game is so weird and forgotten that it’s not even listed on his Wikipedia page — and it might not have been an official game at all. What is listed on his Wikipedia page is the epic prank war he waged against teammate Ayrton Senna:
-In an Australian hotel room, Berger filled Senna’s bed with frogs. An infuriated Senna confronted Berger, who replied, “Did you find the snake?” Senna retaliated by putting strong-smelling French cheese in the air conditioning unit of Berger’s room.
-
-	
-It seems likely it was in this spirit that Gerhard Berger’s Formula 1 Quiz game was created: as a prank Berger himself would have enjoyed. You can play a cracked version of the C64 game for yourself on the Internet Archive (answer “N” and “N” if you want to play it in hard mode as intended) and watch this gameplay video:
-
-
- 
-
-        
-         
-Tags: Formula One · Gerhard Berger · racing · sports · video · video games]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
