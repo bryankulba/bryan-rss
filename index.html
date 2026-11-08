@@ -35,6 +35,71 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-08T22:26:00.000Z">2026-11-08</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/" target="_blank" rel="noopener noreferrer">parse_number() as a SQLite extension: C vs Rust</a>
+          </h2>
+          <p class="feed-item__desc">Research: parse_number() as a SQLite extension: C vs Rust
+I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted.
+I fired up regular Claude chat (Opus 5.5) and prompted:
+I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse
+Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting.so(or whatever) file
+This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite) and 298 KB (using sqlite-loadable-rs), while the C extension was 14 KB. But the Rust extension was faster!
+Turns out that's because the Rust equivalent of C's strtod is "twice as fast". So I prompted:
+Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation
+And it did:
+Net cost per row over 2 million rows, lower is better:
+
+first C
+new C
+rusqlite
+sqlite-loadable
+
+
+
+
+Mixed data
+67 ns
+19 ns
+46 ns
+41 ns
+
+
+Integers only
+25 ns
+16 ns
+36 ns
+32 ns
+
+
+Decimals only
+106 ns
+18 ns
+55 ns
+47 ns
+
+
+
+
+
+Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this:
+Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder
+Here's the resulting report.
+Tags: c, research, sqlite, rust, claude</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19293">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-08T12:19:44.000Z">2026-11-08</time>
@@ -54,6 +119,28 @@
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/11/92236.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="6aefa7ab6e2ea600013973a9">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-08T11:00:00.000Z">2026-11-08</time>
+        <span class="feed-item__source">Sentiers</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://sentiers.media/maintenance-futures-a-responsibly-limited-ai-no-424/" target="_blank" rel="noopener noreferrer">Maintenance futures ⊗ A responsibly limited AI</a>
+          </h2>
+          <p class="feed-item__desc">No.424 — The greatest mystery of futures studies ⊗ Remake and occupy ⊗ Magenta solar panels ⊗ Three-body orbits</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="6aefa7ab6e2ea600013973a9" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="6aefa7ab6e2ea600013973a9">Mark read</button>
+            <span class="feed-item__reading-time">10 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/11/pdia-d50dced2-98a6-4c37-8335-6189b4924842-w-c.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
