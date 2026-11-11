@@ -271,6 +271,36 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/11/0049957-a-short-history-of-lego-i",
+          "author": null,
+          "description": "A short history of Lego instructions from 1955 to the present. “Prior to [1955] the only ‘guidance’ for products containing plastic bricks were drawings on the packaging to serve as inspiration for consumers.”",
+          "link": "https://kottke.org/26/11/0049957-a-short-history-of-lego-i",
+          "publishedOn": "2026-11-10T22:28:00.000Z",
+          "wordCount": 754,
+          "title": "A short history of Lego instructions from 1955 to the...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/0049961-satellite-images-of-sand-",
+          "author": null,
+          "description": "Satellite images of sand dunes migrating in Egypt. They move about 13 meters a year.",
+          "link": "https://kottke.org/26/11/0049961-satellite-images-of-sand-",
+          "publishedOn": "2026-11-10T21:19:00.000Z",
+          "wordCount": 696,
+          "title": "Satellite images of sand dunes migrating in Egypt. They...",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/usps-announces-mythical-creatures-stamps-for-2027",
+          "author": null,
+          "description": "The US Postal Service recently released a partial list of the stamps it’s putting out in 2027. One of the sets is Mythical Creatures, featuring five cryptids.1\nThe legend of Mothman has endured for more than six decades, but of the creatures encountered on these stamps, this flying, man-sized, red-eyed being emerged the most recently. The cryptid was first reported in West Virginia in 1966. Several nights after a gravedigger reported a winged, human-sized creature swooping above, two couples on a midnight drive in the rural outskirts of Point Pleasant reported being chased from overhead at great speed as they fled back to town. Newspapers dubbed the creature “Mothman.” After a year of eerie sightings was followed by a local tragedy, some interpreted the appearances as harbingers of disaste…",
+          "link": "https://kottke.org/26/11/usps-announces-mythical-creatures-stamps-for-2027",
+          "publishedOn": "2026-11-10T20:10:00.000Z",
+          "wordCount": 1445,
+          "title": "USPS Announces Mythical Creatures Stamps for 2027",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1794311024-a655935c.jpg"
+        },
+        {
           "id": "https://kottke.org/26/11/0049962-how-to-build-a-police-sta",
           "author": null,
           "description": "How to Build a Police State. “Bukele didn’t declare a dictatorship on day one. He built toward it incrementally, each step framed in the language of anti-corruption, public safety or efficiency.”",
@@ -2128,6 +2158,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51364",
+          "author": "Andy Baio",
+          "description": "after a 3.5 year break, Bill Wurtz released his fourth new video this year\n#",
+          "link": "https://www.youtube.com/watch?v=nYxC9j1Bnrw",
+          "publishedOn": "2026-11-10T19:49:37.000Z",
+          "wordCount": null,
+          "title": "hi",
+          "imageUrl": null
+        },
+        {
           "id": "https://waxy.org/?p=51362",
           "author": "Andy Baio",
           "description": "a physical-modeling voice synthesizer with sounds made from simulated airways; try the singing mode\n#",
@@ -2648,16 +2688,6 @@
           "wordCount": 5042,
           "title": "Pluralistic: Bundestrojaner (13 Oct 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13386",
-          "author": "Cory Doctorow",
-          "description": "Today's links How labor rights rescued Ultima from a monopolist: If you care about labor justice and artists' rights, stop focusing on copyright. Hey look at this: Delights to delectate. Object permanence: China unblocks Wikipedia; CCC cracks the Bundestrojaner; \"Children of the Sky\"; \"Messy\"; Every top Icelandic banker is guilty; Climate activism x digital activism; Gene Kan on P2P's future; Larry Ellison x mass surveillance; W3C v patents; \"Work from home\" in the cybercrime supply-chain; \"Nursery Rhyme Comics\"; Glitchy tea-set; Tourist Guy; Vista v reinstallation; Ryanair v your bladder; Wells Fargo CEO loves \"sales culture\"; \"Attention Merchants\"; Orban v free press; AI v GIGO; Dylan wins the Nobel; India's starving kids app; Adobe's spyware copyfraud; Charter blackmails customers with …",
-          "link": "https://pluralistic.net/2026/10/12/termination-of-transfer/",
-          "publishedOn": "2026-10-12T11:40:39.000Z",
-          "wordCount": 4577,
-          "title": "Pluralistic: How labor rights rescued Ultima from a monopolist (12 Oct 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2918,16 +2948,6 @@
           "wordCount": 1058,
           "title": "Untitled",
           "imageUrl": "https://44.media.tumblr.com/03739ba88b95d83bcfee5a2039f42e4e/fda811db99f682ef-bb/s1080x1362_f1/850b9169e95a94bdd30821631978f6be705ad5f9.jpg"
-        },
-        {
-          "id": "https://brucesterling.tumblr.com/post/830265851069579264",
-          "author": null,
-          "description": "*Drone-bombed in the 2020s",
-          "link": "https://brucesterling.tumblr.com/post/830265851069579264",
-          "publishedOn": "2026-10-12T11:06:57.000Z",
-          "wordCount": 1196,
-          "title": "*Drone-bombed in the 2020s",
-          "imageUrl": "https://64.media.tumblr.com/d1c85431dc4ef87c69037f43316a4b58/6adfa080e9db2876-4e/s1280x1920/fe928532ced953369cc0ba53e24fe8b8812c4dbe.webp"
         }
       ]
     },
@@ -3315,6 +3335,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "author": null,
+          "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.36\">llm-gemini 0.36</a></p>\n        <p>Gemini 4 Carbon was announced <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">two weeks ago</a> for \"a subset of cyber defenders\", but today it's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">available to everyone else</a>.</p>\n<p>This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5).</p>\n<p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fe5bf860633fc12e8f926f305c4c3190c\">three pelicans</a> for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high:</p>\n<p><img alt=\"A lovely pelican. Looks like it has a monocle on. Nice elegant sailor hat with a blue bow. Basket and fish. Funky but workable bicycle design. Pleasing use of gradients.\" src=\"https://static.simonwillison.net/static/2026/carbon-pelican.webp\" /></p>\n<p>Gemini pelicans have all been great for a while now, so I also tested it out using Google's Antigravity IDE with a prompt I first tried <a href=\"https://simonwillison.net/2026/Nov/10/yonkers-rises/\">with Claude Fable 5.2 yesterday</a>:</p>\n<blockquote>\n<p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p>\n</blockquote>\n<p>Here's <a href=\"https://static.simonwillison.net/static/2026/yonkers-mech-standalone.html\">the HTML result</a> (I had to prompt \"build that into a standalone HTML file\" to get a version with no external dependencies). I then screen-captured that as a video:</p>\n<video controls playsinline preload=\"none\" width=\"1028\" height=\"720\" poster=\"https://static.simonwillison.net/static/2026/yonkers-carbon.jpg\">\n  <source src=\"https://static.simonwillison.net/static/2026/yonkers-carbon.mp4\" type=\"video/mp4\">\n</video>\n\n<p><strong>Update</strong>: Huh, just saw this <a href=\"https://www.youtube.com/watch?v=dNbkThtNzS8\">on YouTube</a>:</p>\n<blockquote>\n<p>Using Google Antigravity’s /swarm feature, Carbon built an open-world 3D game where you explore Google’s Mountain View campus as a pelican riding a GBike — coordinating subagents to model 3D assets in Blender from Omni and Nano Banana references, build the browser game in Three.js with WebGL shaders, and pair procedural Web Audio sound effects with Lyria music.</p>\n</blockquote>\n<p><lite-youtube videoid=\"dNbkThtNzS8\" js-api=\"js-api\"\n  title=\"Pelican Quest: Gemini 4 Carbon\"\n  playlabel=\"Play: Pelican Quest: Gemini 4 Carbon\"\n> </lite-youtube></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "publishedOn": "2026-11-10T20:09:44.000Z",
+          "wordCount": 996,
+          "title": "llm-gemini 0.36",
+          "imageUrl": "https://static.simonwillison.net/static/2026/carbon-pelican.webp"
+        },
         {
           "id": "https://simonwillison.net/2026/Nov/10/muse-ember/",
           "author": null,

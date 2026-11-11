@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-10T19:17:06.638Z</updated>
+    <updated>2026-11-11T00:24:17.927Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A short history of Lego instructions from 1955 to the...]]></title>
+        <id>https://kottke.org/26/11/0049957-a-short-history-of-lego-i</id>
+        <link href="https://kottke.org/26/11/0049957-a-short-history-of-lego-i"/>
+        <updated>2026-11-10T22:28:00.000Z</updated>
+        <summary type="html"><![CDATA[A short history of Lego instructions from 1955 to the present. “Prior to [1955] the only ‘guidance’ for products containing plastic bricks were drawings on the packaging to serve as inspiration for consumers.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Satellite images of sand dunes migrating in Egypt. They...]]></title>
+        <id>https://kottke.org/26/11/0049961-satellite-images-of-sand-</id>
+        <link href="https://kottke.org/26/11/0049961-satellite-images-of-sand-"/>
+        <updated>2026-11-10T21:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Satellite images of sand dunes migrating in Egypt. They move about 13 meters a year.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USPS Announces Mythical Creatures Stamps for 2027]]></title>
+        <id>https://kottke.org/26/11/usps-announces-mythical-creatures-stamps-for-2027</id>
+        <link href="https://kottke.org/26/11/usps-announces-mythical-creatures-stamps-for-2027"/>
+        <updated>2026-11-10T20:10:00.000Z</updated>
+        <summary type="html"><![CDATA[The US Postal Service recently released a partial list of the stamps it’s putting out in 2027. One of the sets is Mythical Creatures, featuring five cryptids.1
+The legend of Mothman has endured for more than six decades, but of the creatures encountered on these stamps, this flying, man-sized, red-eyed being emerged the most recently. The cryptid was first reported in West Virginia in 1966. Several nights after a gravedigger reported a winged, human-sized creature swooping above, two couples on a midnight drive in the rural outskirts of Point Pleasant reported being chased from overhead at great speed as they fled back to town. Newspapers dubbed the creature “Mothman.” After a year of eerie sightings was followed by a local tragedy, some interpreted the appearances as harbingers of disaste…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-gemini 0.36]]></title>
+        <id>https://simonwillison.net/2026/Nov/10/llm-gemini/</id>
+        <link href="https://simonwillison.net/2026/Nov/10/llm-gemini/"/>
+        <updated>2026-11-10T20:09:44.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-gemini/releases/tag/0.36">llm-gemini 0.36</a></p>
+        <p>Gemini 4 Carbon was announced <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/">two weeks ago</a> for "a subset of cyber defenders", but today it's <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/">available to everyone else</a>.</p>
+<p>This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5).</p>
+<p>Here are <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fe5bf860633fc12e8f926f305c4c3190c">three pelicans</a> for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high:</p>
+<p><img alt="A lovely pelican. Looks like it has a monocle on. Nice elegant sailor hat with a blue bow. Basket and fish. Funky but workable bicycle design. Pleasing use of gradients." src="https://static.simonwillison.net/static/2026/carbon-pelican.webp" /></p>
+<p>Gemini pelicans have all been great for a while now, so I also tested it out using Google's Antigravity IDE with a prompt I first tried <a href="https://simonwillison.net/2026/Nov/10/yonkers-rises/">with Claude Fable 5.2 yesterday</a>:</p>
+<blockquote>
+<p><code>Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data</code></p>
+</blockquote>
+<p>Here's <a href="https://static.simonwillison.net/static/2026/yonkers-mech-standalone.html">the HTML result</a> (I had to prompt "build that into a standalone HTML file" to get a version with no external dependencies). I then screen-captured that as a video:</p>
+<video controls playsinline preload="none" width="1028" height="720" poster="https://static.simonwillison.net/static/2026/yonkers-carbon.jpg">
+  <source src="https://static.simonwillison.net/static/2026/yonkers-carbon.mp4" type="video/mp4">
+</video>
+
+<p><strong>Update</strong>: Huh, just saw this <a href="https://www.youtube.com/watch?v=dNbkThtNzS8">on YouTube</a>:</p>
+<blockquote>
+<p>Using Google Antigravity’s /swarm feature, Carbon built an open-world 3D game where you explore Google’s Mountain View campus as a pelican riding a GBike — coordinating subagents to model 3D assets in Blender from Omni and Nano Banana references, build the browser game in Three.js with WebGL shaders, and pair procedural Web Audio sound effects with Lyria music.</p>
+</blockquote>
+<p><lite-youtube videoid="dNbkThtNzS8" js-api="js-api"
+  title="Pelican Quest: Gemini 4 Carbon"
+  playlabel="Play: Pelican Quest: Gemini 4 Carbon"
+> </lite-youtube></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hi]]></title>
+        <id>https://waxy.org/?p=51364</id>
+        <link href="https://www.youtube.com/watch?v=nYxC9j1Bnrw"/>
+        <updated>2026-11-10T19:49:37.000Z</updated>
+        <summary type="html"><![CDATA[after a 3.5 year break, Bill Wurtz released his fourth new video this year
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to Build a Police State. “Bukele didn’t declare a...]]></title>
         <id>https://kottke.org/26/11/0049962-how-to-build-a-police-sta</id>
@@ -6986,26 +7062,6 @@ The post Is ‘Attention’ the Essence of Intelligence? first appeared on Quant
         <summary type="html"><![CDATA[My friend Matt was recently here for a week in Tokyo and wrote up his experience and observations. “I don’t think humans were ever meant to experience that many eyes and faces at once, so it was a unique experience.”]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: How labor rights rescued Ultima from a monopolist (12 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13386</id>
-        <link href="https://pluralistic.net/2026/10/12/termination-of-transfer/"/>
-        <updated>2026-10-12T11:40:39.000Z</updated>
-        <summary type="html"><![CDATA[Today's links How labor rights rescued Ultima from a monopolist: If you care about labor justice and artists' rights, stop focusing on copyright. Hey look at this: Delights to delectate. Object permanence: China unblocks Wikipedia; CCC cracks the Bundestrojaner; "Children of the Sky"; "Messy"; Every top Icelandic banker is guilty; Climate activism x digital activism; Gene Kan on P2P's future; Larry Ellison x mass surveillance; W3C v patents; "Work from home" in the cybercrime supply-chain; "Nursery Rhyme Comics"; Glitchy tea-set; Tourist Guy; Vista v reinstallation; Ryanair v your bladder; Wells Fargo CEO loves "sales culture"; "Attention Merchants"; Orban v free press; AI v GIGO; Dylan wins the Nobel; India's starving kids app; Adobe's spyware copyfraud; Charter blackmails customers with …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[*Drone-bombed in the 2020s]]></title>
-        <id>https://brucesterling.tumblr.com/post/830265851069579264</id>
-        <link href="https://brucesterling.tumblr.com/post/830265851069579264"/>
-        <updated>2026-10-12T11:06:57.000Z</updated>
-        <summary type="html"><![CDATA[*Drone-bombed in the 2020s]]></summary>
-        <author>
-            <name>BruceS</name>
         </author>
     </entry>
     <entry>
