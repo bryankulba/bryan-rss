@@ -35,6 +35,78 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/12/llm-gemini/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-12T22:55:19.000Z">2026-11-12</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/12/llm-gemini/" target="_blank" rel="noopener noreferrer">llm-gemini 0.37</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm-gemini 0.37
+Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family.
+It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme:
+
+  
+    
+Model
+      Dates
+      Input ($/M)
+      Cached input
+      Output
+    
+Gemini 4 Carbon
+      Through Nov 30, 2026
+      $2.00
+      $0.10
+      $10.00
+    
+From Dec 1, 2026
+      $4.00
+      $0.20
+      $20.00
+    
+Gemini 4 Argon
+      Through Nov 30, 2026
+      $2.00
+      $0.10
+      $10.00
+    
+From Dec 1, 2026
+      $4.00
+      $0.20
+      $20.00
+    
+Gemini 4 Hydrogen
+       
+      $1.50
+      $0.075
+      $7.50
+    
+
+
+Carbon and Argon are the same price, and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Google says that Argon "delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon" - so it may be priced the same, but it will use less tokens per task.
+Hydrogen, supposedly the cheap model, is currently only a 25% discount on its more capable peers. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that.
+I had Hydrogen generate some pelicans. Here's a full comparison grid showing the pelicans for all three members of the Gemini 4 family at their three supported effort levels:
+
+Considering how close they are in price, the difference in pelican quality for Hydrogen is quite stark.
+Here's how Google describe Hydrogen's intended position in their mix of models:
+In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency execution engine in multi-model workflows.
+Most notably, Hydrogen is the new free tier model, and is the model that will power AI features in Google Search.
+Tags: gemini, llm, google, pelican-riding-a-bicycle, llm-pricing, ai, llms</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/12/llm-gemini/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/12/llm-gemini/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/gemini-4-card.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/richard-scarry-illustrations-paired-with-karl-marx-quotes">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-12T21:01:00.000Z">2026-11-12</time>
@@ -11160,160 +11232,6 @@ Tags: Japan · Jason Kottke · photography</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049792-digger-has-a-lot-of-hater">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://brucesterling.tumblr.com/post/830468659079168000">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T16:50:30.000Z">2026-10-14</time>
-        <span class="feed-item__source">BruceS</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://brucesterling.tumblr.com/post/830468659079168000" target="_blank" rel="noopener noreferrer">Untitled</a>
-          </h2>
-          <p class="feed-item__desc">*I got my handssss on one</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://brucesterling.tumblr.com/post/830468659079168000" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://brucesterling.tumblr.com/post/830468659079168000">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://64.media.tumblr.com/22bec75bea7add776f7e2567fc249e24/084a9e3572d8c30c-bf/s1280x1920/b30c6ce291922597065252e617bbc400440df78d.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T16:26:53.000Z">2026-10-14</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/" target="_blank" rel="noopener noreferrer">AI is mass decompiling games. That&#x27;s both awesome and scary.</a>
-          </h2>
-          <p class="feed-item__desc">AI is mass decompiling games. That's both awesome and scary.
-I like how this piece captures both the positives and the negatives of this new development:
-Most people already realized the scary part by now. If AI can decompile games and software, then the entire tech industry is about to explode. Anybody can decompile other software and use it any way they'd like, and nobody can stop them. Companies can steal from competitors. Your paid game or app can be open-sourced against your will. This isn't exclusive to old video games, we can apply this to any software. [...]
-This is also a big win for preservation. Old games can be ported, modified, enhanced, and made much more easily accessible than before.  [...[
-With console makers going all in on digital and games becoming entirely unplayable due to servers shutting down, this is fantastic news. We could own software we bought regardless of what the company thinks.
-Via Hacker News
-Tags: computer-history, game-design, ai, webassembly, generative-ai, llms, ai-ethics, coding-agents</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049789-wrote-their-own-git-alter">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T16:08:00.000Z">2026-10-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049789-wrote-their-own-git-alter" target="_blank" rel="noopener noreferrer">Anthropic says that, as of Sept ‘26, they were merging...</a>
-          </h2>
-          <p class="feed-item__desc">Anthropic says that, as of Sept ‘26, they were merging 30,000 code changes per day, a 12-fold increase from just four months earlier. The volume increased so much that they wrote their own Git alternative.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049789-wrote-their-own-git-alter" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049789-wrote-their-own-git-alter">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/whoa-the-lion-nebula">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T14:55:00.000Z">2026-10-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/whoa-the-lion-nebula" target="_blank" rel="noopener noreferrer">Whoa, the Lion Nebula!</a>
-          </h2>
-          <p class="feed-item__desc">NASA’s JWST recently snapped this image of the Lion Nebula (NGC 2392).
-Massive stars undergo supernova explosions at the end of their lives, but these kinds of events are few and far in between. Most of the universe’s stars have lower masses, like the one belonging to NGC 2392. When a lower-mass star can no longer sustain itself with nuclear reactions in its core, the star becomes unstable and pulsates, losing its mass by shedding its outer layers, which then turn into shells of gas and dust called a planetary nebula. (Stars at this life stage are responsible for producing much of the universe’s observable dust.) The star’s radiation drives the ejected material away, leaving behind the very hot stellar core, also known as a white dwarf.
-In the Lion Nebula’s case, the death of the oxygen-ri…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/whoa-the-lion-nebula" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/whoa-the-lion-nebula">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/images/posts/01/editor-1791942025-e398546e.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049793-the-case-for-quitting-the">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T14:10:00.000Z">2026-10-14</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049793-the-case-for-quitting-the" target="_blank" rel="noopener noreferrer">The Case for Quitting: The Surprising Benefits of Opting...</a>
-          </h2>
-          <p class="feed-item__desc">The Case for Quitting: The Surprising Benefits of Opting Out by Lindsay Crouse. “When perseverance turns against us, quitting isn’t just a way out. Often, it’s the first step to something better. A pivot. A break. A chance to go further — or be free.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049793-the-case-for-quitting-the" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049793-the-case-for-quitting-the">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;167839">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T14:04:05.000Z">2026-10-14</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014/" target="_blank" rel="noopener noreferrer">Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t</a>
-          </h2>
-          <p class="feed-item__desc">A collision may have left these galaxies without dark matter. That spells trouble for alternative gravity theories.            
-The post Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;167839" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;167839">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/10/Dark-Matter-Galaxies-cr.several-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19151">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-14T12:01:36.000Z">2026-10-14</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/14oct26/" target="_blank" rel="noopener noreferrer">14oct26</a>
-          </h2>
-          <p class="feed-item__desc">I ordered some bulbs for the garden some months ago. They arrived today. It is possible that I may have overdone it. TODAY: OPERATIONS: big…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;19151" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;19151">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/10/weathershot-C4CF4132-3CFD-4206-92B8-2137C6456191-scaled.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>

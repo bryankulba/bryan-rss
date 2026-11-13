@@ -2,10 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-12T22:01:51.421Z</updated>
+    <updated>2026-11-13T04:58:59.954Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[llm-gemini 0.37]]></title>
+        <id>https://simonwillison.net/2026/Nov/12/llm-gemini/</id>
+        <link href="https://simonwillison.net/2026/Nov/12/llm-gemini/"/>
+        <updated>2026-11-12T22:55:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/llm-gemini/releases/tag/0.37">llm-gemini 0.37</a></p>
+        <p>Google launched <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p>
+<p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing scheme:</p>
+<center><table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Dates</th>
+      <th>Input ($/M)</th>
+      <th>Cached input</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Gemini 4 Carbon</td>
+      <td>Through Nov 30, 2026</td>
+      <td>$2.00</td>
+      <td>$0.10</td>
+      <td>$10.00</td>
+    </tr>
+    <tr>
+      <td>From Dec 1, 2026</td>
+      <td>$4.00</td>
+      <td>$0.20</td>
+      <td>$20.00</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Gemini 4 Argon</td>
+      <td>Through Nov 30, 2026</td>
+      <td>$2.00</td>
+      <td>$0.10</td>
+      <td>$10.00</td>
+    </tr>
+    <tr>
+      <td>From Dec 1, 2026</td>
+      <td>$4.00</td>
+      <td>$0.20</td>
+      <td>$20.00</td>
+    </tr>
+    <tr>
+      <td>Gemini 4 Hydrogen</td>
+      <td>&nbsp;</td>
+      <td>$1.50</td>
+      <td>$0.075</td>
+      <td>$7.50</td>
+    </tr>
+  </tbody>
+</table></center>
+
+<p>Carbon and Argon are <em>the same price</em>, and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? <a href="https://aistudio.google.com/docs/pricing">Google says</a> that Argon "delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon" - so it may be priced the same, but it will use less tokens per task.</p>
+<p>Hydrogen, supposedly the cheap model, is currently only a 25% discount on its more capable peers. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that.</p>
+<p>I had Hydrogen <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fce357e95149cd16f65ec7e7106ed4fed">generate some pelicans</a>. Here's a <a href="https://static.simonwillison.net/static/2026/gemini-4-pelicans.html">full comparison grid</a> showing the pelicans for all three members of the Gemini 4 family at their three supported effort levels:</p>
+<p><img alt="Comparison grid of nine SVG-style illustrations of a pelican riding a bicycle, three models across by three thinking levels down. Column headers: Thinking, gemini-4-carbon, gemini-4-argon, gemini-4-hydrogen. Row HIGH: gemini-4-carbon draws a detailed pelican in a sailor cap riding a red cruiser bicycle with fenders and a wicker basket holding a fish, along a beach road with sea, sun, clouds and birds, captioned 40 input tokens, 20,305 output = 20.31 cents · 4m 11s; gemini-4-argon draws a pelican in a red cap and a streaming teal striped scarf on a red bicycle with a blue fish peeking out of the basket, on a seaside promenade with a pale sun, captioned 40 input tokens, 17,158 output = 17.17 cents · 2m 29s; gemini-4-hydrogen draws a much simpler plain white pelican on a basic red bicycle against a pale blue sky with two clouds, speed lines and flat green ground, captioned 40 input tokens, 5,311 output = 3.99 cents · 19s. Row MEDIUM: gemini-4-carbon draws a pelican in a sailor cap and red striped scarf on a red bicycle with cream fenders and a basket, on a sandy beach with a rope fence and sea, captioned 40 input tokens, 11,020 output = 11.03 cents · 1m 53s; gemini-4-argon draws a pelican with an enormous orange beak, sailor cap and flowing red scarf on a teal bicycle with a basket, on a boardwalk under a purple and pink sunset sky with a large pink sun, captioned 40 input tokens, 11,090 output = 11.10 cents · 1m 32s; gemini-4-hydrogen draws a simple cream pelican on a plain red bicycle with sparse spokes, two clouds and flat green ground, captioned 40 input tokens, 3,964 output = 2.98 cents · 17s. Row LOW: gemini-4-carbon draws a pelican in a sailor cap and red and white striped scarf on a red bicycle with fenders and a basket, passing a white seaside railing on a grey road, captioned 40 input tokens, 9,153 output = 9.16 cents · 1m 34s; gemini-4-argon draws a large, chubby pelican with a sailor cap and huge orange beak on a red bicycle with a basket, gripping the handlebars with a dark blue wing, in front of an orange setting sun and a grey road, captioned 40 input tokens, 10,177 output = 10.18 cents · 1m 21s; gemini-4-hydrogen draws the simplest image, a plain white pelican on a thin red bicycle over a single green line with no scenery, captioned 40 input tokens, 2,996 output = 2.25 cents · 10s. Overall, carbon and argon produce rich, accessorised seaside scenes at every thinking level, while hydrogen produces far plainer pelicans at a fraction of the cost and time, and detail decreases for all three models as thinking drops from high to low." src="https://static.simonwillison.net/static/2026/gemini-4-pelicans.webp" /></p>
+<p>Considering how close they are in price, the difference in pelican quality for Hydrogen is quite stark.</p>
+<p>Here's <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">how Google describe</a> Hydrogen's intended position in their mix of models:</p>
+<blockquote>
+<p>In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency execution engine in multi-model workflows.</p>
+</blockquote>
+<p>Most notably, Hydrogen is the new free tier model, and is the model that will power AI features in Google Search.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Richard Scarry Illustrations Paired With Karl Marx Quotes]]></title>
         <id>https://kottke.org/26/11/richard-scarry-illustrations-paired-with-karl-marx-quotes</id>
@@ -6695,91 +6767,6 @@ Tags: Japan · Jason Kottke · photography]]></summary>
         <summary type="html"><![CDATA[“‘Digger’ has a lot of haters. Here’s why they’re wrong.” Digger is fascinating — I can’t remember another big movie where public opinion has been so divided (it’s either genius or garbage). I saw it with a friend and he loved it so much he went again.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>https://brucesterling.tumblr.com/post/830468659079168000</id>
-        <link href="https://brucesterling.tumblr.com/post/830468659079168000"/>
-        <updated>2026-10-14T16:50:30.000Z</updated>
-        <summary type="html"><![CDATA[*I got my handssss on one]]></summary>
-        <author>
-            <name>BruceS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI is mass decompiling games. That's both awesome and scary.]]></title>
-        <id>https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/</id>
-        <link href="https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"/>
-        <updated>2026-10-14T16:26:53.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/">AI is mass decompiling games. That&#x27;s both awesome and scary.</a></strong></p>
-Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly).</p>
-<p>I like how this piece captures both the positives and the negatives of this new development:</p>
-<blockquote>
-<p>Most people already realized the scary part by now. If AI can decompile games and software, then the entire tech industry is about to explode. Anybody can decompile other software and use it any way they'd like, and nobody can stop them. Companies can steal from competitors. Your paid game or app can be open-sourced against your will. This isn't exclusive to old video games, we can apply this to <em>any</em> software. [...]</p>
-<p>This is also a big win for preservation. Old games can be ported, modified, enhanced, and made much more easily accessible than before.  [...[</p>
-<p>With console makers going all in on digital and games becoming entirely unplayable due to servers shutting down, this is <em>fantastic</em> news. We could own software we bought regardless of what the company thinks.</p>
-</blockquote>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50088534">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/computer-history">computer-history</a>, <a href="https://simonwillison.net/tags/game-design">game-design</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-ethics">ai-ethics</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthropic says that, as of Sept ‘26, they were merging...]]></title>
-        <id>https://kottke.org/26/10/0049789-wrote-their-own-git-alter</id>
-        <link href="https://kottke.org/26/10/0049789-wrote-their-own-git-alter"/>
-        <updated>2026-10-14T16:08:00.000Z</updated>
-        <summary type="html"><![CDATA[Anthropic says that, as of Sept ‘26, they were merging 30,000 code changes per day, a 12-fold increase from just four months earlier. The volume increased so much that they wrote their own Git alternative.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Whoa, the Lion Nebula!]]></title>
-        <id>https://kottke.org/26/10/whoa-the-lion-nebula</id>
-        <link href="https://kottke.org/26/10/whoa-the-lion-nebula"/>
-        <updated>2026-10-14T14:55:00.000Z</updated>
-        <summary type="html"><![CDATA[NASA’s JWST recently snapped this image of the Lion Nebula (NGC 2392).
-Massive stars undergo supernova explosions at the end of their lives, but these kinds of events are few and far in between. Most of the universe’s stars have lower masses, like the one belonging to NGC 2392. When a lower-mass star can no longer sustain itself with nuclear reactions in its core, the star becomes unstable and pulsates, losing its mass by shedding its outer layers, which then turn into shells of gas and dust called a planetary nebula. (Stars at this life stage are responsible for producing much of the universe’s observable dust.) The star’s radiation drives the ejected material away, leaving behind the very hot stellar core, also known as a white dwarf.
-In the Lion Nebula’s case, the death of the oxygen-ri…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Case for Quitting: The Surprising Benefits of Opting...]]></title>
-        <id>https://kottke.org/26/10/0049793-the-case-for-quitting-the</id>
-        <link href="https://kottke.org/26/10/0049793-the-case-for-quitting-the"/>
-        <updated>2026-10-14T14:10:00.000Z</updated>
-        <summary type="html"><![CDATA[The Case for Quitting: The Surprising Benefits of Opting Out by Lindsay Crouse. “When perseverance turns against us, quitting isn’t just a way out. Often, it’s the first step to something better. A pivot. A break. A chance to go further — or be free.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t]]></title>
-        <id>https://www.quantamagazine.org/?p=167839</id>
-        <link href="https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014/"/>
-        <updated>2026-10-14T14:04:05.000Z</updated>
-        <summary type="html"><![CDATA[A collision may have left these galaxies without dark matter. That spells trouble for alternative gravity theories.            
-The post Triplet of ‘Ghostly’ Galaxies Hints at What Dark Matter Is — and Isn’t first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Robin George Andrews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[14oct26]]></title>
-        <id>https://warrenellis.ltd/?p=19151</id>
-        <link href="https://warrenellis.ltd/status/14oct26/"/>
-        <updated>2026-10-14T12:01:36.000Z</updated>
-        <summary type="html"><![CDATA[I ordered some bulbs for the garden some months ago. They arrived today. It is possible that I may have overdone it. TODAY: OPERATIONS: big…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
         </author>
     </entry>
     <entry>
