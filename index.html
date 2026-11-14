@@ -35,6 +35,150 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-13T23:02:45.000Z">2026-11-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/" target="_blank" rel="noopener noreferrer">datasette-cluster-map 0.19</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-cluster-map 0.19
+One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header.
+Here's a map of power plants owned by California's PG&E, also demonstrating Datasette's recently redesigned facets:
+
+Tags: datasette, geospatial, openstreetmap</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-13T22:30:54.000Z">2026-11-13</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/" target="_blank" rel="noopener noreferrer">datasette-leaflet 0.3</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-leaflet 0.3
+OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header. Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.
+datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to strict-origin-when-cross-origin, passing the host but not the full path to the page.
+Tags: leaflet, datasette, openstreetmap</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/13/datasette-leaflet/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/a-literary-map-of-the-united-states">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-13T21:48:00.000Z">2026-11-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/a-literary-map-of-the-united-states" target="_blank" rel="noopener noreferrer">A Literary Map of the United States</a>
+          </h2>
+          <p class="feed-item__desc">From Big Think and Pop Charts, A Literary Map of America that “highlights the real and imagined settings of hundreds of books”. Frank Jacobs takes a closer look at some of the imaginary places on the map, including Sleepy Hollow, Lake Wobegon, Brokeback Mountain, and F. Scott Fitzgerald’s East Egg and West Egg.
+There are many ways to read this map: as a peculiar road map of the United States, a potted history of the same, a metatext of American literature, a guide to American literary genres and their centers of gravity, and more. I will get to at least some of them later, but for now, I want to examine the effect that scholars call broadly “imaginative geography,” more precisely “toponymic capture,” and more elegantly “authorial inscription.” It is the process by which a writer’s vision of a place becomes so dominant that it effectively overwrites that place’s prior identity in the public imagination.
+We could say other parts of America have been “colonized” by other texts the same way King’s horror stories have influenced our perception of Maine. A gentler metaphor, from Rebecca Solnit’s Infinite City, is of cultural and literary memory as an “overlay.” It resides above physical geography like a transparency on an overhead projector, a slightly shifting but persistent presence. 
+In Landmarks, the English nature writer Robert Macfarlane develops the idea that a sufficiently powerful text doesn’t just describe a landscape, but alters the mind that subsequently encounters it. He uses the verb phrase “to see through” to define it: you see the Suffolk coast through W.G. Sebald, the Mississippi through Mark Twain, the South (as a particularly “Gothic” place) through Faulkner.
+
+	
+
+
+The map is available as a poster.
+
+ 
+
+        
+         
+Tags: books · Frank Jacobs · geography · maps</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/a-literary-map-of-the-united-states" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/a-literary-map-of-the-united-states">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="http://kottke.org/images/posts/01/editor-1794360139-7c33f2ae.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0049960-solving-the-feynman-resta">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-13T21:02:00.000Z">2026-11-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0049960-solving-the-feynman-resta" target="_blank" rel="noopener noreferrer">Solving the Feynman restaurant problem, i.e. how many...</a>
+          </h2>
+          <p class="feed-item__desc">Solving the Feynman restaurant problem, i.e. how many dishes should you sample at a restaurant to find your favorite one? “Once you settle on a dish, the best strategy is to order it on every remaining visit.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0049960-solving-the-feynman-resta" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0049960-solving-the-feynman-resta">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-49960-61511271.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0049990-mouse-party">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-13T19:59:00.000Z">2026-11-13</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0049990-mouse-party" target="_blank" rel="noopener noreferrer">Paul Ford made an app called Mouse Party for easily...</a>
+          </h2>
+          <p class="feed-item__desc">Paul Ford made an app called Mouse Party for easily hosting video watching parties for your friends, no web server needed.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0049990-mouse-party" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0049990-mouse-party">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-49990-e6c69a28.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13508">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-13T19:44:37.000Z">2026-11-13</time>
+        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://pluralistic.net/2026/11/13/outlookpocalypse/" target="_blank" rel="noopener noreferrer">Pluralistic: I told you so (13 Nov 2026)</a>
+          </h2>
+          <p class="feed-item__desc">Today's links I told you so: Microsoft is too big to live. Hey look at this: Delights to delectate. Object permanence: Canada's corrupt copyright czar; Universal Music CEO v iPod owners; Berlusconi x neo-fascists; Balancing 3,118 coins on a dime; All for-profit healthcare is a problem. Upcoming appearances: Folkestone, Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. I told you so (permalink) Here's the one weird trick that made it possible for monopolies to conquer the world: the antitrust bar changed the rules so that it was impossible to prove whether a company had formed an illegal monopoly, and then these…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13508" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13508">Mark read</button>
+            <span class="feed-item__reading-time">17 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/the-surma-boys-of-afghanistan">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-13T18:54:00.000Z">2026-11-13</time>
@@ -11314,46 +11458,6 @@ Tags: ai, generative-ai, llms, anthropic</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049811-tiny-little-office">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13400">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-15T11:03:29.000Z">2026-10-15</time>
-        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://pluralistic.net/2026/10/15/enshittipedia/" target="_blank" rel="noopener noreferrer">Pluralistic: Expedia amazoned hotel rooms (15 Oct 2026)</a>
-          </h2>
-          <p class="feed-item__desc">Today's links Expedia amazoned hotel rooms: Everything more expensive for everyone, monopolies everywhere, and we're all screwed. Hey look at this: Delights to delectate. Object permanence: Delta v dovening; "Play Money"; Alabama's ethnic cleansing; We trust neuroscience over psychology; Billionaires' anti-homeless pogrom; Game devs v DRM; What security means; Microsoft, tear down that wall! Publisher won't revert rights; SNL's Trump/Clinton debate; Chicago Tribune's murder; AI after AI. Upcoming appearances: Paris, Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Expedia amazoned hotel …</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13400" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13400">Mark read</button>
-            <span class="feed-item__reading-time">13 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-15T11:03:25.000Z">2026-10-15</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise" target="_blank" rel="noopener noreferrer">Be outside for the sunrise</a>
-          </h2>
-          <p class="feed-item__desc">Like a winner. Plus shoes, rugs, one of the coolest incense burners we’ve ever seen & more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!QEXS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcef4dc13-ce46-4aa2-8699-0480ca960208_1955x2592.png" alt="" loading="lazy">
         </div>
       </div>
     </article>

@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-13T19:10:45.657Z</updated>
+    <updated>2026-11-14T00:38:38.001Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette-cluster-map 0.19]]></title>
+        <id>https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</id>
+        <link href="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"/>
+        <updated>2026-11-13T23:02:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-cluster-map/releases/tag/0.19">datasette-cluster-map 0.19</a></p>
+        <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p>
+<p>Here's <a href="https://datasette.io/global-power-plants/global-power-plants?owner=Pacific+Gas+%26+Electric+Co.">a map of power plants owned by California's PG&amp;E</a>, also demonstrating Datasette's recently <a href="https://github.com/simonw/datasette/pull/3032">redesigned facets</a>:</p>
+<p><img alt="Screenshot of a faceted map interface. Three facet panels at the top: &quot;country_long 1&quot; with United States of America 81 selected; &quot;owner 1&quot; with Pacific Gas &amp; Electric Co. 81 selected; &quot;primary_fuel 5&quot; listing Hydro 63, Solar 10, Gas 5, Storage 2, Nuclear 1. Each primary_fuel row has a pale blue horizontal bar behind its label, sized in proportion to its count: Hydro's bar fills most of the row width, Solar's is a short sliver, Gas's is shorter still, and Storage and Nuclear have only a thin strip at the left edge. Below is a Leaflet map with + and − zoom controls showing California and Nevada, with marker clusters across northern and central California: 9 near Redding, 21 near Chico, 2 to the west of Chico, 13 northeast of Sacramento, 7 east of Stockton, 6 at Oakland, 10 at Fresno, 9 west of Visalia, 2 north of Bakersfield, plus two individual blue pin markers on the coast, one in the far north and one north of Santa Maria. Attribution: Leaflet | © OpenStreetMap contributors" src="https://static.simonwillison.net/static/2026/power-plants-pge.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/geospatial">geospatial</a>, <a href="https://simonwillison.net/tags/openstreetmap">openstreetmap</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-leaflet 0.3]]></title>
+        <id>https://simonwillison.net/2026/Nov/13/datasette-leaflet/</id>
+        <link href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/"/>
+        <updated>2026-11-13T22:30:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-leaflet/releases/tag/0.3">datasette-leaflet 0.3</a></p>
+        <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href="https://wiki.openstreetmap.org/wiki/Referer">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p>
+<p><code>datasette-leaflet</code> is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to <code>strict-origin-when-cross-origin</code>, passing the host but not the full path to the page.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/leaflet">leaflet</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/openstreetmap">openstreetmap</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Literary Map of the United States]]></title>
+        <id>https://kottke.org/26/11/a-literary-map-of-the-united-states</id>
+        <link href="https://kottke.org/26/11/a-literary-map-of-the-united-states"/>
+        <updated>2026-11-13T21:48:00.000Z</updated>
+        <summary type="html"><![CDATA[From Big Think and Pop Charts, A Literary Map of America that “highlights the real and imagined settings of hundreds of books”. Frank Jacobs takes a closer look at some of the imaginary places on the map, including Sleepy Hollow, Lake Wobegon, Brokeback Mountain, and F. Scott Fitzgerald’s East Egg and West Egg.
+There are many ways to read this map: as a peculiar road map of the United States, a potted history of the same, a metatext of American literature, a guide to American literary genres and their centers of gravity, and more. I will get to at least some of them later, but for now, I want to examine the effect that scholars call broadly “imaginative geography,” more precisely “toponymic capture,” and more elegantly “authorial inscription.” It is the process by which a writer’s vision of a place becomes so dominant that it effectively overwrites that place’s prior identity in the public imagination.
+We could say other parts of America have been “colonized” by other texts the same way King’s horror stories have influenced our perception of Maine. A gentler metaphor, from Rebecca Solnit’s Infinite City, is of cultural and literary memory as an “overlay.” It resides above physical geography like a transparency on an overhead projector, a slightly shifting but persistent presence. 
+In Landmarks, the English nature writer Robert Macfarlane develops the idea that a sufficiently powerful text doesn’t just describe a landscape, but alters the mind that subsequently encounters it. He uses the verb phrase “to see through” to define it: you see the Suffolk coast through W.G. Sebald, the Mississippi through Mark Twain, the South (as a particularly “Gothic” place) through Faulkner.
+
+	
+
+
+The map is available as a poster.
+
+ 
+
+        
+         
+Tags: books · Frank Jacobs · geography · maps]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving the Feynman restaurant problem, i.e. how many...]]></title>
+        <id>https://kottke.org/26/11/0049960-solving-the-feynman-resta</id>
+        <link href="https://kottke.org/26/11/0049960-solving-the-feynman-resta"/>
+        <updated>2026-11-13T21:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Solving the Feynman restaurant problem, i.e. how many dishes should you sample at a restaurant to find your favorite one? “Once you settle on a dish, the best strategy is to order it on every remaining visit.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paul Ford made an app called Mouse Party for easily...]]></title>
+        <id>https://kottke.org/26/11/0049990-mouse-party</id>
+        <link href="https://kottke.org/26/11/0049990-mouse-party"/>
+        <updated>2026-11-13T19:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Paul Ford made an app called Mouse Party for easily hosting video watching parties for your friends, no web server needed.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: I told you so (13 Nov 2026)]]></title>
+        <id>https://pluralistic.net/?p=13508</id>
+        <link href="https://pluralistic.net/2026/11/13/outlookpocalypse/"/>
+        <updated>2026-11-13T19:44:37.000Z</updated>
+        <summary type="html"><![CDATA[Today's links I told you so: Microsoft is too big to live. Hey look at this: Delights to delectate. Object permanence: Canada's corrupt copyright czar; Universal Music CEO v iPod owners; Berlusconi x neo-fascists; Balancing 3,118 coins on a dime; All for-profit healthcare is a problem. Upcoming appearances: Folkestone, Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. I told you so (permalink) Here's the one weird trick that made it possible for monopolies to conquer the world: the antitrust bar changed the rules so that it was impossible to prove whether a company had formed an illegal monopoly, and then these…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Surma Boys of Afghanistan]]></title>
         <id>https://kottke.org/26/11/the-surma-boys-of-afghanistan</id>
@@ -6814,26 +6899,6 @@ The phrase "told investors" appears four times in this FT article, which reports
         <summary type="html"><![CDATA[Tiny Little Office is “an office suite with no accounts and no server that holds your work. Every document lives in the address of its page… Copy the link and you have copied the document.” Includes a word processor, spreadsheet, calculator, etc.]]></summary>
         <author>
             <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Expedia amazoned hotel rooms (15 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13400</id>
-        <link href="https://pluralistic.net/2026/10/15/enshittipedia/"/>
-        <updated>2026-10-15T11:03:29.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Expedia amazoned hotel rooms: Everything more expensive for everyone, monopolies everywhere, and we're all screwed. Hey look at this: Delights to delectate. Object permanence: Delta v dovening; "Play Money"; Alabama's ethnic cleansing; We trust neuroscience over psychology; Billionaires' anti-homeless pogrom; Game devs v DRM; What security means; Microsoft, tear down that wall! Publisher won't revert rights; SNL's Trump/Clinton debate; Chicago Tribune's murder; AI after AI. Upcoming appearances: Paris, Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Expedia amazoned hotel …]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Be outside for the sunrise]]></title>
-        <id>https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise</id>
-        <link href="https://www.blackbirdspyplane.com/p/get-outside-for-a-sunrise"/>
-        <updated>2026-10-15T11:03:25.000Z</updated>
-        <summary type="html"><![CDATA[Like a winner. Plus shoes, rugs, one of the coolest incense burners we’ve ever seen & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
         </author>
     </entry>
     <entry>
