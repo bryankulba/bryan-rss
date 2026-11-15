@@ -35,6 +35,73 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/14/datasette-llm/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-14T23:59:28.000Z">2026-11-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/14/datasette-llm/" target="_blank" rel="noopener noreferrer">datasette-llm 0.1a11</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-llm 0.1a11
+datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.
+This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.
+This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0) you can run Datasette via uvx like this:
+wget https://datasette.io/content.db
+
+uvx --with datasette-agent datasette \
+  --root --secret 1 \
+  -s plugins.datasette-llm.default_model '{
+    "model": "lmstudio-qwen",
+    "model_name": "qwen/qwen3.8-27b",
+    "api_base": "http://localhost:1234/v1"
+  }' content.db
+
+
+And you'll get a local server running a Datasette Agent instance powered by your local model!
+
+Tags: uv, datasette-agent, llm, datasette, llms, ai, generative-ai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/14/datasette-llm/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/14/datasette-llm/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/14/datasette-vega/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-14T17:09:09.000Z">2026-11-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/14/datasette-vega/" target="_blank" rel="noopener noreferrer">datasette-vega 0.7</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-vega 0.7
+A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite) against data in a table or custom query. The last release was in July 2018!
+I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite.
+(Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.)
+Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite.
+
+Tags: datasette, visualisation, datasette-lite</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/14/datasette-vega/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/14/datasette-vega/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/datasette-vega.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="http://www.antipope.org/charlie/blog-static/2026/11/the-circus-is-leaving-town.html">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-14T09:18:24.000Z">2026-11-14</time>
@@ -10958,116 +11025,6 @@ Tags: dance · video</p>
             <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049795-the-trailer-for-blade-run" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049795-the-trailer-for-blade-run">Mark read</button>
             <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/going-94-mph-on-a-skateboard-new-world-record">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-16T15:32:00.000Z">2026-10-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/going-94-mph-on-a-skateboard-new-world-record" target="_blank" rel="noopener noreferrer">Going 94 MPH on a Skateboard (New World Record)</a>
-          </h2>
-          <p class="feed-item__desc">Diego Poncelet recently set a new world record for the fastest speed on a skateboard. The old record was 146.7 km/h (91.2 mph) and he hit 151.8 km/h (94.3 mph). There are a couple of parts you can skip, but watching most of the video is worth it because you see the process and can compare how truly insanely fast he is moving during the final run — I found myself holding my breath for the last minute or so.
-Also, I cannot believe how closely the camera car is following him — looks like only a few feet away. Bonkers.
-I just found the first time I posted about speed skateboarding on KDO: this post from 2008. Less aerodynamic, more gonzo, and the cameraman is also on a skateboard going equally fast.
-
- 
-
-        
-         
-Tags: Diego Poncelet · skateboarding · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/going-94-mph-on-a-skateboard-new-world-record" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/going-94-mph-on-a-skateboard-new-world-record">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/u3ydV2RVJvc/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.velcro-city.co.uk/?p&#x3D;12416">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-16T15:15:49.000Z">2026-10-16</time>
-        <span class="feed-item__source">Velcro City Tourist Board</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.velcro-city.co.uk/can-you-dig-it/" target="_blank" rel="noopener noreferrer">can you dig it?</a>
-          </h2>
-          <p class="feed-item__desc">Thoughts on the movie Digger, whose rejection is IMO the best measure of its uncanny and timely accuracy.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12416" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12416">Mark read</button>
-            <span class="feed-item__reading-time">11 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049806-not-solitaire">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-16T14:15:00.000Z">2026-10-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049806-not-solitaire" target="_blank" rel="noopener noreferrer">I played (not) solitaire for more hands than I would care...</a>
-          </h2>
-          <p class="feed-item__desc">I played (not) solitaire for more hands than I would care to admit. “A multiplayer game where the multiplayer was about companionship, empathy, and comfort, instead of competition or even interaction.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049806-not-solitaire" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049806-not-solitaire">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;167932">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-16T13:25:08.000Z">2026-10-16</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/" target="_blank" rel="noopener noreferrer">He Wants AI Benchmarking To Be a Science, Not a Dark Art</a>
-          </h2>
-          <p class="feed-item__desc">Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable.            
-The post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;167932" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;167932">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/10/Moritz-Hardt-QA-cr.Jerrit-Peinelt-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049809-nine-inch-snails">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-16T12:30:00.000Z">2026-10-16</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049809-nine-inch-snails" target="_blank" rel="noopener noreferrer">Good headline: Nine Inch Snails.</a>
-          </h2>
-          <p class="feed-item__desc">Good headline: Nine Inch Snails.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049809-nine-inch-snails" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049809-nine-inch-snails">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
           </div>
         </div>
       </div>

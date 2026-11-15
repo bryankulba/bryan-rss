@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-14T23:37:12.053Z</updated>
+    <updated>2026-11-15T04:44:19.322Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[datasette-llm 0.1a11]]></title>
+        <id>https://simonwillison.net/2026/Nov/14/datasette-llm/</id>
+        <link href="https://simonwillison.net/2026/Nov/14/datasette-llm/"/>
+        <updated>2026-11-14T23:59:28.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a11">datasette-llm 0.1a11</a></p>
+        <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p>
+<p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p>
+<p>This means that if you're running local models with <a href="https://lmstudio.ai">LM Studio</a> or <a href="https://ollama.com">Ollama</a> or <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a> (which just hit <a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p>
+<div class="highlight highlight-source-shell"><pre>wget https://datasette.io/content.db
+
+uvx --with datasette-agent datasette \
+  --root --secret 1 \
+  -s plugins.datasette-llm.default_model <span class="pl-s"><span class="pl-pds">'</span>{</span>
+<span class="pl-s">    "model": "lmstudio-qwen",</span>
+<span class="pl-s">    "model_name": "qwen/qwen3.8-27b",</span>
+<span class="pl-s">    "api_base": "http://localhost:1234/v1"</span>
+<span class="pl-s">  }<span class="pl-pds">'</span></span> content.db</pre></div>
+
+<p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p>
+<p><img alt="Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button." src="https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/uv">uv</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-vega 0.7]]></title>
+        <id>https://simonwillison.net/2026/Nov/14/datasette-vega/</id>
+        <link href="https://simonwillison.net/2026/Nov/14/datasette-vega/"/>
+        <updated>2026-11-14T17:09:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette-vega/releases/tag/0.7">datasette-vega 0.7</a></p>
+        <p>A new release of Datasette's longest untouched plugin, for rendering charts (using <a href="https://vega.github.io/vega-lite/">Vega-Lite</a>) against data in a table or custom query. The last release was in July 2018!</p>
+<p>I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with <a href="https://lite.datasette.io/">Datasette Lite</a>.</p>
+<p>(Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.)</p>
+<p>Since it works with Datasette Lite, the live demo in the README now <a href="https://lite.datasette.io/?install=datasette-vega&amp;csv=https%3A%2F%2Fraw.githubusercontent.com%2Ffivethirtyeight%2Fdata%2Fmaster%2Fairline-safety%2Fairline-safety.csv#/data/airline-safety?_size=max#g.mark=bar&amp;g.x_column=airline&amp;g.x_type=ordinal&amp;g.y_column=fatalities_00_14&amp;g.y_type=quantitative">links to this demo on Datasette Lite</a>.</p>
+<p><img alt="Screenshot of a charting tool. A panel headed &quot;Charting options&quot; has radio buttons for &quot;Bar&quot; (selected), &quot;Line&quot; and &quot;Scatter&quot;. Below are select menus: &quot;X column&quot; set to &quot;airline&quot; with &quot;Type&quot; set to &quot;Label&quot;, and &quot;Y column&quot; set to &quot;fatalities_00_14&quot; with &quot;Type&quot; set to &quot;Numeric&quot;. A &quot;Swap X and Y&quot; button sits beneath those, followed by &quot;Color&quot; and &quot;Size&quot; menus both set to &quot;-- none --&quot;. Underneath the panel is a blue bar chart with airline names along the X axis and fatalities_00_14 on the Y axis, running from 0 to 550 - most airlines have no bar, a handful have bars, and Malaysia Airlines is the tallest." src="https://static.simonwillison.net/static/2026/datasette-vega.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/visualisation">visualisation</a>, <a href="https://simonwillison.net/tags/datasette-lite">datasette-lite</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Circus is Leaving Town]]></title>
         <id>http://www.antipope.org/charlie/blog-static/2026/11/the-circus-is-leaving-town.html</id>
@@ -6586,65 +6632,6 @@ Tags: dance · video]]></summary>
         <link href="https://kottke.org/26/10/0049795-the-trailer-for-blade-run"/>
         <updated>2026-10-16T17:00:00.000Z</updated>
         <summary type="html"><![CDATA[The trailer for Blade Runner 2099, a new limited series premiering in late November and starring Michelle Yeoh & Hunter Schafer.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Going 94 MPH on a Skateboard (New World Record)]]></title>
-        <id>https://kottke.org/26/10/going-94-mph-on-a-skateboard-new-world-record</id>
-        <link href="https://kottke.org/26/10/going-94-mph-on-a-skateboard-new-world-record"/>
-        <updated>2026-10-16T15:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Diego Poncelet recently set a new world record for the fastest speed on a skateboard. The old record was 146.7 km/h (91.2 mph) and he hit 151.8 km/h (94.3 mph). There are a couple of parts you can skip, but watching most of the video is worth it because you see the process and can compare how truly insanely fast he is moving during the final run — I found myself holding my breath for the last minute or so.
-Also, I cannot believe how closely the camera car is following him — looks like only a few feet away. Bonkers.
-I just found the first time I posted about speed skateboarding on KDO: this post from 2008. Less aerodynamic, more gonzo, and the cameraman is also on a skateboard going equally fast.
-
- 
-
-        
-         
-Tags: Diego Poncelet · skateboarding · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[can you dig it?]]></title>
-        <id>https://www.velcro-city.co.uk/?p=12416</id>
-        <link href="https://www.velcro-city.co.uk/can-you-dig-it/"/>
-        <updated>2026-10-16T15:15:49.000Z</updated>
-        <summary type="html"><![CDATA[Thoughts on the movie Digger, whose rejection is IMO the best measure of its uncanny and timely accuracy.]]></summary>
-        <author>
-            <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I played (not) solitaire for more hands than I would care...]]></title>
-        <id>https://kottke.org/26/10/0049806-not-solitaire</id>
-        <link href="https://kottke.org/26/10/0049806-not-solitaire"/>
-        <updated>2026-10-16T14:15:00.000Z</updated>
-        <summary type="html"><![CDATA[I played (not) solitaire for more hands than I would care to admit. “A multiplayer game where the multiplayer was about companionship, empathy, and comfort, instead of competition or even interaction.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[He Wants AI Benchmarking To Be a Science, Not a Dark Art]]></title>
-        <id>https://www.quantamagazine.org/?p=167932</id>
-        <link href="https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/"/>
-        <updated>2026-10-16T13:25:08.000Z</updated>
-        <summary type="html"><![CDATA[Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable.            
-The post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>John Pavlus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Good headline: Nine Inch Snails.]]></title>
-        <id>https://kottke.org/26/10/0049809-nine-inch-snails</id>
-        <link href="https://kottke.org/26/10/0049809-nine-inch-snails"/>
-        <updated>2026-10-16T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Good headline: Nine Inch Snails.]]></summary>
         <author>
             <name>kottke.org</name>
         </author>
