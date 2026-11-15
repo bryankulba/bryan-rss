@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-15T04:44:19.322Z</updated>
+    <updated>2026-11-15T18:27:53.960Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Why people went nutty for natty fibies]]></title>
+        <id>https://www.blackbirdspyplane.com/p/why-people-went-nutty-for-natty-fibies</id>
+        <link href="https://www.blackbirdspyplane.com/p/why-people-went-nutty-for-natty-fibies"/>
+        <updated>2026-11-15T14:03:46.000Z</updated>
+        <summary type="html"><![CDATA[The best half-zip natural-fiber fleeces, plus party clothes and earrings, bags made in collaboration with the sea & more]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[15nov26]]></title>
+        <id>https://warrenellis.ltd/?p=19340</id>
+        <link href="https://warrenellis.ltd/status/15nov26/"/>
+        <updated>2026-11-15T13:14:04.000Z</updated>
+        <summary type="html"><![CDATA[Aaaabsolutely pissing down today. Kind of glad that I decided to spend today reading. This Sunday’s edition of Orbital Operations is out – subscribe for…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the “New Equilibrium” economy ⊗ Let the Internet die]]></title>
+        <id>6af79882439de70001ebc45e</id>
+        <link href="https://sentiers.media/building-the-new-equilibrium-economy-let-the-internet-die-no-425/"/>
+        <updated>2026-11-15T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[No.425 — Palestinian diaspora futures ⊗ Reverse Engineer Anything ⊗ The polar vortex is about to go haywire ⊗ Giant eagles once ruled the skies]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[RIDGELINE] Walking a Bit of the Izu Peninsula]]></title>
+        <id>https://craigmod.com/ridgeline/238/</id>
+        <link href="https://craigmod.com/ridgeline/238/"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ridgeline subscribers —
+A little note to begin:
+
+A buddy of mine, Nick Dwyer, is running a Kickstarter campaign for his A Century in Sound documentary. He’s looking at 100 years of Tokyo history through its music cafés (classical, jazz, rock, noise, etcetera). He’s collaborated with photographer Lee Chapman on a companion book. I am a backer. Nick handed me the book in person last week — it’s stunning. They nailed it. What makes this project extra special is that Nick has truly put in the shoe leather for cultivating intimate relationships with all the shops they feature. He’s been working on this documentary series for a decade. The shop owners adore the hell out of him. (I’ve seen it in person.) I also got a sneak peek at half of the doc in August — it’s fabulous, and deserves to be seen all over. Consider giving it a back and grabbing the book. It’s a good’un. Six days left, and they’re almost at their goal.]]></summary>
+        <author>
+            <name>Craig Mod</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[datasette-llm 0.1a11]]></title>
         <id>https://simonwillison.net/2026/Nov/14/datasette-llm/</id>
@@ -6543,97 +6586,6 @@ The ASMR version of Bee Movie, and other neuro-divergent media (2021).
         <summary type="html"><![CDATA[Today's links Israeli ad-tech company was a delivery system for "mercenary spyware": And they used Google, Facebook and every other major ad platform to do it. Hey look at this: Delights to delectate. Object permanence: Big Mouth Billy Bass x Linux; No-Fly lists v common sense; Lemony Snicket advises the 1%; "Aloha From Hell"; KSR v Elon Musk; "Everything Belongs to the Future"; Trump's mail-servers run Win2003; Copyfraud v covid. Upcoming appearances: Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Israeli ad-tech company was a delivery system for "mercenary spyware" (permalin…]]></summary>
         <author>
             <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang]]></title>
-        <id>https://simonwillison.net/2026/Oct/16/code-review/</id>
-        <link href="https://simonwillison.net/2026/Oct/16/code-review/"/>
-        <updated>2026-10-16T22:06:37.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote cite="https://claude.dev/blog/solving-code-review-at-anthropic/"><p>We think "did a human read the code?" is an imprecise proxy for "what could go wrong with this change, and which check—automated or human—is the right one to catch it?"</p>
-<p>Asking that question also changed <em>when</em> review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.</p>
-<p>Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.</p></blockquote>
-<p class="cite">&mdash; <a href="https://claude.dev/blog/solving-code-review-at-anthropic/">Addy Osmani, Morgan Westlee Lunt, and Qing Wang</a>, How the Claude Code team does code review</p>
-
-    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/addy-osmani">addy-osmani</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/agentic-engineering">agentic-engineering</a>, <a href="https://simonwillison.net/tags/code-review">code-review</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Charles Harley on Subway Takes: “I don’t think Black...]]></title>
-        <id>https://kottke.org/26/10/0049816-charles-harley-on-subway-</id>
-        <link href="https://kottke.org/26/10/0049816-charles-harley-on-subway-"/>
-        <updated>2026-10-16T22:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Charles Harley on Subway Takes: “I don’t think Black people should have to pay for ancestry.com. Why do I have to pay you to figure out where you stole me from?”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Illustrator and writer Luis Mendo’s second book is out....]]></title>
-        <id>https://kottke.org/26/10/0049815-illustrator-and-writer-lu</id>
-        <link href="https://kottke.org/26/10/0049815-illustrator-and-writer-lu"/>
-        <updated>2026-10-16T21:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Illustrator and writer Luis Mendo’s second book is out. “The only website that once a year becomes a book.” I have Book One and it’s lovely…]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chromatic Inkscapes]]></title>
-        <id>https://kottke.org/26/10/chromatic-inkscapes</id>
-        <link href="https://kottke.org/26/10/chromatic-inkscapes"/>
-        <updated>2026-10-16T20:09:00.000Z</updated>
-        <summary type="html"><![CDATA[I love these digital illustrations by Adam Fuhrer; he calls them chromatic aberrations. It was difficult to narrow them down to the few favorites above. I posted about Fuhrer’s pen plotted art a couple of years ago…I like the direction he’s taking this.
-
- 
-
-        
-         
-Tags: Adam Fuhrer · art]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Margaret Atwood in 2023: Go Ahead and Ban My Book. “It’s...]]></title>
-        <id>https://kottke.org/26/10/0049810-go-ahead-and-ban-my-book</id>
-        <link href="https://kottke.org/26/10/0049810-go-ahead-and-ban-my-book"/>
-        <updated>2026-10-16T19:13:00.000Z</updated>
-        <summary type="html"><![CDATA[Margaret Atwood in 2023: Go Ahead and Ban My Book. “It’s very hard to control what young people get their hands on, especially if they’re told something is too old for them, or too evil, or too immoral.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Roooobot. Huuuuuman.]]></title>
-        <id>https://kottke.org/26/10/roooobot-huuuuuman</id>
-        <link href="https://kottke.org/26/10/roooobot-huuuuuman"/>
-        <updated>2026-10-16T18:10:00.000Z</updated>
-        <summary type="html"><![CDATA[This woman does some amazing things with a series of white rings — lots of precision optical illusions.
-It’s mesmerizing watching people moving like machines — an interesting psychological thing. Like Avantgardey, which if you haven’t heard of them (just because they show up all the time on my Instagram doesn’t mean that happens for everyone), you should check them out:
-
-
- (via @sevlu)
-
- 
-
-        
-         
-Tags: dance · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The trailer for Blade Runner 2099, a new limited series...]]></title>
-        <id>https://kottke.org/26/10/0049795-the-trailer-for-blade-run</id>
-        <link href="https://kottke.org/26/10/0049795-the-trailer-for-blade-run"/>
-        <updated>2026-10-16T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The trailer for Blade Runner 2099, a new limited series premiering in late November and starring Michelle Yeoh & Hunter Schafer.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>
