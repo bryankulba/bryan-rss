@@ -125,6 +125,45 @@
       ]
     },
     {
+      "title": "Kneeling Bus",
+      "feedUrl": "https://kneelingbus.substack.com/feed",
+      "siteUrl": "https://kneelingbus.substack.com",
+      "articles": [
+        {
+          "id": "https://kneelingbus.substack.com/p/a-room-of-ones-own",
+          "author": "Drew Austin",
+          "description": "Talking to the non-human part of the internet",
+          "link": "https://kneelingbus.substack.com/p/a-room-of-ones-own",
+          "publishedOn": "2026-11-13T22:36:32.000Z",
+          "wordCount": null,
+          "title": "A Room of One’s Own",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!y7eH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ded782a-bcf6-4680-8ae2-303debd1bcf8_720x404.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!y7eH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ded782a-bcf6-4680-8ae2-303debd1bcf8_720x404.jpeg"
+        },
+        {
+          "id": "https://kneelingbus.substack.com/p/you-could-be-anywhere-but-youre-here",
+          "author": "Drew Austin",
+          "description": "Data centers are increasingly visible, but are we really seeing them?",
+          "link": "https://kneelingbus.substack.com/p/you-could-be-anywhere-but-youre-here",
+          "publishedOn": "2026-11-07T00:14:04.000Z",
+          "wordCount": null,
+          "title": "You Could Be Anywhere, But You're Here",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!f27a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedc74771-f26c-4506-8b68-c41e44a910e9_576x324.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!f27a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedc74771-f26c-4506-8b68-c41e44a910e9_576x324.jpeg"
+        }
+      ]
+    },
+    {
       "title": "Robin Sloan",
       "feedUrl": "https://www.robinsloan.com/feed.xml",
       "siteUrl": "https://www.robinsloan.com/",
@@ -182,6 +221,41 @@
       ]
     },
     {
+      "title": "Garbage Day",
+      "feedUrl": "https://garbageday.substack.com/feed",
+      "siteUrl": "https://garbageday.substack.com",
+      "articles": []
+    },
+    {
+      "title": "8Ball",
+      "feedUrl": "https://8ball.substack.com/feed",
+      "siteUrl": "https://www.8ball.report",
+      "articles": [
+        {
+          "id": "https://www.8ball.report/p/2026-trend-report",
+          "author": "Sean Monahan",
+          "description": "post-election pre-anthropic IPO",
+          "link": "https://www.8ball.report/p/2026-trend-report",
+          "publishedOn": "2026-11-12T21:21:01.000Z",
+          "wordCount": null,
+          "title": "2026 trend report",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ad661f48-4c9f-4547-a547-2067f83b03c3_1920x1080.heic",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/ad661f48-4c9f-4547-a547-2067f83b03c3_1920x1080.heic"
+        }
+      ]
+    },
+    {
+      "title": "The Convivial Society",
+      "feedUrl": "https://theconvivialsociety.substack.com/feed",
+      "siteUrl": "https://theconvivialsociety.substack.com",
+      "articles": []
+    },
+    {
       "title": "webcurios",
       "feedUrl": "https://webcurios.co.uk/feed/",
       "siteUrl": "https://webcurios.co.uk",
@@ -227,6 +301,12 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "Squishy Computer",
+      "feedUrl": "https://subconscious.substack.com/feed",
+      "siteUrl": "https://newsletter.squishy.computer",
+      "articles": []
     },
     {
       "title": "We Are the Mutants",
@@ -2018,6 +2098,16 @@
       "siteUrl": "https://waxy.org/",
       "articles": [
         {
+          "id": "https://waxy.org/?p=51377",
+          "author": "Andy Baio",
+          "description": "they made a dedicated site for exploring Salon’s 260k articles from over 23,000 writers\n#",
+          "link": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+          "publishedOn": "2026-11-15T20:47:16.000Z",
+          "wordCount": 2392,
+          "title": "Internet Archive on preserving 30 years of Salon",
+          "imageUrl": "https://blog.archive.org/wp-content/uploads/2026/11/Salon-Logos-Background-2-2048x1071-1.png"
+        },
+        {
           "id": "https://waxy.org/?p=51373",
           "author": "Andy Baio",
           "description": "the satirical study calculated the day we’d be “squeezed to death” by population growth\n@HarrySKeeler #",
@@ -2542,16 +2632,6 @@
           "publishedOn": "2026-10-19T07:08:31.000Z",
           "wordCount": 4885,
           "title": "Pluralistic: The technopolitics of ad-tech (19 Oct 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13414",
-          "author": "Cory Doctorow",
-          "description": "Today's links Israeli ad-tech company was a delivery system for \"mercenary spyware\": And they used Google, Facebook and every other major ad platform to do it. Hey look at this: Delights to delectate. Object permanence: Big Mouth Billy Bass x Linux; No-Fly lists v common sense; Lemony Snicket advises the 1%; \"Aloha From Hell\"; KSR v Elon Musk; \"Everything Belongs to the Future\"; Trump's mail-servers run Win2003; Copyfraud v covid. Upcoming appearances: Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Israeli ad-tech company was a delivery system for \"mercenary spyware\" (permalin…",
-          "link": "https://pluralistic.net/2026/10/17/mercenary-spyware/",
-          "publishedOn": "2026-10-17T10:47:35.000Z",
-          "wordCount": 3726,
-          "title": "Pluralistic: Israeli ad-tech company was a delivery system for \"mercenary spyware\" (17 Oct 2026)",
           "imageUrl": null
         }
       ]

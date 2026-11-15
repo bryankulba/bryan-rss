@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-15T18:27:53.960Z</updated>
+    <updated>2026-11-15T23:44:27.606Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Internet Archive on preserving 30 years of Salon]]></title>
+        <id>https://waxy.org/?p=51377</id>
+        <link href="https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"/>
+        <updated>2026-11-15T20:47:16.000Z</updated>
+        <summary type="html"><![CDATA[they made a dedicated site for exploring Salon’s 260k articles from over 23,000 writers
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why people went nutty for natty fibies]]></title>
         <id>https://www.blackbirdspyplane.com/p/why-people-went-nutty-for-natty-fibies</id>
@@ -129,6 +140,16 @@ uvx --with datasette-agent datasette \
         <p>Tags: <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/geospatial">geospatial</a>, <a href="https://simonwillison.net/tags/openstreetmap">openstreetmap</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Room of One’s Own]]></title>
+        <id>https://kneelingbus.substack.com/p/a-room-of-ones-own</id>
+        <link href="https://kneelingbus.substack.com/p/a-room-of-ones-own"/>
+        <updated>2026-11-13T22:36:32.000Z</updated>
+        <summary type="html"><![CDATA[Talking to the non-human part of the internet]]></summary>
+        <author>
+            <name>Drew Austin</name>
         </author>
     </entry>
     <entry>
@@ -401,6 +422,16 @@ Continue reading →]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/gemini">gemini</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/google">google</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-pricing">llm-pricing</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026 trend report]]></title>
+        <id>https://www.8ball.report/p/2026-trend-report</id>
+        <link href="https://www.8ball.report/p/2026-trend-report"/>
+        <updated>2026-11-12T21:21:01.000Z</updated>
+        <summary type="html"><![CDATA[post-election pre-anthropic IPO]]></summary>
+        <author>
+            <name>Sean Monahan</name>
         </author>
     </entry>
     <entry>
@@ -1973,6 +2004,16 @@ In 1996, my band OMD released Walking on the Milky Way, which I thought was one 
 *Maybe]]></summary>
         <author>
             <name>BruceS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You Could Be Anywhere, But You're Here]]></title>
+        <id>https://kneelingbus.substack.com/p/you-could-be-anywhere-but-youre-here</id>
+        <link href="https://kneelingbus.substack.com/p/you-could-be-anywhere-but-youre-here"/>
+        <updated>2026-11-07T00:14:04.000Z</updated>
+        <summary type="html"><![CDATA[Data centers are increasingly visible, but are we really seeing them?]]></summary>
+        <author>
+            <name>Drew Austin</name>
         </author>
     </entry>
     <entry>
@@ -6576,16 +6617,6 @@ The ASMR version of Bee Movie, and other neuro-divergent media (2021).
         <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/deepseek">deepseek</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Israeli ad-tech company was a delivery system for "mercenary spyware" (17 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13414</id>
-        <link href="https://pluralistic.net/2026/10/17/mercenary-spyware/"/>
-        <updated>2026-10-17T10:47:35.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Israeli ad-tech company was a delivery system for "mercenary spyware": And they used Google, Facebook and every other major ad platform to do it. Hey look at this: Delights to delectate. Object permanence: Big Mouth Billy Bass x Linux; No-Fly lists v common sense; Lemony Snicket advises the 1%; "Aloha From Hell"; KSR v Elon Musk; "Everything Belongs to the Future"; Trump's mail-servers run Win2003; Copyfraud v covid. Upcoming appearances: Vancouver, Victoria, Ottawa, Vienna, Kilkenny, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Israeli ad-tech company was a delivery system for "mercenary spyware" (permalin…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
         </author>
     </entry>
     <entry>
