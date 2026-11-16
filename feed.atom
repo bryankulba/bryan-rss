@@ -2,10 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-15T23:44:27.606Z</updated>
+    <updated>2026-11-16T04:41:27.618Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[From a week ago (before the US-wide ground stop): Just 2...]]></title>
+        <id>https://kottke.org/26/11/0049997-just-2-more-years-until-w</id>
+        <link href="https://kottke.org/26/11/0049997-just-2-more-years-until-w"/>
+        <updated>2026-11-16T04:37:00.000Z</updated>
+        <summary type="html"><![CDATA[From a week ago (before the US-wide ground stop): Just 2 More Years Until We’re Done With Floppy Disks, F.A.A. Says. 💾😂🫠😳🤯🫨🤷‍♂️]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-maplibre 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</id>
+        <link href="https://simonwillison.net/2026/Nov/15/datasette-maplibre/"/>
+        <updated>2026-11-15T23:58:36.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0">datasette-maplibre 0.1a0</a></p>
+        <p>The first new Datasette geospatial plugin in quite a while! This one combines the excellent <a href="https://maplibre.org/maplibre-gl-js/docs/">MapLibre GL</a> library with <a href="https://openfreemap.org">OpenFreeMap</a>, the free vector map server operated by Zsolt Ero (you should <a href="https://github.com/sponsors/hyperknot">sponsor Zsolt on GitHub</a>.)</p>
+<p>I built most of this with a single prompt to Claude Fable 5.2:</p>
+<blockquote>
+<p><code>Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have</code></p>
+</blockquote>
+<p>"Be creative and think outside the box" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.</p>
+<p>I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can <a href="https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml">visit this link</a> to load the plugin and a demo database in your browser via Pyodide and WebAssembly.</p>
+<p>I like <a href="https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent">this demo page</a> showing both GeoJSON shapes and lat/lon points on the same map:</p>
+<p><img alt="Screenshot of a web map interface. Toolbar: &quot;View&quot; set to &quot;Clusters&quot;, &quot;Colour by&quot; set to &quot;continent&quot;, plus &quot;Filter to this area&quot; and &quot;Download GeoJSON&quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &quot;All 171 rows are on the map&quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue." src="https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/visualization">visualization</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/datasette-lite">datasette-lite</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/geospatial">geospatial</a>, <a href="https://simonwillison.net/tags/openstreetmap">openstreetmap</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 1.0a43]]></title>
+        <id>https://simonwillison.net/2026/Nov/15/datasette/</id>
+        <link href="https://simonwillison.net/2026/Nov/15/datasette/"/>
+        <updated>2026-11-15T23:20:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/1.0a43">datasette 1.0a43</a></p>
+        <p>I've been leaning hard into Claude Fable 5.2 to help knock things off the <a href="https://github.com/simonw/datasette/milestone/37">1.0 milestone</a>, which is now 53% complete.</p>
+<p>The biggest 1.0 item in this release is <a href="https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-register-output-renderer-streaming">streaming support for output renderers</a> - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new <a href="https://docs.datasette.io/en/latest/internals.html#internals-response-stream">Response.stream()</a> method.</p>
+<p>There are a couple of security fixes, one of which I deemed <a href="https://github.com/simonw/datasette/security/advisories/GHSA-mw6v-83vp-7c4c">deserving of a GitHub advisory</a>: private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed).</p>
+<p>There are dozens of smaller improvements. The row page JSON representation <a href="https://docs.datasette.io/en/latest/json_api.html#json-api-row">finally has a design suitable for 1.0</a>. A new <code>&lt;datasette-copy-button&gt;</code> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new <a href="https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modal-confirm">DatasetteModal.confirm()</a> JavaScript utility method. Plus dozens of bug fixes, including contributions by <a href="https://github.com/PDGGK">Zihan Dai</a>, <a href="https://github.com/peterolkhov">Peter Olkhovets</a>, <a href="https://github.com/IlyaKhalafi">Ilya Khalafi</a>, and <a href="https://github.com/AnkitaAdvitot">Ankita Advitot</a>.</p>
+<p>The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! <a href="https://github.com/simonw/datasette/commit/7da8a85ea77786edef975a4066bbadfab0966a0c">Here's the commit</a> - key CSS is as follows:</p>
+<div class="highlight highlight-source-css"><pre><span class="pl-c">/* Enable cross-document view transitions,</span>
+<span class="pl-c">   for anyone without prefers-reduced-motion */</span>
+<span class="pl-k">@media</span> <span class="pl-kos">(</span><span class="pl-c1">prefers-reduced-motion</span><span class="pl-kos">:</span> no-preference<span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">@view-transition</span> <span class="pl-kos">{</span>
+        <span class="pl-c1">navigation</span><span class="pl-kos">:</span> auto<span class="pl-kos">;</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">/* .facet-results should morph from old position to new */</span>
+<span class="pl-ent">html</span><span class="pl-kos">:</span><span class="pl-c1">active-view-transition</span> <span class="pl-kos">.</span><span class="pl-c1">content</span> <span class="pl-c1">&gt;</span> <span class="pl-kos">.</span><span class="pl-c1">facet-results</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">view-transition-name</span><span class="pl-kos">:</span> facet-results<span class="pl-kos">;</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">/* So should a .table-wrapper, provided it contains .rows-and-columns */</span>
+<span class="pl-ent">html</span><span class="pl-kos">:</span><span class="pl-c1">active-view-transition</span> <span class="pl-kos">.</span><span class="pl-c1">table-wrapper</span><span class="pl-kos">:</span><span class="pl-c1">has</span><span class="pl-kos">(</span><span class="pl-c1">&gt;</span> <span class="pl-ent">table</span><span class="pl-kos">.</span><span class="pl-c1">rows-and-columns</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">view-transition-name</span><span class="pl-kos">:</span> rows-table<span class="pl-kos">;</span>
+<span class="pl-kos">}</span></pre></div>
+
+<p>With that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/162#changes_for_web_developers">Firefox 162</a> on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.)</p>
+<video controls playsinline preload="none" width="930" height="720" poster="https://static.simonwillison.net/static/cors-allow/2026/css-transitions-datasette.webp">
+  <source src="https://static.simonwillison.net/static/cors-allow/2026/css-transitions-datasette.mp4" type="video/mp4">
+</video>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/css">css</a>, <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/annotated-release-notes">annotated-release-notes</a>, <a href="https://simonwillison.net/tags/firefox">firefox</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/safari">safari</a>, <a href="https://simonwillison.net/tags/chrome">chrome</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette 0.65.6]]></title>
+        <id>https://simonwillison.net/2026/Nov/15/datasette-2/</id>
+        <link href="https://simonwillison.net/2026/Nov/15/datasette-2/"/>
+        <updated>2026-11-15T23:18:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/datasette/releases/tag/0.65.6">datasette 0.65.6</a></p>
+        <p>I backported a minor security fix from 1.0a43:</p>
+<blockquote>
+<p>Fixed a security issue where a database registered using <code>add_database(db, name=..., route=...)</code> with a route that differs from its name could be downloaded from <code>/&lt;route&gt;.db</code> by actors who were denied access to it. [...]</p>
+</blockquote>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Internet Archive on preserving 30 years of Salon]]></title>
         <id>https://waxy.org/?p=51377</id>
@@ -45,6 +132,37 @@
         <summary type="html"><![CDATA[No.425 — Palestinian diaspora futures ⊗ Reverse Engineer Anything ⊗ The polar vortex is about to go haywire ⊗ Giant eagles once ruled the skies]]></summary>
         <author>
             <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-apps 0.4a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/15/datasette-apps/</id>
+        <link href="https://simonwillison.net/2026/Nov/15/datasette-apps/"/>
+        <updated>2026-11-15T04:02:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-apps/releases/tag/0.4a0">datasette-apps 0.4a0</a></p>
+        <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p>
+<p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other.</p>
+<p>This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/datasette-apps">datasette-apps</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/urls">urls</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-agent 0.6a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/15/datasette-agent/</id>
+        <link href="https://simonwillison.net/2026/Nov/15/datasette-agent/"/>
+        <updated>2026-11-15T03:49:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent/releases/tag/0.6a0">datasette-agent 0.6a0</a></p>
+        <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p>
+<p><img alt="Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about #re - the box is showing autocomplete results for the repos and releases tables." src="https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
@@ -6570,51 +6688,6 @@ document.currentScript.replaceWith(
 
 
     <p>Tags: <a href="https://simonwillison.net/tags/javascript">javascript</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Filtered for ears and memory]]></title>
-        <id>https://interconnected.org/home/2026/10/17/filtered</id>
-        <link href="https://interconnected.org/home/2026/10/17/filtered"/>
-        <updated>2026-10-17T16:15:00.000Z</updated>
-        <summary type="html"><![CDATA[1.
-ASMR is that full-body tingling some people get when listening to sounds like gentle tapping or whispering.
-It is detectable in the brain using EEG spectral analysis: ASMR amplifies low frequency and reduces high frequency oscillations (2022).
-(Technically: self-reported ASMR correlates with a shared EEG biomarker, but it doesn’t demonstrate the reverse – i.e. this does not yet show how to build an ASMR detector.)
-Hey, Apple has a patent on EEG sensors in AirPods (as previously discussed).
-Free product concept:
-AirPods that use their sensors to detect the ASMR response, then dial in to relentlessly trigger it 24/7. A new alternative to noise cancelling mode.
-Tim Apple you can put the cheque in the post.
-SEE ALSO:
-The ASMR version of Bee Movie, and other neuro-divergent media (2021).
-2.
-…]]></summary>
-        <author>
-            <name>Interconnected</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bizarre Blanets and Weird Worlds]]></title>
-        <id>http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html</id>
-        <link href="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html"/>
-        <updated>2026-10-17T13:51:40.000Z</updated>
-        <summary type="html"><![CDATA[Hi. Sorry about the silence: I've been busy redrafting the current-newest novel in progress (it's back with my agent), and now I just flipped over to rewrite the much-rewritten novel before that (which ran into a brick wall in late...]]></summary>
-        <author>
-            <name>Charlie's Diary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[web-edit 0.1a2]]></title>
-        <id>https://simonwillison.net/2026/Oct/17/web-edit/</id>
-        <link href="https://simonwillison.net/2026/Oct/17/web-edit/"/>
-        <updated>2026-10-17T13:16:49.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/simonw/web-edit/releases/tag/0.1a2">web-edit 0.1a2</a></p>
-        <p>I added a "copy to clipboard" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fb1cec9726b6aa62d4de47100f90f0c1a">DeepSeek 4.1 Flash 1017</a>) and I wanted an easy way to copy the resulting logs into a Gist.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/deepseek">deepseek</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
         </author>

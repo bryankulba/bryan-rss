@@ -35,6 +35,123 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0049997-just-2-more-years-until-w">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-16T04:37:00.000Z">2026-11-15</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0049997-just-2-more-years-until-w" target="_blank" rel="noopener noreferrer">From a week ago (before the US-wide ground stop): Just 2...</a>
+          </h2>
+          <p class="feed-item__desc">From a week ago (before the US-wide ground stop): Just 2 More Years Until We’re Done With Floppy Disks, F.A.A. Says. 💾😂🫠😳🤯🫨🤷‍♂️</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0049997-just-2-more-years-until-w" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0049997-just-2-more-years-until-w">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-49997-1bd470ff.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/15/datasette-maplibre/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-15T23:58:36.000Z">2026-11-15</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/15/datasette-maplibre/" target="_blank" rel="noopener noreferrer">datasette-maplibre 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-maplibre 0.1a0
+The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub.)
+I built most of this with a single prompt to Claude Fable 5.2:
+Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have
+"Be creative and think outside the box" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.
+I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly.
+I like this demo page showing both GeoJSON shapes and lat/lon points on the same map:
+
+Tags: visualization, generative-ai, datasette-lite, claude-mythos-fable, ai, llms, geospatial, openstreetmap, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/15/datasette-maplibre/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/15/datasette-maplibre/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/15/datasette/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-15T23:20:27.000Z">2026-11-15</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/15/datasette/" target="_blank" rel="noopener noreferrer">datasette 1.0a43</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 1.0a43
+I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete.
+The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method.
+There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory: private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed).
+There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0. A new <datasette-copy-button> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, including contributions by Zihan Dai, Peter Olkhovets, Ilya Khalafi, and Ankita Advitot.
+The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! Here's the commit - key CSS is as follows:
+/* Enable cross-document view transitions,
+   for anyone without prefers-reduced-motion */
+@media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+        navigation: auto;
+    }
+}
+/* .facet-results should morph from old position to new */
+html:active-view-transition .content > .facet-results {
+    view-transition-name: facet-results;
+}
+/* So should a .table-wrapper, provided it contains .rows-and-columns */
+html:active-view-transition .table-wrapper:has(> table.rows-and-columns) {
+    view-transition-name: rows-table;
+}
+
+
+With that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in Firefox 162 on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.)
+Tags: security, datasette, css, browsers, annotated-release-notes, firefox, javascript, safari, chrome</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/15/datasette/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/15/datasette/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/15/datasette-2/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-15T23:18:17.000Z">2026-11-15</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/15/datasette-2/" target="_blank" rel="noopener noreferrer">datasette 0.65.6</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette 0.65.6
+I backported a minor security fix from 1.0a43:
+Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...]
+Tags: security, datasette</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/15/datasette-2/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/15/datasette-2/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51377">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-15T20:47:16.000Z">2026-11-15</time>
@@ -120,6 +237,51 @@
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/11/arkivism-met-370768-w-c.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/15/datasette-apps/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-15T04:02:45.000Z">2026-11-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/15/datasette-apps/" target="_blank" rel="noopener noreferrer">datasette-apps 0.4a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-apps 0.4a0
+Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.
+0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other.
+This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app.
+Tags: datasette-agent, datasette-apps, datasette, urls</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/15/datasette-apps/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/15/datasette-apps/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/15/datasette-agent/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-15T03:49:47.000Z">2026-11-14</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/15/datasette-agent/" target="_blank" rel="noopener noreferrer">datasette-agent 0.6a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-agent 0.6a0
+Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:
+
+Tags: datasette-agent, llm, datasette, llms, ai, generative-ai</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/15/datasette-agent/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/15/datasette-agent/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
         </div>
       </div>
     </article>
@@ -10948,79 +11110,6 @@ Tags: javascript</p>
           <div class="feed-item__actions">
             <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/17/document-currentscript/" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/17/document-currentscript/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/10/17/filtered">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-17T16:15:00.000Z">2026-10-17</time>
-        <span class="feed-item__source">Interconnected</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://interconnected.org/home/2026/10/17/filtered" target="_blank" rel="noopener noreferrer">Filtered for ears and memory</a>
-          </h2>
-          <p class="feed-item__desc">1.
-ASMR is that full-body tingling some people get when listening to sounds like gentle tapping or whispering.
-It is detectable in the brain using EEG spectral analysis: ASMR amplifies low frequency and reduces high frequency oscillations (2022).
-(Technically: self-reported ASMR correlates with a shared EEG biomarker, but it doesn’t demonstrate the reverse – i.e. this does not yet show how to build an ASMR detector.)
-Hey, Apple has a patent on EEG sensors in AirPods (as previously discussed).
-Free product concept:
-AirPods that use their sensors to detect the ASMR response, then dial in to relentlessly trigger it 24/7. A new alternative to noise cancelling mode.
-Tim Apple you can put the cheque in the post.
-SEE ALSO:
-The ASMR version of Bee Movie, and other neuro-divergent media (2021).
-2.
-…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/10/17/filtered" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/10/17/filtered">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://interconnected.org/home/2026/10/17/filtered.png?v&#x3D;1" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-17T13:51:40.000Z">2026-10-17</time>
-        <span class="feed-item__source">Charlie&#x27;s Diary</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html" target="_blank" rel="noopener noreferrer">Bizarre Blanets and Weird Worlds</a>
-          </h2>
-          <p class="feed-item__desc">Hi. Sorry about the silence: I've been busy redrafting the current-newest novel in progress (it's back with my agent), and now I just flipped over to rewrite the much-rewritten novel before that (which ran into a brick wall in late...</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="http://www.antipope.org/charlie/blog-static/2026/10/bizarre-blanets-and-other-weir.html">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/17/web-edit/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-17T13:16:49.000Z">2026-10-17</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Oct/17/web-edit/" target="_blank" rel="noopener noreferrer">web-edit 0.1a2</a>
-          </h2>
-          <p class="feed-item__desc">Release: web-edit 0.1a2
-I added a "copy to clipboard" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017) and I wanted an easy way to copy the resulting logs into a Gist.
-Tags: projects, pelican-riding-a-bicycle, deepseek</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/17/web-edit/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/17/web-edit/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
