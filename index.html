@@ -35,6 +35,108 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/17/go-proverbs/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-17T06:16:26.000Z">2026-11-16</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/17/go-proverbs/" target="_blank" rel="noopener noreferrer">Quoting Go Proverbs</a>
+          </h2>
+          <p class="feed-item__desc">A little copying is better than a little dependency.
+
+— Go Proverbs, via
+Tags: go, programming</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/17/go-proverbs/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/17/go-proverbs/">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050008-robert-pattinson-is-the-n">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-17T00:57:00.000Z">2026-11-16</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050008-robert-pattinson-is-the-n" target="_blank" rel="noopener noreferrer">Robert Pattinson is the next James Bond. I know a lot of...</a>
+          </h2>
+          <p class="feed-item__desc">Robert Pattinson is the next James Bond. I know a lot of people don’t think this is a great fit, but I think Pattinson + Villeneuve will be quite good.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050008-robert-pattinson-is-the-n" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050008-robert-pattinson-is-the-n">Mark read</button>
+            <span class="feed-item__reading-time">6 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-preview-8f3dba01.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/16/llm/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-16T23:57:26.000Z">2026-11-16</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/16/llm/" target="_blank" rel="noopener noreferrer">llm 0.37.3</a>
+          </h2>
+          <p class="feed-item__desc">Release: llm 0.37.3
+A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.
+Homebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code.
+Short version: in SQLite 3.54.0 the following SQL:
+select json_object('a', (select json_array(1)))
+
+Returns this:
+{"a":[1]}
+
+But in 3.54.1 the same query returns this:
+{"a":"[1]"}
+
+According to D. Richard Hipp:
+That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.
+The workaround looks like this:
+select json_object('a', json((select json_array(1))))
+
+Tags: llm, webassembly, sqlite, generative-ai, ai, llms, d-richard-hipp</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/16/llm/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/16/llm/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050007-waves">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-16T22:38:00.000Z">2026-11-16</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050007-waves" target="_blank" rel="noopener noreferrer">Waves have been in the news lately: El Niño battering the...</a>
+          </h2>
+          <p class="feed-item__desc">Waves have been in the news lately: El Niño battering the west coast of the US, surf spots popping off. Waves, waves, waves, waves, waves, waves, waves, waves, waves, waves, waves, waves, waves, waves, waves, waves. Beautiful. Terrifying.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050007-waves" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050007-waves">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50007-69d92594.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/0050003-sloppy-forgeries">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-16T21:33:00.000Z">2026-11-16</time>
@@ -11368,50 +11470,6 @@ Tags: llm</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/18/llm-echo/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19156">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-18T10:47:18.000Z">2026-10-18</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/18oct26/" target="_blank" rel="noopener noreferrer">18oct26</a>
-          </h2>
-          <p class="feed-item__desc">Went to Konsztrukting Soundz last night, for what turned out to be an abbreviated session. Here’s Lev Dudas, the creator and organiser, finishing the setup…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;19156" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;19156">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2415-scaled.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="6ad3ee8415caf2000110dd8b">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-18T10:00:00.000Z">2026-10-18</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/high-modernism-made-our-world-tech-hype-is-cannibalizing-the-future-no-421/" target="_blank" rel="noopener noreferrer">High Modernism made our world ⊗ Tech hype is cannibalizing the future</a>
-          </h2>
-          <p class="feed-item__desc">No.421 — Designing amiable web spaces ⊗ Immersive futures ⊗ On work and AI in 2027 ⊗ Public libraries “adding bedrooms” ⊗ Bleached corals thrive within days</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="6ad3ee8415caf2000110dd8b" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="6ad3ee8415caf2000110dd8b">Mark read</button>
-            <span class="feed-item__reading-time">9 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/aleksey-cherenkevich-7QgZrhLuTCM-unsplash-crop-w.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
