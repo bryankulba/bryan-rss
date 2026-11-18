@@ -35,6 +35,168 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050026-the-teaser-trailer-for-th">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-18T02:57:00.000Z">2026-11-17</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050026-the-teaser-trailer-for-th" target="_blank" rel="noopener noreferrer">Oooh, finally! The teaser trailer for the second season...</a>
+          </h2>
+          <p class="feed-item__desc">Oooh, finally! The teaser trailer for the second season of 3 Body Problem is out and they’ve announced a premiere date: January 14th.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050026-the-teaser-trailer-for-th" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050026-the-teaser-trailer-for-th">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50026-2c675190.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-17T22:52:29.000Z">2026-11-17</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener noreferrer">External sandboxes for coding agents</a>
+          </h2>
+          <p class="feed-item__desc">External sandboxes for coding agents
+I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.
+My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.
+To demonstrate this pattern we've released three sandbox server implementations:
+external-sandbox-v86 runs a Node.js server which then uses v86 to run Alpine Linux inside WebAssembly.
+external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.
+external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package!
+Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code.
+The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running:
+
+I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches.
+
+
+    
+Tags: sandboxing, security, ai, webassembly, generative-ai, llms, coding-agents, claude-code, codex, pi</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/sandbox-proxy.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-17T22:38:52.000Z">2026-11-17</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" target="_blank" rel="noopener noreferrer">GPT‑6.2 Astra and GPT‑6.2 Sol</a>
+          </h2>
+          <p class="feed-item__desc">GPT‑6.2 Astra and GPT‑6.2 Sol
+We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.
+They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models.
+6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions.
+GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).
+Here are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra. The 6.2 Astra max pelican looks like this:
+
+I have a full comparison grid here, but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases:
+
+I also ran my most recent benchmark prompt against the two models, using "Ultra' effort levels in the Codex CLI:
+Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data
+Here's Sol and here's Astra. Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon.
+This video showing the Astra and Sol animations playing out at the same time:
+I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting:
+https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html  are two videos of the same thing by two different models
+I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second
+I need an overlaid label of "GPT-6.2 Astra" on the top half and "GPT-6.2 Sol" on the bottom half. These labels should be tastefully positioned.
+Make the video square and 2000x2000 pixels
+Then later:
+OK make it 20s
+Here's the exported transcript.
+The buzz around these new models is mixed at the moment. Astra 6.2 isn't scoring quite as high as Fable 5.2 on various benchmarks, and I've seen a few complaints that its communication style can be confusing. Theo Browne's review (in the form of a feedback letter he sent OpenAI during pre-release) has this useful example:
+When this model is working on long tasks, it can pull in a lot of subagents and manage them pretty well. It will then proceed to randomly ask you some weird internal implementation detail bullshit that you could not under any earthly circumstance understand, much less have input on.
+I sent "/goal make a new level for Outer Wilds". 2 hours in, it's "blocked" because it wanted to ask me "does r24's reviewer write it's clips to 24_g521.mp4 or 24_p11.mp4?"
+Tags: ai, openai, generative-ai, llms, llm-pricing, pelican-riding-a-bicycle, llm-release, theo-browne, gpt, yonkers-rising</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/astra-6-2-max.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050012-pew-research-center-ident">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-17T22:00:00.000Z">2026-11-17</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050012-pew-research-center-ident" target="_blank" rel="noopener noreferrer">Pew Research Center identified 9 main US political...</a>
+          </h2>
+          <p class="feed-item__desc">Pew Research Center identified 9 main US political groups: No Apologies Right, Faith First Conservatives, Unconventional Right, Pragmatic & Polite Right, Tuned-Out Middle, Order & Opportunity Left, Left-Out Left, Loyal Liberals, Leftward Progressives.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050012-pew-research-center-ident" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050012-pew-research-center-ident">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50012-106b5318.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/an-inconvenient-life">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-17T20:41:00.000Z">2026-11-17</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/an-inconvenient-life" target="_blank" rel="noopener noreferrer">An Inconvenient Life</a>
+          </h2>
+          <p class="feed-item__desc">Lyndsay Rush, who describes herself as a “part-time poet, full-time dingdong”, goes by the handle of @maryoliversdrunkcousin on Instagram. Her forthcoming collection of poems is called Microdosing Hope (out in March 2027). I liked this one she shared recently, called An Inconvenient Life:
+I want a dumb phone and a smart president 
+I want slow fashion and fast friends
+I want to be bored and benevolent, silly and still
+I want innovation that doesn’t kill and news that doesn’t break 
+I want your email to find me lingering and lallygagging
+pondering and present
+I don’t want to save time just to waste it;
+Staring at screens of various sizes 
+   Tapping away the years 
+   Scrolling past everything that makes a good life 
+good
+
+ 
+
+        
+         
+Tags: books · Lyndsay Rush · Microdosing Hope · poetry</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/an-inconvenient-life" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/an-inconvenient-life">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/0049996-trailer-for-a-new-documen">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-17T19:56:00.000Z">2026-11-17</time>
@@ -11577,168 +11739,6 @@ Tags: Game Boy · video · video games · Wenting Zhang</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049824-a-24-minute-video-tour">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049834-towers-of-babble">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T17:41:00.000Z">2026-10-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049834-towers-of-babble" target="_blank" rel="noopener noreferrer">Towers of Babble is a game that mashes up word games and...</a>
-          </h2>
-          <p class="feed-item__desc">Towers of Babble is a game that mashes up word games and tower defense games. “Nouns make buildings and other parts of speech make modifiers that you can add to a building to improve its stats.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049834-towers-of-babble" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049834-towers-of-babble">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/hyperland-a-prescient-1990-tv-show-by-douglas-adams">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T16:31:00.000Z">2026-10-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/hyperland-a-prescient-1990-tv-show-by-douglas-adams" target="_blank" rel="noopener noreferrer">Hyperland, a Prescient 1990 TV Show by Douglas Adams</a>
-          </h2>
-          <p class="feed-item__desc">I’d never heard of this before: in 1990, the BBC aired a program created by and starring Douglas Adams called Hyperland. It begins with a frustrated Adams throwing his TV out (too linear, too non-interactive) and Tom Baker (from Doctor Who) popping up as an intelligent interactive agent that promises to “do your every slightest bidding, to fetch and carry for you, to work tirelessly and selflessly on your behalf, always ready, always willing, no job too small or too menial”.
-Circumventing the limitations of ‘linear’ broadcast TV, the 50-minute programme imagines a new world in which an AI software ‘agent’ - brought to life here by Doctor Who favourite Tom Baker - helps the user (played by Adams) to find and access material of interest in a global world of hyperlinked information - text, im…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/hyperland-a-prescient-1990-tv-show-by-douglas-adams" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/hyperland-a-prescient-1990-tv-show-by-douglas-adams">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/5nOXGYxHVFI/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049831-lane-8-has-released-his-f">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T15:41:00.000Z">2026-10-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049831-lane-8-has-released-his-f" target="_blank" rel="noopener noreferrer">Lane 8 has released his Fall 2026 Mixtape, 4 hours,...</a>
-          </h2>
-          <p class="feed-item__desc">Lane 8 has released his Fall 2026 Mixtape, 4 hours, recorded live at SF’s Castro Theatre. This one’s going straight into the earholes. Soundcloud, YouTube, and elsewhere.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049831-lane-8-has-released-his-f" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049831-lane-8-has-released-his-f">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;167980">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T15:40:26.000Z">2026-10-19</time>
-        <span class="feed-item__source">Quanta Magazine</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/" target="_blank" rel="noopener noreferrer">AI Proved the Quasi-Riemann Hypothesis. What Happens Now?</a>
-          </h2>
-          <p class="feed-item__desc">Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.”            
-The post AI Proved the Quasi-Riemann Hypothesis. What Happens Now? first appeared on Quanta Magazine</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;167980" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;167980">Mark read</button>
-            <span class="feed-item__reading-time">12 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/10/ReimannAI-crEmilyBuder_GuanHueiWu-Social.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049818-wont-someone-please-stop-">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T14:53:00.000Z">2026-10-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049818-wont-someone-please-stop-" target="_blank" rel="noopener noreferrer">Won’t Someone Please Stop Me, Dr. Frankenstein, from...</a>
-          </h2>
-          <p class="feed-item__desc">Won’t Someone Please Stop Me, Dr. Frankenstein, from Building the Creature? “These are serious concerns. And I think we should all stop. Me, especially. Can anyone make me stop doing the thing I want to do? Apparently not.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049818-wont-someone-please-stop-" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049818-wont-someone-please-stop-">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/ta-nehisi-coates-on-the-consequence-of-donald-trump">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T13:53:26.000Z">2026-10-19</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/ta-nehisi-coates-on-the-consequence-of-donald-trump" target="_blank" rel="noopener noreferrer">Ta-Nehisi Coates on the Consequence of Donald Trump</a>
-          </h2>
-          <p class="feed-item__desc">Writing for Vanity Fair (archive link), Ta-Nehisi Coates says that Donald Trump is the most visionary politician of his era.
-Through a mix of moxie, cynicism, and misanthropy, Trump has made himself into the dominant American of our age. Sometimes a man meets his moment, and Trump met his in the wake of a black presidency and a conservative movement doggedly and patiently pursuing a decades-long counterrevolution. The marriage of Trump’s charisma to a fundamentalist right wing has been bountiful: three Supreme Court justices in four years, the subsequent destruction of national abortion rights, the banishment of affirmative action, the hollowing of the Voting Rights Act.
-
-	
-And the genie may not go back in the bottle:
-But some things can’t be unseen. The example that Trump has set, the scope of what is possible should one embrace the dark powers of the White House, will not dissipate. It turns out that you can deploy secret police onto American streets. You can deport immigrants in defiance of the courts. You can have the Justice Department badger your enemies. And you can become very rich while doing it. And some of the most powerful sectors in America, those who most loudly extol their own love of country, will stand around and watch you do it. Asked why he was making deals during his second term, Trump gave a succinct and chillingly accurate summation: “I found out that nobody cared.” And to the extent that there is a genius to Trump, it is in his apprehension of this reality—so very few people who matter care. When you’re president, they let you do it.
-
-	
-Coates recently discussed this piece on Vanity Fair’s podcast.
-
-
- 
-
-        
-         
-Tags: Donald Trump · politics · Ta-Nehisi Coates</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/ta-nehisi-coates-on-the-consequence-of-donald-trump" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/ta-nehisi-coates-on-the-consequence-of-donald-trump">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/_lIIVjF3SVQ/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19161">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-19T12:53:19.000Z">2026-10-19</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/19oct26/" target="_blank" rel="noopener noreferrer">19oct26</a>
-          </h2>
-          <p class="feed-item__desc">READING: THE ROUSE, China Mieville (UK) (US+)LISTENING: DRINK: Autumn being here means I made a cherry Negroni for herself and a Godfather with orange and…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;19161" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;19161">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2421.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
