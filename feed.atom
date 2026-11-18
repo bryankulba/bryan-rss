@@ -2,10 +2,137 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-18T05:51:31.514Z</updated>
+    <updated>2026-11-18T19:57:01.686Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“During the past 20,000 years, huge stretches of formerly...]]></title>
+        <id>https://kottke.org/26/11/0050024-taking-with-them-tens-of-</id>
+        <link href="https://kottke.org/26/11/0050024-taking-with-them-tens-of-"/>
+        <updated>2026-11-18T19:44:00.000Z</updated>
+        <summary type="html"><![CDATA[“During the past 20,000 years, huge stretches of formerly inhabited land along the world’s coastal shelves have disappeared underwater, taking with them tens of thousands of years of human history.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If you want to know what interface designers do, check...]]></title>
+        <id>https://kottke.org/26/11/0050027-this-interactive-explorat</id>
+        <link href="https://kottke.org/26/11/0050027-this-interactive-explorat"/>
+        <updated>2026-11-18T18:48:00.000Z</updated>
+        <summary type="html"><![CDATA[If you want to know what interface designers do, check out this interactive exploration of designing a seemingly simple text input. “Every little decision is a rabbit hole.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ta-Nehisi Coates interviews Stacey Abrams about the...]]></title>
+        <id>https://kottke.org/26/11/0050022-ta-nehisi-coates-intervie</id>
+        <link href="https://kottke.org/26/11/0050022-ta-nehisi-coates-intervie"/>
+        <updated>2026-11-18T17:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Ta-Nehisi Coates interviews Stacey Abrams about the midterm results (archive link). “What we saw on Tuesday was a moment where people realized that the power to improve their own lives had become so desperately thin that they had to use it or lose it.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beautiful Bacteria]]></title>
+        <id>https://kottke.org/26/11/beautiful-bacteria</id>
+        <link href="https://kottke.org/26/11/beautiful-bacteria"/>
+        <updated>2026-11-18T16:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Tal Danino is a synthetic biologist who works with bacteria, scientifically and artistically.  His aesthetic explorations of bacteria, Microbial Rainbow and Microuniverse, have resulting in a book called Beautiful Bacteria (Amazon). You can check out more of his bacterial photos at TED, The Guardian, Seed, and The Marginalian.
+
+ 
+
+        
+         
+Tags: art · bacteria · photography · Tal Danino]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Daniel Stenberg]]></title>
+        <id>https://simonwillison.net/2026/Nov/18/daniel-stenberg/</id>
+        <link href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/"/>
+        <updated>2026-11-18T15:58:27.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up?</p></blockquote>
+<p class="cite">&mdash; <a href="https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/">Daniel Stenberg</a>, Actual curl rewrites in Rust</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/daniel-stenberg">daniel-stenberg</a>, <a href="https://simonwillison.net/tags/curl">curl</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/c">c</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/vibe-porting">vibe-porting</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How M.C. Escher’s Art Creates Bizarre Mathematical Worlds]]></title>
+        <id>https://www.quantamagazine.org/?p=168911</id>
+        <link href="https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/"/>
+        <updated>2026-11-18T15:51:40.000Z</updated>
+        <summary type="html"><![CDATA[The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians.            
+The post How M.C. Escher’s Art Creates Bizarre Mathematical Worlds first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Shalma Wegsman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A secret US report from 1943 evaluated Adolf Hitler’s...]]></title>
+        <id>https://kottke.org/26/11/0050018-a-secret-us-report-from-1</id>
+        <link href="https://kottke.org/26/11/0050018-a-secret-us-report-from-1"/>
+        <updated>2026-11-18T15:51:00.000Z</updated>
+        <summary type="html"><![CDATA[A secret US report from 1943 evaluated Adolf Hitler’s psychological profile. “Langer noted that Hitler accused his political opponents of the ‘bombardment of lies’ that Hitler himself assailed them with.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This cloud forest in Costa Rica is losing its clouds....]]></title>
+        <id>https://kottke.org/26/11/0049999-this-cloud-forest-in-cost</id>
+        <link href="https://kottke.org/26/11/0049999-this-cloud-forest-in-cost"/>
+        <updated>2026-11-18T14:49:00.000Z</updated>
+        <summary type="html"><![CDATA[This cloud forest in Costa Rica is losing its clouds. “Tropical cloud forests make up only 0.4% of the Earth’s land surface, but support 15% of all birds, mammal, amphibians and tree fern species, half of them found only in cloud forests.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The PSF end-of-year fundraiser]]></title>
+        <id>https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/</id>
+        <link href="https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"/>
+        <updated>2026-11-18T14:44:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://donate.python.org">The PSF end-of-year fundraiser</a></strong></p>
+With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p>
+<p>If your company or your work benefits from Python, please consider donating this year!</p>
+<p>The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running.</p>
+<p>We also operate the <a href="https://www.python.org/psf/developersinresidence/">Developers in Residence program</a>, which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/python">python</a>, <a href="https://simonwillison.net/tags/psf">psf</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[18nov26]]></title>
+        <id>https://warrenellis.ltd/?p=19377</id>
+        <link href="https://warrenellis.ltd/status/18nov26/"/>
+        <updated>2026-11-18T13:19:49.000Z</updated>
+        <summary type="html"><![CDATA[My copies of GHOST DRIVE STATION arrived yesterday, and it’s out in comics shops today. Turns out it’s also out on Kindle. Robert Pattinson is…]]></summary>
+        <author>
+            <name>Warren Ellis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Enshittifiers groom us for scammers (18 Nov 2026)]]></title>
+        <id>https://pluralistic.net/?p=13531</id>
+        <link href="https://pluralistic.net/2026/11/18/malice-v-incompetence/"/>
+        <updated>2026-11-18T08:28:46.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Enshittifiers groom us for scammers: The harder it is to tell a scam from a shitty business practice, the easier life gets for scammers. Hey look at this: Delights to delectate. Object permanence: Fannish accent; Photoshopping culture; Sixth HHGTTG novel discovers; Dragon sausages must contain dragon; Tumblr users melt Congress's phones; Pizza is a vegetable; Fake news author is a "satirist"; Trump wants a seawall around his golf resort (even though climate change is a "hoax"); "Nimona"; Harvard v meritocracy; Disney loses Roger Rabbit. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oooh, finally! The teaser trailer for the second season...]]></title>
         <id>https://kottke.org/26/11/0050026-the-teaser-trailer-for-th</id>
@@ -14,6 +141,87 @@
         <summary type="html"><![CDATA[Oooh, finally! The teaser trailer for the second season of 3 Body Problem is out and they’ve announced a premiere date: January 14th.]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlimited Editions: Blah Records]]></title>
+        <id>https://www.thewire.co.uk/audio/tracks/unlimited-editions-blah-records</id>
+        <link href="https://www.thewire.co.uk/audio/tracks/unlimited-editions-blah-records"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Wire 514, Tim Fish compiles an annotated playlist of tracks from the Liverpool label
+
+
+    The following playlist outlines some of Blah's most significant records.
+
+Children Of The Damned
+“Cold Sag Run Marathon”
+    
+ From Brick Pelican
+    
+ (2009)
+
+
+    Tony Broke
+“Hang Around”
+    
+Broke As F$£k
+    
+ (2012)
+
+
+    Black Josh Ape
+“Paul Scholes”
+    
+ From #blahblahblackjosh
+    
+ (2014)
+
+
+    Nah Eeto
+“Bila You”
+    
+ From 53
+    
+ (2019)
+
+
+    Stinkin Slumrok
+“Archive”
+From Don Pong
+    
+ (2015)
+
+Don Pong, is particularly gritty and features Slummy at his most confrontational, backed up by a heavy beat from the late, great 7th Dan.
+
+Lee Scott & Hyroglifics
+“Beanio featuring Bigg Jus”
+    
+ From [gate clicks shut]
+    
+ (2021)
+
+
+    Lyza Jane & Sniff
+“Blue Sunday”
+    
+Baby Blue Champion
+    
+ (2018)
+
+Baby Blue Champion EP, alongside Blah and Bad Taste associate Sniff. Jane’s echoes of Julee Cruise juxtapose nicely with Sniff’s gruff monotone raps and his laid-back, bluesy production.
+
+Cult Of The Damned
+“Ext. Car Park – Night”
+    
+ From Simony
+    
+ (2026)
+
+Simony, which came out in April 2026. “Ext. Car Park – Night” features a brilliantly foreboding beat from Chicago based artist Spectacular Diagnostics – the latest Blah co-sign – as well as verses from the full gang, including legendary master of hooks, BeTheGun. The track served as a hell of an introduction to the album, which proved that strength in numbers still trumps individual talent. A showcase of Blah’s rap range in full cult formation.
+
+Read Tim Fish’s full report on Blah in The Wire 514. Buy the issue in our online shop. Wire subscribers can also read the article online via the digital magazine library.]]></summary>
+        <author>
+            <name>The Wire: Home</name>
         </author>
     </entry>
     <entry>
@@ -6909,140 +7117,6 @@ Tags: fish · food · how to · Japan · video]]></summary>
         <summary type="html"><![CDATA[(You're looking at me) looking at myself looking at art (on the internet).]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pillowfort closing in December]]></title>
-        <id>https://waxy.org/?p=51291</id>
-        <link href="https://www.pillowfort.social/posts/8413273"/>
-        <updated>2026-10-20T03:25:21.000Z</updated>
-        <summary type="html"><![CDATA[the user-funded Tumblresque platform never fully recovered after suffering three months of downtime in 2021
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Against The Grain: Metal resistance]]></title>
-        <id>https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-metal-resistance</id>
-        <link href="https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-metal-resistance"/>
-        <updated>2026-10-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 513
-
-
-    Today, other subcultures have become fragmented by the internet and streaming, but metal remains a counterexample, perhaps precisely because of the strong sense of belonging on which it was built. At the same time, the very closeness and openness to extremes that made the genre a refuge also carry a cost, with the sense of brotherhood and outsiderliness at times tipping into hypermasculinity, sexism, misogyny and, at worst, ties with far right ideologies.
-
-
-    “The people welcoming new folks and marginalised groups into metal are new folks and marginalised groups themselves,” says Bariann Tuite Smith, founder of the New York label Fiadh Productions. “Artists, supporters and fans who have always been there, just never given a place, and who stepped up to build that place…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“A temporary syncing of the timelines”: Faust reviewed]]></title>
-        <id>https://www.thewire.co.uk/in-writing/essays/a-temporary-syncing-of-the-timelines-faust-reviewed</id>
-        <link href="https://www.thewire.co.uk/in-writing/essays/a-temporary-syncing-of-the-timelines-faust-reviewed"/>
-        <updated>2026-10-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 513
-
-Faust
-    
- Fliegen Lernen
-    
- Bureau B CD/DL/LP
-    
-Gugaruz
-    
- Bureau B CD/DL/LP
-    
-MOI
-    
- Bureau B CD/DL/LP
-    
-Ungebunden
-    
- Bureau B CD/DL/LP
-
-
-    A world in which Faust ever acheived that degree of fame is hard to picture. And yet this handful of simultaneous albums bearing the veteran German group’s name is in effect four individual projects, each “curated” – as per the official crediting – by one of the surviving musicians of Faust’s initial 1971-74 incarnation (Rudolf Sosna, the originator of such beguiling dream logic melodies as “Jennifer” and “Flashback Caruso”, died in 1996, while drummer Arnulf Meifert was ousted after Faust’s self-titled debut, purportedly for crimes including keeping his room tidy and practising daily).
-
-Rashomon and the “I’m Sp…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My obituary for programming]]></title>
-        <id>https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/</id>
-        <link href="https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"/>
-        <updated>2026-10-19T23:58:25.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://dumbmatter.com/2026/10/programming-obituary/">My obituary for programming</a></strong></p>
-Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the <em>puzzle</em> of developing code:</p>
-<blockquote>
-<p>Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible.</p>
-</blockquote>
-<p>If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.</p>
-<p>If directly solving those problems was a big part of your enjoyment, the loss is very real.
-
-    <p><small></small>Via <a href="https://lobste.rs/s/wtobpt/my_obituary_for_programming">lobste.rs</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/programming">programming</a>, <a href="https://simonwillison.net/tags/careers">careers</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/deep-blue">deep-blue</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NPR’s Planet Money recently did a show on tariff refunds...]]></title>
-        <id>https://kottke.org/26/10/0049820-nprs-planet-money-recentl</id>
-        <link href="https://kottke.org/26/10/0049820-nprs-planet-money-recentl"/>
-        <updated>2026-10-19T21:18:00.000Z</updated>
-        <summary type="html"><![CDATA[NPR’s Planet Money recently did a show on tariff refunds and interviewed Panic’s Cabel Sasser about how they decided to refund their Playdate-buying customers for the tariffs surcharge they paid.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do you believe in life after death? This is a great...]]></title>
-        <id>https://kottke.org/26/10/0049832-do-you-believe-in-life-af</id>
-        <link href="https://kottke.org/26/10/0049832-do-you-believe-in-life-af"/>
-        <updated>2026-10-19T20:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Do you believe in life after death? This is a great interactive piece by Alvin Chang about people’s beliefs about the existence of an afterlife and how those beliefs change over the course of our lifetimes.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Tiny 24 FPS E-Ink Game Boy Emulator]]></title>
-        <id>https://kottke.org/26/10/a-tiny-24-fps-e-ink-game-boy-emulator</id>
-        <link href="https://kottke.org/26/10/a-tiny-24-fps-e-ink-game-boy-emulator"/>
-        <updated>2026-10-19T19:33:00.000Z</updated>
-        <summary type="html"><![CDATA[This is really impressive: a software engineer got a Game Boy emulator running at 30 fps on a tiny e-ink screen.
-If you’re familiar with e-paper, you know that they normally refresh much slower (2-3 times a second), not nearly quick enough to play even a simple video game. This guy wrote his own display driver that got the refresh rate up to 30 times per second. From the transcript of the video explaining how e-paper works and how he hacked the display to make it play games:
-Unlike conventional displays like LCD or OLED, ePaper stores its image physically using charged black and white pigment particles. By changing the electric field, the display moves the pigments towards or away from the surface, which in the end gives us black- or white-looking pixel. And usually a sequence of several electrical pulses called a waveform is needed to move the pigment back and forth, before finally driving it towards the new image. This helps produce a clean result without leaving too much of the previous image behind. But this takes a lot of time.
-
-	
-The project is open source — you can get the plans and code on GitHub. This engineer was inspired by Wenting Zhang’s e-paper Game Boy emulator:
-
-Zhang has also made a color e-ink display that runs at 60 fps. Very cool. (via yanko design)
-
- 
-
-        
-         
-Tags: Game Boy · video · video games · Wenting Zhang]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 24-minute video tour of the Krasner and Pollock: Past...]]></title>
-        <id>https://kottke.org/26/10/0049824-a-24-minute-video-tour</id>
-        <link href="https://kottke.org/26/10/0049824-a-24-minute-video-tour"/>
-        <updated>2026-10-19T18:41:00.000Z</updated>
-        <summary type="html"><![CDATA[A 24-minute video tour of the Krasner and Pollock: Past Continuous exhibition at the Met. I hope I make it to NYC to see this before it closes in January.]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>

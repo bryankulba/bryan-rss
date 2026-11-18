@@ -351,6 +351,66 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/11/0050024-taking-with-them-tens-of-",
+          "author": null,
+          "description": "“During the past 20,000 years, huge stretches of formerly inhabited land along the world’s coastal shelves have disappeared underwater, taking with them tens of thousands of years of human history.”",
+          "link": "https://kottke.org/26/11/0050024-taking-with-them-tens-of-",
+          "publishedOn": "2026-11-18T19:44:00.000Z",
+          "wordCount": 714,
+          "title": "“During the past 20,000 years, huge stretches of formerly...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50024-ce55531a.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050027-this-interactive-explorat",
+          "author": null,
+          "description": "If you want to know what interface designers do, check out this interactive exploration of designing a seemingly simple text input. “Every little decision is a rabbit hole.”",
+          "link": "https://kottke.org/26/11/0050027-this-interactive-explorat",
+          "publishedOn": "2026-11-18T18:48:00.000Z",
+          "wordCount": 696,
+          "title": "If you want to know what interface designers do, check...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50027-a9fa665c.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050022-ta-nehisi-coates-intervie",
+          "author": null,
+          "description": "Ta-Nehisi Coates interviews Stacey Abrams about the midterm results (archive link). “What we saw on Tuesday was a moment where people realized that the power to improve their own lives had become so desperately thin that they had to use it or lose it.”",
+          "link": "https://kottke.org/26/11/0050022-ta-nehisi-coates-intervie",
+          "publishedOn": "2026-11-18T17:33:00.000Z",
+          "wordCount": 665,
+          "title": "Ta-Nehisi Coates interviews Stacey Abrams about the...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50022-5ea8e13e.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/beautiful-bacteria",
+          "author": null,
+          "description": "Tal Danino is a synthetic biologist who works with bacteria, scientifically and artistically.  His aesthetic explorations of bacteria, Microbial Rainbow and Microuniverse, have resulting in a book called Beautiful Bacteria (Amazon). You can check out more of his bacterial photos at TED, The Guardian, Seed, and The Marginalian.\n\n \n\n        \n         \nTags: art · bacteria · photography · Tal Danino",
+          "link": "https://kottke.org/26/11/beautiful-bacteria",
+          "publishedOn": "2026-11-18T16:44:00.000Z",
+          "wordCount": 712,
+          "title": "Beautiful Bacteria",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1794980187-a373ccbe.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050018-a-secret-us-report-from-1",
+          "author": null,
+          "description": "A secret US report from 1943 evaluated Adolf Hitler’s psychological profile. “Langer noted that Hitler accused his political opponents of the ‘bombardment of lies’ that Hitler himself assailed them with.”",
+          "link": "https://kottke.org/26/11/0050018-a-secret-us-report-from-1",
+          "publishedOn": "2026-11-18T15:51:00.000Z",
+          "wordCount": 612,
+          "title": "A secret US report from 1943 evaluated Adolf Hitler’s...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50018-4d4a0796.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0049999-this-cloud-forest-in-cost",
+          "author": null,
+          "description": "This cloud forest in Costa Rica is losing its clouds. “Tropical cloud forests make up only 0.4% of the Earth’s land surface, but support 15% of all birds, mammal, amphibians and tree fern species, half of them found only in cloud forests.”",
+          "link": "https://kottke.org/26/11/0049999-this-cloud-forest-in-cost",
+          "publishedOn": "2026-11-18T14:49:00.000Z",
+          "wordCount": 731,
+          "title": "This cloud forest in Costa Rica is losing its clouds....",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-49999-aaa02944.jpg"
+        },
+        {
           "id": "https://kottke.org/26/11/0050026-the-teaser-trailer-for-th",
           "author": null,
           "description": "Oooh, finally! The teaser trailer for the second season of 3 Body Problem is out and they’ve announced a premiere date: January 14th.",
@@ -2189,46 +2249,6 @@
           "wordCount": 675,
           "title": "Brewster Kahle argues against news sites blocking the...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049820-nprs-planet-money-recentl",
-          "author": null,
-          "description": "NPR’s Planet Money recently did a show on tariff refunds and interviewed Panic’s Cabel Sasser about how they decided to refund their Playdate-buying customers for the tariffs surcharge they paid.",
-          "link": "https://kottke.org/26/10/0049820-nprs-planet-money-recentl",
-          "publishedOn": "2026-10-19T21:18:00.000Z",
-          "wordCount": 728,
-          "title": "NPR’s Planet Money recently did a show on tariff refunds...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049832-do-you-believe-in-life-af",
-          "author": null,
-          "description": "Do you believe in life after death? This is a great interactive piece by Alvin Chang about people’s beliefs about the existence of an afterlife and how those beliefs change over the course of our lifetimes.",
-          "link": "https://kottke.org/26/10/0049832-do-you-believe-in-life-af",
-          "publishedOn": "2026-10-19T20:28:00.000Z",
-          "wordCount": 691,
-          "title": "Do you believe in life after death? This is a great...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/a-tiny-24-fps-e-ink-game-boy-emulator",
-          "author": null,
-          "description": "This is really impressive: a software engineer got a Game Boy emulator running at 30 fps on a tiny e-ink screen.\nIf you’re familiar with e-paper, you know that they normally refresh much slower (2-3 times a second), not nearly quick enough to play even a simple video game. This guy wrote his own display driver that got the refresh rate up to 30 times per second. From the transcript of the video explaining how e-paper works and how he hacked the display to make it play games:\nUnlike conventional displays like LCD or OLED, ePaper stores its image physically using charged black and white pigment particles. By changing the electric field, the display moves the pigments towards or away from the surface, which in the end gives us black- or white-looking pixel. And usually a sequence of several electrical pulses called a waveform is needed to move the pigment back and forth, before finally driving it towards the new image. This helps produce a clean result without leaving too much of the previous image behind. But this takes a lot of time.\n\n\t\nThe project is open source — you can get the plans and code on GitHub. This engineer was inspired by Wenting Zhang’s e-paper Game Boy emulator:\n\nZhang has also made a color e-ink display that runs at 60 fps. Very cool. (via yanko design)\n\n \n\n        \n         \nTags: Game Boy · video · video games · Wenting Zhang",
-          "link": "https://kottke.org/26/10/a-tiny-24-fps-e-ink-game-boy-emulator",
-          "publishedOn": "2026-10-19T19:33:00.000Z",
-          "wordCount": 864,
-          "title": "A Tiny 24 FPS E-Ink Game Boy Emulator",
-          "imageUrl": "https://i.ytimg.com/vi/XiZmM6hwwAU/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049824-a-24-minute-video-tour",
-          "author": null,
-          "description": "A 24-minute video tour of the Krasner and Pollock: Past Continuous exhibition at the Met. I hope I make it to NYC to see this before it closes in January.",
-          "link": "https://kottke.org/26/10/0049824-a-24-minute-video-tour",
-          "publishedOn": "2026-10-19T18:41:00.000Z",
-          "wordCount": 713,
-          "title": "A 24-minute video tour of the Krasner and Pollock: Past...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2576,16 +2596,6 @@
           "wordCount": 2175,
           "title": "‘Reverse-Engineer Anything’ is the new wild west of AI",
           "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/CleanShot-2026-10-20-at-6.38.22-AM@2x.png"
-        },
-        {
-          "id": "https://waxy.org/?p=51291",
-          "author": "Andy Baio",
-          "description": "the user-funded Tumblresque platform never fully recovered after suffering three months of downtime in 2021\n#",
-          "link": "https://www.pillowfort.social/posts/8413273",
-          "publishedOn": "2026-10-20T03:25:21.000Z",
-          "wordCount": 1088,
-          "title": "Pillowfort closing in December",
-          "imageUrl": null
         }
       ]
     },
@@ -2594,6 +2604,16 @@
       "feedUrl": "https://pluralistic.net/feed/",
       "siteUrl": "https://pluralistic.net",
       "articles": [
+        {
+          "id": "https://pluralistic.net/?p=13531",
+          "author": "Cory Doctorow",
+          "description": "Today's links Enshittifiers groom us for scammers: The harder it is to tell a scam from a shitty business practice, the easier life gets for scammers. Hey look at this: Delights to delectate. Object permanence: Fannish accent; Photoshopping culture; Sixth HHGTTG novel discovers; Dragon sausages must contain dragon; Tumblr users melt Congress's phones; Pizza is a vegetable; Fake news author is a \"satirist\"; Trump wants a seawall around his golf resort (even though climate change is a \"hoax\"); \"Nimona\"; Harvard v meritocracy; Disney loses Roger Rabbit. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All…",
+          "link": "https://pluralistic.net/2026/11/18/malice-v-incompetence/",
+          "publishedOn": "2026-11-18T08:28:46.000Z",
+          "wordCount": 4125,
+          "title": "Pluralistic: Enshittifiers groom us for scammers (18 Nov 2026)",
+          "imageUrl": null
+        },
         {
           "id": "https://pluralistic.net/?p=13524",
           "author": "Cory Doctorow",
@@ -2802,6 +2822,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19377",
+          "author": "Warren Ellis",
+          "description": "My copies of GHOST DRIVE STATION arrived yesterday, and it’s out in comics shops today. Turns out it’s also out on Kindle. Robert Pattinson is…",
+          "link": "https://warrenellis.ltd/status/18nov26/",
+          "publishedOn": "2026-11-18T13:19:49.000Z",
+          "wordCount": 1365,
+          "title": "18nov26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/11/IMG_2689-scaled-1.jpeg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19356",
           "author": "Warren Ellis",
@@ -3291,6 +3321,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-blah-records",
+          "author": null,
+          "description": "The Wire 514, Tim Fish compiles an annotated playlist of tracks from the Liverpool label\n\n\n    The following playlist outlines some of Blah's most significant records.\n\nChildren Of The Damned\n“Cold Sag Run Marathon”\n    \n From Brick Pelican\n    \n (2009)\n\n\n    Tony Broke\n“Hang Around”\n    \nBroke As F$£k\n    \n (2012)\n\n\n    Black Josh Ape\n“Paul Scholes”\n    \n From #blahblahblackjosh\n    \n (2014)\n\n\n    Nah Eeto\n“Bila You”\n    \n From 53\n    \n (2019)\n\n\n    Stinkin Slumrok\n“Archive”\nFrom Don Pong\n    \n (2015)\n\nDon Pong, is particularly gritty and features Slummy at his most confrontational, backed up by a heavy beat from the late, great 7th Dan.\n\nLee Scott & Hyroglifics\n“Beanio featuring Bigg Jus”\n    \n From [gate clicks shut]\n    \n (2021)\n\n\n    Lyza Jane & Sniff\n“Blue Sunday”\n    \nBaby Blue Champion\n    \n (2018)\n\nBaby Blue Champion EP, alongside Blah and Bad Taste associate Sniff. Jane’s echoes of Julee Cruise juxtapose nicely with Sniff’s gruff monotone raps and his laid-back, bluesy production.\n\nCult Of The Damned\n“Ext. Car Park – Night”\n    \n From Simony\n    \n (2026)\n\nSimony, which came out in April 2026. “Ext. Car Park – Night” features a brilliantly foreboding beat from Chicago based artist Spectacular Diagnostics – the latest Blah co-sign – as well as verses from the full gang, including legendary master of hooks, BeTheGun. The track served as a hell of an introduction to the album, which proved that strength in numbers still trumps individual talent. A showcase of Blah’s rap range in full cult formation.\n\nRead Tim Fish’s full report on Blah in The Wire 514. Buy the issue in our online shop. Wire subscribers can also read the article online via the digital magazine library.",
+          "link": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-blah-records",
+          "publishedOn": "2026-11-18T00:00:00.000Z",
+          "wordCount": 1295,
+          "title": "Unlimited Editions: Blah Records",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/11/18/ue5142_for_web.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/in-writing/columns/mark-korven-borderline-sonics-and-dimensional-demarcation",
           "author": null,
           "description": "The Black Phone (2021) and Them (2021) destabilise hermetic soundworlds to convey psychological violence, writes Philip Brophy in his latest Secret History of Film Music column\n\n\n    Its abject sonics pepper Robert Eggers’s The Lighthouse (2019) with terse shudders and emotional spikes, and are also audible in Adam Schindler and Brian Netto’s Don’t Move (2024). The granularity of those scores makes for great listening, reminiscent of Toru Takemitsu’s experimental approach in Masaki Kobayashi’s folk horror omnibus Kwaidan (1964). Yet Korven pushes his sounds conceptually further in more mainstream commissions.\n\nThe Black Phone (2021) vents a dark audiovisual language into a seemingly innocent setting: suburban Denver in 1978. Having earlier struck a home run at baseball, a teen rides his bi…",
@@ -3409,26 +3449,6 @@
           "wordCount": 566,
           "title": "Wire  mix: Nick Nicely’s Psychedelia Top Ten",
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/27/nick_nicely_for_web.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-metal-resistance",
-          "author": null,
-          "description": "The Wire 513\n\n\n    Today, other subcultures have become fragmented by the internet and streaming, but metal remains a counterexample, perhaps precisely because of the strong sense of belonging on which it was built. At the same time, the very closeness and openness to extremes that made the genre a refuge also carry a cost, with the sense of brotherhood and outsiderliness at times tipping into hypermasculinity, sexism, misogyny and, at worst, ties with far right ideologies.\n\n\n    “The people welcoming new folks and marginalised groups into metal are new folks and marginalised groups themselves,” says Bariann Tuite Smith, founder of the New York label Fiadh Productions. “Artists, supporters and fans who have always been there, just never given a place, and who stepped up to build that place…",
-          "link": "https://www.thewire.co.uk/in-writing/collateral-damage/against-the-grain-metal-resistance",
-          "publishedOn": "2026-10-20T00:00:00.000Z",
-          "wordCount": 1537,
-          "title": "Against The Grain: Metal resistance",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/21/crop_ALL_MEN_UNTO_ME_LONDON_LIVE_GALLERY_joestevenhart_002_copy.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/in-writing/essays/a-temporary-syncing-of-the-timelines-faust-reviewed",
-          "author": null,
-          "description": "The Wire 513\n\nFaust\n    \n Fliegen Lernen\n    \n Bureau B CD/DL/LP\n    \nGugaruz\n    \n Bureau B CD/DL/LP\n    \nMOI\n    \n Bureau B CD/DL/LP\n    \nUngebunden\n    \n Bureau B CD/DL/LP\n\n\n    A world in which Faust ever acheived that degree of fame is hard to picture. And yet this handful of simultaneous albums bearing the veteran German group’s name is in effect four individual projects, each “curated” – as per the official crediting – by one of the surviving musicians of Faust’s initial 1971-74 incarnation (Rudolf Sosna, the originator of such beguiling dream logic melodies as “Jennifer” and “Flashback Caruso”, died in 1996, while drummer Arnulf Meifert was ousted after Faust’s self-titled debut, purportedly for crimes including keeping his room tidy and practising daily).\n\nRashomon and the “I’m Sp…",
-          "link": "https://www.thewire.co.uk/in-writing/essays/a-temporary-syncing-of-the-timelines-faust-reviewed",
-          "publishedOn": "2026-10-20T00:00:00.000Z",
-          "wordCount": 1375,
-          "title": "“A temporary syncing of the timelines”: Faust reviewed",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/20/crop_4_Faust_press_pic_credit_Geboren_Wustmann_copy.jpg"
         }
       ]
     },
@@ -3437,6 +3457,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+          "author": null,
+          "description": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\">Daniel Stenberg</a>, Actual curl rewrites in Rust</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/daniel-stenberg\">daniel-stenberg</a>, <a href=\"https://simonwillison.net/tags/curl\">curl</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/c\">c</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/vibe-porting\">vibe-porting</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+          "publishedOn": "2026-11-18T15:58:27.000Z",
+          "wordCount": 832,
+          "title": "Quoting Daniel Stenberg",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p>\nWith my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p>\n<p>If your company or your work benefits from Python, please consider donating this year!</p>\n<p>The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running.</p>\n<p>We also operate the <a href=\"https://www.python.org/psf/developersinresidence/\">Developers in Residence program</a>, which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/psf\">psf</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+          "publishedOn": "2026-11-18T14:44:48.000Z",
+          "wordCount": 861,
+          "title": "The PSF end-of-year fundraiser",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
           "author": null,
@@ -4136,16 +4176,6 @@
           "wordCount": 4073,
           "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
           "imageUrl": "https://static.simonwillison.net/static/2026/battle-drones-card.webp"
-        },
-        {
-          "id": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://dumbmatter.com/2026/10/programming-obituary/\">My obituary for programming</a></strong></p>\nJeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the <em>puzzle</em> of developing code:</p>\n<blockquote>\n<p>Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible.</p>\n</blockquote>\n<p>If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.</p>\n<p>If directly solving those problems was a big part of your enjoyment, the loss is very real.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/wtobpt/my_obituary_for_programming\">lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/programming\">programming</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/deep-blue\">deep-blue</a></p>",
-          "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-          "publishedOn": "2026-10-19T23:58:25.000Z",
-          "wordCount": 920,
-          "title": "My obituary for programming",
-          "imageUrl": null
         }
       ]
     },
@@ -4243,6 +4273,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=168911",
+          "author": "Shalma Wegsman",
+          "description": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians.            \nThe post How M.C. Escher’s Art Creates Bizarre Mathematical Worlds first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
+          "publishedOn": "2026-11-18T15:51:40.000Z",
+          "wordCount": 4729,
+          "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2042/11/ImageGallery_EscherMath-crSEENOTES-Social.webp"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=169228",
           "author": "Charlie Wood",
