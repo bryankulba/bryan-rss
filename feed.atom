@@ -2,10 +2,149 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-19T12:28:26.555Z</updated>
+    <updated>2026-11-19T22:53:36.698Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A visual exploration of 50,000 boat names, including...]]></title>
+        <id>https://kottke.org/26/11/0050033-a-visual-exploration-of-5</id>
+        <link href="https://kottke.org/26/11/0050033-a-visual-exploration-of-5"/>
+        <updated>2026-11-19T22:05:00.000Z</updated>
+        <summary type="html"><![CDATA[A visual exploration of 50,000 boat names, including Nauti-Boy, Port Folio, Afternoon Delight, Red October, Bilboat Baggins, Sea Slut II, Spirited Away, and Kessel Run.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astronomy Picture of the Day: A Medium-Sized Solar Flare.]]></title>
+        <id>https://kottke.org/26/11/0050032-a-medium-sized-solar-flar</id>
+        <link href="https://kottke.org/26/11/0050032-a-medium-sized-solar-flar"/>
+        <updated>2026-11-19T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Astronomy Picture of the Day: A Medium-Sized Solar Flare.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PostgreSQL 19 Released]]></title>
+        <id>https://simonwillison.net/2026/Nov/19/postgresql-19/</id>
+        <link href="https://simonwillison.net/2026/Nov/19/postgresql-19/"/>
+        <updated>2026-11-19T20:43:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.postgresql.org/about/news/postgresql-19-released-3449/">PostgreSQL 19 Released</a></strong></p>
+Most years PostgreSQL ships a new release in September, but this year's release came two months later <a href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p>
+<p>This release was definitely worth the wait. My favorite new feature is this one:</p>
+<blockquote>
+<p>For applications that send reads to standbys, PostgreSQL 19 adds "read-your-writes" consistency with the new <a href="https://www.postgresql.org/docs/19/sql-wait.html"><code>WAIT FOR LSN</code></a> command. A session on a standby can use <code>WAIT FOR LSN</code> to wait until the standby has replayed the write-ahead log (WAL) up to a specific <a href="https://www.postgresql.org/docs/19/wal-internals.html">log sequence number (LSN)</a> before running a query, so the application can read data it just wrote on the primary.</p>
+</blockquote>
+<p>In practice, that looks like this:</p>
+<pre><code>UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama';
+SELECT pg_current_wal_insert_lsn();
+</code></pre>
+<p>That returns a value like <code>0/0306EE20</code>. Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do:</p>
+<pre><code>WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s');
+SELECT * FROM movie WHERE genre = 'Drama';
+</code></pre>
+<p>The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch up within the specified time.</p>
+<p>I first encountered this pattern <a href="https://www.mediawiki.org/wiki/Manual:Database_access#Lag">in Wikipedia</a>, which has a hand-rolled version of this built against MySQL replication:</p>
+<blockquote>
+<p>In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order. A few seconds of lag can be tolerated, as long as the user sees a consistent picture from subsequent requests. This is done by saving the primary binlog position in the session, and then at the start of each request, waiting for the replica to catch up to that position before doing any reads from it.</p>
+</blockquote>
+<p>Here's <a href="https://github.com/wikimedia/mediawiki/blob/1ff78194b182ee4b5b3678f7d9fc9aefd0852cf7/includes/libs/Rdbms/Replication/MysqlReplicationReporter.php#L238-L299">the relevant MediaWiki code</a>, which these days uses MySQL's <a href="https://dev.mysql.com/doc/refman/9.7/en/gtid-functions.html#function_wait-for-executed-gtid-set">WAIT_FOR_EXECUTED_GTID_SET()</a> function and falls back to <a href="https://dev.mysql.com/doc/refman/8.4/en/replication-functions-synchronization.html#function_source-pos-wait">SOURCE_POS_WAIT()</a>.
+
+    <p><small></small>Via <a href="https://lobste.rs/s/pqyuhk/postgresql_19_released">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/mysql">mysql</a>, <a href="https://simonwillison.net/tags/postgresql">postgresql</a>, <a href="https://simonwillison.net/tags/replication">replication</a>, <a href="https://simonwillison.net/tags/scaling">scaling</a>, <a href="https://simonwillison.net/tags/wikipedia">wikipedia</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Life Feeling Too Expensive? “Sober economic assessments...]]></title>
+        <id>https://kottke.org/26/11/0050016-life-feeling-too-expensiv</id>
+        <link href="https://kottke.org/26/11/0050016-life-feeling-too-expensiv"/>
+        <updated>2026-11-19T18:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Life Feeling Too Expensive? “Sober economic assessments don’t necessarily affect how people feel when they’re staring at the skyrocketing costs of the big items needed to achieve a middle-class life.” (Housing, education, health care, child care…)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Andrew Badr put a 1940s/1950s Lebanese women’s magazine online]]></title>
+        <id>https://waxy.org/?p=51384</id>
+        <link href="https://blog.andrewbadr.com/p/sawt-al-mara-bringing-an-early-lebanese"/>
+        <updated>2026-11-19T18:35:37.000Z</updated>
+        <summary type="html"><![CDATA[machine translation to English of 145 issues, mirroring the layouts of all 7,000 pages
+#]]></summary>
+        <author>
+            <name>Andy Baio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[50 Unforgettable Love Stories, including The Age of...]]></title>
+        <id>https://kottke.org/26/11/0050010-50-unforgettable-love-sto</id>
+        <link href="https://kottke.org/26/11/0050010-50-unforgettable-love-sto"/>
+        <updated>2026-11-19T18:16:00.000Z</updated>
+        <summary type="html"><![CDATA[50 Unforgettable Love Stories, including The Age of Innocence, Giovanni’s Room, The Remains of the Day, Normal People, Middlemarch, and Romeo & Juliet.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The end of the beginning. “Thinking about Anthropic, it’s...]]></title>
+        <id>https://kottke.org/26/11/0050030-the-end-of-the-beginning</id>
+        <link href="https://kottke.org/26/11/0050030-the-end-of-the-beginning"/>
+        <updated>2026-11-19T17:28:00.000Z</updated>
+        <summary type="html"><![CDATA[The end of the beginning. “Thinking about Anthropic, it’s strange to imagine a product as profound and pathbreaking as Claude to be ‘merely’ its Apple II. Yet that’s surely correct.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weird Little Apps is a website collecting, well, all of...]]></title>
+        <id>https://kottke.org/26/11/0050017-weird-little-apps</id>
+        <link href="https://kottke.org/26/11/0050017-weird-little-apps"/>
+        <updated>2026-11-19T16:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Weird Little Apps is a website collecting, well, all of the neat little apps that people have been building lately.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Energy Tax of Living in a New Place]]></title>
+        <id>https://kottke.org/26/11/the-energy-tax-of-living-in-a-new-place</id>
+        <link href="https://kottke.org/26/11/the-energy-tax-of-living-in-a-new-place"/>
+        <updated>2026-11-19T15:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Laura Serbest writing on Instagram:
+Before moving abroad, I was really independent. I loved socialising, visiting new places, trying new things. But over the past few years I’ve become so much more anxious and reserved, and I only just realised why.
+When you live somewhere familiar, life is second nature. You know the language, the systems, the culture, and the social expectations. You have routines, support and things are predictable.
+But when you live abroad, the energy required to participate in life increases. Socialising, going to appointments, buying a coffee, answering the phone. Everything requires so much more planning, energy and courage.
+When you’re already mentally exhausted, you have less energy for the things you want and should do. You avoid situations that feel difficult. Y…]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The science of glassblowing. “The constant stimuli of the...]]></title>
+        <id>https://kottke.org/26/11/0050013-the-science-of-glassblowi</id>
+        <link href="https://kottke.org/26/11/0050013-the-science-of-glassblowi"/>
+        <updated>2026-11-19T14:38:00.000Z</updated>
+        <summary type="html"><![CDATA[The science of glassblowing. “The constant stimuli of the glass studio may not seem anything like a sterile science lab, and yet glass artists need to accrue knowledge of physics and chemistry to achieve any kind of control with this dynamic material.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: How to forfeit one of copyright's best labor policies (19 Nov 2026)]]></title>
+        <id>https://pluralistic.net/?p=13536</id>
+        <link href="https://pluralistic.net/2026/11/19/loan-out-companies/"/>
+        <updated>2026-11-19T14:10:14.000Z</updated>
+        <summary type="html"><![CDATA[Today's links How to forfeit one of copyright's best labor policies: Author beware, termination of transfer and loan-out companies don't mix! Hey look at this: Delights to delectate. Object permanence: History of interlibrary loan; Mike Pence v Hamilton; Snoopers' Charter is law; Teamsters transformed. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How to forfeit one of copyright's best labor policies (permalink) There's a seeming paradox to copyright. For 50 years (starting with the 1976 Copyright Act) legislatures have monotonically expanded copyright, so that today, copyright lasts l…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[19nov26]]></title>
         <id>https://warrenellis.ltd/?p=19384</id>

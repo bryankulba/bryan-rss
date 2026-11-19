@@ -35,6 +35,260 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050033-a-visual-exploration-of-5">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T22:05:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050033-a-visual-exploration-of-5" target="_blank" rel="noopener noreferrer">A visual exploration of 50,000 boat names, including...</a>
+          </h2>
+          <p class="feed-item__desc">A visual exploration of 50,000 boat names, including Nauti-Boy, Port Folio, Afternoon Delight, Red October, Bilboat Baggins, Sea Slut II, Spirited Away, and Kessel Run.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050033-a-visual-exploration-of-5" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050033-a-visual-exploration-of-5">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-preview-a08ed170.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050032-a-medium-sized-solar-flar">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T21:20:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050032-a-medium-sized-solar-flar" target="_blank" rel="noopener noreferrer">Astronomy Picture of the Day: A Medium-Sized Solar Flare.</a>
+          </h2>
+          <p class="feed-item__desc">Astronomy Picture of the Day: A Medium-Sized Solar Flare.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050032-a-medium-sized-solar-flar" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050032-a-medium-sized-solar-flar">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-preview-a11fe737.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/19/postgresql-19/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T20:43:57.000Z">2026-11-19</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/19/postgresql-19/" target="_blank" rel="noopener noreferrer">PostgreSQL 19 Released</a>
+          </h2>
+          <p class="feed-item__desc">PostgreSQL 19 Released
+thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.
+This release was definitely worth the wait. My favorite new feature is this one:
+For applications that send reads to standbys, PostgreSQL 19 adds "read-your-writes" consistency with the new WAIT FOR LSN command. A session on a standby can use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up to a specific log sequence number (LSN) before running a query, so the application can read data it just wrote on the primary.
+In practice, that looks like this:
+UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama';
+SELECT pg_current_wal_insert_lsn();
+
+That returns a value like 0/0306EE20. Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do:
+WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s');
+SELECT * FROM movie WHERE genre = 'Drama';
+
+The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch up within the specified time.
+I first encountered this pattern in Wikipedia, which has a hand-rolled version of this built against MySQL replication:
+In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order. A few seconds of lag can be tolerated, as long as the user sees a consistent picture from subsequent requests. This is done by saving the primary binlog position in the session, and then at the start of each request, waiting for the replica to catch up to that position before doing any reads from it.
+Here's the relevant MediaWiki code, which these days uses MySQL's WAIT_FOR_EXECUTED_GTID_SET() function and falls back to SOURCE_POS_WAIT().
+
+    
+Via Lobste.rs
+Tags: mysql, postgresql, replication, scaling, wikipedia, ai-security-research</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/19/postgresql-19/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/19/postgresql-19/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050016-life-feeling-too-expensiv">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T18:58:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050016-life-feeling-too-expensiv" target="_blank" rel="noopener noreferrer">Life Feeling Too Expensive? “Sober economic assessments...</a>
+          </h2>
+          <p class="feed-item__desc">Life Feeling Too Expensive? “Sober economic assessments don’t necessarily affect how people feel when they’re staring at the skyrocketing costs of the big items needed to achieve a middle-class life.” (Housing, education, health care, child care…)</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050016-life-feeling-too-expensiv" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050016-life-feeling-too-expensiv">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50016-a15e6aa0.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://waxy.org/?p&#x3D;51384">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T18:35:37.000Z">2026-11-19</time>
+        <span class="feed-item__source">Waxy.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://blog.andrewbadr.com/p/sawt-al-mara-bringing-an-early-lebanese" target="_blank" rel="noopener noreferrer">How Andrew Badr put a 1940s/1950s Lebanese women’s magazine online</a>
+          </h2>
+          <p class="feed-item__desc">machine translation to English of 145 issues, mirroring the layouts of all 7,000 pages
+#</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://waxy.org/?p&#x3D;51384" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://waxy.org/?p&#x3D;51384">Mark read</button>
+            <span class="feed-item__reading-time">7 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!1sp7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc05107d-2b9e-46c8-a78e-55dc64192989_3122x1928.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050010-50-unforgettable-love-sto">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T18:16:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050010-50-unforgettable-love-sto" target="_blank" rel="noopener noreferrer">50 Unforgettable Love Stories, including The Age of...</a>
+          </h2>
+          <p class="feed-item__desc">50 Unforgettable Love Stories, including The Age of Innocence, Giovanni’s Room, The Remains of the Day, Normal People, Middlemarch, and Romeo & Juliet.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050010-50-unforgettable-love-sto" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050010-50-unforgettable-love-sto">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-preview-f6e10422.gif" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050030-the-end-of-the-beginning">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T17:28:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050030-the-end-of-the-beginning" target="_blank" rel="noopener noreferrer">The end of the beginning. “Thinking about Anthropic, it’s...</a>
+          </h2>
+          <p class="feed-item__desc">The end of the beginning. “Thinking about Anthropic, it’s strange to imagine a product as profound and pathbreaking as Claude to be ‘merely’ its Apple II. Yet that’s surely correct.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050030-the-end-of-the-beginning" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050030-the-end-of-the-beginning">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050017-weird-little-apps">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T16:39:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050017-weird-little-apps" target="_blank" rel="noopener noreferrer">Weird Little Apps is a website collecting, well, all of...</a>
+          </h2>
+          <p class="feed-item__desc">Weird Little Apps is a website collecting, well, all of the neat little apps that people have been building lately.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050017-weird-little-apps" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050017-weird-little-apps">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50017-16a57857.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/the-energy-tax-of-living-in-a-new-place">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T15:26:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/the-energy-tax-of-living-in-a-new-place" target="_blank" rel="noopener noreferrer">The Energy Tax of Living in a New Place</a>
+          </h2>
+          <p class="feed-item__desc">Laura Serbest writing on Instagram:
+Before moving abroad, I was really independent. I loved socialising, visiting new places, trying new things. But over the past few years I’ve become so much more anxious and reserved, and I only just realised why.
+When you live somewhere familiar, life is second nature. You know the language, the systems, the culture, and the social expectations. You have routines, support and things are predictable.
+But when you live abroad, the energy required to participate in life increases. Socialising, going to appointments, buying a coffee, answering the phone. Everything requires so much more planning, energy and courage.
+When you’re already mentally exhausted, you have less energy for the things you want and should do. You avoid situations that feel difficult. Y…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/the-energy-tax-of-living-in-a-new-place" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/the-energy-tax-of-living-in-a-new-place">Mark read</button>
+            <span class="feed-item__reading-time">15 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050013-the-science-of-glassblowi">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T14:38:00.000Z">2026-11-19</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050013-the-science-of-glassblowi" target="_blank" rel="noopener noreferrer">The science of glassblowing. “The constant stimuli of the...</a>
+          </h2>
+          <p class="feed-item__desc">The science of glassblowing. “The constant stimuli of the glass studio may not seem anything like a sterile science lab, and yet glass artists need to accrue knowledge of physics and chemistry to achieve any kind of control with this dynamic material.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050013-the-science-of-glassblowi" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050013-the-science-of-glassblowi">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50013-c3b548b8.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://pluralistic.net/?p&#x3D;13536">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-19T14:10:14.000Z">2026-11-19</time>
+        <span class="feed-item__source">Pluralistic: Daily links from Cory Doctorow</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://pluralistic.net/2026/11/19/loan-out-companies/" target="_blank" rel="noopener noreferrer">Pluralistic: How to forfeit one of copyright&#x27;s best labor policies (19 Nov 2026)</a>
+          </h2>
+          <p class="feed-item__desc">Today's links How to forfeit one of copyright's best labor policies: Author beware, termination of transfer and loan-out companies don't mix! Hey look at this: Delights to delectate. Object permanence: History of interlibrary loan; Mike Pence v Hamilton; Snoopers' Charter is law; Teamsters transformed. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How to forfeit one of copyright's best labor policies (permalink) There's a seeming paradox to copyright. For 50 years (starting with the 1976 Copyright Act) legislatures have monotonically expanded copyright, so that today, copyright lasts l…</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://pluralistic.net/?p&#x3D;13536" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://pluralistic.net/?p&#x3D;13536">Mark read</button>
+            <span class="feed-item__reading-time">16 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19384">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-19T12:26:08.000Z">2026-11-19</time>
