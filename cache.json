@@ -351,6 +351,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/11/0050028-what-are-people-for",
+          "author": null,
+          "description": "New short design documentary “about the life and work of the pioneering designer, Patrick Whitney”, directed by Gary Hustwit: What Are People For?",
+          "link": "https://kottke.org/26/11/0050028-what-are-people-for",
+          "publishedOn": "2026-11-18T21:44:00.000Z",
+          "wordCount": 790,
+          "title": "New short design documentary “about the life and work of...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50028-fb95c4e2.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/what-happens-to-your-body-when-you-die",
+          "author": null,
+          "description": "Kurzgesagt explores what happens to your body when you die.\nDeath isn’t a single switch that shuts down your entire body at once. When your heart stops beating and your brain goes silent, trillions of cells inside you are still alive, desperately trying to keep themselves running. Death isn’t a single moment, but a slow and surprisingly complex process that can last for weeks.\nWhat actually happens when you die? What makes death so mysterious, and which cells are the last survivors within your body?\n\n \n\n        \n         \nTags: death · kurzgesagt · science · video",
+          "link": "https://kottke.org/26/11/what-happens-to-your-body-when-you-die",
+          "publishedOn": "2026-11-18T20:51:00.000Z",
+          "wordCount": 737,
+          "title": "What Happens to Your Body When You Die?",
+          "imageUrl": "https://i.ytimg.com/vi/fEjvSbI_PT4/maxresdefault.jpg"
+        },
+        {
           "id": "https://kottke.org/26/11/0050024-taking-with-them-tens-of-",
           "author": null,
           "description": "“During the past 20,000 years, huge stretches of formerly inhabited land along the world’s coastal shelves have disappeared underwater, taking with them tens of thousands of years of human history.”",
@@ -2239,16 +2259,6 @@
           "wordCount": 926,
           "title": "How Japanese Dried Bonito Is Made",
           "imageUrl": "https://i.ytimg.com/vi/HsMbNVEJp9g/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049842-brewster-kahle-argues-aga",
-          "author": null,
-          "description": "Brewster Kahle argues against news sites blocking the Internet Archive from archiving their sites. “Impeding the Wayback Machine’s preservation work will not prevent powerful AI companies from gathering training data.”",
-          "link": "https://kottke.org/26/10/0049842-brewster-kahle-argues-aga",
-          "publishedOn": "2026-10-20T12:39:00.000Z",
-          "wordCount": 675,
-          "title": "Brewster Kahle argues against news sites blocking the...",
-          "imageUrl": ""
         }
       ]
     },
@@ -3257,22 +3267,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!lRZh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e8a8255-acf1-43d5-a274-7759b7d0850a_1985x2627.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/on-having-zero-motion",
-          "author": "Blackbird Spyplane",
-          "description": "Fear of falling behind, and spells of perfect stillness",
-          "link": "https://www.blackbirdspyplane.com/p/on-having-zero-motion",
-          "publishedOn": "2026-10-20T11:01:31.000Z",
-          "wordCount": null,
-          "title": "On having zero motion",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!Xfmi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969c1e39-4535-45ad-a528-f0e6b3a793c6_1500x1987.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!Xfmi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F969c1e39-4535-45ad-a528-f0e6b3a793c6_1500x1987.png"
         }
       ]
     },
@@ -4544,16 +4538,6 @@
           "publishedOn": "2026-10-22T10:15:33.000Z",
           "wordCount": 3221,
           "title": "all iterations of the same one fundamental technological change",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.velcro-city.co.uk/?p=12421",
-          "author": "PGR",
-          "description": "(You're looking at me) looking at myself looking at art (on the internet).",
-          "link": "https://www.velcro-city.co.uk/my-kid-could-not-have-done-this-not-least-because-i-dont-have-one/",
-          "publishedOn": "2026-10-20T10:04:38.000Z",
-          "wordCount": 2677,
-          "title": "my kid could not have done this (not least because I don’t have one)",
           "imageUrl": null
         }
       ]
