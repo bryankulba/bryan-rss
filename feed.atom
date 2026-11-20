@@ -2,10 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-19T22:53:36.698Z</updated>
+    <updated>2026-11-20T05:40:04.783Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Token fraud is here and it’s BAD (YouTube)]]></title>
+        <id>https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/</id>
+        <link href="https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"/>
+        <updated>2026-11-20T02:49:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://www.youtube.com/watch?v=ZDpP7JXPlhc">Token fraud is here and it’s BAD (YouTube)</a></strong></p>
+Claire Vo runs <a href="https://www.chatprd.ai">ChatPRD</a>, an AI platform that helps product managers "turn an idea into a spec". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p>
+<p>In this YouTube video (see also the <a href="https://x.com/clairevo/status/2119985786045227197">accompanying Twitter post</a>) Claire describes the <em>flood</em> of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent.</p>
+<blockquote>
+<p>I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps.</p>
+</blockquote>
+<p>Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I've used it like this in the past to try and guess the identity of stealth preview models on platforms like OpenRouter.</p>
+<p>Claire is winding down her free trials entirely, which sadly looks like the right decision in the face of this abuse.
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/youtube">youtube</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Spent a Year Talking to Anthropic Employees. “I have...]]></title>
+        <id>https://kottke.org/26/11/0050038-i-spent-a-year-talking-to</id>
+        <link href="https://kottke.org/26/11/0050038-i-spent-a-year-talking-to"/>
+        <updated>2026-11-20T01:26:14.000Z</updated>
+        <summary type="html"><![CDATA[I Spent a Year Talking to Anthropic Employees. “I have found them surprisingly earnest in their dedication to making AI go well. But their concerns are also idiosyncratic and insular, often far removed from the concerns that most people hold about AI.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stock Photos of Muscular Men in Odd Places]]></title>
+        <id>https://kottke.org/26/11/stock-photos-of-muscular-men-in-odd-places</id>
+        <link href="https://kottke.org/26/11/stock-photos-of-muscular-men-in-odd-places"/>
+        <updated>2026-11-19T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Muscle Plus is a free stock photo site that features Japanese bodybuilders in unusual places and situations. From Tokyo Weekender:
+There are men declaring their love in the middle of a tea plantation, men frolicking among sunflowers and men who have been abandoned in cardboard boxes, sometimes in the woods, sometimes by the roadside. The last scenario has proved popular enough to warrant an entire category, sute macho, or “abandoned buff guy,” borrowing its premise from the stray kittens left in cardboard boxes by Japanese roadsides.
+
+	
+
+
+
+
+Some of the names are great too. These two are called “The person summoned from another world wasn’t a hero, but a muscular, disposable guy” and “A muscular man who can’t fall asleep in an unfamiliar bed”:
+
+
+
+ 
+
+        
+         
+Tags: Japan · photography]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A visual exploration of 50,000 boat names, including...]]></title>
         <id>https://kottke.org/26/11/0050033-a-visual-exploration-of-5</id>
@@ -6731,125 +6787,6 @@ If you're running anything on PHP it's vital you upgrade - today's updates (acro
         <link href="https://kottke.org/26/10/0049849-the-library-is-closed-fee"/>
         <updated>2026-10-21T18:07:00.000Z</updated>
         <summary type="html"><![CDATA[The Library Is Closed. Feel Free to Come In. “In communities where workspaces are scarce, libraries are welcoming visitors outside of staffed hours. All they need is a library card.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tiny People in a Big World is like a birdwatching guide,...]]></title>
-        <id>https://kottke.org/26/10/0049845-tiny-people-in-a-big-worl</id>
-        <link href="https://kottke.org/26/10/0049845-tiny-people-in-a-big-worl"/>
-        <updated>2026-10-21T16:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Tiny People in a Big World is like a birdwatching guide, but for people-watching. “I made this campaign to produce a book that will help you notice and appreciate the tiny people who pass through your big world.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Panache — RTS Belle Époque pour mobile]]></title>
-        <id>https://simonwillison.net/2026/Oct/21/panache/</id>
-        <link href="https://simonwillison.net/2026/Oct/21/panache/"/>
-        <updated>2026-10-21T16:25:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://github.com/menufactory43/panache/">Panache — RTS Belle Époque pour mobile</a></strong></p>
-Well this is delightful: I <a href="https://simonwillison.net/2026/Oct/20/battledrones/">released Battle Drones</a> yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro!</p>
-<blockquote>
-<p><strong>Panache</strong> est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante — et beaucoup de panache.</p>
-</blockquote>
-<p>You can <a href="https://menufactory43.github.io/panache/">play Panache here</a> - it's worth clicking that link just to experience the new intro video.</p>
-<p>So far it's mostly just aesthetic updates as opposed to gameplay changes. The music has had a French twist added to it as well.</p>
-<p>The new steampunk models are so cool!</p>
-<p><img alt="The new buildings are gold and red, there are dirigibles and biplanes, and the Goliath stomping mech has had a total makeover." src="https://static.simonwillison.net/static/2026/battledrones-french.jpg" /></p>
-<p>Here's a page with <a href="https://simonw.github.io/battledrones/models.html">the original Battle Drones models</a> and that same page <a href="https://menufactory43.github.io/panache/models.html">with the new Panache alternatives</a>.</p>
-<p>This is a comparison of the original and the new design for the Goliath:</p>
-<p><img alt="On the left: blue stomping mech robot, missile launcher shoulders, classic sci-fi robot look. On the right: gold, steampunk, much more 1900s French look." src="https://static.simonwillison.net/static/2026/battledrones-goliath-diff.jpg" />
-
-    <p><small></small>Via <a href="https://twitter.com/Meffysto69/status/2112908755654365220">@Meffysto69</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/game-design">game-design</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Link Loop is basically a 2D version of Portal. Looks fun!]]></title>
-        <id>https://kottke.org/26/10/0049833-link-loop</id>
-        <link href="https://kottke.org/26/10/0049833-link-loop"/>
-        <updated>2026-10-21T16:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Link Loop is basically a 2D version of Portal. Looks fun!]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ambient Earth]]></title>
-        <id>https://kottke.org/26/10/ambient-earth</id>
-        <link href="https://kottke.org/26/10/ambient-earth"/>
-        <updated>2026-10-21T14:49:00.000Z</updated>
-        <summary type="html"><![CDATA[Ambient Earth is a 7.5-hour, real-time, 4K, remastered video of the orbital view from the International Space Station. Seán Doran took almost 49,000 images from 27 time-lapse sequences captured from the ISS by astronaut Butch Wilmore, repaired, remastered, and interpolated them into this incredible video.
-Perspective is lost when the world speeds by. The scale and beauty of our home planet is truly appreciated when observed on an epic 7.5 hour journey from The International Space Station. This ambitious 4k compilation, crafted through months of meticulous restoration, invites you to slow down and experience Earth in real time just as astronauts do.
-
-	
-The video is accompanied by ambient audio recorded on the station by Chris Hadfield. This would be great for a screensaver, but after poking around for a bit, it doesn’t seem like there’s a good way to set a YT video as a screensaver on MacOS (without downloading it or having it be a livestream).
-
- 
-
-        
-         
-Tags: Earth · iss · Sean Doran · space · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical PHP remote code exploits patched, update now]]></title>
-        <id>https://waxy.org/?p=51307</id>
-        <link href="https://www.php.net/archive/2026.php#2026-10-21-5"/>
-        <updated>2026-10-21T14:40:57.000Z</updated>
-        <summary type="html"><![CDATA[basically every PHP installation is affected, don’t wait on this one
-#]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dennis Crowley on the end of Foursquare]]></title>
-        <id>https://waxy.org/?p=51304</id>
-        <link href="https://teendrama.substack.com/p/some-final-words-on-foursquare"/>
-        <updated>2026-10-21T14:37:46.000Z</updated>
-        <summary type="html"><![CDATA[it quietly sold last month with no return for stockholders and investors
-manton.org #]]></summary>
-        <author>
-            <name>Andy Baio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[See Inside Cells Like Never Before in These Vivid Microscopic Images]]></title>
-        <id>https://www.quantamagazine.org/?p=168082</id>
-        <link href="https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/"/>
-        <updated>2026-10-21T14:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life.            
-The post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Molly Herring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Japan launched a $578 million mission Monday on a...]]></title>
-        <id>https://kottke.org/26/10/0049847-retrieve-samples-for-retu</id>
-        <link href="https://kottke.org/26/10/0049847-retrieve-samples-for-retu"/>
-        <updated>2026-10-21T13:45:00.000Z</updated>
-        <summary type="html"><![CDATA[“Japan launched a $578 million mission Monday on a five-year expedition to land on the largest moon of Mars and retrieve samples for return to Earth.”]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find the Place You Love. Then Move There. “The reward...]]></title>
-        <id>https://kottke.org/26/10/0049830-find-the-place-you-love-t</id>
-        <link href="https://kottke.org/26/10/0049830-find-the-place-you-love-t"/>
-        <updated>2026-10-21T12:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Find the Place You Love. Then Move There. “The reward from moving just because you want to is hard to defend logically. Some people will think you are crazy…”]]></summary>
         <author>
             <name>kottke.org</name>
         </author>

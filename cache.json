@@ -361,6 +361,26 @@
       "siteUrl": "https://kottke.org/",
       "articles": [
         {
+          "id": "https://kottke.org/26/11/0050038-i-spent-a-year-talking-to",
+          "author": null,
+          "description": "I Spent a Year Talking to Anthropic Employees. “I have found them surprisingly earnest in their dedication to making AI go well. But their concerns are also idiosyncratic and insular, often far removed from the concerns that most people hold about AI.”",
+          "link": "https://kottke.org/26/11/0050038-i-spent-a-year-talking-to",
+          "publishedOn": "2026-11-20T01:26:14.000Z",
+          "wordCount": 650,
+          "title": "I Spent a Year Talking to Anthropic Employees. “I have...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-preview-c8a08ab3.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/stock-photos-of-muscular-men-in-odd-places",
+          "author": null,
+          "description": "Muscle Plus is a free stock photo site that features Japanese bodybuilders in unusual places and situations. From Tokyo Weekender:\nThere are men declaring their love in the middle of a tea plantation, men frolicking among sunflowers and men who have been abandoned in cardboard boxes, sometimes in the woods, sometimes by the roadside. The last scenario has proved popular enough to warrant an entire category, sute macho, or “abandoned buff guy,” borrowing its premise from the stray kittens left in cardboard boxes by Japanese roadsides.\n\n\t\n\n\n\n\nSome of the names are great too. These two are called “The person summoned from another world wasn’t a hero, but a muscular, disposable guy” and “A muscular man who can’t fall asleep in an unfamiliar bed”:\n\n\n\n \n\n        \n         \nTags: Japan · photography",
+          "link": "https://kottke.org/26/11/stock-photos-of-muscular-men-in-odd-places",
+          "publishedOn": "2026-11-19T23:00:00.000Z",
+          "wordCount": 770,
+          "title": "Stock Photos of Muscular Men in Odd Places",
+          "imageUrl": "http://kottke.org/images/posts/01/editor-1794899188-d743dce5.jpg"
+        },
+        {
           "id": "https://kottke.org/26/11/0050033-a-visual-exploration-of-5",
           "author": null,
           "description": "A visual exploration of 50,000 boat names, including Nauti-Boy, Port Folio, Afternoon Delight, Red October, Bilboat Baggins, Sea Slut II, Spirited Away, and Kessel Run.",
@@ -2219,56 +2239,6 @@
           "wordCount": 689,
           "title": "The Library Is Closed. Feel Free to Come In. “In...",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049845-tiny-people-in-a-big-worl",
-          "author": null,
-          "description": "Tiny People in a Big World is like a birdwatching guide, but for people-watching. “I made this campaign to produce a book that will help you notice and appreciate the tiny people who pass through your big world.”",
-          "link": "https://kottke.org/26/10/0049845-tiny-people-in-a-big-worl",
-          "publishedOn": "2026-10-21T16:58:00.000Z",
-          "wordCount": 688,
-          "title": "Tiny People in a Big World is like a birdwatching guide,...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049833-link-loop",
-          "author": null,
-          "description": "Link Loop is basically a 2D version of Portal. Looks fun!",
-          "link": "https://kottke.org/26/10/0049833-link-loop",
-          "publishedOn": "2026-10-21T16:03:00.000Z",
-          "wordCount": 644,
-          "title": "Link Loop is basically a 2D version of Portal. Looks fun!",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/ambient-earth",
-          "author": null,
-          "description": "Ambient Earth is a 7.5-hour, real-time, 4K, remastered video of the orbital view from the International Space Station. Seán Doran took almost 49,000 images from 27 time-lapse sequences captured from the ISS by astronaut Butch Wilmore, repaired, remastered, and interpolated them into this incredible video.\nPerspective is lost when the world speeds by. The scale and beauty of our home planet is truly appreciated when observed on an epic 7.5 hour journey from The International Space Station. This ambitious 4k compilation, crafted through months of meticulous restoration, invites you to slow down and experience Earth in real time just as astronauts do.\n\n\t\nThe video is accompanied by ambient audio recorded on the station by Chris Hadfield. This would be great for a screensaver, but after poking around for a bit, it doesn’t seem like there’s a good way to set a YT video as a screensaver on MacOS (without downloading it or having it be a livestream).\n\n \n\n        \n         \nTags: Earth · iss · Sean Doran · space · video",
-          "link": "https://kottke.org/26/10/ambient-earth",
-          "publishedOn": "2026-10-21T14:49:00.000Z",
-          "wordCount": 759,
-          "title": "Ambient Earth",
-          "imageUrl": "https://i.ytimg.com/vi/alJMoaKpV_E/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049847-retrieve-samples-for-retu",
-          "author": null,
-          "description": "“Japan launched a $578 million mission Monday on a five-year expedition to land on the largest moon of Mars and retrieve samples for return to Earth.”",
-          "link": "https://kottke.org/26/10/0049847-retrieve-samples-for-retu",
-          "publishedOn": "2026-10-21T13:45:00.000Z",
-          "wordCount": 721,
-          "title": "“Japan launched a $578 million mission Monday on a...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049830-find-the-place-you-love-t",
-          "author": null,
-          "description": "Find the Place You Love. Then Move There. “The reward from moving just because you want to is hard to defend logically. Some people will think you are crazy…”",
-          "link": "https://kottke.org/26/10/0049830-find-the-place-you-love-t",
-          "publishedOn": "2026-10-21T12:55:00.000Z",
-          "wordCount": 695,
-          "title": "Find the Place You Love. Then Move There. “The reward...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2566,26 +2536,6 @@
           "wordCount": 149,
           "title": "Local Wikipedia",
           "imageUrl": "https://edjefferson.com/localwiki/share.png"
-        },
-        {
-          "id": "https://waxy.org/?p=51307",
-          "author": "Andy Baio",
-          "description": "basically every PHP installation is affected, don’t wait on this one\n#",
-          "link": "https://www.php.net/archive/2026.php#2026-10-21-5",
-          "publishedOn": "2026-10-21T14:40:57.000Z",
-          "wordCount": 6212,
-          "title": "Critical PHP remote code exploits patched, update now",
-          "imageUrl": "https://www.php.net/images/meta-image.png"
-        },
-        {
-          "id": "https://waxy.org/?p=51304",
-          "author": "Andy Baio",
-          "description": "it quietly sold last month with no return for stockholders and investors\nmanton.org #",
-          "link": "https://teendrama.substack.com/p/some-final-words-on-foursquare",
-          "publishedOn": "2026-10-21T14:37:46.000Z",
-          "wordCount": null,
-          "title": "Dennis Crowley on the end of Foursquare",
-          "imageUrl": null
         }
       ]
     },
@@ -3449,6 +3399,16 @@
       "siteUrl": "http://simonwillison.net/",
       "articles": [
         {
+          "id": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+          "author": null,
+          "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p>\nClaire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p>\n<p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</a>) Claire describes the <em>flood</em> of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent.</p>\n<blockquote>\n<p>I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps.</p>\n</blockquote>\n<p>Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I've used it like this in the past to try and guess the identity of stealth preview models on platforms like OpenRouter.</p>\n<p>Claire is winding down her free trials entirely, which sadly looks like the right decision in the face of this abuse.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/youtube\">youtube</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+          "publishedOn": "2026-11-20T02:49:57.000Z",
+          "wordCount": 983,
+          "title": "Token fraud is here and it’s BAD (YouTube)",
+          "imageUrl": null
+        },
+        {
           "id": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
           "author": null,
           "description": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p>\nMost years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p>\n<p>This release was definitely worth the wait. My favorite new feature is this one:</p>\n<blockquote>\n<p>For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new <a href=\"https://www.postgresql.org/docs/19/sql-wait.html\"><code>WAIT FOR LSN</code></a> command. A session on a standby can use <code>WAIT FOR LSN</code> to wait until the standby has replayed the write-ahead log (WAL) up to a specific <a href=\"https://www.postgresql.org/docs/19/wal-internals.html\">log sequence number (LSN)</a> before running a query, so the application can read data it just wrote on the primary.</p>\n</blockquote>\n<p>In practice, that looks like this:</p>\n<pre><code>UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama';\nSELECT pg_current_wal_insert_lsn();\n</code></pre>\n<p>That returns a value like <code>0/0306EE20</code>. Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do:</p>\n<pre><code>WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s');\nSELECT * FROM movie WHERE genre = 'Drama';\n</code></pre>\n<p>The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch up within the specified time.</p>\n<p>I first encountered this pattern <a href=\"https://www.mediawiki.org/wiki/Manual:Database_access#Lag\">in Wikipedia</a>, which has a hand-rolled version of this built against MySQL replication:</p>\n<blockquote>\n<p>In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order. A few seconds of lag can be tolerated, as long as the user sees a consistent picture from subsequent requests. This is done by saving the primary binlog position in the session, and then at the start of each request, waiting for the replica to catch up to that position before doing any reads from it.</p>\n</blockquote>\n<p>Here's <a href=\"https://github.com/wikimedia/mediawiki/blob/1ff78194b182ee4b5b3678f7d9fc9aefd0852cf7/includes/libs/Rdbms/Replication/MysqlReplicationReporter.php#L238-L299\">the relevant MediaWiki code</a>, which these days uses MySQL's <a href=\"https://dev.mysql.com/doc/refman/9.7/en/gtid-functions.html#function_wait-for-executed-gtid-set\">WAIT_FOR_EXECUTED_GTID_SET()</a> function and falls back to <a href=\"https://dev.mysql.com/doc/refman/8.4/en/replication-functions-synchronization.html#function_source-pos-wait\">SOURCE_POS_WAIT()</a>.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/pqyuhk/postgresql_19_released\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mysql\">mysql</a>, <a href=\"https://simonwillison.net/tags/postgresql\">postgresql</a>, <a href=\"https://simonwillison.net/tags/replication\">replication</a>, <a href=\"https://simonwillison.net/tags/scaling\">scaling</a>, <a href=\"https://simonwillison.net/tags/wikipedia\">wikipedia</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
@@ -4167,16 +4127,6 @@
           "wordCount": 1081,
           "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Oct/21/panache/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://github.com/menufactory43/panache/\">Panache — RTS Belle Époque pour mobile</a></strong></p>\nWell this is delightful: I <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">released Battle Drones</a> yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro!</p>\n<blockquote>\n<p><strong>Panache</strong> est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante — et beaucoup de panache.</p>\n</blockquote>\n<p>You can <a href=\"https://menufactory43.github.io/panache/\">play Panache here</a> - it's worth clicking that link just to experience the new intro video.</p>\n<p>So far it's mostly just aesthetic updates as opposed to gameplay changes. The music has had a French twist added to it as well.</p>\n<p>The new steampunk models are so cool!</p>\n<p><img alt=\"The new buildings are gold and red, there are dirigibles and biplanes, and the Goliath stomping mech has had a total makeover.\" src=\"https://static.simonwillison.net/static/2026/battledrones-french.jpg\" /></p>\n<p>Here's a page with <a href=\"https://simonw.github.io/battledrones/models.html\">the original Battle Drones models</a> and that same page <a href=\"https://menufactory43.github.io/panache/models.html\">with the new Panache alternatives</a>.</p>\n<p>This is a comparison of the original and the new design for the Goliath:</p>\n<p><img alt=\"On the left: blue stomping mech robot, missile launcher shoulders, classic sci-fi robot look. On the right: gold, steampunk, much more 1900s French look.\" src=\"https://static.simonwillison.net/static/2026/battledrones-goliath-diff.jpg\" />\n\n    <p><small></small>Via <a href=\"https://twitter.com/Meffysto69/status/2112908755654365220\">@Meffysto69</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/game-design\">game-design</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
-          "link": "https://simonwillison.net/2026/Oct/21/panache/",
-          "publishedOn": "2026-10-21T16:25:16.000Z",
-          "wordCount": 922,
-          "title": "Panache — RTS Belle Époque pour mobile",
-          "imageUrl": null
         }
       ]
     },
@@ -4443,16 +4393,6 @@
           "wordCount": 3380,
           "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
           "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/MalariaPortal-cr-Ada-Zejun-Shen-Social.jpg"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=168082",
-          "author": "Molly Herring",
-          "description": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life.            \nThe post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
-          "publishedOn": "2026-10-21T14:00:07.000Z",
-          "wordCount": 2448,
-          "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
-          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2056/10/ImageGallerySmallWorld-crKaelinWulfAndMsRachelFlannery_AllenInstitute_DepartmentOfNeuralDynamics-Social.webp"
         }
       ]
     },
