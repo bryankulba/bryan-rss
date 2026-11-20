@@ -2,10 +2,189 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-20T05:40:04.783Z</updated>
+    <updated>2026-11-20T19:36:26.985Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Quoting Ravi Vakil]]></title>
+        <id>https://simonwillison.net/2026/Nov/20/ravi-vakil/</id>
+        <link href="https://simonwillison.net/2026/Nov/20/ravi-vakil/"/>
+        <updated>2026-11-20T19:21:49.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"><p>Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft.</p></blockquote>
+<p class="cite">&mdash; <a href="https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/">Ravi Vakil</a>, Hurried Announcement: Alessandro Masullo GRH</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/mathematics">mathematics</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Everything Became Fake. “There’s so much cognitive...]]></title>
+        <id>https://kottke.org/26/11/0050039-how-everything-became-fak</id>
+        <link href="https://kottke.org/26/11/0050039-how-everything-became-fak"/>
+        <updated>2026-11-20T18:51:00.000Z</updated>
+        <summary type="html"><![CDATA[How Everything Became Fake. “There’s so much cognitive effort in constantly sorting out what’s real from what’s not… maybe it’s easier to just let it all glide by.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What the Death Penalty Says About Us. “It’s dehumanizing,...]]></title>
+        <id>https://kottke.org/26/11/0050035-what-the-death-penalty-sa</id>
+        <link href="https://kottke.org/26/11/0050035-what-the-death-penalty-sa"/>
+        <updated>2026-11-20T17:58:00.000Z</updated>
+        <summary type="html"><![CDATA[What the Death Penalty Says About Us. “It’s dehumanizing, and some would say it dehumanizes the society that’s willing to impose it.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quick new feature for the Video Closet: Lazy mode picks a...]]></title>
+        <id>https://kottke.org/26/11/0050043-the-video-closet</id>
+        <link href="https://kottke.org/26/11/0050043-the-video-closet"/>
+        <updated>2026-11-20T16:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Quick new feature for the Video Closet: Lazy mode picks a video at random from the archive (or from the current search results) and plays it. You don’t have to make any decisions today, my friends.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quoting Levent Alpöge]]></title>
+        <id>https://simonwillison.net/2026/Nov/20/levent-alpoge/</id>
+        <link href="https://simonwillison.net/2026/Nov/20/levent-alpoge/"/>
+        <updated>2026-11-20T16:30:48.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote cite="https://alpo.ge/remark.pdf"><p>I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...]</p>
+<p>Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line.</p></blockquote>
+<p class="cite">&mdash; <a href="https://alpo.ge/remark.pdf">Levent Alpöge</a>, alpo.ge/remark.pdf</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/mathematics">mathematics</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/levent-alpoge">levent-alpoge</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Massive if true: “I believe I have, working with Claude,...]]></title>
+        <id>https://kottke.org/26/11/0050044-massive-if-true</id>
+        <link href="https://kottke.org/26/11/0050044-massive-if-true"/>
+        <updated>2026-11-20T16:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Massive if true: “I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.” Levent Alpöge said of working with Claude: “what I saw…so amazed me that I believe it is one dawn across science of something far greater”.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Buddhist A.I. Sect That Wants to Take Over Silicon...]]></title>
+        <id>https://kottke.org/26/11/0050040-the-buddhist-ai-sect-that</id>
+        <link href="https://kottke.org/26/11/0050040-the-buddhist-ai-sect-that"/>
+        <updated>2026-11-20T15:52:00.000Z</updated>
+        <summary type="html"><![CDATA[The Buddhist A.I. Sect That Wants to Take Over Silicon Valley. I’m sorry, what? Sir, this is a Wendy’s, not Apocalypse Mad Libs. And they’re based in VT?]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Network Researchers Nail Down Theory of ‘Perfect Resilience’]]></title>
+        <id>https://www.quantamagazine.org/?p=169214</id>
+        <link href="https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/"/>
+        <updated>2026-11-20T14:50:41.000Z</updated>
+        <summary type="html"><![CDATA[When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame.            
+The post Network Researchers Nail Down Theory of ‘Perfect Resilience’ first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Ben Brubaker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Rose by Jay DeFeo]]></title>
+        <id>https://kottke.org/26/11/the-rose-by-jay-defeo</id>
+        <link href="https://kottke.org/26/11/the-rose-by-jay-defeo"/>
+        <updated>2026-11-20T14:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Jay DeFao’s The Rose is one of my favorite pieces at The Whitney (or anywhere really). The story of how this art world behemoth somehow survived to become of the jewels of American art is wild.
+First exhibited in 1969, The Rose was taken to the San Francisco Art Institute, where it was covered with plaster for support and protection, and finally stored behind the wall of a conference room. Legend grew about the painting, but it remained sealed until 1995, when Whitney curator Lisa Phillips had it excavated and restored by a team of conservators, who created a backing strong enough to support the heavy paint.
+
+	
+Another more entertaining look at the painting’s (sculpture’s?) journey.
+
+
+ 
+
+        
+         
+Tags: art · Jay DeFeo · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[COO is Grand Theft Auto but with pigeons.]]></title>
+        <id>https://kottke.org/26/11/0050034-coo</id>
+        <link href="https://kottke.org/26/11/0050034-coo"/>
+        <updated>2026-11-20T13:55:00.000Z</updated>
+        <summary type="html"><![CDATA[COO is Grand Theft Auto but with pigeons.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dispatch — AI as material]]></title>
+        <id>6aff5b09d34fef00014fd16e</id>
+        <link href="https://sentiers.media/dispatch-ai-as-material/"/>
+        <updated>2026-11-20T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For more than a decade, various thinkers I respect have treated technology as a material with a grain. Recent pieces bring the idea to AI: Nick Foster on distortion, Eric Rodenbeck on model output as ink, Simone Rebaudengo on testing intelligence like wood, and Robin Sloan on software you ask for.]]></summary>
+        <author>
+            <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Lisa Hanawalt's "I Can't Stop Thinking About Horses and Sex" (20 Nov 2026)]]></title>
+        <id>https://pluralistic.net/?p=13542</id>
+        <link href="https://pluralistic.net/2026/11/20/intrusive-horse-thoughts/"/>
+        <updated>2026-11-20T10:44:20.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Lisa Hanawalt's "I Can't Stop Thinking About Horses and Sex": A memoir of heartbreak, horses, horniness and IBS. Hey look at this: Delights to delectate. Object permanence: They Fight Crime; Cantenna wifi TV for Mali; Kakistocracy; Inflation or price-gouging; The long game. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Lisa Hanawalt's "I Can't Stop Thinking About Horses and Sex" (permalink) The title of animator Lisa Hanawalt's new graphic memoir I Can't Stop Thinking About Horses and Sex is a perfect encapsulation of the book's contents: a frank, self-aware, funny, horny…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cool flex AI bro]]></title>
+        <id>https://interconnected.org/home/2026/11/20/flex</id>
+        <link href="https://interconnected.org/home/2026/11/20/flex"/>
+        <updated>2026-11-20T09:52:00.000Z</updated>
+        <summary type="html"><![CDATA[I am tickled by reports that, among elite AI researchers, cigarettes are back.
+The logic goes like this:
+If you really believe in AI and that AI will hit recursive self-improvement and achieve super-intelligence,
+and that it will solve all disease,
+and that all of this will happen imminently (or at least imminently enough that you have nothing to fear from smoking-related diseases),
+and you want to show that you, yes you, are close enough to the action to have come to this conclusion, and you are a true believer,
+then a really great way to signal this is to conspicuously take up smoking cigarettes.
+Actually I think that smoking cigarettes shows great strength of character.
+Or at least that’s the gag I say to my smoking buddies when they light up.
+Given everything we know about what smoking…]]></summary>
+        <author>
+            <name>Interconnected</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dragoncatcher: The human voice]]></title>
+        <id>https://www.robinsloan.com/lab/human-voice/</id>
+        <link href="https://www.robinsloan.com/lab/human-voice/"/>
+        <updated>2026-11-20T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Sparkles on the screen. <a href="https://www.robinsloan.com/lab/human-voice/">Read here.</a></p>]]></summary>
+        <author>
+            <name>Robin Sloan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webcurios 20/11/26]]></title>
+        <id>https://webcurios.co.uk/?p=1823</id>
+        <link href="https://webcurios.co.uk/webcurios-20-11-26/"/>
+        <updated>2026-11-20T06:23:23.000Z</updated>
+        <summary type="html"><![CDATA[Reading Time:  33 minutes   Do you have ANY idea how hard it was to get up at 6am this morning and sit down and write this fcuker rather than returning to the comfortable hollowed seat of my rocking chair to continue to live out a make-believe loving relationship (occasionally impacted by horrific outbreaks of senseless violence and drugrunning)…
+Continue reading →]]></summary>
+        <author>
+            <name>admin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Token fraud is here and it’s BAD (YouTube)]]></title>
         <id>https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/</id>
@@ -34,6 +213,29 @@ Claire Vo runs <a href="https://www.chatprd.ai">ChatPRD</a>, an AI platform that
         <summary type="html"><![CDATA[I Spent a Year Talking to Anthropic Employees. “I have found them surprisingly earnest in their dedication to making AI go well. But their concerns are also idiosyncratic and insular, often far removed from the concerns that most people hold about AI.”]]></summary>
         <author>
             <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Read an extract from  Viva Negativa! The New Blockaders: The Noise Of Art And Nothing]]></title>
+        <id>https://www.thewire.co.uk/in-writing/book-extracts/read-an-extract-from-viva-negativa-the-new-blockaders-the-noise-of-art-and-nothing</id>
+        <link href="https://www.thewire.co.uk/in-writing/book-extracts/read-an-extract-from-viva-negativa-the-new-blockaders-the-noise-of-art-and-nothing"/>
+        <updated>2026-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s common in biography for the sense of the person to become overwhelmed by their actions: the politician fades beneath crises and legislation; the general into a catalogue of battlefield decisions; the musician into the cycle of writing, recording and performing. Once set in motion, most lives worth writing of become dominated by a body of work with the human being whittled away to a delivery mechanism for its creation: “…A man takes a job and that job becomes what he is…You do a thing and that’s what you are…You get a job, you become the job,” as a character in Taxi Driver explains to Travis Bickle.
+
+
+    Attending two of TNB’s shows in 2012, Steve Cammack of Dieter Müh was confronted by “…Folk in Berlin and London insisting I was Richard Rupenus”. Daisuke Suzuki explains: “If someone …]]></summary>
+        <author>
+            <name>The Wire: Home</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Co-opted Transitions]]></title>
+        <id>https://disjunctionsmag.com/articles/co-opting-transitions</id>
+        <link href="https://disjunctionsmag.com/articles/co-opting-transitions"/>
+        <updated>2026-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Locking in our energy systems]]></summary>
+        <author>
+            <name>Disjunctions Magazine</name>
         </author>
     </entry>
     <entry>
@@ -6513,282 +6715,6 @@ Tags: best of · best of 2026 · photography]]></summary>
         <summary type="html"><![CDATA[Ada Palmer on framing sociotechnical change as "revolutionary", and on sf as a sandbox for red-teaming possible futures.]]></summary>
         <author>
             <name>PGR</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet Prometheus, a Gift Link Search Engine]]></title>
-        <id>https://kottke.org/26/10/meet-prometheus-a-gift-link-search-engine</id>
-        <link href="https://kottke.org/26/10/meet-prometheus-a-gift-link-search-engine"/>
-        <updated>2026-10-22T00:49:03.000Z</updated>
-        <summary type="html"><![CDATA[Sometime in the past few years, media sites like Bloomberg, The Economist, The Atlantic, Defector, Talking Points Memo, and the NY Times started offering a way for subscribers to share paywalled articles with friends and followers. These are commonly referred to as gift links.
-Thousands of gift links are shared on websites and social media daily. Some helpful aggregated feeds and hashtags are available, but finding specific information can be difficult. Whenever possible here on KDO, I link to paywalled articles with gift links. To help in that endeavor, I’ve built a gift link discovery tool called Prometheus.
-Prometheus collects gift links to paywalled news articles shared by subscribers — from the New York Times, the Washington Post, the Atlantic, and more. Links are gathered from Bluesky, Mastodon, and the web throughout the day, and you can search by keyword & URL and filter by publication.
-
-	
-Right now, Prometheus is only available to active kottke.org members while I’m testing and refining it — it’s definitely a beta tool rn. If you’re a member, check it out and let me know if you’ve got any feedback or notice any rough edges.
-An informed public is the foundation of a healthy society — and while paywalls aren’t the only challenge here, they also aren’t helping. Big thanks to everyone sharing their gift links online and to these media companies for enabling their subscribers to share their journalism with others.
-
- 
-
-        
-         
-Tags: journalism · kottke.org · Prometheus (search)]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chris Bohn presents  Adventures In Sound And Music]]></title>
-        <id>https://www.thewire.co.uk/audio/on-air/chris-bohn-presents-adventures-in-sound-and-music-79849</id>
-        <link href="https://www.thewire.co.uk/audio/on-air/chris-bohn-presents-adventures-in-sound-and-music-79849"/>
-        <updated>2026-10-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire's weekly radio show featured music by Joshua Burkett, Lisa Nanzaki, Wadada Leo Smith, Test Dept, Deficit & Letargy and more
-
-Tracklist
-
-Joshua Burkett
-    
- “Lost Cat City (Excerpt 1)”
-    
-M/B/Too/4/T&/M
-    
- (Futura Resistenza)
-
-Lisa Nanzaki
-    
- “The Origin Of Violence That Has Lost Its Source”
-    
-From [VA#46] – Source Unknown
-    
- (Camembert Electrique)
-
-Radical Polish Arkestra
-    
- “Union Mazurka”
-    
-Sielanka
-    
- (Tańce)
-
-Felix Kubin
-    
- “Die Kulturelle Revolution”
-    
-Antiphoneys: The Single Collection
-    
- (Suezan Studio)
-
-Lý Trang
-    
- “it was not dead, which is different”
-    
-Microhabitat
-    
- (ato.archives)
-
-Wadada Leo Smith
-    
- “Meditation On Love”
-    
-Constellations And Atmospheres
-    
- (Burning Ambulance Music)
-
-Satoko Fujii Orchestra Nagoya
-    
- “Korekara Part 3”
-    
-Korekara
-    
- (Libra)
-
-Test Dept
-    
- “GWR A AETH GATRAETH/PROLOGUE (Early Studio Sessions, Reworked 2026)”
-    
-Brith Gof Gododdin: 2025 Remaster
-    
- (Artoffact)
-
-Kasatriyan Javanese Art Community & Warsaw Gamelan Group
-    
- “Eling-Eling Banyumasan”
-    
-Caraka Handayapat. Wayang From Central Java
-    
- (Sacral Grooves 1000HZ)
-
-Deficit & Letargy
-    
- “Alkahest”
-    
-Alchemy
-    
- (Camembert Électrique)
-
-Julia Biłat
-    
- “Dynastes Hercules”
-    
-Selva Oscura
-    
- (Relative Pitch)
-
-Mona Mur Trio
-    
- “Last Good-bye”
-    
-Les Chansons Brutales
-    
- (play loud!)
-
-Malaria!
-    
- “How Do You Like My New Dog?”
-    
-Weisses Wasser: White Water
-    
- (Suezan Studio)
-
-Phillip Mallela with JB Express
-    
- “Crazy Baby”
-    
-Sound City Joburg: South Africa’s Township Soul 1969–1981
-    
- (Analog Africa)
-
-Linus + Bonnie Prince Billy
-    
- “Little Jesus, Mighty God”
-    
-The Outsider, The Music Of Jules De Corte
-    
- (Aspen Edities)
-
-ONJQ/Otomo Yoshihide’s New Jazz Quintet
-    
- “ANTIGEN (B10 LIVE/Shenzhen)”
-    
-Otomo Yoshihide’s New Jazz Quintet China Tour 2025
-    
- (Little Stone)
-
-Joshua Burkett
-    
- “Lost Cat City (2) Thee Cynthia Hill”
-    
-M/B/Too/4/T&/M
-    
- (Futura Resistenza)]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“A SpudCell can grow, copy its DNA, divide in two, and...]]></title>
-        <id>https://kottke.org/26/10/0049851-but-this-cell-is-made-by-</id>
-        <link href="https://kottke.org/26/10/0049851-but-this-cell-is-made-by-"/>
-        <updated>2026-10-21T21:57:00.000Z</updated>
-        <summary type="html"><![CDATA[“A SpudCell can grow, copy its DNA, divide in two, and start its cell cycle all over again. But this cell is made by people, created from lifeless ingredients.” Um, what?]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bastardica is “a foundry for bastard web fonts. Mix,...]]></title>
-        <id>https://kottke.org/26/10/0049802-bastardica</id>
-        <link href="https://kottke.org/26/10/0049802-bastardica"/>
-        <updated>2026-10-21T21:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Bastardica is “a foundry for bastard web fonts. Mix, stretch and/or squish them.” E.g. Nervous Sans: “Arial is stacked five times, pseudo-randomly twitching out of line.” I quite like Impacter.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How did life on Earth arise? Three of the biggest...]]></title>
-        <id>https://kottke.org/26/10/0049846-how-did-life-on-earth-ari</id>
-        <link href="https://kottke.org/26/10/0049846-how-did-life-on-earth-ari"/>
-        <updated>2026-10-21T20:07:00.000Z</updated>
-        <summary type="html"><![CDATA[How did life on Earth arise? Three of the biggest inflection points were ~4 billion years ago when life first emerged, ~2 billion years ago when eukaryotic cells appeared, and ~580 million years ago when life got big.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)]]></title>
-        <id>https://pluralistic.net/?p=13429</id>
-        <link href="https://pluralistic.net/2026/10/21/brittle-individualism/"/>
-        <updated>2026-10-21T20:05:21.000Z</updated>
-        <summary type="html"><![CDATA[Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: "The warrant is coming out of my balls"; WIPO's secret trademark meeting; Linking isn't libel (in Canada); Make: singing busts; Tory minister kills Turing's Law; Trump hotels rebrand as "Scion". Upcoming appearances: Vancouver, Ottawa, Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Adversarial interoperability is a tea…]]></summary>
-        <author>
-            <name>Cory Doctorow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC’s Fastest Bike Messenger (1985)]]></title>
-        <id>https://kottke.org/26/10/nycs-fastest-bike-messenger-1985</id>
-        <link href="https://kottke.org/26/10/nycs-fastest-bike-messenger-1985"/>
-        <updated>2026-10-21T18:54:00.000Z</updated>
-        <summary type="html"><![CDATA[For CBS News in 1985, Charles Kuralt profiled bike messenger David Leopold.
-
-I don’t go slow. I don’t stop for red lights. I go against traffic. I disobey every traffic law there is.
-
-	
-Great street footage of NYC from 40 years ago. You might think that Leopold ended up as a stain on the pavement. In 2010, CBS News did a follow-up on him:
-
-See also Leopold on David Letterman from 1985.
-
- 
-
-        
-         
-Tags: Charles Kuralt · cycling · NYC · video]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Today's PHP Security Release, and How We're Strengthening PHP Security]]></title>
-        <id>https://simonwillison.net/2026/Oct/21/php-security-release/</id>
-        <link href="https://simonwillison.net/2026/Oct/21/php-security-release/"/>
-        <updated>2026-10-21T18:41:53.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong><a href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security</a></strong></p>
-If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p>
-<p>This post from the PHP Foundation explain what went so wrong:</p>
-<blockquote>
-<p>On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and <a href="https://www.php.net/archive/2026.php#2026-10-20-1">published it at 19:30 UTC</a>. It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...]</p>
-<p>As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st.</p>
-</blockquote>
-<p><a href="https://www.wiz.io/blog/php2shell-php-rce">This article</a> from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure:</p>
-<blockquote>
-<ul>
-<li><strong>August 19, 2026:</strong> Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol.</li>
-<li><strong>August 20, 2026:</strong> Unauthenticated RCE is confirmed against Drupal.</li>
-<li><strong>August 21, 2026:</strong> Unauthenticated RCE is confirmed against WordPress.</li>
-<li><strong>August 24, 2026:</strong> Wiz Research reports the vulnerabilities to the PHP security team.</li>
-<li><strong>September 21, 2026:</strong> PHP acknowledges the reports and begins developing a coordinated fix.</li>
-<li><strong>October 21, 2026:</strong> Patched PHP releases become available.</li>
-<li><strong>October 21, 2026:</strong> Public disclosure.</li>
-</ul>
-</blockquote>
-
-    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=50182987">Hacker News</a></small></p>
-
-
-    <p>Tags: <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/php">php</a>, <a href="https://simonwillison.net/tags/security">security</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/ai-security-research">ai-security-research</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Library Is Closed. Feel Free to Come In. “In...]]></title>
-        <id>https://kottke.org/26/10/0049849-the-library-is-closed-fee</id>
-        <link href="https://kottke.org/26/10/0049849-the-library-is-closed-fee"/>
-        <updated>2026-10-21T18:07:00.000Z</updated>
-        <summary type="html"><![CDATA[The Library Is Closed. Feel Free to Come In. “In communities where workspaces are scarce, libraries are welcoming visitors outside of staffed hours. All they need is a library card.”]]></summary>
-        <author>
-            <name>kottke.org</name>
         </author>
     </entry>
     <entry>

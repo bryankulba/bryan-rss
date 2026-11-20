@@ -6,6 +6,16 @@
       "siteUrl": "https://sentiers.media/",
       "articles": [
         {
+          "id": "6aff5b09d34fef00014fd16e",
+          "author": "Patrick Tanguay",
+          "description": "For more than a decade, various thinkers I respect have treated technology as a material with a grain. Recent pieces bring the idea to AI: Nick Foster on distortion, Eric Rodenbeck on model output as ink, Simone Rebaudengo on testing intelligence like wood, and Robin Sloan on software you ask for.",
+          "link": "https://sentiers.media/dispatch-ai-as-material/",
+          "publishedOn": "2026-11-20T11:00:00.000Z",
+          "wordCount": 2915,
+          "title": "Dispatch — AI as material",
+          "imageUrl": "https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/11/Cybernetic_study_of_feedback_loops_--ar_32_--v_7_c0bcbeb5-3fd4-4f71-b813-a23051ff6918_1-w.jpg"
+        },
+        {
           "id": "6af79882439de70001ebc45e",
           "author": "Patrick Tanguay",
           "description": "No.425 — Palestinian diaspora futures ⊗ Reverse Engineer Anything ⊗ The polar vortex is about to go haywire ⊗ Giant eagles once ruled the skies",
@@ -62,6 +72,16 @@
       "feedUrl": "https://interconnected.org/home/feed",
       "siteUrl": "https://interconnected.org/home",
       "articles": [
+        {
+          "id": "https://interconnected.org/home/2026/11/20/flex",
+          "author": null,
+          "description": "I am tickled by reports that, among elite AI researchers, cigarettes are back.\nThe logic goes like this:\nIf you really believe in AI and that AI will hit recursive self-improvement and achieve super-intelligence,\nand that it will solve all disease,\nand that all of this will happen imminently (or at least imminently enough that you have nothing to fear from smoking-related diseases),\nand you want to show that you, yes you, are close enough to the action to have come to this conclusion, and you are a true believer,\nthen a really great way to signal this is to conspicuously take up smoking cigarettes.\nActually I think that smoking cigarettes shows great strength of character.\nOr at least that’s the gag I say to my smoking buddies when they light up.\nGiven everything we know about what smoking…",
+          "link": "https://interconnected.org/home/2026/11/20/flex",
+          "publishedOn": "2026-11-20T09:52:00.000Z",
+          "wordCount": 1184,
+          "title": "Cool flex AI bro",
+          "imageUrl": "https://interconnected.org/home/2026/11/20/flex.png?v=1"
+        },
         {
           "id": "https://interconnected.org/home/2026/11/10/works",
           "author": null,
@@ -148,6 +168,16 @@
       "feedUrl": "https://www.robinsloan.com/feed.xml",
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
+        {
+          "id": "https://www.robinsloan.com/lab/human-voice/",
+          "author": null,
+          "description": "<p>Sparkles on the screen. <a href=\"https://www.robinsloan.com/lab/human-voice/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/human-voice/",
+          "publishedOn": "2026-11-20T08:00:00.000Z",
+          "wordCount": 4923,
+          "title": "Dragoncatcher: The human voice",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
         {
           "id": "https://www.robinsloan.com/lab/end-of-the-beginning/",
           "author": null,
@@ -250,6 +280,16 @@
       "feedUrl": "https://webcurios.co.uk/feed/",
       "siteUrl": "https://webcurios.co.uk",
       "articles": [
+        {
+          "id": "https://webcurios.co.uk/?p=1823",
+          "author": "admin",
+          "description": "Reading Time:  33 minutes   Do you have ANY idea how hard it was to get up at 6am this morning and sit down and write this fcuker rather than returning to the comfortable hollowed seat of my rocking chair to continue to live out a make-believe loving relationship (occasionally impacted by horrific outbreaks of senseless violence and drugrunning)…\nContinue reading →",
+          "link": "https://webcurios.co.uk/webcurios-20-11-26/",
+          "publishedOn": "2026-11-20T06:23:23.000Z",
+          "wordCount": 10034,
+          "title": "Webcurios 20/11/26",
+          "imageUrl": null
+        },
         {
           "id": "https://webcurios.co.uk/?p=1817",
           "author": "admin",
@@ -360,6 +400,76 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/11/0050039-how-everything-became-fak",
+          "author": null,
+          "description": "How Everything Became Fake. “There’s so much cognitive effort in constantly sorting out what’s real from what’s not… maybe it’s easier to just let it all glide by.”",
+          "link": "https://kottke.org/26/11/0050039-how-everything-became-fak",
+          "publishedOn": "2026-11-20T18:51:00.000Z",
+          "wordCount": 742,
+          "title": "How Everything Became Fake. “There’s so much cognitive...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-preview-afb89c6d.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050035-what-the-death-penalty-sa",
+          "author": null,
+          "description": "What the Death Penalty Says About Us. “It’s dehumanizing, and some would say it dehumanizes the society that’s willing to impose it.”",
+          "link": "https://kottke.org/26/11/0050035-what-the-death-penalty-sa",
+          "publishedOn": "2026-11-20T17:58:00.000Z",
+          "wordCount": 643,
+          "title": "What the Death Penalty Says About Us. “It’s dehumanizing,...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50035-45402ec7.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050043-the-video-closet",
+          "author": null,
+          "description": "Quick new feature for the Video Closet: Lazy mode picks a video at random from the archive (or from the current search results) and plays it. You don’t have to make any decisions today, my friends.",
+          "link": "https://kottke.org/26/11/0050043-the-video-closet",
+          "publishedOn": "2026-11-20T16:58:00.000Z",
+          "wordCount": 728,
+          "title": "Quick new feature for the Video Closet: Lazy mode picks a...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-new-1795189782-de4e7c6d.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050044-massive-if-true",
+          "author": null,
+          "description": "Massive if true: “I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.” Levent Alpöge said of working with Claude: “what I saw…so amazed me that I believe it is one dawn across science of something far greater”.",
+          "link": "https://kottke.org/26/11/0050044-massive-if-true",
+          "publishedOn": "2026-11-20T16:15:00.000Z",
+          "wordCount": 652,
+          "title": "Massive if true: “I believe I have, working with Claude,...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50044-f60ae88d.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050040-the-buddhist-ai-sect-that",
+          "author": null,
+          "description": "The Buddhist A.I. Sect That Wants to Take Over Silicon Valley. I’m sorry, what? Sir, this is a Wendy’s, not Apocalypse Mad Libs. And they’re based in VT?",
+          "link": "https://kottke.org/26/11/0050040-the-buddhist-ai-sect-that",
+          "publishedOn": "2026-11-20T15:52:00.000Z",
+          "wordCount": 708,
+          "title": "The Buddhist A.I. Sect That Wants to Take Over Silicon...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-preview-3dba24f8.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/the-rose-by-jay-defeo",
+          "author": null,
+          "description": "Jay DeFao’s The Rose is one of my favorite pieces at The Whitney (or anywhere really). The story of how this art world behemoth somehow survived to become of the jewels of American art is wild.\nFirst exhibited in 1969, The Rose was taken to the San Francisco Art Institute, where it was covered with plaster for support and protection, and finally stored behind the wall of a conference room. Legend grew about the painting, but it remained sealed until 1995, when Whitney curator Lisa Phillips had it excavated and restored by a team of conservators, who created a backing strong enough to support the heavy paint.\n\n\t\nAnother more entertaining look at the painting’s (sculpture’s?) journey.\n\n\n \n\n        \n         \nTags: art · Jay DeFeo · video",
+          "link": "https://kottke.org/26/11/the-rose-by-jay-defeo",
+          "publishedOn": "2026-11-20T14:48:00.000Z",
+          "wordCount": 804,
+          "title": "The Rose by Jay DeFeo",
+          "imageUrl": "https://i.ytimg.com/vi/BkHi-XqVS8U/maxresdefault.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050034-coo",
+          "author": null,
+          "description": "COO is Grand Theft Auto but with pigeons.",
+          "link": "https://kottke.org/26/11/0050034-coo",
+          "publishedOn": "2026-11-20T13:55:00.000Z",
+          "wordCount": 624,
+          "title": "COO is Grand Theft Auto but with pigeons.",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-new-1795071472-f6a5ab0d.jpg"
+        },
         {
           "id": "https://kottke.org/26/11/0050038-i-spent-a-year-talking-to",
           "author": null,
@@ -2179,66 +2289,6 @@
           "wordCount": 762,
           "title": "The title of this video is The Fastest Downhill Run Ever....",
           "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/meet-prometheus-a-gift-link-search-engine",
-          "author": null,
-          "description": "Sometime in the past few years, media sites like Bloomberg, The Economist, The Atlantic, Defector, Talking Points Memo, and the NY Times started offering a way for subscribers to share paywalled articles with friends and followers. These are commonly referred to as gift links.\nThousands of gift links are shared on websites and social media daily. Some helpful aggregated feeds and hashtags are available, but finding specific information can be difficult. Whenever possible here on KDO, I link to paywalled articles with gift links. To help in that endeavor, I’ve built a gift link discovery tool called Prometheus.\nPrometheus collects gift links to paywalled news articles shared by subscribers — from the New York Times, the Washington Post, the Atlantic, and more. Links are gathered from Bluesky, Mastodon, and the web throughout the day, and you can search by keyword & URL and filter by publication.\n\n\t\nRight now, Prometheus is only available to active kottke.org members while I’m testing and refining it — it’s definitely a beta tool rn. If you’re a member, check it out and let me know if you’ve got any feedback or notice any rough edges.\nAn informed public is the foundation of a healthy society — and while paywalls aren’t the only challenge here, they also aren’t helping. Big thanks to everyone sharing their gift links online and to these media companies for enabling their subscribers to share their journalism with others.\n\n \n\n        \n         \nTags: journalism · kottke.org · Prometheus (search)",
-          "link": "https://kottke.org/26/10/meet-prometheus-a-gift-link-search-engine",
-          "publishedOn": "2026-10-22T00:49:03.000Z",
-          "wordCount": 1131,
-          "title": "Meet Prometheus, a Gift Link Search Engine",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049851-but-this-cell-is-made-by-",
-          "author": null,
-          "description": "“A SpudCell can grow, copy its DNA, divide in two, and start its cell cycle all over again. But this cell is made by people, created from lifeless ingredients.” Um, what?",
-          "link": "https://kottke.org/26/10/0049851-but-this-cell-is-made-by-",
-          "publishedOn": "2026-10-21T21:57:00.000Z",
-          "wordCount": 709,
-          "title": "“A SpudCell can grow, copy its DNA, divide in two, and...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049802-bastardica",
-          "author": null,
-          "description": "Bastardica is “a foundry for bastard web fonts. Mix, stretch and/or squish them.” E.g. Nervous Sans: “Arial is stacked five times, pseudo-randomly twitching out of line.” I quite like Impacter.",
-          "link": "https://kottke.org/26/10/0049802-bastardica",
-          "publishedOn": "2026-10-21T21:12:00.000Z",
-          "wordCount": 665,
-          "title": "Bastardica is “a foundry for bastard web fonts. Mix,...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/0049846-how-did-life-on-earth-ari",
-          "author": null,
-          "description": "How did life on Earth arise? Three of the biggest inflection points were ~4 billion years ago when life first emerged, ~2 billion years ago when eukaryotic cells appeared, and ~580 million years ago when life got big.",
-          "link": "https://kottke.org/26/10/0049846-how-did-life-on-earth-ari",
-          "publishedOn": "2026-10-21T20:07:00.000Z",
-          "wordCount": 712,
-          "title": "How did life on Earth arise? Three of the biggest...",
-          "imageUrl": ""
-        },
-        {
-          "id": "https://kottke.org/26/10/nycs-fastest-bike-messenger-1985",
-          "author": null,
-          "description": "For CBS News in 1985, Charles Kuralt profiled bike messenger David Leopold.\n\nI don’t go slow. I don’t stop for red lights. I go against traffic. I disobey every traffic law there is.\n\n\t\nGreat street footage of NYC from 40 years ago. You might think that Leopold ended up as a stain on the pavement. In 2010, CBS News did a follow-up on him:\n\nSee also Leopold on David Letterman from 1985.\n\n \n\n        \n         \nTags: Charles Kuralt · cycling · NYC · video",
-          "link": "https://kottke.org/26/10/nycs-fastest-bike-messenger-1985",
-          "publishedOn": "2026-10-21T18:54:00.000Z",
-          "wordCount": 862,
-          "title": "NYC’s Fastest Bike Messenger (1985)",
-          "imageUrl": "https://i.ytimg.com/vi/xMvJ83XpGoI/sddefault.jpg"
-        },
-        {
-          "id": "https://kottke.org/26/10/0049849-the-library-is-closed-fee",
-          "author": null,
-          "description": "The Library Is Closed. Feel Free to Come In. “In communities where workspaces are scarce, libraries are welcoming visitors outside of staffed hours. All they need is a library card.”",
-          "link": "https://kottke.org/26/10/0049849-the-library-is-closed-fee",
-          "publishedOn": "2026-10-21T18:07:00.000Z",
-          "wordCount": 689,
-          "title": "The Library Is Closed. Feel Free to Come In. “In...",
-          "imageUrl": ""
         }
       ]
     },
@@ -2545,6 +2595,16 @@
       "siteUrl": "https://pluralistic.net",
       "articles": [
         {
+          "id": "https://pluralistic.net/?p=13542",
+          "author": "Cory Doctorow",
+          "description": "Today's links Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\": A memoir of heartbreak, horses, horniness and IBS. Hey look at this: Delights to delectate. Object permanence: They Fight Crime; Cantenna wifi TV for Mali; Kakistocracy; Inflation or price-gouging; The long game. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\" (permalink) The title of animator Lisa Hanawalt's new graphic memoir I Can't Stop Thinking About Horses and Sex is a perfect encapsulation of the book's contents: a frank, self-aware, funny, horny…",
+          "link": "https://pluralistic.net/2026/11/20/intrusive-horse-thoughts/",
+          "publishedOn": "2026-11-20T10:44:20.000Z",
+          "wordCount": 3031,
+          "title": "Pluralistic: Lisa Hanawalt's \"I Can't Stop Thinking About Horses and Sex\" (20 Nov 2026)",
+          "imageUrl": null
+        },
+        {
           "id": "https://pluralistic.net/?p=13536",
           "author": "Cory Doctorow",
           "description": "Today's links How to forfeit one of copyright's best labor policies: Author beware, termination of transfer and loan-out companies don't mix! Hey look at this: Delights to delectate. Object permanence: History of interlibrary loan; Mike Pence v Hamilton; Snoopers' Charter is law; Teamsters transformed. Upcoming appearances: Oxford, Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. How to forfeit one of copyright's best labor policies (permalink) There's a seeming paradox to copyright. For 50 years (starting with the 1976 Copyright Act) legislatures have monotonically expanded copyright, so that today, copyright lasts l…",
@@ -2732,16 +2792,6 @@
           "publishedOn": "2026-10-23T20:44:02.000Z",
           "wordCount": 4147,
           "title": "Pluralistic: Critique and writing (23 Oct 2026)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13429",
-          "author": "Cory Doctorow",
-          "description": "Today's links Adversarial interoperability is a team sport: Vibe-coded jailbreaks are fun, but don't solve the problem. Hey look at this: Delights to delectate. Object permanence: Labour Whip's pro-Iraq war threats; LoC's emulators; Kevin Mitnick plays CIA stooge; ICE: \"The warrant is coming out of my balls\"; WIPO's secret trademark meeting; Linking isn't libel (in Canada); Make: singing busts; Tory minister kills Turing's Law; Trump hotels rebrand as \"Scion\". Upcoming appearances: Vancouver, Ottawa, Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Adversarial interoperability is a tea…",
-          "link": "https://pluralistic.net/2026/10/21/brittle-individualism/",
-          "publishedOn": "2026-10-21T20:05:21.000Z",
-          "wordCount": 5438,
-          "title": "Pluralistic: Adversarial interoperability is a team sport (21 Oct 2026)",
           "imageUrl": null
         }
       ]
@@ -3272,6 +3322,16 @@
       "siteUrl": "https://www.thewire.co.uk/home/",
       "articles": [
         {
+          "id": "https://www.thewire.co.uk/in-writing/book-extracts/read-an-extract-from-viva-negativa-the-new-blockaders-the-noise-of-art-and-nothing",
+          "author": null,
+          "description": "It’s common in biography for the sense of the person to become overwhelmed by their actions: the politician fades beneath crises and legislation; the general into a catalogue of battlefield decisions; the musician into the cycle of writing, recording and performing. Once set in motion, most lives worth writing of become dominated by a body of work with the human being whittled away to a delivery mechanism for its creation: “…A man takes a job and that job becomes what he is…You do a thing and that’s what you are…You get a job, you become the job,” as a character in Taxi Driver explains to Travis Bickle.\n\n\n    Attending two of TNB’s shows in 2012, Steve Cammack of Dieter Müh was confronted by “…Folk in Berlin and London insisting I was Richard Rupenus”. Daisuke Suzuki explains: “If someone …",
+          "link": "https://www.thewire.co.uk/in-writing/book-extracts/read-an-extract-from-viva-negativa-the-new-blockaders-the-noise-of-art-and-nothing",
+          "publishedOn": "2026-11-20T00:00:00.000Z",
+          "wordCount": 1961,
+          "title": "Read an extract from  Viva Negativa! The New Blockaders: The Noise Of Art And Nothing",
+          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/11/20/TNB_Front_Cover_Only_for_web.jpg"
+        },
+        {
           "id": "https://www.thewire.co.uk/audio/tracks/unlimited-editions-blah-records",
           "author": null,
           "description": "The Wire 514, Tim Fish compiles an annotated playlist of tracks from the Liverpool label\n\n\n    The following playlist outlines some of Blah's most significant records.\n\nChildren Of The Damned\n“Cold Sag Run Marathon”\n    \n From Brick Pelican\n    \n (2009)\n\n\n    Tony Broke\n“Hang Around”\n    \nBroke As F$£k\n    \n (2012)\n\n\n    Black Josh Ape\n“Paul Scholes”\n    \n From #blahblahblackjosh\n    \n (2014)\n\n\n    Nah Eeto\n“Bila You”\n    \n From 53\n    \n (2019)\n\n\n    Stinkin Slumrok\n“Archive”\nFrom Don Pong\n    \n (2015)\n\nDon Pong, is particularly gritty and features Slummy at his most confrontational, backed up by a heavy beat from the late, great 7th Dan.\n\nLee Scott & Hyroglifics\n“Beanio featuring Bigg Jus”\n    \n From [gate clicks shut]\n    \n (2021)\n\n\n    Lyza Jane & Sniff\n“Blue Sunday”\n    \nBaby Blue Champion\n    \n (2018)\n\nBaby Blue Champion EP, alongside Blah and Bad Taste associate Sniff. Jane’s echoes of Julee Cruise juxtapose nicely with Sniff’s gruff monotone raps and his laid-back, bluesy production.\n\nCult Of The Damned\n“Ext. Car Park – Night”\n    \n From Simony\n    \n (2026)\n\nSimony, which came out in April 2026. “Ext. Car Park – Night” features a brilliantly foreboding beat from Chicago based artist Spectacular Diagnostics – the latest Blah co-sign – as well as verses from the full gang, including legendary master of hooks, BeTheGun. The track served as a hell of an introduction to the album, which proved that strength in numbers still trumps individual talent. A showcase of Blah’s rap range in full cult formation.\n\nRead Tim Fish’s full report on Blah in The Wire 514. Buy the issue in our online shop. Wire subscribers can also read the article online via the digital magazine library.",
@@ -3380,16 +3440,6 @@
           "wordCount": 912,
           "title": "Invisible Jukebox mix: Sarah Davachi",
           "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/11/06/SARAH_DAVACHI_THE_WIRE6_CMYK_copy.jpg"
-        },
-        {
-          "id": "https://www.thewire.co.uk/audio/on-air/chris-bohn-presents-adventures-in-sound-and-music-79849",
-          "author": null,
-          "description": "The Wire's weekly radio show featured music by Joshua Burkett, Lisa Nanzaki, Wadada Leo Smith, Test Dept, Deficit & Letargy and more\n\nTracklist\n\nJoshua Burkett\n    \n “Lost Cat City (Excerpt 1)”\n    \nM/B/Too/4/T&/M\n    \n (Futura Resistenza)\n\nLisa Nanzaki\n    \n “The Origin Of Violence That Has Lost Its Source”\n    \nFrom [VA#46] – Source Unknown\n    \n (Camembert Electrique)\n\nRadical Polish Arkestra\n    \n “Union Mazurka”\n    \nSielanka\n    \n (Tańce)\n\nFelix Kubin\n    \n “Die Kulturelle Revolution”\n    \nAntiphoneys: The Single Collection\n    \n (Suezan Studio)\n\nLý Trang\n    \n “it was not dead, which is different”\n    \nMicrohabitat\n    \n (ato.archives)\n\nWadada Leo Smith\n    \n “Meditation On Love”\n    \nConstellations And Atmospheres\n    \n (Burning Ambulance Music)\n\nSatoko Fujii Orchestra Nagoya\n    \n “Korekara Part 3”\n    \nKorekara\n    \n (Libra)\n\nTest Dept\n    \n “GWR A AETH GATRAETH/PROLOGUE (Early Studio Sessions, Reworked 2026)”\n    \nBrith Gof Gododdin: 2025 Remaster\n    \n (Artoffact)\n\nKasatriyan Javanese Art Community & Warsaw Gamelan Group\n    \n “Eling-Eling Banyumasan”\n    \nCaraka Handayapat. Wayang From Central Java\n    \n (Sacral Grooves 1000HZ)\n\nDeficit & Letargy\n    \n “Alkahest”\n    \nAlchemy\n    \n (Camembert Électrique)\n\nJulia Biłat\n    \n “Dynastes Hercules”\n    \nSelva Oscura\n    \n (Relative Pitch)\n\nMona Mur Trio\n    \n “Last Good-bye”\n    \nLes Chansons Brutales\n    \n (play loud!)\n\nMalaria!\n    \n “How Do You Like My New Dog?”\n    \nWeisses Wasser: White Water\n    \n (Suezan Studio)\n\nPhillip Mallela with JB Express\n    \n “Crazy Baby”\n    \nSound City Joburg: South Africa’s Township Soul 1969–1981\n    \n (Analog Africa)\n\nLinus + Bonnie Prince Billy\n    \n “Little Jesus, Mighty God”\n    \nThe Outsider, The Music Of Jules De Corte\n    \n (Aspen Edities)\n\nONJQ/Otomo Yoshihide’s New Jazz Quintet\n    \n “ANTIGEN (B10 LIVE/Shenzhen)”\n    \nOtomo Yoshihide’s New Jazz Quintet China Tour 2025\n    \n (Little Stone)\n\nJoshua Burkett\n    \n “Lost Cat City (2) Thee Cynthia Hill”\n    \nM/B/Too/4/T&/M\n    \n (Futura Resistenza)",
-          "link": "https://www.thewire.co.uk/audio/on-air/chris-bohn-presents-adventures-in-sound-and-music-79849",
-          "publishedOn": "2026-10-22T00:00:00.000Z",
-          "wordCount": 662,
-          "title": "Chris Bohn presents  Adventures In Sound And Music",
-          "imageUrl": "https://www.thewire.co.uk/img/max/1200/1200/2026/10/23/231026.jpg"
         }
       ]
     },
@@ -3398,6 +3448,26 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+          "author": null,
+          "description": "<blockquote cite=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\"><p>Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\">Ravi Vakil</a>, Hurried Announcement: Alessandro Masullo GRH</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+          "publishedOn": "2026-11-20T19:21:49.000Z",
+          "wordCount": 780,
+          "title": "Quoting Ravi Vakil",
+          "imageUrl": null
+        },
+        {
+          "id": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "author": null,
+          "description": "<blockquote cite=\"https://alpo.ge/remark.pdf\"><p>I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...]</p>\n<p>Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://alpo.ge/remark.pdf\">Levent Alpöge</a>, alpo.ge/remark.pdf</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/levent-alpoge\">levent-alpoge</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "publishedOn": "2026-11-20T16:30:48.000Z",
+          "wordCount": 842,
+          "title": "Quoting Levent Alpöge",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
           "author": null,
@@ -4117,16 +4187,6 @@
           "wordCount": 759,
           "title": "Quoting Armin Ronacher",
           "imageUrl": null
-        },
-        {
-          "id": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-          "author": null,
-          "description": "<p><strong><a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">Today&#x27;s PHP Security Release, and How We&#x27;re Strengthening PHP Security</a></strong></p>\nIf you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p>\n<p>This post from the PHP Foundation explain what went so wrong:</p>\n<blockquote>\n<p>On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and <a href=\"https://www.php.net/archive/2026.php#2026-10-20-1\">published it at 19:30 UTC</a>. It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...]</p>\n<p>As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st.</p>\n</blockquote>\n<p><a href=\"https://www.wiz.io/blog/php2shell-php-rce\">This article</a> from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure:</p>\n<blockquote>\n<ul>\n<li><strong>August 19, 2026:</strong> Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol.</li>\n<li><strong>August 20, 2026:</strong> Unauthenticated RCE is confirmed against Drupal.</li>\n<li><strong>August 21, 2026:</strong> Unauthenticated RCE is confirmed against WordPress.</li>\n<li><strong>August 24, 2026:</strong> Wiz Research reports the vulnerabilities to the PHP security team.</li>\n<li><strong>September 21, 2026:</strong> PHP acknowledges the reports and begins developing a coordinated fix.</li>\n<li><strong>October 21, 2026:</strong> Patched PHP releases become available.</li>\n<li><strong>October 21, 2026:</strong> Public disclosure.</li>\n</ul>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50182987\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/php\">php</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
-          "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-          "publishedOn": "2026-10-21T18:41:53.000Z",
-          "wordCount": 1081,
-          "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-          "imageUrl": null
         }
       ]
     },
@@ -4224,6 +4284,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=169214",
+          "author": "Ben Brubaker",
+          "description": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame.            \nThe post Network Researchers Nail Down Theory of ‘Perfect Resilience’ first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+          "publishedOn": "2026-11-20T14:50:41.000Z",
+          "wordCount": 3003,
+          "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/11/net-resilience-cr.DVDP-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=168911",
           "author": "Shalma Wegsman",
@@ -4511,6 +4581,16 @@
       "feedUrl": "https://disjunctionsmag.com/rss",
       "siteUrl": "https://disjunctionsmag.com",
       "articles": [
+        {
+          "id": "https://disjunctionsmag.com/articles/co-opting-transitions",
+          "author": null,
+          "description": "Locking in our energy systems",
+          "link": "https://disjunctionsmag.com/articles/co-opting-transitions",
+          "publishedOn": "2026-11-20T00:00:00.000Z",
+          "wordCount": 3189,
+          "title": "Co-opted Transitions",
+          "imageUrl": "https://disjunctionsmag.com/_astro/stanford-torus.DRn-9n3a.jpg"
+        },
         {
           "id": "https://disjunctionsmag.com/articles/structuring-knowable",
           "author": null,
