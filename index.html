@@ -35,6 +35,43 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/22/select-styling/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-22T19:45:06.000Z">2026-11-22</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/22/select-styling/" target="_blank" rel="noopener noreferrer">Select Styling Specimens</a>
+          </h2>
+          <p class="feed-item__desc">Tool: Select Styling Specimens
+I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:
+
+So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:
+Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser
+After some experimentation I've decided my favorite CSS for select boxes is this:
+select {
+  appearance: none;
+  color: #1f2933;
+  padding: 0.5em 2.25em 0.5em 0.75em;
+  border: 1px solid #c4cbd3;
+  border-radius: 6px;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat right 0.75em center / 0.75em;
+}
+
+
+Here's what that looks like in the three browsers:
+
+Tags: tools, css, html</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/22/select-styling/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/22/select-styling/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="6b022238d34fef00014fd6f1">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-22T11:00:00.000Z">2026-11-22</time>
@@ -10904,32 +10941,6 @@ Tags: tools</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Lion_Nebula_Roars_to_Life_With_NASAs_Webb-NASA_Science-w.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://interconnected.org/home/2026/10/24/bunker">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-24T12:28:00.000Z">2026-10-24</time>
-        <span class="feed-item__source">Interconnected</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://interconnected.org/home/2026/10/24/bunker" target="_blank" rel="noopener noreferrer">Bunkering down</a>
-          </h2>
-          <p class="feed-item__desc">I shut down my web servers on Thursday. I’ve had a home of my own on internet for 27 years. A good innings but a sad day.
-A home-owner no more! I’m renting now.
-Old websites have been archived to static HTML and moved to a shared host. I said goodbye to some old apps. You’re reading this because I moved my blog to GitHub Pages. Lost some functionality on the way, but security is now someone else’s problem.
-You know, I’ve hosted my own blog on my own iron since 2000 except for 6 weeks in 2004 when the hard drive was glitching and I had to go to the datacenter at midnight to pull it from the rack, then sit it on ice cubes to copy data off because the cold bought me 20 mins extra before it crashed again.
-We were writing Mind Hacks on some wiki software it was hosting, so I had to get it back.…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://interconnected.org/home/2026/10/24/bunker" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://interconnected.org/home/2026/10/24/bunker">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://interconnected.org/home/2026/10/24/bunker.png?v&#x3D;1" alt="" loading="lazy">
         </div>
       </div>
     </article>
