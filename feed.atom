@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-24T02:44:11.676Z</updated>
+    <updated>2026-11-24T14:31:41.634Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pluralistic: Free lunches (24 Nov 2026)]]></title>
+        <id>https://pluralistic.net/?p=13553</id>
+        <link href="https://pluralistic.net/2026/11/24/move-fast-break-kings/"/>
+        <updated>2026-11-24T12:15:29.000Z</updated>
+        <summary type="html"><![CDATA[Today's links Free lunches: Tech's margin is everyone else's opportunity. Hey look at this: Delights to delectate. Object permanence: Hacker v conman (twice); NESPaul; Record industry v DRM; 21 lb cherpumple; The rich don't "earn" their fortunes; Newscorp offers favorable personal coverage for senate votes; UC Davis x pepper spray; Was the Wisconsin vote hacked?; Definitively modeling distributional outcomes in Disney queuing systems. Upcoming appearances: Sheffield, Virtual, Oxford, Santa Barbara, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. Free lunches (permalink) An old joke: "Two economists are walking down the sidewalk and one of them points and says…]]></summary>
+        <author>
+            <name>Cory Doctorow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The real reason your taste matters]]></title>
+        <id>https://www.blackbirdspyplane.com/p/the-real-reason-your-taste-matters</id>
+        <link href="https://www.blackbirdspyplane.com/p/the-real-reason-your-taste-matters"/>
+        <updated>2026-11-24T12:04:35.000Z</updated>
+        <summary type="html"><![CDATA[A new NYT Mag x Spyplane classic]]></summary>
+        <author>
+            <name>Blackbird Spyplane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cultural critique commencing]]></title>
+        <id>https://www.velcro-city.co.uk/?p=12457</id>
+        <link href="https://www.velcro-city.co.uk/cultural-critique-commencing/"/>
+        <updated>2026-11-24T11:55:50.000Z</updated>
+        <summary type="html"><![CDATA[You can now find the introductory essay of my Iain M Banks re-read project at the Ancillary Review of Books.]]></summary>
+        <author>
+            <name>PGR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-charts 0.2a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/24/datasette-charts/</id>
+        <link href="https://simonwillison.net/2026/Nov/24/datasette-charts/"/>
+        <updated>2026-11-24T04:24:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-charts/releases/tag/0.2a0">datasette-charts 0.2a0</a></p>
+        <p>I introduced this new charting plugin for Datasette <a href="https://simonwillison.net/2026/Nov/23/datasette-charts/">yesterday</a>. Today it's gained integration with <a href="https://agent.datasette.io/">Datasette Agent</a>, so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools.</p>
+<p>Here's a demo video, recorded on <a href="https://agent.datasette.io/">agent.datasette.io</a>  where you can sign in with GitHub to try the plugin yourself:</p>
+<figure>
+  <video controls playsinline preload="none"
+         width="1440" height="1080"
+         style="max-width: 100%; height: auto"
+         poster="https://static.simonwillison.net/static/cors-allow/2026/datasette-charts-agent-demo.webp"
+         aria-label="Demo of the Datasette charts agent (silent screen recording)"
+         aria-describedby="charts-demo-desc">
+    <source src="https://static.simonwillison.net/static/cors-allow/2026/datasette-charts-agent-demo.mp4" type="video/mp4">
+    <a href="https://static.simonwillison.net/static/cors-allow/2026/datasette-charts-agent-demo.mp4">Download the video (MP4)</a>
+  </video>
+  <figcaption id="charts-demo-desc" style="margin-top: 1em">
+    I prompt Datasette Agent to "Use #stats to show sqlite-utils downloads over time as a chart" - where typing "#stats" opens a table search box. It shows me a chart inline in the chat, and when I click "Open in the chart builder" it opens the chart in a panel along with the table page. I use the table page to switch to a chart of "datasette", then when I ask the agent "what does the chart show?" it notices that I changed the content in the panel and describes the new Datasette chart to me.
+  </figcaption>
+</figure>
+
+<p>Here's <a href="https://gist.github.com/simonw/12646fcc72dddae3d4ac04b496c20af2">a Markdown export</a> of the chat from the video.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/visualization">visualization</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-agent 0.7a1]]></title>
+        <id>https://simonwillison.net/2026/Nov/24/datasette-agent/</id>
+        <link href="https://simonwillison.net/2026/Nov/24/datasette-agent/"/>
+        <updated>2026-11-24T03:45:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-agent/releases/tag/0.7a1">datasette-agent 0.7a1</a></p>
+        <p>I small improvement to <a href="https://agent.datasette.io/">Datasette Agent</a>: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state.</p>
+<p>I built this in order to fix some bugs with the much more exciting <a href="https://simonwillison.net/2026/Nov/24/datasette-charts/">datasette-charts 0.2a0 release</a>.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GLM-5.4: Toward Generalized Coding with Our First Loop Transformer]]></title>
         <id>https://simonwillison.net/2026/Nov/23/glm-54/</id>
@@ -6660,43 +6736,6 @@ Tags: best of · best of 2026 · photography]]></summary>
         <summary type="html"><![CDATA[The Ware for September 2026 is a tire pressure monitor from a late 80’s to early 90’s model Porsche, made by Bosch. According to the submitter: Kind of a crazy piece of hardware for the late 80’s – this would be pretty cutting edge for the time. Nobody quite got what the part was – […]]]></summary>
         <author>
             <name>bunnie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Invisible Jukebox mix: Sarah Davachi]]></title>
-        <id>https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-sarah-davachi</id>
-        <link href="https://www.thewire.co.uk/audio/tracks/invisible-jukebox-mix-sarah-davachi"/>
-        <updated>2026-10-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wire 514
-
-
-    In The Wire 514 it is the turn of composer, organist and theorist Sarah Davachi.
-
-The Wire 514. To find out what she said about them, subscribers can read the interview in our online magazine library here. Or you can buy a copy of the magazine in our online shop.
-
-
-    Canadian composer Sarah Davachi is known for her drone based works for organ, electronics, voice and chamber ensemble that explore extended durations, the psychoacoustics of space, and the subtleties of tuning, harmonic structures and emergent overtones.
-
-Papers, contains her thoughts on the studio as a tool for world building, bringing medievalism into the present, and the development and cultural significance of several keyboard-based instruments.
-
-Barons Court was released in 2015. She has since followe…]]></summary>
-        <author>
-            <name>The Wire: Home</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seam Cutter]]></title>
-        <id>https://simonwillison.net/2026/Oct/25/seam-cutter/</id>
-        <link href="https://simonwillison.net/2026/Oct/25/seam-cutter/"/>
-        <updated>2026-10-25T15:10:19.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/seam-cutter">Seam Cutter</a></p>
-        <p>I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.</p>
-<p>I wanted this because I often use <a href="https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095">Tailor</a> on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example.</p>
-    
-    
-        <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a></p>]]></summary>
-        <author>
-            <name>Simon Willison's Weblog</name>
         </author>
     </entry>
     <entry>
