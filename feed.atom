@@ -2,10 +2,180 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bryankulba.github.io/bryan-rss/index.html</id>
     <title>Bryan RSS</title>
-    <updated>2026-11-23T13:59:57.086Z</updated>
+    <updated>2026-11-24T02:44:11.676Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://bryankulba.github.io/bryan-rss/index.html"/>
     <link rel="self" href="https://bryankulba.github.io/bryan-rss/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GLM-5.4: Toward Generalized Coding with Our First Loop Transformer]]></title>
+        <id>https://simonwillison.net/2026/Nov/23/glm-54/</id>
+        <link href="https://simonwillison.net/2026/Nov/23/glm-54/"/>
+        <updated>2026-11-23T23:40:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong><a href="https://z.ai/blog/glm-5.4">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</a></strong></p>
+GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:</p>
+<blockquote>
+<p>In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.</p>
+</blockquote>
+<p>This is the second mention of looped transformers I've seen in the past week - the first was <a href="https://thinkingmachines.ai/news/inkling-2-mini/">Inkling 2 Mini</a> from Thinking Machines Lab on November 20th, who said:</p>
+<blockquote>
+<p>Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.</p>
+</blockquote>
+<p>GLM 5.4 is not (yet?) available as open weights. I tried it out using the Z.ai API, for which I had to sign up for their <a href="https://docs.z.ai/devpack/overview">Coding Plan subscription</a> because 5.4 cannot currently be accessed through the regular API.</p>
+<p>It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at <code>https://api.z.ai/api/v1</code>), and the API key for the coding plan worked with that and gave me access to the new model.</p>
+<p>I built a <a href="https://github.com/simonw/llm-glm">llm-glm plugin</a>, then realized that <a href="https://github.com/irthomasthomas/llm-zai">llm-zai</a> by Tommy Hughes already exists! I've shipped mine purely because <code>llm-zai</code> doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.</p>
+<p>Here are <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fae838c5a6837ca0a602c180c07ac0887">pelicans for GLM-5.4</a> on low, high, and max. This is the max one:</p>
+<p><img alt="It's not great to be honest - the pelican is recognizable, but the bicycle frame has a funny front bar connection post and doesn't look like it would steer." src="https://static.simonwillison.net/static/2026/glm-5.4-max.webp" /></p>
+<p>I realized I never ran pelicans for GLM-5.3, so <a href="https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F8826d1366dcc98783c7cbc593f6a6e77">here those are</a> for the same effort levels. They look similar in quality to 5.4.</p>
+<p>It's interesting how <a href="https://simonwillison.net/2026/Apr/7/glm-51/">GLM 5.1</a> and <a href="https://simonwillison.net/2026/Jun/17/glm-52/#excellent-pelican-disappointing-opossum">GLM 5.2</a> produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look.</p>
+<p>I made a <a href="https://static.simonwillison.net/static/2026/glm-pelican-comparison.html">comparison grid</a> showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark.</p>
+<p><img alt="The 5.4 and 5.3 pelicans look similar at all three levels. The 5.2 one is on a cyberpunk bicycle. The 5.1 is much more colorful and animated." src="https://static.simonwillison.net/static/2026/glm-family-4.webp" />
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a>, <a href="https://simonwillison.net/tags/ai-in-china">ai-in-china</a>, <a href="https://simonwillison.net/tags/glm">glm</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“McTrot is a continuously open, honor-system endurance...]]></title>
+        <id>https://kottke.org/26/11/0050051-mctrot</id>
+        <link href="https://kottke.org/26/11/0050051-mctrot"/>
+        <updated>2026-11-23T21:52:00.000Z</updated>
+        <summary type="html"><![CDATA[“McTrot is a continuously open, honor-system endurance challenge. A McTrotter visits every McDonald’s in the borough of Manhattan, eating one food item at each, on foot. Self-supported with the obvious exception of eating at McDonald’s. No prize.” Current record is 13 hours.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ladybird's first alpha release]]></title>
+        <id>https://simonwillison.net/2026/Nov/23/ladybird/</id>
+        <link href="https://simonwillison.net/2026/Nov/23/ladybird/"/>
+        <updated>2026-11-23T21:46:35.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://ladybird.org">Ladybird</a> is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like <a href="https://github.com/harfbuzz/harfbuzz">HarfBuzz</a> for text shaping, <a href="https://skia.org/">Skia</a> for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project <a href="https://serenityos.org/">SerenityOS</a>.</p>
+<p>This morning the Ladybird project <a href="https://ladybird.org/posts/alpha/">released their first alpha</a>, which means you can now <a href="https://ladybird.org/download/">install the browser</a> (on macOS or Linux) without having to compile it yourself!</p>
+<p>I've been trying it out today, and it's very impressive. It feels fast, the UI is lightweight and intuitive, and most of the websites I've tried to load in it have worked as they should. It looks like this (showing my <a href="https://tools.simonwillison.net/video-compressor">video-compressor</a> tool):</p>
+<p><img src="https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp" alt="macOS running Ladybird - it has four tabs open, the visible one is showing tools.simonwillison.net/video-compressor which is an app for running ffmpeg using WebAssembly and is shown working." style="max-width: 100%;" /></p>
+<p>Here's the process tree after I opened six tabs in one window and another tab in a second window (generated <a href="https://gist.github.com/simonw/b9162f1741b96fea72b11c300b749226">by this script</a>, thanks Claude):</p>
+<pre><code>Ladybird (72925)  [240 MB]
+└── Hub (72926)  [61 MB]
+    ├── RequestServer (72927)  [29 MB]
+    ├── ProcessReaper (72928)  [1 MB]
+    ├── Compositor (72930)  [123 MB]
+    ├── RequestServer (72953)  [36 MB]
+    ├── WebContent (72984)  [819 MB]
+    ├── MediaServer (73006)  [118 MB]
+    ├── VideoDecoderServer (73007)  [20 MB]
+    ├── WebContent (73052)  [144 MB]
+    ├── WebContent (73057)  [73 MB]
+    ├── WebContent (73073)  [166 MB]
+    ├── WebContent (73094)  [70 MB]
+    ├── WebContent (73112)  [116 MB]
+    ├── RequestServer (73113)  [27 MB]
+    └── WebContent (73185)  [60 MB]</code></pre>
+<p>Ladybird runs different tabs in different processes, an isolation mechanism used by most browsers (well, technically Chrome uses a process-per-site).</p>
+<p>I tried Ladybird against several of my more advanced tool examples - like the <a href="https://tools.simonwillison.net/video-compressor">video-compressor</a> shown above, which runs ffmpeg compiled to WebAssembly. I had it resize its own screenshot using my <a href="https://tools.simonwillison.net/image-resize-quality">image-resize tool</a>. It happily runs my <a href="https://tools.simonwillison.net/pyodide-repl">Pyodide REPL</a> (Python compiled to WebAssembly) too.</p>
+<p>The one thing I tried that didn't work was <a href="https://lite.datasette.io/">Datasette Lite</a>, which runs Pyodide in <a href="https://simonwillison.net/2026/Nov/17/datasette-lite/#how-this-works-using-service-workers">a complicated arrangement</a> of service workers and web workers. Attempting to start Datasette Lite displays this error:</p>
+<blockquote>
+<p><code>undefined is not a function (evaluated from 'navigator.serviceWorker.startMessages')</code></p>
+</blockquote>
+<p>I filed <a href="https://github.com/LadybirdBrowser/ladybird/issues/15515">an issue about this</a>, then found <a href="https://github.com/LadybirdBrowser/ladybird/blob/864f4362b5334a7e830c4c7c923a95292a871d4e/Libraries/LibWeb/ServiceWorker/ServiceWorkerContainer.idl#L12">a FIXME annotation</a> in the source code.</p>
+<h4 id="the-october-explosion">The October explosion</h4>
+<p>The project has been leaning heavily into coding agents this year. On February 23, 2026 Andreas Kling published <a href="https://ladybird.org/posts/adopting-rust/">Ladybird adopts Rust, with help from AI</a>, describing how they ported parts of their LibJS JavaScript engine from C++ to 25,000 lines of Rust in two weeks using Claude Code and Codex.</p>
+<p>Here's <a href="https://github.com/LadybirdBrowser/ladybird/graphs/contributors?from=2025-11-22T08%3A00%3A00.000Z">the GitHub contributions chart</a> for Ladybird over the past twelve months:</p>
+<p><img src="https://static.simonwillison.net/static/2026/ladybird-contributions.webp" alt="Screenshot of a GitHub-style bar chart titled &quot;Commits over time&quot; with the subtitle &quot;Weekly from Nov 22, 2025 to Nov 21, 2026&quot;. The y-axis is labeled &quot;Contributions&quot; with ticks at 0, 500, 1000 and 1500, and the x-axis is labeled Jan 2026, Mar 2026, May 2026, Jul 2026, Sep 2026 and Nov 2026. Blue weekly bars stay low for the first half of the year, then climb steeply from July to a peak in late October before dropping off in the final partial week." style="max-width: 100%;" /></p>
+<p>That uptick in October corresponds to the landing of a wealth of big improvements.</p>
+<p><a href="https://ladybird.org/newsletter/2026-10-31/">This Month in Ladybird — October 2026</a> describes what happened. In addition to moving style and layout to their own thread, landing a new JavaScript JIT, and replacing their C++ with Cranelift WebAssembly engine with new code that achieved a 7x boost on the <a href="https://webkit.org/blog/17899/introducing-the-jetstream-3-benchmark-suite/">JetStream 3 WASM benchmark</a>, they gained 75,650 new passes on the ~2.25 million subtest <a href="https://web-platform-tests.org/">web-platform-tests</a> suite, beating Safari!</p>
+<p><img src="https://static.simonwillison.net/static/2026/newsletter-oct-2026-wpt-light.webp" alt="Line chart titled &quot;WPT subtests passed in October&quot; with the subtitle &quot;Best run per day. The axis doesn't start at zero.&quot; The y-axis runs from 2.10M to 2.25M with ticks at 2.10M, 2.15M, 2.20M and 2.25M, and the x-axis is labeled Oct 1, Oct 8, Oct 15, Oct 22 and Oct 29. Four lines are labeled at their right-hand ends with final values: Chrome 2,244,397, Firefox 2,189,315, Ladybird 2,184,722, Safari 2,172,990. Chrome, Firefox and Safari rise only slightly across the month, at roughly 2.23M to 2.24M, 2.18M to 2.19M and 2.16M to 2.17M respectively. Ladybird, drawn as a thicker purple line, starts near 2.10M, stays around 2.11M with a brief dip on about Oct 15, then climbs steeply from about Oct 22, overtaking Safari around Oct 26 and finishing just below Firefox." style="max-width: 100%;" /></p>
+<p>How did they do that? Coding agents:</p>
+<blockquote>
+<p>Most of that gain came in five days, from about 2.12 million on October 22 to about 2.18 million on October 27. We pointed AI coding agents at WPT and asked them to fill in missing functionality. They made lots of small fixes, and those added up. Our biggest gains for the month were about 30,000 in <code>/css</code> and 10,000 in <code>/editing</code>.</p>
+</blockquote>
+<p>I'm interested in what models they are using here - I know Andreas uses Codex and Claude Code, but I haven't seen him talk about specific model versions. Claude Opus 5.5 came out on September 22, 2026 and Claude Fable 5.2 on November 9, 2026 (after that window). I'd love to know what they were using for that huge leap in the last week of October.</p>
+<h4 id="should-you-use-ladybird-">Should you use Ladybird?</h4>
+<p>Here's what <a href="https://ladybird.org/posts/alpha/">Andreas says</a> about Ladybird's suitability for use as a daily browser:</p>
+<blockquote>
+<p>This is an alpha, so some websites won’t work, and it will crash sometimes. When that happens, tell us! You can report a broken site from inside the browser. After a crash, you can read the crash report and decide whether to send it. Our <a href="https://ladybird.org/privacy/">privacy policy</a> has the details.</p>
+<p>We want security nerds to hack it! A new browser gets hacked, over and over, and that’s part of the process, so we make no promises about security today. When you pwn us, please <a href="https://github.com/LadybirdBrowser/ladybird/blob/master/SECURITY.md">tell us how</a> so we can harden Ladybird!</p>
+</blockquote>
+<p>Given how hard it is to secure a web browser, and the hostility of the environment they operate in, I won't be using Ladybird to sign into GitHub or Gmail or any of my other sensitive accounts.</p>
+<p>I'm going to keep it around for anonymous browsing though, partly to participate in the testing efforts but mainly because it gives me a glimmer of optimism to see a promising new entrant in the stagnant browser engine market start to grow its wings.</p>
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/browsers">browsers</a>, <a href="https://simonwillison.net/tags/open-source">open-source</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/webassembly">webassembly</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/andreas-kling">andreas-kling</a>, <a href="https://simonwillison.net/tags/ladybird">ladybird</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Directing Genius of Akira Kurosawa Explained]]></title>
+        <id>https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained</id>
+        <link href="https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained"/>
+        <updated>2026-11-23T20:41:00.000Z</updated>
+        <summary type="html"><![CDATA[This video from StudioBinder looks at how Akira Kurosawa made his films.
+In this video essay, we break down Kurosawa’s filmmaking techniques across Seven Samurai, High and Low, Rashomon, Ikiru, Yojimbo, and more. From dynamic blocking and layered composition to bold movement and weather-driven cinematography, Kurosawa didn’t just direct scenes — he engineered visual storytelling with precision.
+
+	
+See also Where to Start With Akira Kurosawa and Akira Kurosawa — Composing Movement. (via open culture)
+
+ 
+
+        
+         
+Tags: Akira Kurosawa · film school · movies · video]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Courtesy of the Smithsonian and the Internet Archive: The...]]></title>
+        <id>https://kottke.org/26/11/0050037-the-art-of-knitting-1892</id>
+        <link href="https://kottke.org/26/11/0050037-the-art-of-knitting-1892"/>
+        <updated>2026-11-23T19:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Courtesy of the Smithsonian and the Internet Archive: The Art of Knitting (1892), full of knitting patterns, stitches, and lore from more than 130 years ago.]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Reading the air — kuuki o yomu in Japanese — is a...]]></title>
+        <id>https://kottke.org/26/11/0050052-reading-the-air</id>
+        <link href="https://kottke.org/26/11/0050052-reading-the-air"/>
+        <updated>2026-11-23T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[“Reading the air — kuuki o yomu in Japanese — is a constant exercise, and misreading the air can blow business deals or ruin relationships.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tired Women in Art. “I’d never really considered...]]></title>
+        <id>https://kottke.org/26/11/0050046-tired-women-in-art</id>
+        <link href="https://kottke.org/26/11/0050046-tired-women-in-art"/>
+        <updated>2026-11-23T17:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Tired Women in Art. “I’d never really considered exhaustion as a theme in art, and yet there are so many examples of it.” (And what is a still life if not complete exhaustion?)]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Incredible, Elegant DNA Repair System Makes Gene Editing Work]]></title>
+        <id>https://www.quantamagazine.org/?p=169527</id>
+        <link href="https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/"/>
+        <updated>2026-11-23T15:27:11.000Z</updated>
+        <summary type="html"><![CDATA[Genetic information is sturdy, but its physical structure is sensitive. Natural tools for repairing a cell’s thousands of daily injuries are fundamental to gene-editing technologies.            
+The post The Incredible, Elegant DNA Repair System Makes Gene Editing Work first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Annie Melchor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Shelf Life of LLM Findings. “How long does a...]]></title>
+        <id>https://kottke.org/26/11/0050047-the-shelf-life-of-llm-fin</id>
+        <link href="https://kottke.org/26/11/0050047-the-shelf-life-of-llm-fin"/>
+        <updated>2026-11-23T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[The Shelf Life of LLM Findings. “How long does a published finding about LLMs remain true? What we know about AI may have a surprisingly short shelf life.”]]></summary>
+        <author>
+            <name>kottke.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Site Outages and a Slower Holiday Week]]></title>
         <id>https://kottke.org/26/11/site-outages-and-a-slower-holiday-week</id>
@@ -48,6 +218,28 @@ Tags: kottke.org]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[datasette-charts 0.1a0]]></title>
+        <id>https://simonwillison.net/2026/Nov/23/datasette-charts/</id>
+        <link href="https://simonwillison.net/2026/Nov/23/datasette-charts/"/>
+        <updated>2026-11-23T00:37:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-charts/releases/tag/0.1a0">datasette-charts 0.1a0</a></p>
+        <p>I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.</p>
+<p>You can <a href="https://lite.datasette.io/?install=datasette-charts#/content/stats#chart=%7B%22v%22%3A1%2C%22type%22%3A%22line%22%2C%22encoding%22%3A%7B%22x%22%3A%7B%22column%22%3A%22date%22%2C%22timeUnit%22%3A%22week%22%7D%2C%22y%22%3A%7B%22column%22%3A%22downloads%22%2C%22aggregate%22%3A%22sum%22%7D%2C%22series%22%3A%7B%22column%22%3A%22package%22%2C%22limit%22%3A5%2C%22other%22%3Atrue%7D%7D%2C%22options%22%3A%7B%7D%7D">try it out in Datasette Lite here</a>. It looks like this:</p>
+<p><img alt="Screenshot of a Datasette table page for a &quot;stats&quot; table showing a new Charts panel. A row of suggested chart thumbnail cards sits at the top, each with a small preview, a title and a plain-English description: &quot;Total downloads per week of date&quot;, &quot;Total downloads by package&quot;, &quot;Distribution of downloads&quot;, &quot;Total downloads per week of date by package&quot; (selected) and &quot;Rows per week of date&quot;. A note says suggestions are based on a sample of rows while charts use every row. Below, the selected chart is shown full size as a multi-series line chart of total downloads over time, with a color legend for sqlite-utils, csv-diff, datasette, llm, shot-scraper and Other. A sidebar on the right has dropdowns for Chart type (Line chart), Time (date, per week), Value (downloads, show Total) and Split by (package, keep top 5), plus a checked &quot;Group the rest as Other&quot; option. Under the chart are a &quot;View and edit this chart's SQL&quot; link, a &quot;Copy link to this chart&quot; button, an expandable Data section and a Close button." src="https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp" /></p>
+<p>The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored <a href="https://d3js.org">D3</a>, <a href="https://observablehq.github.io/plot/">Observable Plot</a>, and <a href="https://www.npmjs.com/package/topojson-client">topojson-client</a>), each with a set of heuristics for identifying when they might be a good match for a specific set of rows.</p>
+<p>Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch.</p>
+<p>As with other Datasette visualization plugins, the current state of your chart is persisted in a <code>#fragment</code> in the URL - so you can bookmark charts or share them with others.</p>
+<p>The most important feature is that the charts take <em>all rows into account</em>. Previous charting plugins like <a href="https://github.com/simonw/datasette-vega">datasette-vega</a> would only show charts for the current page of results, generally up to 100 rows.</p>
+<p>The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set.</p>
+<p>I'm really happy with this initial release of the plugin. It's still very much an alpha, but it's the closest I've got to the dream of Datasette helping visualize data with as little required direction from the user as possible.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/projects">projects</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/visualization">visualization</a>, <a href="https://simonwillison.net/tags/claude-mythos-fable">claude-mythos-fable</a></p>]]></summary>
+        <author>
+            <name>Simon Willison's Weblog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Select Styling Specimens]]></title>
         <id>https://simonwillison.net/2026/Nov/22/select-styling/</id>
         <link href="https://simonwillison.net/2026/Nov/22/select-styling/"/>
@@ -86,6 +278,18 @@ Tags: kottke.org]]></summary>
         <summary type="html"><![CDATA[No.426 — Nagel takes on AI consciousness ⊗ Sociotechnical imaginaries of lithium mining ⊗ Young people hate AI CEOs ⊗ What if we designed cities around the wind? ⊗ Embracing the analogue office library]]></summary>
         <author>
             <name>Patrick Tanguay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[RODEN] A Jazz Walk Incoming]]></title>
+        <id>https://craigmod.com/roden/120/</id>
+        <link href="https://craigmod.com/roden/120/"/>
+        <updated>2026-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Roden Readers —
+Fall! Finally! Jacket weather! Sweaters! Snow on Fuji! Oh, my!
+What has been going on this past month? A whole lotta hermiting. I’ve been on a decidedly teenager-like (or Mishima-like, if you prefer; the man almost never rose before noon) schedule, which my body clock seems to love, working late into the night and passing out around two or three and then waking up around ten or eleven, pounding a big ol’ smoothie, and then working like mad from noon to six, breaking for a nice dinner with friends, and then diving back under until my futon calls. This is an ideal schedule for me. Because I am insane. I basically never shifted back from Europe time to Japan time in October. Also, a smoothie + slow, delicious dinner turns out to be a great eating schedule? I feel light and energetic. Am I an adult? I’m not sure. I do push-ups and walk 10,000 steps a day. Such is the glamorous life of being self-employed at forty-six years old while the world speedruns its own unique flavor of insanity in the background. Is the singularity here yet?]]></summary>
+        <author>
+            <name>Craig Mod</name>
         </author>
     </entry>
     <entry>
@@ -6493,46 +6697,6 @@ Barons Court was released in 2015. She has since followe…]]></summary>
         <p>Tags: <a href="https://simonwillison.net/tags/tools">tools</a></p>]]></summary>
         <author>
             <name>Simon Willison's Weblog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Tiny Computers app lets you play with old computers...]]></title>
-        <id>https://kottke.org/26/10/0049869-the-tiny-computers-app-le</id>
-        <link href="https://kottke.org/26/10/0049869-the-tiny-computers-app-le"/>
-        <updated>2026-10-25T14:11:00.000Z</updated>
-        <summary type="html"><![CDATA[The Tiny Computers app lets you play with old computers on the iPhone Duo. Ten machines included: “Macintosh, Commodore 64, IBM PC, Amiga 500, Windows 95, ThinkPad, iMac G3, iBook G3, PowerBook G4 and Windows XP.” XP even crashes sometimes. Love this.]]></summary>
-        <author>
-            <name>kottke.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The secrets hiding in your diary]]></title>
-        <id>https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary</id>
-        <link href="https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary"/>
-        <updated>2026-10-25T13:02:51.000Z</updated>
-        <summary type="html"><![CDATA[Sauce journals, the sweatshirt that thinks it’s a cardigan, how to style scarves, a banger new collection out of NYC & more]]></summary>
-        <author>
-            <name>Blackbird Spyplane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[25oct26]]></title>
-        <id>https://warrenellis.ltd/?p=19180</id>
-        <link href="https://warrenellis.ltd/status/25oct26/"/>
-        <updated>2026-10-25T12:02:54.000Z</updated>
-        <summary type="html"><![CDATA[Clocks went back and I didn’t notice. But mancub did. So I got beaten until I climbed out of bed to feed the little bastard.…]]></summary>
-        <author>
-            <name>Warren Ellis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Six Gutenberg revolutions in a row ⊗ Deskilling the body]]></title>
-        <id>6add294f75afe100018d172d</id>
-        <link href="https://sentiers.media/six-gutenberg-revolutions-in-a-row-deskilling-the-body-no-422/"/>
-        <updated>2026-10-25T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[No.422 — Bodies for AI ⊗ A surprising synthesis of well-known ideas ⊗ What We Choose Next ⊗ AI optimists in developing nations ⊗ The mangrove as a wall ⊗ How hunting owls use sound]]></summary>
-        <author>
-            <name>Patrick Tanguay</name>
         </author>
     </entry>
     <entry>

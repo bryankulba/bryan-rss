@@ -35,6 +35,305 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/23/glm-54/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T23:40:49.000Z">2026-11-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/23/glm-54/" target="_blank" rel="noopener noreferrer">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</a>
+          </h2>
+          <p class="feed-item__desc">GLM-5.4: Toward Generalized Coding with Our First Loop Transformer
+In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.
+This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said:
+Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality.
+GLM 5.4 is not (yet?) available as open weights. I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API.
+It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at https://api.z.ai/api/v1), and the API key for the coding plan worked with that and gave me access to the new model.
+I built a llm-glm plugin, then realized that llm-zai by Tommy Hughes already exists! I've shipped mine purely because llm-zai doesn't yet support the new model, but I'll likely retire mine once that plugin catches up.
+Here are pelicans for GLM-5.4 on low, high, and max. This is the max one:
+
+I realized I never ran pelicans for GLM-5.3, so here those are for the same effort levels. They look similar in quality to 5.4.
+It's interesting how GLM 5.1 and GLM 5.2 produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look.
+I made a comparison grid showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark.
+
+
+
+    
+Tags: ai, generative-ai, llms, llm, pelican-riding-a-bicycle, llm-release, ai-in-china, glm</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/23/glm-54/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/23/glm-54/">Mark read</button>
+            <span class="feed-item__reading-time">4 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/glm-family-4.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050051-mctrot">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T21:52:00.000Z">2026-11-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050051-mctrot" target="_blank" rel="noopener noreferrer">“McTrot is a continuously open, honor-system endurance...</a>
+          </h2>
+          <p class="feed-item__desc">“McTrot is a continuously open, honor-system endurance challenge. A McTrotter visits every McDonald’s in the borough of Manhattan, eating one food item at each, on foot. Self-supported with the obvious exception of eating at McDonald’s. No prize.” Current record is 13 hours.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050051-mctrot" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050051-mctrot">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50051-52a2f4b2.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/23/ladybird/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T21:46:35.000Z">2026-11-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/23/ladybird/" target="_blank" rel="noopener noreferrer">Ladybird&#x27;s first alpha release</a>
+          </h2>
+          <p class="feed-item__desc">Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS.
+
+This morning the Ladybird project released their first alpha, which means you can now install the browser (on macOS or Linux) without having to compile it yourself!
+
+I've been trying it out today, and it's very impressive. It feels fast, the UI is lightweight and intuitive, and most of the websites I've tried to load in it have worked as they should. It looks like this (showing my video-compressor tool):
+
+
+
+Here's the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude):
+
+Ladybird (72925)  [240 MB]
+└── Hub (72926)  [61 MB]
+    ├── RequestServer (72927)  [29 MB]
+    ├── ProcessReaper (72928)  [1 MB]
+    ├── Compositor (72930)  [123 MB]
+    ├── RequestServer (72953)  [36 MB]
+    ├── WebContent (72984)  [819 MB]
+    ├── MediaServer (73006)  [118 MB]
+    ├── VideoDecoderServer (73007)  [20 MB]
+    ├── WebContent (73052)  [144 MB]
+    ├── WebContent (73057)  [73 MB]
+    ├── WebContent (73073)  [166 MB]
+    ├── WebContent (73094)  [70 MB]
+    ├── WebContent (73112)  [116 MB]
+    ├── RequestServer (73113)  [27 MB]
+    └── WebContent (73185)  [60 MB]
+
+Ladybird runs different tabs in different processes, an isolation mechanism used by most browsers (well, technically Chrome uses a process-per-site).
+
+I tried Ladybird against several of my more advanced tool examples - like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly. I had it resize its own screenshot using my image-resize tool. It happily runs my Pyodide REPL (Python compiled to WebAssembly) too.
+
+The one thing I tried that didn't work was Datasette Lite, which runs Pyodide in a complicated arrangement of service workers and web workers. Attempting to start Datasette Lite displays this error:
+
+
+undefined is not a function (evaluated from 'navigator.serviceWorker.startMessages')
+
+
+I filed an issue about this, then found a FIXME annotation in the source code.
+
+The October explosion
+
+The project has been leaning heavily into coding agents this year. On February 23, 2026 Andreas Kling published Ladybird adopts Rust, with help from AI, describing how they ported parts of their LibJS JavaScript engine from C++ to 25,000 lines of Rust in two weeks using Claude Code and Codex.
+
+Here's the GitHub contributions chart for Ladybird over the past twelve months:
+
+
+
+That uptick in October corresponds to the landing of a wealth of big improvements.
+
+This Month in Ladybird — October 2026 describes what happened. In addition to moving style and layout to their own thread, landing a new JavaScript JIT, and replacing their C++ with Cranelift WebAssembly engine with new code that achieved a 7x boost on the JetStream 3 WASM benchmark, they gained 75,650 new passes on the ~2.25 million subtest web-platform-tests suite, beating Safari!
+
+
+
+How did they do that? Coding agents:
+
+
+Most of that gain came in five days, from about 2.12 million on October 22 to about 2.18 million on October 27. We pointed AI coding agents at WPT and asked them to fill in missing functionality. They made lots of small fixes, and those added up. Our biggest gains for the month were about 30,000 in /css and 10,000 in /editing.
+
+
+I'm interested in what models they are using here - I know Andreas uses Codex and Claude Code, but I haven't seen him talk about specific model versions. Claude Opus 5.5 came out on September 22, 2026 and Claude Fable 5.2 on November 9, 2026 (after that window). I'd love to know what they were using for that huge leap in the last week of October.
+
+Should you use Ladybird?
+
+Here's what Andreas says about Ladybird's suitability for use as a daily browser:
+
+
+This is an alpha, so some websites won’t work, and it will crash sometimes. When that happens, tell us! You can report a broken site from inside the browser. After a crash, you can read the crash report and decide whether to send it. Our privacy policy has the details.
+
+We want security nerds to hack it! A new browser gets hacked, over and over, and that’s part of the process, so we make no promises about security today. When you pwn us, please tell us how so we can harden Ladybird!
+
+
+Given how hard it is to secure a web browser, and the hostility of the environment they operate in, I won't be using Ladybird to sign into GitHub or Gmail or any of my other sensitive accounts.
+
+I'm going to keep it around for anonymous browsing though, partly to participate in the testing efforts but mainly because it gives me a glimmer of optimism to see a promising new entrant in the stagnant browser engine market start to grow its wings.
+Tags: browsers, open-source, ai, rust, webassembly, generative-ai, llms, andreas-kling, ladybird, coding-agents</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/23/ladybird/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/23/ladybird/">Mark read</button>
+            <span class="feed-item__reading-time">5 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T20:41:00.000Z">2026-11-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained" target="_blank" rel="noopener noreferrer">The Directing Genius of Akira Kurosawa Explained</a>
+          </h2>
+          <p class="feed-item__desc">This video from StudioBinder looks at how Akira Kurosawa made his films.
+In this video essay, we break down Kurosawa’s filmmaking techniques across Seven Samurai, High and Low, Rashomon, Ikiru, Yojimbo, and more. From dynamic blocking and layered composition to bold movement and weather-driven cinematography, Kurosawa didn’t just direct scenes — he engineered visual storytelling with precision.
+
+	
+See also Where to Start With Akira Kurosawa and Akira Kurosawa — Composing Movement. (via open culture)
+
+ 
+
+        
+         
+Tags: Akira Kurosawa · film school · movies · video</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/the-directing-genius-of-akira-kurosawa-explained">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://i.ytimg.com/vi/IIHeWcGS4iA/maxresdefault.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050037-the-art-of-knitting-1892">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T19:44:00.000Z">2026-11-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050037-the-art-of-knitting-1892" target="_blank" rel="noopener noreferrer">Courtesy of the Smithsonian and the Internet Archive: The...</a>
+          </h2>
+          <p class="feed-item__desc">Courtesy of the Smithsonian and the Internet Archive: The Art of Knitting (1892), full of knitting patterns, stitches, and lore from more than 130 years ago.</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050037-the-art-of-knitting-1892" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050037-the-art-of-knitting-1892">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50037-8fb8f102.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050052-reading-the-air">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T18:40:00.000Z">2026-11-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050052-reading-the-air" target="_blank" rel="noopener noreferrer">“Reading the air — kuuki o yomu in Japanese — is a...</a>
+          </h2>
+          <p class="feed-item__desc">“Reading the air — kuuki o yomu in Japanese — is a constant exercise, and misreading the air can blow business deals or ruin relationships.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050052-reading-the-air" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050052-reading-the-air">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-preview-638b44b6.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050046-tired-women-in-art">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T17:06:00.000Z">2026-11-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050046-tired-women-in-art" target="_blank" rel="noopener noreferrer">Tired Women in Art. “I’d never really considered...</a>
+          </h2>
+          <p class="feed-item__desc">Tired Women in Art. “I’d never really considered exhaustion as a theme in art, and yet there are so many examples of it.” (And what is a still life if not complete exhaustion?)</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050046-tired-women-in-art" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050046-tired-women-in-art">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-preview-8d76d85c.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://www.quantamagazine.org/?p&#x3D;169527">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T15:27:11.000Z">2026-11-23</time>
+        <span class="feed-item__source">Quanta Magazine</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123/" target="_blank" rel="noopener noreferrer">The Incredible, Elegant DNA Repair System Makes Gene Editing Work</a>
+          </h2>
+          <p class="feed-item__desc">Genetic information is sturdy, but its physical structure is sensitive. Natural tools for repairing a cell’s thousands of daily injuries are fundamental to gene-editing technologies.            
+The post The Incredible, Elegant DNA Repair System Makes Gene Editing Work first appeared on Quanta Magazine</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://www.quantamagazine.org/?p&#x3D;169527" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://www.quantamagazine.org/?p&#x3D;169527">Mark read</button>
+            <span class="feed-item__reading-time">12 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://www.quantamagazine.org/wp-content/uploads/2026/11/DNA-Repair-cr-Ada-Zejun-Shen-Social.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kottke.org/26/11/0050047-the-shelf-life-of-llm-fin">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T15:25:00.000Z">2026-11-23</time>
+        <span class="feed-item__source">kottke.org</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kottke.org/26/11/0050047-the-shelf-life-of-llm-fin" target="_blank" rel="noopener noreferrer">The Shelf Life of LLM Findings. “How long does a...</a>
+          </h2>
+          <p class="feed-item__desc">The Shelf Life of LLM Findings. “How long does a published finding about LLMs remain true? What we know about AI may have a surprisingly short shelf life.”</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/11/0050047-the-shelf-life-of-llm-fin" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/11/0050047-the-shelf-life-of-llm-fin">Mark read</button>
+            <span class="feed-item__reading-time">2 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50047-8652ac19.png" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://kottke.org/26/11/site-outages-and-a-slower-holiday-week">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-23T13:51:00.000Z">2026-11-23</time>
@@ -106,6 +405,38 @@ Tags: kottke.org</p>
         </div>
       </div>
     </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/23/datasette-charts/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-23T00:37:20.000Z">2026-11-22</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/23/datasette-charts/" target="_blank" rel="noopener noreferrer">datasette-charts 0.1a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-charts 0.1a0
+I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.
+You can try it out in Datasette Lite here. It looks like this:
+
+The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored D3, Observable Plot, and topojson-client), each with a set of heuristics for identifying when they might be a good match for a specific set of rows.
+Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch.
+As with other Datasette visualization plugins, the current state of your chart is persisted in a #fragment in the URL - so you can bookmark charts or share them with others.
+The most important feature is that the charts take all rows into account. Previous charting plugins like datasette-vega would only show charts for the current page of results, generally up to 100 rows.
+The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set.
+I'm really happy with this initial release of the plugin. It's still very much an alpha, but it's the closest I've got to the dream of Datasette helping visualize data with as little required direction from the user as possible.
+Tags: coding-agents, generative-ai, projects, ai, llms, datasette, visualization, claude-mythos-fable</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/23/datasette-charts/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/23/datasette-charts/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/22/select-styling/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-22T19:45:06.000Z">2026-11-22</time>
@@ -162,6 +493,27 @@ Tags: tools, css, html</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/11/Haeckel_Lichenes-crop.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://craigmod.com/roden/120/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-22T00:00:00.000Z">2026-11-21</time>
+        <span class="feed-item__source">Craig Mod — Writer + Photographer</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://craigmod.com/roden/120/" target="_blank" rel="noopener noreferrer">[RODEN] A Jazz Walk Incoming</a>
+          </h2>
+          <p class="feed-item__desc">Roden Readers —
+Fall! Finally! Jacket weather! Sweaters! Snow on Fuji! Oh, my!
+What has been going on this past month? A whole lotta hermiting. I’ve been on a decidedly teenager-like (or Mishima-like, if you prefer; the man almost never rose before noon) schedule, which my body clock seems to love, working late into the night and passing out around two or three and then waking up around ten or eleven, pounding a big ol’ smoothie, and then working like mad from noon to six, breaking for a nice dinner with friends, and then diving back under until my futon calls. This is an ideal schedule for me. Because I am insane. I basically never shifted back from Europe time to Japan time in October. Also, a smoothie + slow, delicious dinner turns out to be a great eating schedule? I feel light and energetic. Am I an adult? I’m not sure. I do push-ups and walk 10,000 steps a day. Such is the glamorous life of being self-employed at forty-six years old while the world speedruns its own unique flavor of insanity in the background. Is the singularity here yet?</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://craigmod.com/roden/120/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://craigmod.com/roden/120/">Mark read</button>
+            <span class="feed-item__reading-time">9 min read</span>
+          </div>
         </div>
       </div>
     </article>
@@ -10928,90 +11280,6 @@ Tags: tools</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/25/seam-cutter/">Mark read</button>
             <span class="feed-item__reading-time">3 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049869-the-tiny-computers-app-le">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-25T14:11:00.000Z">2026-10-25</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049869-the-tiny-computers-app-le" target="_blank" rel="noopener noreferrer">The Tiny Computers app lets you play with old computers...</a>
-          </h2>
-          <p class="feed-item__desc">The Tiny Computers app lets you play with old computers on the iPhone Duo. Ten machines included: “Macintosh, Commodore 64, IBM PC, Amiga 500, Windows 95, ThinkPad, iMac G3, iBook G3, PowerBook G4 and Windows XP.” XP even crashes sometimes. Love this.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049869-the-tiny-computers-app-le" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049869-the-tiny-computers-app-le">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-25T13:02:51.000Z">2026-10-25</time>
-        <span class="feed-item__source">Blackbird Spyplane | Unbeatable Recon | Style•Culture•Travel</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary" target="_blank" rel="noopener noreferrer">The secrets hiding in your diary</a>
-          </h2>
-          <p class="feed-item__desc">Sauce journals, the sweatshirt that thinks it’s a cardigan, how to style scarves, a banger new collection out of NYC & more</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://www.blackbirdspyplane.com/p/the-secrets-hiding-in-your-diary">Mark read</button>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!XSO_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dad55b7-260c-4ddb-a712-6b021962dd08_1470x1103.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19180">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-25T12:02:54.000Z">2026-10-25</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/25oct26/" target="_blank" rel="noopener noreferrer">25oct26</a>
-          </h2>
-          <p class="feed-item__desc">Clocks went back and I didn’t notice. But mancub did. So I got beaten until I climbed out of bed to feed the little bastard.…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;19180" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;19180">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/10/Screenshot-2026-10-23-103751.png" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="6add294f75afe100018d172d">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-25T10:00:00.000Z">2026-10-25</time>
-        <span class="feed-item__source">Sentiers</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://sentiers.media/six-gutenberg-revolutions-in-a-row-deskilling-the-body-no-422/" target="_blank" rel="noopener noreferrer">Six Gutenberg revolutions in a row ⊗ Deskilling the body</a>
-          </h2>
-          <p class="feed-item__desc">No.422 — Bodies for AI ⊗ A surprising synthesis of well-known ideas ⊗ What We Choose Next ⊗ AI optimists in developing nations ⊗ The mangrove as a wall ⊗ How hunting owls use sound</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="6add294f75afe100018d172d" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="6add294f75afe100018d172d">Mark read</button>
-            <span class="feed-item__reading-time">10 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://storage.ghost.io/c/9c/33/9c3313b3-19b7-419f-83c1-c17878d2302d/content/images/2026/10/Lion_Nebula_Roars_to_Life_With_NASAs_Webb-NASA_Science-w.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
