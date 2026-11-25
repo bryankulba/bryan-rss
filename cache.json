@@ -73,6 +73,16 @@
       "siteUrl": "https://interconnected.org/home",
       "articles": [
         {
+          "id": "https://interconnected.org/home/2026/11/25/inanimate",
+          "author": null,
+          "description": "Dear friends, some Inanimate news:\n\nWe launched WORKS ‘26: five limited edition AI devices, one shared platform.\nWe call them Promptable Products – you speak to them, and they do what you mean.\nEach has a starting point, and from there you interact, adapt the design, or get them to do anything the hardware can do.\nHere are our five devices:\nTempo – it’s an excitable timer with real hands and an agent-controlled round screen. It starts as a Pomodoro timer but use the Google plug-in to show your meetings, or add a countdown to golden hour.\nCandle – a perpetual calendar with seven e-ink screens. It comes as a birthday calendar (agents never forget).\nPioneer – a generative display with an old-school glowing VFD. It can show an audio visualiser for your music and animate today’s weather. Hook i…",
+          "link": "https://interconnected.org/home/2026/11/25/inanimate",
+          "publishedOn": "2026-11-25T18:14:00.000Z",
+          "wordCount": 965,
+          "title": "We launched our first Inanimate AI devices a.k.a. Promptable Products",
+          "imageUrl": "https://interconnected.org/home/2026/11/25/inanimate.png?v=1"
+        },
+        {
           "id": "https://interconnected.org/home/2026/11/20/flex",
           "author": null,
           "description": "I am tickled by reports that, among elite AI researchers, cigarettes are back.\nThe logic goes like this:\nIf you really believe in AI and that AI will hit recursive self-improvement and achieve super-intelligence,\nand that it will solve all disease,\nand that all of this will happen imminently (or at least imminently enough that you have nothing to fear from smoking-related diseases),\nand you want to show that you, yes you, are close enough to the action to have come to this conclusion, and you are a true believer,\nthen a really great way to signal this is to conspicuously take up smoking cigarettes.\nActually I think that smoking cigarettes shows great strength of character.\nOr at least that’s the gag I say to my smoking buddies when they light up.\nGiven everything we know about what smoking…",
@@ -158,6 +168,16 @@
       "feedUrl": "https://www.robinsloan.com/feed.xml",
       "siteUrl": "https://www.robinsloan.com/",
       "articles": [
+        {
+          "id": "https://www.robinsloan.com/lab/intellectual-telescopes/",
+          "author": null,
+          "description": "<p>More analogies. <a href=\"https://www.robinsloan.com/lab/intellectual-telescopes/\">Read here.</a></p>",
+          "link": "https://www.robinsloan.com/lab/intellectual-telescopes/",
+          "publishedOn": "2026-11-25T07:00:00.000Z",
+          "wordCount": 5132,
+          "title": "Dragoncatcher: Intellectual telescopes",
+          "imageUrl": "https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg"
+        },
         {
           "id": "https://www.robinsloan.com/lab/human-voice/",
           "author": null,
@@ -380,6 +400,56 @@
       "feedUrl": "https://feeds.kottke.org/main",
       "siteUrl": "https://kottke.org/",
       "articles": [
+        {
+          "id": "https://kottke.org/26/11/0050061-patti-smiths-tiny-desk-co",
+          "author": null,
+          "description": "Patti Smith’s Tiny Desk Concert.",
+          "link": "https://kottke.org/26/11/0050061-patti-smiths-tiny-desk-co",
+          "publishedOn": "2026-11-25T21:45:38.000Z",
+          "wordCount": 686,
+          "title": "Patti Smith’s Tiny Desk Concert.",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50061-4026fc58.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050050-cycling-art-energy-and-lo",
+          "author": null,
+          "description": "Cycling Art, Energy, and Locomotion: A Series of Remarks on the Development of Bicycles, Tricycles, and Man-Motor Carriages (1889).",
+          "link": "https://kottke.org/26/11/0050050-cycling-art-energy-and-lo",
+          "publishedOn": "2026-11-25T19:04:00.000Z",
+          "wordCount": 716,
+          "title": "Cycling Art, Energy, and Locomotion: A Series of Remarks...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50050-6b3cc210.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0050048-bill-cunningham-and-depen",
+          "author": null,
+          "description": "Bill Cunningham and dependability, consistency, and creativity. “What matters is that you keep going. Butts in seats. Fingers on shutters. Hands on strings.”",
+          "link": "https://kottke.org/26/11/0050048-bill-cunningham-and-depen",
+          "publishedOn": "2026-11-25T17:03:00.000Z",
+          "wordCount": 831,
+          "title": "Bill Cunningham and dependability, consistency, and...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-50048-10e27cfa.jpg"
+        },
+        {
+          "id": "https://kottke.org/26/11/0049993-fascist-busytown",
+          "author": null,
+          "description": "“Some workers work indoors. Some workers work outdoors. Some work in unmarked Chevy Tahoes, doing jobs that Fascist Busytown residents are encouraged to ignore.”",
+          "link": "https://kottke.org/26/11/0049993-fascist-busytown",
+          "publishedOn": "2026-11-25T15:56:00.000Z",
+          "wordCount": 624,
+          "title": "“Some workers work indoors. Some workers work outdoors....",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://kottke.org/26/11/0049984-an-archivist-recently-dis",
+          "author": null,
+          "description": "Among the TV shows whose early episodes weren’t archived is The Tonight Show in the Johnny Carson era. An archivist recently discovered film with a 7-minute Tonight Show segment on it from 1963.",
+          "link": "https://kottke.org/26/11/0049984-an-archivist-recently-dis",
+          "publishedOn": "2026-11-25T14:42:00.000Z",
+          "wordCount": 739,
+          "title": "Among the TV shows whose early episodes weren’t archived...",
+          "imageUrl": "https://kottke.org/images/unfurls/thumb-49984-6ed058c1.png"
+        },
         {
           "id": "https://kottke.org/26/11/0050004-a-new-dna-study",
           "author": null,
@@ -2638,16 +2708,6 @@
           "wordCount": 3374,
           "title": "Pluralistic: Agents vs ecommerce (28 Oct 2026)",
           "imageUrl": null
-        },
-        {
-          "id": "https://pluralistic.net/?p=13444",
-          "author": "Cory Doctorow",
-          "description": "Today's links History is something you do: Not something that happens to you. Hey look at this: Delights to delectate. Object permanence: Occupy Tents are speech; Piagram; SOPA; \"I'm Rob Fucking Ford\"; Blocking all porn in the UK; Pirates rule Iceland; Shake Shack v shitting to death. Upcoming appearances: Vienna, Kilkenny, Courtenay, Vancouver, Oxford, Sheffield, Virtual, Oxford, Montreal. Recent appearances: Where I've been. Latest books: You keep readin' em, I'll keep writin' 'em. Upcoming books: Like I said, I'll keep writin' 'em. Colophon: All the rest. History is something you do (permalink) Prediction is hard. Especially about the future. That Yogi Berra gem proves that you don't have to be a science fiction writer to get irritated with people insisting that you must know what's goi…",
-          "link": "https://pluralistic.net/2026/10/27/tied-to-the-tracks/",
-          "publishedOn": "2026-10-27T09:08:25.000Z",
-          "wordCount": 3909,
-          "title": "Pluralistic: History is something you do (27 Oct 2026)",
-          "imageUrl": null
         }
       ]
     },
@@ -2662,6 +2722,16 @@
       "feedUrl": "http://warrenellis.ltd/feed/",
       "siteUrl": "https://warrenellis.ltd",
       "articles": [
+        {
+          "id": "https://warrenellis.ltd/?p=19412",
+          "author": "Warren Ellis",
+          "description": "Winter has very much arrived now. Fully intended to go out today, and then I got a FedEx notification, then read that the deli was…",
+          "link": "https://warrenellis.ltd/status/25nov26/",
+          "publishedOn": "2026-11-25T13:55:51.000Z",
+          "wordCount": 1759,
+          "title": "25nov26",
+          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/11/37086.jpg"
+        },
         {
           "id": "https://warrenellis.ltd/?p=19389",
           "author": "Warren Ellis",
@@ -2811,16 +2881,6 @@
           "wordCount": 1354,
           "title": "27oct26",
           "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2486.jpg"
-        },
-        {
-          "id": "https://warrenellis.ltd/?p=19196",
-          "author": "Warren Ellis",
-          "description": "the horrisonant forest THE ROUSE, China Mieville (UK) (US+) Mieville has always had an eccentric vocabulary. I had to look this one up. Borrowed from…",
-          "link": "https://warrenellis.ltd/mc/morning-computer-horrisonant/",
-          "publishedOn": "2026-10-27T09:00:00.000Z",
-          "wordCount": 1304,
-          "title": "morning computer horrisonant",
-          "imageUrl": "https://warrenellis.ltd/wp-content/uploads/2026/10/compendium.jpeg"
         }
       ]
     },
@@ -3077,22 +3137,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!S0un!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bf23b2b-8a67-46cc-bce0-2dad249d8b40_1940x2621.png"
-        },
-        {
-          "id": "https://www.blackbirdspyplane.com/p/kali-malone-interview-what-is-worth-doing-in-life",
-          "author": "Blackbird Spyplane",
-          "description": "When your normal-person mask cracks, finding music out of thin air, and more with the great Kali Malone",
-          "link": "https://www.blackbirdspyplane.com/p/kali-malone-interview-what-is-worth-doing-in-life",
-          "publishedOn": "2026-10-27T11:02:05.000Z",
-          "wordCount": null,
-          "title": "What is worth doing in life",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/83cd88f4-e9bd-4cbd-8588-7d84e5de54e9_1190x810.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/83cd88f4-e9bd-4cbd-8588-7d84e5de54e9_1190x810.png"
         }
       ]
     },
@@ -3267,6 +3311,16 @@
       "feedUrl": "https://simonwillison.net/atom/everything/",
       "siteUrl": "http://simonwillison.net/",
       "articles": [
+        {
+          "id": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+          "author": null,
+          "description": "<blockquote cite=\"https://scottaaronson.blog/?p=10379\"><p>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you <em>some</em> idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://scottaaronson.blog/?p=10379\">Scott Aaronson</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+          "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+          "publishedOn": "2026-11-25T23:26:32.000Z",
+          "wordCount": 785,
+          "title": "Quoting Scott Aaronson",
+          "imageUrl": null
+        },
         {
           "id": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
           "author": null,
@@ -4042,7 +4096,18 @@
       "title": "We Make Money Not Art",
       "feedUrl": "https://we-make-money-not-art.com/feed/",
       "siteUrl": "https://we-make-money-not-art.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://we-make-money-not-art.com/?p=39629",
+          "author": "Regine",
+          "description": "As climate change reshapes ecosystems, infrastructures, and everyday life, the festival explores imagination as a critical capacity for sensing and rethinking our relationships with the Earth",
+          "link": "https://we-make-money-not-art.com/rixc-climate-imagination-multispecies-conviviality/",
+          "publishedOn": "2026-11-25T14:28:36.000Z",
+          "wordCount": 3025,
+          "title": "RIXC. Climate Imagination: multispecies conviviality",
+          "imageUrl": "https://we-make-money-not-art.com/wp-content/uploads/2026/11/0Brakfesten-invigning-16.jpg"
+        }
+      ]
     },
     {
       "title": "things magazine",
@@ -4082,6 +4147,16 @@
       "feedUrl": "https://api.quantamagazine.org/feed/",
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
+        {
+          "id": "https://www.quantamagazine.org/?p=169596",
+          "author": "Jay Bennett",
+          "description": "Scientists are inventing new ways to search for the missing mass of the universe.            \nThe post Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125/",
+          "publishedOn": "2026-11-25T14:00:49.000Z",
+          "wordCount": 3293,
+          "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
+          "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/11/UltralightDarkMatter-crCelsiusPictor-Social.jpg"
+        },
         {
           "id": "https://www.quantamagazine.org/?p=169527",
           "author": "Annie Melchor",
