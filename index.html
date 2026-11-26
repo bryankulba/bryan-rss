@@ -35,6 +35,35 @@
   </div>
 
   <main class="feed">
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-26T06:08:25.000Z">2026-11-25</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/" target="_blank" rel="noopener noreferrer">sqlite3_rsync: Database Remote-Copy Tool For SQLite</a>
+          </h2>
+          <p class="feed-item__desc">sqlite3_rsync: Database Remote-Copy Tool For SQLite
+in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its most attractive characteristics.
+Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO. In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk you are plain out of luck.
+sqlite3_rsync can copy a snapshot of your database over an SSH connection to another machine, without first needing to create a full local copy!
+It's also good for synchronizing an existing copy of a database without re-transmitting the entire thing over the network. It works in a similar way to regular rsync:
+The core idea behind the protocol is that the replica sends cryptographic hashes for pages or groups of pages over to the origin side. The origin sends back page content that differs, or requests finer-grain hashes if a multi-page hash does not match. If the origin and replica start out being vastly different, the total network bandwidth can exceed the size of the entire database, due to the overhead of exchanging hashes, but the excess bandwidth is not great - a few percent at most.
+Update: Hah! Turns out I wrote about this application of sqlite_rsync back in October 2024 when the tool was first released.
+
+
+    
+Tags: backups, sqlite</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
     <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/25/scott-aaronson/">
       <div class="feed-item__meta">
         <time class="feed-item__date" datetime="2026-11-25T23:26:32.000Z">2026-11-25</time>
@@ -98,6 +127,38 @@ Tags: mathematics, llms, ai, generative-ai</p>
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://kottke.org/images/unfurls/thumb-50050-6b3cc210.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/25/datasette-charts/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-25T18:16:50.000Z">2026-11-25</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/25/datasette-charts/" target="_blank" rel="noopener noreferrer">datasette-charts 0.3a0</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-charts 0.3a0
+I added chart annotations to datasette-charts!
+You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.
+A chart with annotations looks like this:
+
+Here's that same chart in Datasette Lite, where you can tweak the annotations using the chart builder UI:
+
+If you also install Datasette Agent the agent can build annotated charts for you. Here's what I got on the agent.datasette.io demo for this prompt:
+Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations
+
+Tags: datasette, visualization, datasette-charts</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/25/datasette-charts/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/25/datasette-charts/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/chart-annotate.gif" alt="" loading="lazy">
         </div>
       </div>
     </article>
@@ -299,6 +360,27 @@ The post Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter firs
         </div>
         <div class="feed-item__image-wrap">
           <img class="feed-item__image" src="https://www.robinsloan.com/img/moonbound-top-crop-v2.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://kneelingbus.substack.com/p/midnight-in-a-perfect-world">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-25T00:44:22.000Z">2026-11-24</time>
+        <span class="feed-item__source">Kneeling Bus</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://kneelingbus.substack.com/p/midnight-in-a-perfect-world" target="_blank" rel="noopener noreferrer">Midnight in a Perfect World</a>
+          </h2>
+          <p class="feed-item__desc">Why there are no prediction markets in Grand Theft Auto VI</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://kneelingbus.substack.com/p/midnight-in-a-perfect-world" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://kneelingbus.substack.com/p/midnight-in-a-perfect-world">Mark read</button>
+          </div>
+        </div>
+        <div class="feed-item__image-wrap">
+          <img class="feed-item__image" src="https://substackcdn.com/image/fetch/$s_!v43w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04829e41-f43e-488d-b452-dd3da4c6bce1_1600x900.jpeg" alt="" loading="lazy">
         </div>
       </div>
     </article>
@@ -600,6 +682,33 @@ Tags: history, ai, generative-ai, llms, ai-assisted-search, deep-blue, gpt-6-ast
             <button class="js-favourite btn btn--favourite" data-id="https://www.velcro-city.co.uk/?p&#x3D;12457" title="Favourite">☆</button>
             <button class="js-mark-read btn btn--mark-read" data-id="https://www.velcro-city.co.uk/?p&#x3D;12457">Mark read</button>
             <span class="feed-item__reading-time">10 min read</span>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Nov/24/datasette-charts-2/">
+      <div class="feed-item__meta">
+        <time class="feed-item__date" datetime="2026-11-24T06:07:19.000Z">2026-11-23</time>
+        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
+      </div>
+      <div class="feed-item__body">
+        <div class="feed-item__text">
+          <h2 class="feed-item__title">
+            <a href="https://simonwillison.net/2026/Nov/24/datasette-charts-2/" target="_blank" rel="noopener noreferrer">datasette-charts 0.2a1</a>
+          </h2>
+          <p class="feed-item__desc">Release: datasette-charts 0.2a1
+Minor UI improvements:
+Collapsing the suggested charts section now leaves the chart visible.
+Following a link to a chart opens it with the suggestions collapsed for that visit.
+On table pages the panel now sits below the "4,235 rows where country = CHN" line.
+The "Data" table under each chart has been replaced by Copy TSV and Copy CSV buttons.
+Removed the "Chart this data" item from the table, view and query action menus.
+More space between lines in chart tooltips.
+Tags: datasette, visualization, datasette-charts</p>
+          <div class="feed-item__actions">
+            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Nov/24/datasette-charts-2/" title="Favourite">☆</button>
+            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Nov/24/datasette-charts-2/">Mark read</button>
+            <span class="feed-item__reading-time">3 min read</span>
           </div>
         </div>
       </div>
@@ -10969,249 +11078,6 @@ Tags: art · creativity</p>
             <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049873-john-oliver-on-the-republ">Mark read</button>
             <span class="feed-item__reading-time">2 min read</span>
           </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T19:34:18.000Z">2026-10-27</time>
-        <span class="feed-item__source">Simon Willison&#x27;s Weblog</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/" target="_blank" rel="noopener noreferrer">Game Boy Color on My Conference Badge</a>
-          </h2>
-          <p class="feed-item__desc">Game Boy Color on My Conference Badge
-similar to last year, the conference badge is a full-blown color screen computer.
-I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color.
-Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge!
-
-A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body.
-
-
-    
-Tags: games, github, hardware-hacking, ai, generative-ai, llms, gemini, steve-francia</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://static.simonwillison.net/static/2026/zelda-card.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/once-upon-a-time-in-harlem">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T18:37:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/once-upon-a-time-in-harlem" target="_blank" rel="noopener noreferrer">Once Upon a Time in Harlem</a>
-          </h2>
-          <p class="feed-item__desc">The Harlem Renaissance was a cultural and intellectual movement of African-American artists in the 1920s and 30s. In 1972, filmmaker William Greaves threw a party in Duke Ellington’s apartment for some surviving members of the movement and recorded the whole thing. The footage sat unused for 50 years until Greaves’ son David picked up the project. The result is the documentary film, Once Upon a Time in Harlem; here’s the trailer.
-A decade after his death, genre-defying filmmaker William Greaves has one last trick up his sleeve with what he considered the most important event he captured on film: a 1972 party he engineered with the living luminaries of the Harlem Renaissance.
-For four hours, this extraordinary group – many of whom had not seen each other in fifty years – reminisced, critiqued, argued, laughed and drank while wrestling with their place in a rapidly shifting cultural landscape.
-Shot on 16mm film, newly restored and now directed by Greaves’ son David, this landmark film is at once a self-exploration and an inquiry into the heart of the critical mass of energy called the Harlem Renaissance.
-William Greaves’ intent was not only to document these artists and intellectuals as they spoke about their lives and work but also to plumb the meaning of the extraordinary creative period in which they lived to help us better understand how culture has been passed on from one generation to another and the role that the artist plays in keeping it alive.
-
-	
-It looks fantastic. Once Upon a Time in Harlem currently has a 100% rating (67 reviews) on Rotten Tomatoes.
-
- 
-
-        
-         
-Tags: art · Harlem Renaissance · movies · Once Upon a Time in Harlem · trailers · video</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/once-upon-a-time-in-harlem" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/once-upon-a-time-in-harlem">Mark read</button>
-            <span class="feed-item__reading-time">4 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://i.ytimg.com/vi/ESnX3LQbCVI/sddefault.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049874-apple-musics-404-page">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T17:46:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049874-apple-musics-404-page" target="_blank" rel="noopener noreferrer">Apple Music’s 404 page features a fully functional iPod...</a>
-          </h2>
-          <p class="feed-item__desc">Apple Music’s 404 page features a fully functional iPod simulator.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049874-apple-musics-404-page" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049874-apple-musics-404-page">Mark read</button>
-            <span class="feed-item__reading-time">3 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049875-short-video-teasing-an-ne">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T16:56:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049875-short-video-teasing-an-ne" target="_blank" rel="noopener noreferrer">Short video teasing an new collab between Daft Punk and...</a>
-          </h2>
-          <p class="feed-item__desc">Short video teasing an new collab between Daft Punk and Lego, including a forthcoming Lego set based on this fan-submitted entry.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049875-short-video-teasing-an-ne" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049875-short-video-teasing-an-ne">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="http://wearethemutants.com/?p&#x3D;42425">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T15:58:23.000Z">2026-10-27</time>
-        <span class="feed-item__source">We Are the Mutants</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://wearethemutants.com/2026/10/27/tubular-terrors-all-the-kind-strangers/" target="_blank" rel="noopener noreferrer">Tubular Terrors: ‘All the Kind Strangers’</a>
-          </h2>
-          <p class="feed-item__desc">By Michael Grasso
-
-All the Kind Strangers also seems to have helped birth a genre all its own centered around isolated, cultish "lost children"—from Stephen King's short story "Children of the Corn" (1977) to 1979's classic of suburban anomie Over the Edge...</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="http://wearethemutants.com/?p&#x3D;42425" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="http://wearethemutants.com/?p&#x3D;42425">Mark read</button>
-            <span class="feed-item__reading-time">14 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://wearethemutants.com/wp-content/uploads/2026/10/watm-all-the-kind-strangers.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/the-american-divide-on-empathy">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T15:44:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/the-american-divide-on-empathy" target="_blank" rel="noopener noreferrer">The American Divide on Empathy</a>
-          </h2>
-          <p class="feed-item__desc">PRRI’s 2026 American Values Survey reveals some, uh, interesting views on whether Americans think empathy is a good thing or not. Those respondents unaffiliated with a religion were much more inclined to think that empathy is “a foundational moral value that helps build a healthy society”.
-With the exception of white evangelical Protestants (42%), around two-thirds or more of all major religious groups believe that empathy is a foundational moral value for a healthy society, including about eight in ten religiously unaffiliated Americans (83%), members of other non-Christian religions (80%), and Jewish Americans (77%). By contrast, a majority of white evangelical Protestants (54%) believe empathy can become dangerous when it leads people away from building a society guided by God’s truth.
-
-	
-
-Here’s the breakdown by party:
-
-(Btw, “not strongly agree” seems to mean “agree, but not strongly” and not “disagree”. Grammatically correct but a little confusing if you don’t read it carefully…)
-See also How empathy came to be seen as a weakness in conservative circles.
-
- 
-
-        
-         
-Tags: politics · religion · usa</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/the-american-divide-on-empathy" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/the-american-divide-on-empathy">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="http://kottke.org/images/posts/01/editor-1793097238-ac229869.jpg" alt="" loading="lazy">
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049892-the-height-of-these-waves">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T14:39:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049892-the-height-of-these-waves" target="_blank" rel="noopener noreferrer">OMG, the height of these waves hitting a seawall in...</a>
-          </h2>
-          <p class="feed-item__desc">OMG, the height of these waves hitting a seawall in Taiwan as Typhoon Champi hit the island nation a few days ago. That’s gotta be close to 100 feet. Waves also inundated this 75-foot-tall lighthouse and a crane 164 feet tall, knocking it over.</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049892-the-height-of-these-waves" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049892-the-height-of-these-waves">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049886-michael-pollan-reflects-o">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T13:53:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049886-michael-pollan-reflects-o" target="_blank" rel="noopener noreferrer">Michael Pollan reflects on what has and hasn’t changed in...</a>
-          </h2>
-          <p class="feed-item__desc">Michael Pollan reflects on what has and hasn’t changed in the 20 years since he wrote The Omnivore’s Dilemma. “Looking at the landscape of food and farming today, I’m sorry to report that things haven’t changed all that much.”</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049886-michael-pollan-reflects-o" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049886-michael-pollan-reflects-o">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://kottke.org/26/10/0049891-bunkering-down">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T13:01:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">kottke.org</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://kottke.org/26/10/0049891-bunkering-down" target="_blank" rel="noopener noreferrer">Matt Webb is bunkering down, bracing for more LLM-driven...</a>
-          </h2>
-          <p class="feed-item__desc">Matt Webb is bunkering down, bracing for more LLM-driven security exploits. “Realistically, let’s say the internet gets infested with AI worms and we need to turn it off and on again, could we do it?” I had not heard of the air-gapped LLM communication 😳</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://kottke.org/26/10/0049891-bunkering-down" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://kottke.org/26/10/0049891-bunkering-down">Mark read</button>
-            <span class="feed-item__reading-time">2 min read</span>
-          </div>
-        </div>
-      </div>
-    </article>
-    <article class="feed-item" data-article-id="https://warrenellis.ltd/?p&#x3D;19207">
-      <div class="feed-item__meta">
-        <time class="feed-item__date" datetime="2026-10-27T12:49:00.000Z">2026-10-27</time>
-        <span class="feed-item__source">WARREN ELLIS LTD</span>
-      </div>
-      <div class="feed-item__body">
-        <div class="feed-item__text">
-          <h2 class="feed-item__title">
-            <a href="https://warrenellis.ltd/status/27oct26/" target="_blank" rel="noopener noreferrer">27oct26</a>
-          </h2>
-          <p class="feed-item__desc">Went to see The Owl Service play at the Fickle Pickle last week and I may have bought quite a lot of CDs from the…</p>
-          <div class="feed-item__actions">
-            <button class="js-favourite btn btn--favourite" data-id="https://warrenellis.ltd/?p&#x3D;19207" title="Favourite">☆</button>
-            <button class="js-mark-read btn btn--mark-read" data-id="https://warrenellis.ltd/?p&#x3D;19207">Mark read</button>
-            <span class="feed-item__reading-time">5 min read</span>
-          </div>
-        </div>
-        <div class="feed-item__image-wrap">
-          <img class="feed-item__image" src="https://warrenellis.ltd/wp-content/uploads/2026/10/IMG_2486.jpg" alt="" loading="lazy">
         </div>
       </div>
     </article>
